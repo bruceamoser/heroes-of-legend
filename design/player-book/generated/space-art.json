@@ -1,0 +1,994 @@
+[
+  {
+    "page": 5,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-intellect"
+  },
+  {
+    "page": 9,
+    "x": 315,
+    "y": 121,
+    "width": 255,
+    "height": 150,
+    "asset": "class-warden"
+  },
+  {
+    "page": 13,
+    "x": 315,
+    "y": 585,
+    "width": 255,
+    "height": 151,
+    "asset": "class-warden"
+  },
+  {
+    "page": 16,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-warden"
+  },
+  {
+    "page": 23,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "paths"
+  },
+  {
+    "page": 25,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-intellect"
+  },
+  {
+    "page": 26,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "equipment"
+  },
+  {
+    "page": 28,
+    "x": 315,
+    "y": 267,
+    "width": 255,
+    "height": 267,
+    "asset": "class-leader"
+  },
+  {
+    "page": 29,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "adventure"
+  },
+  {
+    "page": 31,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-blade"
+  },
+  {
+    "page": 32,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "origins"
+  },
+  {
+    "page": 33,
+    "x": 315,
+    "y": 486,
+    "width": 255,
+    "height": 250,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 35,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "journey"
+  },
+  {
+    "page": 36,
+    "x": 42,
+    "y": 540,
+    "width": 528,
+    "height": 196,
+    "asset": "adventure"
+  },
+  {
+    "page": 37,
+    "x": 315,
+    "y": 557,
+    "width": 255,
+    "height": 179,
+    "asset": "class-protector"
+  },
+  {
+    "page": 38,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "classes"
+  },
+  {
+    "page": 40,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 41,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "abilities"
+  },
+  {
+    "page": 42,
+    "x": 315,
+    "y": 575,
+    "width": 255,
+    "height": 161,
+    "asset": "class-warden"
+  },
+  {
+    "page": 43,
+    "x": 315,
+    "y": 267,
+    "width": 255,
+    "height": 330,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 44,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "paths"
+  },
+  {
+    "page": 46,
+    "x": 315,
+    "y": 329,
+    "width": 255,
+    "height": 215,
+    "asset": "class-odd"
+  },
+  {
+    "page": 47,
+    "x": 42,
+    "y": 529,
+    "width": 528,
+    "height": 207,
+    "asset": "equipment"
+  },
+  {
+    "page": 49,
+    "x": 315,
+    "y": 339,
+    "width": 255,
+    "height": 197,
+    "asset": "class-unbalanced"
+  },
+  {
+    "page": 50,
+    "x": 42,
+    "y": 537,
+    "width": 528,
+    "height": 199,
+    "asset": "adventure"
+  },
+  {
+    "page": 51,
+    "x": 315,
+    "y": 512,
+    "width": 255,
+    "height": 224,
+    "asset": "class-blade"
+  },
+  {
+    "page": 53,
+    "x": 42,
+    "y": 503,
+    "width": 255,
+    "height": 233,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 60,
+    "x": 315,
+    "y": 83,
+    "width": 255,
+    "height": 330,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 64,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "summon-ancestor-guardian"
+  },
+  {
+    "page": 65,
+    "x": 42,
+    "y": 437,
+    "width": 528,
+    "height": 270,
+    "asset": "recovery"
+  },
+  {
+    "page": 66,
+    "x": 42,
+    "y": 575,
+    "width": 255,
+    "height": 161,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 67,
+    "x": 315,
+    "y": 463,
+    "width": 255,
+    "height": 273,
+    "asset": "class-protector"
+  },
+  {
+    "page": 68,
+    "x": 42,
+    "y": 585,
+    "width": 255,
+    "height": 151,
+    "asset": "class-leader"
+  },
+  {
+    "page": 70,
+    "x": 42,
+    "y": 422,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 73,
+    "x": 42,
+    "y": 495,
+    "width": 255,
+    "height": 241,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 76,
+    "x": 315,
+    "y": 578,
+    "width": 255,
+    "height": 158,
+    "asset": "class-odd"
+  },
+  {
+    "page": 79,
+    "x": 42,
+    "y": 530,
+    "width": 255,
+    "height": 206,
+    "asset": "class-unbalanced"
+  },
+  {
+    "page": 81,
+    "x": 315,
+    "y": 574,
+    "width": 255,
+    "height": 162,
+    "asset": "class-blade"
+  },
+  {
+    "page": 82,
+    "x": 315,
+    "y": 512,
+    "width": 255,
+    "height": 224,
+    "asset": "class-warden"
+  },
+  {
+    "page": 83,
+    "x": 315,
+    "y": 526,
+    "width": 255,
+    "height": 210,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 84,
+    "x": 42,
+    "y": 557,
+    "width": 255,
+    "height": 179,
+    "asset": "class-shadow"
+  },
+  {
+    "page": 85,
+    "x": 315,
+    "y": 427,
+    "width": 255,
+    "height": 309,
+    "asset": "class-intellect"
+  },
+  {
+    "page": 86,
+    "x": 42,
+    "y": 454,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 87,
+    "x": 42,
+    "y": 445,
+    "width": 528,
+    "height": 270,
+    "asset": "classes"
+  },
+  {
+    "page": 88,
+    "x": 42,
+    "y": 445,
+    "width": 255,
+    "height": 291,
+    "asset": "class-leader"
+  },
+  {
+    "page": 89,
+    "x": 315,
+    "y": 564,
+    "width": 255,
+    "height": 172,
+    "asset": "class-unbalanced"
+  },
+  {
+    "page": 92,
+    "x": 315,
+    "y": 418,
+    "width": 255,
+    "height": 318,
+    "asset": "class-warden"
+  },
+  {
+    "page": 93,
+    "x": 42,
+    "y": 582,
+    "width": 255,
+    "height": 154,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 94,
+    "x": 315,
+    "y": 575,
+    "width": 255,
+    "height": 161,
+    "asset": "class-shadow"
+  },
+  {
+    "page": 95,
+    "x": 42,
+    "y": 525,
+    "width": 255,
+    "height": 211,
+    "asset": "class-intellect"
+  },
+  {
+    "page": 96,
+    "x": 315,
+    "y": 512,
+    "width": 255,
+    "height": 224,
+    "asset": "class-odd"
+  },
+  {
+    "page": 97,
+    "x": 42,
+    "y": 524,
+    "width": 528,
+    "height": 212,
+    "asset": "abilities"
+  },
+  {
+    "page": 99,
+    "x": 315,
+    "y": 568,
+    "width": 255,
+    "height": 168,
+    "asset": "class-unbalanced"
+  },
+  {
+    "page": 100,
+    "x": 42,
+    "y": 568,
+    "width": 255,
+    "height": 168,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 101,
+    "x": 42,
+    "y": 578,
+    "width": 255,
+    "height": 158,
+    "asset": "class-blade"
+  },
+  {
+    "page": 103,
+    "x": 315,
+    "y": 454,
+    "width": 255,
+    "height": 282,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 104,
+    "x": 42,
+    "y": 445,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 105,
+    "x": 42,
+    "y": 445,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 109,
+    "x": 42,
+    "y": 426,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 110,
+    "x": 315,
+    "y": 545,
+    "width": 255,
+    "height": 191,
+    "asset": "class-arcanist"
+  },
+  {
+    "page": 111,
+    "x": 42,
+    "y": 587,
+    "width": 255,
+    "height": 149,
+    "asset": "class-blade"
+  },
+  {
+    "page": 113,
+    "x": 42,
+    "y": 532,
+    "width": 528,
+    "height": 204,
+    "asset": "adventure"
+  },
+  {
+    "page": 114,
+    "x": 42,
+    "y": 569,
+    "width": 528,
+    "height": 167,
+    "asset": "paths"
+  },
+  {
+    "page": 116,
+    "x": 42,
+    "y": 573,
+    "width": 255,
+    "height": 163,
+    "asset": "class-odd"
+  },
+  {
+    "page": 117,
+    "x": 315,
+    "y": 454,
+    "width": 255,
+    "height": 282,
+    "asset": "class-protector"
+  },
+  {
+    "page": 118,
+    "x": 42,
+    "y": 445,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 119,
+    "x": 42,
+    "y": 445,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 120,
+    "x": 42,
+    "y": 575,
+    "width": 528,
+    "height": 161,
+    "asset": "adventure"
+  },
+  {
+    "page": 121,
+    "x": 315,
+    "y": 536,
+    "width": 255,
+    "height": 200,
+    "asset": "class-blade"
+  },
+  {
+    "page": 123,
+    "x": 42,
+    "y": 488,
+    "width": 255,
+    "height": 248,
+    "asset": "class-shepherd"
+  },
+  {
+    "page": 125,
+    "x": 42,
+    "y": 275,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 126,
+    "x": 315,
+    "y": 255,
+    "width": 255,
+    "height": 330,
+    "asset": "class-odd"
+  },
+  {
+    "page": 128,
+    "x": 315,
+    "y": 196,
+    "width": 255,
+    "height": 330,
+    "asset": "class-odd"
+  },
+  {
+    "page": 130,
+    "x": 42,
+    "y": 487,
+    "width": 528,
+    "height": 249,
+    "asset": "equipment"
+  },
+  {
+    "page": 136,
+    "x": 315,
+    "y": 62,
+    "width": 255,
+    "height": 330,
+    "asset": "class-odd"
+  },
+  {
+    "page": 138,
+    "x": 315,
+    "y": 446,
+    "width": 255,
+    "height": 290,
+    "asset": "class-odd"
+  },
+  {
+    "page": 143,
+    "x": 42,
+    "y": 392,
+    "width": 528,
+    "height": 270,
+    "asset": "classes"
+  },
+  {
+    "page": 144,
+    "x": 42,
+    "y": 431,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 145,
+    "x": 42,
+    "y": 420,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 146,
+    "x": 42,
+    "y": 409,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 147,
+    "x": 42,
+    "y": 453,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 149,
+    "x": 42,
+    "y": 449,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 151,
+    "x": 42,
+    "y": 429,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 152,
+    "x": 42,
+    "y": 409,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 153,
+    "x": 42,
+    "y": 426,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 155,
+    "x": 42,
+    "y": 422,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 156,
+    "x": 42,
+    "y": 422,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 157,
+    "x": 42,
+    "y": 437,
+    "width": 528,
+    "height": 270,
+    "asset": "classes"
+  },
+  {
+    "page": 158,
+    "x": 42,
+    "y": 400,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 159,
+    "x": 42,
+    "y": 418,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 160,
+    "x": 42,
+    "y": 409,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 161,
+    "x": 42,
+    "y": 418,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 162,
+    "x": 42,
+    "y": 409,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 163,
+    "x": 42,
+    "y": 426,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 165,
+    "x": 42,
+    "y": 385,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 166,
+    "x": 42,
+    "y": 471,
+    "width": 528,
+    "height": 265,
+    "asset": "equipment"
+  },
+  {
+    "page": 170,
+    "x": 42,
+    "y": 382,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 171,
+    "x": 42,
+    "y": 444,
+    "width": 528,
+    "height": 270,
+    "asset": "classes"
+  },
+  {
+    "page": 173,
+    "x": 42,
+    "y": 486,
+    "width": 528,
+    "height": 250,
+    "asset": "equipment"
+  },
+  {
+    "page": 174,
+    "x": 42,
+    "y": 382,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 175,
+    "x": 42,
+    "y": 431,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 176,
+    "x": 42,
+    "y": 440,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 180,
+    "x": 42,
+    "y": 458,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 181,
+    "x": 42,
+    "y": 394,
+    "width": 528,
+    "height": 270,
+    "asset": "abilities"
+  },
+  {
+    "page": 182,
+    "x": 42,
+    "y": 438,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 183,
+    "x": 42,
+    "y": 420,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 184,
+    "x": 42,
+    "y": 441,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 185,
+    "x": 42,
+    "y": 441,
+    "width": 528,
+    "height": 270,
+    "asset": "classes"
+  },
+  {
+    "page": 186,
+    "x": 42,
+    "y": 394,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 187,
+    "x": 42,
+    "y": 431,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 189,
+    "x": 42,
+    "y": 409,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 190,
+    "x": 42,
+    "y": 418,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 191,
+    "x": 42,
+    "y": 419,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 193,
+    "x": 42,
+    "y": 422,
+    "width": 528,
+    "height": 270,
+    "asset": "origins"
+  },
+  {
+    "page": 194,
+    "x": 42,
+    "y": 418,
+    "width": 528,
+    "height": 270,
+    "asset": "equipment"
+  },
+  {
+    "page": 195,
+    "x": 42,
+    "y": 489,
+    "width": 528,
+    "height": 247,
+    "asset": "abilities"
+  },
+  {
+    "page": 196,
+    "x": 42,
+    "y": 458,
+    "width": 528,
+    "height": 270,
+    "asset": "journey"
+  },
+  {
+    "page": 197,
+    "x": 42,
+    "y": 441,
+    "width": 528,
+    "height": 270,
+    "asset": "adventure"
+  },
+  {
+    "page": 198,
+    "x": 42,
+    "y": 391,
+    "width": 528,
+    "height": 270,
+    "asset": "paths"
+  },
+  {
+    "page": 209,
+    "x": 315,
+    "y": 121,
+    "width": 255,
+    "height": 175,
+    "asset": "class-unbalanced"
+  },
+  {
+    "page": 215,
+    "x": 315,
+    "y": 223,
+    "width": 255,
+    "height": 163,
+    "asset": "class-intellect"
+  },
+  {
+    "page": 217,
+    "x": 315,
+    "y": 323,
+    "width": 255,
+    "height": 152,
+    "asset": "class-protector"
+  },
+  {
+    "page": 221,
+    "x": 315,
+    "y": 259,
+    "width": 255,
+    "height": 153,
+    "asset": "class-blade"
+  },
+  {
+    "page": 223,
+    "x": 42,
+    "y": 507,
+    "width": 528,
+    "height": 229,
+    "asset": "journey"
+  }
+]

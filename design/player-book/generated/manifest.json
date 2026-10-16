@@ -4,13 +4,13 @@
       "path": "design/player-book/manuscript/01-welcome.md",
       "kind": "chapter",
       "key": "s-ec27fab57845",
-      "sha256": "96b67ee2934a0919d7abc0d44b1911028f39f539367e4ae7fc2f3842e5e1d9fd"
+      "sha256": "ce4cb919b51bb7a12e49e26b5bb761958499b2e87aa9eb9b53a834a3c4e4ea92"
     },
     {
       "path": "design/player-book/manuscript/02-creation.md",
       "kind": "chapter",
       "key": "s-3a383eccab13",
-      "sha256": "8ff9e6fbe19dbe1d14c19473703573646bc6f7a95dcf2885e7ce85ac4e284ca1"
+      "sha256": "8c2478b7c63316cc6a6b5e5032dec4d087aafdcc4c0a7de8f66a1ddb3a5d4a38"
     },
     {
       "path": "design/ancestries/human.md",
@@ -157,6 +157,12 @@
       "sha256": "0eae9725f5c95afffc9268f777371203152172bcfd3215235150368c14cb8b71"
     },
     {
+      "path": "design/player-book/manuscript/intro-culture.md",
+      "kind": "section",
+      "key": "s-c0960d42ee3d",
+      "sha256": "2cec951050341d869458e5d32f48045c601260c903e6c5ca08d15a45cab5179e"
+    },
+    {
       "path": "design/origins/culture-border-marches.md",
       "kind": "culture",
       "key": "s-127f953da4b7",
@@ -263,6 +269,12 @@
       "kind": "culture",
       "key": "s-56fcfca4e0da",
       "sha256": "caa7c0f9e3437f865fadd02c9a547c356142d9b97a942725e818f5f55d9d68f2"
+    },
+    {
+      "path": "design/player-book/manuscript/intro-background.md",
+      "kind": "section",
+      "key": "s-a61a7dfba49e",
+      "sha256": "cd51958529fea1cd9e2f115228b8a978810cf998377270a26a7e12908d989aa4"
     },
     {
       "path": "design/origins/background-apothecary-s-helper.md",
@@ -1060,7 +1072,7 @@
       "path": "design/player-book/manuscript/05-disciplines.md",
       "kind": "chapter",
       "key": "s-6289e7cc8d28",
-      "sha256": "1cd983d5c2fece371a910a95327c0dc1957d85e78cdab4a026afc54cf2f1b684"
+      "sha256": "8eab42b7bb352246b44a877cb6c12f846ca6bac1997b3cc567dc1f2443dfee5b"
     },
     {
       "path": "design/disciplines/armor.md",
@@ -1171,94 +1183,10 @@
       "sha256": "f0485282a4ebed404bd531c9baa55b70048b0916149dc28abf9112eb9c1c5c3b"
     },
     {
-      "path": "design/paths/ancestral-guardian.md",
-      "kind": "path",
-      "key": "s-6a941878d180",
-      "sha256": "6b5338a5ffe1b24c2a45ab2c8a4e77c088845ce7890a20eb2a11d7c861af4cfd"
-    },
-    {
-      "path": "design/paths/battle-singer.md",
-      "kind": "path",
-      "key": "s-7824a5c23388",
-      "sha256": "4ca3c81a4845b0e0fd5b0112131e27d9b32a4d92d5f05e73e8a1bde0a5d32289"
-    },
-    {
-      "path": "design/paths/beast-companion.md",
-      "kind": "path",
-      "key": "s-7418adf3d27e",
-      "sha256": "7763a5680da18389f5d4049ccafa1bf0342c52b446a56890f8e07a71f73cdddb"
-    },
-    {
-      "path": "design/paths/beast-within.md",
-      "kind": "path",
-      "key": "s-2da1cf663758",
-      "sha256": "56ed97db68751b2887455165a178b8805827d4a47da3a7e8936ffd3a5ca6e43c"
-    },
-    {
-      "path": "design/paths/bone-caller.md",
-      "kind": "path",
-      "key": "s-18a8e5d6e7b0",
-      "sha256": "1298da6a9cbdb8e99d1f0a4a7ed776fe73c39108710ba832b961f8de21347b42"
-    },
-    {
-      "path": "design/paths/daring-scoundrel.md",
-      "kind": "path",
-      "key": "s-8c85bb70c3f5",
-      "sha256": "fd9746a9ef1851ece615a582e88cbf5a1e4e742ddd4e2c377ae875857ac91ba4"
-    },
-    {
-      "path": "design/paths/deep-water-wanderer.md",
-      "kind": "path",
-      "key": "s-2ae8f40d5045",
-      "sha256": "3a6e24f4fd20daccdb4a69680af3ccb5c13b4b2f71d2964f709ab21b13b696cd"
-    },
-    {
-      "path": "design/paths/dragon-heir.md",
-      "kind": "path",
-      "key": "s-a659590f9018",
-      "sha256": "91ff6bbef489fcb0b9c6573ef4054eee9f5689bf7edb3992903e9253385cbb19"
-    },
-    {
-      "path": "design/paths/duelling-master.md",
-      "kind": "path",
-      "key": "s-764f96da8db8",
-      "sha256": "bc38688e92031a61cd92ce5a78553c2fdf1dfb3a4a04267ad7e13ae6160e0351"
-    },
-    {
-      "path": "design/paths/elemental-adept.md",
-      "kind": "path",
-      "key": "s-c2601a3af9b8",
-      "sha256": "13046fda364f5bc63bf7db360e5b15ac31f79dea342b77aa3fba7b2ca20fcb2c"
-    },
-    {
-      "path": "design/paths/fey-envoy.md",
-      "kind": "path",
-      "key": "s-19538434373e",
-      "sha256": "a4672d08e73fcd9e965e28596054acc449414ac9e124cd893e3e898633cbdc47"
-    },
-    {
-      "path": "design/paths/field-alchemist.md",
-      "kind": "path",
-      "key": "s-3ff2973d6495",
-      "sha256": "ffb740672eaa037b93ac8fe8c5bcd7409d174775753b8f0cd699f40cf2f2961f"
-    },
-    {
-      "path": "design/paths/grave-warden.md",
-      "kind": "path",
-      "key": "s-66e0eeca19fa",
-      "sha256": "6a5e932f762678fdbfe2f9f3cd80ae0cb55eb2463b76985948391e8ab3c5f00d"
-    },
-    {
       "path": "design/paths/green-healer.md",
       "kind": "path",
       "key": "s-84a8f155d166",
       "sha256": "7f212f423544c110b3724f2fdba514080152f99bfe7627f1dfa3d611037c30ae"
-    },
-    {
-      "path": "design/paths/infernal-bargainer.md",
-      "kind": "path",
-      "key": "s-b608130a916a",
-      "sha256": "b6c86158dfdbfffa7fbf2d2a200dcc54f417c442ebf10ab4c02eafc5870f248d"
     },
     {
       "path": "design/paths/light-fingered-adventurer.md",
@@ -1267,124 +1195,16 @@
       "sha256": "f2717eca754380b06edfa1374fa60ab31eb9af540d4e4d285e52c54efb11e89b"
     },
     {
-      "path": "design/paths/mirror-weaver.md",
-      "kind": "path",
-      "key": "s-c7168355db67",
-      "sha256": "36ad3c0bd85efa231bd7fcc5a93a83c904455b38bc91df311491305d80eb8933"
-    },
-    {
-      "path": "design/paths/night-walker.md",
-      "kind": "path",
-      "key": "s-a0809d90d9d6",
-      "sha256": "0ff2caf1ad64319419d2be8a3d38ec021504fdc7379df072355af9c22cb00b44"
-    },
-    {
-      "path": "design/paths/quiet-knife.md",
-      "kind": "path",
-      "key": "s-de92a62a987b",
-      "sha256": "334d4fe97de14c7808df600aa0755f7d24dfc1ff05a00ca63890b546f7f9efd3"
-    },
-    {
-      "path": "design/paths/reader-of-omens.md",
-      "kind": "path",
-      "key": "s-c46b42998827",
-      "sha256": "8133505f6b3b7404873b52ce0ec708b3148479a888398a523aa42bbd0a757560"
-    },
-    {
-      "path": "design/paths/red-fury.md",
-      "kind": "path",
-      "key": "s-67d1a0556522",
-      "sha256": "1b5050046483dbcb0b2575e30d1a51859a405da22424b5b21b55f8524e3b6d0e"
-    },
-    {
-      "path": "design/paths/roadside-artificer.md",
-      "kind": "path",
-      "key": "s-319ffd6f40e5",
-      "sha256": "a3c4820f871f400741b36466da1829c21eabbdc747568e044b44c1972ae8826d"
-    },
-    {
-      "path": "design/paths/root-keeper.md",
-      "kind": "path",
-      "key": "s-6697bd005868",
-      "sha256": "4fc6163950654e8408693a8802119ba4da529df107a7427200c3b11727041aa4"
-    },
-    {
-      "path": "design/paths/rune-bound-warrior.md",
-      "kind": "path",
-      "key": "s-fb6f05976ea0",
-      "sha256": "646e5bc40d95a59009e56edd1f22b21a7c7fb610a4075d9aaea0782557e22e06"
-    },
-    {
-      "path": "design/paths/shape-scholar.md",
-      "kind": "path",
-      "key": "s-eb0d61c2e45c",
-      "sha256": "e4060a254e97db7386204babc1da67689bc9e043af769a72f112d9d20ba596fb"
-    },
-    {
       "path": "design/paths/spellblade.md",
       "kind": "path",
       "key": "s-392e01c5c38c",
       "sha256": "ad7d151f4236dd69796c5210faad201432a9340252add60ecffdf8caebdaf4c4"
     },
     {
-      "path": "design/paths/still-hand-adept.md",
-      "kind": "path",
-      "key": "s-f21b4bae17d3",
-      "sha256": "ce945232c58c6df73327ca1f5ac8ea9ce9c240486b8a031afd568bac4969cbaa"
-    },
-    {
-      "path": "design/paths/storm-caller.md",
-      "kind": "path",
-      "key": "s-82d9e95e6682",
-      "sha256": "fa1336817f3356b524eebc0d9e43698e3d53bc7703092fb9cd4eec8128b6b3ed"
-    },
-    {
-      "path": "design/paths/story-singer.md",
-      "kind": "path",
-      "key": "s-d89b333e844e",
-      "sha256": "69b4fd3a4e07d15c417ed84ff98f4622c7cb0eece1613d01dd91f80345c587f0"
-    },
-    {
-      "path": "design/paths/sun-knight.md",
-      "kind": "path",
-      "key": "s-199e17ede4ed",
-      "sha256": "8ce5274724bc7756f3bdc56d84bf816d2175d40fdec77fa5098f52c9a032f30f"
-    },
-    {
       "path": "design/paths/thinking-fighter.md",
       "kind": "path",
       "key": "s-4cdf685d9128",
       "sha256": "b4720673f7c20997472bef6a780a820cd37b205d1fe9301550f8dda80368783f"
-    },
-    {
-      "path": "design/paths/trail-hunter.md",
-      "kind": "path",
-      "key": "s-7477d82ce1c4",
-      "sha256": "e5312d76c6117670e48f7d72919b1a51c47dd9a864fa29b16e55ee509be45ba8"
-    },
-    {
-      "path": "design/paths/unruly-spark.md",
-      "kind": "path",
-      "key": "s-b9e6b7f11fdc",
-      "sha256": "806f9f1a3efd66cfd8a618828a451d6d430859a044d3cc72082a49718b2e01f9"
-    },
-    {
-      "path": "design/paths/vow-hunter.md",
-      "kind": "path",
-      "key": "s-1ad605a81bd5",
-      "sha256": "b0efd0b6e8c78ada2a9c92e6977772d3b6a4ae650aa59d2820d0666cb609d12d"
-    },
-    {
-      "path": "design/paths/ward-weaver.md",
-      "kind": "path",
-      "key": "s-0fa06f1893eb",
-      "sha256": "a9867e04145ee88e2c6fb243d2c217659661afea240bb7c4fbb6e4f374ad5db1"
-    },
-    {
-      "path": "design/paths/watcher-beyond.md",
-      "kind": "path",
-      "key": "s-39387c452642",
-      "sha256": "29931881d32bd6b43c56c34d0080b8d3ad7c0d17070e80c526c94ce54cf7a9a9"
     },
     {
       "path": "design/player-book/manuscript/06-playing.md",
@@ -2995,6 +2815,12 @@
       "sha256": "22b020ff9ca3c20ca5263a52d4104c1e472e127484d8eabcdfeea90d2a6b50cd"
     },
     {
+      "path": "design/player-book/manuscript/intro-equipment.md",
+      "kind": "section",
+      "key": "s-979ba41082c2",
+      "sha256": "088307e33c8fc5049aa5009ae2c16ad99b0e8c7830e5b3cf32eaaafe3610cf1e"
+    },
+    {
       "path": "design/equipment/ammunition-bundle.md",
       "kind": "equipment",
       "key": "s-7c3f620c41a4",
@@ -3251,6 +3077,12 @@
       "kind": "equipment",
       "key": "s-af6b73697bd9",
       "sha256": "77fb4d0dccf3b62389b44f73c1045122e9bcfaff2788d2f685319ca822f60015"
+    },
+    {
+      "path": "design/player-book/manuscript/intro-recipes.md",
+      "kind": "section",
+      "key": "s-f59a208297e9",
+      "sha256": "9fa0031e321811a56df932f89a59e911bef339b1d109649933a2da5b4fe7ccb5"
     },
     {
       "path": "design/recipes/bound-torches.md",
@@ -6615,6 +6447,10 @@
   ],
   "internal_links": [
     [
+      "design/player-book/manuscript/02-creation.md",
+      "design/player-book/manuscript/05-disciplines.md"
+    ],
+    [
       "design/ancestries/human.md",
       "design/ancestries/trait-human-weathered.md"
     ],
@@ -6709,6 +6545,10 @@
     [
       "design/ancestries/halfling.md",
       "design/starting-coins.md"
+    ],
+    [
+      "design/player-book/manuscript/intro-culture.md",
+      "design/player-book/manuscript/05-disciplines.md"
     ],
     [
       "design/origins/culture-border-marches.md",
@@ -6925,6 +6765,10 @@
     [
       "design/origins/culture-walled-communities.md",
       "design/starting-coins.md"
+    ],
+    [
+      "design/player-book/manuscript/intro-background.md",
+      "design/player-book/manuscript/05-disciplines.md"
     ],
     [
       "design/origins/background-apothecary-s-helper.md",
@@ -7751,214 +7595,6 @@
       "design/starting-coins.md"
     ],
     [
-      "design/paths/ancestral-guardian.md",
-      "design/cards/a-hand-from-before.md"
-    ],
-    [
-      "design/paths/ancestral-guardian.md",
-      "design/cards/circle-of-old-names.md"
-    ],
-    [
-      "design/paths/ancestral-guardian.md",
-      "design/cards/the-ancestors-stand.md"
-    ],
-    [
-      "design/paths/ancestral-guardian.md",
-      "design/paths/grave-warden.md"
-    ],
-    [
-      "design/paths/battle-singer.md",
-      "design/cards/keep-time-with-steel.md"
-    ],
-    [
-      "design/paths/battle-singer.md",
-      "design/cards/the-chorus-advances.md"
-    ],
-    [
-      "design/paths/battle-singer.md",
-      "design/cards/all-voices-as-one.md"
-    ],
-    [
-      "design/paths/battle-singer.md",
-      "design/paths/sun-knight.md"
-    ],
-    [
-      "design/paths/beast-companion.md",
-      "design/cards/call-the-faithful-hound.md"
-    ],
-    [
-      "design/paths/beast-companion.md",
-      "design/cards/call-the-hunting-cat.md"
-    ],
-    [
-      "design/paths/beast-companion.md",
-      "design/cards/call-the-elder-stag.md"
-    ],
-    [
-      "design/paths/beast-companion.md",
-      "design/paths/trail-hunter.md"
-    ],
-    [
-      "design/paths/beast-within.md",
-      "design/cards/borrow-the-beast.md"
-    ],
-    [
-      "design/paths/beast-within.md",
-      "design/cards/pounce-of-the-red-claw.md"
-    ],
-    [
-      "design/paths/beast-within.md",
-      "design/cards/wear-the-great-beast.md"
-    ],
-    [
-      "design/paths/beast-within.md",
-      "design/paths/root-keeper.md"
-    ],
-    [
-      "design/paths/bone-caller.md",
-      "design/cards/the-bones-rise.md"
-    ],
-    [
-      "design/paths/bone-caller.md",
-      "design/cards/a-ribcage-for-a-shield.md"
-    ],
-    [
-      "design/paths/bone-caller.md",
-      "design/cards/procession-of-the-quiet.md"
-    ],
-    [
-      "design/paths/bone-caller.md",
-      "design/paths/grave-warden.md"
-    ],
-    [
-      "design/paths/daring-scoundrel.md",
-      "design/cards/smile-before-steel.md"
-    ],
-    [
-      "design/paths/daring-scoundrel.md",
-      "design/cards/under-their-guard.md"
-    ],
-    [
-      "design/paths/daring-scoundrel.md",
-      "design/cards/bow-to-the-balcony.md"
-    ],
-    [
-      "design/paths/daring-scoundrel.md",
-      "design/paths/story-singer.md"
-    ],
-    [
-      "design/paths/deep-water-wanderer.md",
-      "design/cards/the-otter-s-bargain.md"
-    ],
-    [
-      "design/paths/deep-water-wanderer.md",
-      "design/cards/undertow-answer.md"
-    ],
-    [
-      "design/paths/deep-water-wanderer.md",
-      "design/cards/carry-them-to-shore.md"
-    ],
-    [
-      "design/paths/deep-water-wanderer.md",
-      "design/paths/green-healer.md"
-    ],
-    [
-      "design/paths/dragon-heir.md",
-      "design/cards/breath-of-the-wyrmling.md"
-    ],
-    [
-      "design/paths/dragon-heir.md",
-      "design/cards/scales-beneath-the-skin.md"
-    ],
-    [
-      "design/paths/dragon-heir.md",
-      "design/cards/wings-over-the-battle.md"
-    ],
-    [
-      "design/paths/dragon-heir.md",
-      "design/paths/sun-knight.md"
-    ],
-    [
-      "design/paths/duelling-master.md",
-      "design/cards/invitation-to-the-blade.md"
-    ],
-    [
-      "design/paths/duelling-master.md",
-      "design/cards/bind-and-turn.md"
-    ],
-    [
-      "design/paths/duelling-master.md",
-      "design/cards/write-the-final-line.md"
-    ],
-    [
-      "design/paths/duelling-master.md",
-      "design/paths/daring-scoundrel.md"
-    ],
-    [
-      "design/paths/elemental-adept.md",
-      "design/cards/palm-of-the-gale.md"
-    ],
-    [
-      "design/paths/elemental-adept.md",
-      "design/cards/walk-the-thunder.md"
-    ],
-    [
-      "design/paths/elemental-adept.md",
-      "design/cards/four-winds-at-once.md"
-    ],
-    [
-      "design/paths/elemental-adept.md",
-      "design/paths/storm-caller.md"
-    ],
-    [
-      "design/paths/fey-envoy.md",
-      "design/cards/an-invitation-elsewhere.md"
-    ],
-    [
-      "design/paths/fey-envoy.md",
-      "design/cards/behind-the-hawthorn.md"
-    ],
-    [
-      "design/paths/fey-envoy.md",
-      "design/cards/dance-beyond-the-circle.md"
-    ],
-    [
-      "design/paths/fey-envoy.md",
-      "design/paths/mirror-weaver.md"
-    ],
-    [
-      "design/paths/field-alchemist.md",
-      "design/cards/smoke-in-a-bottle.md"
-    ],
-    [
-      "design/paths/field-alchemist.md",
-      "design/cards/bottled-morning.md"
-    ],
-    [
-      "design/paths/field-alchemist.md",
-      "design/cards/the-cleverest-mixture.md"
-    ],
-    [
-      "design/paths/field-alchemist.md",
-      "design/paths/thinking-fighter.md"
-    ],
-    [
-      "design/paths/grave-warden.md",
-      "design/cards/keep-the-door-closed.md"
-    ],
-    [
-      "design/paths/grave-warden.md",
-      "design/cards/rest-for-the-restless.md"
-    ],
-    [
-      "design/paths/grave-warden.md",
-      "design/cards/not-yet-your-name.md"
-    ],
-    [
-      "design/paths/grave-warden.md",
-      "design/paths/ancestral-guardian.md"
-    ],
-    [
       "design/paths/green-healer.md",
       "design/cards/sap-and-breath.md"
     ],
@@ -7969,26 +7605,6 @@
     [
       "design/paths/green-healer.md",
       "design/cards/the-grove-gives-back.md"
-    ],
-    [
-      "design/paths/green-healer.md",
-      "design/paths/root-keeper.md"
-    ],
-    [
-      "design/paths/infernal-bargainer.md",
-      "design/cards/a-coal-for-a-promise.md"
-    ],
-    [
-      "design/paths/infernal-bargainer.md",
-      "design/cards/the-debt-comes-due.md"
-    ],
-    [
-      "design/paths/infernal-bargainer.md",
-      "design/cards/open-the-furnace-door.md"
-    ],
-    [
-      "design/paths/infernal-bargainer.md",
-      "design/paths/vow-hunter.md"
     ],
     [
       "design/paths/light-fingered-adventurer.md",
@@ -8003,154 +7619,6 @@
       "design/cards/an-impossible-theft.md"
     ],
     [
-      "design/paths/light-fingered-adventurer.md",
-      "design/paths/roadside-artificer.md"
-    ],
-    [
-      "design/paths/mirror-weaver.md",
-      "design/cards/a-door-that-is-not-there.md"
-    ],
-    [
-      "design/paths/mirror-weaver.md",
-      "design/cards/borrowed-silhouette.md"
-    ],
-    [
-      "design/paths/mirror-weaver.md",
-      "design/cards/a-company-of-reflections.md"
-    ],
-    [
-      "design/paths/mirror-weaver.md",
-      "design/paths/fey-envoy.md"
-    ],
-    [
-      "design/paths/night-walker.md",
-      "design/cards/step-between-lanterns.md"
-    ],
-    [
-      "design/paths/night-walker.md",
-      "design/cards/the-unlit-road.md"
-    ],
-    [
-      "design/paths/night-walker.md",
-      "design/cards/no-footfall-at-all.md"
-    ],
-    [
-      "design/paths/night-walker.md",
-      "design/paths/quiet-knife.md"
-    ],
-    [
-      "design/paths/quiet-knife.md",
-      "design/cards/a-courtesy-unanswered.md"
-    ],
-    [
-      "design/paths/quiet-knife.md",
-      "design/cards/silence-the-alarm.md"
-    ],
-    [
-      "design/paths/quiet-knife.md",
-      "design/cards/a-shadow-at-the-heart.md"
-    ],
-    [
-      "design/paths/quiet-knife.md",
-      "design/paths/night-walker.md"
-    ],
-    [
-      "design/paths/reader-of-omens.md",
-      "design/cards/i-have-seen-this-step.md"
-    ],
-    [
-      "design/paths/reader-of-omens.md",
-      "design/cards/ask-the-falling-ash.md"
-    ],
-    [
-      "design/paths/reader-of-omens.md",
-      "design/cards/the-moment-foretold.md"
-    ],
-    [
-      "design/paths/reader-of-omens.md",
-      "design/paths/thinking-fighter.md"
-    ],
-    [
-      "design/paths/red-fury.md",
-      "design/cards/blood-in-the-teeth.md"
-    ],
-    [
-      "design/paths/red-fury.md",
-      "design/cards/through-the-spearpoints.md"
-    ],
-    [
-      "design/paths/red-fury.md",
-      "design/cards/break-the-charge.md"
-    ],
-    [
-      "design/paths/red-fury.md",
-      "design/paths/ancestral-guardian.md"
-    ],
-    [
-      "design/paths/roadside-artificer.md",
-      "design/cards/spring-in-the-sleeve.md"
-    ],
-    [
-      "design/paths/roadside-artificer.md",
-      "design/cards/the-walking-toolbox.md"
-    ],
-    [
-      "design/paths/roadside-artificer.md",
-      "design/cards/a-marvel-on-wheels.md"
-    ],
-    [
-      "design/paths/roadside-artificer.md",
-      "design/paths/field-alchemist.md"
-    ],
-    [
-      "design/paths/root-keeper.md",
-      "design/cards/roots-remember-feet.md"
-    ],
-    [
-      "design/paths/root-keeper.md",
-      "design/cards/briar-gate.md"
-    ],
-    [
-      "design/paths/root-keeper.md",
-      "design/cards/the-orchard-wakes.md"
-    ],
-    [
-      "design/paths/root-keeper.md",
-      "design/paths/beast-within.md"
-    ],
-    [
-      "design/paths/rune-bound-warrior.md",
-      "design/cards/wake-the-iron-rune.md"
-    ],
-    [
-      "design/paths/rune-bound-warrior.md",
-      "design/cards/stone-on-your-shoulders.md"
-    ],
-    [
-      "design/paths/rune-bound-warrior.md",
-      "design/cards/stride-of-the-giant.md"
-    ],
-    [
-      "design/paths/rune-bound-warrior.md",
-      "design/paths/roadside-artificer.md"
-    ],
-    [
-      "design/paths/shape-scholar.md",
-      "design/cards/the-patient-metal.md"
-    ],
-    [
-      "design/paths/shape-scholar.md",
-      "design/cards/teach-stone-to-bend.md"
-    ],
-    [
-      "design/paths/shape-scholar.md",
-      "design/cards/the-shape-of-escape.md"
-    ],
-    [
-      "design/paths/shape-scholar.md",
-      "design/paths/roadside-artificer.md"
-    ],
-    [
       "design/paths/spellblade.md",
       "design/cards/ember-along-the-edge.md"
     ],
@@ -8163,74 +7631,6 @@
       "design/cards/a-sword-made-of-dawn.md"
     ],
     [
-      "design/paths/spellblade.md",
-      "design/paths/ward-weaver.md"
-    ],
-    [
-      "design/paths/still-hand-adept.md",
-      "design/cards/the-untroubled-hand.md"
-    ],
-    [
-      "design/paths/still-hand-adept.md",
-      "design/cards/turn-the-river.md"
-    ],
-    [
-      "design/paths/still-hand-adept.md",
-      "design/cards/stillness-at-the-center.md"
-    ],
-    [
-      "design/paths/still-hand-adept.md",
-      "design/paths/elemental-adept.md"
-    ],
-    [
-      "design/paths/storm-caller.md",
-      "design/cards/thunder-at-the-door.md"
-    ],
-    [
-      "design/paths/storm-caller.md",
-      "design/cards/a-road-through-rain.md"
-    ],
-    [
-      "design/paths/storm-caller.md",
-      "design/cards/the-sky-comes-down.md"
-    ],
-    [
-      "design/paths/storm-caller.md",
-      "design/paths/elemental-adept.md"
-    ],
-    [
-      "design/paths/story-singer.md",
-      "design/cards/a-verse-for-courage.md"
-    ],
-    [
-      "design/paths/story-singer.md",
-      "design/cards/remember-this-name.md"
-    ],
-    [
-      "design/paths/story-singer.md",
-      "design/cards/the-tale-will-tell-of-you.md"
-    ],
-    [
-      "design/paths/story-singer.md",
-      "design/paths/mirror-weaver.md"
-    ],
-    [
-      "design/paths/sun-knight.md",
-      "design/cards/oathlight-strike.md"
-    ],
-    [
-      "design/paths/sun-knight.md",
-      "design/cards/a-shelter-of-light.md"
-    ],
-    [
-      "design/paths/sun-knight.md",
-      "design/cards/carry-the-sunrise.md"
-    ],
-    [
-      "design/paths/sun-knight.md",
-      "design/paths/green-healer.md"
-    ],
-    [
       "design/paths/thinking-fighter.md",
       "design/cards/anatomy-of-an-opening.md"
     ],
@@ -8241,90 +7641,6 @@
     [
       "design/paths/thinking-fighter.md",
       "design/cards/checkmate-in-three-steps.md"
-    ],
-    [
-      "design/paths/thinking-fighter.md",
-      "design/paths/field-alchemist.md"
-    ],
-    [
-      "design/paths/trail-hunter.md",
-      "design/cards/read-the-quarry.md"
-    ],
-    [
-      "design/paths/trail-hunter.md",
-      "design/cards/cut-off-the-escape.md"
-    ],
-    [
-      "design/paths/trail-hunter.md",
-      "design/cards/the-hunt-ends-here.md"
-    ],
-    [
-      "design/paths/trail-hunter.md",
-      "design/paths/beast-companion.md"
-    ],
-    [
-      "design/paths/unruly-spark.md",
-      "design/cards/let-the-spark-decide.md"
-    ],
-    [
-      "design/paths/unruly-spark.md",
-      "design/cards/borrow-tomorrow-s-weather.md"
-    ],
-    [
-      "design/paths/unruly-spark.md",
-      "design/cards/a-splendid-mistake.md"
-    ],
-    [
-      "design/paths/unruly-spark.md",
-      "design/paths/dragon-heir.md"
-    ],
-    [
-      "design/paths/vow-hunter.md",
-      "design/cards/name-the-reckoning.md"
-    ],
-    [
-      "design/paths/vow-hunter.md",
-      "design/cards/no-road-away.md"
-    ],
-    [
-      "design/paths/vow-hunter.md",
-      "design/cards/answer-for-what-you-did.md"
-    ],
-    [
-      "design/paths/vow-hunter.md",
-      "design/paths/reader-of-omens.md"
-    ],
-    [
-      "design/paths/ward-weaver.md",
-      "design/cards/a-sign-against-harm.md"
-    ],
-    [
-      "design/paths/ward-weaver.md",
-      "design/cards/unravel-the-bolt.md"
-    ],
-    [
-      "design/paths/ward-weaver.md",
-      "design/cards/the-circle-holds.md"
-    ],
-    [
-      "design/paths/ward-weaver.md",
-      "design/paths/sun-knight.md"
-    ],
-    [
-      "design/paths/watcher-beyond.md",
-      "design/cards/a-thought-that-is-not-yours.md"
-    ],
-    [
-      "design/paths/watcher-beyond.md",
-      "design/cards/the-angle-of-unease.md"
-    ],
-    [
-      "design/paths/watcher-beyond.md",
-      "design/cards/when-the-stars-look-back.md"
-    ],
-    [
-      "design/paths/watcher-beyond.md",
-      "design/paths/reader-of-omens.md"
     ],
     [
       "design/cards/command-a-summon.md",
@@ -8493,6 +7809,46 @@
     [
       "design/starting-coins.md",
       "design/ancestries/halfling.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/protector.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/blade.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/arcanist.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/shepherd.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/intellect.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/leader.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/shadow.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/unbalanced.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/odd.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/warden.md"
     ],
     [
       "design/starting-coins.md",
@@ -8696,46 +8052,6 @@
     ],
     [
       "design/starting-coins.md",
-      "design/classes/protector.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/blade.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/arcanist.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/shepherd.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/intellect.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/leader.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/shadow.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/unbalanced.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/odd.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/warden.md"
-    ],
-    [
-      "design/starting-coins.md",
       "design/market.md"
     ],
     [
@@ -8915,7 +8231,19 @@
       "design/cards/use-a-healing-potion.md"
     ],
     [
+      "design/equipment/greater-healing-bottle.md",
+      "design/cards/use-a-healing-potion.md"
+    ],
+    [
       "design/equipment/lesser-healing-bottle.md",
+      "design/cards/use-a-healing-potion.md"
+    ],
+    [
+      "design/equipment/lesser-healing-bottle.md",
+      "design/cards/use-a-healing-potion.md"
+    ],
+    [
+      "design/equipment/superior-healing-bottle.md",
       "design/cards/use-a-healing-potion.md"
     ],
     [
@@ -8927,12 +8255,28 @@
       "design/cards/a-roof-before-nightfall.md"
     ],
     [
+      "design/recipes/camp-shelter.md",
+      "design/cards/a-roof-before-nightfall.md"
+    ],
+    [
+      "design/recipes/clearing-tonic.md",
+      "design/cards/the-cleverest-mixture.md"
+    ],
+    [
       "design/recipes/clearing-tonic.md",
       "design/cards/the-cleverest-mixture.md"
     ],
     [
       "design/recipes/lesser-healing-bottle.md",
       "design/cards/bottled-morning.md"
+    ],
+    [
+      "design/recipes/lesser-healing-bottle.md",
+      "design/cards/bottled-morning.md"
+    ],
+    [
+      "design/recipes/smoke-flask.md",
+      "design/cards/smoke-in-a-bottle.md"
     ],
     [
       "design/recipes/smoke-flask.md",
@@ -9024,46 +8368,6 @@
     ],
     [
       "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/hearth-brownie.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/hedge-sprite.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/briar-knight.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/dryad.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/harbor-siren.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/redcap.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/reed-piper.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/satyr.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/moon-hart.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/unicorn.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
       "design/bestiary/summons/lantern-spirit.md"
     ],
     [
@@ -9085,42 +8389,6 @@
     [
       "design/bestiary/summon-choices.md",
       "design/bestiary/summons/oath-flame.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/emberling.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/rill-sprite.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/stone-knuckle.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/air-elemental.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/cinder-strider.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/icebound-warden.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/water-elemental.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/earth-elemental.md"
-    ],
-    [
-      "design/bestiary/summon-choices.md",
-      "design/bestiary/summons/storm-column.md"
     ],
     [
       "design/bestiary/summon-choices.md",
@@ -9189,6 +8457,82 @@
     [
       "design/bestiary/summon-choices.md",
       "design/bestiary/summons/wraith.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/emberling.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/rill-sprite.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/stone-knuckle.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/air-elemental.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/cinder-strider.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/icebound-warden.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/water-elemental.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/earth-elemental.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/storm-column.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/hearth-brownie.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/hedge-sprite.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/briar-knight.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/dryad.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/harbor-siren.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/redcap.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/reed-piper.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/satyr.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/moon-hart.md"
+    ],
+    [
+      "design/bestiary/summon-choices.md",
+      "design/bestiary/summons/unicorn.md"
     ],
     [
       "design/bestiary/summon-choices.md",
@@ -10256,7 +9600,11 @@
     ]
   ],
   "external_design_references_rendered_as_text": [
-    "design/characters/README.md"
+    "design/characters/README.md",
+    "design/paths/field-alchemist.md",
+    "design/paths/roadside-artificer.md",
+    "design/paths/root-keeper.md",
+    "design/paths/ward-weaver.md"
   ],
   "expected": {
     "ability": 350,
@@ -10266,7 +9614,7 @@
     "background": 32,
     "class": 10,
     "discipline": 18,
-    "path": 36,
+    "path": 4,
     "equipment": 43,
     "recipes": 10,
     "summon": 73,

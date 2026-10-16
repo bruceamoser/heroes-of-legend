@@ -1,7 +1,7 @@
 #import "../template.typ": *
 #chapter("1","Welcome to Heroes of Legend")
 #metadata("s-ec27fab57845")<s-ec27fab57845>
-#art(height: 100pt, brief: "Four companions pause at a ruined library threshold: shield, lantern, open book and bow. Show their anticipation, not a battle.")
+#illustration("welcome", height: 125pt, fit: "cover")
 #twocol[
 #text("The door has held for a hundred years. Tonight, someone on the other side is knocking.") #text("Your companions look at you. You have a lantern, a scar that aches before rain, and") #text("one very bad idea that might get everyone through this alive.")
 
@@ -64,16 +64,19 @@
 #text("Choose names, something each hero wants, and a connection between companions. Decide") #text("how to share maps and record supplies. The DA should explain what your characters") #text("already know about the first destination. You can discover the rest in play.")
 
 #note[
-#text("")#strong[#text("About this edition.")]#text(" This is the complete player-facing level 1–10 playtest") #text("manuscript. Existing design proposals were approved for inclusion. It is intended") #text("for real table feedback; numerical balance remains open to refinement. Small boxes") #text("labeled “Playtest ruling” identify newly discovered boundaries that still need review.") #text("Interior art panels are briefs for future illustrations. The DA's bestiary and") #text("encounter-building book are separate.")
+#text("")#strong[#text("About this edition.")]#text(" This is the complete player-facing level 1–10 playtest") #text("manuscript. Existing design proposals were approved for inclusion. It is intended") #text("for real table feedback; numerical balance remains open to refinement. Small boxes") #text("labeled “Playtest ruling” identify newly discovered boundaries that still need review.") #text("The DA's bestiary and") #text("encounter-building book are separate.")
 
 ]
 ]
+#tail-art("journey")
 #chapter("2","Create Your Hero")
 #metadata("s-3a383eccab13")<s-3a383eccab13>
 #twocol[
 #text("Begin with a person you want to play: an armored healer, an eloquent duelist, a hunter") #text("who speaks with ghosts. Decide what they want, then choose how they pursue it.")
 
 #text("Character creation has two stages. ")#strong[#text("Level 0")]#text(" is your life before choosing a class.") #text("")#strong[#text("Level 1")]#text(" is the completed adventurer you bring to the first session. Finish and") #text("close the level-0 ledger before making level-1 purchases. Both stages have their own") #text("DP pool; unused points expire separately.")
+
+#text("Before making purchases, turn to ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(".") #text("It explains what discipline ranks mean and how they qualify you for abilities. Keep") #text("that chapter and your intended class entry handy as you build.")
 
 #heading(level: 3)[#text("1. Assign attributes")]
 #text("Assign a value from −2 to +2 to each of the six attributes. Their total must be ")#strong[#text("+3")]#text(".") #text("A straightforward starting array is +2, +1, +1, +0, +0, −1, arranged as you choose.") #text("Check your intended class's minimums before settling the array.")
@@ -159,19 +162,20 @@
 #text("Your Grit increases are universal experience, not class features. They do not refund") #text("previous expenditure. A once-only learned card can grant one additional Grit. Ordinary") #text("rest does not refresh Grit. Your abilities, scars and choices tell the story of the") #text("hero you become.")
 
 ]
+#tail-art("heroes")
 #chapter("3","Ancestry, Culture and Background")
 #twocol[Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture.
 
 Your ancestry supplies inherited traits. Your culture describes a community and its traditions. Your background recalls something you did or experienced before adventuring. These choices offer connections, memories and capabilities; they do not dictate your personality.
 
 Choose each origin as a complete pair: its rank and ability belong together. Resolve all level-0 grants before making purchases. Duplicate grants add one DP to that stage rather than a higher rank or unrestricted replacement.]
-#art(height: 360pt, brief: "A busy river settlement where humans, elves, dwarves and halflings work and travel together. A child learns from a craftsperson of another ancestry; a future adventurer watches a boat depart.")
+#illustration("origins", height: 330pt, fit: "cover")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Human","s-e8ca137eed99")
 #emph[#text("Restless, adaptable and fiercely invested in a life that never feels long enough.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose two of the five traits below. These are invitations to a familiar fantasy,") #text("not a required personality. Any ancestry may grow up in any culture.")
 
 #text("")#strong[#text("Starting values:")]#text(" HP +2; base Speed 6.")
@@ -195,13 +199,13 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +1 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 245pt, brief: "Three human adventurers with distinct ages, clothing and vocations; show ancestry without prescribing a single culture.")])
+], [#illustration("ancestry-human", height: 245pt)])
 #twocol[
 #block(breakable: false)[
 #entry("Never Quite Finished","s-43bc1807b902")
 #emph[#text("You wipe the sweat from your face and lift the load again, remembering the people still waiting for you.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Describe the ordinary hardship that taught you to keep going.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -213,7 +217,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Road in the Blood","s-96aabc1f1957")
 #emph[#text("You settle your pack higher on your shoulders and lengthen your stride toward the next rise.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -225,7 +229,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("A Foot in Two Worlds","s-a675522046ef")
 #emph[#text("You greet a stranger in the words of another home, smiling as they answer in the same tongue.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -237,7 +241,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Make Room at the Fire","s-ad232a649baa")
 #emph[#text("You shift a bowl toward the stranger and offer a place beside the fire before asking their name.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per scene, when you offer genuine food, shelter or shared work to a nonhostile person, gain 1 Boon to the next Guile roll seeking ordinary hospitality or trust from them before the scene ends. No automatic friendship or compelled response.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -249,7 +253,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("The Impossible Streak","s-641a679018d0")
 #emph[#text("You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, declare before an ordinary noncombat roll that you are taking the difficult way on purpose. Gain 1 Boon. You still need a plausible method and any specialist permission; this does not change a card’s attribute.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -263,7 +267,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Elf","s-fc06a30fc7a2")
 #emph[#text("Old memory, woodland grace and a sense that the hurried world has forgotten how to listen.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose two of the five traits below. These are invitations to a familiar fantasy,") #text("not a required personality. Any ancestry may grow up in any culture.")
 
 #text("")#strong[#text("Starting values:")]#text(" HP +2; base Speed 6.")
@@ -287,13 +291,13 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 245pt, brief: "Three elf adventurers with distinct ages, clothing and vocations; show ancestry without prescribing a single culture.")])
+], [#illustration("ancestry-elf", height: 245pt)])
 #twocol[
 #block(breakable: false)[
 #entry("Footfall on the Leaves","s-81c322f8d567")
 #emph[#text("You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -305,7 +309,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("A Lifetime Ago","s-2b108e4309ee")
 #emph[#text("You pause beside the broken road and recall the voices of the people who laid its first stones.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -317,7 +321,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("The Wood Whispers","s-f134db3a65af")
 #emph[#text("You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. The signs can indicate a general direction, not an unseen creature’s exact square; this does not bypass Hidden.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -329,7 +333,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Grace of the Elder Folk","s-a5627e92b3f0")
 #emph[#text("You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -341,7 +345,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Dream beneath the Stars","s-1d4075ac0c2a")
 #emph[#text("You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -355,7 +359,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Dwarf","s-3462876b97b5")
 #emph[#text("Stone, craft, stubborn loyalty and a memory for debts both kind and cruel.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose two of the five traits below. These are invitations to a familiar fantasy,") #text("not a required personality. Any ancestry may grow up in any culture.")
 
 #text("")#strong[#text("Starting values:")]#text(" HP +4; base Speed 5.")
@@ -379,13 +383,13 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 245pt, brief: "Three dwarf adventurers with distinct ages, clothing and vocations; show ancestry without prescribing a single culture.")])
+], [#illustration("ancestry-dwarf", height: 245pt)])
 #twocol[
 #block(breakable: false)[
 #entry("Stubborn as Bedrock","s-e154271559ac")
 #emph[#text("You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Gain no additional resistance from this trait.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -397,7 +401,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("The Mountain Remembers","s-b52a6c3932b2")
 #emph[#text("You run your fingers across the stonework, stopping where an old seam has been cut anew.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to examining stonework for an unsafe passage, concealed join or later alteration. Obvious construction clues need no roll; the trait does not reveal an untouched wall’s far side.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -409,7 +413,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Rooted in Stone","s-c1a616ca9067")
 #emph[#text("You spread your boots against the stone and lean into the approaching shove.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("While standing on solid ground, gain 1 Boon to defense against forced movement. This is not immunity and does not reduce the resulting distance separately.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -421,7 +425,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("An Honest Maker’s Hand","s-db61ca98741b")
 #emph[#text("Your thumb finds the seam; your ear knows the ring of sound metal.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("After handling an ordinary metal or stone item, recognize shoddy workmanship and common material without a roll. Gain 1 Boon when a consequential inspection seeks subtler defects. This is not crafting or magical identification permission.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -433,7 +437,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("A Grudge Well Kept","s-3c24a1ec187b")
 #emph[#text("You rub the place the blow landed, fix its giver in your gaze and step back into the fight.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -447,7 +451,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Halfling","s-25bc4473d928")
 #emph[#text("Quiet feet, a generous table and courage that surprises people who judge by height.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose two of the five traits below. These are invitations to a familiar fantasy,") #text("not a required personality. Any ancestry may grow up in any culture.")
 
 #text("")#strong[#text("Starting values:")]#text(" HP +1; base Speed 5.")
@@ -471,13 +475,13 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 245pt, brief: "Three halfling adventurers with distinct ages, clothing and vocations; show ancestry without prescribing a single culture.")])
+], [#illustration("ancestry-halfling", height: 245pt)])
 #twocol[
 #block(breakable: false)[
 #entry("Bigger on the Inside","s-38b3cf69599b")
 #emph[#text("You swallow, glance at the friends beside you and step forward even while your knees shake.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally; you are not immune to fear.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -489,7 +493,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Under Their Noses","s-dc6cc4b66e0c")
 #emph[#text("You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -501,7 +505,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Quiet as a Burrow","s-a09ec0c815d8")
 #emph[#text("You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing companion following your route gains 1 Boon to their next quiet-movement roll this scene. You cannot confer Hidden by walking in open view.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -513,7 +517,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("A Little Luck","s-b516e908bde7")
 #emph[#text("The latch catches your coat a heartbeat before you step into trouble.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a small piece of good fortune. No reroll after seeing the result and no effect on inventory dice.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -525,7 +529,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #entry("Second Breakfast","s-b1c26acbb3f6")
 #emph[#text("You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.")
 
 #text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -537,13 +541,18 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #pagebreak(weak: true)
 #heading(level: 2,"Cultures")
 #twocol[
+#metadata("s-c0960d42ee3d")<s-c0960d42ee3d>
+#text("Your culture is the community that taught you how to live: its customs, shared") #text("knowledge and ways of meeting hardship. An elf raised among dwarven halls may know") #text("their songs and stonework; a human from a wandering company may feel at home wherever") #text("people gather around a fire. Choose a culture independently of your ancestry.")
+
+#text("Choose ")#strong[#text("one complete paired option")]#text(" from its entry. You gain the listed rank-1") #text("discipline and ability together at level 0. Its coin contribution also helps determine") #text("your starting purse. These gifts describe what you learned, not what you must believe") #text("or how you must behave. See ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(" for") #text("how your new discipline opens further choices.")
+
 #block(breakable: false)[
 #entry("Border Marches","s-127f953da4b7")
 #emph[#text("Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.")]
 
 #emph[#text("Who taught you to welcome a traveler and watch the road at once?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -567,7 +576,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Whose name do you speak when courage runs short?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -591,7 +600,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which lesson did you question before you left?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -615,7 +624,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What does your home smell like after the forge fires dim?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -639,7 +648,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What beautiful thing did you first learn to make?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -663,7 +672,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which tree marks the way home?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -685,7 +694,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who will always give you a berth?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -709,7 +718,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which old custom did your new neighbors adopt?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -733,7 +742,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What promise brings you back to the traveling camp?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -757,7 +766,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What did your neighbors trust you to carry?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -779,7 +788,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What signal means home is waiting?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -803,7 +812,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which question earned you trouble?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -825,7 +834,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Whose well did your family help keep?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -849,7 +858,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which channel could you navigate with your eyes closed?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -873,7 +882,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What do you miss about the sound of the docks?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -895,7 +904,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which impossible-looking route was your childhood shortcut?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -919,7 +928,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What song announced your arrival?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -941,7 +950,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who always greeted you from the wall?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -958,16 +967,22 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ]
 ]
+#tail-art("cultures")
 #pagebreak(weak: true)
 #heading(level: 2,"Backgrounds")
 #twocol[
+#metadata("s-a61a7dfba49e")<s-a61a7dfba49e>
+#text("Your background is a chapter of your life before adventuring. You might have watched") #text("a gate, tended the wounded, traveled with performers or learned to survive by a quick") #text("hand and a quicker smile. Choose something that gives you a memory, a connection and") #text("a reason to leave familiar ground.")
+
+#text("Choose ")#strong[#text("one complete paired option")]#text(" from the background. It grants a rank-1 discipline") #text("and its accompanying ability at level 0, and contributes to starting coins. Culture") #text("and background can point in the same direction or reveal different sides of your hero.") #text("Resolve duplicate grants before spending your level-0 DP. The") #xref("s-6289e7cc8d28")[#text("discipline chapter")]#text(" explains the requirements those ranks satisfy.")
+
 #block(breakable: false)[
 #entry("Apothecary’s Helper","s-b90394fd9a72")
 #emph[#text("You learned the smell of good medicine and the patience of people waiting for it.")]
 
 #emph[#text("Which remedy always reminds you of someone?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -989,7 +1004,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What part of the bargain are you determined to interpret generously?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1013,7 +1028,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which animal behavior do you still find reassuring?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1037,7 +1052,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who taught you that respect and fear are different things?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1061,7 +1076,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who was beside you the first time the scaffolding shook?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1083,7 +1098,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which room did you leave untouched?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1107,7 +1122,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who believed in you when you were finally telling the truth?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1131,7 +1146,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who once answered a question you were afraid to ask?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1155,7 +1170,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Was the dream a memory, a gift or an invitation?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1179,7 +1194,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which duel should never have happened?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1203,7 +1218,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Whose grave do you still visit?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1225,7 +1240,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What place do you consider a patient rather than a possession?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1249,7 +1264,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Whose laughter could you recognize from the gate?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1271,7 +1286,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What repair earned you a lifelong welcome?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1295,7 +1310,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which companion never came back from a hunt?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1319,7 +1334,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which customer made you stop exaggerating?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1343,7 +1358,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which message did you refuse to deliver?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1365,7 +1380,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What did you take besides your training?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1389,7 +1404,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which broken promise still follows you?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1413,7 +1428,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who taught you to look twice?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1437,7 +1452,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who did you refuse to finish?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1461,7 +1476,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Who looked the other way for you?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1485,7 +1500,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which name did you cross off without taking the job?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1509,7 +1524,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What did the tide bring you once that it should not have?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1531,7 +1546,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What trick did the star never learn you invented?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1553,7 +1568,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What familiar sight now seems slightly wrong?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1577,7 +1592,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What did the storm leave behind?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1601,7 +1616,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("What promise outlasted your service?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1625,7 +1640,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which audience surprised you?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1649,7 +1664,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Whose pace do you still hear beneath the beat?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1673,7 +1688,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which mark will you never draw carelessly?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one:")
 
 #list(
@@ -1697,7 +1712,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #emph[#text("Which warning did you finally learn to hear?")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
 
 #list(
@@ -1714,20 +1729,23 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ]
 ]
+#tail-art("backgrounds")
 #chapter("4","Classes")
-#twocol[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class.
+#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class.
 
-Meet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums and pays the same discipline prices across every field.]
+Meet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums and pays the same discipline prices across every field.
+
+Choose one class; there is no multiclassing. You can still learn any shared ability whose requirements you meet, but another class’s signatures remain exclusive.], [
 #rule-table(3,([#text("Class")],[#text("Attributes at least 0")],[#text("HP contribution")],),(([#xref("s-cb5021228f43")[#text("Arcanist")]],[#text("Agility, Knowledge")],[#text("+2")],),([#xref("s-4cf3da87b3fe")[#text("Blade")]],[#text("Agility, Brawn")],[#text("+4")],),([#xref("s-5f996d5a0ee9")[#text("Intellect")]],[#text("Knowledge, Reason")],[#text("+2")],),([#xref("s-a06f8adb7ce7")[#text("Leader")]],[#text("Guile, Fortitude")],[#text("+4")],),([#xref("s-fe83ef834cbc")[#text("Odd")]],[#text("None")],[#text("+3")],),([#xref("s-9c75309ecffd")[#text("Protector")]],[#text("Fortitude, Reason")],[#text("+5")],),([#xref("s-6a13115a845b")[#text("Shadow")]],[#text("Agility, Guile")],[#text("+3")],),([#xref("s-2ec72f4532a5")[#text("Shepherd")]],[#text("Reason, Guile")],[#text("+3")],),([#xref("s-94403698c5ab")[#text("Unbalanced")]],[#text("Brawn, Fortitude")],[#text("+6")],),([#xref("s-2ad683228880")[#text("Warden")]],[#text("Fortitude and Knowledge")],[#text("+4")],),))
 
-#art(height: 250pt, brief: "A council of adventurers around a map. Distinct silhouettes suggest the ten classes through posture, tools and dress. No class is reduced to a single weapon or ancestry.")
+])
+#illustration("classes", height: 350pt, fit: "cover")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Protector","s-9c75309ecffd")
 #emph[#text("You see who needs shelter and step into the space between them and harm.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude, Reason; HP contribution +5. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude, Reason; HP contribution +5.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.")
 
@@ -1787,134 +1805,126 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Protector hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-protector", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Between Them","1","Class Protector; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4335e5571ac5")[
 #emph[#text("You step your guard into the line of the strike and wave your companion behind you as it lands.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing ally, after a single-target attack is declared against it but before rolling.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing ally, after a single-target attack is declared against it but before rolling.")
 
 #text("Become the target if you meet the attack’s range and targeting requirements. Resolve the attack once against you; your ally receives none of its effects. Afterward the ally may move up to 2 squares without provoking if able. You do not move to intercept and cannot redirect an area attack.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering attack and immediate ally movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Set Your Feet","1","Class Protector; minimum level 1","Passive","None — no roll","Signature / Skill / Defense","2 DP","s-9be12b5c0ebb")[
 #emph[#text("You settle your weight into the ground and draw your guard close, letting the shove spend itself against your stance.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self while your Defend is active.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self while your Defend is active.")
 
 #text("Gain Stability 2 while your Defend is active. Use your highest applicable Stability, maximum 3. You still need to use Defend normally; this grants no resistance to damage.")
 
 #text("")#strong[#text("Duration:")]#text(" While your Defend remains active.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Close the Gap","1","Class Protector; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement / Defense","2 DP","s-273733f259e6")[
 #emph[#text("You hurry to a companion’s side and turn outward, ready to meet whatever followed them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; one visible ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; one visible ally.")
 
 #text("Move up to 2 squares toward that ally without provoking. If you end adjacent to it, gain Defend’s 1 Boon to defense until the start of your next turn. This is the ordinary Defend benefit and does not multiply an existing Defend.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Defend ends at the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Break Their Advance","3","Class Protector; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-8c09ee64601e")[
 #emph[#text("You absorb the hit and answer with a hard shove, stepping forward as the attacker stumbles away.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent enemy, after it damages you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent enemy, after it damages you.")
 
 #text("Push it up to 2 squares directly away from you, then you may move 1 square toward it without provoking. Use legal routes and a free endpoint. The damage already taken remains; normal collision rules apply.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Shelter the Fallen","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Movement / Defense","4 DP","s-e21a2f248cfa")[
 #emph[#text("You drop beside your fallen companion, steady their breathing and drag them behind your guard in one practiced motion.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent Dying player-character ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent Dying player-character ally.")
 
 #text("Stabilize it, then move it up to 2 squares to a free square adjacent to you without provoking. You need a free hand and must be able to support its weight. Gain Defend until the start of your next turn. This restores no HP and removes no wound; it cannot interrupt Last Words.")
 
 #text("")#strong[#text("Duration:")]#text(" Stabilization and relocation are immediate; your Defend ends at the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Make a Refuge","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Defense","4 DP","s-4e90cb3fee6c")[
 #emph[#text("You draw a companion into the shelter of your stance and meet the next threat with both of you behind your guard.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one adjacent willing ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one adjacent willing ally.")
 
 #text("Use Defend and extend its 1 Boon to that ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. The ally gains Stability 1 for the first forced movement during the ward, including joining a collision chain. Use the highest applicable Stability, maximum 3. Consume this grant after that event even if another source was higher. Reusing this card replaces the ward, not its spent Stability grant.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; adjacency is required for the ally.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Unbroken Passage","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-50c3d247c571")[
 #emph[#text("You put yourself at the front and guide your companions through the press, keeping each dangerous opening behind your shoulder.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and up to two adjacent willing allies.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and up to two adjacent willing allies.")
 
 #text("Move yourself and the chosen allies up to your Speed each without provoking, in an order you choose. Choose legal routes and separate free endpoints; the allies must finish adjacent to you. Each ally gains 1 Boon to its next defense before the start of your next turn while it remains adjacent to you and you can act. This does not carry an immobile creature or grant attacks.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; each defensive Boon expires when used, adjacency is lost or your next turn starts.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Defiant Rescue","7","Class Protector; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-91f1b06884ac")[
 #emph[#text("You see the blow gathering over your companion and charge into its path, driving them back behind your shoulder.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 3 squares, after a single-target attack is declared against it but before any attack or defense roll.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 3 squares, after a single-target attack is declared against it but before any attack or defense roll.")
 
 #text("Move up to 3 squares without provoking to a free square adjacent to the ally. You must then be a legal target of that attack. Become its target and resolve it once against you; gain 1 Boon if you make a defense roll. Afterward the ally may move up to 2 squares without provoking if able. If you cannot reach a legal interception position, you cannot use this card.")
 
@@ -1922,37 +1932,36 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" The interception, attack and immediate ally movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Drive Back the Circle","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Control / Movement","8 DP","s-a314c213fd56")[
 #emph[#text("You brace and surge outward, forcing the surrounding enemies back while your companions scramble into the room you have made.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every enemy adjacent when you begin; up to two willing allies initially within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every enemy adjacent when you begin; up to two willing allies initially within 2 squares.")
 
 #text("Push each enemy 2 squares directly away from you, in an order you choose. Then each chosen ally may move up to 2 squares without provoking. The allies need legal routes and free endpoints. No direct damage; collisions resolve normally.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement and ally movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 ]
+#tail-art("class-protector")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Blade","s-4cf3da87b3fe")
 #emph[#text("You make the hard choices in the space between one stroke and the next.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Brawn; HP contribution +4. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Brawn; HP contribution +4.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Marksmanship, Athletics, Subterfuge.")
 
@@ -2012,117 +2021,110 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +4 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Blade hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-blade", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Cut and Turn","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-3f26202b388c")[
 #emph[#text("You follow the stroke through with your feet and slip around the edge of your opponent’s guard.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after your Main Action melee attack resolves.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after your Main Action melee attack resolves.")
 
 #text("Move up to 1 square without provoking. On a Standard or Strong attack, you may move up to 2 squares instead. Use a legal route and free endpoint; this grants no additional attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Pressure Point","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Control","2 DP","s-d51228096429")[
 #emph[#text("You turn your strike across a joint or supporting limb, leaving your opponent struggling to keep pace.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One target of your Main Action melee attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One target of your Main Action melee attack.")
 
 #text("After a Standard result, apply Slowed 1 to one target. After Strong, apply Slowed 2 instead. The attack otherwise resolves normally.")
 
 #text("")#strong[#text("Duration:")]#text(" Slowed uses normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 #card(icons: [],"Measured Guard","1","Class Blade; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4f08c7da2fe3")[
 #emph[#text("You catch the incoming blow on your guard and turn your shoulders, stepping smoothly past its line.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before a defense against an adjacent enemy.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before a defense against an adjacent enemy.")
 
 #text("Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squares without provoking, whatever the defense result. This does not prevent the attack’s damage or conditions; you must still be able to move.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Sweeping Entry","3","Class Blade; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement / Control","4 DP","s-1120d1e1dd74")[
 #emph[#text("You rush in behind a broad sweep, using the threat of the blade to claim a better position.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; a visible enemy you can approach by a legal route.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; a visible enemy you can approach by a legal route.")
 
 #text("Move up to 3 squares toward that enemy without provoking. Your next Main Action melee attack this turn may push one of its targets 1 square directly away after resolution, on any result.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; unused push benefit expires at turn end.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Return Stroke","3","Class Blade; minimum level 3","Reaction","None — no roll","Signature / Skill / Attack","4 DP","s-381ca0bbc05b")[
 #emph[#text("You let the attack slide past your guard and bring your weapon back before your opponent recovers.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent melee attacker, after you resolve a Standard or Strong defense against its attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent melee attacker, after you resolve a Standard or Strong defense against its attack.")
 
 #text("Make one free Basic Melee attack against it, rolling Brawn and using Basic Melee’s outcomes. You need a melee weapon and must still be able to attack. A triggering free attack cannot trigger this free attack. No further free attacks arise from your return stroke.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate attack after the triggering attack resolves.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Fell the Balance","3","Class Blade; minimum level 3","Passive","None — no roll","Signature / Skill / Control","4 DP","s-8d84d83e83eb")[
 #emph[#text("You feel their weight shift, hook their footing with your own and let the strike finish the fall.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One target of your Standard or Strong Main Action melee attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One target of your Standard or Strong Main Action melee attack.")
 
 #text("After the attack resolves, you may knock that target prone. This does not require a push rider or replace another effect. It adds no damage and cannot turn Prone into a numbered condition.")
 
 #text("")#strong[#text("Duration:")]#text(" Prone lasts until removed normally.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 #card(icons: [],"Dance Through Steel","7","Class Blade; minimum level 7","Main Action","Agility","Signature / Skill / Attack / Movement","8 DP","s-75f95aa509b8")[
 #emph[#text("You turn through the surrounding blades, strike each opening in a single flowing sequence and step out before the circle closes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three distinct adjacent enemies.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three distinct adjacent enemies.")
 
 #text("Choose the targets and roll Agility once using the least favorable net Boons/Banes among them.")
 
@@ -2141,54 +2143,52 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Damage and movement resolve immediately.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Relentless Pursuit","7","Class Blade; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-d9eab10d11e5")[
 #emph[#text("You follow the retreating shoulder through the press, keeping your blade close enough that escape becomes another opening.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible enemy within 2 squares when it begins voluntary movement.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible enemy within 2 squares when it begins voluntary movement.")
 
 #text("After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, you may make one free Basic Melee attack against it using Brawn. Choose a legal route and endpoint; this does not stop or rewind its movement. If that movement was granted by a free attack, it cannot trigger this card’s free attack. No attack chains.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate pursuit and optional attack.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Perfect Placement","7","Class Blade; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-72486f7e3bed")[
 #emph[#text("You turn your opponent with the flat of your weapon, then step into the ground you have made them surrender.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One target of your Standard or Strong Main Action melee attack, then self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One target of your Standard or Strong Main Action melee attack, then self.")
 
 #text("After resolving the attack, push the target up to 2 squares directly away from you. Then you may move up to 2 squares without provoking. Resolve both in order along legal routes; normal collision rules apply to the push.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and personal movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 ]
+#tail-art("class-blade")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Arcanist","s-cb5021228f43")
 #emph[#text("You study the impossible until your hands can give it a shape the world must briefly accept.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Knowledge; HP contribution +2. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Knowledge; HP contribution +2.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.")
 
@@ -2248,170 +2248,161 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +6 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Arcanist hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-arcanist", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Bent Trajectory","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Utility","2 DP","s-a5b4dd204040")[
 #emph[#text("You incline a finger, sending your spell around the nearer edge of a pillar before it turns toward your mark.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Your single-target spell; choose one visible adjacent unoccupied origin square before rolling.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Your single-target spell; choose one visible adjacent unoccupied origin square before rolling.")
 
 #text("Your single-target spell may originate from the chosen square. Determine cover and attack path from there, but measure range from you. You must still see the target and cannot cast through an opaque barrier. This changes only the spell’s origin; it adds no roll or action.")
 
 #text("")#strong[#text("Duration:")]#text(" For that spell.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Deliberate Spark","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Control","2 DP","s-dfff0029aed9")[
 #emph[#text("You flick a final spark into the ground beside your target’s foot, forcing a stumbling step as the spell lands.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature hit by your Main Action damaging spell.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature hit by your Main Action damaging spell.")
 
 #text("On a Standard or Strong result, after resolving the spell, you may push one of its targets 1 square directly away from you. Use this once on your turn. It adds no direct damage; normal collision rules apply.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push after the spell.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 #card(icons: [],"Study the Pattern","1","Class Arcanist; minimum level 1","Maneuver","None — no roll","Signature / Magic / Utility","2 DP","s-83fb666fdd7b")[
 #emph[#text("You trace the glowing lines in the air until you can feel which thread is holding the magic together.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible ongoing magical effect within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible ongoing magical effect within 5 squares.")
 
 #text("Learn its purpose, whether it is sustained by a creature or an object, and its remaining duration if it has one. The DA also identifies one actual way to end or avoid it, if one exists. Gain 1 Boon to your next roll using that information before the scene ends. This reveals no hidden caster location, grants no dispelling ability, and does not identify an item’s dormant properties or curses.")
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon from studying a given effect per scene; reexamining it does not refresh that Boon.")
 
 ]
 #card(icons: [],"Cast and Scatter","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Movement","4 DP","s-2d8ecd1b85ad")[
 #emph[#text("Your spell bursts from your hands and you follow its recoil into a quick sidestep, robes brushing the space where you stood.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after your Main Action spell resolves.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after your Main Action spell resolves.")
 
 #text("Move up to 2 squares without provoking. Choose a legal route and free endpoint. This uses no movement allowance and does not change the spell’s result.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Leave a Window","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Utility","4 DP","s-336b5136b2e5")[
 #emph[#text("You spread your fingers around a companion’s silhouette and the gathering storm parts around them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature in your area spell, chosen before rolling.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature in your area spell, chosen before rolling.")
 
 #text("Exclude the chosen creature from every effect of that spell. Determine the least favorable net Boons/Banes from the remaining targets and roll once as usual. This changes no range or area and grants no immunity to later effects from other sources.")
 
 #text("")#strong[#text("Duration:")]#text(" For that spell.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Arcane Deflection","3","Class Arcanist; minimum level 3","Reaction","None — no roll","Signature / Magic / Defense","4 DP","s-969275257404")[
 #emph[#text("You catch the approaching spell against a spread palm and twist, sending its pressure back toward its maker.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one willing ally within 3 squares, before its defense against a spell.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one willing ally within 3 squares, before its defense against a spell.")
 
 #text("Grant 2 Boons to that defense, including a defense against an area spell. After a Strong defense, you may push the visible caster 1 square directly away from you if it is within 5 squares. Make no extra roll; this does not cancel the spell or protect other targets.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and immediate push.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Fold the Distance","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Movement","8 DP","s-5932fc2c7bf9")[
 #emph[#text("You pinch a crease in the air and step through it, drawing a companion across with your outstretched hand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and optionally one adjacent willing ally; visible free destinations within 4 squares of you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and optionally one adjacent willing ally; visible free destinations within 4 squares of you.")
 
 #text("Teleport yourself to a chosen destination. You may bring the ally to a separate free square adjacent to your destination, also within range. Both destinations must fit their occupants; no opaque barrier may separate either traveler from its destination. Neither traveler provokes, and the ally spends no action.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate teleportation.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Choose the Edge","7","Class Arcanist; minimum level 7","Passive","None — no roll","Signature / Magic / Control","8 DP","s-fbac25a80193")[
 #emph[#text("You turn both hands as the spell breaks, guiding its last rush of force toward the places you want emptied.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to two creatures affected by your Standard or Strong Main Action spell.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to two creatures affected by your Standard or Strong Main Action spell.")
 
 #text("After the spell resolves, push each chosen creature up to 2 squares directly away from you. Choose the order. This adds no direct damage; use normal forced movement and collisions. The spell need not already cause displacement.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 #card(icons: [],"Open the Circle","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Defense","8 DP","s-301348e613df")[
 #emph[#text("You sweep a ring of light around your companions, its edge rising like a thin glass wall when magic strikes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and willing allies within 2 squares when used.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and willing allies within 2 squares when used.")
 
 #text("Each recipient gains 1 Boon to defenses against spells until the start of your next turn. During that time, each recipient gains Stability 2 for the first forced movement against them, including being struck in a collision chain. Use the highest applicable Stability, maximum 3. This grant expires after that forced movement even if a higher Stability applied; it never reduces distance a second time. This is a ward, not physical cover.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; mark each recipient’s Stability grant when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Reapplying replaces your previous ward; it does not refresh a recipient’s spent Stability grant before your next turn.")
 
 ]
 ]
+#tail-art("class-arcanist")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Shepherd","s-2ec72f4532a5")
 #emph[#text("You listen for the wavering voice and help it find its way back to the others.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Reason, Guile; HP contribution +3. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Reason, Guile; HP contribution +3.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Life, Radiance, Medicine, Wilderness.")
 
@@ -2471,49 +2462,46 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +3 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Shepherd hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-shepherd", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Gentle Return","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Skill / Recovery / Movement","2 DP","s-1754613b54b5")[
 #emph[#text("You steady your companion as warmth returns, guiding their first step away from the place where they fell.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally you have just restored HP to with a spell or potion.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally you have just restored HP to with a spell or potion.")
 
 #text("That ally may stand without spending movement, then move 1 square without provoking if able. This works even if it was above 0 HP before healing. It grants no extra HP, reduces no healing payment and cannot reverse Last Words.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stand and movement after healing.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; the ally must actually regain HP.")
 
 ]
 #card(icons: [],"Hear Me Still","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Magic / Recovery / Movement","2 DP","s-61b0734b97e4")[
 #emph[#text("You keep speaking as you move closer, giving the fading breath a familiar voice to follow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing Dying ally within 3 squares that can hear you, when you use Stabilize.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing Dying ally within 3 squares that can hear you, when you use Stabilize.")
 
 #text("Your Stabilize can reach that ally without touch. After stabilizing it, you may move 1 square toward it without provoking. Stabilize still costs a Maneuver, clears death marks and restores no HP. The wound remains; Last Words cannot be interrupted.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stabilization and personal movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Ease the Burden","1","Class Shepherd; minimum level 1","Main Action","Reason","Signature / Skill / Recovery","2 DP","s-549d51c08fac")[
 #emph[#text("You kneel close, steady the trembling hands or bind the hurt, and talk your companion through the next breath.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature.")
 
 #text("Choose one temporary condition on the target: Bleeding, Frightened or Poisoned. Reduce only that condition, minimum 0.")
 
@@ -2532,52 +2520,49 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Immediate reduction and possible movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Quiet the Tremor","3","Class Shepherd; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Defense","4 DP","s-b86f62a4d65f")[
 #emph[#text("You meet their unfocused gaze, name something familiar and wait for their breathing to settle.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares that can hear you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares that can hear you.")
 
 #text("Reduce its temporary Frightened or Dazed by up to 2, minimum 0. Choose one condition. The target also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred condition removed, and no actions already spent are refunded.")
 
 #text("")#strong[#text("Duration:")]#text(" Reduction is immediate; the Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Bring Them Near","3","Class Shepherd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement / Defense","4 DP","s-8570d0c3185a")[
 #emph[#text("You reach toward your companion as the blow lands, calling them back along the safe route you can see.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 4 squares, after it takes damage.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 4 squares, after it takes damage.")
 
 #text("If still able to move, the ally may move up to 3 squares toward you without provoking. If it ends adjacent to you, it gains 1 Boon to its next defense before the start of your next turn. The attack already resolved; this does not undo its damage or move a Dying or restrained creature.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Careful Transfer","3","Class Shepherd; minimum level 3","Main Action","Reason","Signature / Magic / Recovery","4 DP","s-0569495be2d1")[
 #emph[#text("You press an open hand toward the injury and give a measured surge of your own warmth, keeping your voice steady as the effort leaves you pale.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, including self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, including self.")
 
 #text("Pay 3 HP before rolling, bypassing all resistance and leaving yourself above 0. A free hand is required. Apply Life resistance to healing, minimum 1 while HP is missing, and never exceed maximum HP.")
 
@@ -2598,9 +2583,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Healing and reductions are immediate.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A free hand; no item granted.")
+#text("")#strong[#text("Gear:")]#text(" A free hand; no item granted.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
@@ -2609,26 +2594,24 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [],"A Hand in Darkness","7","Class Shepherd; minimum level 7","Reaction","None — no roll","Signature / Skill / Recovery / Movement","8 DP","s-5339078db195")[
 #emph[#text("You hurry to the fallen voice, keep a hand against the wound and draw your companion into the shelter beside you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One ally within 3 squares, immediately after it enters Dying and its wound is resolved.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One ally within 3 squares, immediately after it enters Dying and its wound is resolved.")
 
 #text("Move up to 3 squares without provoking to a free square adjacent to the ally, then Stabilize it. You may move the ally 1 square to another free square adjacent to you without provoking if you have a free hand and can support its weight. If no route reaches it, you cannot use this card. Restore no HP and remove no wound; Last Words cannot be interrupted.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate approach, stabilization and optional extraction.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Restore Composure","7","Class Shepherd; minimum level 7","Main Action","Reason","Signature / Magic / Recovery","8 DP","s-383c1aff42e3")[
 #emph[#text("You take their shaking hands and pour life into them, holding their gaze until the battlefield comes back into focus.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, including self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, including self.")
 
 #text("Pay 7 HP before rolling, bypassing all resistance and leaving yourself above 0. Requires a free hand. Apply Life resistance to the healing, minimum 1 while HP is missing, capped by missing HP.")
 
@@ -2649,9 +2632,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Healing and reductions are immediate; spent actions are not restored.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A free hand; no item granted.")
+#text("")#strong[#text("Gear:")]#text(" A free hand; no item granted.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
@@ -2660,28 +2643,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [],"Shared Resolve","7","Class Shepherd; minimum level 7","Main Action","None — no roll","Signature / Skill / Recovery / Defense","8 DP","s-8b675c163f14")[
 #emph[#text("You gather your companions with a few familiar words, steadying one trembling voice after another until they answer together.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and up to three willing allies within 3 squares that can hear you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and up to three willing allies within 3 squares that can hear you.")
 
 #text("Each recipient chooses one temporary condition from Frightened, Dazed or Poisoned and reduces it by up to 2, minimum 0. Each also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred source removed and no spent actions returned. A recipient without those conditions still gains the defensive Boon.")
 
 #text("")#strong[#text("Duration:")]#text(" Reductions are immediate; Boons expire when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 ]
+#tail-art("class-shepherd")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Intellect","s-5f996d5a0ee9")
 #emph[#text("You see a pattern where others see only trouble, and trust your understanding enough to act.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Knowledge, Reason; HP contribution +2. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Knowledge, Reason; HP contribution +2.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.")
 
@@ -2741,176 +2723,167 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +8 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Intellect hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-intellect", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Spot the Leverage","1","Class Intellect; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility","2 DP","s-b22ada34d129")[
 #emph[#text("You study the hinges and weight of the obstacle, then point to the place where a small effort will matter most.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible ordinary obstacle within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible ordinary obstacle within 3 squares.")
 
 #text("Learn whether Force can overcome it, its remaining progress target, and one practical point at which to apply force. You or one ally who can hear your explanation gains 2 Boons to the next Force action against that obstacle before the scene ends. No permission to force an impossible obstacle is granted.")
 
 #text("")#strong[#text("Duration:")]#text(" Information persists; the Boons expire when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per obstacle per scene; repeated examination does not refresh spent Boons.")
 
 ]
 #card(icons: [],"Make the Connection","1","Class Intellect; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-a2d1a9eb1143")[
 #emph[#text("You set two pieces of evidence side by side and notice the small detail that makes them belong to the same story.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible person, object or scene with evidence you can examine.")
+#text("")#strong[#text("Target:")]#text(" An accessible person, object or scene with evidence you can examine.")
 
 #text("Spend one minute examining the evidence and state a question. Learn one supported fact relevant to it and a specific way to investigate further: a person to question, place to examine or test to perform, if one exists. If the evidence cannot answer your question, learn what kind of evidence is missing. No roll; obvious clues remain available to everyone. This does not reveal thoughts or invent events.")
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One reading per question until new evidence becomes available.")
 
 ]
 #card(icons: [],"Prepared Explanation","1","Class Intellect; minimum level 1","Passive","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-b12f04f5c58f")[
 #emph[#text("You give your companion a few precise words, then point out the place their next step should land.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One ally within 3 squares that can hear and understand your Aid.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One ally within 3 squares that can hear and understand your Aid.")
 
 #text("Your Aid can reach that ally. When you give Aid, the ally may also move 1 square without provoking before making the aided roll. This movement uses no ally action or movement allowance. Aid’s Boon and expiry are unchanged.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Aid lasts until used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" The movement benefit can be granted once on your turn.")
 
 ]
 #card(icons: [],"A Better Angle","3","Class Intellect; minimum level 3","Maneuver","None — no roll","Signature / Skill / Utility / Movement","4 DP","s-af63ae7d05da")[
 #emph[#text("You call two short directions, placing your companion where they can see the opening you have found.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 4 squares that can hear and understand you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 4 squares that can hear and understand you.")
 
 #text("The ally may move up to 3 squares without provoking. It gains 1 Boon to its next roll before the start of your next turn if that roll acts on a visible objective you name when using this card. The ally chooses whether and how to act; this grants no attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Diagnose the Failure","3","Class Intellect; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-7d356f4230de")[
 #emph[#text("You stop the turning wheel with a tool, listen to the last click and show your companions exactly where the mechanism went wrong.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible ordinary mechanism, damaged or functioning.")
+#text("")#strong[#text("Target:")]#text(" One accessible ordinary mechanism, damaged or functioning.")
 
 #text("Examine it for one minute. Learn its purpose, its working parts and a specific safe way to disable or repair it, if one exists. You can perform a simple accessible adjustment with suitable tools during that minute; a job requiring materials, dismantling or crafting still needs its usual permission and work. For such a job, you or one ally gains 2 Boons to the next appropriate roll following your diagnosis. This does not reveal a magical mechanism or a recipe.")
 
 #text("")#strong[#text("Duration:")]#text(" Information persists; the Boons last until used or the mechanism changes.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Suitable tools required for adjustments; grants craft tools, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Suitable tools required for adjustments; grants craft tools, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon grant per mechanism until it materially changes.")
 
 ]
 #card(icons: [],"Predict the Motion","3","Class Intellect; minimum level 3","Reaction","None — no roll","Signature / Skill / Defense","4 DP","s-70b23265ef79")[
 #emph[#text("You watch the attacker’s hips and shoulders, then call the turn before the weapon follows.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one willing ally within 3 squares, before defending against a visible physical attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one willing ally within 3 squares, before defending against a visible physical attack.")
 
 #text("The recipient may use Reason for this defense instead of its normal attribute and gains 1 Boon to the roll. An ally must hear and understand your warning. Resolve the ordinary defense once. This does not apply to poison, internal injury or mental intrusion.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense only.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"A Route for Everyone","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-c7151cad6573")[
 #emph[#text("You trace the route in the air and name each companion in turn, turning a crowded battlefield into a sequence of clear steps.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and up to three willing allies within 5 squares that can hear and understand you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and up to three willing allies within 5 squares that can hear and understand you.")
 
 #text("Each recipient may move up to 3 squares without provoking, in an order you choose. Each gains 1 Boon to its next defense before the start of your next turn. Choose legal routes and separate free endpoints; this grants no attacks.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Test the Hypothesis","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d4ae4f067a54")[
 #emph[#text("You arrange the evidence, explain what must have happened and ask your companions to watch while you test the part that could prove you wrong.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible evidence set and one question about what happened.")
+#text("")#strong[#text("Target:")]#text(" An accessible evidence set and one question about what happened.")
 
 #text("Spend ten minutes examining the evidence. Obtain a supported sequence of events answering your question as far as the evidence allows. The DA states what remains uncertain, one contradiction in your explanation if the evidence contains one, and a concrete lead for checking it if one exists. Share the account with your companions; they need no duplicate interpretation rolls. No secret facts are invented.")
 
 #text("")#strong[#text("Duration:")]#text(" The account and its stated limits remain known.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One account per question; new evidence permits a new examination.")
 
 ]
 #card(icons: [],"Expose the Mechanism","7","Class Intellect; minimum level 7","Maneuver","None — no roll","Signature / Skill / Utility","8 DP","s-fa4cc330b2e7")[
 #emph[#text("You point out the repeating hesitation in the creature’s movements and call to your companions just as it happens again.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature or active device within 5 squares; up to two allies within 5 squares that can hear you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature or active device within 5 squares; up to two allies within 5 squares that can hear you.")
 
 #text("Learn one actual resistance and one actual weakness of the target, if present, and one capability you have seen it use in this scene. The DA explains that capability’s visible trigger or limitation. Each chosen ally gains 1 Boon to its next roll against that target before the start of your next turn. No weakness is created and no resistance is reduced.")
 
 #text("")#strong[#text("Duration:")]#text(" Information persists; each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 ]
+#tail-art("class-intellect")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Leader","s-a06f8adb7ce7")
 #emph[#text("You turn to your companions and give them a reason to move together.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Guile, Fortitude; HP contribution +4. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Guile, Fortitude; HP contribution +4.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Influence, Guard, Arms, Scholarship.")
 
@@ -2970,170 +2943,161 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +6 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Leader hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-leader", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Follow My Signal","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-0f6fad7e5362")[
 #emph[#text("You lift two fingers and catch a pair of answering glances; both companions know what comes next.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to two allies within 3 squares that can see or hear your Aid signal.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to two allies within 3 squares that can see or hear your Aid signal.")
 
 #text("When you use Aid, you may assist two allies instead of one. Name the task for each and explain how your signal helps. Each gains Aid’s normal 1 Boon to its next matching roll before the start of your next turn. Outside combat, Aid still replaces your own contribution to a group roll.")
 
 #text("")#strong[#text("Duration:")]#text(" Each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One two-recipient Aid on your turn; further Aid uses are ordinary.")
 
 ]
 #card(icons: [],"Lead the Step","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e50044a24182")[
 #emph[#text("You give ground with one hand extended, drawing your companions after you before the enemy can separate you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to two adjacent willing allies, when you use Disengage.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to two adjacent willing allies, when you use Disengage.")
 
 #text("Each chosen ally may move 1 square without provoking, in an order you choose. Your Disengage works normally. The allies spend no actions or movement allowances and must end in separate free squares.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate ally movement; your Disengage lasts for this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Stand Together","1","Class Leader; minimum level 1","Maneuver","None — no roll","Signature / Skill / Defense","2 DP","s-39476eb68bda")[
 #emph[#text("You plant yourself beside a companion and turn your guard outward, making the space between you a harder place to attack.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one adjacent willing ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one adjacent willing ally.")
 
 #text("Both gain 1 Boon to defense until the start of your next turn while adjacent to one another. You must remain able to act. Reusing this card replaces your previous application; it does not multiply it.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn or adjacency is lost.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Press the Opening","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Attack","4 DP","s-6e50ebac724a")[
 #emph[#text("You spot an enemy’s exposed side, shout your companion’s name and send them into the gap.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 4 squares that can perceive your signal and is adjacent to an enemy.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 4 squares that can perceive your signal and is adjacent to an enemy.")
 
 #text("The ally makes one free Basic Melee attack against an adjacent enemy, using its own Brawn and Basic Melee outcomes. On Strong, it may also push the target 1 square directly away from itself. The ally needs a melee weapon and must be able to attack. Free attacks trigger no further free attacks.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate attack.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; the attack is basic, never a specialty card.")
 
 ]
 #card(icons: [],"Orderly Withdrawal","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-7d4b0a5ef947")[
 #emph[#text("You call a short retreat and count the steps, keeping the line together as everyone moves.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two willing allies within 4 squares that can perceive your signal.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two willing allies within 4 squares that can perceive your signal.")
 
 #text("Each may move up to 2 squares without provoking, in an order you choose. Each may end farther from or nearer to the fight as needed; no attack is granted. Choose legal routes and free endpoints.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Hold Your Nerve","3","Class Leader; minimum level 3","Reaction","None — no roll","Signature / Skill / Recovery","4 DP","s-effa525784b5")[
 #emph[#text("You call your companion’s name above the din, steadying their breath before panic or shock can take hold.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 4 squares that can hear you, when it gains temporary Frightened or Dazed.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 4 squares that can hear you, when it gains temporary Frightened or Dazed.")
 
 #text("Reduce the newly applied contribution of that condition by up to 2, minimum 0, before it takes effect. This does not remove an older contribution or a starred source. No HP is restored.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate reduction of the new contribution.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Coordinated Rush","7","Class Leader; minimum level 7","Main Action","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-3d45ba1843d4")[
 #emph[#text("You signal the rush and watch two companions strike together, each arriving where the other needs them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two willing allies within 4 squares that can perceive your signal.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two willing allies within 4 squares that can perceive your signal.")
 
 #text("Each ally may move up to 3 squares without provoking, then make one free Basic Melee attack against an adjacent enemy if able. Resolve one ally completely before the other. Each attack uses that ally’s Brawn and Basic Melee outcomes; on Strong it may push its target 1 square. Weapons are required. These attacks trigger no further free attacks.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement and attacks.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Refuse the Rout","7","Class Leader; minimum level 7","Maneuver","None — no roll","Signature / Skill / Recovery / Defense / Movement","8 DP","s-bc5e21ff4153")[
 #emph[#text("You stand where everyone can see you, raise your voice and turn a scattering retreat into a line that holds.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and up to three willing allies within 4 squares that can hear you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and up to three willing allies within 4 squares that can hear you.")
 
 #text("Each recipient reduces temporary Frightened by up to 2, minimum 0, and gains 1 Boon to its next defense before the start of your next turn. Each may immediately move 1 square without provoking. Resolve movement in an order you choose. No effect on starred conditions, and no restoration of actions already spent.")
 
 #text("")#strong[#text("Duration:")]#text(" Condition reduction and movement are immediate; Boons expire when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Watch the Rear","7","Class Leader; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-5bd9cb02895a")[
 #emph[#text("You shout a warning before the blow lands, then direct your companion out of the next attacker’s reach.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 5 squares that can hear you, before its defense against an attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 5 squares that can hear you, before its defense against an attack.")
 
 #text("Grant 2 Boons to that defense. After the entire attack resolves, the ally may move up to 3 squares without provoking if still able. This does not invalidate, redirect or rewind the attack.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and subsequent movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 ]
+#tail-art("class-leader")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Unbalanced","s-94403698c5ab")
 #emph[#text("You meet the obstacle with everything you are, and let it discover whether that is enough.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Brawn, Fortitude; HP contribution +6. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Brawn, Fortitude; HP contribution +6.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.")
 
@@ -3193,66 +3157,62 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Unbalanced hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-unbalanced", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Shoulder Through","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Control / Movement","2 DP","s-d3462890bae0")[
 #emph[#text("You drive your shoulder into the resistance and keep pushing after the first step gives way.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature pushed by your Force action.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature pushed by your Force action.")
 
 #text("Add 1 square to your Force push, on any result. You may then move 1 square directly toward the target without provoking if the square is free. This adds no grapple reduction or obstacle progress, and grants no attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate additional push and following step.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Wild Approach","1","Class Unbalanced; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-684f1a60a6ab")[
 #emph[#text("You roar and charge into the opening, arriving with your whole weight behind the next blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; one visible enemy.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; one visible enemy.")
 
 #text("Move up to 3 squares toward that enemy. This movement provokes normally. Gain 1 Boon to your next Main Action melee attack this turn. You must actually move at least 1 square to gain the Boon.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or this turn ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Laugh at the Fall","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e0dcb7aef2c3")[
 #emph[#text("You spit out the dust, bark a laugh and surge to your feet before the enemy has finished enjoying the sight.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, when you stand from Prone.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, when you stand from Prone.")
 
 #text("Standing costs 1 square of movement instead of 2. After standing on your turn, gain 1 Boon to your next Force action or Main Action melee attack before that turn ends. This grants no ability to stand while movement is prohibited.")
 
 #text("")#strong[#text("Duration:")]#text(" Standing cost is always changed; the Boon expires when used or this turn ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" The Boon can be gained once on your turn; repeated standing does not stack it.")
 
 ]
 #card(icons: [],"Crush the Barrier","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Utility / Movement","4 DP","s-ddb5ca797a91")[
 #emph[#text("You hear the first crack, plant your feet and drive through the weak point with another heave.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent ordinary physical obstruction.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent ordinary physical obstruction.")
 
 #text("Use Force to overcome the obstruction; the DA states its progress target and consequences before rolling.")
 
@@ -3271,18 +3231,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Progress and any completed opening persist; movement is immediate.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Fling the Captive","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Attack / Control","4 DP","s-b5b21bea0df4")[
 #emph[#text("You catch the struggling body, turn hard at the hips and release the whole tangle in a violent throw.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature, whether or not you already grapple it.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature, whether or not you already grapple it.")
 
 #text("Release any Grappled contribution you maintain on the target, then roll Brawn. You must have a Main Action before releasing; this card cannot be used while you are Grappled 3.")
 
@@ -3301,35 +3260,33 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Immediate damage, push and Prone.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Raging Recoil","3","Class Unbalanced; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-67c920babae2")[
 #emph[#text("You snarl at the pain and shove back into the attacker, following the stumble with another aggressive step.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature, after it damages you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature, after it damages you.")
 
 #text("Push it up to 2 squares directly away, then you may move up to 2 squares toward it without provoking. Choose a legal route and free endpoint. The original damage remains; this adds no attack or direct damage beyond collisions.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Scatter the Line","7","Class Unbalanced; minimum level 7","Main Action","Brawn","Signature / Skill / Control","8 DP","s-c5fe70133bbd")[
 #emph[#text("You throw your arms wide and drive into the bodies around you, sending the whole front rank stumbling away.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every enemy adjacent when you begin.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every enemy adjacent when you begin.")
 
 #text("Roll Brawn once using the least favorable net Boons/Banes among the targets.")
 
@@ -3348,54 +3305,52 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement and Prone.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Break Their Grip","7","Class Unbalanced; minimum level 7","Maneuver","None — no roll","Signature / Skill / Control / Movement","8 DP","s-28b3f83e4d98")[
 #emph[#text("You wrench your shoulders free and crash back against the hands that tried to hold you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self while Grappled 1 or 2, and one adjacent creature contributing to that grapple.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self while Grappled 1 or 2, and one adjacent creature contributing to that grapple.")
 
 #text("Reduce your Grappled rating by up to 2, removing actual contributions you choose and the matching burden on those grapplers. Then push one contributing adjacent grappler up to 2 squares directly away and move 1 square without provoking if now able. You must have retained a Maneuver; at Grappled 3 you cannot use this card.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate release, push and possible step.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Crash Down","7","Class Unbalanced; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-be941930d850")[
 #emph[#text("You drive the target backward and finish the motion with a downward wrench that leaves them sprawled where they land.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature pushed by your Main Action attack or Force action.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature pushed by your Main Action attack or Force action.")
 
 #text("After that push resolves, you may knock the target prone even if it did not strike an obstruction. Then you may move 1 square toward it without provoking if a legal free square is available. This adds no collision damage and cannot create numbered Prone.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate knockdown and step.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 ]
+#tail-art("class-unbalanced")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Shadow","s-6a13115a845b")
 #emph[#text("You learn the unguarded routes through a world that rarely looks in the right direction.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Guile; HP contribution +3. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Guile; HP contribution +3.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.")
 
@@ -3455,100 +3410,94 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +3 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Shadow hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-shadow", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Fade Behind","1","Class Shadow; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-30c2afe19eb4")[
 #emph[#text("You give ground without a sound, using the enemy’s reaching weapon to hide the direction of your first step.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, when you use Disengage.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, when you use Disengage.")
 
 #text("As part of Disengage, move up to 2 squares without provoking. This additional movement makes no audible footfalls but does not silence speech or deliberately used equipment. It does not grant Hidden in open view; actual concealment still matters.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement; Disengage lasts for this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Soft Landing","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-2e6ccf98e312")[
 #emph[#text("You vault the low rail and land on bent knees, catching your balance before a loose stone can rattle.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; a visible supported free landing within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; a visible supported free landing within 2 squares.")
 
 #text("Jump to the destination without provoking. You may cross a gap or low obstacle but not a wall or an occupied standing creature’s square. Land standing without audible footfalls. This grants no protection from a separate fall and requires a landing you can reach within the printed distance.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate jump.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Turn Their Eye","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-ce1fbee7c24c")[
 #emph[#text("You send a glance and a tiny distracting motion toward one side while your companion slips quietly toward the other.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 3 squares that can perceive your signal.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 3 squares that can perceive your signal.")
 
 #text("Provide a plausible distraction that nearby observers can see or hear. The ally may move up to 2 squares without provoking and gains 1 Boon to its next roll to remain unnoticed before the start of your next turn. The movement itself grants no Hidden in open view.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Pass the Guard","3","Class Shadow; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-4ca2a9cc24a6")[
 #emph[#text("You slip along the blind side of the struggle, ducking below a reach and stepping through the open space beyond.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; a legal route of up to 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; a legal route of up to 3 squares.")
 
 #text("Move up to 3 squares without provoking. Ignore the extra cost of difficult terrain during this move, but do not cross standing occupied squares or barriers. The movement grants no attack or automatic Hidden.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Strike and Vanish","3","Class Shadow; minimum level 3","Passive","None — no roll","Signature / Skill / Movement","4 DP","s-cdb380739469")[
 #emph[#text("Your strike lands and you slip away on its follow-through, already looking for the next patch of cover.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after your Main Action attack resolves.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after your Main Action attack resolves.")
 
 #text("After any result, move up to 1 square without provoking. After a Standard or Strong result, move up to 3 squares instead. An attack from Hidden ends Hidden normally; this movement does not automatically hide you again.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
 #card(icons: [],"Open the Way","3","Class Shadow; minimum level 3","Main Action","Guile","Signature / Skill / Utility","4 DP","s-f7ab06745db5")[
 #emph[#text("You find the lock’s rhythm through the tool, work its stubborn point and ease it open without a click.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent ordinary lock.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent ordinary lock.")
 
 #text("Use lock tools to work toward the DA’s stated opening target. Each attempt takes a Main Action, in or out of combat.")
 
@@ -3567,18 +3516,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Progress persists for that lock.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Lock tools required; grants one set, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Lock tools required; grants one set, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Unseen Passage","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Magic / Utility / Movement","8 DP","s-a2279ea79d77")[
 #emph[#text("You draw the surrounding shadow across your body like a cloak and slip away while your outline fades from sight.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Shroud yourself from sight, then move up to 3 squares without provoking. Until the end of your next turn, you cannot be selected as a visible target. Attacks that do not require seeing you and areas covering your square can still affect you. You remain solid and audible; this grants no passage through barriers or occupied squares.")
 
@@ -3586,56 +3534,54 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn, or immediately after an ending action.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Exploit Confusion","7","Class Shadow; minimum level 7","Reaction","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-5a7e0c915748")[
 #emph[#text("You see the enemy stagger under a companion’s blow and dart in before they can gather themselves.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible enemy within 3 squares, after another creature applies temporary Dazed, Blinded or Frightened to it.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible enemy within 3 squares, after another creature applies temporary Dazed, Blinded or Frightened to it.")
 
 #text("Move up to 2 squares toward that enemy without provoking. If you finish adjacent, make one free Basic Melee attack using Brawn; on Strong you may also move 1 square without provoking afterward. You need a melee weapon and must be able to attack. If the triggering condition came from a free attack, it cannot trigger this card’s free attack. No further free attacks arise from your attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate approach, attack and possible exit.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Leave No Pursuit","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d84cf605bef5")[
 #emph[#text("You brush away the obvious prints, point out the stones that keep none and lead the party off the route their pursuers expect.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes preparation, then up to one hour of guided travel.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and up to six willing companions following your route outside combat.")
+#text("")#strong[#text("Target:")]#text(" Self and up to six willing companions following your route outside combat.")
 
 #text("Spend ten minutes preparing a departure from a campsite or other stopping place. Conceal ordinary traces of the departure and guide the group for up to one hour. Attempts to follow those ordinary tracks take 2 Banes. This does not erase magical marks, remove witnesses or conceal people from direct view. The protection ends where the party leaves your guidance or creates a conspicuous new trail.")
 
 #text("")#strong[#text("Duration:")]#text(" The concealed trail remains difficult to follow until new evidence exposes it.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per departure; repeated preparation does not add more Banes.")
 
 ]
 ]
+#tail-art("class-shadow")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Odd","s-fe83ef834cbc")
 #emph[#text("You have never fit the expected answer, and have learned to make that useful.")]
 
-#heading(level: 3)[#text("Rules")]
-#text("")#strong[#text("Class foundations:")]#text(" no attribute minimums; HP contribution +3. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" no attribute minimums; HP contribution +3.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Marksmanship, Armor, Guard, Athletics, Subterfuge, Influence, Scholarship, Wilderness, Craft, Medicine, Flame, Frost, Storm, Life, Radiance, Mind, Calling.")
 
@@ -3695,119 +3641,112 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Odd hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-odd", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Sideways Thinking","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-eb5d31ce8508")[
 #emph[#text("You turn the problem around in your hands, notice a familiar principle and begin doing something no one else thought to try.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before an ordinary noncombat task roll.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before an ordinary noncombat task roll.")
 
 #text("Describe a plausible approach based on reasoning. Use Reason for that roll and gain 1 Boon. You still need any specialist permission and suitable tools. This cannot replace an attribute printed on another learned card or make an impossible action possible.")
 
 #text("")#strong[#text("Duration:")]#text(" That roll only.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per scene, declared before rolling.")
 
 ]
 #card(icons: [],"Useful Interruption","1","Class Odd; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-0fd1d5ea6ba6")[
 #emph[#text("You interrupt with a question, a spilled drink or an absurdly well-timed cough, and your companion moves while everyone looks at you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature within 3 squares that can see or hear your distraction; one willing ally within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature within 3 squares that can see or hear your distraction; one willing ally within 3 squares.")
 
 #text("Describe a distraction the creature can perceive. The ally may move up to 2 squares without provoking from that creature. It also gains 1 Boon to its next roll against that creature before the start of your next turn. Other enemies can still react to the movement. This does not compel belief or grant Hidden.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; the Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Always a Way Around","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-6c081a245131")[
 #emph[#text("You brace, tug or shove until something gives, then slip into the space the struggle has opened.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after you resolve Force.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after you resolve Force.")
 
 #text("Move up to 2 squares without provoking after your Force action. If you reduced your own Grappled rating to 0, you may stand without spending movement before taking this move. The card does not let you use Force without a Main Action or move while still Grappled.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stand and movement if allowed.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Unlikely Assistant","3","Class Odd; minimum level 3","Passive","None — no roll","Signature / Skill / Utility","4 DP","s-b1469237eba4")[
 #emph[#text("You wedge a boot where a tool should go, offer an unexpected comparison and somehow make the work easier.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One ally within 3 squares that can understand your Aid.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One ally within 3 squares that can understand your Aid.")
 
 #text("Your Aid reaches that ally and grants 2 Boons instead of 1 to the declared task’s next roll. Describe how your unusual method helps. It grants no missing specialist permission, extra crafting attempt or additional contribution to a group check.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the aided roll or the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Normal Aid action and group-check restrictions apply.")
 
 ]
 #card(icons: [],"Change the Question","3","Class Odd; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-dacb14d20957")[
 #emph[#text("You stop pulling at the locked door and look up at the hinge, then show everyone the different problem you mean to solve.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One noncombat obstacle you and your companions can examine.")
+#text("")#strong[#text("Target:")]#text(" One noncombat obstacle you and your companions can examine.")
 
 #text("Spend one minute examining the obstacle and describe an alternative approach. The DA identifies one workable alternative using available people, tools or features, if one exists, and states its risks. If none exists, learn the concrete missing resource or access that prevents it. You and one ally each gain 1 Boon to the next roll pursuing that alternative this scene. This grants no automatic success or specialist permission.")
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; Boons expire when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One examination of an obstacle per scene unless its circumstances change.")
 
 ]
 #card(icons: [],"Wrong Place for That","3","Class Odd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-3da2e55163a8")[
 #emph[#text("You catch a companion by the sleeve and stumble away together, leaving the next blow aimed at suddenly empty ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one adjacent willing ally, after an attack against either of you resolves.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one adjacent willing ally, after an attack against either of you resolves.")
 
 #text("You and that ally may each move up to 2 squares without provoking. Choose the order and legal free endpoints. Each must still be able to move. The triggering attack has already resolved; this provides no retroactive protection.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"Strange but Effective","7","Class Odd; minimum level 7","Main Action","Guile","Signature / Skill / Control / Utility","8 DP","s-f5b1428a3a0c")[
 #emph[#text("You loop a strap, plant your heel against a unlikely purchase and pull with a grin as the whole problem lurches sideways.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent obstacle or creature, or your own Grappled condition.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent obstacle or creature, or your own Grappled condition.")
 
 #text("Choose Force’s intended result before rolling: obstacle progress, reducing your Grappled rating, or pushing a creature. Describe a plausible means of exerting force.")
 
@@ -3828,35 +3767,33 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Immediate progress, reduction or push, then movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
 
 ]
 #card(icons: [],"An Unexpected Exit","7","Class Odd; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-ae834ac0cfe1")[
 #emph[#text("You spot the half-hidden stair, haul your companion toward it and disappear from the place everyone thought had you cornered.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and optionally one adjacent willing ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and optionally one adjacent willing ally.")
 
 #text("Move up to your Speed without provoking. The ally may follow along a legal route up to the same distance, spending no action, and must end in a separate free square adjacent to you. Both must be able to move; this does not cross standing occupied squares, barriers or otherwise impassable terrain.")
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"One Last Remark","7","Class Odd; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-e60cb2c9304a")[
 #emph[#text("You answer the cry of pain with a sharp, stubborn joke, giving your companion something to do before despair catches up.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing ally within 4 squares that can hear you, after it takes damage; alternatively, when you hear an ally’s Last Words within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing ally within 4 squares that can hear you, after it takes damage; alternatively, when you hear an ally’s Last Words within 4 squares.")
 
 #text("After damage resolves, the chosen ally may move up to 3 squares without provoking or make one free Basic Melee attack against an adjacent enemy. It must be able to take the chosen action.")
 
@@ -3866,22 +3803,22 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Immediate chosen benefits.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Normal Reaction cost; the Last Words benefit can trigger once per dying ally.")
 
 ]
 ]
+#tail-art("class-odd")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Warden","s-2ad683228880")
 #emph[#text("You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.")]
 
-#heading(level: 3)[#text("Rules")]
 #text("")#strong[#text("Identity:")]#text(" wilderness guide, tracker and hunter. Nature magic and animal companions are optional shared purchases, not required class features.")
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude and Knowledge; HP contribution +4. No multiclassing.")
+#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude and Knowledge; HP contribution +4.")
 
 #text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.")
 
@@ -3932,121 +3869,114 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
-], [#art(height: 460pt, brief: "Warden hero demonstrating the class identity in a scene with companions. Leave room for a strong readable silhouette.")])
+], [#illustration("class-warden", height: 460pt, fit: "cover")])
 #pagebreak(weak: true)
 #twocol[
 #card(icons: [],"Keep the Quarry Close","1","Class Warden; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-f28a32bf04d4")[
 #emph[#text("You loose your shot, watch the quarry turn and run to keep its path in view.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after your Main Action attack against one visible creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after your Main Action attack against one visible creature.")
 
 #text("Once on your turn, after resolving a Standard or Strong Main Action attack, move toward one creature affected by it: up to 1 square on Standard, or 2 on Strong. This movement does not provoke. You must be able to move and follow a legal route; it grants no attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
 #card(icons: [],"Read the Passing","1","Class Warden; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-e66b2d4a9624")[
 #emph[#text("You kneel beside a bent stem, brush grit from a footprint and look toward the gap the travelers chose.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Accessible tracks or other physical signs you can examine for one minute.")
+#text("")#strong[#text("Target:")]#text(" Accessible tracks or other physical signs you can examine for one minute.")
 
 #text("Examine the signs for one minute. Learn the direction of travel and one supported detail about the travelers, such as their number, gait or burden. If the signs cannot support either answer, learn what obscures them. Gain 1 Boon to your next roll following this trail this scene. Obvious tracks remain readable by anyone; this reveals no exact unseen location or evidence that does not exist.")
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per set of signs; new evidence permits another use.")
 
 ]
 #card(icons: [],"Follow My Footsteps","1","Class Warden; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-832b3ffd50b5")[
 #emph[#text("You test the ground with your boot and offer a hand, bringing your companion onto the firm patch beside you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one adjacent willing ally able to move.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one adjacent willing ally able to move.")
 
 #text("Move up to 1 square, then the ally may move up to 1 square. Both movements ignore difficult-terrain surcharges and do not provoke. Each must follow a legal route and end in a separate supported free square. This does not cross gaps or standing creatures. The ally spends no action.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each participant moves once per use.")
 
 ]
 #card(icons: [],"Stay on the Scent","3","Class Warden; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-5164ea0bc907")[
 #emph[#text("You watch the first turn of their shoulders and cut toward their escape route before their footsteps fade.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible enemy within 5 squares when it begins voluntary movement.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible enemy within 5 squares when it begins voluntary movement.")
 
 #text("After that movement ends, move up to 3 squares toward its final position without provoking, if you can still see it. Gain 1 Boon to your next attack against it before the end of your next turn. You must be able to move; this grants no attack and does not reveal a creature that becomes Hidden.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; the Boon ends when used or at the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Reaction per use; repeated uses do not multiply the unused Boon.")
 
 ]
 #card(icons: [],"Through Bramble and Stone","3","Class Warden; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-28218ee7d31b")[
 #emph[#text("You lift a thorny branch, find a foothold between the stones and turn to show your companion the way through.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one willing ally initially adjacent.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one willing ally initially adjacent.")
 
 #text("Move up to 3 squares along a legal route, ignoring difficult-terrain surcharges and without provoking. Then the ally may move up to 1 square with the same benefits, ending adjacent to you. Both must be able to move and finish in supported free squares. If the ally cannot reach a legal adjacent endpoint, it stays where it is. No gaps, barriers or occupied standing squares are crossed.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each participant moves once per use.")
 
 ]
 #card(icons: [],"A Watchful Rest","3","Class Warden; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-2b2e175030a8")[
 #emph[#text("You circle the camp, test the ground for water and point out the approaches before assigning the first watch.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A possible resting place and up to six willing companions; ten minutes of examination.")
+#text("")#strong[#text("Target:")]#text(" A possible resting place and up to six willing companions; ten minutes of examination.")
 
 #text("Spend ten minutes examining an accessible resting place. Learn its exposed approaches and any local environmental danger that observable signs can reveal. Prepare a watch plan. For the next eight hours while remaining there, you and the chosen companions gain 1 Boon to consequential rolls noticing approaching danger. This grants no automatic detection, shelter, supplies, safe-place ruling or Grit recovery. Sleeping characters do not become awake observers.")
 
 #text("")#strong[#text("Duration:")]#text(" Eight hours or until the group leaves.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One prepared resting place per Warden; preparing another ends the previous benefit.")
 
 ]
 #card(icons: [],"Turn the Hunt","7","Class Warden; minimum level 7","Main Action","Knowledge","Signature / Skill / Attack / Movement","8 DP","s-0f9422cc4ac4")[
 #emph[#text("You read the turn of the beast’s weight and strike where its next step must fall, driving it toward the ground you chose.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature: adjacent with a melee weapon, or within 8 squares with a ranged weapon and ammunition.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature: adjacent with a melee weapon, or within 8 squares with a ranged weapon and ammunition.")
 
 #text("Choose melee or ranged before rolling Knowledge. Make one attack.")
 
@@ -4065,51 +3995,49 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Damage and movement are immediate; Slowed decays normally.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" On learning, choose one ordinary melee weapon or one ordinary ranged weapon with a d8 ammunition bundle; grant each chosen item only if absent. Each item is Bulk 1. Each use requires the equipment for its chosen attack mode.")
+#text("")#strong[#text("Gear:")]#text(" On learning, choose one ordinary melee weapon or one ordinary ranged weapon with a d8 ammunition bundle; grant each chosen item only if absent. Each item is Bulk 1. Each use requires the equipment for its chosen attack mode.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One attack per use.")
 
 ]
 #card(icons: [],"Bring Them Through","7","Class Warden; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-c88fd560b879")[
 #emph[#text("You call out footholds and openings in a steady voice, guiding your companions through the broken ground before the enemy can close it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three willing allies visible within 4 squares, able to hear your directions and move.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three willing allies visible within 4 squares, able to hear your directions and move.")
 
 #text("Each ally may move up to 3 squares along a legal route without provoking, ignoring difficult-terrain surcharges. Resolve them one at a time; each ends in a supported free square. This does not cross gaps, barriers or occupied standing creatures. Allies spend no actions.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each ally moves once per use.")
 
 ]
 #card(icons: [],"Know What You Hunt","7","Class Warden; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-26c3b0a051bf")[
 #emph[#text("You point out the plates that overlap, the limb it favors and the moment its breath catches, telling your companions where to meet it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 8 squares that you have seen perform an ability or leave physical evidence.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 8 squares that you have seen perform an ability or leave physical evidence.")
 
 #text("Study the creature and name up to three willing allies within 5 squares who can hear you. The DA reveals two true, useful facts from its actual resistances, weaknesses or observed ability restrictions. If fewer exist, learn all that exist; invent none. Each chosen ally gains 1 Boon to its next roll acting against that creature this scene. This does not expose its thoughts, unseen location or an unobserved secret identity.")
 
 #text("")#strong[#text("Duration:")]#text(" Facts remain known; each Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per creature per scene; repeated uses do not renew spent benefits.")
 
 ]
 ]
+#tail-art("class-warden")
 #chapter("5","Disciplines and Character Paths")
 #metadata("s-6289e7cc8d28")<s-6289e7cc8d28>
-#twocol[
-#text("A discipline is a field of study. An ability is something you have learned to do") #text("with it. Your hero might study Arms to practice martial techniques, Life to restore") #text("others, or Scholarship to understand and exploit what others overlook.")
+#grid(columns: (1fr,1fr), gutter:18pt, [#text("A discipline is a field of study. An ability is something you have learned to do") #text("with it. Your hero might study Arms to practice martial techniques, Life to restore") #text("others, or Scholarship to understand and exploit what others overlook.")
 
 #text("Ranks run from 1 to 3 and must be bought in order. There is no level gate on a rank,") #text("but the ability you want may require level 3 or 7. Read the requirements before") #text("spending: Arms 2 and Subterfuge 1 means you must own both. A rank by itself grants") #text("no action, equipment, attribute bonus or unrestricted use of that discipline's cards.")
 
@@ -4118,19 +4046,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #heading(level: 3)[#text("Choose a direction")]
 #text("Imagine what you want to do for the company. A healer might protect a retreat,") #text("restore HP, treat lasting injuries, or combine all three. A nature-focused hero") #text("might become a beast, command an animal, control the ground, or guide companions") #text("through dangerous country. These are different choices even when they share a theme.")
 
-#text("The character paths that follow are suggestions, not subclasses. Mix them freely") #text("where you meet the requirements. The listed cards do not waive DP, tier or discipline") #text("requirements, and a suggested future card is not part of your starting equipment.")
+#text("The four character paths that follow show different ways to build a hero: a Thinking") #text("Fighter, Green Healer, Spellblade and Light-Fingered Adventurer. They are examples, not subclasses. Mix them freely") #text("where you meet the requirements. The listed cards do not waive DP, tier or discipline") #text("requirements, and a suggested future card is not part of your starting equipment.")
 
 #text("Keep a few abilities ready for the scenes you expect most often. You may know several") #text("attacks, but you still have only the actions you can spend. A useful Maneuver, Reaction,") #text("travel skill or social technique can matter more than another similar Main Action.")
 
-]
+], [#illustration("class-intellect",height:530pt)])
 #pagebreak(weak: true)
 #twocol[
 #block(breakable: false)[
-#image("../icons/armor.svg", width: 18pt)
+#discipline-mark("armor","", size: 30pt)
 #entry("Armor","s-d65e53332dd3")
 #emph[#text("You learn to carry protection as part of your own body, moving with its weight instead of against it.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Using armor and moving effectively while protected.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4139,11 +4067,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/arms.svg", width: 18pt)
+#discipline-mark("arms","", size: 30pt)
 #entry("Arms","s-3665eb8edb20")
 #emph[#text("You practice until distance, timing and the turn of a weapon become familiar companions.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Practiced melee techniques; weapon appearance never determines damage.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4152,11 +4080,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/athletics.svg", width: 18pt)
+#discipline-mark("athletics","", size: 30pt)
 #entry("Athletics","s-2a0238121fdd")
 #emph[#text("You learn what your body can do when the easy path ends.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Expert movement and exertion beyond ordinary Brawn or Agility tasks.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4165,11 +4093,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/calling.svg", width: 18pt)
+#discipline-mark("calling","", size: 30pt)
 #entry("Calling","s-4fab125b36fd")
 #emph[#text("You learn the names and gestures that bring an answer from somewhere beyond your reach.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Summoned creatures and command techniques.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4178,11 +4106,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/craft.svg", width: 18pt)
+#discipline-mark("craft","", size: 30pt)
 #entry("Craft","s-15a9aa1a27c4")
 #emph[#text("You learn to see the useful thing waiting inside the raw material.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Recipes, repairs and derivation; no group crafting.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4191,11 +4119,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/flame.svg", width: 18pt)
+#discipline-mark("flame","", size: 30pt)
 #entry("Flame","s-1d771974c7da")
 #emph[#text("You come to know the difference between a warming ember and a fire asking to be freed.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Fire damage, heat and controlled ignition.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4204,11 +4132,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/frost.svg", width: 18pt)
+#discipline-mark("frost","", size: 30pt)
 #entry("Frost","s-1f2c78918dd5")
 #emph[#text("You learn to listen to stillness and give it the shape of winter.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Cold damage, freezing and ice shaping.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4217,11 +4145,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/guard.svg", width: 18pt)
+#discipline-mark("guard","", size: 30pt)
 #entry("Guard","s-aa348ec36b9e")
 #emph[#text("You practice being where another person needs you before they have to ask.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Shields, interception and protection of others.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4230,11 +4158,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/influence.svg", width: 18pt)
+#discipline-mark("influence","", size: 30pt)
 #entry("Influence","s-4dd8bd26a8c9")
 #emph[#text("You learn how a voice can open a door, steady a friend or turn a room.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Leadership, negotiation and credible social pressure; never mind control.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4243,11 +4171,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/life.svg", width: 18pt)
+#discipline-mark("life","", size: 30pt)
 #entry("Life","s-0cae99582db5")
 #emph[#text("You learn to feel the fragile warmth that living things carry between one breath and the next.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Healing and draining the same life energy; resistance interacts with both.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4256,11 +4184,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/marksmanship.svg", width: 18pt)
+#discipline-mark("marksmanship","", size: 30pt)
 #entry("Marksmanship","s-cf9b630681c6")
 #emph[#text("You practice until the distant mark feels connected to the movement of your hand.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Ranged and thrown techniques, including precise placement.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4269,11 +4197,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/medicine.svg", width: 18pt)
+#discipline-mark("medicine","", size: 30pt)
 #entry("Medicine","s-a258db36f711")
 #emph[#text("You learn to recognize hurt, and to remain patient when the injured cannot.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Nonmagical wound treatment and condition care.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4282,11 +4210,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/mind.svg", width: 18pt)
+#discipline-mark("mind","", size: 30pt)
 #entry("Mind","s-9a2b3a82ecb8")
 #emph[#text("You learn to touch the uncertain border between what is there and what is perceived.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Mental attacks and temporary disabling effects.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4295,11 +4223,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/radiance.svg", width: 18pt)
+#discipline-mark("radiance","", size: 30pt)
 #entry("Radiance","s-9f0ff83d0f76")
 #emph[#text("You learn to shape brightness into something that reveals, shelters or confronts.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Radiant attacks, illumination and revealing magic.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4308,11 +4236,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/scholarship.svg", width: 18pt)
+#discipline-mark("scholarship","", size: 30pt)
 #entry("Scholarship","s-9ea1803c1690")
 #emph[#text("You learn to ask the question that makes an old fact useful in a new place.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Interpreting evidence, languages, histories and unfamiliar devices.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4321,11 +4249,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/storm.svg", width: 18pt)
+#discipline-mark("storm","", size: 30pt)
 #entry("Storm","s-ed652ae1b42c")
 #emph[#text("You learn the moods of moving air and the restless energy that gathers within it.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Lightning, thunder and wind-driven displacement.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4334,11 +4262,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/subterfuge.svg", width: 18pt)
+#discipline-mark("subterfuge","", size: 30pt)
 #entry("Subterfuge","s-7fab5edbf9e6")
 #emph[#text("You learn to work in the space between what people notice and what they assume.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Stealth, misdirection and quiet access.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4347,11 +4275,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 #block(breakable: false)[
-#image("../icons/wilderness.svg", width: 18pt)
+#discipline-mark("wilderness","", size: 30pt)
 #entry("Wilderness","s-acc9dfe97acc")
 #emph[#text("You learn to read a living landscape and find your place within it.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Environment-specific foraging and outdoor expertise.")
 
 #text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
@@ -4363,318 +4291,6 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #pagebreak(weak: true)
 #heading(level: 2)[Character paths]
 #twocol[
-#block(breakable: false)[
-#entry("Ancestral Guardian","s-6a941878d180")
-#text("The people who raised you still stand at your shoulder.")
-
-#text("")#strong[#text("What you bring:")]#text(" Protection; spirit support. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-0906f0bcb3f2")[#text("A Hand from Before")]#text(" with Calling 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Calling 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your ancestors appear at the places where your friends need them. Give one companion the confidence to hold, or use a shade to occupy the route an enemy wanted. Their faces and opinions can belong to your character’s history.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-ce1d6794bed5")[#text("Circle of Old Names")]#text(" (Calling 2 and Guard 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-30ea6d18db33")[#text("Summon Spirit — Master")]#text(" (Calling 3 and Guard 1) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-66e0eeca19fa")[#text("Grave Warden")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Battle Singer","s-7824a5c23388")
-#text("Your song gives the charge a heartbeat.")
-
-#text("")#strong[#text("What you bring:")]#text(" Melee support; formation. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-57a8cf7ceb2c")[#text("Keep Time with Steel")]#text(" with Influence 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Influence 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Fight close enough for your rhythm to matter. Your Guile-based strike opens a step for a companion; your chorus eventually coordinates attacks. A drum, marching chant or ringing battle-cry can carry the same spirit without requiring a particular instrument.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-7cf74c986db8")[#text("The Chorus Advances")]#text(" (Influence 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-0e3d8ad2dfbd")[#text("All Voices as One")]#text(" (Influence 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-199e17ede4ed")[#text("Sun Knight")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Beast Companion","s-7418adf3d27e")
-#text("You know the meaning of that lowered head before anyone else moves.")
-
-#text("")#strong[#text("What you bring:")]#text(" Companion; scouting; flanking. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-4bae3b97adcd")[#text("Summon Animal — Novice")]#text(" with Calling 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Calling 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Give the companion a name and a manner long before describing its statistics. It needs your command, so every shared turn asks what you do and what it does. Recalling the same spirit preserves a relationship without hiding an extra uncommanded turn.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-21283cfcebd2")[#text("Summon Animal — Adept")]#text(" (Calling 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-7ebb98971bf8")[#text("Summon Animal — Master")]#text(" (Calling 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-7477d82ce1c4")[#text("Trail Hunter")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Beast Within","s-2da1cf663758")
-#text("Fur rises along your arms, and the world fills with scent.")
-
-#text("")#strong[#text("What you bring:")]#text(" Shapeshifting; melee; mobility. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-b14840d09558")[#text("Borrow the Beast")]#text(" with Wilderness 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Wilderness 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Begin by changing form, then commit to claws, teeth and body weight. You carry the same wounds in every shape, and folded equipment cannot keep protecting you. Pounce can also be a momentary transformation, letting a human-form fighter borrow the leap without staying a beast.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-f47bcccc43ee")[#text("Pounce of the Red Claw")]#text(" (Wilderness 2 and Athletics 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-93fd456073db")[#text("Wear the Great Beast")]#text(" (Wilderness 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-6697bd005868")[#text("Root Keeper")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Bone Caller","s-18a8e5d6e7b0")
-#text("You ask the dead for one more journey, and give the bones a purpose.")
-
-#text("")#strong[#text("What you bring:")]#text(" Undead summons; battlefield tools. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-9a79cc18229b")[#text("Summon Undead — Novice")]#text(" with Calling 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Calling 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("A skeleton can be a servant, an old family tradition or the shape your magic finds easiest. It needs commands and occupies real space. A porter or a rib-shield gives the necromancer something to contribute besides a bigger pile of attack rolls.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-0ec013bc023f")[#text("A Ribcage for a Shield")]#text(" (Calling 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-7a270d71b6b4")[#text("Summon Undead — Master")]#text(" (Calling 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-66e0eeca19fa")[#text("Grave Warden")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Daring Scoundrel","s-8c85bb70c3f5")
-#text("Smile first. They should know this was your idea.")
-
-#text("")#strong[#text("What you bring:")]#text(" Guile melee; movement; social. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-f6bae7ebbc57")[#text("Smile Before Steel")]#text(" with Arms 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Arms 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your confidence is a fighting technique. Use Guile to strike, create an opening to move, and make sure the room notices the exit. The character can be a swaggering pirate or someone whose smile conceals how frightened they are.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-e7f661a56d10")[#text("Under Their Guard")]#text(" (Arms 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-51f7ce2cc800")[#text("Bow to the Balcony")]#text(" (Arms 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-d89b333e844e")[#text("Story Singer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Deep-Water Wanderer","s-2ae8f40d5045")
-#text("The tide has tried to take you before. You learned its grip.")
-
-#text("")#strong[#text("What you bring:")]#text(" Water movement; rescue; control. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-5566a5f3ed51")[#text("The Otter’s Bargain")]#text(" with Wilderness 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Wilderness 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("You are the person the group trusts when the bank gives way. Swim with ease, use existing water to move an enemy, or bring someone helpless toward safety. These are useful shoreline adventures without pretending the draft has already settled an entire underwater campaign.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-412080346fc2")[#text("Undertow Answer")]#text(" (Wilderness 2 and Frost 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-d71f33bfa8a5")[#text("Carry Them to Shore")]#text(" (Wilderness 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-84a8f155d166")[#text("Green Healer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Dragon Heir","s-a659590f9018")
-#text("Something ancient smiles when you open your mouth.")
-
-#text("")#strong[#text("What you bring:")]#text(" Breath; resilience; spectacle. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-0b895818255b")[#text("Breath of the Wyrmling")]#text(" with Flame 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Flame 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("You can announce the ancestry with a breath, survive a dangerous moment behind scales, then cross the fight on briefly unfurled wings. The leap of flight ends in a landing, so the hero still shares the battlefield with everyone else.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-84a6db46442c")[#text("Scales beneath the Skin")]#text(" (Flame 2 and Wilderness 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-99456e127b57")[#text("Wings over the Battle")]#text(" (Flame 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-199e17ede4ed")[#text("Sun Knight")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Duelling Master","s-764f96da8db8")
-#text("You give your enemy one opening, and it is the wrong one.")
-
-#text("")#strong[#text("What you bring:")]#text(" Precision; control. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-57f6387c6028")[#text("Invitation to the Blade")]#text(" with Arms 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Arms 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Watch one opponent closely. Invite the attack, survive it, then turn its position against it. The character can be a courteous fencing tutor, a scarred mercenary or someone who learned elegance in a very ugly place.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-14904e5a8167")[#text("Bind and Turn")]#text(" (Arms 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-57b9fe6da75c")[#text("Write the Final Line")]#text(" (Arms 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-8c85bb70c3f5")[#text("Daring Scoundrel")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Elemental Adept","s-c2601a3af9b8")
-#text("Your stance changes, and so does the weather.")
-
-#text("")#strong[#text("What you bring:")]#text(" Unarmed magic; displacement. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-43f4bd09220f")[#text("Palm of the Gale")]#text(" with Storm 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Storm 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your body is how the weather enters the room. Fortitude makes the palm strike work; movement along a wall opens a new approach; the final turn sends the crowd away. Pick a martial style and let the wind follow its shapes.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-4432e6d45409")[#text("Walk the Thunder")]#text(" (Storm 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-458bcf802246")[#text("Four Winds at Once")]#text(" (Storm 2 and Athletics 2) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-82d9e95e6682")[#text("Storm Caller")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Fey Envoy","s-19538434373e")
-#text("You learned your manners at a table where every promise mattered.")
-
-#text("")#strong[#text("What you bring:")]#text(" Misdirection; displacement; social. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-1849e1656b19")[#text("An Invitation Elsewhere")]#text(" with Mind 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Mind 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Make courtesy physically disorienting. Pull someone into the wrong place, vanish after the blow, or exchange two willing companions to change the arrangement. The performance can be beautiful or unnerving, and its promises remain yours to write.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-3dd709100098")[#text("Behind the Hawthorn")]#text(" (Mind 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-cc828e18803e")[#text("Dance beyond the Circle")]#text(" (Mind 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c7168355db67")[#text("Mirror Weaver")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Field Alchemist","s-3ff2973d6495")
-#text("Three bottles, two smells, and a plan nobody should breathe too deeply.")
-
-#text("")#strong[#text("What you bring:")]#text(" Consumables; smoke; condition care. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text(" with Craft 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Craft 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Prepare before trouble, then choose when a bottle is worth the hand and action it needs. Smoke changes a route; a brewed potion restores life; a tonic clears an ally’s head. Recipes and ingredients keep preparation real, while the inventory die keeps counting light.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-b10920431af0")[#text("Bottled Morning")]#text(" (Craft 2 and Medicine 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text(" (Craft 3 and Medicine 1) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-4cdf685d9128")[#text("Thinking Fighter")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Grave Warden","s-66e0eeca19fa")
-#text("The living deserve their tomorrow. The dead deserve their rest.")
-
-#text("")#strong[#text("What you bring:")]#text(" Rescue; undead opposition. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-74c5c6765a91")[#text("Keep the Door Closed")]#text(" with Life 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Life 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("You stand where the fight’s consequences become personal. Clear a death mark, oppose a restless dead creature, or pay dearly to rescue someone at the moment they fall. Respect for death makes the choices sharper; these cards do not casually erase Last Words.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-2b9d2671ca7a")[#text("Rest for the Restless")]#text(" (Life 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-851cab136089")[#text("Not Yet Your Name")]#text(" (Life 3 and Medicine 1) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-6a941878d180")[#text("Ancestral Guardian")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
 #block(breakable: false)[
 #entry("Green Healer","s-84a8f155d166")
 #text("Where you kneel, crushed grass begins to rise.")
@@ -4696,31 +4312,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-6697bd005868")[#text("Root Keeper")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Infernal Bargainer","s-b608130a916a")
-#text("The ember on your tongue speaks in a voice you chose to answer.")
-
-#text("")#strong[#text("What you bring:")]#text(" Tempting power; fire; fear. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-ffc06871cf7b")[#text("A Coal for a Promise")]#text(" with Flame 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Flame 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your power sounds like a negotiation even when you are throwing fire. Its source could be a bargain you regret, one you honor, or one you intend to outwit. The cards supply the flame and fear; they do not script your morality or a compulsory patron quest.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-049ec515d5b7")[#text("The Debt Comes Due")]#text(" (Flame 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-471a4440c939")[#text("Open the Furnace Door")]#text(" (Flame 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-1ad605a81bd5")[#text("Vow Hunter")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Root Keeper")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
 
 ]
 #block(breakable: false)[
@@ -4744,223 +4336,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-319ffd6f40e5")[#text("Roadside Artificer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Mirror Weaver","s-c7168355db67")
-#text("The eye sees a doorway where you have left a question.")
-
-#text("")#strong[#text("What you bring:")]#text(" Deception; diversion; protection. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-2182d2973f6d")[#text("A Door That Is Not There")]#text(" with Mind 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Mind 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Make someone ask whether they saw what they think they saw. An illusory doorway opens a plan, a borrowed silhouette protects a heartbeat, and a company of doubles protects your friends. Illusions need believable placement; their interest comes from the scene, not automatic mind control.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-89d23bd45071")[#text("Borrowed Silhouette")]#text(" (Mind 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-9385ed20c73c")[#text("A Company of Reflections")]#text(" (Mind 2 and Guard 2) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-19538434373e")[#text("Fey Envoy")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Night Walker","s-a0809d90d9d6")
-#text("The darkness is a route you have already learned.")
-
-#text("")#strong[#text("What you bring:")]#text(" Stealth; mobility; ambush. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-2960fb94332a")[#text("Step Between Lanterns")]#text(" with Subterfuge 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Subterfuge 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Treat the map as a pattern of light and dark. Your early movement still needs a real concealed route; later shadow travel gives you a different way across. You are an infiltrator who cares where the lanterns are, not someone permanently exempt from being seen.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-0fee6504a4c1")[#text("The Unlit Road")]#text(" (Subterfuge 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-5b8e938de3f2")[#text("No Footfall at All")]#text(" (Subterfuge 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-de92a62a987b")[#text("Quiet Knife")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Quiet Knife","s-de92a62a987b")
-#text("One deliberate motion ends the argument before it becomes a battle.")
-
-#text("")#strong[#text("What you bring:")]#text(" Ambush; precision; escape. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-f421c4a1615d")[#text("A Courtesy Unanswered")]#text(" with Subterfuge 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Subterfuge 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Prepare the approach and decide whether you mean to finish the fight or simply stop the alarm. Guile expresses concealed intent, and an actual Hidden approach helps. For a captor rather than a killer, add the shared Take Them Alive ability.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-b80fb7eae64e")[#text("Silence the Alarm")]#text(" (Subterfuge 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-2c50955d2127")[#text("A Shadow at the Heart")]#text(" (Subterfuge 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-a0809d90d9d6")[#text("Night Walker")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Reader of Omens","s-c46b42998827")
-#text("You have already spilled this cup in a dream.")
-
-#text("")#strong[#text("What you bring:")]#text(" Prediction; information; rescue. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-159a95b3baad")[#text("I Have Seen This Step")]#text(" with Scholarship 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Scholarship 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Say the warning before the dice, when it can still change a friend’s choice. Your questions reveal risks and ways to investigate them, not an infallible plot outline. The pleasure is recognizing a moment you were prepared for.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-4ab7e1afe098")[#text("Ask the Falling Ash")]#text(" (Scholarship 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-5e383055f984")[#text("The Moment Foretold")]#text(" (Scholarship 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-4cdf685d9128")[#text("Thinking Fighter")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Red Fury","s-67d1a0556522")
-#text("You do not wait for the battlefield to make room. You make room.")
-
-#text("")#strong[#text("What you bring:")]#text(" Melee pressure; dangerous endurance. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-a5a3f847b00a")[#text("Blood in the Teeth")]#text(" with Arms 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Arms 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("You are the person who advances when everyone else takes a breath. The first blow asks you to accept an exposed defense; the pleasure is deciding that now is the moment to do it, not maintaining a rage counter.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-8450e5fa3bd6")[#text("Through the Spearpoints")]#text(" (Arms 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-8384b54259a9")[#text("Break the Charge")]#text(" (Arms 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-6a941878d180")[#text("Ancestral Guardian")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Roadside Artificer","s-319ffd6f40e5")
-#text("The contraption rattles. You insist that means it is working.")
-
-#text("")#strong[#text("What you bring:")]#text(" Devices; control; useful crafting. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-357292401433")[#text("Spring in the Sleeve")]#text(" with Craft 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Craft 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Bring one useful contraption into the scene and explain its familiar little fault. A sleeve-hook pulls enemies, a walking toolbox moves tools, and a folding launcher creates a dramatic shove. Devices give the character a recognizable practice without requiring a separate engineering game.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-d4455bc3c4c9")[#text("Summon Construct — Adept")]#text(" (Craft 2 and Calling 1) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-fc91bae7e9ab")[#text("A Marvel on Wheels")]#text(" (Craft 3 and Marksmanship 1) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-3ff2973d6495")[#text("Field Alchemist")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Root Keeper","s-6697bd005868")
-#text("The ground has been listening. Now it answers.")
-
-#text("")#strong[#text("What you bring:")]#text(" Ground control; displacement; terrain. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-e16c4f638ad5")[#text("Roots Remember Feet")]#text(" with Wilderness 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Wilderness 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Look at where people are trying to go. Catch a pursuer, make a hedge across the approach, or gather scattered enemies into a place your companions can exploit. You can spend an entire useful turn changing the fight without dealing damage.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-4a927c01c65e")[#text("Briar Gate")]#text(" (Wilderness 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-cbed67fdff45")[#text("The Orchard Wakes")]#text(" (Wilderness 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-2da1cf663758")[#text("Beast Within")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Rune-Bound Warrior","s-fb6f05976ea0")
-#text("Every mark on your armor remembers a mountain.")
-
-#text("")#strong[#text("What you bring:")]#text(" Front line; control. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-d3bba3dde3ae")[#text("Wake the Iron Rune")]#text(" with Armor 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Armor 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Let someone try to move you. The answer is first a stubborn step, then a flash of stone-hard protection, and eventually a blow that sends the surrounding line backward. A rune can be an inheritance, a craft or a promise carved by your own hand.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-59180a9442ec")[#text("Stone on Your Shoulders")]#text(" (Armor 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-b04105c60eb6")[#text("Stride of the Giant")]#text(" (Armor 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-319ffd6f40e5")[#text("Roadside Artificer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Shape Scholar","s-eb0d61c2e45c")
-#text("Stone, rope, iron: every substance has another way it could be.")
-
-#text("")#strong[#text("What you bring:")]#text(" Environment; transformation; tools. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-d81a1958a55c")[#text("The Patient Metal")]#text(" with Scholarship 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Scholarship 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Give the party another relationship with the obstacle. A bent fitting can be repaired, stone can become a route with time, and your own body can slip through a gap. Transformation should produce plans as often as attacks.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-bfaa937e43cf")[#text("Teach Stone to Bend")]#text(" (Scholarship 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-a8c6927cd77c")[#text("The Shape of Escape")]#text(" (Scholarship 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-319ffd6f40e5")[#text("Roadside Artificer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Roadside Artificer")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
 
 ]
 #block(breakable: false)[
@@ -4984,103 +4360,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-0fa06f1893eb")[#text("Ward Weaver")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Still-Hand Adept","s-f21b4bae17d3")
-#text("A quiet breath, an open hand, and all their strength goes past you.")
-
-#text("")#strong[#text("What you bring:")]#text(" Unarmed control; Reason combat. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-e0f03cd9803f")[#text("The Untroubled Hand")]#text(" with Athletics 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Athletics 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your Reason is visible in the way you yield and redirect. Push someone away from a vulnerable friend, wait for a blow worth turning, then place a decisive touch. You need no weapon and no pool of points to remember.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-b63afd7b547d")[#text("Turn the River")]#text(" (Athletics 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-0cef8ad23763")[#text("Stillness at the Center")]#text(" (Athletics 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c2601a3af9b8")[#text("Elemental Adept")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Storm Caller","s-82d9e95e6682")
-#text("You raise your hand as if the sky were a sail.")
-
-#text("")#strong[#text("What you bring:")]#text(" Area pressure; forced movement. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-8139ff39e4f2")[#text("Thunder at the Door")]#text(" with Storm 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Storm 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Watch for a crowded approach and the friend who needs a clear line through smoke. Thunder, wind and lightning do different jobs. The Master blast is powerful partly because pushing several targets changes what happens next.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-a274a52349dd")[#text("A Road through Rain")]#text(" (Storm 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-e8c8af8e3cfc")[#text("The Sky Comes Down")]#text(" (Storm 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c2601a3af9b8")[#text("Elemental Adept")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Story Singer","s-d89b333e844e")
-#text("You know the verse that makes people remember who they wanted to be.")
-
-#text("")#strong[#text("What you bring:")]#text(" Support; knowledge; social. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-60612371376d")[#text("A Verse for Courage")]#text(" with Influence 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Influence 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Ask a friend what they need to attempt, then give the next roll a verse. Beyond combat, tell stories that earn introductions and reveal local hopes. The strongest moment is calling someone back to the fight with their own remaining Grit, not granting an endless reserve.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-2af6fd22810d")[#text("Remember This Name")]#text(" (Influence 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-89671eca320c")[#text("The Tale Will Tell of You")]#text(" (Influence 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c7168355db67")[#text("Mirror Weaver")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Sun Knight","s-199e17ede4ed")
-#text("Your promise becomes something others can stand behind.")
-
-#text("")#strong[#text("What you bring:")]#text(" Protection; radiant offense. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-788fb7bb32b2")[#text("Oathlight Strike")]#text(" with Radiance 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Radiance 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Your attacks leave room for someone else to survive or advance. Put a friend beside you and make the promise visible. Devotion can be to a person, a cause or a god; the card does not assign an alignment.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-6b84ca83285d")[#text("A Shelter of Light")]#text(" (Radiance 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-b85d10a9d18f")[#text("Carry the Sunrise")]#text(" (Radiance 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-84a8f155d166")[#text("Green Healer")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Ward Weaver")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
 
 ]
 #block(breakable: false)[
@@ -5104,133 +4384,14 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-3ff2973d6495")[#text("Field Alchemist")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Trail Hunter","s-7477d82ce1c4")
-#text("You find the trail, choose the ground, and make the first shot count.")
-
-#text("")#strong[#text("What you bring:")]#text(" Ranged pressure; tracking. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-43429d322c0c")[#text("Read the Quarry")]#text(" with Marksmanship 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Marksmanship 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Reading tracks and reading an enemy’s next step feel like one profession. Knowledge can guide your first ranged attack; later cards make escape costly. A hunter can be a guardian, a provider or a relentless pursuer rather than simply an archer.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-4f30c7d72c1c")[#text("Cut Off the Escape")]#text(" (Marksmanship 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-15951f157941")[#text("The Hunt Ends Here")]#text(" (Marksmanship 3 and Wilderness 1) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-7418adf3d27e")[#text("Beast Companion")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Unruly Spark","s-b9e6b7f11fdc")
-#text("You catch unstable magic and give it a shape just before it bursts.")
-
-#text("")#strong[#text("What you bring:")]#text(" Volatile magic; improvisation. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-e4182074f203")[#text("Let the Spark Decide")]#text(" with Flame 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Flame 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Choose the element or weather before rolling, then let the outcome determine its impact. A curtain of smoke can cover a retreat; ice can break up an approach. The magic looks unruly without asking you to decode individual dice.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-0438726e35dc")[#text("Borrow Tomorrow’s Weather")]#text(" (Flame 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-ca1be516ae93")[#text("A Splendid Mistake")]#text(" (Flame 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-a659590f9018")[#text("Dragon Heir")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Vow Hunter","s-1ad605a81bd5")
-#text("You made a promise. Running will not release them from it.")
-
-#text("")#strong[#text("What you bring:")]#text(" Pursuit; single-target pressure. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-42f939f3aed0")[#text("Name the Reckoning")]#text(" with Influence 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Influence 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Choose the person you must reach and make pursuit part of the scene. Your words drive a Guile-based attack, and your Reaction keeps you close when they flee. Decide what satisfying the vow means before it makes every decision for you.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-71e27d81e4b0")[#text("No Road Away")]#text(" (Influence 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-3dfa5567b60c")[#text("Answer for What You Did")]#text(" (Influence 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c46b42998827")[#text("Reader of Omens")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Ward Weaver","s-0fa06f1893eb")
-#text("Draw a line in the air and tell the danger where it ends.")
-
-#text("")#strong[#text("What you bring:")]#text(" Protection; countermagic. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-ae7aaf153b46")[#text("A Sign against Harm")]#text(" with Guard 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Guard 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("Keep your Reaction for the threat worth meeting. A small sign protects one person; unravelling a spell is a more deliberate contest; the circle protects a gathering. The ward is something you choose to place, not a blanket immunity attached to the character.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-22e6f489bade")[#text("Unravel the Bolt")]#text(" (Guard 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-3a9d939220fb")[#text("The Circle Holds")]#text(" (Guard 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-199e17ede4ed")[#text("Sun Knight")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
-
-]
-#block(breakable: false)[
-#entry("Watcher Beyond","s-39387c452642")
-#text("You remember a shape no window in this world could frame.")
-
-#text("")#strong[#text("What you bring:")]#text(" Mental pressure; alien insight. This is a character idea, not a new class, subclass or prerequisite chain.")
-
-#heading(level: 3)[#text("Begin the story")]
-#text("Learn ")#xref("s-714176fcf4cd")[#text("A Thought That Is Not Yours")]#text(" with Mind 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Mind 1 can put the idea within reach at level 0.")
-
-#heading(level: 3)[#text("At the table")]
-#text("You disturb attention and certainty rather than simply choosing another color of fire. Reason carries the impossible thought; later pressure moves or stills the target. Give your character something ordinary they cling to when the stars begin to feel too close.")
-
-#heading(level: 3)[#text("Give it room to grow")]
-#list(
-[#text("At level 3, ")#xref("s-8f9b68c9239d")[#text("The Angle of Unease")]#text(" (Mind 2) opens another way to affect the scene.")
-
-],
-[#text("At level 7, ")#xref("s-9bd00bfd1c15")[#text("When the Stars Look Back")]#text(" (Mind 3) offers a larger moment.")
-
-],
-)
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#xref("s-c46b42998827")[#text("Reader of Omens")]#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Field Alchemist")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
 
 ]
 ]
+#tail-art("paths")
 #chapter("6","Playing the Game")
 #metadata("s-9deeb5b74dde")<s-9deeb5b74dde>
-#art(height: 100pt, brief: "Overhead square-grid scene: one guardian blocks a doorway while companions use cover and a forced push opens an escape route. Clear spaces and no decorative grid distortion.")
+#illustration("combat", height: 125pt, fit: "cover")
 #twocol[
 #text("A drawn blade changes the conversation. A broken bridge changes the journey. The") #text("rules help you decide what those changes mean when timing, danger and the choices") #text("of several characters meet.")
 
@@ -5348,9 +4509,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("A fight ends when the immediate opposition is resolved, not because everyone decides") #text("to ignore an active death roll. Resolve Dying before leaving combat timing. When it") #text("is safe to pause and companions can attend to an ordinary fire or similar immediate") #text("hazard, settle that hazard as the scene allows. Other conditions remain until their") #text("own removal, expiry or remedy. A safe breath restores HP; it does not remove wounds,") #text("refund Grit, cure every condition or reverse Last Words.")
 
 ]
+#tail-art("combat")
 #chapter("7","Beyond the Battlefield")
 #metadata("s-b32cca197003")<s-b32cca197003>
-#art(height: 100pt, brief: "An adventuring company shares a riverside camp with travelers; one mends a rope, one bargains, one watches the forest.")
+#illustration("adventure", height: 125pt, fit: "cover")
 #twocol[
 #text("The road matters. So do the people at its end. A warm welcome, a sound bridge and") #text("a name remembered at the right moment can carry your company farther than another") #text("weapon. Your abilities include ways to navigate these scenes, but you always begin") #text("with what your hero says and does.")
 
@@ -5435,6 +4597,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("A wound may require repeated daily treatment even after you are ready to adventure.") #text("An inn, a friendly workshop, a healer's garden or a camp among allies can become part") #text("of the story. Rest restores what its rule says it restores. It does not refund Grit,") #text("remove a permanent scar, or refill a bottle whose inventory die is out.")
 
 ]
+#tail-art("adventure")
 #chapter("8","Harm and Recovery")
 #metadata("s-3373a7bacd12")<s-3373a7bacd12>
 #twocol[
@@ -5507,14 +4670,14 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Asleep, Paralyzed, Unconscious and Petrified impose three defense Banes. Overlapping") #text("helpless states apply that penalty once. Dazed adds no defense Banes. Grappled gives") #text("attackers one Boon per rating of the actual target. When Dazed and Grappled overlap,") #text("use the greater action restriction, not their sum.")
 
 ]
+#tail-art("recovery")
 #pagebreak(weak: true)
 #entry("Conditions","s-5f8f714e88ad")
 #rule-table(3,([#text("Condition")],[#text("Effect")],[#text("Removal / persistence")],),(([#text("Burning X")],[#text("Fire X damage at end of turn; matching resistance applies")],[#text("Resolve damage, then decay; appropriate Main reduces 1")],),([#text("Freezing X")],[#text("Cold X damage at end of turn; matching resistance applies")],[#text("Resolve damage, then decay; appropriate Main reduces 1")],),([#text("Bleeding X")],[#text("X damage at end of turn, bypasses resistance")],[#text("Resolve damage, then decay; appropriate Main reduces 1")],),([#text("Poisoned X")],[#text("X Banes to action/defense/death rolls, not inventory dice; no damage")],[#text("Decay unless explicitly maintained or persistent")],),([#text("Frightened X")],[#text("X Banes while its source is perceptible; no forced choices or movement")],[#text("Decay unless explicitly maintained or persistent; source must be identified")],),([#text("Blinded X")],[#text("Cannot see; no direct sight-required targeting")],[#text("Duration only; decay; Blinded 1* requires its specified remedy")],),([#text("Deafened X")],[#text("Cannot hear; cannot respond to hearing-only triggers")],[#text("Duration only; decay; Deafened 1* requires its specified remedy")],),([#text("Slowed X")],[#text("Speed −X, minimum 0")],[#text("Decay unless explicitly persistent")],),([#text("Dazed X")],[#text("At 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction; movement remains")],[#text("Choose at turn start; no retroactive change to spent actions; decay 1 at turn end")],),([#text("Grappled X")],[#text("Movement 0; at 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction")],[#text("Maintained; no decay. Force reduces 1/2/3 when a Main remains; rating 3 requires help")],),([#text("Prone")],[#text("Crawl; standing costs 2 movement")],[#text("Stand or source effect; occupied prone square traversable at cost 2")],),([#text("Asleep X")],[#text("Unaware, no actions/movement")],[#text("Default numbered decay; adjacent Main wake effort reduces 1; damage ends it; source can specify persistence")],),([#text("Paralyzed X")],[#text("Aware, no actions or movement at any positive rating")],[#text("Duration only; decay; no gradual return of options before 0")],),([#text("Unconscious")],[#text("Unaware, prone, no actions/movement")],[#text("Source; ordinary healing wakes only HP-caused unconsciousness")],),([#text("Petrified")],[#text("Inert solid, unaware, no actions/movement")],[#text("Source defines protection and cure")],),([#text("Hidden")],[#text("Universal hidden state, not observer-specific")],[#text("Ends on attack/open revelation; DA judges concealed movement")],),([#text("Invisible")],[#text("Cannot be seen; not automatically unlocated")],[#text("Source; attacking ends Hidden, not automatically Invisible")],),))
 
 #chapter("9","Abilities")
 #metadata("s-354331778375")<s-354331778375>
-#twocol[
-#text("An ability is a practiced technique, a spell, a talent or a reliable piece of expertise.") #text("Its first lines describe what your hero does. Its rules tell you how that moment") #text("changes the game. Declare the ability before rolling and use its printed attribute.")
+#grid(columns: (1fr,1fr), gutter:18pt, [#text("An ability is a practiced technique, a spell, a talent or a reliable piece of expertise.") #text("Its first lines describe what your hero does. Its rules tell you how that moment") #text("changes the game. Declare the ability before rolling and use its printed attribute.")
 
 #text("The numbered diamond is the minimum level: ")#strong[#text("1 Novice")]#text(", ")#strong[#text("3 Adept")]#text(", or ")#strong[#text("7 Master")]#text(".") #text("Novice purchases are allowed in level-0 creation. Shared cards cost 2, 4 or 8 DP.") #text("Every listed discipline rank must be owned before learning. No earlier card is") #text("required merely because its name or theme resembles a later one. The symbols beside") #text("a card name identify its disciplines; each discipline entry shows its symbol. Full") #text("requirements are also written out, so you never have to identify a symbol alone.")
 
@@ -5529,33 +4692,29 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("The ordinary way to attempt an activity remains available. An expert climbing card") #text("can provide better results, but you can choose an ordinary climb instead. Buying") #text("expertise gives you new options rather than forbidding everyone else from trying.")
 
-]
+], [#illustration("class-odd",height:530pt)])
 #pagebreak(weak: true)
 #heading(level: 2,"Universal actions")
 #twocol[
 #card(icons: [],"Aid","U","None","Maneuver","None — no roll","Universal","Universal","s-8700fcb71235")[
 #emph[#text("You catch the loose end, offer the missing word, or put your shoulder beside a friend’s.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent ally")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent ally")
 
 #text("Plausibly assist a declared task. the ally gains 1 Boon to that task’s next roll before the start of your next turn. Outside combat, contribute Aid or your own group roll, not both.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn, or until the aided roll is made.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Basic Melee","U","None","Main Action","Brawn","Attack","Universal","s-ca4343e1c5b1")[
 #emph[#text("You set your feet and bring your weapon around in a practiced strike.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Choose your target and make the attack.")
 
@@ -5572,18 +4731,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon, Bulk 1; this reference grants none.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon, Bulk 1; this reference grants none.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Basic Ranged","U","None","Main Action","Agility","Attack","Universal","s-b1a8d2a1ad6f")[
 #emph[#text("You steady your breathing, pick your mark, and release.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 8 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 8 squares")
 
 #text("Choose your target and make the attack.")
 
@@ -5600,18 +4756,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a ranged weapon, Bulk 1, and ammunition, Bulk 1; grants neither. Check ammunition after use.")
+#text("")#strong[#text("Gear:")]#text(" Requires a ranged weapon, Bulk 1, and ammunition, Bulk 1; grants neither. Check ammunition after use.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Basic Throw","U","None","Main Action","Brawn","Attack","Universal","s-8b9a7554370b")[
 #emph[#text("You feel the weight settle in your palm before sending it spinning toward your mark.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 3 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 3 squares")
 
 #text("Choose your target and make the attack.")
 
@@ -5628,18 +4781,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a suitable carried object; grants none. The thrown object lands in the target square.")
+#text("")#strong[#text("Gear:")]#text(" Requires a suitable carried object; grants none. The thrown object lands in the target square.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Basic Unarmed","U","None","Main Action","Brawn","Attack","Universal","s-d81ee1deed22")[
 #emph[#text("You close the distance with fist, heel or shoulder, putting your whole body behind the blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Choose your target and make the attack.")
 
@@ -5656,18 +4806,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment required or granted.")
+#text("")#strong[#text("Gear:")]#text(" No equipment required or granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Command a Summon","U","None","Main Action or Maneuver","None — no roll","Universal","Universal","s-6d4788c3f598")[
 #emph[#text("You point toward the opening and give a sharp instruction. The creature moves to carry it out, then stills when its task is done.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One of your summons within its tether.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One of your summons within its tether.")
 
 #text("Spend Main Action to grant it Main Action plus Maneuver, or spend Maneuver to grant it Maneuver plus movement. Resolve its activity during your turn. Normal downward conversions apply; a Main command can convert the granted Maneuver to movement before an attack.")
 
@@ -5679,69 +4826,59 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Granted actions are used immediately during your turn; none are saved for later turns.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay each command’s action cost; at most one command per summon per controller turn, including its immediate summoning command.")
 
 ]
 #card(icons: [],"Convert an Action","U","None","Action conversion","None — no roll","Universal","Universal","s-681a692e8efe")[
 #emph[#text("You abandon the opening you were watching and throw your effort into what matters now.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Spend Main Action to gain a Maneuver; spend a Maneuver to gain another movement allowance. One-way conversion only. Converting both gives a full sprint.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Defend","U","None","Maneuver","None — no roll","Universal","Universal","s-7a6665e4147c")[
 #emph[#text("You draw into a guarded stance, watching for the moment danger commits itself.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Gain 1 Boon to defense rolls. Repeating this same benefit does not increase it. Shield Block is a separate source and stacks through Boon/Bane rules.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Disengage","U","None","Maneuver","None — no roll","Universal","Universal","s-089277bfb75e")[
 #emph[#text("You give ground carefully, refusing to offer the opening your enemy is waiting for.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Your voluntary movement does not provoke opportunity attacks for the rest of this turn.")
 
 #text("")#strong[#text("Duration:")]#text(" Remainder of this turn")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Force","U","None","Main Action","Brawn","Universal","Universal","s-8920c162aedf")[
 #emph[#text("You set your shoulder, plant your feet and make the stubborn thing give ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent obstacle, grapple, or creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent obstacle, grapple, or creature")
 
 #text("Choose the intended result before rolling: reduce an obstacle’s remaining strength, reduce your Grappled rating, or push a creature. DA establishes any obstacle target. Grappled 3 leaves no Main Action to spend.")
 
@@ -5760,52 +4897,43 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Handle an Item","U","None","Varies","None — no roll","Universal","Universal","s-167a8784c5dc")[
 #emph[#text("Your hands know where each familiar piece belongs, even when you have to hurry.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible item")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An accessible item")
 
 #text("Drawing a weapon is included in its attack action. Dropping is free. Proper stowing or picking up costs a Maneuver. Ordinary item use follows its own card. No free two-handed grip exception is assumed.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Move","U","None","Movement","None — no roll","Universal","Universal","s-bc194ab16b8b")[
 #emph[#text("You pick your route and go, boots finding the next patch of open ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Spend up to Speed in movement squares, split around your actions. Normal terrain costs 1; difficult terrain costs 2. Occupied squares cannot be crossed unless the occupant is prone; crossing costs 2 and cannot end there.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Opportunity Attack","U","None","Reaction","None — no separate roll; resolve Basic Melee using Brawn","Universal","Universal","s-59de2ced60f1")[
 #emph[#text("You recognize the careless instant and strike before it passes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent creature triggering an opportunity")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent creature triggering an opportunity")
 
 #text("Make Basic Melee only; no specialty card. Leaving reach voluntarily provokes; casting, standing, stowing and retrieving are intended triggers. The start of the provoking action interrupts it: resolve this attack first, then continue the original action if the actor remains capable. Damage alone does not cancel it. Forced movement does not provoke.")
 
@@ -5813,96 +4941,79 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Reduce a Condition","U","None","Main Action","None — no roll","Universal","Universal","s-2cc80141c8e0")[
 #emph[#text("You smother the flame, bind the cut or steady your breath, attending to the hurt before it worsens.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent creature")
 
 #text("With a plausible method, reduce Bleeding, Burning, or Freezing by 1. This is not a general cure for all conditions. A persistent source can require a specific remedy.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Shield Block","U","None","Reaction","None — no roll","Universal","Universal","s-a8ca262729af")[
 #emph[#text("You hunker behind your shield, listening to the hard knocks against its face.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before a defense against an attack the DA judges blockable")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before a defense against an attack the DA judges blockable")
 
 #text("Requires a held shield; grants none. Gain 1 Boon to eligible defense rolls while using it. Creatures use the same rule.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Stabilize","U","None","Maneuver","None — no roll","Universal","Universal","s-8d99f3d5156a")[
 #emph[#text("You press against the wound and keep your voice steady, giving your friend something to hold on to.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent Dying player character")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent Dying player character")
 
 #text("Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no wound, and does not restore Grit. Taking damage while stable enters Dying again.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Stand","U","None","Movement","None — no roll","Universal","Universal","s-d6add8bff129")[
 #emph[#text("You draw a knee under yourself and rise to face what comes next.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, while prone")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, while prone")
 
 #text("Spend 2 squares of movement to stand. This spends movement, not a Maneuver.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Use a Healing Potion","U","None","Maneuver","None — no roll","Universal","Universal","s-09b403375f97")[
 #emph[#text("You pull the stopper and swallow the sharp mouthful, feeling warmth return to aching limbs.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature")
 
 #text("Requires a free hand. The giver spends the Maneuver; another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead or end Last Words.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 ]
 #pagebreak(weak: true)
@@ -5911,9 +5022,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [#discipline-mark("flame","1")],"A Coal for a Promise","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-ffc06871cf7b")[
 #emph[#text("You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares.")
 
 #text("Name something it stands to lose and cast a burning coal. The threat is a flourish, not a compulsory bargain.")
 
@@ -5930,18 +5040,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"A Courtesy Unanswered","1","Subterfuge 1","Main Action","Guile","Skill / Attack","2 DP","s-f421c4a1615d")[
 #emph[#text("You dip your head in a courteous greeting, then bring your hidden blade up beneath your opponent’s guard.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Hide your intent in an ordinary gesture, then make a melee attack. If you began Hidden, gain 1 Boon to this attack and end Hidden normally.")
 
@@ -5958,18 +5063,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","1")],"A Door That Is Not There","1","Mind 1","Main Action","Guile","Magic","2 DP","s-2182d2973f6d")[
 #emph[#text("You trace a doorframe in the air. An image of weathered wood and an iron latch settles into the space, convincing until a hand passes through it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible unoccupied square within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible unoccupied square within 4 squares.")
 
 #text("Place a silent, flat illusion of a door, window, screen or similar scene feature. It lasts 10 minutes; touch reveals it, and it blocks neither attacks nor movement.")
 
@@ -5986,73 +5088,61 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Ten minutes, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"A Good Place to Stop","1","Wilderness 1","Passive","None — no roll","Skill / Utility","2 DP","s-c83ae6f25262")[
 #emph[#text("You notice the dry ground beneath the roots and the way the wind bends around the rise.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes of examination.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A campsite you can examine for ten minutes.")
+#text("")#strong[#text("Target:")]#text(" A campsite you can examine for ten minutes.")
 
 #text("After examining a site, learn one present, observable environmental danger to camping there, if any, and one available way to shelter from it, if one exists. No roll. This does not reveal hidden creatures, create shelter or promise safety from later events.")
 
 #text("")#strong[#text("Duration:")]#text(" Information learned remains known.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"A Hand from Before","1","Calling 1","Reaction","None — no roll","Magic","2 DP","s-0906f0bcb3f2")[
 #emph[#text("You call an ancestor’s name and reach toward your companion. A translucent hand appears at their shoulder, bracing them against the coming blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent ally before a physical defense.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent ally before a physical defense.")
 
 #text("A translucent hand braces your friend. Give that defense 1 Boon; afterward the ally may move 1 square to a free square adjacent to you without provoking.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","1")],"A Knot You Can Trust","1","Athletics 1","Passive","None — no roll","Skill / Utility","2 DP","s-fa4fe64612b7")[
 #emph[#text("You tie the knot without looking, then tug it once before trusting it with a friend’s weight.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A rope you hold and a reachable suitable anchor.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A rope you hold and a reachable suitable anchor.")
 
 #text("While making a climb, you may secure or release one held rope at a suitable anchor you reach as part of that climb, without a separate action. You still need a free hand. The rope must be long and strong enough for its intended use; this grants no automatic success, extra movement or immunity to falling.")
 
 #text("")#strong[#text("Duration:")]#text(" During the climb.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One ordinary rope coil, Bulk 1, on learning this card if absent.")
+#text("")#strong[#text("Gear:")]#text(" One ordinary rope coil, Bulk 1, on learning this card if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("influence","1")],"A Place at Any Fire","1","Influence 1","Main Action","Guile","Skill / Utility","2 DP","s-36a77020aeb3")[
 #emph[#text("You introduce yourself, offer a little news from the road, and ask who has room beside the fire. As people answer, you watch for a face willing to welcome you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" A short conversation, outside combat.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A nonhostile gathering that can understand you; a short conversation")
+#text("")#strong[#text("Target:")]#text(" A nonhostile gathering that can understand you; a short conversation")
 
 #text("No forced friendship or compelled service. If ordinary hospitality is freely offered, take it without a roll. DA names the objective before a consequential attempt.")
 
@@ -6069,35 +5159,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("guard","1")],"A Sign against Harm","1","Guard 1","Reaction","None — no roll","Magic","2 DP","s-ae7aaf153b46")[
 #emph[#text("You draw a bright line in front of your companion. As the blow approaches, the line spreads into a brief ward across its path.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing ally before an attack that will give the target a defense roll.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing ally before an attack that will give the target a defense roll.")
 
 #text("Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","1")],"A Thought That Is Not Yours","1","Mind 1","Main Action","Reason","Magic / Attack","2 DP","s-714176fcf4cd")[
 #emph[#text("You hold your enemy’s gaze and whisper the outline of an impossible shape. They flinch as the image crowds into their thoughts.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares.")
 
 #text("Let a fragment of an impossible thought pass between you.")
 
@@ -6114,35 +5196,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","1")],"A Verse for Courage","1","Influence 1","Maneuver","None — no roll","Skill","2 DP","s-60612371376d")[
 #emph[#text("You sing the familiar verse just loud enough for your companion to hear. Their shoulders straighten as they turn back to the task.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One ally within 3 squares who hears you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One ally within 3 squares who hears you.")
 
 #text("Give the ally a line worth living up to. It gains 1 Boon to its next roll before the start of your next turn; not inventory or wound dice. The same verse does not multiply through repeated uses.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; a next-roll benefit ends when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","1")],"An Invitation Elsewhere","1","Mind 1","Main Action","Guile","Magic","2 DP","s-1849e1656b19")[
 #emph[#text("You bow and extend a hand as though inviting your enemy to dance. An unseen tug draws them across the ground toward you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares.")
 
 #text("Offer the impossible courtesy of a dance-step somewhere else. Magical force moves the target; it does not compel agreement or belief.")
 
@@ -6159,18 +5231,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"Anatomy of an Opening","1","Scholarship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-90e6fed059dd")[
 #emph[#text("You watch an opponent favor one leg, predict where their weight will fall, and strike the opening their next step leaves behind.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("A limp, a lifted elbow, the way the armor closes: attack what you understand. Use a melee weapon or your empty hand; this card supplies the damage.")
 
@@ -6187,18 +5254,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Your empty hand is enough. If you prefer a weapon, this card grants one ordinary melee weapon, Bulk 1, if absent; both use the same printed damage.")
+#text("")#strong[#text("Gear:")]#text(" Your empty hand is enough. If you prefer a weapon, this card grants one ordinary melee weapon, Bulk 1, if absent; both use the same printed damage.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","1")],"Blood in the Teeth","1","Arms 1","Main Action","Fortitude","Skill / Attack","2 DP","s-a5a3f847b00a")[
 #emph[#text("You swallow the taste of blood and drive your weapon into your opponent, leaning so far into the blow that you leave yourself exposed.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("You take the hurt and turn it outward. Make a melee attack. Until the start of your next turn, your defenses against physical attacks take 1 Bane.")
 
@@ -6215,18 +5279,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Damage and push are immediate; your defense Bane lasts until the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","1")],"Borrow a Voice","1","Mind 1","Main Action","Guile","Magic / Utility","2 DP","s-0f172a62f494")[
 #emph[#text("You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An audible point within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An audible point within 4 squares")
 
 #text("Lasts only long enough to deliver the sound. No mind control or automatic deception. The listener responds to the fiction; DA calls further rolls only when consequences require them.")
 
@@ -6243,18 +5304,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" One brief sound or short phrase, then the effect ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Borrow the Beast","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-b14840d09558")[
 #emph[#text("Fur rises along your arms, and the world fills with scent.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Spend a Maneuver to become a wolf, great cat, boar or similarly sized land beast for the scene. Keep your HP, wounds, attributes, occupied square and Speed. Equipment folds into the form and grants no benefits. You cannot speak, cast spells or use items, and have no free hand for healing or potions. Return with a Maneuver. Another form ends this one; HP loss and conditions remain yours.")
 
@@ -6275,20 +5333,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the scene ends, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"Borrowed Clothes, Borrowed Manners","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-336c3ab9f33e")[
 #emph[#text("You adjust the collar and try the little habit that will make the borrowed clothes look lived in.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes preparation; resolve challenges during the encounter.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One mundane disguise; ten minutes preparation.")
+#text("")#strong[#text("Target:")]#text(" One mundane disguise; ten minutes preparation.")
 
 #text("Use suitable clothing and describe a plausible role. Before a consequential encounter, the DA states the impersonation objective, progress target and whether progress is cumulative. Ordinary unchallenged disguise needs no roll. The card supplies no language, memories or authority.")
 
@@ -6305,18 +5358,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Suitable clothing required; none granted.")
+#text("")#strong[#text("Gear:")]#text(" Suitable clothing required; none granted.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("armor","1")],"Braced Harness","1","Armor 1","Reaction","Fortitude","Skill","2 DP","s-c038b0cc0ed1")[
 #emph[#text("You lean into your armor and let every strap take its share of the strain.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before Stability is applied to forced movement against you, including when struck in a collision chain")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before Stability is applied to forced movement against you, including when struck in a collision chain")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" Gain Stability 1 for this forced movement.")
@@ -6333,18 +5385,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" This forced movement only")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires armor.")
+#text("")#strong[#text("Gear:")]#text(" Requires armor.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","1")],"Breath of the Wyrmling","1","Flame 1","Main Action","Fortitude","Magic / Attack","2 DP","s-0b895818255b")[
 #emph[#text("You draw a breath that burns pleasantly in your chest, then open your mouth and breathe a stream of fire across the ground ahead.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every other creature in three contiguous squares in a straight line from you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every other creature in three contiguous squares in a straight line from you.")
 
 #text("Breathe fire. Make one roll using the net Boons or Banes least favorable to you among the targets; include allies in the line.")
 
@@ -6361,18 +5410,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Catch a Falling Friend","1","None","Reaction","Brawn","Skill / Utility","2 DP","s-4abc65ad74a0")[
 #emph[#text("You reach before you think, fingers closing as the ground drops away beneath your friend.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing creature beginning to fall")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing creature beginning to fall")
 
 #text("Reaction; requires a free hand and secure footing at the start. Weak and Standard leave the friend held at the edge until moved or released. If no support could bear both, DA states that before use; no impossible attempt.")
 
@@ -6391,18 +5435,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","1")],"Cinder Cast","1","Flame 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d0a3ac9ce7a9")[
 #emph[#text("You gather glowing embers in your palm and fling them toward your enemy. They flare into flame against the target.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares")
 
 #text("Proposed NPC defense attribute: Agility.")
 
@@ -6419,35 +5460,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Conditioned Body","1","None","Passive","None — no roll","Training / Passive","2 DP","s-9185d70c2367")[
 #emph[#text("You remember the work that built this strength: another load, another climb, another day you kept going.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Maximum HP +1. At most one purchase at each level; missed purchases cannot be banked. No attribute increase.")
 
 #text("")#strong[#text("Duration:")]#text(" Permanent maximum HP increase for each permitted purchase.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" At most one purchase per level; unused purchases cannot be saved.")
 
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"Create a Distraction","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-ad0b626a10d0")[
 #emph[#text("You offer a dropped cup, a pointed remark, or a sudden flourish at exactly the right moment.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature within 3 squares that can perceive your distraction")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature within 3 squares that can perceive your distraction")
 
 #text("Choose a creature within 3 squares that can see or hear your distraction. Describe what you do and roll Guile. The benefits below must be used before the start of your next turn; this does not automatically make an ally Hidden.")
 
@@ -6464,18 +5501,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn or until the granted Boon is used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("radiance","1")],"Dawn Shard","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-6ccf444f6f38")[
 #emph[#text("You cast a sliver of brightness that catches your foe like sunlight on broken glass.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares")
 
 #text("The light lasts until the start of your next turn; it does not reveal a target through opaque cover or override magical invisibility. Proposed NPC defense attribute: Agility.")
 
@@ -6492,18 +5528,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Damage is immediate; light lasts until the start of your next turn. Blinded decays normally.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","1")],"Drain Warmth","1","Life 1","Main Action","Guile","Magic / Attack","2 DP","s-a22483224c83")[
 #emph[#text("You curl your fingers and watch a little color leave their face.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares")
 
 #text("Choose one creature you can see within 4 squares and make an attack using Guile. Deal Life damage as shown below; Life resistance applies. This attack does not heal you. When an NPC uses it against a player character, that character defends with Fortitude.")
 
@@ -6520,18 +5553,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("flame","1")#discipline-mark("arms","1")],"Ember Along the Edge","1","Flame 1 and Arms 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d22e862d4183")[
 #emph[#text("You run two fingers beside your weapon’s edge, leaving a line of fire along it, then strike with the burning blade.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Run a spark along your melee weapon and strike. Its appearance remains yours to choose.")
 
@@ -6548,18 +5580,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","1")],"Expert River Crossing","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-42514b06d0c6")[
 #emph[#text("You study the current, choose your line, and slip into the river without surrendering your bearings.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A swim you could ordinarily attempt")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A swim you could ordinarily attempt")
 
 #text("Choose a swim that you could ordinarily attempt. Before a consequential attempt, the DA states how much progress is needed to complete it. Roll Brawn. This card does not let you breathe underwater.")
 
@@ -6576,20 +5605,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Forage Coast","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-ae0b1a257a5d")[
 #emph[#text("You read the tide line and turn over the stones the gulls have left alone.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A viable shore; one hour")
+#text("")#strong[#text("Target:")]#text(" A viable shore; one hour")
 
 #text("Spend one hour searching a place that contains usable resources. Choose food or ordinary coastal materials, then roll Knowledge. Improve one matching supply bundle; if you have none, its first step creates a d4 supply. Further steps raise it to d6, then d8. This card cannot raise a bundle above d8.")
 
@@ -6608,20 +5636,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Forage Mountains","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-1ffdfb8a8396")[
 #emph[#text("You search the sheltered cracks where the mountain keeps its small stores of life.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Viable mountain terrain; one hour")
+#text("")#strong[#text("Target:")]#text(" Viable mountain terrain; one hour")
 
 #text("Spend one hour searching a place that contains usable resources. Choose food or ordinary mineral or plant materials, then roll Knowledge. Improve one matching supply bundle; if you have none, its first step creates a d4 supply. Further steps raise it to d6, then d8. This card cannot raise a bundle above d8.")
 
@@ -6640,20 +5667,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Forage Wetlands","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-54e2b3670bc5")[
 #emph[#text("You kneel beside the reeds, finding nourishment where others see only mud.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A viable marsh or riverside; one hour")
+#text("")#strong[#text("Target:")]#text(" A viable marsh or riverside; one hour")
 
 #text("Spend one hour searching a place that contains usable resources. Choose food or ordinary plant materials, then roll Knowledge. Improve one matching supply bundle; if you have none, its first step creates a d4 supply. Further steps raise it to d6, then d8. This card cannot raise a bundle above d8.")
 
@@ -6672,20 +5698,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Forage Woodland","1","Wilderness 1","Main Action","Knowledge","Skill","2 DP","s-a7e3126a7312")[
 #emph[#text("You leave the obvious trail and return with the forest’s quiet offerings gathered in your hands.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A viable forest patch; one hour")
+#text("")#strong[#text("Target:")]#text(" A viable forest patch; one hour")
 
 #text("Choose food or ordinary plant crafting material; one bundle only, maximum d8. The first step from out creates d4; further steps raise it to d6, then d8. DA establishes whether the patch has usable resources; no repeat harvesting of an exhausted patch.")
 
@@ -6702,20 +5727,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Guide a Frightened Animal","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-be5d309cac2f")[
 #emph[#text("You lower your voice and let the animal see that your hands are quiet.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One nonhostile animal able to perceive you; one minute")
+#text("")#strong[#text("Target:")]#text(" One nonhostile animal able to perceive you; one minute")
 
 #text("Spend one minute calming a nonhostile animal that can see or hear you. State the behavior you want, such as letting a companion approach. The DA sets a progress target for a behavior the animal could plausibly accept. Roll Guile. This card gives no control over hostile or intelligent creatures.")
 
@@ -6732,18 +5754,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Progress toward the declared behavior persists while the situation remains applicable.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("storm","1")],"Gust Hammer","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-4308553a40ce")[
 #emph[#text("You thrust your palm forward. A compressed rush of air strikes your enemy squarely and drives them backward.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares")
 
 #text("Proposed NPC defense attribute: Fortitude.")
 
@@ -6760,20 +5781,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Hold a Conversation","1","None","Main Action","Guile","Skill / Utility","2 DP","s-4ae89f9a2005")[
 #emph[#text("You find the question that makes a stranger set aside what they were doing and listen.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One nonhostile creature you share a language with; one minute")
+#text("")#strong[#text("Target:")]#text(" One nonhostile creature you share a language with; one minute")
 
 #text("Expert social practice, not compulsory speech or a replacement for roleplay. No card is required to talk, persuade or ask questions.")
 
@@ -6790,18 +5808,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","1")],"Hook and Drive","1","Arms 1","Main Action","Brawn","Skill / Attack","2 DP","s-79bc81080a40")[
 #emph[#text("Catch their guard and haul them into the place they least want to stand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Choose your target and make the attack.")
 
@@ -6818,73 +5833,63 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"I Have Seen This Step","1","Scholarship 1","Reaction","None — no roll","Skill","2 DP","s-159a95b3baad")[
 #emph[#text("You recognize an attacker’s raised arm from a dream and shout a warning before the blow falls.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An ally within 3 squares before a visible physical attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An ally within 3 squares before a visible physical attack.")
 
 #text("Call the warning you remember. If the ally hears you, it gains 1 Boon to this defense. No reroll after seeing dice.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"Identify a Mixture","1","Scholarship 1","Main Action","Reason","Skill / Utility","2 DP","s-f6f355a9a0ce")[
 #emph[#text("You turn the bottle toward the light and recognize a familiar cloud in the liquid.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible potion or mixture; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" One accessible potion or mixture; 10 minutes")
 
 #text("Weak: learn broad purpose. Standard: learn its use and effects. Strong: also reveal contamination or a harmful additive. Does not consume the mixture.")
 
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"Identify an Enchantment","1","Scholarship 1","Main Action","Knowledge","Skill / Utility","2 DP","s-fc3713e7daec")[
 #emph[#text("You study the object until its small strangenesses begin to form a language you understand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible magical item; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" One accessible magical item; 10 minutes")
 
 #text("Weak: learn broad purpose. Standard: learn function and activation requirements. Strong: also reveal any curse and its activation. No recipe or waived prerequisites.")
 
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("mind","1")],"Intrusive Echo","1","Mind 1","Main Action","Guile","Magic / Attack","2 DP","s-b090d56f57fa")[
 #emph[#text("You speak a word that keeps repeating inside your enemy’s head. They shake their head, struggling to follow the fight through the echo.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares")
 
 #text("Proposed NPC defense attribute: Reason.")
 
@@ -6901,18 +5906,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","1")],"Invitation to the Blade","1","Arms 1","Main Action","Agility","Skill / Attack","2 DP","s-57f6387c6028")[
 #emph[#text("You lower your guard just enough to invite a strike, then turn your blade across the opening and attack as your opponent commits.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Offer a tempting line, then close it with a melee attack.")
 
@@ -6929,18 +5931,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; a next-roll benefit ends when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","1")],"Keep Time with Steel","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-57a8cf7ceb2c")[
 #emph[#text("You sing a marching beat as you strike, then nod your companion toward the space your blow has opened.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Strike in the rhythm that carries your companions forward. Requires melee weapon.")
 
@@ -6957,20 +5956,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Keep Your Bearings","1","None","Main Action","Reason","Skill / Utility","2 DP","s-8bc286049eb3")[
 #emph[#text("You pause, find a familiar angle in the unfamiliar world, and choose your way.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An unfamiliar place with usable landmarks; one minute")
+#text("")#strong[#text("Target:")]#text(" An unfamiliar place with usable landmarks; one minute")
 
 #text("Ordinary navigation is possible without the card. No routine travel roll; only consequential uncertainty. No magic compass when evidence is absent.")
 
@@ -6987,69 +5983,57 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","1")],"Keep the Door Closed","1","Life 1","Reaction","None — no roll","Magic / Recovery","2 DP","s-74c5c6765a91")[
 #emph[#text("You kneel beside your dying companion and grip their hand, keeping their attention on your voice as their breathing falters.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent Dying player character, immediately before a death mark would be added.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent Dying player character, immediately before a death mark would be added.")
 
 #text("Before the new mark is added, clear one existing death mark from the target, then add the triggering mark normally. This restores no HP and does not stabilize. If the target has no marks to clear, this card has no benefit. It cannot interrupt Last Words; the wound remains.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","1")],"Lantern Moths","1","Radiance 1","Main Action","None — no roll","Magic / Utility","2 DP","s-2916c871443a")[
 #emph[#text("A small constellation of moths rises from your open palm.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three visible unoccupied squares within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three visible unoccupied squares within 4 squares")
 
 #text("Lights last one scene, illuminate their square and adjacent squares, and cannot blind or deal damage. With one Maneuver you may move each light up to 2 squares; they vanish beyond 6 squares from you. They are effects, not summons or blockers.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the scene ends, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","1")],"Lantern in the Palm","1","Radiance 1","Maneuver","None — no roll","Magic / Utility","2 DP","s-38e4cc5379f9")[
 #emph[#text("You cup your hand and breathe a warm bead of light into it. The glow spills between your fingers onto the faces and stones around you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and squares within 3 squares of you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and squares within 3 squares of you.")
 
 #text("Create a light that moves with you and illuminates squares within 3 squares along unobstructed paths. Ordinary darkness does not conceal creatures or objects in that light. Solid obstructions, smoke and magical darkness remain. The light is visible to enemies too. You may end it without an action. It grants no attack bonus or special detection.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene or until ended; only one light from this card per user.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a free hand when cast; the light then hovers above your shoulder.")
+#text("")#strong[#text("Gear:")]#text(" Requires a free hand when cast; the light then hovers above your shoulder.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One active light per user. Recasting replaces it; lights grant no stacking bonus.")
 
 ]
 #card(icons: [#discipline-mark("flame","1")],"Let the Spark Decide","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-e4182074f203")[
 #emph[#text("You snap your fingers and send a bright spark toward your target. At your gesture it blossoms into flame or scatters into a spray of frost, striking with a sudden shove.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares.")
 
 #text("Choose fire or cold before rolling. Make one Guile attack against the target.")
 
@@ -7066,20 +6050,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","1")],"Make Something Useful","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-c1806fb50c1b")[
 #emph[#text("You pull sound pieces from the wreckage, lay them beside your tools and fit them together into something the party can use.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" The recipe’s stated interval per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One known ordinary recipe and plausible local materials; recipe interval")
+#text("")#strong[#text("Target:")]#text(" One known ordinary recipe and plausible local materials; recipe interval")
 
 #text("Grants craft tools if absent and two ordinary recipes. For this card, equivalent salvaged materials may replace the recipe’s ordinary materials when the DA judges them suitable. Still requires a recipe; no magic or free ingredients.")
 
@@ -7098,20 +6077,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Crafted items and supplies persist until used or destroyed.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.")
+#text("")#strong[#text("Gear:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","1")],"Measured Appeal","1","Influence 1","Main Action","Guile","Skill","2 DP","s-7a069d6648a5")[
 #emph[#text("You let the room grow quiet before putting the request into words they can hear.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing listener; one minute of conversation")
+#text("")#strong[#text("Target:")]#text(" One willing listener; one minute of conversation")
 
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
@@ -7128,18 +6104,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","1")],"Mercy in the Light","1","Radiance 1","Main Action","Reason","Magic / Recovery","2 DP","s-f5add3130b03")[
 #emph[#text("You speak a blessing over your companion. Warm light spreads beneath your palm, easing their wounds and trembling as your own strength ebbs.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible willing creature within 3 squares, including self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible willing creature within 3 squares, including self.")
 
 #text("Pay 1 HP before rolling, ignoring resistance; you must remain above 0 HP. Requires a free hand. Life resistance reduces HP restored, to a minimum of 1 where HP is missing, capped by missing HP. A willing creature harmed by healing instead takes the printed HP amount as Life damage, with normal resistance and minimum damage, and gains no beneficial rider. This card does not permit targeting an unwilling creature. No resurrection, wound removal or Grit restoration.")
 
@@ -7158,9 +6131,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Healing and condition reduction are immediate.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and HP cost each time.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
@@ -7169,9 +6142,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [#discipline-mark("influence","1")],"Name the Reckoning","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-42f939f3aed0")[
 #emph[#text("You point your weapon at your quarry, speak the promise that brought you here, and strike as you step into their path.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Tell them why you came as you make a melee attack. Your certainty, not your strength, guides the strike.")
 
@@ -7188,20 +6160,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Damage and movement are immediate; the quarry mark lasts until the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"Notice the Human Detail","1","None","Main Action","Reason","Skill / Utility","2 DP","s-ded249872692")[
 #emph[#text("You notice the untouched cup, the worried glance, the detail everyone else stepped past.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible scene or person you can examine; one minute")
+#text("")#strong[#text("Target:")]#text(" An accessible scene or person you can examine; one minute")
 
 #text("No secret fact is invented. Obvious clues require no roll. This grants no lie detection, mind reading or an Observation attribute.")
 
@@ -7218,18 +6187,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","1")],"Oathlight Strike","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-788fb7bb32b2")[
 #emph[#text("You speak your oath and bring your weapon down in a flash of light. Part of that light gathers beside a companion, catching the next threat in its glow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Speak the promise that guides your hand and strike with a melee weapon.")
 
@@ -7246,52 +6212,45 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; a next-roll benefit ends when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","1")],"Ordinary Recipe Study","1","Craft 1; known compatible crafting card","Passive","None — no roll","Skill / Utility","2 DP","s-910d1a40bef2")[
 #emph[#text("You copy the useful notes, stain the page with practice, and make the method your own.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two compatible ordinary recipes chosen on purchase")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two compatible ordinary recipes chosen on purchase")
 
 #text("No roll. Learn two recipes usable with a crafting card you already know. Repeatable purchase; no duplicate recipe choice. Does not grant materials or equipment.")
 
 #text("")#strong[#text("Duration:")]#text(" The recipes are learned permanently.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable purchase of new recipe choices.")
 
 ]
 #card(icons: [],"Pack with Purpose","1","None","Passive","None — no roll","Skill / Utility","2 DP","s-27a35db4f523")[
 #emph[#text("Your hand finds the familiar loop and makes room for the weapon you need next.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Your own carried inventory")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Your own carried inventory")
 
 #text("Passive: once on your turn, stow one held ordinary item as part of drawing a different stowed weapon for an attack. The weapon still needs the required hands. Grants no free potion use, extra inventory slot or reduced Bulk.")
 
 #text("")#strong[#text("Duration:")]#text(" Once on each of your turns, when the printed weapon-switch trigger occurs.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","1")],"Palm of the Gale","1","Storm 1","Main Action","Fortitude","Magic / Attack","2 DP","s-43f4bd09220f")[
 #emph[#text("You plant your feet and strike with an open palm. A gust bursts from the motion and hits your opponent with the blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Release the breath you have been holding through an open palm. No weapon required.")
 
@@ -7308,18 +6267,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","1")],"Pinning Shot","1","Marksmanship 1","Main Action","Agility","Skill / Attack","2 DP","s-a61a3f0d1b49")[
 #emph[#text("You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 8 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 8 squares")
 
 #text("Choose your target and make the attack.")
 
@@ -7336,20 +6290,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"Quiet Latch","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-ddd66a510b36")[
 #emph[#text("You ease a tool into the keyway and feel each small resistance give way.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent mundane lock; one minute per attempt")
+#text("")#strong[#text("Target:")]#text(" One adjacent mundane lock; one minute per attempt")
 
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
@@ -7366,18 +6317,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Lock tools required; gain one set, Bulk 1, on learning if absent.")
+#text("")#strong[#text("Gear:")]#text(" Lock tools required; gain one set, Bulk 1, on learning if absent.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","1")],"Read the Quarry","1","Marksmanship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-43429d322c0c")[
 #emph[#text("You study the creature’s gait and fire toward the place its next step will carry it, watching for the marks that movement leaves behind.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 8 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 8 squares.")
 
 #text("Study how it moves and place a ranged shot where it will be. Requires ranged weapon and ammunition; check supply after use.")
 
@@ -7394,20 +6342,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
+#text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"Read the Remains","1","Scholarship 1","Main Action","Reason","Skill","2 DP","s-37c8bd3c7d28")[
 #emph[#text("You crouch beside the overturned cup and follow the scrape across the floor, piecing together what moved through the room.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible scene or object; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" One accessible scene or object; 10 minutes")
 
 #text("Facts must be available from the evidence, never invented by the card. Correct examination reveals obvious clues without a roll; only consequential uncertainty calls for this card.")
 
@@ -7424,18 +6369,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Relieve Poison","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-3e7997d354fd")[
 #emph[#text("You recognize the tremor and work quickly to ease what is spreading through their body.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature")
 
 #text("Choose an eligible willing creature and roll Knowledge. Reduce its temporary Poisoned by the amount below, to a minimum of 0. This restores no HP. A persistent condition marked with an asterisk requires the treatment or remedy stated by its source.")
 
@@ -7452,18 +6394,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("frost","1")],"Rime Grip","1","Frost 1","Main Action","Knowledge","Magic / Attack","2 DP","s-fe1587c3ea64")[
 #emph[#text("Frost climbs their limbs like fingers closing around a wrist.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares")
 
 #text("Proposed NPC defense attribute: Agility.")
 
@@ -7480,18 +6421,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Roots Remember Feet","1","Wilderness 1","Main Action","Reason","Magic","2 DP","s-e16c4f638ad5")[
 #emph[#text("You press your hand toward the ground beneath your enemy. Roots rise from the soil and cracks, winding around their feet and dragging at their steps.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature standing on ground within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature standing on ground within 4 squares.")
 
 #text("Roots spring from cracks or soil to catch its feet. They wither immediately after the effect; you are not maintaining a grapple.")
 
@@ -7508,18 +6446,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Rouse the Senses","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-199248a32781")[
 #emph[#text("You speak a familiar word and hold their gaze until the world begins to settle around them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing creature")
 
 #text("Choose an eligible willing creature and roll Reason. Reduce its temporary Dazed by the amount below, to a minimum of 0. This restores no HP. A persistent condition marked with an asterisk requires the treatment or remedy stated by its source.")
 
@@ -7536,18 +6469,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"Saddle and Rein","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-a4dba94902f5")[
 #emph[#text("You settle into the animal’s movement until your hands and its breathing find a rhythm.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing mount you are riding; one consequential noncombat obstacle.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing mount you are riding; one consequential noncombat obstacle.")
 
 #text("Describe how you guide the mount. The DA states the obstacle’s progress target before the roll. Use only routes the mount can physically negotiate. This card grants neither a mount nor extra combat actions.")
 
@@ -7564,18 +6496,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" For this obstacle.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A willing mount; none granted.")
+#text("")#strong[#text("Gear:")]#text(" A willing mount; none granted.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("life","1")],"Sap and Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-606521a493ff")[
 #emph[#text("You kneel beside your companion and extend your hand. Green light passes from your palm into their wounds, leaving your own fingers cold.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 2 squares.")
 
 #text("A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yourself above 0; ignore resistance for the cost. Requires a free hand. Apply Life resistance to healing, minimum 1, capped by missing HP.")
 
@@ -7592,20 +6523,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
 #card(icons: [#discipline-mark("athletics","1")],"Secure a Hold","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-a6fe8604c3d3")[
 #emph[#text("You step close, catch your opponent’s arm or body, and lock your weight against theirs. Holding them still leaves you committed to the same struggle.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Roll Brawn.")
 
@@ -7624,35 +6550,33 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" While the grapple is maintained; ends when its contribution is released or removed.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
 #card(icons: [#discipline-mark("arms","1")#discipline-mark("subterfuge","1")],"Sell the Feint","1","Arms 1 and Subterfuge 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-fc048fa2af8c")[
 #emph[#text("You show an opening with your shoulder and flick your weapon toward it, drawing their attention away from your real stroke.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature that can see you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature that can see you.")
 
 #text("Gain 1 Boon to your next melee attack against the chosen creature this turn. The target need not move, spend a Reaction or accept a particular response. This grants no attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Until used or the end of this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon; grants none.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; grants none.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
 #card(icons: [#discipline-mark("life","1")],"Shared Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-a4c83899a588")[
 #emph[#text("You reach toward your companion and breathe out slowly. Warmth passes into their wounds while the effort catches painfully in your chest.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, including self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, including self")
 
 #text("Moser’s law of conservation of Life energy: pay 1 HP before rolling; bypass resistance and remain above 0 HP. Requires a free hand. Life resistance reduces restoration, minimum 1 where HP is missing. Healing-harmed creatures take the rolled result as Life damage. No resurrection or removal of wounds/Grit loss.")
 
@@ -7669,37 +6593,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
 #card(icons: [#discipline-mark("guard","1")],"Shielding Step","1","Guard 1","Reaction","None — no roll","Skill / Defense","2 DP","s-5dc69f4dd73b")[
 #emph[#text("You are already moving before your friend sees the blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing ally, after a single-target attack is declared but before its roll.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing ally, after a single-target attack is declared but before its roll.")
 
 #text("While holding a shield, replace the ally as the target if you meet the attack’s range and targeting requirements. Resolve that attack against you once, using your defense if one is called for. The ally takes none of this attack’s effects. You do not move; this cannot redirect an area attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a shield. Grants one ordinary shield, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a shield. Grants one ordinary shield, Bulk 1, if absent.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","1")],"Smile Before Steel","1","Arms 1","Main Action","Guile","Skill / Attack","2 DP","s-f6bae7ebbc57")[
 #emph[#text("You smile and feint toward one side, then strike from the other and step away as your opponent turns after you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Use a melee weapon, a wink and a deliberately misleading step.")
 
@@ -7716,20 +6634,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","1")],"Smoke in a Bottle","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Control / Utility","2 DP","s-2cfa9459da40")[
 #emph[#text("You shake the prepared bottle and throw it onto the ground. It breaks with a sharp pop, spilling a thick cloud of smoke across the nearby space.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Main Action to throw; one hour per crafting attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 3 squares.")
+#text("")#strong[#text("Target:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 3 squares.")
 
 #text("")#strong[#text("Throw the smoke — Main Action.")]#text(" Use a prepared Smoke Flask supply. Roll Knowledge, then place one connected smoke area with squares joined along their edges. Check the supply’s inventory die after use; its last use still works.")
 
@@ -7750,20 +6665,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Smoke: until the end of your next turn. Crafted supplies remain until used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One mixing kit, Bulk 1, if absent. No ingredients or finished smoke granted.")
+#text("")#strong[#text("Gear:")]#text(" One mixing kit, Bulk 1, if absent. No ingredients or finished smoke granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","1")],"Speak with the Hearth","1","Flame 1","Main Action","Knowledge","Magic / Utility","2 DP","s-2901bff290db")[
 #emph[#text("You lower your hand into the fire without being burned. Shapes gather among the coals: traces of the people and possessions that recently passed its warmth.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One ordinary fire you can touch without harm; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" One ordinary fire you can touch without harm; 10 minutes")
 
 #text("The touch is safe only for this divination. Information is limited to the fire’s actual recent history, not distant events. One reading per fire per day. A missing clue cannot be invented.")
 
@@ -7780,18 +6692,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","1")],"Spring in the Sleeve","1","Craft 1","Main Action","Knowledge","Skill / Attack / Crafting","2 DP","s-357292401433")[
 #emph[#text("You level your wrist and release the catch. A hook shoots from your bracer on a spring, striking your enemy and tugging them toward you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 3 squares.")
 
 #text("A spring-driven hook snaps from a bracer you build on learning the card. It is reusable, Bulk 1, granted if absent.")
 
@@ -7808,35 +6717,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"Step Between Lanterns","1","Subterfuge 1","Maneuver","None — no roll","Skill","2 DP","s-2960fb94332a")[
 #emph[#text("You wait for a lantern to turn away, then move along the strip of darkness between its light and the next.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, with a concealed route.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, with a concealed route.")
 
 #text("Move up to 2 squares through actual dimness or concealment without provoking. If you were Hidden and the whole route conceals you, remain Hidden. This does not hide you in an exposed square.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"Stitch the Living Pattern","1","Scholarship 1","Main Action","Knowledge","Magic / Recovery","2 DP","s-85e94e582dcc")[
 #emph[#text("You trace fine lines of blue light above the injury, drawing the broken pattern together as a matching ache runs through your own hand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible willing creature within 3 squares, including self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible willing creature within 3 squares, including self.")
 
 #text("Pay 1 HP before rolling, ignoring resistance; you must remain above 0 HP. Requires a free hand. Life resistance reduces HP restored, to a minimum of 1 where HP is missing, capped by missing HP. A willing creature harmed by healing instead takes the printed HP amount as Life damage, with normal resistance and minimum damage, and gains no beneficial rider. This card does not permit targeting an unwilling creature. No resurrection, wound removal or Grit restoration.")
 
@@ -7855,9 +6754,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Healing is immediate; the Strong Boon ends when used or at the end of the recipient’s next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and HP cost each time.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
@@ -7866,9 +6765,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [#discipline-mark("calling","1")],"Summon Animal — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-4bae3b97adcd")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7878,18 +6776,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"Summon Construct — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-593a4ab3e236")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7899,18 +6796,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"Summon Elemental — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-98b40bc83bc9")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7920,18 +6816,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"Summon Fey — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-e07be2e898d1")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7941,18 +6836,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"Summon Spirit — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-cf9d120450ce")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7962,18 +6856,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","1")],"Summon Undead — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-9a79cc18229b")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -7983,18 +6876,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("athletics","1")],"Sure Ascent","1","Athletics 1","Main Action","Brawn","Skill","2 DP","s-81968023986d")[
 #emph[#text("You test the next handhold, shift your weight onto it and check where a rope could help the companion climbing after you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A climb you could ordinarily attempt")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A climb you could ordinarily attempt")
 
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
@@ -8011,18 +6903,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","1")],"Swing into Trouble","1","Athletics 1","Main Action","Agility","Skill / Utility","2 DP","s-5fa88b2dc319")[
 #emph[#text("You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A secured rope or hanging fixture, and a visible free landing within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A secured rope or hanging fixture, and a visible free landing within 4 squares")
 
 #text("Requires an actual usable support. No automatic extra attack. If the rolled distance cannot reach a safe landing, remain hanging at a reachable position; the DA states the risk before the roll.")
 
@@ -8039,54 +6928,47 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Immediate movement and displacement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","1")],"Take Them Alive","1","Arms 1","Passive","None — no roll","Skill / Utility","2 DP","s-8bf4c899b76a")[
 #emph[#text("You turn the edge at the last instant and finish with a controlled blow, leaving your opponent unconscious instead of dead.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A creature reduced to 0 HP by your melee attack")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A creature reduced to 0 HP by your melee attack")
 
 #text("Declare before the attack. NPC remains unconscious until the scene ends or healed; no wound inflicted by this finishing blow. This is the purchased exception to lethal attacks, not universal permission. Player characters retain their normal 0-HP rules.")
 
 #text("")#strong[#text("Duration:")]#text(" Unconscious until the scene ends or the target is healed.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","1")],"Take the Measure","1","Marksmanship 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-f70404717fe6")[
 #emph[#text("You hold your aim through a slow breath, watching the opening appear between your target’s movements.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within your ranged attack’s range.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within your ranged attack’s range.")
 
 #text("Choose the creature. Gain 1 Boon to your next ranged attack against it this turn. If you move or are moved before that attack, lose this benefit. This grants no attack and does not extend the attack’s range.")
 
 #text("")#strong[#text("Duration:")]#text(" Until used or the end of this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires the ranged weapon used by the attack; grants no item.")
+#text("")#strong[#text("Gear:")]#text(" Requires the ranged weapon used by the attack; grants no item.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
 #card(icons: [],"Tell a Worthy Story","1","None","Main Action","Guile","Skill / Utility","2 DP","s-d2cc2f97d507")[
 #emph[#text("You begin with the detail you remember best, and the listeners lean a little closer.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" A few minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A willing audience; a few minutes")
+#text("")#strong[#text("Target:")]#text(" A willing audience; a few minutes")
 
 #text("Ordinary conversation remains available. Choose a plausible objective before rolling; this does not compel belief or behavior.")
 
@@ -8103,18 +6985,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","1")],"The Key Changes Hands","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-6facfd6f6b13")[
 #emph[#text("You draw someone’s attention with a question while your other hand lifts the unattended key from the table.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent visible unattended object of Bulk 0 or 1.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent visible unattended object of Bulk 0 or 1.")
 
 #text("Name the object and describe your distraction. An unobserved accessible pickup needs no roll. When discovery has consequences, roll Guile:")
 
@@ -8133,37 +7012,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Object transfer is immediate. The Weak Boon expires after your next attempt or at the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","1")],"The Otter’s Bargain","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-5566a5f3ed51")[
 #emph[#text("You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Webbing slips between your fingers for one scene. Swimming squares cost you 1 movement instead of the normal difficult-water cost where movement is otherwise possible. You still need air, and dangerous currents may still call for ordinary rolls. You do not gain land Speed or a second HP pool.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the scene ends, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","1")],"The Patient Metal","1","Scholarship 1","Main Action","Knowledge","Magic","2 DP","s-d81a1958a55c")[
 #emph[#text("You hold the damaged fitting between your fingers. The metal warms and softens just enough for you to bend it back toward its proper shape.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One minute per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible ordinary metal item; one minute.")
+#text("")#strong[#text("Target:")]#text(" An accessible ordinary metal item; one minute.")
 
 #text("Warm and bend a small damaged fitting, fastener or edge with your fingers. You do not create valuables or open an intact lock.")
 
@@ -8180,37 +7049,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","1")],"The Right Small Courtesy","1","Influence 1","Passive","None — no roll","Skill / Utility","2 DP","s-1f9a863cb1f5")[
 #emph[#text("You watch who pours first, who waits, and which little gesture makes a stranger smile.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes of observation.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A gathering you can observe for ten minutes.")
+#text("")#strong[#text("Target:")]#text(" A gathering you can observe for ten minutes.")
 
 #text("Learn one local courtesy actually demonstrated during your observation and whom it is appropriate to address first, if evident. No roll. Once in this gathering, gain 1 Boon to a Guile roll seeking hospitality or an introduction when you use that courtesy. You need a way to communicate; this grants neither a language nor friendship.")
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon is available until you leave the gathering.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon use per gathering per scene; further observation does not refresh it.")
 
 ]
 #card(icons: [#discipline-mark("athletics","1")],"The Untroubled Hand","1","Athletics 1","Main Action","Reason","Skill / Attack","2 DP","s-e0f03cd9803f")[
 #emph[#text("You breathe out, catch the line of your opponent’s movement with an open hand, and strike while guiding their weight past you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Strike with an empty hand, foot or shoulder. You read balance, not anatomy alone.")
 
@@ -8227,18 +7090,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","1")],"Thunder at the Door","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-8139ff39e4f2")[
 #emph[#text("You raise your palm toward your enemy and close your fingers. A thunderclap bursts beside them, rattling their balance and ringing in their ears.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares.")
 
 #text("A thunderclap arrives where you point.")
 
@@ -8255,20 +7113,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","1")],"Trail Workshop","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-55a747e1dcae")[
 #emph[#text("You spread your tools on a cloth and turn a stopping place into a workshop.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" The recipe’s stated interval per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One known compatible ordinary recipe; recipe interval")
+#text("")#strong[#text("Target:")]#text(" One known compatible ordinary recipe; recipe interval")
 
 #text("Requires a known ordinary recipe. Grants craft tools if absent and two compatible ordinary recipe choices. Recipe defines materials, time and completion; no free materials.")
 
@@ -8287,20 +7140,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Crafted items and supplies persist until used or destroyed.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.")
+#text("")#strong[#text("Gear:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Bone","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-afd69d03fa79")[
 #emph[#text("You steady the injured limb and work with the patient care of someone who knows how much it hurts.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One wound listing Bone; one hour")
+#text("")#strong[#text("Target:")]#text(" One wound listing Bone; one hour")
 
 #text("Choose one wound that lists Bone treatment. Spend one hour treating it, then roll Knowledge and add recovery progress:")
 
@@ -8319,20 +7169,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Elemental Injury","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-09d5eb4341f2")[
 #emph[#text("You clean away the traces of the element and tend the damaged flesh beneath them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One wound listing Elemental treatment; one hour")
+#text("")#strong[#text("Target:")]#text(" One wound listing Elemental treatment; one hour")
 
 #text("Choose one wound that lists Elemental treatment. Spend one hour treating it, then roll Knowledge and add recovery progress:")
 
@@ -8351,20 +7200,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Life Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-bf38cda8561d")[
 #emph[#text("You sit beside the patient and patiently coax their exhausted body back toward its own rhythm.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One wound listing Life treatment; one hour")
+#text("")#strong[#text("Target:")]#text(" One wound listing Life treatment; one hour")
 
 #text("Choose one wound that lists Life treatment. Spend one hour treating it, then roll Reason and add recovery progress:")
 
@@ -8383,20 +7231,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Mental Trauma","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-85e091071416")[
 #emph[#text("You make a quiet place where the memory can be spoken without having to face it alone.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing patient’s Mental wound; one hour")
+#text("")#strong[#text("Target:")]#text(" One willing patient’s Mental wound; one hour")
 
 #text("Choose one wound that lists Mental treatment. Spend one hour treating it, then roll Reason and add recovery progress:")
 
@@ -8415,20 +7262,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Radiant Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-476aafa6e992")[
 #emph[#text("You shade the injured eyes and work gently around the marks the terrible light has left.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One wound listing Radiant treatment; one hour")
+#text("")#strong[#text("Target:")]#text(" One wound listing Radiant treatment; one hour")
 
 #text("Choose one wound that lists Radiant treatment. Spend one hour treating it, then roll Reason and add recovery progress:")
 
@@ -8447,20 +7293,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
 #card(icons: [#discipline-mark("medicine","1")],"Treat Soft Tissue","1","Medicine 1","Main Action","Knowledge","Skill","2 DP","s-d72b8ce2ae0e")[
 #emph[#text("You wash your hands and begin the close, careful work of mending what has been torn.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt; at most once per wound per day.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one willing patient; one hour")
+#text("")#strong[#text("Target:")]#text(" Self or one willing patient; one hour")
 
 #text("Requires a wound listing Soft Tissue treatment; once per wound per day across all healers. Meet its recovery value to remove only its listed treatable penalties. The scar and accumulated wound count remain.")
 
@@ -8477,43 +7322,35 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","1")],"Wake the Iron Rune","1","Armor 1","Maneuver","None — no roll","Magic","2 DP","s-d3bba3dde3ae")[
 #emph[#text("You trace the rune on your armor. Its lines darken as a heavy pressure settles through your boots into the ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, wearing armor.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, wearing armor.")
 
 #text("Gain Stability 1 until the start of your next turn. Use your highest applicable Stability, maximum 3; this is not an additional distance reduction.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","1")],"Wear Medium Armor","1","Armor 1","Passive","None — no roll","Training / Passive","2 DP","s-30d5ca182be2")[
 #emph[#text("You roll your shoulders inside the familiar armor, ready to meet the day’s hard edges.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("While wearing the trained armor, physical resistance 2. No roll; highest matching resistance applies.")
 
 #text("")#strong[#text("Duration:")]#text(" While wearing the trained armor.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One ordinary medium armor, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" One ordinary medium armor, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
@@ -8524,9 +7361,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [#discipline-mark("life","2")#discipline-mark("wilderness","1")],"A Bough for the Fallen","3","Life 2 and Wilderness 1","Main Action","Reason","Magic / Recovery","4 DP","s-1f550d30b8a6")[
 #emph[#text("You kneel, and a cradle of roots lifts your companion as warmth drains from your hands.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares.")
 
 #text("Roots gently lift the fallen. Pay 3 HP first, leaving yourself above 0; cost bypasses resistance. Requires a free hand. Life resistance reduces healing, minimum 1.")
 
@@ -8543,39 +7379,33 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
 #card(icons: [#discipline-mark("wilderness","2")#discipline-mark("life","1")],"A Breath beneath the Water","3","Wilderness 2 and Life 1","Main Action","None — no roll","Magic / Utility","4 DP","s-54fefd5e6adc")[
 #emph[#text("You touch your throat and feel the next breath come cool and easy beneath the surface.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature.")
 
 #text("The target can breathe ordinary water and air for one hour. This does not change Speed, permit speech underwater, remove poison or protect against pressure or temperature. One recipient at a time from this card per caster; applying it again ends your previous application. Give the recipient a perceptible warning one minute before expiration.")
 
 #text("")#strong[#text("Duration:")]#text(" One hour; ends early if you replace it.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" No HP is restored, so this is not a healing spell and has no Life-energy payment.")
 
 ]
 #card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("wilderness","1")],"A Camp without a Trace","3","Subterfuge 2 and Wilderness 1","Main Action","Guile","Skill / Utility","4 DP","s-e97ab605ed17")[
 #emph[#text("You lift the crushed leaves, scatter the cold ash and leave the place looking as though it never held a story.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One departed campsite used by up to six people; one hour.")
+#text("")#strong[#text("Target:")]#text(" One departed campsite used by up to six people; one hour.")
 
 #text("Conceal ordinary evidence of your camp. The DA sets a progress target for its size and disturbance. On completion, attempts to track your departure from this site take 1 Bane. This does not erase magical marks, remove witnesses or hide occupants.")
 
@@ -8592,20 +7422,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until new evidence exposes the departure route.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per departure; no stacking Banes from repeated cleanup.")
 
 ]
 #card(icons: [#discipline-mark("athletics","2")#discipline-mark("wilderness","1")],"A Line for Everyone","3","Athletics 2 and Wilderness 1","Main Action","Brawn","Skill / Utility","4 DP","s-f7700837de75")[
 #emph[#text("You test the line, look back at your companions and show them where to put their hands.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One natural climb or gap and a suitable rope; ten minutes per attempt.")
+#text("")#strong[#text("Target:")]#text(" One natural climb or gap and a suitable rope; ten minutes per attempt.")
 
 #text("Establish a roped route toward a DA-declared progress target. You must reach and secure its anchors; this grants no remote placement or impossible foothold. On completion, you and up to six companions gain 1 Boon each to their next roll traversing this route while the rope remains secured.")
 
@@ -8622,18 +7451,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until the rope is removed or the route changes.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Suitable rope required; grants an ordinary rope coil, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Suitable rope required; grants an ordinary rope coil, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon per traveler per route; rebuilding the same route does not refresh it. Existing ordinary rope use remains possible.")
 
 ]
 #card(icons: [#discipline-mark("subterfuge","2")],"A Lock Has a Language","3","Subterfuge 2","Main Action","Reason","Skill","4 DP","s-b7c0dedda6d3")[
 #emph[#text("You close your eyes and listen through your fingertips for the lockmaker’s last little secret.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent ordinary lock.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent ordinary lock.")
 
 #text("Use lock tools on one adjacent ordinary lock. An attempt takes a Main Action, including under pressure. The DA states the opening target and consequences before the attempt; accumulate progress toward opening it.")
 
@@ -8650,54 +7478,41 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Opening progress persists; information remains known.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Lock tools required; gain one set, Bulk 1, on learning if absent.")
+#text("")#strong[#text("Gear:")]#text(" Lock tools required; gain one set, Bulk 1, on learning if absent.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("calling","2")],"A Ribcage for a Shield","3","Calling 2","Reaction","None — no roll","Magic","4 DP","s-0ec013bc023f")[
 #emph[#text("You call, and pale ribs close around your companion like the hands of an old guardian.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent willing ally before a physical defense.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent willing ally before a physical defense.")
 
 #text("A cage of spectral ribs catches the edge of the blow. Grant 1 Boon to the defense; on a Strong defense, the ally may push the adjacent attacker 1 square afterward. The ribs disappear immediately.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","2")],"A Road through Rain","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-a274a52349dd")[
 #emph[#text("You draw your hand through the rain, dust or smoke ahead. It parts along your gesture, leaving a narrow strip of clear air through which your companions can see.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A straight route of up to 3 visible squares beginning adjacent to you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A straight route of up to 3 visible squares beginning adjacent to you.")
 
 #text("Part nonmagical rain, airborne dust or smoke along that route until the start of your next turn. It removes those visibility obstructions only; solid cover and magical darkness remain. The cleared route improves visibility for everyone, including enemies; it grants no movement.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; a next-roll benefit ends when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")#discipline-mark("craft","1")],"A Roof before Nightfall","3","Wilderness 2 and Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","4 DP","s-b602f6e1a9f1")[
 #emph[#text("You bend the first poles into place while your companions gather around the promise of a dry night.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per crafting attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A chosen campsite and available ordinary materials; one hour per attempt.")
+#text("")#strong[#text("Target:")]#text(" A chosen campsite and available ordinary materials; one hour per attempt.")
 
 #text("Build a temporary shelter for yourself and up to six companions. This card grants the reusable ")#xref("s-b8a961647b93")[#text("Camp Shelter recipe")]#text("; use its target 4, materials, tools and one-hour attempt time. On completion it shelters the occupants from ordinary rain and wind; it is not fortification. No group crafting.")
 
@@ -8714,122 +7529,109 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Until dismantled or damaged; packing requires ten minutes.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Craft tools, Bulk 1, if absent. The recipe is known on learning this card; no materials granted.")
+#text("")#strong[#text("Gear:")]#text(" Craft tools, Bulk 1, if absent. The recipe is known on learning this card; no materials granted.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" This card crafts only its Camp Shelter recipe. Extreme weather and hostile attack can damage the shelter; DA states visible limitations before construction.")
 
 ]
 #card(icons: [#discipline-mark("radiance","2")],"A Shelter of Light","3","Radiance 2","Maneuver","None — no roll","Magic","4 DP","s-6b84ca83285d")[
 #emph[#text("You stand beside your friend, holding a small brightness between them and the dark.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing ally.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing ally.")
 
 #text("Hold your place beside them. Until the start of your next turn, that ally gains 1 Boon to defense while adjacent to you. You must remain able to act; this is one continuing benefit, not a new Boon on every use.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn, while the ally remains adjacent and you can act.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")#discipline-mark("subterfuge","1")],"A Small and Watchful Shape","3","Wilderness 2 and Subterfuge 1","Maneuver","None — no roll","Magic / Movement / Utility","4 DP","s-d6873a0ed111")[
 #emph[#text("You fold into a small furred shape and find the room suddenly full of towering furniture and interesting smells.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Become a cat-sized nonflying land animal for ten minutes. Keep HP, wounds, attributes and Speed; fold equipment away and lose its benefits. You can fit through openings suitable for the described size, as judged by the DA. You cannot speak, cast, use equipment, attack, or command summons in this form. It grants no special sense, free Hidden or immunity. Returning costs a Maneuver; expiration returns you to the nearest free square that fits your normal body without crossing a barrier.")
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes or until you return; one form at a time.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Transform only where both forms have a legal return space; if that space would become blocked, return before entering the obstruction. No second HP pool.")
 
 ]
 #card(icons: [#discipline-mark("medicine","2")],"A Steady Hand at Dawn","3","Medicine 2","Passive","None — no roll","Skill / Utility","4 DP","s-2d0cbcb3b428")[
 #emph[#text("You return to the bedside with clean hands and the patience to do the small things properly.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A wound you treat using a learned treatment card.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A wound you treat using a learned treatment card.")
 
 #text("When your treatment roll is Weak, add 2 recovery progress instead of 1. Standard and Strong remain unchanged. The wound must list that treatment; time, tools and the once-per-wound-per-day limit still apply. This grants no treatment permission and restores no HP.")
 
 #text("")#strong[#text("Duration:")]#text(" When resolving an eligible treatment.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Cannot exceed the treatment’s normal Strong recovery result or add a second treatment attempt.")
 
 ]
 #card(icons: [#discipline-mark("influence","2")#discipline-mark("subterfuge","1")],"A Word Apart","3","Influence 2 and Subterfuge 1","Maneuver","None — no roll","Skill / Utility","4 DP","s-d67d39d397a8")[
 #emph[#text("You lean close beneath the surrounding chatter, shielding your lips as you give your companion the words they need.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing ally who can hear and understand you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing ally who can hear and understand you.")
 
 #text("Speak a private message of up to twenty words. Other creatures cannot overhear it through ordinary hearing while you and the ally can speak quietly; this does not defeat magic or prevent anyone noticing the exchange. Name a social task the message helps with. The ally gains 1 Boon to its next Guile or Reason roll for that task within the scene. This does not compel agreement or replace the conversation.")
 
 #text("")#strong[#text("Duration:")]#text(" Message is immediate; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" An ally can hold only one unused benefit from this card; a later use replaces its message’s task and expiry.")
 
 ]
 #card(icons: [#discipline-mark("armor","2")],"Armored Recovery","3","Armor 2","Maneuver","None — no roll","Skill / Movement","4 DP","s-700933f2741d")[
 #emph[#text("You plant an armored fist and rise with the familiar weight settling around you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, prone while wearing armor")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, prone while wearing armor")
 
 #text("Stand without spending movement, then move up to 2 squares without provoking. You must be wearing armor; choose a legal route and free endpoint.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires armor.")
+#text("")#strong[#text("Gear:")]#text(" Requires armor.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("guard","2")#discipline-mark("athletics","1")],"Arrive under Guard","3","Guard 2 and Athletics 1","Maneuver","None — no roll","Skill / Defense / Movement","4 DP","s-0cd55d6c9765")[
 #emph[#text("You hurry to your companion’s side with your guard raised, catching their eye as you settle between them and danger.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and one visible willing ally within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and one visible willing ally within 2 squares.")
 
 #text("Move up to 2 squares toward the ally along a legal route. This movement provokes normally. If you finish adjacent, the ally gains 1 Boon to its next defense before the start of your next turn, provided it is still adjacent to you and you can act when that defense begins. The ally spends no action.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; defense benefit ends when used or at the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" A recipient can hold only one unused defense benefit from this card.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","2")],"Ask the Falling Ash","3","Scholarship 2","Main Action","Reason","Skill","4 DP","s-4ab7e1afe098")[
 #emph[#text("You scatter the ash and watch for the pattern that makes your breath catch.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One scene or decision you can describe; ten minutes.")
+#text("")#strong[#text("Target:")]#text(" One scene or decision you can describe; ten minutes.")
 
 #text("Read a pattern in ash, water or falling leaves. Ask about a possible next step, not a guaranteed future.")
 
@@ -8846,35 +7648,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","2")],"Behind the Hawthorn","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-3dd709100098")[
 #emph[#text("You flinch into a scatter of leaves and emerge a few paces from where the blow found you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, after a visible attack resolves against you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, after a visible attack resolves against you.")
 
 #text("Vanish into a swirl of leaves and reappear in a visible free square within 2 squares. No opaque barrier may separate the squares. This teleport does not provoke.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","2")],"Bind and Turn","3","Arms 2","Reaction","Agility","Skill","4 DP","s-14904e5a8167")[
 #emph[#text("You catch their momentum and feel the instant when strength becomes imbalance.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent enemy after it attacks you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent enemy after it attacks you.")
 
 #text("Catch its weapon or striking limb and turn the struggle. This is a fresh maneuver, not another defense roll.")
 
@@ -8891,18 +7683,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")],"Borrow Tomorrow’s Weather","3","Flame 2","Main Action","Guile","Magic / Control / Utility","4 DP","s-0438726e35dc")[
 #emph[#text("You reach through a rip in the air and pull back a clump of tomorrow’s weather. You toss it onto the ground, where it spreads into rolling smoke or bursts into a sheet of ice.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 4 squares.")
 
 #text("Before rolling, choose smoke or ice. Roll Guile, then place up to the number of squares your result allows:")
 
@@ -8923,37 +7710,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","2")],"Borrowed Silhouette","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-89d23bd45071")[
 #emph[#text("You leave a flickering likeness where your enemy expects to find you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before a visible attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before a visible attack.")
 
 #text("A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square without provoking after the attack resolves. The duplicate vanishes immediately; it cannot absorb another attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","2")#discipline-mark("medicine","1")],"Bottled Morning","3","Craft 2 and Medicine 1","Main Action","Knowledge","Skill / Crafting","4 DP","s-b10920431af0")[
 #emph[#text("You stir until the sharp smell softens, then hold the bottle up to the dawn.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per crafting attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One compatible known ordinary recipe; one hour.")
+#text("")#strong[#text("Target:")]#text(" One compatible known ordinary recipe; one hour.")
 
 #text("Use the Lesser Healing Bottle or Travel Food recipe; both are learned with this card. Spend the recipe’s one-hour interval with a mixing kit and suitable ingredients, then roll Knowledge.")
 
@@ -8972,18 +7749,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Finished supplies persist until used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One mixing kit, Bulk 1, if absent; Lesser Healing Bottle and Travel Food recipes. No ingredients or finished bottles.")
+#text("")#strong[#text("Gear:")]#text(" One mixing kit, Bulk 1, if absent; Lesser Healing Bottle and Travel Food recipes. No ingredients or finished bottles.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","2")],"Break the Formation","3","Arms 2","Main Action","Brawn","Skill / Attack","4 DP","s-97249b421028")[
 #emph[#text("Drive one foe backward until the enemy line becomes a pile of limbs.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Choose your target and make the attack.")
 
@@ -9000,18 +7774,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")],"Briar Gate","3","Wilderness 2","Main Action","Reason","Magic / Control","4 DP","s-4a927c01c65e")[
 #emph[#text("You sweep your hand across the ground, calling a tangle of thorns into the opening.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 4 squares.")
 
 #text("Roll Reason, then raise a waist-high hedge in up to the indicated number of squares. Place one connected area, with squares joined along their edges.")
 
@@ -9030,35 +7801,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("frost","2")],"Bridge of Winter","3","Frost 2","Main Action","None — no roll","Magic / Utility","4 DP","s-0c2e039d0225")[
 #emph[#text("You press your palm toward the far side of the gap. Ice grows outward from both edges and joins into a pale bridge beneath drifting frost.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible gap up to 3 squares wide within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible gap up to 3 squares wide within 4 squares")
 
 #text("The bridge is one square wide. Requires solid anchors at both ends. Holds ordinary creatures and carried equipment; lasts 10 minutes. It creates normal terrain, not slippery terrain or a damaging trap. Warn all occupants visibly during its final round; cannot dismiss early to drop someone.")
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes; final-round warning and no early dismissal.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","2")],"Call the Opening","3","Influence 2","Main Action","Reason","Skill","4 DP","s-db6a1d1278ed")[
 #emph[#text("You see the gap before anyone else and shout the name of the friend who can reach it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible enemy within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible enemy within 5 squares")
 
 #text("Choose willing allies that can hear your call. The Weak Boon expires at the start of your next turn. Free attacks never trigger additional free attacks.")
 
@@ -9077,18 +7840,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Free attacks resolve immediately. The Weak Boon lasts until the start of your next turn or until used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","2")],"Catch the Spell","3","Scholarship 2","Reaction","None — no roll","Magic / Defense","4 DP","s-e622c4cb6cb7")[
 #emph[#text("You seize the shape of the spell and wrench it aside.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before defending against a single-target spell from a visible caster within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before defending against a single-target spell from a visible caster within 4 squares.")
 
 #text("Spend your Reaction before making the spell’s normal defense roll. Gain 2 Boons to that defense. If that defense is Strong, push the caster 1 square after the spell resolves. Make no additional roll.")
 
@@ -9096,35 +7856,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("calling","2")#discipline-mark("guard","1")],"Circle of Old Names","3","Calling 2 and Guard 1","Main Action","None — no roll","Magic","4 DP","s-ce1d6794bed5")[
 #emph[#text("You speak the names that once meant safety, and hear your companions breathe more steadily.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and willing allies within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and willing allies within 2 squares.")
 
 #text("Call the names of those who kept you safe. Until the start of your next turn, these allies gain 1 Boon to defense against forced movement and may reduce temporary Frightened by 1 immediately.")
 
 #text("")#strong[#text("Duration:")]#text(" Remove Frightened immediately; the defensive Boon lasts until the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","2")],"Cut Off the Escape","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-4f30c7d72c1c")[
 #emph[#text("You follow their glance toward freedom and send your shot to meet it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 8 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 8 squares.")
 
 #text("Drive a shot across its escape route. Requires ranged weapon and ammunition.")
 
@@ -9141,20 +7893,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
+#text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","2")],"Derive a Mechanism","3","Craft 2","Main Action","Reason","Skill","4 DP","s-e5c039e6e9f2")[
 #emph[#text("You lay out the pieces and follow the maker’s thinking, one ingenious decision at a time.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Four hours per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible ordinary mechanical item; four hours")
+#text("")#strong[#text("Target:")]#text(" One accessible ordinary mechanical item; four hours")
 
 #text("target 12 for an ordinary mechanism. Requires tools and access to the item at every attempt. Creates a recipe, not the item or permission to craft it. Special items excluded.")
 
@@ -9171,35 +7920,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","2")#discipline-mark("scholarship","1")],"Draw the Current","3","Storm 2 and Scholarship 1","Maneuver","None — no roll","Magic / Control","4 DP","s-e32c1c9d4824")[
 #emph[#text("You wind a tight ribbon of air around your casting hand and let it tug toward the place you want your enemy to stumble.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self; one creature affected by your next qualifying spell.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self; one creature affected by your next qualifying spell.")
 
 #text("Prepare your next Main Action spell this turn that deals damage. After resolving it, push one creature it damaged 1 square away from you. Choose the recipient after resolution; it must be visible within 5 squares then. Use ordinary forced-movement rules. This adds no direct damage and grants no attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the next qualifying spell resolves or the end of this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
 #card(icons: [#discipline-mark("mind","2")],"Dread Reflection","3","Mind 2","Main Action","Guile","Magic / Attack","4 DP","s-ebf6d1d7654c")[
 #emph[#text("You spread your arms, and your outline twists into something your enemy dreads. They recoil as the vision presses against their thoughts.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares")
 
 #text("Proposed NPC defense attribute: Reason.")
 
@@ -9216,18 +7961,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","2")],"Driving Volley","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-327e15119125")[
 #emph[#text("You loose shots across the enemies’ footing, driving them away from the route your companion needs.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to two visible creatures within 8 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to two visible creatures within 8 squares")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll.")
 
@@ -9244,18 +7986,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")],"Furnace Sweep","3","Flame 2","Main Action","Knowledge","Magic / Attack","4 DP","s-d0c514a685fc")[
 #emph[#text("Throw open an invisible furnace and let the heat shove them back.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A 3-wide, 2-deep rectangle extending ahead from your square")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A 3-wide, 2-deep rectangle extending ahead from your square")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Agility.")
 
@@ -9272,18 +8011,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","2")#discipline-mark("guard","1")],"Haul Them Home","3","Athletics 2 and Guard 1","Maneuver","None — no roll","Skill / Movement / Utility","4 DP","s-9ba643fc50ac")[
 #emph[#text("You wrap the rope across your back and lean into the pull, bringing your companion over the lip a handspan at a time.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, secured to a rope you hold.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, secured to a rope you hold.")
 
 #text("Move the creature up to 2 squares toward you along a clear route the rope can support, including upward. It need not spend movement or a Reaction, and this movement does not provoke. It cannot pass through a barrier or an occupied standing creature; finish in a free square supported by ground or the secured rope. You must have secure footing, a free hand, and be able to support its weight as judged by the DA. This cannot extract a Grappled creature or deal collision damage. Ordinary rope use remains available without this card.")
 
@@ -9291,52 +8027,47 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a rope, supplied separately. Attaching it to the recipient is not part of this Maneuver.")
+#text("")#strong[#text("Gear:")]#text(" Requires a rope, supplied separately. Attaching it to the recipient is not part of this Maneuver.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable while the rope, route and support requirements hold. Each use costs a Maneuver.")
 
 ]
 #card(icons: [#discipline-mark("guard","2")],"Hold the Passage","3","Guard 2","Main Action","None — no roll","Skill","4 DP","s-fe505c56a200")[
 #emph[#text("You brace your shield in the narrow way and make room for your friends behind it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and adjacent willing allies")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and adjacent willing allies")
 
 #text("You and willing allies adjacent to you when this action resolves each gain 1 Boon to defense until the start of your next turn. An ally keeps this benefit only while adjacent to you and while you can act and hold the shield. This is one continuing benefit from this use; follow normal Boon/Bane stacking with other sources.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a shield. Grants one ordinary shield, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a shield. Grants one ordinary shield, Bulk 1, if absent.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("frost","2")#discipline-mark("wilderness","1")],"Ice across the Break","3","Frost 2 and Wilderness 1","Maneuver","None — no roll","Magic / Utility","4 DP","s-4a0938260194")[
 #emph[#text("You sweep your hand across the broken path. Ice grows from both edges and meets with a sharp crack, leaving a narrow bridge shining between them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A straight line of up to 3 empty squares, all visible within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A straight line of up to 3 empty squares, all visible within 4 squares.")
 
 #text("Form a one-square-wide bridge across a gap or water. Both ends must join solid supports at the same height; the bridge fills the selected squares and supports creatures crossing one at a time. Those squares cost 1 movement and are not slippery. Everyone can use the bridge. It causes no damage, traps no creature and cannot replace an existing surface or pass through a barrier. Only one bridge from this card per caster can exist; casting again ends the previous bridge.")
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes; announce its impending end to anyone on it.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One active bridge per caster. Creatures cannot be enclosed or lifted by its creation.")
 
 ]
 #card(icons: [#discipline-mark("frost","2")],"Icebound Path","3","Frost 2","Main Action","Knowledge","Magic / Control","4 DP","s-47f2c1d1b4c7")[
 #emph[#text("You draw your fingers across the air, laying a pale skin of winter over the ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to 3/5/7 connected visible unoccupied ground squares, each within 5 squares.")
 
 #text("Roll Knowledge, then cover up to the indicated number of squares with ice. Place one connected area, with squares joined along their edges.")
 
@@ -9355,52 +8086,43 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("influence","1")],"Live in the Mask","3","Subterfuge 2 and Influence 1","Passive","None — no roll","Skill / Utility","4 DP","s-39453f773b9a")[
 #emph[#text("You remember to be the borrowed person even when no one seems to be watching.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Your mundane disguise or impersonation.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Your mundane disguise or impersonation.")
 
 #text("Gain 1 Boon to a consequential Guile roll maintaining a plausible disguise during conversation. After a Standard or Strong result, learn one expectation the listener has visibly expressed about your assumed role. This does not reveal unspoken thoughts or supply clothing, languages or memories.")
 
 #text("")#strong[#text("Duration:")]#text(" While the disguise is in use.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("influence","2")],"No Road Away","3","Influence 2","Reaction","None — no roll","Skill","4 DP","s-71e27d81e4b0")[
 #emph[#text("You move when they move, keeping yourself between them and an easy escape.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible enemy within 3 squares when it begins voluntary movement; resolve after it finishes moving.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible enemy within 3 squares when it begins voluntary movement; resolve after it finishes moving.")
 
 #text("Follow up to 3 squares toward it without provoking. You must use a legal route; this does not stop its movement or grant an attack.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")#discipline-mark("athletics","1")],"Pounce of the Red Claw","3","Wilderness 2 and Athletics 1","Main Action","Agility","Magic / Attack","4 DP","s-f47bcccc43ee")[
 #emph[#text("You gather yourself low and spring with a hunter’s sudden certainty.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One creature reachable by a legal move of up to 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One creature reachable by a legal move of up to 2 squares.")
 
 #text("Claws or a fleeting beast-shape carry you into the leap. Move up to 2 squares, then strike an adjacent target; no prior transformation is required. Movement provokes normally.")
 
@@ -9417,20 +8139,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")],"Read a Dangerous Trail","3","Wilderness 2","Main Action","Reason","Skill","4 DP","s-8f3ef546d491")[
 #emph[#text("You stop where the prints grow hurried and look ahead with a new understanding.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible trail; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" An accessible trail; 10 minutes")
 
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
@@ -9447,56 +8164,47 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","2")#discipline-mark("scholarship","1")],"Read the Maker’s Hand","3","Craft 2 and Scholarship 1","Passive","None — no roll","Skill / Utility","4 DP","s-c791bc3263af")[
 #emph[#text("You turn the old fitting over and recognize a solution worth borrowing.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes handling the object.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An ordinary object you can handle for ten minutes.")
+#text("")#strong[#text("Target:")]#text(" An ordinary object you can handle for ten minutes.")
 
 #text("Recognize its ordinary materials and one visible construction method without a roll. When crafting a known ordinary recipe, you may reuse a suitable component from this object in place of the matching ordinary material; the component is consumed or incorporated. DA determines suitability. This grants no recipe, crafting permission, extra attempt or special material.")
 
 #text("")#strong[#text("Duration:")]#text(" Knowledge persists; each salvaged component can be used once.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","2")],"Read the Next Blow","3","Scholarship 2","Reaction","None — no roll","Skill","4 DP","s-2d6d412f93b9")[
 #emph[#text("You watch the shoulder rather than the blade and move before the strike is fully formed.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before defending against a visible physical attack.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before defending against a visible physical attack.")
 
 #text("Predict the line of a blow you can see. Use Reason instead of the attack’s printed defense attribute for this defense only. This cannot replace resistance to poison, cold, mental intrusion or another internal threat.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","2")],"Remember This Name","3","Influence 2","Main Action","Guile","Skill","4 DP","s-2af6fd22810d")[
 #emph[#text("You tell the room what your companion did, and watch people turn to look at them differently.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" A few minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A nonhostile audience; a few minutes.")
+#text("")#strong[#text("Target:")]#text(" A nonhostile audience; a few minutes.")
 
 #text("Tell a truthful or honestly believed story about a companion. Name a plausible introduction, audience or welcome you seek.")
 
@@ -9513,18 +8221,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","2")],"Rest for the Restless","3","Life 2","Main Action","Reason","Magic / Attack / Recovery","4 DP","s-2b9d2671ca7a")[
 #emph[#text("You extend a hand toward the restless creature and speak a quiet dismissal. A pale thread of Life energy lashes from your fingers into it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares.")
 
 #text("Speak a quiet dismissal and send a thread of Life energy into the target. This is a damaging spell, not free healing; it restores no HP.")
 
@@ -9541,20 +8244,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","2")],"Reveal the Threshold","3","Radiance 2","Main Action","Reason","Magic","4 DP","s-ffb7d6b8c41b")[
 #emph[#text("You trace the edge of the strange place, watching for the seam where its magic catches the light.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A 3-by-3 visible area within 5 squares; 10 minutes examination")
+#text("")#strong[#text("Target:")]#text(" A 3-by-3 visible area within 5 squares; 10 minutes examination")
 
 #text("If several concealments are present, the DA chooses one relevant to your stated search; all results describe that same concealment.")
 
@@ -9571,18 +8269,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","2")],"Ride the Falling Stone","3","Athletics 2","Reaction","Agility","Skill / Utility","4 DP","s-9de0bb8338b1")[
 #emph[#text("You run along the wreckage before the world catches up.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, when a floor, ledge or support gives way")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, when a floor, ledge or support gives way")
 
 #text("Resolve before the fall. Movement can cross collapsing support but not empty air; end on a safe free square or suffer the remaining fall normally. No opportunity attacks. Carrying the ally requires a free hand and a supportable load; choose separate safe free endpoints for both of you.")
 
@@ -9599,18 +8294,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Immediate, before the triggering fall resolves.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","2")],"Running Vault","3","Athletics 2","Maneuver","Agility","Skill","4 DP","s-8e49205366be")[
 #emph[#text("You measure the gap in a glance and let your stride become a leap.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible unoccupied landing within 3 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible unoccupied landing within 3 squares")
 
 #text("Choose a landing within the rolled distance. If none is safe, remain at the origin. This crosses gaps, not walls; it is not flight. Ordinary jumping remains available without this card.")
 
@@ -9627,35 +8319,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")#discipline-mark("wilderness","1")],"Scales beneath the Skin","3","Flame 2 and Wilderness 1","Reaction","None — no roll","Magic","4 DP","s-84a6db46442c")[
 #emph[#text("You brace as a brief shimmer of scales catches the light across your arms.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before taking fire or physical damage.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before taking fire or physical damage.")
 
 #text("Scales flare across your skin. Gain resistance 3 to one of those types for this event only, using the highest matching value. No stacking with armor.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","2")],"Silence the Alarm","3","Subterfuge 2","Main Action","Agility","Skill / Attack","4 DP","s-b80fb7eae64e")[
 #emph[#text("You see the breath gathering for a shout and move before the warning comes.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Strike before the warning can leave its mouth. Requires melee weapon. The silence blocks speech, not spells or abilities that do not require speech.")
 
@@ -9672,69 +8356,53 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Speech restriction lasts until the end of the target’s next turn; damage is immediate.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")],"Smoke Through the Keyhole","3","Flame 2","Main Action","None — no roll","Magic / Utility","4 DP","s-baede3fc9acf")[
 #emph[#text("Your outline frays into smoke; the lock remains untouched.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, through a visible small opening into a free adjacent square")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, through a visible small opening into a free adjacent square")
 
 #text("Move only to a visible free square. Carried equipment travels with you. No lingering gaseous immunity, flight, damage or movement through a sealed barrier. Does not provoke.")
 
 #text("")#strong[#text("Duration:")]#text(" One immediate passage; you reform at the destination.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")],"Step Through the Spark","3","Flame 2","Maneuver","None — no roll","Magic","4 DP","s-228dce1b7b4c")[
 #emph[#text("You follow a skipping spark and arrive with its warmth still brushing your cheek.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible free square within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible free square within 2 squares.")
 
 #text("Follow a leaping spark to the chosen square. This is teleportation and does not provoke. You must see the destination and cannot cross an opaque barrier.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","2")],"Stone on Your Shoulders","3","Armor 2","Reaction","None — no roll","Magic","4 DP","s-59180a9442ec")[
 #emph[#text("You feel the rune take the weight as though a mountain had leaned against the blow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before taking physical damage.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before taking physical damage.")
 
 #text("The rune takes the weight. For this damage event, gain physical resistance 3. Afterward, you may move 1 square without provoking. This does not add to existing resistance.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","1")#discipline-mark("craft","1")],"Storm on a String","3","Storm 1 and Craft 1","Main Action","Reason","Magic / Utility","4 DP","s-b67c47b263c3")[
 #emph[#text("You curl a finger toward the unattended object. A thin spiral of wind catches it and draws it across the ground toward your hand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unattended object of up to Bulk 1 within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unattended object of up to Bulk 1 within 5 squares")
 
 #text("Cannot take worn or held objects, deal impact damage, open locks or carry creatures. Path must be clear; use ordinary terrain cost. Repeatable.")
 
@@ -9751,18 +8419,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Animal — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-21283cfcebd2")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9772,18 +8437,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Construct — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-d4455bc3c4c9")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9793,18 +8457,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Elemental — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-a370b50de68a")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9814,18 +8477,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Fey — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-2f1306bdc55e")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9835,18 +8497,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Spirit — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-b80492b400fd")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9856,18 +8517,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","2")],"Summon Undead — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-27ceffdfffd9")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -9877,18 +8537,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("life","2")],"Sustain the Failing","3","Life 2","Main Action","Reason","Magic / Recovery","4 DP","s-8711502c942b")[
 #emph[#text("You kneel beside your companion and hold out your hand. Strength passes into their injured body, leaving you pale and breathing hard.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, including self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, including self")
 
 #text("Moser’s law of conservation of Life energy: pay 3 HP before rolling; bypass resistance and remain above 0 HP. Requires a free hand. Life resistance reduces restoration, minimum 1 where HP is missing. Healing-harmed creatures take the rolled result as Life damage. No resurrection or removal of wounds/Grit loss.")
 
@@ -9905,22 +8564,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","2")],"Teach Stone to Bend","3","Scholarship 2","Main Action","Knowledge","Magic","4 DP","s-bfaa937e43cf")[
 #emph[#text("You press your palm against the stone and patiently coax a different shape from it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent ordinary stone obstruction; ten minutes.")
+#text("")#strong[#text("Target:")]#text(" One adjacent ordinary stone obstruction; ten minutes.")
 
 #text("Persuade a small part of the stone to soften. Create passage progress toward a target stated by the DA; no instant destruction of a building.")
 
@@ -9937,18 +8593,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","2")],"The Angle of Unease","3","Mind 2","Main Action","Reason","Magic / Attack","4 DP","s-8f9b68c9239d")[
 #emph[#text("You tilt your hand, and your enemy reaches for a balance the room no longer seems to offer.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares.")
 
 #text("The room seems to lean in a direction that does not exist.")
 
@@ -9965,35 +8616,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","2")],"The Chorus Advances","3","Influence 2","Maneuver","None — no roll","Skill","4 DP","s-7cf74c986db8")[
 #emph[#text("You catch the rhythm of your companions’ steps and give them the next beat.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two willing allies within 3 squares who hear you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two willing allies within 3 squares who hear you.")
 
 #text("Each moves 1 square toward a visible enemy without provoking, one at a time. Their actions remain their own.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","2")],"The Debt Comes Due","3","Flame 2","Reaction","Guile","Magic / Attack","4 DP","s-049ec515d5b7")[
 #emph[#text("You touch the place they hurt you, and the mark answers in heat.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible creature within 4 squares after it damages you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible creature within 4 squares after it damages you.")
 
 #text("The mark answers with heat. This attack cannot trigger further free attacks.")
 
@@ -10010,20 +8651,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")],"The Road Remembers","3","Wilderness 2","Main Action","Reason","Skill / Utility","4 DP","s-b066e3d06a02")[
 #emph[#text("You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A natural trail or campsite; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" A natural trail or campsite; 10 minutes")
 
 #text("Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains the information listed below. No automatic tracking through erased evidence.")
 
@@ -10040,52 +8676,39 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","2")],"The Unlit Road","3","Subterfuge 2","Main Action","None — no roll","Magic","4 DP","s-0fee6504a4c1")[
 #emph[#text("You step into one pool of shadow and emerge from another, carrying its chill with you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Your shadowed square and one visible free shadowed square within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Your shadowed square and one visible free shadowed square within 3 squares.")
 
 #text("Step from one shadow into the other: move yourself to the chosen destination without crossing intervening squares. No opaque barrier between them; teleportation does not provoke.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","2")],"Through the Spearpoints","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-8450e5fa3bd6")[
 #emph[#text("You lower your head and commit to the narrow route through the reaching weapons.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Move up to 3 squares toward a visible enemy along a legal route. You gain 1 Boon to physical defenses against opportunity attacks triggered by this movement. You still provoke and resolve those attacks. This adds no damage reduction beyond normal resistance.")
 
 #text("")#strong[#text("Duration:")]#text(" Only during the movement granted by this card.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","2")],"Thunder Ring","3","Storm 2","Main Action","Reason","Magic / Attack","4 DP","s-c4ee5d3c049c")[
 #emph[#text("Your shout breaks across the battlefield like a bell of thunder.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every other creature within 1 square of you")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every other creature within 1 square of you")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.")
 
@@ -10102,20 +8725,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","2")],"Translate the Fragment","3","Scholarship 2","Main Action","Knowledge","Skill","4 DP","s-906625ca362d")[
 #emph[#text("You recognize one familiar root in the strange writing, and the next line begins to open.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One accessible unfamiliar written text; one hour")
+#text("")#strong[#text("Target:")]#text(" One accessible unfamiliar written text; one hour")
 
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
@@ -10132,52 +8752,39 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","2")],"Turn the River","3","Athletics 2","Reaction","None — no roll","Skill","4 DP","s-b63afd7b547d")[
 #emph[#text("You yield just enough to feel the force pass you, then guide it somewhere else.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, before defending against a visible adjacent physical attacker.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, before defending against a visible adjacent physical attacker.")
 
 #text("Use Reason for this defense. On a Strong defense, you may pull the attacker 1 square toward your previous position after moving yourself 1 square to a free square without provoking. Both destinations must be legal.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","2")],"Under Their Guard","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-e7f661a56d10")[
 #emph[#text("You slip through the little space their weapon leaves behind.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent enemy and a visible free square within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent enemy and a visible free square within 2 squares.")
 
 #text("Pass along a legal route to that square without provoking from the chosen enemy. Other enemies can still react. You cannot pass through its occupied square.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","2")#discipline-mark("frost","1")],"Undertow Answer","3","Wilderness 2 and Frost 1","Main Action","Reason","Magic","4 DP","s-412080346fc2")[
 #emph[#text("You beckon to the water, and it reaches for the feet beside it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares, standing in or beside water.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares, standing in or beside water.")
 
 #text("Choose a visible water square beside the target; measure the pull toward that square. Call a hand of existing water; enough water to fill a bucket must be present. It returns immediately to its source.")
 
@@ -10194,35 +8801,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("guard","2")],"Unravel the Bolt","3","Guard 2","Reaction","None — no roll","Magic / Defense","4 DP","s-22e6f489bade")[
 #emph[#text("You catch the spell’s shape in your mind and pull at the thread that holds it straight.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one willing ally targeted by a single-target spell from a visible caster within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one willing ally targeted by a single-target spell from a visible caster within 4 squares.")
 
 #text("Spend your Reaction before the recipient’s normal defense roll. Grant 2 Boons to that defense. If it is Strong, the recipient may move 1 square without provoking after the spell resolves. Make no additional roll. This does not cancel the spell and cannot affect an area spell.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("medicine","2")],"Urgent Bandaging","3","Medicine 2","Maneuver","Knowledge","Skill","4 DP","s-fb4bae07a2e2")[
 #emph[#text("You tear a strip, press hard and tie the knot while the battle rages around you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature")
 
 #text("Reduce temporary Bleeding only, to a minimum of 0. A starred source requires its stated remedy.")
 
@@ -10239,60 +8836,49 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","2")],"Veiled Crossing","3","Subterfuge 2","Maneuver","None — no roll","Skill","4 DP","s-fd8e0f63e005")[
 #emph[#text("You wait for the shadows to join, then lead your companion along their quiet seam.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, with an actual concealed route")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, with an actual concealed route")
 
 #text("Move up to your Speed along a legal concealed route without provoking. One adjacent willing ally may follow that route up to the same distance, spending its Reaction and ending in a separate free square. A participant already Hidden remains Hidden only while the route continues to conceal them. A participant not Hidden gains no automatic concealment. This card does not permit movement through exposed or occupied standing squares.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","2")],"Walk the Thunder","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-4432e6d45409")[
 #emph[#text("You run along the wall or skim the shallow water, planting each foot as a gust catches beneath it, then step back onto solid ground.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Run up to 3 squares along a wall or over shallow water; finish on ground that supports you. This movement does not provoke. If no legal endpoint exists, do not begin.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","2")],"Wear Heavy Armor","3","Armor 2","Passive","None — no roll","Training / Passive","4 DP","s-07696a43ba98")[
 #emph[#text("You settle the last strap and feel the weight become part of the way you stand.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("While wearing the trained armor, physical resistance 3. No lower-tier training prerequisite.")
 
 #text("")#strong[#text("Duration:")]#text(" While wearing the trained armor.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One ordinary heavy armor, Bulk 1, if absent.")
+#text("")#strong[#text("Gear:")]#text(" One ordinary heavy armor, Bulk 1, if absent.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
@@ -10303,26 +8889,20 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #card(icons: [#discipline-mark("mind","2")#discipline-mark("guard","2")],"A Company of Reflections","7","Mind 2 and Guard 2","Main Action","None — no roll","Magic / Defense","8 DP","s-9385ed20c73c")[
 #emph[#text("You sweep your hand past your companions, leaving a wavering double beside each one. The doubles lean into the path of approaching blows.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three willing creatures within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three willing creatures within 3 squares.")
 
 #text("Give each target a flickering double until the start of your next turn. Each target gains 1 Boon to all defense rolls during that time. The doubles occupy no squares, block nothing, and make no attacks. Reapplying this card replaces your previous doubles.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","3")#discipline-mark("marksmanship","1")],"A Marvel on Wheels","7","Craft 3 and Marksmanship 1","Main Action","Knowledge","Skill / Attack / Crafting","8 DP","s-fc91bae7e9ab")[
 #emph[#text("You set your folded contraption on the ground and pull its handle. Wheels snap outward, the launcher kicks, and its shot slams toward your target before the frame folds shut again.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 6 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 6 squares.")
 
 #text("Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if absent. After firing it folds back into your hands.")
 
@@ -10339,18 +8919,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")],"A Shadow at the Heart","7","Subterfuge 3","Main Action","Guile","Skill / Attack","8 DP","s-2c50955d2127")[
 #emph[#text("You step so close that your enemy’s certainty falters before your blade arrives.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Make a melee attack from the closest, least expected angle. If you began Hidden, gain 1 Boon, then end Hidden.")
 
@@ -10367,18 +8942,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","3")],"A Splendid Mistake","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-ca1be516ae93")[
 #emph[#text("You cup a swelling ball of magic between your hands and hurl it away before it bursts. A final twist turns the blast into a rush of fire or branching lightning.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every creature in a visible 3-by-3 area within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every creature in a visible 3-by-3 area within 5 squares.")
 
 #text("Choose fire or lightning and the area before rolling. Affect every creature in it, including allies. Make one Guile attack using the least favorable net Boons/Banes among those targets.")
 
@@ -10397,18 +8969,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","3")#discipline-mark("arms","1")],"A Sword Made of Dawn","7","Flame 3 and Arms 1","Main Action","Knowledge","Magic / Attack","8 DP","s-b0bce85feacc")[
 #emph[#text("You lift your weapon and feel a second, burning edge reach out from its tip.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 3 squares.")
 
 #text("Extend a blade of fire from your held melee weapon. This card supplies its reach; other melee attacks keep their own range.")
 
@@ -10425,20 +8992,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","2")#discipline-mark("storm","2")],"A Voice across the Valley","7","Mind 2 and Storm 2","Main Action","Reason","Magic / Utility","8 DP","s-3ee4159bbfff")[
 #emph[#text("You whisper into the wind and wait for the familiar answer to find its way home.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes to contact; up to one minute of exchange.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature personally known to you within one day’s ordinary travel; ten minutes.")
+#text("")#strong[#text("Target:")]#text(" One willing creature personally known to you within one day’s ordinary travel; ten minutes.")
 
 #text("Name the recipient and speak a message of up to twenty words. If the recipient is outside range or unwilling, learn only that no contact was made. The message conveys your identity but reveals no location. No sight or attack path is required; this is communication, not targeting for another card.")
 
@@ -10455,18 +9019,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" The exchange lasts at most one minute after contact.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per recipient per day. No mind reading or ability to command the listener.")
 
 ]
 #card(icons: [#discipline-mark("influence","3")],"All Voices as One","7","Influence 3","Main Action","None — no roll","Skill / Utility","8 DP","s-0e3d8ad2dfbd")[
 #emph[#text("You call the moment, and your companions answer with a single rush of steel.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two allies within 4 squares who hear you and are adjacent to enemies.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two allies within 4 squares who hear you and are adjacent to enemies.")
 
 #text("Each makes one free Basic Melee attack. After its attack, each may move 1 square without provoking. These attacks never trigger additional free attacks.")
 
@@ -10474,18 +9037,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Each attacking ally needs its own melee weapon. This card grants no equipment.")
+#text("")#strong[#text("Gear:")]#text(" Each attacking ally needs its own melee weapon. This card grants no equipment.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")],"An Impossible Theft","7","Subterfuge 3","Maneuver","Guile","Magic / Utility","8 DP","s-0e04794c53d2")[
 #emph[#text("You stretch a hand toward the prize; your shadow’s fingers arrive before yours.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unattended object of Bulk 0 or 1 within 6 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unattended object of Bulk 0 or 1 within 6 squares.")
 
 #text("Reach with your shadow along an open path; you cannot take held or worn equipment. Use ordinary terrain costs and move the object toward yourself.")
 
@@ -10504,18 +9064,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","3")],"Answer for What You Did","7","Influence 3","Main Action","Guile","Skill / Attack","8 DP","s-3dfa5567b60c")[
 #emph[#text("You tell your quarry why you came, then step in and strike to stop their retreat.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Bring the pursuit to a close with a melee attack. Against a quarry you marked with Name the Reckoning, gain 1 Boon; that card is helpful, not required.")
 
@@ -10532,37 +9087,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")],"Borrow the Shadow","7","Subterfuge 3","Reaction","None — no roll","Skill / Utility","8 DP","s-1b82cf6287ef")[
 #emph[#text("You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, when a visible creature within 2 squares moves past actual concealment")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, when a visible creature within 2 squares moves past actual concealment")
 
 #text("After the triggering creature finishes its movement, move up to your Speed along a legal route toward the concealment it passed. Do not provoke. You may become Hidden at the endpoint only if the concealment actually hides you under the normal Hidden rule; the card does not conceal an exposed creature. No teleportation or movement through occupied standing squares.")
 
 #text("")#strong[#text("Duration:")]#text(" Movement resolves immediately; Hidden follows its normal rules.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")#discipline-mark("influence","1")],"Borrowed Identity","7","Subterfuge 3 and Influence 1","Main Action","Guile","Skill","8 DP","s-6e3ab17356cb")[
 #emph[#text("You settle into another life until even the way you wait at a doorway belongs to someone else.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour preparation; resolve each new consequential challenge during the encounter.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and, on Strong, one willing companion; one hour preparation, then the duration of each consequential encounter.")
+#text("")#strong[#text("Target:")]#text(" Self and, on Strong, one willing companion; one hour preparation, then the duration of each consequential encounter.")
 
 #text("Prepare a mundane identity using suitable clothing, a plausible role and information you have obtained about it. Spend one hour establishing the appearance and rehearsing its habits. This card can sustain the identity across an extended infiltration, but grants no memories, language or compulsory authority. For a consequential challenge, the DA states the objective and a binary or cumulative progress target. On completion, that challenge is resolved; do not repeat it for routine interactions with people accepting the same evidence. A new contradiction, suspicious witness or different demand may create a new challenge.")
 
@@ -10579,18 +9128,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" The prepared identity lasts until abandoned or contradicted; resolve new consequential challenges separately.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","3")],"Bow to the Balcony","7","Arms 3","Main Action","Guile","Skill / Attack","8 DP","s-51f7ce2cc800")[
 #emph[#text("You finish the exchange with a sweeping bow, already slipping beyond their reach.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Make a melee attack, then end the exchange with a flourish. After the damage, move up to 3 squares without provoking along a legal route.")
 
@@ -10607,18 +9153,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","3")],"Break the Charge","7","Arms 3","Reaction","Fortitude","Skill / Attack","8 DP","s-8384b54259a9")[
 #emph[#text("You plant your feet as the enemy rushes in, then strike into their advance with enough force to send them stumbling back.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An enemy entering an adjacent square voluntarily.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An enemy entering an adjacent square voluntarily.")
 
 #text("Meet the charge with a melee blow; resolve after it enters. This attack cannot trigger additional free attacks.")
 
@@ -10635,86 +9178,69 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires a melee weapon; gain one ordinary melee weapon, Bulk 1, on learning if absent.")
+#text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; gain one ordinary melee weapon, Bulk 1, on learning if absent.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","3")],"Carry Them to Shore","7","Wilderness 3","Main Action","None — no roll","Skill","8 DP","s-d71f33bfa8a5")[
 #emph[#text("You lock an arm around your companion and turn toward the bank with everything you have left.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing or unconscious creature in water.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing or unconscious creature in water.")
 
 #text("You need a free hand and must be physically able to support the target’s weight, as judged by the DA. Move yourself and the target up to your Speed through water, ending side by side in free squares. This movement does not provoke; the target needs no movement or Reaction. You must choose legal endpoints first and cannot pass solid obstacles.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","3")],"Carry the Sunrise","7","Radiance 3","Main Action","None — no roll","Magic","8 DP","s-b85d10a9d18f")[
 #emph[#text("You raise the light and step forward, giving your companions something bright to follow.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Willing allies within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Willing allies within 2 squares.")
 
 #text("Carry the light forward. Move up to 2 squares without provoking, then each willing ally initially in range may move up to 2 squares toward your new position without provoking. At their endpoints they gain 1 Boon to their next defense before the start of your next turn.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; a next-roll benefit ends when used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("guard","3")],"Carry to Safety","7","Guard 3","Main Action","None — no roll","Skill","8 DP","s-2a9e0ff502b2")[
 #emph[#text("You take your friend’s weight and make their next few steps your responsibility.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent willing or unconscious ally")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent willing or unconscious ally")
 
 #text("Move up to your Speed with the adjacent willing or unconscious ally, then place it in a separate adjacent free square. Choose a legal route and both endpoints before moving. This movement does not provoke from either of you; the ally spends no action or movement. You need a free hand to carry or support it and must be physically capable of bearing its weight, as judged by the DA. Cannot cross blocked squares or move an unwilling target.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A free hand; no shield required or granted.")
+#text("")#strong[#text("Gear:")]#text(" A free hand; no shield required or granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","3")#discipline-mark("mind","1")],"Cast through the Reflection","7","Scholarship 3 and Mind 1","Maneuver","None — no roll","Magic / Utility","8 DP","s-0cc1d3ab6da1")[
 #emph[#text("You turn your palm as though tilting a mirror. A wavering image of your casting hand appears across the room, pointing toward a new angle of attack.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible empty square within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible empty square within 3 squares.")
 
 #text("Place a shimmering casting point in the chosen square. Your next Main Action spell this turn may originate there. Determine its attack path, cover and area origin from that point; measure the spell’s cast range from your own square. You must still see all targets the spell requires you to see. You must have an unobstructed path to the casting point; this does not cast through an opaque barrier. The point grants no extra range, spell or roll and disappears after that spell.")
 
 #text("")#strong[#text("Duration:")]#text(" Until used or the end of this turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","3")],"Checkmate in Three Steps","7","Scholarship 3","Main Action","Knowledge","Skill / Attack","8 DP","s-3116911dba83")[
 #emph[#text("You watch how your opponent recovers from each movement, step where their balance will be weakest, and strike as their foot begins to land.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Name the weakness you are exploiting and make a melee or unarmed attack. You need not invent a hidden vulnerability; stance and timing are enough.")
 
@@ -10731,37 +9257,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","3")],"Dance beyond the Circle","7","Mind 3","Main Action","None — no roll","Magic","8 DP","s-cc828e18803e")[
 #emph[#text("You offer your companion a hand across the room; the world turns, and your places are exchanged.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Two willing creatures within 4 squares, either of which may be yourself.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Two willing creatures within 4 squares, either of which may be yourself.")
 
 #text("Exchange their positions by teleportation. Both must be visible and each destination must fit its new occupant. No damage or attacks are granted; the movement does not provoke.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("craft","3")],"Enchanting Workshop","7","Craft 3","Main Action","Knowledge","Magic / Crafting / Utility","8 DP","s-618651fd79c9")[
 #emph[#text("You set your tools beside the impossible ingredient and begin the work that ordinary hands cannot finish.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" The recipe’s stated interval per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One known special-item recipe; recipe interval")
+#text("")#strong[#text("Target:")]#text(" One known special-item recipe; recipe interval")
 
 #text("Requires a special recipe and its printed materials. Also permits ordinary recipes listed under Trail Workshop; grants two of those ordinary recipe choices and missing craft tools. No special recipe is granted. This is campaign-dependent access and should not be a recommended starter purchase.")
 
@@ -10780,20 +9296,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Completed products persist as their recipes specify.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No special recipe or materials granted.")
+#text("")#strong[#text("Gear:")]#text(" Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No special recipe or materials granted.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("medicine","3")],"Fit a Replacement","7","Medicine 3","Main Action","Reason","Skill","8 DP","s-51be293568a2")[
 #emph[#text("You adjust the last fastening and wait beside your patient as they try their weight again.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Four hours per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One patient and a suitable prosthesis; four hours")
+#text("")#strong[#text("Target:")]#text(" One patient and a suitable prosthesis; four hours")
 
 #text("target 6. Requires an already-made correctly sized prosthesis. Relieves only the wound penalties explicitly replaceable by that prosthesis. Does not regrow the body part or erase the wound.")
 
@@ -10810,18 +9323,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","3")],"Forked Sky","7","Storm 3","Main Action","Knowledge","Magic / Attack","8 DP","s-9c0b99b4a582")[
 #emph[#text("You point at the creatures you have chosen. A bolt of lightning forks through the air and leaps between them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three visible creatures within 6 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three visible creatures within 6 squares")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.")
 
@@ -10838,18 +9348,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","2")#discipline-mark("athletics","2")],"Four Winds at Once","7","Storm 2 and Athletics 2","Main Action","Fortitude","Magic / Attack","8 DP","s-458bcf802246")[
 #emph[#text("You turn on your heel, breathing out as the air whirls outward with you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every other adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every other adjacent creature.")
 
 #text("Turn with the wind at your heels. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them.")
 
@@ -10866,20 +9373,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","3")],"Guide the Crossing","7","Wilderness 3","Main Action","Reason","Skill","8 DP","s-c78c16c50ffc")[
 #emph[#text("You study the dangerous ground until a route appears in your mind, then turn to bring everyone through.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" One noncombat natural hazard and companions; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" One noncombat natural hazard and companions; 10 minutes")
 
 #text("Prepare and lead a route through one noncombat natural hazard for yourself and up to six companions. The DA sets its progress target and confirms a physically possible method before rolling. You may attempt terrain ordinary travelers could not cross unaided if you supply the needed ropes, supports or other means. When the target is met, companions who can follow your directions and method cross without separate rolls for the same hazard. New hazards or changed circumstances are resolved separately.")
 
@@ -10896,18 +9398,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Progress persists on this route; the completed crossing covers the named hazard only.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","3")],"Hurl Aside","7","Arms 3","Main Action","Brawn","Skill / Attack","8 DP","s-0f82c9c28574")[
 #emph[#text("Lift, turn, and send them crashing through the battlefield.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature")
 
 #text("Choose your target and make the attack.")
 
@@ -10924,35 +9423,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")],"No Footfall at All","7","Subterfuge 3","Maneuver","None — no roll","Skill","8 DP","s-5b8e938de3f2")[
 #emph[#text("You place each foot as though the floor were listening for your name.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("For the rest of this turn, your movement makes no audible footfalls and does not provoke. Move up to 2 squares immediately as part of this Maneuver. You remain visible unless actual concealment hides you; you do not silence speech or equipment deliberately used.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your current turn.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("radiance","3")],"Noonday Judgment","7","Radiance 3","Main Action","Reason","Magic / Attack","8 DP","s-4262992561c1")[
 #emph[#text("You lift your hand, and a harsh brightness gathers over the place you have chosen.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every creature in a visible 3-by-3 area within 6 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every creature in a visible 3-by-3 area within 6 squares")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Agility.")
 
@@ -10969,52 +9460,43 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","3")#discipline-mark("medicine","1")],"Not Yet Your Name","7","Life 3 and Medicine 1","Reaction","None — no roll","Magic / Recovery","8 DP","s-851cab136089")[
 #emph[#text("You seize your friend’s hand and give a painful measure of your own strength to keep them here.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An adjacent willing creature, after it enters Dying and its wound is resolved.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An adjacent willing creature, after it enters Dying and its wound is resolved.")
 
 #text("Pay 7 HP first, leaving yourself above 0; the payment bypasses resistance. With a free hand, restore 8 HP before Life resistance, minimum 1. The wound still occurs. This cannot reverse Last Words. The cost makes this urgent rescue different from an ordinary large heal.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [],"One More Dawn","7","None","Passive","None — no roll","Training / Passive","8 DP","s-aa153c2db017")[
 #emph[#text("You remember why tomorrow matters and find a last reserve you did not know you carried.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self")
 
 #text("Gain 1 additional Grit on acquisition. Purchase once ever. This does not replenish previously spent Grit.")
 
 #text("")#strong[#text("Duration:")]#text(" Gain the Grit once on acquisition; this never replenishes spent Grit.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
 #card(icons: [#discipline-mark("flame","3")],"Open the Furnace Door","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-471a4440c939")[
 #emph[#text("You pull an unseen latch, and heat rolls over your face like an opened forge.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every creature in a 3-wide, 2-deep rectangle immediately ahead of you.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every creature in a 3-wide, 2-deep rectangle immediately ahead of you.")
 
 #text("A furnace door opens for a heartbeat. Include allies in the area. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets.")
 
@@ -11031,20 +9513,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","3")],"Reconstruct the Event","7","Scholarship 3","Main Action","Reason","Skill","8 DP","s-0626f70d64d5")[
 #emph[#text("You walk the empty scene until its scattered traces become a sequence of human choices.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" One hour per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An accessible evidence set; one hour")
+#text("")#strong[#text("Target:")]#text(" An accessible evidence set; one hour")
 
 #text("Examine an accessible evidence set. The DA names the question and sets a cumulative progress target before a consequential reconstruction; obvious deductions need no roll. On completion, obtain an evidence-supported sequence answering that question as far as the surviving evidence allows. Identify the limits of that account explicitly. Share it with companions; they need no duplicate interpretation rolls for the same facts.")
 
@@ -11061,18 +9538,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","3")],"Return to Strength","7","Life 3","Main Action","Reason","Magic / Recovery","8 DP","s-44cd265b06d4")[
 #emph[#text("You reach toward your injured companion and send a surge of warmth into their body. Their breathing strengthens as your own knees briefly weaken.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One willing creature within 3 squares, including self")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One willing creature within 3 squares, including self")
 
 #text("Moser’s law of conservation of Life energy: pay 7 HP before rolling; bypass resistance and remain above 0 HP. Requires a free hand. Life resistance reduces restoration, minimum 1 where HP is missing. Healing-harmed creatures take the rolled result as Life damage. No resurrection or removal of wounds/Grit loss.")
 
@@ -11089,20 +9563,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
 #card(icons: [#discipline-mark("marksmanship","3")],"Sever the Pursuit","7","Marksmanship 3","Main Action","Agility","Skill / Attack","8 DP","s-5eb5e0b36f9f")[
 #emph[#text("The pursuit falters as your shots bite into its leading ranks.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three visible creatures within 8 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three visible creatures within 8 squares")
 
 #text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll.")
 
@@ -11119,18 +9590,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
+#text("")#strong[#text("Gear:")]#text(" Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","3")],"Still the Will","7","Mind 3","Main Action","Guile","Magic / Attack","8 DP","s-e9a3970c7f5a")[
 #emph[#text("You fix your attention on your enemy and tighten your outstretched fingers. Their movement falters as they struggle to turn thought into action.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 4 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 4 squares")
 
 #text("Proposed NPC defense attribute: Reason.")
 
@@ -11147,18 +9615,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","3")],"Stillness at the Center","7","Athletics 3","Main Action","Reason","Skill / Attack","8 DP","s-0cef8ad23763")[
 #emph[#text("You become very quiet, then touch the point their balance cannot afford to lose.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Touch the point where effort becomes imbalance. No weapon required.")
 
@@ -11175,18 +9640,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","3")],"Stride of the Giant","7","Armor 3","Main Action","Brawn","Magic / Attack","8 DP","s-b04105c60eb6")[
 #emph[#text("You stamp once, your shadow swelling across the feet gathered around you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Each other adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Each other adjacent creature.")
 
 #text("Your outline swells like a mountain’s shadow and your heel strikes the ground. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets. The size is momentary; you occupy your normal square.")
 
@@ -11203,18 +9663,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Animal — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7ebb98971bf8")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11224,18 +9679,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Construct — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-9179af4bede4")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11245,18 +9699,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Elemental — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-afed281ab3c0")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11266,18 +9719,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Fey — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-769489d90a89")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11287,18 +9739,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Spirit — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-30ea6d18db33")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11308,18 +9759,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("calling","3")],"Summon Undead — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7a270d71b6b4")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
 #text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
 
@@ -11329,20 +9779,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
+#text("")#strong[#text("Gear:")]#text(" No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
 #card(icons: [#discipline-mark("influence","3")],"Terms before Swords","7","Influence 3","Main Action","Guile","Skill / Utility","8 DP","s-4504f0c673de")[
 #emph[#text("You walk into the silence between two angry voices and give them a reason to wait.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Representatives of opposing groups who can hear and understand you; ten minutes.")
+#text("")#strong[#text("Target:")]#text(" Representatives of opposing groups who can hear and understand you; ten minutes.")
 
 #text("Offer specific terms and a reason each side might prefer negotiation. The DA first states whether any party is willing to consider them; no willing listener means no attempt. For consequential negotiation set a progress target and state binary or cumulative. On completion, willing representatives agree only to the stated terms they have authority to accept. The card does not compel obedience or stop combat.")
 
@@ -11359,37 +9808,31 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" An agreed arrangement lasts for its stated terms; participants retain agency.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" No automatic truce, command or control of player characters.")
 
 ]
 #card(icons: [#discipline-mark("guard","3")],"The Circle Holds","7","Guard 3","Main Action","None — no roll","Magic","8 DP","s-3a9d939220fb")[
 #emph[#text("You trace the last arc and stand inside the promise you have made together.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self and allies within 2 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self and allies within 2 squares.")
 
 #text("Until the start of your next turn, each gains 1 Boon to defense against spells. Each gains Stability 2 for the first forced movement against them, including collision chains; highest applicable Stability only, maximum 3. The grant is consumed after that event even if a higher Stability applied. The ward is not physical cover.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; each Stability grant is used once.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("subterfuge","3")],"The City Opens Its Doors","7","Subterfuge 3","Main Action","Guile","Skill / Utility","8 DP","s-8a70a29a33a0")[
 #emph[#text("You follow a familiar sign to a side entrance, and someone inside recognizes how you knock.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Four hours per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An inhabited settlement where an illicit network could plausibly operate; four hours.")
+#text("")#strong[#text("Target:")]#text(" An inhabited settlement where an illicit network could plausibly operate; four hours.")
 
 #text("Seek a willing contact for one specific clandestine service: an introduction, passage or a hiding place. The DA confirms a suitable provider could be found and states available leads, stakes and a progress target before rolling. Completion finds a willing provider if one exists, not free service or guaranteed loyalty. The price and risk must be stated before you accept.")
 
@@ -11406,20 +9849,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned contacts persist; their circumstances may change.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Cannot invent a network in an empty ruin or repeatedly roll without pursuing a new lead.")
 
 ]
 #card(icons: [#discipline-mark("craft","3")#discipline-mark("medicine","1")],"The Cleverest Mixture","7","Craft 3 and Medicine 1","Maneuver","Knowledge","Skill / Crafting","8 DP","s-ae692ce84411")[
 #emph[#text("You shake the bottle once, judge the color, and offer it with the confidence of long practice.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Maneuver to administer; one hour per crafting attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" Self or one adjacent willing creature.")
+#text("")#strong[#text("Target:")]#text(" Self or one adjacent willing creature.")
 
 #text("")#strong[#text("Use the tonic — Maneuver.")]#text(" Use a prepared Clearing Tonic supply and a free hand. Another recipient spends a Reaction unless at 0 HP. Roll Knowledge, apply one result, then check the tonic’s inventory die.")
 
@@ -11440,18 +9882,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Condition reduction is immediate; crafted supplies persist until used.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" One mixing kit, Bulk 1, if absent; both named recipes. No ingredients or finished tonic.")
+#text("")#strong[#text("Gear:")]#text(" One mixing kit, Bulk 1, if absent; both named recipes. No ingredients or finished tonic.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("life","3")#discipline-mark("wilderness","1")],"The Grove Gives Back","7","Life 3 and Wilderness 1","Main Action","Reason","Magic / Recovery","8 DP","s-3a590a37bb9e")[
 #emph[#text("You open your hands to the circle, feeling your own warmth flow toward your friends.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three willing creatures within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three willing creatures within 3 squares.")
 
 #text("Offer your strength to the whole circle. Pay 7 HP once before rolling, bypassing resistance and remaining above 0; requires a free hand. Allocate the rolled healing pool among the targets as you choose, minimum 1 allocated per chosen target. Each applies Life resistance to its share, minimum 1 while missing HP.")
 
@@ -11468,18 +9907,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("marksmanship","3")#discipline-mark("wilderness","1")],"The Hunt Ends Here","7","Marksmanship 3 and Wilderness 1","Reaction","Knowledge","Skill / Attack","8 DP","s-15951f157941")[
 #emph[#text("You have watched every feint. When they finally run, your shot is already waiting.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible creature within 8 squares after it moves voluntarily.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible creature within 8 squares after it moves voluntarily.")
 
 #text("Take the shot you were waiting for. Requires ranged weapon and ammunition; check supply. This attack cannot trigger additional free attacks.")
 
@@ -11496,54 +9930,45 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
+#text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","3")],"The Land Keeps No Secrets","7","Wilderness 3","Passive","None — no roll","Skill / Utility","8 DP","s-19bb38a41f5a")[
 #emph[#text("You look from the broken ridge to the river and understand the journey waiting between them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes of examination.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" A natural route visible from a vantage point; ten minutes examination.")
+#text("")#strong[#text("Target:")]#text(" A natural route visible from a vantage point; ten minutes examination.")
 
 #text("Identify one observable route hazard and an available way around it, if any. No roll. You and up to six companions who follow your chosen route gain 1 Boon each to their next consequential noncombat roll negotiating that hazard. Hidden dangers remain hidden; this neither finds absent resources nor reveals a route beyond what can be observed.")
 
 #text("")#strong[#text("Duration:")]#text(" Until the identified hazard is passed or you abandon the route.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Reexamining the same hazard does not refresh an expended Boon. No routine travel roll is introduced.")
 
 ]
 #card(icons: [#discipline-mark("scholarship","3")],"The Moment Foretold","7","Scholarship 3","Reaction","None — no roll","Skill","8 DP","s-5e383055f984")[
 #emph[#text("You recognize the instant from your dream and call the warning before it is too late.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" An ally within 3 squares before it makes a declared roll.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" An ally within 3 squares before it makes a declared roll.")
 
 #text("If it hears your warning, grant 2 Boons to that roll. If it achieves Strong, it may move 1 square without provoking immediately afterward. Only rolls using an attribute; no inventory or wound rolls and no change after dice land.")
 
 #text("")#strong[#text("Duration:")]#text(" The triggering roll and any immediately granted movement.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","3")],"The Orchard Wakes","7","Wilderness 3","Main Action","Reason","Magic","8 DP","s-cbed67fdff45")[
 #emph[#text("You spread your arms, and the roots answer as if the whole orchard had stirred in its sleep.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three visible grounded creatures within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three visible grounded creatures within 5 squares.")
 
 #text("Branches and roots answer together. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them. You choose targets; allies need not be included.")
 
@@ -11560,35 +9985,25 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("scholarship","3")],"The Shape of Escape","7","Scholarship 3","Maneuver","None — no roll","Magic / Movement / Utility","8 DP","s-a8c6927cd77c")[
 #emph[#text("You soften into a ribbon of clay and feel the narrow opening slide around you.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, through one narrow opening to a visible free square within 3 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, through one narrow opening to a visible free square within 3 squares.")
 
 #text("Become a ribbon of living clay and slip through a continuous open route to the destination. Carried equipment travels with you; reform immediately. This movement does not provoke. You cannot pass a sealed barrier, end inside an object, or remain amorphous for protection.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","3")],"The Sky Comes Down","7","Storm 3","Main Action","Reason","Magic / Attack","8 DP","s-e8c8af8e3cfc")[
 #emph[#text("You close your fist, and the air falls with the thunder.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Every creature in a visible 3-by-3 area within 6 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Every creature in a visible 3-by-3 area within 6 squares.")
 
 #text("Call a crack of lightning followed by a collapsing wall of air. Make one roll using the net Boons or Banes least favorable to you among the targets; include allies.")
 
@@ -11607,52 +10022,41 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","3")],"The Tale Will Tell of You","7","Influence 3","Reaction","None — no roll","Skill","8 DP","s-89671eca320c")[
 #emph[#text("You call your companion’s name with all the certainty of someone who has not finished their story.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One ally within 4 squares after it enters Dying.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One ally within 4 squares after it enters Dying.")
 
 #text("Your voice reaches it through the noise. If it can hear, it may immediately spend one of its own Grit to regain full HP. The wound remains. Cannot interrupt Last Words; grants no Grit and cannot be used when none remains.")
 
 #text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("storm","3")#discipline-mark("guard","1")],"The Wind Makes Room","7","Storm 3 and Guard 1","Maneuver","None — no roll","Magic / Movement","8 DP","s-39d15c1483ee")[
 #emph[#text("You spread your arms and send a low gust sweeping around your companions’ legs, lifting their steps over the rubble.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Up to three willing allies visible within 4 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Up to three willing allies visible within 4 squares.")
 
 #text("Each chosen ally may immediately move up to 2 squares along a legal route, one at a time, without provoking. Difficult terrain costs 1 for this movement. They must be able to move and end in supported free squares; the gust does not carry them over gaps, creatures or barriers. They spend no actions.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each recipient moves once per use. A further use requires another Maneuver.")
 
 ]
 #card(icons: [#discipline-mark("athletics","3")],"Traverse the Impossible","7","Athletics 3","Main Action","Agility","Skill","8 DP","s-02ff63c13974")[
 #emph[#text("You look across the empty space, breathe once, and trust the leap you have practiced all your life.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" A visible unoccupied landing within 6 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" A visible unoccupied landing within 6 squares")
 
 #text("Choose a landing within the rolled distance. If none is safe, remain at the origin. This crosses gaps, not walls; it is not flight. Ordinary jumping remains available without this card.")
 
@@ -11669,20 +10073,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("influence","3")],"Turn the Crowd","7","Influence 3","Main Action","Guile","Skill","8 DP","s-9acbaf4c9364")[
 #emph[#text("You find the words people begin repeating to one another before you have finished speaking.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Time:")]#text(" Ten minutes per attempt.")
 
-#text("")#strong[#text("Target / range / shape:")]#text(" An audience able to hear; 10 minutes")
+#text("")#strong[#text("Target:")]#text(" An audience able to hear; 10 minutes")
 
 #text("Address an audience able to hear and understand you. Propose one plausible collective objective, such as providing volunteers, granting access or organizing evacuation. The DA states a binary or cumulative progress target and which listeners are willing to consider it. Completion secures the stated cooperation from willing participants, not authority over everyone present; their own choices and new events still matter.")
 
@@ -11699,18 +10100,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("wilderness","3")],"Wear the Great Beast","7","Wilderness 3","Maneuver","None — no roll","Magic","8 DP","s-93fd456073db")[
 #emph[#text("You draw a deep breath as muscle and fur reshape your outline into something formidable.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Spend a Maneuver to become a mighty bear, elk or great hunting cat for the scene. Keep your HP, wounds, attributes and one-square footprint. Speed is ancestry base + Agility + 1, reduced by encumbrance and other applicable penalties, minimum 0. Equipment folds away and provides no benefits. Gain physical resistance 2; highest matching resistance applies. You cannot speak, cast spells or use items, and have no free hands.")
 
@@ -11731,35 +10129,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Duration:")]#text(" Until the scene ends, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("armor","3")],"Weight of Iron","7","Armor 3","Reaction","None — no roll","Skill","8 DP","s-a368e279a4af")[
 #emph[#text("You feel the blow travel down through your armor and into the ground beneath your feet.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self, when an effect would knock you prone")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self, when an effect would knock you prone")
 
 #text("Remain standing.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Requires armor.")
+#text("")#strong[#text("Gear:")]#text(" Requires armor.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("mind","3")],"When the Stars Look Back","7","Mind 3","Main Action","Reason","Magic / Attack","8 DP","s-9bd00bfd1c15")[
 #emph[#text("You point toward your enemy and open a brief vision of the star-filled dark in their thoughts. They falter beneath the sense that something vast has noticed them.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares.")
 
 #text("For a moment, it understands that it has been noticed.")
 
@@ -11776,18 +10166,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("athletics","3")],"Where Only Eagles Pass","7","Athletics 3","Main Action","Brawn","Skill / Utility","8 DP","s-011c2bdf7ecc")[
 #emph[#text("You put your hand against the sheer face and see a way upward that no roadmaker would dare name.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One natural climb within reach; each attempt covers up to your Speed in squares.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One natural climb within reach; each attempt covers up to your Speed in squares.")
 
 #text("Climb a natural surface too sheer for an ordinary unaided ascent if the DA confirms that small seams, projections or cracks exist. No purchase of an earlier climbing card is required. A featureless wall, a ceiling or an impossible load remains impassable. Choose a reachable resting place within the rolled distance; if none exists, keep your initial secure position.")
 
@@ -11804,18 +10189,17 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Movement resolves immediately.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" A free hand; any carried rope is supplied separately.")
+#text("")#strong[#text("Gear:")]#text(" A free hand; any carried rope is supplied separately.")
 
-#v(3pt)
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" The companion ends in a separate safe square or remains carried outside combat; in combat choose legal separate endpoints before moving. Carrying requires a body and load the DA judges physically supportable.")
 
 ]
 #card(icons: [#discipline-mark("flame","3")],"White Heat","7","Flame 3","Main Action","Knowledge","Magic / Attack","8 DP","s-54458d5c4852")[
 #emph[#text("You draw a narrow line toward your enemy with one finger. White fire flashes around their body and leaves flames clinging where it passed.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 6 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 6 squares")
 
 #text("Proposed NPC defense attribute: Agility.")
 
@@ -11832,35 +10216,27 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("flame","3")],"Wings over the Battle","7","Flame 3","Maneuver","None — no roll","Magic","8 DP","s-99456e127b57")[
 #emph[#text("You spread sudden wings and feel the ground drop beneath your first sweeping beat.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" Self.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" Self.")
 
 #text("Wings carry you up to 4 squares, over creatures and difficult ground, to a visible free supported square. You may cross a gap but cannot pass through barriers. This movement does not provoke; you must land immediately. No hovering or permanent flight.")
 
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" No item needed unless named above.")
-
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("frost","3")],"Winter Hold","7","Frost 3","Main Action","Knowledge","Magic / Attack","8 DP","s-915606737fd5")[
 #emph[#text("You close your hand slowly. Frost thickens around your enemy’s limbs as they struggle to keep moving.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One visible creature within 5 squares")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One visible creature within 5 squares")
 
 #text("Proposed NPC defense attribute: Agility.")
 
@@ -11877,18 +10253,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" None.")
+#text("")#strong[#text("Gear:")]#text(" None.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 #card(icons: [#discipline-mark("arms","3")],"Write the Final Line","7","Arms 3","Main Action","Agility","Skill / Attack","8 DP","s-57b9fe6da75c")[
 #emph[#text("You recognize the opening in your opponent’s recovery and drive a precise strike into it before they regain their balance.")]
 
-#text("")#strong[#text("Rules")]#text("")
-
-#text("")#strong[#text("Target / range / shape:")]#text(" One adjacent creature.")
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Target:")]#text(" One adjacent creature.")
 
 #text("Step inside the familiar pattern and finish your melee attack before they find a new one.")
 
@@ -11905,11 +10278,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
 
-#text("")#strong[#text("Equipment / acquisition:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
+#text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
-#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and any stated costs each use.")
-
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
 ]
 #chapter("10","Equipment and Recipes")
@@ -11948,8 +10319,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("The item states whether understanding is required. Identification abilities reveal") #text("different kinds of information. Knowing a recipe is a separate permission from") #text("knowing what an item does. The recipe section lists tools, materials, time and what") #text("the crafting result produces; none of those are supplied by the recipe's name alone.")
 
 ]
+#tail-art("equipment")
 #pagebreak(weak: true)
-#twocol[
 #entry("Starting coins","s-1e0480a6a244")
 #text("")#strong[#text("Starting coins = 40 + ancestry + culture + background + class.")]#text("")
 
@@ -11957,19 +10328,21 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations describe preparation, not biology.")
 
-#heading(level: 3)[#text("Ancestry contribution")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-e8ca137eed99")[#text("Human")]],[#text("+1")],),([#xref("s-fc06a30fc7a2")[#text("Elf")]],[#text("+2")],),([#xref("s-3462876b97b5")[#text("Dwarf")]],[#text("+2")],),([#xref("s-25bc4473d928")[#text("Halfling")]],[#text("+0")],),))
 
-#heading(level: 3)[#text("Culture contribution")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-127f953da4b7")[#text("Border Marches")]],[#text("+7")],),([#xref("s-be7fa1ecbef6")[#text("Cairn Communities")]],[#text("+5")],),([#xref("s-caa21ce3f778")[#text("Cloister Valleys")]],[#text("+5")],),([#xref("s-3a1e85f4b5df")[#text("Deep Halls")]],[#text("+7")],),([#xref("s-d937fe8c4da9")[#text("Ember Cities")]],[#text("+10")],),([#xref("s-acfa23352088")[#text("Forest Communities")]],[#text("+5")],),([#xref("s-a6e71f5f6d42")[#text("Free Harbors")]],[#text("+10")],),([#xref("s-316eb80e4804")[#text("Gathered Peoples")]],[#text("+7")],),([#xref("s-15d48ee7e5a3")[#text("Grass Sea Clans")]],[#text("+5")],),([#xref("s-0914c4d74846")[#text("Highland Holds")]],[#text("+7")],),([#xref("s-229dc05a61db")[#text("Island Kinships")]],[#text("+7")],),([#xref("s-7353482f4751")[#text("Learning Houses")]],[#text("+10")],),([#xref("s-c60affc74aac")[#text("Oasis Cities")]],[#text("+10")],),([#xref("s-580faec05381")[#text("Reed Villages")]],[#text("+5")],),([#xref("s-18f8da6ccca9")[#text("River Settlements")]],[#text("+7")],),([#xref("s-8d8c76172885")[#text("Terrace Towns")]],[#text("+5")],),([#xref("s-64536ad9ef2c")[#text("Traveling Companies")]],[#text("+7")],),([#xref("s-56fcfca4e0da")[#text("Walled Communities")]],[#text("+10")],),))
+#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,[#heading(level: 3)[#text("Ancestry")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-e8ca137eed99")[#text("Human")]],[#text("+1")],),([#xref("s-fc06a30fc7a2")[#text("Elf")]],[#text("+2")],),([#xref("s-3462876b97b5")[#text("Dwarf")]],[#text("+2")],),([#xref("s-25bc4473d928")[#text("Halfling")]],[#text("+0")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
 
-#heading(level: 3)[#text("Background contribution")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-b90394fd9a72")[#text("Apothecary’s Helper")]],[#text("+10")],),([#xref("s-b22ea03a6a6f")[#text("Bargain Keeper")]],[#text("+7")],),([#xref("s-7091aed288e8")[#text("Beast-Reared")]],[#text("+5")],),([#xref("s-872208e28686")[#text("Bone Tender")]],[#text("+5")],),([#xref("s-f929cff2cbe3")[#text("Bridge Worker")]],[#text("+7")],),([#xref("s-7984d2b1dc16")[#text("Burglar")]],[#text("+7")],),([#xref("s-b2b73ee08ff8")[#text("Confidence Artist")]],[#text("+7")],),([#xref("s-000117b6bc8f")[#text("Court Questioner")]],[#text("+10")],),([#xref("s-a312a6907a24")[#text("Dragon-Dreamer")]],[#text("+7")],),([#xref("s-90952aa5e9c2")[#text("Duelist’s Second")]],[#text("+7")],),([#xref("s-5b31ba339916")[#text("Grave Attendant")]],[#text("+5")],),([#xref("s-7aafc8f73712")[#text("Grove Tended")]],[#text("+5")],),([#xref("s-9b1d981dbf2d")[#text("Household Guard")]],[#text("+7")],),([#xref("s-5e0e84693b23")[#text("Itinerant Tinker")]],[#text("+7")],),([#xref("s-8639541ef870")[#text("Kennel Keeper")]],[#text("+7")],),([#xref("s-5cdcc612834b")[#text("Market Chemist")]],[#text("+10")],),([#xref("s-49616a099534")[#text("Messenger")]],[#text("+7")],),([#xref("s-725a611cc900")[#text("Monastery Runaway")]],[#text("+5")],),([#xref("s-60bc23cf9581")[#text("Oath Witness")]],[#text("+10")],),([#xref("s-d0d3a4d3abbf")[#text("Physician’s Student")]],[#text("+10")],),([#xref("s-757fd34b0bb1")[#text("Pit Fighter")]],[#text("+5")],),([#xref("s-cb0efb2d07cc")[#text("Poacher")]],[#text("+7")],),([#xref("s-acb3bd269c96")[#text("Reluctant Knife")]],[#text("+5")],),([#xref("s-f10b0de9740d")[#text("Shore Gatherer")]],[#text("+5")],),([#xref("s-17b8629ba48d")[#text("Stage Assistant")]],[#text("+7")],),([#xref("s-a0a16f981f7c")[#text("Star-Touched")]],[#text("+7")],),([#xref("s-46a389be0e62")[#text("Storm Survivor")]],[#text("+5")],),([#xref("s-bf8362262d71")[#text("Temple Attendant")]],[#text("+7")],),([#xref("s-7a65a53d413e")[#text("Traveling Player")]],[#text("+7")],),([#xref("s-174ecaa5c234")[#text("War Drummer")]],[#text("+7")],),([#xref("s-00aaf0d70989")[#text("Ward Scribe")]],[#text("+10")],),([#xref("s-316d900f9ca8")[#text("Weather Apprentice")]],[#text("+7")],),))
+#heading(level: 3)[#text("Class")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-9c75309ecffd")[#text("Protector")]],[#text("+5")],),([#xref("s-4cf3da87b3fe")[#text("Blade")]],[#text("+4")],),([#xref("s-cb5021228f43")[#text("Arcanist")]],[#text("+6")],),([#xref("s-2ec72f4532a5")[#text("Shepherd")]],[#text("+3")],),([#xref("s-5f996d5a0ee9")[#text("Intellect")]],[#text("+8")],),([#xref("s-a06f8adb7ce7")[#text("Leader")]],[#text("+6")],),([#xref("s-6a13115a845b")[#text("Shadow")]],[#text("+3")],),([#xref("s-94403698c5ab")[#text("Unbalanced")]],[#text("+0")],),([#xref("s-fe83ef834cbc")[#text("Odd")]],[#text("+0")],),([#xref("s-2ad683228880")[#text("Warden")]],[#text("+2")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
 
-#heading(level: 3)[#text("Class contribution")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-9c75309ecffd")[#text("Protector")]],[#text("+5")],),([#xref("s-4cf3da87b3fe")[#text("Blade")]],[#text("+4")],),([#xref("s-cb5021228f43")[#text("Arcanist")]],[#text("+6")],),([#xref("s-2ec72f4532a5")[#text("Shepherd")]],[#text("+3")],),([#xref("s-5f996d5a0ee9")[#text("Intellect")]],[#text("+8")],),([#xref("s-a06f8adb7ce7")[#text("Leader")]],[#text("+6")],),([#xref("s-6a13115a845b")[#text("Shadow")]],[#text("+3")],),([#xref("s-94403698c5ab")[#text("Unbalanced")]],[#text("+0")],),([#xref("s-fe83ef834cbc")[#text("Odd")]],[#text("+0")],),([#xref("s-2ad683228880")[#text("Warden")]],[#text("+2")],),))
+],[#heading(level: 3)[#text("Culture")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-127f953da4b7")[#text("Border Marches")]],[#text("+7")],),([#xref("s-be7fa1ecbef6")[#text("Cairn Communities")]],[#text("+5")],),([#xref("s-caa21ce3f778")[#text("Cloister Valleys")]],[#text("+5")],),([#xref("s-3a1e85f4b5df")[#text("Deep Halls")]],[#text("+7")],),([#xref("s-d937fe8c4da9")[#text("Ember Cities")]],[#text("+10")],),([#xref("s-acfa23352088")[#text("Forest Communities")]],[#text("+5")],),([#xref("s-a6e71f5f6d42")[#text("Free Harbors")]],[#text("+10")],),([#xref("s-316eb80e4804")[#text("Gathered Peoples")]],[#text("+7")],),([#xref("s-15d48ee7e5a3")[#text("Grass Sea Clans")]],[#text("+5")],),([#xref("s-0914c4d74846")[#text("Highland Holds")]],[#text("+7")],),([#xref("s-229dc05a61db")[#text("Island Kinships")]],[#text("+7")],),([#xref("s-7353482f4751")[#text("Learning Houses")]],[#text("+10")],),([#xref("s-c60affc74aac")[#text("Oasis Cities")]],[#text("+10")],),([#xref("s-580faec05381")[#text("Reed Villages")]],[#text("+5")],),([#xref("s-18f8da6ccca9")[#text("River Settlements")]],[#text("+7")],),([#xref("s-8d8c76172885")[#text("Terrace Towns")]],[#text("+5")],),([#xref("s-64536ad9ef2c")[#text("Traveling Companies")]],[#text("+7")],),([#xref("s-56fcfca4e0da")[#text("Walled Communities")]],[#text("+10")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
 
-#heading(level: 3)[#text("Checks and examples")]
+])#illustration("equipment",height:125pt)], [#heading(level: 3)[#text("Background")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-b90394fd9a72")[#text("Apothecary’s Helper")]],[#text("+10")],),([#xref("s-b22ea03a6a6f")[#text("Bargain Keeper")]],[#text("+7")],),([#xref("s-7091aed288e8")[#text("Beast-Reared")]],[#text("+5")],),([#xref("s-872208e28686")[#text("Bone Tender")]],[#text("+5")],),([#xref("s-f929cff2cbe3")[#text("Bridge Worker")]],[#text("+7")],),([#xref("s-7984d2b1dc16")[#text("Burglar")]],[#text("+7")],),([#xref("s-b2b73ee08ff8")[#text("Confidence Artist")]],[#text("+7")],),([#xref("s-000117b6bc8f")[#text("Court Questioner")]],[#text("+10")],),([#xref("s-a312a6907a24")[#text("Dragon-Dreamer")]],[#text("+7")],),([#xref("s-90952aa5e9c2")[#text("Duelist’s Second")]],[#text("+7")],),([#xref("s-5b31ba339916")[#text("Grave Attendant")]],[#text("+5")],),([#xref("s-7aafc8f73712")[#text("Grove Tended")]],[#text("+5")],),([#xref("s-9b1d981dbf2d")[#text("Household Guard")]],[#text("+7")],),([#xref("s-5e0e84693b23")[#text("Itinerant Tinker")]],[#text("+7")],),([#xref("s-8639541ef870")[#text("Kennel Keeper")]],[#text("+7")],),([#xref("s-5cdcc612834b")[#text("Market Chemist")]],[#text("+10")],),([#xref("s-49616a099534")[#text("Messenger")]],[#text("+7")],),([#xref("s-725a611cc900")[#text("Monastery Runaway")]],[#text("+5")],),([#xref("s-60bc23cf9581")[#text("Oath Witness")]],[#text("+10")],),([#xref("s-d0d3a4d3abbf")[#text("Physician’s Student")]],[#text("+10")],),([#xref("s-757fd34b0bb1")[#text("Pit Fighter")]],[#text("+5")],),([#xref("s-cb0efb2d07cc")[#text("Poacher")]],[#text("+7")],),([#xref("s-acb3bd269c96")[#text("Reluctant Knife")]],[#text("+5")],),([#xref("s-f10b0de9740d")[#text("Shore Gatherer")]],[#text("+5")],),([#xref("s-17b8629ba48d")[#text("Stage Assistant")]],[#text("+7")],),([#xref("s-a0a16f981f7c")[#text("Star-Touched")]],[#text("+7")],),([#xref("s-46a389be0e62")[#text("Storm Survivor")]],[#text("+5")],),([#xref("s-bf8362262d71")[#text("Temple Attendant")]],[#text("+7")],),([#xref("s-7a65a53d413e")[#text("Traveling Player")]],[#text("+7")],),([#xref("s-174ecaa5c234")[#text("War Drummer")]],[#text("+7")],),([#xref("s-00aaf0d70989")[#text("Ward Scribe")]],[#text("+10")],),([#xref("s-316d900f9ca8")[#text("Weather Apprentice")]],[#text("+7")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
+
+])
+#note[#heading(level: 3)[#text("Examples")]
 #text("All ")#strong[#text("23,040 ancestry/culture/background/class combinations")]#text(" fall between ")#strong[#text("50 and 70 coins")]#text(", before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.")
 
 #text("Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = ")#strong[#text("50")]#text(". Maximum: Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = ")#strong[#text("70")]#text(".")
@@ -12046,13 +10419,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #pagebreak(weak: true)
 #heading(level: 2,"Equipment entries")
 #twocol[
-#block(breakable: false)[
-#entry("Ammunition Bundle","s-7c3f620c41a4")
-#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
+#metadata("s-979ba41082c2")<s-979ba41082c2>
+#text("These entries describe the things you can carry, buy, find and use. Each gives its") #text("Bulk, price and any special requirements or effects. Record the actual item once in") #text("your inventory, even when several learned abilities use it. Buying equipment with") #text("coins does not buy training or a discipline rank.")
 
-#heading(level: 3)[#text("Rules")]
+#text("Ordinary weapon appearance is yours to describe; your attack card supplies its combat") #text("mechanics. Special equipment adds only the effects printed here. For consumables,") #text("record the current inventory die and check it after the stated use. Keep frequently") #text("used items and occupied hands visible on your character sheet.")
+
+#catalog-card("Ammunition Bundle","s-7c3f620c41a4")[#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12065,16 +10440,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Check after each attack that consumes ammunition; on 1 reduce a die step. Last use works. One bundle, not one Bulk per arrow.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Book of Quiet Doors","s-fabe18f9a08f")
-#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
+#catalog-card("Book of Quiet Doors","s-fabe18f9a08f")[#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Scholarship 1; identification required. ")#strong[#text("Action:")]#text(" Main Action; ten minutes of study.")
 
 #text("After studying for 10 minutes, gain 1 Boon to your next mundane lock attempt this scene. Further study before using it does not add another Boon from this item. Grants no lock-working permission.")
@@ -12084,11 +10455,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 150 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Chain Coil","s-c944a083152e")
-#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
+#catalog-card("Chain Coil","s-c944a083152e")[#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A practical portable coil for securing or hauling, with length agreed with the DA when bought. No infinite reach or automatic restraint.")
@@ -12096,11 +10465,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Cincture of Might","s-f0f4afe9c11a")
-#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
+#catalog-card("Cincture of Might","s-f0f4afe9c11a")[#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Brawn +1 while worn. Does not stack with another positive Brawn item; does not change creation DP or class eligibility.")
@@ -12110,11 +10477,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 500 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Clearing Tonic Supply","s-b24b63a12d55")
-#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
+#catalog-card("Clearing Tonic Supply","s-b24b63a12d55")[#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 30 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A d4 Clearing Tonic supply. Requires The Cleverest Mixture to administer its printed effect. Owning the bottle grants no ability or recipe. No HP restoration is implied.")
@@ -12122,11 +10487,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Climbing Fittings","s-988dba639bcc")
-#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
+#catalog-card("Climbing Fittings","s-988dba639bcc")[#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable harness, hook, hammer and anchors. Rope is separate. Enables plausible anchoring; no automatic climb, Boon or specialist permission. Abandoned fittings need replacement at a DA-quoted fraction of the kit price.")
@@ -12134,13 +10497,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Craft Tools","s-14e7cb969276")
-#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
+#catalog-card("Craft Tools","s-14e7cb969276")[#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12153,16 +10513,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Required for recipes that list them; no inventory die.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 15 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Digging Tools","s-d774c4e02a23")
-#emph[#text("You plant the spade and turn the first heavy clod aside.")]
+#catalog-card("Digging Tools","s-d774c4e02a23")[#emph[#text("You plant the spade and turn the first heavy clod aside.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Compact shovel and pick for ordinary digging. Time and feasibility depend on the material; no combat damage profile or tunneling magic.")
@@ -12170,11 +10526,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Disguise Clothes","s-ac4ce4cfc558")
-#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
+#catalog-card("Disguise Clothes","s-ac4ce4cfc558")[#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("One plausible outfit for a declared mundane role. No automatic identity, credential or Boon; a special disguise ability still follows its card.")
@@ -12182,11 +10536,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Ember Edge","s-11382cf1237f")
-#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
+#catalog-card("Ember Edge","s-11382cf1237f")[#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Flame 1; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Adds 1 fire damage to attacks made with it. On Strong also applies Burning 1. Cannot apply to ranged attacks.")
@@ -12196,13 +10548,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 400 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Food Bundle","s-2512ec01815d")
-#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
+#catalog-card("Food Bundle","s-2512ec01815d")[#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12215,16 +10564,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("One supply check per person-day consumed. No exhaustion subsystem is implied.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Glass of Fine Detail","s-4433f2b9aa57")
-#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
+#catalog-card("Glass of Fine Detail","s-4433f2b9aa57")[#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Gain 1 Boon to inspecting an accessible small object while holding the glass; not distant detection.")
@@ -12234,11 +10579,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 100 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Gravebound Brooch","s-25f3a835887d")
-#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
+#catalog-card("Gravebound Brooch","s-25f3a835887d")[#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Life resistance 1 while worn. Reduces both Life damage and Life healing; minimum 1 still applies.")
@@ -12248,13 +10591,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Greater Healing Bottle","s-24718f30576e")
-#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
+#catalog-card("Greater Healing Bottle","s-24718f30576e")[#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12267,18 +10607,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Use ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(": restore 10 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 50 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Lesser Healing Bottle","s-04c9ce3dbd60")
-#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
+#catalog-card("Lesser Healing Bottle","s-04c9ce3dbd60")[#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12291,16 +10626,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Use ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(": restore 6 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Lever and Wedges","s-2532d043387e")
-#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
+#catalog-card("Lever and Wedges","s-2532d043387e")[#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable prying bar and wedges. Provides leverage where physically possible; no automatic Force progress or bonus.")
@@ -12308,13 +10639,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Lighting Bundle","s-9dbbdc619f37")
-#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
+#catalog-card("Lighting Bundle","s-9dbbdc619f37")[#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12327,16 +10655,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Proposed light radius: the bearer’s square and all squares within 3 squares. Lighting or extinguishing costs a Maneuver and requires a free hand; carrying a lit torch occupies that hand. One check per hour of use. Ordinary light reveals what could be seen, not Hidden targets automatically.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Local Map","s-3628d79905d2")
-#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
+#catalog-card("Local Map","s-3628d79905d2")[#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A map and protective case. Contains the publicly known routes the seller actually knows; no secret discoveries or guaranteed accuracy.")
@@ -12344,13 +10668,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Lock Tools","s-47f3d2782279")
-#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
+#catalog-card("Lock Tools","s-47f3d2782279")[#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12363,18 +10684,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Required for fine mundane lock work; no inventory die.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Material Bundle","s-7f03e2e13191")
-#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
+#catalog-card("Material Bundle","s-7f03e2e13191")[#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12387,28 +10703,22 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Mark material type. One use and inventory check per crafting attempt requiring it. Incompatible material cannot substitute.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 12 coins.")
 
 #text("This 12-coin d6 price is for one named ordinary material type. Prepared healing ingredients cost 80 coins per d6 bundle instead; other rare materials require a DA quote. A cheap ordinary bundle cannot substitute for life salts or other specialist ingredients.")
 
 ]
-#block(breakable: false)[
-#entry("Mixing Kit","s-b06011d0f4b2")
-#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
+#catalog-card("Mixing Kit","s-b06011d0f4b2")[#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Bulk:")]#text(" 1. ")#strong[#text("Use:")]#text(" Reusable tools for a recipe that names a mixing kit.") #text("No inventory die; ingredients and finished mixtures have their own supply dice.") #text("An ability that grants a missing kit supplies it on acquisition, not on every use.")
 
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Musical Instrument","s-6b70fa2ab5ff")
-#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
+#catalog-card("Musical Instrument","s-6b70fa2ab5ff")[#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("One portable ordinary instrument chosen by the owner. Enables ordinary performance, not an ability grant or social bonus.")
@@ -12416,13 +10726,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Ordinary Heavy Armor","s-b9784698d103")
-#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
+#catalog-card("Ordinary Heavy Armor","s-b9784698d103")[#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12435,18 +10742,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Appearance is chosen by owner. The training card grants physical resistance 3; no additional resistance from this item.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 90 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Ordinary Medium Armor","s-0b2c1b395c96")
-#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
+#catalog-card("Ordinary Medium Armor","s-0b2c1b395c96")[#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12459,18 +10761,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Appearance is chosen by owner. The training card grants physical resistance 2; no additional resistance from this item.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 40 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Ordinary Melee Weapon","s-d69517655496")
-#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
+#catalog-card("Ordinary Melee Weapon","s-d69517655496")[#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12483,18 +10780,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("A melee implement described by its owner. Attacks define damage, range, restrictions and other mechanics. Multiple compatible learned attacks share this item. No inherent damage profile. Record whether it occupies one hand or two when described; appearance still adds no damage. Changing grip follows Handle an Item, not an assumed free potion hand.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 12 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Ordinary Ranged Weapon","s-973e5d9f8a2e")
-#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
+#catalog-card("Ordinary Ranged Weapon","s-973e5d9f8a2e")[#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12507,18 +10799,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("A ranged implement described by its owner. Attack card supplies mechanics. Uses a separate ammunition bundle where required. Two hands while in use.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 18 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Ordinary Shield","s-41ade2ef74b5")
-#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
+#catalog-card("Ordinary Shield","s-41ade2ef74b5")[#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12531,16 +10818,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("A held shield enables universal Shield Block. Grants no automatic resistance or defense bonus without spending its Reaction.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 10 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Padlock","s-2918d6eac54e")
-#emph[#text("The shackle closes with a solid click as you turn the small key.")]
+#catalog-card("Padlock","s-2918d6eac54e")[#emph[#text("The shackle closes with a solid click as you turn the small key.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A mundane lock and key for a suitable closure. The DA sets any forced-entry or lock task from the situation; the price grants no universal difficulty.")
@@ -12548,11 +10831,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Restraints","s-43bb20e70dde")
-#emph[#text("You check the key against the lock before closing the irons.")]
+#catalog-card("Restraints","s-43bb20e70dde")[#emph[#text("You check the key against the lock before closing the irons.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable manacles and key. Applying to an unwilling resisting target requires first securing them under the existing restraint rules; purchase grants no grapple or attack.")
@@ -12560,13 +10841,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Rope Coil","s-3c95ee95bf9b")
-#emph[#text("You shake out a loop and test the fibers between your hands.")]
+#catalog-card("Rope Coil","s-3c95ee95bf9b")[#emph[#text("You shake out a loop and test the fibers between your hands.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12579,16 +10857,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("An ordinary rope; DA judges plausible length/use from the description. Does not automatically grant climbing success.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Signal Kit","s-137a6b65cf72")
-#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
+#catalog-card("Signal Kit","s-137a6b65cf72")[#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Whistle, small bell and ordinary signaling mirror. Works only where sound or reflected light can reach; no magical communication, special detection or bonus.")
@@ -12596,11 +10870,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Sleeping Roll","s-c0088cf12189")
-#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
+#catalog-card("Sleeping Roll","s-c0088cf12189")[#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A bedroll, blanket and ground cloth for one sleeper. Ordinary comfort and protection from damp ground, not automatic protection from dangerous cold or a safe-place ruling.")
@@ -12608,11 +10880,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Small Necessities","s-54a713e7fd20")
-#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
+#catalog-card("Small Necessities","s-54a713e7fd20")[#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 2 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Bundle of ordinary firestarting, cleaning, sewing and marking supplies. Inventory d6; check after a scene of substantial consumption, not after every strike of the flint. Supplies no lock tools, medicine, ammo, food or crafting recipe ingredients.")
@@ -12620,11 +10890,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Small Tent","s-32c7fdd7c096")
-#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
+#catalog-card("Small Tent","s-32c7fdd7c096")[#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Shelters two resting people from ordinary weather. Needs a suitable site and ten minutes to pitch or pack. No guarantee of safe rest or weather immunity.")
@@ -12632,11 +10900,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Smoke Supply","s-f1e2e78dbb69")
-#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
+#catalog-card("Smoke Supply","s-f1e2e78dbb69")[#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 15 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A d4 Smoke Flask supply. Requires the Smoke in a Bottle ability to use its printed effect; buying this supply grants no crafting recipe or ability. Check its die after use.")
@@ -12644,13 +10910,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Superior Healing Bottle","s-d4d89fd876a0")
-#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
+#catalog-card("Superior Healing Bottle","s-d4d89fd876a0")[#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Bulk:")]#text(" 1")
 
 ],
@@ -12663,16 +10926,12 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 )
 #text("Use ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(": restore 16 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.")
 
-#text("No DP price. Purchase does not grant training or an ability.")
-
 #text("")#strong[#text("Market price:")]#text(" 120 coins.")
 
 ]
-#block(breakable: false)[
-#entry("Trade Sack","s-a499baf9b6ed")
-#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
+#catalog-card("Trade Sack","s-a499baf9b6ed")[#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 1 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable sack, Bulk 1 in addition to contents. It provides no extra carrying capacity. Large collections of small valuables must be bundled and counted; no infinite coin pouch.")
@@ -12680,11 +10939,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Travel Clothes","s-5ae233e27a7e")
-#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
+#catalog-card("Travel Clothes","s-5ae233e27a7e")[#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A durable outfit with boots and cloak. One ordinary worn outfit is descriptive and contributes 0 Bulk; a carried spare is Bulk 1. Proposed creation baseline: everyone already owns one plain outfit, with no coin credit for declining it. This is the only new free starting equipment here.")
@@ -12692,11 +10949,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Travel Pack","s-d7e5ae8c8f0b")
-#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
+#catalog-card("Travel Pack","s-d7e5ae8c8f0b")[#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A reusable backpack or shoulder pack. Its own Bulk is 1, even when empty. Contents retain their full Bulk; it grants no capacity increase or concealed inventory slots.")
@@ -12704,11 +10959,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Water Flask","s-6cc71ac4a31f")
-#emph[#text("You test the stopper, listening to the water shift inside.")]
+#catalog-card("Water Flask","s-6cc71ac4a31f")[#emph[#text("You test the stopper, listening to the water shift inside.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Includes a filled reusable container and one person-day of drinking water. Count days when water matters; refill freely from an accessible safe source. No inventory die for water in this first. Empty container remains Bulk 1; no exhaustion or dehydration subsystem is added.")
@@ -12716,11 +10969,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Weather Clothes","s-a17c58bce822")
-#emph[#text("You fasten the heavy outer layer against the weather.")]
+#catalog-card("Weather Clothes","s-a17c58bce822")[#emph[#text("You fasten the heavy outer layer against the weather.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A cold- or wet-weather outfit, specified when bought. Bulk 1 even when worn over ordinary clothes. Enables plausible travel in its intended weather; grants no resistance, immunity or automatic survival.")
@@ -12728,11 +10979,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#block(breakable: false)[
-#entry("Winter Lining","s-5565a74959ac")
-#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
+#catalog-card("Winter Lining","s-5565a74959ac")[#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Grants cold resistance 1 while worn; highest matching resistance applies, cap 3. Does not grant armor training.")
@@ -12742,11 +10991,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#block(breakable: false)[
-#entry("Writing Kit","s-af6b73697bd9")
-#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
+#catalog-card("Writing Kit","s-af6b73697bd9")[#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Ink, paper and pen as a d6 supply. Check once per substantial writing or mapping session, not each sentence. No automatic map accuracy or scholarly knowledge.")
@@ -12755,16 +11002,19 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 ]
+#tail-art("equipment")
 #pagebreak(weak: true)
 #heading(level: 2,"Recipes")
 #twocol[
-#block(breakable: false)[
-#entry("Bound Torches","s-6d543ab33e6a")
-#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
+#metadata("s-f59a208297e9")<s-f59a208297e9>
+#text("A recipe is the knowledge of how to make a particular thing. It tells you which") #text("crafting ability permits the work, what tools and materials you need, how long an") #text("attempt takes, and what the result produces. Knowing a recipe does not supply its") #text("ingredients or grant the ability needed to use it.")
 
-#heading(level: 3)[#text("Rules")]
+#text("Read the entry before beginning. A project may accumulate progress toward a completion") #text("target; a supply recipe may instead raise an existing inventory die. Follow the printed") #text("outcomes and limits. Starting crafting abilities provide their stated recipe choices;") #text("you can learn further compatible recipes through the appropriate ability or discover") #text("them during play.")
+
+#catalog-card("Bound Torches","s-6d543ab33e6a")[#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
 
 ],
@@ -12784,11 +11034,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#block(breakable: false)[
-#entry("Camp Shelter","s-b8a961647b93")
-#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
+#catalog-card("Camp Shelter","s-b8a961647b93")[#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Permission:")]#text(" ")#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]#text(".") #text("")#strong[#text("Tools:")]#text(" Craft tools. ")#strong[#text("Time per attempt:")]#text(" One hour.") #text("")#strong[#text("Materials per attempt:")]#text(" Suitable supports and weatherproof covering, gathered locally or one compatible carried material-bundle use.") #text("")#strong[#text("Completion target:")]#text(" 4 progress.")
 
 #text("Roll Knowledge using the crafting card's outcomes. Add 1/2/3 progress. Inspect materials before consuming them; reject unsuitable materials without consuming the rejected portion. Check any used carried material supply after the attempt. No group crafting.")
@@ -12798,11 +11046,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("The shelter lasts until dismantled or damaged. The recipe is granted by its crafting card and may also be learned through Ordinary Recipe Study if already compatible; recipe knowledge grants no tools, ingredients or crafting permission.")
 
 ]
-#block(breakable: false)[
-#entry("Clearing Tonic","s-8a9c69fe8bf8")
-#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
+#catalog-card("Clearing Tonic","s-8a9c69fe8bf8")[#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Bitter starleaf, clean water and a filtering cloth; one compatible material-bundle use per attempt if carried.")
 
 #text("Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 1/2/3 inventory steps, from out to d4 first, maximum d4. Check material supply after the attempt. No group crafting. Ingredients must actually be acquired.")
@@ -12812,13 +11058,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#block(breakable: false)[
-#entry("Fletched Ammunition","s-befbcf7e459d")
-#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
+#catalog-card("Fletched Ammunition","s-befbcf7e459d")[#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
 
 ],
@@ -12838,11 +11081,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#block(breakable: false)[
-#entry("Lesser Healing Bottle","s-abd26dc48e7d")
-#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
+#catalog-card("Lesser Healing Bottle","s-abd26dc48e7d")[#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("The useful bottle is the one you prepared before you needed it.")
 
 #text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-b10920431af0")[#text("Bottled Morning")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Fresh moonmint, clean water and one measure of prepared life salts; one compatible material-bundle use per attempt if carried.")
@@ -12854,13 +11095,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#block(breakable: false)[
-#entry("Simple Replacement Leg","s-ee6646e5ff37")
-#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
+#catalog-card("Simple Replacement Leg","s-ee6646e5ff37")[#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
 
 ],
@@ -12882,11 +11120,9 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Requires Fit a Replacement before relieving any wound effect; the wound must permit replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.")
 
 ]
-#block(breakable: false)[
-#entry("Smoke Flask","s-01f97f094075")
-#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
+#catalog-card("Smoke Flask","s-01f97f094075")[#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("The useful bottle is the one you prepared before you needed it.")
 
 #text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Dry puffleaf, prepared mineral dust and a stoppered bottle; one compatible material-bundle use per attempt if carried.")
@@ -12898,13 +11134,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#block(breakable: false)[
-#entry("Travel Food","s-bb64b6e91f76")
-#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
+#catalog-card("Travel Food","s-bb64b6e91f76")[#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful, Enchanting Workshop, or a mixing card that explicitly grants this recipe; the recipe alone grants no crafting permission")
 
 ],
@@ -12924,13 +11157,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#block(breakable: false)[
-#entry("Twisted Cord","s-41812d3c9ff9")
-#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
+#catalog-card("Twisted Cord","s-41812d3c9ff9")[#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
 
 ],
@@ -12950,13 +11180,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #text("Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.")
 
 ]
-#block(breakable: false)[
-#entry("Wooden Brace","s-cd8056938705")
-#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
+#catalog-card("Wooden Brace","s-cd8056938705")[#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
 
-#heading(level: 3)[#text("Rules")]
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
-[],
 [#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
 
 ],
@@ -12979,10 +11206,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 ]
 ]
+#tail-art("recipes")
 #chapter("11","Summoned Companions")
 #metadata("s-e8df3b6d78cc")<s-e8df3b6d78cc>
-#twocol[
-#text("You call across a boundary, and something answers: paws on stone, a flicker of") #text("ancestral light, a shape unfolding from cold air. The creature acts through your") #text("attention. Its presence gives you choices, not a second independent turn.")
+#grid(columns: (1fr,1fr), gutter:18pt, [#text("You call across a boundary, and something answers: paws on stone, a flicker of") #text("ancestral light, a shape unfolding from cold air. The creature acts through your") #text("attention. Its presence gives you choices, not a second independent turn.")
 
 #text("Choose from the profiles in this chapter when a summoning ability permits the") #text("category and tier. Higher-tier cards can choose eligible lower-tier creatures.") #text("Category names alone do not grant access to an unlisted creature.")
 
@@ -13005,34 +11232,35 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("The profiles below include only the summoned form's permitted capabilities. A") #text("monster's dramatic description does not grant its summoned form extra actions,") #text("active auras, independent attacks or skills.")
 
-]
+], [#illustration("summon-ancestor-guardian",height:530pt)])
 #pagebreak(weak: true)
-#twocol[
-#entry("Summon selection","s-8a059e12072a")
+#entry("Choose a summoned companion","s-8a059e12072a")
 #text("")#strong[#text("Selection:")]#text(" select a listed creature whose category matches the card") #text("and whose minimum tier does not exceed it. Category or CV alone grants no access.") #text("The expanded roster provides 73 explicit selections. All use the established") #text("command limits, six-square tether and disappearance rules. No uncommanded activity,") #text("Reactions, opportunity attacks, permanent loot or summon chains.")
 
-#heading(level: 3)[#text("Animal")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-8a9af988caee")[#text("Adder")]],[#text("Venomous nuisance")],),([#text("1")],[#xref("s-e2ceefc7ef5c")[#text("Cave Bat")]],[#text("Cavern scout")],),([#text("1")],[#xref("s-2a5ddc4df58e")[#text("Giant Rat")]],[#text("Attrition striker")],),([#text("1")],[#xref("s-60db1c505d34")[#text("Raven")]],[#text("Scout")],),([#text("1")],[#xref("s-b2ccee3e3b68")[#text("Trail Hound")]],[#text("Tracker")],),([#text("1")],[#xref("s-2004a03963a9")[#text("Warhorse")]],[#text("Displacer")],),([#text("1")],[#xref("s-51d7ff944a67")[#text("Wild Boar")]],[#text("Charger")],),([#text("1")],[#xref("s-e3d96091ccac")[#text("Wolf")]],[#text("Pack hunter")],),([#text("3")],[#xref("s-aeadd506a41d")[#text("Brown Bear")]],[#text("Brute")],),([#text("3")],[#xref("s-91ea9fbaf4a2")[#text("Dire Wolf")]],[#text("Knockdown fighter")],),([#text("3")],[#xref("s-69505d26ba69")[#text("Giant Boar")]],[#text("Displacer")],),([#text("3")],[#xref("s-7a560a09fb85")[#text("Giant Constrictor")]],[#text("Holder")],),([#text("3")],[#xref("s-014315b5e8bb")[#text("Giant Eagle")]],[#text("Position hunter")],),([#text("3")],[#xref("s-98e425c4177b")[#text("Giant Octopus")]],[#text("Holder")],),([#text("3")],[#xref("s-069356fc6c56")[#text("Giant Scorpion")]],[#text("Debuffer")],),([#text("3")],[#xref("s-849fbea0354a")[#text("Giant Spider")]],[#text("Controller")],),([#text("3")],[#xref("s-6613badd8151")[#text("Great Cat")]],[#text("Stalker")],),([#text("3")],[#xref("s-b85cea8623d3")[#text("Great Stag")]],[#text("Line breaker")],),([#text("3")],[#xref("s-75a88e5c0ce3")[#text("Marsh Crocodile")]],[#text("Ambusher")],),([#text("3")],[#xref("s-a74ae6c152f1")[#text("Reef Hunter")]],[#text("Aquatic hunter")],),([#text("7")],[#xref("s-2ace0f976d0d")[#text("Ancient Mammoth")]],[#text("Massive guardian")],),), pad: 3pt)
 
-#heading(level: 3)[#text("Fey")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-bb6180abd6d4")[#text("Hearth Brownie")]],[#text("Helper")],),([#text("1")],[#xref("s-4d11a7ef7d9b")[#text("Hedge Sprite")]],[#text("Trickster")],),([#text("3")],[#xref("s-fed0430a4d94")[#text("Briar Knight")]],[#text("Defender")],),([#text("3")],[#xref("s-440a3ca0feea")[#text("Dryad")]],[#text("Holder")],),([#text("3")],[#xref("s-01ed68ff1a41")[#text("Harbor Siren")]],[#text("Lurer")],),([#text("3")],[#xref("s-35be93c918d3")[#text("Redcap")]],[#text("Attrition striker")],),([#text("3")],[#xref("s-48b4b313e11c")[#text("Reed Piper")]],[#text("Distractor")],),([#text("3")],[#xref("s-3df5ebb4fa79")[#text("Satyr")]],[#text("Disabler")],),([#text("7")],[#xref("s-2e9a60284c6f")[#text("Moon Hart")]],[#text("Rescuer")],),([#text("7")],[#xref("s-df10b70c7c35")[#text("Unicorn")]],[#text("Displacer")],),), pad: 3pt)
+#grid(columns: (1fr,1fr,1fr), gutter: 10pt, [#block(breakable: false)[#heading(level: 2)[#text("Animal")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-8a9af988caee")[#text("Adder")]],[#text("Venomous nuisance")],),([#text("1")],[#xref("s-e2ceefc7ef5c")[#text("Cave Bat")]],[#text("Cavern scout")],),([#text("1")],[#xref("s-2a5ddc4df58e")[#text("Giant Rat")]],[#text("Attrition striker")],),([#text("1")],[#xref("s-60db1c505d34")[#text("Raven")]],[#text("Scout")],),([#text("1")],[#xref("s-b2ccee3e3b68")[#text("Trail Hound")]],[#text("Tracker")],),([#text("1")],[#xref("s-2004a03963a9")[#text("Warhorse")]],[#text("Displacer")],),([#text("1")],[#xref("s-51d7ff944a67")[#text("Wild Boar")]],[#text("Charger")],),([#text("1")],[#xref("s-e3d96091ccac")[#text("Wolf")]],[#text("Pack hunter")],),([#text("3")],[#xref("s-aeadd506a41d")[#text("Brown Bear")]],[#text("Brute")],),([#text("3")],[#xref("s-91ea9fbaf4a2")[#text("Dire Wolf")]],[#text("Knockdown fighter")],),([#text("3")],[#xref("s-69505d26ba69")[#text("Giant Boar")]],[#text("Displacer")],),([#text("3")],[#xref("s-7a560a09fb85")[#text("Giant Constrictor")]],[#text("Holder")],),([#text("3")],[#xref("s-014315b5e8bb")[#text("Giant Eagle")]],[#text("Position hunter")],),([#text("3")],[#xref("s-98e425c4177b")[#text("Giant Octopus")]],[#text("Holder")],),([#text("3")],[#xref("s-069356fc6c56")[#text("Giant Scorpion")]],[#text("Debuffer")],),([#text("3")],[#xref("s-849fbea0354a")[#text("Giant Spider")]],[#text("Controller")],),([#text("3")],[#xref("s-6613badd8151")[#text("Great Cat")]],[#text("Stalker")],),([#text("3")],[#xref("s-b85cea8623d3")[#text("Great Stag")]],[#text("Line breaker")],),([#text("3")],[#xref("s-75a88e5c0ce3")[#text("Marsh Crocodile")]],[#text("Ambusher")],),([#text("3")],[#xref("s-a74ae6c152f1")[#text("Reef Hunter")]],[#text("Aquatic hunter")],),([#text("7")],[#xref("s-2ace0f976d0d")[#text("Ancient Mammoth")]],[#text("Massive guardian")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
-#heading(level: 3)[#text("Spirit")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-124dc0f5fc8d")[#text("Lantern Spirit")]],[#text("Guide")],),([#text("3")],[#xref("s-dfbf0410e730")[#text("Ancestor Guardian")]],[#text("Protector")],),([#text("3")],[#xref("s-93b5e0fa4d66")[#text("Ghost — Sorrow-bound")]],[#text("Haunter")],),([#text("3")],[#xref("s-7ede16d2c4e0")[#text("Poltergeist")]],[#text("Displacer")],),([#text("7")],[#xref("s-99969043061f")[#text("Mourning Bell")]],[#text("Area controller")],),([#text("7")],[#xref("s-d88cb73f605d")[#text("Oath Flame")]],[#text("Sacred champion")],),), pad: 3pt)
+]#block(breakable: false)[#heading(level: 2)[#text("Spirit")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-124dc0f5fc8d")[#text("Lantern Spirit")]],[#text("Guide")],),([#text("3")],[#xref("s-dfbf0410e730")[#text("Ancestor Guardian")]],[#text("Protector")],),([#text("3")],[#xref("s-93b5e0fa4d66")[#text("Ghost — Sorrow-bound")]],[#text("Haunter")],),([#text("3")],[#xref("s-7ede16d2c4e0")[#text("Poltergeist")]],[#text("Displacer")],),([#text("7")],[#xref("s-99969043061f")[#text("Mourning Bell")]],[#text("Area controller")],),([#text("7")],[#xref("s-d88cb73f605d")[#text("Oath Flame")]],[#text("Sacred champion")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
-#heading(level: 3)[#text("Elemental")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-c06fdf532818")[#text("Emberling")]],[#text("Fire skirmisher")],),([#text("1")],[#xref("s-de1694d7cb62")[#text("Rill Sprite")]],[#text("Water helper")],),([#text("1")],[#xref("s-2ca5d81eca19")[#text("Stone Knuckle")]],[#text("Small blocker")],),([#text("3")],[#xref("s-2fbd10a9c26f")[#text("Air Elemental")]],[#text("Displacer")],),([#text("3")],[#xref("s-4f079d49ecee")[#text("Cinder Strider")]],[#text("Burning striker")],),([#text("3")],[#xref("s-21c3dcf73d9f")[#text("Icebound Warden")]],[#text("Cold defender")],),([#text("3")],[#xref("s-47a87fd90c99")[#text("Water Elemental")]],[#text("Position hunter")],),([#text("7")],[#xref("s-09d869a7b547")[#text("Earth Elemental")]],[#text("Displacer")],),([#text("7")],[#xref("s-5964001936f6")[#text("Storm Column")]],[#text("Area displacer")],),), pad: 3pt)
+]], [#block(breakable: false)[#heading(level: 2)[#text("Undead")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-5434da7ba49d")[#text("Grave Wisp")]],[#text("Lurer")],),([#text("1")],[#xref("s-6bc54a890122")[#text("Skeleton Archer")]],[#text("Artillery")],),([#text("1")],[#xref("s-fe760a628c0b")[#text("Skeleton Sentry")]],[#text("Guard")],),([#text("1")],[#xref("s-f5863aeafb13")[#text("Zombie Shambler")]],[#text("Blocker")],),([#text("3")],[#xref("s-1b4339d3c5b4")[#text("Barrow Guard")]],[#text("Defender")],),([#text("3")],[#xref("s-2c257e5f6f66")[#text("Crypt Ghoul")]],[#text("Disabler")],),([#text("3")],[#xref("s-5648c67015ec")[#text("Plague Zombie")]],[#text("Debuffer")],),([#text("3")],[#xref("s-2ce126d0a042")[#text("Shadow")]],[#text("Pursuit controller")],),([#text("3")],[#xref("s-e5be16a417bb")[#text("Skeleton Champion")]],[#text("Attrition striker")],),([#text("3")],[#xref("s-97b1e8b34437")[#text("Skeleton Horse")]],[#text("Displacer")],),([#text("3")],[#xref("s-9d85a823042e")[#text("Zombie Brute")]],[#text("Knockdown fighter")],),([#text("7")],[#xref("s-a855c1b08231")[#text("Ghast")]],[#text("Disabler")],),([#text("7")],[#xref("s-04308fa879c8")[#text("Mummy")]],[#text("Holder")],),([#text("7")],[#xref("s-a7b89d32f088")[#text("Skeleton Colossus")]],[#text("Siege body")],),([#text("7")],[#xref("s-9be2cfada30c")[#text("Skeleton Giant")]],[#text("Displacer")],),([#text("7")],[#xref("s-ab5c33b8d42a")[#text("Wight")]],[#text("Pursuit controller")],),([#text("7")],[#xref("s-3150ba60dd2d")[#text("Wraith")]],[#text("Disabler")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
-#heading(level: 3)[#text("Undead")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-5434da7ba49d")[#text("Grave Wisp")]],[#text("Lurer")],),([#text("1")],[#xref("s-6bc54a890122")[#text("Skeleton Archer")]],[#text("Artillery")],),([#text("1")],[#xref("s-fe760a628c0b")[#text("Skeleton Sentry")]],[#text("Guard")],),([#text("1")],[#xref("s-f5863aeafb13")[#text("Zombie Shambler")]],[#text("Blocker")],),([#text("3")],[#xref("s-1b4339d3c5b4")[#text("Barrow Guard")]],[#text("Defender")],),([#text("3")],[#xref("s-2c257e5f6f66")[#text("Crypt Ghoul")]],[#text("Disabler")],),([#text("3")],[#xref("s-5648c67015ec")[#text("Plague Zombie")]],[#text("Debuffer")],),([#text("3")],[#xref("s-2ce126d0a042")[#text("Shadow")]],[#text("Pursuit controller")],),([#text("3")],[#xref("s-e5be16a417bb")[#text("Skeleton Champion")]],[#text("Attrition striker")],),([#text("3")],[#xref("s-97b1e8b34437")[#text("Skeleton Horse")]],[#text("Displacer")],),([#text("3")],[#xref("s-9d85a823042e")[#text("Zombie Brute")]],[#text("Knockdown fighter")],),([#text("7")],[#xref("s-a855c1b08231")[#text("Ghast")]],[#text("Disabler")],),([#text("7")],[#xref("s-04308fa879c8")[#text("Mummy")]],[#text("Holder")],),([#text("7")],[#xref("s-a7b89d32f088")[#text("Skeleton Colossus")]],[#text("Siege body")],),([#text("7")],[#xref("s-9be2cfada30c")[#text("Skeleton Giant")]],[#text("Displacer")],),([#text("7")],[#xref("s-ab5c33b8d42a")[#text("Wight")]],[#text("Pursuit controller")],),([#text("7")],[#xref("s-3150ba60dd2d")[#text("Wraith")]],[#text("Disabler")],),), pad: 3pt)
+]#block(breakable: false)[#heading(level: 2)[#text("Elemental")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-c06fdf532818")[#text("Emberling")]],[#text("Fire skirmisher")],),([#text("1")],[#xref("s-de1694d7cb62")[#text("Rill Sprite")]],[#text("Water helper")],),([#text("1")],[#xref("s-2ca5d81eca19")[#text("Stone Knuckle")]],[#text("Small blocker")],),([#text("3")],[#xref("s-2fbd10a9c26f")[#text("Air Elemental")]],[#text("Displacer")],),([#text("3")],[#xref("s-4f079d49ecee")[#text("Cinder Strider")]],[#text("Burning striker")],),([#text("3")],[#xref("s-21c3dcf73d9f")[#text("Icebound Warden")]],[#text("Cold defender")],),([#text("3")],[#xref("s-47a87fd90c99")[#text("Water Elemental")]],[#text("Position hunter")],),([#text("7")],[#xref("s-09d869a7b547")[#text("Earth Elemental")]],[#text("Displacer")],),([#text("7")],[#xref("s-5964001936f6")[#text("Storm Column")]],[#text("Area displacer")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
-#heading(level: 3)[#text("Construct")]
-#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-c8e62ad0c568")[#text("Clay Helper")]],[#text("Laborer")],),([#text("1")],[#xref("s-69ca6e083349")[#text("Clockwork Scout")]],[#text("Surveyor")],),([#text("3")],[#xref("s-2a0dc58d4f5a")[#text("Animated Armor")]],[#text("Guard")],),([#text("3")],[#xref("s-ceed6af946d8")[#text("Animated Statue")]],[#text("Displacer")],),([#text("3")],[#xref("s-6a26fcecf81e")[#text("Glass Sentinel")]],[#text("Spell guard")],),([#text("7")],[#xref("s-0d401e9c0ff0")[#text("Clay Golem")]],[#text("Holder")],),([#text("7")],[#xref("s-b650ba5f4076")[#text("Flesh Golem")]],[#text("Disabler")],),([#text("7")],[#xref("s-347a1a70b67b")[#text("Iron Gatekeeper")]],[#text("Heavy guardian")],),([#text("7")],[#xref("s-d788d5167794")[#text("Stone Golem")]],[#text("Displacer")],),([#text("7")],[#xref("s-7a66302192c1")[#text("Walking Furnace")]],[#text("Area artillery")],),), pad: 3pt)
+]], [#block(breakable: false)[#heading(level: 2)[#text("Fey")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-bb6180abd6d4")[#text("Hearth Brownie")]],[#text("Helper")],),([#text("1")],[#xref("s-4d11a7ef7d9b")[#text("Hedge Sprite")]],[#text("Trickster")],),([#text("3")],[#xref("s-fed0430a4d94")[#text("Briar Knight")]],[#text("Defender")],),([#text("3")],[#xref("s-440a3ca0feea")[#text("Dryad")]],[#text("Holder")],),([#text("3")],[#xref("s-01ed68ff1a41")[#text("Harbor Siren")]],[#text("Lurer")],),([#text("3")],[#xref("s-35be93c918d3")[#text("Redcap")]],[#text("Attrition striker")],),([#text("3")],[#xref("s-48b4b313e11c")[#text("Reed Piper")]],[#text("Distractor")],),([#text("3")],[#xref("s-3df5ebb4fa79")[#text("Satyr")]],[#text("Disabler")],),([#text("7")],[#xref("s-2e9a60284c6f")[#text("Moon Hart")]],[#text("Rescuer")],),([#text("7")],[#xref("s-df10b70c7c35")[#text("Unicorn")]],[#text("Displacer")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
-]
-#pagebreak(weak: true)
-#entry("Adder","s-8a9af988caee")
-#emph[#text("A short, thick-bodied snake patterned like leaf litter, with a triangular head and retractable venomous fangs. It prefers warm cover and an escape route to confrontation.")]
+]#block(breakable: false)[#heading(level: 2)[#text("Construct")]
+#rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-c8e62ad0c568")[#text("Clay Helper")]],[#text("Laborer")],),([#text("1")],[#xref("s-69ca6e083349")[#text("Clockwork Scout")]],[#text("Surveyor")],),([#text("3")],[#xref("s-2a0dc58d4f5a")[#text("Animated Armor")]],[#text("Guard")],),([#text("3")],[#xref("s-ceed6af946d8")[#text("Animated Statue")]],[#text("Displacer")],),([#text("3")],[#xref("s-6a26fcecf81e")[#text("Glass Sentinel")]],[#text("Spell guard")],),([#text("7")],[#xref("s-0d401e9c0ff0")[#text("Clay Golem")]],[#text("Holder")],),([#text("7")],[#xref("s-b650ba5f4076")[#text("Flesh Golem")]],[#text("Disabler")],),([#text("7")],[#xref("s-347a1a70b67b")[#text("Iron Gatekeeper")]],[#text("Heavy guardian")],),([#text("7")],[#xref("s-d788d5167794")[#text("Stone Golem")]],[#text("Displacer")],),([#text("7")],[#xref("s-7a66302192c1")[#text("Walking Furnace")]],[#text("Area artillery")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
+
+]])
+#tail-art("summon-great-stag")
+#companion-card("Adder","s-8a9af988caee","summon-adder")[#emph[#text("A short, thick-bodied snake patterned like leaf litter, with a triangular head and retractable venomous fangs. It prefers warm cover and an escape route to confrontation.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +0; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 5 · ")#strong[#text("Speed:")]#text(" Ground 5; swim 4 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13048,17 +11276,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +0; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Needle bite")],[#text("Agility")],[#text("None")],[#text("1 physical damage.")],[#text("1 physical damage. Poisoned 1.")],[#text("2 physical damage. Poisoned 2.")],),))
 
 #text("")#strong[#text("Needle bite:")]#text(" One adjacent creature.")
@@ -13067,10 +11289,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Adder: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Air Elemental","s-2fbd10a9c26f")
-#emph[#text("Dust, leaves and scraps of cloud circle an empty center that turns toward every change in pressure.")]
+]
+#companion-card("Air Elemental","s-2fbd10a9c26f","summon-air-elemental")[#emph[#text("Dust, leaves and scraps of cloud circle an empty center that turns toward every change in pressure.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -13090,11 +11310,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Hammering gust")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Push 1.")],[#text("7 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Hammering gust:")]#text(" One visible creature within 5 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -13106,10 +11326,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Air Elemental: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Ancestor Guardian","s-dfbf0410e730")
-#emph[#text("A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.")]
+]
+#companion-card("Ancestor Guardian","s-dfbf0410e730","summon-ancestor-guardian")[#emph[#text("A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +0; Guile +0; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 20 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13125,19 +11345,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Languages known in life")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +0; Guile +0; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Remembered blade")],[#text("Reason")],[#text("None")],[#text("3 radiant damage.")],[#text("4 radiant damage. Push 1.")],[#text("6 radiant damage. Push 2.")],),))
 
 #text("")#strong[#text("Remembered blade:")]#text(" One adjacent creature.")
@@ -13146,10 +11360,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Ancestor Guardian: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Ancient Mammoth","s-2ace0f976d0d")
-#emph[#text("A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.")]
+]
+#companion-card("Ancient Mammoth","s-2ace0f976d0d","summon-ancient-mammoth")[#emph[#text("A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 34 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 3x3")
 
@@ -13165,17 +11379,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 8 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Tusk sweep")],[#text("Brawn")],[#text("1 Boon")],[#text("4 physical damage.")],[#text("6 physical damage. Push each target 1.")],[#text("8 physical damage. Push each target 2.")],),([#text("Driving tusk")],[#text("Brawn")],[#text("1 Boon")],[#text("4 physical damage; push 1.")],[#text("6 physical damage; push 3.")],[#text("9 physical damage; push 5.")],),))
 
 #text("")#strong[#text("Tusk sweep:")]#text(" Up to two creatures within 2 squares.")
@@ -13186,10 +11394,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Ancient Mammoth: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Animated Armor","s-2a0dc58d4f5a")
-#emph[#text("An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.")]
+]
+#companion-card("Animated Armor","s-2a0dc58d4f5a","summon-animated-armor")[#emph[#text("An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile -2; Knowledge -1; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 20 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13205,19 +11413,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Understands the maker’s language")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile -2; Knowledge -1; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Steel gauntlet")],[#text("Brawn")],[#text("None")],[#text("3 physical damage.")],[#text("4 physical damage.")],[#text("6 physical damage.")],),))
 
 #text("")#strong[#text("Steel gauntlet:")]#text(" One adjacent creature.")
@@ -13226,10 +11428,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Animated Armor: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Animated Statue","s-ceed6af946d8")
-#emph[#text("A civic statue has climbed down from its pedestal, leaving a clean pair of footprints in old soot.")]
+]
+#companion-card("Animated Statue","s-ceed6af946d8","summon-animated-statue")[#emph[#text("A civic statue has climbed down from its pedestal, leaving a clean pair of footprints in old soot.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
 
@@ -13249,7 +11449,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Construct 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -13257,7 +11457,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Ceremonial spear")],[#text("Brawn")],[#text("None")],[#text("3 physical damage.")],[#text("5 physical damage. Push 1.")],[#text("7 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Ceremonial spear:")]#text(" One visible creature within 2 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -13269,10 +11469,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Animated Statue: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Barrow Guard","s-1b4339d3c5b4")
-#emph[#text("An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.")]
+]
+#companion-card("Barrow Guard","s-1b4339d3c5b4","summon-barrow-guard")[#emph[#text("An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile +0; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 23 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13290,19 +11490,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile +0; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Oath blade")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Push 1.")],[#text("7 physical damage. Push 2.")],),))
 
 #text("")#strong[#text("Oath blade:")]#text(" One adjacent creature.")
@@ -13314,10 +11508,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Barrow Guard: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Briar Knight","s-fed0430a4d94")
-#emph[#text("A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.")]
+]
+#companion-card("Briar Knight","s-fed0430a4d94","summon-briar-knight")[#emph[#text("A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +1; Guile +1; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 22 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13333,17 +11527,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and Fey")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +1; Guile +1; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Briar spear")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 2.")],),))
 
 #text("")#strong[#text("Briar spear:")]#text(" One creature within 2 squares.")
@@ -13355,10 +11543,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Briar Knight: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Brown Bear","s-aeadd506a41d")
-#emph[#text("A broad-shouldered forest bear with shaggy brown fur, curved claws and a powerful muzzle. Its bulk conceals surprising speed; food, cubs and personal space matter far more than territory on a map.")]
+]
+#companion-card("Brown Bear","s-aeadd506a41d","summon-brown-bear")[#emph[#text("A broad-shouldered forest bear with shaggy brown fur, curved claws and a powerful muzzle. Its bulk conceals surprising speed; food, cubs and personal space matter far more than territory on a map.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 22 · ")#strong[#text("Speed:")]#text(" Ground 6; climb 4 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -13374,17 +11562,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Forepaw slam")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. After an approach of 2 squares, target is Prone.")],[#text("7 physical damage. After an approach of 2 squares, target is Prone.")],),([#text("Crushing bite")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage.")],[#text("8 physical damage; Bleeding 1.")],),))
 
 #text("")#strong[#text("Forepaw slam:")]#text(" One adjacent creature.")
@@ -13398,10 +11580,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Brown Bear: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Cave Bat","s-e2ceefc7ef5c")
-#emph[#text("A small cave-dwelling bat with oversized ears, thin dark wings and tiny hooked feet. Sound guides it through darkness, while bright light and loud disturbances unsettle its roost.")]
+]
+#companion-card("Cave Bat","s-e2ceefc7ef5c","summon-cave-bat")[#emph[#text("A small cave-dwelling bat with oversized ears, thin dark wings and tiny hooked feet. Sound guides it through darkness, while bright light and loud disturbances unsettle its roost.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude -1; Agility +2; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 4 · ")#strong[#text("Speed:")]#text(" Ground 1; fly 8 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13417,17 +11599,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude -1; Agility +2; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Small bite")],[#text("Agility")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("1 physical damage.")],[#text("2 physical damage.")],),))
 
 #text("")#strong[#text("Small bite:")]#text(" One adjacent creature.")
@@ -13436,10 +11612,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 1, Strong 2 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Cave Bat: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Cinder Strider","s-4f079d49ecee")
-#emph[#text("A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous.")]
+]
+#companion-card("Cinder Strider","s-4f079d49ecee","summon-cinder-strider")[#emph[#text("A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge +0; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 18 · ")#strong[#text("Speed:")]#text(" Ground 7 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13455,17 +11631,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge +0; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Cinder lash")],[#text("Agility")],[#text("1 Boon")],[#text("3 fire damage.")],[#text("4 fire damage. Burning 1.")],[#text("6 fire damage. Burning 2.")],),))
 
 #text("")#strong[#text("Cinder lash:")]#text(" One creature within 2 squares.")
@@ -13474,10 +11644,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Cinder Strider: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Clay Golem","s-0d401e9c0ff0")
-#emph[#text("A hulking figure of fired earth bears thumbprints the size of bowls and writing pressed into its chest before baking.")]
+]
+#companion-card("Clay Golem","s-0d401e9c0ff0","summon-clay-golem")[#emph[#text("A hulking figure of fired earth bears thumbprints the size of bowls and writing pressed into its chest before baking.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
 
@@ -13497,7 +11665,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Construct 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -13505,7 +11673,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 2; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Potter's grip")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("6 physical damage. Grappled 1.")],[#text("9 physical damage. Grappled 2.")],),))
 
 #text("")#strong[#text("Potter's grip:")]#text(" One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -13517,10 +11685,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Clay Golem: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Clay Helper","s-c8e62ad0c568")
-#emph[#text("A rough humanoid of fired and unfired clay, with broad hands and the maker’s thumbprints still visible. It understands simple work instructions but has no independent craft training.")]
+]
+#companion-card("Clay Helper","s-c8e62ad0c568","summon-clay-helper")[#emph[#text("A rough humanoid of fired and unfired clay, with broad hands and the maker’s thumbprints still visible. It understands simple work instructions but has no independent craft training.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility -1; Guile -2; Knowledge -1; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 10 · ")#strong[#text("Speed:")]#text(" Ground 4 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13536,19 +11704,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Understands Common instructions; cannot speak")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility -1; Guile -2; Knowledge -1; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 4 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Clay palm")],[#text("Brawn")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("2 physical damage.")],[#text("3 physical damage.")],),))
 
 #text("")#strong[#text("Clay palm:")]#text(" One adjacent creature.")
@@ -13557,10 +11719,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Clay Helper: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Clockwork Scout","s-69ca6e083349")
-#emph[#text("A small brass surveying machine with jointed feet, a glass lens and a speaking grille. Its precise movements serve observation and reporting rather than a sustained fight.")]
+]
+#companion-card("Clockwork Scout","s-69ca6e083349","summon-clockwork-scout")[#emph[#text("A small brass surveying machine with jointed feet, a glass lens and a speaking grille. Its precise movements serve observation and reporting rather than a sustained fight.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +0; Agility +2; Guile -1; Knowledge +1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 6 · ")#strong[#text("Speed:")]#text(" Ground 6; climb 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13576,19 +11738,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Reports simple spoken directions while active")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +0; Agility +2; Guile -1; Knowledge +1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Needle")],[#text("Agility")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("2 physical damage.")],[#text("3 physical damage.")],),))
 
 #text("")#strong[#text("Needle:")]#text(" One adjacent creature.")
@@ -13597,10 +11753,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Clockwork Scout: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Crypt Ghoul","s-2c257e5f6f66")
-#emph[#text("A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.")]
+]
+#companion-card("Crypt Ghoul","s-2c257e5f6f66","summon-crypt-ghoul")[#emph[#text("A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 18 · ")#strong[#text("Speed:")]#text(" Ground 7 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13618,19 +11774,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Raking claws")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("4 physical damage. Bleeding 1.")],[#text("6 physical damage. Bleeding 2.")],),([#text("Grave touch")],[#text("Brawn")],[#text("1 Boon")],[#text("2 cold damage.")],[#text("3 cold damage.")],[#text("4 cold damage. Paralyzed 1; cannot use this attack next turn.")],),))
 
 #text("")#strong[#text("Raking claws:")]#text(" One adjacent creature.")
@@ -13641,10 +11791,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Crypt Ghoul: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Dire Wolf","s-91ea9fbaf4a2")
-#emph[#text("A heavy winter wolf has a broad muzzle, a pale ruff and the confidence of a hunter accustomed to bringing down elk.")]
+]
+#companion-card("Dire Wolf","s-91ea9fbaf4a2","summon-dire-wolf")[#emph[#text("A heavy winter wolf has a broad muzzle, a pale ruff and the confidence of a hunter accustomed to bringing down elk.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -13664,11 +11812,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Hamstring bite")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage.")],[#text("7 physical damage. Prone.")],),))
 
 #text("")#strong[#text("Hamstring bite:")]#text(" One adjacent creature.")
@@ -13680,10 +11828,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Dire Wolf: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Dryad","s-440a3ca0feea")
-#emph[#text("A woodland spirit carries the grain and scent of a particular tree in living skin and hair.")]
+]
+#companion-card("Dryad","s-440a3ca0feea","summon-dryad")[#emph[#text("A woodland spirit carries the grain and scent of a particular tree in living skin and hair.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -13703,11 +11849,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Thorn-wrapped staff")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Grappled 1.")],[#text("6 physical damage. Grappled 2.")],),))
 
 #text("")#strong[#text("Thorn-wrapped staff:")]#text(" One visible creature within 2 squares. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -13719,10 +11865,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Dryad: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Earth Elemental","s-09d869a7b547")
-#emph[#text("A walking knot of stone carries veins of bright mineral through a body that sheds gravel with every step.")]
+]
+#companion-card("Earth Elemental","s-09d869a7b547","summon-earth-elemental")[#emph[#text("A walking knot of stone carries veins of bright mineral through a body that sheds gravel with every step.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -13742,13 +11886,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 2; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Bedrock fist")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("6 physical damage. Push 1.")],[#text("9 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Bedrock fist:")]#text(" One visible creature within 2 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -13760,10 +11904,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Earth Elemental: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Emberling","s-c06fdf532818")
-#emph[#text("A small elemental made of glowing coals and flickering flame, with bright cracks for eyes. Warmth draws it; uncontrolled curiosity makes it dangerous around dry fuel.")]
+]
+#companion-card("Emberling","s-c06fdf532818","summon-emberling")[#emph[#text("A small elemental made of glowing coals and flickering flame, with bright cracks for eyes. Warmth draws it; uncontrolled curiosity makes it dangerous around dry fuel.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +0; Knowledge -1; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 8 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13779,17 +11923,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +0; Knowledge -1; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Coal touch")],[#text("Agility")],[#text("None")],[#text("1 fire damage.")],[#text("2 fire damage. Burning 1.")],[#text("3 fire damage. Burning 2.")],),))
 
 #text("")#strong[#text("Coal touch:")]#text(" One adjacent creature.")
@@ -13798,10 +11936,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Emberling: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Flesh Golem","s-b650ba5f4076")
-#emph[#text("A body assembled from mismatched remains moves with the caution of someone learning where its hands end.")]
+]
+#companion-card("Flesh Golem","s-b650ba5f4076","summon-flesh-golem")[#emph[#text("A body assembled from mismatched remains moves with the caution of someone learning where its hands end.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
 
@@ -13821,7 +11957,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Construct 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -13829,7 +11965,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Stitched fist")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("6 physical damage. Dazed 1.")],[#text("9 physical damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Stitched fist:")]#text(" One adjacent creature.")
@@ -13841,10 +11977,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Flesh Golem: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Ghast","s-a855c1b08231")
-#emph[#text("A ghast wears stolen finery over a taut, hungry body. Its breath announces it before its careful footsteps do.")]
+]
+#companion-card("Ghast","s-a855c1b08231","summon-ghast")[#emph[#text("A ghast wears stolen finery over a taut, hungry body. Its breath announces it before its careful footsteps do.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -13864,7 +11998,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -13872,7 +12006,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Graveyard claws")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage.")],[#text("7 physical damage. Paralyzed 1.")],),))
 
 #text("")#strong[#text("Graveyard claws:")]#text(" One adjacent creature. Cannot use this attack on consecutive turns, regardless of result.")
@@ -13884,10 +12018,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Ghast: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Ghost — Sorrow-bound","s-93b5e0fa4d66")
-#emph[#text("A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.")]
+]
+#companion-card("Ghost — Sorrow-bound","s-93b5e0fa4d66","summon-sorrow-ghost")[#emph[#text("A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +0; Agility +1; Guile +1; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 16 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -13903,21 +12037,15 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Languages known in life")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +0; Agility +1; Guile +1; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
 #text("Summoned form has no letter anchor or Anchor Bound.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Accusation")],[#text("Reason")],[#text("1 Boon")],[#text("2 mental damage.")],[#text("3 mental damage. Dazed 1.")],[#text("5 mental damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Accusation:")]#text(" One visible creature within 5 squares. Spell; provokes beside an enemy.")
@@ -13930,10 +12058,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Ghost — Sorrow-bound: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Boar","s-69505d26ba69")
-#emph[#text("A boar with a ridge of iron-gray bristles has tusks polished by years of uprooting saplings and turning stones.")]
+]
+#companion-card("Giant Boar","s-69505d26ba69","summon-giant-boar")[#emph[#text("A boar with a ridge of iron-gray bristles has tusks polished by years of uprooting saplings and turning stones.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -13953,13 +12079,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Ploughing tusks")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Push 1.")],[#text("8 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Ploughing tusks:")]#text(" One adjacent creature. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -13971,10 +12097,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Boar: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Constrictor","s-7a560a09fb85")
-#emph[#text("A thick-bodied serpent carries green water between its overlapping scales, its weight bending young trees as it passes.")]
+]
+#companion-card("Giant Constrictor","s-7a560a09fb85","summon-giant-constrictor")[#emph[#text("A thick-bodied serpent carries green water between its overlapping scales, its weight bending young trees as it passes.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -13994,13 +12118,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Crushing coil")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Grappled 1.")],[#text("7 physical damage. Grappled 2.")],),))
 
 #text("")#strong[#text("Crushing coil:")]#text(" One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -14012,10 +12136,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Constrictor: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Eagle","s-014315b5e8bb")
-#emph[#text("An eagle large enough to shadow a cart watches the valley with amber eyes and a ragged crest of wind-bent feathers.")]
+]
+#companion-card("Giant Eagle","s-014315b5e8bb","summon-giant-eagle")[#emph[#text("An eagle large enough to shadow a cart watches the valley with amber eyes and a ragged crest of wind-bent feathers.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -14035,11 +12157,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Hooking talons")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Pull 1.")],[#text("7 physical damage. Pull 3.")],),))
 
 #text("")#strong[#text("Hooking talons:")]#text(" One adjacent creature. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -14051,10 +12173,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Eagle: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Octopus","s-98e425c4177b")
-#emph[#text("A shifting pattern of copper and cream runs across eight thick arms, each exploring the water independently.")]
+]
+#companion-card("Giant Octopus","s-98e425c4177b","summon-giant-octopus")[#emph[#text("A shifting pattern of copper and cream runs across eight thick arms, each exploring the water independently.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -14074,13 +12194,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Binding arms")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Grappled 1.")],[#text("7 physical damage. Grappled 2.")],),))
 
 #text("")#strong[#text("Binding arms:")]#text(" One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -14092,10 +12212,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Octopus: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Rat","s-2a5ddc4df58e")
-#emph[#text("A dog-sized rat has a blunt scarred muzzle, bright eyes and a tail thick enough to sweep loose gravel.")]
+]
+#companion-card("Giant Rat","s-2a5ddc4df58e","summon-giant-rat")[#emph[#text("A dog-sized rat has a blunt scarred muzzle, bright eyes and a tail thick enough to sweep loose gravel.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -14115,11 +12233,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Sewer bite")],[#text("Agility")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("2 physical damage. Bleeding 1.")],[#text("4 physical damage. Bleeding 2.")],),))
 
 #text("")#strong[#text("Sewer bite:")]#text(" One adjacent creature.")
@@ -14131,10 +12249,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Bane; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Rat: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Scorpion","s-069356fc6c56")
-#emph[#text("Black plates cover a scorpion whose claws can close around a wagon wheel. Its tail moves with unsettling patience.")]
+]
+#companion-card("Giant Scorpion","s-069356fc6c56","summon-giant-scorpion")[#emph[#text("Black plates cover a scorpion whose claws can close around a wagon wheel. Its tail moves with unsettling patience.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -14154,13 +12270,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Arched sting")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Poisoned 1.")],[#text("7 physical damage. Poisoned 2.")],),([#text("Driving strike")],[#text("Brawn")],[#text("1 Boon")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Arched sting:")]#text(" One adjacent creature.")
@@ -14174,10 +12290,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Scorpion: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Giant Spider","s-849fbea0354a")
-#emph[#text("A dog-sized hunting spider with a swollen abdomen, hooked feet and pale silk glands beneath its jaws. Its web is both a trap and an extension of its senses.")]
+]
+#companion-card("Giant Spider","s-849fbea0354a","summon-giant-spider")[#emph[#text("A dog-sized hunting spider with a swollen abdomen, hooked feet and pale silk glands beneath its jaws. Its web is both a trap and an extension of its senses.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 16 · ")#strong[#text("Speed:")]#text(" Ground 6; climb 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14193,17 +12309,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Venomous fangs")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Poisoned 1.")],[#text("6 physical damage. Poisoned 2.")],),([#text("Web cast")],[#text("Agility")],[#text("None")],[#text("No damage. Slowed 1.")],[#text("No damage. Slowed 2.")],[#text("No damage. Slowed 3.")],),))
 
 #text("")#strong[#text("Venomous fangs:")]#text(" One adjacent creature.")
@@ -14214,10 +12324,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Giant Spider: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Glass Sentinel","s-6a26fcecf81e")
-#emph[#text("A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object.")]
+]
+#companion-card("Glass Sentinel","s-6a26fcecf81e","summon-glass-sentinel")[#emph[#text("A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +2; Guile -1; Knowledge +1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 16 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14233,19 +12343,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Repeats its command in the maker’s language")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +2; Guile -1; Knowledge +1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Cutting reflection")],[#text("Knowledge")],[#text("None")],[#text("3 radiant damage.")],[#text("4 radiant damage.")],[#text("6 radiant damage.")],),))
 
 #text("")#strong[#text("Cutting reflection:")]#text(" One visible creature within 5 squares.")
@@ -14254,10 +12358,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Glass Sentinel: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Grave Wisp","s-5434da7ba49d")
-#emph[#text("A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame.")]
+]
+#companion-card("Grave Wisp","s-5434da7ba49d","summon-grave-wisp")[#emph[#text("A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 6 · ")#strong[#text("Speed:")]#text(" Ground 0; fly 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14275,19 +12379,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Cold spark")],[#text("Reason")],[#text("None")],[#text("1 cold damage.")],[#text("2 cold damage.")],[#text("3 cold damage.")],),))
 
 #text("")#strong[#text("Cold spark:")]#text(" One visible creature within 3 squares.")
@@ -14296,10 +12394,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Grave Wisp: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Great Cat","s-6613badd8151")
-#emph[#text("A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle.")]
+]
+#companion-card("Great Cat","s-6613badd8151","summon-great-cat")[#emph[#text("A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +1; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 16 · ")#strong[#text("Speed:")]#text(" Ground 8; climb 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14315,17 +12413,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +1; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Pouncing claws")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("4 physical damage. After an approach of 2 squares, Prone.")],[#text("6 physical damage. After an approach of 2 squares, Prone.")],),([#text("Raking bite")],[#text("Agility")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("4 physical damage; Bleeding 1.")],[#text("6 physical damage; Bleeding 2.")],),))
 
 #text("")#strong[#text("Pouncing claws:")]#text(" One adjacent creature.")
@@ -14342,10 +12434,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Great Cat: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Great Stag","s-b85cea8623d3")
-#emph[#text("A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge.")]
+]
+#companion-card("Great Stag","s-b85cea8623d3","summon-great-stag")[#emph[#text("A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 18 · ")#strong[#text("Speed:")]#text(" Ground 9 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -14361,17 +12453,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Antler sweep")],[#text("Brawn")],[#text("None")],[#text("3 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 2.")],),))
 
 #text("")#strong[#text("Antler sweep:")]#text(" One adjacent creature.")
@@ -14383,10 +12469,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Great Stag: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Harbor Siren","s-01ed68ff1a41")
-#emph[#text("An aquatic fey with a humanlike face, webbed hands and a voice that carries clearly over water. Its relationship with a harbor may be older than the people now living there.")]
+]
+#companion-card("Harbor Siren","s-01ed68ff1a41","summon-harbor-siren")[#emph[#text("An aquatic fey with a humanlike face, webbed hands and a voice that carries clearly over water. Its relationship with a harbor may be older than the people now living there.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +2; Knowledge +1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 17 · ")#strong[#text("Speed:")]#text(" Ground 5; swim 8 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14402,17 +12488,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and Fey")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +2; Knowledge +1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Undertow song")],[#text("Guile")],[#text("1 Boon")],[#text("2 mental damage.")],[#text("3 mental damage. Dazed 1.")],[#text("5 mental damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Undertow song:")]#text(" One hearing creature within 5 squares. Spell; provokes beside an enemy.")
@@ -14421,10 +12501,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Harbor Siren: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Hearth Brownie","s-bb6180abd6d4")
-#emph[#text("A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home.")]
+]
+#companion-card("Hearth Brownie","s-bb6180abd6d4","summon-hearth-brownie")[#emph[#text("A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 8 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14440,17 +12520,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and Fey")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -1; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 2 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Wooden spoon")],[#text("Brawn")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("2 physical damage.")],[#text("3 physical damage.")],),))
 
 #text("")#strong[#text("Wooden spoon:")]#text(" One adjacent creature.")
@@ -14462,10 +12536,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Hearth Brownie: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Hedge Sprite","s-4d11a7ef7d9b")
-#emph[#text("A tiny winged fey with thornlike features, leaf-colored clothes and a fierce sense of local etiquette. Its home may be no larger than a hedge, but its claim to it is absolute.")]
+]
+#companion-card("Hedge Sprite","s-4d11a7ef7d9b","summon-hedge-sprite")[#emph[#text("A tiny winged fey with thornlike features, leaf-colored clothes and a fierce sense of local etiquette. Its home may be no larger than a hedge, but its claim to it is absolute.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +2; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 6 · ")#strong[#text("Speed:")]#text(" Ground 4; fly 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14481,17 +12555,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and Fey")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +2; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Thorn dart")],[#text("Guile")],[#text("None")],[#text("1 physical damage.")],[#text("2 physical damage.")],[#text("3 physical damage.")],),))
 
 #text("")#strong[#text("Thorn dart:")]#text(" One visible creature within 4 squares.")
@@ -14500,10 +12568,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Hedge Sprite: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Icebound Warden","s-21c3dcf73d9f")
-#emph[#text("A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.")]
+]
+#companion-card("Icebound Warden","s-21c3dcf73d9f","summon-icebound-warden")[#emph[#text("A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 22 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14519,17 +12587,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Rime fist")],[#text("Brawn")],[#text("1 Boon")],[#text("3 cold damage.")],[#text("4 cold damage. Freezing 1.")],[#text("6 cold damage. Freezing 2.")],),))
 
 #text("")#strong[#text("Rime fist:")]#text(" One adjacent creature.")
@@ -14538,10 +12600,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Icebound Warden: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Iron Gatekeeper","s-347a1a70b67b")
-#emph[#text("A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect.")]
+]
+#companion-card("Iron Gatekeeper","s-347a1a70b67b","summon-iron-gatekeeper")[#emph[#text("A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 34 · ")#strong[#text("Speed:")]#text(" Ground 4 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -14557,19 +12619,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Gate bar")],[#text("Brawn")],[#text("1 Boon")],[#text("4 physical damage.")],[#text("6 physical damage. Push each 1.")],[#text("8 physical damage. Push each 2.")],),))
 
 #text("")#strong[#text("Gate bar:")]#text(" Up to two creatures within 2 squares.")
@@ -14581,10 +12637,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Iron Gatekeeper: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Lantern Spirit","s-124dc0f5fc8d")
-#emph[#text("A small lantern-shaped spirit with legs of light and a steady, smokeless glow. It remembers a particular route with great fidelity, but knows little beyond it.")]
+]
+#companion-card("Lantern Spirit","s-124dc0f5fc8d","summon-lantern-spirit")[#emph[#text("A small lantern-shaped spirit with legs of light and a steady, smokeless glow. It remembers a particular route with great fidelity, but knows little beyond it.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +1; Guile +0; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 6 · ")#strong[#text("Speed:")]#text(" Ground 0; fly 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14600,19 +12656,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Understands Common; answers by pointing light while active")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +1; Guile +0; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Warning flash")],[#text("Reason")],[#text("1 Bane")],[#text("1 radiant damage.")],[#text("2 radiant damage.")],[#text("3 radiant damage.")],),))
 
 #text("")#strong[#text("Warning flash:")]#text(" One visible creature within 3 squares.")
@@ -14621,10 +12671,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Lantern Spirit: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Marsh Crocodile","s-75a88e5c0ce3")
-#emph[#text("An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.")]
+]
+#companion-card("Marsh Crocodile","s-75a88e5c0ce3","summon-marsh-crocodile")[#emph[#text("An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile +0; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 20 · ")#strong[#text("Speed:")]#text(" Ground 4; swim 7 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -14640,17 +12690,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile +0; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Bank drag")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("4 physical damage. Pull 1.")],[#text("6 physical damage. Pull 2.")],),([#text("Locking jaws")],[#text("Brawn")],[#text("1 Boon")],[#text("2 physical damage.")],[#text("3 physical damage; Grappled 1.")],[#text("5 physical damage; Grappled 2.")],),))
 
 #text("")#strong[#text("Bank drag:")]#text(" One adjacent creature.")
@@ -14664,10 +12708,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Marsh Crocodile: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Moon Hart","s-2e9a60284c6f")
-#emph[#text("A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.")]
+]
+#companion-card("Moon Hart","s-2e9a60284c6f","summon-moon-hart")[#emph[#text("A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +2; Guile +1; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 26 · ")#strong[#text("Speed:")]#text(" Ground 9 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -14683,17 +12727,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Understands Common and Fey; communicates through simple images")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +2; Guile +1; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Moonlit antlers")],[#text("Brawn")],[#text("None")],[#text("4 radiant damage.")],[#text("5 radiant damage. Push 1.")],[#text("7 radiant damage. Push 2.")],),))
 
 #text("")#strong[#text("Moonlit antlers:")]#text(" One adjacent creature.")
@@ -14705,10 +12743,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Moon Hart: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Mourning Bell","s-99969043061f")
-#emph[#text("A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.")]
+]
+#companion-card("Mourning Bell","s-99969043061f","summon-mourning-bell")[#emph[#text("A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 26 · ")#strong[#text("Speed:")]#text(" Ground 0; fly 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14724,19 +12762,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Funeral toll")],[#text("Reason")],[#text("1 Boon")],[#text("3 mental damage.")],[#text("4 mental damage. Dazed 1.")],[#text("6 mental damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Funeral toll:")]#text(" All other creatures in a 3x3-square area centered on a visible square within 5. Spell; provokes beside an enemy.")
@@ -14745,10 +12777,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Mourning Bell: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Mummy","s-04308fa879c8")
-#emph[#text("Layers of painted linen preserve a body that moves with ceremonial precision. Dry resin cracks at every joint.")]
+]
+#companion-card("Mummy","s-04308fa879c8","summon-mummy")[#emph[#text("Layers of painted linen preserve a body that moves with ceremonial precision. Dry resin cracks at every joint.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -14768,7 +12798,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -14778,7 +12808,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Resin-bound grasp")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Grappled 1.")],[#text("8 physical damage. Grappled 2.")],),([#text("Driving strike")],[#text("Brawn")],[#text("1 Boon")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Resin-bound grasp:")]#text(" One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -14792,10 +12822,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Mummy: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Oath Flame","s-d88cb73f605d")
-#emph[#text("A humanlike figure of shrine fire and bright ash, carrying a blade shaped by the oath it embodies. It has judgment within that promise, not limitless divine authority.")]
+]
+#companion-card("Oath Flame","s-d88cb73f605d","summon-oath-flame")[#emph[#text("A humanlike figure of shrine fire and bright ash, carrying a blade shaped by the oath it embodies. It has judgment within that promise, not limitless divine authority.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +2")
 
 #text("")#strong[#text("HP:")]#text(" 28 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14811,19 +12841,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and the language of its oath")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +2")
-
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Promise made fire")],[#text("Reason")],[#text("1 Boon")],[#text("4 radiant damage.")],[#text("6 radiant damage. Push 1.")],[#text("9 radiant damage. Push 2.")],),))
 
 #text("")#strong[#text("Promise made fire:")]#text(" One adjacent creature.")
@@ -14832,10 +12856,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Oath Flame: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Plague Zombie","s-5648c67015ec")
-#emph[#text("Wet burial cloth clings to a swollen corpse, and clouds of grave flies escape whenever its jaw falls open.")]
+]
+#companion-card("Plague Zombie","s-5648c67015ec","summon-plague-zombie")[#emph[#text("Wet burial cloth clings to a swollen corpse, and clouds of grave flies escape whenever its jaw falls open.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -14855,7 +12877,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -14863,7 +12885,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Grave-soaked hands")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage. Poisoned 1.")],[#text("5 physical damage. Poisoned 2.")],),))
 
 #text("")#strong[#text("Grave-soaked hands:")]#text(" One adjacent creature.")
@@ -14875,10 +12897,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Plague Zombie: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Poltergeist","s-7ede16d2c4e0")
-#emph[#text("Chairs scrape and small objects tremble around a wavering figure, while dust outlines spectral hands that cannot hold still.")]
+]
+#companion-card("Poltergeist","s-7ede16d2c4e0","summon-poltergeist")[#emph[#text("Chairs scrape and small objects tremble around a wavering figure, while dust outlines spectral hands that cannot hold still.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -14898,7 +12918,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Spirit 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -14906,7 +12926,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Hurled keepsake")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Hurled keepsake:")]#text(" Requires an unattended object of at most 1 Bulk within 3 squares of the poltergeist. The attack moves that object; it cannot take a held item. One visible creature within 6 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -14918,10 +12938,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Poltergeist: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Raven","s-60db1c505d34")
-#emph[#text("A large black corvid with an iridescent throat, wedge-shaped tail and keen, curious eyes. It remembers faces and treats unattended food and interesting objects as opportunities.")]
+]
+#companion-card("Raven","s-60db1c505d34","summon-raven")[#emph[#text("A large black corvid with an iridescent throat, wedge-shaped tail and keen, curious eyes. It remembers faces and treats unattended food and interesting objects as opportunities.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude -1; Agility +2; Guile +1; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 4 · ")#strong[#text("Speed:")]#text(" Ground 2; fly 9 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -14937,17 +12957,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Calls; cannot report human speech verbatim")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude -1; Agility +2; Guile +1; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Peck")],[#text("Agility")],[#text("1 Bane")],[#text("1 physical damage.")],[#text("1 physical damage.")],[#text("2 physical damage.")],),))
 
 #text("")#strong[#text("Peck:")]#text(" One adjacent creature.")
@@ -14956,10 +12970,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 1, Strong 2 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Raven: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Redcap","s-35be93c918d3")
-#emph[#text("A small hard-eyed fey wears heavy iron boots and a dark cap that never quite dries.")]
+]
+#companion-card("Redcap","s-35be93c918d3","summon-redcap")[#emph[#text("A small hard-eyed fey wears heavy iron boots and a dark cap that never quite dries.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -14979,11 +12991,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Iron-heeled kick")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Bleeding 1.")],[#text("7 physical damage. Bleeding 2.")],),))
 
 #text("")#strong[#text("Iron-heeled kick:")]#text(" One adjacent creature.")
@@ -14995,10 +13007,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Redcap: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Reed Piper","s-48b4b313e11c")
-#emph[#text("A slender waterside fey with reed-colored hair, long fingers and a pipe cut from its home marsh. Music is both its craft and its means of keeping an audience close.")]
+]
+#companion-card("Reed Piper","s-48b4b313e11c","summon-reed-piper")[#emph[#text("A slender waterside fey with reed-colored hair, long fingers and a pipe cut from its home marsh. Music is both its craft and its means of keeping an audience close.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +2; Knowledge +1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 15 · ")#strong[#text("Speed:")]#text(" Ground 7; swim 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15014,17 +13026,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" Common and Fey")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +2; Knowledge +1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Bewildering note")],[#text("Guile")],[#text("1 Boon")],[#text("2 mental damage.")],[#text("3 mental damage. Dazed 1.")],[#text("4 mental damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Bewildering note:")]#text(" One creature within 5 squares that can hear it. Spell; provokes beside an enemy.")
@@ -15033,10 +13039,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Reed Piper: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Reef Hunter","s-a74ae6c152f1")
-#emph[#text("A large reef shark with a pale belly, dark back and rows of serrated teeth. It is built for swift turns in open water and cannot pursue prey onto land.")]
+]
+#companion-card("Reef Hunter","s-a74ae6c152f1","summon-reef-hunter")[#emph[#text("A large reef shark with a pale belly, dark back and rows of serrated teeth. It is built for swift turns in open water and cannot pursue prey onto land.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 22 · ")#strong[#text("Speed:")]#text(" Ground 0; swim 9 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -15052,17 +13058,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 3")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Serrated bite")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Bleeding 1.")],[#text("7 physical damage. Bleeding 2.")],),))
 
 #text("")#strong[#text("Serrated bite:")]#text(" One adjacent creature.")
@@ -15071,10 +13071,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Reef Hunter: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Rill Sprite","s-de1694d7cb62")
-#emph[#text("A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination.")]
+]
+#companion-card("Rill Sprite","s-de1694d7cb62","summon-rill-sprite")[#emph[#text("A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -1; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 8 · ")#strong[#text("Speed:")]#text(" Ground 4; swim 8 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15090,17 +13090,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -1; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Water tug")],[#text("Reason")],[#text("None")],[#text("1 physical damage.")],[#text("2 physical damage. Pull 1.")],[#text("3 physical damage. Pull 2.")],),))
 
 #text("")#strong[#text("Water tug:")]#text(" One visible creature within 3 squares.")
@@ -15109,10 +13103,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Rill Sprite: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Satyr","s-3df5ebb4fa79")
-#emph[#text("A goat-legged musician wears a travelling coat full of reeds, ribbons and invitations to celebrations long past.")]
+]
+#companion-card("Satyr","s-3df5ebb4fa79","summon-satyr")[#emph[#text("A goat-legged musician wears a travelling coat full of reeds, ribbons and invitations to celebrations long past.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2")
 
@@ -15132,11 +13124,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Fey 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Bewildering reed")],[#text("Reason")],[#text("None")],[#text("2 mental damage.")],[#text("3 mental damage. Dazed 1.")],[#text("5 mental damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Bewildering reed:")]#text(" One visible creature within 5 squares.")
@@ -15148,10 +13140,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Satyr: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Shadow","s-2ce126d0a042")
-#emph[#text("A person's shadow moves without a person, lengthening toward warm hands and uncovered lanterns.")]
+]
+#companion-card("Shadow","s-2ce126d0a042","summon-shadow")[#emph[#text("A person's shadow moves without a person, lengthening toward warm hands and uncovered lanterns.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -15171,7 +13161,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15179,7 +13169,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Clinging darkness")],[#text("Brawn")],[#text("None")],[#text("2 Life damage.")],[#text("3 Life damage. Slowed 1.")],[#text("5 Life damage. Slowed 2.")],),))
 
 #text("")#strong[#text("Clinging darkness:")]#text(" One adjacent creature.")
@@ -15191,10 +13181,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Shadow: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Archer","s-6bc54a890122")
-#emph[#text("A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch.")]
+]
+#companion-card("Skeleton Archer","s-6bc54a890122","summon-bone-archer")[#emph[#text("A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +1; Guile -2; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 8 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15212,19 +13202,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +1; Guile -2; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Dusty arrow")],[#text("Agility")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage.")],[#text("5 physical damage.")],),))
 
 #text("")#strong[#text("Dusty arrow:")]#text(" One visible creature within 8 squares. Ammunition inventory d6; after each use, roll it. On 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty. Summoned ammunition disappears with the summon.")
@@ -15233,10 +13217,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Archer: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Champion","s-e5be16a417bb")
-#emph[#text("A crowned helm sits crookedly on this skeleton, but its sword follows the patient lines of a practiced duelist.")]
+]
+#companion-card("Skeleton Champion","s-e5be16a417bb","summon-skeleton-champion")[#emph[#text("A crowned helm sits crookedly on this skeleton, but its sword follows the patient lines of a practiced duelist.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +1; Guile +0; Knowledge +0; Reason +1")
 
@@ -15256,7 +13238,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15264,7 +13246,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Notched sword")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Bleeding 1.")],[#text("7 physical damage. Bleeding 2.")],),([#text("Driving strike")],[#text("Brawn")],[#text("1 Boon")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Notched sword:")]#text(" One adjacent creature.")
@@ -15276,10 +13258,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Champion: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Colossus","s-a7b89d32f088")
-#emph[#text("A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.")]
+]
+#companion-card("Skeleton Colossus","s-a7b89d32f088","summon-bone-colossus")[#emph[#text("A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 38 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 3x3")
 
@@ -15297,19 +13279,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Ossuary sweep")],[#text("Brawn")],[#text("1 Boon")],[#text("4 physical damage.")],[#text("6 physical damage. Push each 2.")],[#text("9 physical damage. Push each 4.")],),))
 
 #text("")#strong[#text("Ossuary sweep:")]#text(" Up to two creatures within 2 squares.")
@@ -15321,10 +13297,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Colossus: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Giant","s-9be2cfada30c")
-#emph[#text("A giant's bones rise inside a cage of splintered siege timbers, with old arrowheads rattling in the hollow joints.")]
+]
+#companion-card("Skeleton Giant","s-9be2cfada30c","summon-skeleton-giant")[#emph[#text("A giant's bones rise inside a cage of splintered siege timbers, with old arrowheads rattling in the hollow joints.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -15344,7 +13318,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15354,7 +13328,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 2; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Broken gatebeam")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("6 physical damage. Push 1.")],[#text("9 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Broken gatebeam:")]#text(" One visible creature within 2 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15366,10 +13340,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Giant: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Horse","s-97b1e8b34437")
-#emph[#text("Moonlight shines through the ribs of a skeletal charger whose tack still bears a funeral procession's faded ribbons.")]
+]
+#companion-card("Skeleton Horse","s-97b1e8b34437","summon-skeleton-horse")[#emph[#text("Moonlight shines through the ribs of a skeletal charger whose tack still bears a funeral procession's faded ribbons.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -15389,7 +13361,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15399,7 +13371,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Iron-shod hooves")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Iron-shod hooves:")]#text(" One adjacent creature. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15411,10 +13383,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Horse: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Skeleton Sentry","s-fe760a628c0b")
-#emph[#text("An articulated skeleton armed with a rusted sword and remnants of an old uniform. No appetite or fatigue distracts it from the narrow command that holds its bones together.")]
+]
+#companion-card("Skeleton Sentry","s-fe760a628c0b","summon-bone-sentry")[#emph[#text("An articulated skeleton armed with a rusted sword and remnants of an old uniform. No appetite or fatigue distracts it from the narrow command that holds its bones together.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +0; Agility +0; Guile -2; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 10 · ")#strong[#text("Speed:")]#text(" Ground 5 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15432,19 +13404,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +0; Agility +0; Guile -2; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Old sword")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage.")],[#text("5 physical damage.")],),))
 
 #text("")#strong[#text("Old sword:")]#text(" One adjacent creature.")
@@ -15453,10 +13419,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Skeleton Sentry: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Stone Golem","s-d788d5167794")
-#emph[#text("A carved guardian moves with the grinding patience of a gate being opened after centuries of rust.")]
+]
+#companion-card("Stone Golem","s-d788d5167794","summon-stone-golem")[#emph[#text("A carved guardian moves with the grinding patience of a gate being opened after centuries of rust.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0")
 
@@ -15476,7 +13440,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Construct 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15484,7 +13448,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 3; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Monument fist")],[#text("Brawn")],[#text("1 Boon")],[#text("4 physical damage.")],[#text("7 physical damage. Push 1.")],[#text("10 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Monument fist:")]#text(" One visible creature within 2 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15496,10 +13460,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Stone Golem: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Stone Knuckle","s-2ca5d81eca19")
-#emph[#text("A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground.")]
+]
+#companion-card("Stone Knuckle","s-2ca5d81eca19","summon-stone-knuckle")[#emph[#text("A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility -1; Guile -1; Knowledge -1; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 12 · ")#strong[#text("Speed:")]#text(" Ground 4; burrow 2 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15515,17 +13479,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility -1; Guile -1; Knowledge -1; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Pebble fist")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage.")],[#text("4 physical damage.")],),))
 
 #text("")#strong[#text("Pebble fist:")]#text(" One adjacent creature.")
@@ -15534,10 +13492,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Stone Knuckle: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Storm Column","s-5964001936f6")
-#emph[#text("A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.")]
+]
+#companion-card("Storm Column","s-5964001936f6","summon-storm-column")[#emph[#text("A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +2; Guile +0; Knowledge +0; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 30 · ")#strong[#text("Speed:")]#text(" Ground 0; fly 7 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -15553,17 +13511,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +2; Agility +2; Guile +0; Knowledge +0; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Forked flash")],[#text("Reason")],[#text("1 Boon")],[#text("4 lightning damage.")],[#text("6 lightning damage. Burning 1.")],[#text("8 lightning damage. Burning 2.")],),([#text("Driving gust")],[#text("Reason")],[#text("1 Boon")],[#text("No damage. Push 1.")],[#text("No damage. Push 2.")],[#text("No damage. Push 3.")],),))
 
 #text("")#strong[#text("Forked flash:")]#text(" One visible creature within 6 squares.")
@@ -15574,10 +13526,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Storm Column: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Trail Hound","s-b2ccee3e3b68")
-#emph[#text("A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order.")]
+]
+#companion-card("Trail Hound","s-b2ccee3e3b68","summon-trail-hound")[#emph[#text("A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 8 · ")#strong[#text("Speed:")]#text(" Ground 7 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15593,17 +13545,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Warning bite")],[#text("Brawn")],[#text("None")],[#text("1 physical damage.")],[#text("2 physical damage.")],[#text("4 physical damage.")],),))
 
 #text("")#strong[#text("Warning bite:")]#text(" One adjacent creature.")
@@ -15615,10 +13561,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Trail Hound: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Unicorn","s-df10b70c7c35")
-#emph[#text("A pale horn rises from the brow of an alert forest horse, reflecting stars even under a closed canopy.")]
+]
+#companion-card("Unicorn","s-df10b70c7c35","summon-unicorn")[#emph[#text("A pale horn rises from the brow of an alert forest horse, reflecting stars even under a closed canopy.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2")
 
@@ -15638,13 +13582,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Fey 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Silver horn")],[#text("Reason")],[#text("1 Boon")],[#text("3 radiant damage.")],[#text("5 radiant damage. Push 1.")],[#text("8 radiant damage. Push 3.")],),))
 
 #text("")#strong[#text("Silver horn:")]#text(" One adjacent creature. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15656,10 +13600,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Unicorn: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Walking Furnace","s-7a66302192c1")
-#emph[#text("A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.")]
+]
+#companion-card("Walking Furnace","s-7a66302192c1","summon-walking-furnace")[#emph[#text("A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 30 · ")#strong[#text("Speed:")]#text(" Ground 4 · ")#strong[#text("Footprint:")]#text(" 2x2")
 
@@ -15675,19 +13619,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Construct 7")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Iron ram")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage.")],[#text("7 physical damage.")],),([#text("Furnace breath")],[#text("Brawn")],[#text("1 Boon")],[#text("4 fire damage.")],[#text("6 fire damage. Burning 1.")],[#text("8 fire damage. Burning 2.")],),))
 
 #text("")#strong[#text("Iron ram:")]#text(" One adjacent creature.")
@@ -15698,10 +13636,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Walking Furnace: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Warhorse","s-2004a03963a9")
-#emph[#text("A broad-chested horse bears the marks of old harness straps and turns toward familiar commands even in chaos.")]
+]
+#companion-card("Warhorse","s-2004a03963a9","summon-warhorse")[#emph[#text("A broad-chested horse bears the marks of old harness straps and turns toward familiar commands even in chaos.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -15721,13 +13657,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Trained kick")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("4 physical damage. Push 1.")],[#text("6 physical damage. Push 3.")],),))
 
 #text("")#strong[#text("Trained kick:")]#text(" One adjacent creature. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15739,10 +13675,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn None; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Warhorse: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Water Elemental","s-47a87fd90c99")
-#emph[#text("A moving column of water holds leaves and tiny fish suspended in a shape that never quite becomes human.")]
+]
+#companion-card("Water Elemental","s-47a87fd90c99","summon-water-elemental")[#emph[#text("A moving column of water holds leaves and tiny fish suspended in a shape that never quite becomes human.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -15762,13 +13696,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Elemental 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Undertow arm")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage. Pull 1.")],[#text("8 physical damage. Pull 3.")],),))
 
 #text("")#strong[#text("Undertow arm:")]#text(" One visible creature within 2 squares. Apply Stability, terrain costs and normal collision rules to the printed distance.")
@@ -15780,10 +13714,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Water Elemental: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Wight","s-ab5c33b8d42a")
-#emph[#text("An armored corpse watches with the offended dignity of a lord whose court has forgotten to die.")]
+]
+#companion-card("Wight","s-ab5c33b8d42a","summon-wight")[#emph[#text("An armored corpse watches with the offended dignity of a lord whose court has forgotten to die.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +1; Guile +0; Knowledge +0; Reason +1")
 
@@ -15803,7 +13735,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15811,7 +13743,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Oath-draining blade")],[#text("Brawn")],[#text("1 Boon")],[#text("3 Life damage.")],[#text("5 Life damage. Slowed 1.")],[#text("7 Life damage. Slowed 2.")],),))
 
 #text("")#strong[#text("Oath-draining blade:")]#text(" One adjacent creature.")
@@ -15823,10 +13755,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Wight: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Wild Boar","s-51d7ff944a67")
-#emph[#text("A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.")]
+]
+#companion-card("Wild Boar","s-51d7ff944a67","summon-wild-boar")[#emph[#text("A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile -1; Knowledge -2; Reason +0")
 
 #text("")#strong[#text("HP:")]#text(" 12 · ")#strong[#text("Speed:")]#text(" Ground 6 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15842,17 +13774,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +1; Agility +0; Guile -1; Knowledge -2; Reason +0")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Tusks")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage. Push 1.")],[#text("5 physical damage. Push 2.")],),))
 
 #text("")#strong[#text("Tusks:")]#text(" One adjacent creature.")
@@ -15864,10 +13790,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Wild Boar: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Wolf","s-e3d96091ccac")
-#emph[#text("A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.")]
+]
+#companion-card("Wolf","s-e3d96091ccac","summon-wolf")[#emph[#text("A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
 
 #text("")#strong[#text("HP:")]#text(" 10 · ")#strong[#text("Speed:")]#text(" Ground 8 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -15883,17 +13809,11 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Animal 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Snapping jaws")],[#text("Brawn")],[#text("None")],[#text("2 physical damage.")],[#text("3 physical damage.")],[#text("4 physical damage.")],),([#text("Pinning bite")],[#text("Brawn")],[#text("None")],[#text("1 physical damage.")],[#text("2 physical damage; Grappled 1.")],[#text("3 physical damage; Grappled 1.")],),))
 
 #text("")#strong[#text("Snapping jaws:")]#text(" One adjacent creature.")
@@ -15910,10 +13830,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Wolf: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Wraith","s-3150ba60dd2d")
-#emph[#text("A torn silhouette hangs in the air around two pale sparks, trailing the sound of someone trying to breathe underwater.")]
+]
+#companion-card("Wraith","s-3150ba60dd2d","summon-wraith")[#emph[#text("A torn silhouette hangs in the air around two pale sparks, trailing the sound of someone trying to breathe underwater.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +1")
 
@@ -15933,7 +13851,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 7")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15941,7 +13859,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" Does not breathe or eat; only its listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Winterless touch")],[#text("Brawn")],[#text("1 Boon")],[#text("3 Life damage.")],[#text("5 Life damage. Dazed 1.")],[#text("8 Life damage. Dazed 2.")],),))
 
 #text("")#strong[#text("Winterless touch:")]#text(" One adjacent creature.")
@@ -15953,10 +13871,8 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Wraith: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Zombie Brute","s-9d85a823042e")
-#emph[#text("A huge laborer's corpse still drags the quarry chains wound around its shoulders. Its movements are slow until something stands in its path.")]
+]
+#companion-card("Zombie Brute","s-9d85a823042e","summon-zombie-brute")[#emph[#text("A huge laborer's corpse still drags the quarry chains wound around its shoulders. Its movements are slow until something stands in its path.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0")
 
@@ -15976,7 +13892,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Eligibility:")]#text(" Undead 3")
 
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use the controller’s turn. Beyond 6 squares, or if the controller is unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot. No summon chains.")
+#text("No summon chains.")
 
 #text("")#strong[#text("Carrying:")]#text(" At most 1 Bulk; anatomy limits handling. No crafting training.")
 
@@ -15986,7 +13902,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Heavy Frame — Passive:")]#text(" Stability 1; an explicit trait, not a bonus calculated from Size.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Deadweight slam")],[#text("Brawn")],[#text("1 Boon")],[#text("3 physical damage.")],[#text("5 physical damage.")],[#text("8 physical damage. Prone.")],),))
 
 #text("")#strong[#text("Deadweight slam:")]#text(" One adjacent creature.")
@@ -15998,10 +13914,10 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" Brawn 1 Boon; one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders.")
 
-#art(width: 144pt, height: 144pt, brief: "Zombie Brute: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
-#pagebreak(weak: true)
-#entry("Zombie Shambler","s-f5863aeafb13")
-#emph[#text("A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage.")]
+]
+#companion-card("Zombie Shambler","s-f5863aeafb13","summon-restless-corpse")[#emph[#text("A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage.")]
+
+#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility -2; Guile -2; Knowledge -2; Reason -1")
 
 #text("")#strong[#text("HP:")]#text(" 16 · ")#strong[#text("Speed:")]#text(" Ground 3 · ")#strong[#text("Footprint:")]#text(" 1x1")
 
@@ -16019,19 +13935,13 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Communication:")]#text(" None")
 
-#text("")#strong[#text("Attributes:")]#text(" Brawn +1; Fortitude +1; Agility -2; Guile -2; Knowledge -2; Reason -1")
-
 #text("")#strong[#text("Eligibility:")]#text(" Undead 1")
-
-#text("Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One command per summon per controller turn; immediate summoning command counts. No activity or alerts without a command; no Reactions or opportunity attacks. Turn ticks use controller’s turn. Beyond 6 squares, or controller unconscious/dead, it disappears; at 0 HP it disappears. No permanent loot.")
 
 #text("")#strong[#text("Carrying:")]#text(" up to 1 Bulk; anatomy limits handling. No granted crafting training.")
 
-#text("Roll its printed attack attribute and read the attacker outcomes below. When it is attacked, roll the defense attribute named by the incoming attack. Passive defenses remain; no independent active effects.")
-
 #text("")#strong[#text("Lifeless Body — Passive:")]#text(" does not breathe or eat; only listed immunities apply.")
 
-#heading(level: 3)[#text("Attacks — Main Action")]
+][#heading(level: 3)[#text("Attacks — Main Action")]
 #rule-table(6,([#text("Attack")],[#text("Attribute")],[#text("Attack modifier")],[#text("Weak attack")],[#text("Standard attack")],[#text("Strong attack")],),(([#text("Clutching hands")],[#text("Brawn")],[#text("None")],[#text("1 physical damage.")],[#text("2 physical damage. Grappled 1.")],[#text("3 physical damage. Grappled 2.")],),))
 
 #text("")#strong[#text("Clutching hands:")]#text(" One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.")
@@ -16040,7 +13950,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 
 #text("")#strong[#text("Basic Melee — Main:")]#text(" None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.")
 
-#art(width: 144pt, height: 144pt, brief: "Zombie Shambler: isolated summoned-form portrait. Match the description above; transparent background for reuse on a companion card.")
+]
 #chapter("12","Wound Tables")
 #note[Roll 3d6 plus one die per prior wound, maximum five dice total. Keep the highest three, sort ascending and read the three-digit result. Use the damage-type table. Each wound always leaves a scar; treatment removes only its printed treatable effects. See Harm and Recovery for the complete procedure.]
 #metadata("s-d615d33192e7")<s-d615d33192e7>
@@ -16157,7 +14067,7 @@ Meet both attribute minimums before choosing your class. A minimum of zero leave
 #twocol[These six level-1 heroes show complete creation, including both DP ledgers and paid equipment. Use one as written or follow its ledger as an example. A changed choice must still meet requirements. Lira is an archer built as a Blade; the Warden provides another route to a wilderness-focused hero.]
 #rule-table(3,([#text("Hero")],[#text("Fantasy")],[#text("Ancestry and class")],),(([#xref("s-8b8c83fc1b83")[#text("Borin Bridgekeeper")]],[#text("Stalwart guardian")],[#text("Dwarf Protector")],),([#xref("s-4d5f2d3446ae")[#text("Lira Ashbow")]],[#text("Woodland archer")],[#text("Elf Blade")],),([#xref("s-1ccf7098d4c2")[#text("Pip Copperwink")]],[#text("Burglar-duelist")],[#text("Halfling Shadow")],),([#xref("s-2cec6a1ab754")[#text("Vaelis Emberglass")]],[#text("Elemental scholar")],[#text("Elf Arcanist")],),([#xref("s-16fa8632677b")[#text("Mara Reedheart")]],[#text("Grove healer / beast-shaper")],[#text("Human Shepherd")],),([#xref("s-fa91e98e838d")[#text("Oren Brass")]],[#text("Investigator-tinker")],[#text("Human Intellect")],),))
 
-#art(height: 340pt, brief: "Borin, Lira, Pip, Vaelis, Mara and Oren share a roadside meal after an adventure. Match their ancestry, equipment and personalities in the following character sheets. Show the relationships that make a company.")
+#illustration("heroes", height: 340pt, fit: "cover")
 #pagebreak(weak: true)
 #entry("Borin Bridgekeeper — level 1","s-8b8c83fc1b83")
 #emph[#text("The shield-bearing guardian who brings everyone home.")]

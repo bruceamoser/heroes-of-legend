@@ -8,6 +8,10 @@ Character creation has two stages. **Level 0** is your life before choosing a cl
 close the level-0 ledger before making level-1 purchases. Both stages have their own
 DP pool; unused points expire separately.
 
+Before making purchases, turn to [Disciplines and Character Paths](05-disciplines.md).
+It explains what discipline ranks mean and how they qualify you for abilities. Keep
+that chapter and your intended class entry handy as you build.
+
 ## 1. Assign attributes
 
 Assign a value from −2 to +2 to each of the six attributes. Their total must be **+3**.

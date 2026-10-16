@@ -25,8 +25,8 @@
   creation, advancement, abilities, equipment, summoned companions and recovery.
   The Dungeon Architect’s bestiary and encounter guidance are separate.
 
-  Interior illustration panels describe art to be commissioned or generated later.
-  Cover artwork was created with AI assistance and approved by Bruce. The title and
+  Cover artwork was created with AI assistance and approved by Bruce. Interior
+  illustrations and discipline badges were generated to match the book’s visual style. The title and
   rules remain editable type. This is a digital playtest proof; final print artwork,
   production specifications and publication notices will be prepared for release.
 ]
@@ -36,5 +36,6 @@ Rules snapshot: approved design workspace, October 15, 2026.
 Construction edition: October 16, 2026.]
 #pagebreak()
 #outline(title: [Contents], depth: 1)
+#tail-art("journey")
 #pagebreak()
 #include "generated/body.typ"

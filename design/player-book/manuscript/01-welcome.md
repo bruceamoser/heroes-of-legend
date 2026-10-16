@@ -121,5 +121,5 @@ already know about the first destination. You can discover the rest in play.
 > manuscript. Existing design proposals were approved for inclusion. It is intended
 > for real table feedback; numerical balance remains open to refinement. Small boxes
 > labeled “Playtest ruling” identify newly discovered boundaries that still need review.
-> Interior art panels are briefs for future illustrations. The DA's bestiary and
+> The DA's bestiary and
 > encounter-building book are separate.

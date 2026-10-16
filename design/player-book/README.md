@@ -12,7 +12,9 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `../rules/wounds.md`: all five complete wound tables.
 - `template.typ`: typography, page furniture, ability headers, tables and callouts.
 - `book.typ`, `sheets.typ`, `cover.typ`: assembly, printable sheets and approved cover.
-- `icons/`: original editable SVG discipline symbols; text requirements are also printed.
+- `art/interior/`: generated illustrations and discipline badges; full-resolution masters.
+- `art/interior-prompts.json`: one saved prompt per interior asset.
+- `icons/`: historical SVG symbol names; the book uses the generated PNG badges.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
   It never rewrites the source catalog. Do not edit generated files by hand.
@@ -22,7 +24,7 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 ## Build
 
 Requires Python 3 with `markdown-it-py` (tested with 3.0.0), Typst **0.15.1**, and
-Poppler for audits. Dependencies are explicit; the build makes no network requests.
+Poppler, Pillow and pypdf for illustrated export and audits. Dependencies are explicit; the build makes no network requests.
 
 ```sh
 python3 -m pip install -r design/player-book/requirements.txt
@@ -38,7 +40,11 @@ No external Typst package is required by the player book.
 
 `audit.py` checks named-record coverage, source freshness, extracted PDF ability
 outcomes and wound text, and page text bounds.
-It does not certify game balance. The normal design and bestiary audits remain useful:
+The two-pass export measures unused page areas before placing contextual art. It then
+compresses embedded artwork while preserving its resolution and alpha masks,
+selectable text, links and vector rules. Set `PDF_PYTHON` if pypdf is in a separate
+Python runtime; the local bundled runtime is a workspace fallback.
+Full-resolution source art remains unchanged. It does not certify game balance. The normal design and bestiary audits remain useful:
 
 ```sh
 python3 design/audit.py
@@ -56,12 +62,12 @@ The book intentionally excludes the complete DA bestiary, CV design worksheets,
 encounter construction, historical reviews and old Quarto mechanics. Every player
 summon profile is included so the summoning catalog is usable independently.
 
-Interior illustration placeholders state their size in points and inches and a
-short art brief. They are intentional, not missing-image errors. This digital
+All interior placeholders have generated illustrations. The book includes 18 illustrated
+discipline badges with overlaid rank numerals and four printable character sheets. This digital
 playtest proof is not a printer-ready release: final art resolution, bleed,
 production color and release notices belong to the later publication pass.
 
 ## Current proof
 
-277 pages. See [QA report](qa-report.md) for verified coverage and limits, and
+232 pages, approximately 81 MiB. See [QA report](qa-report.md) for verified coverage and limits, and
 [construction decisions](decision-log.md) for the small number of review items.

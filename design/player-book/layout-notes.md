@@ -22,7 +22,17 @@ are reproduced. HOL uses its own system and the approved Great Library visual id
 - Wide tables use the full page width; table headers repeat across pages.
 - Page references and PDF links for named choices, a compact contents page and
   alphabetical ability index. Printable sheets have white backgrounds.
-- Art placeholders carry actual dimensions and a concrete original art brief.
+- Generated interior illustrations use the approved forest, gold and ivory palette.
+  All prompts are saved; original PNGs remain untouched by PDF optimization.
+- Ability, equipment, recipe and companion entries have forest headers, gold borders
+  and internal rules. Discipline rank numbers overlay illustrated badges.
+- Culture, background, equipment and recipe introductions explain the choices before
+  their catalogs. Four character paths illustrate contrasting builds.
+- Starting coin and summon-selection tables are grouped into compact columns.
+- Four white printable sheets cover play, training, belongings and creation.
+- A raster inspection of the unadorned layout finds large empty lower-page areas.
+  Contextual artwork is placed behind content only in those verified clear regions;
+  writing fields and the index are excluded. This placement does not repaginate text.
 - Editable Markdown teaching chapters; existing catalog Markdown remains the source.
   Build tools read it and never overwrite it.
 

@@ -1,0 +1,729 @@
+[
+  {
+    "key": "welcome",
+    "path": "design/player-book/art/interior/welcome.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A lantern-bearing company of adventurers pauses before an ancient stone doorway in overgrown ruins, feeling the promise of the world beyond. Wide horizontal scene. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "origins",
+    "path": "design/player-book/art/interior/origins.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A busy riverside fantasy settlement where humans, elves, dwarves and halflings work and travel together. A child learns a craft from an elder of another ancestry as a boat prepares to leave. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "cultures",
+    "path": "design/player-book/art/interior/cultures.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A village feast beneath lanterns: diverse fantasy folk share bread, stories and handmade gifts at one long table. Culture is learned community, warm and welcoming. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "backgrounds",
+    "path": "design/player-book/art/interior/backgrounds.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A thoughtful still life of tools from earlier lives: apprentice hammer, sailors knot, theatrical mask, sealed letter, shepherd crook, battered traveling journal. Arrange as a coherent workshop scene. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "classes",
+    "path": "design/player-book/art/interior/classes.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Ten distinct adventurer silhouettes gathered around a map: shield guardian, duelist, arcanist, woodland scout, kindly nature healer, detective, masked rogue, commanding captain, muscular brawler and eccentric wanderer. An ensemble, no labels. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "disciplines",
+    "path": "design/player-book/art/interior/disciplines.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. An adventurer studies in a forest-green and gold library workshop: open illuminated books, training sword, herbal press, astrolabe and small contained elemental lights. Learning different arts. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "combat",
+    "path": "design/player-book/art/interior/combat.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A dwarf guardian blocks a ruined doorway with a shield while an elf archer takes cover and a mage drives a foe away with a gust. Strong readable action, heroic teamwork, no game grid. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "adventure",
+    "path": "design/player-book/art/interior/adventure.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. An adventuring company at a riverside camp with travelers: one repairs rope, one bargains over a map, one watches the forest. Calm purposeful activity. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "recovery",
+    "path": "design/player-book/art/interior/recovery.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A healer carefully binds a seated adventurer\u2019s forearm by lanternlight. Old healed scars and weary companionship, dignity and resilience, no gore. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "abilities",
+    "path": "design/player-book/art/interior/abilities.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A compact fantasy scene showing one resourceful adventurer vaulting a stone wall while using a glowing rune in one hand. A memorable practical feat, clear motion and joy. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "equipment",
+    "path": "design/player-book/art/interior/equipment.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A welcoming fantasy outfitter\u2019s counter: coil of rope, lantern, boots, a small potion bottle, folded cloak and simple shield, warm brass light and forest green fabric. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "recipes",
+    "path": "design/player-book/art/interior/recipes.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A traveling craftsperson at a woodland workbench braids cord and prepares a small herbal bottle; tools, written recipe shapes without readable text, sorted ingredients, warm hands in focus. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "heroes",
+    "path": "design/player-book/art/interior/heroes.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Six companions share a roadside meal: Borin a sturdy dwarf shield guardian, Lira a slender elf female archer, Pip a cheerful halfling burglar-duelist, Vaelis an elf elemental scholar, Mara a human nature healer, Oren a human investigator with brass tools. Warm friendship, distinct gear and silhouettes. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "journey",
+    "path": "design/player-book/art/interior/journey.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A winding road climbs through wooded hills toward distant ancient ruins; small adventurers and a pack animal follow it. Atmospheric wide panorama, forest green shadows, gold evening light. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "wounds",
+    "path": "design/player-book/art/interior/wounds.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A quiet still life of a scarred gauntlet, clean bandages, healing herbs, a carved walking stick and an old travel journal. Endurance and memory, no gore. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "paths",
+    "path": "design/player-book/art/interior/paths.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Four different adventurers on a branching woodland path: armored sacred guardian, analytical swordfighter, green-cloaked healer and nimble trickster; all part of the same company. Composition: wide landscape, approximately 2:1.",
+    "transparent": false
+  },
+  {
+    "key": "ancestry-human",
+    "path": "design/player-book/art/interior/ancestry-human.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Three diverse human adventurers of distinct ages, genders and vocations, together in an understated setting; do not prescribe a single culture. Full figures and readable clothing. Composition: square portrait group.",
+    "transparent": false
+  },
+  {
+    "key": "ancestry-elf",
+    "path": "design/player-book/art/interior/ancestry-elf.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Three elegant, keen-eyed, pointed-eared elf adventurers of distinct ages, genders and vocations, together in an understated setting; do not prescribe a single culture. Full figures and readable clothing. Composition: square portrait group.",
+    "transparent": false
+  },
+  {
+    "key": "ancestry-dwarf",
+    "path": "design/player-book/art/interior/ancestry-dwarf.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Three stocky bearded dwarf adventurers with strong features of distinct ages, genders and vocations, together in an understated setting; do not prescribe a single culture. Full figures and readable clothing. Composition: square portrait group.",
+    "transparent": false
+  },
+  {
+    "key": "ancestry-halfling",
+    "path": "design/player-book/art/interior/ancestry-halfling.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Three small, bright-eyed halfling adventurers with curled hair and practical clothes of distinct ages, genders and vocations, together in an understated setting; do not prescribe a single culture. Full figures and readable clothing. Composition: square portrait group.",
+    "transparent": false
+  },
+  {
+    "key": "class-arcanist",
+    "path": "design/player-book/art/interior/class-arcanist.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One arcanist adventurer. Character identity: You study the impossible until your hands can give it a shape the world must briefly accept.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-blade",
+    "path": "design/player-book/art/interior/class-blade.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One blade adventurer. Character identity: You make the hard choices in the space between one stroke and the next.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-intellect",
+    "path": "design/player-book/art/interior/class-intellect.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One intellect adventurer. Character identity: You see a pattern where others see only trouble, and trust your understanding enough to act.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-leader",
+    "path": "design/player-book/art/interior/class-leader.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One leader adventurer. Character identity: You turn to your companions and give them a reason to move together.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-odd",
+    "path": "design/player-book/art/interior/class-odd.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One odd adventurer. Character identity: You have never fit the expected answer, and have learned to make that useful.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-protector",
+    "path": "design/player-book/art/interior/class-protector.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One protector adventurer. Character identity: You see who needs shelter and step into the space between them and harm.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-shadow",
+    "path": "design/player-book/art/interior/class-shadow.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One shadow adventurer. Character identity: You learn the unguarded routes through a world that rarely looks in the right direction.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-shepherd",
+    "path": "design/player-book/art/interior/class-shepherd.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One shepherd adventurer. Character identity: You listen for the wavering voice and help it find its way back to the others.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "class-unbalanced",
+    "path": "design/player-book/art/interior/class-unbalanced.png",
+    "prompt": "Original Heroes of Legend class illustration for THE UNBALANCED: a towering, visibly muscular battle-maddened warrior, broad shoulders and massive forearms, roaring as they swing a heavy two-handed maul through broken stone. Unbridled fury and physical power; brawn and fortitude. Travel-worn leather, fur and cloth, no shield, no polished knight armor, no wand. Strong dynamic full-body silhouette. Tall portrait 1:2 with the whole figure visible. Crisp engraved ink and restrained painted forest green, antique gold, charcoal and warm ivory, matching the reference crest's line quality and palette only. Simple ruined woodland background, no typography, no logos, no numbers. Heroic illustration with believable hands and anatomy.",
+    "transparent": false,
+    "previous_prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One unbalanced adventurer. Character identity: You meet the obstacle with everything you are, and let it discover whether that is enough.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2."
+  },
+  {
+    "key": "class-warden",
+    "path": "design/player-book/art/interior/class-warden.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One warden adventurer. Character identity: You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
+    "transparent": false
+  },
+  {
+    "key": "summon-adder",
+    "path": "design/player-book/art/interior/summon-adder.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Adder (CV 5) . A short, thick-bodied snake patterned like leaf litter, with a triangular head and retractable venomous fangs. It prefers warm cover and an escape route to confrontation. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-air-elemental",
+    "path": "design/player-book/art/interior/summon-air-elemental.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Air Elemental (CV 21) . Dust, leaves and scraps of cloud circle an empty center that turns toward every change in pressure. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-ancestor-guardian",
+    "path": "design/player-book/art/interior/summon-ancestor-guardian.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ancestor Guardian (CV 16) . A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-ancient-mammoth",
+    "path": "design/player-book/art/interior/summon-ancient-mammoth.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ancient Mammoth (CV 39) . A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-animated-armor",
+    "path": "design/player-book/art/interior/summon-animated-armor.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Animated Armor (CV 17) . An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-animated-statue",
+    "path": "design/player-book/art/interior/summon-animated-statue.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Animated Statue (CV 22) . A civic statue has climbed down from its pedestal, leaving a clean pair of footprints in old soot. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-barrow-guard",
+    "path": "design/player-book/art/interior/summon-barrow-guard.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Barrow Guard (CV 23) . An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-bone-archer",
+    "path": "design/player-book/art/interior/summon-bone-archer.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Archer (CV 6) . A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-bone-colossus",
+    "path": "design/player-book/art/interior/summon-bone-colossus.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Colossus (CV 43) . A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-bone-sentry",
+    "path": "design/player-book/art/interior/summon-bone-sentry.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Sentry (CV 7) . An articulated skeleton armed with a rusted sword and remnants of an old uniform. No appetite or fatigue distracts it from the narrow command that holds its bones together. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-briar-knight",
+    "path": "design/player-book/art/interior/summon-briar-knight.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Briar Knight (CV 19) . A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-brown-bear",
+    "path": "design/player-book/art/interior/summon-brown-bear.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Brown Bear (CV 17) . A broad-shouldered forest bear with shaggy brown fur, curved claws and a powerful muzzle. Its bulk conceals surprising speed; food, cubs and personal space matter far more than territory on a map. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-cave-bat",
+    "path": "design/player-book/art/interior/summon-cave-bat.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Cave Bat (CV 4) . A small cave-dwelling bat with oversized ears, thin dark wings and tiny hooked feet. Sound guides it through darkness, while bright light and loud disturbances unsettle its roost. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-cinder-strider",
+    "path": "design/player-book/art/interior/summon-cinder-strider.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Cinder Strider (CV 18) . A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-clay-golem",
+    "path": "design/player-book/art/interior/summon-clay-golem.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Clay Golem (CV 35) . A hulking figure of fired earth bears thumbprints the size of bowls and writing pressed into its chest before baking. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-clay-helper",
+    "path": "design/player-book/art/interior/summon-clay-helper.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Clay Helper (CV 5) . A rough humanoid of fired and unfired clay, with broad hands and the maker\u2019s thumbprints still visible. It understands simple work instructions but has no independent craft training. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-clockwork-scout",
+    "path": "design/player-book/art/interior/summon-clockwork-scout.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Clockwork Scout (CV 5) . A small brass surveying machine with jointed feet, a glass lens and a speaking grille. Its precise movements serve observation and reporting rather than a sustained fight. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-crypt-ghoul",
+    "path": "design/player-book/art/interior/summon-crypt-ghoul.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Crypt Ghoul (CV 17) . A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-dire-wolf",
+    "path": "design/player-book/art/interior/summon-dire-wolf.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Dire Wolf (CV 18) . A heavy winter wolf has a broad muzzle, a pale ruff and the confidence of a hunter accustomed to bringing down elk. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-dryad",
+    "path": "design/player-book/art/interior/summon-dryad.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Dryad (CV 17) . A woodland spirit carries the grain and scent of a particular tree in living skin and hair. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-earth-elemental",
+    "path": "design/player-book/art/interior/summon-earth-elemental.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Earth Elemental (CV 36) . A walking knot of stone carries veins of bright mineral through a body that sheds gravel with every step. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-emberling",
+    "path": "design/player-book/art/interior/summon-emberling.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Emberling (CV 8) . A small elemental made of glowing coals and flickering flame, with bright cracks for eyes. Warmth draws it; uncontrolled curiosity makes it dangerous around dry fuel. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-flesh-golem",
+    "path": "design/player-book/art/interior/summon-flesh-golem.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Flesh Golem (CV 29) . A body assembled from mismatched remains moves with the caution of someone learning where its hands end. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-ghast",
+    "path": "design/player-book/art/interior/summon-ghast.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ghast (CV 25) . A ghast wears stolen finery over a taut, hungry body. Its breath announces it before its careful footsteps do. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-boar",
+    "path": "design/player-book/art/interior/summon-giant-boar.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Boar (CV 22) . A boar with a ridge of iron-gray bristles has tusks polished by years of uprooting saplings and turning stones. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-constrictor",
+    "path": "design/player-book/art/interior/summon-giant-constrictor.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Constrictor (CV 23) . A thick-bodied serpent carries green water between its overlapping scales, its weight bending young trees as it passes. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-eagle",
+    "path": "design/player-book/art/interior/summon-giant-eagle.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Eagle (CV 16) . An eagle large enough to shadow a cart watches the valley with amber eyes and a ragged crest of wind-bent feathers. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-octopus",
+    "path": "design/player-book/art/interior/summon-giant-octopus.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Octopus (CV 22) . A shifting pattern of copper and cream runs across eight thick arms, each exploring the water independently. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-rat",
+    "path": "design/player-book/art/interior/summon-giant-rat.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Rat (CV 5) . A dog-sized rat has a blunt scarred muzzle, bright eyes and a tail thick enough to sweep loose gravel. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-scorpion",
+    "path": "design/player-book/art/interior/summon-giant-scorpion.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Scorpion (CV 22) . Black plates cover a scorpion whose claws can close around a wagon wheel. Its tail moves with unsettling patience. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-giant-spider",
+    "path": "design/player-book/art/interior/summon-giant-spider.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Giant Spider (CV 15) . A dog-sized hunting spider with a swollen abdomen, hooked feet and pale silk glands beneath its jaws. Its web is both a trap and an extension of its senses. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-glass-sentinel",
+    "path": "design/player-book/art/interior/summon-glass-sentinel.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Glass Sentinel (CV 15) . A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-grave-wisp",
+    "path": "design/player-book/art/interior/summon-grave-wisp.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Grave Wisp (CV 6) . A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person\u2019s lingering need for a witness, not a source of useful flame. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-great-cat",
+    "path": "design/player-book/art/interior/summon-great-cat.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Great Cat (CV 15) . A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-great-stag",
+    "path": "design/player-book/art/interior/summon-great-stag.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Great Stag (CV 13) . A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-harbor-siren",
+    "path": "design/player-book/art/interior/summon-harbor-siren.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Harbor Siren (CV 16) . An aquatic fey with a humanlike face, webbed hands and a voice that carries clearly over water. Its relationship with a harbor may be older than the people now living there. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-hearth-brownie",
+    "path": "design/player-book/art/interior/summon-hearth-brownie.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Hearth Brownie (CV 5) . A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-hedge-sprite",
+    "path": "design/player-book/art/interior/summon-hedge-sprite.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Hedge Sprite (CV 5) . A tiny winged fey with thornlike features, leaf-colored clothes and a fierce sense of local etiquette. Its home may be no larger than a hedge, but its claim to it is absolute. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-icebound-warden",
+    "path": "design/player-book/art/interior/summon-icebound-warden.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Icebound Warden (CV 19) . A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-iron-gatekeeper",
+    "path": "design/player-book/art/interior/summon-iron-gatekeeper.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Iron Gatekeeper (CV 44) . A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-lantern-spirit",
+    "path": "design/player-book/art/interior/summon-lantern-spirit.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Lantern Spirit (CV 6) . A small lantern-shaped spirit with legs of light and a steady, smokeless glow. It remembers a particular route with great fidelity, but knows little beyond it. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-marsh-crocodile",
+    "path": "design/player-book/art/interior/summon-marsh-crocodile.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Marsh Crocodile (CV 17) . An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-moon-hart",
+    "path": "design/player-book/art/interior/summon-moon-hart.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Moon Hart (CV 25) . A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-mourning-bell",
+    "path": "design/player-book/art/interior/summon-mourning-bell.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Mourning Bell (CV 49) . A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-mummy",
+    "path": "design/player-book/art/interior/summon-mummy.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Mummy (CV 29) . Layers of painted linen preserve a body that moves with ceremonial precision. Dry resin cracks at every joint. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-oath-flame",
+    "path": "design/player-book/art/interior/summon-oath-flame.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Oath Flame (CV 26) . A humanlike figure of shrine fire and bright ash, carrying a blade shaped by the oath it embodies. It has judgment within that promise, not limitless divine authority. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-plague-zombie",
+    "path": "design/player-book/art/interior/summon-plague-zombie.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Plague Zombie (CV 11) . Wet burial cloth clings to a swollen corpse, and clouds of grave flies escape whenever its jaw falls open. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-poltergeist",
+    "path": "design/player-book/art/interior/summon-poltergeist.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Poltergeist (CV 18) . Chairs scrape and small objects tremble around a wavering figure, while dust outlines spectral hands that cannot hold still. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-raven",
+    "path": "design/player-book/art/interior/summon-raven.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Raven (CV 4) . A large black corvid with an iridescent throat, wedge-shaped tail and keen, curious eyes. It remembers faces and treats unattended food and interesting objects as opportunities. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-redcap",
+    "path": "design/player-book/art/interior/summon-redcap.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Redcap (CV 21) . A small hard-eyed fey wears heavy iron boots and a dark cap that never quite dries. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-reed-piper",
+    "path": "design/player-book/art/interior/summon-reed-piper.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Reed Piper (CV 15) . A slender waterside fey with reed-colored hair, long fingers and a pipe cut from its home marsh. Music is both its craft and its means of keeping an audience close. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-reef-hunter",
+    "path": "design/player-book/art/interior/summon-reef-hunter.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Reef Hunter (CV 17) . A large reef shark with a pale belly, dark back and rows of serrated teeth. It is built for swift turns in open water and cannot pursue prey onto land. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-restless-corpse",
+    "path": "design/player-book/art/interior/summon-restless-corpse.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Zombie Shambler (CV 8) . A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-rill-sprite",
+    "path": "design/player-book/art/interior/summon-rill-sprite.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Rill Sprite (CV 6) . A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-satyr",
+    "path": "design/player-book/art/interior/summon-satyr.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Satyr (CV 16) . A goat-legged musician wears a travelling coat full of reeds, ribbons and invitations to celebrations long past. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-shadow",
+    "path": "design/player-book/art/interior/summon-shadow.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Shadow (CV 17) . A person's shadow moves without a person, lengthening toward warm hands and uncovered lanterns. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-skeleton-champion",
+    "path": "design/player-book/art/interior/summon-skeleton-champion.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Champion (CV 25) . A crowned helm sits crookedly on this skeleton, but its sword follows the patient lines of a practiced duelist. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-skeleton-giant",
+    "path": "design/player-book/art/interior/summon-skeleton-giant.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Giant (CV 28) . A giant's bones rise inside a cage of splintered siege timbers, with old arrowheads rattling in the hollow joints. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-skeleton-horse",
+    "path": "design/player-book/art/interior/summon-skeleton-horse.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Skeleton Horse (CV 15) . Moonlight shines through the ribs of a skeletal charger whose tack still bears a funeral procession's faded ribbons. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-sorrow-ghost",
+    "path": "design/player-book/art/interior/summon-sorrow-ghost.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ghost \u2014 Sorrow-bound (CV 23) . A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-stone-golem",
+    "path": "design/player-book/art/interior/summon-stone-golem.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Stone Golem (CV 45) . A carved guardian moves with the grinding patience of a gate being opened after centuries of rust. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-stone-knuckle",
+    "path": "design/player-book/art/interior/summon-stone-knuckle.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Stone Knuckle (CV 9) . A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-storm-column",
+    "path": "design/player-book/art/interior/summon-storm-column.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Storm Column (CV 35) . A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-trail-hound",
+    "path": "design/player-book/art/interior/summon-trail-hound.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Trail Hound (CV 5) . A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-unicorn",
+    "path": "design/player-book/art/interior/summon-unicorn.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Unicorn (CV 24) . A pale horn rises from the brow of an alert forest horse, reflecting stars even under a closed canopy. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-walking-furnace",
+    "path": "design/player-book/art/interior/summon-walking-furnace.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Walking Furnace (CV 29) . A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-warhorse",
+    "path": "design/player-book/art/interior/summon-warhorse.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Warhorse (CV 13) . A broad-chested horse bears the marks of old harness straps and turns toward familiar commands even in chaos. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-water-elemental",
+    "path": "design/player-book/art/interior/summon-water-elemental.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Water Elemental (CV 22) . A moving column of water holds leaves and tiny fish suspended in a shape that never quite becomes human. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-wight",
+    "path": "design/player-book/art/interior/summon-wight.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Wight (CV 27) . An armored corpse watches with the offended dignity of a lord whose court has forgotten to die. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-wild-boar",
+    "path": "design/player-book/art/interior/summon-wild-boar.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Wild Boar (CV 8) . A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-wolf",
+    "path": "design/player-book/art/interior/summon-wolf.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Wolf (CV 8) . A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-wraith",
+    "path": "design/player-book/art/interior/summon-wraith.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Wraith (CV 37) . A torn silhouette hangs in the air around two pale sparks, trailing the sound of someone trying to breathe underwater. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "summon-zombie-brute",
+    "path": "design/player-book/art/interior/summon-zombie-brute.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Zombie Brute (CV 22) . A huge laborer's corpse still drags the quarry chains wound around its shoulders. Its movements are slow until something stands in its path. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "transparent": true
+  },
+  {
+    "key": "badge-armor",
+    "path": "design/player-book/art/interior/badge-armor.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a strong engraved breastplate in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-arms",
+    "path": "design/player-book/art/interior/badge-arms.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: two crossed swords in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-athletics",
+    "path": "design/player-book/art/interior/badge-athletics.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a leaping boot over a mountain in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-calling",
+    "path": "design/player-book/art/interior/badge-calling.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a beckoning hand beneath an eight-point portal star in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-craft",
+    "path": "design/player-book/art/interior/badge-craft.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a hammer crossing a small gear in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-flame",
+    "path": "design/player-book/art/interior/badge-flame.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a single curling flame in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-frost",
+    "path": "design/player-book/art/interior/badge-frost.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a six-branched ice crystal in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-guard",
+    "path": "design/player-book/art/interior/badge-guard.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a broad protective shield in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-influence",
+    "path": "design/player-book/art/interior/badge-influence.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a theatrical mask with radiating speech curves in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-life",
+    "path": "design/player-book/art/interior/badge-life.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a young leaf emerging from a warm glowing heart in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-marksmanship",
+    "path": "design/player-book/art/interior/badge-marksmanship.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an arrow through a circular target in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-medicine",
+    "path": "design/player-book/art/interior/badge-medicine.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a healing hand holding a sprig of herbs in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-mind",
+    "path": "design/player-book/art/interior/badge-mind.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an open eye enclosed by a crescent in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-radiance",
+    "path": "design/player-book/art/interior/badge-radiance.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a brilliant sunburst in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-scholarship",
+    "path": "design/player-book/art/interior/badge-scholarship.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an open book beneath a small star in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-storm",
+    "path": "design/player-book/art/interior/badge-storm.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a branching lightning bolt in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-subterfuge",
+    "path": "design/player-book/art/interior/badge-subterfuge.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a hood and small key in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  },
+  {
+    "key": "badge-wilderness",
+    "path": "design/player-book/art/interior/badge-wilderness.png",
+    "transparent": true,
+    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a great oak leaf and animal paw in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
+  }
+]

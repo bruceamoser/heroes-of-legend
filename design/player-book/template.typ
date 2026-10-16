@@ -9,6 +9,12 @@
   set text(font: "EB Garamond", size: 10.5pt, fill: ink, lang: "en", hyphenate: true)
   set par(leading: 0.42em, spacing: 0.65em, justify: false)
   set page(width: 612pt, height: 792pt, margin: (left: 42pt, right: 42pt, top: 52pt, bottom: 46pt), fill: paper,
+    background: context {
+      for item in json("generated/space-art.json").filter(it => it.page == here().page()) {
+        place(top+left, dx:item.x*1pt, dy:item.y*1pt,
+          image("art/interior/"+item.asset+".png",width:item.width*1pt,height:item.height*1pt,fit:"contain"))
+      }
+    },
     header: context {
       grid(columns: (1fr, 1fr), text(font: "Cinzel", size: 8pt, fill: forest)[Heroes of Legend],
         align(right, text(size: 8pt, fill: forest, {
@@ -55,17 +61,21 @@
   #set text(size: 10pt)
   #body
 ]
-#let art(width: 100%, height: 108pt, brief: "") = block(width: width, height: height, stroke: .7pt + gold, fill: ivory, inset: 10pt, above: 8pt, below: 10pt)[
-  #align(center + horizon)[
-    #text(font: "Cinzel", size: 9pt, fill: forest)[ILLUSTRATION PLACEHOLDER]
-    #v(5pt)
-    #layout(size => text(size: 8pt)[#calc.round(size.width / 1pt + 20) × #calc.round(height / 1pt) pt · #(calc.round((size.width / 1pt + 20) / 72 * 100) / 100) × #(calc.round(height / 72pt * 100) / 100) in])
-    #v(5pt)
-    #text(size: 10pt, brief)
-  ]
+#let art-files = json("generated/art-files.json")
+#let illustration(asset, width: 100%, height: 160pt, fit: "contain") = block(width: width, height: height, above: 8pt, below: 8pt)[
+  #layout(size => context { let pos=here().position(); [#metadata((asset:asset,page:pos.page,x:pos.x/1pt,y:pos.y/1pt,width:size.width/1pt,height:height/1pt)) <art-placement>] })
+  #if asset in art-files {
+    image("art/interior/" + asset + ".png", width: 100%, height: height, fit: fit, alt: asset.replace("-", " "))
+  } else {
+    rect(width: 100%, height: height, fill: ivory, stroke: gold)[#align(center+horizon)[Artwork in production]]
+  }
 ]
-#let rule-table(cols, head, rows, widths: auto, pad: 5pt) = {
-  set text(size: 9.3pt)
+// A fractional block gives the remaining page height without making a new page.
+#let tail-art(asset) = block(height: 1fr, layout(size => {
+  if size.height >= 110pt { align(center+horizon, illustration(asset, height: calc.min(size.height - 12pt, 340pt))) }
+}))
+#let rule-table(cols, head, rows, widths: auto, pad: 5pt, font-size: 9.3pt) = {
+  set text(size: font-size)
   set par(leading: 0.28em, spacing: 3pt)
   table(columns: if widths == auto { cols } else { widths }, inset: (x: 5pt, y: pad),
     stroke: .3pt + rgb("#cfc7b3"),
@@ -77,28 +87,64 @@
   #place(center + horizon, rotate(45deg, square(size: 17pt, fill: forest, stroke: .7pt + gold)))
   #place(center + horizon, text(size: 9pt, fill: ivory, weight: "bold", tier))
 ]
-#let discipline-mark(name, rank) = box(inset: 1pt)[#image("icons/" + name + ".svg", width: 12pt) #text(size: 8pt, rank)]
+#let discipline-mark(name, rank, size: 25pt) = box(width: size, height: size)[
+  #if "badge-"+name in art-files {
+    place(center+horizon, image("art/interior/badge-"+name+".png",width:size,height:size,fit:"contain"))
+  } else {
+    place(center+horizon, circle(width:size,fill:forest,stroke:gold))
+  }
+  #if rank != "" {
+    place(center+horizon, circle(width: 12pt,fill:forest.transparentize(10%),stroke:.4pt+gold))
+    place(center+horizon, text(size:10pt,weight:"bold",fill:white,rank))
+  }
+]
+#let card-heading(title, key, tier: none, icons: [], title-size: 11pt) = block(width:100%,fill:forest,inset:7pt)[
+  #set text(fill:ivory)
+  #show heading.where(level:3): it => block(above:0pt,below:0pt,text(size:title-size,weight:"bold",fill:ivory,it.body))
+  #grid(columns: if tier == none {(1fr,auto)} else {(24pt,1fr,auto)},gutter:6pt,
+    ..if tier == none {()} else {(diamond(tier),)},
+    [#heading(level:3,outlined:true,title)#label(key)],
+    box(icons))
+]
 #let card(title, tier, req, action, attr, tags, price, key, body, icons: []) = {
-  let whole = [#block(above: 12pt, below: 4pt, sticky: true)[
-    #line(length: 100%, stroke: .8pt + gold)
-    #v(5pt)
-    #grid(columns: (24pt, 1fr, auto), gutter: 6pt,
-      diamond(tier),
-      block[#heading(level: 3, outlined: true, title)#label(key)],
-      align(right, icons))
-    #text(size: 8pt, fill: forest, req)
-    #v(4pt)
-    #text(size: 8.7pt, weight: "bold")[#action · #attr]
-    #linebreak()
-    #text(size: 8pt)[#tags #h(3pt)·#h(3pt) #price]
+  let whole = block(width:100%,stroke:.7pt+gold,radius:3pt,clip:true,fill:rgb("#fbf8ef"),above:7pt,below:5pt)[
+    #card-heading(title,key,tier:tier,icons:icons)
+    #block(inset:(x:7pt,y:5pt))[
+      #set text(size:9.4pt)
+      #set par(leading:.27em,spacing:.45em)
+      #set list(indent:9pt,body-indent:3pt,spacing:1.5pt)
+      #text(size:8.6pt,weight:"bold")[#action · #attr]
+      #h(1fr)#text(size:8pt,price)
+      #linebreak()#text(size:8pt)[#tags · #req]
+      #v(4pt)#line(length:100%,stroke:.4pt+gold)#v(3pt)
+      #body
+    ]
   ]
-  #body]
   layout(size => {
     let height = measure(block(width: size.width, whole)).height
     [#metadata((key: key, height: height / 1pt)) <card-size>]
     block(breakable: height > 675pt, whole)
   })
 }
+#let catalog-card(title,key,body) = block(width:100%,stroke:.7pt+gold,radius:3pt,clip:true,fill:rgb("#fbf8ef"),above:7pt,below:5pt,breakable:false)[
+  #card-heading(title,key)
+  #block(inset:7pt)[
+    #set text(size:9.4pt)
+    #set par(leading:.27em,spacing:.45em)
+    #set list(indent:9pt,body-indent:3pt,spacing:1.5pt)
+    #body
+  ]
+]
+#let companion-card(title,key,asset,intro,body) = block(width:100%,stroke:.8pt+gold,radius:4pt,clip:true,fill:rgb("#fbf8ef"),breakable:false,above:6pt,below:8pt)[
+  #card-heading(title,key,title-size:16pt)
+  #block(inset:9pt)[
+    #set text(size:9.5pt)
+    #set par(leading:.3em,spacing:.45em)
+    #grid(columns:(1.5fr,1fr),gutter:12pt,[#intro],[#illustration(asset,height:165pt)])
+    #v(5pt)#line(length:100%,stroke:.5pt+gold)#v(3pt)
+    #body
+  ]
+]
 #let form-field(title, height: 30pt) = block(width: 100%, height: height, stroke: .5pt + gold, inset: 5pt)[#text(size: 8pt, weight: "bold", title)]
 #let sheet-page(title, body) = {
   pagebreak(weak: true)

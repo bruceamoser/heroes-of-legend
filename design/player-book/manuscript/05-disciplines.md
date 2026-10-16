@@ -20,7 +20,8 @@ restore HP, treat lasting injuries, or combine all three. A nature-focused hero
 might become a beast, command an animal, control the ground, or guide companions
 through dangerous country. These are different choices even when they share a theme.
 
-The character paths that follow are suggestions, not subclasses. Mix them freely
+The four character paths that follow show different ways to build a hero: a Thinking
+Fighter, Green Healer, Spellblade and Light-Fingered Adventurer. They are examples, not subclasses. Mix them freely
 where you meet the requirements. The listed cards do not waive DP, tier or discipline
 requirements, and a suggested future card is not part of your starting equipment.
 
