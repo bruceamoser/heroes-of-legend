@@ -12,7 +12,7 @@
 
 **Weakness:** None
 
-**Healing:** Living: ordinary HP healing applies.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.
 
 
 **Senses:** Ordinary sight and hearing.
@@ -40,7 +40,7 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 ### Battle Mending — Main Action
 
-One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same cost.
+One adjacent living ally; free hand (the hart’s antlers provide this). The controller pays 3 HP first, bypassing resistance, and must remain above 0. The hart does not also pay this cost. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same controller-paid cost.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

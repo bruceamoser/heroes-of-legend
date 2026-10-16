@@ -12,7 +12,7 @@
 
 **Weakness:** None
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.
 
 
 **Senses:** Ordinary sight and hearing.

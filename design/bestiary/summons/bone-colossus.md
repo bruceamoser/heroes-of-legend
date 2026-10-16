@@ -12,7 +12,7 @@
 
 **Weakness:** None
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 

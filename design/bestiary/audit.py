@@ -95,6 +95,8 @@ for p in sorted((R/'creatures').glob('*.md')):
    if m:elig.setdefault((m[1],int(m[2])),[]).append(p.stem)
    sp=R/'summons'/(p.stem+'.md');need(sp.exists(),pre+'missing player reference');ps=sp.read_text()
    need(ps.splitlines()[0]==s.splitlines()[0],pre+'summon title differs')
+   healing=field(ps,'Healing').lower()
+   need('cannot be healed' in healing and 'disappears at 0 hp' in healing,pre+'summon must forbid healing and disappear at 0 HP')
    for phrase in ['No activity','no Reactions','**Attributes:**','**Defense modifier:**']:
     need(phrase.lower() in ps.lower(),pre+'player reference missing '+phrase)
    need(mod(field(ps,'Defense modifier'))==-ev,pre+'summon defense modifier wrong')

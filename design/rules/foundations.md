@@ -37,6 +37,19 @@ cap 3; do not sum matching armor. Minimum 1 damage applies to the whole damaging
 event, not each component. Physical is one type. Different resistances coexist.
 Conditions and displacement may matter more than a larger damage number.
 
+**Numerical weakness — approved October 16, 2026:** Weakness X increases the
+matching damage component by X before resistance. Apply each weakness once per
+damaging event. Use the highest applicable weakness of each type, not the sum of
+multiple sources, with a normal cap of 3. A damaging effect must include that
+type; weakness does not add an absent damage type.
+
+**Example:** Fire Weakness 2 changes 3 fire damage to 5 before resistance.
+An event dealing 4 physical and 1 fire instead becomes 4 physical and 3 fire;
+an event dealing only 4 physical is unchanged. Apply matching resistances next.
+
+Special vulnerabilities, such as fire stopping regeneration, use their printed
+procedure. They do not imply numerical weakness or extra damage unless stated.
+
 ## Movement
 
 Normal squares cost 1, difficult 2. Diagonal movement costs 1. Standing costs 2
@@ -46,10 +59,16 @@ positive remaining budget can enter the final square and stop even if that cost
 exceeds the budget.
 
 Forced collisions gather movable occupants into one moving group. All take the
-collision damage; the remaining movement continues together. A hard obstruction
-stops the group and adds 1 to remaining-budget collision damage. The original
-mover bounces one square opposite afterward if possible. Detailed group footprint
-and congested geometry remain open; no new card resolves them by fiat.
+collision damage using movement remaining at contact, before deducting the newly
+struck creature’s Stability. If movement remains, the group continues together.
+A hard obstruction stops the group and adds 1 to remaining-budget collision damage. The original
+mover bounces one square opposite afterward if possible.
+
+**Group placement — approved October 16, 2026:** move the group along the forced
+movement path and finish in separate legal spaces. If everyone cannot fit, stop
+at the last position where they can. The DA determines the exact arrangement;
+placement cannot pass through walls or grant extra forward movement. The original
+mover’s backward bounce still applies where possible.
 
 All actors have [Stability](stability.md): default 0, explicit grants only, maximum
 3, highest source. It consumes forced movement once per newly struck creature,
@@ -79,11 +98,28 @@ Do not let a new temporary effect become permanent merely because another is sta
 
 ## Summons, exploration and recovery
 
+**Summoned forms — approved October 16, 2026:** summons are shaped from energies
+to resemble and act like their creatures, not actual physical creatures brought
+into the scene. They cannot be healed and disappear at 0 HP, leaving no body.
+Ordinary unsummoned creatures retain their own healing rules.
+
+Summoned forms remain tangible: they occupy squares, block movement, take damage
+and can be pushed or grappled normally unless their card says otherwise. Their
+energy composition grants no automatic incorporeality or damage/control immunity.
+
 Summons require commands; see the [summoning reference](summoning.md). Without a
 command they do nothing, including following, lookout and alerts. Old orders grant
 no continued activity; existing conditions and durations still resolve. No free independent
 turns, inherent Reactions or summon chains. No count cap. Beyond 6 squares from the
 controller they disappear, including forced movement of either participant.
+Measure between the nearest occupied squares of controller and summon, using
+ordinary grid distance; this applies to every footprint. Exactly 6 squares is
+within the tether; beyond 6 causes immediate disappearance.
+
+**Summoned healing — approved October 16, 2026:** the controller pays the healing
+ability’s printed HP cost instead of the summon, once, before resolution. Payment
+bypasses resistance and must leave the controller above 0 HP. Use the summon’s
+printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
 
 Ordinary travel has no routine roll and no exhaustion track. Group checks occur
 outside combat only: each participant adds 1/2/3 to a declared target. State binary

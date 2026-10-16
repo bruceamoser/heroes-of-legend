@@ -11,6 +11,12 @@ They use normal cancellation and the three-net-dice limit; they are not new nume
 modifiers. Attacks still hit. Physical **DR** and other resistance apply after the
 outcome, using the highest matching value, cap 3, with minimum 1 damage per event.
 
+**Weakness X** adds X to the matching damage component before resistance, once
+per damaging event. Use the highest applicable weakness of each type, normal
+cap 3. The event must include that damage type. Special vulnerabilities use their
+printed procedure and grant no extra damage by implication. See the approved
+[damage foundations](../rules/foundations.md#turns-and-attacks) for examples.
+
 Each creature has the established turn budget: one Main Action, one Maneuver,
 one Reaction and movement. Several printed attacks are choices, not extra actions.
 Main converts to Maneuver, Maneuver to movement. The Reaction for an opportunity
@@ -29,10 +35,25 @@ can grant a higher value only for their printed duration.
 Deduct Stability once for the initial target and once for every new creature struck
 in the collision chain. Stop when movement runs out. Never deduct the same creature’s
 Stability twice in that movement. This does not resist Prone, grappling or conditions.
-See [Stability](../rules/stability.md) for the worked example and the remaining
-collision-damage timing question. Terrain consumes movement as already established.
+Resolve contact collision damage before deducting the newly struck creature’s
+Stability; apply applicable resistance to damage. See [Stability](../rules/stability.md)
+for the approved order and worked example. Terrain consumes movement as already established.
+
+Moving groups must finish in separate legal spaces. If everyone cannot fit, stop
+at the last position where they can; the DA determines the exact arrangement.
+Placement cannot pass through walls or grant extra forward movement. The original
+mover’s one-square backward bounce still applies where possible.
 
 ## Player-controlled creatures
+
+Summons are energy forms that resemble and act like their creatures, not actual
+physical creatures brought into the scene. They cannot be healed; at 0 HP they
+disappear and leave no body. Ordinary unsummoned creatures keep their own healing
+rules. A printed harmful Life effect is damage, not healing.
+
+These energy forms remain tangible unless their card says otherwise. They occupy
+squares, block movement, take damage and can be pushed or grappled normally;
+energy composition alone grants no incorporeality or damage/control immunity.
 
 A separate player reference prints attacker outcomes, attributes and command limits.
 Use it when a player rolls the creature’s attack; never reverse the DA table mentally.
@@ -49,16 +70,22 @@ activity or alerts. No summon Reactions, opportunities or summon chains. Existin
 conditions still tick on the controller’s turn. Summon selection is explicit, not
 inferred from category or CV.
 
+Measure the six-square tether between the nearest occupied squares of controller
+and summon, using ordinary grid distance. At 6 squares it remains present; beyond
+6 it immediately disappears. Movement of either participant, including forced
+movement, can break the tether. A large footprint does not change this procedure.
+
 ## What is not settled by a creature card
 
 Cards define their own exceptional capabilities and area dimensions; they do not
-establish new general hiding outcomes, construct repair, falling rounding, numerical
-weakness arithmetic or universal flight incapacitation rules. The prior global
+establish new general hiding outcomes, construct repair, falling rounding or
+universal flight incapacitation rules. Numerical weakness now follows the approved
+October 16 rule above. The other prior global
 proposals are withdrawn from this play reference. Existing core rules and DA rulings
 apply until Bruce settles those boundaries.
 
-In particular, the summoned-healer controller tax was not agreed. The healer pays
-its printed life cost under the existing healing rule. The resettable summoned-body
-problem remains explicitly open in [the review](review.md); it is not silently fixed
-by inventing a different payer. Numerical CV and budget assumptions remain design
-notes, not proof of encounter difficulty.
+**Summoned healing — approved October 16, 2026:** the controller pays a summoned
+healer’s printed HP cost instead of the summon, once, before resolution. The payment
+bypasses resistance and must leave the controller above 0 HP. The summon uses its
+own printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
+Numerical CV and budget assumptions remain design notes, not proof of encounter difficulty.

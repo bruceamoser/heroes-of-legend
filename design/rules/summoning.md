@@ -13,6 +13,24 @@ A category is an explicit bestiary tag. A ghost is not automatically selectable
 under both Spirit and Undead; its entry must say so. These are summoned forms, not
 permission to seize an existing creature or extract permanent equipment.
 
+## Summoned energy forms — approved October 16, 2026
+
+A summon is shaped from energies to resemble and act like the chosen creature;
+it is not an actual physical creature brought into the scene. It cannot be healed.
+Its HP tracks how much damage the form can sustain. At 0 HP it disappears rather
+than leaving a body. The existing duration, tether and controller-disappearance
+rules still apply.
+
+**Tangibility — approved October 16, 2026:** summoned forms occupy squares and
+block movement normally. They can take damage and be pushed or grappled normally
+unless their card explicitly says otherwise. Being made from energy does not
+automatically make a summon incorporeal or grant damage or control immunities.
+
+This restriction concerns receiving healing. A summon with a printed healing
+ability can still heal an eligible other creature, with its controller paying the
+printed cost as described below. Ordinary unsummoned creatures keep their own
+healing rules. A printed harmful Life effect is damage, not healing.
+
 ## Pay for activity
 
 **Agreed:** an uncommanded summon does nothing. It does not follow, keep watch,
@@ -36,6 +54,18 @@ and actions directing it.
 
 Commanding has no roll. Any permitted attack or task uses the summon profile’s
 printed procedure. A command is not automatic success or a way to invent a skill.
+
+## Healing through a summon — approved October 16, 2026
+
+When a summoned creature uses a healing ability, its controller pays the ability’s
+printed HP cost instead of the summon. Pay once, before resolving the ability,
+bypassing resistance. The controller must remain above 0 HP after payment or the
+ability cannot be used. The summon still uses its own printed attribute and healing
+outcomes; its command and action requirements are unchanged.
+
+For example, the Moon Hart’s Battle Mending costs its controller 3 HP, then the
+player rolls the hart’s Reason for 5/10/15 healing. The hart does not also pay 3 HP.
+An ordinary unsummoned healer continues to pay its own cost.
 
 ## Orders in ordinary language
 
@@ -63,6 +93,17 @@ conditions, durations, tether checks and already-resolved effects continue norma
 These are consequences, not permission for new activity. A previous Defend benefit
 lasts only to its printed expiry; it does not renew itself.
 
+## Six-square tether — approved October 16, 2026
+
+Measure ordinary grid distance between the nearest occupied squares of the
+controller and summon. Diagonals count normally as one square. The summon remains
+present at a distance of 6 squares; if the nearest distance exceeds 6, it immediately
+disappears. Voluntary or forced movement of either participant can break the tether.
+
+For example, a large summon remains present with its nearest square 6 squares away
+and its farthest square 7 away. If its nearest square becomes 7 squares away, it
+disappears. Neither creature’s center nor farthest occupied square sets the distance.
+
 The summon profile must anchor any “your turn” duration or condition tick to the
 controller’s turn. Passive defenses such as resistance remain applicable. Do not
 import automatic attacks, active auras or triggered abilities from a monster entry
@@ -73,12 +114,13 @@ without an explicit summon-profile procedure consistent with command-only activi
 The [summon selection](../bestiary/summon-choices.md) provides 73 proposed entries,
 covering all six categories at tiers 1, 3 and 7. Each prints HP, all six attributes,
 attack and target-defense attributes, movement, footprint, senses, resistance,
-healing compatibility, command options and restrictions. These permissions await
+the no-healing rule, command options and restrictions. These permissions await
 Bruce’s review; category or CV alone never authorizes a creature.
 
 The [creature procedure](../bestiary/procedure.md) and summon selection document
-explicit working proposals for large-body tether measurement, geometry and ordinary
-command activities. The old embedded creature samples remain retired. Use the new
+the permitted command activities. Use the approved tether measurement above and
+the [moving-group placement rules](stability.md) where relevant. The old embedded
+creature samples remain retired. Use the new
 entry itself, not a historical sample or a monster’s narrative tactics as a standing
 order. No activity, alerts or independent Reactions without the permitted command.
 

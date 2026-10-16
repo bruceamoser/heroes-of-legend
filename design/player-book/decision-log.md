@@ -10,16 +10,39 @@ proposal wording. These are visible provisional table rulings only where needed.
    entry; offensive spell healing remains intact. No new potion attack is granted.
 2. If minimum damage causes a wound after all damage components were resisted,
    choose among the attack's original types (player chooses). Marked playtest ruling.
-3. Complex moving-group geometry: stop before illegal overlap and let the DA place
-   the group in the nearest legal squares along its path. Marked playtest ruling;
-   no new squeeze-through or teleport permission.
-4. Numerical creature weakness is not defined by the approved general references.
-   Apply a printed explicit procedure; otherwise agree with the DA before use.
-   Do not silently equate it to resistance with its sign reversed.
+3. **Resolved October 16, 2026:** moving groups finish in separate legal spaces.
+   If everyone cannot fit, stop at the last position where they can; the DA decides
+   the exact arrangement. Placement cannot pass through walls or grant extra forward
+   movement. The original mover’s backward bounce still applies where possible.
+   See [Stability](../rules/stability.md).
+   Replace the provisional paragraph in the next player-book revision; the published
+   v16.0.0 PDF is unchanged.
+4. **Resolved October 16, 2026:** numerical weakness adds its value to the matching
+   damage component before resistance, once per damaging event. Use the highest
+   applicable value of each type, normal cap 3. Special vulnerabilities retain
+   their explicit procedures. See [foundations](../rules/foundations.md#turns-and-attacks).
+   The published v16.0.0 PDF predates this decision; synchronize its teaching text
+   in the next book revision.
 5. Grit has no routine recharge in the approved sources. The book grants only its
    starting value and explicit advancement/card increases; rest does not restore it.
-6. Withdrawn global bestiary proposals (including a summoned-healer controller tax)
-   remain withdrawn. Approval of open proposals does not revive them.
-7. The six-square summon tether is established, but the measurement point for a
-   creature occupying several squares is not specified. Agree on that measurement
-   with the DA before summoning a large form; this remains a design question.
+6. **Summoned healing resolved October 16, 2026:** Bruce explicitly approved the
+   controller paying a summoned healer’s printed HP cost instead of the summon.
+   Pay once before resolution, bypass resistance, and remain above 0 HP; the summon
+   uses its own attribute and outcomes. Ordinary unsummoned healers pay their own
+   cost. Synchronize reader text in the next book revision; the published v16.0.0
+   PDF is unchanged. Other withdrawn proposals remain withdrawn unless approved.
+7. **Resolved October 16, 2026:** measure the six-square summon tether between the
+   nearest occupied squares of controller and summon, using ordinary grid distance.
+   At 6 squares the summon remains present; beyond 6 it immediately disappears.
+   Voluntary and forced movement of either participant can break the tether.
+   See [summoning](../rules/summoning.md). Replace the provisional measurement text
+   in the next player-book revision; the published v16.0.0 PDF is unchanged.
+8. **Summoned forms clarified October 16, 2026:** summons are energy forms shaped
+   to resemble and act like creatures, not actual physical creatures. They cannot
+   be healed and disappear at 0 HP without leaving a body. Summon-profile healing
+   permissions are superseded by this rule; ordinary creatures are unchanged.
+   Printed harmful Life effects remain damage rather than healing. The next book
+   revision must synchronize the explanation and profiles; v16.0.0 is unchanged.
+   **Tangibility also approved October 16:** the forms occupy squares, block movement,
+   take damage and can be pushed or grappled normally unless their card says otherwise.
+   Their nature grants no automatic incorporeality or damage/control immunity.
