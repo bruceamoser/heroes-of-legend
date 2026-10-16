@@ -107,6 +107,11 @@ Measure between the nearest occupied squares of controller and summon, using
 ordinary grid distance; this applies to every footprint. Exactly 6 squares is
 within the tether; beyond 6 causes immediate disappearance.
 
+**Summoned healing — approved October 16, 2026:** the controller pays the healing
+ability’s printed HP cost instead of the summon, once, before resolution. Payment
+bypasses resistance and must leave the controller above 0 HP. Use the summon’s
+printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
+
 Ordinary travel has no routine roll and no exhaustion track. Group checks occur
 outside combat only: each participant adds 1/2/3 to a declared target. State binary
 or cumulative before rolling. No group crafting, recipe derivation or wound treatment.

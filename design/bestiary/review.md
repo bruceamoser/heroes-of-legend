@@ -42,13 +42,17 @@ travel. The [Stability reference](../rules/stability.md) records the approved ex
 
 The first draft supplied unapproved general hiding outcomes, flight/falling
 interpretations, construct workshop repair, weakness arithmetic and a controller
-HP tax for summoned healing. This revision does not present those as established
-rules. Creature-specific abilities still have proposed values and explicit effects;
+HP tax for summoned healing. Those were withdrawn at the time of this review;
+subsequent approvals are recorded below and in the current rules. Creature-specific
+abilities still have proposed values and explicit effects;
 that is content design, not permission to silently rewrite the core engine.
 
-The summoned Moon Hart now pays its own spell cost under the existing rule. Recasting
-a fresh healer can therefore reset its HP pool. That is a real balance/design question
-for Bruce, not something this review resolves by assigning the cost to someone else.
+**Healing update, October 16, 2026:** Bruce explicitly approved the controller paying
+a summoned healer’s printed HP cost instead of the summoned body. Pay once before
+resolution, bypass resistance, and remain above 0 HP; use the summon’s own attribute
+and outcomes. The Moon Hart’s summon profile now names its controller as the payer.
+Ordinary unsummoned healers still pay their own cost.
+
 **Tether update, October 16, 2026:** Bruce approved ordinary grid distance between
 the nearest occupied squares of controller and summon. Distance 6 is valid;
 beyond 6 immediately ends the summon, including forced movement. Other unresolved

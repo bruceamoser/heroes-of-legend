@@ -25,8 +25,12 @@ proposal wording. These are visible provisional table rulings only where needed.
    in the next book revision.
 5. Grit has no routine recharge in the approved sources. The book grants only its
    starting value and explicit advancement/card increases; rest does not restore it.
-6. Withdrawn global bestiary proposals (including a summoned-healer controller tax)
-   remain withdrawn. Approval of open proposals does not revive them.
+6. **Summoned healing resolved October 16, 2026:** Bruce explicitly approved the
+   controller paying a summoned healer’s printed HP cost instead of the summon.
+   Pay once before resolution, bypass resistance, and remain above 0 HP; the summon
+   uses its own attribute and outcomes. Ordinary unsummoned healers pay their own
+   cost. Synchronize reader text in the next book revision; the published v16.0.0
+   PDF is unchanged. Other withdrawn proposals remain withdrawn unless approved.
 7. **Resolved October 16, 2026:** measure the six-square summon tether between the
    nearest occupied squares of controller and summon, using ordinary grid distance.
    At 6 squares the summon remains present; beyond 6 it immediately disappears.

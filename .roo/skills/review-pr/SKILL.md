@@ -27,6 +27,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Ability tier/minimum levels 1/3/7 and DP costs 2/4/8 are correct. Discipline ranks use the current class-affinity schedule and are bought sequentially; no retired card chains.
 - [ ] Discipline prerequisites valid and consistent.
 - [ ] Summon tether uses ordinary grid distance between nearest occupied squares of controller and summon: 6 remains valid, beyond 6 immediately ends the summon, including forced movement. Do not measure from centers or farthest edges.
+- [ ] A summoned healer’s printed HP cost is paid once by its controller, before resolution, bypassing resistance and leaving the controller above 0 HP. Preserve the summon’s own attribute/outcomes and ordinary unsummoned healers’ self-payment.
 - [ ] No mechanics contradict current `design/rules/`, `design/development.md`, card conventions, or later explicit decisions. Historical documents are not newer authority.
 
 ### Cross-References

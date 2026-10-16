@@ -75,8 +75,8 @@ October 16 rule above. The other prior global
 proposals are withdrawn from this play reference. Existing core rules and DA rulings
 apply until Bruce settles those boundaries.
 
-In particular, the summoned-healer controller tax was not agreed. The healer pays
-its printed life cost under the existing healing rule. The resettable summoned-body
-problem remains explicitly open in [the review](review.md); it is not silently fixed
-by inventing a different payer. Numerical CV and budget assumptions remain design
-notes, not proof of encounter difficulty.
+**Summoned healing — approved October 16, 2026:** the controller pays a summoned
+healer’s printed HP cost instead of the summon, once, before resolution. The payment
+bypasses resistance and must leave the controller above 0 HP. The summon uses its
+own printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
+Numerical CV and budget assumptions remain design notes, not proof of encounter difficulty.
