@@ -28,6 +28,6 @@ If several concealments are present, the DA chooses one relevant to your stated 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** reveal-the-threshold · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** reveal-the-threshold
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

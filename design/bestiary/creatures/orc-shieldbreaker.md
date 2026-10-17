@@ -72,7 +72,6 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **ID:** creature-orc-shieldbreaker
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Displacer · **CV:** 21
 

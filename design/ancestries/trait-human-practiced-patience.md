@@ -10,6 +10,6 @@ Once per day, declare before an ordinary noncombat roll that you are taking the 
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-human-practiced-patience · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-human-practiced-patience
 
 [Ancestry choices](human.md)

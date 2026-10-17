@@ -81,7 +81,6 @@ The next player attack against it before its next turn has 1 additional Bane; wh
 
 **ID:** creature-ettin
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Displacer · **CV:** 49
 

@@ -26,6 +26,6 @@ Strike before the warning can leave its mouth. Requires melee weapon. The silenc
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** silence-the-alarm · **Status:** Proposal for Bruce’s review.
+**ID:** silence-the-alarm
 
 [Build this character](../paths/quiet-knife.md) · [Card conventions](../card-conventions.md)

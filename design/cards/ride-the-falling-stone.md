@@ -26,6 +26,6 @@ Resolve before the fall. Movement can cross collapsing support but not empty air
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** ride-the-falling-stone · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** ride-the-falling-stone
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

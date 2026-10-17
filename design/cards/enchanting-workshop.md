@@ -30,6 +30,6 @@ Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food,
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** enchanting-workshop · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** enchanting-workshop
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -6,9 +6,9 @@
 
 **Agreed:** minimum 0 in Agility, Knowledge; HP contribution +2. No multiclassing.
 
-**Proposal:** choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.
 
-**Proposed pricing:** Home: Flame, Frost. Adjacent: Storm, Scholarship, Calling. All others Foreign; no Opposed assignment proposed yet.
+**Discipline pricing:** Home: Flame, Frost. Adjacent: Storm, Scholarship, Calling. All others Foreign; no Opposed disciplines.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
 
@@ -39,7 +39,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 - **Level 3:** Move after casting, protect one creature from an area, or turn spell pressure aside.
 - **Level 7:** Move a companion through space, shape a spell's final displacement, or ward a circle.
 
-See the [full signature review](../reviews/1153-signature-review.md) for comparisons
-and remaining playtest questions. Individual effects remain proposals.
 
-**Starting coin contribution:** +6 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +6 coins. See [starting coins](../starting-coins.md).

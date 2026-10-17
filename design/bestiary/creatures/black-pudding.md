@@ -72,7 +72,6 @@ One adjacent creature gains Slowed 1. Once per turn; no immediate damage. This d
 
 **ID:** creature-black-pudding
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Ooze · **Role:** Pursuit controller · **CV:** 23
 

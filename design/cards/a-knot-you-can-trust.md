@@ -22,6 +22,6 @@ While making a climb, you may secure or release one held rope at a suitable anch
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** a-knot-you-can-trust · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-knot-you-can-trust
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

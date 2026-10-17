@@ -80,7 +80,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-storm-column
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Area displacer · **CV:** 35
 

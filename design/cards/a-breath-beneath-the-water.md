@@ -22,6 +22,6 @@ The target can breathe ordinary water and air for one hour. This does not change
 
 **Limits:** No HP is restored, so this is not a healing spell and has no Life-energy payment.
 
-**ID:** a-breath-beneath-the-water · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-breath-beneath-the-water
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

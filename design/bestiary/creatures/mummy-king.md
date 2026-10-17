@@ -76,7 +76,6 @@ One willing active ally within 3 squares that can hear it may spend that ally’
 
 **ID:** creature-mummy-king
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Fear controller · **CV:** 41
 

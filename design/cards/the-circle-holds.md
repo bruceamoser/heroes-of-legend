@@ -22,6 +22,6 @@ Until the start of your next turn, each gains 1 Boon to defense against spells. 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-circle-holds · **Status:** Proposal for Bruce’s review.
+**ID:** the-circle-holds
 
 [Build this character](../paths/ward-weaver.md) · [Card conventions](../card-conventions.md)

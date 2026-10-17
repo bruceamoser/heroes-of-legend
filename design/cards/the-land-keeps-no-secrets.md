@@ -24,6 +24,6 @@ Identify one observable route hazard and an available way around it, if any. No 
 
 **Limits:** Reexamining the same hazard does not refresh an expended Boon. No routine travel roll is introduced.
 
-**ID:** the-land-keeps-no-secrets · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** the-land-keeps-no-secrets
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

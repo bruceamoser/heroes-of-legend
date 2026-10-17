@@ -22,6 +22,6 @@ Hold your place beside them. Until the start of your next turn, that ally gains 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-shelter-of-light · **Status:** Proposal for Bruce’s review.
+**ID:** a-shelter-of-light
 
 [Build this character](../paths/sun-knight.md) · [Card conventions](../card-conventions.md)

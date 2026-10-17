@@ -26,7 +26,7 @@ Moser’s law of conservation of Life energy: pay 3 HP before rolling; bypass re
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** sustain-the-failing · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** sustain-the-failing
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
 

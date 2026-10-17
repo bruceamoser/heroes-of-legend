@@ -10,6 +10,6 @@ Once per combat, after a creature damages you, gain 1 Boon to your next attack a
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-dwarf-carved-history · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-dwarf-carved-history
 
 [Ancestry choices](dwarf.md)

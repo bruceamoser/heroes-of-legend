@@ -10,6 +10,6 @@ Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowled
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-elf-age-of-memory · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-elf-age-of-memory
 
 [Ancestry choices](elf.md)

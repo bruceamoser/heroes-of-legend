@@ -79,7 +79,6 @@ One hearing creature within 2 squares gains Deafened 1. Once per turn; no damage
 
 **ID:** creature-storm-giant
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Disabler · **CV:** 54
 

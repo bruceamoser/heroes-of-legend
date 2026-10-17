@@ -65,7 +65,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-road-bandit
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Skirmisher · **CV:** 9
 

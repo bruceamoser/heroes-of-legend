@@ -76,7 +76,6 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **ID:** creature-zombie-brute
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Knockdown fighter · **CV:** 22
 

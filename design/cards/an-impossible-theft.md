@@ -28,6 +28,6 @@ If it reaches you, catch it in a free hand. Otherwise leave it in the last squar
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** an-impossible-theft · **Status:** Proposal for Bruce’s review.
+**ID:** an-impossible-theft
 
 [Build this character](../paths/light-fingered-adventurer.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ The rune takes the weight. For this damage event, gain physical resistance 3. Af
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** stone-on-your-shoulders · **Status:** Proposal for Bruce’s review.
+**ID:** stone-on-your-shoulders
 
 [Build this character](../paths/rune-bound-warrior.md) · [Card conventions](../card-conventions.md)

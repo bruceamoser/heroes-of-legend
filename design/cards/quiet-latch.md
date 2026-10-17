@@ -28,6 +28,6 @@ Before rolling, agree with the DA on what you are trying to accomplish and what 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** quiet-latch · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** quiet-latch
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

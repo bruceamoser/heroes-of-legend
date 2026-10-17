@@ -22,6 +22,6 @@ Form a one-square-wide bridge across a gap or water. Both ends must join solid s
 
 **Limits:** One active bridge per caster. Creatures cannot be enclosed or lifted by its creation.
 
-**ID:** ice-across-the-break · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** ice-across-the-break
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

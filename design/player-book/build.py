@@ -56,27 +56,16 @@ def clean(p):
  if p.parent.name=='disciplines':
   s=re.sub(r'Ranks 1, 2 and 3 are purchased in order\..*?(?=\n\[Discipline index)', '', s, flags=re.S)
  if p.parent.name=='equipment':s=s.replace('No DP price. Purchase does not grant training or an ability.','')
- s=s.replace('**Status:** Proposal. Choose', 'Choose')
  if p.parent==BOOK/'manuscript': return s
  s=re.sub(r'\*\*ID:\*\*[^\n]*','',s)
  s=re.sub(r'(?:- )?\*\*Status:\*\*[^\n]*','',s)
- s=re.sub(r'\*\*Trait status:\*\* revised proposals\.','',s)
- s=re.sub(r'\*\*Type:\*\* (Culture|Background)\. \*\*Status:\*\* Proposal\.',r'**Type:** \1.',s)
  s=re.sub(r'\*\*Inspiration lens:\*\*.*?This is a character\s*idea,', 'This is a character idea,',s,flags=re.S)
  if p.parent.name=='paths':s=s.replace('This is a character idea, not a new class, subclass or prerequisite chain.','')
  # Navigation and review apparatus do not belong in the printed entry.
  s='\n'.join(line for line in s.splitlines() if not (line.startswith('[') and ('](' in line)) and not re.match(r'^-?\s*\*\*ID:',line))
- s=re.sub(r'See the \[full signature review\].*?Individual effects remain proposals\.','',s,flags=re.S)
  s=s.replace('The revised options aim for these moments, with a deliberate advantage over shared\ncards of their tier. Each is an independent choice, not a progression chain.','Each signature is an independent choice, not a progression chain.')
  s=s.replace('**Agreed:**','**Class foundations:**').replace('**Agreed concept:**','**Identity:**').replace('**Proposed foundations:**','**Class foundations:**').replace('**Proposal:**','**Starting disciplines:**').replace('**Proposed starting disciplines:**','**Starting disciplines:**').replace('**Proposed pricing:**','**Discipline pricing:**')
- s=s.replace(' (proposed allocation)','').replace('Proposal: ','').replace('no Opposed assignment proposed yet','no Opposed disciplines').replace('no Opposed assignment proposed','no Opposed disciplines')
- s=s.replace('New affinities are proposals. ','').replace('These are invitations to a familiar fantasy,','These are invitations to a familiar fantasy,')
- s=re.sub(r'Proposal; see \[market rules\]\([^)]*\)\.', '',s)
- s=s.replace('These are fresh proposals, not approved subclasses or mandatory shopping lists.','These are suggestions, not subclasses or mandatory shopping lists.')
- s=s.replace('This is a proposed ordinary recipe;','This is an ordinary recipe;')
- s=s.replace('This card does not target an unwilling creature.','An unwilling creature harmed by healing can be targeted as described below.')
  s=s.replace('**Offensive healing — latest agreement:**','**Offensive healing:**')
- if p.name=='use-a-healing-potion.md': s=s.split('**Offensive healing:')[0]
  if p.parent.name=='summons':
   s=re.sub(r' \(CV \d+\)','',s)
   s=s.replace('**Summoned form — player reference.**','')
@@ -91,7 +80,6 @@ def clean(p):
   s=s.replace('This is not a closed or proven macroeconomy: foraging success,','Foraging success,').replace('Large production should be\nreviewed before assigning guaranteed commercial income.','Discuss large commercial projects with the DA before assuming guaranteed income.')
  if p.name=='starting-coins.md':
   s=re.sub(r'\*\*Agreed target:\*\*.*?\n\n','',s,count=1,flags=re.S)
-  s=s.replace('These allocations are a starting proposal, not an inference from the characters’ biology.','These allocations describe preparation, not biology.')
  if p.name=='summon-choices.md':
   s=s.replace('**Proposed permissions:**','**Selection:**').replace('Minimum card tier', 'Tier').replace('Useful command role', 'Role')
  if p.name=='conditions.md':
@@ -102,7 +90,6 @@ def clean(p):
   s=s[s.index('## Physical\n'):]
   s=s.replace('Broad activity Banes replace the earlier limb-, Force-, and attribute-specific penalties.','The DA judges when a physical-activity penalty applies.')
   s=re.sub(r'##? [^\n]*?(?:design|review|concerns)[^\n]*\n.*?(?=\n##|\Z)','',s,flags=re.S|re.I)
- s=s.replace(' — proposed', '').replace(' proposal', '').replace('proposed ', '')
  if p.parent.name=='characters':
   s=re.sub(r'\b(?:Home|Adjacent|Foreign|Opposed);', 'Class price;', s)
   s=re.sub(r'###? Summoning catalog.*?(?=\n##|\Z)', '', s, flags=re.S)
@@ -236,8 +223,7 @@ def manuscript(filename,n,title,artbrief=None):
  elif filename=='09-abilities.md':
   v+=reading(p.read_text(),p)+'#tail-art("learned-relics")\n'
  elif filename=='11-summons.md':
-  artkey={'05-disciplines.md':'fields-of-study','09-abilities.md':'learned-relics','11-summons.md':'summoning-ring'}[filename]
-  v+='#grid(columns: (1fr,1fr), gutter:18pt, ['+render(p.read_text(),p)+'], [#illustration('+q(artkey)+',height:530pt)])\n'
+  v+=reading(p.read_text(),p)+'#illustration("summoning-ring",height:220pt)\n'
  else:v+=reading(p.read_text(),p)
  if filename not in ('14-reference.md','05-disciplines.md','09-abilities.md','11-summons.md','06-playing.md','07-adventure.md','01-welcome.md'):v+='#tail-art('+q({'01-welcome.md':'journey','02-creation.md':'journeyman-kit','05-disciplines.md':'disciplines','06-playing.md':'combat','07-adventure.md':'adventure','08-recovery.md':'recovery','09-abilities.md':'abilities','10-equipment.md':'equipment','11-summons.md':'summon-ancestor-guardian'}[filename])+')\n'
  return v
@@ -459,7 +445,7 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
  parts.append(flow(entries))
 (GEN/'body.typ').write_text(''.join(parts))
 manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':350,'ancestry':4,'trait':20,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':43,'recipes':10,'summon':73,'character':6}}
-manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json']]
+manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',ROOT/'release/version.json']]
 manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Included',len(included),'records;',len(card_records),'abilities;',len(links),'internal links.')

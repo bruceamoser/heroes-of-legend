@@ -22,6 +22,6 @@ For the rest of this turn, your movement makes no audible footfalls and does not
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** no-footfall-at-all · **Status:** Proposal for Bruce’s review.
+**ID:** no-footfall-at-all
 
 [Build this character](../paths/night-walker.md) · [Card conventions](../card-conventions.md)

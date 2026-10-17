@@ -22,6 +22,6 @@ Stand without spending movement, then move up to 2 squares without provoking. Yo
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** armored-recovery · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** armored-recovery
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

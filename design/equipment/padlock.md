@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-padlock · **Status:** Market proposal for Bruce’s review.
+**ID:** item-padlock
 
 **Market price:** 5 coins. **Bulk:** 1.
 

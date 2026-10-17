@@ -26,6 +26,6 @@ Reduce temporary Bleeding only, to a minimum of 0. A starred source requires its
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** urgent-bandaging · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** urgent-bandaging
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

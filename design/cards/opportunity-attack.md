@@ -24,6 +24,6 @@ Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outc
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** opportunity-attack · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** opportunity-attack
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

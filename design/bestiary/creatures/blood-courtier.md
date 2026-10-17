@@ -82,7 +82,6 @@ Take the appearance and voice of a person of the same footprint, until dismissed
 
 **ID:** creature-blood-courtier
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Predator · **CV:** 40
 

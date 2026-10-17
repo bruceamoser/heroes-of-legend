@@ -22,6 +22,6 @@ Follow a leaping spark to the chosen square. This is teleportation and does not 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** step-through-the-spark · **Status:** Proposal for Bruce’s review.
+**ID:** step-through-the-spark
 
 [Build this character](../paths/spellblade.md) · [Card conventions](../card-conventions.md)

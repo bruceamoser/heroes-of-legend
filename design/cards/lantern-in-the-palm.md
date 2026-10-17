@@ -22,6 +22,6 @@ Create a light that moves with you and illuminates squares within 3 squares alon
 
 **Limits:** One active light per user. Recasting replaces it; lights grant no stacking bonus.
 
-**ID:** lantern-in-the-palm · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** lantern-in-the-palm
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

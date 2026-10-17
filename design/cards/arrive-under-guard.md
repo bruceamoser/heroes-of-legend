@@ -22,6 +22,6 @@ Move up to 2 squares toward the ally along a legal route. This movement provokes
 
 **Limits:** A recipient can hold only one unused defense benefit from this card.
 
-**ID:** arrive-under-guard · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** arrive-under-guard
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

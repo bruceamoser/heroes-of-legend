@@ -74,7 +74,6 @@ Move up to 2 squares using its printed fly speed. Pay normal movement costs and 
 
 **ID:** creature-pegasus
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Displacer · **CV:** 21
 

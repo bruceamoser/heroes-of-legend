@@ -26,6 +26,6 @@ Requires an actual usable support. No automatic extra attack. If the rolled dist
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** swing-into-trouble · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** swing-into-trouble
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

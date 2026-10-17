@@ -26,6 +26,6 @@ Use lock tools on one adjacent ordinary lock. An attempt takes a Main Action, in
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-lock-has-a-language · **Status:** Proposal for Bruce’s review.
+**ID:** a-lock-has-a-language
 
 [Build this character](../paths/light-fingered-adventurer.md) · [Card conventions](../card-conventions.md)

@@ -74,7 +74,6 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 
 **ID:** creature-unicorn
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Displacer · **CV:** 24
 

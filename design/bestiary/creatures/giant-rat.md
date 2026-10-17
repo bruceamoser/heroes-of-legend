@@ -70,7 +70,6 @@ Move up to 2 squares. Treat rubble squares as normal terrain for this movement o
 
 **ID:** creature-giant-rat
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Attrition striker · **CV:** 5
 

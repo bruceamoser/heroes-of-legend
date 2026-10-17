@@ -24,6 +24,6 @@ After examining a site, learn one present, observable environmental danger to ca
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** a-good-place-to-stop · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-good-place-to-stop
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

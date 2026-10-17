@@ -28,6 +28,6 @@ Persuade a small part of the stone to soften. Create passage progress toward a t
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** teach-stone-to-bend · **Status:** Proposal for Bruce’s review.
+**ID:** teach-stone-to-bend
 
 [Build this character](../paths/shape-scholar.md) · [Card conventions](../card-conventions.md)

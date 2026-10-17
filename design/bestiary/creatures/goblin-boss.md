@@ -70,7 +70,6 @@ One willing active ally within 3 squares that can hear it may spend that ally’
 
 **ID:** creature-goblin-boss
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Knockdown fighter · **CV:** 20
 

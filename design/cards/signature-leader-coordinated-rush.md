@@ -24,6 +24,6 @@ Each ally may move up to 3 squares without provoking, then make one free Basic M
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-leader-coordinated-rush · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-coordinated-rush
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

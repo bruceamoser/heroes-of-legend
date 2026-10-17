@@ -70,7 +70,6 @@ Copy the appearance and voice of one observed person of the same Size until dism
 
 **ID:** creature-green-hag
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Debuffer · **CV:** 21
 

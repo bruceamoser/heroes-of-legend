@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-writing-kit · **Status:** Market proposal for Bruce’s review.
+**ID:** item-writing-kit
 
 **Market price:** 6 coins. **Bulk:** 1.
 

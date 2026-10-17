@@ -71,7 +71,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-emberling
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Fire skirmisher · **CV:** 8
 

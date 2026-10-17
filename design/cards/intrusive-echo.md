@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Reason.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** intrusive-echo · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** intrusive-echo
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

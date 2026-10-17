@@ -30,6 +30,6 @@ Resolve the targets in an order you choose. No direct damage; normal collisions 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-unbalanced-scatter-the-line · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-scatter-the-line
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

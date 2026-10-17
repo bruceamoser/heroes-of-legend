@@ -30,6 +30,6 @@ If this completes the target, you may move up to 2 squares through the opened ro
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-unbalanced-crush-the-barrier · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-crush-the-barrier
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

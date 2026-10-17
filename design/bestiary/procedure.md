@@ -84,14 +84,11 @@ and summon, using ordinary grid distance. At 6 squares it remains present; beyon
 6 it immediately disappears. Movement of either participant, including forced
 movement, can break the tether. A large footprint does not change this procedure.
 
-## What is not settled by a creature card
+## Shared rules and healing
 
-Cards define their own exceptional capabilities and area dimensions; they do not
-establish new general hiding outcomes, construct repair, falling rounding or
-universal flight incapacitation rules. Numerical weakness now follows the approved
-October 16 rule above. The other prior global
-proposals are withdrawn from this play reference. Existing core rules and DA rulings
-apply until Bruce settles those boundaries.
+Cards define exceptional capabilities and area dimensions. Use the shared
+[session rules](../rules/session-resolution.md) for ordinary hiding, falling,
+interruption and movement; creature categories add no unprinted rules.
 
 **Summoned healing — approved October 16, 2026:** the controller pays a summoned
 healer’s printed HP cost instead of the summon, once, before resolution. The payment

@@ -26,6 +26,6 @@ Choose an eligible willing creature and roll Knowledge. Reduce its temporary Poi
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** relieve-poison · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** relieve-poison
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

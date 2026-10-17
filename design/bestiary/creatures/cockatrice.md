@@ -72,7 +72,6 @@ Move up to 2 squares using its printed fly speed. Pay normal movement costs and 
 
 **ID:** creature-cockatrice
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Disabler · **CV:** 13
 

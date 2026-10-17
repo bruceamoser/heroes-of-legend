@@ -26,6 +26,6 @@ Study how it moves and place a ranged shot where it will be. Requires ranged wea
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** read-the-quarry · **Status:** Proposal for Bruce’s review.
+**ID:** read-the-quarry
 
 [Build this character](../paths/trail-hunter.md) · [Card conventions](../card-conventions.md)

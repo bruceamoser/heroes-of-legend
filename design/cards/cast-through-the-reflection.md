@@ -22,6 +22,6 @@ Place a shimmering casting point in the chosen square. Your next Main Action spe
 
 **Limits:** Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.
 
-**ID:** cast-through-the-reflection · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** cast-through-the-reflection
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

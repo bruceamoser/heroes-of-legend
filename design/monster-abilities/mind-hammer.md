@@ -6,7 +6,6 @@
 
 **ID:** monster-mind-hammer
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action; spell
 

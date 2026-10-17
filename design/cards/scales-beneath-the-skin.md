@@ -22,6 +22,6 @@ Scales flare across your skin. Gain resistance 3 to one of those types for this 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** scales-beneath-the-skin · **Status:** Proposal for Bruce’s review.
+**ID:** scales-beneath-the-skin
 
 [Build this character](../paths/dragon-heir.md) · [Card conventions](../card-conventions.md)

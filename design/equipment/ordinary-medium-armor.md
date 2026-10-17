@@ -4,7 +4,6 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-medium-armor
 - **Bulk:** 1
 - **Requirements / supply:** Requires Wear Medium Armor to benefit

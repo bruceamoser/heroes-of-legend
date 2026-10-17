@@ -26,6 +26,6 @@ Turn with the wind at your heels. Make one roll using the net Boons or Banes lea
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** four-winds-at-once · **Status:** Proposal for Bruce’s review.
+**ID:** four-winds-at-once
 
 [Build this character](../paths/elemental-adept.md) · [Card conventions](../card-conventions.md)

@@ -82,7 +82,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-river-serpent
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Aquatic controller · **CV:** 29
 

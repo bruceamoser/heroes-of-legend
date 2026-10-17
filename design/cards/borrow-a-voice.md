@@ -26,6 +26,6 @@ Lasts only long enough to deliver the sound. No mind control or automatic decept
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrow-a-voice · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** borrow-a-voice
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

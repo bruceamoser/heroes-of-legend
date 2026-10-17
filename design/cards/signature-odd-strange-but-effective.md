@@ -32,6 +32,6 @@ Afterward you may move up to 2 squares without provoking if able. Grappled 3 lea
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-odd-strange-but-effective · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-strange-but-effective
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

@@ -11,8 +11,8 @@ Choose one:
 - **Athletics 1** and [The Untroubled Hand](../cards/the-untroubled-hand.md).
 - **Medicine 1** and [Treat Mental Trauma](../cards/treat-mental-trauma.md).
 
-**Type:** Culture · **Status:** Proposal. Your ancestry does not restrict this choice.
+**Type:** Culture
 
 Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
 
-**Starting coin contribution:** +5 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

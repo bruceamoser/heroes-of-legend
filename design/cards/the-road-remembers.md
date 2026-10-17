@@ -28,6 +28,6 @@ Only evidence present can be read. Mundane tracking remains possible without thi
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-road-remembers · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** the-road-remembers
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -5,7 +5,6 @@
 ## Rules
 
 - **ID:** recipe-twisted-cord
-- **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission
 - **Tools:** Craft tools
 - **Materials per attempt:** Suitable long fibers, obtained in the scene or one compatible carried bundle use

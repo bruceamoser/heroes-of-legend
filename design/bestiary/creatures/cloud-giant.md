@@ -81,7 +81,6 @@ Place partial obstruction in up to 3 connected visible squares within 3 squares 
 
 **ID:** creature-cloud-giant
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Displacer · **CV:** 36
 

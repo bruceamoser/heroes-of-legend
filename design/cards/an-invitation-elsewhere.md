@@ -26,6 +26,6 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** an-invitation-elsewhere · **Status:** Proposal for Bruce’s review.
+**ID:** an-invitation-elsewhere
 
 [Build this character](../paths/fey-envoy.md) · [Card conventions](../card-conventions.md)

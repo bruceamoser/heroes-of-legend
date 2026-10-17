@@ -26,6 +26,6 @@ Cannot take worn or held objects, deal impact damage, open locks or carry creatu
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** storm-on-a-string · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** storm-on-a-string
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

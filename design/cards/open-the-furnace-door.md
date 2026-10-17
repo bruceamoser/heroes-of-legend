@@ -26,6 +26,6 @@ A furnace door opens for a heartbeat. Include allies in the area. Work out each 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** open-the-furnace-door · **Status:** Proposal for Bruce’s review.
+**ID:** open-the-furnace-door
 
 [Build this character](../paths/infernal-bargainer.md) · [Card conventions](../card-conventions.md)

@@ -72,7 +72,6 @@ Move up to 2 squares through connected dimly lit or dark squares without provoki
 
 **ID:** creature-nightmare
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fiend · **Role:** Fear controller · **CV:** 31
 

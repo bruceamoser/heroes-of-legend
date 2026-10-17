@@ -6,7 +6,6 @@
 
 **ID:** monster-marsh-crocodile-brace-the-tail
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

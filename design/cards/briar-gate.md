@@ -28,6 +28,6 @@ The hedge makes those squares difficult terrain and gives heavy cover across the
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** briar-gate · **Status:** Proposal for Bruce’s review.
+**ID:** briar-gate
 
 [Build this character](../paths/root-keeper.md) · [Card conventions](../card-conventions.md)

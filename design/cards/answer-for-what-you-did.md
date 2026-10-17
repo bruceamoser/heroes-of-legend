@@ -26,6 +26,6 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** answer-for-what-you-did · **Status:** Proposal for Bruce’s review.
+**ID:** answer-for-what-you-did
 
 [Build this character](../paths/vow-hunter.md) · [Card conventions](../card-conventions.md)

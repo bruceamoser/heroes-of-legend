@@ -22,6 +22,6 @@ Choose the creature. Gain 1 Boon to your next ranged attack against it this turn
 
 **Limits:** Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.
 
-**ID:** take-the-measure · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** take-the-measure
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

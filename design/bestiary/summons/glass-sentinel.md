@@ -15,7 +15,6 @@
 **Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.
 
 
-
 **Senses:** Ordinary sight and hearing.
 
 **Communication:** Repeats its command in the maker’s language

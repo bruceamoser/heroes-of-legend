@@ -24,6 +24,6 @@ Move up to 3 squares without provoking. Ignore the extra cost of difficult terra
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shadow-pass-the-guard · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-pass-the-guard
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

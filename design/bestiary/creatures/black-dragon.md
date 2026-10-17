@@ -83,7 +83,6 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 
 **ID:** creature-black-dragon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Pursuit controller · **CV:** 75
 

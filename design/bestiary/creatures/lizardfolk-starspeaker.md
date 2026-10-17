@@ -72,7 +72,6 @@ While in water, move up to 3 squares using its printed swim speed. Pay normal te
 
 **ID:** creature-lizardfolk-starspeaker
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Sight disruptor · **CV:** 15
 

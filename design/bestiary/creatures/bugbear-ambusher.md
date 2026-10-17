@@ -70,7 +70,6 @@ Move up to 2 squares, paying normal terrain costs. This movement provokes normal
 
 **ID:** creature-bugbear-ambusher
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Disabler · **CV:** 25
 

@@ -24,6 +24,6 @@ You and that ally may each move up to 2 squares without provoking. Choose the or
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-odd-wrong-place-for-that · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-wrong-place-for-that
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

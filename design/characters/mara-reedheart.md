@@ -109,11 +109,11 @@ These are all origin grants, purchases and the free signature; there is no equip
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 
-## Starting coins and shopping — proposed allocation
+## Starting coins and shopping — allocation
 
 40 + 1 + 5 + 5 + 3 (base + ancestry + culture + background + class) = **54 coins**.
 
-One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
 
 | Purchase | Coins | Bulk | Coins left |
 |---|---:|---:|---:|

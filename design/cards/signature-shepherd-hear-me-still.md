@@ -24,6 +24,6 @@ Your Stabilize can reach that ally without touch. After stabilizing it, you may 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shepherd-hear-me-still · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-hear-me-still
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)

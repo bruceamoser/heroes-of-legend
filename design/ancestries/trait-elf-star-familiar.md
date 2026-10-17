@@ -10,6 +10,6 @@ You may rest in a quiet waking reverie instead of sleeping, remaining aware of n
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-elf-star-familiar · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-elf-star-familiar
 
 [Ancestry choices](elf.md)

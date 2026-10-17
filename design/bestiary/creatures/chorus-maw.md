@@ -74,7 +74,6 @@ Move up to 2 squares using a printed movement mode without provoking. Normal ter
 
 **ID:** creature-chorus-maw
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Aberration · **Role:** Disabler · **CV:** 37
 

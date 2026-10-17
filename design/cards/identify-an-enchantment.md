@@ -24,6 +24,6 @@ Weak: learn broad purpose. Standard: learn function and activation requirements.
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** identify-an-enchantment · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** identify-an-enchantment
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -24,6 +24,6 @@ The ally makes one free Basic Melee attack against an adjacent enemy, using its 
 
 **Limits:** Once on your turn; the attack is basic, never a specialty card.
 
-**ID:** signature-leader-press-the-opening · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-press-the-opening
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

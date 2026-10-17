@@ -28,6 +28,6 @@ Warm and bend a small damaged fitting, fastener or edge with your fingers. You d
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-patient-metal · **Status:** Proposal for Bruce’s review.
+**ID:** the-patient-metal
 
 [Build this character](../paths/shape-scholar.md) · [Card conventions](../card-conventions.md)

@@ -28,6 +28,6 @@ For a target standing in the center square, choose its push direction before res
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-sky-comes-down · **Status:** Proposal for Bruce’s review.
+**ID:** the-sky-comes-down
 
 [Build this character](../paths/storm-caller.md) · [Card conventions](../card-conventions.md)

@@ -26,6 +26,6 @@ Speak the promise that guides your hand and strike with a melee weapon.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** oathlight-strike · **Status:** Proposal for Bruce’s review.
+**ID:** oathlight-strike
 
 [Build this character](../paths/sun-knight.md) · [Card conventions](../card-conventions.md)

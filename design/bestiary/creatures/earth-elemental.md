@@ -74,7 +74,6 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 
 **ID:** creature-earth-elemental
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Displacer · **CV:** 36
 

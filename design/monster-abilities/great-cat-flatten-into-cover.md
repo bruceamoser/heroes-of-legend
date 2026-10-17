@@ -6,7 +6,6 @@
 
 **ID:** monster-great-cat-flatten-into-cover
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

@@ -10,6 +10,6 @@ Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a smal
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-halfling-good-cheer · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-halfling-good-cheer
 
 [Ancestry choices](halfling.md)

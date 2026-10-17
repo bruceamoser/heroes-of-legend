@@ -24,6 +24,6 @@ Your Aid can reach that ally. When you give Aid, the ally may also move 1 square
 
 **Limits:** The movement benefit can be granted once on your turn.
 
-**ID:** signature-intellect-prepared-explanation · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-prepared-explanation
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

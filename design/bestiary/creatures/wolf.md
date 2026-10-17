@@ -79,7 +79,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-wolf
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Pack hunter · **CV:** 8
 

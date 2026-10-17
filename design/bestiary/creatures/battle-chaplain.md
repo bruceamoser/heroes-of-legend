@@ -70,7 +70,6 @@ One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and rema
 
 **ID:** creature-battle-chaplain
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Healer · **CV:** 13
 

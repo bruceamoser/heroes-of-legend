@@ -81,7 +81,6 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 
 **ID:** creature-ogre-hookhand
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Position hunter · **CV:** 25
 

@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-sleeping-roll · **Status:** Market proposal for Bruce’s review.
+**ID:** item-sleeping-roll
 
 **Market price:** 4 coins. **Bulk:** 1.
 

@@ -26,6 +26,6 @@ Name something it stands to lose and cast a burning coal. The threat is a flouri
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-coal-for-a-promise · **Status:** Proposal for Bruce’s review.
+**ID:** a-coal-for-a-promise
 
 [Build this character](../paths/infernal-bargainer.md) · [Card conventions](../card-conventions.md)

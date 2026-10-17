@@ -12,6 +12,6 @@ Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 
 
 Tonic supply for The Cleverest Mixture; restores no HP.
 
-Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a proposed ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
+Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
 
-**ID:** recipe-clearing-tonic · **Status:** Proposal.
+**ID:** recipe-clearing-tonic

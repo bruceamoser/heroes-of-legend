@@ -83,7 +83,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-marsh-crocodile
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Ambusher · **CV:** 17
 

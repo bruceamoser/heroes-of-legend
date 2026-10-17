@@ -22,6 +22,6 @@ Run up to 3 squares along a wall or over shallow water; finish on ground that su
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** walk-the-thunder · **Status:** Proposal for Bruce’s review.
+**ID:** walk-the-thunder
 
 [Build this character](../paths/elemental-adept.md) · [Card conventions](../card-conventions.md)

@@ -30,6 +30,6 @@ No prior grappling card or existing hold is required. The DA judges whether your
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-unbalanced-fling-the-captive · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-fling-the-captive
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

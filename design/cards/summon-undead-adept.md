@@ -26,6 +26,6 @@ The summon acts during your turn. It disappears immediately if it goes more than
 
 **Limits:** One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.
 
-**ID:** summon-undead-adept · **Status:** Agreed category/command direction; per-card duration, requirements and selection framework are proposals. Awaiting eligible bestiary profiles; not ready for balance simulation.
+**ID:** summon-undead-adept
 
-[Summoning review](../reviews/1164-summoning-review.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

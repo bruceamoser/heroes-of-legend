@@ -88,10 +88,9 @@ original HOL names and encounter hooks give it a place in the adventure.
 - This is 192 distinct cards, not 411 Pathfinder conversions. Full dragon age
   ladders, extensive dinosaurs, lycanthrope infection and advancement, deeper aquatic societies and
   setting-specific outsiders remain possible later expansions.
-- The 108 additions, their explicit summon permissions and their CV inputs are
-  proposals. Source-game levels do not determine HOL CV or summon tier.
-- Existing open questions on summoned healing and collision timing remain open.
-  This pass adds no new general exception to settle them.
+- The current entries have explicit summon permissions and CV inputs.
+  Source-game levels do not determine HOL CV or summon tier.
+- Summoned healing and collision timing follow the current shared rules.
 - The supplied Bestiary 2 and Bestiary 3 are available for later gap passes. They
   were not used as evidence for this Bestiary 1 count or silently claimed read.
 

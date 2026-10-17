@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Agility.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** rime-grip · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** rime-grip
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

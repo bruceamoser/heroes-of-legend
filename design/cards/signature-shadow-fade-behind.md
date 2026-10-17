@@ -24,6 +24,6 @@ As part of Disengage, move up to 2 squares without provoking. This additional mo
 
 **Limits:** Once on your turn.
 
-**ID:** signature-shadow-fade-behind · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-fade-behind
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

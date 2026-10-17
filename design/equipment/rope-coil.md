@@ -4,7 +4,6 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-rope-coil
 - **Bulk:** 1
 - **Requirements / supply:** Reusable

@@ -24,6 +24,6 @@ Move up to 3 squares along a legal route, ignoring difficult-terrain surcharges 
 
 **Limits:** Each participant moves once per use.
 
-**ID:** signature-warden-through-bramble-and-stone · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-through-bramble-and-stone
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

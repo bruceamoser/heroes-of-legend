@@ -28,6 +28,6 @@ Read a pattern in ash, water or falling leaves. Ask about a possible next step, 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** ask-the-falling-ash · **Status:** Proposal for Bruce’s review.
+**ID:** ask-the-falling-ash
 
 [Build this character](../paths/reader-of-omens.md) · [Card conventions](../card-conventions.md)

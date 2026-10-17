@@ -10,6 +10,6 @@ Gain 1 Boon to examining stonework for an unsafe passage, concealed join or late
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-dwarf-stone-reader · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-dwarf-stone-reader
 
 [Ancestry choices](dwarf.md)

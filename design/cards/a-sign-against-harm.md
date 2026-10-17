@@ -22,6 +22,6 @@ Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resist
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-sign-against-harm · **Status:** Proposal for Bruce’s review.
+**ID:** a-sign-against-harm
 
 [Build this character](../paths/ward-weaver.md) · [Card conventions](../card-conventions.md)

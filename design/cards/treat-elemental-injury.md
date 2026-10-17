@@ -30,6 +30,6 @@ Keep a running total for that wound. When the total reaches its recovery value, 
 
 **Limits:** Each wound can be treated only once per day across all healers.
 
-**ID:** treat-elemental-injury · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** treat-elemental-injury
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

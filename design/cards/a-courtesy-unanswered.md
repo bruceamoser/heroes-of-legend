@@ -26,6 +26,6 @@ Hide your intent in an ordinary gesture, then make a melee attack. If you began 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-courtesy-unanswered · **Status:** Proposal for Bruce’s review.
+**ID:** a-courtesy-unanswered
 
 [Build this character](../paths/quiet-knife.md) · [Card conventions](../card-conventions.md)

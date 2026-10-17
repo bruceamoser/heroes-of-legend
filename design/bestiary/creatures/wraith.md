@@ -76,7 +76,6 @@ Move up to 2 squares through connected dimly lit or dark squares without provoki
 
 **ID:** creature-wraith
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Disabler · **CV:** 37
 

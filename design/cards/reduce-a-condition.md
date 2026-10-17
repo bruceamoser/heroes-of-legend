@@ -22,6 +22,6 @@ With a plausible method, reduce Bleeding, Burning, or Freezing by 1. This is not
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** reduce-a-condition · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** reduce-a-condition
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

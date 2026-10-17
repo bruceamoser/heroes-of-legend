@@ -23,8 +23,8 @@ over the lower edge so their identifying contours remain visible.
 
 New images are generated with the built-in image generator. The exact prompts,
 transparent-background requests and intended roles are saved in
-`art/revision-prompts.json`; originals remain in `art/interior/`. Existing art is
-retained in source control even when no longer placed. Generated placement data
+`art/revision-prompts.json`; originals remain in `art/interior/`. Replaced ornate badges and scenic class portraits are available in Git history;
+the current source keeps the readable symbols and transparent cutouts. Generated placement data
 and the PDF audit check illustration uniqueness across the whole book.
 
 
@@ -32,7 +32,7 @@ and the PDF audit check illustration uniqueness across the whole book.
 
 Each class introduction now uses a transparent cutout, preserving its established
 character, equipment and animal companion. The ten edits have real alpha channels;
-no painted rectangular landscape remains. Original scenic versions stay archived.
+no painted rectangular landscape remains. Original scenic inputs are available in Git history before the current-system cleanup.
 Exact edit prompts and source/output paths are in art/class-cutout-prompts.json.
 
 The starting-HP reference uses a resilient oak rooted through broken stone; the

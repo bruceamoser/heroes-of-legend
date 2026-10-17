@@ -26,6 +26,6 @@ Extend a blade of fire from your held melee weapon. This card supplies its reach
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-sword-made-of-dawn · **Status:** Proposal for Bruce’s review.
+**ID:** a-sword-made-of-dawn
 
 [Build this character](../paths/spellblade.md) · [Card conventions](../card-conventions.md)

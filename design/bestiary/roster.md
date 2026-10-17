@@ -1,6 +1,6 @@
 # Creature roster
 
-192 creature proposals in 15 categories. CV remains an authoring estimate.
+192 creature entries in 15 categories. CV remains an authoring estimate.
 Use the [family finder](families.md) for classic names and related variants, or the
 [family survey](family-survey.md) for the Pathfinder coverage comparison.
 

@@ -22,6 +22,6 @@ Before the new mark is added, clear one existing death mark from the target, the
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** keep-the-door-closed · **Status:** Proposal for Bruce’s review.
+**ID:** keep-the-door-closed
 
 [Build this character](../paths/grave-warden.md) · [Card conventions](../card-conventions.md)

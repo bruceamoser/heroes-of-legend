@@ -28,6 +28,6 @@ Offer specific terms and a reason each side might prefer negotiation. The DA fir
 
 **Limits:** No automatic truce, command or control of player characters.
 
-**ID:** terms-before-swords · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** terms-before-swords
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

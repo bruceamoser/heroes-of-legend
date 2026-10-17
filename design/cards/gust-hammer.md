@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Fortitude.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** gust-hammer · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** gust-hammer
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

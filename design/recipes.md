@@ -1,6 +1,6 @@
 # Recipes
 
-Fresh proposals for review. Follow the printed acquisition and permission; a recipe
+Follow the printed acquisition and requirements; a recipe
 is knowledge, not a free finished item.
 
 - [Bound Torches](recipes/bound-torches.md)

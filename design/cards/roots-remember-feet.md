@@ -26,6 +26,6 @@ Roots spring from cracks or soil to catch its feet. They wither immediately afte
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** roots-remember-feet · **Status:** Proposal for Bruce’s review.
+**ID:** roots-remember-feet
 
 [Build this character](../paths/root-keeper.md) · [Card conventions](../card-conventions.md)

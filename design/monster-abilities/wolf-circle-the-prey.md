@@ -6,7 +6,6 @@
 
 **ID:** monster-wolf-circle-the-prey
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

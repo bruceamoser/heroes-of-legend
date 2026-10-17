@@ -26,6 +26,6 @@ Choose a creature within 3 squares that can see or hear your distraction. Descri
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** create-a-distraction · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** create-a-distraction
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

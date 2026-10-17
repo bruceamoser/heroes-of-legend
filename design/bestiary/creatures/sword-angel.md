@@ -72,7 +72,6 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 
 **ID:** creature-sword-angel
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Celestial · **Role:** Displacer · **CV:** 43
 

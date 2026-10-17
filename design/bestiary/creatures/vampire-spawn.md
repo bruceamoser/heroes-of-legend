@@ -78,7 +78,6 @@ Move up to 2 squares through connected dimly lit or dark squares without provoki
 
 **ID:** creature-vampire-spawn
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Life predator · **CV:** 22
 

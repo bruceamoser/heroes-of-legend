@@ -22,6 +22,6 @@ When your treatment roll is Weak, add 2 recovery progress instead of 1. Standard
 
 **Limits:** Cannot exceed the treatment’s normal Strong recovery result or add a second treatment attempt.
 
-**ID:** a-steady-hand-at-dawn · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-steady-hand-at-dawn
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

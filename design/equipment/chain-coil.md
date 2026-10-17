@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-chain-coil · **Status:** Market proposal for Bruce’s review.
+**ID:** item-chain-coil
 
 **Market price:** 12 coins. **Bulk:** 1.
 

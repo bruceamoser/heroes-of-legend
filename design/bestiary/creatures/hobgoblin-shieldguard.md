@@ -70,7 +70,6 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 
 **ID:** creature-hobgoblin-shieldguard
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Displacer · **CV:** 20
 

@@ -22,6 +22,6 @@ Spend up to Speed in movement squares, split around your actions. Normal terrain
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** move · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** move
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

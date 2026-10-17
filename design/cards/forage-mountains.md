@@ -30,6 +30,6 @@ The DA determines what resources are present. You cannot produce rare treasure o
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** forage-mountains · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** forage-mountains
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

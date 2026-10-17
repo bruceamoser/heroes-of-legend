@@ -10,6 +10,6 @@ You fit through openings the DA judges suitable for your actual small size, and 
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-halfling-small-passage · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-halfling-small-passage
 
 [Ancestry choices](halfling.md)

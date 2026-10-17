@@ -32,6 +32,6 @@ Choose one listed condition; reduce it no lower than 0. This restores no HP and 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-cleverest-mixture · **Status:** Proposal for Bruce’s review.
+**ID:** the-cleverest-mixture
 
 [Build this character](../paths/field-alchemist.md) · [Card conventions](../card-conventions.md)

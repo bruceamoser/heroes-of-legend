@@ -6,7 +6,6 @@
 
 **ID:** monster-rending-blow
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

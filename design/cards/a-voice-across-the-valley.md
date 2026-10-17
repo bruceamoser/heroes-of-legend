@@ -28,6 +28,6 @@ Name the recipient and speak a message of up to twenty words. If the recipient i
 
 **Limits:** Once per recipient per day. No mind reading or ability to command the listener.
 
-**ID:** a-voice-across-the-valley · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-voice-across-the-valley
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

@@ -8,12 +8,12 @@ player rolls **Agility** to remain Hidden. Do not add an opposed observer roll.
 Ordinary obvious information requires no roll. Hidden remains universal; actual
 concealment and a plausible approach matter.
 
-**Procedure proposals to review:** active searching or attempting to hide during
+**Procedure:** active searching or attempting to hide during
 combat costs a Main Action unless a card states otherwise. A hidden creature that
 attacks or openly reveals itself loses Hidden. No roll conceals someone in plain
-view with no plausible concealment. These action costs and the exact Weak/Standard/
-Strong information or concealment outcomes remain to be approved; the attribute
-choice alone does not settle what a Weak stealth result means.
+view with no plausible concealment. Establish progress and consequences before an unscripted roll. A Weak search
+might narrow the location; a Weak hiding attempt might reach cover while leaving
+evidence. These examples do not override the scene or a card’s printed outcomes.
 
 ## Opportunities — agreed
 
@@ -25,12 +25,11 @@ Forced movement never provokes.
 
 Leaving melee reach voluntarily, casting a spell beside an enemy, standing,
 stowing and retrieving items are the intended triggers established in discussion.
-Drawing as part of an attack stays part of that attack. **Timing proposal:** commit
+Drawing as part of an attack stays part of that attack. **Timing:** commit
 the action when declared; check targets and capability again after interruption;
 pay an additional printed HP/item cost only when continuing into its resolution.
 If interrupted permanently, the committed action is spent but an unspent potion or
-HP cost is not consumed. This cost-order detail needs approval; it is not inferred
-from “continues if capable.”
+HP cost is not consumed.
 
 ## Player-controlled creatures — agreed
 
@@ -72,11 +71,9 @@ a worked example. **Collision timing approved October 16, 2026:** resolve contac
 collision damage from movement remaining on arrival, then deduct the new member’s
 Stability before further travel. Applicable resistance still reduces damage.
 
-**Agreed:** falling deals **3 HP per 2 squares fallen**. **Rounding/damage proposal:**
+**Agreed:** falling deals **3 HP per 2 squares fallen**. **Rounding and damage:**
 use 3 × floor(distance / 2), physical damage with ordinary physical resistance;
-falls under 2 squares deal no automatic damage. Landing geometry, Prone and
-exceptional surfaces remain DA rulings until specified. “HP” did not itself settle
-whether this bypasses resistance, so that interpretation is explicitly proposed.
+falls under 2 squares deal no automatic damage. Exceptional landing surfaces and circumstances are DA rulings.
 
 **Agreed:** climbing and swimming use difficult-terrain movement cost, normally
 2 per square, unless an ability changes it. Impossible surfaces and impassable
@@ -92,7 +89,7 @@ square of high-jump clearance, not inability to hop over a small obstacle. Obsta
 below a square and risky landings are adjudicated normally. No roll for a clear,
 safe jump within these limits; risky execution can call for Agility. These values are approved; specialist movement cards retain their explicit exceptions.
 
-## Consequence vocabulary — guidance proposal
+## Consequence vocabulary
 
 A **consequence** is what is at stake: harm, lost time, exposure, lost supplies,
 a worsened position or an opportunity that closes. A **complication** introduces

@@ -24,6 +24,6 @@ Exclude the chosen creature from every effect of that spell. Determine the least
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-arcanist-leave-a-window · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-leave-a-window
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

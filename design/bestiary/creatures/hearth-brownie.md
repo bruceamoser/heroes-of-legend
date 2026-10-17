@@ -66,7 +66,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-hearth-brownie
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Helper · **CV:** 5
 

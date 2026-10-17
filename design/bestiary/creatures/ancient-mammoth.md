@@ -80,7 +80,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-ancient-mammoth
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Massive guardian · **CV:** 39
 

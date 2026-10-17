@@ -24,6 +24,6 @@ The recipient may use Reason for this defense instead of its normal attribute an
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-intellect-predict-the-motion · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-predict-the-motion
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

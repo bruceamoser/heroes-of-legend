@@ -6,7 +6,6 @@
 
 **ID:** monster-hampering-strike
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

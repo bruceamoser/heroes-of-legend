@@ -22,6 +22,6 @@ While holding a shield, replace the ally as the target if you meet the attack’
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** shielding-step · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** shielding-step
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

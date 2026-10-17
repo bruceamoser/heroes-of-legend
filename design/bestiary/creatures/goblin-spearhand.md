@@ -70,7 +70,6 @@ Move up to 2 squares in a straight line without provoking opportunity attacks. N
 
 **ID:** creature-goblin-spearhand
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Displacer · **CV:** 9
 

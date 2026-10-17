@@ -1,7 +1,7 @@
 # Disciplines and their possibilities
 
-The eighteen fields and class affinities remain proposals. Rank prices and sequential
-purchases follow the agreed foundations; no ability chain is required.
+The eighteen fields use the class rank costs in the current catalog. Buy ranks in
+order; no ability chain is required.
 
 ## [Armor](disciplines/armor.md)
 

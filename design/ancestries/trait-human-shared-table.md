@@ -10,6 +10,6 @@ Once per scene, when you offer genuine food, shelter or shared work to a nonhost
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-human-shared-table · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-human-shared-table
 
 [Ancestry choices](human.md)

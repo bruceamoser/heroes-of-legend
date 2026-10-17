@@ -22,6 +22,6 @@ Drawing a weapon is included in its attack action. Dropping is free. Proper stow
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** handle-an-item · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** handle-an-item
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

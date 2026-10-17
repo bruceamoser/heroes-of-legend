@@ -70,7 +70,6 @@ Learn the direction of the nearest Bleeding creature within 6 squares. This does
 
 **ID:** creature-dire-wolf
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Knockdown fighter · **CV:** 18
 

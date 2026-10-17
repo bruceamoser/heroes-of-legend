@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-digging-tools · **Status:** Market proposal for Bruce’s review.
+**ID:** item-digging-tools
 
 **Market price:** 6 coins. **Bulk:** 1.
 

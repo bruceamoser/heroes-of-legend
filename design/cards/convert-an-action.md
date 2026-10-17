@@ -22,6 +22,6 @@ Spend Main Action to gain a Maneuver; spend a Maneuver to gain another movement 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** convert-an-action · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** convert-an-action
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

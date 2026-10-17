@@ -5,7 +5,6 @@ an enemy's warning long after the enemy is dust. Languages tell you whom your he
 can understand and which voices shaped their life. They do not determine ancestry,
 allegiance or character.
 
-**Status:** New language defaults proposed for Bruce’s review, issue #1265. Existing card benefits remain unchanged.
 
 ## Choose your languages
 

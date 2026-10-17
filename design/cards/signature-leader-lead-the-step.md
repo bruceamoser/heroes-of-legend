@@ -24,6 +24,6 @@ Each chosen ally may move 1 square without provoking, in an order you choose. Yo
 
 **Limits:** Once on your turn.
 
-**ID:** signature-leader-lead-the-step · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-lead-the-step
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

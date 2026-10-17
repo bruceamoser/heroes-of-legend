@@ -24,6 +24,6 @@ Weak: learn broad purpose. Standard: learn its use and effects. Strong: also rev
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** identify-a-mixture · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** identify-a-mixture
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

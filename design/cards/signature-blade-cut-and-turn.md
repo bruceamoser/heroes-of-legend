@@ -24,6 +24,6 @@ Move up to 1 square without provoking. On a Standard or Strong attack, you may m
 
 **Limits:** Once on your turn.
 
-**ID:** signature-blade-cut-and-turn · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-cut-and-turn
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

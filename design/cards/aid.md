@@ -22,6 +22,6 @@ Plausibly assist a declared task. Proposal: the ally gains 1 Boon to that task�
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** aid · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** aid
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -24,6 +24,6 @@ Each recipient gains 1 Boon to defenses against spells until the start of your n
 
 **Limits:** Reapplying replaces your previous ward; it does not refresh a recipient’s spent Stability grant before your next turn.
 
-**ID:** signature-arcanist-open-the-circle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-open-the-circle
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

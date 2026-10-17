@@ -28,6 +28,6 @@ Before rolling, agree with the DA on what you are trying to accomplish and what 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** read-a-dangerous-trail · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** read-a-dangerous-trail
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

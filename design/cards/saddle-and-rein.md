@@ -26,6 +26,6 @@ Describe how you guide the mount. The DA states the obstacle’s progress target
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** saddle-and-rein · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** saddle-and-rein
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

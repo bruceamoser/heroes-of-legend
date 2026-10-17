@@ -68,7 +68,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-bandit-bow
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Artillery · **CV:** 9
 

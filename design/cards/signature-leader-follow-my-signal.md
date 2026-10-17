@@ -24,6 +24,6 @@ When you use Aid, you may assist two allies instead of one. Name the task for ea
 
 **Limits:** One two-recipient Aid on your turn; further Aid uses are ordinary.
 
-**ID:** signature-leader-follow-my-signal · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-follow-my-signal
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

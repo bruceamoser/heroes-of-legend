@@ -70,7 +70,6 @@ Copy the sound of a voice it has heard until its next turn. This grants no knowl
 
 **ID:** creature-succubus
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fiend · **Role:** Fear controller · **CV:** 26
 

@@ -5,7 +5,6 @@
 ## Rules
 
 - **ID:** recipe-travel-food
-- **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop, Make Something Useful, Enchanting Workshop, or a mixing card that explicitly grants this recipe; the recipe alone grants no crafting permission
 - **Tools:** Craft tools or the granting card’s mixing kit
 - **Materials per attempt:** Safe edible forage, obtained in the scene or one compatible carried bundle use

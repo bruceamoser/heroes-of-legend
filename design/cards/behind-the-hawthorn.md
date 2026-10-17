@@ -22,6 +22,6 @@ Vanish into a swirl of leaves and reappear in a visible free square within 2 squ
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** behind-the-hawthorn · **Status:** Proposal for Bruce’s review.
+**ID:** behind-the-hawthorn
 
 [Build this character](../paths/fey-envoy.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ Move up to your Speed with the adjacent willing or unconscious ally, then place 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** carry-to-safety · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** carry-to-safety
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -30,6 +30,6 @@ The first step from out creates d4. Obey the recipe cap: d4 for Lesser Healing B
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** bottled-morning · **Status:** Proposal for Bruce’s review.
+**ID:** bottled-morning
 
 [Build this character](../paths/field-alchemist.md) · [Card conventions](../card-conventions.md)

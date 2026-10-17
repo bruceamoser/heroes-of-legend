@@ -81,7 +81,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-hill-ogre
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Brute · **CV:** 19
 

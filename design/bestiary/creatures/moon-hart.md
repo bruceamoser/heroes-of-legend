@@ -76,7 +76,6 @@ One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 H
 
 **ID:** creature-moon-hart
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Rescuer · **CV:** 25
 

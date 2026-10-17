@@ -22,6 +22,6 @@ A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrowed-silhouette · **Status:** Proposal for Bruce’s review.
+**ID:** borrowed-silhouette
 
 [Build this character](../paths/mirror-weaver.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ Requires a held shield; grants none. Gain 1 Boon to eligible defense rolls while
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** shield-block · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** shield-block
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

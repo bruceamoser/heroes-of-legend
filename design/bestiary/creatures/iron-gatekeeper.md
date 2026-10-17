@@ -74,7 +74,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-iron-gatekeeper
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Heavy guardian · **CV:** 44
 

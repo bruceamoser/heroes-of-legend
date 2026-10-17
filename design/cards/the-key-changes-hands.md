@@ -28,6 +28,6 @@ An observer can notice the missing object later. This takes only unattended obje
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-key-changes-hands · **Status:** Proposal for Bruce’s review.
+**ID:** the-key-changes-hands
 
 [Build this character](../paths/light-fingered-adventurer.md) · [Card conventions](../card-conventions.md)

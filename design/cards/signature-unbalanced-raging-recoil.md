@@ -24,6 +24,6 @@ Push it up to 2 squares directly away, then you may move up to 2 squares toward 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-unbalanced-raging-recoil · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-raging-recoil
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

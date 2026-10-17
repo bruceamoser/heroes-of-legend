@@ -110,14 +110,14 @@ All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, B
 
 **Summoning revision:** the former tiny-scout card is now Summon Fey — Novice.
 Its Calling 1 requirement and 2-DP cost are unchanged, so this ledger stays valid;
-actual creature selection awaits the eligible bestiary profiles. No tiny form,
+choose an eligible creature from the summon profiles. No tiny form,
 scouting sense or object-carrying ability is automatically supplied.
 
-## Starting coins and shopping — proposed allocation
+## Starting coins and shopping — allocation
 
 40 + 2 + 10 + 7 + 6 (base + ancestry + culture + background + class) = **65 coins**.
 
-One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
 
 | Purchase | Coins | Bulk | Coins left |
 |---|---:|---:|---:|

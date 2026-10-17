@@ -10,8 +10,8 @@ promise of difficulty. Read the party's actual capabilities before play. The
 adventure can be resolved without fighting, and its locations can occupy one
 session or expand into several.
 
-**New adventure content:** names, placements, rewards and local obstacle targets
-are manuscript proposals for review. They do not establish universal rules.
+Names, placements, rewards and obstacle targets belong to this adventure.
+They do not establish universal rules.
 
 ## What happened
 

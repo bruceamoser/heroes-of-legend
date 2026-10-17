@@ -24,6 +24,6 @@ Standing costs 1 square of movement instead of 2. After standing on your turn, g
 
 **Limits:** The Boon can be gained once on your turn; repeated standing does not stack it.
 
-**ID:** signature-unbalanced-laugh-at-the-fall · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-laugh-at-the-fall
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

@@ -24,6 +24,6 @@ Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outc
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** all-voices-as-one · **Status:** Proposal for Bruce’s review.
+**ID:** all-voices-as-one
 
 [Build this character](../paths/battle-singer.md) · [Card conventions](../card-conventions.md)

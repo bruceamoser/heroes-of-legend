@@ -26,6 +26,6 @@ Speak a quiet dismissal and send a thread of Life energy into the target. This i
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** rest-for-the-restless · **Status:** Proposal for Bruce’s review.
+**ID:** rest-for-the-restless
 
 [Build this character](../paths/grave-warden.md) · [Card conventions](../card-conventions.md)

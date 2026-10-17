@@ -26,6 +26,6 @@ Choose an eligible willing creature and roll Reason. Reduce its temporary Dazed 
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** rouse-the-senses · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** rouse-the-senses
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

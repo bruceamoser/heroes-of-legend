@@ -74,7 +74,6 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 
 **ID:** creature-death-knight
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Fear controller · **CV:** 56
 

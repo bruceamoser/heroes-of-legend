@@ -28,6 +28,6 @@ Proposal: target 12 for an ordinary mechanism. Requires tools and access to the 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** derive-a-mechanism · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** derive-a-mechanism
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

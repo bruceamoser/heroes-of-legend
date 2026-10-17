@@ -22,6 +22,6 @@ Your voluntary movement does not provoke opportunity attacks for the rest of thi
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** disengage · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** disengage
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

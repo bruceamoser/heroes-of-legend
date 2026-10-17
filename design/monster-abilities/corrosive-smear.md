@@ -6,7 +6,6 @@
 
 **ID:** monster-corrosive-smear
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

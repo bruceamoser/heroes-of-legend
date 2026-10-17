@@ -76,7 +76,6 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 
 **ID:** creature-stone-golem
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Displacer · **CV:** 45
 

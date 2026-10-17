@@ -8,8 +8,8 @@
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Weaknesses:** None  
-**Resistances:** None  
+**Weaknesses:** None
+**Resistances:** None
 **Immunities:** None
 
 ## Actions

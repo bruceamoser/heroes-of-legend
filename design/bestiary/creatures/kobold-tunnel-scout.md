@@ -72,7 +72,6 @@ Move up to 2 squares. Treat rubble squares as normal terrain for this movement o
 
 **ID:** creature-kobold-tunnel-scout
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Pursuit controller · **CV:** 9
 

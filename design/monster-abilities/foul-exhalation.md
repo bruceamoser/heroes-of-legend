@@ -6,7 +6,6 @@
 
 **ID:** monster-foul-exhalation
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

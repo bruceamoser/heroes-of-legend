@@ -24,6 +24,6 @@ After that movement ends, move up to 3 squares toward its final position without
 
 **Limits:** One Reaction per use; repeated uses do not multiply the unused Boon.
 
-**ID:** signature-warden-stay-on-the-scent · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-stay-on-the-scent
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

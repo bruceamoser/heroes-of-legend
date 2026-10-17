@@ -81,7 +81,6 @@ One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
 
 **ID:** creature-ogre-glutton
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Holder · **CV:** 27
 

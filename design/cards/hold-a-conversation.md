@@ -28,6 +28,6 @@ Expert social practice, not compulsory speech or a replacement for roleplay. No 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** hold-a-conversation · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** hold-a-conversation
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

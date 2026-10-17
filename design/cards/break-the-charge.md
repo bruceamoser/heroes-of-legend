@@ -26,6 +26,6 @@ Meet the charge with a melee blow; resolve after it enters. This attack cannot t
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** break-the-charge · **Status:** Proposal for Bruce’s review.
+**ID:** break-the-charge
 
 [Build this character](../paths/red-fury.md) · [Card conventions](../card-conventions.md)

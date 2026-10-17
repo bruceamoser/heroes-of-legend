@@ -6,7 +6,6 @@
 
 **ID:** monster-barrel-through
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

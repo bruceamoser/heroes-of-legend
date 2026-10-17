@@ -10,6 +10,6 @@ After handling an ordinary metal or stone item, recognize shoddy workmanship and
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-dwarf-maker-s-eye · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-dwarf-maker-s-eye
 
 [Ancestry choices](dwarf.md)

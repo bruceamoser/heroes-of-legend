@@ -24,6 +24,6 @@ Move up to your Speed without provoking. The ally may follow along a legal route
 
 **Limits:** Once on your turn.
 
-**ID:** signature-odd-an-unexpected-exit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-an-unexpected-exit
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

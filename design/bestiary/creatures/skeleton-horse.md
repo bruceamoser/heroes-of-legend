@@ -78,7 +78,6 @@ Move up to 3 squares in a straight line, paying normal terrain costs. This movem
 
 **ID:** creature-skeleton-horse
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Displacer · **CV:** 15
 

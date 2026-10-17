@@ -7,7 +7,7 @@
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.
 
-**Starting values:** HP +2; base Speed 6. **Trait status:** revised proposals.
+**Starting values:** HP +2; base Speed 6.
 
 - [Footfall on the Leaves](trait-elf-light-tread.md) — Even the fallen leaves seem reluctant to betray your passing.
 - [A Lifetime Ago](trait-elf-age-of-memory.md) — You remember when the old road was new.
@@ -15,4 +15,4 @@ not a required personality. Any ancestry may grow up in any culture.
 - [Grace of the Elder Folk](trait-elf-unhurried-grace.md) — Where others hurry, you seem simply to arrive.
 - [Dream beneath the Stars](trait-elf-star-familiar.md) — Your body rests while part of you walks old paths.
 
-**Starting coin contribution:** +2 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).

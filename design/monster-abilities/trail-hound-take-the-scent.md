@@ -6,7 +6,6 @@
 
 **ID:** monster-trail-hound-take-the-scent
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

@@ -24,6 +24,6 @@ Add 1 square to your Force push, on any result. You may then move 1 square direc
 
 **Limits:** Once on your turn.
 
-**ID:** signature-unbalanced-shoulder-through · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-shoulder-through
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

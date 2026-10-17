@@ -24,6 +24,6 @@ Each ally may move up to 3 squares along a legal route without provoking, ignori
 
 **Limits:** Each ally moves once per use.
 
-**ID:** signature-warden-bring-them-through · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-bring-them-through
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

@@ -26,6 +26,6 @@ Choose a visible water square beside the target; measure the pull toward that sq
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** undertow-answer · **Status:** Proposal for Bruce’s review.
+**ID:** undertow-answer
 
 [Build this character](../paths/deep-water-wanderer.md) · [Card conventions](../card-conventions.md)

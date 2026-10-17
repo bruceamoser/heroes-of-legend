@@ -1,5 +1,6 @@
 #import "template.typ": *
 #show: setup
+#let release = json("../../release/version.json")
 #{
  set page(width:612pt,height:792pt,margin:0pt,fill:black,header:none,footer:none)
  include "cover.typ"
@@ -28,12 +29,12 @@
  playtest estimates; the budgets do not guarantee a particular difficulty or duration.
 ]
 #v(16pt)
-#text(size:9pt)[Review edition · October 17, 2026
+#text(size:9pt)[Starter Kit v#release.version · #release.date
 
  Based on the approved Heroes of Legend design workspace. Manuscript and layout
  prepared with Codex under Bruce’s direction. AI-assisted illustrations combine
  the approved visual library with new creature portraits; maps and rules diagrams are original
- editable vector artwork. This digital review proof is not a print-production release.]
+ editable vector artwork. This digital playtest edition is not a print-production release.]
 #pagebreak()
 #outline(title:[Contents],depth:1)
 #pagebreak()

@@ -10,6 +10,6 @@ Base Speed +1. Describe whether your grace is effortless balance, long strides o
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-elf-unhurried-grace · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-elf-unhurried-grace
 
 [Ancestry choices](elf.md)

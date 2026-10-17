@@ -26,6 +26,6 @@ Make a melee attack, then end the exchange with a flourish. After the damage, mo
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** bow-to-the-balcony · **Status:** Proposal for Bruce’s review.
+**ID:** bow-to-the-balcony
 
 [Build this character](../paths/daring-scoundrel.md) · [Card conventions](../card-conventions.md)

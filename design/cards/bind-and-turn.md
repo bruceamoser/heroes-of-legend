@@ -26,6 +26,6 @@ Catch its weapon or striking limb and turn the struggle. This is a fresh maneuve
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** bind-and-turn · **Status:** Proposal for Bruce’s review.
+**ID:** bind-and-turn
 
 [Build this character](../paths/duelling-master.md) · [Card conventions](../card-conventions.md)

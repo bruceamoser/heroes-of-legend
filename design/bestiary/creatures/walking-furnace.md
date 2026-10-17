@@ -80,7 +80,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-walking-furnace
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Area artillery · **CV:** 29
 

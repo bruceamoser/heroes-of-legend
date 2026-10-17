@@ -28,6 +28,6 @@ Facts must be available from the evidence, never invented by the card. Correct e
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** read-the-remains · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** read-the-remains
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

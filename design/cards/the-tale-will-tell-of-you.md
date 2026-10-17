@@ -22,6 +22,6 @@ Your voice reaches it through the noise. If it can hear, it may immediately spen
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-tale-will-tell-of-you · **Status:** Proposal for Bruce’s review.
+**ID:** the-tale-will-tell-of-you
 
 [Build this character](../paths/story-singer.md) · [Card conventions](../card-conventions.md)

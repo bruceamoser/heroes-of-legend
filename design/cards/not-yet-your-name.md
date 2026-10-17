@@ -22,6 +22,6 @@ Pay 7 HP first, leaving yourself above 0; the payment bypasses resistance. With 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** not-yet-your-name · **Status:** Proposal for Bruce’s review.
+**ID:** not-yet-your-name
 
 [Build this character](../paths/grave-warden.md) · [Card conventions](../card-conventions.md)

@@ -28,6 +28,6 @@ No forced friendship or compelled service. If ordinary hospitality is freely off
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-place-at-any-fire · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** a-place-at-any-fire
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

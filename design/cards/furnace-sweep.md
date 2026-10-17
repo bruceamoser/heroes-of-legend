@@ -26,6 +26,6 @@ For a player attack, work out each target’s net Boons or Banes. Make one attac
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** furnace-sweep · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** furnace-sweep
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

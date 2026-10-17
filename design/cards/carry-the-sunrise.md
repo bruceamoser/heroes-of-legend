@@ -22,6 +22,6 @@ Carry the light forward. Move up to 2 squares without provoking, then each willi
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** carry-the-sunrise · **Status:** Proposal for Bruce’s review.
+**ID:** carry-the-sunrise
 
 [Build this character](../paths/sun-knight.md) · [Card conventions](../card-conventions.md)

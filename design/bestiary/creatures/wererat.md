@@ -70,7 +70,6 @@ Change between humanoid and hybrid appearance. Keep current HP, attributes, resi
 
 **ID:** creature-wererat
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Debuffer · **CV:** 14
 

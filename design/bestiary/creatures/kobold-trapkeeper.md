@@ -68,7 +68,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-kobold-trapkeeper
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Terrain keeper · **CV:** 7
 

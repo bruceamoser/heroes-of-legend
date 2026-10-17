@@ -72,7 +72,6 @@ Learn the direction of the nearest Bleeding creature within 6 squares. This does
 
 **ID:** creature-winter-wolf
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Cold controller · **CV:** 41
 

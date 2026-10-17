@@ -118,8 +118,7 @@ how to share maps and record supplies. The DA should explain what your character
 already know about the first destination. You can discover the rest in play.
 
 > **About this edition.** This is the complete player-facing level 1–10 playtest
-> manuscript. Existing design proposals were approved for inclusion. It is intended
-> for real table feedback; numerical balance remains open to refinement. Small boxes
-> labeled “Playtest ruling” identify newly discovered boundaries that still need review.
-> The DA's bestiary and
-> encounter-building book are separate.
+> manuscript. The current catalog is approved for playtesting. It is intended
+> for real table feedback; numerical balance remains open to refinement. Record
+> unclear situations for feedback to the designer. The companion Dungeon
+> Architect’s Guide & Bestiary is included in the starter kit.

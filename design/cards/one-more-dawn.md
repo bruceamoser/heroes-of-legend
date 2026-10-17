@@ -22,6 +22,6 @@ Gain 1 additional Grit on acquisition. Purchase once ever. This does not repleni
 
 **Limits:** Purchase once.
 
-**ID:** one-more-dawn · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** one-more-dawn
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

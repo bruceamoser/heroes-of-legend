@@ -24,6 +24,6 @@ On a Standard or Strong result, after resolving the spell, you may push one of i
 
 **Limits:** Once on your turn; no benefit from free attacks.
 
-**ID:** signature-arcanist-deliberate-spark · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-deliberate-spark
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

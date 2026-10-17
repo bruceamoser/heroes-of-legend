@@ -6,9 +6,9 @@
 
 **Agreed:** minimum 0 in Agility, Guile; HP contribution +3. No multiclassing.
 
-**Proposal:** choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.
 
-**Proposed pricing:** Home: Subterfuge, Marksmanship. Adjacent: Mind, Athletics. All others Foreign; no Opposed assignment proposed yet.
+**Discipline pricing:** Home: Subterfuge, Marksmanship. Adjacent: Mind, Athletics. All others Foreign; no Opposed disciplines.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
 
@@ -39,7 +39,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 - **Level 3:** Cross difficult ground, strike and leave, or open a lock quickly.
 - **Level 7:** Shroud an escape, exploit a companion's disabling effect, or hide a party's trail.
 
-See the [full signature review](../reviews/1153-signature-review.md) for comparisons
-and remaining playtest questions. Individual effects remain proposals.
 
-**Starting coin contribution:** +3 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +3 coins. See [starting coins](../starting-coins.md).

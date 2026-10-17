@@ -67,7 +67,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-carrion-rat-swarm
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Swarm · **CV:** 11
 

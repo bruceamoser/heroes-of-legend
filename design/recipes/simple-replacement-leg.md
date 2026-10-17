@@ -5,7 +5,6 @@
 ## Rules
 
 - **ID:** recipe-simple-replacement-leg
-- **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission
 - **Tools:** Craft tools
 - **Materials per attempt:** Suitable wood, leather straps and padding, obtained in the scene or one compatible carried bundle use

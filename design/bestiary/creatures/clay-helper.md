@@ -67,7 +67,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-clay-helper
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Laborer · **CV:** 5
 

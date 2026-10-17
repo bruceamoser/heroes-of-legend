@@ -22,6 +22,6 @@ Exchange their positions by teleportation. Both must be visible and each destina
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** dance-beyond-the-circle · **Status:** Proposal for Bruce’s review.
+**ID:** dance-beyond-the-circle
 
 [Build this character](../paths/fey-envoy.md) · [Card conventions](../card-conventions.md)

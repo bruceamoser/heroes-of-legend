@@ -72,7 +72,6 @@ One adjacent creature gains Burning 1. Once per turn; no immediate damage. The c
 
 **ID:** creature-kobold-emberkeeper
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Burning striker · **CV:** 13
 

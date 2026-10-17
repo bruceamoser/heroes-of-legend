@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Reason.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** dread-reflection · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** dread-reflection
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -26,6 +26,6 @@ Breathe fire. Make one roll using the net Boons or Banes least favorable to you 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** breath-of-the-wyrmling · **Status:** Proposal for Bruce’s review.
+**ID:** breath-of-the-wyrmling
 
 [Build this character](../paths/dragon-heir.md) · [Card conventions](../card-conventions.md)

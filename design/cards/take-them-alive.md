@@ -22,6 +22,6 @@ Declare before the attack. NPC remains unconscious until the scene ends or heale
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** take-them-alive · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** take-them-alive
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -74,7 +74,6 @@ Choose up to 3 connected difficult-terrain ground squares within 3 squares. They
 
 **ID:** creature-giant-flytrap
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Plant · **Role:** Holder · **CV:** 22
 

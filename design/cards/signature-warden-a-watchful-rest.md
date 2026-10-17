@@ -26,6 +26,6 @@ Spend ten minutes examining an accessible resting place. Learn its exposed appro
 
 **Limits:** One prepared resting place per Warden; preparing another ends the previous benefit.
 
-**ID:** signature-warden-a-watchful-rest · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-a-watchful-rest
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

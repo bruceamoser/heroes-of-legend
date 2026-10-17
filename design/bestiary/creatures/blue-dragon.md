@@ -83,7 +83,6 @@ Place difficult terrain in up to 2 connected empty ground squares within 2 squar
 
 **ID:** creature-blue-dragon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Disabler · **CV:** 88
 

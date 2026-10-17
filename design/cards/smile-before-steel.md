@@ -26,6 +26,6 @@ Use a melee weapon, a wink and a deliberately misleading step.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** smile-before-steel · **Status:** Proposal for Bruce’s review.
+**ID:** smile-before-steel
 
 [Build this character](../paths/daring-scoundrel.md) · [Card conventions](../card-conventions.md)

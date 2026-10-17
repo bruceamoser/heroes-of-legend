@@ -70,7 +70,6 @@ One willing ally within 3 squares that can hear it reduces either Frightened or 
 
 **ID:** creature-satyr
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Disabler · **CV:** 16
 

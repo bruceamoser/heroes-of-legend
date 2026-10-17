@@ -26,6 +26,6 @@ The mark answers with heat. This attack cannot trigger further free attacks.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-debt-comes-due · **Status:** Proposal for Bruce’s review.
+**ID:** the-debt-comes-due
 
 [Build this character](../paths/infernal-bargainer.md) · [Card conventions](../card-conventions.md)

@@ -14,6 +14,6 @@ Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 
 
 A Lesser Healing Bottle restoring 6 HP before Life resistance. Use the universal potion action.
 
-Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a proposed ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
+Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
 
-**ID:** recipe-lesser-healing-bottle · **Status:** Proposal.
+**ID:** recipe-lesser-healing-bottle

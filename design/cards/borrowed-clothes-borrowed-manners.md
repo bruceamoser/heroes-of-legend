@@ -28,6 +28,6 @@ Use suitable clothing and describe a plausible role. Before a consequential enco
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** borrowed-clothes-borrowed-manners · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** borrowed-clothes-borrowed-manners
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

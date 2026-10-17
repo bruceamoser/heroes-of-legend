@@ -67,7 +67,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-stone-knuckle
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Small blocker · **CV:** 9
 

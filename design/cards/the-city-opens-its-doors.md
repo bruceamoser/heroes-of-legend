@@ -28,6 +28,6 @@ Seek a willing contact for one specific clandestine service: an introduction, pa
 
 **Limits:** Cannot invent a network in an empty ruin or repeatedly roll without pursuing a new lead.
 
-**ID:** the-city-opens-its-doors · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** the-city-opens-its-doors
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

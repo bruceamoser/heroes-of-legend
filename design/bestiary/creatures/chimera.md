@@ -81,7 +81,6 @@ The next player attack against it before its next turn has 1 additional Bane; wh
 
 **ID:** creature-chimera
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Attrition striker · **CV:** 55
 

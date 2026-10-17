@@ -6,7 +6,6 @@
 
 **ID:** monster-stalking-step
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

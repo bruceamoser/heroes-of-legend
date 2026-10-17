@@ -22,6 +22,6 @@ Gain 1 Boon to defense rolls. Repeating this same benefit does not increase it. 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** defend · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** defend
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -49,7 +49,6 @@ Move up to 2 squares through nonliving walls, finishing in a visible legal empty
 ## Passives
 
 
-
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.

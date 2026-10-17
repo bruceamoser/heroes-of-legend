@@ -70,7 +70,6 @@ One adjacent creature gains Slowed 1. Once per turn; no immediate damage. This d
 
 **ID:** creature-rust-eater
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Aberration · **Role:** Pursuit controller · **CV:** 15
 

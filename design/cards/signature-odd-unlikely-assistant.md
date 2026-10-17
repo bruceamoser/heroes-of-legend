@@ -24,6 +24,6 @@ Your Aid reaches that ally and grants 2 Boons instead of 1 to the declared task�
 
 **Limits:** Normal Aid action and group-check restrictions apply.
 
-**ID:** signature-odd-unlikely-assistant · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-unlikely-assistant
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

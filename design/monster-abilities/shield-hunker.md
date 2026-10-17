@@ -6,7 +6,6 @@
 
 **ID:** monster-shield-hunker
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Reaction
 

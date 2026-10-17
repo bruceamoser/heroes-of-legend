@@ -22,6 +22,6 @@ Use Reason for this defense. On a Strong defense, you may pull the attacker 1 sq
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** turn-the-river · **Status:** Proposal for Bruce’s review.
+**ID:** turn-the-river
 
 [Build this character](../paths/still-hand-adept.md) · [Card conventions](../card-conventions.md)

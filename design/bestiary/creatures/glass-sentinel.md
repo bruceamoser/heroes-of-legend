@@ -72,7 +72,6 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 
 **ID:** creature-glass-sentinel
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Spell guard · **CV:** 15
 

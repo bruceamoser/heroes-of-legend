@@ -24,6 +24,6 @@ Move yourself and the chosen allies up to your Speed each without provoking, in 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-unbroken-passage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-unbroken-passage
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

@@ -28,6 +28,6 @@ Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieve
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** fit-a-replacement · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** fit-a-replacement
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

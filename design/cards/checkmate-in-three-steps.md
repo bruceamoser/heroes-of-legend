@@ -26,6 +26,6 @@ Name the weakness you are exploiting and make a melee or unarmed attack. You nee
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** checkmate-in-three-steps · **Status:** Proposal for Bruce’s review.
+**ID:** checkmate-in-three-steps
 
 [Build this character](../paths/thinking-fighter.md) · [Card conventions](../card-conventions.md)

@@ -6,7 +6,6 @@
 
 **ID:** monster-root-snare
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action; spell
 

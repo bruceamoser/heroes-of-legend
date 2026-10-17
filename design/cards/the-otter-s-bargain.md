@@ -22,6 +22,6 @@ Webbing slips between your fingers for one scene. Swimming squares cost you 1 mo
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-otter-s-bargain · **Status:** Proposal for Bruce’s review.
+**ID:** the-otter-s-bargain
 
 [Build this character](../paths/deep-water-wanderer.md) · [Card conventions](../card-conventions.md)

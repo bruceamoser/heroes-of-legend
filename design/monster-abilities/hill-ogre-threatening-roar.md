@@ -6,7 +6,6 @@
 
 **ID:** monster-hill-ogre-threatening-roar
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

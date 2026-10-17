@@ -22,6 +22,6 @@ Move up to 3 squares toward a visible enemy along a legal route. You gain 1 Boon
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** through-the-spearpoints · **Status:** Proposal for Bruce’s review.
+**ID:** through-the-spearpoints
 
 [Build this character](../paths/red-fury.md) · [Card conventions](../card-conventions.md)

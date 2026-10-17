@@ -28,6 +28,6 @@ Roll Brawn.
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** secure-a-hold · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** secure-a-hold
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

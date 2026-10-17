@@ -71,7 +71,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-harbor-siren
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Lurer · **CV:** 16
 

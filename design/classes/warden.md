@@ -6,11 +6,11 @@
 
 **Agreed concept:** wilderness guide, tracker and hunter. Nature magic and animal companions are optional shared purchases, not required class features.
 
-**Proposed foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +4. No multiclassing.
+**Class foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +4. No multiclassing.
 
-**Proposed starting disciplines:** choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.
 
-**Proposed pricing:** Home: Wilderness, Marksmanship. Adjacent: Arms, Athletics. All others Foreign; no Opposed assignment proposed. Use the normal sequential rank prices.
+**Discipline pricing:** Home: Wilderness, Marksmanship. Adjacent: Arms, Athletics. All others Foreign; no Opposed disciplines. Use the normal sequential rank prices.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. Requirements are class and minimum level only; no discipline or earlier signature is required.
 
@@ -38,6 +38,5 @@ A hunter closes distance after a shot or a sword stroke. A tracker reads actual 
 
 Fortitude and Knowledge express endurance and understanding. Agility remains valuable to an archer, but the class does not demand one weapon or one attack attribute. +4 HP places its contribution beside Blade and Leader, below Protector and Unbalanced.
 
-[Design comparisons and healing traditions](../reviews/1161-warden-and-healing.md)
 
-**Starting coin contribution:** +2 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).

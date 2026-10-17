@@ -6,9 +6,9 @@
 
 **Agreed:** minimum 0 in Brawn, Fortitude; HP contribution +6. No multiclassing.
 
-**Proposal:** choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.
 
-**Proposed pricing:** Home: Arms, Athletics. Adjacent: Armor, Storm. All others Foreign; no Opposed assignment proposed yet.
+**Discipline pricing:** Home: Arms, Athletics. Adjacent: Armor, Storm. All others Foreign; no Opposed disciplines.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
 
@@ -39,7 +39,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 - **Level 3:** Break an obstruction, throw a creature, or shove back through pain.
 - **Level 7:** Scatter enemies, wrench free and retaliate, or finish a push with a knockdown.
 
-See the [full signature review](../reviews/1153-signature-review.md) for comparisons
-and remaining playtest questions. Individual effects remain proposals.
 
-**Starting coin contribution:** +0 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

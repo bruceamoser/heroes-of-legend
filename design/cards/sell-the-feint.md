@@ -22,6 +22,6 @@ Gain 1 Boon to your next melee attack against the chosen creature this turn. The
 
 **Limits:** Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.
 
-**ID:** sell-the-feint · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** sell-the-feint
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

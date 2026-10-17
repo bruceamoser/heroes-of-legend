@@ -6,7 +6,6 @@
 
 **ID:** monster-roll-away
 
-**Status:** Approved for the Goblin Scrapper by Bruce, October 15, 2026. Monster-only; not purchasable with DP.
 
 **Action:** Maneuver
 

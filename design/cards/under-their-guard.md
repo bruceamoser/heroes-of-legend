@@ -22,6 +22,6 @@ Pass along a legal route to that square without provoking from the chosen enemy.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** under-their-guard · **Status:** Proposal for Bruce’s review.
+**ID:** under-their-guard
 
 [Build this character](../paths/daring-scoundrel.md) · [Card conventions](../card-conventions.md)

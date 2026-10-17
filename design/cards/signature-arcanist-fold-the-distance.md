@@ -24,6 +24,6 @@ Teleport yourself to a chosen destination. You may bring the ally to a separate 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-arcanist-fold-the-distance · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-fold-the-distance
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

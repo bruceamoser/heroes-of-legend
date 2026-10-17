@@ -26,6 +26,6 @@ Spend ten minutes preparing a departure from a campsite or other stopping place.
 
 **Limits:** One application per departure; repeated preparation does not add more Banes.
 
-**ID:** signature-shadow-leave-no-pursuit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-leave-no-pursuit
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

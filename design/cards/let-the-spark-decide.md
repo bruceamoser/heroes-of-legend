@@ -26,6 +26,6 @@ Choose fire or cold before rolling. Make one Guile attack against the target.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** let-the-spark-decide · **Status:** Proposal for Bruce’s review.
+**ID:** let-the-spark-decide
 
 [Build this character](../paths/unruly-spark.md) · [Card conventions](../card-conventions.md)

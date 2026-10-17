@@ -70,7 +70,6 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 
 **ID:** creature-lantern-angel
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Celestial · **Role:** Sight disruptor · **CV:** 14
 

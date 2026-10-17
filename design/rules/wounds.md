@@ -53,8 +53,7 @@ remains. Soft Tissue treatment reaching RV 3 removes the Bane. The scar still co
 All wounds leave scars that permanently count toward future wound rolls. Cosmetic
 wounds need no treatment. Where treatment softens a socially significant scar, it
 removes **both** the intimidation Boon and persuasion Bane, not just the drawback.
-Rest alternatives must be printed explicitly; the earlier lengthy recovery drafts
-were superseded and are not universal rest timers.
+Rest alternatives must be printed explicitly; there is no universal rest timer.
 
 ## Severity and required treatment cards
 
@@ -70,9 +69,9 @@ were superseded and are not universal rest timers.
 Treatment capabilities supplied by the current card catalog: **Soft Tissue
 Treatment, Bone Treatment, Elemental Wound Treatment, Mental Wound Treatment,
 Radiant Wound Treatment, Life Wound Treatment**. These are broad capabilities,
-not a separate ability for each injury. Their prototype cards now appear in [abilities](../catalog.md). Life 1, the printed
-attributes, Novice price and one-hour interval are provisional test choices; the
-capability requirement, daily limit and 1/2/3 progress are agreed.
+not a separate ability for each injury. The [treatment cards](../catalog.md) print
+their attributes, discipline requirements, costs and time. Treatment is limited
+to one attempt per wound per day, with 1/2/3 progress by outcome.
 
 Treatment cannot regrow a lost body part. An artificial limb or explicitly
 restorative ability specifies what it remedies. Scars remain even after functional
@@ -88,7 +87,7 @@ testing, not an assumption that equal ratings create equal danger.
 
 ## Physical
 
-Physical includes sonic and force injuries. Broad activity Banes replace the earlier limb-, Force-, and attribute-specific penalties.
+Physical includes sonic and force injuries. The DA judges when a physical-activity penalty applies.
 
 
 ### Physical: 100 band

@@ -26,7 +26,7 @@ Roots gently lift the fallen. Pay 3 HP first, leaving yourself above 0; cost byp
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-bough-for-the-fallen · **Status:** Proposal for Bruce’s review.
+**ID:** a-bough-for-the-fallen
 
 [Build this character](../paths/green-healer.md) · [Card conventions](../card-conventions.md)
 

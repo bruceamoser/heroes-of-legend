@@ -6,7 +6,6 @@
 
 **ID:** monster-veteran-captain-close-the-line
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

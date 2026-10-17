@@ -80,7 +80,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-chain-jailer
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fiend · **Role:** Capturer · **CV:** 32
 

@@ -28,6 +28,6 @@ Build a temporary shelter for yourself and up to six companions. This card grant
 
 **Limits:** This card crafts only its Camp Shelter recipe. Extreme weather and hostile attack can damage the shelter; DA states visible limitations before construction.
 
-**ID:** a-roof-before-nightfall · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-roof-before-nightfall
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

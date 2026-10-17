@@ -28,6 +28,6 @@ Basic Melee uses each attacker’s Brawn, weapon and normal outcomes. Damage fro
 
 **Limits:** Normal Reaction cost; the Last Words benefit can trigger once per dying ally.
 
-**ID:** signature-odd-one-last-remark · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-one-last-remark
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ A cage of spectral ribs catches the edge of the blow. Grant 1 Boon to the defens
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-ribcage-for-a-shield · **Status:** Proposal for Bruce’s review.
+**ID:** a-ribcage-for-a-shield
 
 [Build this character](../paths/bone-caller.md) · [Card conventions](../card-conventions.md)

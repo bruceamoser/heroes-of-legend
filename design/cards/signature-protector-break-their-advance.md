@@ -24,6 +24,6 @@ Push it up to 2 squares directly away from you, then you may move 1 square towar
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-break-their-advance · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-break-their-advance
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

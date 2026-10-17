@@ -6,7 +6,6 @@
 
 **ID:** monster-sweeping-attack
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

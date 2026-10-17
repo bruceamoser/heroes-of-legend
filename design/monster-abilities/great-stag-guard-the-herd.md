@@ -6,7 +6,6 @@
 
 **ID:** monster-great-stag-guard-the-herd
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

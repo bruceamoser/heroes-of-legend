@@ -26,6 +26,6 @@ Drive a shot across its escape route. Requires ranged weapon and ammunition.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** cut-off-the-escape · **Status:** Proposal for Bruce’s review.
+**ID:** cut-off-the-escape
 
 [Build this character](../paths/trail-hunter.md) · [Card conventions](../card-conventions.md)

@@ -83,7 +83,6 @@ Place partial obstruction in up to 3 connected visible squares within 3 squares 
 
 **ID:** creature-green-dragon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Debuffer · **CV:** 80
 

@@ -22,6 +22,6 @@ Step from one shadow into the other: move yourself to the chosen destination wit
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-unlit-road · **Status:** Proposal for Bruce’s review.
+**ID:** the-unlit-road
 
 [Build this character](../paths/night-walker.md) · [Card conventions](../card-conventions.md)

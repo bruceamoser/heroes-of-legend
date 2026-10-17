@@ -6,9 +6,9 @@
 
 **Agreed:** minimum 0 in Fortitude, Reason; HP contribution +5. No multiclassing.
 
-**Proposal:** choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.
 
-**Proposed pricing:** Home: Armor, Guard. Adjacent: Arms, Medicine. All others Foreign; no Opposed assignment proposed yet.
+**Discipline pricing:** Home: Armor, Guard. Adjacent: Arms, Medicine. All others Foreign; no Opposed disciplines.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
 
@@ -39,7 +39,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 - **Level 3:** Push an attacker back, extract the fallen, or make a refuge.
 - **Level 7:** Charge into a strike, clear the circle, or escort companions through danger.
 
-See the [full signature review](../reviews/1153-signature-review.md) for comparisons
-and remaining playtest questions. Individual effects remain proposals.
 
-**Starting coin contribution:** +5 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

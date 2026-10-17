@@ -28,6 +28,6 @@ Ordinary conversation remains available. Choose a plausible objective before rol
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** tell-a-worthy-story · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** tell-a-worthy-story
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

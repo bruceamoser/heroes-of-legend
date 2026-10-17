@@ -22,6 +22,6 @@ Speak a private message of up to twenty words. Other creatures cannot overhear i
 
 **Limits:** An ally can hold only one unused benefit from this card; a later use replaces its message’s task and expiry.
 
-**ID:** a-word-apart · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** a-word-apart
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

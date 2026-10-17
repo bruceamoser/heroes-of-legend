@@ -6,7 +6,6 @@
 
 **ID:** monster-drag-under
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

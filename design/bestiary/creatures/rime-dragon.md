@@ -93,7 +93,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-rime-dragon
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Winter ambusher · **CV:** 54
 

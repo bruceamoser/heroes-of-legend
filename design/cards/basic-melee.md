@@ -26,6 +26,6 @@ Choose your target and make the attack.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** basic-melee · **Status:** Agreed universal permission; damage and ranged distances are proposals.
+**ID:** basic-melee
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

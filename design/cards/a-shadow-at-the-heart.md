@@ -26,6 +26,6 @@ Make a melee attack from the closest, least expected angle. If you began Hidden,
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-shadow-at-the-heart · **Status:** Proposal for Bruce’s review.
+**ID:** a-shadow-at-the-heart
 
 [Build this character](../paths/quiet-knife.md) · [Card conventions](../card-conventions.md)

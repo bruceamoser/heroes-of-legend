@@ -24,6 +24,6 @@ Each may move up to 2 squares without provoking, in an order you choose. Each ma
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-leader-orderly-withdrawal · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-orderly-withdrawal
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

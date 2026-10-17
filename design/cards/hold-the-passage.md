@@ -22,6 +22,6 @@ You and willing allies adjacent to you when this action resolves each gain 1 Boo
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** hold-the-passage · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** hold-the-passage
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

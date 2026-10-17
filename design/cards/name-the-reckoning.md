@@ -26,6 +26,6 @@ Tell them why you came as you make a melee attack. Your certainty, not your stre
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** name-the-reckoning · **Status:** Proposal for Bruce’s review.
+**ID:** name-the-reckoning
 
 [Build this character](../paths/vow-hunter.md) · [Card conventions](../card-conventions.md)

@@ -28,6 +28,6 @@ Spend one minute calming a nonhostile animal that can see or hear you. State the
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** guide-a-frightened-animal · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** guide-a-frightened-animal
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

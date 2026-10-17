@@ -22,6 +22,6 @@ Move only to a visible free square. Carried equipment travels with you. No linge
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** smoke-through-the-keyhole · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** smoke-through-the-keyhole
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -6,7 +6,6 @@
 
 **ID:** monster-rally
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

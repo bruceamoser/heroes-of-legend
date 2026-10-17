@@ -26,6 +26,6 @@ Let a fragment of an impossible thought pass between you.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-thought-that-is-not-yours · **Status:** Proposal for Bruce’s review.
+**ID:** a-thought-that-is-not-yours
 
 [Build this character](../paths/watcher-beyond.md) · [Card conventions](../card-conventions.md)
