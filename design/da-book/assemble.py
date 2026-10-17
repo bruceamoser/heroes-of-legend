@@ -43,7 +43,7 @@ def validate(manifest):
         actual = {str(p.relative_to(DESIGN)) for p in (DESIGN / folder).glob('*.md') if p.name != 'README.md'}
         if len(sources) != count or len(set(sources)) != count or set(sources) != actual:
             raise ValueError(f'{folder}: missing, repeated or unexpected sources')
-    sources = manifest['chapters'] + manifest['appendices'] + creatures + manifest['monster_abilities'] + manifest['summons'] + [manifest['conditions'], manifest['wounds']]
+    sources = [s for group in manifest.get('shared_sections', {}).values() for s in group] + manifest['chapters'] + manifest['appendices'] + creatures + manifest['monster_abilities'] + manifest['summons'] + [manifest['conditions'], manifest['wounds']]
     if len(sources) != len(set(sources)):
         raise ValueError('A manuscript source appears more than once')
     for source in sources:
@@ -91,6 +91,8 @@ def assemble():
 
     for source in manifest['chapters']:
         append_source(source)
+        for supplement in manifest.get('shared_sections', {}).get(source, []):
+            append_source(supplement, remove_editorial(read(supplement)), heading_shift=1)
         if source.endswith('/10-bestiary.md'):
             for family in manifest['families']:
                 parts.append('## ' + family['name'])

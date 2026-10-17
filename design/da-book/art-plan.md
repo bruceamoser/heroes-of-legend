@@ -1,7 +1,7 @@
 # Art and diagram record
 
 The table below records the original editorial ideas. The completed review proof
-uses the approved visual library and five new vector diagrams; it does not claim
+uses the approved visual library, new creature portraits and five vector diagrams; it does not claim
 that every proposed illustration below was commissioned. Each placed asset is used
 once in this book. Match the forest, gold and parchment palette; use clear
 silhouettes and transparent backgrounds for cutout figures and objects. A diagram
@@ -32,13 +32,18 @@ padding and column balance take priority over inserting another portrait.
 
 `generated/pdf-manifest.json` lists every placed interior asset and its SHA-256.
 `generated/layout-metadata.json` records the actual page of each placement.
-The audit verifies **100 distinct interior illustrations/diagrams**, with no reused
-interior image. The approved cover crest and ruins are each used once on the cover.
+The completed art plan contains **206 distinct interior illustrations/diagrams**:
+192 creature portraits, nine chapter illustrations and five diagrams. The approved
+cover crest and ruins are each used once on the cover, outside this count.
 
-Ninety-five interior illustrations come from the existing Player’s Book visual
-library: transparent creatures and objects, plus selected landscapes and scenes.
-They are not newly commissioned images. Creatures without a suitable existing image
-retain open space rather than repeat an unrelated portrait. No placeholder boxes remain.
+Every creature now has a dedicated portrait, mapped by stable creature ID in
+[the shared art manifest](../bestiary/art/manifest.json). Seventy-three are existing
+Player's Book creature cutouts; 119 are new transparent illustrations made with
+the built-in image generation tool. Chapter illustrations reuse nine existing
+objects, landscapes and scenes. The book renderer and future VTT share the same
+portrait references, with image hashes and dimensions recorded. See the
+[art catalog](../bestiary/art/README.md) and [prompt set](../bestiary/art/prompts.json).
+No creature receives a prop image as a substitute, and no interior image is repeated.
 
 Five original SVG diagrams are rebuilt by `draw_diagrams.py`:
 

@@ -4,12 +4,26 @@ import argparse, hashlib, json, os, re, shutil, subprocess, sys
 from pathlib import Path
 from markdown_it import MarkdownIt
 import assemble
+from creature_layout import parse_card, validate_universal_reference
 ROOT=Path(__file__).resolve().parents[2]
 BOOK=Path(__file__).resolve().parent
 D=ROOT/'design'; GEN=BOOK/'generated'; OUT=BOOK/'output'
 GEN.mkdir(exist_ok=True);OUT.mkdir(exist_ok=True)
 M=json.loads((BOOK/'source-manifest.json').read_text())
+ART_MANIFEST=D/'bestiary/art/manifest.json'
+art_entries=json.loads(ART_MANIFEST.read_text())['entries']
+creature_art={e['source']:e for e in art_entries}
 sources,creatures,wound_rows=assemble.validate(M)
+expected_art_sources={'design/'+s for f in M['families'] for s in f['sources']}
+if set(creature_art)!=expected_art_sources or len(art_entries)!=len(expected_art_sources):
+ raise ValueError('Creature portrait manifest coverage does not match the bestiary')
+for entry in art_entries:
+ p=ROOT/entry['illustration']
+ if entry['status'] not in ('existing','generated') or not p.is_file():
+  raise ValueError('Missing creature portrait: '+entry['id'])
+ if hashlib.sha256(p.read_bytes()).hexdigest()!=entry['sha256']:
+  raise ValueError('Creature portrait hash differs from manifest: '+entry['id'])
+validate_universal_reference([D/s for f in M['families'] for s in f['sources']], (BOOK/'manuscript/09-using-the-bestiary.md').read_text())
 md=MarkdownIt('commonmark').enable('table')
 q=lambda x:json.dumps(str(x),ensure_ascii=False)
 key=lambda p:assemble.anchor(str(Path(p).resolve().relative_to(D)))
@@ -110,31 +124,44 @@ for src in M['chapters']:
  s=p.read_text()
  s=s.replace('**New adventure content:** names, placements, rewards and local obstacle targets\nare manuscript proposals for review. They do not establish universal rules.','The names, placements, rewards and obstacle targets belong to this adventure. They do not establish universal rules.')
  s=s.replace('**Review status:** the example hazards below are new content. Their damage, targets,\nareas and timings are proposed values for these entries only. They are not universal\ntrap damage or calibrated additions to encounter CV.','The damage, targets, areas and timings below apply to these entries only. They are not universal trap damage or calibrated additions to encounter CV.')
- s=s.replace('The creature cards follow this introduction in the assembled manuscript. Their\nsource remains the bestiary Markdown; editorial source paths and design worksheets\nare kept outside the combat entries.','Design worksheets appear in the final ledger, separate from the creature cards used during play.')
  if p.name in chapter_art:body.append(art(chapter_art[p.name],h=110,fit='contain'))
  body.append(reading(s,p))
+ for supplement in M.get('shared_sections',{}).get(src,[]):
+  sp=D/supplement
+  body.append('#pagebreak(weak:true)\n#heading(level:2,outlined:true)['+inline_text(name(sp))+']\n#metadata('+q(key(sp))+')<'+key(sp)+'>\n'+reading(clean_editorial(sp.read_text()),sp))
  if n=='03a':
   body.append('#heading(level:2)[The crossing at a glance]\n'+art('crossing-routes.svg',h=290,caption='Connected locations. The service route lets the rescuers avoid the painted threshold.'))
   body.append('#pagebreak(weak:true)\n#heading(level:2)[The false toll: battle map]\n'+art('toll-yard.svg',h=440,caption='Starting positions are suggestions. Roll initiative normally if a fight begins.'))
   body.append('#pagebreak(weak:true)\n#heading(level:2)[The signal room: battle map]\n'+art('signal-room.svg',h=420,caption='The sentries guard the room. The stores alcove and rescue route remain outside that boundary.'))
  if n=='09':
-  body.append('#heading(level:2)[Read the movement before moving the figures]\n'+art('stability-sequence.svg',h=235)+art('summon-tether.svg',h=245))
+  body.append('#block(breakable:false)[#heading(level:2)[Read the movement before moving the figures]\n'+art('stability-sequence.svg',h=235)+art('summon-tether.svg',h=245)+']\n')
  if n=='10':
   for family in M['families']:
    # Family navigation is a bookmark; the first card starts immediately below the family label.
    body.append('#pagebreak(weak:true)\n#heading(level:2,outlined:true)['+inline_text(family['name'])+']\n')
    for src2 in family['sources']:
     p2=D/src2;s2=p2.read_text().split('## Design notes',1)[0]
-    pre,actions=s2.split('## Actions',1);acts,details=actions.split('## Details',1)
-    pre='\n'.join(pre.splitlines()[1:]).strip()
-    # Shared legend is taught in chapter 9, but label the action table unambiguously.
-    acts=re.sub(r'^Damage and effects are.*\n','',acts,flags=re.M)
-    acts=acts.replace('| Damage |','| Weak / Standard / Strong defense |')
-    dc=chunks(details,p2)
-    art_overrides={'goblin-scrapper':'journeyman-kit','red-dragon':'mountain-pass','hill-ogre':'unbalanced-maul','kobold-trapkeeper':'recipe-tools','hobgoblin-shieldguard':'protector-shield','orc-outrider':'warden-bow','green-hag':'odd-curios','vampire-spawn':'hourglass','chorus-maw':'ruined-observatory','hell-hound':'broken-chain','lantern-angel':'feather-and-seal','gelatinous-cube':'learned-relics','shambling-mound':'root-and-thorn'}
-    ap=D/'player-book/art/interior'/((art_overrides.get(p2.stem) or 'summon-'+p2.stem)+'.png')
-    artarg=',art:'+q(asset(ap)) if ap.exists() else ''
-    body.append('#creature('+q(name(p2))+','+q(key(p2))+',['+render(pre,p2,skip=False)+'],['+render(acts,p2,skip=False,wide=True,tablefont=9.5)+'],('+','.join('['+c+']' for c in dc)+',)'+artarg+')\n')
+    card=parse_card(s2)
+    top=render(card['description'],p2,skip=False)+'#grid(columns:(1.35fr,1fr),gutter:16pt,['+render(card['stats'],p2,skip=False)+'],['+render(card['defenses'],p2,skip=False)+'])'
+    action_blocks=[]
+    for kind,rows in card['tables']:
+     if kind=='Main Actions':
+      head=['Main Actions','Defense','Damage type','Weak / Standard / Strong defense']
+      widths='(96pt,64pt,52pt,1fr)'
+     else:head=[kind,'Effect'];widths='(96pt,1fr)'
+     action_blocks.append(table(head,[[inline_text(c) for c in row] for row in rows],widths=widths,font=9.5))
+    dc=[render('### '+title+'\n\n'+detail,p2,skip=False) for title,detail in card['details'].items()]
+    dc += [render('### '+title+'\n\n'+detail,p2,skip=False) for title,detail in card['traits']]
+    field_blocks=[render('**'+label+':** '+value,p2,skip=False) for label,value in card['fields']]
+    notes='#creature-notes(('+','.join('['+c+']' for c in field_blocks)+',))'
+    badge=''
+    if card['summon']:
+     category,tier,profile=card['summon']
+     badge=',badge:summon-mark('+q(category)+','+q(tier)+','+q(key((p2.parent/profile).resolve()))+')'
+    art_entry=creature_art[str(p2.relative_to(ROOT))]
+    ap=ROOT/art_entry['illustration']
+    artarg=',art:'+q(asset(ap))
+    body.append('#creature('+q(name(p2))+','+q(key(p2))+',['+top+'],['+''.join(action_blocks)+'],('+','.join('['+c+']' for c in dc)+',),notes:['+notes+']'+badge+artarg+')\n')
 for src in M['appendices']:
  p=D/src;letter=p.name.split('-')[1].upper()
  body.append('#chapter('+q('APPENDIX '+letter)+','+q(name(p))+','+q(key(p))+')\n')
@@ -202,15 +229,8 @@ for field,title in [('family','Family'),('habitat','Habitat'),('role','Role')]:
  for g,rs in sorted(groups.items()):
   blocks.append('#heading(level:3,outlined:false)['+inline_text(g.capitalize())+']\n'+''.join(cref(r['p'])+' #h(1fr)#pageref('+q(key(r['p']))+')#linebreak()\n' for r in sorted(rs,key=lambda r:r['name'])))
  body.append('#reading-columns(('+','.join('['+b+']' for b in blocks)+',))\n')
-body.append('#set text(size:10.5pt)\n#chapter("DESIGN REFERENCE","Creature Design Ledger","creature-design-ledger")\n')
-body.append(reading('These worksheets document the current CV estimates, not balance certification. Creature-roll references support preparation; use the separate eligible profile for a summoned form. The ordinary DA creature cards appear in the Bestiary.',BOOK/'manuscript/appendix-a-creature-design.md'))
-for r in sorted(records,key=lambda r:r['name']):
- p=r['p'];s=p.read_text().split('## Design notes — not needed during play',1)[1]
- s=clean_editorial(s);s=re.sub(r'^\[Roster\].*','',s,flags=re.M)
- s=s.replace('### Creature-roll reference','### Creature-roll reference (attacker outcomes)').replace('attributes above','attributes on its creature card').replace('six values above','six values on its creature card')
- body.append('#block(breakable:false,above:8pt,below:10pt)[#heading(level:2,outlined:false)['+cref(p,name(p))+']\n'+render(s,p,wide=True,tablefont=8.5)+']\n')
 (GEN/'body.typ').write_text('\n'.join(body))
-(GEN/'pdf-manifest.json').write_text(json.dumps({'sources':{s:hashlib.sha256((D/s).read_bytes()).hexdigest() for s in sources},'assets':[str(p.relative_to(ROOT)) for p in assets],'asset_hashes':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in assets},'build_hashes':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [BOOK/'book.typ',BOOK/'cover.typ',BOOK/'template.typ',BOOK/'build_pdf.py',BOOK/'source-manifest.json']} ,'links':links,'player_book_references':sorted(plain_links),'creatures':len(creatures),'monster_abilities':len(M['monster_abilities']),'summons':len(M['summons']),'wound_results':len(wound_rows)},indent=2)+'\n')
+(GEN/'pdf-manifest.json').write_text(json.dumps({'sources':{s:hashlib.sha256((D/s).read_bytes()).hexdigest() for s in sources},'assets':[str(p.relative_to(ROOT)) for p in assets],'asset_hashes':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in assets},'build_hashes':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [BOOK/'book.typ',BOOK/'cover.typ',BOOK/'template.typ',BOOK/'build_pdf.py',BOOK/'creature_layout.py',BOOK/'source-manifest.json',ART_MANIFEST]} ,'links':links,'player_book_references':sorted(plain_links),'creatures':len(creatures),'monster_abilities':len(M['monster_abilities']),'summons':len(M['summons']),'wound_results':len(wound_rows)},indent=2)+'\n')
 args=argparse.ArgumentParser();args.add_argument('--compile',action='store_true');opts=args.parse_args()
 if opts.compile:
  typst=os.environ.get('TYPST') or shutil.which('typst') or '/tmp/hol-typst/typst-x86_64-unknown-linux-musl/typst'
@@ -218,7 +238,7 @@ if opts.compile:
  raw=OUT/'da-guide-unoptimized.pdf';final=OUT/'heroes-of-legend-da-guide-bestiary.pdf'
  subprocess.run([typst,'compile',*common,str(BOOK/'book.typ'),str(raw)],check=True)
  metadata={}
- for tag in ['art-placement','card-size','card-edge']:
+ for tag in ['art-placement','card-size','card-edge','summon-marker']:
   result=subprocess.check_output([typst,'eval',*common,'--in',str(BOOK/'book.typ'),f'query(<{tag}>).map(it => it.value)'],text=True)
   metadata[tag]=json.loads(result)
  (GEN/'layout-metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')

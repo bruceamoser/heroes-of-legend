@@ -54,9 +54,10 @@
  #strip("Disciplines")
  #rows(([DISCIPLINE],[RANK],[AFFINITY],[DP PAID / GRANT]),(2fr,40pt,1fr,1.5fr),10,height:17pt)
  #strip("Learned abilities & class signatures")
- #rows(([ABILITY],[TIER],[ACTION],[REQUIREMENTS / PAGE]),(2fr,35pt,70pt,1.5fr),16,height:16pt)
+ #rows(([ABILITY],[TIER],[ACTION],[REQUIREMENTS / PAGE]),(2fr,35pt,70pt,1.5fr),14,height:16pt)
  #strip("Ancestry traits & other lasting benefits")
  #rows(([TRAIT / SOURCE],[BENEFIT / LIMIT]),(1fr,2fr),3,height:19pt)
+ #v(5pt)#field("LANGUAGES / SPOKEN-ONLY OR OTHER LIMITS",height:30pt)
  #v(8pt)#text(size:8.5pt)[All learned cards are available. Keep frequently used cards beside the encounter sheet. Rank requirements must be owned before purchase; buy ranks in order.]
 ])
 #page-sheet([

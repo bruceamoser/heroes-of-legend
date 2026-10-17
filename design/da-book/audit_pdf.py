@@ -16,6 +16,12 @@ for section in ['asset_hashes','build_hashes']:
 if len(m['assets'])!=len(set(m['assets'])):errors.append('Duplicate illustration source')
 layout=json.loads((B/'generated/layout-metadata.json').read_text())
 placed=layout['art-placement']
+portrait_entries=json.loads((D/'bestiary/art/manifest.json').read_text())['entries']
+portrait_paths={e['illustration'] for e in portrait_entries}
+if len(portrait_paths)!=192 or not portrait_paths.issubset(set(m['assets'])):errors.append('Missing creature illustration in book')
+if len({e['sha256'] for e in portrait_entries})!=192:errors.append('Repeated creature illustration content')
+markers=layout.get('summon-marker',[])
+if len(markers)!=73 or len({x['key'] for x in markers})!=73:errors.append('Missing or duplicate summon eligibility marker')
 if len(placed)!=len(m['assets']) or len({x['path'] for x in placed})!=len(placed):errors.append('Missing or repeated placed illustration')
 card_pages={}
 for edge in layout['card-edge']:card_pages.setdefault(edge['key'],{}).setdefault(edge['edge'],[]).append(edge['page'])
@@ -29,6 +35,9 @@ def walk(items):
   else:outline.append((item.title,r.get_destination_page_number(item)+1))
 walk(r.outline)
 titles=[t for t,p in outline]
+for title in ['Languages','Languages in Your World']:
+ if titles.count(title)!=1:errors.append('Language reference bookmark coverage: '+title)
+if 'Creature Design Ledger' in titles:errors.append('Internal design ledger included in reader PDF')
 manifest=json.loads((B/'source-manifest.json').read_text())
 for family in manifest['families']:
  for source in family['sources']:
@@ -78,7 +87,7 @@ raw_reader=PdfReader(raw)
 if len(raw_reader.pages)!=len(r.pages):errors.append('Image compression changed page count')
 raw_links=sum(len(p.get('/Annots',[])) for p in raw_reader.pages)
 if raw_links!=nlinks:errors.append('Image compression changed link count')
-report={'pages':len(r.pages),'bytes':pdf.stat().st_size,'sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'bookmarks':len(outline),'links':nlinks,'source_count':len(m['sources']),'creatures':m['creatures'],'monster_abilities':m['monster_abilities'],'summons':m['summons'],'wound_rows':len(rolls),'distinct_interior_assets':len(m['assets']),'placed_interior_assets':len(placed),'single_page_cards':len(card_pages),'largest_creature_card_points':round(max(x['height'] for x in layout['card-size']),1),'compression_preserves_text_pages_links':raw_text==text.read_bytes() and len(raw_reader.pages)==len(r.pages) and raw_links==nlinks,'word_bounds_findings':bounds,'short_pages':short,'errors':errors}
+report={'pages':len(r.pages),'bytes':pdf.stat().st_size,'sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'bookmarks':len(outline),'links':nlinks,'source_count':len(m['sources']),'creatures':m['creatures'],'monster_abilities':m['monster_abilities'],'summons':m['summons'],'wound_rows':len(rolls),'distinct_interior_assets':len(m['assets']),'placed_interior_assets':len(placed),'creature_portraits':len(portrait_paths),'single_page_cards':len(card_pages),'summon_eligibility_markers':len(markers),'largest_creature_card_points':round(max(x['height'] for x in layout['card-size']),1),'compression_preserves_text_pages_links':raw_text==text.read_bytes() and len(raw_reader.pages)==len(r.pages) and raw_links==nlinks,'word_bounds_findings':bounds,'short_pages':short,'errors':errors}
 (B/'output/pdf-audit.json').write_text(json.dumps(report,indent=2)+'\n')
 (B/'output/page-index.json').write_text(json.dumps(outline,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,indent=2))

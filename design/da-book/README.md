@@ -14,6 +14,7 @@ it is not a new published release.
 From the repository root, with Python 3.10+ and `markdown-it-py` installed:
 
 ```sh
+python3 design/bestiary/art/audit.py
 python3 design/da-book/draw_diagrams.py
 TYPST=/path/to/typst PDF_PYTHON=/path/to/python-with-pypdf-and-pillow \
   python3 design/da-book/build_pdf.py --compile
@@ -21,27 +22,33 @@ TYPST=/path/to/typst PDF_PYTHON=/path/to/python-with-pypdf-and-pillow \
 ```
 
 The reviewed build uses **Typst 0.15.1**, the fonts already under
-`design/player-book/fonts`, and the existing approved Player’s Book artwork.
+`design/player-book/fonts`, and the shared creature art catalog plus approved Player’s Book chapter artwork.
 `TYPST` defaults to the executable on PATH, then the local test installation.
 `PDF_PYTHON` defaults to the installed Codex document runtime when present,
 otherwise the Python running the build. PDF auditing also requires Poppler’s
 `pdftotext`; rendering checks use `pdftoppm`.
 
-The review copy is `output/heroes-of-legend-da-guide-bestiary.pdf`. The build
+The 307-page review copy is `output/heroes-of-legend-da-guide-bestiary.pdf`. The build
 preserves an unoptimized proof for text/page/link comparison and compresses only
 embedded RGB art, retaining image dimensions, alpha masks and vector text.
 Generated Typst, manifests, PDF proofs and audit outputs are ignored by Git.
 The authored Markdown remains the source; the renderer never writes back to it.
 
-The **371-page** proof includes all ten chapters, the rescue adventure and three
-maps, four appendices, conditions and wounds, five creature indexes, and the
-complete design ledger. All 192 creature cards, 93 monster abilities and 73 summon
+The proof includes all ten chapters, the rescue adventure and three
+maps, four appendices, conditions and wounds, and five creature indexes. All 192 creature cards, 93 monster abilities and 73 summon
 profiles have bookmarks and remain intact on individual pages. Creature and summon
-cards use different outcome perspectives. The ledger is at the end, outside play cards.
+cards use different outcome perspectives. The Creature Design Ledger is retained
+in working notes and omitted from the PDF. All 192 creatures have unique portraits
+with stable references in the [shared art catalog](../bestiary/art/README.md).
 
 See [PDF review record](pdf-review.md) for coverage, visual checks and limitations.
 A clean automated audit is necessary, but never substitutes for rendered-page review
 or encounter playtesting.
+
+Both books include the same [language reference](../rules/languages.md). Chapter 4
+also includes [DA language guidance](manuscript/04a-languages.md) for adapting the list,
+creating languages and interpreting creature communication. New language defaults
+are review proposals recorded in issue #1265.
 
 ## Read the manuscript
 
@@ -67,8 +74,9 @@ an adaptable adventure, worked examples and table worksheets. Start with
 | Appendix C | [Summoned Form Reference](manuscript/appendix-c-summoned-forms.md), followed by 73 sourced profiles |
 | Appendix D | [Table Tools](manuscript/appendix-d-table-tools.md), followed by conditions and all 280 wound results |
 
-The assembly also adds name, CV, family, habitat and role indexes, then the full
-creature design ledger at the end. Edit creatures, abilities and summon profiles
+The internal Markdown assembly also adds name, CV, family, habitat and role
+indexes, then the full creature design ledger. The reader-facing PDF ends with the
+indexes and omits the ledger. Edit creatures, abilities and summon profiles
 in their existing source files; do not maintain a second copy in this directory.
 
 From the repository root:
@@ -144,8 +152,8 @@ short introduction that explains how its tools help the DA.
 Keep a creature’s combat information on one page or facing spread. Group attributes,
 HP, Speed, Size, Armor DR, Evasion, Threat, Stability and damage defenses together.
 Show defense attributes and every outcome’s damage and conditions in action tables.
-Creature names include CV. Put descriptive text before statistics and design notes
-in the appendix. Small creatures can share a page; complex creatures need room.
+Creature names include CV. Put descriptive text before statistics and keep
+per-creature design notes out of the PDF. Small creatures can share a page; complex creatures need room.
 
 Keep short tables together, balance ending columns, and leave padding after art.
 Use diagrams where positioning needs explanation. Mix unique landscapes, lairs,

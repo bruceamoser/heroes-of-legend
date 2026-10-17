@@ -26,7 +26,7 @@ for folder in ['ancestries','origins','classes','disciplines','cards','paths','e
  for p in (DESIGN/folder).glob('*.md'):
   if p.name!='README.md' and (folder!='paths' or p.stem in SELECTED_PATHS): files[p.resolve()]=key(p)
 for p in (BOOK/'manuscript').glob('*.md'): files[p.resolve()]=key(p)
-for f in ['market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
+for f in ['rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
  p=DESIGN/f; files[p.resolve()]=key(p)
 aliases={'development.md':'02-creation.md','rules/foundations.md':'06-playing.md','rules/session-resolution.md':'06-playing.md','rules/stability.md':'06-playing.md','card-conventions.md':'09-abilities.md','catalog.md':'09-abilities.md','rules/recovery.md':'08-recovery.md','rules/summoning.md':'11-summons.md','equipment.md':'10-equipment.md','recipes.md':'10-equipment.md','disciplines.md':'05-disciplines.md','fantasy-paths.md':'05-disciplines.md'}
 for a,b in aliases.items(): files[(DESIGN/a).resolve()]=key(BOOK/'manuscript'/b)
@@ -409,6 +409,8 @@ for p in sorted((DESIGN/'paths').glob('*.md'),key=name):
 parts.append(']\n#tail-art("paths")\n')
 parts.append(manuscript('06-playing.md','6','Playing the Game','Overhead square-grid scene: one guardian blocks a doorway while companions use cover and a forced push opens an escape route. Clear spaces and no decorative grid distortion.'))
 parts.append(manuscript('07-adventure.md','7','Beyond the Battlefield','An adventuring company shares a riverside camp with travelers; one mends a rope, one bargains, one watches the forest.'))
+p=DESIGN/'rules/languages.md';record(p,'language-reference')
+parts.append('#pagebreak(weak:true)\n#entry("Languages",'+q(key(p))+')\n'+reading(clean(p),p))
 parts.append(manuscript('08-recovery.md','8','Harm and Recovery'))
 parts.append(doc(DESIGN/'rules/conditions.md','condition-reference',wide=True,break_before=True))
 parts.append(manuscript('09-abilities.md','9','Abilities'))

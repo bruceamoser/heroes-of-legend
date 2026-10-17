@@ -31,8 +31,8 @@
 #text(size:9pt)[Review edition · October 17, 2026
 
  Based on the approved Heroes of Legend design workspace. Manuscript and layout
- prepared with Codex under Bruce’s direction. Existing AI-assisted illustrations
- are reused from the approved visual library; maps and rules diagrams are original
+ prepared with Codex under Bruce’s direction. AI-assisted illustrations combine
+ the approved visual library with new creature portraits; maps and rules diagrams are original
  editable vector artwork. This digital review proof is not a print-production release.]
 #pagebreak()
 #outline(title:[Contents],depth:1)

@@ -4,6 +4,8 @@
 
 **Human Shepherd · HP 18/18 · Grit 2/2 · Speed 7 squares · Bulk 7/10.**
 
+**Languages:** Common and Reed Speech (an ordinary regional language). See the [language reference](../rules/languages.md).
+
 ## Attributes and ancestry
 
 | Brawn | Fortitude | Agility | Guile | Knowledge | Reason |

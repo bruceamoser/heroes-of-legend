@@ -9,6 +9,7 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `../cards/`, `../classes/`, `../ancestries/`, `../origins/`, `../disciplines/`,
   `../equipment/`, `../recipes/`, `../paths/`, `../characters/`: source catalog entries.
 - `../bestiary/summons/`: the player-facing summoned forms, not DA creature stat blocks.
+- `../rules/languages.md`: shared language rules and choices, also included in the DA book.
 - `../rules/wounds.md`: all five complete wound tables.
 - `template.typ`: typography, page furniture, ability headers, tables and callouts.
 - `book.typ`, `sheets.typ`, `cover.typ`: assembly, printable sheets and approved cover.

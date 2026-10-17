@@ -86,17 +86,30 @@
   }
  }
 }
-#let card-title(title,key,small:false) = block(width:100%,fill:forest,inset:(x:9pt,y:7pt))[
- #show heading.where(level:2): it=>block(above:0pt,below:0pt,text(font:"Cinzel",size:if small {11pt} else {16pt},fill:ivory,weight:"bold",it.body))
- #heading(level:2,title)#label(key)
+#let summon-mark(category,tier,key)=link(label(key))[
+ #context [#metadata((key:key,page:here().page())) <summon-marker>]
+ #grid(columns:(16pt,auto),gutter:4pt,align:horizon,
+  circle(radius:7pt,stroke:.7pt+gold,align(center+horizon,text(size:12pt,fill:gold)[✧])),
+  text(size:8.5pt,fill:ivory,weight:"bold",category+" "+tier))
 ]
-#let creature(title,key,top,actions,details,art:none)= {
+#let creature-notes(items)={
+ line(length:100%,stroke:.5pt+gold)
+ v(4pt)
+ text(font:"Cinzel",size:9pt,weight:"bold",fill:forest)[In the world]
+ v(4pt)
+ balanced(items,width:248pt)
+}
+#let card-title(title,key,small:false,badge:none) = block(width:100%,fill:forest,inset:(x:9pt,y:7pt))[
+ #show heading.where(level:2): it=>block(above:0pt,below:0pt,text(font:"Cinzel",size:if small {11pt} else {16pt},fill:ivory,weight:"bold",it.body))
+ #grid(columns:(1fr,auto),gutter:9pt,align:horizon,[#heading(level:2,title)#label(key)],if badge==none {[]} else {badge})
+]
+#let creature(title,key,top,actions,details,art:none,notes:none,badge:none)= {
  set text(size:10pt)
  set par(leading:.2em,spacing:.4em)
  show heading.where(level:2):set text(size:12pt)
  show heading.where(level:3):it=>block(above:4pt,below:3pt,text(size:10pt,weight:"bold",fill:forest,it.body))
- let head=[#context [#metadata((key:key,page:here().page(),edge:"start")) <card-edge>]#card-title(title,key)#block(inset:8pt)[#top#actions]]
- let body=block(inset:(x:8pt,y:5pt),balanced(details,width:248pt))
+ let head=[#context [#metadata((key:key,page:here().page(),edge:"start")) <card-edge>]#card-title(title,key,badge:badge)#block(inset:8pt)[#top#actions]]
+ let body=block(inset:(x:8pt,y:5pt))[#balanced(details,width:248pt)#if notes!=none {v(5pt);notes}]
  let whole=block(width:100%,stroke:.7pt+gold,radius:3pt,fill:rgb("#fbf8ef"),breakable:false,below:8pt)[#head#body#context [#metadata((key:key,page:here().page(),edge:"end")) <card-edge>]]
  layout(size=>{
   let h=measure(block(width:size.width,whole)).height
@@ -107,7 +120,7 @@
      #whole
      #v(8pt)
      #context [#metadata((path:art,page:here().page())) <art-placement>]
-     #align(center,image(art,height:calc.min(190pt,630pt - h),width:100%,fit:"contain"))
+     #align(center,image(art,height:630pt - h,width:100%,fit:"contain"))
     ]
    } else {whole}
   } else {

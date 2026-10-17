@@ -96,6 +96,8 @@
 
 ],[#text("A granted ability supplies its stated prerequisite grants. Record the ranks before") #text("buying anything. If a grant duplicates something you already have, receive ")#strong[#text("1 DP for") #text("that stage")]#text(". It does not raise the rank, give an unrestricted replacement, or carry") #text("forward after the stage ends.")
 
+],[#text("Record Common and one ordinary language learned in your home community, then apply") #text("explicit extra language grants. See ")#xref("s-b72d3f542ac1")[#text("Languages")]#text(" for the") #text("shared list, spoken-only grants and campaign alternatives.")
+
 ],[#heading(level: 3)[#text("4. Spend level-0 DP")]
 #text("Your level-0 pool is ")#strong[#text("10 + Knowledge + Reason + Guile")]#text(", plus any duplicate-grant") #text("compensation. Negative attributes reduce this pool too. Buy eligible Novice abilities") #text("for 2 DP each. Their printed requirements must already be met by your origin grants.") #text("You may not buy discipline ranks at level 0.")
 
@@ -268,7 +270,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #catalog-card("A Foot in Two Worlds","s-a675522046ef", icons: [])[#emph[#text("You greet a stranger in the words of another home, smiling as they answer in the same tongue.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.")
+#text("Know two additional ordinary spoken ")#xref("s-b72d3f542ac1")[#text("languages")]#text(". Choose the communities that taught you; this does not grant a second culture’s discipline or card.")
 
 ]
 #catalog-card("Make Room at the Fire","s-ad232a649baa", icons: [])[#emph[#text("You shift a bowl toward the stranger and offer a place beside the fire before asking their name.")]
@@ -3689,6 +3691,48 @@ These four example builds show how shared abilities can express familiar fantasy
 
 ],[#text("A wound may require repeated daily treatment even after you are ready to adventure.") #text("An inn, a friendly workshop, a healer's garden or a camp among allies can become part") #text("of the story. Rest restores what its rule says it restores. It does not refund Grit,") #text("remove a permanent scar, or refill a bottle whose inventory die is out.")
 
+],))
+#pagebreak(weak:true)
+#entry("Languages","s-b72d3f542ac1")
+#reading-columns(([#text("A familiar greeting can open a door that gold cannot. An inscription can preserve") #text("an enemy's warning long after the enemy is dust. Languages tell you whom your hero") #text("can understand and which voices shaped their life. They do not determine ancestry,") #text("allegiance or character.")
+
+],[#heading(level: 3)[#text("Choose your languages")]
+#text("Begin with ")#strong[#text("Common and one other ordinary language")]#text(" learned in the community") #text("that raised you. Common is the campaign's shared trade language; the DA may give") #text("it a local name. Choose your other language with the DA from the list below or") #text("the campaign's equivalent. Any ancestry may know any language. Culture suggests") #text("where you learned it, rather than imposing a compulsory choice.")
+
+],[#text("Record the language's actual name, not just “regional” or “community language.”") #text("If Common was your only home language, choose another ordinary language learned") #text("through neighbors, work or travel. This starting choice is separate from your") #text("culture's discipline and ability pair and costs no DP.")
+
+],[#text("Apply explicit extra grants afterward. ")#strong[#text("A Foot in Two Worlds")]#text(" grants two additional") #text("ordinary spoken languages. Choose two distinct languages you do not already know;") #text("it does not grant another culture's abilities. A signed language is an ordinary") #text("language when the campaign uses it, but a grant restricted to ")#emph[#text("spoken")]#text(" languages") #text("does not include it.")
+
+],[#text("Unless a grant says otherwise, knowing a language includes speaking, understanding,") #text("and reading and writing its usual script, if it has one. A grant that specifically") #text("says ")#emph[#text("spoken")]#text(", ")#emph[#text("understands")]#text(" or ")#emph[#text("cannot speak")]#text(" keeps that restriction. Record such") #text("limits beside the language. Speaking a language does not require a separate skill") #text("rating, and attributes grant no automatic extra languages.")
+
+],[#heading(level: 3)[#text("Ordinary languages")]
+#text("These are starting options, not a required history of the world. Their names") #text("describe familiar traditions; anyone raised among their speakers may learn them.") #text("Each row is one language unless it explicitly asks you to name a particular one.")
+
+],[#rule-table(2,([#text("Language")],[#text("Where you might learn or encounter it")],),(([#text("Common")],[#text("Markets, mixed settlements, roads and adventuring companies.")],),([#text("Regional language")],[#text("Choose one named local language: a river kingdom, island community or frontier valley. Each is a separate choice.")],),([#text("Dwarven")],[#text("Deep halls, quarry towns and craft communities; records of lineage, work and agreements.")],),([#text("Elven")],[#text("Woodland settlements and long-lived artistic traditions; songs, histories and correspondence.")],),([#text("Halfling")],[#text("Hearth communities, traveling families and river villages; stories and everyday business.")],),([#text("Goblin")],[#text("Goblin communities and their neighbors; salvage yards, markets and warrens.")],),([#text("Orc")],[#text("Orc communities and their neighbors; border settlements, expeditions and oral histories.")],),([#text("Giant")],[#text("Giant communities and peoples who trade with them; landmarks, stone records and remembered journeys.")],),([#text("Kobold")],[#text("Kobold communities and their neighbors; tunnel works, workshops and trading posts.")],),([#text("Harbor Cant")],[#text("Multilingual ports and ship crews. A full local language, not universal knowledge of every sailor's slang.")],),([#text("Way Sign")],[#text("A complete signed language shared by participating communities. Communication requires sight and usable signing gestures.")],),))
+
+],[#heading(level: 3)[#text("Uncommon and ancient languages")]
+#text("These languages are not included in an unrestricted ")#emph[#text("ordinary language")]#text(" grant.") #text("Choose one only when a grant explicitly allows it or the DA makes it an ordinary") #text("option for the campaign before character creation. Their availability reflects") #text("the setting, not a higher numerical bonus.")
+
+],[#rule-table(2,([#text("Language")],[#text("Where it becomes useful")],),(([#text("Draconic")],[#text("Speaking with dragons and their learned allies; reading draconic inscriptions. Kobold is a separate language.")],),([#text("Fey")],[#text("Negotiating with fey courts and woodland powers; understanding their stories and spoken bargains.")],),([#text("Infernal")],[#text("Speaking with fiends and interpreting their correspondence or contracts. Knowing it does not bind or summon anything.")],),([#text("Celestial")],[#text("Conversations with celestial beings and some sacred traditions. It grants no divine authority.")],),([#text("Elemental")],[#text("Speech used by elemental beings capable of language. It does not let you command fire, weather or an unintelligent elemental.")],),([#text("Elder Tongue")],[#text("Choose one named lost or ancient scholarly language. Different vanished civilizations need not share it.")],),))
+
+],[#text("A sacred text may be written in Common, Dwarven or any other language. “Sacred,”") #text("“scholarly” and “courtly” describe use, not automatic additional languages.") #text("Beasts' calls, a spirit's images and a construct's signal lights are forms of") #text("communication, not languages you gain by choosing a row in these tables.")
+
+],[#heading(level: 3)[#text("Use languages at the table")]
+#text("When you share a language and can hear, see or read it as required, ordinary") #text("communication needs no roll. State what you say or ask. A conversation can still") #text("involve uncertainty about persuasion, deception or evidence; use the normal") #text("attribute or the ability you declared. Knowing the words does not make the listener") #text("agree, reveal secrets or recognize your authority.")
+
+],[#text("A language barrier is not simply extra Banes on a roll. Without a shared means of") #text("communication, you cannot deliver a precise argument merely by rolling well.") #text("Pointing, drawing or demonstrating can convey something simple: “danger there,”") #text("“follow me,” or an offered trade. Agree on what is actually understood. An interpreter,") #text("a translation, or an applicable ability can make a more complicated exchange possible.") #text("A card that explicitly requires a shared language still requires one; an interpreter") #text("does not silently change its target requirement.")
+
+],[#text("Reading a clear message in a language you can read needs no roll. Damaged text,") #text("an unfamiliar technical subject or a cipher may present a separate problem.") #text("Sharing an alphabet does not grant another language, and a cipher is not an extra") #text("language choice. Ask the DA what evidence or expertise could make progress possible.")
+
+],[#text("")#strong[#text("Translate the Fragment")]#text(" supplies a way to interpret unfamiliar written text.") #text("Use its printed time, progress and outcomes. Completing a translation does not") #text("teach you the whole language. A copied voice or disguise likewise supplies no") #text("vocabulary or memories unless its ability explicitly says so.")
+
+],[#heading(level: 3)[#text("Keep learning grounded")]
+#text("Record new languages when an explicit trait, ability or agreed campaign grant") #text("provides them. Time with a teacher, a community or useful texts explains that") #text("learning; it does not create an unstated free advancement or a new universal DP") #text("price. Agree on the route before spending time or DP. Translation and ordinary") #text("practice remain useful even when they do not grant permanent fluency.")
+
+],[#note[
+#text("")#strong[#text("At the gate.")]#text(" An elf raised in a dwarven mining town chooses Common and") #text("Dwarven. She reads the quarry's warning without a roll. Its damaged diagram") #text("still needs investigation. Her human companion's extra spoken Goblin lets him") #text("question a salvager, but does not let him read the salvager's written ledger.")
+
+]
 ],))
 #chapter("8","Harm and Recovery")
 #metadata("s-3373a7bacd12")<s-3373a7bacd12>
@@ -7533,6 +7577,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Target:")]#text(" One accessible unfamiliar written text; one hour")
 
+#text("This translates the chosen text; it does not teach the whole ")#xref("s-b72d3f542ac1")[#text("language")]#text(".")
+
 #text("Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.")
 
 #list(
@@ -9812,7 +9858,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -9844,7 +9890,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -9881,7 +9927,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Spirit: magical healing works; cannot swallow potions.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -9915,7 +9961,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -9949,7 +9995,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -9983,7 +10029,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary living-target healing does not repair it; a repair ability must explicitly permit constructs.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -10024,7 +10070,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -10063,7 +10109,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10098,7 +10144,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10135,7 +10181,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Sound-based sight 6 squares; fails while Deafened and does not penetrate walls.")
 
@@ -10167,7 +10213,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10199,7 +10245,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary living-target healing does not repair it; a repair ability must explicitly permit constructs.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -10240,7 +10286,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10274,7 +10320,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10308,7 +10354,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -10346,7 +10392,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10383,7 +10429,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10420,7 +10466,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10459,7 +10505,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" Cold damage gives it 1 Bane on its next attack before its next turn (1 Boon to that player defense). Does not stack with itself.")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10491,7 +10537,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary living-target healing does not repair it; a repair ability must explicitly permit constructs.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -10532,7 +10578,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -10573,7 +10619,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Spirit: ordinary magical HP healing applies; potions cannot be swallowed.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10613,7 +10659,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10652,7 +10698,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10691,7 +10737,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10728,7 +10774,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10767,7 +10813,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10804,7 +10850,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10845,7 +10891,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10879,7 +10925,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10913,7 +10959,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -10949,7 +10995,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -10989,7 +11035,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11024,7 +11070,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11056,7 +11102,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11091,7 +11137,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11123,7 +11169,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11155,7 +11201,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11192,7 +11238,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Spirit: magical healing works; cannot swallow potions.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11226,7 +11272,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11263,7 +11309,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11279,7 +11325,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 #text("")#strong[#text("Moonlit antlers:")]#text(" One adjacent creature.")
 
 #heading(level: 3)[#text("Battle Mending — Main Action")]
-#text("One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same cost.")
+#text("One adjacent living ally; free hand (the hart’s antlers provide this). The controller pays 3 HP first, bypassing resistance, and must remain above 0. The hart does not also pay this cost. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same controller-paid cost.")
 
 #text("")#strong[#text("Defend — Maneuver:")]#text(" gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.")
 
@@ -11298,7 +11344,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Spirit: magical healing works; potions cannot be swallowed.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11332,7 +11378,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11377,7 +11423,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Spirit: magical healing works; cannot swallow potions.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11411,7 +11457,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11452,7 +11498,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11493,7 +11539,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11525,7 +11571,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11562,7 +11608,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11594,7 +11640,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11626,7 +11672,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11658,7 +11704,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -11695,7 +11741,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" In direct sunlight its attacks grant the defender 1 additional Boon (or impose 1 Bane on its attacks when player-controlled). This does not add damage or change ordinary illumination into sunlight.")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11736,7 +11782,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -11772,7 +11818,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11813,7 +11859,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -11852,7 +11898,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11895,7 +11941,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -11938,7 +11984,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -11974,7 +12020,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary living-target healing does not repair it; a repair ability must explicitly permit constructs.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -12015,7 +12061,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12047,7 +12093,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12081,7 +12127,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Keen scent within 6 squares; tracks by scent.")
 
@@ -12116,7 +12162,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12155,7 +12201,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12191,7 +12237,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12230,7 +12276,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12269,7 +12315,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -12310,7 +12356,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Ordinary sight and hearing.")
 
@@ -12345,7 +12391,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Living: ordinary HP healing applies.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.")
 
 #text("")#strong[#text("Senses:")]#text(" Keen scent within 6 squares.")
 
@@ -12385,7 +12431,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" In direct sunlight its attacks grant the defender 1 additional Boon (or impose 1 Bane on its attacks when player-controlled). This does not add damage or change ordinary illumination into sunlight.")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -12426,7 +12472,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Senses:")]#text(" Dark sight 6 squares; ordinary hearing.")
 
@@ -12469,7 +12515,7 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Weakness:")]#text(" None")
 
-#text("")#strong[#text("Healing:")]#text(" Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
+#text("")#strong[#text("Healing:")]#text(" Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.")
 
 #text("")#strong[#text("Against offensive healing:")]#text(" controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.")
 
@@ -12616,6 +12662,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 11/13.")]#text("")
 
+#text("")#strong[#text("Languages:")]#text(" Common and Dwarven. See the ")#xref("s-b72d3f542ac1")[#text("language reference")]#text(".")
+
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("+1")],[#text("+2")],[#text("+0")],[#text("+0")],[#text("-1")],[#text("+1")],),))
 
@@ -12739,6 +12787,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 #emph[#text("The woodland archer who reads a trail as readily as a target.")]
 
 #text("")#strong[#text("Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.")]#text("")
+
+#text("")#strong[#text("Languages:")]#text(" Common and Elven. See the ")#xref("s-b72d3f542ac1")[#text("language reference")]#text(".")
 
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("+0")],[#text("+1")],[#text("+2")],[#text("+0")],[#text("+1")],[#text("-1")],),))
@@ -12867,6 +12917,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 #emph[#text("The grove healer who can become the beast defending it.")]
 
 #text("")#strong[#text("Human Shepherd · HP 18/18 · Grit 2/2 · Speed 7 squares · Bulk 7/10.")]#text("")
+
+#text("")#strong[#text("Languages:")]#text(" Common and Reed Speech (an ordinary regional language). See the ")#xref("s-b72d3f542ac1")[#text("language reference")]#text(".")
 
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("+0")],[#text("+1")],[#text("+0")],[#text("+0")],[#text("+0")],[#text("+2")],),))
@@ -13002,6 +13054,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 #text("")#strong[#text("Human Intellect · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 9/10.")]#text("")
 
+#text("")#strong[#text("Languages:")]#text(" Common, River Speech; spoken-only Dwarven and Harbor Cant (A Foot in Two Worlds).")
+
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("+0")],[#text("+0")],[#text("+0")],[#text("+1")],[#text("+2")],[#text("+0")],),))
 
@@ -13015,8 +13069,6 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 
 ],
 )
-#text("A Foot in Two Worlds: learned the ordinary spoken languages of Deep Halls and Free Harbors communities; the DA names those languages for the setting. No extra culture grants.")
-
 #heading(level: 3)[#text("Level 0 — origins and purchases")]
 #list(
 [#xref("s-3a1e85f4b5df")[#text("Deep Halls")]#text(": ")#strong[#text("Craft 1")]#text(" and ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(".")
@@ -13136,6 +13188,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 #emph[#text("The charming burglar with a duelist’s smile.")]
 
 #text("")#strong[#text("Halfling Shadow · HP 16/16 · Grit 2/2 · Speed 7 squares · Bulk 10/10.")]#text("")
+
+#text("")#strong[#text("Languages:")]#text(" Common and Halfling. See the ")#xref("s-b72d3f542ac1")[#text("language reference")]#text(".")
 
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("+0")],[#text("+0")],[#text("+2")],[#text("+2")],[#text("+0")],[#text("-1")],),))
@@ -13264,6 +13318,8 @@ Find a useful option here, then follow its name to the complete card. Summaries 
 #emph[#text("The old elemental scholar with dangerous curiosity.")]
 
 #text("")#strong[#text("Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.")]#text("")
+
+#text("")#strong[#text("Languages:")]#text(" Common and Elven. See the ")#xref("s-b72d3f542ac1")[#text("language reference")]#text(".")
 
 #heading(level: 3)[#text("Attributes and ancestry")]
 #rule-table(6,([#text("Brawn")],[#text("Fortitude")],[#text("Agility")],[#text("Guile")],[#text("Knowledge")],[#text("Reason")],),(([#text("-1")],[#text("+0")],[#text("+1")],[#text("+0")],[#text("+2")],[#text("+1")],),))

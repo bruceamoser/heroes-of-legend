@@ -41,6 +41,12 @@ remaining coins, carried Bulk and occupied hands. The plain worn outfit is a
 proposed universal starting baseline; packs and potions are purchased, not free.
 Gear sells for half price or trades at full value with a willing trader.
 
+## Language reference
+
+The proposed [language defaults](rules/languages.md) supply Common plus one ordinary
+home language, followed by explicit extra grants. These new defaults are for review
+under #1265; ancestry and culture grants otherwise remain unchanged.
+
 ## Ledger to copy
 
 | Stage | Source or purchase | Prerequisites already held | DP change | Pool remaining | Item/recipe grant |

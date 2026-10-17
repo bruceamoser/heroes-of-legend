@@ -12,9 +12,11 @@ when you know why it is here and what might make it leave.
 ## Read from the top down
 
 Every creature's name includes its current CV. Beneath a short description, find
-its six attributes, HP, Speed, Size and Armor DR, then Evasion, Threat, Stability
-and its damage defenses. The action tables come next; details provide their ranges,
-targets, timing and exceptions.
+its six attributes, HP, Speed, Size, Armor DR, Evasion, Threat and Stability on
+the left, with weaknesses, resistances and immunities on the right. Unique actions
+come next, with defense, damage type and complete outcomes in the table. Details
+below describe the action, its targets and any remaining limits. The final section
+collects healing, senses, signs, motives and encounter guidance.
 
 | Field | Use during play |
 |---|---|
@@ -30,13 +32,13 @@ targets, timing and exceptions.
 | Resistances | Damage types and reductions. The Physical entry repeats Armor DR; never add them together. |
 | Immunities | Only the printed immunities apply. Category names grant none by themselves. |
 
-“None” under Evasion or Threat means no modifier from that field. “1 Bane” means
+**0** under Evasion or Threat means no modifier from that field. “1 Bane” means
 one Bane through the ordinary dice procedure, not minus one to a total.
 
 ## A Goblin Scrapper at the table
 
 The [Goblin Scrapper](../../bestiary/creatures/goblin-scrapper.md) has **CV 7,
-HP 8, Speed 7, Size 1, Armor DR 0, Evasion 1 Bane, Threat None and Stability 0**.
+HP 8, Speed 7, Size 1, Armor DR 0, Evasion 1 Bane, Threat 0 and Stability 0**.
 Its Scrap knife requires **Agility defense** and deals **5/3/2 physical damage**
 for Weak/Standard/Strong player defense.
 
@@ -64,7 +66,8 @@ outcome, including conditions and movement. Do not combine the riders from sever
 columns or apply a Strong-defense rider to every result.
 
 A line such as “6 + Bleeding 2 / 4 + Bleeding 1 / 3” means exactly those three
-alternatives. The damage type, range and target are in the action's details.
+alternatives. The damage type has its own table column; range and target appear
+in the action's details.
 A zero-damage condition result remains a condition result; the minimum-damage
 rule does not invent damage for an effect that deals none.
 
@@ -84,9 +87,31 @@ usage limits. Use the printed Reaction trigger and cost. Opportunity attacks use
 Basic Melee and occur before the provoking action; the original action continues
 if its actor is still capable. The specialty attack is not an opportunity substitute.
 
-Mark expiring effects where you can see them. Defend's concise “+1 Bane” refers to
-player attacks against that creature for the duration in Details. It is not a new
-permanent Evasion value. A shield's hunker consumes a Reaction; defense rolls do not.
+Mark expiring effects where you can see them. Defend adds a temporary Bane to
+player attacks against that creature; it does not change permanent Evasion. A
+shield's hunker consumes a Reaction; defense rolls do not.
+
+## Universal actions
+
+Creature cards list their unique actions. The following universal choices are
+available when the creature is capable of performing them; they are not repeated
+on each card.
+
+| Action | Use |
+|---|---|
+| Basic Melee — Main Action | Attack one adjacent creature. Agility defense; physical damage; printed Threat applies. No specialty riders. |
+| Defend — Maneuver | Add 1 Bane to player attacks against the creature until the start of its next turn. Combines with Evasion through normal Boon/Bane rules; repeated Defend does not stack. |
+| Opportunity Attack — Reaction | Basic Melee against the provoking creature, before its action resolves. That action continues if its actor remains capable. |
+
+Basic Melee uses the following existing creature damage profiles. Read each as
+**Weak / Standard / Strong player defense**. This reference also supplies the
+attack used for opportunity attacks; do not substitute a specialty attack.
+
+| Creatures | Basic Melee damage |
+|---|---|
+| Cave Bat; Raven | 2/1/1 |
+| Adder; Skeleton Archer; Clockwork Scout; Emberling; Goblin Scrapper; Grave Wisp; Hearth Brownie; Hedge Sprite; Kobold Trapkeeper; Lantern Spirit; Rill Sprite; Trail Hound | 4/2/1 |
+| All other creatures in this bestiary | 5/3/2 |
 
 ## Damage defenses in order
 
@@ -158,6 +183,11 @@ healing and disappear at 0 HP without a body or permanent loot. They are still
 tangible: they occupy squares, block movement and can be damaged, pushed or grappled
 unless their own card states an exception.
 
+A **ring-and-spark marker** in the upper-right corner identifies a summonable
+creature. Its label gives the category and minimum level: **Animal 1**, for example.
+Select the marker in the PDF to open that creature’s player profile. No marker
+means the creature is not an eligible summon.
+
 Use the separate player profile for an eligible summon. Its attack outcomes run
 Weak to Strong **attack**, and its modifiers already express the player's perspective.
 Do not reverse the DA card mentally or import its independent Reactions. A creature
@@ -199,5 +229,4 @@ resistance or moral alignment.
 
 The monster ability appendix supports preparation and adaptation. The creature
 card remains complete enough to run without chasing that appendix during a turn.
-Design worksheets follow the play references, where they cannot crowd the defenses
-and actions you need in combat.
+Use the indexes to find creatures by name, CV, family, habitat or role.
