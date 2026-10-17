@@ -1,0 +1,544 @@
+{
+  "title": "Heroes of Legend: Dungeon Architect’s Guide & Bestiary",
+  "status": "Manuscript draft for review; CV uncalibrated",
+  "chapters": [
+    "da-book/manuscript/01-becoming-the-da.md",
+    "da-book/manuscript/02-running-the-game.md",
+    "da-book/manuscript/03-building-adventures.md",
+    "da-book/manuscript/03a-bell-at-the-crossing.md",
+    "da-book/manuscript/04-places-and-people.md",
+    "da-book/manuscript/05-building-encounters.md",
+    "da-book/manuscript/06-hazards-and-environment.md",
+    "da-book/manuscript/07-treasure-and-rewards.md",
+    "da-book/manuscript/08-campaigns-and-consequences.md",
+    "da-book/manuscript/09-using-the-bestiary.md",
+    "da-book/manuscript/10-bestiary.md"
+  ],
+  "appendices": [
+    "da-book/manuscript/appendix-a-creature-design.md",
+    "da-book/manuscript/appendix-b-monster-abilities.md",
+    "da-book/manuscript/appendix-c-summoned-forms.md",
+    "da-book/manuscript/appendix-d-table-tools.md"
+  ],
+  "families": [
+    {
+      "name": "Animal",
+      "sources": [
+        "bestiary/creatures/adder.md",
+        "bestiary/creatures/ancient-mammoth.md",
+        "bestiary/creatures/blood-bat-swarm.md",
+        "bestiary/creatures/brown-bear.md",
+        "bestiary/creatures/carrion-rat-swarm.md",
+        "bestiary/creatures/cave-bat.md",
+        "bestiary/creatures/dire-wolf.md",
+        "bestiary/creatures/giant-boar.md",
+        "bestiary/creatures/giant-constrictor.md",
+        "bestiary/creatures/giant-eagle.md",
+        "bestiary/creatures/giant-octopus.md",
+        "bestiary/creatures/giant-rat.md",
+        "bestiary/creatures/giant-scorpion.md",
+        "bestiary/creatures/giant-spider.md",
+        "bestiary/creatures/great-cat.md",
+        "bestiary/creatures/great-stag.md",
+        "bestiary/creatures/marsh-crocodile.md",
+        "bestiary/creatures/raven.md",
+        "bestiary/creatures/reef-hunter.md",
+        "bestiary/creatures/trail-hound.md",
+        "bestiary/creatures/warhorse.md",
+        "bestiary/creatures/wild-boar.md",
+        "bestiary/creatures/wolf.md"
+      ]
+    },
+    {
+      "name": "Celestial guides and champions",
+      "sources": [
+        "bestiary/creatures/lantern-angel.md",
+        "bestiary/creatures/sword-angel.md",
+        "bestiary/creatures/gate-archon.md",
+        "bestiary/creatures/dawn-emissary.md"
+      ]
+    },
+    {
+      "name": "Dragons, drakes and hydras",
+      "sources": [
+        "bestiary/creatures/red-dragon.md",
+        "bestiary/creatures/rime-dragon.md",
+        "bestiary/creatures/black-dragon.md",
+        "bestiary/creatures/green-dragon.md",
+        "bestiary/creatures/blue-dragon.md",
+        "bestiary/creatures/bronze-dragon.md",
+        "bestiary/creatures/gold-dragon.md",
+        "bestiary/creatures/young-ember-drake.md",
+        "bestiary/creatures/wyvern.md",
+        "bestiary/creatures/many-headed-marsh-wyrm.md",
+        "bestiary/creatures/hydra.md"
+      ]
+    },
+    {
+      "name": "Elemental",
+      "sources": [
+        "bestiary/creatures/air-elemental.md",
+        "bestiary/creatures/cinder-strider.md",
+        "bestiary/creatures/earth-elemental.md",
+        "bestiary/creatures/emberling.md",
+        "bestiary/creatures/icebound-warden.md",
+        "bestiary/creatures/rill-sprite.md",
+        "bestiary/creatures/stone-knuckle.md",
+        "bestiary/creatures/storm-column.md",
+        "bestiary/creatures/water-elemental.md"
+      ]
+    },
+    {
+      "name": "Fantastic hunters and guardians",
+      "sources": [
+        "bestiary/creatures/owlbear.md",
+        "bestiary/creatures/cockatrice.md",
+        "bestiary/creatures/manticore.md",
+        "bestiary/creatures/chimera.md",
+        "bestiary/creatures/gargoyle.md",
+        "bestiary/creatures/minotaur.md",
+        "bestiary/creatures/harpy.md",
+        "bestiary/creatures/pegasus.md",
+        "bestiary/creatures/roc.md",
+        "bestiary/creatures/winter-wolf.md",
+        "bestiary/creatures/sphinx.md",
+        "bestiary/creatures/griffin.md",
+        "bestiary/creatures/basilisk.md",
+        "bestiary/creatures/mimic-chest.md",
+        "bestiary/creatures/hook-beak.md",
+        "bestiary/creatures/burrowing-maw.md",
+        "bestiary/creatures/river-serpent.md"
+      ]
+    },
+    {
+      "name": "Fey",
+      "sources": [
+        "bestiary/creatures/briar-knight.md",
+        "bestiary/creatures/harbor-siren.md",
+        "bestiary/creatures/hearth-brownie.md",
+        "bestiary/creatures/hedge-sprite.md",
+        "bestiary/creatures/moon-hart.md",
+        "bestiary/creatures/reed-piper.md",
+        "bestiary/creatures/thorn-queen.md"
+      ]
+    },
+    {
+      "name": "Fey — classic",
+      "sources": [
+        "bestiary/creatures/dryad.md",
+        "bestiary/creatures/satyr.md",
+        "bestiary/creatures/redcap.md",
+        "bestiary/creatures/unicorn.md"
+      ]
+    },
+    {
+      "name": "Fiends and infernal bargains",
+      "sources": [
+        "bestiary/creatures/hell-hound.md",
+        "bestiary/creatures/succubus.md",
+        "bestiary/creatures/horned-devil.md",
+        "bestiary/creatures/ash-demon.md",
+        "bestiary/creatures/nightmare.md",
+        "bestiary/creatures/pact-broker.md",
+        "bestiary/creatures/cinder-imp.md",
+        "bestiary/creatures/chain-jailer.md",
+        "bestiary/creatures/oath-devourer.md"
+      ]
+    },
+    {
+      "name": "Ghosts, shadows and wraiths",
+      "sources": [
+        "bestiary/creatures/sorrow-ghost.md",
+        "bestiary/creatures/poltergeist.md",
+        "bestiary/creatures/shadow.md",
+        "bestiary/creatures/wraith.md",
+        "bestiary/creatures/banshee.md",
+        "bestiary/creatures/grave-wisp.md"
+      ]
+    },
+    {
+      "name": "Ghouls and ghasts",
+      "sources": [
+        "bestiary/creatures/crypt-ghoul.md",
+        "bestiary/creatures/ghast.md"
+      ]
+    },
+    {
+      "name": "Giants and trolls",
+      "sources": [
+        "bestiary/creatures/hill-giant.md",
+        "bestiary/creatures/stone-giant.md",
+        "bestiary/creatures/frost-giant.md",
+        "bestiary/creatures/fire-giant.md",
+        "bestiary/creatures/cloud-giant.md",
+        "bestiary/creatures/storm-giant.md",
+        "bestiary/creatures/ettin.md",
+        "bestiary/creatures/cyclops.md",
+        "bestiary/creatures/bridge-troll.md"
+      ]
+    },
+    {
+      "name": "Goblins",
+      "sources": [
+        "bestiary/creatures/goblin-scrapper.md",
+        "bestiary/creatures/goblin-spearhand.md",
+        "bestiary/creatures/goblin-smoke-slinger.md",
+        "bestiary/creatures/goblin-firestarter.md",
+        "bestiary/creatures/goblin-rattlechanter.md",
+        "bestiary/creatures/goblin-boss.md"
+      ]
+    },
+    {
+      "name": "Golems and animated guardians",
+      "sources": [
+        "bestiary/creatures/flesh-golem.md",
+        "bestiary/creatures/clay-golem.md",
+        "bestiary/creatures/stone-golem.md",
+        "bestiary/creatures/animated-statue.md",
+        "bestiary/creatures/animated-armor.md",
+        "bestiary/creatures/clay-helper.md",
+        "bestiary/creatures/clockwork-scout.md",
+        "bestiary/creatures/glass-sentinel.md",
+        "bestiary/creatures/iron-gatekeeper.md",
+        "bestiary/creatures/walking-furnace.md"
+      ]
+    },
+    {
+      "name": "Hags",
+      "sources": [
+        "bestiary/creatures/green-hag.md",
+        "bestiary/creatures/sea-hag.md",
+        "bestiary/creatures/night-hag.md"
+      ]
+    },
+    {
+      "name": "Hobgoblins",
+      "sources": [
+        "bestiary/creatures/hobgoblin-shieldguard.md",
+        "bestiary/creatures/hobgoblin-longbow.md",
+        "bestiary/creatures/hobgoblin-marshal.md"
+      ]
+    },
+    {
+      "name": "Kobolds",
+      "sources": [
+        "bestiary/creatures/kobold-trapkeeper.md",
+        "bestiary/creatures/kobold-tunnel-scout.md",
+        "bestiary/creatures/kobold-emberkeeper.md"
+      ]
+    },
+    {
+      "name": "Legendary people",
+      "sources": [
+        "bestiary/creatures/medusa.md",
+        "bestiary/creatures/centaur-scout.md"
+      ]
+    },
+    {
+      "name": "Mind and cavern horrors",
+      "sources": [
+        "bestiary/creatures/chorus-maw.md",
+        "bestiary/creatures/cavern-lurker.md",
+        "bestiary/creatures/thought-leech.md",
+        "bestiary/creatures/faceless-envoy.md",
+        "bestiary/creatures/rust-eater.md",
+        "bestiary/creatures/starless-oracle.md"
+      ]
+    },
+    {
+      "name": "Mortal",
+      "sources": [
+        "bestiary/creatures/bandit-bow.md",
+        "bestiary/creatures/battle-chaplain.md",
+        "bestiary/creatures/grave-cultist.md",
+        "bestiary/creatures/hedge-sorcerer.md",
+        "bestiary/creatures/masked-duelist.md",
+        "bestiary/creatures/road-bandit.md",
+        "bestiary/creatures/shield-soldier.md",
+        "bestiary/creatures/veteran-captain.md"
+      ]
+    },
+    {
+      "name": "Mortal communities",
+      "sources": [
+        "bestiary/creatures/bugbear-ambusher.md",
+        "bestiary/creatures/gnoll-tracker.md",
+        "bestiary/creatures/gnoll-bonecaller.md",
+        "bestiary/creatures/lizardfolk-reedguard.md",
+        "bestiary/creatures/lizardfolk-starspeaker.md",
+        "bestiary/creatures/merfolk-tideguard.md",
+        "bestiary/creatures/deep-elf-webweaver.md"
+      ]
+    },
+    {
+      "name": "Mummies",
+      "sources": [
+        "bestiary/creatures/mummy.md",
+        "bestiary/creatures/mummy-king.md"
+      ]
+    },
+    {
+      "name": "Ogres",
+      "sources": [
+        "bestiary/creatures/hill-ogre.md",
+        "bestiary/creatures/ogre-hookhand.md",
+        "bestiary/creatures/ogre-glutton.md",
+        "bestiary/creatures/ogre-taskmaster.md"
+      ]
+    },
+    {
+      "name": "Oozes",
+      "sources": [
+        "bestiary/creatures/gelatinous-cube.md",
+        "bestiary/creatures/black-pudding.md",
+        "bestiary/creatures/ochre-jelly.md",
+        "bestiary/creatures/crystal-ooze.md",
+        "bestiary/creatures/mire-ooze.md"
+      ]
+    },
+    {
+      "name": "Orcs",
+      "sources": [
+        "bestiary/creatures/orc-outrider.md",
+        "bestiary/creatures/orc-shieldbreaker.md",
+        "bestiary/creatures/orc-warcaller.md"
+      ]
+    },
+    {
+      "name": "Plants and fungi",
+      "sources": [
+        "bestiary/creatures/shambling-mound.md",
+        "bestiary/creatures/giant-flytrap.md",
+        "bestiary/creatures/walking-thorn.md",
+        "bestiary/creatures/old-root-guardian.md",
+        "bestiary/creatures/spore-shepherd.md",
+        "bestiary/creatures/thorn-lurker.md"
+      ]
+    },
+    {
+      "name": "Skeletons",
+      "sources": [
+        "bestiary/creatures/bone-sentry.md",
+        "bestiary/creatures/bone-archer.md",
+        "bestiary/creatures/skeleton-champion.md",
+        "bestiary/creatures/skeleton-horse.md",
+        "bestiary/creatures/skeleton-giant.md",
+        "bestiary/creatures/bone-colossus.md"
+      ]
+    },
+    {
+      "name": "Spirit",
+      "sources": [
+        "bestiary/creatures/ancestor-guardian.md",
+        "bestiary/creatures/lantern-spirit.md",
+        "bestiary/creatures/mourning-bell.md",
+        "bestiary/creatures/oath-flame.md"
+      ]
+    },
+    {
+      "name": "Undead knights, revenants and liches",
+      "sources": [
+        "bestiary/creatures/barrow-guard.md",
+        "bestiary/creatures/wight.md",
+        "bestiary/creatures/death-knight.md",
+        "bestiary/creatures/ash-revenant.md",
+        "bestiary/creatures/tomb-sage.md"
+      ]
+    },
+    {
+      "name": "Vampires",
+      "sources": [
+        "bestiary/creatures/vampire-spawn.md",
+        "bestiary/creatures/blood-courtier.md"
+      ]
+    },
+    {
+      "name": "Werecreatures",
+      "sources": [
+        "bestiary/creatures/werewolf.md",
+        "bestiary/creatures/wererat.md",
+        "bestiary/creatures/werebear.md"
+      ]
+    },
+    {
+      "name": "Zombies",
+      "sources": [
+        "bestiary/creatures/restless-corpse.md",
+        "bestiary/creatures/plague-zombie.md",
+        "bestiary/creatures/zombie-brute.md"
+      ]
+    }
+  ],
+  "monster_abilities": [
+    "monster-abilities/anchor-bound.md",
+    "monster-abilities/assumed-face.md",
+    "monster-abilities/barrel-through.md",
+    "monster-abilities/barrow-guard-plant-the-shield.md",
+    "monster-abilities/battle-mending.md",
+    "monster-abilities/binding-circle.md",
+    "monster-abilities/blood-scent.md",
+    "monster-abilities/bone-colossus-set-the-frame.md",
+    "monster-abilities/borrowed-face.md",
+    "monster-abilities/borrowed-voice.md",
+    "monster-abilities/brace-ground.md",
+    "monster-abilities/breaking-roar.md",
+    "monster-abilities/breath.md",
+    "monster-abilities/briar-knight-root-the-stance.md",
+    "monster-abilities/brown-bear-warning-bellow.md",
+    "monster-abilities/change-guise.md",
+    "monster-abilities/commanding-step.md",
+    "monster-abilities/corrosive-smear.md",
+    "monster-abilities/dazzling-strike.md",
+    "monster-abilities/deafening-strike.md",
+    "monster-abilities/drag-under.md",
+    "monster-abilities/dragging-strike.md",
+    "monster-abilities/dread-cry.md",
+    "monster-abilities/driving-blow.md",
+    "monster-abilities/echo-step.md",
+    "monster-abilities/elemental-burn.md",
+    "monster-abilities/foul-exhalation.md",
+    "monster-abilities/grave-chill.md",
+    "monster-abilities/grave-gallop.md",
+    "monster-abilities/great-cat-flatten-into-cover.md",
+    "monster-abilities/great-stag-guard-the-herd.md",
+    "monster-abilities/gust.md",
+    "monster-abilities/hampering-strike.md",
+    "monster-abilities/heated-hide.md",
+    "monster-abilities/hill-ogre-threatening-roar.md",
+    "monster-abilities/ink-cloud.md",
+    "monster-abilities/iron-gatekeeper-lock-the-feet.md",
+    "monster-abilities/knit-flesh.md",
+    "monster-abilities/knockdown-strike.md",
+    "monster-abilities/life-drink.md",
+    "monster-abilities/life-taking-bite.md",
+    "monster-abilities/lifeless-body.md",
+    "monster-abilities/marsh-crocodile-brace-the-tail.md",
+    "monster-abilities/measured-step.md",
+    "monster-abilities/mimic-shell.md",
+    "monster-abilities/mind-hammer.md",
+    "monster-abilities/mist-veil.md",
+    "monster-abilities/numbing-strike.md",
+    "monster-abilities/pack-hunter.md",
+    "monster-abilities/pounce.md",
+    "monster-abilities/rally.md",
+    "monster-abilities/rattle-bones.md",
+    "monster-abilities/rattle-room.md",
+    "monster-abilities/read-the-current.md",
+    "monster-abilities/red-dragon-dig-in.md",
+    "monster-abilities/rending-blow.md",
+    "monster-abilities/rime-dragon-ice-anchor.md",
+    "monster-abilities/roll-away.md",
+    "monster-abilities/root-bridge.md",
+    "monster-abilities/root-snare.md",
+    "monster-abilities/rousing-beat.md",
+    "monster-abilities/scatter-body.md",
+    "monster-abilities/scatter-embers.md",
+    "monster-abilities/scatter-stones.md",
+    "monster-abilities/scatter-thorns.md",
+    "monster-abilities/seizing-limbs.md",
+    "monster-abilities/shadow-slip.md",
+    "monster-abilities/shield-hunker.md",
+    "monster-abilities/slough-skin.md",
+    "monster-abilities/spectral-passage.md",
+    "monster-abilities/spell-screen.md",
+    "monster-abilities/stalking-step.md",
+    "monster-abilities/stone-stare.md",
+    "monster-abilities/stone-still.md",
+    "monster-abilities/stunning-strike.md",
+    "monster-abilities/submerge.md",
+    "monster-abilities/swallow-threat.md",
+    "monster-abilities/sweeping-attack.md",
+    "monster-abilities/thunderclap.md",
+    "monster-abilities/trail-hound-take-the-scent.md",
+    "monster-abilities/tunnel-scamper.md",
+    "monster-abilities/two-headed-watch.md",
+    "monster-abilities/venom.md",
+    "monster-abilities/veteran-captain-close-the-line.md",
+    "monster-abilities/warding-light.md",
+    "monster-abilities/watch-the-opening.md",
+    "monster-abilities/web-bridge.md",
+    "monster-abilities/web-cast.md",
+    "monster-abilities/wild-boar-lower-the-tusks.md",
+    "monster-abilities/wind-step.md",
+    "monster-abilities/wing-beat.md",
+    "monster-abilities/wing-step.md",
+    "monster-abilities/wolf-circle-the-prey.md"
+  ],
+  "summons": [
+    "bestiary/summons/adder.md",
+    "bestiary/summons/air-elemental.md",
+    "bestiary/summons/ancestor-guardian.md",
+    "bestiary/summons/ancient-mammoth.md",
+    "bestiary/summons/animated-armor.md",
+    "bestiary/summons/animated-statue.md",
+    "bestiary/summons/barrow-guard.md",
+    "bestiary/summons/bone-archer.md",
+    "bestiary/summons/bone-colossus.md",
+    "bestiary/summons/bone-sentry.md",
+    "bestiary/summons/briar-knight.md",
+    "bestiary/summons/brown-bear.md",
+    "bestiary/summons/cave-bat.md",
+    "bestiary/summons/cinder-strider.md",
+    "bestiary/summons/clay-golem.md",
+    "bestiary/summons/clay-helper.md",
+    "bestiary/summons/clockwork-scout.md",
+    "bestiary/summons/crypt-ghoul.md",
+    "bestiary/summons/dire-wolf.md",
+    "bestiary/summons/dryad.md",
+    "bestiary/summons/earth-elemental.md",
+    "bestiary/summons/emberling.md",
+    "bestiary/summons/flesh-golem.md",
+    "bestiary/summons/ghast.md",
+    "bestiary/summons/giant-boar.md",
+    "bestiary/summons/giant-constrictor.md",
+    "bestiary/summons/giant-eagle.md",
+    "bestiary/summons/giant-octopus.md",
+    "bestiary/summons/giant-rat.md",
+    "bestiary/summons/giant-scorpion.md",
+    "bestiary/summons/giant-spider.md",
+    "bestiary/summons/glass-sentinel.md",
+    "bestiary/summons/grave-wisp.md",
+    "bestiary/summons/great-cat.md",
+    "bestiary/summons/great-stag.md",
+    "bestiary/summons/harbor-siren.md",
+    "bestiary/summons/hearth-brownie.md",
+    "bestiary/summons/hedge-sprite.md",
+    "bestiary/summons/icebound-warden.md",
+    "bestiary/summons/iron-gatekeeper.md",
+    "bestiary/summons/lantern-spirit.md",
+    "bestiary/summons/marsh-crocodile.md",
+    "bestiary/summons/moon-hart.md",
+    "bestiary/summons/mourning-bell.md",
+    "bestiary/summons/mummy.md",
+    "bestiary/summons/oath-flame.md",
+    "bestiary/summons/plague-zombie.md",
+    "bestiary/summons/poltergeist.md",
+    "bestiary/summons/raven.md",
+    "bestiary/summons/redcap.md",
+    "bestiary/summons/reed-piper.md",
+    "bestiary/summons/reef-hunter.md",
+    "bestiary/summons/restless-corpse.md",
+    "bestiary/summons/rill-sprite.md",
+    "bestiary/summons/satyr.md",
+    "bestiary/summons/shadow.md",
+    "bestiary/summons/skeleton-champion.md",
+    "bestiary/summons/skeleton-giant.md",
+    "bestiary/summons/skeleton-horse.md",
+    "bestiary/summons/sorrow-ghost.md",
+    "bestiary/summons/stone-golem.md",
+    "bestiary/summons/stone-knuckle.md",
+    "bestiary/summons/storm-column.md",
+    "bestiary/summons/trail-hound.md",
+    "bestiary/summons/unicorn.md",
+    "bestiary/summons/walking-furnace.md",
+    "bestiary/summons/warhorse.md",
+    "bestiary/summons/water-elemental.md",
+    "bestiary/summons/wight.md",
+    "bestiary/summons/wild-boar.md",
+    "bestiary/summons/wolf.md",
+    "bestiary/summons/wraith.md",
+    "bestiary/summons/zombie-brute.md"
+  ],
+  "conditions": "rules/conditions.md",
+  "wounds": "rules/wounds.md"
+}
