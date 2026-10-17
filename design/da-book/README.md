@@ -4,7 +4,56 @@ Construction plan approved by Bruce; source map established October 16, 2026.
 This is a world-agnostic companion to the Player’s Book, for running adventures
 from levels 1–10. The immediate goal is useful guidance and complete table
 references, followed by a readable Typst book in the established Great Library
-style. This directory is the authoring workspace, not a finished manuscript.
+style. This directory holds the first complete prose draft and a reproducible Markdown
+assembly of the reference catalogs. It is not yet a typeset or approved finished book.
+
+
+## Read the first manuscript
+
+The October 16 prose pass contains about **18,600 words of new guidance**, including
+an adaptable adventure, worked examples and table worksheets. Start with
+[Becoming the DA](manuscript/01-becoming-the-da.md), or go straight to
+[The Bell at the Crossing](manuscript/03a-bell-at-the-crossing.md).
+
+| Read | Chapter |
+|---|---|
+| 1 | [Becoming the Dungeon Architect](manuscript/01-becoming-the-da.md) |
+| 2 | [Running the Game](manuscript/02-running-the-game.md) |
+| 3 | [Building Adventures](manuscript/03-building-adventures.md) and [The Bell at the Crossing](manuscript/03a-bell-at-the-crossing.md) |
+| 4 | [Places and People](manuscript/04-places-and-people.md) |
+| 5 | [Building Encounters](manuscript/05-building-encounters.md) |
+| 6 | [Hazards and Environmental Challenges](manuscript/06-hazards-and-environment.md) |
+| 7 | [Treasure and Rewards](manuscript/07-treasure-and-rewards.md) |
+| 8 | [Campaigns and Lasting Consequences](manuscript/08-campaigns-and-consequences.md) |
+| 9 | [Using the Bestiary](manuscript/09-using-the-bestiary.md) |
+| 10 | [Bestiary introduction](manuscript/10-bestiary.md), followed by all 192 sourced creature cards in the assembly |
+| Appendix A | [Creating and Adapting Creatures](manuscript/appendix-a-creature-design.md) |
+| Appendix B | [Monster Ability Reference](manuscript/appendix-b-monster-abilities.md), followed by 93 sourced entries |
+| Appendix C | [Summoned Form Reference](manuscript/appendix-c-summoned-forms.md), followed by 73 sourced profiles |
+| Appendix D | [Table Tools](manuscript/appendix-d-table-tools.md), followed by conditions and all 280 wound results |
+
+The assembly also adds name, CV, family, habitat and role indexes, then the full
+creature design ledger at the end. Edit creatures, abilities and summon profiles
+in their existing source files; do not maintain a second copy in this directory.
+
+From the repository root:
+
+```sh
+python3 design/da-book/assemble.py
+python3 design/da-book/assemble.py --check
+python3 design/audit.py
+python3 design/bestiary/audit.py
+```
+
+Assembly writes `output/manuscript.md`, `output/source-inventory.md` and
+`output/source-hashes.json`. Generated files are ignored by Git and can be rebuilt
+from [the source manifest](source-manifest.json). `--check` verifies they match
+current sources without rewriting them. Coverage checks require each creature,
+monster ability and summon exactly once and preserve all wound result rows.
+
+See [review notes](review.md), [reference use](references.md) and the
+[art/diagram plan](art-plan.md). New adventure and hazard values await review;
+approved creature rules and the released Player's Book are unchanged.
 
 ## Reading order and source inventory
 
