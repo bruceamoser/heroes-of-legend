@@ -17,7 +17,3 @@ durations and limits. A separate player profile governs an eligible summoned for
 Family membership is a filing aid, not a rule package. Use only the card's printed
 immunities, senses, actions and permissions. An undead name does not silently grant
 every undead immunity from another game.
-
-The creature cards follow this introduction in the assembled manuscript. Their
-source remains the bestiary Markdown; editorial source paths and design worksheets
-are kept outside the combat entries.

@@ -66,6 +66,10 @@ buying anything. If a grant duplicates something you already have, receive **1 D
 that stage**. It does not raise the rank, give an unrestricted replacement, or carry
 forward after the stage ends.
 
+Record Common and one ordinary language learned in your home community, then apply
+explicit extra language grants. See [Languages](../../rules/languages.md) for the
+shared list, spoken-only grants and campaign alternatives.
+
 ## 4. Spend level-0 DP
 
 Your level-0 pool is **10 + Knowledge + Reason + Guile**, plus any duplicate-grant

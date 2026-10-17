@@ -1,74 +1,75 @@
 # Creature card: approved compact layout
 
-Bruce approved the Goblin Scrapper sample on October 15, 2026. All 192 DA creature
-cards use this arrangement. The top is a combat reference; the details below
-supply targeting, conditions and exceptions. Design bookkeeping comes last.
+Bruce’s October 17 Adder review refines the earlier Goblin Scrapper layout. The
+DA PDF presents all 192 creatures with the structure below. Authored Markdown
+retains complete source data for audits and alternate exports; the book renderer
+moves shared rules to the introduction and presents each unique rule once.
 
 ```text
-NAME (CV value)
+NAME (CV value)                          SUMMON MARKER, if eligible
 Short description of the creature: body, appearance, nature.
-Brawn | Fortitude | Agility | Guile | Knowledge | Reason
-HP | Speed | Size | Armor DR (physical; always print, including 0)
-Evasion | Threat | Stability
-Weaknesses | Resistances | Immunities
 
-ACTIONS
-Damage legend: Weak / Standard / Strong player defense
-Main Actions table: name | defense attribute | damage and effects for each outcome
-Maneuvers table: name | effect
-Reactions table: name | effect
+LEFT STAT COLUMN                        RIGHT DEFENSE COLUMN
+Brawn, Fortitude, Agility,               Weaknesses
+Guile, Knowledge, Reason                Resistances
+HP, Speed, Size, Armor DR                Immunities
+Evasion, Threat, Stability
 
-DETAILS
-Named attack: target, defense attribute, damage type, outcome riders, limits
-Other named abilities: any details too long for the action table
-General details: Basic Melee, Defend, opportunity timing
+UNIQUE ACTIONS
+Main Actions: name | defense | damage type | Weak / Standard / Strong defense
+Maneuvers: name | effect
+Reactions: name | effect
+Omit empty tables and universal actions.
+
+UNIQUE DETAILS
+Named action: narrative, target, and limits not already in its table
+Other named abilities: remaining triggers, duration and restrictions
 Explicit Stability source, special weaknesses and passives
-Healing exceptions | senses | encounter cues | loot | summon reference
 
-DESIGN NOTES — OUTSIDE THE CARD
-Stable ID | proposal status | category | role
-Creature-roll reference when needed
+IN THE WORLD — TWO COLUMNS
+Healing and exceptions, senses, signs, purpose, tactics and retreat,
+counterplay/conversation, habitat, communication, loot
+
+INTERNAL DESIGN NOTES — NOT PRINTED IN THE BOOK
+Stable ID, status, category, role, creature-roll reference where needed,
 CV worksheet, rationale and ability-source links
 ```
 
 ## Reading the reference
 
-- All six **Attributes** appear above HP, using the creature’s existing values.
-- The **Defense** column names the player’s defense attribute. Nonattack uses
-  show an em dash; healing that can harm undead specifies Fortitude for that use.
-- Use compact table entries: **Defend: +1 Bane** and **Opportunity Attack: Basic
-  Melee**. Their target, timing, duration and stacking rules stay in Details.
+- All six **Attributes** appear before HP, using the creature’s existing values.
+- **Armor DR** always appears, including 0. It is physical resistance. An asterisk
+  points to additional resistance types in the right column. The Physical entry
+  repeats Armor DR; never add them together.
+- **Evasion** modifies player attacks; **Threat** modifies player defense. Print
+  **0** for no modifier, otherwise “1 Bane” or “2 Boons.” Keep attack-specific
+  exceptions with the attack. Existing source “None” values render as 0.
+- **Size** retains its footprint. Size alone grants no reach or Stability.
+- **Stability** always appears, including 0. A nonzero grant identifies its source
+  in the unique details. Highest source, maximum 3; approved chain rules apply.
+- **Weaknesses**, **Resistances** and **Immunities** remain explicit, even when None.
+  Situational weaknesses retain their explanation below.
+- **Defense** names the player’s attribute; a harmful use of healing specifies
+  Fortitude. **Damage type** is a separate column.
+- Each slash separates a complete **Weak / Standard / Strong player defense**
+  outcome, including all conditions and movement. Do not repeat those outcomes,
+  defense attributes or damage types below the table. Retain targets, narrative
+  and limits that the table does not supply. Healing outcomes stay distinct from
+  harmful defense outcomes.
+- Main Actions are choices within the normal budget. **Basic Melee**, **Defend**
+  and **Opportunity Attack** are explained once in the bestiary introduction.
+  Its Basic Melee damage reference preserves all three existing creature profiles;
+  removing the rows does not standardize or change their damage.
+- A Maneuver or Reaction’s effect appears once in its row. Narrative and remaining
+  restrictions appear under the matching name. Triggers and limits must remain
+  available on the card; do not require a monster-ability appendix lookup.
+- The **ring-and-spark summon marker** occupies the upper-right title corner.
+  A compact category/level label such as **Animal 1** preserves eligibility and
+  links to the separate player profile. No marker means ineligible. Omit the
+  redundant Summoning line from the lower section.
 
-- **Evasion** modifies player attacks against the creature. **Threat** modifies
-  player defense against its attacks. Print “1 Bane” or “2 Boons,” never ambiguous
-  signed numbers. “None” means no modifier. An attack-specific exception must be
-  printed with that attack.
-- **Armor DR** is physical resistance. An asterisk means additional resistance
-  types appear in the list below. **Resistances** lists type and value, such as
-  Physical (2), Fire (1). The Physical entry repeats Armor DR; never add them.
-- **Size** retains the occupied footprint: 1 (medium), 2 (2x2 squares), or
-  3 (3x3 squares). This presentation grants no automatic Stability or reach.
-- **Stability** always appears, including 0. A nonzero grant names its source in
-  Details. Highest source, maximum 3; apply the approved chain rules.
-- **Weaknesses** lists existing vulnerabilities. A situational weakness points to
-  its explanation below. This layout does not invent a numerical weakness rule.
-- **Damage** includes effects for each Weak / Standard / Strong **player defense**
-  outcome. Each slash separates a complete result: `6 + Bleeding 2 / 4 + Bleeding 1 / 3`.
-  A zero-damage result still lists its conditions, such as `0 + Slowed 3`.
-  Named Details repeat the effects alongside targeting and limits for adjudication. A healing or other
-  nonattack action says “See details” rather than mixing healing outcomes into
-  the defense-damage legend.
-- Multiple Main Actions are choices within the normal action budget. Basic Melee
-  stays in the table because opportunity attacks use it, not specialty attacks.
-- Short Maneuver and Reaction rules live in their rows. Longer rules may use a
-  concise row and a matching named detail. Keep their triggers, duration and limits
-  on this card; the ability library must not be required during play.
+Player-controlled summons keep separate attacker-facing profiles and command
+restrictions. The marker does not grant the DA card’s independent Reactions.
 
-Player-controlled summons keep separate attacker-facing references and their
-command restrictions. Never give a summon the DA card’s opportunity Reaction or
-ask the DA to reverse a summon damage table.
-
-The title shows the creature’s current CV, such as Great Cat (CV 15). Its full
-worksheet remains in Design notes; title placement does not imply balance validation.
-No adventure bands or CV worksheet in the combat reference. Markdown remains the
-editable source; final physical card dimensions belong to the later layout phase.
+The CV in the title is still an estimate. Its worksheet stays in our working notes and is
+excluded from the DA book. No adventure bands appear on the card.

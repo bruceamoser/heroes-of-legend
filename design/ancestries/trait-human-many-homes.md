@@ -4,7 +4,7 @@
 
 ## Rules
 
-Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.
+Know two additional ordinary spoken [languages](../rules/languages.md). Choose the communities that taught you; this does not grant a second culture’s discipline or card.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

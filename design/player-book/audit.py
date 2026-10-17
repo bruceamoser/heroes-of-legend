@@ -42,6 +42,11 @@ shared=[x for x in m['cards'] if not Path(x['path']).name.startswith('signature-
 if set(summaries)!={Path(x['path']).stem for x in shared}:errors.append('Ability summary coverage differs from shared catalog')
 for slug,summary in summaries.items():
  if norm(summary) not in n:errors.append('Missing ability-directory summary: '+slug)
+for phrase in ['Choose your languages', 'Ordinary languages', 'Uncommon and ancient languages', 'Use languages at the table', 'Keep learning grounded']:
+ if norm(phrase) not in n:errors.append('Missing language section: '+phrase)
+for row in (R/'design/rules/languages.md').read_text().splitlines():
+ if row.startswith('| ') and not row.startswith('| Language'):
+  if norm(row.split('|')[1]) not in n:errors.append('Missing language choice: '+row)
 if body.count('#ability-directory(')!=4:errors.append('Expected four opening ability directories')
 if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
 for cp in (R/'design/origins').glob('*.md'):

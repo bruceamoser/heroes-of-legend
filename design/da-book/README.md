@@ -4,11 +4,53 @@ Construction plan approved by Bruce; source map established October 16, 2026.
 This is a world-agnostic companion to the Player’s Book, for running adventures
 from levels 1–10. The immediate goal is useful guidance and complete table
 references, followed by a readable Typst book in the established Great Library
-style. This directory holds the first complete prose draft and a reproducible Markdown
-assembly of the reference catalogs. It is not yet a typeset or approved finished book.
+style. This directory holds the approved manuscript, shared-source catalog assembly and
+complete Typst review PDF. The October 17 layout is ready for Bruce’s review;
+it is not a new published release.
 
 
-## Read the first manuscript
+## Build and review the PDF
+
+From the repository root, with Python 3.10+ and `markdown-it-py` installed:
+
+```sh
+python3 design/bestiary/art/audit.py
+python3 design/da-book/draw_diagrams.py
+TYPST=/path/to/typst PDF_PYTHON=/path/to/python-with-pypdf-and-pillow \
+  python3 design/da-book/build_pdf.py --compile
+/path/to/python-with-pypdf-and-pillow design/da-book/audit_pdf.py
+```
+
+The reviewed build uses **Typst 0.15.1**, the fonts already under
+`design/player-book/fonts`, and the shared creature art catalog plus approved Player’s Book chapter artwork.
+`TYPST` defaults to the executable on PATH, then the local test installation.
+`PDF_PYTHON` defaults to the installed Codex document runtime when present,
+otherwise the Python running the build. PDF auditing also requires Poppler’s
+`pdftotext`; rendering checks use `pdftoppm`.
+
+The 307-page review copy is `output/heroes-of-legend-da-guide-bestiary.pdf`. The build
+preserves an unoptimized proof for text/page/link comparison and compresses only
+embedded RGB art, retaining image dimensions, alpha masks and vector text.
+Generated Typst, manifests, PDF proofs and audit outputs are ignored by Git.
+The authored Markdown remains the source; the renderer never writes back to it.
+
+The proof includes all ten chapters, the rescue adventure and three
+maps, four appendices, conditions and wounds, and five creature indexes. All 192 creature cards, 93 monster abilities and 73 summon
+profiles have bookmarks and remain intact on individual pages. Creature and summon
+cards use different outcome perspectives. The Creature Design Ledger is retained
+in working notes and omitted from the PDF. All 192 creatures have unique portraits
+with stable references in the [shared art catalog](../bestiary/art/README.md).
+
+See [PDF review record](pdf-review.md) for coverage, visual checks and limitations.
+A clean automated audit is necessary, but never substitutes for rendered-page review
+or encounter playtesting.
+
+Both books include the same [language reference](../rules/languages.md). Chapter 4
+also includes [DA language guidance](manuscript/04a-languages.md) for adapting the list,
+creating languages and interpreting creature communication. New language defaults
+are review proposals recorded in issue #1265.
+
+## Read the manuscript
 
 The October 16 prose pass contains about **18,600 words of new guidance**, including
 an adaptable adventure, worked examples and table worksheets. Start with
@@ -32,8 +74,9 @@ an adaptable adventure, worked examples and table worksheets. Start with
 | Appendix C | [Summoned Form Reference](manuscript/appendix-c-summoned-forms.md), followed by 73 sourced profiles |
 | Appendix D | [Table Tools](manuscript/appendix-d-table-tools.md), followed by conditions and all 280 wound results |
 
-The assembly also adds name, CV, family, habitat and role indexes, then the full
-creature design ledger at the end. Edit creatures, abilities and summon profiles
+The internal Markdown assembly also adds name, CV, family, habitat and role
+indexes, then the full creature design ledger. The reader-facing PDF ends with the
+indexes and omits the ledger. Edit creatures, abilities and summon profiles
 in their existing source files; do not maintain a second copy in this directory.
 
 From the repository root:
@@ -52,8 +95,9 @@ current sources without rewriting them. Coverage checks require each creature,
 monster ability and summon exactly once and preserve all wound result rows.
 
 See [review notes](review.md), [reference use](references.md) and the
-[art/diagram plan](art-plan.md). New adventure and hazard values await review;
-approved creature rules and the released Player's Book are unchanged.
+[art/diagram record](art-plan.md). Bruce approved and merged the manuscript,
+including its adventure and hazard examples, before this layout pass. The released
+Player’s Book is unchanged.
 
 ## Reading order and source inventory
 
@@ -108,8 +152,8 @@ short introduction that explains how its tools help the DA.
 Keep a creature’s combat information on one page or facing spread. Group attributes,
 HP, Speed, Size, Armor DR, Evasion, Threat, Stability and damage defenses together.
 Show defense attributes and every outcome’s damage and conditions in action tables.
-Creature names include CV. Put descriptive text before statistics and design notes
-in the appendix. Small creatures can share a page; complex creatures need room.
+Creature names include CV. Put descriptive text before statistics and keep
+per-creature design notes out of the PDF. Small creatures can share a page; complex creatures need room.
 
 Keep short tables together, balance ending columns, and leave padding after art.
 Use diagrams where positioning needs explanation. Mix unique landscapes, lairs,

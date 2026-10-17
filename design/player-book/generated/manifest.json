@@ -10,7 +10,7 @@
       "path": "design/player-book/manuscript/02-creation.md",
       "kind": "chapter",
       "key": "s-3a383eccab13",
-      "sha256": "1e48bf960c91fbde616645fd5ad47197347be0ae3547c1b2e5e7f39564d8afb2"
+      "sha256": "ec2ce921de8626df92071f2af06b1eb4fd11c279278c008ff462d33c6ba0b665"
     },
     {
       "path": "design/starting-coins.md",
@@ -40,7 +40,7 @@
       "path": "design/ancestries/trait-human-many-homes.md",
       "kind": "trait",
       "key": "s-a675522046ef",
-      "sha256": "3a76874462057653ab212c51a0e40db0d7bc29510a34d65582c2a59b63230d79"
+      "sha256": "d86c74cf4d79ecd80fed34ab746fc36e423a2c6950c3b94223e188b70434ee48"
     },
     {
       "path": "design/ancestries/trait-human-shared-table.md",
@@ -1225,6 +1225,12 @@
       "sha256": "f69d0a0e2d1132d7478a3159287925c7e771138e4680923f39609ddf34eb8a31"
     },
     {
+      "path": "design/rules/languages.md",
+      "kind": "language-reference",
+      "key": "s-b72d3f542ac1",
+      "sha256": "31b3a4a9389e564f838be0adf39d202a3262eaa50dbee6467017998e039adbd9"
+    },
+    {
       "path": "design/player-book/manuscript/08-recovery.md",
       "kind": "chapter",
       "key": "s-3373a7bacd12",
@@ -2362,7 +2368,7 @@
       "path": "design/cards/translate-the-fragment.md",
       "kind": "ability",
       "key": "s-906625ca362d",
-      "sha256": "387fb4e19eb3f641fc85e07ae191a3ca7e2a307b93e9544d04df832604ed05ab"
+      "sha256": "1e8367133f78d0593915a0b541c442f0d1fc38ae6d751f65d15e22d47d881744"
     },
     {
       "path": "design/cards/turn-the-river.md",
@@ -3160,481 +3166,481 @@
       "path": "design/bestiary/summons/adder.md",
       "kind": "summon",
       "key": "s-8a9af988caee",
-      "sha256": "ea13aa1fd986564a033a90ade80792109985e244b7cea57198033284df03b1e7"
+      "sha256": "3e941e067f4d31df53b11e46cf7cd2ac9ac459fd25edc00f8f64ba6f389aeac3"
     },
     {
       "path": "design/bestiary/summons/air-elemental.md",
       "kind": "summon",
       "key": "s-2fbd10a9c26f",
-      "sha256": "cf028f671f9d95d53438ab23799a1778c97cfbfe5c2944ad528ed99bfbe70ffb"
+      "sha256": "413a372e4d2b28db43696dbb84ff2ca92e2a7cbb4a25c0264b3026220f33c218"
     },
     {
       "path": "design/bestiary/summons/ancestor-guardian.md",
       "kind": "summon",
       "key": "s-dfbf0410e730",
-      "sha256": "d5cd3186c431820d7f8d95c00f6cef5cf51b43c71aa9021d760f016346e6e899"
+      "sha256": "190ca79112e38a4251156303b5c5f94eef2877a8f4361e3364768f33901cfa6c"
     },
     {
       "path": "design/bestiary/summons/ancient-mammoth.md",
       "kind": "summon",
       "key": "s-2ace0f976d0d",
-      "sha256": "ab91b044b555efad3d94593f74b7adf1a48c9a5e11c91bb22deb93a64305063e"
+      "sha256": "53bdc3c974a598316660e087c5f10872c16edb6cfe27911359e0189b73002542"
     },
     {
       "path": "design/bestiary/summons/animated-armor.md",
       "kind": "summon",
       "key": "s-2a0dc58d4f5a",
-      "sha256": "50bc508fbfa227e1e53723c8a89e603e3345088ded1ee201f78abd8a129f895d"
+      "sha256": "f6ccac894f144286075e014e4992ca1b6d05ae9f709c6a6611641665bacd4288"
     },
     {
       "path": "design/bestiary/summons/animated-statue.md",
       "kind": "summon",
       "key": "s-ceed6af946d8",
-      "sha256": "4d7848ce854f0d8573e3f2c22f6a0e1120833cb2aaf2bb2df93e0627dc5eaa5d"
+      "sha256": "b53c41acbf7301c8df6c5f7c1f851b220a42cbbfcf7168b2a3445d44d2a15759"
     },
     {
       "path": "design/bestiary/summons/barrow-guard.md",
       "kind": "summon",
       "key": "s-1b4339d3c5b4",
-      "sha256": "5d77252067ade2e289683b5216424a307c4cef2c57e0b0d22d7dade32c5bc5e4"
+      "sha256": "7df613808bf1fc2e04ea3e08fa8e6c60730f96b8255013c483d11735cc6dc35b"
     },
     {
       "path": "design/bestiary/summons/briar-knight.md",
       "kind": "summon",
       "key": "s-fed0430a4d94",
-      "sha256": "3b64987c64fba448244c62756a8d13710869bc10f48944fa7b346e9b95daa0b1"
+      "sha256": "b707426aace0bb7dcfb8d9a432223b834850a735e87cbc158368d1eb9c0cc7c3"
     },
     {
       "path": "design/bestiary/summons/brown-bear.md",
       "kind": "summon",
       "key": "s-aeadd506a41d",
-      "sha256": "ff56d8604ea3804ed5ecd4175a9dd5bb57083b1ed517ea92455f88a04b0f1105"
+      "sha256": "4e9a2932459836ada25523ed2e8e8afc18d23be1b344122a6769ce009895fd4f"
     },
     {
       "path": "design/bestiary/summons/cave-bat.md",
       "kind": "summon",
       "key": "s-e2ceefc7ef5c",
-      "sha256": "e275c4c1ebc999314bac58de2918e78b3b9230d1bfb833ce9a04d26960153a72"
+      "sha256": "84fc9acbe5b0884adc27d125ec4131f7884648f71cd5803a96ec71495e9cd428"
     },
     {
       "path": "design/bestiary/summons/cinder-strider.md",
       "kind": "summon",
       "key": "s-4f079d49ecee",
-      "sha256": "963801026cedbb92724a9674782994fbb142b5f6755b68aa120ca6ab60db0722"
+      "sha256": "4b9bb18ad92dd2344f0e359804f3e1fd54f49428ba462ffb93a2381ea8f1cc3e"
     },
     {
       "path": "design/bestiary/summons/clay-golem.md",
       "kind": "summon",
       "key": "s-0d401e9c0ff0",
-      "sha256": "d70b53e3c3798071e611f11426029d1143a1a78770237e26472e1f7befda87fd"
+      "sha256": "f8a83c531c8ec9cb5fe5ead0f42dafb7fe097ed423f989f15e45046160b21bb6"
     },
     {
       "path": "design/bestiary/summons/clay-helper.md",
       "kind": "summon",
       "key": "s-c8e62ad0c568",
-      "sha256": "0c10fb7d8aa29da0484f88b1917811e12bd3cbea28ae246cc118ba29a85ceda4"
+      "sha256": "e959c50cbc02ec1f6d19bd45aa42fe841daa74507c97e635a24f6010cea0bd4b"
     },
     {
       "path": "design/bestiary/summons/clockwork-scout.md",
       "kind": "summon",
       "key": "s-69ca6e083349",
-      "sha256": "b5cae79e04187a19be5e46fae2db49ac573f21eb896ecade7cf0d889b2420174"
+      "sha256": "41af88b841bf3375972428c7a8e9ac8b4db9188e1cd8235a99d955e84f520409"
     },
     {
       "path": "design/bestiary/summons/crypt-ghoul.md",
       "kind": "summon",
       "key": "s-2c257e5f6f66",
-      "sha256": "1a3d18da467bc0e5236c6a09e0d8c2ac2f9b27c5315e9ecaec6e130e3d29271d"
+      "sha256": "7aeee1cb26abf97213d3d5395c396d8da6b099effc977d7d9ad1fcc71b34303d"
     },
     {
       "path": "design/bestiary/summons/dire-wolf.md",
       "kind": "summon",
       "key": "s-91ea9fbaf4a2",
-      "sha256": "9454e4cc6ca14e26946ca9e5b8b97cceea5c997363924128fcdd7d3beca2d16f"
+      "sha256": "547e224a66c38836af7bebdfa75101e114859f1cd5dc3eebe0bf1bf6ef15ef21"
     },
     {
       "path": "design/bestiary/summons/dryad.md",
       "kind": "summon",
       "key": "s-440a3ca0feea",
-      "sha256": "45bccca6505a56be305a30110a2cbd80087495881dc277c2efab9bc84ae321c7"
+      "sha256": "12ef41b779d5eb3ed99896a874d68609989fa09c99c270e9a8d4fe7dd1390739"
     },
     {
       "path": "design/bestiary/summons/earth-elemental.md",
       "kind": "summon",
       "key": "s-09d869a7b547",
-      "sha256": "3df04870ad618d93d7dcba50a74695c2e7577e8384bd02dfb4cb80024eaffc47"
+      "sha256": "f38518da817c5925166977b0e725173c9a05a29ed92990d4fb2a98ae6a349e8b"
     },
     {
       "path": "design/bestiary/summons/emberling.md",
       "kind": "summon",
       "key": "s-c06fdf532818",
-      "sha256": "c9df082abbdfd2c87ba48a9a88afa589642024a64c6c64c4ecc24a6580e1c346"
+      "sha256": "4ee1da54d797079aae9fba3a655495ebe511213db8a6fa3fab75bf4e744a5868"
     },
     {
       "path": "design/bestiary/summons/flesh-golem.md",
       "kind": "summon",
       "key": "s-b650ba5f4076",
-      "sha256": "42d2929f85801d455f3b17aa70260d66c338573f6b7ae4caaa5ae406924ebc1b"
+      "sha256": "4843ee2c234838e1ababb468f5654c1a9c1badce694f408e9de370455d9620c2"
     },
     {
       "path": "design/bestiary/summons/ghast.md",
       "kind": "summon",
       "key": "s-a855c1b08231",
-      "sha256": "f5e8aeeb714f3b62be072888bc8042efb13da6e554f842d9aa9e2dc02d59b281"
+      "sha256": "a5f85464d4a97915d3f968f9cb1a11a55d744f620287dca839dee09c51cc7d8d"
     },
     {
       "path": "design/bestiary/summons/sorrow-ghost.md",
       "kind": "summon",
       "key": "s-93b5e0fa4d66",
-      "sha256": "ed7df04a4b2e23a5486777bad470c3a0f0f1ffea7a68d8d48875d17a0ab88198"
+      "sha256": "ea65730f672502cf0868725160c042dd7d8083f9f515fed2c50328eddf9fc27e"
     },
     {
       "path": "design/bestiary/summons/giant-boar.md",
       "kind": "summon",
       "key": "s-69505d26ba69",
-      "sha256": "4af7b7cd5a954fa95a17c93e8c13f32d568dacd1e4984b12f886baafbd4b62fc"
+      "sha256": "275081fa497fed5e7a84b8876a7f206166f829727861083037f80efe693bafb7"
     },
     {
       "path": "design/bestiary/summons/giant-constrictor.md",
       "kind": "summon",
       "key": "s-7a560a09fb85",
-      "sha256": "27ab1b1a16b5224733c94d5a55937ec05dc82fcb606d75a26649e8fbfa60f1d0"
+      "sha256": "74b2a485193512f5569593ec366012ff4800fa3048365d77b7050fb2e5637b16"
     },
     {
       "path": "design/bestiary/summons/giant-eagle.md",
       "kind": "summon",
       "key": "s-014315b5e8bb",
-      "sha256": "b6bbc719307eaa01665cf31bc891f3f46906a7f8a52e4c8e2be9631c8a1c9688"
+      "sha256": "7b37ae1c473b88dc26f458d045f728b4cb3533ed037b14d396a8cbe6374ec12c"
     },
     {
       "path": "design/bestiary/summons/giant-octopus.md",
       "kind": "summon",
       "key": "s-98e425c4177b",
-      "sha256": "ed270f872eabe743755142bbdce1084b75e7ad71063e45c1093efc8deaf1b37a"
+      "sha256": "51f7fdb226b2640b06135813068edd7c44cc204ab72f8b385603400d55cd73ac"
     },
     {
       "path": "design/bestiary/summons/giant-rat.md",
       "kind": "summon",
       "key": "s-2a5ddc4df58e",
-      "sha256": "04aeb28ff93d0ce46f9251c187dd54962ce62af8bded2303c97798d0460c1fc1"
+      "sha256": "032be46801fb18373ae8e13fbb56e702ea6102b3e9192c21286661de0560d0b5"
     },
     {
       "path": "design/bestiary/summons/giant-scorpion.md",
       "kind": "summon",
       "key": "s-069356fc6c56",
-      "sha256": "871fd6c0a3506ba79aa9f5812654e5cee56c97192b38ec3074799b87df549aa7"
+      "sha256": "2c81a1db8fcc80c8a75b6ce75ee377bde13f3d9ba67980dd39bd6228fe399adf"
     },
     {
       "path": "design/bestiary/summons/giant-spider.md",
       "kind": "summon",
       "key": "s-849fbea0354a",
-      "sha256": "1a849758fb736d73d85ebc3f33ef10066bed0573ce6226f41fd5b1483844f46b"
+      "sha256": "5ffde9058d9860fcd17bd2c1257f00bfa98b672cf377659cb38c089de12fb217"
     },
     {
       "path": "design/bestiary/summons/glass-sentinel.md",
       "kind": "summon",
       "key": "s-6a26fcecf81e",
-      "sha256": "d424c2450155baa38ed85c97c831cef62bcc2b44729c337c39aa0ea07627cdca"
+      "sha256": "f0bacf0c9210fd0ee049f27313e25608384761bbe924ff6aa1cf054947e11b4b"
     },
     {
       "path": "design/bestiary/summons/grave-wisp.md",
       "kind": "summon",
       "key": "s-5434da7ba49d",
-      "sha256": "2aa90e07fa326d09217a93aef26605dca1464f91503f6bbb4fb2ae7624985ee5"
+      "sha256": "5537e47bf88cdd32d812b3b47697af65eb5e3c66b648e08e0e1230c0cd7482ae"
     },
     {
       "path": "design/bestiary/summons/great-cat.md",
       "kind": "summon",
       "key": "s-6613badd8151",
-      "sha256": "bfa3cd80a20d6ed660c4d72de8a64ec49cf7bb3a07c070780ee31d9edc5cd4c6"
+      "sha256": "2c5aa3763156a1d28863d0e84635ee0c160b8528c77ccb58cd84394aeb9a7fb3"
     },
     {
       "path": "design/bestiary/summons/great-stag.md",
       "kind": "summon",
       "key": "s-b85cea8623d3",
-      "sha256": "b02c80be017a37a3cf5fec5f317849aa035529184573176344800c1cb6f3512e"
+      "sha256": "0f6a1d37aa00e85b0dbc668e02aed4d15c5ab347ae891b4eaef3f63aa2ac0c7d"
     },
     {
       "path": "design/bestiary/summons/harbor-siren.md",
       "kind": "summon",
       "key": "s-01ed68ff1a41",
-      "sha256": "b9639bef9d19d616bf8e6a64b08ade013f6c22464575bd360e06af832ee52ee0"
+      "sha256": "b803817aec55c01d3c602de0481f0b39d3c4b44c68bb7eed07613dabf0d419d9"
     },
     {
       "path": "design/bestiary/summons/hearth-brownie.md",
       "kind": "summon",
       "key": "s-bb6180abd6d4",
-      "sha256": "9615a8b88f9b93ec4e638b6bad70868d7d99e8630becccf24ffee784adccc9e4"
+      "sha256": "e935454a03caf5d0f67b09f72d544c9bb4cdda195d972351477cada231229a3c"
     },
     {
       "path": "design/bestiary/summons/hedge-sprite.md",
       "kind": "summon",
       "key": "s-4d11a7ef7d9b",
-      "sha256": "1ec884725cfe2e15ce5de14fca41cddbf362299a2c3dae2fb1b52dd51dcb6b8a"
+      "sha256": "e85142ac6a5328dd7ab8193ed197de9c943b95853770f42a8a42517ac5431e46"
     },
     {
       "path": "design/bestiary/summons/icebound-warden.md",
       "kind": "summon",
       "key": "s-21c3dcf73d9f",
-      "sha256": "61691188ec510996649f747056d3ac8bf125e4505945c6d609f16abede968b29"
+      "sha256": "2a7941d74cda53a3a2c9af75829e0043982b7c3d110cbbe92901bd34d9e92526"
     },
     {
       "path": "design/bestiary/summons/iron-gatekeeper.md",
       "kind": "summon",
       "key": "s-347a1a70b67b",
-      "sha256": "52ade18a313340898dc40e764dfb4a57598d6eca51cedaa00a0b8b3e371af72d"
+      "sha256": "0176efd12e7bf91d8dfe09052d98127b0f45512f07eb16c528cd224d7b06a3ab"
     },
     {
       "path": "design/bestiary/summons/lantern-spirit.md",
       "kind": "summon",
       "key": "s-124dc0f5fc8d",
-      "sha256": "a8aea81f59890d0639b40b574d605b71092ccecfde165b52fddaeb554749ae52"
+      "sha256": "94e31e2663d52ffc0ea1bb0fdd87db03329863c1bdb42e0f6ea9b90ea596f1f6"
     },
     {
       "path": "design/bestiary/summons/marsh-crocodile.md",
       "kind": "summon",
       "key": "s-75a88e5c0ce3",
-      "sha256": "65f81cf78e02dd67bb4a2c77814e68ef760450eed78acf4352a56a2d1a319fd1"
+      "sha256": "dd1b23d600a111656c225ce43696c44ccaede99be4c185c12d43ec56e991671e"
     },
     {
       "path": "design/bestiary/summons/moon-hart.md",
       "kind": "summon",
       "key": "s-2e9a60284c6f",
-      "sha256": "a6a0790532447cca95c46b3f50cc628a5809195ed7f67af51d87463e8d32837d"
+      "sha256": "e7b160e84d422259ba902dede24b89e235449331df27e37bd6ae026c0e121de6"
     },
     {
       "path": "design/bestiary/summons/mourning-bell.md",
       "kind": "summon",
       "key": "s-99969043061f",
-      "sha256": "0358400af054b9439a92425f396d27715e5311942308719c0886ea6b72d960f2"
+      "sha256": "db09be2b7996b4f0744da1ada47d6163efed1655f5e3ff033e2d6ecd06bc2d70"
     },
     {
       "path": "design/bestiary/summons/mummy.md",
       "kind": "summon",
       "key": "s-04308fa879c8",
-      "sha256": "6f7b855a19e45e49d624023ca5c7bb83e22c215f8308bcbfa7019a012c19f394"
+      "sha256": "c37f92d6ca3433bc8012ca67dfd15bd0d5c51472c7064082fba3a35e74a0f21c"
     },
     {
       "path": "design/bestiary/summons/oath-flame.md",
       "kind": "summon",
       "key": "s-d88cb73f605d",
-      "sha256": "8dbc8466473a4568a7924339f36046475d3b6c52a5673cc10da54d457723193b"
+      "sha256": "af8d53a11ea856733c2112bcb7c8ff862c30e10b2931ed3641fcf6644f576a66"
     },
     {
       "path": "design/bestiary/summons/plague-zombie.md",
       "kind": "summon",
       "key": "s-5648c67015ec",
-      "sha256": "9ea8032efe33586f14247da80150b5f478c960063f1c0924b4f879229f78aa71"
+      "sha256": "7151be0733c612106d0f949f7fe367ceb4ca94d907573d5bcaeeb22e4f727fcf"
     },
     {
       "path": "design/bestiary/summons/poltergeist.md",
       "kind": "summon",
       "key": "s-7ede16d2c4e0",
-      "sha256": "94c81631772d5cbd12b5e58d1a353ff5f632dae564fde32831b0ec4fa2d7217c"
+      "sha256": "200327dffaa02f9deb16f85d4e5ef52e4167c2307909c38e5f21954fed1ff0b0"
     },
     {
       "path": "design/bestiary/summons/raven.md",
       "kind": "summon",
       "key": "s-60db1c505d34",
-      "sha256": "764aeda4e3bd1240f4cb1ae450037641216bcd472dae36e06446067b7476592a"
+      "sha256": "0bcef60d1c43aac819319125039caef586630ec688a172f0387f0cf54d91d97d"
     },
     {
       "path": "design/bestiary/summons/redcap.md",
       "kind": "summon",
       "key": "s-35be93c918d3",
-      "sha256": "3708cc9ae51534e26f6cde8d6c849aa68601bf78fbd8bfb614af1db30f7daa7b"
+      "sha256": "86a19b6de12f229511ea87165f8c18d98671f44b1216f12a52ac468986dae44d"
     },
     {
       "path": "design/bestiary/summons/reed-piper.md",
       "kind": "summon",
       "key": "s-48b4b313e11c",
-      "sha256": "e4fc27089b8aeb4ff0e28a05189f7c2ef3df179b885bf6d3cae0cd124c00e357"
+      "sha256": "ad9dcc34b6b10cf43d1b3b399ef749697993ad21e117fa7534889fe6259c6348"
     },
     {
       "path": "design/bestiary/summons/reef-hunter.md",
       "kind": "summon",
       "key": "s-a74ae6c152f1",
-      "sha256": "2dbed6016b32f3352bebbec9023f405f41ad1f32e2dbb5381957e90771a8c851"
+      "sha256": "26c7b7ca4cfd29433804bcec0e28e70ebf1c91021cee066eb152ec1350ae44ea"
     },
     {
       "path": "design/bestiary/summons/rill-sprite.md",
       "kind": "summon",
       "key": "s-de1694d7cb62",
-      "sha256": "5cefc0eaf98c4dc05520d6ae880216377a7327f0de1bb798ac362a27b49ba025"
+      "sha256": "8769231450276026fd558aef885b28a0e6e28764b7ccf14e92b005bac8e876b6"
     },
     {
       "path": "design/bestiary/summons/satyr.md",
       "kind": "summon",
       "key": "s-3df5ebb4fa79",
-      "sha256": "6db7a0f65cdb4666fbc357b4e37ebfbd7814f3c7b9834bfc7b59337a20d42ccd"
+      "sha256": "a62b203d7f018b5b57fe033a5b306a9fe78ff1a03900415bbd8376c4f31c387e"
     },
     {
       "path": "design/bestiary/summons/shadow.md",
       "kind": "summon",
       "key": "s-2ce126d0a042",
-      "sha256": "70a4ce321758c7913fa4688927170eb96c732b807c4994f7014c62c07d96fdd7"
+      "sha256": "43a74e13fa89b89470b30c649af1e9a2f7c9baaaf918f5c3008630e7bd9df2b0"
     },
     {
       "path": "design/bestiary/summons/bone-archer.md",
       "kind": "summon",
       "key": "s-6bc54a890122",
-      "sha256": "587c57cb80a74de4a701c5dd1c9696cca0a9f09f59f80bdceacc796a5c323b8d"
+      "sha256": "c4b2b28daa9308ff27e1b382a666caa247ea71bac1d9ffe38dbb0fd10e897100"
     },
     {
       "path": "design/bestiary/summons/skeleton-champion.md",
       "kind": "summon",
       "key": "s-e5be16a417bb",
-      "sha256": "b7894d98166b3323af9e3a17b641b14c6453d2055201fdfd3df47ea829352ec0"
+      "sha256": "a50ff8960fb50fd7d07aff678bf9c4497b740fb323549c217064178f5b0f4b85"
     },
     {
       "path": "design/bestiary/summons/bone-colossus.md",
       "kind": "summon",
       "key": "s-a7b89d32f088",
-      "sha256": "3ff16c58a25d69a654091f1127237cc6bf41754b1e850e8ad08192003f1e5f84"
+      "sha256": "7aecd12b9bb9a0377f797788c859a4c4b64b885d12ce953c5bf2bbf81c97ee20"
     },
     {
       "path": "design/bestiary/summons/skeleton-giant.md",
       "kind": "summon",
       "key": "s-9be2cfada30c",
-      "sha256": "7b02f6e360214746a32e98d446a6a1d12168d2fac48113032c9c6468d409fbc0"
+      "sha256": "cd11019d08442eac59812cebc5181d8a859f939ff392736111d03cbfb6329738"
     },
     {
       "path": "design/bestiary/summons/skeleton-horse.md",
       "kind": "summon",
       "key": "s-97b1e8b34437",
-      "sha256": "e8a63994bb871d1cc317e20acdb98aed0227b8cbbdf67f489301033d2204d403"
+      "sha256": "025e34b81a8271b6c2bfe9b467b8dd37b9e71ed0b78ab7b53bdc840cc73e7abe"
     },
     {
       "path": "design/bestiary/summons/bone-sentry.md",
       "kind": "summon",
       "key": "s-fe760a628c0b",
-      "sha256": "edd5ef39c00a6b2d3925428e0a67e0a309d21c544021ef10d7f92f48b037289d"
+      "sha256": "17e35c1ffad5dbc5ba5d329604e911bb9a36934edfc59a7e3e711e110c094198"
     },
     {
       "path": "design/bestiary/summons/stone-golem.md",
       "kind": "summon",
       "key": "s-d788d5167794",
-      "sha256": "ec26563ffb5795f68eedb133e95bae3357ce5feb27a1910cfa50ed52aac2fde9"
+      "sha256": "1a1fb73247d7bb545add53f3abdadf0f064eabb657c5a5ce3c4add54df98fb53"
     },
     {
       "path": "design/bestiary/summons/stone-knuckle.md",
       "kind": "summon",
       "key": "s-2ca5d81eca19",
-      "sha256": "b1e26fa454172bce566dc649af73b978c377e096cbf6ce4cdb27761dad848028"
+      "sha256": "b2885c188bc6dd25f475bebb1f8d666111ed206200bd37040903cafadcad4bba"
     },
     {
       "path": "design/bestiary/summons/storm-column.md",
       "kind": "summon",
       "key": "s-5964001936f6",
-      "sha256": "7f1230743915bc18bd5e65b71ba9b7434e1d72a57baaf245f21c448326b5a571"
+      "sha256": "f82e98f91585ab274694adef776f5cdaa7fe73ab0a638afeb4b1a4685e928f4f"
     },
     {
       "path": "design/bestiary/summons/trail-hound.md",
       "kind": "summon",
       "key": "s-b2ccee3e3b68",
-      "sha256": "03c03f9be26625cffa0f69ea8e08d0aebc01b398a67d3c67c26a8b5d96f33e60"
+      "sha256": "a0dc8cc0f782e67d9047f636b9da13f79a825618c5b653fca5f810669c882bb9"
     },
     {
       "path": "design/bestiary/summons/unicorn.md",
       "kind": "summon",
       "key": "s-df10b70c7c35",
-      "sha256": "28511c8a8cb3611df20260e7182a75fe750c5b3826ab7460a8403f02a2f20748"
+      "sha256": "5e55d1f1574684a526ea1cc4f7cc2693c214313a53218a1b0088a26a99407e3c"
     },
     {
       "path": "design/bestiary/summons/walking-furnace.md",
       "kind": "summon",
       "key": "s-7a66302192c1",
-      "sha256": "fa4af22cb24feeb6459beb0499a2bb7373cd00f0b06efd5b6d73ac125544ef7a"
+      "sha256": "bd38027e0eda3d1ce02547a0da5c8cbedf913b0ceb5be9a76e02ad5ec3808d26"
     },
     {
       "path": "design/bestiary/summons/warhorse.md",
       "kind": "summon",
       "key": "s-2004a03963a9",
-      "sha256": "2b4d1a14defcac084a875b8f25e319b147bcdf64a8122be5fd3060476639bb22"
+      "sha256": "583387fe30919bc1e3c865910f2b9ea3168c54384ddde3181555728b1e6ed4ad"
     },
     {
       "path": "design/bestiary/summons/water-elemental.md",
       "kind": "summon",
       "key": "s-47a87fd90c99",
-      "sha256": "8ebe47360f02680107fcefd71c11682ff6f0f1caafceb0b81d1beb53ba8455c5"
+      "sha256": "9eba40da8a6175d7c5a1a96bcb2c2ccf9efb10d6dbe6996a4222e54661efb006"
     },
     {
       "path": "design/bestiary/summons/wight.md",
       "kind": "summon",
       "key": "s-ab5c33b8d42a",
-      "sha256": "4d9b086311187a5d900cb5e97589ae6158381fdddd858bacb09ef4c8479c9af8"
+      "sha256": "95b4a1220a8a83e513f9c7f6d0627bf9d1349960800c31c41c709c57b6b73508"
     },
     {
       "path": "design/bestiary/summons/wild-boar.md",
       "kind": "summon",
       "key": "s-51d7ff944a67",
-      "sha256": "65f61ff264e2502581d1157a7bc4e4c3cc46df475bc7c30e076ca2e35fbaf753"
+      "sha256": "967c427b442cc07be377ec1119b8b7b465fc87934e8dfaf0d40819ee2c1549a0"
     },
     {
       "path": "design/bestiary/summons/wolf.md",
       "kind": "summon",
       "key": "s-e3d96091ccac",
-      "sha256": "b381b3c06deee4b3a354453df09a3a3e9ec559513645834d8807063895e3f7fe"
+      "sha256": "f5374783a58c216baa9e4eed0f575b99bebbfdf8cb1bba7e2da763d2d2defe67"
     },
     {
       "path": "design/bestiary/summons/wraith.md",
       "kind": "summon",
       "key": "s-3150ba60dd2d",
-      "sha256": "6e9c061d057350865ef1096201f8eb410baf44164f9902a430f2337d9370f0cb"
+      "sha256": "a4adfb720b658f23e25940cf844ef6bca003c5755b5ed62aa80dc6351382b239"
     },
     {
       "path": "design/bestiary/summons/zombie-brute.md",
       "kind": "summon",
       "key": "s-9d85a823042e",
-      "sha256": "d0c944bbfd3653149ebd9d74742708c345b38fe2134fb6710a0556f3b4badb14"
+      "sha256": "8f0b4a164b5f5eeb2e65e1dba313e35ed1668ea7839789ad71ed9ea6c171be94"
     },
     {
       "path": "design/bestiary/summons/restless-corpse.md",
       "kind": "summon",
       "key": "s-f5863aeafb13",
-      "sha256": "21d723e54d7b525f378541b32eceb47332e5682a4acecdbba06ceea39ad84bfb"
+      "sha256": "5b189a8e9f64050011736fd3331e96b76267885729cdda1e4e185925797f97b2"
     },
     {
       "path": "design/rules/wounds.md",
       "kind": "wound-tables",
       "key": "s-d615d33192e7",
-      "sha256": "29dd51808d4a91de7ac5217c07213983de017a17766a45d08ed85d0cf2da37a5"
+      "sha256": "2f2a80b3e5d93cacab2efa8c587854cab607017ef9a6d777ca5abce7d4fe3f5d"
     },
     {
       "path": "design/characters/borin-bridgekeeper.md",
       "kind": "character",
       "key": "s-8b8c83fc1b83",
-      "sha256": "d275828698325eef830524b4785cd618d5a1faf4ef0418bfbfef648783db9b44"
+      "sha256": "1dec655d0939f445f2a98bbad34c4444eb2378a0f38faaa5310b73128dc45810"
     },
     {
       "path": "design/characters/lira-ashbow.md",
       "kind": "character",
       "key": "s-4d5f2d3446ae",
-      "sha256": "178c413fd6391a5740d5b6f200042255956fc29a0f818b0df90fe7f58c51b4a7"
+      "sha256": "a8952dfdba72f799a26a13bf3326477a6820eaa40cf5615448f55296b882a7d4"
     },
     {
       "path": "design/characters/mara-reedheart.md",
       "kind": "character",
       "key": "s-16fa8632677b",
-      "sha256": "d9c8652bd0c39c909de95e7b245923e52d452bca5ee69ae2220b741299a3edff"
+      "sha256": "b5aa0378828b6b456c39b11eae531fd6804f193f523db149cd1e96aec8298650"
     },
     {
       "path": "design/characters/oren-brass.md",
       "kind": "character",
       "key": "s-fa91e98e838d",
-      "sha256": "10e0f8879952b5de4343044664f9ab3af5c73317dd497ce5a1bb0520e393a087"
+      "sha256": "1844d0e3f7edea44d6d6d8f14545f2c7a9ec2c01fe00c0b32987eb48056af404"
     },
     {
       "path": "design/characters/pip-copperwink.md",
       "kind": "character",
       "key": "s-1ccf7098d4c2",
-      "sha256": "e8e72a698e710919526993fb91141ad0f47f1a47aaad36126063a7f3da7b6ff4"
+      "sha256": "c1c13da7a820ef60cb9ab1d762a4f3997489bbee130d79af44fa6a3535455521"
     },
     {
       "path": "design/characters/vaelis-emberglass.md",
       "kind": "character",
       "key": "s-2cec6a1ab754",
-      "sha256": "dde37fc191e84435274126ddc9823ba4977a9d3b239b86110e3f9898373e3419"
+      "sha256": "f419f1c81177d0ff27fe22f7a9a3cc4bc09d15807a577852ec83a8fd03faa28c"
     },
     {
       "path": "design/player-book/manuscript/14-reference.md",
@@ -6452,6 +6458,10 @@
     ],
     [
       "design/player-book/manuscript/02-creation.md",
+      "design/rules/languages.md"
+    ],
+    [
+      "design/player-book/manuscript/02-creation.md",
       "design/player-book/manuscript/05-disciplines.md"
     ],
     [
@@ -6737,6 +6747,10 @@
     [
       "design/ancestries/human.md",
       "design/starting-coins.md"
+    ],
+    [
+      "design/ancestries/trait-human-many-homes.md",
+      "design/rules/languages.md"
     ],
     [
       "design/ancestries/elf.md",
@@ -8647,6 +8661,10 @@
       "design/player-book/manuscript/11-summons.md"
     ],
     [
+      "design/cards/translate-the-fragment.md",
+      "design/rules/languages.md"
+    ],
+    [
       "design/cards/call-the-elder-stag.md",
       "design/player-book/manuscript/11-summons.md"
     ],
@@ -9320,6 +9338,10 @@
     ],
     [
       "design/characters/borin-bridgekeeper.md",
+      "design/rules/languages.md"
+    ],
+    [
+      "design/characters/borin-bridgekeeper.md",
       "design/ancestries/trait-dwarf-deep-constitution.md"
     ],
     [
@@ -9473,6 +9495,10 @@
     [
       "design/characters/borin-bridgekeeper.md",
       "design/equipment/lesser-healing-bottle.md"
+    ],
+    [
+      "design/characters/lira-ashbow.md",
+      "design/rules/languages.md"
     ],
     [
       "design/characters/lira-ashbow.md",
@@ -9641,6 +9667,10 @@
     [
       "design/characters/lira-ashbow.md",
       "design/equipment/lesser-healing-bottle.md"
+    ],
+    [
+      "design/characters/mara-reedheart.md",
+      "design/rules/languages.md"
     ],
     [
       "design/characters/mara-reedheart.md",
@@ -9988,6 +10018,10 @@
     ],
     [
       "design/characters/pip-copperwink.md",
+      "design/rules/languages.md"
+    ],
+    [
+      "design/characters/pip-copperwink.md",
       "design/ancestries/trait-halfling-small-passage.md"
     ],
     [
@@ -10153,6 +10187,10 @@
     [
       "design/characters/pip-copperwink.md",
       "design/equipment/lesser-healing-bottle.md"
+    ],
+    [
+      "design/characters/vaelis-emberglass.md",
+      "design/rules/languages.md"
     ],
     [
       "design/characters/vaelis-emberglass.md",

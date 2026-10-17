@@ -80,7 +80,15 @@
     "asset": "warden-bow"
   },
   {
-    "page": 64,
+    "page": 62,
+    "x": 49.5,
+    "y": 486,
+    "width": 240,
+    "height": 230,
+    "asset": "camp-kettle"
+  },
+  {
+    "page": 66,
     "x": 186.0,
     "y": 439,
     "width": 240,
@@ -88,7 +96,7 @@
     "asset": "hourglass"
   },
   {
-    "page": 78,
+    "page": 80,
     "x": 322.5,
     "y": 565,
     "width": 240,
@@ -96,7 +104,7 @@
     "asset": "root-and-thorn"
   },
   {
-    "page": 81,
+    "page": 83,
     "x": 49.5,
     "y": 519,
     "width": 240,
@@ -104,7 +112,7 @@
     "asset": "shadow-lantern"
   },
   {
-    "page": 87,
+    "page": 89,
     "x": 49.5,
     "y": 419,
     "width": 240,
@@ -112,7 +120,7 @@
     "asset": "folded-spell"
   },
   {
-    "page": 92,
+    "page": 94,
     "x": 322.5,
     "y": 576,
     "width": 240,
@@ -120,7 +128,7 @@
     "asset": "healers-bowl"
   },
   {
-    "page": 93,
+    "page": 95,
     "x": 42,
     "y": 249,
     "width": 528,
@@ -128,7 +136,7 @@
     "asset": "ruined-observatory"
   },
   {
-    "page": 96,
+    "page": 98,
     "x": 49.5,
     "y": 545,
     "width": 240,
@@ -136,7 +144,7 @@
     "asset": "climbing-kit"
   },
   {
-    "page": 100,
+    "page": 102,
     "x": 42,
     "y": 532,
     "width": 528,
@@ -144,7 +152,7 @@
     "asset": "mountain-pass"
   },
   {
-    "page": 113,
+    "page": 115,
     "x": 322.5,
     "y": 500,
     "width": 240,
@@ -152,7 +160,7 @@
     "asset": "broken-chain"
   },
   {
-    "page": 114,
+    "page": 116,
     "x": 49.5,
     "y": 566,
     "width": 240,
@@ -160,7 +168,7 @@
     "asset": "feather-and-seal"
   },
   {
-    "page": 125,
+    "page": 127,
     "x": 186.0,
     "y": 448,
     "width": 240,
@@ -168,7 +176,7 @@
     "asset": "elemental-stones"
   },
   {
-    "page": 129,
+    "page": 131,
     "x": 186.0,
     "y": 489,
     "width": 240,
@@ -176,7 +184,7 @@
     "asset": "recipe-tools"
   },
   {
-    "page": 136,
+    "page": 138,
     "x": 49.5,
     "y": 532,
     "width": 240,

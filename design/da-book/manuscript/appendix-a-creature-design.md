@@ -87,8 +87,8 @@ attack for O; do not add its attack attribute to a player's defense probability.
 The two regeneration turns are an assumption, not a prediction of fight length.
 The current U rubric ranges from 1 for simple damage to 1.50–1.65 for substantial
 combined utility, healing or repeated disabling pressure. Those values are judgments,
-not proven prices for conditions. The full current worksheet inputs remain with
-each creature in the design ledger at the end of this reference.
+not proven prices for conditions. Keep your assumptions with your own creature
+notes so you can revisit them after play.
 
 If a creature deals no direct damage, this formula cannot establish its contribution
 by multiplying by zero. Evaluate it in the mixed encounter it supports. Area damage,

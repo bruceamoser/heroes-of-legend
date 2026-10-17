@@ -4,6 +4,8 @@
 
 **Halfling Shadow · HP 16/16 · Grit 2/2 · Speed 7 squares · Bulk 10/10.**
 
+**Languages:** Common and Halfling. See the [language reference](../rules/languages.md).
+
 ## Attributes and ancestry
 
 | Brawn | Fortitude | Agility | Guile | Knowledge | Reason |

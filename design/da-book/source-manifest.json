@@ -540,5 +540,11 @@
     "bestiary/summons/zombie-brute.md"
   ],
   "conditions": "rules/conditions.md",
-  "wounds": "rules/wounds.md"
+  "wounds": "rules/wounds.md",
+  "shared_sections": {
+    "da-book/manuscript/04-places-and-people.md": [
+      "rules/languages.md",
+      "da-book/manuscript/04a-languages.md"
+    ]
+  }
 }

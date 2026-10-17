@@ -43,10 +43,17 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Matches Writing Style Guide (active voice, player-facing, heroic tone).
 - [ ] No sentence confusing on first read.
 
+### Creature-card presentation
+- [ ] DA cards show 0 for neutral Evasion/Threat, compact two-column statistics, damage type beside defense/outcomes, and only unique actions. Shared universal actions belong in the introduction; preserve any existing damage-profile differences there.
+- [ ] Details add narrative, targets and limits without repeating table outcomes. Summon eligibility appears as a linked top-right marker with category/level, not a repeated lower field. Preserve all unique restrictions when moving rules between the table and details.
+
+- [ ] Shared language content must render from `design/rules/languages.md` in both books. Check existing spoken-only grants, translation limits, creature communication and campaign substitutions; distinguish new language defaults from prior agreements.
+
 ### Build
 - [ ] Build the affected artifact: `python3 design/player-book/build.py --compile` and `python3 design/player-book/audit.py` for the player book; `cd quarto-book && ./build.sh` for legacy Quarto chapter changes.
 - [ ] For the DA Markdown manuscript, run `python3 design/da-book/assemble.py`, then `--check`, plus `design/audit.py` and `design/bestiary/audit.py`. Check unique catalog coverage, preserved wound rows and separate combat/design sections. Markdown assembly is not PDF layout validation or balance certification.
-- [ ] New adventure/hazard numbers are visibly proposals; existing card mechanics come from shared authored sources, not copied editable catalogs.
+- [ ] For the DA PDF, run `design/da-book/build_pdf.py --compile` with Typst and the PDF Python runtime, then `design/da-book/audit_pdf.py`. Check source/build hashes, actual art placements, complete single-page cards, bookmark coverage, wound rows, link destinations and compression parity. Render every page for a contact-sheet review and inspect representative/dense pages at readable scale. A text-only audit cannot certify layout.
+- [ ] New adventure/hazard numbers remain proposals until Bruce approves them. Do not keep presenting already approved/merged manuscript examples as unresolved proposals. Existing card mechanics come from shared authored sources, not copied editable catalogs.
 - [ ] No new build warnings introduced.
 
 ## Review Response Template
@@ -93,3 +100,8 @@ Every finding at **Critical** and **Major** severity **MUST** become a GitHub is
 - If the PR itself introduces a new problem, create an issue referencing the PR number.
 
 > **Chat reports are ephemeral. GitHub issues are the permanent record. If it isn't an issue, the finding doesn't exist.**
+
+For bestiary artwork, verify every creature ID maps to one existing transparent image
+in `design/bestiary/art/manifest.json`; run its art audit, check placed-image coverage,
+and keep generation prompts with new assets. VTT consumers should use that manifest
+rather than guess filenames from display names.

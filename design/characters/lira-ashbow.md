@@ -4,6 +4,8 @@
 
 **Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.**
 
+**Languages:** Common and Elven. See the [language reference](../rules/languages.md).
+
 ## Attributes and ancestry
 
 | Brawn | Fortitude | Agility | Guile | Knowledge | Reason |
