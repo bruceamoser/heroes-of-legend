@@ -72,7 +72,6 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **ID:** creature-animated-armor
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Guard · **CV:** 17
 

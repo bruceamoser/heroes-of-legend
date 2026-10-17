@@ -6,7 +6,6 @@
 
 **ID:** monster-iron-gatekeeper-lock-the-feet
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

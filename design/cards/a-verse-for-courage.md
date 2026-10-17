@@ -22,6 +22,6 @@ Give the ally a line worth living up to. It gains 1 Boon to its next roll before
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-verse-for-courage · **Status:** Proposal for Bruce’s review.
+**ID:** a-verse-for-courage
 
 [Build this character](../paths/story-singer.md) · [Card conventions](../card-conventions.md)

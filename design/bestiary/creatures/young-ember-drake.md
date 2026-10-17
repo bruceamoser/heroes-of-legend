@@ -87,7 +87,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-young-ember-drake
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Flying artillery · **CV:** 27
 

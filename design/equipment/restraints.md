@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-restraints · **Status:** Market proposal for Bruce’s review.
+**ID:** item-restraints
 
 **Market price:** 8 coins. **Bulk:** 1.
 

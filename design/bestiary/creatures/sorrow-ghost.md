@@ -76,7 +76,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-sorrow-ghost
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Spirit · **Role:** Haunter · **CV:** 23
 

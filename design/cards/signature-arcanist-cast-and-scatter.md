@@ -24,6 +24,6 @@ Move up to 2 squares without provoking. Choose a legal route and free endpoint. 
 
 **Limits:** Once on your turn.
 
-**ID:** signature-arcanist-cast-and-scatter · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-cast-and-scatter
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

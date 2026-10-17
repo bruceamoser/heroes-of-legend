@@ -24,6 +24,6 @@ Learn one actual resistance and one actual weakness of the target, if present, a
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-intellect-expose-the-mechanism · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-expose-the-mechanism
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

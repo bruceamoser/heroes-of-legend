@@ -6,7 +6,6 @@
 
 **ID:** monster-wind-step
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

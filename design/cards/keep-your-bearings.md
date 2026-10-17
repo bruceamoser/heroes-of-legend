@@ -28,6 +28,6 @@ Ordinary navigation is possible without the card. No routine travel roll; only c
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** keep-your-bearings · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** keep-your-bearings
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

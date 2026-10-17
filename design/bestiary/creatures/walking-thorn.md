@@ -70,7 +70,6 @@ Place difficult terrain in up to 3 connected empty ground squares within 2 squar
 
 **ID:** creature-walking-thorn
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Plant · **Role:** Attrition striker · **CV:** 17
 

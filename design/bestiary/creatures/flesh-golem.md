@@ -74,7 +74,6 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 
 **ID:** creature-flesh-golem
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Disabler · **CV:** 29
 

@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Agility.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** cinder-cast · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** cinder-cast
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

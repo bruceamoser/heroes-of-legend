@@ -38,9 +38,9 @@ You choose on a tie. Physical includes sonic and force. Fire, Cold and Lightning
 Elemental wounds, but keep separate resistances. Mental, Radiant and Life/Necrotic
 have their own tables.
 
-> **Playtest ruling — fully resisted components.** If an event dealt only its minimum
+> **Fully resisted components.** If an event dealt only its minimum
 > 1 total damage because all components were reduced to zero, choose a wound table
-> from the event's original damage types. This closes an otherwise unspecified boundary.
+> from the event's original damage types. The player chooses which one applies.
 
 If the listed body part is absent or the injury cannot apply, move to the next
 listed result until one does, such as 116 to 122. Do not reroll for a more convenient

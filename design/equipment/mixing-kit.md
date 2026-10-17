@@ -8,6 +8,6 @@
 No inventory die; ingredients and finished mixtures have their own supply dice.
 An ability that grants a missing kit supplies it on acquisition, not on every use.
 
-**ID:** item-mixing-kit · **Status:** Proposal. No DP price; coins or explicit grant.
+**ID:** item-mixing-kit
 
 **Market price:** 20 coins. Proposal; see [market rules](../market.md).

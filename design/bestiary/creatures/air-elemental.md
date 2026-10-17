@@ -72,7 +72,6 @@ Move up to 3 squares using a printed movement mode, paying terrain costs. Provok
 
 **ID:** creature-air-elemental
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Displacer · **CV:** 21
 

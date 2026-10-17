@@ -26,6 +26,6 @@ Spend one minute examining the evidence and state a question. Learn one supporte
 
 **Limits:** One reading per question until new evidence becomes available.
 
-**ID:** signature-intellect-make-the-connection · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-make-the-connection
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

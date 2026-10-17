@@ -1,7 +1,7 @@
 # HOL foundations for authoring
 
-These summarize the agreed conversation decisions. New per-card numbers remain
-proposals. Bruce resolves any discrepancy; do not repair it from an old card.
+These summarize the approved system. Bruce resolves discrepancies; current
+cards and rules are the source, not earlier editions.
 
 ## Resolution
 
@@ -98,7 +98,7 @@ Grappled while Main is retained; rating 3 needs help. Attacks gain Boons equal t
 the actual target’s Grappled rating. Greater restriction applies when combined with
 Dazed, not their sum. Prone is binary. Hidden is universal, not observer-by-observer.
 
-A mixed permanent/temporary bookkeeping proposal is recorded in the full condition reference.
+A mixed permanent/temporary bookkeeping rule is recorded in the full condition reference.
 Do not let a new temporary effect become permanent merely because another is starred.
 
 ## Summons, exploration and recovery

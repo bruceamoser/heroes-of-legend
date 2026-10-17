@@ -24,6 +24,6 @@ Describe a plausible approach based on reasoning. Use Reason for that roll and g
 
 **Limits:** Once per scene, declared before rolling.
 
-**ID:** signature-odd-sideways-thinking · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-sideways-thinking
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

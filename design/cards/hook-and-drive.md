@@ -26,6 +26,6 @@ Choose your target and make the attack.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** hook-and-drive · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** hook-and-drive
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

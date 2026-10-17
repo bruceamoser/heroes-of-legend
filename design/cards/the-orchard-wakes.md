@@ -26,6 +26,6 @@ Branches and roots answer together. Make one roll using the net Boons or Banes l
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-orchard-wakes · **Status:** Proposal for Bruce’s review.
+**ID:** the-orchard-wakes
 
 [Build this character](../paths/root-keeper.md) · [Card conventions](../card-conventions.md)

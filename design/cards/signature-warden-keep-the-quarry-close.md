@@ -24,6 +24,6 @@ Once on your turn, after resolving a Standard or Strong Main Action attack, move
 
 **Limits:** Once on your turn.
 
-**ID:** signature-warden-keep-the-quarry-close · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-keep-the-quarry-close
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

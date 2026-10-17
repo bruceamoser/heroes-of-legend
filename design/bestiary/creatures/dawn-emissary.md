@@ -70,7 +70,6 @@ One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and rema
 
 **ID:** creature-dawn-emissary
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Celestial · **Role:** Healer champion · **CV:** 31
 

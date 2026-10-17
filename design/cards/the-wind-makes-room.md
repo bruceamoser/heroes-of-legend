@@ -22,6 +22,6 @@ Each chosen ally may immediately move up to 2 squares along a legal route, one a
 
 **Limits:** Each recipient moves once per use. A further use requires another Maneuver.
 
-**ID:** the-wind-makes-room · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** the-wind-makes-room
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

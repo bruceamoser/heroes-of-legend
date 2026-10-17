@@ -16,7 +16,7 @@ for p in files:
   if not (p.parent/target.split('#')[0]).resolve().exists():errors.append(f'{p.relative_to(R)}: missing {target}')
  if p.parent.name=='cards':
   cards[p.resolve()]=s
-  for k in ['ID','Status','Type','Tier / minimum level','DP','Requirements to learn','Action','Attribute','Target / range / shape','Duration','Limits','Equipment / acquisition']:
+  for k in ['ID','Type','Tier / minimum level','DP','Requirements to learn','Action','Attribute','Target / range / shape','Duration','Limits','Equipment / acquisition']:
    if not field(s,k):errors.append(f'{p.name}: missing {k}')
   req=field(s,'Requirements to learn')
   if field(s,'Type')!='Signature' and req!='None':

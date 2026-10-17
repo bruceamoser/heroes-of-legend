@@ -24,6 +24,6 @@ Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squa
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-blade-measured-guard · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-measured-guard
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

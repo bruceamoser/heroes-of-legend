@@ -26,6 +26,6 @@ Offer your strength to the whole circle. Pay 7 HP once before rolling, bypassing
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-grove-gives-back · **Status:** Proposal for Bruce’s review.
+**ID:** the-grove-gives-back
 
 [Build this character](../paths/green-healer.md) · [Card conventions](../card-conventions.md)

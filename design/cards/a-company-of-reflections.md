@@ -22,6 +22,6 @@ Give each target a flickering double until the start of your next turn. Each tar
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-company-of-reflections · **Status:** Proposal for Bruce’s review.
+**ID:** a-company-of-reflections
 
 [Build this character](../paths/mirror-weaver.md) · [Card conventions](../card-conventions.md)

@@ -6,7 +6,6 @@
 
 **ID:** monster-brown-bear-warning-bellow
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

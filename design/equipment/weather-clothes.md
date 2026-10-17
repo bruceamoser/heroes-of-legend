@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-weather-clothes · **Status:** Market proposal for Bruce’s review.
+**ID:** item-weather-clothes
 
 **Market price:** 10 coins. **Bulk:** 1.
 

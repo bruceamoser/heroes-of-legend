@@ -26,6 +26,6 @@ Touch the point where effort becomes imbalance. No weapon required.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** stillness-at-the-center · **Status:** Proposal for Bruce’s review.
+**ID:** stillness-at-the-center
 
 [Build this character](../paths/still-hand-adept.md) · [Card conventions](../card-conventions.md)

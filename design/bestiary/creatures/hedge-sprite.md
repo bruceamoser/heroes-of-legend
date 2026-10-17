@@ -65,7 +65,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-hedge-sprite
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Trickster · **CV:** 5
 

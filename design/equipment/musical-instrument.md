@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-musical-instrument · **Status:** Market proposal for Bruce’s review.
+**ID:** item-musical-instrument
 
 **Market price:** 12 coins. **Bulk:** 1.
 

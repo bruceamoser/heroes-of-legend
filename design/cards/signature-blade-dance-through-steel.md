@@ -30,6 +30,6 @@ This is one signature attack, not three free attacks. All targets are chosen bef
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-blade-dance-through-steel · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-dance-through-steel
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

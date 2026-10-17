@@ -65,7 +65,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-raven
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Scout · **CV:** 4
 

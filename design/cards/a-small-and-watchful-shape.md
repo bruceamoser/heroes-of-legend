@@ -22,6 +22,6 @@ Become a cat-sized nonflying land animal for ten minutes. Keep HP, wounds, attri
 
 **Limits:** Transform only where both forms have a legal return space; if that space would become blocked, return before entering the obstruction. No second HP pool.
 
-**ID:** a-small-and-watchful-shape · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-small-and-watchful-shape
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

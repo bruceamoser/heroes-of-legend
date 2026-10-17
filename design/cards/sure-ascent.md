@@ -26,6 +26,6 @@ Before rolling, agree with the DA on what you are trying to accomplish and what 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** sure-ascent · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** sure-ascent
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

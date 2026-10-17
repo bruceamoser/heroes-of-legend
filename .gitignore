@@ -1,22 +1,19 @@
-# Dependencies
+# Local dependencies and tools
 .venv/
 __pycache__/
 *.pyc
-
-# Extracted reference (generated, not source)
-source-doc/extracted/
-
-# IDE
-.vscode/
-*.code-workspace
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Tooling
 tools/
 .playwright-mcp/
 
-/.quarto/
-**/*.quarto_ipynb
+# Editors and OS
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Reproducible book/release artifacts
+/design/player-book/generated/
+/design/player-book/output/
+/design/da-book/generated/
+/design/da-book/output/
+/dist/

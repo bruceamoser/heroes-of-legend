@@ -31,7 +31,7 @@ def main():
    txt+=f'- {link(p)} — {desc}\n'
   txt+='\n'
  (R/'culture-background.md').write_text(txt.rstrip()+'\n')
- txt='# Disciplines and their possibilities\n\nThe eighteen fields and class affinities remain proposals. Rank prices and sequential\npurchases follow the agreed foundations; no ability chain is required.\n\n'
+ txt='# Disciplines and their possibilities\n\nThe eighteen fields use the class rank costs in the current catalog. Buy ranks in\norder; no ability chain is required.\n\n'
  for p in sorted((R/'disciplines').glob('*.md')):
   d=title(p);txt+=f'## {link(p)}\n\n'
   for cp,s in cards:
@@ -39,6 +39,6 @@ def main():
   txt+='\n'
  (R/'disciplines.md').write_text(txt.rstrip()+'\n')
  for folder,name in [('recipes','Recipes'),('equipment','Equipment')]:
-  (R/(folder+'.md')).write_text('# '+name+'\n\nFresh proposals for review. Follow the printed acquisition and permission; a recipe\nis knowledge, not a free finished item.\n\n'+'\n'.join('- '+link(p) for p in sorted((R/folder).glob('*.md')))+'\n')
+  (R/(folder+'.md')).write_text('# '+name+'\n\nFollow the printed acquisition and requirements; a recipe\nis knowledge, not a free finished item.\n\n'+'\n'.join('- '+link(p) for p in sorted((R/folder).glob('*.md')))+'\n')
  print(f'Navigation rebuilt for {len(cards)} cards; authored entries unchanged.')
 if __name__=='__main__':main()

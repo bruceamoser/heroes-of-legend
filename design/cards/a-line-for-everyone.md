@@ -28,6 +28,6 @@ Establish a roped route toward a DA-declared progress target. You must reach and
 
 **Limits:** One Boon per traveler per route; rebuilding the same route does not refresh it. Existing ordinary rope use remains possible.
 
-**ID:** a-line-for-everyone · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-line-for-everyone
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

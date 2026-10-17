@@ -26,6 +26,6 @@ A spring-driven hook snaps from a bracer you build on learning the card. It is r
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** spring-in-the-sleeve · **Status:** Proposal for Bruce’s review.
+**ID:** spring-in-the-sleeve
 
 [Build this character](../paths/roadside-artificer.md) · [Card conventions](../card-conventions.md)

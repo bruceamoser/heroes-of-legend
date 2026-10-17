@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-climbing-fittings · **Status:** Market proposal for Bruce’s review.
+**ID:** item-climbing-fittings
 
 **Market price:** 8 coins. **Bulk:** 1.
 

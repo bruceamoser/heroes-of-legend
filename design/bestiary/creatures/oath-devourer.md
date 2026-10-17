@@ -76,7 +76,6 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 
 **ID:** creature-oath-devourer
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fiend · **Role:** Mental predator · **CV:** 33
 

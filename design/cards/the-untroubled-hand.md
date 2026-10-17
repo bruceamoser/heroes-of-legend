@@ -26,6 +26,6 @@ Strike with an empty hand, foot or shoulder. You read balance, not anatomy alone
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-untroubled-hand · **Status:** Proposal for Bruce’s review.
+**ID:** the-untroubled-hand
 
 [Build this character](../paths/still-hand-adept.md) · [Card conventions](../card-conventions.md)

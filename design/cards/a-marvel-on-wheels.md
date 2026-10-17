@@ -26,6 +26,6 @@ Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if abs
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-marvel-on-wheels · **Status:** Proposal for Bruce’s review.
+**ID:** a-marvel-on-wheels
 
 [Build this character](../paths/roadside-artificer.md) · [Card conventions](../card-conventions.md)

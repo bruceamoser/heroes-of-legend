@@ -28,6 +28,6 @@ Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outc
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** call-the-opening · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** call-the-opening
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

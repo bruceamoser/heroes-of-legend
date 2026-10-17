@@ -24,6 +24,6 @@ Describe a distraction the creature can perceive. The ally may move up to 2 squa
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-odd-useful-interruption · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-useful-interruption
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

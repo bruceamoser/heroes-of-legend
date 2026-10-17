@@ -24,6 +24,6 @@ This protects against the spell; it does not cancel casting or protect against a
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** catch-the-spell · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** catch-the-spell
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

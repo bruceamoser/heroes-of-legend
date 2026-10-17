@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-clearing-tonic · **Status:** Market proposal for Bruce’s review.
+**ID:** item-clearing-tonic
 
 **Market price:** 30 coins. **Bulk:** 1.
 

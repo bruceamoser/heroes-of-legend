@@ -10,6 +10,6 @@ When sharing a food bundle with one companion during a safe meal, make one inven
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-halfling-resilient · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-halfling-resilient
 
 [Ancestry choices](halfling.md)

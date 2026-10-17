@@ -24,6 +24,6 @@ Learn its purpose, whether it is sustained by a creature or an object, and its r
 
 **Limits:** One Boon from studying a given effect per scene; reexamining it does not refresh that Boon.
 
-**ID:** signature-arcanist-study-the-pattern · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-study-the-pattern
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

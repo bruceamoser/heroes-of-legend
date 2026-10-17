@@ -72,7 +72,6 @@ Place heavy cover in up to 3 connected visible squares within 3 squares until th
 
 **ID:** creature-goblin-smoke-slinger
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Controller · **CV:** 9
 

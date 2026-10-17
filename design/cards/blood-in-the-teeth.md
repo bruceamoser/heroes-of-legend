@@ -26,6 +26,6 @@ You take the hurt and turn it outward. Make a melee attack. Until the start of y
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** blood-in-the-teeth · **Status:** Proposal for Bruce’s review.
+**ID:** blood-in-the-teeth
 
 [Build this character](../paths/red-fury.md) · [Card conventions](../card-conventions.md)

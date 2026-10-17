@@ -10,6 +10,6 @@ Maximum HP +1. Describe the ordinary hardship that taught you to keep going.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-human-weathered · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-human-weathered
 
 [Ancestry choices](human.md)

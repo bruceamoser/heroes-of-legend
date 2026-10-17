@@ -4,10 +4,9 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-superior-healing-bottle
 - **Bulk:** 1
-- **Requirements / supply:** Inventory d4 proposal
+- **Requirements / supply:** Inventory d4
 - **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
 
 Use [Use a Healing Potion](../cards/use-a-healing-potion.md): restore 16 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.

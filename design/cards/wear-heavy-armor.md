@@ -22,6 +22,6 @@ While wearing the trained armor, physical resistance 3. No lower-tier training p
 
 **Limits:** Purchase once.
 
-**ID:** wear-heavy-armor · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** wear-heavy-armor
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

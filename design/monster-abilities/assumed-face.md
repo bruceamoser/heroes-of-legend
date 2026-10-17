@@ -6,7 +6,6 @@
 
 **ID:** monster-assumed-face
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Maneuver
 

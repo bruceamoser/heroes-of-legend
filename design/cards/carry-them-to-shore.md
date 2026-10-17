@@ -22,6 +22,6 @@ You need a free hand and must be physically able to support the target’s weigh
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** carry-them-to-shore · **Status:** Proposal for Bruce’s review.
+**ID:** carry-them-to-shore
 
 [Build this character](../paths/deep-water-wanderer.md) · [Card conventions](../card-conventions.md)

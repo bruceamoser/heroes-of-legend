@@ -36,13 +36,12 @@ are reproduced. HOL uses its own system and the approved Great Library visual id
 - Editable Markdown teaching chapters; existing catalog Markdown remains the source.
   Build tools read it and never overwrite it.
 
-## Approval and remaining uncertainty
+## Current source
 
-Existing active proposals were approved by Bruce on October 15, 2026. Historical
-“Proposal” badges are omitted from reader entries; this approval is recorded in
-production-status.md rather than changing hundreds of historical source statuses.
-The book is a playtest edition, not a claim of universal balance or final print art.
-Unspecified rules and editorial conflicts are recorded separately in decision-log.md.
+The approved catalog and teaching prose are the source. Approval metadata and
+completed revision histories are not kept as competing rules. Current rule links
+are in decision-log.md. The book remains a digital playtest edition; structural
+checks do not certify balance or print production.
 
 
 ## October 16 follow-up: deliberate illustration placement

@@ -28,6 +28,6 @@ Choose food or ordinary plant crafting material; one bundle only, maximum d8. Th
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** forage-woodland · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** forage-woodland
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

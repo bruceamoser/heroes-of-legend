@@ -28,6 +28,6 @@ Conceal ordinary evidence of your camp. The DA sets a progress target for its si
 
 **Limits:** One application per departure; no stacking Banes from repeated cleanup.
 
-**ID:** a-camp-without-a-trace · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** a-camp-without-a-trace
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

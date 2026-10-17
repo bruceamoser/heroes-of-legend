@@ -22,6 +22,6 @@ Follow up to 3 squares toward it without provoking. You must use a legal route; 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** no-road-away · **Status:** Proposal for Bruce’s review.
+**ID:** no-road-away
 
 [Build this character](../paths/vow-hunter.md) · [Card conventions](../card-conventions.md)

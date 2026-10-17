@@ -28,6 +28,6 @@ Name the desired task; the chosen bestiary summon profile determines whether it 
 
 **Limits:** Pay each command’s action cost; at most one command per summon per controller turn, including its immediate summoning command.
 
-**ID:** command-a-summon · **Status:** Agreed command-only activity and action economy; bestiary procedures remain pending.
+**ID:** command-a-summon
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

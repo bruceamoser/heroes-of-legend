@@ -70,7 +70,6 @@ Change between humanoid and hybrid appearance. Keep current HP, attributes, resi
 
 **ID:** creature-werewolf
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Attrition striker · **CV:** 24
 

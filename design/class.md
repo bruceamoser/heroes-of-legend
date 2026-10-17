@@ -1,6 +1,6 @@
 # Classes
 
-Agreed attribute minimums and HP contributions; fresh discipline affinities and signature proposals. Choose one of three signatures at each milestone, not all three.
+Agreed attribute minimums and HP contributions; current discipline prices and signatures. Choose one of three signatures at each milestone, not all three.
 
 - [Protector](classes/protector.md)
 - [Blade](classes/blade.md)
@@ -12,4 +12,4 @@ Agreed attribute minimums and HP contributions; fresh discipline affinities and 
 - [Shadow](classes/shadow.md)
 - [Odd](classes/odd.md)
 
-- [Warden](classes/warden.md) — new proposal: wilderness guide, tracker and hunter.
+- [Warden](classes/warden.md) —  wilderness guide, tracker and hunter.

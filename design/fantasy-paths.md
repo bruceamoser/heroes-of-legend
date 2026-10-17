@@ -4,7 +4,7 @@ Start with the character you picture. Choose what they do for the group, then us
 the linked abilities to build toward it. These paths belong to no single HOL class.
 A player can combine a warrior’s mind, a beast’s fury and a healer’s compassion.
 
-These are fresh proposals, not approved subclasses or mandatory shopping lists.
+These are suggestions, not subclasses or mandatory shopping lists.
 D&D families are a coverage lens; [research notes](references.md) distinguish direct
 reading from broader fantasy additions.
 

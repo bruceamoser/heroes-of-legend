@@ -74,7 +74,6 @@ While submerged, place heavy cover in up to 3 connected water squares within 2 s
 
 **ID:** creature-giant-octopus
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Holder · **CV:** 22
 

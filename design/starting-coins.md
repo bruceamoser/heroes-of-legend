@@ -6,7 +6,7 @@
 
 Add these once after completing level 1. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.
 
-Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations are a starting proposal, not an inference from the characters’ biology.
+Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations describe preparation, not biology.
 
 ## Ancestry contribution
 
@@ -100,4 +100,4 @@ Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0
 
 At the low end, road essentials and a lesser potion cost 44 and leave 6. At the high end, the same basket leaves 26. The [market](market.md) lists all prices; purchases still consume Bulk and obey hand/training requirements.
 
-The [six worked characters](characters/README.md) now include proposed purses and actual shopping ledgers. No one receives higher-level cards, extra DP or free potions.
+The [six worked characters](characters/README.md) now include purses and actual shopping ledgers. No one receives higher-level cards, extra DP or free potions.

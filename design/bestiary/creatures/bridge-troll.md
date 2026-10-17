@@ -75,7 +75,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-bridge-troll
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Regenerating brute · **CV:** 24
 

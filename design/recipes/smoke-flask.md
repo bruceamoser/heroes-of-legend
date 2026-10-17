@@ -14,6 +14,6 @@ Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 
 
 Smoke supply for Smoke in a Bottle; no damage or poison.
 
-Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a proposed ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
+Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is a ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.
 
-**ID:** recipe-smoke-flask · **Status:** Proposal.
+**ID:** recipe-smoke-flask

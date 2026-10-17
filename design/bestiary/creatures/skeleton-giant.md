@@ -78,7 +78,6 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 
 **ID:** creature-skeleton-giant
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Displacer · **CV:** 28
 

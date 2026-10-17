@@ -6,7 +6,6 @@
 
 **ID:** monster-anchor-bound
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Passive
 

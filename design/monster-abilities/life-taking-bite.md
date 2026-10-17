@@ -6,7 +6,6 @@
 
 **ID:** monster-life-taking-bite
 
-**Status:** Proposed creature-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

@@ -24,6 +24,6 @@ Both gain 1 Boon to defense until the start of your next turn while adjacent to 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-leader-stand-together · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-stand-together
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ No roll. Learn two recipes usable with a crafting card you already know. Repeata
 
 **Limits:** Repeatable purchase of new recipe choices.
 
-**ID:** ordinary-recipe-study · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** ordinary-recipe-study
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

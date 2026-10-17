@@ -72,7 +72,6 @@ Its next attack before the end of this turn imposes 1 additional Bane on player 
 
 **ID:** creature-medusa
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Disabler · **CV:** 29
 

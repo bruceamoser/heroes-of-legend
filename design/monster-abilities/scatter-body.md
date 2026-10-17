@@ -6,7 +6,6 @@
 
 **ID:** monster-scatter-body
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Passive
 

@@ -22,6 +22,6 @@ The bridge is one square wide. Requires solid anchors at both ends. Holds ordina
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** bridge-of-winter · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** bridge-of-winter
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -24,6 +24,6 @@ Move up to 3 squares toward that enemy without provoking. Your next Main Action 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-blade-sweeping-entry · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-sweeping-entry
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

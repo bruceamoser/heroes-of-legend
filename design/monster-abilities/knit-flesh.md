@@ -6,7 +6,6 @@
 
 **ID:** monster-knit-flesh
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Passive
 

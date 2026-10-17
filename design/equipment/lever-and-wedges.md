@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-lever-and-wedges · **Status:** Market proposal for Bruce’s review.
+**ID:** item-lever-and-wedges
 
 **Market price:** 5 coins. **Bulk:** 1.
 

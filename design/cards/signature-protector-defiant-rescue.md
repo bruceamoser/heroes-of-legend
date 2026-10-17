@@ -26,6 +26,6 @@ This is declared before the outcome is known. It neither transfers already-resol
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-defiant-rescue · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-defiant-rescue
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

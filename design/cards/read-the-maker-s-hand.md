@@ -24,6 +24,6 @@ Recognize its ordinary materials and one visible construction method without a r
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** read-the-maker-s-hand · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** read-the-maker-s-hand
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** recipe-camp-shelter · **Status:** Proposal — ordinary recipe.
+**ID:** recipe-camp-shelter
 
 **Permission:** [A Roof before Nightfall](../cards/a-roof-before-nightfall.md).
 **Tools:** Craft tools. **Time per attempt:** One hour.

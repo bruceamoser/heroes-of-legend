@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-signal-kit · **Status:** Market proposal for Bruce’s review.
+**ID:** item-signal-kit
 
 **Market price:** 4 coins. **Bulk:** 1.
 

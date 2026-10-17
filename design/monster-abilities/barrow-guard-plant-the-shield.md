@@ -6,7 +6,6 @@
 
 **ID:** monster-barrow-guard-plant-the-shield
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

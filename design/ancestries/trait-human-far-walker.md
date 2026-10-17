@@ -10,6 +10,6 @@ Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion 
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-human-far-walker · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-human-far-walker
 
 [Ancestry choices](human.md)

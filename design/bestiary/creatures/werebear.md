@@ -74,7 +74,6 @@ Change between humanoid and hybrid appearance. Keep current HP, attributes, resi
 
 **ID:** creature-werebear
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Displacer · **CV:** 27
 

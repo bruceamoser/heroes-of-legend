@@ -24,6 +24,6 @@ Move up to 2 squares without provoking after your Force action. If you reduced y
 
 **Limits:** Once on your turn.
 
-**ID:** signature-odd-always-a-way-around · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-odd-always-a-way-around
 
-[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/odd.md) · [Card conventions](../card-conventions.md)

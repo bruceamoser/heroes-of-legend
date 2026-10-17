@@ -22,6 +22,6 @@ After the triggering creature finishes its movement, move up to your Speed along
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrow-the-shadow · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** borrow-the-shadow
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

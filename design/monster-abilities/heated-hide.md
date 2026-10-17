@@ -6,7 +6,6 @@
 
 **ID:** monster-heated-hide
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Reaction
 

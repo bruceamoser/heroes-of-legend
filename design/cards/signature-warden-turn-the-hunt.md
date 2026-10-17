@@ -30,6 +30,6 @@ After resolving the attack, you may move 1 square without provoking. Ranged use 
 
 **Limits:** One attack per use.
 
-**ID:** signature-warden-turn-the-hunt · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-turn-the-hunt
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

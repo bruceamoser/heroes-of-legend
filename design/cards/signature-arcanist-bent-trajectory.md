@@ -24,6 +24,6 @@ Your single-target spell may originate from the chosen square. Determine cover a
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-arcanist-bent-trajectory · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-arcanist-bent-trajectory
 
-[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/arcanist.md) · [Card conventions](../card-conventions.md)

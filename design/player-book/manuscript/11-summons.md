@@ -8,6 +8,11 @@ Choose from the profiles in this chapter when a summoning ability permits the
 category and tier. Higher-tier cards can choose eligible lower-tier creatures.
 Category names alone do not grant access to an unlisted creature.
 
+Summons are energy forms shaped to resemble creatures. They cannot receive
+healing and disappear at 0 HP without leaving a body. They occupy squares, block
+movement, take damage and can be pushed or grappled normally unless the profile
+says otherwise; energy form grants no automatic incorporeality or immunity.
+
 ## Command the creature
 
 Spend your **Main Action** to give one summon a Main Action and a Maneuver. Spend
@@ -30,9 +35,17 @@ A summon disappears beyond **6 squares** from you, including after forced moveme
 of either participant. It also disappears at 0 HP, or when you become unconscious
 or die. Its duration may end earlier. It leaves no permanent equipment or loot.
 
-For a large footprint, agree the tether measurement with the DA before placement;
-the general rules do not yet define every multi-square case. Do not quietly gain
-extra reach by moving only one corner of a creature inside the boundary.
+Measure the tether between the nearest occupied squares of controller and
+summon, using ordinary grid distance. At 6 squares the summon remains; beyond
+6 it immediately disappears. The nearest square of a large form sets the distance.
+
+## Healing through a summon
+
+When a summon uses a printed healing ability, you pay its HP cost once before
+resolution, bypassing resistance. You must remain above 0 HP after payment.
+The summon uses its own attribute and outcomes and still requires its command
+and action. It can heal an eligible other creature, but cannot receive healing.
+Ordinary unsummoned healers pay their own cost.
 
 ## Give a useful order
 

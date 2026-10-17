@@ -26,6 +26,6 @@ A thunderclap arrives where you point.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** thunder-at-the-door · **Status:** Proposal for Bruce’s review.
+**ID:** thunder-at-the-door
 
 [Build this character](../paths/storm-caller.md) · [Card conventions](../card-conventions.md)

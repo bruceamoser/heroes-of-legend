@@ -22,6 +22,6 @@ Predict the line of a blow you can see. Use Reason instead of the attack’s pri
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** read-the-next-blow · **Status:** Proposal for Bruce’s review.
+**ID:** read-the-next-blow
 
 [Build this character](../paths/thinking-fighter.md) · [Card conventions](../card-conventions.md)

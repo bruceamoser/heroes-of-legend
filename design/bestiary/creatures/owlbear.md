@@ -81,7 +81,6 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **ID:** creature-owlbear
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Attrition striker · **CV:** 26
 

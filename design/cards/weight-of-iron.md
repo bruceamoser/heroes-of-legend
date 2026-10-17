@@ -22,6 +22,6 @@ Remain standing.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** weight-of-iron · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** weight-of-iron
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -26,6 +26,6 @@ Examine the signs for one minute. Learn the direction of travel and one supporte
 
 **Limits:** Once per set of signs; new evidence permits another use.
 
-**ID:** signature-warden-read-the-passing · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-read-the-passing
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

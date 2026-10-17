@@ -74,7 +74,6 @@ Choose one holder and reduce that holder’s Grappled contribution by 1, also re
 
 **ID:** creature-gelatinous-cube
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Ooze · **Role:** Holder · **CV:** 20
 

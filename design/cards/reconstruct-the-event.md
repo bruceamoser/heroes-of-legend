@@ -28,6 +28,6 @@ Examine an accessible evidence set. The DA names the question and sets a cumulat
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** reconstruct-the-event · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** reconstruct-the-event
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

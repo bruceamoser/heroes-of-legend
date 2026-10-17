@@ -10,6 +10,6 @@ In woodland, gain 1 Boon to a consequential roll interpreting living signs of ne
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-elf-leaf-listener · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-elf-leaf-listener
 
 [Ancestry choices](elf.md)

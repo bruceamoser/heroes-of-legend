@@ -26,6 +26,6 @@ For a player attack, work out each target’s net Boons or Banes. Make one attac
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** forked-sky · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** forked-sky
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

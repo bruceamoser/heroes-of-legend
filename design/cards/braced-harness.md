@@ -27,6 +27,6 @@ to another source. Apply it once in this chain.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** braced-harness · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** braced-harness
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

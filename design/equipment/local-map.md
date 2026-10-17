@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-local-map · **Status:** Market proposal for Bruce’s review.
+**ID:** item-local-map
 
 **Market price:** 5 coins. **Bulk:** 1.
 

@@ -6,7 +6,6 @@
 
 **ID:** monster-wild-boar-lower-the-tusks
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

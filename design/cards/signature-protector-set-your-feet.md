@@ -24,6 +24,6 @@ Gain Stability 2 while your Defend is active. Use your highest applicable Stabil
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-set-your-feet · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-set-your-feet
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

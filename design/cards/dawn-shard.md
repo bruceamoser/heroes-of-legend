@@ -26,6 +26,6 @@ The light lasts until the start of your next turn; it does not reveal a target t
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** dawn-shard · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** dawn-shard
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

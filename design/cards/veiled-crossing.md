@@ -22,6 +22,6 @@ Move up to your Speed along a legal concealed route without provoking. One adjac
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** veiled-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** veiled-crossing
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -79,7 +79,6 @@ Its next attack before the end of this turn imposes 1 additional Bane on player 
 
 **ID:** creature-cyclops
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Knockdown fighter · **CV:** 32
 

@@ -28,6 +28,6 @@ Address an audience able to hear and understand you. Propose one plausible colle
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** turn-the-crowd · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** turn-the-crowd
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -50,7 +50,7 @@
   {
     "key": "recovery",
     "path": "design/player-book/art/interior/recovery.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A healer carefully binds a seated adventurer\u2019s forearm by lanternlight. Old healed scars and weary companionship, dignity and resilience, no gore. Composition: wide landscape, approximately 2:1.",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A healer carefully binds a seated adventurer’s forearm by lanternlight. Old healed scars and weary companionship, dignity and resilience, no gore. Composition: wide landscape, approximately 2:1.",
     "transparent": false
   },
   {
@@ -62,7 +62,7 @@
   {
     "key": "equipment",
     "path": "design/player-book/art/interior/equipment.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A welcoming fantasy outfitter\u2019s counter: coil of rope, lantern, boots, a small potion bottle, folded cloak and simple shield, warm brass light and forest green fabric. Composition: wide landscape, approximately 2:1.",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A welcoming fantasy outfitter’s counter: coil of rope, lantern, boots, a small potion bottle, folded cloak and simple shield, warm brass light and forest green fabric. Composition: wide landscape, approximately 2:1.",
     "transparent": false
   },
   {
@@ -117,67 +117,6 @@
     "key": "ancestry-halfling",
     "path": "design/player-book/art/interior/ancestry-halfling.png",
     "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. Three small, bright-eyed halfling adventurers with curled hair and practical clothes of distinct ages, genders and vocations, together in an understated setting; do not prescribe a single culture. Full figures and readable clothing. Composition: square portrait group.",
-    "transparent": false
-  },
-  {
-    "key": "class-arcanist",
-    "path": "design/player-book/art/interior/class-arcanist.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One arcanist adventurer. Character identity: You study the impossible until your hands can give it a shape the world must briefly accept.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-blade",
-    "path": "design/player-book/art/interior/class-blade.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One blade adventurer. Character identity: You make the hard choices in the space between one stroke and the next.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-intellect",
-    "path": "design/player-book/art/interior/class-intellect.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One intellect adventurer. Character identity: You see a pattern where others see only trouble, and trust your understanding enough to act.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-leader",
-    "path": "design/player-book/art/interior/class-leader.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One leader adventurer. Character identity: You turn to your companions and give them a reason to move together.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-odd",
-    "path": "design/player-book/art/interior/class-odd.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One odd adventurer. Character identity: You have never fit the expected answer, and have learned to make that useful.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-protector",
-    "path": "design/player-book/art/interior/class-protector.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One protector adventurer. Character identity: You see who needs shelter and step into the space between them and harm.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-shadow",
-    "path": "design/player-book/art/interior/class-shadow.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One shadow adventurer. Character identity: You learn the unguarded routes through a world that rarely looks in the right direction.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-shepherd",
-    "path": "design/player-book/art/interior/class-shepherd.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One shepherd adventurer. Character identity: You listen for the wavering voice and help it find its way back to the others.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
-    "transparent": false
-  },
-  {
-    "key": "class-unbalanced",
-    "path": "design/player-book/art/interior/class-unbalanced.png",
-    "prompt": "Original Heroes of Legend class illustration for THE UNBALANCED: a towering, visibly muscular battle-maddened warrior, broad shoulders and massive forearms, roaring as they swing a heavy two-handed maul through broken stone. Unbridled fury and physical power; brawn and fortitude. Travel-worn leather, fur and cloth, no shield, no polished knight armor, no wand. Strong dynamic full-body silhouette. Tall portrait 1:2 with the whole figure visible. Crisp engraved ink and restrained painted forest green, antique gold, charcoal and warm ivory, matching the reference crest's line quality and palette only. Simple ruined woodland background, no typography, no logos, no numbers. Heroic illustration with believable hands and anatomy.",
-    "transparent": false,
-    "previous_prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One unbalanced adventurer. Character identity: You meet the obstacle with everything you are, and let it discover whether that is enough.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2."
-  },
-  {
-    "key": "class-warden",
-    "path": "design/player-book/art/interior/class-warden.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. One warden adventurer. Character identity: You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.. Show a single expressive full figure using their defining tools, with a simple atmospheric setting and strong silhouette. Give the hero an individual face and believable outfit. Composition: tall portrait, full body, approximately 1:2.",
     "transparent": false
   },
   {
@@ -273,7 +212,7 @@
   {
     "key": "summon-clay-helper",
     "path": "design/player-book/art/interior/summon-clay-helper.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Clay Helper (CV 5) . A rough humanoid of fired and unfired clay, with broad hands and the maker\u2019s thumbprints still visible. It understands simple work instructions but has no independent craft training. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Clay Helper (CV 5) . A rough humanoid of fired and unfired clay, with broad hands and the maker’s thumbprints still visible. It understands simple work instructions but has no independent craft training. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
     "transparent": true
   },
   {
@@ -375,7 +314,7 @@
   {
     "key": "summon-grave-wisp",
     "path": "design/player-book/art/interior/summon-grave-wisp.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Grave Wisp (CV 6) . A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person\u2019s lingering need for a witness, not a source of useful flame. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Grave Wisp (CV 6) . A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
     "transparent": true
   },
   {
@@ -537,7 +476,7 @@
   {
     "key": "summon-sorrow-ghost",
     "path": "design/player-book/art/interior/summon-sorrow-ghost.png",
-    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ghost \u2014 Sorrow-bound (CV 23) . A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
+    "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Ghost — Sorrow-bound (CV 23) . A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
     "transparent": true
   },
   {
@@ -617,113 +556,5 @@
     "path": "design/player-book/art/interior/summon-zombie-brute.png",
     "prompt": "Original Heroes of Legend fantasy rulebook illustration. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted color. Forest green, antique gold, warm ivory and charcoal palette, like a beautifully illustrated old adventuring folio. Clear silhouettes and expressive faces; heroic, lived-in, quietly wondrous. No typography, words, numbers, labels, logos, page borders or watermark. Moderate detail, readable when printed small. Use the supplied crest only as a palette and line-quality reference; do not copy its design. A single creature portrait: Zombie Brute (CV 22) . A huge laborer's corpse still drags the quarry chains wound around its shoulders. Its movements are slow until something stands in its path. Full creature visible with a small natural ground contact shadow, all limbs clearly arranged. Isolated specimen illustration; suitable for a small companion card. Do not include UI or stats. Composition: square, centered creature with generous edge clearance.",
     "transparent": true
-  },
-  {
-    "key": "badge-armor",
-    "path": "design/player-book/art/interior/badge-armor.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a strong engraved breastplate in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-arms",
-    "path": "design/player-book/art/interior/badge-arms.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: two crossed swords in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-athletics",
-    "path": "design/player-book/art/interior/badge-athletics.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a leaping boot over a mountain in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-calling",
-    "path": "design/player-book/art/interior/badge-calling.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a beckoning hand beneath an eight-point portal star in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-craft",
-    "path": "design/player-book/art/interior/badge-craft.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a hammer crossing a small gear in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-flame",
-    "path": "design/player-book/art/interior/badge-flame.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a single curling flame in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-frost",
-    "path": "design/player-book/art/interior/badge-frost.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a six-branched ice crystal in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-guard",
-    "path": "design/player-book/art/interior/badge-guard.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a broad protective shield in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-influence",
-    "path": "design/player-book/art/interior/badge-influence.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a theatrical mask with radiating speech curves in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-life",
-    "path": "design/player-book/art/interior/badge-life.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a young leaf emerging from a warm glowing heart in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-marksmanship",
-    "path": "design/player-book/art/interior/badge-marksmanship.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an arrow through a circular target in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-medicine",
-    "path": "design/player-book/art/interior/badge-medicine.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a healing hand holding a sprig of herbs in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-mind",
-    "path": "design/player-book/art/interior/badge-mind.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an open eye enclosed by a crescent in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-radiance",
-    "path": "design/player-book/art/interior/badge-radiance.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a brilliant sunburst in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-scholarship",
-    "path": "design/player-book/art/interior/badge-scholarship.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: an open book beneath a small star in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-storm",
-    "path": "design/player-book/art/interior/badge-storm.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a branching lightning bolt in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-subterfuge",
-    "path": "design/player-book/art/interior/badge-subterfuge.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a hood and small key in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
-  },
-  {
-    "key": "badge-wilderness",
-    "path": "design/player-book/art/interior/badge-wilderness.png",
-    "transparent": true,
-    "prompt": "Create one small illustrated discipline badge for Heroes of Legend: a great oak leaf and animal paw in a circular antique-gold rim over deep forest-green enamel. Match the reference crest\u2019s crisp gold engraved illustration and ivory glints, simplified for 24-point print size. Bold recognisable silhouette. Keep a dark uncluttered center where a white rank number will be overlaid by the book. No text, letters, numbers, watermark. One badge fills 85% of square. Isolated on true transparent background. The reference is only for style, not its letters or dragons."
   }
 ]

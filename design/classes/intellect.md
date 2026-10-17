@@ -6,9 +6,9 @@
 
 **Agreed:** minimum 0 in Knowledge, Reason; HP contribution +2. No multiclassing.
 
-**Proposal:** choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.
+**Starting disciplines:** choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.
 
-**Proposed pricing:** Home: Scholarship, Craft. Adjacent: Medicine, Mind. All others Foreign; no Opposed assignment proposed yet.
+**Discipline pricing:** Home: Scholarship, Craft. Adjacent: Medicine, Mind. All others Foreign; no Opposed disciplines.
 
 Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
 
@@ -39,7 +39,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 - **Level 3:** Direct an ally, diagnose mechanisms, or predict an attack.
 - **Level 7:** Route the party, reconstruct events, or expose a target for allies.
 
-See the [full signature review](../reviews/1153-signature-review.md) for comparisons
-and remaining playtest questions. Individual effects remain proposals.
 
-**Starting coin contribution:** +8 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +8 coins. See [starting coins](../starting-coins.md).

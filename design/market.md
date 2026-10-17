@@ -1,8 +1,8 @@
 # Coins and the ordinary market
 
-**First economy proposal — issue #1166.** All prices are whole **coins**, with no
+ All prices are whole **coins**, with no
 metal denominations. Prices establish a usable town market, not a historical
-currency conversion. These values and new supply policies await Bruce’s approval.
+currency conversion. Use the prices and supply rules below.
 
 ## What a coin buys
 
@@ -21,7 +21,7 @@ hilt may be valuable decoration but does not hit harder.
 ## Price list
 
 The linked item is the source for its price, use and Bulk. Most entries are Bulk 1.
-A worn plain outfit is the explicitly proposed exception; an extra outfit is Bulk 1.
+A worn plain outfit is the explicit exception; an extra outfit is Bulk 1.
 Containers add their own Bulk and never reduce their contents’ Bulk.
 
 ### Weapons, armor and tools
@@ -51,7 +51,7 @@ Containers add their own Bulk and never reduce their contents’ Bulk.
 | [Travel Pack](equipment/travel-pack.md) | 3 | Reusable; no ability granted |
 | [Sleeping Roll](equipment/sleeping-roll.md) | 4 | Reusable; no ability granted |
 | [Water Flask](equipment/water-flask.md) | 3 | container + one person-day water |
-| [Travel Clothes](equipment/travel-clothes.md) | 4 | one plain worn outfit proposed free at creation |
+| [Travel Clothes](equipment/travel-clothes.md) | 4 | one plain worn outfit free at creation |
 | [Weather Clothes](equipment/weather-clothes.md) | 10 | Reusable; no ability granted |
 | [Small Tent](equipment/small-tent.md) | 12 | Reusable; no ability granted |
 | [Writing Kit](equipment/writing-kit.md) | 6 | d6 |
@@ -98,7 +98,7 @@ A d4 averages 4 uses before empty; d6 averages 10 total uses through its d4 stag
 d8 averages 18. These are expectations, not guaranteed charges. The inventory die
 cannot be converted into an exact number of arrows or spoonfuls.
 
-**Proposed shop policy:** a shop can refill a supply to its printed starting die
+**Shop refills:** a shop can refill a supply to its printed starting die
 for its full listed supply price. Or buy a separate full supply at that price,
 which costs another Bulk. No discounted partial refill, die combining, decanting
 into fresh full-die bottles or cash credit for unknown leftovers. This keeps the
@@ -168,7 +168,7 @@ Bundles are convenience lists at the exact sum of their parts, with no discount 
 Bulk exemption. Each person still chooses what to carry.
 
 - **Road essentials: 24 coins, 5 Bulk.** Pack 3 + sleeping roll 4 + filled water
-  flask 3 + d8 food 9 + d6 lighting 5. One plain worn outfit is proposed free.
+  flask 3 + d8 food 9 + d6 lighting 5. One plain worn outfit is free.
 - **Self-contained explorer: 31 coins, 7 Bulk.** Road essentials + rope 5 and small
   necessities 2. At Brawn −1, this alone fills capacity 7.
 - **Road essentials plus lesser healing: 44 coins, 6 Bulk.** Add a 20-coin d4 bottle.
@@ -184,8 +184,6 @@ no coins at creation.
 character can buy road essentials, a lesser potion and retain 6 coins; at 70 that
 same choice leaves 26 for specialist purchases or reserves. The fully equipped
 explorer with a potion costs 51, so the low end requires a small tradeoff. This
-is a proposed range, not an assigned character balance or an approved formula.
+is a purchasing target; calculate the actual purse from the starting allocation below.
 
-The [proposed starting allocation](starting-coins.md) supplies base + ancestry + culture + background + class values, all within that target.
-
-[Research and six-character basket checks](reviews/1166-market-review.md)
+The [starting allocation](starting-coins.md) supplies base + ancestry + culture + background + class values, all within that target.

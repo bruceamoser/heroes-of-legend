@@ -22,6 +22,6 @@ Prepare your next Main Action spell this turn that deals damage. After resolving
 
 **Limits:** Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.
 
-**ID:** draw-the-current · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** draw-the-current
 
-[Card conventions](../card-conventions.md) · [Maneuver review](../reviews/1157-shared-maneuvers.md)
+[Card conventions](../card-conventions.md)

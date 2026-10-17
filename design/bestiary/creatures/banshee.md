@@ -76,7 +76,6 @@ Move up to 2 squares using a printed movement mode without provoking. Normal ter
 
 **ID:** creature-banshee
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Disabler · **CV:** 50
 

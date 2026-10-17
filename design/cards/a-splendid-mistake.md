@@ -28,6 +28,6 @@ Resolve the pushes in an order you choose. For a target in the center square, ch
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-splendid-mistake · **Status:** Proposal for Bruce’s review.
+**ID:** a-splendid-mistake
 
 [Build this character](../paths/unruly-spark.md) · [Card conventions](../card-conventions.md)

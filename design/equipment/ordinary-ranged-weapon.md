@@ -4,7 +4,6 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-ranged-weapon
 - **Bulk:** 1
 - **Requirements / supply:** No DP; ordinary equipment

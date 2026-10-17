@@ -70,7 +70,6 @@ Learn the direction of the nearest Bleeding creature within 6 squares. This does
 
 **ID:** creature-gnoll-tracker
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Attrition striker · **CV:** 13
 

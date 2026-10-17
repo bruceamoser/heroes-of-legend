@@ -26,7 +26,7 @@ Moser’s law of conservation of Life energy: pay 7 HP before rolling; bypass re
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** return-to-strength · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** return-to-strength
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
 

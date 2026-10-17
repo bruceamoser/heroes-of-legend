@@ -74,7 +74,6 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 
 **ID:** creature-wight
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Pursuit controller · **CV:** 27
 

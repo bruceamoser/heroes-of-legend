@@ -70,7 +70,6 @@ Copy the sound of a voice it has heard until its next turn. This grants no knowl
 
 **ID:** creature-thought-leech
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Aberration · **Role:** Disabler · **CV:** 20
 

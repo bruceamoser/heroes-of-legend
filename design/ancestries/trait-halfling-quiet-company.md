@@ -10,6 +10,6 @@ Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing co
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-halfling-quiet-company · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-halfling-quiet-company
 
 [Ancestry choices](halfling.md)

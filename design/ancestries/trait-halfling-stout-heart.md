@@ -10,6 +10,6 @@ Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-halfling-stout-heart · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-halfling-stout-heart
 
 [Ancestry choices](halfling.md)

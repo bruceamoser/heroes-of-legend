@@ -71,7 +71,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-hook-beak
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Territorial hunter · **CV:** 17
 

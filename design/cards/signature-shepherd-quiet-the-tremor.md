@@ -24,6 +24,6 @@ Reduce its temporary Frightened or Dazed by up to 2, minimum 0. Choose one condi
 
 **Limits:** Once on your turn.
 
-**ID:** signature-shepherd-quiet-the-tremor · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-quiet-the-tremor
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)

@@ -72,7 +72,6 @@ One willing active ally within 3 squares that can hear it may spend that ally’
 
 **ID:** creature-hobgoblin-marshal
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Displacer · **CV:** 29
 

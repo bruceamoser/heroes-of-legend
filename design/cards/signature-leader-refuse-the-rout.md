@@ -24,6 +24,6 @@ Each recipient reduces temporary Frightened by up to 2, minimum 0, and gains 1 B
 
 **Limits:** Once on your turn.
 
-**ID:** signature-leader-refuse-the-rout · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-leader-refuse-the-rout
 
-[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/leader.md) · [Card conventions](../card-conventions.md)

@@ -6,7 +6,6 @@
 
 **ID:** monster-life-drink
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

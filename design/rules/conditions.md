@@ -1,7 +1,7 @@
 # Conditions
 
 Agreed condition rules, consolidated after the wound-table review (issue #1125).
-These supersede the version 0.1 timing and sensory severity rules.
+Use these timing and sensory rules throughout the current catalog.
 
 ## Ratings, decay, and persistence
 
@@ -82,7 +82,7 @@ Grappled does not decay. Grappled’s movement restriction still applies while t
 hold exists. Paralyzed, Asleep and Unconscious retain their immediate restrictions;
 they are not action-category selection effects.
 
-**Mixed-source tracking proposal:** record temporary and starred contributions
+**Mixed-source tracking:** record temporary and starred contributions
 separately. Add effective severity where the condition uses severity; decay only
 the temporary part. For duration-only conditions, either positive contribution
 keeps the condition active, without multiplying its effect. Generic temporary

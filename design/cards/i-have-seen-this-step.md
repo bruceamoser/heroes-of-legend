@@ -22,6 +22,6 @@ Call the warning you remember. If the ally hears you, it gains 1 Boon to this de
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** i-have-seen-this-step · **Status:** Proposal for Bruce’s review.
+**ID:** i-have-seen-this-step
 
 [Build this character](../paths/reader-of-omens.md) · [Card conventions](../card-conventions.md)

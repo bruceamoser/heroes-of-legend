@@ -17,7 +17,6 @@
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
 
-
 **Senses:** Ordinary sight and hearing.
 
 **Communication:** None

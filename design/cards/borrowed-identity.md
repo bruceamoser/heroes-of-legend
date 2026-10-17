@@ -28,6 +28,6 @@ Prepare a mundane identity using suitable clothing, a plausible role and informa
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrowed-identity · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** borrowed-identity
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

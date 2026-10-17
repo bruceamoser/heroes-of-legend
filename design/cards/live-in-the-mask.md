@@ -22,6 +22,6 @@ Gain 1 Boon to a consequential Guile roll maintaining a plausible disguise durin
 
 **Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
 
-**ID:** live-in-the-mask · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** live-in-the-mask
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

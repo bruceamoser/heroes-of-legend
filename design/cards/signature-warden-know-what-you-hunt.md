@@ -24,6 +24,6 @@ Study the creature and name up to three willing allies within 5 squares who can 
 
 **Limits:** Once per creature per scene; repeated uses do not renew spent benefits.
 
-**ID:** signature-warden-know-what-you-hunt · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-know-what-you-hunt
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)

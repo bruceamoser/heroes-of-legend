@@ -79,7 +79,6 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **ID:** creature-barrow-guard
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Defender · **CV:** 23
 

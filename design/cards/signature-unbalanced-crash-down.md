@@ -24,6 +24,6 @@ After that push resolves, you may knock the target prone even if it did not stri
 
 **Limits:** Once on your turn; no benefit from free attacks.
 
-**ID:** signature-unbalanced-crash-down · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-unbalanced-crash-down
 
-[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/unbalanced.md) · [Card conventions](../card-conventions.md)

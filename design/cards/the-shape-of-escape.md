@@ -22,6 +22,6 @@ Become a ribbon of living clay and slip through a continuous open route to the d
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-shape-of-escape · **Status:** Proposal for Bruce’s review.
+**ID:** the-shape-of-escape
 
 [Build this character](../paths/shape-scholar.md) · [Card conventions](../card-conventions.md)

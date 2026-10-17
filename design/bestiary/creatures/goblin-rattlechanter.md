@@ -70,7 +70,6 @@ One willing ally within 3 squares that can hear it reduces either Frightened or 
 
 **ID:** creature-goblin-rattlechanter
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Disabler · **CV:** 13
 

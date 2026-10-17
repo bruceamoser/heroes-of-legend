@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-trade-sack · **Status:** Market proposal for Bruce’s review.
+**ID:** item-trade-sack
 
 **Market price:** 1 coins. **Bulk:** 1.
 

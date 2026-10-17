@@ -81,7 +81,6 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 
 **ID:** creature-skeleton-champion
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Attrition striker · **CV:** 25
 

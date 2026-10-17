@@ -26,6 +26,6 @@ Strike in the rhythm that carries your companions forward. Requires melee weapon
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** keep-time-with-steel · **Status:** Proposal for Bruce’s review.
+**ID:** keep-time-with-steel
 
 [Build this character](../paths/battle-singer.md) · [Card conventions](../card-conventions.md)

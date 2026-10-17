@@ -22,6 +22,6 @@ Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** stabilize · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** stabilize
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

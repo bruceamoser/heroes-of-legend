@@ -28,6 +28,6 @@ Prepare and lead a route through one noncombat natural hazard for yourself and u
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** guide-the-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** guide-the-crossing
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

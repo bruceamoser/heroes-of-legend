@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-smoke-supply · **Status:** Market proposal for Bruce’s review.
+**ID:** item-smoke-supply
 
 **Market price:** 15 coins. **Bulk:** 1.
 

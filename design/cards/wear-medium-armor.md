@@ -22,6 +22,6 @@ While wearing the trained armor, physical resistance 2. No roll; highest matchin
 
 **Limits:** Purchase once.
 
-**ID:** wear-medium-armor · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** wear-medium-armor
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

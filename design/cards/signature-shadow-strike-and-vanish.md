@@ -24,6 +24,6 @@ After any result, move up to 1 square without provoking. After a Standard or Str
 
 **Limits:** Once on your turn; no benefit from free attacks.
 
-**ID:** signature-shadow-strike-and-vanish · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-strike-and-vanish
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

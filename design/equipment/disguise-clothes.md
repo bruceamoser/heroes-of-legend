@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-disguise-clothes · **Status:** Market proposal for Bruce’s review.
+**ID:** item-disguise-clothes
 
 **Market price:** 10 coins. **Bulk:** 1.
 

@@ -24,6 +24,6 @@ Stabilize it, then move it up to 2 squares to a free square adjacent to you with
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-shelter-the-fallen · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-shelter-the-fallen
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

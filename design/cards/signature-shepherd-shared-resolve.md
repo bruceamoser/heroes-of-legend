@@ -24,6 +24,6 @@ Each recipient chooses one temporary condition from Frightened, Dazed or Poisone
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shepherd-shared-resolve · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-shared-resolve
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)

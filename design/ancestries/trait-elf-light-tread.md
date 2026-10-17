@@ -10,6 +10,6 @@ Natural undergrowth does not increase the cost of your voluntary movement. Other
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-elf-light-tread · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-elf-light-tread
 
 [Ancestry choices](elf.md)

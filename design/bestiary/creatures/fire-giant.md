@@ -79,7 +79,6 @@ One adjacent creature gains Burning 1. Once per turn; no immediate damage. The c
 
 **ID:** creature-fire-giant
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Burning striker · **CV:** 52
 

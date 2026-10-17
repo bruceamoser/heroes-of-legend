@@ -4,7 +4,6 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-heavy-armor
 - **Bulk:** 1
 - **Requirements / supply:** Requires Wear Heavy Armor to benefit

@@ -22,6 +22,6 @@ Lights last one scene, illuminate their square and adjacent squares, and cannot 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** lantern-moths · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** lantern-moths
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

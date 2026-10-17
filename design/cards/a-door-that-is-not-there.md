@@ -26,6 +26,6 @@ Place a silent, flat illusion of a door, window, screen or similar scene feature
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-door-that-is-not-there · **Status:** Proposal for Bruce’s review.
+**ID:** a-door-that-is-not-there
 
 [Build this character](../paths/mirror-weaver.md) · [Card conventions](../card-conventions.md)

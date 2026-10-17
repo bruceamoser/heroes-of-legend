@@ -76,7 +76,6 @@ One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
 
 **ID:** creature-ghast
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Disabler · **CV:** 25
 

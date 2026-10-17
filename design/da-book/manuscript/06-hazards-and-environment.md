@@ -8,9 +8,8 @@ Use existing actions, attributes, conditions and progress rules to resolve these
 challenges. A trap does not need a second difficulty system. A hazardous place does
 not need a combat turn merely because it can hurt someone.
 
-**Review status:** the example hazards below are new content. Their damage, targets,
-areas and timings are proposed values for these entries only. They are not universal
-trap damage or calibrated additions to encounter CV.
+The example hazards below have their own damage, targets, areas and timings.
+These are not universal trap damage or calibrated additions to encounter CV.
 
 ## Write a hazard for use
 

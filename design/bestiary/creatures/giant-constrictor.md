@@ -74,7 +74,6 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 
 **ID:** creature-giant-constrictor
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Holder · **CV:** 23
 

@@ -4,7 +4,7 @@
 
 The summoning card specifies category, maximum eligible tier, number, placement and
 duration. Choose an explicitly eligible bestiary entry each casting. The six
-proposed families are Animal, Fey, Spirit, Elemental, Undead and Construct; each has independent
+families are Animal, Fey, Spirit, Elemental, Undead and Construct; each has independent
 Novice, Adept and Master cards. Higher cards may select eligible lower-tier entries.
 All eighteen currently summon one creature. More powerful tiers expand eligibility,
 not the number of independent actors. No prerequisite-card chains.
@@ -109,20 +109,16 @@ controller’s turn. Passive defenses such as resistance remain applicable. Do n
 import automatic attacks, active auras or triggered abilities from a monster entry
 without an explicit summon-profile procedure consistent with command-only activity.
 
-## Bestiary draft now available
+## Bestiary selection
 
-The [summon selection](../bestiary/summon-choices.md) provides 73 proposed entries,
+The [summon selection](../bestiary/summon-choices.md) provides 73 entries,
 covering all six categories at tiers 1, 3 and 7. Each prints HP, all six attributes,
 attack and target-defense attributes, movement, footprint, senses, resistance,
-the no-healing rule, command options and restrictions. These permissions await
-Bruce’s review; category or CV alone never authorizes a creature.
+the no-healing rule, command options and restrictions. Category or CV alone never authorizes a creature.
 
 The [creature procedure](../bestiary/procedure.md) and summon selection document
 the permitted command activities. Use the approved tether measurement above and
-the [moving-group placement rules](stability.md) where relevant. The old embedded
-creature samples remain retired. Use the new
-entry itself, not a historical sample or a monster’s narrative tactics as a standing
-order. No activity, alerts or independent Reactions without the permitted command.
+the [moving-group placement rules](stability.md) where relevant. Use the entry itself, not a monster’s narrative tactics as a standing order. No activity, alerts or independent Reactions without the permitted command.
 
 **Latest agreement:** summons disappear when their controller becomes unconscious
 or dies. Players roll their creatures’ printed attack and defense attributes;

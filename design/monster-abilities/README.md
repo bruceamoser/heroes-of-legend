@@ -3,7 +3,7 @@
 Original HOL creature capabilities. These are separate from learned character
 abilities: no DP, no player Discipline requirements, no automatic access from an
 animal form or a summoning category. Each creature supplies its own attack values.
-Entries are proposals unless explicitly marked approved. Shared attack templates describe attacker
+Shared attack templates describe attacker
 outcomes for authoring; the DA creature card prints the corresponding defense
 outcomes explicitly. The player reference prints attacker outcomes. Never ask the
 DA to convert a template’s result during play.

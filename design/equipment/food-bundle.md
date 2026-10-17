@@ -4,10 +4,9 @@
 
 ## Rules
 
-- **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-food-bundle
 - **Bulk:** 1
-- **Requirements / supply:** Inventory d8 proposal
+- **Requirements / supply:** Inventory d8
 - **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
 
 One supply check per person-day consumed. No exhaustion subsystem is implied.

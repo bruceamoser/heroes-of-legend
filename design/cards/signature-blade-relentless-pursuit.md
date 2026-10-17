@@ -24,6 +24,6 @@ After it finishes moving, move up to your Speed toward it without provoking. If 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-blade-relentless-pursuit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-relentless-pursuit
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

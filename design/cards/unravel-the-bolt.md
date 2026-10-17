@@ -22,6 +22,6 @@ Spend your Reaction before the recipient’s normal defense roll. Grant 2 Boons 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** unravel-the-bolt · **Status:** Proposal for Bruce’s review.
+**ID:** unravel-the-bolt
 
 [Build this character](../paths/ward-weaver.md) · [Card conventions](../card-conventions.md)

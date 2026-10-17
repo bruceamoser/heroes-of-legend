@@ -104,6 +104,12 @@ If you control a summon, roll that creature's printed attributes. Its player pro
 already presents attack outcomes in the correct direction. Your hero's own Brawn
 or Reason does not replace the summon’s value.
 
+For NPC-only actions, a player or the DA assuming the player role rolls. For an
+NPC attack against another NPC, roll the defender’s printed attribute and read
+the attacker’s defense-outcome table. For consequential healing or another task,
+roll the acting NPC’s attribute. Make one roll; handling dice does not transfer
+control of the NPC. Off-screen events can use DA judgment.
+
 ## Damage and resistance
 
 Damage comes from the chosen outcome, not a weapon damage die. Your attribute has
@@ -130,8 +136,11 @@ share the Elemental table. Life resistance also reduces ordinary HP healing.
 
 Same-kind numerical bonuses do not add together unless explicitly stated. Conditions
 with meaningful ratings can add; binary Prone cannot. Boons and Banes use their own
-stacking rules. Where a creature has a weakness, use its printed procedure; do not
-invent extra damage simply from a descriptive vulnerability.
+stacking rules. **Weakness X** adds X to its matching damage component before
+resistance, once per event. Use the highest value of each type, normally capped
+at 3. It cannot add a damage type absent from the attack. Special vulnerabilities
+use their printed procedure. Fire Weakness 2 turns 3 fire damage into 5 before
+resistance; it adds nothing to a purely physical attack.
 
 ## Shields and guarded positions
 
@@ -215,10 +224,10 @@ The original mover then bounces one square in the opposite direction if possible
 > group one further normal square. If the attack also inflicted Burning, stopping
 > the movement would not remove that condition.
 
-> **Playtest ruling — crowded collisions.** Never finish with overlapping occupants.
-> If a large moving group cannot fit, the DA stops it before illegal overlap and
-> places its members in the nearest legal squares along the route. This is a
-> temporary geometry ruling, not permission to pass through a wall or standing creature.
+> **Crowded collisions.** Moving groups must finish in separate legal spaces.
+> If everyone cannot fit, stop at the last position where they can; the DA decides
+> the arrangement. Placement cannot pass through walls or grant extra forward
+> movement. The original mover’s backward bounce still applies where possible.
 
 ## Grappling and capture
 

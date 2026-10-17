@@ -74,7 +74,6 @@ After an adjacent attacker deals HP damage with a non-free attack, apply Burning
 
 **ID:** creature-cinder-strider
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Elemental · **Role:** Burning striker · **CV:** 18
 

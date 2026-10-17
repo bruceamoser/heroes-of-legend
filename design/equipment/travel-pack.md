@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-travel-pack · **Status:** Market proposal for Bruce’s review.
+**ID:** item-travel-pack
 
 **Market price:** 3 coins. **Bulk:** 1.
 

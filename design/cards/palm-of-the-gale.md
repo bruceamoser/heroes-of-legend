@@ -26,6 +26,6 @@ Release the breath you have been holding through an open palm. No weapon require
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** palm-of-the-gale · **Status:** Proposal for Bruce’s review.
+**ID:** palm-of-the-gale
 
 [Build this character](../paths/elemental-adept.md) · [Card conventions](../card-conventions.md)

@@ -26,6 +26,6 @@ Step inside the familiar pattern and finish your melee attack before they find a
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** write-the-final-line · **Status:** Proposal for Bruce’s review.
+**ID:** write-the-final-line
 
 [Build this character](../paths/duelling-master.md) · [Card conventions](../card-conventions.md)

@@ -24,6 +24,6 @@ Provide a plausible distraction that nearby observers can see or hear. The ally 
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shadow-turn-their-eye · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-turn-their-eye
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

@@ -26,6 +26,6 @@ Climb a natural surface too sheer for an ordinary unaided ascent if the DA confi
 
 **Limits:** The companion ends in a separate safe square or remains carried outside combat; in combat choose legal separate endpoints before moving. Carrying requires a body and load the DA judges physically supportable.
 
-**ID:** where-only-eagles-pass · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** where-only-eagles-pass
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

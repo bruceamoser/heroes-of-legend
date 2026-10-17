@@ -26,6 +26,6 @@ Your outline swells like a mountain’s shadow and your heel strikes the ground.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** stride-of-the-giant · **Status:** Proposal for Bruce’s review.
+**ID:** stride-of-the-giant
 
 [Build this character](../paths/rune-bound-warrior.md) · [Card conventions](../card-conventions.md)

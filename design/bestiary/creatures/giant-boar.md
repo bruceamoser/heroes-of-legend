@@ -74,7 +74,6 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **ID:** creature-giant-boar
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Animal · **Role:** Displacer · **CV:** 22
 

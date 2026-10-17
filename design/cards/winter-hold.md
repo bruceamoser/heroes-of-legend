@@ -26,6 +26,6 @@ Proposed NPC defense attribute: Agility.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** winter-hold · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** winter-hold
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

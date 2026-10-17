@@ -74,7 +74,6 @@ Place up to 3 connected empty ground squares within 3 squares as difficult terra
 
 **ID:** creature-gate-archon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Celestial · **Role:** Displacer · **CV:** 43
 

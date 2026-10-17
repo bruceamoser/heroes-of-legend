@@ -76,7 +76,6 @@ Choose one holder and reduce that holder’s Grappled contribution by 1, also re
 
 **ID:** creature-clay-golem
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Construct · **Role:** Holder · **CV:** 35
 

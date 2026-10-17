@@ -72,7 +72,6 @@ Choose up to 3 connected difficult-terrain ground squares within 3 squares. They
 
 **ID:** creature-dryad
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Holder · **CV:** 17
 

@@ -22,6 +22,6 @@ Move up to 2 squares through actual dimness or concealment without provoking. If
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** step-between-lanterns · **Status:** Proposal for Bruce’s review.
+**ID:** step-between-lanterns
 
 [Build this character](../paths/night-walker.md) · [Card conventions](../card-conventions.md)

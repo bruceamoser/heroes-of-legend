@@ -22,6 +22,6 @@ Part nonmagical rain, airborne dust or smoke along that route until the start of
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-road-through-rain · **Status:** Proposal for Bruce’s review.
+**ID:** a-road-through-rain
 
 [Build this character](../paths/storm-caller.md) · [Card conventions](../card-conventions.md)

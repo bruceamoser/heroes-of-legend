@@ -22,6 +22,6 @@ Wings carry you up to 4 squares, over creatures and difficult ground, to a visib
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** wings-over-the-battle · **Status:** Proposal for Bruce’s review.
+**ID:** wings-over-the-battle
 
 [Build this character](../paths/dragon-heir.md) · [Card conventions](../card-conventions.md)

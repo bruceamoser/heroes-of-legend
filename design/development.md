@@ -1,6 +1,6 @@
 # Develop a character
 
-**Agreed framework.** New named choices are proposed in their own files.
+Use the current catalog choices and the advancement rules below.
 
 1. Assign six attributes from −2 to +2, totaling +3. These stay fixed; magic items
    may modify them but do not retroactively change creation benefits.
@@ -35,17 +35,16 @@ card chains. Receive one chosen class signature at 3 and 7; only class and level
 qualify it. No multiclassing or access to another class’s signatures.
 
 Coins are one currency. The agreed target is 50–70 starting coins after card grants.
-The [proposed allocation](starting-coins.md) is 40 + ancestry + culture + background
+The [starting allocation](starting-coins.md) is 40 + ancestry + culture + background
 + class. After resolving grants, use the [market](market.md), record purchases,
 remaining coins, carried Bulk and occupied hands. The plain worn outfit is a
-proposed universal starting baseline; packs and potions are purchased, not free.
+universal starting baseline; packs and potions are purchased, not free.
 Gear sells for half price or trades at full value with a willing trader.
 
 ## Language reference
 
-The proposed [language defaults](rules/languages.md) supply Common plus one ordinary
-home language, followed by explicit extra grants. These new defaults are for review
-under #1265; ancestry and culture grants otherwise remain unchanged.
+The [language defaults](rules/languages.md) supply Common plus one ordinary
+home language, followed by explicit extra grants. Apply explicit ancestry grants separately; culture choices do not restrict language.
 
 ## Ledger to copy
 

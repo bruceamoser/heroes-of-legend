@@ -70,7 +70,6 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **ID:** creature-shield-soldier
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Defender · **CV:** 15
 

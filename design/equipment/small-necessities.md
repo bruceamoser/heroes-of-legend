@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-small-necessities · **Status:** Market proposal for Bruce’s review.
+**ID:** item-small-necessities
 
 **Market price:** 2 coins. **Bulk:** 1.
 

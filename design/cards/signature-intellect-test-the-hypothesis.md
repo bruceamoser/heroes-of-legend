@@ -26,6 +26,6 @@ Spend ten minutes examining the evidence. Obtain a supported sequence of events 
 
 **Limits:** One account per question; new evidence permits a new examination.
 
-**ID:** signature-intellect-test-the-hypothesis · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-test-the-hypothesis
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

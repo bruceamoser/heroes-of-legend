@@ -18,11 +18,10 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
 - `recipe-presentation.json`: reader-facing grant, crafting and completion text.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
-- `icons/`: historical SVG symbol names; the book uses the simplified generated PNG silhouettes.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
   It never rewrites the source catalog. Do not edit generated files by hand.
-- `decision-log.md`: newly found editorial conflicts and unresolved boundaries.
+- `decision-log.md`: navigation to current rules and resolved boundaries.
 - `layout-notes.md`: reference consultation and HOL's independent visual design.
 
 ## Build
@@ -60,23 +59,18 @@ python3 design/audit.py
 python3 design/bestiary/audit.py
 ```
 
-## Approval and editorial policy
+## Current baseline and release
 
-Bruce approved the cover and all active open design proposals on October 15, 2026.
-Old proposal/status badges are suppressed in the reader edition; their historical
-source text is retained. Withdrawn proposals are not revived. New edge-case rulings
-are explicitly marked in the book and logged for review.
+Bruce approved the current system through October 17, 2026. Current authored
+rules and catalog entries are the authority; Git history holds previous editions.
+New mechanics require a new review. CV calibration remains playtest work.
 
-The book intentionally excludes the complete DA bestiary, CV design worksheets,
-encounter construction, historical reviews and old Quarto mechanics. Every player
-summon profile is included so the summoning catalog is usable independently.
+Both books share the language reference. The Player’s Book includes every summoned
+form but excludes the full DA bestiary and encounter-construction material.
 
-All interior placeholders have generated illustrations. The book includes 18 simple gold
-discipline symbols with high-contrast rank numerals and four printable character sheets. This digital
-playtest proof is not a printer-ready release: final art resolution, bleed,
-production color and release notices belong to the later publication pass.
-
-## Current proof
-
-234 pages, approximately 89 MiB. See [QA report](qa-report.md) for verified coverage and limits, and
-[construction decisions](decision-log.md) for the small number of review items.
+Generated files and PDFs are ignored build artifacts. Use the
+[two-book starter-kit workflow](../../release/README.md) for releases. The release
+always includes this book and the Dungeon Architect’s Guide & Bestiary.
+See [QA report](qa-report.md) for validation and [current rules](decision-log.md)
+for important cross-references. Rendered-page review remains required after layout
+changes; this digital playtest edition is not a print-production certification.

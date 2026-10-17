@@ -22,6 +22,6 @@ Maximum HP +1. At most one purchase at each level; missed purchases cannot be ba
 
 **Limits:** At most one purchase per level; unused purchases cannot be saved.
 
-**ID:** conditioned-body · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** conditioned-body
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

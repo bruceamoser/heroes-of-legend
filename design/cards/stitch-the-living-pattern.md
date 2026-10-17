@@ -28,9 +28,9 @@ The Boon modifies an ordinary spell roll, not the spell’s HP cost or an invent
 
 **Limits:** Repeatable; pay the action and HP cost each time.
 
-**ID:** stitch-the-living-pattern · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** stitch-the-living-pattern
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)
 
 **Offensive healing — latest agreement:** this spell may target an unwilling
 creature harmed by healing. Resolve it as an attack using its printed attribute,

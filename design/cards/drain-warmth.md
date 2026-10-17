@@ -26,6 +26,6 @@ Choose one creature you can see within 4 squares and make an attack using Guile.
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** drain-warmth · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** drain-warmth
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

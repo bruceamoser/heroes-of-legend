@@ -81,7 +81,6 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 
 **ID:** creature-gargoyle
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Attrition striker · **CV:** 27
 

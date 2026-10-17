@@ -22,6 +22,6 @@ Each moves 1 square toward a visible enemy without provoking, one at a time. The
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-chorus-advances · **Status:** Proposal for Bruce’s review.
+**ID:** the-chorus-advances
 
 [Build this character](../paths/battle-singer.md) · [Card conventions](../card-conventions.md)

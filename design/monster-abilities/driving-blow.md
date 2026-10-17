@@ -6,7 +6,6 @@
 
 **ID:** monster-driving-blow
 
-**Status:** Proposed monster-only ability; not purchasable with DP.
 
 **Action:** Main Action
 

@@ -24,6 +24,6 @@ Each recipient may move up to 3 squares without provoking, in an order you choos
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-intellect-a-route-for-everyone · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-a-route-for-everyone
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

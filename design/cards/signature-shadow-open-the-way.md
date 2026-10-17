@@ -30,6 +30,6 @@ Your tool work makes no audible noise and leaves no tool marks. This does not si
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shadow-open-the-way · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shadow-open-the-way
 
-[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shadow.md) · [Card conventions](../card-conventions.md)

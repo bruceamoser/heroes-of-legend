@@ -76,7 +76,6 @@ Move one unattended object of at most 1 Bulk within 3 squares into an empty squa
 
 **ID:** creature-poltergeist
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Spirit · **Role:** Displacer · **CV:** 18
 

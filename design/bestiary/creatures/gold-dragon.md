@@ -83,7 +83,6 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 
 **ID:** creature-gold-dragon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Sight disruptor · **CV:** 104
 

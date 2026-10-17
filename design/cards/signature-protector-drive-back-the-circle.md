@@ -24,6 +24,6 @@ Push each enemy 2 squares directly away from you, in an order you choose. Then e
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-protector-drive-back-the-circle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-protector-drive-back-the-circle
 
-[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/protector.md) · [Card conventions](../card-conventions.md)

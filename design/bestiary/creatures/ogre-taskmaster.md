@@ -79,7 +79,6 @@ One willing active ally within 3 squares that can hear it may spend that ally’
 
 **ID:** creature-ogre-taskmaster
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Giant · **Role:** Knockdown fighter · **CV:** 36
 

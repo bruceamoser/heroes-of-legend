@@ -30,6 +30,6 @@ After the first square, each new square must share an edge with one already plac
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrow-tomorrow-s-weather · **Status:** Proposal for Bruce’s review.
+**ID:** borrow-tomorrow-s-weather
 
 [Build this character](../paths/unruly-spark.md) · [Card conventions](../card-conventions.md)

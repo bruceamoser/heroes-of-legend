@@ -22,6 +22,6 @@ Spend 2 squares of movement to stand. This spends movement, not a Maneuver.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** stand · **Status:** Agreed foundation; any proposal is identified in the effect.
+**ID:** stand
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

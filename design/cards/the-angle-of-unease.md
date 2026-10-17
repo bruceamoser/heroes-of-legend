@@ -26,6 +26,6 @@ The room seems to lean in a direction that does not exist.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-angle-of-unease · **Status:** Proposal for Bruce’s review.
+**ID:** the-angle-of-unease
 
 [Build this character](../paths/watcher-beyond.md) · [Card conventions](../card-conventions.md)

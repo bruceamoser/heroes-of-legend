@@ -28,6 +28,6 @@ Requires a wound listing Soft Tissue treatment; once per wound per day across al
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** treat-soft-tissue · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** treat-soft-tissue
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

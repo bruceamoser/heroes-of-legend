@@ -24,6 +24,6 @@ Learn whether Force can overcome it, its remaining progress target, and one prac
 
 **Limits:** One application per obstacle per scene; repeated examination does not refresh spent Boons.
 
-**ID:** signature-intellect-spot-the-leverage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-spot-the-leverage
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

@@ -22,6 +22,6 @@ A translucent hand braces your friend. Give that defense 1 Boon; afterward the a
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** a-hand-from-before · **Status:** Proposal for Bruce’s review.
+**ID:** a-hand-from-before
 
 [Build this character](../paths/ancestral-guardian.md) · [Card conventions](../card-conventions.md)

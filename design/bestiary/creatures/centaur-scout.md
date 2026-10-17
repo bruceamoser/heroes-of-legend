@@ -72,7 +72,6 @@ Move up to 2 squares, paying normal terrain costs. This movement provokes normal
 
 **ID:** creature-centaur-scout
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Ranged controller · **CV:** 17
 

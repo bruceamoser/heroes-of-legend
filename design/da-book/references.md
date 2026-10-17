@@ -19,25 +19,11 @@ These are research references, not manuscript assets or files to redistribute.
 
 ## Authority within HOL
 
-Current rules under `design/rules`, the development and market documents, and
-current authored cards govern the manuscript. The player-book manuscript is useful
-for teaching established procedures; the October 16 approved clarifications take
-precedence where its released edition predates them.
+Current rules, development, market and authored cards govern both books. Their
+teaching text incorporates the same approved rulings. Reference games inform
+organization and coverage, not HOL damage, dice or character advancement.
 
-The new hazard values and adventure rewards/placements are review proposals.
-They are labeled at the affected entries. CV estimates retain their uncertainty.
-The manuscript makes no claim of new encounter simulations or independent approval.
-
-## Editorial decisions in this draft
-
-- The published v16.0.0 Player's Book is unchanged.
-- Provisional authoring labels are omitted from assembled catalog entries; the
-  global playtest status and uncalibrated CV warning remain in introductions.
-- Creature statistics and rules are read from existing Markdown, never regenerated
-  from legacy catalogs. Design notes are separated into a final ledger.
-- Broad family labels are lookup aids, not lore mandates or immunity packages.
-- Existing unresolved or withdrawn edge-case proposals are not silently promoted
-  into new global rules. For example, this manuscript quotes the approved falling
-  rate without settling a separate landing/flight-incapacitation procedure.
-- No new art is commissioned during the prose pass. Planned diagrams and unique
-  illustration subjects are recorded separately for the layout stage.
+The original adventure and hazards are approved examples with local values; they
+do not establish universal rewards or trap damage. Creature CV remains a playtest
+estimate. The internal design ledger stays out of the reader PDF. Artwork use is
+recorded in the shared manifest and art direction files.

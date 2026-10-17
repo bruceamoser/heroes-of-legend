@@ -26,6 +26,6 @@ Claws or a fleeting beast-shape carry you into the leap. Move up to 2 squares, t
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** pounce-of-the-red-claw · **Status:** Proposal for Bruce’s review.
+**ID:** pounce-of-the-red-claw
 
 [Build this character](../paths/beast-within.md) · [Card conventions](../card-conventions.md)

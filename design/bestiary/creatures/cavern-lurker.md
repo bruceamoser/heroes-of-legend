@@ -74,7 +74,6 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 
 **ID:** creature-cavern-lurker
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Aberration · **Role:** Position hunter · **CV:** 27
 

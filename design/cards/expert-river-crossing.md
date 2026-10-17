@@ -26,6 +26,6 @@ Choose a swim that you could ordinarily attempt. Before a consequential attempt,
 
 **Limits:** Pay the printed action and any full activity time for each use.
 
-**ID:** expert-river-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** expert-river-crossing
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -70,7 +70,6 @@ While in water, move up to 3 squares using its printed swim speed. Pay normal te
 
 **ID:** creature-sea-hag
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Fear controller · **CV:** 21
 

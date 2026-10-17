@@ -10,6 +10,6 @@ While standing on solid ground, gain 1 Boon to defense against forced movement. 
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**ID:** trait-dwarf-low-center · **Status:** Proposal for Bruce’s review. No DP cost.
+**ID:** trait-dwarf-low-center
 
 [Ancestry choices](dwarf.md)

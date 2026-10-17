@@ -84,7 +84,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-old-root-guardian
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Plant · **Role:** Ancient guardian · **CV:** 51
 

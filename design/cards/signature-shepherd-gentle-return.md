@@ -24,6 +24,6 @@ That ally may stand without spending movement, then move 1 square without provok
 
 **Limits:** Once on your turn; the ally must actually regain HP.
 
-**ID:** signature-shepherd-gentle-return · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-gentle-return
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)

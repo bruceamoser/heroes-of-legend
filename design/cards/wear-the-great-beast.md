@@ -30,6 +30,6 @@ Return with a Maneuver. Another form ends this one; HP loss and conditions remai
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** wear-the-great-beast · **Status:** Proposal for Bruce’s review.
+**ID:** wear-the-great-beast
 
 [Build this character](../paths/beast-within.md) · [Card conventions](../card-conventions.md)

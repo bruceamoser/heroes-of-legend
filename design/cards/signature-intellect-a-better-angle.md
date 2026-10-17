@@ -24,6 +24,6 @@ The ally may move up to 3 squares without provoking. It gains 1 Boon to its next
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-intellect-a-better-angle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-a-better-angle
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

@@ -26,6 +26,6 @@ For a moment, it understands that it has been noticed.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** when-the-stars-look-back · **Status:** Proposal for Bruce’s review.
+**ID:** when-the-stars-look-back
 
 [Build this character](../paths/watcher-beyond.md) · [Card conventions](../card-conventions.md)

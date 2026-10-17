@@ -26,7 +26,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** sap-and-breath · **Status:** Proposal for Bruce’s review.
+**ID:** sap-and-breath
 
 [Build this character](../paths/green-healer.md) · [Card conventions](../card-conventions.md)
 

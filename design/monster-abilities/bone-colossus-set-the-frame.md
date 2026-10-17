@@ -6,7 +6,6 @@
 
 **ID:** monster-bone-colossus-set-the-frame
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

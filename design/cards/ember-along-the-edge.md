@@ -26,6 +26,6 @@ Run a spark along your melee weapon and strike. Its appearance remains yours to 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** ember-along-the-edge · **Status:** Proposal for Bruce’s review.
+**ID:** ember-along-the-edge
 
 [Build this character](../paths/spellblade.md) · [Card conventions](../card-conventions.md)

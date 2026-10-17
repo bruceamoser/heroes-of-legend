@@ -16,7 +16,7 @@ Pay 3 HP before rolling, bypassing all resistance and leaving yourself above 0. 
 
 This removes no wound or scar and does not restore Grit or reverse Last Words. It is a complete healing spell, not a modifier requiring another learned heal.
 
-A willing creature explicitly harmed by healing instead takes the listed HP amount as Life damage, with normal resistance and minimum damage; apply no beneficial recovery riders. This card does not target an unwilling creature.
+A willing creature explicitly harmed by healing instead takes the listed HP amount as Life damage, with normal resistance and minimum damage; apply no beneficial recovery riders. An unwilling creature harmed by healing can be targeted as described below.
 
 **Duration:** Healing and reductions are immediate.
 
@@ -32,9 +32,9 @@ A willing creature explicitly harmed by healing instead takes the listed HP amou
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shepherd-careful-transfer · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-careful-transfer
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)
 
 **Offensive healing — latest agreement:** this spell may target an unwilling
 creature harmed by healing. Resolve it as an attack using its printed attribute,

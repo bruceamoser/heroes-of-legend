@@ -1,6 +1,6 @@
 # Card conventions
 
-**Agreed foundations unless marked proposal.**
+These conventions apply to the current catalog.
 
 ## Learn, declare, resolve
 
@@ -19,7 +19,7 @@ Range uses squares. “Adjacent” means within one square with an actual access
 path. Visible targets still require an attack path. A player area/multitarget
 attack uses one roll with the worst applicable net Boon/Bane situation. NPC attacks
 give each affected player a defense roll. A printed NPC defense attribute is a
-proposal for that attack, not the attribute a player attacker rolls.
+choice for that attack, not the attribute a player attacker rolls.
 
 ## Costs and time
 
@@ -31,8 +31,8 @@ unless stated. A Reaction spends the one available Reaction.
 Instant damage or displacement occurs once. A named temporary condition continues
 under the condition rules, not forever because the attack’s duration is Instant.
 “Once per turn” means your turn unless a different creature’s turn is named.
-“Once per round” resets at the start of your next turn for this draft (proposal).
-“Scene” means one continuous situation; a brief pause does not reset it (proposal).
+“Once per round” resets at the start of your next turn.
+“Scene” means one continuous situation; a brief pause does not reset it.
 
 Healing costs 1/3/7 HP by tier, paid before the roll, bypassing resistance and leaving
 the caster above 0. Requires a free hand. Healing resistance is Life resistance;
@@ -115,7 +115,7 @@ of handling it, then specify its actual additive effects and use requirements.
 **Agreed direction October 13, 2026:** aim for approximately 10–15 shared Passive
 abilities, including useful enduring expertise outside combat. This count excludes
 ancestry traits and class-exclusive signatures; it is a design target, not a rule
-limiting what a character may learn. The current proposal has fourteen.
+limiting what a character may learn. The shared catalog has fourteen.
 
 Higher-tier utility should change the problems a character can tackle or the people
 they can help, rather than merely repeat ordinary 1/2/3 progress. Use mixed discipline
@@ -123,7 +123,7 @@ requirements when both fields contribute to the technique. “A 2 and B 1” req
 both ranks before learning; it does not require an earlier ability. Preserve strong
 single-discipline rank-3 destinations and class-and-level-only signature requirements.
 
-The new named abilities and specific requirement assignments remain proposals.
+Named abilities use their printed requirements.
 
 Bruce also accepts the revised grant-only menu of up to 35 eligible unowned shared
 choices as useful breadth. Evaluate their distinctness and value rather than adding
@@ -208,17 +208,14 @@ Each milestone offers independent choices. Require only class and minimum level;
 never require an earlier signature. All learned signatures remain available, so
 review combinations of purchased passives as well as individual cards.
 
-The [signature review](reviews/1153-signature-review.md) and its comparison ledger
-document the proposed implementation. Signature records retain Type: Signature
+Signature records retain Type: Signature
 and use Tags for their functional roles; action cost remains a separate field.
 
 ## Focused Maneuver development
 
 **Agreed direction:** use Maneuvers for special positioning, setup and support.
 Keep ordinary movement simple; do not introduce movement-priced ability activations
-or add variable-cost/conversion cards merely to fill a catalog category. The
-[shared Maneuver pass](reviews/1157-shared-maneuvers.md) implements this direction
-with proposed independent options across all three tiers.
+or add variable-cost/conversion cards merely to fill a catalog category. Independent options span all three tiers.
 
 ## Stability and movement
 

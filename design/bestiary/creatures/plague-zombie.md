@@ -74,7 +74,6 @@ One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
 
 **ID:** creature-plague-zombie
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Undead · **Role:** Debuffer · **CV:** 11
 

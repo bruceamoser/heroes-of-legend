@@ -83,7 +83,6 @@ While in water, move up to 3 squares using its printed swim speed. Pay normal te
 
 **ID:** creature-bronze-dragon
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Sound disruptor · **CV:** 80
 

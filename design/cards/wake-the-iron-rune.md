@@ -22,6 +22,6 @@ Gain Stability 1 until the start of your next turn. Use your highest applicable 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** wake-the-iron-rune · **Status:** Proposal for Bruce’s review.
+**ID:** wake-the-iron-rune
 
 [Build this character](../paths/rune-bound-warrior.md) · [Card conventions](../card-conventions.md)

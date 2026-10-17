@@ -28,6 +28,6 @@ Tell a truthful or honestly believed story about a companion. Name a plausible i
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** remember-this-name · **Status:** Proposal for Bruce’s review.
+**ID:** remember-this-name
 
 [Build this character](../paths/story-singer.md) · [Card conventions](../card-conventions.md)

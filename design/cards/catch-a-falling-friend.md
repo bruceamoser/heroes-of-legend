@@ -14,7 +14,7 @@ Reaction; requires a free hand and secure footing at the start. Weak and Standar
 - **Standard:** Stop its fall and keep your footing.
 - **Strong:** Stop its fall and pull it into an adjacent free safe square.
 
-**Stability exception — proposed:** this willing rescue movement ignores Stability.
+**Stability exception:** this willing rescue movement ignores Stability.
 It does not allow moving an unwilling target or bypassing a grapple.
 
 **Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
@@ -29,6 +29,6 @@ It does not allow moving an unwilling target or bypassing a grapple.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** catch-a-falling-friend · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** catch-a-falling-friend
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

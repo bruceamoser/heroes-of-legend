@@ -84,7 +84,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-burrowing-maw
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Beast · **Role:** Ambush burrower · **CV:** 26
 

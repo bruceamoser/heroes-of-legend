@@ -6,7 +6,6 @@
 
 **ID:** monster-briar-knight-root-the-stance
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

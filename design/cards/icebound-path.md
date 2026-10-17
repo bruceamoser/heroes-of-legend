@@ -28,6 +28,6 @@ The squares are difficult terrain until the end of your next turn. They deal no 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** icebound-path · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** icebound-path
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

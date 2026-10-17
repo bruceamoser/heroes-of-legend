@@ -6,7 +6,6 @@
 
 **ID:** monster-red-dragon-dig-in
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

@@ -6,7 +6,6 @@
 
 **ID:** monster-rime-dragon-ice-anchor
 
-**Status:** Revised creature proposal for Bruce’s review.
 
 **Action:** Maneuver
 

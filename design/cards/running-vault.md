@@ -26,6 +26,6 @@ Choose a landing within the rolled distance. If none is safe, remain at the orig
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** running-vault · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** running-vault
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

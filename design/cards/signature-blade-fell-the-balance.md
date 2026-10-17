@@ -24,6 +24,6 @@ After the attack resolves, you may knock that target prone. This does not requir
 
 **Limits:** Once on your turn; no benefit from free attacks.
 
-**ID:** signature-blade-fell-the-balance · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-fell-the-balance
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

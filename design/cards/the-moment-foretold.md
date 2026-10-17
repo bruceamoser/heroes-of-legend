@@ -22,6 +22,6 @@ If it hears your warning, grant 2 Boons to that roll. If it achieves Strong, it 
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-moment-foretold · **Status:** Proposal for Bruce’s review.
+**ID:** the-moment-foretold
 
 [Build this character](../paths/reader-of-omens.md) · [Card conventions](../card-conventions.md)

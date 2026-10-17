@@ -94,7 +94,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-red-dragon
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Dragon · **Role:** Territorial sovereign · **CV:** 95
 

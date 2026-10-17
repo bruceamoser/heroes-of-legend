@@ -5,7 +5,6 @@
 ## Rules
 
 - **ID:** recipe-fletched-ammunition
-- **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission
 - **Tools:** Craft tools
 - **Materials per attempt:** Suitable wood, feathers and binding, obtained in the scene or one compatible carried bundle use

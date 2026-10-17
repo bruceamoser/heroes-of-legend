@@ -11,8 +11,8 @@ Choose one:
 - **Wilderness 1** and [Forage Coast](../cards/forage-coast.md).
 - **Storm 1** and [Thunder at the Door](../cards/thunder-at-the-door.md).
 
-**Type:** Culture · **Status:** Proposal. Your ancestry does not restrict this choice.
+**Type:** Culture
 
 Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
 
-**Starting coin contribution:** +7 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

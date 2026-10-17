@@ -26,6 +26,6 @@ Take the shot you were waiting for. Requires ranged weapon and ammunition; check
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** the-hunt-ends-here · **Status:** Proposal for Bruce’s review.
+**ID:** the-hunt-ends-here
 
 [Build this character](../paths/trail-hunter.md) · [Card conventions](../card-conventions.md)

@@ -24,6 +24,6 @@ Learn one local courtesy actually demonstrated during your observation and whom 
 
 **Limits:** One Boon use per gathering per scene; further observation does not refresh it.
 
-**ID:** the-right-small-courtesy · **Status:** Proposal for Bruce’s review; follows the approved utility and writing direction.
+**ID:** the-right-small-courtesy
 
-[Card conventions](../card-conventions.md) · [Adventure development](../adventure-development.md)
+[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)

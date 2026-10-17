@@ -30,6 +30,6 @@ Choose the beast’s appearance; the rules above define its capabilities.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** borrow-the-beast · **Status:** Proposal for Bruce’s review.
+**ID:** borrow-the-beast
 
 [Build this character](../paths/beast-within.md) · [Card conventions](../card-conventions.md)

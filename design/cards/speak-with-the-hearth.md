@@ -28,6 +28,6 @@ The touch is safe only for this divination. Information is limited to the fire�
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** speak-with-the-hearth · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** speak-with-the-hearth
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

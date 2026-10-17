@@ -72,7 +72,6 @@ Choose up to 2 connected difficult-terrain squares within 3 squares on a surface
 
 **ID:** creature-deep-elf-webweaver
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Mortal · **Role:** Debuffer · **CV:** 13
 

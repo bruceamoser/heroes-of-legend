@@ -26,6 +26,6 @@ Examine it for one minute. Learn its purpose, its working parts and a specific s
 
 **Limits:** One Boon grant per mechanism until it materially changes.
 
-**ID:** signature-intellect-diagnose-the-failure · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-intellect-diagnose-the-failure
 
-[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/intellect.md) · [Card conventions](../card-conventions.md)

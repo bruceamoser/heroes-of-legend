@@ -28,6 +28,6 @@ No secret fact is invented. Obvious clues require no roll. This grants no lie de
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** notice-the-human-detail · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** notice-the-human-detail
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

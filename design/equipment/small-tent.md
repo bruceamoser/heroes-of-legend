@@ -4,7 +4,7 @@
 
 ## Rules
 
-**ID:** item-small-tent · **Status:** Market proposal for Bruce’s review.
+**ID:** item-small-tent
 
 **Market price:** 12 coins. **Bulk:** 1.
 

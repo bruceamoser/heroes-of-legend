@@ -24,6 +24,6 @@ If still able to move, the ally may move up to 3 squares toward you without prov
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-shepherd-bring-them-near · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-shepherd-bring-them-near
 
-[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)

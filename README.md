@@ -1,66 +1,56 @@
 # Heroes of Legend
 
-**A fantasy tabletop RPG with strategic character development and fast, card-driven play.**
+**Strategic character development. Fast, card-driven fantasy adventure.**
 
-> Grab your swords. Stow your spell books. Adventure awaits.
+Build your hero from ancestry, culture, background, class, disciplines and shared
+abilities. At the table, roll 3d6 plus one attribute, apply Boons and Banes, and
+read the card’s Weak, Standard or Strong outcome.
 
-Build the hero you imagine from ancestry, culture, background, class, disciplines
-and shared abilities. At the table, roll 3d6 plus one attribute, apply Boons and
-Banes, and read the card’s Weak, Standard or Strong outcome.
+## Starter kit — two books
 
-## Player’s Book v16.0.0
+The starter kit covers **levels 1–10** and includes:
 
-The new major edition is a **234-page illustrated player book for levels 1–10**,
-using the rebuilt system and the Great Library visual style. This is a digital
-**playtest edition**, ready for table feedback.
+- **Player’s Book:** rules, 4 ancestries, 18 cultures, 32 backgrounds, 10 classes,
+  18 disciplines, 350 abilities, equipment, recipes, languages, wound tables,
+  73 summoned forms, six example heroes and printable sheets.
+- **Dungeon Architect’s Guide & Bestiary:** running and building adventures,
+  encounter guidance, hazards, a rescue adventure with maps, campaign tools,
+  192 illustrated creatures, 93 monster abilities and table references.
 
-- [Download the Player’s Book (PDF)](https://github.com/bruceamoser/heroes-of-legend/releases/latest/download/Heroes-of-Legend.pdf)
-- [v16.0.0 release and notes](https://github.com/bruceamoser/heroes-of-legend/releases/tag/v16.0.0)
-- [Editable player-book sources and build instructions](design/player-book/README.md)
-- [Validation report](design/player-book/qa-report.md)
-- [Editorial decisions and provisional rulings](design/player-book/decision-log.md)
+[Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
+[Next release notes](release/notes.md) · [Build both books](release/README.md)
 
-The book includes 4 ancestries, 18 cultures, 32 backgrounds, 10 classes,
-18 disciplines, 350 abilities, 43 equipment entries, 10 recipes, 73 summoned
-companion profiles, 280 wound results, six worked heroes and four printable sheets.
-Class cost tables, ability directories and tiered indexes help players find choices.
+Version **16.1.0** is prepared here for review. Published downloads remain on the
+Releases page until this revision is approved and released. This is a digital
+playtest edition; creature CV and encounter budgets remain estimates.
 
-The complete 192-creature bestiary and DA encounter-building guidance remain in
-[the design workspace](design/), for the separate Dungeon Architect book.
+## One current source
 
-## Current rules and source
+The approved system lives in [design/](design/README.md) as editable Markdown.
+[Player teaching and layout](design/player-book/README.md) and
+[DA teaching and layout](design/da-book/README.md) use Typst. Builders read the
+catalog; they never overwrite authored entries.
 
-The current design lives in `design/` as editable Markdown. Player-facing teaching
-chapters and the Typst book layout live in `design/player-book/`. The build reads
-catalog entries; it never overwrites them.
+Git history is the archive. Superseded rules, engines, simulation catalogs, source
+PDFs and layout experiments are removed from the current tree. Do not consult an
+older edition to fill a gap in the current rules.
 
-The earlier Quarto book and original v15.1 playtest remain historical references.
-Their mechanics are superseded by the current design and should not be used to
-fill gaps in the new system.
+## Build
 
-## Build the player book
-
-Follow [the dependency and editing guide](design/player-book/README.md). With
-Python dependencies, Typst 0.15.1 and Poppler available:
+With Python dependencies, Typst 0.15.1 and Poppler installed:
 
 ```sh
 python3 -m pip install -r design/player-book/requirements.txt
-TYPST=/path/to/typst python3 design/player-book/build.py --compile
-python3 design/player-book/audit.py
+TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 ```
 
-Output: `design/player-book/output/heroes-of-legend-players-book.pdf`.
+Both audited PDFs and the starter-kit ZIP are written under `dist/v16.1.0/`.
+See [release instructions](release/README.md) for visual review and publication.
+Generated PDFs and build outputs are not editable sources or tracked archives.
 
-## Repository layout
+## Working on the game
 
-- `design/`: current rules, character choices, cards, equipment and bestiary.
-- `design/player-book/`: teaching chapters, Typst layout, artwork, PDF and QA.
-- `design/layout-test/`: historical layout-tool experiments.
-- `quarto-book/`: earlier book source, retained for history.
-- `source-doc/`: original playtest reference material.
-- `.github/` and `.roo/skills/`: project workflow and editing guidance.
-
-## Workflow and designer
-
-Issue → branch → implementation → PR → review → squash merge → close.
-Bruce A. Moser is the lead designer and final authority on rules and publication.
+Issue → branch → implementation → PR → independent review → squash merge.
+Bruce A. Moser is the lead designer and final authority. See
+[project instructions](.github/copilot-instructions.md), the [current catalog](design/catalog.md)
+and [further playtest work](design/open-decisions.md).

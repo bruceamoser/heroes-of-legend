@@ -11,8 +11,8 @@ Choose one:
 - **Arms 1** and [Smile Before Steel](../cards/smile-before-steel.md).
 - **Subterfuge 1** and [Create a Distraction](../cards/create-a-distraction.md).
 
-**Type:** Background · **Status:** Proposal. This is a past, not a required personality or moral alignment.
+**Type:** Background
 
 Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
 
-**Starting coin contribution:** +7 coins (proposed allocation). See [starting coins](../starting-coins.md).
+**Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

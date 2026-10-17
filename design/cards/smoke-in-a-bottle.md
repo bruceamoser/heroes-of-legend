@@ -32,6 +32,6 @@ Smoke provides heavy cover across these squares until the end of your next turn.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** smoke-in-a-bottle · **Status:** Proposal for Bruce’s review.
+**ID:** smoke-in-a-bottle
 
 [Build this character](../paths/field-alchemist.md) · [Card conventions](../card-conventions.md)

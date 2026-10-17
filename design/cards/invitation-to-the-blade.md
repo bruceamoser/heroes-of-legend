@@ -26,6 +26,6 @@ Offer a tempting line, then close it with a melee attack.
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** invitation-to-the-blade · **Status:** Proposal for Bruce’s review.
+**ID:** invitation-to-the-blade
 
 [Build this character](../paths/duelling-master.md) · [Card conventions](../card-conventions.md)

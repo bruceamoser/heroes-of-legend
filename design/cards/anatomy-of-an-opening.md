@@ -26,6 +26,6 @@ A limp, a lifted elbow, the way the armor closes: attack what you understand. Us
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** anatomy-of-an-opening · **Status:** Proposal for Bruce’s review.
+**ID:** anatomy-of-an-opening
 
 [Build this character](../paths/thinking-fighter.md) · [Card conventions](../card-conventions.md)

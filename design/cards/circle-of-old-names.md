@@ -22,6 +22,6 @@ Call the names of those who kept you safe. Until the start of your next turn, th
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
-**ID:** circle-of-old-names · **Status:** Proposal for Bruce’s review.
+**ID:** circle-of-old-names
 
 [Build this character](../paths/ancestral-guardian.md) · [Card conventions](../card-conventions.md)

@@ -24,6 +24,6 @@ Make one free Basic Melee attack against it, rolling Brawn and using Basic Melee
 
 **Limits:** Repeatable; normal action economy applies.
 
-**ID:** signature-blade-return-stroke · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+**ID:** signature-blade-return-stroke
 
-[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
+[Class choices](../classes/blade.md) · [Card conventions](../card-conventions.md)

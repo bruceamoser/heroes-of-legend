@@ -75,7 +75,6 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **ID:** creature-briar-knight
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Fey · **Role:** Defender · **CV:** 19
 

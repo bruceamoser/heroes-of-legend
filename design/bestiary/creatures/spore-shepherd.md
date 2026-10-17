@@ -69,7 +69,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **ID:** creature-spore-shepherd
 
-**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
 **Category:** Plant · **Role:** Area disabler · **CV:** 12
 

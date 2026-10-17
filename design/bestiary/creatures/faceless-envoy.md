@@ -70,7 +70,6 @@ Copy the appearance and voice of one observed person of the same Size until dism
 
 **ID:** creature-faceless-envoy
 
-**Status:** New proposal for Bruce’s review; not balance-certified.
 
 **Category:** Aberration · **Role:** Sight disruptor · **CV:** 22
 

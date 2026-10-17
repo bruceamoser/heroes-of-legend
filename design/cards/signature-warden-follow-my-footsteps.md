@@ -24,6 +24,6 @@ Move up to 1 square, then the ally may move up to 1 square. Both movements ignor
 
 **Limits:** Each participant moves once per use.
 
-**ID:** signature-warden-follow-my-footsteps · **Status:** Proposal for Bruce’s review; not balance-tested.
+**ID:** signature-warden-follow-my-footsteps
 
-[Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+[Card conventions](../card-conventions.md)
