@@ -15,18 +15,18 @@ The starter kit covers **levels 1–10** and includes:
   73 summoned forms, six example heroes and printable sheets.
 - **Dungeon Architect’s Guide & Bestiary:** running and building adventures,
   encounter guidance, hazards, a rescue adventure with maps, campaign tools,
-  192 illustrated creatures, 93 monster abilities and table references.
+  192 illustrated creatures, 126 monster abilities and table references.
 
 [Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
 [Release notes](release/notes.md) · [Build both books](release/README.md)
 
-The current starter kit is **v16.3.0**. Download both books from the
+The current starter kit is **v16.4.0**. Download both books from the
 [latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
 This edition includes the [discipline and origin expansion](design/discipline-coverage.md).
-The working bestiary adds a [creature action review](design/bestiary/action-coverage.md);
-those changes are not yet in the published v16.3.0 downloads.
+It also includes the [creature action expansion](design/bestiary/action-coverage.md),
+with reusable Maneuvers and Reactions matched to creature roles.
 
 ## One current source
 
@@ -48,7 +48,7 @@ python3 -m pip install -r design/player-book/requirements.txt
 TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 ```
 
-Both audited PDFs and the starter-kit ZIP are written under `dist/v16.3.0/`.
+Both audited PDFs and the starter-kit ZIP are written under `dist/v16.4.0/`.
 See [release instructions](release/README.md) for visual review and publication.
 Generated PDFs and build outputs are not editable sources or tracked archives.
 
