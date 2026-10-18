@@ -1,4 +1,4 @@
-# Crystal Ooze (CV 20)
+# Crystal Ooze (CV 22)
 
 *A broad, transparent gel containing shards of stone and glass, easily mistaken for a clean polished surface. Its slow body is adhesive and dense rather than nimble.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Shed the Grasp | Reduce one holder’s Grappled contribution 1; cannot use at Grappled 3. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -40,6 +42,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Clinging Recoil
+
+*The cut sprays sticky droplets that stretch into threads across the attacker's hands and boots.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
+
+### Shed the Grasp
+
+*The surface peels away, leaving a useless handful while the body gathers again.*
+
+Choose one holder and reduce that holder’s Grappled contribution by 1, also reducing this creature’s total Grappled rating by 1. End that hold if its contribution reaches 0. It must have a Maneuver available; cannot use this while Grappled 3. No damage or free movement.
 
 ### General details
 
@@ -76,7 +90,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-crystal-ooze
 
 
-**Category:** Ooze · **Role:** Ambush hazard · **CV:** 20
+**Category:** Ooze · **Role:** Ambush hazard · **CV:** 22
 
 ### Creature-roll reference
 
@@ -97,12 +111,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.4 → 1.55: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [mimic shell](../../monster-abilities/mimic-shell.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [mimic shell](../../monster-abilities/mimic-shell.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Shed the Grasp](../../monster-abilities/slough-skin.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

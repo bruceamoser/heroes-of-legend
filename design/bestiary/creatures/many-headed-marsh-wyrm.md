@@ -1,4 +1,4 @@
-# Many-headed Marsh Wyrm (CV 55)
+# Many-headed Marsh Wyrm (CV 62)
 
 *A massive marsh reptile with three long necks rising from one low, muscular body. The heads share a single purpose and body, whose wounds knit unless scorched by fire.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +48,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -85,7 +92,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-many-headed-marsh-wyrm
 
 
-**Category:** Dragon · **Role:** Many-target brute · **CV:** 55
+**Category:** Dragon · **Role:** Many-target brute · **CV:** 62
 
 ### Creature-roll reference
 
@@ -107,12 +114,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 2
 
-**Utility factor:** 1.3
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.3 → 1.45: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 3
 
 Reference I=3.596, O=13.191. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [knit flesh](../../monster-abilities/knit-flesh.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+**Ability sources:** [knit flesh](../../monster-abilities/knit-flesh.md), [sweeping attack](../../monster-abilities/sweeping-attack.md), [Tail Retort](../../monster-abilities/tail-retort.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

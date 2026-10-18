@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Ride the Current | Swim 3; provokes. |
+| Ride the Current | Swim 3; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It catches a moving seam of water and lets the current carry its weight.*
 
-While in water, move up to 3 squares using its printed swim speed. Pay normal terrain costs and provoke normally. On dry ground this Maneuver has no effect.
+While in water, move up to 3 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. On dry ground this Maneuver has no effect.
 
 ### General details
 
@@ -85,13 +85,15 @@ While in water, move up to 3 squares using its printed swim speed. Pay normal te
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [dragging strike](../../monster-abilities/dragging-strike.md), [read the current](../../monster-abilities/read-the-current.md).
+**Ability sources:** [dragging strike](../../monster-abilities/dragging-strike.md), [Ride the Current](../../monster-abilities/read-the-current.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

@@ -1,4 +1,4 @@
-# Zombie Brute (CV 22)
+# Zombie Brute (CV 24)
 
 *A huge laborer's corpse still drags the quarry chains wound around its shoulders. Its movements are slow until something stands in its path.*
 

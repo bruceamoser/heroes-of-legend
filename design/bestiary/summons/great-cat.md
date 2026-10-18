@@ -1,4 +1,4 @@
-# Great Cat (CV 15)
+# Great Cat (CV 16)
 
 *A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle.*
 
@@ -41,9 +41,15 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Raking bite:** One adjacent creature.
 
+## Maneuvers
+
 ### Stalking Step — Maneuver
 
-Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden.
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
+
+Use only as part of a command; no independent activity.
 
 ### Flatten into Cover — Maneuver
 

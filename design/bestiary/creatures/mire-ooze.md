@@ -1,4 +1,4 @@
-# Mire Ooze (CV 10)
+# Mire Ooze (CV 11)
 
 *A creeping mass of mud-colored digestive slime, with partly dissolved scraps suspended inside. It has no eyes or clear front, sensing contact and nearby ground vibration instead.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Shed the Grasp | Reduce one holder’s Grappled contribution 1; cannot use at Grappled 3. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +40,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
 **Weak defense:** Pull 2. **Standard defense:** Pull 1.
+
+### Clinging Recoil
+
+*The striking hand comes away trailing a thick strand that resists every hurried step.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
+
+### Shed the Grasp
+
+*The surface peels away, leaving a useless handful while the body gathers again.*
+
+Choose one holder and reduce that holder’s Grappled contribution by 1, also reducing this creature’s total Grappled rating by 1. End that hold if its contribution reaches 0. It must have a Maneuver available; cannot use this while Grappled 3. No damage or free movement.
 
 ### General details
 
@@ -70,7 +84,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-mire-ooze
 
 
-**Category:** Ooze · **Role:** Slow controller · **CV:** 10
+**Category:** Ooze · **Role:** Slow controller · **CV:** 11
 
 ### Creature-roll reference
 
@@ -91,12 +105,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.15 → 1.3: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [drag under](../../monster-abilities/drag-under.md), [Shed the Grasp](../../monster-abilities/slough-skin.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

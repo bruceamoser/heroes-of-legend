@@ -1,4 +1,4 @@
-# Mummy (CV 29)
+# Mummy (CV 31)
 
 *Layers of painted linen preserve a body that moves with ceremonial precision. Dry resin cracks at every joint.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +55,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A dry sound rises from the corpse, like someone knocking from inside a coffin.*
 
 One creature within 2 squares that can hear it gains Frightened 1 of this creature. Once per turn; no damage.
+
+### Clinging Recoil
+
+*A ruined hand closes on cloth and flesh even as the blow tears through the corpse.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
 
 ### General details
 
@@ -88,7 +95,7 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 **ID:** creature-mummy
 
 
-**Category:** Undead · **Role:** Holder · **CV:** 29
+**Category:** Undead · **Role:** Holder · **CV:** 31
 
 ### CV worksheet
 
@@ -98,13 +105,15 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

@@ -1,4 +1,4 @@
-# Rime Dragon (CV 54)
+# Rime Dragon (CV 59)
 
 *A long-bodied dragon with pale blue scales, translucent horns and wings like thin sheets of ice. It favors frozen coasts and glaciers where its memories and prey can remain preserved.*
 
@@ -31,6 +31,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Splintering Rime | After adjacent attack deals HP damage: attacker gains Freezing 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -60,6 +61,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One creature within 2 squares. **Player defense:** Fortitude. **Damage type:** cold.
 
 **Weak defense:** Freezing 2. **Standard defense:** Freezing 1.
+
+### Splintering Rime
+
+*Cracked ice bursts outward in a glittering spray that freezes across the attacker's skin.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Freezing 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
 
 ### General details
 
@@ -94,7 +101,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-rime-dragon
 
 
-**Category:** Dragon · **Role:** Winter ambusher · **CV:** 54
+**Category:** Dragon · **Role:** Winter ambusher · **CV:** 59
 
 ### Creature-roll reference
 
@@ -117,12 +124,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.65
+**Utility factor:** 1.8
+
+**Action review (#1279):** U 1.65 → 1.8: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=7.012. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [breath](../../monster-abilities/breath.md), [drag under](../../monster-abilities/drag-under.md), [rime dragon ice anchor](../../monster-abilities/rime-dragon-ice-anchor.md), [wing beat](../../monster-abilities/wing-beat.md).
+**Ability sources:** [breath](../../monster-abilities/breath.md), [drag under](../../monster-abilities/drag-under.md), [rime dragon ice anchor](../../monster-abilities/rime-dragon-ice-anchor.md), [Splintering Rime](../../monster-abilities/splintering-rime.md), [wing beat](../../monster-abilities/wing-beat.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

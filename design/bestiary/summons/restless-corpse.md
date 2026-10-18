@@ -1,4 +1,4 @@
-# Zombie Shambler (CV 8)
+# Zombie Shambler (CV 9)
 
 *A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage.*
 
@@ -41,6 +41,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Clutching hands:** One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+## Maneuvers
+
+### Shambling Advance — Maneuver
+
+*The corpse lurches after the nearest warm body, dragging its ruined feet without ever looking away.*
+
+Move up to 2 squares toward a visible living creature within 6 squares; its next attack against that creature before the end of the controller’s turn gains 1 Boon. It must end closer to that creature than it began. For this movement only, treat difficult ground as normal; pay other costs and provoke normally. One attack only; repeated uses do not stack. This grants no attack and cannot be used while movement is prevented.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

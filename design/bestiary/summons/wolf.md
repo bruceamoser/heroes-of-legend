@@ -1,4 +1,4 @@
-# Wolf (CV 8)
+# Wolf (CV 9)
 
 *A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 
@@ -40,6 +40,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Snapping jaws:** One adjacent creature.
 
 **Pinning bite:** One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+## Maneuvers
 
 ### Circle the Prey — Maneuver
 

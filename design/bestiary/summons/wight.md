@@ -1,4 +1,4 @@
-# Wight (CV 27)
+# Wight (CV 29)
 
 *An armored corpse watches with the offended dignity of a lord whose court has forgotten to die.*
 

@@ -1,4 +1,4 @@
-# Walking Furnace (CV 29)
+# Walking Furnace (CV 34)
 
 *A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.*
 
@@ -42,6 +42,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Iron ram:** One adjacent creature.
 
 **Furnace breath:** All creatures in a cone of 3 rows, 1/3/5 squares wide. Cannot use this attack on consecutive turns, regardless of result.
+
+## Maneuvers
+
+### Stoke the Core — Maneuver
+
+*Coals brighten inside its body and a hot breath spills between teeth or iron seams.*
+
+Add 1 Fire damage to its next damaging Main Action attack before the end of the controller’s turn. Apply it once per target damaged by that attack, using the normal mixed-damage resistance and minimum rules. This grants no extra attack or Burning. Repeated uses do not add more Fire damage.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

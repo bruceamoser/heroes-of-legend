@@ -1,4 +1,4 @@
-# Vampire Courtier (CV 40)
+# Vampire Courtier (CV 43)
 
 *An elegant undead predator with cool skin, immaculate clothes and teeth easily concealed by a practiced smile. Its household and social influence protect a carefully hidden feeding arrangement.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Recoil into Shadow | After taking HP damage: move 2 through dim light or darkness; no opportunities. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Borrowed Face
 
 Take the appearance and voice of a person of the same footprint, until dismissed or reduced to 0 HP. Keep statistics and equipment; gain no memories, languages or powers. Suspicious examination uses normal player Reason. Direct sunlight prevents this ability and ends the disguise.
+
+### Recoil into Shadow
+
+*Its wounded outline stretches into the nearest shadow and runs along the dark edge of the room.*
+
+After an attack resolves and deals HP damage to this creature, move up to 2 squares through connected dimly lit or dark squares without provoking. This creature must survive and remain capable. Pay normal terrain costs and obey occupancy; no passage through solid objects or automatic Hidden. No trigger from a free attack; no attack is granted.
 
 ### General details
 
@@ -83,7 +90,7 @@ Take the appearance and voice of a person of the same footprint, until dismissed
 **ID:** creature-blood-courtier
 
 
-**Category:** Undead · **Role:** Predator · **CV:** 40
+**Category:** Undead · **Role:** Predator · **CV:** 43
 
 ### Creature-roll reference
 
@@ -104,12 +111,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [borrowed face](../../monster-abilities/borrowed-face.md), [life drink](../../monster-abilities/life-drink.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [borrowed face](../../monster-abilities/borrowed-face.md), [life drink](../../monster-abilities/life-drink.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Recoil into Shadow](../../monster-abilities/recoil-into-shadow.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

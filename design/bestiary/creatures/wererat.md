@@ -1,4 +1,4 @@
-# Wererat (CV 14)
+# Wererat (CV 15)
 
 *A rat-faced runner wears a thief's coat carefully altered around the tail, keeping gloved hands close to a hidden knife.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The creature shifts between a familiar face and its hybrid shape.*
 
 Change between humanoid and hybrid appearance. Keep current HP, attributes, resistances, conditions and printed movement; no healing or refreshed resources. Natural attacks require hybrid form; held weapon attacks and Basic Melee remain available in humanoid form. Equipment remains carried or worn where it fits. No infection or extra inventory capacity.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
 
 ### General details
 
@@ -71,7 +78,7 @@ Change between humanoid and hybrid appearance. Keep current HP, attributes, resi
 **ID:** creature-wererat
 
 
-**Category:** Mortal · **Role:** Debuffer · **CV:** 14
+**Category:** Mortal · **Role:** Debuffer · **CV:** 15
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=3.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [change guise](../../monster-abilities/change-guise.md), [venom](../../monster-abilities/venom.md).
+**Ability sources:** [change guise](../../monster-abilities/change-guise.md), [Slip the Rush](../../monster-abilities/slip-the-rush.md), [venom](../../monster-abilities/venom.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

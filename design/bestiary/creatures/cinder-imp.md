@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Poisoned 2. **Standard defense:** Poisoned 1.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
 
 ### General details
 
@@ -91,12 +98,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.324. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [venom](../../monster-abilities/venom.md).
+**Ability sources:** [Slip the Rush](../../monster-abilities/slip-the-rush.md), [venom](../../monster-abilities/venom.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

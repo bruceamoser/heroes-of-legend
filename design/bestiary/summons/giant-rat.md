@@ -36,7 +36,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Tunnel Scamper:** Move up to 2 squares. Treat rubble squares as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provokes normally.
+**Tunnel Scamper — Maneuver:** Move up to 2 squares without provoking from one visible enemy chosen before moving. Treat rubble as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provoke normally from other enemies.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

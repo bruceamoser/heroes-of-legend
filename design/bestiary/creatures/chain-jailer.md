@@ -1,4 +1,4 @@
-# Chain Jailer (CV 32)
+# Chain Jailer (CV 34)
 
 *A broad fiend wrapped in hooked chains and iron identification tags. It presents captivity as collection of a debt, whether that debt is honest or manufactured.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Hook the Retreat | After an enemy voluntarily retreats from adjacent to 2 squares: pull 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -49,6 +50,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Hook the Retreat
+
+*The hooked limb follows the withdrawing foe, catching just as the space opens between them.*
+
+After a visible enemy voluntarily moves from adjacent to this creature and ends that movement exactly 2 squares from it, pull that enemy 1 square toward this creature along a clear path. Apply Stability, terrain costs and normal collision rules. No separate attack damage. Forced movement and movement granted by a free attack cannot trigger this; it is an alternative to spending the Reaction on an opportunity attack.
 
 ### General details
 
@@ -81,7 +88,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-chain-jailer
 
 
-**Category:** Fiend · **Role:** Capturer · **CV:** 32
+**Category:** Fiend · **Role:** Capturer · **CV:** 34
 
 ### Creature-roll reference
 
@@ -103,12 +110,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.4 → 1.5: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [Hook the Retreat](../../monster-abilities/hook-the-retreat.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

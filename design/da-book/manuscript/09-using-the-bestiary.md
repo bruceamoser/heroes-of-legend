@@ -35,9 +35,24 @@ collects healing, senses, signs, motives and encounter guidance.
 **0** under Evasion or Threat means no modifier from that field. “1 Bane” means
 one Bane through the ordinary dice procedure, not minus one to a total.
 
+## Choose the moment to react
+
+A creature’s distinctive Reaction competes with its opportunity attack for the
+same single Reaction. A duelist may save it to turn a blade, a guardian to cover a
+companion, or a dragon to sweep a damaging attacker away. Read the trigger before
+the dice: interference comes before the roll, protection before the damage, and
+retaliation after the incoming attack resolves. A creature that dies or loses the
+required capability cannot retaliate.
+
+Several named movement Maneuvers trade distance for avoiding one chosen enemy’s
+opportunity attack. Other enemies still threaten the route. Converting the Maneuver
+into a full movement allowance remains useful when distance alone matters.
+Abilities belong only to the creatures that print them; a family name grants none.
+A summoned profile has its own permitted Maneuvers and no independent Reactions.
+
 ## A Goblin Scrapper at the table
 
-The [Goblin Scrapper](../../bestiary/creatures/goblin-scrapper.md) has **CV 7,
+The [Goblin Scrapper](../../bestiary/creatures/goblin-scrapper.md) has **CV 8,
 HP 8, Speed 7, Size 1, Armor DR 0, Evasion 1 Bane, Threat 0 and Stability 0**.
 Its Scrap knife requires **Agility defense** and deals **5/3/2 physical damage**
 for Weak/Standard/Strong player defense.
@@ -51,6 +66,11 @@ the attack deals 3 physical damage before resistance. A hero with Physical
 resistance 2 takes 1. On Strong defense, the attack deals 2 before resistance and
 still deals the minimum 1 total damage. The goblin's Agility +2 does not get added
 to that player's defense roll or to the knife's damage.
+
+Slip the Rush lets the goblin spend its Reaction after a visible enemy ends
+voluntary movement adjacent to it, moving 1 square without an opportunity from
+that enemy. Other enemies still threaten the route. Spending it means the goblin
+has no Reaction left for an opportunity attack until its normal refresh.
 
 On its turn, the goblin can use its Main Action for an attack and its Maneuver for
 Roll Away, moving up to two squares in a straight line without provoking. Roll

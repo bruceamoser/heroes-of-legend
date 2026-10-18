@@ -1,4 +1,4 @@
-# Warhorse (CV 13)
+# Warhorse (CV 14)
 
 *A broad-chested horse bears the marks of old harness straps and turns toward familiar commands even in chaos.*
 
@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Driving Stride | Move 3 straight; provokes. |
+| Driving Stride | Move 3 straight; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *Hooves hammer a straight course through dust and broken grass.*
 
-Move up to 3 squares in a straight line, paying normal terrain costs. This movement provokes normally.
+Move up to 3 squares in a straight line without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Grants no attack or automatic movement of a rider or held creature.
 
 ### General details
 
@@ -75,7 +75,7 @@ Move up to 3 squares in a straight line, paying normal terrain costs. This movem
 **ID:** creature-warhorse
 
 
-**Category:** Animal · **Role:** Displacer · **CV:** 13
+**Category:** Animal · **Role:** Displacer · **CV:** 14
 
 ### CV worksheet
 
@@ -85,13 +85,15 @@ Move up to 3 squares in a straight line, paying normal terrain costs. This movem
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=3.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [grave gallop](../../monster-abilities/grave-gallop.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Driving Stride](../../monster-abilities/grave-gallop.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

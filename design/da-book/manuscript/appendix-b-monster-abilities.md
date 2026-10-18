@@ -1,6 +1,6 @@
 # Monster Ability Reference
 
-These **93 monster-only abilities** are tools for preparing and adapting creatures.
+These **126 monster-only abilities** are tools for preparing and adapting creatures.
 They are separate from learned player abilities, with no DP price or permission
 to purchase them. A creature gains only the abilities printed in its own entry.
 

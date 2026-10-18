@@ -36,7 +36,7 @@ def validate(manifest):
     creatures = [s for family in manifest['families'] for s in family['sources']]
     groups = [
         (creatures, 'bestiary/creatures', 192),
-        (manifest['monster_abilities'], 'monster-abilities', 93),
+        (manifest['monster_abilities'], 'monster-abilities', 126),
         (manifest['summons'], 'bestiary/summons', 73),
     ]
     for sources, folder, count in groups:
@@ -186,7 +186,7 @@ def main():
         OUT.mkdir(exist_ok=True)
         for name, text in outputs.items():
             (OUT / name).write_text(text)
-    print(f'{count} sources; 192 creatures; 93 monster abilities; 73 summons; 280 wound results. ' + ('Assembly current.' if args.check else 'Markdown assembly written.'))
+    print(f'{count} sources; 192 creatures; 126 monster abilities; 73 summons; 280 wound results. ' + ('Assembly current.' if args.check else 'Markdown assembly written.'))
 
 
 if __name__ == '__main__':

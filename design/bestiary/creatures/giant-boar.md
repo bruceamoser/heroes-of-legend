@@ -1,4 +1,4 @@
-# Giant Boar (CV 22)
+# Giant Boar (CV 23)
 
 *A boar with a ridge of iron-gray bristles has tusks polished by years of uprooting saplings and turning stones.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Break the Approach | After an enemy voluntarily closes: push 1; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It lowers its weight and makes the space in front of it suddenly too small.*
 
 Push one adjacent creature 1 square. Apply Stability and normal collision rules. Once per turn; no separate damage.
+
+### Break the Approach
+
+*It lashes out with shoulder or horn, spoiling the straight line of the charging foe.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, push that enemy 1 square directly away. Apply Stability, terrain costs and normal collision rules; no separate attack damage. Forced movement and movement granted by a free attack cannot trigger this.
 
 ### General details
 
@@ -75,7 +82,7 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 **ID:** creature-giant-boar
 
 
-**Category:** Animal · **Role:** Displacer · **CV:** 22
+**Category:** Animal · **Role:** Displacer · **CV:** 23
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [Break the Approach](../../monster-abilities/break-the-approach.md), [driving blow](../../monster-abilities/driving-blow.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

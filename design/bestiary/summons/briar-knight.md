@@ -1,4 +1,4 @@
-# Briar Knight (CV 19)
+# Briar Knight (CV 21)
 
 *A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.*
 
@@ -37,6 +37,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Briar spear:** One creature within 2 squares.
+
+## Maneuvers
 
 ### Root the Stance — Maneuver
 

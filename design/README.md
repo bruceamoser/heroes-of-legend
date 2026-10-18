@@ -18,6 +18,7 @@ precise rules should make it easy to resolve.
 - [Equipment](equipment.md), [recipes](recipes.md), [market](market.md), [starting coins](starting-coins.md).
 - [Six complete heroes](characters/README.md), [example scenes](example-scenes.md).
 - [Languages](rules/languages.md), [conditions](rules/conditions.md), [recovery](rules/recovery.md), [wounds](rules/wounds.md).
+- [Creature action review](bestiary/action-coverage.md): distinctive Maneuvers, Reactions and complete roster decisions.
 - [Bestiary](bestiary/README.md), [monster abilities](monster-abilities/README.md), [summoning](rules/summoning.md).
 - [Player’s Book](player-book/README.md), [Dungeon Architect’s Guide & Bestiary](da-book/README.md).
 - [Further work](open-decisions.md), [research references](references.md).

@@ -1,4 +1,4 @@
-# Medusa (CV 29)
+# Medusa (CV 31)
 
 *Living serpents stir beneath a medusa's hood, while polished stones hang at the belt as reminders of unfinished sculptures.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Warning Hiss | Before a hearing adjacent enemy makes a melee attack: +1 Bane. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It waits for a tell in the stance, then turns its attention to the exposed line.*
 
 Its next attack before the end of this turn imposes 1 additional Bane on player defense, or gains 1 Boon when player-controlled. One attack only; no stacking with itself.
+
+### Warning Hiss
+
+*The snakes beneath the hood rear together, filling the attacker's vision with open mouths and hissing fangs.*
+
+Before one adjacent enemy that can hear it makes a melee attack against this creature, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No Frightened condition, extra gaze or counterattack is granted.
 
 ### General details
 
@@ -73,7 +80,7 @@ Its next attack before the end of this turn imposes 1 additional Bane on player 
 **ID:** creature-medusa
 
 
-**Category:** Mortal · **Role:** Disabler · **CV:** 29
+**Category:** Mortal · **Role:** Disabler · **CV:** 31
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.6
+**Utility factor:** 1.7
+
+**Action review (#1279):** U 1.6 → 1.7: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [numbing strike](../../monster-abilities/numbing-strike.md), [watch the opening](../../monster-abilities/watch-the-opening.md).
+**Ability sources:** [numbing strike](../../monster-abilities/numbing-strike.md), [Warning Hiss](../../monster-abilities/warning-hiss.md), [watch the opening](../../monster-abilities/watch-the-opening.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

@@ -1,4 +1,4 @@
-# Skeleton Sentry (CV 7)
+# Skeleton Sentry (CV 8)
 
 *An articulated skeleton armed with a rusted sword and remnants of an old uniform. No appetite or fatigue distracts it from the narrow command that holds its bones together.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Fall to Pieces | Before physical attack: Physical resistance 3 for it; become Prone afterward. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -34,6 +35,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Old sword
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Fall to Pieces
+
+*The skeleton lets its joints collapse, spilling loose bones beneath the passing blow.*
+
+Before a physical attack against this creature is rolled, gain Physical resistance 3 against that attack only. Use the highest matching resistance. After the attack resolves, it becomes Prone if still present, even if it was already Prone. This does not move its occupied footprint or reassemble it; standing costs the normal 2 movement.
 
 ### General details
 
@@ -70,7 +77,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-bone-sentry
 
 
-**Category:** Undead · **Role:** Guard · **CV:** 7
+**Category:** Undead · **Role:** Guard · **CV:** 8
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -80,12 +87,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.0
+**Utility factor:** 1.1
+
+**Action review (#1279):** U 1 → 1.1: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [Fall to Pieces](../../monster-abilities/fall-to-pieces.md), [lifeless body](../../monster-abilities/lifeless-body.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

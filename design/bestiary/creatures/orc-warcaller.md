@@ -1,4 +1,4 @@
-# Orc Warcaller (CV 19)
+# Orc Warcaller (CV 20)
 
 *A scarred warcaller beats a hide drum against the haft of a staff, measuring the fight by the breaths of the injured.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Rally at the Blow | After an ally within 3 takes HP damage: reduce Frightened 1; ward its next defense. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A familiar rhythm cuts through panic and brings one companion back to the moment.*
 
 One willing ally within 3 squares that can hear it reduces either Frightened or Dazed by 1. Once per turn. This does not recalculate action categories already selected at turn start.
+
+### Rally at the Blow
+
+*A sharp call catches the wounded companion's attention before pain can turn into panic.*
+
+After a visible willing ally within 3 squares takes HP damage from an attack, reduce that ally's Frightened by 1 if it can hear this creature. Then give it 1 Boon on its next defense before the start of this creature's next turn; for an NPC ally impose 1 Bane on the corresponding player attack. The defense benefit is consumed on that roll even if canceled and does not stack with itself. No healing or action is granted.
 
 ### General details
 
@@ -71,7 +78,7 @@ One willing ally within 3 squares that can hear it reduces either Frightened or 
 **ID:** creature-orc-warcaller
 
 
-**Category:** Mortal · **Role:** Disabler · **CV:** 19
+**Category:** Mortal · **Role:** Disabler · **CV:** 20
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=3.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [rousing beat](../../monster-abilities/rousing-beat.md), [stunning strike](../../monster-abilities/stunning-strike.md).
+**Ability sources:** [Rally at the Blow](../../monster-abilities/rally-at-the-blow.md), [rousing beat](../../monster-abilities/rousing-beat.md), [stunning strike](../../monster-abilities/stunning-strike.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

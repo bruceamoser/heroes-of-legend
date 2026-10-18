@@ -1,4 +1,4 @@
-# Animated Armor (CV 17)
+# Animated Armor (CV 18)
 
 *An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
 | Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
 | Opportunity Attack | Basic Melee |
 
@@ -39,6 +40,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Shield Hunker
 
 Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+
+### Cover a Companion
+
+*The guardian steps into the line of danger, making the attacker work around its raised guard.*
+
+Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
 
 ### General details
 
@@ -73,7 +80,7 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 **ID:** creature-animated-armor
 
 
-**Category:** Construct · **Role:** Guard · **CV:** 17
+**Category:** Construct · **Role:** Guard · **CV:** 18
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -83,12 +90,14 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.2 → 1.3: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+**Ability sources:** [Cover a Companion](../../monster-abilities/cover-a-companion.md), [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

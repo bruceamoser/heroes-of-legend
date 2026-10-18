@@ -1,4 +1,4 @@
-# Red Dragon (CV 95)
+# Red Dragon (CV 104)
 
 *An immense red-scaled dragon with a horned head, broad wings and a furnace-bright throat. Intelligent and deeply possessive, it treats territory, tribute and reputation as parts of the same hoard.*
 
@@ -32,6 +32,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -61,6 +62,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One creature within 2 squares. **Player defense:** Fortitude. **Damage type:** physical.
 
 **Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -95,7 +102,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-red-dragon
 
 
-**Category:** Dragon · **Role:** Territorial sovereign · **CV:** 95
+**Category:** Dragon · **Role:** Territorial sovereign · **CV:** 104
 
 ### Creature-roll reference
 
@@ -118,12 +125,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.162, O=15.075. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [breaking roar](../../monster-abilities/breaking-roar.md), [breath](../../monster-abilities/breath.md), [red dragon dig in](../../monster-abilities/red-dragon-dig-in.md), [sweeping attack](../../monster-abilities/sweeping-attack.md), [wing beat](../../monster-abilities/wing-beat.md).
+**Ability sources:** [breaking roar](../../monster-abilities/breaking-roar.md), [breath](../../monster-abilities/breath.md), [red dragon dig in](../../monster-abilities/red-dragon-dig-in.md), [sweeping attack](../../monster-abilities/sweeping-attack.md), [Tail Retort](../../monster-abilities/tail-retort.md), [wing beat](../../monster-abilities/wing-beat.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

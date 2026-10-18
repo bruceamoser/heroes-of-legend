@@ -1,4 +1,4 @@
-# Night Hag (CV 32)
+# Night Hag (CV 34)
 
 *A heavy shawl hides the long fingers of a night hag who speaks with the gentle certainty of someone recounting a dream.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Reproach the Caster | After taking spell HP damage: hearing caster within 6 gains Frightened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its outline folds into a seam of darkness and gathers again a few steps away.*
 
 Move up to 2 squares through connected dimly lit or dark squares without provoking. Normal terrain and occupancy rules apply. Does not grant Hidden or allow passage through solid objects.
+
+### Reproach the Caster
+
+*A whispered accusation rides the fading spell back toward the one who shaped it.*
+
+After a spell attack resolves and deals HP damage to this creature, its visible caster within 6 squares gains Frightened 2 of this creature if the caster can hear it. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible; the spell is not canceled.
 
 ### General details
 
@@ -71,7 +78,7 @@ Move up to 2 squares through connected dimly lit or dark squares without provoki
 **ID:** creature-night-hag
 
 
-**Category:** Fiend · **Role:** Disabler · **CV:** 32
+**Category:** Fiend · **Role:** Disabler · **CV:** 34
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=5.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [shadow slip](../../monster-abilities/shadow-slip.md), [stunning strike](../../monster-abilities/stunning-strike.md).
+**Ability sources:** [Reproach the Caster](../../monster-abilities/reproach-the-caster.md), [shadow slip](../../monster-abilities/shadow-slip.md), [stunning strike](../../monster-abilities/stunning-strike.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

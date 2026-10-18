@@ -1,4 +1,4 @@
-# Unicorn (CV 24)
+# Unicorn (CV 25)
 
 *A pale horn rises from the brow of an alert forest horse, reflecting stars even under a closed canopy.*
 

@@ -25,6 +25,20 @@ uses only Basic Melee; the interrupted action continues if its actor remains cap
 Area attacks against heroes give each player a defense roll. Player-controlled
 area attacks use one attack roll with the worst relevant target modifiers.
 
+## Choosing a creature’s response
+
+A distinctive Reaction spends the same single Reaction as an opportunity attack;
+choose which moment matters. Read the trigger before rolling: interference is
+announced before its roll, a resistance grant before damage, and retaliation after
+the incoming attack resolves. A creature at 0 HP or otherwise unable to act cannot
+retaliate. A named movement technique’s opportunity exception applies only to the
+enemy or enemies it names, not the whole battlefield.
+
+These are choices printed on individual cards, not family-wide grants. A simple
+animal, worker or existing specialist may need no extra Reaction. The
+[action review](action-coverage.md) records every creature’s decision and the
+provisional CV changes. Summoned forms still receive no Reactions.
+
 ## NPC-only actions — approved October 16, 2026
 
 Either a player or the DA assuming the player role may roll. For an NPC attacking

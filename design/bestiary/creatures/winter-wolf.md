@@ -1,4 +1,4 @@
-# Winter Wolf (CV 41)
+# Winter Wolf (CV 46)
 
 *A white wolf speaks through teeth furred with frost and leaves no melted prints even on sunlit snow.*
 
@@ -23,11 +23,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Lay the Rime | 3 connected empty ground squares within 3: difficult terrain until its next turn. |
 | Read the Blood Trail | Direction of nearest Bleeding creature within 6. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Follow the Pack | After an ally closes on an enemy within 3: move 2 to that ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +47,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its nose lifts, separating the sharp scent of fresh blood from the rest of the air.*
 
 Learn the direction of the nearest Bleeding creature within 6 squares. This does not reveal Hidden, give an exact square or permit a sight-required attack against an unseen target.
+
+### Follow the Pack
+
+*One hunter moves and another flows into its wake, tightening the circle without a sound.*
+
+After a visible active ally ends voluntary movement adjacent to a visible enemy within 3 squares of this creature, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. The ally must be conscious and not Paralyzed; an uncommanded summon cannot trigger this. No attack or command is granted, and movement granted by a free attack cannot trigger it.
+
+### Lay the Rime
+
+*It exhales a low stream of white breath, crusting the ground with brittle ice in front of the pack.*
+
+Make up to 3 connected empty ground squares within 3 squares difficult terrain for everyone until the start of this creature's next turn. Requires a supporting surface. No entry damage, automatic fall or bridge over empty space. Reusing this ability replaces its previous patch.
 
 ### General details
 
@@ -73,7 +87,7 @@ Learn the direction of the nearest Bleeding creature within 6 squares. This does
 **ID:** creature-winter-wolf
 
 
-**Category:** Beast · **Role:** Cold controller · **CV:** 41
+**Category:** Beast · **Role:** Cold controller · **CV:** 46
 
 ### Creature-roll reference
 
@@ -91,13 +105,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.8
+
+**Action review (#1279):** U 1.6 → 1.8: Maneuver allowance +0.1, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=11.901. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [blood scent](../../monster-abilities/blood-scent.md), [elemental burn](../../monster-abilities/elemental-burn.md).
+**Ability sources:** [blood scent](../../monster-abilities/blood-scent.md), [elemental burn](../../monster-abilities/elemental-burn.md), [Follow the Pack](../../monster-abilities/follow-the-pack.md), [Lay the Rime](../../monster-abilities/lay-the-rime.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

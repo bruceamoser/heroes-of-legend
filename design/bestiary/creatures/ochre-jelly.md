@@ -1,4 +1,4 @@
-# Ochre Jelly (CV 15)
+# Ochre Jelly (CV 16)
 
 *An amber-colored jelly flattens into a thin sheet before gathering itself into a heavy muscular wave.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The surface peels away, leaving a useless handful while the body gathers again.*
 
 Choose one holder and reduce that holder’s Grappled contribution by 1, also reducing this creature’s total Grappled rating by 1. End that hold if its contribution reaches 0. It must have a Maneuver available; cannot use this while Grappled 3. No damage or free movement.
+
+### Clinging Recoil
+
+*The cut sprays sticky droplets that stretch into threads across the attacker's hands and boots.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
 
 ### General details
 
@@ -73,7 +80,7 @@ Choose one holder and reduce that holder’s Grappled contribution by 1, also re
 **ID:** creature-ochre-jelly
 
 
-**Category:** Ooze · **Role:** Holder · **CV:** 15
+**Category:** Ooze · **Role:** Holder · **CV:** 16
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.596, O=3.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [slough skin](../../monster-abilities/slough-skin.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [slough skin](../../monster-abilities/slough-skin.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

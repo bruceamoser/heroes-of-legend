@@ -1,4 +1,4 @@
-# Gold Dragon (CV 104)
+# Gold Dragon (CV 114)
 
 *A golden dragon carries its wings like a ceremonial mantle, with a gaze that is warm until it finds a deliberate cruelty.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +55,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A warm light settles over one companion like a hand on the shoulder.*
 
 One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -84,7 +91,7 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 **ID:** creature-gold-dragon
 
 
-**Category:** Dragon · **Role:** Sight disruptor · **CV:** 104
+**Category:** Dragon · **Role:** Sight disruptor · **CV:** 114
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=20.087. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [dazzling strike](../../monster-abilities/dazzling-strike.md), [driving blow](../../monster-abilities/driving-blow.md), [warding light](../../monster-abilities/warding-light.md).
+**Ability sources:** [dazzling strike](../../monster-abilities/dazzling-strike.md), [driving blow](../../monster-abilities/driving-blow.md), [Tail Retort](../../monster-abilities/tail-retort.md), [warding light](../../monster-abilities/warding-light.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

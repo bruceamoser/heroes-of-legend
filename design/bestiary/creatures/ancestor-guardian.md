@@ -1,4 +1,4 @@
-# Ancestor Guardian (CV 16)
+# Ancestor Guardian (CV 18)
 
 *A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Warding Light | Ally within 3: reduce Frightened 1; +1 Boon on its next mental defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +40,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** radiant.
 
 **Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Cover a Companion
+
+*The guardian steps into the line of danger, making the attacker work around its raised guard.*
+
+Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
+
+### Warding Light
+
+*A warm light settles over one companion like a hand on the shoulder.*
+
+One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
 
 ### General details
 
@@ -72,7 +86,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-ancestor-guardian
 
 
-**Category:** Spirit · **Role:** Protector · **CV:** 16
+**Category:** Spirit · **Role:** Protector · **CV:** 18
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -82,12 +96,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.15 → 1.3: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [Cover a Companion](../../monster-abilities/cover-a-companion.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Warding Light](../../monster-abilities/warding-light.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

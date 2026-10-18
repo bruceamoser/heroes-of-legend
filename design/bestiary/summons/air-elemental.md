@@ -1,4 +1,4 @@
-# Air Elemental (CV 21)
+# Air Elemental (CV 22)
 
 *Dust, leaves and scraps of cloud circle an empty center that turns toward every change in pressure.*
 
@@ -36,7 +36,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Wind Step:** Move up to 3 squares using a printed movement mode, paying terrain costs. Provokes normally and cannot pass through solid objects or occupied squares.
+**Wind Step — Maneuver:** Move up to 3 squares using a printed movement mode without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Cannot pass through solid objects or occupied squares.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

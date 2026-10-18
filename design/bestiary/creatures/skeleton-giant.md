@@ -1,4 +1,4 @@
-# Skeleton Giant (CV 28)
+# Skeleton Giant (CV 30)
 
 *A giant's bones rise inside a cage of splintered siege timbers, with old arrowheads rattling in the hollow joints.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Fall to Pieces | Before physical attack: Physical resistance 3 for it; become Prone afterward. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A dry sound rises from the corpse, like someone knocking from inside a coffin.*
 
 One creature within 2 squares that can hear it gains Frightened 1 of this creature. Once per turn; no damage.
+
+### Fall to Pieces
+
+*The skeleton lets its joints collapse, spilling loose bones beneath the passing blow.*
+
+Before a physical attack against this creature is rolled, gain Physical resistance 3 against that attack only. Use the highest matching resistance. After the attack resolves, it becomes Prone if still present, even if it was already Prone. This does not move its occupied footprint or reassemble it; standing costs the normal 2 movement.
 
 ### General details
 
@@ -79,7 +86,7 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 **ID:** creature-skeleton-giant
 
 
-**Category:** Undead · **Role:** Displacer · **CV:** 28
+**Category:** Undead · **Role:** Displacer · **CV:** 30
 
 ### CV worksheet
 
@@ -89,13 +96,15 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Fall to Pieces](../../monster-abilities/fall-to-pieces.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

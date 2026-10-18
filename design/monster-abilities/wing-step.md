@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 2 squares using its printed fly speed. Pay normal movement costs and provoke normally. This grants no attack, automatic lift of another creature or hovering exception.
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

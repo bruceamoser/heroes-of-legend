@@ -1,4 +1,4 @@
-# Green Hag (CV 21)
+# Green Hag (CV 22)
 
 *A moss-haired hag wears a face borrowed from someone once trusted, but her hands retain the stains of roots and bitter herbs.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Reproach the Caster | After taking spell HP damage: hearing caster within 6 gains Frightened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its features soften and settle into a face it has studied.*
 
 Copy the appearance and voice of one observed person of the same Size until dismissed or reduced to 0 HP. Keep its own statistics and equipment; gain no memories, languages or powers. Suspicious examination uses a player Reason roll when consequences warrant one.
+
+### Reproach the Caster
+
+*A whispered accusation rides the fading spell back toward the one who shaped it.*
+
+After a spell attack resolves and deals HP damage to this creature, its visible caster within 6 squares gains Frightened 2 of this creature if the caster can hear it. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible; the spell is not canceled.
 
 ### General details
 
@@ -71,7 +78,7 @@ Copy the appearance and voice of one observed person of the same Size until dism
 **ID:** creature-green-hag
 
 
-**Category:** Fey · **Role:** Debuffer · **CV:** 21
+**Category:** Fey · **Role:** Debuffer · **CV:** 22
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [assumed face](../../monster-abilities/assumed-face.md), [venom](../../monster-abilities/venom.md).
+**Ability sources:** [assumed face](../../monster-abilities/assumed-face.md), [Reproach the Caster](../../monster-abilities/reproach-the-caster.md), [venom](../../monster-abilities/venom.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

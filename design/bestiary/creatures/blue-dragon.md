@@ -1,4 +1,4 @@
-# Blue Dragon (CV 88)
+# Blue Dragon (CV 96)
 
 *Blue scales rise from a desert dragon's head like polished mineral plates, and sparks dance between its horns.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +55,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A shove of its foot sends loose stones skittering into the approach.*
 
 Place difficult terrain in up to 2 connected empty ground squares within 2 squares until its next turn. Requires loose earth or stones. No entry damage or automatic falling.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -84,7 +91,7 @@ Place difficult terrain in up to 2 connected empty ground squares within 2 squar
 **ID:** creature-blue-dragon
 
 
-**Category:** Dragon · **Role:** Disabler · **CV:** 88
+**Category:** Dragon · **Role:** Disabler · **CV:** 96
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=19.036. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [scatter stones](../../monster-abilities/scatter-stones.md), [stunning strike](../../monster-abilities/stunning-strike.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [scatter stones](../../monster-abilities/scatter-stones.md), [stunning strike](../../monster-abilities/stunning-strike.md), [Tail Retort](../../monster-abilities/tail-retort.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

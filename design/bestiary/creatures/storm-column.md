@@ -1,4 +1,4 @@
-# Storm Column (CV 35)
+# Storm Column (CV 38)
 
 *A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Wind Step | Move 3; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Thunderous Answer | After taking HP damage: hearing attacker within 3 gains Deafened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +49,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** All creatures in a line 6 from this creature. **Player defense:** Brawn. **Damage type:** None.
 
 **Weak defense:** Push 3. **Standard defense:** Push 2. **Strong defense:** Push 1.
+
+### Wind Step
+
+*The body uncoils into a ribbon of air and gathers at the edge of the gust.*
+
+Move up to 3 squares using a printed movement mode without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Cannot pass through solid objects or occupied squares.
+
+### Thunderous Answer
+
+*The blow jars loose a thundercrack that rolls back across the space between them.*
+
+After an attack resolves and deals HP damage to this creature, its visible attacker within 3 squares gains Deafened 2 if it can hear this creature. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. No damage or interruption of the resolved attack.
 
 ### General details
 
@@ -81,7 +95,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-storm-column
 
 
-**Category:** Elemental · **Role:** Area displacer · **CV:** 35
+**Category:** Elemental · **Role:** Area displacer · **CV:** 38
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
@@ -91,12 +105,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.5 → 1.65: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [gust](../../monster-abilities/gust.md).
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [gust](../../monster-abilities/gust.md), [Thunderous Answer](../../monster-abilities/thunderous-answer.md), [Wind Step](../../monster-abilities/wind-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

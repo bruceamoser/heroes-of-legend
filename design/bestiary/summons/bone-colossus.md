@@ -1,4 +1,4 @@
-# Skeleton Colossus (CV 43)
+# Skeleton Colossus (CV 46)
 
 *A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.*
 
@@ -41,6 +41,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Ossuary sweep:** Up to two creatures within 2 squares.
+
+## Maneuvers
 
 ### Set the Frame — Maneuver
 

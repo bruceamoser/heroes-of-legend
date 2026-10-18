@@ -124,11 +124,11 @@ encounter ratings.
 
 | Encounter | Roster | Total CV |
 |---|---|---:|
-| The false toll | 3 [Road Bandits](../../bestiary/creatures/road-bandit.md), 1 [Bandit Bow](../../bestiary/creatures/bandit-bow.md) | 36 |
-| The opened barrow | 3 [Skeleton Sentries](../../bestiary/creatures/bone-sentry.md), 2 [Skeleton Archers](../../bestiary/creatures/bone-archer.md) | 33 |
-| Tracks around the camp | 4 [Wolves](../../bestiary/creatures/wolf.md) | 32 |
-| The bridge has an owner | 1 [Bridge Troll](../../bestiary/creatures/bridge-troll.md), 1 Road Bandit, 1 Bandit Bow | 42 |
-| The watch will not stand down | 2 [Shield Soldiers](../../bestiary/creatures/shield-soldier.md), 1 [Grave Cultist](../../bestiary/creatures/grave-cultist.md) | 38 |
+| The false toll | 3 [Road Bandits](../../bestiary/creatures/road-bandit.md), 1 [Bandit Bow](../../bestiary/creatures/bandit-bow.md) | 37 |
+| The opened barrow | 3 [Skeleton Sentries](../../bestiary/creatures/bone-sentry.md), 2 [Skeleton Archers](../../bestiary/creatures/bone-archer.md) | 38 |
+| Tracks around the camp | 4 [Wolves](../../bestiary/creatures/wolf.md) | 36 |
+| The bridge has an owner | 1 [Bridge Troll](../../bestiary/creatures/bridge-troll.md), 1 Road Bandit, 1 Bandit Bow | 43 |
+| The watch will not stand down | 2 [Shield Soldiers](../../bestiary/creatures/shield-soldier.md), 1 [Grave Cultist](../../bestiary/creatures/grave-cultist.md) | 43 |
 
 **The false toll.** A cart blocks the road, but its axle is sound. The robbers want
 supplies without a dangerous fight. Put the bow where heroes can reach or outflank
@@ -150,7 +150,7 @@ Do not grant every animal in the bestiary the same pack ability.
 **The bridge has an owner.** The troll and robbers share an uneasy toll arrangement.
 Food, tribute or turning them against one another may open the way. Show the drop
 and the troll's push capability through signs or observation before the party
-commits. Fire counterplay can change the fight substantially; the 42-CV total does
+commits. Fire counterplay can change the fight substantially; the 43-CV total does
 not price a lethal fall or inaccessible firing position.
 
 **The watch will not stand down.** Soldiers believe the cultist has lawful orders.

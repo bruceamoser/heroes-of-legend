@@ -1,4 +1,4 @@
-# Black Dragon (CV 75)
+# Black Dragon (CV 84)
 
 *Dark scales shine like wet slate around the long horns of a dragon that smells of peat smoke and drowned timber.*
 
@@ -24,11 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Sound the Depths | Swim 2; provokes. |
+| Sound the Depths | Swim 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -53,7 +54,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It slips beneath the surface with scarcely a ripple.*
 
-Move up to 2 squares using its printed swim speed, paying terrain costs. Provokes normally. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -84,7 +91,7 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 **ID:** creature-black-dragon
 
 
-**Category:** Dragon · **Role:** Pursuit controller · **CV:** 75
+**Category:** Dragon · **Role:** Pursuit controller · **CV:** 84
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.8
+
+**Action review (#1279):** U 1.6 → 1.8: Maneuver allowance +0.05, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=15.036. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [hampering strike](../../monster-abilities/hampering-strike.md), [submerge](../../monster-abilities/submerge.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [hampering strike](../../monster-abilities/hampering-strike.md), [Sound the Depths](../../monster-abilities/submerge.md), [Tail Retort](../../monster-abilities/tail-retort.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

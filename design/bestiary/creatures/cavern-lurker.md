@@ -1,4 +1,4 @@
-# Cavern Lurker (CV 27)
+# Cavern Lurker (CV 29)
 
 *A tapered cave predator hangs among stalactites, its flexible feeding limbs disguised as roots and mineral curtains.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Hook the Retreat | After an enemy voluntarily retreats from adjacent to 2 squares: pull 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its body settles into the posture of a piece of the surrounding stonework.*
 
 Gain 1 additional Bane against the next player attack before its next turn, or 1 defense Boon when player-controlled. Ends if it voluntarily moves. Does not make it Hidden, alter its resistance or stack with itself.
+
+### Hook the Retreat
+
+*The hooked limb follows the withdrawing foe, catching just as the space opens between them.*
+
+After a visible enemy voluntarily moves from adjacent to this creature and ends that movement exactly 2 squares from it, pull that enemy 1 square toward this creature along a clear path. Apply Stability, terrain costs and normal collision rules. No separate attack damage. Forced movement and movement granted by a free attack cannot trigger this; it is an alternative to spending the Reaction on an opportunity attack.
 
 ### General details
 
@@ -75,7 +82,7 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 **ID:** creature-cavern-lurker
 
 
-**Category:** Aberration · **Role:** Position hunter · **CV:** 27
+**Category:** Aberration · **Role:** Position hunter · **CV:** 29
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [dragging strike](../../monster-abilities/dragging-strike.md), [stone still](../../monster-abilities/stone-still.md).
+**Ability sources:** [dragging strike](../../monster-abilities/dragging-strike.md), [Hook the Retreat](../../monster-abilities/hook-the-retreat.md), [stone still](../../monster-abilities/stone-still.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

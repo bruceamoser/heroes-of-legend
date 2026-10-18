@@ -1,4 +1,4 @@
-# Goblin Scrapper (CV 7)
+# Goblin Scrapper (CV 8)
 
 *A small, wiry goblin salvager with keen eyes, patched work clothes and pockets full of useful scraps. Quick hands and knowledge of the ruins compensate for modest reach.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -35,6 +36,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Scrap knife
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
 
 ### General details
 
@@ -69,7 +76,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-goblin-scrapper
 
 
-**Category:** Mortal · **Role:** Scavenger · **CV:** 7
+**Category:** Mortal · **Role:** Scavenger · **CV:** 8
 
 ### Creature-roll reference
 
@@ -90,12 +97,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.1
+**Utility factor:** 1.2
+
+**Action review (#1279):** U 1.1 → 1.2: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [roll away](../../monster-abilities/roll-away.md).
+**Ability sources:** [roll away](../../monster-abilities/roll-away.md), [Slip the Rush](../../monster-abilities/slip-the-rush.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

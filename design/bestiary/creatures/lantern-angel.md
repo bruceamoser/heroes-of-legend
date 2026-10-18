@@ -1,4 +1,4 @@
-# Lantern Angel (CV 14)
+# Lantern Angel (CV 16)
 
 *A small winged guardian carries a light within its chest, brightening whenever it finds someone who is lost.*
 
@@ -23,11 +23,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Guide the Light | Brightly light 3 connected squares within 3 until its next turn. |
 | Warding Light | Ally within 3: reduce Frightened 1; +1 Boon on next mental defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Sheltering Light | Before an ally within 3 takes attack damage: Physical resistance 2 for that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +45,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A warm light settles over one companion like a hand on the shoulder.*
 
 One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
+
+### Sheltering Light
+
+*Light gathers over a companion like overlapping feathers, taking the harsh edge from the impact.*
+
+Before one visible willing ally within 3 squares takes damage from an attack, grant that ally Physical resistance 2 for that attack only. Use the highest matching resistance, not an added reduction; minimum damage rules remain. This does not heal, transfer damage or grant resistance to other types.
+
+### Guide the Light
+
+*A ribbon of lanternlight runs along the path, picking out each stone on the way to shelter.*
+
+Brightly light up to 3 connected squares within 3 squares until the start of this creature's next turn. Requires an unobstructed path from this creature to each square; it may choose unlit squares. Ordinary darkness imposes no Boons or Banes for seeing those squares; cover, concealment and hiding still use the normal rules. This neither reveals Hidden creatures automatically nor penetrates opaque obstacles. Reusing this ability replaces its previous illuminated area.
 
 ### General details
 
@@ -71,7 +85,7 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 **ID:** creature-lantern-angel
 
 
-**Category:** Celestial · **Role:** Sight disruptor · **CV:** 14
+**Category:** Celestial · **Role:** Sight disruptor · **CV:** 16
 
 ### Creature-roll reference
 
@@ -89,13 +103,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.6
+
+**Action review (#1279):** U 1.45 → 1.6: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=3.162. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [dazzling strike](../../monster-abilities/dazzling-strike.md), [warding light](../../monster-abilities/warding-light.md).
+**Ability sources:** [dazzling strike](../../monster-abilities/dazzling-strike.md), [Guide the Light](../../monster-abilities/guide-the-light.md), [Sheltering Light](../../monster-abilities/sheltering-light.md), [warding light](../../monster-abilities/warding-light.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

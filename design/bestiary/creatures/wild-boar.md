@@ -1,4 +1,4 @@
-# Wild Boar (CV 8)
+# Wild Boar (CV 9)
 
 *A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Break the Approach | After an enemy voluntarily closes: push 1; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -39,6 +40,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Break the Approach
+
+*It lashes out with shoulder or horn, spoiling the straight line of the charging foe.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, push that enemy 1 square directly away. Apply Stability, terrain costs and normal collision rules; no separate attack damage. Forced movement and movement granted by a free attack cannot trigger this.
 
 ### General details
 
@@ -73,7 +80,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-wild-boar
 
 
-**Category:** Animal · **Role:** Charger · **CV:** 8
+**Category:** Animal · **Role:** Charger · **CV:** 9
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -83,12 +90,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.15 → 1.25: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [wild boar lower the tusks](../../monster-abilities/wild-boar-lower-the-tusks.md).
+**Ability sources:** [Break the Approach](../../monster-abilities/break-the-approach.md), [driving blow](../../monster-abilities/driving-blow.md), [wild boar lower the tusks](../../monster-abilities/wild-boar-lower-the-tusks.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

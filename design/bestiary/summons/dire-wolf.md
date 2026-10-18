@@ -1,4 +1,4 @@
-# Dire Wolf (CV 18)
+# Dire Wolf (CV 20)
 
 *A heavy winter wolf has a broad muzzle, a pale ruff and the confidence of a hunter accustomed to bringing down elk.*
 

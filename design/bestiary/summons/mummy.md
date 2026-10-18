@@ -1,4 +1,4 @@
-# Mummy (CV 29)
+# Mummy (CV 31)
 
 *Layers of painted linen preserve a body that moves with ceremonial precision. Dry resin cracks at every joint.*
 

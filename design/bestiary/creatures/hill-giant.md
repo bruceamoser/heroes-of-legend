@@ -1,4 +1,4 @@
-# Hill Giant (CV 29)
+# Hill Giant (CV 31)
 
 *A hill giant wears a cloak of stitched sailcloth and carries a tree still shedding leaves.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Bat Aside the Missile | Before a physical ranged attack: +1 Bane; not against areas. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -52,6 +53,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A shove of its foot sends loose stones skittering into the approach.*
 
 Place difficult terrain in up to 2 connected empty ground squares within 2 squares until its next turn. Requires loose earth or stones. No entry damage or automatic falling.
+
+### Bat Aside the Missile
+
+*A broad hand or haft meets the incoming missile with the ease of brushing a branch aside.*
+
+Before one physical ranged attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No protection against area attacks; no missile is returned and the attack still resolves.
 
 ### General details
 
@@ -82,7 +89,7 @@ Place difficult terrain in up to 2 connected empty ground squares within 2 squar
 **ID:** creature-hill-giant
 
 
-**Category:** Giant · **Role:** Displacer · **CV:** 29
+**Category:** Giant · **Role:** Displacer · **CV:** 31
 
 ### Creature-roll reference
 
@@ -101,13 +108,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=6.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [scatter stones](../../monster-abilities/scatter-stones.md).
+**Ability sources:** [Bat Aside the Missile](../../monster-abilities/bat-aside-the-missile.md), [driving blow](../../monster-abilities/driving-blow.md), [scatter stones](../../monster-abilities/scatter-stones.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

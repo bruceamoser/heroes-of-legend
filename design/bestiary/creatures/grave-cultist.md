@@ -1,4 +1,4 @@
-# Grave Cultist (CV 8)
+# Grave Cultist (CV 9)
 
 *A mortal initiate in ash-stained ritual clothing, carrying burial tokens and a personal relic. The promise of reunion with the dead may make this person desperate rather than fearless.*
 
@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Rattle of the Grave | One hearing target within 2: Frightened 1 of this creature. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -36,6 +37,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One visible creature within 5 squares. **Player defense:** Fortitude. **Damage type:** Life.
 
 **Spell:** Provokes when cast beside an enemy.
+
+### Rattle of the Grave
+
+*A dry sound rises from the corpse, like someone knocking from inside a coffin.*
+
+One creature within 2 squares that can hear it gains Frightened 1 of this creature. Once per turn; no damage.
 
 ### General details
 
@@ -68,7 +75,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-grave-cultist
 
 
-**Category:** Mortal · **Role:** Life caster · **CV:** 8
+**Category:** Mortal · **Role:** Life caster · **CV:** 9
 
 ### Creature-roll reference
 
@@ -89,10 +96,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.0
+**Utility factor:** 1.1
+
+**Action review (#1279):** U 1 → 1.1: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
+
+**Ability sources:** [Rattle of the Grave](../../monster-abilities/rattle-bones.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

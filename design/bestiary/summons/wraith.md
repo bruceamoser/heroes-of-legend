@@ -1,4 +1,4 @@
-# Wraith (CV 37)
+# Wraith (CV 39)
 
 *A torn silhouette hangs in the air around two pale sparks, trailing the sound of someone trying to breathe underwater.*
 

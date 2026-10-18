@@ -1,4 +1,4 @@
-# Ettin (CV 49)
+# Ettin (CV 53)
 
 *Two heads argue over a shared body dressed in mismatched trophies, each keeping a different account of the day's events.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Second Head Watches | When an enemy within 2 starts a provoking action: Basic Melee before it resolves. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -52,6 +53,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *One head follows the threat while the other watches the escape route.*
 
 The next player attack against it before its next turn has 1 additional Bane; when player-controlled, its next defense instead gains 1 Boon. Consumed by that attack even if canceled. Does not stack with itself.
+
+### Second Head Watches
+
+*While one head snaps forward, another turns toward the hand reaching for a spell or weapon.*
+
+When a visible enemy within 2 squares starts an action that normally provokes an opportunity attack, make one free Basic Melee attack against it before the action resolves. Spend the Reaction. The 2-square reach applies only to this Reaction; the provoking action continues if its actor remains capable. No specialty attack or free-attack chain; cannot trigger from a free attack or its granted movement. This grants no extra Reaction and is an alternative to the normal adjacent opportunity attack.
 
 ### General details
 
@@ -82,7 +89,7 @@ The next player attack against it before its next turn has 1 additional Bane; wh
 **ID:** creature-ettin
 
 
-**Category:** Giant · **Role:** Displacer · **CV:** 49
+**Category:** Giant · **Role:** Displacer · **CV:** 53
 
 ### Creature-roll reference
 
@@ -101,13 +108,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=11.787. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [two headed watch](../../monster-abilities/two-headed-watch.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Second Head Watches](../../monster-abilities/second-head-watches.md), [two headed watch](../../monster-abilities/two-headed-watch.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

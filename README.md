@@ -25,6 +25,8 @@ The current starter kit is **v16.3.0**. Download both books from the
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
 This edition includes the [discipline and origin expansion](design/discipline-coverage.md).
+The working bestiary adds a [creature action review](design/bestiary/action-coverage.md);
+those changes are not yet in the published v16.3.0 downloads.
 
 ## One current source
 

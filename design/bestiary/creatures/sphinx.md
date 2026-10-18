@@ -1,4 +1,4 @@
-# Sphinx (CV 38)
+# Sphinx (CV 40)
 
 *A lion-bodied keeper with a thoughtful human face rests among inscriptions repaired more often than the surrounding walls.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Seen It Already | Before a visible attacker rolls: +1 Bane to that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It waits for a tell in the stance, then turns its attention to the exposed line.*
 
 Its next attack before the end of this turn imposes 1 additional Bane on player defense, or gains 1 Boon when player-controlled. One attack only; no stacking with itself.
+
+### Seen It Already
+
+*It starts moving a heartbeat before the strike, following a future the attacker has not yet reached.*
+
+Before one attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its single defense roll instead. This changes no target or outcome after dice have been rolled; it does not cancel the action.
 
 ### General details
 
@@ -73,7 +80,7 @@ Its next attack before the end of this turn imposes 1 additional Bane on player 
 **ID:** creature-sphinx
 
 
-**Category:** Beast · **Role:** Disabler · **CV:** 38
+**Category:** Beast · **Role:** Disabler · **CV:** 40
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=6.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [stunning strike](../../monster-abilities/stunning-strike.md), [watch the opening](../../monster-abilities/watch-the-opening.md).
+**Ability sources:** [Seen It Already](../../monster-abilities/seen-it-already.md), [stunning strike](../../monster-abilities/stunning-strike.md), [watch the opening](../../monster-abilities/watch-the-opening.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

@@ -1,4 +1,4 @@
-# Ancient Mammoth (CV 39)
+# Ancient Mammoth (CV 44)
 
 *A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Plant the Weight | On solid ground: Stability 3 until its next turn; highest source only. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Shelter the Young | After an enemy closes on an ally within 3: move 2 to the ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +49,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
 **Weak defense:** push 5. **Standard defense:** push 3. **Strong defense:** push 1.
+
+### Shelter the Young
+
+*It turns at the cry beside it, bringing its whole body between the danger and the one it protects.*
+
+After a visible enemy ends voluntary movement adjacent to a willing ally within 3 squares, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. This movement grants no attack or automatic protection; its body obstructs only the squares it actually occupies. Movement granted by a free attack cannot trigger it.
+
+### Plant the Weight
+
+*It spreads its stance and settles its weight into the ground.*
+
+While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
 
 ### General details
 
@@ -81,7 +95,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-ancient-mammoth
 
 
-**Category:** Animal · **Role:** Massive guardian · **CV:** 39
+**Category:** Animal · **Role:** Massive guardian · **CV:** 44
 
 **Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
@@ -91,12 +105,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 2
 
-**Utility factor:** 1.25
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.25 → 1.4: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=11.191. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [sweeping attack](../../monster-abilities/sweeping-attack.md).
+**Ability sources:** [Plant the Weight](../../monster-abilities/brace-ground.md), [Shelter the Young](../../monster-abilities/shelter-the-young.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

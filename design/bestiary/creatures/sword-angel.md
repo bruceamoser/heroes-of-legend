@@ -1,4 +1,4 @@
-# Sword Angel (CV 43)
+# Sword Angel (CV 46)
 
 *A winged champion bears an unadorned blade and armor marked with the places where it chose to stand between others.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Turn the Blade | Before an adjacent melee attack: +1 Bane to that attack; held weapon required. |
 | Shield Hunker | +1 Bane to blockable attacks; see details. |
 | Opportunity Attack | Basic Melee |
 
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Shield Hunker
 
 Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane on player attacks it can block until the start of its next turn. The DA judges blockability. Stacks with Defend through normal Boon/Bane rules, not with another activation of itself.
+
+### Turn the Blade
+
+*A small turn of the wrist catches the blow on a waiting edge and sends it sliding past.*
+
+Before one adjacent enemy makes a melee attack against this creature, impose 1 Bane on that attack roll. Requires a held melee weapon. Against an NPC attack, grant 1 Boon to the single defense roll instead. Applies to this attack only; it does not grant a counterattack.
 
 ### General details
 
@@ -73,7 +80,7 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 **ID:** creature-sword-angel
 
 
-**Category:** Celestial · **Role:** Displacer · **CV:** 43
+**Category:** Celestial · **Role:** Displacer · **CV:** 46
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=6.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md), [Turn the Blade](../../monster-abilities/turn-the-blade.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

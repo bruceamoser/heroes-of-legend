@@ -1,4 +1,4 @@
-# Oath Flame (CV 26)
+# Oath Flame (CV 28)
 
 *A humanlike figure of shrine fire and bright ash, carrying a blade shaped by the oath it embodies. It has judgment within that promise, not limitless divine authority.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Spell Screen | Before one incoming spell attack: +1 Bane to it. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** radiant.
 
 **Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Spell Screen
+
+*A sharp gesture splinters the incoming light into a cloud of harmless sparks.*
+
+Before one spell attack against this creature resolves, impose 1 Bane on that attack roll (or grant 1 defense Boon to its player controller). The protection belongs to this creature. For a player’s single AoE attack roll, include it when finding the worst target modifiers, as normal; do not make a separate roll or rescore outcomes for other targets. If players defend separately against an NPC area, it benefits only its own recipient. This is defensive interference, not cancellation; the resulting spell outcome still resolves.
 
 ### General details
 
@@ -72,7 +79,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-oath-flame
 
 
-**Category:** Spirit · **Role:** Sacred champion · **CV:** 26
+**Category:** Spirit · **Role:** Sacred champion · **CV:** 28
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
@@ -82,12 +89,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.2 → 1.3: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=6.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Spell Screen](../../monster-abilities/spell-screen.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

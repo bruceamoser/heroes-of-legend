@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Sound the Depths | Swim 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
+
+### Sound the Depths
+
+*It slips beneath the surface with scarcely a ripple.*
+
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
 
 ### General details
 
@@ -82,12 +89,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.2 → 1.25: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [rending blow](../../monster-abilities/rending-blow.md).
+**Ability sources:** [rending blow](../../monster-abilities/rending-blow.md), [Sound the Depths](../../monster-abilities/submerge.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

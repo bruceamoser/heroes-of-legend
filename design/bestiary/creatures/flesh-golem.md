@@ -1,4 +1,4 @@
-# Flesh Golem (CV 29)
+# Flesh Golem (CV 30)
 
 *A body assembled from mismatched remains moves with the caution of someone learning where its hands end.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Lock the Frame | Before forced movement on solid ground: Stability 3 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It spreads its stance and settles its weight into the ground.*
 
 While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
+
+### Lock the Frame
+
+*The joints grind shut and the body becomes a single weight planted against the shove.*
+
+Before this creature is forcibly moved while on solid ground, gain Stability 3 for that forced movement only. Use the highest source. In a collision chain, declare before its Stability is deducted; prior collision damage still resolves. This does not resist Prone or grapples.
 
 ### General details
 
@@ -75,7 +82,7 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 **ID:** creature-flesh-golem
 
 
-**Category:** Construct · **Role:** Disabler · **CV:** 29
+**Category:** Construct · **Role:** Disabler · **CV:** 30
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.45 → 1.5: Maneuver allowance +0, Reaction allowance +0.05. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [lifeless body](../../monster-abilities/lifeless-body.md), [stunning strike](../../monster-abilities/stunning-strike.md).
+**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Lock the Frame](../../monster-abilities/lock-the-frame.md), [stunning strike](../../monster-abilities/stunning-strike.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

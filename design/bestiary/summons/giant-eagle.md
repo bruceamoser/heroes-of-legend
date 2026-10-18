@@ -1,4 +1,4 @@
-# Giant Eagle (CV 16)
+# Giant Eagle (CV 18)
 
 *An eagle large enough to shadow a cart watches the valley with amber eyes and a ragged crest of wind-bent feathers.*
 
@@ -36,7 +36,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Wing Step:** Move up to 2 squares using its printed fly speed. Pay normal movement costs and provoke normally. This grants no attack, automatic lift of another creature or hovering exception.
+**Wing Step — Maneuver:** Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

@@ -38,6 +38,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Pebble fist:** One adjacent creature.
 
+## Maneuvers
+
+### Plant the Weight — Maneuver
+
+*It spreads its stance and settles its weight into the ground.*
+
+While standing on solid ground, gain Stability 3 until the start of the controller’s next turn. Use the highest source only, never add sources.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.

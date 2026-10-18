@@ -1,4 +1,4 @@
-# Warhorse (CV 13)
+# Warhorse (CV 14)
 
 *A broad-chested horse bears the marks of old harness straps and turns toward familiar commands even in chaos.*
 
@@ -38,7 +38,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Driving Stride:** Move up to 3 squares in a straight line, paying normal terrain costs. This movement provokes normally.
+**Driving Stride — Maneuver:** Move up to 3 squares in a straight line without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Grants no attack or automatic movement of a rider or held creature.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

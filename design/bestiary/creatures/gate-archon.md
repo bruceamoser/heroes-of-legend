@@ -1,4 +1,4 @@
-# Gate Archon (CV 43)
+# Gate Archon (CV 47)
 
 *A broad celestial sentinel wears a gate's geometry in its armor, with keys that ring only when a boundary is crossed.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Sheltering Light | Before an ally within 3 takes attack damage: Physical resistance 2 for that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A sharp line of light marks a boundary across the floor.*
 
 Place up to 3 connected empty ground squares within 3 squares as difficult terrain until its next turn. No damage, wall or prohibition against crossing; all creatures pay the same terrain costs.
+
+### Sheltering Light
+
+*Light gathers over a companion like overlapping feathers, taking the harsh edge from the impact.*
+
+Before one visible willing ally within 3 squares takes damage from an attack, grant that ally Physical resistance 2 for that attack only. Use the highest matching resistance, not an added reduction; minimum damage rules remain. This does not heal, transfer damage or grant resistance to other types.
 
 ### General details
 
@@ -75,7 +82,7 @@ Place up to 3 connected empty ground squares within 3 squares as difficult terra
 **ID:** creature-gate-archon
 
 
-**Category:** Celestial · **Role:** Displacer · **CV:** 43
+**Category:** Celestial · **Role:** Displacer · **CV:** 47
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.162, O=6.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [binding circle](../../monster-abilities/binding-circle.md), [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [binding circle](../../monster-abilities/binding-circle.md), [driving blow](../../monster-abilities/driving-blow.md), [Sheltering Light](../../monster-abilities/sheltering-light.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

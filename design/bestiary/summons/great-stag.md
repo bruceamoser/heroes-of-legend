@@ -1,4 +1,4 @@
-# Great Stag (CV 13)
+# Great Stag (CV 15)
 
 *A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge.*
 
@@ -37,6 +37,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Antler sweep:** One adjacent creature.
+
+## Maneuvers
 
 ### Guard the Herd — Maneuver
 

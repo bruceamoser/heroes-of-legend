@@ -1,4 +1,4 @@
-# Wight (CV 27)
+# Wight (CV 29)
 
 *An armored corpse watches with the offended dignity of a lord whose court has forgotten to die.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Turn the Blade | Before an adjacent melee attack: +1 Bane to that attack; held weapon required. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A dry sound rises from the corpse, like someone knocking from inside a coffin.*
 
 One creature within 2 squares that can hear it gains Frightened 1 of this creature. Once per turn; no damage.
+
+### Turn the Blade
+
+*A small turn of the wrist catches the blow on a waiting edge and sends it sliding past.*
+
+Before one adjacent enemy makes a melee attack against this creature, impose 1 Bane on that attack roll. Requires a held melee weapon. Against an NPC attack, grant 1 Boon to the single defense roll instead. Applies to this attack only; it does not grant a counterattack.
 
 ### General details
 
@@ -75,7 +82,7 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 **ID:** creature-wight
 
 
-**Category:** Undead · **Role:** Pursuit controller · **CV:** 27
+**Category:** Undead · **Role:** Pursuit controller · **CV:** 29
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ One creature within 2 squares that can hear it gains Frightened 1 of this creatu
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=5.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md).
+**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rattle bones](../../monster-abilities/rattle-bones.md), [Turn the Blade](../../monster-abilities/turn-the-blade.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

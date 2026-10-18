@@ -85,7 +85,7 @@ the party another route even if nobody can negotiate boat passage.
 ## 2. The false toll
 
 Use [three Road Bandits](../../bestiary/creatures/road-bandit.md) and
-[one Bandit Bow](../../bestiary/creatures/bandit-bow.md), **CV 36 total**.
+[one Bandit Bow](../../bestiary/creatures/bandit-bow.md), **CV 37 total**.
 Brin uses one Road Bandit card, with no additional leader actions.
 
 For a grid, draw a yard **12 squares wide and 10 deep**. The causeway enters at
@@ -144,7 +144,7 @@ identification spell. It does not grant a command over arbitrary undead.
 ## 5. The painted threshold
 
 Use [three Skeleton Sentries](../../bestiary/creatures/bone-sentry.md),
-**CV 21 total**. Their bodies and swords are visible through the entrance.
+**CV 24 total**. Their bodies and swords are visible through the entrance.
 Dry clicking begins when someone approaches. A faded red stripe crosses the floor.
 One sentry steps forward as a stick or other object passes over the stripe, then
 returns to its post when the object is withdrawn. Show this warning before an

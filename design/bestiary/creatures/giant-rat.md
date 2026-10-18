@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Tunnel Scamper | Move 2; ignore rubble cost; provokes. |
+| Tunnel Scamper | Move 2; rubble costs 1; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -42,7 +42,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It drops low and races along the wall where the loose stones are thinnest.*
 
-Move up to 2 squares. Treat rubble squares as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provokes normally.
+Move up to 2 squares without provoking from one visible enemy chosen before moving. Treat rubble as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provoke normally from other enemies.
 
 ### General details
 
@@ -81,13 +81,15 @@ Move up to 2 squares. Treat rubble squares as normal terrain for this movement o
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.114. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [rending blow](../../monster-abilities/rending-blow.md), [tunnel scamper](../../monster-abilities/tunnel-scamper.md).
+**Ability sources:** [rending blow](../../monster-abilities/rending-blow.md), [Tunnel Scamper](../../monster-abilities/tunnel-scamper.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

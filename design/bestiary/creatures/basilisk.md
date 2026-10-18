@@ -1,4 +1,4 @@
-# Basilisk (CV 19)
+# Basilisk (CV 20)
 
 *A squat, many-legged reptile with a heavy jaw, pebbled hide and unsettling pale eyes. Its gaze stiffens living bodies long enough for its slow approach to become dangerous.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Warning Hiss | Before a hearing adjacent enemy makes a melee attack: +1 Bane. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +48,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Spell:** Provokes when cast beside an enemy.
 
 **Limit:** The target may avert its eyes before this resolves until its next turn: this gaze cannot target it, but it has 1 Bane on attacks against this creature and defenses against its attacks. No permanent petrification.
+
+### Warning Hiss
+
+*It swells, bares its fangs and hisses in the attacker's face as the weapon comes down.*
+
+Before one adjacent enemy that can hear it makes a melee attack against this creature, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No Frightened condition, extra gaze or counterattack is granted.
 
 ### General details
 
@@ -79,7 +86,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-basilisk
 
 
-**Category:** Beast · **Role:** Gaze controller · **CV:** 19
+**Category:** Beast · **Role:** Gaze controller · **CV:** 20
 
 ### Creature-roll reference
 
@@ -101,12 +108,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [stone stare](../../monster-abilities/stone-stare.md).
+**Ability sources:** [stone stare](../../monster-abilities/stone-stare.md), [Warning Hiss](../../monster-abilities/warning-hiss.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

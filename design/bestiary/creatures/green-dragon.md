@@ -1,4 +1,4 @@
-# Green Dragon (CV 80)
+# Green Dragon (CV 88)
 
 *A forest dragon wears living moss between its green scales and speaks with the patient courtesy of a practiced liar.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +55,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Mist gathers in a thin curtain that blurs the line of approach.*
 
 Place partial obstruction in up to 3 connected visible squares within 3 squares until its next turn. It adds 1 Bane to attacks whose path crosses the veil. Normal cover rules apply; it does not grant Hidden, block movement or cause damage.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -84,7 +91,7 @@ Place partial obstruction in up to 3 connected visible squares within 3 squares 
 **ID:** creature-green-dragon
 
 
-**Category:** Dragon · **Role:** Debuffer · **CV:** 80
+**Category:** Dragon · **Role:** Debuffer · **CV:** 88
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=13.787. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [mist veil](../../monster-abilities/mist-veil.md), [venom](../../monster-abilities/venom.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [mist veil](../../monster-abilities/mist-veil.md), [Tail Retort](../../monster-abilities/tail-retort.md), [venom](../../monster-abilities/venom.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

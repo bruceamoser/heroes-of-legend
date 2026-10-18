@@ -1,4 +1,4 @@
-# Ancestor Guardian (CV 16)
+# Ancestor Guardian (CV 18)
 
 *A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.*
 
@@ -39,6 +39,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Remembered blade:** One adjacent creature.
+
+## Maneuvers
+
+### Warding Light — Maneuver
+
+*A warm light settles over one companion like a hand on the shoulder.*
+
+One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

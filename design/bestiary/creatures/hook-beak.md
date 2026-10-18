@@ -1,4 +1,4 @@
-# Hook-beak (CV 17)
+# Hook-beak (CV 18)
 
 *A bear-sized forest predator with dense feathers, hooked claws and a heavy curved beak. Its powerful shoulders and keen eyes make it an effective defender of a concealed nest.*
 
@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Stalking Step | Move 2 to cover or concealment; no opportunity from one chosen enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** After moving 2 toward target, Prone. **Standard defense:** After moving 2 toward target, Prone.
+
+### Stalking Step
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
 
 ### General details
 
@@ -72,7 +79,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-hook-beak
 
 
-**Category:** Beast · **Role:** Territorial hunter · **CV:** 17
+**Category:** Beast · **Role:** Territorial hunter · **CV:** 18
 
 ### Creature-roll reference
 
@@ -93,12 +100,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.2 → 1.25: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [pounce](../../monster-abilities/pounce.md).
+**Ability sources:** [pounce](../../monster-abilities/pounce.md), [Stalking Step](../../monster-abilities/stalking-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

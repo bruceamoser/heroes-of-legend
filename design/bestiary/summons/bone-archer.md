@@ -1,4 +1,4 @@
-# Skeleton Archer (CV 6)
+# Skeleton Archer (CV 7)
 
 *A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch.*
 
@@ -41,6 +41,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Dusty arrow:** One visible creature within 8 squares. Ammunition inventory d6; after each use, roll it. On 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty. Summoned ammunition disappears with the summon.
+
+## Maneuvers
+
+### Study the Opening — Maneuver
+
+*It waits for a tell in the stance, then turns its attention to the exposed line.*
+
+Gain 1 Boon on its next attack before the end of the controller’s turn. One attack only; repeated uses do not stack.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

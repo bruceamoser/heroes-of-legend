@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 2 squares. Treat rubble squares as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provokes normally.
+Move up to 2 squares without provoking from one visible enemy chosen before moving. Treat rubble as normal terrain for this movement only; all other terrain costs and occupied-square restrictions apply. Provoke normally from other enemies.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

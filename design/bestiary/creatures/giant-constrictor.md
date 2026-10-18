@@ -1,4 +1,4 @@
-# Giant Constrictor (CV 23)
+# Giant Constrictor (CV 26)
 
 *A thick-bodied serpent carries green water between its overlapping scales, its weight bending young trees as it passes.*
 
@@ -23,11 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Sound the Depths | Swim 2; provokes. |
+| Sound the Depths | Swim 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Coil Against the Pull | Before forced movement against a support: Stability 2 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -44,7 +45,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It slips beneath the surface with scarcely a ripple.*
 
-Move up to 2 squares using its printed swim speed, paying terrain costs. Provokes normally. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+
+### Coil Against the Pull
+
+*Coils knot and the heavy body locks against the ground before it can be dragged away.*
+
+Before this creature is forcibly moved while touching solid ground or a fixed support, gain Stability 2 for that forced movement only. Use the highest Stability, maximum 3. In a collision chain, declare before its Stability is deducted; this does not prevent prior collision damage. No effect on Prone or grapples.
 
 ### General details
 
@@ -75,7 +82,7 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 **ID:** creature-giant-constrictor
 
 
-**Category:** Animal · **Role:** Holder · **CV:** 23
+**Category:** Animal · **Role:** Holder · **CV:** 26
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.6
+
+**Action review (#1279):** U 1.45 → 1.6: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [submerge](../../monster-abilities/submerge.md).
+**Ability sources:** [Coil Against the Pull](../../monster-abilities/coil-against-the-pull.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Sound the Depths](../../monster-abilities/submerge.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

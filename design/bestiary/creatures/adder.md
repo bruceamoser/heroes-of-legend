@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Warning Hiss | Before a hearing adjacent enemy makes a melee attack: +1 Bane. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Poisoned 2. **Standard defense:** Poisoned 1.
+
+### Warning Hiss
+
+*It swells, bares its fangs and hisses in the attacker's face as the weapon comes down.*
+
+Before one adjacent enemy that can hear it makes a melee attack against this creature, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No Frightened condition, extra gaze or counterattack is granted.
 
 ### General details
 
@@ -80,12 +87,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [venom](../../monster-abilities/venom.md).
+**Ability sources:** [venom](../../monster-abilities/venom.md), [Warning Hiss](../../monster-abilities/warning-hiss.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

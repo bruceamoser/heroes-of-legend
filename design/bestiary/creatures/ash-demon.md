@@ -1,4 +1,4 @@
-# Ash Demon (CV 29)
+# Ash Demon (CV 33)
 
 *A restless demon sheds soot from a body shaped like a fire struggling to remember an animal.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Heated Hide | After adjacent attack deals HP damage: attacker gains Burning 1; not from free attacks. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A spray of glowing cinders hangs between the creature and its pursuer.*
 
 One adjacent creature gains Burning 1. Once per turn; no immediate damage. The condition uses normal resistance and decay.
+
+### Heated Hide
+
+*The struck scales flare, and a lash of heat follows the retreating blade.*
+
+After an adjacent attacker deals HP damage to this creature, spend Reaction to apply Burning 1 to that attacker. It is a condition, not a free attack, and cannot trigger this ability in return. No trigger when the incoming action is itself a free attack. Summoned forms never receive this Reaction.
 
 ### General details
 
@@ -73,7 +80,7 @@ One adjacent creature gains Burning 1. Once per turn; no immediate damage. The c
 **ID:** creature-ash-demon
 
 
-**Category:** Fiend · **Role:** Burning striker · **CV:** 29
+**Category:** Fiend · **Role:** Burning striker · **CV:** 33
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.3 → 1.45: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=6.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [scatter embers](../../monster-abilities/scatter-embers.md).
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [Heated Hide](../../monster-abilities/heated-hide.md), [scatter embers](../../monster-abilities/scatter-embers.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

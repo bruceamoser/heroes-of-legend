@@ -1,4 +1,4 @@
-# Young Ember Drake (CV 27)
+# Young Ember Drake (CV 29)
 
 *A young, broad-winged dragon with warm red scales, a heavy jaw and smoke-darkened nostrils. Possessiveness has developed faster than judgment or experience.*
 
@@ -25,6 +25,8 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Wing Step | Fly 2; no opportunity from one chosen visible enemy. |
+| Stoke the Core | Next damaging Main Action attack this turn: +1 Fire damage per target. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -54,6 +56,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
+
+### Stoke the Core
+
+*Coals brighten inside its body and a hot breath spills between teeth or iron seams.*
+
+Add 1 Fire damage to its next damaging Main Action attack before the end of this turn. Apply it once per target damaged by that attack, using the normal mixed-damage resistance and minimum rules. This grants no extra attack or Burning. Repeated uses do not add more Fire damage.
+
+### Wing Step
+
+*A single hard wingbeat carries it toward a better angle.*
+
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
 
 ### General details
 
@@ -88,7 +102,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-young-ember-drake
 
 
-**Category:** Dragon · **Role:** Flying artillery · **CV:** 27
+**Category:** Dragon · **Role:** Flying artillery · **CV:** 29
 
 ### Creature-roll reference
 
@@ -111,12 +125,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.55
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.55 → 1.65: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [breath](../../monster-abilities/breath.md).
+**Ability sources:** [breath](../../monster-abilities/breath.md), [Stoke the Core](../../monster-abilities/stoke-the-core.md), [Wing Step](../../monster-abilities/wing-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

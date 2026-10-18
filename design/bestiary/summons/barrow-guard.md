@@ -1,4 +1,4 @@
-# Barrow Guard (CV 23)
+# Barrow Guard (CV 25)
 
 *An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.*
 
@@ -41,6 +41,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Oath blade:** One adjacent creature.
+
+## Maneuvers
 
 ### Plant the Shield — Maneuver
 

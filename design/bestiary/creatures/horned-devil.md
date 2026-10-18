@@ -1,4 +1,4 @@
-# Horned Devil (CV 43)
+# Horned Devil (CV 46)
 
 *A horned enforcer wears chains arranged like official regalia and carries a ledger protected from every spark.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Hook the Retreat | After an enemy voluntarily retreats from adjacent to 2 squares: pull 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A sharp line of light marks a boundary across the floor.*
 
 Place up to 3 connected empty ground squares within 3 squares as difficult terrain until its next turn. No damage, wall or prohibition against crossing; all creatures pay the same terrain costs.
+
+### Hook the Retreat
+
+*The hooked limb follows the withdrawing foe, catching just as the space opens between them.*
+
+After a visible enemy voluntarily moves from adjacent to this creature and ends that movement exactly 2 squares from it, pull that enemy 1 square toward this creature along a clear path. Apply Stability, terrain costs and normal collision rules. No separate attack damage. Forced movement and movement granted by a free attack cannot trigger this; it is an alternative to spending the Reaction on an opportunity attack.
 
 ### General details
 
@@ -75,7 +82,7 @@ Place up to 3 connected empty ground squares within 3 squares as difficult terra
 **ID:** creature-horned-devil
 
 
-**Category:** Fiend · **Role:** Position hunter · **CV:** 43
+**Category:** Fiend · **Role:** Position hunter · **CV:** 46
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=7.518. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [binding circle](../../monster-abilities/binding-circle.md), [dragging strike](../../monster-abilities/dragging-strike.md).
+**Ability sources:** [binding circle](../../monster-abilities/binding-circle.md), [dragging strike](../../monster-abilities/dragging-strike.md), [Hook the Retreat](../../monster-abilities/hook-the-retreat.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

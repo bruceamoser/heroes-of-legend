@@ -246,4 +246,4 @@ if opts.compile:
  pdf_python=os.environ.get('PDF_PYTHON') or (str(bundled) if bundled.exists() else sys.executable)
  subprocess.run([pdf_python,str(D/'player-book/optimize_pdf.py'),str(raw),str(final)],check=True)
  print(final)
-print(f'{len(sources)} sources; {len(assets)} distinct interior illustrations/diagrams; 192 creatures, 93 abilities, 73 summons, 280 wounds.')
+print(f'{len(sources)} sources; {len(assets)} distinct interior illustrations/diagrams; 192 creatures, 126 abilities, 73 summons, 280 wounds.')

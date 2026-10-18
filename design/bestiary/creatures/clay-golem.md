@@ -1,4 +1,4 @@
-# Clay Golem (CV 35)
+# Clay Golem (CV 36)
 
 *A hulking figure of fired earth bears thumbprints the size of bowls and writing pressed into its chest before baking.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Lock the Frame | Before forced movement on solid ground: Stability 3 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The surface peels away, leaving a useless handful while the body gathers again.*
 
 Choose one holder and reduce that holder’s Grappled contribution by 1, also reducing this creature’s total Grappled rating by 1. End that hold if its contribution reaches 0. It must have a Maneuver available; cannot use this while Grappled 3. No damage or free movement.
+
+### Lock the Frame
+
+*The joints grind shut and the body becomes a single weight planted against the shove.*
+
+Before this creature is forcibly moved while on solid ground, gain Stability 3 for that forced movement only. Use the highest source. In a collision chain, declare before its Stability is deducted; prior collision damage still resolves. This does not resist Prone or grapples.
 
 ### General details
 
@@ -77,7 +84,7 @@ Choose one holder and reduce that holder’s Grappled contribution by 1, also re
 **ID:** creature-clay-golem
 
 
-**Category:** Construct · **Role:** Holder · **CV:** 35
+**Category:** Construct · **Role:** Holder · **CV:** 36
 
 ### CV worksheet
 
@@ -87,13 +94,15 @@ Choose one holder and reduce that holder’s Grappled contribution by 1, also re
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.45 → 1.5: Maneuver allowance +0, Reaction allowance +0.05. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [slough skin](../../monster-abilities/slough-skin.md).
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [Lock the Frame](../../monster-abilities/lock-the-frame.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [slough skin](../../monster-abilities/slough-skin.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

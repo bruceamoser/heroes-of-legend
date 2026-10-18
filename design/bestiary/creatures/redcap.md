@@ -1,4 +1,4 @@
-# Redcap (CV 21)
+# Redcap (CV 22)
 
 *A small hard-eyed fey wears heavy iron boots and a dark cap that never quite dries.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Break the Approach | After an enemy voluntarily closes: push 1; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It lowers its weight and makes the space in front of it suddenly too small.*
 
 Push one adjacent creature 1 square. Apply Stability and normal collision rules. Once per turn; no separate damage.
+
+### Break the Approach
+
+*It lashes out with shoulder or horn, spoiling the straight line of the charging foe.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, push that enemy 1 square directly away. Apply Stability, terrain costs and normal collision rules; no separate attack damage. Forced movement and movement granted by a free attack cannot trigger this.
 
 ### General details
 
@@ -71,7 +78,7 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 **ID:** creature-redcap
 
 
-**Category:** Fey · **Role:** Attrition striker · **CV:** 21
+**Category:** Fey · **Role:** Attrition striker · **CV:** 22
 
 ### CV worksheet
 
@@ -81,13 +88,15 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [rending blow](../../monster-abilities/rending-blow.md).
+**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [Break the Approach](../../monster-abilities/break-the-approach.md), [rending blow](../../monster-abilities/rending-blow.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

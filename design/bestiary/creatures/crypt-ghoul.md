@@ -1,4 +1,4 @@
-# Crypt Ghoul (CV 17)
+# Crypt Ghoul (CV 18)
 
 *A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.*
 
@@ -24,6 +24,8 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Rattle of the Grave | One hearing target within 2: Frightened 1 of this creature. |
+| Shambling Advance | Move 2 toward living prey; difficult ground costs 1; next attack against it +1 Bane. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -49,6 +51,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Paralyzed 1; cannot use this attack next turn.
 
 **Limit:** Cannot use this attack on consecutive turns, regardless of result.
+
+### Shambling Advance
+
+*The corpse lurches after the nearest warm body, dragging its ruined feet without ever looking away.*
+
+Move up to 2 squares toward a visible living creature within 6 squares; its next attack against that creature before turn end imposes 1 additional Bane on the player defense. For a player-controlled creature, gain 1 attack Boon instead. It must end closer to that creature than it began. For this movement only, treat difficult ground as normal; pay other costs and provoke normally. One attack only; repeated uses do not stack. This grants no attack and cannot be used while movement is prevented.
+
+### Rattle of the Grave
+
+*A dry sound rises from the corpse, like someone knocking from inside a coffin.*
+
+One creature within 2 squares that can hear it gains Frightened 1 of this creature. Once per turn; no damage.
 
 ### General details
 
@@ -85,7 +99,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-crypt-ghoul
 
 
-**Category:** Undead · **Role:** Disabler · **CV:** 17
+**Category:** Undead · **Role:** Disabler · **CV:** 18
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
@@ -95,12 +109,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [grave chill](../../monster-abilities/grave-chill.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rending blow](../../monster-abilities/rending-blow.md).
+**Ability sources:** [grave chill](../../monster-abilities/grave-chill.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Rattle of the Grave](../../monster-abilities/rattle-bones.md), [rending blow](../../monster-abilities/rending-blow.md), [Shambling Advance](../../monster-abilities/shambling-advance.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -38,6 +38,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Serrated bite:** One adjacent creature.
 
+## Maneuvers
+
+### Sound the Depths — Maneuver
+
+*It slips beneath the surface with scarcely a ripple.*
+
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.

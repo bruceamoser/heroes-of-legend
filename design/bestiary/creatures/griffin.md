@@ -1,4 +1,4 @@
-# Griffin (CV 26)
+# Griffin (CV 28)
 
 *A great winged predator with an eagle’s head and forequarters joined to a powerful feline body. Sharp talons and broad wings suit it to cliffs and open hunting ground.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Wing Step | Fly 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Bank Away | After taking ranged HP damage: fly 2; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +49,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** physical.
 
 **Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
+
+### Bank Away
+
+*A struck feather spins loose as the great wings tilt and carry the creature out of the firing line.*
+
+After a ranged attack resolves and deals HP damage to this creature, fly up to 2 squares using its printed fly speed. Pay normal terrain costs, provoke normally and finish in a legal position. This creature must survive and remain capable of flight. No trigger from a free attack; no attack or automatic lift of a held creature.
+
+### Wing Step
+
+*A single hard wingbeat carries it toward a better angle.*
+
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
 
 ### General details
 
@@ -81,7 +95,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-griffin
 
 
-**Category:** Beast · **Role:** Flying predator · **CV:** 26
+**Category:** Beast · **Role:** Flying predator · **CV:** 28
 
 ### Creature-roll reference
 
@@ -103,12 +117,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.35
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.35 → 1.5: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [pounce](../../monster-abilities/pounce.md).
+**Ability sources:** [Bank Away](../../monster-abilities/bank-away.md), [pounce](../../monster-abilities/pounce.md), [Wing Step](../../monster-abilities/wing-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

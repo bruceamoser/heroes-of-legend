@@ -1,4 +1,4 @@
-# Crypt Ghoul (CV 17)
+# Crypt Ghoul (CV 18)
 
 *A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.*
 
@@ -44,6 +44,24 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Raking claws:** One adjacent creature.
 
 **Grave touch:** One adjacent creature. Cannot use this attack on consecutive turns, regardless of result.
+
+## Maneuvers
+
+### Shambling Advance — Maneuver
+
+*The corpse lurches after the nearest warm body, dragging its ruined feet without ever looking away.*
+
+Move up to 2 squares toward a visible living creature within 6 squares; its next attack against that creature before the end of the controller’s turn gains 1 Boon. It must end closer to that creature than it began. For this movement only, treat difficult ground as normal; pay other costs and provoke normally. One attack only; repeated uses do not stack. This grants no attack and cannot be used while movement is prevented.
+
+Use only as part of a command; no independent activity.
+
+### Rattle of the Grave — Maneuver
+
+*A dry sound rises from the corpse, like someone knocking from inside a coffin.*
+
+One creature within 2 squares that can hear it gains Frightened 1 of this summoned form. Once per controller turn; no damage. Frightened applies only while the form is perceptible.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
