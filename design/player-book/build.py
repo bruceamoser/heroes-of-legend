@@ -176,6 +176,7 @@ def doc(p,kind='entry',wide=False,break_before=False):
   text='#catalog-card('+q(name(p))+','+q(key(p))+', icons: '+icons+')['+render(s,p)+']\n'
  else:
   text='#entry('+q(name(p))+','+q(key(p))+')\n'+render(s,p)
+ if kind=='character': text='#block[\n#set par(leading:.32em,spacing:.5em)\n'+text+']\n'
  if kind=='path': text='#block(breakable: false)[\n'+text+']\n'
  return prefix+(text if wide else '#twocol[\n'+text+']\n')
 def card(p):
@@ -201,8 +202,8 @@ def card(p):
  icons=''.join('#discipline-mark('+q(d.lower())+','+q(r)+')' for d,r in re.findall(r'([A-Za-z]+) ([123])',req) if (DESIGN/'disciplines'/(d.lower()+'.md')).exists())
  return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Universal' if tier=='Universal' else price+' DP',key(p)]))+')[\n'+render(s,p)+']\n'
 
-def flow(entries):
- return '#reading-columns(('+','.join('['+c+']' for c in entries)+',))\n'
+def flow(entries,gap='5pt'):
+ return '#reading-columns(('+','.join('['+c+']' for c in entries)+',), gap:'+gap+')\n'
 
 def reading(s,p):
  chunks=[];pending=''
@@ -309,7 +310,7 @@ def discipline_matrix():
  result='#pagebreak(weak:true)\n#heading(level:2)[Discipline costs by class]\n'
  result+='Each cell gives *rank 1 / rank 2 / rank 3*, in DP. These are separate purchases, not cumulative totals. Read across to compare classes or down to plan your own studies.\n\n'
  result+='#cost-matrix(('+','.join(head)+',),('+','.join(rows)+',))\n'
- result+='#v(12pt)\n#grid(columns:(1fr,1fr),gutter:18pt,[Some studies come naturally to your class; others take more development. Every discipline remains available after level 0.],[A starting rank granted by your origin or class is already owned. Pay only for ranks you still need, in order. Ability prices remain 2 / 4 / 8 DP by tier.])\n#tail-art("discipline-instruments")\n'
+ result+='#v(12pt)\n#grid(columns:(1fr,1fr),gutter:18pt,[Some studies come naturally to your class; others take more development. Every discipline remains available after level 0.],[A starting rank granted by your origin or class is already owned. Pay only for ranks you still need, in order. Standard ability prices are 2 / 4 / 8 DP by tier; six shared Novice cards print a 1-DP exception.])\n#tail-art("discipline-instruments")\n'
  return result
 
 def hp_reference():
@@ -442,9 +443,9 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
  entries=[]
  for c in sorted((c for c in card_records if c['tier']==tier),key=lambda x:x['name'].casefold()):
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
- parts.append(flow(entries))
+ parts.append(flow(entries,gap='3pt'))
 (GEN/'body.typ').write_text(''.join(parts))
-manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':350,'ancestry':4,'trait':20,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':43,'recipes':10,'summon':73,'character':6}}
+manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':356,'ancestry':4,'trait':20,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':43,'recipes':10,'summon':73,'character':6}}
 manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',ROOT/'release/version.json']]
 manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

@@ -5,10 +5,12 @@ These conventions apply to the current catalog.
 ## Learn, declare, resolve
 
 Tier diamonds show minimum level 1, 3 or 7, with Novice purchases allowed during
-level-0 creation. DP costs are 2, 4 and 8. All printed discipline ranks must be
+level-0 creation. Standard DP costs are 2, 4 and 8. All printed discipline ranks must be
 owned before purchase. No lower-tier ability is required unless Bruce explicitly
 approves an exception; the current design uses no chains. Signature cards require
 only the class and level. Ordinary items and ancestry traits are not DP abilities.
+
+The six 1-DP shared Novice exceptions are [Another Tongue](cards/another-tongue.md), [Message by Heart](cards/message-by-heart.md), [Catch That!](cards/catch-that.md), [A Party Piece](cards/a-party-piece.md), [Quick Exit](cards/quick-exit.md), [Look Over Here!](cards/look-over-here.md). Each requires no discipline, may be purchased during level-0 creation or later, and may be purchased only once. They are paid abilities, not free Universal cards. The printed price applies; their tier remains 1.
 
 Declare a card before rolling. Roll 3d6 plus its one printed attribute with the
 normal Boon/Bane rules. No skill bonus, weapon damage die or extra attribute damage.
@@ -115,7 +117,7 @@ of handling it, then specify its actual additive effects and use requirements.
 **Agreed direction October 13, 2026:** aim for approximately 10–15 shared Passive
 abilities, including useful enduring expertise outside combat. This count excludes
 ancestry traits and class-exclusive signatures; it is a design target, not a rule
-limiting what a character may learn. The shared catalog has fourteen.
+limiting what a character may learn. Including the small 1-DP options, the shared catalog has seventeen.
 
 Higher-tier utility should change the problems a character can tackle or the people
 they can help, rather than merely repeat ordinary 1/2/3 progress. Use mixed discipline

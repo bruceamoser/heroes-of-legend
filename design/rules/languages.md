@@ -98,6 +98,14 @@ Use its printed time, progress and outcomes. Completing a translation does not
 teach you the whole language. A copied voice or disguise likewise supplies no
 vocabulary or memories unless its ability explicitly says so.
 
+## Learn another language
+
+[Another Tongue](../cards/another-tongue.md) costs 1 DP and grants one additional
+ordinary language, including its usual script if it has one. It requires no
+discipline and may be purchased once, during level-0 creation or later. Record
+the language you choose. This is a specific card grant, not a repeatable price
+for buying every language or permission to learn a secret language.
+
 ## Keep learning grounded
 
 Record new languages when an explicit trait, ability or agreed campaign grant

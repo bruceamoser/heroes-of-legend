@@ -1,51 +1,47 @@
-# Player’s Book — v16.1.0 PDF review
+# Player’s Book — one-DP ability update proof
 
-Reviewed October 17, 2026. This is the player half of the two-book starter kit,
-covering levels 1–10. Publication follows review of the cleanup PR.
+Reviewed October 18, 2026 for issue #1273. This working proof covers levels 1–10;
+the public v16.1.0 starter-kit release is unchanged. The separate armor PR #1272
+is not included in this branch’s 356-ability count.
 
 ## Artifact and coverage
 
-- 238 US Letter pages; 94,288,657 bytes.
-- 608 included source records, all 350 abilities and 486 outcome lines.
-- All 280 wound results, including their descriptions, effects and remedies.
-- 73 summoned forms; 50 culture/background pairs; six complete example heroes.
-- 153 current art assets; 131 unique illustration placements, including 24
-  open-space placements. Functional logos and discipline symbols may repeat.
-- Four printable sheets on pages 228–231.
-- 2,028 PDF links with valid destinations and 961 bookmarks.
+- 240 US Letter pages; 94,831,059 bytes.
+- 614 included source records, all 356 abilities and 486 outcome lines.
+- All 280 wound results; 73 summoned forms; six complete example heroes.
+- 153 art assets; 132 unique illustration placements, including 24 open-space
+  placements. No duplicate interior illustrations.
+- Four printable sheets on pages 230–233.
+- 2,063 PDF links and 969 bookmarks.
 
-SHA-256: `25607619af03fe35aba29ba7d21cab72263e18bb05d7fa1018208adf19afca6c`.
+SHA-256: `838beb818e58d5ff45eaa08e13b9754a661ac2d37052927a1a271e0004c7fb77`.
 
 ## Checks performed
 
-Built with Typst 0.15.1 after removing legacy sources and superseded artwork.
-The source audit verifies current records, discipline prices, grants, ability
-outcomes, wound cells, art availability, class-cutout transparency and page bounds.
-No missing card names, outcome text, wound cells, illustrations, unresolved
-placeholders or out-of-bounds words were reported. Compression preserves the
-complete extracted text; source image resolution and alpha masks remain intact.
+Built with Typst 0.15.1. Source and PDF audits pass: printed prices, requirements,
+origin grants, source links, ability text, wound cells, artwork and page bounds.
+Compression preserves the extracted text and original artwork resolution and
+alpha masks. The six approved exceptions cost 1 DP; the 18 free Universal actions
+remain separate. All other tier prices retain their normal audit guard.
 
-Every page was inspected in overview during the cleanup pass. The expanded
-summoning introduction was reflowed into two columns with its illustration below,
-removing a nearly empty continuation page. The resulting introduction and roster
-were inspected enlarged, and the final export was rendered again to verify its
-pagination. Catalogs, cards, tables, sheets and indexes retain the approved style.
+The initial build was rendered in full and inspected in page overviews. All six
+new cards and the ability introduction were inspected enlarged. This caught
+nearly empty continuation pages in the character examples and Novice index;
+compact spacing removed them without shrinking the type. The final examples,
+reference sheets and all indexes were rendered and reviewed again. The book is
+two pages longer than the released baseline.
 
-The Player’s Book now teaches the existing approved weakness calculation,
-NPC-only roll procedure, crowded-collision placement, minimum-damage wound-table
-choice, summoned energy forms, controller-paid healing and six-square tether.
-The shared language chapter and character language choices are retained.
-Current narrative/Rules separation and catalog IDs remain intact. The erroneous
-spell-only offensive-healing paragraph is removed from the potion source; the
-reader edition already excluded it. No new potion attack is introduced.
+Checked Pip, Oren and Vaelis’s purchase prices and ledger arithmetic. The new
+options spend four previously expiring DP across their creation stages without
+changing attributes, HP, Speed, Grit, Bulk or coins. Vaelis records Dwarven from
+Another Tongue. Both books explain this one-time language grant.
 
 ## Boundaries
 
-These are source, transcription, navigation and layout checks, not new balance
-simulations or an independent editorial proofread. Creature CV and encounter
-budgets remain playtest estimates. This is a digital playtest edition, not a
-printer-certified PDF/X file. Full-resolution current art and font licenses are
-preserved; obsolete artwork and earlier editions remain available in Git history.
+These are source, arithmetic, transcription and layout checks, not balance
+simulations or independent editorial review. The new cards await Bruce’s review.
+Creature CV and encounter budgets remain playtest estimates. This digital
+playtest PDF is not a printer-certified PDF/X file.
 
 See [README](README.md) for builds and [release instructions](../../release/README.md)
 for the combined starter kit. Generated audit reports live under `generated/`.

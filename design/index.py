@@ -12,6 +12,10 @@ def main():
  for p in sorted((R/'cards').glob('*.md')):
   s=p.read_text();cards.append((p,s))
  txt='# Find your next ability\n\nStart with [the character you imagine](fantasy-paths.md), or browse below.\nEach ability is an editable Markdown page. Class signatures remain exclusive;\nshared paths can be mixed by anyone who meets their card requirements.\n\n'
+ txt+='## Shared abilities costing 1 DP\n\nNo discipline requirement; purchase each once, during level 0 or later. These are not free Universal grants.\n\n'
+ for p,s in cards:
+  if field(s,'DP')=='1':txt+=f'- {link(p)} — {field(s,"Action")}; 1 DP.\n'
+ txt+='\n'
  for label,test in [('Universal actions',lambda s:field(s,'Tier / minimum level')=='Universal'),('Shared abilities',lambda s:field(s,'Tier / minimum level')!='Universal' and field(s,'Type')!='Signature'),('Class signatures',lambda s:field(s,'Type')=='Signature')]:
   txt+='## '+label+'\n\n'
   for p,s in cards:

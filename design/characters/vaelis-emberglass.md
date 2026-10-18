@@ -4,7 +4,7 @@
 
 **Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.**
 
-**Languages:** Common and Elven. See the [language reference](../rules/languages.md).
+**Languages:** Common, Elven and Dwarven (Another Tongue). See the [language reference](../rules/languages.md).
 
 ## Attributes and ancestry
 
@@ -34,8 +34,9 @@ Opening pool: **13 + 0 duplicate compensation = 13 DP**. No disciplines are purc
 | [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 5 |
 | [Notice the Human Detail](../cards/notice-the-human-detail.md) | None | 2 | 3 |
 | [Keep Your Bearings](../cards/keep-your-bearings.md) | None | 2 | 1 |
+| [Another Tongue](../cards/another-tongue.md) — Dwarven | None; 1-DP ability | 1 | 0 |
 
-**Spent 12; 1 DP expires. Stage closes at 0.**
+**Spent 13; 0 DP expires. Stage closes at 0.**
 
 ## Level 1 — class and purchases
 
@@ -65,8 +66,9 @@ Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before card
 | [Summon Fey — Novice](../cards/a-friend-beneath-the-door.md) | Calling 1 | 2 | 5 |
 | **Storm 1** | Adjacent; previous rank 0 | 2 | 3 |
 | [Gust Hammer](../cards/gust-hammer.md) | Storm 1 | 2 | 1 |
+| [Catch That!](../cards/catch-that.md) | None; 1-DP ability | 1 | 0 |
 
-**Spent 12; 1 DP expires. Stage closes at 0.**
+**Spent 13; 0 DP expires. Stage closes at 0.**
 
 **Final disciplines:** Calling 1, Flame 1, Frost 1, Scholarship 1, Storm 1.
 
@@ -90,6 +92,10 @@ Cinder Cast and Rime Grip provide distinct elemental choices; Gust Hammer adds a
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
+
+- [Catch That!](../cards/catch-that.md) — Reaction; None — no roll.
+
+- [Another Tongue](../cards/another-tongue.md) — Passive; None — no roll.
 
 - [Cinder Cast](../cards/cinder-cast.md) — Main Action; Knowledge.
 - [Rime Grip](../cards/rime-grip.md) — Main Action; Knowledge.
