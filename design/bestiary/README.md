@@ -1,8 +1,8 @@
 # Bestiary
 
 The current catalog contains **192 creatures**, **126 monster abilities** and
-**73 summoned forms**. The [action expansion](action-coverage.md) is a working review draft beyond
-starter kit v16.3.0. CV and encounter budgets remain estimates to test in play.
+**73 summoned forms**. The approved [action expansion](action-coverage.md) is included in
+starter kit v16.4.0. CV and encounter budgets remain estimates to test in play.
 
 - [Using creature cards](procedure.md) and [card layout](card-layout.md).
 - [Creature roster](roster.md), [family finder](families.md), [coverage guide](family-survey.md).

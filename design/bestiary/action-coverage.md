@@ -1,11 +1,11 @@
 # Creature action coverage and trope review
 
 Issue [#1279](https://github.com/bruceamoser/heroes-of-legend/issues/1279). Review baseline: `d67e046466bdd5052360b96ed91861d607091446` (starter kit v16.3.0).
-This is an authored bestiary expansion for Bruce’s review, not a published release or encounter-balance result. The pass edits 161 creature entries and 55 summon profiles (including CV/title synchronization). All 192 creatures were considered; universal Defend and Opportunity Attack are excluded from distinctive-action counts.
+Approved in [PR #1280](https://github.com/bruceamoser/heroes-of-legend/pull/1280) and included in starter kit v16.4.0. This review records coverage and design judgments, not an encounter-balance result. The pass edits 161 creature entries and 55 summon profiles (including CV/title synchronization). All 192 creatures were considered; universal Defend and Opportunity Attack are excluded from distinctive-action counts.
 
 ## Findings
 
-| Measure | Before | Review draft |
+| Measure | Before | Approved expansion |
 |---|---:|---:|
 | Creatures with distinctive Maneuvers | 127 | 165 |
 | Creatures with distinctive Reactions | 13 | 136 |
