@@ -21,7 +21,7 @@ Borin can invoke A Grudge Well Kept after any creature damages him, once per com
 
 ## Level 0 — origins and purchases
 
-- [Walled Communities](../origins/culture-walled-communities.md): **Armor 1** and [Wear Medium Armor](../cards/wear-medium-armor.md).
+- [Walled Communities](../origins/culture-walled-communities.md): **Armor 1** and [Wear Light Armor](../cards/wear-light-armor.md).
 - [Household Guard](../origins/background-household-guard.md): **Arms 1** and [Hook and Drive](../cards/hook-and-drive.md).
 
 Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purchased at this stage.
@@ -72,14 +72,14 @@ Fresh pool: **10 + 1 = 11 DP**. All discipline purchases below occur before card
 
 | Owned item and chosen appearance | Grant | Bulk |
 |---|---|---:|
-| Riveted medium armor | [Wear Medium Armor](../cards/wear-medium-armor.md) | 1 |
+| Riveted light armor | [Wear Light Armor](../cards/wear-light-armor.md) | 1 |
 | One-handed broad-headed hammer | [Hook and Drive](../cards/hook-and-drive.md) | 1 |
 | Round shield | [Shielding Step](../cards/shielding-step.md) | 1 |
 
 HP: 12 + ancestry 4 + class 5 + Fortitude 2 + trait 1 + Conditioned Body 1 = **25**.
 Capacity: 10 + 3 × Brawn (1) = **13**. Granted Bulk **3** + purchased Bulk **8** = **11**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 0 + trait 0 = **5**.
 
-Physical resistance: **2 while wearing the granted medium armor**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **1 while wearing the granted light armor**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
@@ -93,7 +93,7 @@ Hook and Drive holds a doorway; Between Them lets Borin intercept a single attac
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Wear Medium Armor](../cards/wear-medium-armor.md) — Passive; None — no roll.
+- [Wear Light Armor](../cards/wear-light-armor.md) — Passive; None — no roll.
 - [Hook and Drive](../cards/hook-and-drive.md) — Main Action; Brawn.
 - [Braced Harness](../cards/braced-harness.md) — Reaction; Fortitude.
 - [Take Them Alive](../cards/take-them-alive.md) — Passive; None — no roll.

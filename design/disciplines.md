@@ -10,8 +10,9 @@ order; no ability chain is required.
 - [Stone on Your Shoulders](cards/stone-on-your-shoulders.md) — level 3; Reaction.
 - [Stride of the Giant](cards/stride-of-the-giant.md) — level 7; Main Action.
 - [Wake the Iron Rune](cards/wake-the-iron-rune.md) — level 1; Maneuver.
-- [Wear Heavy Armor](cards/wear-heavy-armor.md) — level 3; Passive.
-- [Wear Medium Armor](cards/wear-medium-armor.md) — level 1; Passive.
+- [Wear Heavy Armor](cards/wear-heavy-armor.md) — level 7; Passive.
+- [Wear Light Armor](cards/wear-light-armor.md) — level 1; Passive.
+- [Wear Medium Armor](cards/wear-medium-armor.md) — level 3; Passive.
 - [Weight of Iron](cards/weight-of-iron.md) — level 7; Reaction.
 
 ## [Arms](disciplines/arms.md)

@@ -26,6 +26,7 @@ is knowledge, not a free finished item.
 - [Mixing Kit](equipment/mixing-kit.md)
 - [Musical Instrument](equipment/musical-instrument.md)
 - [Ordinary Heavy Armor](equipment/ordinary-heavy-armor.md)
+- [Ordinary Light Armor](equipment/ordinary-light-armor.md)
 - [Ordinary Medium Armor](equipment/ordinary-medium-armor.md)
 - [Ordinary Melee Weapon](equipment/ordinary-melee-weapon.md)
 - [Ordinary Ranged Weapon](equipment/ordinary-ranged-weapon.md)

@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self
 
-While wearing the trained armor, physical resistance 2. No roll; highest matching resistance applies.
+While wearing medium armor, gain physical resistance 2. Use the highest matching resistance; normal cap 3.
 
 **Duration:** While wearing the trained armor.
 
@@ -16,7 +16,7 @@ While wearing the trained armor, physical resistance 2. No roll; highest matchin
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Armor 1
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Armor 2
 
 **Type:** Training / Passive
 

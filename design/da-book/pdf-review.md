@@ -1,8 +1,9 @@
 # DA Guide & Bestiary — v16.1.0 PDF review
 
-Reviewed October 17, 2026. This is the DA half of the two-book starter kit.
-The shared rules and catalogs use the current approved baseline; Git history
-holds earlier editions. Publication follows review of the cleanup PR.
+Revalidated October 18, 2026 for the armor correction in issue #1270. This is
+the DA half of the two-book starter kit. Its rebuilt PDF is byte-identical to
+the released DA book after excluding build timestamps and document instance IDs.
+No creature defenses, loot or other DA rules changed; release assets are unchanged.
 
 ## Artifact and coverage
 
@@ -13,7 +14,7 @@ holds earlier editions. Publication follows review of the cleanup PR.
 - All 358 cards remain on one page; largest creature card: 430.3 pt.
 - 73 summon eligibility markers link to the player-facing profiles.
 
-SHA-256: `6a20a2f8059d9ba77295c0ca17e723690ce8b5ae918796fd338c6fbbe40e256d`.
+SHA-256: `1f5361d0cb29a85d22d877fe960f176ce09ba6697a89d268d8a53205af2fd33d`.
 
 Build and validation instructions are in [README](README.md). Generated files and
 PDFs are disposable, ignored outputs. The full audit is `output/pdf-audit.json`.

@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self
 
-While wearing the trained armor, physical resistance 3. No lower-tier training prerequisite.
+While wearing heavy armor, gain physical resistance 3. Use the highest matching resistance; normal cap 3.
 
 **Duration:** While wearing the trained armor.
 
@@ -16,7 +16,7 @@ While wearing the trained armor, physical resistance 3. No lower-tier training p
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Armor 2
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Armor 3
 
 **Type:** Training / Passive
 
