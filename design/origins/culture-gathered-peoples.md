@@ -1,6 +1,6 @@
 # Gathered Peoples
 
-*Displacement brought strangers together; shared work made a new home.*
+*Many peoples share your streets. A quiet thought across a crowded room and a practiced hand with a bandage both say that someone is looking out for you.*
 
 *Which old custom did your new neighbors adopt?*
 
@@ -8,7 +8,7 @@
 
 Choose one:
 
-- **Influence 1** and [A Verse for Courage](../cards/a-verse-for-courage.md).
+- **Mind 1** and [Silent Cue](../cards/silent-cue.md).
 - **Medicine 1** and [Treat Soft Tissue](../cards/treat-soft-tissue.md).
 
 **Type:** Culture

@@ -24,6 +24,10 @@ The current starter kit is **v16.2.0**. Download both books from the
 [latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
+The working catalog for the next edition contains **419 abilities**, including
+the [discipline and origin expansion](design/discipline-coverage.md).
+Those additions are not yet in the published v16.2.0 downloads above.
+
 ## One current source
 
 The approved system lives in [design/](design/README.md) as editable Markdown.

@@ -1,6 +1,6 @@
 # Oath Witness
 
-*You stood beside people when they promised what they could not yet know they could bear.*
+*You stood beside people as they swore their promises, carrying a bright oath-blade as a reminder that some words demand more than witnesses.*
 
 *Which broken promise still follows you?*
 
@@ -9,7 +9,7 @@
 Choose one:
 
 - **Influence 1** and [Name the Reckoning](../cards/name-the-reckoning.md).
-- **Scholarship 1** and [Read the Remains](../cards/read-the-remains.md).
+- **Radiance 1** and [Oathlight Strike](../cards/oathlight-strike.md).
 
 **Type:** Background
 

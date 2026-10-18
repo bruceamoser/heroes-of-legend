@@ -1,6 +1,6 @@
 # Terrace Towns
 
-*Gardens climb the cliffs and stairs stitch whole neighborhoods together.*
+*Children swing between the terraces while lamplighters carry warm light along the evening stairs. You learned to make a steep place feel like home.*
 
 *Which impossible-looking route was your childhood shortcut?*
 
@@ -9,7 +9,7 @@
 Choose one:
 
 - **Athletics 1** and [Swing into Trouble](../cards/swing-into-trouble.md).
-- **Wilderness 1** and [Roots Remember Feet](../cards/roots-remember-feet.md).
+- **Radiance 1** and [Lantern in the Palm](../cards/lantern-in-the-palm.md).
 
 **Type:** Culture
 

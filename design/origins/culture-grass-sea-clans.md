@@ -1,6 +1,6 @@
 # Grass Sea Clans
 
-*A roof of stars, a road of grass, and neighbors who may be a day’s ride away.*
+*You grew up beneath an open sky, watching riders test their aim and blades at the gathering grounds before the herds moved on.*
 
 *What promise brings you back to the traveling camp?*
 
@@ -9,7 +9,7 @@
 Choose one:
 
 - **Marksmanship 1** and [Read the Quarry](../cards/read-the-quarry.md).
-- **Wilderness 1** and [The Otter’s Bargain](../cards/the-otter-s-bargain.md).
+- **Arms 1** and [Invitation to the Blade](../cards/invitation-to-the-blade.md).
 
 **Type:** Culture
 

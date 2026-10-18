@@ -1,6 +1,6 @@
 # Duelist’s Second
 
-*You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.*
+*You checked straps, carried spare blades and stood ready when a formal duel became a messy fight. You learned both the invitation to a clean exchange and the value of armor when it fails.*
 
 *Which duel should never have happened?*
 
@@ -9,7 +9,7 @@
 Choose one:
 
 - **Arms 1** and [Invitation to the Blade](../cards/invitation-to-the-blade.md).
-- **Influence 1** and [Measured Appeal](../cards/measured-appeal.md).
+- **Armor 1** and [Wear Light Armor](../cards/wear-light-armor.md).
 
 **Type:** Background
 
