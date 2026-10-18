@@ -1,4 +1,4 @@
-# Wild Boar (CV 8)
+# Wild Boar (CV 9)
 
 *A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.*
 
@@ -37,6 +37,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Tusks:** One adjacent creature.
+
+## Maneuvers
 
 ### Lower the Tusks — Maneuver
 

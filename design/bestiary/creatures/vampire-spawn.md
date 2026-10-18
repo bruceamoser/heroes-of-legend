@@ -1,4 +1,4 @@
-# Vampire Spawn (CV 22)
+# Vampire Spawn (CV 24)
 
 *A recently turned predator hides trembling hunger behind a remembered human smile. Its clothing belongs to the life it has not yet abandoned.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Recoil into Shadow | After taking HP damage: move 2 through dim light or darkness; no opportunities. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its outline folds into a seam of darkness and gathers again a few steps away.*
 
 Move up to 2 squares through connected dimly lit or dark squares without provoking. Normal terrain and occupancy rules apply. Does not grant Hidden or allow passage through solid objects.
+
+### Recoil into Shadow
+
+*Its wounded outline stretches into the nearest shadow and runs along the dark edge of the room.*
+
+After an attack resolves and deals HP damage to this creature, move up to 2 squares through connected dimly lit or dark squares without provoking. This creature must survive and remain capable. Pay normal terrain costs and obey occupancy; no passage through solid objects or automatic Hidden. No trigger from a free attack; no attack is granted.
 
 ### General details
 
@@ -79,7 +86,7 @@ Move up to 2 squares through connected dimly lit or dark squares without provoki
 **ID:** creature-vampire-spawn
 
 
-**Category:** Undead · **Role:** Life predator · **CV:** 22
+**Category:** Undead · **Role:** Life predator · **CV:** 24
 
 ### Creature-roll reference
 
@@ -97,13 +104,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.6
+**Utility factor:** 1.7
+
+**Action review (#1279):** U 1.6 → 1.7: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [life taking bite](../../monster-abilities/life-taking-bite.md), [lifeless body](../../monster-abilities/lifeless-body.md), [shadow slip](../../monster-abilities/shadow-slip.md).
+**Ability sources:** [life taking bite](../../monster-abilities/life-taking-bite.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Recoil into Shadow](../../monster-abilities/recoil-into-shadow.md), [shadow slip](../../monster-abilities/shadow-slip.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

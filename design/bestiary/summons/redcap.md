@@ -1,4 +1,4 @@
-# Redcap (CV 21)
+# Redcap (CV 22)
 
 *A small hard-eyed fey wears heavy iron boots and a dark cap that never quite dries.*
 

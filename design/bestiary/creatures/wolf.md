@@ -1,4 +1,4 @@
-# Wolf (CV 8)
+# Wolf (CV 9)
 
 *A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Follow the Pack | After an ally closes on an enemy within 3: move 2 to that ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -46,6 +47,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 1. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Follow the Pack
+
+*One hunter moves and another flows into its wake, tightening the circle without a sound.*
+
+After a visible active ally ends voluntary movement adjacent to a visible enemy within 3 squares of this creature, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. The ally must be conscious and not Paralyzed; an uncommanded summon cannot trigger this. No attack or command is granted, and movement granted by a free attack cannot trigger it.
 
 ### General details
 
@@ -80,7 +87,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-wolf
 
 
-**Category:** Animal · **Role:** Pack hunter · **CV:** 8
+**Category:** Animal · **Role:** Pack hunter · **CV:** 9
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -90,12 +97,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.2 → 1.3: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [pack hunter](../../monster-abilities/pack-hunter.md), [wolf circle the prey](../../monster-abilities/wolf-circle-the-prey.md).
+**Ability sources:** [Follow the Pack](../../monster-abilities/follow-the-pack.md), [pack hunter](../../monster-abilities/pack-hunter.md), [wolf circle the prey](../../monster-abilities/wolf-circle-the-prey.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

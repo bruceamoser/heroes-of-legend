@@ -38,7 +38,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Ride the Current:** While in water, move up to 3 squares using its printed swim speed. Pay normal terrain costs and provoke normally. On dry ground this Maneuver has no effect.
+**Ride the Current — Maneuver:** While in water, move up to 3 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. On dry ground this Maneuver has no effect.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

@@ -1,4 +1,4 @@
-# Barrow Guard (CV 23)
+# Barrow Guard (CV 25)
 
 *An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
 | Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
 | Opportunity Attack | Basic Melee |
 
@@ -44,6 +45,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Shield Hunker
 
 Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+
+### Cover a Companion
+
+*The guardian steps into the line of danger, making the attacker work around its raised guard.*
+
+Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
 
 ### General details
 
@@ -80,7 +87,7 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 **ID:** creature-barrow-guard
 
 
-**Category:** Undead · **Role:** Defender · **CV:** 23
+**Category:** Undead · **Role:** Defender · **CV:** 25
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
@@ -90,12 +97,14 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.25 → 1.35: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [barrow guard plant the shield](../../monster-abilities/barrow-guard-plant-the-shield.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+**Ability sources:** [barrow guard plant the shield](../../monster-abilities/barrow-guard-plant-the-shield.md), [Cover a Companion](../../monster-abilities/cover-a-companion.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

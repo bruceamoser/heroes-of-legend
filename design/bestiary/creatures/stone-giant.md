@@ -1,4 +1,4 @@
-# Stone Giant (CV 33)
+# Stone Giant (CV 37)
 
 *A towering, stone-gray person with long limbs, deliberate hands and clothing marked by carved patterns. Its home and artwork are expressions of memory rather than merely a hoard to defend.*
 
@@ -25,10 +25,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Plant the Weight | On solid ground: Stability 3 until its next turn; highest source only. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Bat Aside the Missile | Before a physical ranged attack: +1 Bane; not against areas. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +56,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
 **Weak defense:** push 5. **Standard defense:** push 4. **Strong defense:** push 2.
+
+### Bat Aside the Missile
+
+*A broad hand or haft meets the incoming missile with the ease of brushing a branch aside.*
+
+Before one physical ranged attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No protection against area attacks; no missile is returned and the attack still resolves.
+
+### Plant the Weight
+
+*It spreads its stance and settles its weight into the ground.*
+
+While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
 
 ### General details
 
@@ -88,7 +102,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-stone-giant
 
 
-**Category:** Giant · **Role:** Artillery brute · **CV:** 33
+**Category:** Giant · **Role:** Artillery brute · **CV:** 37
 
 ### Creature-roll reference
 
@@ -111,12 +125,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.25 → 1.4: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=6.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+**Ability sources:** [Bat Aside the Missile](../../monster-abilities/bat-aside-the-missile.md), [Plant the Weight](../../monster-abilities/brace-ground.md), [driving blow](../../monster-abilities/driving-blow.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

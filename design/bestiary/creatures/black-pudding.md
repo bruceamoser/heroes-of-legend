@@ -1,4 +1,4 @@
-# Black Pudding (CV 23)
+# Black Pudding (CV 25)
 
 *A glossy black mass flows through cracks in masonry, leaving old nails loose in damp holes.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A sticky film clings to boots and joints, slowing each movement with a gritty drag.*
 
 One adjacent creature gains Slowed 1. Once per turn; no immediate damage. This does not destroy equipment, reduce resistance or change inventory permanently.
+
+### Clinging Recoil
+
+*The cut sprays sticky droplets that stretch into threads across the attacker's hands and boots.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
 
 ### General details
 
@@ -73,7 +80,7 @@ One adjacent creature gains Slowed 1. Once per turn; no immediate damage. This d
 **ID:** creature-black-pudding
 
 
-**Category:** Ooze · **Role:** Pursuit controller · **CV:** 23
+**Category:** Ooze · **Role:** Pursuit controller · **CV:** 25
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [corrosive smear](../../monster-abilities/corrosive-smear.md), [hampering strike](../../monster-abilities/hampering-strike.md).
+**Ability sources:** [corrosive smear](../../monster-abilities/corrosive-smear.md), [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [hampering strike](../../monster-abilities/hampering-strike.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

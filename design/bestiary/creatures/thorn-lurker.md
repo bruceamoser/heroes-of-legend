@@ -1,4 +1,4 @@
-# Thorn Lurker (CV 17)
+# Thorn Lurker (CV 20)
 
 *A mobile knot of woody roots and hooked vines, dense enough to resemble an ordinary bramble patch. Its outer stems drag prey toward the heavy root mass at its center.*
 
@@ -24,10 +24,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Weave the Roots | 3 connected difficult ground squares within 3 count as normal until its next turn. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Hook the Retreat | After an enemy voluntarily retreats from adjacent to 2 squares: pull 1. |
+| Barbed Recoil | After adjacent attack deals HP damage: attacker gains Bleeding 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -49,6 +52,24 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Barbed Recoil
+
+*The struck bough bends back, dragging a rake of hooked thorns across the hand that struck it.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Bleeding 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
+
+### Hook the Retreat
+
+*The hooked limb follows the withdrawing foe, catching just as the space opens between them.*
+
+After a visible enemy voluntarily moves from adjacent to this creature and ends that movement exactly 2 squares from it, pull that enemy 1 square toward this creature along a clear path. Apply Stability, terrain costs and normal collision rules. No separate attack damage. Forced movement and movement granted by a free attack cannot trigger this; it is an alternative to spending the Reaction on an opportunity attack.
+
+### Weave the Roots
+
+*Roots braid themselves into firm footholds across the treacherous ground.*
+
+Choose up to 3 connected difficult-terrain ground squares within 3 squares; they count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
 
 ### General details
 
@@ -83,7 +104,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-thorn-lurker
 
 
-**Category:** Plant · **Role:** Ambush controller · **CV:** 17
+**Category:** Plant · **Role:** Ambush controller · **CV:** 20
 
 ### Creature-roll reference
 
@@ -105,12 +126,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.6
+
+**Action review (#1279):** U 1.4 → 1.6: Maneuver allowance +0.05, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=3.298. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [Barbed Recoil](../../monster-abilities/barbed-recoil.md), [drag under](../../monster-abilities/drag-under.md), [Hook the Retreat](../../monster-abilities/hook-the-retreat.md), [Weave the Roots](../../monster-abilities/root-bridge.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

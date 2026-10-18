@@ -1,4 +1,4 @@
-# Oath Devourer (CV 33)
+# Oath Devourer (CV 36)
 
 *A lean fiend with a too-wide mouth and a face that resembles someone the observer has disappointed. It feeds its influence through broken obligations and private bargains.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Reproach the Caster | After taking spell HP damage: hearing caster within 6 gains Frightened 2. |
 | Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
 | Opportunity Attack | Basic Melee |
 
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Spell Screen
 
 Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+
+### Reproach the Caster
+
+*A whispered accusation rides the fading spell back toward the one who shaped it.*
+
+After a spell attack resolves and deals HP damage to this creature, its visible caster within 6 squares gains Frightened 2 of this creature if the caster can hear it. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible; the spell is not canceled.
 
 ### General details
 
@@ -77,7 +84,7 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 **ID:** creature-oath-devourer
 
 
-**Category:** Fiend · **Role:** Mental predator · **CV:** 33
+**Category:** Fiend · **Role:** Mental predator · **CV:** 36
 
 ### Creature-roll reference
 
@@ -98,12 +105,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.6
+
+**Action review (#1279):** U 1.5 → 1.6: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=6.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md), [spell screen](../../monster-abilities/spell-screen.md).
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md), [Reproach the Caster](../../monster-abilities/reproach-the-caster.md), [spell screen](../../monster-abilities/spell-screen.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

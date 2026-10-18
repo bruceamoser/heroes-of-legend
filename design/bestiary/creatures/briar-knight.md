@@ -1,4 +1,4 @@
-# Briar Knight (CV 19)
+# Briar Knight (CV 21)
 
 *A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Barbed Recoil | After adjacent attack deals HP damage: attacker gains Bleeding 1. |
 | Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
 | Opportunity Attack | Basic Melee |
 
@@ -44,6 +45,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Shield Hunker
 
 Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+
+### Barbed Recoil
+
+*The struck bough bends back, dragging a rake of hooked thorns across the hand that struck it.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Bleeding 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
 
 ### General details
 
@@ -76,7 +83,7 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 **ID:** creature-briar-knight
 
 
-**Category:** Fey · **Role:** Defender · **CV:** 19
+**Category:** Fey · **Role:** Defender · **CV:** 21
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
@@ -86,12 +93,14 @@ Before a shield-blockable attack resolves, impose 1 Bane on player attacks this 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.2 → 1.35: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [briar knight root the stance](../../monster-abilities/briar-knight-root-the-stance.md), [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+**Ability sources:** [Barbed Recoil](../../monster-abilities/barbed-recoil.md), [briar knight root the stance](../../monster-abilities/briar-knight-root-the-stance.md), [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 2 squares using its printed swim speed, paying terrain costs. Provokes normally. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

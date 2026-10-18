@@ -1,4 +1,4 @@
-# Fire Giant (CV 52)
+# Fire Giant (CV 56)
 
 *Heat glows through the seams of a master smith's armor, and every tool is large enough to serve as a siege engine.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Bat Aside the Missile | Before a physical ranged attack: +1 Bane; not against areas. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -50,6 +51,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A spray of glowing cinders hangs between the creature and its pursuer.*
 
 One adjacent creature gains Burning 1. Once per turn; no immediate damage. The condition uses normal resistance and decay.
+
+### Bat Aside the Missile
+
+*A broad hand or haft meets the incoming missile with the ease of brushing a branch aside.*
+
+Before one physical ranged attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No protection against area attacks; no missile is returned and the attack still resolves.
 
 ### General details
 
@@ -80,7 +87,7 @@ One adjacent creature gains Burning 1. Once per turn; no immediate damage. The c
 **ID:** creature-fire-giant
 
 
-**Category:** Giant · **Role:** Burning striker · **CV:** 52
+**Category:** Giant · **Role:** Burning striker · **CV:** 56
 
 ### Creature-roll reference
 
@@ -99,13 +106,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.162, O=8.836. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [scatter embers](../../monster-abilities/scatter-embers.md).
+**Ability sources:** [Bat Aside the Missile](../../monster-abilities/bat-aside-the-missile.md), [elemental burn](../../monster-abilities/elemental-burn.md), [scatter embers](../../monster-abilities/scatter-embers.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

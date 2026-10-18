@@ -1,4 +1,4 @@
-# Thorn Queen (CV 32)
+# Thorn Queen (CV 36)
 
 *A regal woodland fey with branchlike antlers and a gown of living leaves and briars. Her authority binds a particular place and its promises, not every creature of the forest.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Weave the Roots | 3 connected difficult ground squares within 3 count as normal until its next turn. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Barbed Recoil | After adjacent attack deals HP damage: attacker gains Bleeding 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -47,6 +49,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Spell:** Provokes when cast beside an enemy.
 
 **Limit:** Grounded creatures only. Terrain lasts until the start of this creature’s next turn; conditions decay normally. No entry damage or repeated attack.
+
+### Barbed Recoil
+
+*The struck bough bends back, dragging a rake of hooked thorns across the hand that struck it.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Bleeding 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
+
+### Weave the Roots
+
+*Roots braid themselves into firm footholds across the treacherous ground.*
+
+Choose up to 3 connected difficult-terrain ground squares within 3 squares; they count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
 
 ### General details
 
@@ -79,7 +93,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-thorn-queen
 
 
-**Category:** Fey · **Role:** Territory controller · **CV:** 32
+**Category:** Fey · **Role:** Territory controller · **CV:** 36
 
 ### Creature-roll reference
 
@@ -101,12 +115,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.7
+
+**Action review (#1279):** U 1.5 → 1.7: Maneuver allowance +0.05, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [root snare](../../monster-abilities/root-snare.md).
+**Ability sources:** [Barbed Recoil](../../monster-abilities/barbed-recoil.md), [Weave the Roots](../../monster-abilities/root-bridge.md), [root snare](../../monster-abilities/root-snare.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

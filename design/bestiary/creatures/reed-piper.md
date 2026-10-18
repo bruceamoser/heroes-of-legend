@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Keep the Rhythm | Hearing ally within 3: reduce Frightened or Dazed 1. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -40,6 +41,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
+
+### Keep the Rhythm
+
+*A familiar rhythm cuts through panic and brings one companion back to the moment.*
+
+One willing ally within 3 squares that can hear it reduces either Frightened or Dazed by 1. Once per turn. This does not recalculate action categories already selected at turn start.
 
 ### General details
 
@@ -82,12 +89,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.4 → 1.45: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=3.298. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md).
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md), [Keep the Rhythm](../../monster-abilities/rousing-beat.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

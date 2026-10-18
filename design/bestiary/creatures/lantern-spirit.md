@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Guide the Light | Brightly light 3 connected squares within 3 until its next turn. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Flicker Aside | After taking HP damage: teleport 1 to a visible empty legal square. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -34,6 +36,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Warning flash
 
 **Target:** One visible creature within 3 squares. **Player defense:** Fortitude. **Damage type:** radiant.
+
+### Flicker Aside
+
+*Its outline gutters like a flame in a draft and catches again just beyond the reaching hand.*
+
+After an attack resolves and deals HP damage to this creature, teleport to a visible empty square within 1 square. This creature must survive and remain capable. The destination must support its footprint and be reachable by an unobstructed straight path; this does not pass through walls or occupied squares. No opportunity attacks from this teleport. No trigger from a free attack; no attack is granted.
+
+### Guide the Light
+
+*A ribbon of lanternlight runs along the path, picking out each stone on the way to shelter.*
+
+Brightly light up to 3 connected squares within 3 squares until the start of this creature's next turn. Requires an unobstructed path from this creature to each square; it may choose unlit squares. Ordinary darkness imposes no Boons or Banes for seeing those squares; cover, concealment and hiding still use the normal rules. This neither reveals Hidden creatures automatically nor penetrates opaque obstacles. Reusing this ability replaces its previous illuminated area.
 
 ### General details
 
@@ -78,12 +92,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.1
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.1 → 1.25: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.702. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [Flicker Aside](../../monster-abilities/flicker-aside.md), [Guide the Light](../../monster-abilities/guide-the-light.md), [lifeless body](../../monster-abilities/lifeless-body.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Storm Giant (CV 54)
+# Storm Giant (CV 58)
 
 *A towering sentinel carries a spear whose metal hums before the weather changes.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Thunderous Answer | After taking HP damage: hearing attacker within 3 gains Deafened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -50,6 +51,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A sharp report rolls through the space like a door slammed by the sky.*
 
 One hearing creature within 2 squares gains Deafened 1. Once per turn; no damage.
+
+### Thunderous Answer
+
+*The blow jars loose a thundercrack that rolls back across the space between them.*
+
+After an attack resolves and deals HP damage to this creature, its visible attacker within 3 squares gains Deafened 2 if it can hear this creature. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. No damage or interruption of the resolved attack.
 
 ### General details
 
@@ -80,7 +87,7 @@ One hearing creature within 2 squares gains Deafened 1. Once per turn; no damage
 **ID:** creature-storm-giant
 
 
-**Category:** Giant · **Role:** Disabler · **CV:** 54
+**Category:** Giant · **Role:** Disabler · **CV:** 58
 
 ### Creature-roll reference
 
@@ -99,13 +106,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=10.044. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [stunning strike](../../monster-abilities/stunning-strike.md), [thunderclap](../../monster-abilities/thunderclap.md).
+**Ability sources:** [stunning strike](../../monster-abilities/stunning-strike.md), [thunderclap](../../monster-abilities/thunderclap.md), [Thunderous Answer](../../monster-abilities/thunderous-answer.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

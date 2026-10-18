@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Plant the Weight | On solid ground: Stability 3 until its next turn; highest source only. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Lock the Frame | Before forced movement on solid ground: Stability 3 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -34,6 +36,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Pebble fist
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Lock the Frame
+
+*The joints grind shut and the body becomes a single weight planted against the shove.*
+
+Before this creature is forcibly moved while on solid ground, gain Stability 3 for that forced movement only. Use the highest source. In a collision chain, declare before its Stability is deducted; prior collision damage still resolves. This does not resist Prone or grapples.
+
+### Plant the Weight
+
+*It spreads its stance and settles its weight into the ground.*
+
+While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
 
 ### General details
 
@@ -78,10 +92,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.1
+**Utility factor:** 1.2
+
+**Action review (#1279):** U 1.1 → 1.2: Maneuver allowance +0.05, Reaction allowance +0.05. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
+
+**Ability sources:** [Plant the Weight](../../monster-abilities/brace-ground.md), [Lock the Frame](../../monster-abilities/lock-the-frame.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Storm Column (CV 35)
+# Storm Column (CV 38)
 
 *A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.*
 
@@ -40,6 +40,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Forked flash:** One visible creature within 6 squares.
 
 **Driving gust:** All creatures in a line 6 from this creature.
+
+## Maneuvers
+
+### Wind Step — Maneuver
+
+*The body uncoils into a ribbon of air and gathers at the edge of the gust.*
+
+Move up to 3 squares using a printed movement mode without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Cannot pass through solid objects or occupied squares.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

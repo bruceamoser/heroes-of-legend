@@ -1,4 +1,4 @@
-# Flesh Golem (CV 29)
+# Flesh Golem (CV 30)
 
 *A body assembled from mismatched remains moves with the caution of someone learning where its hands end.*
 

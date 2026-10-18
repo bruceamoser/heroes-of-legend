@@ -1,4 +1,4 @@
-# Lich — Tomb Sage (CV 45)
+# Lich — Tomb Sage (CV 50)
 
 *A preserved undead scholar with ink-blackened bones, ancient robes and books maintained with obsessive care. Centuries of unfinished research have worn away concern for the living.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Study the Opening | Next attack this turn: 1 additional Bane on its target’s defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Reproach the Caster | After taking spell HP damage: hearing caster within 6 gains Frightened 2. |
 | Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
 | Opportunity Attack | Basic Melee |
 
@@ -45,6 +47,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Spell Screen
 
 Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+
+### Reproach the Caster
+
+*A whispered accusation rides the fading spell back toward the one who shaped it.*
+
+After a spell attack resolves and deals HP damage to this creature, its visible caster within 6 squares gains Frightened 2 of this creature if the caster can hear it. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible; the spell is not canceled.
+
+### Study the Opening
+
+*It waits for a tell in the stance, then turns its attention to the exposed line.*
+
+Its next attack before the end of this turn imposes 1 additional Bane on player defense, or gains 1 Boon when player-controlled. One attack only; no stacking with itself.
 
 ### General details
 
@@ -81,7 +95,7 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 **ID:** creature-tomb-sage
 
 
-**Category:** Undead · **Role:** Arcane villain · **CV:** 45
+**Category:** Undead · **Role:** Arcane villain · **CV:** 50
 
 ### Creature-roll reference
 
@@ -102,12 +116,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.5 → 1.65: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [spell screen](../../monster-abilities/spell-screen.md).
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [Reproach the Caster](../../monster-abilities/reproach-the-caster.md), [spell screen](../../monster-abilities/spell-screen.md), [Study the Opening](../../monster-abilities/watch-the-opening.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

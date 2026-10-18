@@ -1,4 +1,4 @@
-# Goblin Smoke Slinger (CV 9)
+# Goblin Smoke Slinger (CV 10)
 
 *A nimble goblin carrying a sling and clay smoke pots in padded loops. Soot-stained fingers and a scarf over the mouth mark a specialist in covering a crew’s retreat.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -41,6 +42,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Smoke pots
 
 Place heavy cover in up to 3 connected visible squares within 3 squares until the start of this creature’s next turn. Smoke does not block movement or create damage. Creatures completely concealed cannot be individually targeted. Once per scene.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
 
 ### General details
 
@@ -73,7 +80,7 @@ Place heavy cover in up to 3 connected visible squares within 3 squares until th
 **ID:** creature-goblin-smoke-slinger
 
 
-**Category:** Mortal · **Role:** Controller · **CV:** 9
+**Category:** Mortal · **Role:** Controller · **CV:** 10
 
 ### Creature-roll reference
 
@@ -94,10 +101,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
+
+**Ability sources:** [Slip the Rush](../../monster-abilities/slip-the-rush.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Skeleton Giant (CV 28)
+# Skeleton Giant (CV 30)
 
 *A giant's bones rise inside a cage of splintered siege timbers, with old arrowheads rattling in the hollow joints.*
 

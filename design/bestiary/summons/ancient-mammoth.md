@@ -1,4 +1,4 @@
-# Ancient Mammoth (CV 39)
+# Ancient Mammoth (CV 44)
 
 *A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 
@@ -40,6 +40,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Tusk sweep:** Up to two creatures within 2 squares.
 
 **Driving tusk:** One creature within 2 squares.
+
+## Maneuvers
+
+### Plant the Weight — Maneuver
+
+*It spreads its stance and settles its weight into the ground.*
+
+While standing on solid ground, gain Stability 3 until the start of the controller’s next turn. Use the highest source only, never add sources.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

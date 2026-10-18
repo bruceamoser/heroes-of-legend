@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 3 squares in a straight line, paying normal terrain costs. This movement provokes normally.
+Move up to 3 squares in a straight line without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Grants no attack or automatic movement of a rider or held creature.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

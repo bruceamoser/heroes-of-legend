@@ -1,4 +1,4 @@
-# River Serpent (CV 29)
+# River Serpent (CV 33)
 
 *A huge freshwater serpent with a deep muscular body, blunt ridged head and powerful coils. Its size makes a narrow channel or low bank particularly dangerous.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Sound the Depths | Swim 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Coil Against the Pull | Before forced movement against a support: Stability 2 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -49,6 +51,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Coil Against the Pull
+
+*Coils knot and the heavy body locks against the ground before it can be dragged away.*
+
+Before this creature is forcibly moved while touching solid ground or a fixed support, gain Stability 2 for that forced movement only. Use the highest Stability, maximum 3. In a collision chain, declare before its Stability is deducted; this does not prevent prior collision damage. No effect on Prone or grapples.
+
+### Sound the Depths
+
+*It slips beneath the surface with scarcely a ripple.*
+
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
 
 ### General details
 
@@ -83,7 +97,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-river-serpent
 
 
-**Category:** Beast · **Role:** Aquatic controller · **CV:** 29
+**Category:** Beast · **Role:** Aquatic controller · **CV:** 33
 
 ### Creature-roll reference
 
@@ -105,12 +119,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.4 → 1.55: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [Coil Against the Pull](../../monster-abilities/coil-against-the-pull.md), [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Sound the Depths](../../monster-abilities/submerge.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Giant Boar (CV 22)
+# Giant Boar (CV 23)
 
 *A boar with a ridge of iron-gray bristles has tusks polished by years of uprooting saplings and turning stones.*
 

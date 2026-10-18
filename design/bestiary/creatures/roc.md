@@ -1,4 +1,4 @@
-# Roc (CV 43)
+# Roc (CV 47)
 
 *A colossal bird darkens a hillside when it banks, carrying whole trees to a nest above the cloud line.*
 
@@ -23,11 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Wing Step | Fly 2; provokes. |
+| Wing Step | Fly 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Bank Away | After taking ranged HP damage: fly 2; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -44,7 +45,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *A single hard wingbeat carries it toward a better angle.*
 
-Move up to 2 squares using its printed fly speed. Pay normal movement costs and provoke normally. This grants no attack, automatic lift of another creature or hovering exception.
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
+
+### Bank Away
+
+*A struck feather spins loose as the great wings tilt and carry the creature out of the firing line.*
+
+After a ranged attack resolves and deals HP damage to this creature, fly up to 2 squares using its printed fly speed. Pay normal terrain costs, provoke normally and finish in a legal position. This creature must survive and remain capable of flight. No trigger from a free attack; no attack or automatic lift of a held creature.
 
 ### General details
 
@@ -75,7 +82,7 @@ Move up to 2 squares using its printed fly speed. Pay normal movement costs and 
 **ID:** creature-roc
 
 
-**Category:** Beast · **Role:** Holder · **CV:** 43
+**Category:** Beast · **Role:** Holder · **CV:** 47
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.6
+
+**Action review (#1279):** U 1.45 → 1.6: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=9.044. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [wing step](../../monster-abilities/wing-step.md).
+**Ability sources:** [Bank Away](../../monster-abilities/bank-away.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Wing Step](../../monster-abilities/wing-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

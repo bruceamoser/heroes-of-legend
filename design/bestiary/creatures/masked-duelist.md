@@ -1,4 +1,4 @@
-# Masked Duelist (CV 24)
+# Masked Duelist (CV 27)
 
 *An accomplished swordsman in light dueling clothes and a distinctive mask, carrying a finely balanced ordinary blade. Reputation, precision and control of distance define the threat.*
 
@@ -23,11 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Stalking Step | Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden. |
+| Stalking Step | Move 2 to cover or concealment; no opportunity from one chosen enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Turn the Blade | Before an adjacent melee attack: +1 Bane to that attack; held weapon required. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -39,6 +40,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Turn the Blade
+
+*A small turn of the wrist catches the blow on a waiting edge and sends it sliding past.*
+
+Before one adjacent enemy makes a melee attack against this creature, impose 1 Bane on that attack roll. Requires a held melee weapon. Against an NPC attack, grant 1 Boon to the single defense roll instead. Applies to this attack only; it does not grant a counterattack.
+
+### Stalking Step
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
 
 ### General details
 
@@ -71,7 +84,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-masked-duelist
 
 
-**Category:** Mortal · **Role:** Elite striker · **CV:** 24
+**Category:** Mortal · **Role:** Elite striker · **CV:** 27
 
 ### Creature-roll reference
 
@@ -92,12 +105,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.25 → 1.4: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.988, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [stalking step](../../monster-abilities/stalking-step.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Stalking Step](../../monster-abilities/stalking-step.md), [Turn the Blade](../../monster-abilities/turn-the-blade.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

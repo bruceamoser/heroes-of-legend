@@ -1,4 +1,4 @@
-# Spore Shepherd (CV 12)
+# Spore Shepherd (CV 13)
 
 *A walking fungal body with a broad hood, soft pale limbs and golden spore sacs beneath the cap. It spreads a living network through damp abandoned places.*
 
@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Spore Curtain | 3 connected empty squares within 3: partial obstruction until its next turn. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** All creatures in a 3x3-square area centered within 4 squares. **Player defense:** Fortitude. **Damage type:** physical.
 
 **Weak defense:** Poisoned 2. **Standard defense:** Poisoned 1.
+
+### Spore Curtain
+
+*A slow shake of its crown releases a drifting veil of pale spores that hangs between the trunks.*
+
+Fill up to 3 connected empty squares within 3 squares with spores that give partial obstruction until the start of this creature's next turn. Apply 1 Bane when that obstruction lies in an attack's path, following the normal targeting rules. The spores do not grant Hidden or cause a condition or damage. Reusing this ability replaces its previous cloud.
 
 ### General details
 
@@ -70,7 +77,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-spore-shepherd
 
 
-**Category:** Plant · **Role:** Area disabler · **CV:** 12
+**Category:** Plant · **Role:** Area disabler · **CV:** 13
 
 ### Creature-roll reference
 
@@ -91,12 +98,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 2
 
-**Utility factor:** 1.35
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.35 → 1.45: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=2.324. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [venom](../../monster-abilities/venom.md).
+**Ability sources:** [Spore Curtain](../../monster-abilities/spore-curtain.md), [venom](../../monster-abilities/venom.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

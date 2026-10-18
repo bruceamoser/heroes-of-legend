@@ -1,4 +1,4 @@
-# Moon Hart (CV 25)
+# Moon Hart (CV 28)
 
 *A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Warding Light | Ally within 3: reduce Frightened 1; +1 Boon on its next mental defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Sheltering Light | Before an ally within 3 takes attack damage: Physical resistance 2 for that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +45,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Battle Mending
 
 One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
+
+### Sheltering Light
+
+*Light gathers over a companion like overlapping feathers, taking the harsh edge from the impact.*
+
+Before one visible willing ally within 3 squares takes damage from an attack, grant that ally Physical resistance 2 for that attack only. Use the highest matching resistance, not an added reduction; minimum damage rules remain. This does not heal, transfer damage or grant resistance to other types.
+
+### Warding Light
+
+*A warm light settles over one companion like a hand on the shoulder.*
+
+One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
 
 ### General details
 
@@ -77,7 +91,7 @@ One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 H
 **ID:** creature-moon-hart
 
 
-**Category:** Fey · **Role:** Rescuer · **CV:** 25
+**Category:** Fey · **Role:** Rescuer · **CV:** 28
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -87,12 +101,14 @@ One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 H
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.5 → 1.65: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=5.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [battle mending](../../monster-abilities/battle-mending.md), [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [battle mending](../../monster-abilities/battle-mending.md), [driving blow](../../monster-abilities/driving-blow.md), [Sheltering Light](../../monster-abilities/sheltering-light.md), [Warding Light](../../monster-abilities/warding-light.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

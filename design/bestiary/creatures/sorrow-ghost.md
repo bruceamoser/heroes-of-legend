@@ -1,4 +1,4 @@
-# Ghost — Sorrow-bound (CV 23)
+# Ghost — Sorrow-bound (CV 25)
 
 *A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Answering Lament | After taking HP damage: a hearing attacker within 3 gains Frightened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -41,6 +42,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
+
+### Answering Lament
+
+*Its outline shudders with the injury and a grieving note rises from somewhere behind the attacker.*
+
+After an attack resolves and deals HP damage to this creature, one visible attacker within 3 squares that can hear it gains Frightened 2 of this creature. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible.
 
 ### General details
 
@@ -77,7 +84,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-sorrow-ghost
 
 
-**Category:** Spirit · **Role:** Haunter · **CV:** 23
+**Category:** Spirit · **Role:** Haunter · **CV:** 25
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
@@ -87,12 +94,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.55
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.55 → 1.65: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [anchor bound](../../monster-abilities/anchor-bound.md), [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [spectral passage](../../monster-abilities/spectral-passage.md).
+**Ability sources:** [anchor bound](../../monster-abilities/anchor-bound.md), [Answering Lament](../../monster-abilities/answering-lament.md), [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [spectral passage](../../monster-abilities/spectral-passage.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

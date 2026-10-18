@@ -1,4 +1,4 @@
-# Lizardfolk Reedguard (CV 21)
+# Lizardfolk Reedguard (CV 22)
 
 *A broad-tailed guard wears woven reeds over tough scales and carries a spear designed to hold rather than pierce deeply.*
 
@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Sound the Depths | Swim 2; provokes. |
+| Sound the Depths | Swim 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It slips beneath the surface with scarcely a ripple.*
 
-Move up to 2 squares using its printed swim speed, paying terrain costs. Provokes normally. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
 
 ### General details
 
@@ -73,7 +73,7 @@ Move up to 2 squares using its printed swim speed, paying terrain costs. Provoke
 **ID:** creature-lizardfolk-reedguard
 
 
-**Category:** Mortal · **Role:** Holder · **CV:** 21
+**Category:** Mortal · **Role:** Holder · **CV:** 22
 
 ### Creature-roll reference
 
@@ -91,13 +91,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.45 → 1.5: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [submerge](../../monster-abilities/submerge.md).
+**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [Sound the Depths](../../monster-abilities/submerge.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

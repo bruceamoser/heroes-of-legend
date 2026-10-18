@@ -1,4 +1,4 @@
-# Air Elemental (CV 21)
+# Air Elemental (CV 22)
 
 *Dust, leaves and scraps of cloud circle an empty center that turns toward every change in pressure.*
 
@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Wind Step | Move 3; provokes. |
+| Wind Step | Move 3; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *The body uncoils into a ribbon of air and gathers at the edge of the gust.*
 
-Move up to 3 squares using a printed movement mode, paying terrain costs. Provokes normally and cannot pass through solid objects or occupied squares.
+Move up to 3 squares using a printed movement mode without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Cannot pass through solid objects or occupied squares.
 
 ### General details
 
@@ -73,7 +73,7 @@ Move up to 3 squares using a printed movement mode, paying terrain costs. Provok
 **ID:** creature-air-elemental
 
 
-**Category:** Elemental · **Role:** Displacer · **CV:** 21
+**Category:** Elemental · **Role:** Displacer · **CV:** 22
 
 ### CV worksheet
 
@@ -83,13 +83,15 @@ Move up to 3 squares using a printed movement mode, paying terrain costs. Provok
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.45 → 1.5: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [wind step](../../monster-abilities/wind-step.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Wind Step](../../monster-abilities/wind-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

@@ -1,4 +1,4 @@
-# Carrion Rat Swarm (CV 11)
+# Carrion Rat Swarm (CV 12)
 
 *A dense group of oversized scavenging rats with scarred tails, dirty fur and sharp yellow teeth. The swarm behaves as a single hungry mass but occupies a definite patch of ground.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Scatter Before the Blast | Before an area attack: +1 Bane to that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -34,6 +35,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Gnawing edge
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Scatter Before the Blast
+
+*The swarm opens around the incoming sweep, then folds back into a ragged cloud of wings or fur.*
+
+Before an area attack that includes this creature is rolled, impose 1 Bane on that attack. Against an NPC area attack, grant 1 Boon to this creature's defense instead. This protection belongs to the swarm; a player area attack still uses one roll with the worst relevant target modifiers. No movement, new swarm or immunity is granted.
 
 ### General details
 
@@ -68,7 +75,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-carrion-rat-swarm
 
 
-**Category:** Animal · **Role:** Swarm · **CV:** 11
+**Category:** Animal · **Role:** Swarm · **CV:** 12
 
 ### Creature-roll reference
 
@@ -89,12 +96,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.15 → 1.25: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [scatter body](../../monster-abilities/scatter-body.md).
+**Ability sources:** [Scatter Before the Blast](../../monster-abilities/scatter-before-the-blast.md), [scatter body](../../monster-abilities/scatter-body.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

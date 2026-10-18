@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Study the Opening | Next attack this turn: 1 additional Bane on its target’s defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Study the Opening
+
+*It waits for a tell in the stance, then turns its attention to the exposed line.*
+
+Its next attack before the end of this turn imposes 1 additional Bane on player defense, or gains 1 Boon when player-controlled. One attack only; no stacking with itself.
 
 ### General details
 
@@ -91,12 +98,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.2
+
+**Action review (#1279):** U 1.15 → 1.2: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Study the Opening](../../monster-abilities/watch-the-opening.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Giant Constrictor (CV 23)
+# Giant Constrictor (CV 26)
 
 *A thick-bodied serpent carries green water between its overlapping scales, its weight bending young trees as it passes.*
 
@@ -38,7 +38,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Sound the Depths:** Move up to 2 squares using its printed swim speed, paying terrain costs. Provokes normally. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+**Sound the Depths — Maneuver:** Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

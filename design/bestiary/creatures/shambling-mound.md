@@ -1,4 +1,4 @@
-# Shambling Mound (CV 35)
+# Shambling Mound (CV 37)
 
 *A mound of wet vegetation rises around a core of old wood, carrying nesting birds that barely notice its movement.*
 
@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Spore Curtain | 3 connected empty squares within 3: partial obstruction until its next turn. |
 | Weave the Roots | 3 difficult ground squares within 3 become normal until next turn. |
 | Defend | +1 Bane |
 
@@ -44,7 +45,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *Roots braid themselves into firm footholds across the treacherous ground.*
 
-Choose up to 3 connected difficult-terrain ground squares within 3 squares. They count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
+Choose up to 3 connected difficult-terrain ground squares within 3 squares; they count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
+
+### Spore Curtain
+
+*A slow shake of its crown releases a drifting veil of pale spores that hangs between the trunks.*
+
+Fill up to 3 connected empty squares within 3 squares with spores that give partial obstruction until the start of this creature's next turn. Apply 1 Bane when that obstruction lies in an attack's path, following the normal targeting rules. The spores do not grant Hidden or cause a condition or damage. Reusing this ability replaces its previous cloud.
 
 ### General details
 
@@ -75,7 +82,7 @@ Choose up to 3 connected difficult-terrain ground squares within 3 squares. They
 **ID:** creature-shambling-mound
 
 
-**Category:** Plant · **Role:** Holder · **CV:** 35
+**Category:** Plant · **Role:** Holder · **CV:** 37
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.45 → 1.55: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [root bridge](../../monster-abilities/root-bridge.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [root bridge](../../monster-abilities/root-bridge.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Spore Curtain](../../monster-abilities/spore-curtain.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

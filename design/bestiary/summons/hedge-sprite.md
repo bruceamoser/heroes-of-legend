@@ -38,6 +38,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Thorn dart:** One visible creature within 4 squares.
 
+## Maneuvers
+
+### Stalking Step — Maneuver
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.

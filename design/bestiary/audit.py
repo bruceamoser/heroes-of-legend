@@ -145,6 +145,8 @@ for name,roster in scenes:
  row=next((l for l in txt.splitlines() if l.startswith('| '+name+' |')),'')
  expected=sum(cs.get(k,0)*v for k,v in roster.items());need(bool(row) and row.split('|')[3].strip()==str(expected),name+': wrong total')
 need(len(list((R/'summons').glob('*.md')))==sum(map(len,elig.values())),'orphan summon reference')
+from action_coverage import survey, audit as audit_actions
+errors.extend(audit_actions(survey()))
 for err in errors:print(err)
 assert not errors,f'{len(errors)} bestiary issues'
 print(f'{len(cs)} creatures; {attacks_count} attack choices; {len(abilities)-1} monster abilities; {sum(map(len,elig.values()))} player references.')

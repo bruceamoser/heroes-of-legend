@@ -1,4 +1,4 @@
-# Wyvern (CV 27)
+# Wyvern (CV 31)
 
 *A lean two-legged drake folds its wings close while its hooked tail searches the air behind it.*
 
@@ -24,11 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Wing Step | Fly 2; provokes. |
+| Wing Step | Fly 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -51,7 +52,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *A single hard wingbeat carries it toward a better angle.*
 
-Move up to 2 squares using its printed fly speed. Pay normal movement costs and provoke normally. This grants no attack, automatic lift of another creature or hovering exception.
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -82,7 +89,7 @@ Move up to 2 squares using its printed fly speed. Pay normal movement costs and 
 **ID:** creature-wyvern
 
 
-**Category:** Dragon · **Role:** Debuffer · **CV:** 27
+**Category:** Dragon · **Role:** Debuffer · **CV:** 31
 
 ### Creature-roll reference
 
@@ -101,13 +108,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.45 → 1.65: Maneuver allowance +0.05, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [venom](../../monster-abilities/venom.md), [wing step](../../monster-abilities/wing-step.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Tail Retort](../../monster-abilities/tail-retort.md), [venom](../../monster-abilities/venom.md), [Wing Step](../../monster-abilities/wing-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

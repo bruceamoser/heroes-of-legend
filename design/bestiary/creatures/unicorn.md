@@ -1,4 +1,4 @@
-# Unicorn (CV 24)
+# Unicorn (CV 25)
 
 *A pale horn rises from the brow of an alert forest horse, reflecting stars even under a closed canopy.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Sheltering Light | Before an ally within 3 takes attack damage: Physical resistance 2 for that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A warm light settles over one companion like a hand on the shoulder.*
 
 One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
+
+### Sheltering Light
+
+*Light gathers over a companion like overlapping feathers, taking the harsh edge from the impact.*
+
+Before one visible willing ally within 3 squares takes damage from an attack, grant that ally Physical resistance 2 for that attack only. Use the highest matching resistance, not an added reduction; minimum damage rules remain. This does not heal, transfer damage or grant resistance to other types.
 
 ### General details
 
@@ -75,7 +82,7 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 **ID:** creature-unicorn
 
 
-**Category:** Fey · **Role:** Displacer · **CV:** 24
+**Category:** Fey · **Role:** Displacer · **CV:** 25
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=5.951. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [warding light](../../monster-abilities/warding-light.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Sheltering Light](../../monster-abilities/sheltering-light.md), [warding light](../../monster-abilities/warding-light.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

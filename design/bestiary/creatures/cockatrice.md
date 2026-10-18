@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Wing Step | Fly 2; provokes. |
+| Wing Step | Fly 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *A single hard wingbeat carries it toward a better angle.*
 
-Move up to 2 squares using its printed fly speed. Pay normal movement costs and provoke normally. This grants no attack, automatic lift of another creature or hovering exception.
+Move up to 2 squares using its printed fly speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. This grants no attack, automatic lift of another creature or hovering exception.
 
 ### General details
 
@@ -91,13 +91,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.6
+**Utility factor:** 1.65
+
+**Action review (#1279):** U 1.6 → 1.65: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.162. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [numbing strike](../../monster-abilities/numbing-strike.md), [wing step](../../monster-abilities/wing-step.md).
+**Ability sources:** [numbing strike](../../monster-abilities/numbing-strike.md), [Wing Step](../../monster-abilities/wing-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

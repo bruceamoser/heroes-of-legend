@@ -1,4 +1,4 @@
-# Harbor Siren (CV 16)
+# Harbor Siren (CV 17)
 
 *An aquatic fey with a humanlike face, webbed hands and a voice that carries clearly over water. Its relationship with a harbor may be older than the people now living there.*
 
@@ -37,6 +37,24 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Undertow song:** One hearing creature within 5 squares. Spell; provokes beside an enemy.
+
+## Maneuvers
+
+### Sound the Depths — Maneuver
+
+*It slips beneath the surface with scarcely a ripple.*
+
+Move up to 2 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Water grants only the cover or concealment the scene actually provides; no automatic Hidden.
+
+Use only as part of a command; no independent activity.
+
+### Keep the Rhythm — Maneuver
+
+*A familiar rhythm cuts through panic and brings one companion back to the moment.*
+
+One willing ally within 3 squares that can hear it reduces either Frightened or Dazed by 1. Once per turn. This does not recalculate action categories already selected at turn start.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

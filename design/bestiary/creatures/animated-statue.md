@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Lock the Frame | Before forced movement on solid ground: Stability 3 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its body settles into the posture of a piece of the surrounding stonework.*
 
 Gain 1 additional Bane against the next player attack before its next turn, or 1 defense Boon when player-controlled. Ends if it voluntarily moves. Does not make it Hidden, alter its resistance or stack with itself.
+
+### Lock the Frame
+
+*The joints grind shut and the body becomes a single weight planted against the shove.*
+
+Before this creature is forcibly moved while on solid ground, gain Stability 3 for that forced movement only. Use the highest source. In a collision chain, declare before its Stability is deducted; prior collision damage still resolves. This does not resist Prone or grapples.
 
 ### General details
 
@@ -87,13 +94,15 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0, Reaction allowance +0.05. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=4.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [stone still](../../monster-abilities/stone-still.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Lock the Frame](../../monster-abilities/lock-the-frame.md), [stone still](../../monster-abilities/stone-still.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

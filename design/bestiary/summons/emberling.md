@@ -38,6 +38,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Coal touch:** One adjacent creature.
 
+## Maneuvers
+
+### Stoke the Core — Maneuver
+
+*Coals brighten inside its body and a hot breath spills between teeth or iron seams.*
+
+Add 1 Fire damage to its next damaging Main Action attack before the end of the controller’s turn. Apply it once per target damaged by that attack, using the normal mixed-damage resistance and minimum rules. This grants no extra attack or Burning. Repeated uses do not add more Fire damage.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** None to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.

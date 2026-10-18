@@ -1,4 +1,4 @@
-# Skeleton Horse (CV 15)
+# Skeleton Horse (CV 16)
 
 *Moonlight shines through the ribs of a skeletal charger whose tack still bears a funeral procession's faded ribbons.*
 
@@ -23,11 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Driving Stride | Move 3 straight; provokes. |
+| Driving Stride | Move 3 straight; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Fall to Pieces | Before physical attack: Physical resistance 3 for it; become Prone afterward. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -44,7 +45,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *Hooves hammer a straight course through dust and broken grass.*
 
-Move up to 3 squares in a straight line, paying normal terrain costs. This movement provokes normally.
+Move up to 3 squares in a straight line without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Grants no attack or automatic movement of a rider or held creature.
+
+### Fall to Pieces
+
+*The skeleton lets its joints collapse, spilling loose bones beneath the passing blow.*
+
+Before a physical attack against this creature is rolled, gain Physical resistance 3 against that attack only. Use the highest matching resistance. After the attack resolves, it becomes Prone if still present, even if it was already Prone. This does not move its occupied footprint or reassemble it; standing costs the normal 2 movement.
 
 ### General details
 
@@ -79,7 +86,7 @@ Move up to 3 squares in a straight line, paying normal terrain costs. This movem
 **ID:** creature-skeleton-horse
 
 
-**Category:** Undead · **Role:** Displacer · **CV:** 15
+**Category:** Undead · **Role:** Displacer · **CV:** 16
 
 ### CV worksheet
 
@@ -89,13 +96,15 @@ Move up to 3 squares in a straight line, paying normal terrain costs. This movem
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.3 → 1.45: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=3.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [grave gallop](../../monster-abilities/grave-gallop.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [Fall to Pieces](../../monster-abilities/fall-to-pieces.md), [Driving Stride](../../monster-abilities/grave-gallop.md), [lifeless body](../../monster-abilities/lifeless-body.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

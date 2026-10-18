@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 2 squares, paying normal terrain costs. This movement provokes normally and does not grant Hidden.
+Move up to 2 squares without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

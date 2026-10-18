@@ -1,4 +1,4 @@
-# Clay Golem (CV 35)
+# Clay Golem (CV 36)
 
 *A hulking figure of fired earth bears thumbprints the size of bowls and writing pressed into its chest before baking.*
 

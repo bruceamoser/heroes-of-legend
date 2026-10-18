@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Stoke the Core | Next damaging Main Action attack this turn: +1 Fire damage per target. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** fire.
 
 **Weak defense:** Burning 2. **Standard defense:** Burning 1.
+
+### Stoke the Core
+
+*Coals brighten inside its body and a hot breath spills between teeth or iron seams.*
+
+Add 1 Fire damage to its next damaging Main Action attack before the end of this turn. Apply it once per target damaged by that attack, using the normal mixed-damage resistance and minimum rules. This grants no extra attack or Burning. Repeated uses do not add more Fire damage.
 
 ### General details
 
@@ -82,12 +89,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.25 → 1.35: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md).
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [Stoke the Core](../../monster-abilities/stoke-the-core.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

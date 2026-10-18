@@ -1,4 +1,4 @@
-# Banshee (CV 50)
+# Banshee (CV 53)
 
 *A translucent mourner carries the ruined splendor of a funeral dress, with a voice that seems to come from every empty room.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Answering Lament | After taking HP damage: a hearing attacker within 3 gains Frightened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The sound arrives from the wrong corner as the figure drifts out of reach.*
 
 Move up to 2 squares using a printed movement mode without provoking. Normal terrain and occupancy rules apply; no passage through solid objects or automatic Hidden.
+
+### Answering Lament
+
+*Its outline shudders with the injury and a grieving note rises from somewhere behind the attacker.*
+
+After an attack resolves and deals HP damage to this creature, one visible attacker within 3 squares that can hear it gains Frightened 2 of this creature. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible.
 
 ### General details
 
@@ -77,7 +84,7 @@ Move up to 2 squares using a printed movement mode without provoking. Normal ter
 **ID:** creature-banshee
 
 
-**Category:** Undead · **Role:** Disabler · **CV:** 50
+**Category:** Undead · **Role:** Disabler · **CV:** 53
 
 ### Creature-roll reference
 
@@ -95,13 +102,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.7
+
+**Action review (#1279):** U 1.6 → 1.7: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=11.901. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [echo step](../../monster-abilities/echo-step.md), [lifeless body](../../monster-abilities/lifeless-body.md), [stunning strike](../../monster-abilities/stunning-strike.md).
+**Ability sources:** [Answering Lament](../../monster-abilities/answering-lament.md), [echo step](../../monster-abilities/echo-step.md), [lifeless body](../../monster-abilities/lifeless-body.md), [stunning strike](../../monster-abilities/stunning-strike.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

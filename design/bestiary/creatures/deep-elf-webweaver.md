@@ -1,4 +1,4 @@
-# Deep Elf Webweaver (CV 13)
+# Deep Elf Webweaver (CV 14)
 
 *Fine silk covers this underground artisan's sleeves, while pale fingers test every strand like a musician tuning strings.*
 
@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Silken Scuttle | Move 3 on supported web; no opportunity from one chosen visible enemy. |
 | Lay a Silken Path | Up to 2 difficult squares within 3 become normal until next turn. |
 | Defend | +1 Bane |
 
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *A strong thread snaps between two handholds and draws tight.*
 
 Choose up to 2 connected difficult-terrain squares within 3 squares on a surface it can see. They count as normal terrain until its next turn. Cannot bridge empty space, remove a wall or change occupied-square rules.
+
+### Silken Scuttle
+
+*Its feet drum across its own silk, drawing the whole web tight as it changes its hunting angle.*
+
+Move up to 3 squares along existing web on a supporting surface, using its printed movement modes, without provoking from one visible enemy chosen before moving. Treat those web-covered squares as normal terrain for this movement only. Other opportunities apply. It cannot create a bridge, cross an occupied square or carry a grappled creature through this movement.
 
 ### General details
 
@@ -73,7 +80,7 @@ Choose up to 2 connected difficult-terrain squares within 3 squares on a surface
 **ID:** creature-deep-elf-webweaver
 
 
-**Category:** Mortal · **Role:** Debuffer · **CV:** 13
+**Category:** Mortal · **Role:** Debuffer · **CV:** 14
 
 ### Creature-roll reference
 
@@ -91,13 +98,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=2.653. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [venom](../../monster-abilities/venom.md), [web bridge](../../monster-abilities/web-bridge.md).
+**Ability sources:** [Silken Scuttle](../../monster-abilities/silken-scuttle.md), [venom](../../monster-abilities/venom.md), [web bridge](../../monster-abilities/web-bridge.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

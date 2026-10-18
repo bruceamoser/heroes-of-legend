@@ -1,55 +1,46 @@
-# Player’s Book — discipline expansion review proof
+# Player’s Book — creature action synchronization proof
 
-Reviewed October 18, 2026 for issue #1277. This proof contains the new ability and
-origin proposals for Bruce’s review; it is not a new starter-kit release. Published
-v16.2.0 downloads remain unchanged.
+Reviewed October 18, 2026 for issue #1279. This is a review proof beyond the
+published v16.3.0 starter kit; no new release is published by this work.
 
 ## Artifact and coverage
 
-- 250 US Letter pages; 94,704,673 bytes.
-- 678 included source records, all 419 abilities and 44 equipment entries.
-- All 498 rolled outcome lines, 280 wound results and 73 summoned forms.
-- Six complete example heroes; four printable sheets on pages 240–243.
-- 153 art assets; 131 unique illustration placements, including 24 open-space placements.
-- No missing summaries, outcomes, source text, images or links detected by the PDF audit.
+- 259 US Letter pages; 94,769,221 bytes.
+- 678 source records, all 419 player abilities, 44 equipment entries and 73 summons.
+- All 498 rolled outcome lines and 280 wound results remain present.
+- Six complete example heroes; four printable character sheets on pages 249–252.
+- 153 art assets and 131 unique illustration placements, including 24 open-space placements.
 
-SHA-256: `f5c36829ad309297492a694146862f1221064ae2bccb6c453236d9697d11683e`.
+SHA-256: `daacfda4006a3e147808bb216887e6ca80aeaecd74ff46b3923cdb8cf99dc403`.
 
 ## Checks performed
 
-The source passes authoring, discipline coverage, bestiary, artwork and repository
-audits. Both books compile with Typst 0.15.1. PDF checks cover source freshness,
-named entries, outcomes, wound text, grants, links, art and page bounds. Export
-compression preserves extracted text, source artwork resolution and alpha masks.
+Rebuilt with Typst 0.15.1 after the creature action review. The authoring and PDF
+audits pass source freshness, names, summaries, outcomes, wound text, origin grants,
+internal links, art and bounds. Export optimization preserves extracted text,
+source artwork resolution and alpha masks.
 
-The 62 additions are 27 Maneuvers, 31 Reactions and four Main Actions, bringing
-paid shared options to 173 Main Actions, 60 Maneuvers, 60 Reactions and 18 Passives.
-The baseline survey detects 55 missing tier/action cells, or 62 when nominal
-rank-1 secondary requirements are excluded from higher-tier coverage. Both counts
-are now zero. Every discipline has culture and background entry routes. All twelve
-origin pairs selected by the six example heroes remain available.
+55 summon profiles changed: 37 content/organization changes and 18 CV/title-only
+updates. Reviewed Maneuvers use their explicit command package and controller-turn
+expiry. Shared movement techniques retain the correct movement mode, terrain and
+occupancy limits and protect only against their named opportunity source.
+Summons retain no Reactions, opportunities, independent activity or healing.
 
-Reviewed an 84-page contact set covering the changed origins, shared ability catalog
-and tier indexes. This exposed short spill pages in the opening directories and
-Novice index. Reduced table cell padding from 5 to 3.5 pt and index spacing from
-3 to 1.5 pt, preserving text size. The final proof is 250 pages rather than the
-initial 254-page expansion. Existing card borders, headers and type sizes remain.
+The complete-rule parity check caught missing Shambling Advance setup in the
+Crypt Ghoul and Zombie Shambler profiles. Both now grant the printed 1 attack Boon
+when their Main command permits the approach and attack in the same controller
+turn. It does not grant another attack or command. The check now compares full
+reviewed Maneuver rules with player-facing Boons and controller timing, not names.
 
-Inspected representative pages enlarged: 17, 19, 81, 91, 103, 111, 114, 122, 128,
-129, 131, 132, 245 and 246. Re-rendered the final shield hook, cold-impact reaction
-and Novice index after their last corrections. No clipped cards, overlapping text,
-missing icons or unreadable rank numerals were observed in the inspected pages.
-
-The mechanical read corrected an adjacent pull that could not move its target:
-Hook with the Shield now pushes away and adds Prone on Strong. Still the Avalanche
-is declared before its triggering effect’s damage or displacement. Borrowed sight
-cannot use an idle summon as a free lookout. Shared rules reminders are omitted
-from the printed cards using the established renderer convention.
+Inspected final player pages 166, 180, 190 and 222: ghoul, spider, lantern guide and
+zombie profiles. Also checked ancestor and mammoth examples during layout review.
+Narrative, targets, effects and limits fit their reference cards without clipping.
 
 ## Boundaries
 
-These checks verify content assembly and presentation. They do not certify the
-new combinations’ encounter balance. See [the coverage review](../discipline-coverage.md)
-for comparisons and focused table tests. Foundry import and behavior updates are
-tracked in [Foundry #171](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/171).
-This digital edition is not printer-certified PDF/X.
+The player ability catalog and learned-card indexes remain at 419. Creature CV
+identifies the DA entry; it does not rate a commanded form without its Reactions.
+These checks verify content and presentation, not new encounter balance.
+
+See the [complete review](../bestiary/action-coverage.md) and
+[Foundry #175](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/175).

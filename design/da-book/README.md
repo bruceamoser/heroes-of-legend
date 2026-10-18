@@ -9,7 +9,7 @@ and the Great Library visual style.
 - `manuscript/`: practical DA guidance, the rescue adventure, hazards and worksheets.
 - `source-manifest.json`: chapter order and shared catalog sources.
 - `../bestiary/creatures/`: all 192 creature entries.
-- `../monster-abilities/`: 93 separate monster abilities.
+- `../monster-abilities/`: 126 separate monster abilities.
 - `../bestiary/summons/`: 73 player-facing summoned forms.
 - `../rules/languages.md`: shared language reference; `manuscript/04a-languages.md` adds worldbuilding guidance.
 - `../rules/conditions.md` and `../rules/wounds.md`: table references and 280 wound results.

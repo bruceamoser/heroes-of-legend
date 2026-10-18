@@ -1,4 +1,4 @@
-# Veteran Captain (CV 27)
+# Veteran Captain (CV 29)
 
 *A seasoned officer with maintained armor, visible campaign scars and a weapon worn smooth at the grip. Authority rests on experience and the ability to bring people home alive.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -36,6 +37,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Commanding cut
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Cover a Companion
+
+*The guardian steps into the line of danger, making the attacker work around its raised guard.*
+
+Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
 
 ### General details
 
@@ -68,7 +75,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-veteran-captain
 
 
-**Category:** Mortal · **Role:** Leader · **CV:** 27
+**Category:** Mortal · **Role:** Leader · **CV:** 29
 
 ### Creature-roll reference
 
@@ -89,12 +96,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=4.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [rally](../../monster-abilities/rally.md), [veteran captain close the line](../../monster-abilities/veteran-captain-close-the-line.md).
+**Ability sources:** [Cover a Companion](../../monster-abilities/cover-a-companion.md), [rally](../../monster-abilities/rally.md), [veteran captain close the line](../../monster-abilities/veteran-captain-close-the-line.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

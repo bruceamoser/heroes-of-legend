@@ -1,4 +1,4 @@
-# Centaur Scout (CV 17)
+# Centaur Scout (CV 18)
 
 *A lean centaur carries a short field bow and a roll of boundary maps secured behind the shoulders.*
 
@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Measured Step | Move 2; provokes. |
+| Measured Step | Move 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It chooses its footing, shifting just far enough to clear the worst angle.*
 
-Move up to 2 squares, paying normal terrain costs. This movement provokes normally and does not grant Hidden.
+Move up to 2 squares without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden.
 
 ### General details
 
@@ -73,7 +73,7 @@ Move up to 2 squares, paying normal terrain costs. This movement provokes normal
 **ID:** creature-centaur-scout
 
 
-**Category:** Mortal · **Role:** Ranged controller · **CV:** 17
+**Category:** Mortal · **Role:** Ranged controller · **CV:** 18
 
 ### Creature-roll reference
 
@@ -91,13 +91,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=4.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [measured step](../../monster-abilities/measured-step.md).
+**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [Measured Step](../../monster-abilities/measured-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

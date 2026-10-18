@@ -1,4 +1,4 @@
-# Plague Zombie (CV 11)
+# Plague Zombie (CV 12)
 
 *Wet burial cloth clings to a swollen corpse, and clouds of grave flies escape whenever its jaw falls open.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The creature exhales a breath of wet earth and spoiled meat.*
 
 One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
+
+### Clinging Recoil
+
+*A ruined hand closes on cloth and flesh even as the blow tears through the corpse.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
 
 ### General details
 
@@ -75,7 +82,7 @@ One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
 **ID:** creature-plague-zombie
 
 
-**Category:** Undead · **Role:** Debuffer · **CV:** 11
+**Category:** Undead · **Role:** Debuffer · **CV:** 12
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ One adjacent breathing creature gains Poisoned 1. Once per turn; no damage.
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=2.162. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [foul exhalation](../../monster-abilities/foul-exhalation.md), [lifeless body](../../monster-abilities/lifeless-body.md), [venom](../../monster-abilities/venom.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [foul exhalation](../../monster-abilities/foul-exhalation.md), [lifeless body](../../monster-abilities/lifeless-body.md), [venom](../../monster-abilities/venom.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

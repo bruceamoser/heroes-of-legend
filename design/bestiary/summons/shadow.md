@@ -1,4 +1,4 @@
-# Shadow (CV 17)
+# Shadow (CV 19)
 
 *A person's shadow moves without a person, lengthening toward warm hands and uncovered lanterns.*
 

@@ -1,4 +1,4 @@
-# Earth Elemental (CV 36)
+# Earth Elemental (CV 37)
 
 *A walking knot of stone carries veins of bright mineral through a body that sheds gravel with every step.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Lock the Frame | Before forced movement on solid ground: Stability 3 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It spreads its stance and settles its weight into the ground.*
 
 While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
+
+### Lock the Frame
+
+*The joints grind shut and the body becomes a single weight planted against the shove.*
+
+Before this creature is forcibly moved while on solid ground, gain Stability 3 for that forced movement only. Use the highest source. In a collision chain, declare before its Stability is deducted; prior collision damage still resolves. This does not resist Prone or grapples.
 
 ### General details
 
@@ -75,7 +82,7 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 **ID:** creature-earth-elemental
 
 
-**Category:** Elemental · **Role:** Displacer · **CV:** 36
+**Category:** Elemental · **Role:** Displacer · **CV:** 37
 
 ### CV worksheet
 
@@ -85,13 +92,15 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0, Reaction allowance +0.05. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.162, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [driving blow](../../monster-abilities/driving-blow.md), [Lock the Frame](../../monster-abilities/lock-the-frame.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

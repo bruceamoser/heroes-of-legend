@@ -1,4 +1,4 @@
-# Earth Elemental (CV 36)
+# Earth Elemental (CV 37)
 
 *A walking knot of stone carries veins of bright mineral through a body that sheds gravel with every step.*
 

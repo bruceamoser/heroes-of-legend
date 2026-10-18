@@ -1,4 +1,4 @@
-# Walking Thorn (CV 17)
+# Walking Thorn (CV 19)
 
 *A lean tangle of briars walks on knotted roots, collecting strips of cloth and scraps of paper on its hooks.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Barbed Recoil | After adjacent attack deals HP damage: attacker gains Bleeding 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Brittle hooks fall from its branches and catch across the path.*
 
 Place difficult terrain in up to 3 connected empty ground squares within 2 squares until its next turn. No entry damage; ordinary clearing after the fight removes the thorns.
+
+### Barbed Recoil
+
+*The struck bough bends back, dragging a rake of hooked thorns across the hand that struck it.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Bleeding 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
 
 ### General details
 
@@ -71,7 +78,7 @@ Place difficult terrain in up to 3 connected empty ground squares within 2 squar
 **ID:** creature-walking-thorn
 
 
-**Category:** Plant · **Role:** Attrition striker · **CV:** 17
+**Category:** Plant · **Role:** Attrition striker · **CV:** 19
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.45
+
+**Action review (#1279):** U 1.3 → 1.45: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.404, O=3.000. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [rending blow](../../monster-abilities/rending-blow.md), [scatter thorns](../../monster-abilities/scatter-thorns.md).
+**Ability sources:** [Barbed Recoil](../../monster-abilities/barbed-recoil.md), [rending blow](../../monster-abilities/rending-blow.md), [scatter thorns](../../monster-abilities/scatter-thorns.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

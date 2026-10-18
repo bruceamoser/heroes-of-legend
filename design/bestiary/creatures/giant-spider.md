@@ -24,6 +24,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Silken Scuttle | Move 3 on supported web; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -49,6 +50,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Slowed 3. **Standard defense:** Slowed 2. **Strong defense:** Slowed 1.
 
 **Limit:** An adjacent helper or the target may spend Main to remove 1 of this Slowed. Fire damage to the target removes all of this web’s Slowed after damage resolves. Otherwise decay normally.
+
+### Silken Scuttle
+
+*Its feet drum across its own silk, drawing the whole web tight as it changes its hunting angle.*
+
+Move up to 3 squares along existing web on a supporting surface, using its printed movement modes, without provoking from one visible enemy chosen before moving. Treat those web-covered squares as normal terrain for this movement only. Other opportunities apply. It cannot create a bridge, cross an occupied square or carry a grappled creature through this movement.
 
 ### General details
 
@@ -91,12 +98,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.45
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.45 → 1.5: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=3.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [venom](../../monster-abilities/venom.md), [web cast](../../monster-abilities/web-cast.md).
+**Ability sources:** [Silken Scuttle](../../monster-abilities/silken-scuttle.md), [venom](../../monster-abilities/venom.md), [web cast](../../monster-abilities/web-cast.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

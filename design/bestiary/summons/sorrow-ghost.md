@@ -1,4 +1,4 @@
-# Ghost — Sorrow-bound (CV 23)
+# Ghost — Sorrow-bound (CV 25)
 
 *A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.*
 
@@ -41,6 +41,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Accusation:** One visible creature within 5 squares. Spell; provokes beside an enemy.
+
+## Maneuvers
 
 ### Spectral Passage — Maneuver
 

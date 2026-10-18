@@ -1,4 +1,4 @@
-# Marsh Crocodile (CV 17)
+# Marsh Crocodile (CV 18)
 
 *An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Coil Against the Pull | Before forced movement against a support: Stability 2 for that movement. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -50,6 +51,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Coil Against the Pull
+
+*Claws dig into the bank and the tail braces beneath its heavy body as the pull takes hold.*
+
+Before this creature is forcibly moved while touching solid ground or a fixed support, gain Stability 2 for that forced movement only. Use the highest Stability, maximum 3. In a collision chain, declare before its Stability is deducted; this does not prevent prior collision damage. No effect on Prone or grapples.
 
 ### General details
 
@@ -84,7 +91,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-marsh-crocodile
 
 
-**Category:** Animal · **Role:** Ambusher · **CV:** 17
+**Category:** Animal · **Role:** Ambusher · **CV:** 18
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
@@ -94,12 +101,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.25 → 1.35: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [marsh crocodile brace the tail](../../monster-abilities/marsh-crocodile-brace-the-tail.md).
+**Ability sources:** [Coil Against the Pull](../../monster-abilities/coil-against-the-pull.md), [drag under](../../monster-abilities/drag-under.md), [marsh crocodile brace the tail](../../monster-abilities/marsh-crocodile-brace-the-tail.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

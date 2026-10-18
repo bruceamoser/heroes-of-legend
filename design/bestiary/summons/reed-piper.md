@@ -38,6 +38,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Bewildering note:** One creature within 5 squares that can hear it. Spell; provokes beside an enemy.
 
+## Maneuvers
+
+### Keep the Rhythm — Maneuver
+
+*A familiar rhythm cuts through panic and brings one companion back to the moment.*
+
+One willing ally within 3 squares that can hear it reduces either Frightened or Dazed by 1. Once per turn. This does not recalculate action categories already selected at turn start.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** 1 Boon to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.

@@ -1,4 +1,4 @@
-# Hobgoblin Longbow (CV 16)
+# Hobgoblin Longbow (CV 17)
 
 *A weatherproof bowcase and neatly bundled arrows mark a soldier accustomed to waiting out bad weather and worse orders.*
 
@@ -23,7 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Measured Step | Move 2; provokes. |
+| Measured Step | Move 2; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -44,7 +44,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It chooses its footing, shifting just far enough to clear the worst angle.*
 
-Move up to 2 squares, paying normal terrain costs. This movement provokes normally and does not grant Hidden.
+Move up to 2 squares without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden.
 
 ### General details
 
@@ -73,7 +73,7 @@ Move up to 2 squares, paying normal terrain costs. This movement provokes normal
 **ID:** creature-hobgoblin-longbow
 
 
-**Category:** Mortal · **Role:** Ranged controller · **CV:** 16
+**Category:** Mortal · **Role:** Ranged controller · **CV:** 17
 
 ### Creature-roll reference
 
@@ -91,13 +91,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.3 → 1.35: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [measured step](../../monster-abilities/measured-step.md).
+**Ability sources:** [hampering strike](../../monster-abilities/hampering-strike.md), [Measured Step](../../monster-abilities/measured-step.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

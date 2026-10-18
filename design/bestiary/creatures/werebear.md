@@ -1,4 +1,4 @@
-# Werebear (CV 27)
+# Werebear (CV 29)
 
 *A broad bear-headed guardian has a woodcutter's patient stance and a voice that grows rough whenever fear takes over.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Shelter the Young | After an enemy closes on an ally within 3: move 2 to the ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +46,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *The creature shifts between a familiar face and its hybrid shape.*
 
 Change between humanoid and hybrid appearance. Keep current HP, attributes, resistances, conditions and printed movement; no healing or refreshed resources. Natural attacks require hybrid form; held weapon attacks and Basic Melee remain available in humanoid form. Equipment remains carried or worn where it fits. No infection or extra inventory capacity.
+
+### Shelter the Young
+
+*It turns at the cry beside it, bringing its whole body between the danger and the one it protects.*
+
+After a visible enemy ends voluntary movement adjacent to a willing ally within 3 squares, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. This movement grants no attack or automatic protection; its body obstructs only the squares it actually occupies. Movement granted by a free attack cannot trigger it.
 
 ### General details
 
@@ -75,7 +82,7 @@ Change between humanoid and hybrid appearance. Keep current HP, attributes, resi
 **ID:** creature-werebear
 
 
-**Category:** Mortal · **Role:** Displacer · **CV:** 27
+**Category:** Mortal · **Role:** Displacer · **CV:** 29
 
 ### Creature-roll reference
 
@@ -93,13 +100,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [change guise](../../monster-abilities/change-guise.md), [driving blow](../../monster-abilities/driving-blow.md).
+**Ability sources:** [change guise](../../monster-abilities/change-guise.md), [driving blow](../../monster-abilities/driving-blow.md), [Shelter the Young](../../monster-abilities/shelter-the-young.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

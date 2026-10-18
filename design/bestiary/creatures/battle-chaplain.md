@@ -24,6 +24,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Warding Light | Ally within 3: reduce Frightened 1; +1 Boon on its next mental defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -39,6 +40,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Battle Mending
 
 One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 3, Standard 6, Strong 9 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 9, Standard 6, Strong 3 Life damage. Same cost; no healing riders.
+
+### Warding Light
+
+*A warm light settles over one companion like a hand on the shoulder.*
+
+One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
 
 ### General details
 
@@ -92,12 +99,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.5
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.5 → 1.55: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [battle mending](../../monster-abilities/battle-mending.md).
+**Ability sources:** [battle mending](../../monster-abilities/battle-mending.md), [Warding Light](../../monster-abilities/warding-light.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

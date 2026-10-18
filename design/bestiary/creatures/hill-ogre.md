@@ -1,4 +1,4 @@
-# Hill Ogre (CV 19)
+# Hill Ogre (CV 20)
 
 *A heavily built giant with thick hands, blunt features and clothing pieced together from sacks and hides. Its strength is formidable, but its needs and fears are often straightforward.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Bat Aside the Missile | Before a physical ranged attack: +1 Bane; not against areas. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -48,6 +49,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
 **Weak defense:** push 4. **Standard defense:** push 3. **Strong defense:** push 1.
+
+### Bat Aside the Missile
+
+*A broad hand or haft meets the incoming missile with the ease of brushing a branch aside.*
+
+Before one physical ranged attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its defense instead. No protection against area attacks; no missile is returned and the attack still resolves.
 
 ### General details
 
@@ -82,7 +89,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-hill-ogre
 
 
-**Category:** Giant · **Role:** Brute · **CV:** 19
+**Category:** Giant · **Role:** Brute · **CV:** 20
 
 ### Creature-roll reference
 
@@ -104,12 +111,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.2 → 1.3: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.596, O=5.008. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [hill ogre threatening roar](../../monster-abilities/hill-ogre-threatening-roar.md).
+**Ability sources:** [Bat Aside the Missile](../../monster-abilities/bat-aside-the-missile.md), [driving blow](../../monster-abilities/driving-blow.md), [hill ogre threatening roar](../../monster-abilities/hill-ogre-threatening-roar.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

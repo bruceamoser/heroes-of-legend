@@ -1,4 +1,4 @@
-# Moon Hart (CV 25)
+# Moon Hart (CV 28)
 
 *A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.*
 
@@ -41,6 +41,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 ### Battle Mending — Main Action
 
 One adjacent living ally; free hand (the hart’s antlers provide this). The controller pays 3 HP first, bypassing resistance, and must remain above 0. The hart does not also pay this cost. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same controller-paid cost.
+
+## Maneuvers
+
+### Warding Light — Maneuver
+
+*A warm light settles over one companion like a hand on the shoulder.*
+
+One willing ally within 3 squares reduces Frightened by 1. Until this creature’s next turn, that ally also has 1 Boon on its next defense against a mental attack; for an NPC ally, impose 1 Bane on that player attack. Consumed even if canceled; does not stack with itself.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

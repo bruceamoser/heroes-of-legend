@@ -1,4 +1,4 @@
-# Bronze Dragon (CV 80)
+# Bronze Dragon (CV 90)
 
 *Salt has darkened the ridges of a bronze dragon whose curiosity draws it toward ships, arguments and unfinished songs.*
 
@@ -24,11 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Ride the Current | Swim 3; provokes. |
+| Ride the Current | Swim 3; no opportunity from one chosen visible enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Tail Retort | After adjacent attack deals HP damage: push attacker 2; Stability applies. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -53,7 +54,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *It catches a moving seam of water and lets the current carry its weight.*
 
-While in water, move up to 3 squares using its printed swim speed. Pay normal terrain costs and provoke normally. On dry ground this Maneuver has no effect.
+While in water, move up to 3 squares using its printed swim speed without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. On dry ground this Maneuver has no effect.
+
+### Tail Retort
+
+*The dragon twists with the blow and its heavy tail sweeps across the attacker's footing.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, push that attacker 2 squares directly away. This creature must survive and remain capable. Apply Stability, terrain costs and normal collision damage; no separate attack damage. Cannot trigger from a free attack or another retaliatory effect.
 
 ### General details
 
@@ -84,7 +91,7 @@ While in water, move up to 3 squares using its printed swim speed. Pay normal te
 **ID:** creature-bronze-dragon
 
 
-**Category:** Dragon · **Role:** Sound disruptor · **CV:** 80
+**Category:** Dragon · **Role:** Sound disruptor · **CV:** 90
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.8
+
+**Action review (#1279):** U 1.6 → 1.8: Maneuver allowance +0.05, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=13.787. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [deafening strike](../../monster-abilities/deafening-strike.md), [driving blow](../../monster-abilities/driving-blow.md), [read the current](../../monster-abilities/read-the-current.md).
+**Ability sources:** [deafening strike](../../monster-abilities/deafening-strike.md), [driving blow](../../monster-abilities/driving-blow.md), [Ride the Current](../../monster-abilities/read-the-current.md), [Tail Retort](../../monster-abilities/tail-retort.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

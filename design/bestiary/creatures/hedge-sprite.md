@@ -23,10 +23,13 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Stalking Step | Move 2 to cover or concealment; no opportunity from one chosen enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Flicker Aside | After taking HP damage: teleport 1 to a visible empty legal square. |
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -34,6 +37,24 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Thorn dart
 
 **Target:** One visible creature within 4 squares. **Player defense:** Agility. **Damage type:** physical.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
+
+### Flicker Aside
+
+*Its outline gutters like a flame in a draft and catches again just beyond the reaching hand.*
+
+After an attack resolves and deals HP damage to this creature, teleport to a visible empty square within 1 square. This creature must survive and remain capable. The destination must support its footprint and be reachable by an unobstructed straight path; this does not pass through walls or occupied squares. No opportunity attacks from this teleport. No trigger from a free attack; no attack is granted.
+
+### Stalking Step
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
 
 ### General details
 
@@ -76,10 +97,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.1
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.1 → 1.25: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
+
+**Ability sources:** [Flicker Aside](../../monster-abilities/flicker-aside.md), [Slip the Rush](../../monster-abilities/slip-the-rush.md), [Stalking Step](../../monster-abilities/stalking-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

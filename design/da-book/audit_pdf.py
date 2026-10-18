@@ -25,7 +25,8 @@ if len(markers)!=73 or len({x['key'] for x in markers})!=73:errors.append('Missi
 if len(placed)!=len(m['assets']) or len({x['path'] for x in placed})!=len(placed):errors.append('Missing or repeated placed illustration')
 card_pages={}
 for edge in layout['card-edge']:card_pages.setdefault(edge['key'],{}).setdefault(edge['edge'],[]).append(edge['page'])
-if len(card_pages)!=358:errors.append(f'Expected 358 complete card boundaries, found {len(card_pages)}')
+expected_cards=m['creatures']+m['monster_abilities']+m['summons']
+if len(card_pages)!=expected_cards:errors.append(f'Expected {expected_cards} complete card boundaries, found {len(card_pages)}')
 for key,edges in card_pages.items():
  if len(edges.get('start',[]))!=1 or len(edges.get('end',[]))!=1 or edges['start']!=edges['end']:errors.append('Card split across pages or missing boundary: '+key)
 outline=[]

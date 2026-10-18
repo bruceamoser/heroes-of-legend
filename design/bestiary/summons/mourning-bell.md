@@ -1,4 +1,4 @@
-# Mourning Bell (CV 49)
+# Mourning Bell (CV 52)
 
 *A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.*
 

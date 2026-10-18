@@ -36,7 +36,7 @@ Main command: Main + Maneuver; Maneuver command: Maneuver + movement. One comman
 
 ## Maneuvers
 
-**Weave the Roots:** Choose up to 3 connected difficult-terrain ground squares within 3 squares. They count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
+**Weave the Roots — Maneuver:** Choose up to 3 connected difficult-terrain ground squares within 3 squares; they count as normal terrain until the start of the controller’s next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
 
 **Defend:** Gain 1 Boon to defenses until the controller’s next turn; repeated Defend does not stack.
 

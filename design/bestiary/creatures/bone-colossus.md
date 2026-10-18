@@ -1,4 +1,4 @@
-# Skeleton Colossus (CV 43)
+# Skeleton Colossus (CV 46)
 
 *A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Fall to Pieces | Before physical attack: Physical resistance 3 for it; become Prone afterward. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -39,6 +40,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
 **Weak defense:** Push each 4. **Standard defense:** Push each 2.
+
+### Fall to Pieces
+
+*The skeleton lets its joints collapse, spilling loose bones beneath the passing blow.*
+
+Before a physical attack against this creature is rolled, gain Physical resistance 3 against that attack only. Use the highest matching resistance. After the attack resolves, it becomes Prone if still present, even if it was already Prone. This does not move its occupied footprint or reassemble it; standing costs the normal 2 movement.
 
 ### General details
 
@@ -77,7 +84,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-bone-colossus
 
 
-**Category:** Undead · **Role:** Siege body · **CV:** 43
+**Category:** Undead · **Role:** Siege body · **CV:** 46
 
 **Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
@@ -87,12 +94,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 2
 
-**Utility factor:** 1.25
+**Utility factor:** 1.35
+
+**Action review (#1279):** U 1.25 → 1.35: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=11.901. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [bone colossus set the frame](../../monster-abilities/bone-colossus-set-the-frame.md), [lifeless body](../../monster-abilities/lifeless-body.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+**Ability sources:** [bone colossus set the frame](../../monster-abilities/bone-colossus-set-the-frame.md), [Fall to Pieces](../../monster-abilities/fall-to-pieces.md), [lifeless body](../../monster-abilities/lifeless-body.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

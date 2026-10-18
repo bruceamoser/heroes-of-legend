@@ -1,4 +1,4 @@
-# Bandit Bow (CV 9)
+# Bandit Bow (CV 10)
 
 *A lightly armored robber with a hunting bow, spare string and clothing chosen to blend into roadside cover. Their confidence depends on distance and a prepared exit.*
 
@@ -23,11 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
-| Stalking Step | Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden. |
+| Stalking Step | Move 2 to cover or concealment; no opportunity from one chosen enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Slip the Rush | After an enemy voluntarily closes: move 1; no opportunity from that enemy. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -37,6 +38,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
 
 **Target:** One visible creature within 8 squares. **Player defense:** Agility. **Damage type:** physical.
+
+### Slip the Rush
+
+*As the pursuer lunges into reach, it ducks sideways through the space the rush left open.*
+
+After a visible enemy ends voluntary movement adjacent to this creature, move up to 1 square without provoking from that enemy. Other opportunity attacks and normal terrain costs apply. This movement grants no attack; it cannot trigger from forced movement or movement granted by a free attack.
+
+### Stalking Step
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
 
 ### General details
 
@@ -69,7 +82,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-bandit-bow
 
 
-**Category:** Mortal · **Role:** Artillery · **CV:** 9
+**Category:** Mortal · **Role:** Artillery · **CV:** 10
 
 ### Creature-roll reference
 
@@ -90,12 +103,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.1
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.1 → 1.25: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=3.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [stalking step](../../monster-abilities/stalking-step.md).
+**Ability sources:** [Slip the Rush](../../monster-abilities/slip-the-rush.md), [Stalking Step](../../monster-abilities/stalking-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

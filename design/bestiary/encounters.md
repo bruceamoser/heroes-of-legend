@@ -47,6 +47,12 @@ reference fight; healer access is a separate scenario axis.
 | 1.10–1.25 | One situational advantage: range, movement, modest displacement, defenses |
 | 1.30–1.45 | Strong control, several useful options, flight with offense, or an ambush package |
 | 1.50–1.65 | Healing, repeatable disabling pressure, alternate area damage, or major combined utility |
+| 1.70–1.85 | A major existing package plus a distinctive Reaction or useful Maneuver added in the action review |
+
+The [creature action review](action-coverage.md) records the changes to these estimates.
+Its increments count the strongest changed Maneuver and Reaction, not every alternate
+choice as if it could be used simultaneously. No base damage, HP, defenses or party
+budget changes accompany that review.
 
 Values are intentionally visible judgments. They are not derived probabilities.
 The audit cannot prove that Dazed 2 is worth a particular multiplier. A dragon’s
@@ -83,11 +89,11 @@ free hands when testing, rather than invented optimized stat lines.
 
 | Scene | Roster | CV total | What makes it an adventure |
 |---|---|---:|---|
-| The false toll | 3 Road Bandits + 1 Bandit Bow | 36 | A blocked cart is a bluff. The bow has a tree perch; expose the bluff or reach the perch. |
-| The opened barrow | 3 Skeleton Sentries + 2 Skeleton Archers | 33 | Return the stolen burial token to stop the watch. Keep the entrance wide enough to avoid a doorway lock. |
-| Tracks around the camp | 4 Wolves | 32 | The camp blocks the route to a den. Move the camp or escort the pack past it. Pack Hunter makes isolation matter. |
-| The bridge has an owner | 1 Bridge Troll + 1 Road Bandit + 1 Bandit Bow | 42 | Toll collectors have an uneasy partnership. Fire and the drop can dominate the CV; offer another crossing. |
-| The watch will not stand down | 2 Shield Soldiers + 1 Grave Cultist | 38 | Soldiers believe the cultist has legal authority. Show the forged orders; otherwise test layered defensive Boons. |
+| The false toll | 3 Road Bandits + 1 Bandit Bow | 37 | A blocked cart is a bluff. The bow has a tree perch; expose the bluff or reach the perch. |
+| The opened barrow | 3 Skeleton Sentries + 2 Skeleton Archers | 38 | Return the stolen burial token to stop the watch. Keep the entrance wide enough to avoid a doorway lock. |
+| Tracks around the camp | 4 Wolves | 36 | The camp blocks the route to a den. Move the camp or escort the pack past it. Pack Hunter makes isolation matter. |
+| The bridge has an owner | 1 Bridge Troll + 1 Road Bandit + 1 Bandit Bow | 43 | Toll collectors have an uneasy partnership. Fire and the drop can dominate the CV; offer another crossing. |
+| The watch will not stand down | 2 Shield Soldiers + 1 Grave Cultist | 43 | Soldiers believe the cultist has legal authority. Show the forged orders; otherwise test layered defensive Boons. |
 
 Totals are checked against the roster by the audit. An encounter slightly below or
 above the seed is useful; do not add filler merely to hit the integer exactly.

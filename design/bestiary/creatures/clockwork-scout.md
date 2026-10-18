@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Roll Away | Move 2 straight; no opportunities; normal terrain and occupancy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -34,6 +35,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Needle
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Roll Away
+
+*The goblin drops a shoulder, tumbles across the rubble and springs up beyond the answering blade.*
+
+Move up to 2 squares in a straight line without provoking opportunity attacks. Pay normal terrain costs from the 2-square allowance. Normal occupied-square restrictions apply.
 
 ### General details
 
@@ -78,12 +85,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.2
+
+**Action review (#1279):** U 1.15 → 1.2: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.057. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [Roll Away](../../monster-abilities/roll-away.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

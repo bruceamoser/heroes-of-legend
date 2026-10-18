@@ -1,4 +1,4 @@
-# Plague Zombie (CV 11)
+# Plague Zombie (CV 12)
 
 *Wet burial cloth clings to a swollen corpse, and clouds of grave flies escape whenever its jaw falls open.*
 

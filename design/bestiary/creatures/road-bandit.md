@@ -23,6 +23,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Stalking Step | Move 2 to cover or concealment; no opportunity from one chosen enemy. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -34,6 +35,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Roadside cut
 
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Stalking Step
+
+*It folds into the broken light, leaving only a leaf moving where it stood.*
+
+Move up to 2 squares without provoking from one visible enemy chosen before moving, ending in a square with cover or concealment from that enemy. Pay normal terrain costs and provoke normally from other enemies. Does not grant Hidden; a separate Hide action still needs concealment and a roll when uncertain.
 
 ### General details
 
@@ -87,10 +94,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.0
+**Utility factor:** 1.05
+
+**Action review (#1279):** U 1 → 1.05: Maneuver allowance +0.05, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
+
+**Ability sources:** [Stalking Step](../../monster-abilities/stalking-step.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

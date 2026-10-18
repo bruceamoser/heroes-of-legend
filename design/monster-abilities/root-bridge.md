@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Choose up to 3 connected difficult-terrain ground squares within 3 squares. They count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
+Choose up to 3 connected difficult-terrain ground squares within 3 squares; they count as normal terrain until its next turn. Requires soil or living vegetation; cannot bridge empty space or bypass occupied squares.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

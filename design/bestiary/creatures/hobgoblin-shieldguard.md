@@ -1,4 +1,4 @@
-# Hobgoblin Shieldguard (CV 20)
+# Hobgoblin Shieldguard (CV 22)
 
 *A disciplined soldier carries a rectangular shield painted with the names of former squadmates.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
 | Shield Hunker | +1 Bane to blockable attacks; see details. |
 | Opportunity Attack | Basic Melee |
 
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 ### Shield Hunker
 
 Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane on player attacks it can block until the start of its next turn. The DA judges blockability. Stacks with Defend through normal Boon/Bane rules, not with another activation of itself.
+
+### Cover a Companion
+
+*The guardian steps into the line of danger, making the attacker work around its raised guard.*
+
+Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
 
 ### General details
 
@@ -71,7 +78,7 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 **ID:** creature-hobgoblin-shieldguard
 
 
-**Category:** Mortal · **Role:** Displacer · **CV:** 20
+**Category:** Mortal · **Role:** Displacer · **CV:** 22
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.4 → 1.5: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=3.653. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+**Ability sources:** [Cover a Companion](../../monster-abilities/cover-a-companion.md), [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

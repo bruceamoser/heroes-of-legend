@@ -41,6 +41,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Web cast:** One visible creature within 5 squares. An adjacent helper or the target may spend Main to remove 1 of this Slowed. Fire damage to the target removes all of this web’s Slowed after damage resolves. Otherwise decay normally.
 
+## Maneuvers
+
+### Silken Scuttle — Maneuver
+
+*Its feet drum across its own silk, drawing the whole web tight as it changes its hunting angle.*
+
+Move up to 3 squares along existing web on a supporting surface, using its printed movement modes, without provoking from one visible enemy chosen before moving. Treat those web-covered squares as normal terrain for this movement only. Other opportunities apply. It cannot create a bridge, cross an occupied square or carry a grappled creature through this movement.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** None to attack; Brawn, one adjacent target; Weak attack 2, Standard 3, Strong 5 physical damage. No specialty riders. No opportunity Reaction.

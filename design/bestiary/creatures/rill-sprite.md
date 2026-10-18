@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Flicker Aside | After taking HP damage: teleport 1 to a visible empty legal square. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +39,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One visible creature within 3 squares. **Player defense:** Brawn. **Damage type:** physical.
 
 **Weak defense:** Pull 2. **Standard defense:** Pull 1.
+
+### Flicker Aside
+
+*Its outline gutters like a flame in a draft and catches again just beyond the reaching hand.*
+
+After an attack resolves and deals HP damage to this creature, teleport to a visible empty square within 1 square. This creature must survive and remain capable. The destination must support its footprint and be reachable by an unobstructed straight path; this does not pass through walls or occupied squares. No opportunity attacks from this teleport. No trigger from a free attack; no attack is granted.
 
 ### General details
 
@@ -80,12 +87,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.15
+**Utility factor:** 1.25
+
+**Action review (#1279):** U 1.15 → 1.25: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=1.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [drag under](../../monster-abilities/drag-under.md).
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [Flicker Aside](../../monster-abilities/flicker-aside.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Walking Furnace (CV 29)
+# Walking Furnace (CV 34)
 
 *A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.*
 
@@ -24,10 +24,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Stoke the Core | Next damaging Main Action attack this turn: +1 Fire damage per target. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Heated Hide | After adjacent attack deals HP damage: attacker gains Burning 1; not from free attacks. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -45,6 +47,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
 **Limit:** Cannot use this attack on consecutive turns, regardless of result.
+
+### Stoke the Core
+
+*Coals brighten inside its body and a hot breath spills between teeth or iron seams.*
+
+Add 1 Fire damage to its next damaging Main Action attack before the end of this turn. Apply it once per target damaged by that attack, using the normal mixed-damage resistance and minimum rules. This grants no extra attack or Burning. Repeated uses do not add more Fire damage.
+
+### Heated Hide
+
+*The struck scales flare, and a lash of heat follows the retreating blade.*
+
+After an adjacent attacker deals HP damage to this creature, spend Reaction to apply Burning 1 to that attacker. It is a condition, not a free attack, and cannot trigger this ability in return. No trigger when the incoming action is itself a free attack. Summoned forms never receive this Reaction.
 
 ### General details
 
@@ -81,7 +95,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-walking-furnace
 
 
-**Category:** Construct · **Role:** Area artillery · **CV:** 29
+**Category:** Construct · **Role:** Area artillery · **CV:** 34
 
 **Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
@@ -91,12 +105,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.55
+**Utility factor:** 1.8
+
+**Action review (#1279):** U 1.55 → 1.8: Maneuver allowance +0.1, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.596, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [breath](../../monster-abilities/breath.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [breath](../../monster-abilities/breath.md), [Heated Hide](../../monster-abilities/heated-hide.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Stoke the Core](../../monster-abilities/stoke-the-core.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

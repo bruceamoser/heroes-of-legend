@@ -1,4 +1,4 @@
-# Icebound Warden (CV 19)
+# Icebound Warden (CV 23)
 
 *A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Lay the Rime | 3 connected empty ground squares within 3: difficult terrain until its next turn. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Splintering Rime | After adjacent attack deals HP damage: attacker gains Freezing 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -38,6 +40,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** cold.
 
 **Weak defense:** Freezing 2. **Standard defense:** Freezing 1.
+
+### Splintering Rime
+
+*Cracked ice bursts outward in a glittering spray that freezes across the attacker's skin.*
+
+After an adjacent attacker's attack resolves and deals HP damage to this creature, apply Freezing 1 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This is a condition, not another attack.
+
+### Lay the Rime
+
+*It sweeps a frozen hand across the ground, leaving raised crusts of ice that catch at hurried feet.*
+
+Make up to 3 connected empty ground squares within 3 squares difficult terrain for everyone until the start of this creature's next turn. Requires a supporting surface. No entry damage, automatic fall or bridge over empty space. Reusing this ability replaces its previous patch.
 
 ### General details
 
@@ -72,7 +86,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-icebound-warden
 
 
-**Category:** Elemental · **Role:** Cold defender · **CV:** 19
+**Category:** Elemental · **Role:** Cold defender · **CV:** 23
 
 **Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
@@ -82,12 +96,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.25
+**Utility factor:** 1.5
+
+**Action review (#1279):** U 1.25 → 1.5: Maneuver allowance +0.1, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=4.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md).
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [Lay the Rime](../../monster-abilities/lay-the-rime.md), [Splintering Rime](../../monster-abilities/splintering-rime.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

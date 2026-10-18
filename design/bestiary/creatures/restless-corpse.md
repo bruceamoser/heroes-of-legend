@@ -1,4 +1,4 @@
-# Zombie Shambler (CV 8)
+# Zombie Shambler (CV 9)
 
 *A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Shambling Advance | Move 2 toward living prey; difficult ground costs 1; next attack against it +1 Bane. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Clinging Recoil | After adjacent attack deals HP damage: attacker gains Slowed 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -40,6 +42,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+### Clinging Recoil
+
+*A ruined hand closes on cloth and flesh even as the blow tears through the corpse.*
+
+After an adjacent attacker’s attack resolves and deals HP damage to this creature, apply Slowed 2 to that attacker. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. This grants no grapple, extra damage or equipment destruction.
+
+### Shambling Advance
+
+*The corpse lurches after the nearest warm body, dragging its ruined feet without ever looking away.*
+
+Move up to 2 squares toward a visible living creature within 6 squares; its next attack against that creature before turn end imposes 1 additional Bane on the player defense. For a player-controlled creature, gain 1 attack Boon instead. It must end closer to that creature than it began. For this movement only, treat difficult ground as normal; pay other costs and provoke normally. One attack only; repeated uses do not stack. This grants no attack and cannot be used while movement is prevented.
 
 ### General details
 
@@ -76,7 +90,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-restless-corpse
 
 
-**Category:** Undead · **Role:** Blocker · **CV:** 8
+**Category:** Undead · **Role:** Blocker · **CV:** 9
 
 **Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Ordinary attack difficulty; riders and positioning carry the threat.
 
@@ -86,12 +100,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 1
 
-**Utility factor:** 1.35
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.35 → 1.55: Maneuver allowance +0.1, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=5.596, O=1.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [Clinging Recoil](../../monster-abilities/clinging-recoil.md), [lifeless body](../../monster-abilities/lifeless-body.md), [seizing limbs](../../monster-abilities/seizing-limbs.md), [Shambling Advance](../../monster-abilities/shambling-advance.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

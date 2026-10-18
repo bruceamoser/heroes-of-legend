@@ -1,4 +1,4 @@
-# Marsh Crocodile (CV 17)
+# Marsh Crocodile (CV 18)
 
 *An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.*
 
@@ -40,6 +40,8 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 **Bank drag:** One adjacent creature.
 
 **Locking jaws:** One adjacent creature. The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
+
+## Maneuvers
 
 ### Brace the Tail — Maneuver
 

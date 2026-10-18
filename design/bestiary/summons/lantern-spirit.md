@@ -40,6 +40,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Warning flash:** One visible creature within 3 squares.
 
+## Maneuvers
+
+### Guide the Light — Maneuver
+
+*A ribbon of lanternlight runs along the path, picking out each stone on the way to shelter.*
+
+Brightly light up to 3 connected squares within 3 squares until the start of the controller’s next turn. Requires an unobstructed path from this creature to each square; it may choose unlit squares. Ordinary darkness imposes no Boons or Banes for seeing those squares; cover, concealment and hiding still use the normal rules. This neither reveals Hidden creatures automatically nor penetrates opaque obstacles. Reusing this ability replaces its previous illuminated area.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.

@@ -1,4 +1,4 @@
-# Owlbear (CV 26)
+# Owlbear (CV 27)
 
 *A heavy feathered predator combines a hooked beak, broad shoulders and a surprisingly delicate nest-building instinct.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Shelter the Young | After an enemy closes on an ally within 3: move 2 to the ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -52,6 +53,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It lowers its weight and makes the space in front of it suddenly too small.*
 
 Push one adjacent creature 1 square. Apply Stability and normal collision rules. Once per turn; no separate damage.
+
+### Shelter the Young
+
+*It turns at the cry beside it, bringing its whole body between the danger and the one it protects.*
+
+After a visible enemy ends voluntary movement adjacent to a willing ally within 3 squares, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. This movement grants no attack or automatic protection; its body obstructs only the squares it actually occupies. Movement granted by a free attack cannot trigger it.
 
 ### General details
 
@@ -82,7 +89,7 @@ Push one adjacent creature 1 square. Apply Stability and normal collision rules.
 **ID:** creature-owlbear
 
 
-**Category:** Beast · **Role:** Attrition striker · **CV:** 26
+**Category:** Beast · **Role:** Attrition striker · **CV:** 27
 
 ### Creature-roll reference
 
@@ -101,13 +108,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [driving blow](../../monster-abilities/driving-blow.md), [rending blow](../../monster-abilities/rending-blow.md).
+**Ability sources:** [barrel through](../../monster-abilities/barrel-through.md), [driving blow](../../monster-abilities/driving-blow.md), [rending blow](../../monster-abilities/rending-blow.md), [Shelter the Young](../../monster-abilities/shelter-the-young.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

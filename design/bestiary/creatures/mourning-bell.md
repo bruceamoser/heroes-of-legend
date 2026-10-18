@@ -1,4 +1,4 @@
-# Mourning Bell (CV 49)
+# Mourning Bell (CV 52)
 
 *A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.*
 
@@ -27,6 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Answering Lament | After taking HP damage: a hearing attacker within 3 gains Frightened 2. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -40,6 +41,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
+
+### Answering Lament
+
+*Its outline shudders with the injury and a grieving note rises from somewhere behind the attacker.*
+
+After an attack resolves and deals HP damage to this creature, one visible attacker within 3 squares that can hear it gains Frightened 2 of this creature. This creature must survive and remain capable. No trigger from a free attack or another retaliatory effect. Frightened applies only while this creature is perceptible.
 
 ### General details
 
@@ -74,7 +81,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-mourning-bell
 
 
-**Category:** Spirit · **Role:** Area controller · **CV:** 49
+**Category:** Spirit · **Role:** Area controller · **CV:** 52
 
 **Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
@@ -84,12 +91,14 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.7
+
+**Action review (#1279):** U 1.6 → 1.7: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=2.404, O=9.306. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md).
+**Ability sources:** [Answering Lament](../../monster-abilities/answering-lament.md), [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,4 +1,4 @@
-# Ogre Hookhand (CV 25)
+# Ogre Hookhand (CV 27)
 
 *A quarry ogre carries a crane hook on a haft, with work scars crossing enormous hands.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Hook the Retreat | After an enemy voluntarily retreats from adjacent to 2 squares: pull 1. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -52,6 +53,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It spreads its stance and settles its weight into the ground.*
 
 While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
+
+### Hook the Retreat
+
+*The hooked limb follows the withdrawing foe, catching just as the space opens between them.*
+
+After a visible enemy voluntarily moves from adjacent to this creature and ends that movement exactly 2 squares from it, pull that enemy 1 square toward this creature along a clear path. Apply Stability, terrain costs and normal collision rules. No separate attack damage. Forced movement and movement granted by a free attack cannot trigger this; it is an alternative to spending the Reaction on an opportunity attack.
 
 ### General details
 
@@ -82,7 +89,7 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 **ID:** creature-ogre-hookhand
 
 
-**Category:** Giant · **Role:** Position hunter · **CV:** 25
+**Category:** Giant · **Role:** Position hunter · **CV:** 27
 
 ### Creature-roll reference
 
@@ -101,13 +108,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=5.894. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [dragging strike](../../monster-abilities/dragging-strike.md).
+**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [dragging strike](../../monster-abilities/dragging-strike.md), [Hook the Retreat](../../monster-abilities/hook-the-retreat.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

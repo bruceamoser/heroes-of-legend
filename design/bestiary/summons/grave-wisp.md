@@ -1,4 +1,4 @@
-# Grave Wisp (CV 6)
+# Grave Wisp (CV 7)
 
 *A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame.*
 
@@ -41,6 +41,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Cold spark:** One visible creature within 3 squares.
+
+## Maneuvers
+
+### Guide the Light — Maneuver
+
+*A ribbon of lanternlight runs along the path, picking out each stone on the way to shelter.*
+
+Brightly light up to 3 connected squares within 3 squares until the start of the controller’s next turn. Requires an unobstructed path from this creature to each square; it may choose unlit squares. Ordinary darkness imposes no Boons or Banes for seeing those squares; cover, concealment and hiding still use the normal rules. This neither reveals Hidden creatures automatically nor penetrates opaque obstacles. Reusing this ability replaces its previous illuminated area.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

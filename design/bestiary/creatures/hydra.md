@@ -1,4 +1,4 @@
-# Hydra (CV 54)
+# Hydra (CV 59)
 
 *Several long necks rise from a low swamp body, each head tasting a different current of air.*
 
@@ -29,6 +29,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Second Head Watches | When an enemy within 2 starts a provoking action: Basic Melee before it resolves. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -54,6 +55,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *It spreads its stance and settles its weight into the ground.*
 
 While standing on solid ground, gain Stability 3 until its next turn. Use the highest source only, never add sources.
+
+### Second Head Watches
+
+*While one head snaps forward, another turns toward the hand reaching for a spell or weapon.*
+
+When a visible enemy within 2 squares starts an action that normally provokes an opportunity attack, make one free Basic Melee attack against it before the action resolves. Spend the Reaction. The 2-square reach applies only to this Reaction; the provoking action continues if its actor remains capable. No specialty attack or free-attack chain; cannot trigger from a free attack or its granted movement. This grants no extra Reaction and is an alternative to the normal adjacent opportunity attack.
 
 ### General details
 
@@ -84,7 +91,7 @@ While standing on solid ground, gain Stability 3 until its next turn. Use the hi
 **ID:** creature-hydra
 
 
-**Category:** Beast · **Role:** Holder · **CV:** 54
+**Category:** Beast · **Role:** Holder · **CV:** 59
 
 ### Creature-roll reference
 
@@ -103,13 +110,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 2
 
-**Utility factor:** 1.6
+**Utility factor:** 1.75
+
+**Action review (#1279):** U 1.6 → 1.75: Maneuver allowance +0, Reaction allowance +0.15. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.596, O=13.787. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [driving blow](../../monster-abilities/driving-blow.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+**Ability sources:** [brace ground](../../monster-abilities/brace-ground.md), [driving blow](../../monster-abilities/driving-blow.md), [Second Head Watches](../../monster-abilities/second-head-watches.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

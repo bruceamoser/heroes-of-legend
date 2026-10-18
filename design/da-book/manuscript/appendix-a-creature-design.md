@@ -85,8 +85,9 @@ the defense distribution. Use the creature's printed target expectation and refe
 attack for O; do not add its attack attribute to a player's defense probability.
 
 The two regeneration turns are an assumption, not a prediction of fight length.
-The current U rubric ranges from 1 for simple damage to 1.50–1.65 for substantial
-combined utility, healing or repeated disabling pressure. Those values are judgments,
+The current U rubric starts at 1 for simple damage, with 1.50–1.65 for substantial
+combined utility, healing or repeated disabling pressure. A major package with
+useful Maneuvers and Reactions may reach 1.70–1.85. Those values are judgments,
 not proven prices for conditions. Keep your assumptions with your own creature
 notes so you can revisit them after play.
 

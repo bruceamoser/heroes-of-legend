@@ -1,4 +1,4 @@
-# Icebound Warden (CV 19)
+# Icebound Warden (CV 23)
 
 *A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.*
 
@@ -37,6 +37,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 
 **Rime fist:** One adjacent creature.
+
+## Maneuvers
+
+### Lay the Rime — Maneuver
+
+*It sweeps a frozen hand across the ground, leaving raised crusts of ice that catch at hurried feet.*
+
+Make up to 3 connected empty ground squares within 3 squares difficult terrain for everyone until the start of the controller’s next turn. Requires a supporting surface. No entry damage, automatic fall or bridge over empty space. Reusing this ability replaces its previous patch.
+
+Use only as part of a command; no independent activity.
 
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 

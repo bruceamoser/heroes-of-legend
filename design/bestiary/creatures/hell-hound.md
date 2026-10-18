@@ -1,4 +1,4 @@
-# Hell Hound (CV 22)
+# Hell Hound (CV 24)
 
 *A black hound carries furnace light behind its teeth and leaves warm pawprints on cold stone.*
 
@@ -28,6 +28,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
+| Follow the Pack | After an ally closes on an enemy within 3: move 2 to that ally; provokes. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -43,6 +44,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 *Its nose lifts, separating the sharp scent of fresh blood from the rest of the air.*
 
 Learn the direction of the nearest Bleeding creature within 6 squares. This does not reveal Hidden, give an exact square or permit a sight-required attack against an unseen target.
+
+### Follow the Pack
+
+*One hunter moves and another flows into its wake, tightening the circle without a sound.*
+
+After a visible active ally ends voluntary movement adjacent to a visible enemy within 3 squares of this creature, move up to 2 squares, ending adjacent to that ally. Pay normal terrain costs and provoke normally. The ally must be conscious and not Paralyzed; an uncommanded summon cannot trigger this. No attack or command is granted, and movement granted by a free attack cannot trigger it.
 
 ### General details
 
@@ -71,7 +78,7 @@ Learn the direction of the nearest Bleeding creature within 6 squares. This does
 **ID:** creature-hell-hound
 
 
-**Category:** Fiend · **Role:** Burning striker · **CV:** 22
+**Category:** Fiend · **Role:** Burning striker · **CV:** 24
 
 ### Creature-roll reference
 
@@ -89,13 +96,15 @@ Use the attributes above for defenses named by incoming attacks. Same targeting,
 
 **Expected targets:** 1
 
-**Utility factor:** 1.3
+**Utility factor:** 1.4
+
+**Action review (#1279):** U 1.3 → 1.4: Maneuver allowance +0, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.000, O=5.596. Uses the [seed worksheet](../encounters.md). Utility is provisional and does not simulate control, positioning or summon choices.
 
-**Ability sources:** [blood scent](../../monster-abilities/blood-scent.md), [elemental burn](../../monster-abilities/elemental-burn.md).
+**Ability sources:** [blood scent](../../monster-abilities/blood-scent.md), [elemental burn](../../monster-abilities/elemental-burn.md), [Follow the Pack](../../monster-abilities/follow-the-pack.md).
 
 **Coverage reference:** [Pathfinder family survey](../family-survey.md); original HOL prose and mechanics.
 

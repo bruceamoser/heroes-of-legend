@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-Move up to 3 squares using a printed movement mode, paying terrain costs. Provokes normally and cannot pass through solid objects or occupied squares.
+Move up to 3 squares using a printed movement mode without provoking from one visible enemy chosen before moving. Pay normal terrain costs and provoke normally from other enemies. Cannot pass through solid objects or occupied squares.
 
 Only creatures whose entries list this ability possess it. Printed limits apply.
 

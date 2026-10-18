@@ -1,4 +1,4 @@
-# Ash Revenant (CV 29)
+# Ash Revenant (CV 32)
 
 *A burned walking body held together by ash, stubborn sinew and an unfinished grievance. A blackened personal token identifies the wrong that prevents it from resting.*
 
@@ -24,6 +24,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Shambling Advance | Move 2 toward living prey; difficult ground costs 1; next attack against it +1 Bane. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
@@ -47,6 +48,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Target:** One hearing creature within 4 squares. **Player defense:** Reason. **Damage type:** None.
 
 **Weak defense:** Frightened 3. **Standard defense:** Frightened 2. **Strong defense:** Frightened 1.
+
+### Shambling Advance
+
+*The corpse lurches after the nearest warm body, dragging its ruined feet without ever looking away.*
+
+Move up to 2 squares toward a visible living creature within 6 squares; its next attack against that creature before turn end imposes 1 additional Bane on the player defense. For a player-controlled creature, gain 1 attack Boon instead. It must end closer to that creature than it began. For this movement only, treat difficult ground as normal; pay other costs and provoke normally. One attack only; repeated uses do not stack. This grants no attack and cannot be used while movement is prevented.
 
 ### General details
 
@@ -83,7 +90,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-ash-revenant
 
 
-**Category:** Undead · **Role:** Relentless hunter · **CV:** 29
+**Category:** Undead · **Role:** Relentless hunter · **CV:** 32
 
 ### Creature-roll reference
 
@@ -105,12 +112,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.2
+**Utility factor:** 1.3
+
+**Action review (#1279):** U 1.2 → 1.3: Maneuver allowance +0.1, Reaction allowance +0. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=3.000, O=5.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [dread cry](../../monster-abilities/dread-cry.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+**Ability sources:** [dread cry](../../monster-abilities/dread-cry.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [Shambling Advance](../../monster-abilities/shambling-advance.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

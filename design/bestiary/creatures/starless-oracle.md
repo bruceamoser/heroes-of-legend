@@ -1,4 +1,4 @@
-# Starless Oracle (CV 26)
+# Starless Oracle (CV 29)
 
 *An alien, many-eyed figure with pale skin and an uneven arrangement of joints. Its attention slips between the present and possible futures, making its advice useful and dangerous.*
 
@@ -23,10 +23,12 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Maneuvers | Effect |
 |---|---|
+| Study the Opening | Next attack this turn: 1 additional Bane on its target’s defense. |
 | Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
+| Seen It Already | Before a visible attacker rolls: +1 Bane to that attack. |
 | Opportunity Attack | Basic Melee |
 
 ## Details
@@ -40,6 +42,18 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
+
+### Seen It Already
+
+*It starts moving a heartbeat before the strike, following a future the attacker has not yet reached.*
+
+Before one attack from a visible attacker against this creature is rolled, impose 1 Bane on that attack. Against an NPC attack, grant 1 Boon to its single defense roll instead. This changes no target or outcome after dice have been rolled; it does not cancel the action.
+
+### Study the Opening
+
+*It waits for a tell in the stance, then turns its attention to the exposed line.*
+
+Its next attack before the end of this turn imposes 1 additional Bane on player defense, or gains 1 Boon when player-controlled. One attack only; no stacking with itself.
 
 ### General details
 
@@ -72,7 +86,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **ID:** creature-starless-oracle
 
 
-**Category:** Aberration · **Role:** Information horror · **CV:** 26
+**Category:** Aberration · **Role:** Information horror · **CV:** 29
 
 ### Creature-roll reference
 
@@ -93,12 +107,14 @@ The incoming attack names the defense attribute; use the six values above. Same 
 
 **Expected targets:** 1
 
-**Utility factor:** 1.4
+**Utility factor:** 1.55
+
+**Action review (#1279):** U 1.4 → 1.55: Maneuver allowance +0.05, Reaction allowance +0.1. These are provisional judgments for the changed capabilities, counting the largest increment in each category rather than adding every alternative. Reactions compete for one budget; no measured balance claim.
 
 **Regeneration per turn:** 0
 
 Reference I=4.404, O=6.008. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md).
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md), [Seen It Already](../../monster-abilities/seen-it-already.md), [Study the Opening](../../monster-abilities/watch-the-opening.md).
 
 [Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

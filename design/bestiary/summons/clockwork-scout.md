@@ -40,6 +40,16 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 **Needle:** One adjacent creature.
 
+## Maneuvers
+
+### Roll Away — Maneuver
+
+*The goblin drops a shoulder, tumbles across the rubble and springs up beyond the answering blade.*
+
+Move up to 2 squares in a straight line without provoking opportunity attacks. Pay normal terrain costs from the 2-square allowance. Normal occupied-square restrictions apply.
+
+Use only as part of a command; no independent activity.
+
 **Defend — Maneuver:** gain 1 Boon to defenses until the start of the controller’s next turn; repeated Defend does not stack.
 
 **Basic Melee — Main:** 1 Bane to attack; Brawn, one adjacent target; Weak attack 1, Standard 2, Strong 4 physical damage. No specialty riders. No opportunity Reaction.
