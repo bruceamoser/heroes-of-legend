@@ -18,11 +18,11 @@ The starter kit covers **levels 1–10** and includes:
   192 illustrated creatures, 93 monster abilities and table references.
 
 [Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
-[Next release notes](release/notes.md) · [Build both books](release/README.md)
+[Release notes](release/notes.md) · [Build both books](release/README.md)
 
-Version **16.1.0** is prepared here for review. Published downloads remain on the
-Releases page until this revision is approved and released. This is a digital
-playtest edition; creature CV and encounter budgets remain estimates.
+The current starter kit is **v16.2.0**. Download both books from the
+[latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
+This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
 ## One current source
 
@@ -44,7 +44,7 @@ python3 -m pip install -r design/player-book/requirements.txt
 TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 ```
 
-Both audited PDFs and the starter-kit ZIP are written under `dist/v16.1.0/`.
+Both audited PDFs and the starter-kit ZIP are written under `dist/v16.2.0/`.
 See [release instructions](release/README.md) for visual review and publication.
 Generated PDFs and build outputs are not editable sources or tracked archives.
 

@@ -1,47 +1,47 @@
-# Player’s Book — one-DP ability update proof
+# Player’s Book — v16.2.0 release review
 
-Reviewed October 18, 2026 for issue #1273. This working proof covers levels 1–10;
-the public v16.1.0 starter-kit release is unchanged. The separate armor PR #1272
-is not included in this branch’s 356-ability count.
+Reviewed October 18, 2026. Bruce approved the armor correction and six one-DP
+abilities in PRs #1272 and #1274 and requested this latest starter-kit release.
+Both books carry version 16.2.0 and edition date 2026-10-18.
 
 ## Artifact and coverage
 
-- 240 US Letter pages; 94,831,059 bytes.
-- 614 included source records, all 356 abilities and 486 outcome lines.
-- All 280 wound results; 73 summoned forms; six complete example heroes.
-- 153 art assets; 132 unique illustration placements, including 24 open-space
-  placements. No duplicate interior illustrations.
-- Four printable sheets on pages 230–233.
-- 2,063 PDF links and 969 bookmarks.
+- 240 US Letter pages; 94,855,319 bytes.
+- 616 included source records, all 357 abilities and 44 equipment entries.
+- All 486 rolled outcome lines, 280 wound results and 73 summoned forms.
+- Six complete example heroes; four printable sheets on pages 230–233.
+- 153 art assets; 132 unique illustration placements, including 24 open-space placements.
+- 2,079 PDF links and 972 bookmarks.
 
-SHA-256: `838beb818e58d5ff45eaa08e13b9754a661ac2d37052927a1a271e0004c7fb77`.
+SHA-256: `393aba611bca4eeaacd9d968d8a4bc463d5ca9fec8b2984dadd6008d628b82a8`.
 
 ## Checks performed
 
-Built with Typst 0.15.1. Source and PDF audits pass: printed prices, requirements,
-origin grants, source links, ability text, wound cells, artwork and page bounds.
-Compression preserves the extracted text and original artwork resolution and
-alpha masks. The six approved exceptions cost 1 DP; the 18 free Universal actions
-remain separate. All other tier prices retain their normal audit guard.
+The combined source passes rules, bestiary, artwork and repository audits.
+Both books were rebuilt with Typst 0.15.1. PDF checks cover source freshness,
+printed prices, grants, text coverage, links, art and page bounds. Compression
+preserves extracted text, original artwork resolution and alpha masks.
 
-The initial build was rendered in full and inspected in page overviews. All six
-new cards and the ability introduction were inspected enlarged. This caught
-nearly empty continuation pages in the character examples and Novice index;
-compact spacing removed them without shrinking the type. The final examples,
-reference sheets and all indexes were rendered and reviewed again. The book is
-two pages longer than the released baseline.
+The armor progression is light/medium/heavy at Novice/Adept/Master, requiring
+Armor 1/2/3 and costing 2/4/8 DP. Matching physical resistance is 1/2/3; ordinary
+items cost 10/40/90 coins and each occupy Bulk 1. Walled Communities and Borin
+use light training. No NPC defenses or creature loot values were changed.
 
-Checked Pip, Oren and Vaelis’s purchase prices and ledger arithmetic. The new
-options spend four previously expiring DP across their creation stages without
-changing attributes, HP, Speed, Grit, Bulk or coins. Vaelis records Dwarven from
-Another Tongue. Both books explain this one-time language grant.
+The six one-DP exceptions remain paid, once-only Novice abilities with no
+discipline requirement. The 18 free Universal actions remain separate. Four
+formerly expiring DP are spent in Pip, Oren and Vaelis’s example ledgers.
+
+Rendered the combined Player’s Book and checked changed pages against the
+previously reviewed proofs. Inspected the edition page, culture grant, all three
+armor cards, equipment and Borin enlarged. The earlier six-card review inspected
+all new ability cards enlarged and corrected example/index continuation pages.
+The combined layout retains those corrections without reducing type size.
 
 ## Boundaries
 
-These are source, arithmetic, transcription and layout checks, not balance
-simulations or independent editorial review. The new cards await Bruce’s review.
-Creature CV and encounter budgets remain playtest estimates. This digital
-playtest PDF is not a printer-certified PDF/X file.
+These checks verify content assembly and presentation, not new encounter balance.
+Creature CV and encounter budgets remain playtest estimates. This digital edition
+is not printer-certified PDF/X. Foundry integration is tracked separately.
 
 See [README](README.md) for builds and [release instructions](../../release/README.md)
-for the combined starter kit. Generated audit reports live under `generated/`.
+for packaging. The release manifest identifies the final clean source commit.

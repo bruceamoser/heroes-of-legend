@@ -1,37 +1,37 @@
-# DA Guide & Bestiary — one-DP ability update proof
+# DA Guide & Bestiary — v16.2.0 release review
 
-Reviewed October 18, 2026 for issue #1273. This is a working proof; the public
-v16.1.0 starter-kit release is unchanged.
+Reviewed October 18, 2026. This is the DA half of the user-authorized v16.2.0
+starter-kit release. Both books carry edition date 2026-10-18.
 
 ## Artifact and coverage
 
-- 307 pages; 136,695,445 bytes.
+- 307 pages; 136,695,778 bytes.
 - 192 creatures, 93 monster abilities, 73 summoned forms and 280 wound results.
-- 206 distinct interior illustrations and diagrams, including all 192 portraits.
+- 206 distinct interior illustrations/diagrams, including all 192 portraits.
 - 418 bookmarks and 2,681 internal links.
 - All 358 cards remain on one page; largest creature card: 430.3 pt.
 - 73 summon eligibility markers link to the player-facing profiles.
 
-SHA-256: `70f36c8c38b62998dd04a0b6f28d5dbb9af2fae5cff3cde68d0978f58a2c7ebb`.
+SHA-256: `cfadd41659473aaa549a8edf4be323ceafb696d5ea79b3b19466eef0aec9fee7`.
 
 ## Checks performed
 
-Reassembled and rebuilt with Typst 0.15.1 after adding Another Tongue to the
-shared language guidance. Assembly, source and artwork hashes, bookmarks,
-internal destinations, wound text, card geometry and page bounds pass.
+Reassembled and rebuilt with Typst 0.15.1. Assembly, source and artwork hashes,
+bookmarks, internal destinations, wound text, card geometry and bounds pass.
 Compression preserves text, page count and links. No missing portraits,
 repeated interior illustrations, split cards or unexpected short pages were found.
 
-Compared extracted text page by page against the released v16.1.0 DA book:
-only page 19 changes. That page was rendered and inspected enlarged; the new
-language-learning paragraph fits beside the existing communication guidance.
-The remaining pages retain the previously reviewed presentation.
+Compared extracted text page by page with the approved one-DP proof: only page 2,
+the edition page, changes. Pages 2 and 19 were rendered and inspected enlarged.
+Page 19 retains the approved Another Tongue language-learning guidance; the
+remaining text matches the prior proof. Relative to v16.1.0, these are the two
+changed pages. Creature mechanics and illustrations remain unchanged.
 
 ## Boundaries
 
-This checks the shared language update and presentation, not encounter balance
-or an independent editorial review. No new simulations were run. Creature CV
-and encounter budgets remain playtest estimates. This digital playtest PDF is
-not a printer-certified PDF/X file.
+This verifies release assembly and presentation, not new encounter balance.
+No new simulations were run. Creature CV and encounter budgets remain playtest
+estimates. This digital playtest PDF is not printer-certified PDF/X.
 
-See [README](README.md) for building and `output/pdf-audit.json` for the full audit.
+See [README](README.md) and `output/pdf-audit.json` for validation details.
+The release manifest identifies the final clean source commit and PDF hashes.
