@@ -11,7 +11,7 @@ read the card’s Weak, Standard or Strong outcome.
 The starter kit covers **levels 1–10** and includes:
 
 - **Player’s Book:** rules, 4 ancestries, 18 cultures, 32 backgrounds, 10 classes,
-  18 disciplines, 357 abilities, equipment, recipes, languages, wound tables,
+  18 disciplines, 419 abilities, equipment, recipes, languages, wound tables,
   73 summoned forms, six example heroes and printable sheets.
 - **Dungeon Architect’s Guide & Bestiary:** running and building adventures,
   encounter guidance, hazards, a rescue adventure with maps, campaign tools,
@@ -20,13 +20,11 @@ The starter kit covers **levels 1–10** and includes:
 [Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
 [Release notes](release/notes.md) · [Build both books](release/README.md)
 
-The current starter kit is **v16.2.0**. Download both books from the
+The current starter kit is **v16.3.0**. Download both books from the
 [latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
-The working catalog for the next edition contains **419 abilities**, including
-the [discipline and origin expansion](design/discipline-coverage.md).
-Those additions are not yet in the published v16.2.0 downloads above.
+This edition includes the [discipline and origin expansion](design/discipline-coverage.md).
 
 ## One current source
 
@@ -48,7 +46,7 @@ python3 -m pip install -r design/player-book/requirements.txt
 TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 ```
 
-Both audited PDFs and the starter-kit ZIP are written under `dist/v16.2.0/`.
+Both audited PDFs and the starter-kit ZIP are written under `dist/v16.3.0/`.
 See [release instructions](release/README.md) for visual review and publication.
 Generated PDFs and build outputs are not editable sources or tracked archives.
 

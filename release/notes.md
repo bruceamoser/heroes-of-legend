@@ -1,33 +1,31 @@
-# Heroes of Legend Starter Kit v16.2.0
+# Heroes of Legend Starter Kit v16.3.0
 
 Both books for levels 1–10 are included: the **Player’s Book** and
 **Dungeon Architect’s Guide & Bestiary**.
 
 ## What changed
 
-- **Light armor restored.** Wear Light Armor is Novice (Armor 1, 2 DP), medium
-  armor is Adept (Armor 2, 4 DP), and heavy armor is Master (Armor 3, 8 DP).
-  Physical resistance progresses 1 / 2 / 3. Equipment, prices, origin grants
-  and Borin’s example now follow that progression.
-- **Six small abilities for 1 DP each:** Another Tongue, Message by Heart,
-  Catch That!, A Party Piece, Quick Exit and Look Over Here! They require no
-  discipline, can each be purchased once, and are available during level 0 or
-  later. They give odd creation points a useful home without changing stage expiry.
-- Updated character-creation guidance, purchase ledgers, selection tables and
-  ability indexes. Pip, Oren and Vaelis demonstrate the new options.
-- Both books explain learning an ordinary language through Another Tongue.
-- Improved spacing keeps expanded example heroes and the Novice index from
-  spilling onto nearly empty continuation pages.
+- **62 new shared abilities:** 27 Novice, 14 Adept and 21 Master options, including
+  27 Maneuvers, 31 Reactions and four Main Actions.
+- Every discipline now offers Maneuver and Reaction routes at each tier, with
+  meaningful discipline investment. Frost expands from 1/4/1 to 5/5/4 shared
+  choices across Novice, Adept and Master.
+- Guard gains shield strikes, hooks, covering movement, High Guard and Shield Roof.
+  General protective wards remain in Guard; no new discipline is introduced.
+- Nine cultures and three backgrounds gain revised alternatives. Each discipline
+  now appears in two culture choices and two to five background choices.
+- Updated selection tables, summaries and indexes, with tighter directory spacing.
+  Existing example heroes remain valid; class prices and starting coins are unchanged.
 
-The player catalog now contains **357 abilities and 44 equipment entries**.
+The player catalog contains **419 abilities and 44 equipment entries**.
 The companion retains **192 illustrated creatures, 93 monster abilities and
-73 summoned forms**.
+73 summoned forms**. Both books carry this release version.
 
 Download the starter-kit ZIP for both books, or choose the individual PDFs.
 The manifest records the source commit, page counts and hashes; SHA256SUMS.txt
 verifies the downloads. This is a digital playtest edition. CV and encounter
-budgets remain estimates; no new encounter-balance simulation is claimed.
+budgets remain estimates; coverage checks are not proof of combat balance.
 
-Foundry integration is tracked separately in
-[armor issue #168](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/168)
-and [one-DP ability issue #169](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/169).
+Foundry implementation is tracked separately in
+[issue #171](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/171).
+Publishing the books does not imply those changes are already implemented in Foundry.
