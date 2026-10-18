@@ -29,7 +29,7 @@ a purchased once-only card may grant another point. There is no class-based auto
 attribute or HP growth. Small HP purchases are explicitly limited per level.
 
 DA awards milestone levels. Level 2 onward grants 8 + new level DP; bank it, spend
-only in a DA-approved safe place. Tier 1/3/7 cards cost 2/4/8 DP. Ranks must be
+only in a DA-approved safe place. Tier 1/3/7 cards normally cost 2/4/8 DP. The six [1-DP shared abilities](card-conventions.md) are Novice exceptions: no discipline requirements, purchase once each, available at level 0 and later. Ranks must be
 purchased sequentially; no additional rank level gates. Cards have no prerequisite
 card chains. Receive one chosen class signature at 3 and 7; only class and level
 qualify it. No multiclassing or access to another class’s signatures.

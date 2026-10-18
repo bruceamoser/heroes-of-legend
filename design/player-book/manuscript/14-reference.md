@@ -118,7 +118,7 @@ not discipline ranks or earlier signatures.
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Tier.** Novice, Adept or Master, with minimum levels 1, 3 and 7 and prices 2, 4 and 8 DP.
+**Tier.** Novice, Adept or Master, with minimum levels 1, 3 and 7 and standard prices 2, 4 and 8 DP. Six shared Novice abilities print a 1-DP exception.
 
 **Wound.** A lasting injury record caused by entering Dying. Its active penalty may
 be treated; its scar continues to count for later wound rolls.

@@ -32,8 +32,9 @@ Opening pool: **13 + 0 duplicate compensation = 13 DP**. No disciplines are purc
 | [Identify a Mixture](../cards/identify-a-mixture.md) | Scholarship 1 | 2 | 5 |
 | [Read the Remains](../cards/read-the-remains.md) | Scholarship 1 | 2 | 3 |
 | [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 1 |
+| [Message by Heart](../cards/message-by-heart.md) | None; 1-DP ability | 1 | 0 |
 
-**Spent 12; 1 DP expires. Stage closes at 0.**
+**Spent 13; 0 DP expires. Stage closes at 0.**
 
 ## Level 1 — class and purchases
 
@@ -89,11 +90,15 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
+Message by Heart lets Oren preserve an exact witness statement of up to 50 words after one minute of rehearsal. Only one message is retained this way.
+
 Anatomy of an Opening uses Knowledge in a fight; Oren chooses its optional melee-weapon grant. Make the Connection turns actual evidence into a fact and follow-up lead. Crafting and identification make discoveries useful, while Medicine supports wound care. Oren’s card grants supply tools and recipe knowledge; his shopping ledger adds ordinary ingredients, but no finished crafted supplies.
 
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
+
+- [Message by Heart](../cards/message-by-heart.md) — Main Action; None — no roll; one minute to memorize.
 
 - [Trail Workshop](../cards/trail-workshop.md) — Main Action; Knowledge.
 - [Anatomy of an Opening](../cards/anatomy-of-an-opening.md) — Main Action; Knowledge.

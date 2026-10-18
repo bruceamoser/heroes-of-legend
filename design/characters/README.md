@@ -9,10 +9,12 @@ origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 |---|---|---|---:|---:|---:|---:|---:|
 | [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Dwarf Protector | 25 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
 | [Lira Ashbow](lira-ashbow.md) | Woodland archer | Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
-| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 10 / 11 | 12 / 12 |
-| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Elf Arcanist | 17 | 7 | 7 / 7 | 12 / 13 | 12 / 13 |
+| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 11 / 11 | 12 / 12 |
+| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Elf Arcanist | 17 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
 | [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 7 | 7 / 10 | 12 / 12 | 13 / 13 |
-| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 9 / 10 | 12 / 13 | 15 / 15 |
+| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 9 / 10 | 13 / 13 | 15 / 15 |
+
+Pip, Oren and Vaelis use the 1-DP shared abilities to spend their odd creation points.
 
 All start at full HP, Grit 2, no wounds and no death marks. Unspent creation DP
 expires separately at each stage. Ancestry and culture are independent: Mara is a

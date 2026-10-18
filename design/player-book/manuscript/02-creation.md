@@ -74,11 +74,13 @@ shared list, spoken-only grants and campaign alternatives.
 
 Your level-0 pool is **10 + Knowledge + Reason + Guile**, plus any duplicate-grant
 compensation. Negative attributes reduce this pool too. Buy eligible Novice abilities
-for 2 DP each. Their printed requirements must already be met by your origin grants.
+at their printed price: normally 2 DP, or 1 DP for the six shared exceptions in
+[Abilities](09-abilities.md). Their printed requirements must already be met by your origin grants.
 You may not buy discipline ranks at level 0.
 
 Record each purchase in order. Buy any eligible kind of ability. One or two attacks can define your fighting style,
-leaving room for talents useful between battles.
+leaving room for talents useful between battles. If you have an odd point left,
+a 1-DP ability can put it to use; these choices remain available at later levels too.
 
 Close the stage. **Unused level-0 DP expires.** Your future class cannot qualify a
 purchase you made earlier.
@@ -196,8 +198,9 @@ is safe. Mental attributes modify only the two creation pools, not these awards.
 | 9 | 17 | — |
 | 10 | 18 | — |
 
-Novice, Adept and Master abilities cost **2, 4 and 8 DP** and require minimum levels
+Novice, Adept and Master abilities normally cost **2, 4 and 8 DP** and require minimum levels
 **1, 3 and 7**. Novice purchases are explicitly permitted during level-0 creation.
+The six shared 1-DP abilities keep their printed price at every level.
 Higher tiers do not require an earlier card in a chain. Mixed requirements mean you
 need every listed rank. Class signatures require only their class and level; extra
 eligible signatures can be purchased for the same tier price.

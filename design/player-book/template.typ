@@ -199,10 +199,10 @@
 
 // Prose pages are composed from paragraphs and intact short tables. The final
 // page is split near its midpoint, instead of leaving one long left column.
-#let reading-columns(items) = context {
+#let reading-columns(items, gap:5pt) = context {
   let w = 255pt
-  let blocks = items.map(it => block(above:0pt,below:5pt,it))
-  let heights = blocks.map(it => measure(block(width:w,it)).height + 5pt)
+  let blocks = items.map(it => block(above:0pt,below:gap,it))
+  let heights = blocks.map(it => measure(block(width:w,it)).height + gap)
   let available = 742pt - here().position().y
   let cursor = 0
   while cursor < blocks.len() {

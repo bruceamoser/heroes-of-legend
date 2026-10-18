@@ -32,8 +32,9 @@ Opening pool: **11 + 0 duplicate compensation = 11 DP**. No disciplines are purc
 | [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md) | Subterfuge 1 | 2 | 5 |
 | [Sell the Feint](../cards/sell-the-feint.md) | Arms 1 and Subterfuge 1 | 2 | 3 |
 | [Notice the Human Detail](../cards/notice-the-human-detail.md) | None | 2 | 1 |
+| [Quick Exit](../cards/quick-exit.md) | None; 1-DP ability | 1 | 0 |
 
-**Spent 10; 1 DP expires. Stage closes at 0.**
+**Spent 11; 0 DP expires. Stage closes at 0.**
 
 ## Level 1 — class and purchases
 
@@ -87,11 +88,13 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Smile Before Steel lets Pip fight with Guile; Sell the Feint prepares that attack. Quiet Latch and the illusion/voice cards support infiltration. Fade Behind adds quiet movement to Disengage but never makes open ground concealment. The sword stays in one hand, leaving the other available. Courtesy and Invitation use that same sword rather than granting spares.
+Smile Before Steel lets Pip fight with Guile; Sell the Feint prepares that attack. Quiet Latch and the illusion/voice cards support infiltration. Fade Behind adds quiet movement to Disengage but never makes open ground concealment. Quick Exit adds one available movement square when Pip Disengages, once per turn; it does not change his Speed. The sword stays in one hand, leaving the other available. Courtesy and Invitation use that same sword rather than granting spares.
 
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
+
+- [Quick Exit](../cards/quick-exit.md) — Passive; None — no roll.
 
 - [The Key Changes Hands](../cards/the-key-changes-hands.md) — Main Action; Guile.
 - [Smile Before Steel](../cards/smile-before-steel.md) — Main Action; Guile.
