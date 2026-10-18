@@ -14,6 +14,7 @@ precise rules should make it easy to resolve.
 - [Design intent](design-intent.md), [foundations](rules/foundations.md), [development](development.md).
 - [Ancestries](ancestry.md), [cultures and backgrounds](culture-background.md), [classes](class.md), [disciplines](disciplines.md).
 - [Abilities](catalog.md), [card conventions](card-conventions.md), [fantasy paths](fantasy-paths.md).
+- [Discipline/action coverage review](discipline-coverage.md): the current expansion and origin-access comparison.
 - [Equipment](equipment.md), [recipes](recipes.md), [market](market.md), [starting coins](starting-coins.md).
 - [Six complete heroes](characters/README.md), [example scenes](example-scenes.md).
 - [Languages](rules/languages.md), [conditions](rules/conditions.md), [recovery](rules/recovery.md), [wounds](rules/wounds.md).
@@ -30,6 +31,10 @@ Run `python3 design/index.py` to refresh navigation after catalog edits, then
 `python3 design/audit.py` and `python3 design/bestiary/audit.py`. Book-specific build
 and audit commands are in each book’s README. Generated files and PDFs are local
 build outputs; the starter-kit release packages both books.
+
+`python3 design/discipline_coverage.py --check` shows shared options by discipline,
+tier and action, separates single-discipline choices, and checks culture/background
+access. These checks also run in the main authoring audit; they do not measure power.
 
 The catalog is approved for playtesting. Structural validation does not certify
 balance. Creature CV and encounter budgets remain estimates pending table evidence.

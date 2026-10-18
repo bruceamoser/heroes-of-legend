@@ -73,6 +73,15 @@ Preserve source artwork, transparency and font licenses.
    history during cleanup; it is the archive.
 8. Update instructions/skills when they prove stale. New mechanics require visible
    review; never silently make a design change while formatting.
+9. Every rules or content decision and change must also be tracked in an issue on
+   `bruceamoser/heroes-of-legend-foundry`. This includes creation, abilities,
+   disciplines, origins, equipment, creatures and changes to shared procedures.
+   Update an existing issue when it covers the same work; otherwise create one.
+   Record canonical source links, the decision and its Foundry implications,
+   acceptance criteria, and whether the source change is still awaiting review.
+   Link the Foundry issue from the source PR and relevant design review. Keep it
+   current when the decision changes; use the final approved source revision for
+   implementation. Book completion does not mean Foundry implementation is done.
 
 ## Build and check
 

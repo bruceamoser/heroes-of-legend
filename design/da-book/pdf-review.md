@@ -1,7 +1,7 @@
-# DA Guide & Bestiary — v16.2.0 release review
+# DA Guide & Bestiary — discipline expansion regression check
 
-Reviewed October 18, 2026. This is the DA half of the user-authorized v16.2.0
-starter-kit release. Both books carry edition date 2026-10-18.
+Reviewed October 18, 2026 for issue #1277. This is a local review proof, not a new
+release. The published v16.2.0 assets are unchanged.
 
 ## Artifact and coverage
 
@@ -12,26 +12,22 @@ starter-kit release. Both books carry edition date 2026-10-18.
 - All 358 cards remain on one page; largest creature card: 430.3 pt.
 - 73 summon eligibility markers link to the player-facing profiles.
 
-SHA-256: `cfadd41659473aaa549a8edf4be323ceafb696d5ea79b3b19466eef0aec9fee7`.
+SHA-256: `6b2336d7e170e0cd20bc9389d9093375e7b28283f57e891dafde5572e8049f6c`.
 
 ## Checks performed
 
-Reassembled and rebuilt with Typst 0.15.1. Assembly, source and artwork hashes,
-bookmarks, internal destinations, wound text, card geometry and bounds pass.
-Compression preserves text, page count and links. No missing portraits,
-repeated interior illustrations, split cards or unexpected short pages were found.
-
-Compared extracted text page by page with the approved one-DP proof: only page 2,
-the edition page, changes. Pages 2 and 19 were rendered and inspected enlarged.
-Page 19 retains the approved Another Tongue language-learning guidance; the
-remaining text matches the prior proof. Relative to v16.1.0, these are the two
-changed pages. Creature mechanics and illustrations remain unchanged.
+Reassembled and rebuilt with Typst 0.15.1 after the player catalog expansion.
+Assembly, source and artwork hashes, bookmarks, internal destinations, wound text,
+card geometry and bounds pass. Compression preserves text, page count and links.
+No missing portraits, repeated illustrations, split cards or unexpected short
+pages were found. Extracted text is identical to the published v16.2.0 DA book.
+Rendered and inspected page 19 as a regression spot check; its language guidance
+and two-column layout remain intact. No DA rules or creature statistics changed.
 
 ## Boundaries
 
-This verifies release assembly and presentation, not new encounter balance.
-No new simulations were run. Creature CV and encounter budgets remain playtest
-estimates. This digital playtest PDF is not printer-certified PDF/X.
+This verifies assembly and presentation, not new encounter balance. The new player
+abilities need table testing; creature CV and encounter budgets remain estimates.
+This digital playtest PDF is not printer-certified PDF/X.
 
 See [README](README.md) and `output/pdf-audit.json` for validation details.
-The release manifest identifies the final clean source commit and PDF hashes.

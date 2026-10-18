@@ -107,7 +107,7 @@
 #let ability-directory(rows) = {
   set text(size:9pt,hyphenate:false)
   set par(leading:.25em,spacing:3pt)
-  table(columns:(125pt,105pt,77pt,1fr),inset:(x:5pt,y:5pt),stroke:.3pt+rgb("#cfc7b3"),
+  table(columns:(125pt,105pt,77pt,1fr),inset:(x:5pt,y:3.5pt),stroke:.3pt+rgb("#cfc7b3"),
     fill:(x,y)=>if y==0 {forest} else if calc.odd(y) {ivory} else {paper},
     table.header(repeat:true,..([Ability],[Requirements],[Action],[What it does]).map(c=>text(fill:ivory,weight:"bold",c))),
     ..rows.flatten())

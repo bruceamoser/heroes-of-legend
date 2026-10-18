@@ -1,6 +1,6 @@
 # Cloister Valleys
 
-*Bells mark the day, but no two residents agree about what a disciplined life should become.*
+*Little lights drift above the cloister paths after dusk. In the quiet rooms below, patient listeners teach troubled minds to find their footing again.*
 
 *Which lesson did you question before you left?*
 
@@ -8,7 +8,7 @@
 
 Choose one:
 
-- **Athletics 1** and [The Untroubled Hand](../cards/the-untroubled-hand.md).
+- **Radiance 1** and [Lantern Moths](../cards/lantern-moths.md).
 - **Medicine 1** and [Treat Mental Trauma](../cards/treat-mental-trauma.md).
 
 **Type:** Culture

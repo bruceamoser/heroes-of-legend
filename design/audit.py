@@ -2,6 +2,7 @@
 from pathlib import Path
 import re
 from index import field
+from discipline_coverage import survey, problems
 R=Path(__file__).resolve().parent
 ONE_DP={'another-tongue','message-by-heart','catch-that','a-party-piece','quick-exit','look-over-here'}
 errors=[];ids={};files=list(R.rglob('*.md'));cards={}
@@ -53,6 +54,7 @@ for p in (R/'classes').glob('*.md'):
  if len(re.findall(r'\.\./cards/signature-',p.read_text()))!=9:errors.append(f'{p.name}: signature choices')
 for a in ['human','elf','dwarf','halfling']:
  if len(list((R/'ancestries').glob('trait-'+a+'-*.md')))!=5:errors.append(a+': trait choices')
+errors.extend(problems(survey()))
 for e in errors:print(e)
 assert not errors,f'{len(errors)} errors'
 print(f'{len(files)} Markdown files; {len(ids)} cards; narrative/Rules separation, links, fields, discipline names, tier prices, origin grants and path tiers pass.')

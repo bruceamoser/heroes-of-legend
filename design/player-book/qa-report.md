@@ -1,47 +1,55 @@
-# Player’s Book — v16.2.0 release review
+# Player’s Book — discipline expansion review proof
 
-Reviewed October 18, 2026. Bruce approved the armor correction and six one-DP
-abilities in PRs #1272 and #1274 and requested this latest starter-kit release.
-Both books carry version 16.2.0 and edition date 2026-10-18.
+Reviewed October 18, 2026 for issue #1277. This proof contains the new ability and
+origin proposals for Bruce’s review; it is not a new starter-kit release. Published
+v16.2.0 downloads remain unchanged.
 
 ## Artifact and coverage
 
-- 240 US Letter pages; 94,855,319 bytes.
-- 616 included source records, all 357 abilities and 44 equipment entries.
-- All 486 rolled outcome lines, 280 wound results and 73 summoned forms.
-- Six complete example heroes; four printable sheets on pages 230–233.
-- 153 art assets; 132 unique illustration placements, including 24 open-space placements.
-- 2,079 PDF links and 972 bookmarks.
+- 250 US Letter pages; 94,704,673 bytes.
+- 678 included source records, all 419 abilities and 44 equipment entries.
+- All 498 rolled outcome lines, 280 wound results and 73 summoned forms.
+- Six complete example heroes; four printable sheets on pages 240–243.
+- 153 art assets; 131 unique illustration placements, including 24 open-space placements.
+- No missing summaries, outcomes, source text, images or links detected by the PDF audit.
 
-SHA-256: `393aba611bca4eeaacd9d968d8a4bc463d5ca9fec8b2984dadd6008d628b82a8`.
+SHA-256: `f5c36829ad309297492a694146862f1221064ae2bccb6c453236d9697d11683e`.
 
 ## Checks performed
 
-The combined source passes rules, bestiary, artwork and repository audits.
-Both books were rebuilt with Typst 0.15.1. PDF checks cover source freshness,
-printed prices, grants, text coverage, links, art and page bounds. Compression
-preserves extracted text, original artwork resolution and alpha masks.
+The source passes authoring, discipline coverage, bestiary, artwork and repository
+audits. Both books compile with Typst 0.15.1. PDF checks cover source freshness,
+named entries, outcomes, wound text, grants, links, art and page bounds. Export
+compression preserves extracted text, source artwork resolution and alpha masks.
 
-The armor progression is light/medium/heavy at Novice/Adept/Master, requiring
-Armor 1/2/3 and costing 2/4/8 DP. Matching physical resistance is 1/2/3; ordinary
-items cost 10/40/90 coins and each occupy Bulk 1. Walled Communities and Borin
-use light training. No NPC defenses or creature loot values were changed.
+The 62 additions are 27 Maneuvers, 31 Reactions and four Main Actions, bringing
+paid shared options to 173 Main Actions, 60 Maneuvers, 60 Reactions and 18 Passives.
+The baseline survey detects 55 missing tier/action cells, or 62 when nominal
+rank-1 secondary requirements are excluded from higher-tier coverage. Both counts
+are now zero. Every discipline has culture and background entry routes. All twelve
+origin pairs selected by the six example heroes remain available.
 
-The six one-DP exceptions remain paid, once-only Novice abilities with no
-discipline requirement. The 18 free Universal actions remain separate. Four
-formerly expiring DP are spent in Pip, Oren and Vaelis’s example ledgers.
+Reviewed an 84-page contact set covering the changed origins, shared ability catalog
+and tier indexes. This exposed short spill pages in the opening directories and
+Novice index. Reduced table cell padding from 5 to 3.5 pt and index spacing from
+3 to 1.5 pt, preserving text size. The final proof is 250 pages rather than the
+initial 254-page expansion. Existing card borders, headers and type sizes remain.
 
-Rendered the combined Player’s Book and checked changed pages against the
-previously reviewed proofs. Inspected the edition page, culture grant, all three
-armor cards, equipment and Borin enlarged. The earlier six-card review inspected
-all new ability cards enlarged and corrected example/index continuation pages.
-The combined layout retains those corrections without reducing type size.
+Inspected representative pages enlarged: 17, 19, 81, 91, 103, 111, 114, 122, 128,
+129, 131, 132, 245 and 246. Re-rendered the final shield hook, cold-impact reaction
+and Novice index after their last corrections. No clipped cards, overlapping text,
+missing icons or unreadable rank numerals were observed in the inspected pages.
+
+The mechanical read corrected an adjacent pull that could not move its target:
+Hook with the Shield now pushes away and adds Prone on Strong. Still the Avalanche
+is declared before its triggering effect’s damage or displacement. Borrowed sight
+cannot use an idle summon as a free lookout. Shared rules reminders are omitted
+from the printed cards using the established renderer convention.
 
 ## Boundaries
 
-These checks verify content assembly and presentation, not new encounter balance.
-Creature CV and encounter budgets remain playtest estimates. This digital edition
-is not printer-certified PDF/X. Foundry integration is tracked separately.
-
-See [README](README.md) for builds and [release instructions](../../release/README.md)
-for packaging. The release manifest identifies the final clean source commit.
+These checks verify content assembly and presentation. They do not certify the
+new combinations’ encounter balance. See [the coverage review](../discipline-coverage.md)
+for comparisons and focused table tests. Foundry import and behavior updates are
+tracked in [Foundry #171](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/171).
+This digital edition is not printer-certified PDF/X.

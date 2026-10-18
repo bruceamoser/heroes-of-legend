@@ -1,6 +1,6 @@
 # Poacher
 
-*A forbidden boundary never made a hungry household less hungry.*
+*You learned to bring down game quietly or keep the hidden catch cold until it could reach hungry households. A forbidden boundary never made them less hungry.*
 
 *Who looked the other way for you?*
 
@@ -9,7 +9,7 @@
 Choose one:
 
 - **Marksmanship 1** and [Read the Quarry](../cards/read-the-quarry.md).
-- **Subterfuge 1** and [Step Between Lanterns](../cards/step-between-lanterns.md).
+- **Frost 1** and [Winter Store](../cards/winter-store.md).
 
 **Type:** Background
 

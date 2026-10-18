@@ -1,6 +1,6 @@
 # Reed Villages
 
-*Raised walkways and low boats connect homes that seem to float between sky and water.*
+*On cold mornings, elders shape icy handholds along the pilings. At night, families leave a place by the fire for the ancestors who still watch over them.*
 
 *Which channel could you navigate with your eyes closed?*
 
@@ -8,8 +8,8 @@
 
 Choose one:
 
-- **Wilderness 1** and [Forage Wetlands](../cards/forage-wetlands.md).
-- **Wilderness 1** and [The Otter’s Bargain](../cards/the-otter-s-bargain.md).
+- **Frost 1** and [Rime Footholds](../cards/rime-footholds.md).
+- **Calling 1** and [A Hand from Before](../cards/a-hand-from-before.md).
 
 **Type:** Culture
 
