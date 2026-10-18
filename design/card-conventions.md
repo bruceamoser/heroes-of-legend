@@ -117,7 +117,7 @@ of handling it, then specify its actual additive effects and use requirements.
 **Agreed direction October 13, 2026:** aim for approximately 10–15 shared Passive
 abilities, including useful enduring expertise outside combat. This count excludes
 ancestry traits and class-exclusive signatures; it is a design target, not a rule
-limiting what a character may learn. Including the small 1-DP options, the shared catalog has seventeen.
+limiting what a character may learn. Including the small 1-DP options, the shared catalog has eighteen.
 
 Higher-tier utility should change the problems a character can tackle or the people
 they can help, rather than merely repeat ordinary 1/2/3 progress. Use mixed discipline

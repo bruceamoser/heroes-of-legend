@@ -31,6 +31,7 @@ Containers add their own Bulk and never reduce their contents’ Bulk.
 | [Ordinary Melee Weapon](equipment/ordinary-melee-weapon.md) | 12 | Reusable; no ability granted |
 | [Ordinary Ranged Weapon](equipment/ordinary-ranged-weapon.md) | 18 | Reusable; no ability granted |
 | [Ordinary Shield](equipment/ordinary-shield.md) | 10 | Reusable; no ability granted |
+| [Ordinary Light Armor](equipment/ordinary-light-armor.md) | 10 | Reusable; no ability granted |
 | [Ordinary Medium Armor](equipment/ordinary-medium-armor.md) | 40 | Reusable; no ability granted |
 | [Ordinary Heavy Armor](equipment/ordinary-heavy-armor.md) | 90 | Reusable; no ability granted |
 | [Craft Tools](equipment/craft-tools.md) | 15 | Reusable; no ability granted |

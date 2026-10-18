@@ -11,7 +11,7 @@ read the card’s Weak, Standard or Strong outcome.
 The starter kit covers **levels 1–10** and includes:
 
 - **Player’s Book:** rules, 4 ancestries, 18 cultures, 32 backgrounds, 10 classes,
-  18 disciplines, 356 abilities, equipment, recipes, languages, wound tables,
+  18 disciplines, 357 abilities, equipment, recipes, languages, wound tables,
   73 summoned forms, six example heroes and printable sheets.
 - **Dungeon Architect’s Guide & Bestiary:** running and building adventures,
   encounter guidance, hazards, a rescue adventure with maps, campaign tools,
