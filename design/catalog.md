@@ -259,8 +259,9 @@ shared paths can be mixed by anyone who meets their card requirements.
 - [Veiled Crossing](cards/veiled-crossing.md) — Maneuver; level 3; Subterfuge 2.
 - [Wake the Iron Rune](cards/wake-the-iron-rune.md) — Maneuver; level 1; Armor 1.
 - [Walk the Thunder](cards/walk-the-thunder.md) — Maneuver; level 3; Storm 2.
-- [Wear Heavy Armor](cards/wear-heavy-armor.md) — Passive; level 3; Armor 2.
-- [Wear Medium Armor](cards/wear-medium-armor.md) — Passive; level 1; Armor 1.
+- [Wear Heavy Armor](cards/wear-heavy-armor.md) — Passive; level 7; Armor 3.
+- [Wear Light Armor](cards/wear-light-armor.md) — Passive; level 1; Armor 1.
+- [Wear Medium Armor](cards/wear-medium-armor.md) — Passive; level 3; Armor 2.
 - [Wear the Great Beast](cards/wear-the-great-beast.md) — Maneuver; level 7; Wilderness 3.
 - [Weight of Iron](cards/weight-of-iron.md) — Reaction; level 7; Armor 3.
 - [When the Stars Look Back](cards/when-the-stars-look-back.md) — Main Action; level 7; Mind 3.
@@ -387,7 +388,7 @@ shared paths can be mixed by anyone who meets their card requirements.
 
 ### Passive
 
-[A Good Place to Stop](cards/a-good-place-to-stop.md), [A Knot You Can Trust](cards/a-knot-you-can-trust.md), [A Steady Hand at Dawn](cards/a-steady-hand-at-dawn.md), [Conditioned Body](cards/conditioned-body.md), [Live in the Mask](cards/live-in-the-mask.md), [One More Dawn](cards/one-more-dawn.md), [Ordinary Recipe Study](cards/ordinary-recipe-study.md), [Pack with Purpose](cards/pack-with-purpose.md), [Read the Maker’s Hand](cards/read-the-maker-s-hand.md), [Bent Trajectory](cards/signature-arcanist-bent-trajectory.md), [Cast and Scatter](cards/signature-arcanist-cast-and-scatter.md), [Choose the Edge](cards/signature-arcanist-choose-the-edge.md), [Deliberate Spark](cards/signature-arcanist-deliberate-spark.md), [Leave a Window](cards/signature-arcanist-leave-a-window.md), [Cut and Turn](cards/signature-blade-cut-and-turn.md), [Fell the Balance](cards/signature-blade-fell-the-balance.md), [Perfect Placement](cards/signature-blade-perfect-placement.md), [Pressure Point](cards/signature-blade-pressure-point.md), [Prepared Explanation](cards/signature-intellect-prepared-explanation.md), [Follow My Signal](cards/signature-leader-follow-my-signal.md), [Lead the Step](cards/signature-leader-lead-the-step.md), [Always a Way Around](cards/signature-odd-always-a-way-around.md), [Sideways Thinking](cards/signature-odd-sideways-thinking.md), [Unlikely Assistant](cards/signature-odd-unlikely-assistant.md), [Set Your Feet](cards/signature-protector-set-your-feet.md), [Fade Behind](cards/signature-shadow-fade-behind.md), [Strike and Vanish](cards/signature-shadow-strike-and-vanish.md), [Gentle Return](cards/signature-shepherd-gentle-return.md), [Hear Me Still](cards/signature-shepherd-hear-me-still.md), [Crash Down](cards/signature-unbalanced-crash-down.md), [Laugh at the Fall](cards/signature-unbalanced-laugh-at-the-fall.md), [Shoulder Through](cards/signature-unbalanced-shoulder-through.md), [Keep the Quarry Close](cards/signature-warden-keep-the-quarry-close.md), [Take Them Alive](cards/take-them-alive.md), [The Land Keeps No Secrets](cards/the-land-keeps-no-secrets.md), [The Right Small Courtesy](cards/the-right-small-courtesy.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
+[A Good Place to Stop](cards/a-good-place-to-stop.md), [A Knot You Can Trust](cards/a-knot-you-can-trust.md), [A Steady Hand at Dawn](cards/a-steady-hand-at-dawn.md), [Conditioned Body](cards/conditioned-body.md), [Live in the Mask](cards/live-in-the-mask.md), [One More Dawn](cards/one-more-dawn.md), [Ordinary Recipe Study](cards/ordinary-recipe-study.md), [Pack with Purpose](cards/pack-with-purpose.md), [Read the Maker’s Hand](cards/read-the-maker-s-hand.md), [Bent Trajectory](cards/signature-arcanist-bent-trajectory.md), [Cast and Scatter](cards/signature-arcanist-cast-and-scatter.md), [Choose the Edge](cards/signature-arcanist-choose-the-edge.md), [Deliberate Spark](cards/signature-arcanist-deliberate-spark.md), [Leave a Window](cards/signature-arcanist-leave-a-window.md), [Cut and Turn](cards/signature-blade-cut-and-turn.md), [Fell the Balance](cards/signature-blade-fell-the-balance.md), [Perfect Placement](cards/signature-blade-perfect-placement.md), [Pressure Point](cards/signature-blade-pressure-point.md), [Prepared Explanation](cards/signature-intellect-prepared-explanation.md), [Follow My Signal](cards/signature-leader-follow-my-signal.md), [Lead the Step](cards/signature-leader-lead-the-step.md), [Always a Way Around](cards/signature-odd-always-a-way-around.md), [Sideways Thinking](cards/signature-odd-sideways-thinking.md), [Unlikely Assistant](cards/signature-odd-unlikely-assistant.md), [Set Your Feet](cards/signature-protector-set-your-feet.md), [Fade Behind](cards/signature-shadow-fade-behind.md), [Strike and Vanish](cards/signature-shadow-strike-and-vanish.md), [Gentle Return](cards/signature-shepherd-gentle-return.md), [Hear Me Still](cards/signature-shepherd-hear-me-still.md), [Crash Down](cards/signature-unbalanced-crash-down.md), [Laugh at the Fall](cards/signature-unbalanced-laugh-at-the-fall.md), [Shoulder Through](cards/signature-unbalanced-shoulder-through.md), [Keep the Quarry Close](cards/signature-warden-keep-the-quarry-close.md), [Take Them Alive](cards/take-them-alive.md), [The Land Keeps No Secrets](cards/the-land-keeps-no-secrets.md), [The Right Small Courtesy](cards/the-right-small-courtesy.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Light Armor](cards/wear-light-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
 
 ### Reaction
 
@@ -425,7 +426,7 @@ shared paths can be mixed by anyone who meets their card requirements.
 
 ### Passive
 
-[Conditioned Body](cards/conditioned-body.md), [One More Dawn](cards/one-more-dawn.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
+[Conditioned Body](cards/conditioned-body.md), [One More Dawn](cards/one-more-dawn.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Light Armor](cards/wear-light-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
 
 ### Recovery
 
@@ -445,7 +446,7 @@ shared paths can be mixed by anyone who meets their card requirements.
 
 ### Training
 
-[Conditioned Body](cards/conditioned-body.md), [One More Dawn](cards/one-more-dawn.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
+[Conditioned Body](cards/conditioned-body.md), [One More Dawn](cards/one-more-dawn.md), [Wear Heavy Armor](cards/wear-heavy-armor.md), [Wear Light Armor](cards/wear-light-armor.md), [Wear Medium Armor](cards/wear-medium-armor.md)
 
 ### Universal
 

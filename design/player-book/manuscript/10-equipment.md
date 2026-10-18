@@ -16,6 +16,22 @@ Useful intact gear sells for **half its listed value**, rounded down, or trades 
 12 coins of goods. Pay any shortfall in coins; excess trade value is not cash change.
 A merchant does not have unlimited stock or an obligation to buy everything you make.
 
+## Armor and training
+
+Choose armor you have learned to wear. Each training grants one ordinary matching
+suit, Bulk 1, if you do not already own one. Its resistance applies only while
+wearing that armor. Buying a suit with coins grants neither training nor resistance.
+
+| Training | Armor rank | Minimum level | DP | Physical resistance |
+|---|---:|---:|---:|---:|
+| [Wear Light Armor](../../cards/wear-light-armor.md) | 1 | 1 | 2 | 1 |
+| [Wear Medium Armor](../../cards/wear-medium-armor.md) | 2 | 3 | 4 | 2 |
+| [Wear Heavy Armor](../../cards/wear-heavy-armor.md) | 3 | 7 | 8 | 3 |
+
+Novice training can be granted or purchased during level-0 creation. Buy discipline
+ranks in order, but you do not need a lower-tier armor training card to learn a
+higher one. Matching resistances use the highest value, normally capped at 3.
+
 ## Bulk and hands
 
 Record each carried item's **Bulk**. Most individual equipment entries and supply

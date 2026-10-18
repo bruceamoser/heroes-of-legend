@@ -1,51 +1,46 @@
-# Player’s Book — v16.1.0 PDF review
+# Player’s Book — armor correction review
 
-Reviewed October 17, 2026. This is the player half of the two-book starter kit,
-covering levels 1–10. Publication follows review of the cleanup PR.
+Reviewed October 18, 2026 for issue #1270. This working proof contains the proposed
+armor correction; it does not replace the published v16.1.0 release.
 
 ## Artifact and coverage
 
-- 238 US Letter pages; 94,288,657 bytes.
-- 608 included source records, all 350 abilities and 486 outcome lines.
-- All 280 wound results, including their descriptions, effects and remedies.
-- 73 summoned forms; 50 culture/background pairs; six complete example heroes.
-- 153 current art assets; 131 unique illustration placements, including 24
-  open-space placements. Functional logos and discipline symbols may repeat.
+- 238 US Letter pages; 94,313,147 bytes.
+- 610 included source records, 351 abilities, 44 equipment entries.
+- All 486 rolled outcome lines and all 280 wound results retained.
+- 73 summoned forms; 50 culture/background pairs; six example heroes.
+- 131 unique illustration placements, including 24 open-space placements.
 - Four printable sheets on pages 228–231.
-- 2,028 PDF links with valid destinations and 961 bookmarks.
+- 2,044 PDF links with valid destinations; 964 bookmarks.
 
-SHA-256: `25607619af03fe35aba29ba7d21cab72263e18bb05d7fa1018208adf19afca6c`.
+SHA-256: `4c4bd45497c6b71141faf3ffdae18c79c7fb60a3aeec7bb626b0712c8e814eec`.
 
-## Checks performed
+## Armor correction
 
-Built with Typst 0.15.1 after removing legacy sources and superseded artwork.
-The source audit verifies current records, discipline prices, grants, ability
-outcomes, wound cells, art availability, class-cutout transparency and page bounds.
-No missing card names, outcome text, wound cells, illustrations, unresolved
-placeholders or out-of-bounds words were reported. Compression preserves the
-complete extracted text; source image resolution and alpha masks remain intact.
+Wear Light Armor is Novice, Armor 1, 2 DP and physical resistance 1. Medium moves
+to Adept, Armor 2, 4 DP; heavy moves to Master, Armor 3, 8 DP. Light equipment is
+10 coins; medium/heavy remain 40/90. All are Bulk 1. The 10-coin price and complete
+progression are explicit in issue #1270 for review, not recovered historical rules.
+Walled Communities grants light training and its absent-item grant. Borin’s
+resistance is 1 while wearing that armor; his spending and other derived values
+remain unchanged. The Guard/Shielding Step alternative is preserved.
 
-Every page was inspected in overview during the cleanup pass. The expanded
-summoning introduction was reflowed into two columns with its illustration below,
-removing a nearly empty continuation page. The resulting introduction and roster
-were inspected enlarged, and the final export was rendered again to verify its
-pagination. Catalogs, cards, tables, sheets and indexes retain the approved style.
+## Validation
 
-The Player’s Book now teaches the existing approved weakness calculation,
-NPC-only roll procedure, crowded-collision placement, minimum-damage wound-table
-choice, summoned energy forms, controller-paid healing and six-square tether.
-The shared language chapter and character language choices are retained.
-Current narrative/Rules separation and catalog IDs remain intact. The erroneous
-spell-only offensive-healing paragraph is removed from the potion source; the
-reader edition already excluded it. No new potion attack is introduced.
+Design, bestiary and repository audits pass. Direct checks cover all three
+trainings’ ranks, tiers, costs, resistance, equipment, prices and origin grants.
+The shared Passive count is 15. Catalog/index links and book coverage counts are
+updated. No NPC defenses or creature loot values were changed.
 
-## Boundaries
+Built both books with Typst 0.15.1. The player audit passes source freshness,
+outcome/wound transcription, origin grants, artwork and text bounds. Compression
+preserves extracted text. All 238 player pages were rendered and compared with
+the reviewed baseline; 21 changed pages were inspected in overview, with origin,
+training cards, market, equipment reference and Borin’s pages inspected enlarged.
+No split armor cards, clipped text or broken table layouts were found.
 
-These are source, transcription, navigation and layout checks, not new balance
-simulations or an independent editorial proofread. Creature CV and encounter
-budgets remain playtest estimates. This is a digital playtest edition, not a
-printer-certified PDF/X file. Full-resolution current art and font licenses are
-preserved; obsolete artwork and earlier editions remain available in Git history.
+These are content and presentation checks, not new encounter-balance simulations
+or independent review. The Foundry source pin and armor integration must follow
+the reviewed canonical correction. The public release assets remain unchanged.
 
-See [README](README.md) for builds and [release instructions](../../release/README.md)
-for the combined starter kit. Generated audit reports live under `generated/`.
+See [README](README.md) for builds. Detailed generated audits live in `generated/`.
