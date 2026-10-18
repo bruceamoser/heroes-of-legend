@@ -50,5 +50,6 @@ from the printed cards using the established renderer convention.
 
 These checks verify content assembly and presentation. They do not certify the
 new combinations’ encounter balance. See [the coverage review](../discipline-coverage.md)
-for comparisons and focused table tests. Foundry import of the reviewed new IDs and
-changed origins is separate. This digital edition is not printer-certified PDF/X.
+for comparisons and focused table tests. Foundry import and behavior updates are
+tracked in [Foundry #171](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/171).
+This digital edition is not printer-certified PDF/X.

@@ -142,6 +142,14 @@ available; no starting ledger or inventory changes are needed.
   that signature. Protector’s Defiant Rescue retains its mobile interception.
   Compare the whole cost and trigger at the table; no signature is weakened here.
 
+## Foundry follow-through
+
+Foundry implementation is tracked in
+[heroes-of-legend-foundry #171](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/171),
+covering the 62 new abilities, 12 changed origins and their play behavior. It must
+follow the final reviewed source revision; this catalog update does not complete
+the Foundry work.
+
 ## Reproduce the survey
 
 ```sh

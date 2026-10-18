@@ -9,3 +9,5 @@ current source map, authoring guidance and workflow.
 - Core roll: 3d6 + one attribute, with Boons/Banes; no skill bonus.
 - Starter-kit releases contain both books. Git history is the archive.
 - Workflow: issue → branch → implement → PR → independent review → squash merge.
+- Track every rules/content decision and change in issues on
+  `bruceamoser/heroes-of-legend-foundry`; link the downstream issue from the source PR.
