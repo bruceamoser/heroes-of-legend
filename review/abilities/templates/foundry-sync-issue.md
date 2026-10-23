@@ -2,10 +2,10 @@
 
 ## Context
 
-- Book epic: #<book-epic>
+- Book epic: bruceamoser/heroes-of-legend#<book-epic>
 - Book release PR/tag/SHA: `<...>`
-- SOP: `review/abilities/ABILITIES_REVIEW_SOP.md`
-- Baseline pin: `review/abilities/BASELINE.md`
+- SOP: https://github.com/bruceamoser/heroes-of-legend/blob/release/abilities-review/abilities/review/abilities/abilities/ABILITIES_REVIEW_SOP.md
+- Baseline pin: https://github.com/bruceamoser/heroes-of-legend/blob/release/abilities-review/abilities/review/abilities/abilities/BASELINE.md
 
 This issue is the downstream tracking issue for the final Foundry sync. It stays open until the Foundry release and Workshop deployment are verified.
 
@@ -42,7 +42,7 @@ This issue is the downstream tracking issue for the final Foundry sync. It stays
 - [ ] Foundry package/release workflow passes.
 - [ ] Install/upgrade/gameplay gates pass against the draft release.
 - [ ] Workshop deployment verified.
-- [ ] Final versions/SHAs/URLs recorded in `review/abilities/BASELINE.md`.
+- [ ] Final versions/SHAs/URLs recorded in https://github.com/bruceamoser/heroes-of-legend/blob/release/abilities-review/abilities/review/abilities/abilities/BASELINE.md.
 
 ## Migration / compatibility
 
