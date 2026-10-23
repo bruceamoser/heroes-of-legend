@@ -39,7 +39,7 @@ This folder is the single place to track the abilities review from first decisio
 - Control docs: `review/abilities/`
 - Exported/merged ledger: `review/abilities/CHANGE_LEDGER.csv`
 - Per-workbook capture: each workbook's **Change Log** sheet
-- Build scripts: `work/` (local generation/validation only)
+- Build scripts: local workspace only; not committed
 
 ## Immediate next actions
 

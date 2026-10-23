@@ -1,14 +1,26 @@
-# GitHub setup — when write access is available
+# GitHub setup — scaffold commands
 
-## Current access check
+## Status: completed 2026-10-23
 
-On 2026-10-23 the active GitHub account was `bmoser-pssolutions` and both repos reported:
+The scaffold was created with the `bruceamoser` account:
+
+- Book epic: #1283
+- Foundry tracking issue: bruceamoser/heroes-of-legend-foundry#252
+- Release branch: `release/abilities-review`
+- First area issue: #1284 (`Universal`)
+- First area branch: `codex/1284-universal`
+
+The commands below are retained for future areas and for rebuilding the scaffold if needed.
+
+## Pre-switch access check
+
+Before the switch, the active account was `bmoser-pssolutions` and both repos reported:
 
 ```json
 {"permissions":{"admin":false,"maintain":false,"pull":true,"push":false,"triage":false}}
 ```
 
-That is read-only. Phase 0 is blocked until the active account has `push: true` on both repos. Check with:
+That was read-only. Phase 0 required an account with `push: true` on both repos. Check with:
 
 ```bash
 gh auth status
