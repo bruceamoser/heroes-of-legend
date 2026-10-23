@@ -22,7 +22,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 
 | Area ID | Category | Workbook | Book issue | Branch | Owner | Status | Decisions | Change rows | Book PR | Merge SHA | Foundry issue | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | In review | 0 / 18 | 0 | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Review first. |
+| UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | In review | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Batch 1 proposed; see `areas/UNI-01.md`. |
 | NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 133 | 0 | — | — | — | Shared cards only. |
 | ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 91 | 0 | — | — | — | Shared cards only. |
 | MAS-01 | Master | `33_Master_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 87 | 0 | — | — | — | Shared cards only. |
