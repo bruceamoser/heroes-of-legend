@@ -1,0 +1,20 @@
+file,category,review_rows,sheets,purpose,owner,status
+00_Index_and_Review_Findings.xlsx,index,32 findings / 96 flags,"Cover, Inventory, Findings, Flagged Cards, Change Log, Coverage, Method",Triage, navigation and cross-cutting findings,Bruce,Ready
+10_Ancestry_Dwarf.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Dwarf ancestry review,Bruce,Ready
+11_Ancestry_Elf.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Elf ancestry review,Bruce,Ready
+12_Ancestry_Halfling.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Halfling ancestry review,Bruce,Ready
+13_Ancestry_Human.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Human ancestry review,Bruce,Ready
+20_Class_Arcanist.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Arcanist signature review,Bruce,Ready
+21_Class_Blade.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Blade signature review,Bruce,Ready
+22_Class_Intellect.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Intellect signature review,Bruce,Ready
+23_Class_Leader.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Leader signature review,Bruce,Ready
+24_Class_Odd.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Odd signature review,Bruce,Ready
+25_Class_Protector.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Protector signature review,Bruce,Ready
+26_Class_Shadow.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Shadow signature review,Bruce,Ready
+27_Class_Shepherd.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Shepherd signature review,Bruce,Ready
+28_Class_Unbalanced.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Unbalanced signature review,Bruce,Ready
+29_Class_Warden.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Warden signature review,Bruce,Ready
+30_Universal_Abilities.xlsx,tier,18 shared abilities,"Overview, Abilities, Review Queue, Action & Type Audit, Families, Distribution, Change Log",Universal action review,Bruce,Ready
+31_Novice_Abilities.xlsx,tier,133 shared abilities,"Overview, Abilities, Review Queue, Requirements, Families, Distribution, Change Log",Novice shared ability review,Bruce,Ready
+32_Adept_Abilities.xlsx,tier,91 shared abilities,"Overview, Abilities, Review Queue, Requirements, Families, Distribution, Change Log",Adept shared ability review,Bruce,Ready
+33_Master_Abilities.xlsx,tier,87 shared abilities,"Overview, Abilities, Review Queue, Requirements, Families, Distribution, Change Log",Master shared ability review,Bruce,Ready
