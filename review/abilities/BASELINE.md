@@ -15,7 +15,11 @@ Recorded before any review branch or source edit. Update the **Current** column 
 | Foundry source pin | `bdfd18ed535fbd0e1892b9344444abf6da644809` | same |
 | Workbook source commit | `9fe404119ddfad90ce52eb15b39e548a4a273bee` | same |
 | Workbook generated | 2026-10-23 | — |
-| Review release branch | `release/abilities-review` | not created |
+| Book epic | — | [#1283](https://github.com/bruceamoser/heroes-of-legend/issues/1283) |
+| Foundry tracking issue | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) |
+| Review release branch | `release/abilities-review` | created at `9fe404119ddfad90ce52eb15b39e548a4a273bee` |
+| Control-set commit | — | `4d20af7` |
+| Working book clone | — | `book/` |
 | Target book version | TBD | — |
 | Target Foundry version | TBD | — |
 
