@@ -23,6 +23,6 @@ This workspace contains the full review control set for the Heroes of Legend abi
 
 No incremental book, Character Workshop or Foundry builds. Per area: source audits only. After all areas land: build the book, sync Foundry, build the Workshop, package/release Foundry.
 
-## Immediate next action
+## Current area
 
-Start the Universal review in the working book clone, then follow the area cycle in `review/abilities/ABILITIES_REVIEW_SOP.md`.
+**Universal (UNI-01)** is in review. Batch 1 contains six copy fixes marked `Proposed`; Batch 2 contains the DP/Type/action-label policy decisions. See `review/abilities/areas/UNI-01.md` and issue #1284.

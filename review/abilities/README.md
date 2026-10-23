@@ -37,6 +37,7 @@ This folder is the single place to track the abilities review from first decisio
 
 - Workbooks: `review/abilities/workbooks/`
 - Control docs: `review/abilities/`
+- Current area brief: `review/abilities/areas/UNI-01.md`
 - Exported/merged ledger: `review/abilities/CHANGE_LEDGER.csv`
 - Per-workbook capture: each workbook's **Change Log** sheet
 - Build scripts: local workspace only; not committed
