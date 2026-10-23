@@ -5,7 +5,7 @@ This folder is the single place to track the abilities review from first decisio
 ## Status
 
 - **Local preparation:** complete. Stable IDs and Change Log sheets have been added to the 19 workbooks; the control set is in place.
-- **Repo setup:** in progress. Epic #1283, Foundry tracker bruceamoser/heroes-of-legend-foundry#252, `release/abilities-review`, Universal issue #1284 and `codex/1284-universal` are created.
+- **Repo setup:** complete. Epic #1283, Foundry tracker bruceamoser/heroes-of-legend-foundry#252, `release/abilities-review`, Universal issue #1284 and `codex/1284-universal` are created. The control set is committed at `102dd0b` under `review/abilities/abilities/` in the book repo.
 - **Build policy:** no incremental book, Workshop or Foundry builds. Source audits run per area; the full build phase runs once after every area is landed.
 
 ## Read in this order

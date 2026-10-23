@@ -7,7 +7,7 @@ This workspace contains the full review control set for the Heroes of Legend abi
 - **Workbooks:** 19 `.xlsx` files in `review/abilities/workbooks/` — 18 content workbooks plus an index. Every content workbook now has **Stable ID** columns and a **Change Log** sheet.
 - **Process:** revised batch-build SOP in `review/abilities/ABILITIES_REVIEW_SOP.md`.
 - **Tracking:** 18 areas in `review/abilities/AREA_TRACKER.md`, ledger in `review/abilities/CHANGE_LEDGER.csv`.
-- **Repo setup:** in progress. Book epic [#1283](https://github.com/bruceamoser/heroes-of-legend/issues/1283), Foundry tracker [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252), `release/abilities-review`, Universal issue [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) and `codex/1284-universal` exist.
+- **Repo setup:** complete. Book epic [#1283](https://github.com/bruceamoser/heroes-of-legend/issues/1283), Foundry tracker [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252), `release/abilities-review`, Universal issue [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) and `codex/1284-universal` exist. The control set and workbooks are committed at `102dd0b` under `review/abilities/abilities/`.
 
 ## Read in this order
 
