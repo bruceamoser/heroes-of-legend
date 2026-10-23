@@ -25,4 +25,4 @@ No incremental book, Character Workshop or Foundry builds. Per area: source audi
 
 ## Current area
 
-**Universal (UNI-01)** is in review. Batch 1 contains six copy fixes marked `Proposed`; Batch 2 contains the DP/Type/action-label policy decisions. See `review/abilities/areas/UNI-01.md` and issue #1284.
+**Dwarf ancestry (ANC-01)** is in review. The first trait is **Stubborn as Bedrock**. Issue #1285, branch `codex/1285-ancestry-dwarf`.

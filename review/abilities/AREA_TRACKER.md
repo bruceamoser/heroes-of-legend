@@ -11,6 +11,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 | Status | Meaning |
 |---|---|
 | `Not started` | No review work begun. |
+| `Deferred` | Parked in favor of another area. |
 | `In review` | Workbook decisions in progress. |
 | `Approved` | All decisions approved; source edits not yet merged. |
 | `Book PR` | Book PR open. |
@@ -22,11 +23,11 @@ One row per review area. Update this file in the same PR as the area change, or 
 
 | Area ID | Category | Workbook | Book issue | Branch | Owner | Status | Decisions | Change rows | Book PR | Merge SHA | Foundry issue | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | In review | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Batch 1 proposed; see `areas/UNI-01.md`. |
+| UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | Deferred | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Parked; ancestries first. |
 | NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 133 | 0 | — | — | — | Shared cards only. |
 | ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 91 | 0 | — | — | — | Shared cards only. |
 | MAS-01 | Master | `33_Master_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 87 | 0 | — | — | — | Shared cards only. |
-| ANC-01 | Ancestry | `10_Ancestry_Dwarf.xlsx` | — | — | Bruce | Not started | 0 / 5 | 0 | — | — | — | 10 pairs included. |
+| ANC-01 | Ancestry | `10_Ancestry_Dwarf.xlsx` | [#1285](https://github.com/bruceamoser/heroes-of-legend/issues/1285) | `codex/1285-ancestry-dwarf` | Bruce | In review | 0 / 5 | 0 | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | 10 pairs included. |
 | ANC-02 | Ancestry | `11_Ancestry_Elf.xlsx` | — | — | Bruce | Not started | 0 / 5 | 0 | — | — | — | 10 pairs included. |
 | ANC-03 | Ancestry | `12_Ancestry_Halfling.xlsx` | — | — | Bruce | Not started | 0 / 5 | 0 | — | — | — | 10 pairs included. |
 | ANC-04 | Ancestry | `13_Ancestry_Human.xlsx` | — | — | Bruce | Not started | 0 / 5 | 0 | — | — | — | 10 pairs included. |
