@@ -1,16 +1,16 @@
-# Leave a Window
+# Create a Window
 
-*You spread your fingers around a companion’s silhouette and the gathering storm parts around them.*
+*You draw a glowing seam in the air, then another across the room, and the two join with a soft pulse.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One creature in your area spell, chosen before rolling.
+**Target / range / shape:** One willing ally on their turn, before they take any action; choose two visible, unoccupied squares within 6 squares of you.
 
-Exclude the chosen creature from every effect of that spell. Determine the least favorable net Boons/Banes from the remaining targets and roll once as usual. This changes no range or area and grants no immunity to later effects from other sources.
+The two squares become connected windows until the end of the ally’s turn. The ally can use the windows once at any point during their turn, either to move through one and out the other, spending 1 square of movement, or to make one attack through one window, measuring range and cover from the other. The ally must be able to see the window they use. The windows vanish at the end of the ally’s turn. This movement does not provoke opportunity attacks.
 
-**Duration:** For that spell.
+**Duration:** Until the end of the ally’s turn.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ Exclude the chosen creature from every effect of that spell. Determine the least
 
 **Tags:** Magic / Utility
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per round; uses your Reaction.
 
 **ID:** signature-arcanist-leave-a-window
 

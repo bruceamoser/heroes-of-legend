@@ -6,9 +6,9 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One visible ongoing magical effect within 5 squares.
+**Target / range / shape:** One ongoing magical effect within 5 squares that you are aware of.
 
-Learn its purpose, whether it is sustained by a creature or an object, and its remaining duration if it has one. The DA also identifies one actual way to end or avoid it, if one exists. Gain 1 Boon to your next roll using that information before the scene ends. This reveals no hidden caster location, grants no dispelling ability, and does not identify an item’s dormant properties or curses.
+Learn its origin and purpose, whether a creature or object sustains it, and its duration if it has one. You also become aware of how to end the effect if it is possible. Gain 1 Boon to your next roll using that information before the scene ends.
 
 **Duration:** Information remains known; the Boon ends when used or the scene ends.
 
@@ -22,7 +22,7 @@ Learn its purpose, whether it is sustained by a creature or an object, and its r
 
 **Tags:** Magic / Utility
 
-**Limits:** One Boon from studying a given effect per scene; reexamining it does not refresh that Boon.
+**Limits:** One Boon from a given effect per scene.
 
 **ID:** signature-arcanist-study-the-pattern
 

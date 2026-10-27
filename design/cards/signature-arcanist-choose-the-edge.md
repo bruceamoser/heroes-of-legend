@@ -1,16 +1,16 @@
 # Choose the Edge
 
-*You turn both hands as the spell breaks, guiding its last rush of force toward the places you want emptied.*
+*You throw both hands apart, splitting the spell into two screaming arcs.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Up to two creatures affected by your Standard or Strong Main Action spell.
+**Target / range / shape:** Self, when you cast a single-target spell that requires a roll.
 
-After the spell resolves, push each chosen creature up to 2 squares directly away from you. Choose the order. This adds no direct damage; use normal forced movement and collisions. The spell need not already cause displacement.
+You take 2 Banes on defense rolls until the start of your next turn. Choose two different targets or directions before rolling. Resolve the triggering spell twice, once for each choice, with a separate roll for each casting. Each casting uses the spell’s normal range and effects. Pay any costs for the spell once.
 
-**Duration:** Immediate displacement.
+**Duration:** The two castings resolve immediately. The defense penalty lasts until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ After the spell resolves, push each chosen creature up to 2 squares directly awa
 
 **Tags:** Magic / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Once per round; uses your Reaction.
 
 **ID:** signature-arcanist-choose-the-edge
 

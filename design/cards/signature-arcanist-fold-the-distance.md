@@ -1,16 +1,16 @@
-# Fold the Distance
+# Folded Aegis
 
-*You pinch a crease in the air and step through it, drawing a companion across with your outstretched hand.*
+*You fold the air around yourself into overlapping plates of shimmering force.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and optionally one adjacent willing ally; visible free destinations within 4 squares of you.
+**Target / range / shape:** Self.
 
-Teleport yourself to a chosen destination. You may bring the ally to a separate free square adjacent to your destination, also within range. Both destinations must fit their occupants; no opaque barrier may separate either traveler from its destination. Neither traveler provokes, and the ally spends no action.
+For 2 hours, you are wrapped in magical heavy armor. You gain physical resistance 3, fire resistance 3 and cold resistance 3. Use the highest matching resistance for each damage type, to the normal cap of 3. The armor is weightless and needs no armor training.
 
-**Duration:** Immediate teleportation.
+**Duration:** 2 hours.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Teleport yourself to a chosen destination. You may bring the ally to a separate 
 
 **Type:** Signature
 
-**Tags:** Magic / Movement
+**Tags:** Magic / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per day.
 
 **ID:** signature-arcanist-fold-the-distance
 
