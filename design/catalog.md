@@ -388,15 +388,15 @@ No discipline requirement; purchase each once, during level 0 or later. These ar
 - [Refuse the Rout](cards/signature-leader-refuse-the-rout.md) — Maneuver; level 7; Class Leader; minimum level 7.
 - [Stand Together](cards/signature-leader-stand-together.md) — Maneuver; level 1; Class Leader; minimum level 1.
 - [Watch the Rear](cards/signature-leader-watch-the-rear.md) — Reaction; level 7; Class Leader; minimum level 7.
-- [Always a Way Around](cards/signature-odd-always-a-way-around.md) — Passive; level 1; Class Odd; minimum level 1.
-- [An Unexpected Exit](cards/signature-odd-an-unexpected-exit.md) — Maneuver; level 7; Class Odd; minimum level 7.
-- [Change the Question](cards/signature-odd-change-the-question.md) — Main Action; level 3; Class Odd; minimum level 3.
-- [One Last Remark](cards/signature-odd-one-last-remark.md) — Reaction; level 7; Class Odd; minimum level 7.
-- [Sideways Thinking](cards/signature-odd-sideways-thinking.md) — Passive; level 1; Class Odd; minimum level 1.
-- [Strange but Effective](cards/signature-odd-strange-but-effective.md) — Main Action; level 7; Class Odd; minimum level 7.
-- [Unlikely Assistant](cards/signature-odd-unlikely-assistant.md) — Passive; level 3; Class Odd; minimum level 3.
-- [Useful Interruption](cards/signature-odd-useful-interruption.md) — Maneuver; level 1; Class Odd; minimum level 1.
-- [Wrong Place for That](cards/signature-odd-wrong-place-for-that.md) — Reaction; level 3; Class Odd; minimum level 3.
+- [Pocket Sand](cards/signature-odd-always-a-way-around.md) — Reaction; level 1; Class Odd; minimum level 1.
+- [The Unseen Procession](cards/signature-odd-an-unexpected-exit.md) — Main Action; level 7; Class Odd; minimum level 7.
+- [A Door Where There Wasn’t](cards/signature-odd-change-the-question.md) — Maneuver; level 3; Class Odd; minimum level 3.
+- [Not Quite Yet](cards/signature-odd-one-last-remark.md) — Reaction; level 7; Class Odd; minimum level 7.
+- [Borrowed Tongue](cards/signature-odd-sideways-thinking.md) — Maneuver in combat, or one minute out of combat; level 1; Class Odd; minimum level 1.
+- [Borrowed Life](cards/signature-odd-strange-but-effective.md) — Main Action; level 7; Class Odd; minimum level 7.
+- [Foul Wind](cards/signature-odd-unlikely-assistant.md) — Main Action; level 3; Class Odd; minimum level 3.
+- [Use Their Voice](cards/signature-odd-useful-interruption.md) — Maneuver; level 1; Class Odd; minimum level 1.
+- [Out of Body](cards/signature-odd-wrong-place-for-that.md) — Main Action; level 3; Class Odd; minimum level 3.
 - [Between Them](cards/signature-protector-between-them.md) — Reaction; level 1; Class Protector; minimum level 1.
 - [Break Their Advance](cards/signature-protector-break-their-advance.md) — Reaction; level 3; Class Protector; minimum level 3.
 - [Close the Gap](cards/signature-protector-close-the-gap.md) — Maneuver; level 1; Class Protector; minimum level 1.

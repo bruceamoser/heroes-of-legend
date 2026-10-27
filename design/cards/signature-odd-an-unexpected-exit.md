@@ -1,16 +1,16 @@
-# An Unexpected Exit
+# The Unseen Procession
 
-*You spot the half-hidden stair, haul your companion toward it and disappear from the place everyone thought had you cornered.*
+*You call the dead of this place. They rise behind you, not to fight, but to be seen. The enemy line falters at the impossible crowd.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and optionally one adjacent willing ally.
+**Target / range / shape:** You and each ally within 5 squares; each enemy within 5 squares.
 
-Move up to your Speed without provoking. The ally may follow along a legal route up to the same distance, spending no action, and must end in a separate free square adjacent to you. Both must be able to move; this does not cross standing occupied squares, barriers or otherwise impassable terrain.
+Once per scene, spectral figures fill the area. You and each ally gain 1 Boon to your next defense and may move 1 square without provoking. Each enemy gains 1 Bane to its next attack.
 
-**Duration:** Immediate movement.
+**Duration:** Until the end of the round.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Move up to your Speed without provoking. The ally may follow along a legal route
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Support / Control
 
-**Limits:** Once on your turn.
+**Limits:** Once per scene.
 
 **ID:** signature-odd-an-unexpected-exit
 

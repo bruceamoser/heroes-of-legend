@@ -1,16 +1,18 @@
-# Always a Way Around
+# Pocket Sand
 
-*You brace, tug or shove until something gives, then slip into the space the struggle has opened.*
+*You reach into a pocket that should not contain sand and throw it into exactly the wrong pair of eyes.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, after you resolve Force.
+**Trigger:** An enemy within 2 squares makes an attack or skill roll and can see you.
 
-Move up to 2 squares without provoking after your Force action. If you reduced your own Grappled rating to 0, you may stand without spending movement before taking this move. The card does not let you use Force without a Main Action or move while still Grappled.
+**Target / range / shape:** That enemy.
 
-**Duration:** Immediate stand and movement if allowed.
+Throw grit or debris into its face. The target takes 1 Bane to that roll. After the roll resolves, it gains Blinded 1 until the end of its next turn.
+
+**Duration:** The triggering roll and the Blinded condition.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +22,9 @@ Move up to 2 squares without provoking after your Force action. If you reduced y
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Control
 
-**Limits:** Once on your turn.
+**Limits:** Once per scene.
 
 **ID:** signature-odd-always-a-way-around
 

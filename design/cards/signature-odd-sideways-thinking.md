@@ -1,16 +1,18 @@
-# Sideways Thinking
+# Borrowed Tongue
 
-*You turn the problem around in your hands, notice a familiar principle and begin doing something no one else thought to try.*
+*You go still for a moment, then answer in a language you have never learned. The spirit inside you remembers it for you.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver in combat, or one minute out of combat
 
-**Target / range / shape:** Self, before an ordinary noncombat task roll.
+**Attribute:** None (no roll)
 
-Describe a plausible approach based on reasoning. Use Reason for that roll and gain 1 Boon. You still need any specialist permission and suitable tools. This cannot replace an attribute printed on another learned card or make an impossible action possible.
+**Target / range / shape:** Self; one language you hear spoken.
 
-**Duration:** That roll only.
+A spirit that knows the language possesses you. You understand and speak that language for the scene. You do not read or write it.
+
+**Duration:** Until the end of the scene.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +22,9 @@ Describe a plausible approach based on reasoning. Use Reason for that roll and g
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Utility / Social
 
-**Limits:** Once per scene, declared before rolling.
+**Limits:** Once per scene; one language at a time.
 
 **ID:** signature-odd-sideways-thinking
 
