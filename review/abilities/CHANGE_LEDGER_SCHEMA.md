@@ -18,7 +18,6 @@
 | `reason` | Yes | The problem being solved and the evidence. Link the issue/comment if useful. |
 | `decision` | Yes | `Proposed`, `Approved`, `Rejected`, `Deferred`. |
 | `approved_by` | Yes for Approved | Person who approved the change. |
-| `playtest_status` | Yes | `Not needed`, `Pending`, `Passed`, `Failed`, `N/A`. Mechanical changes cannot be Approved without an explicit status. |
 | `book_issue` | Yes | `#<number>` for the area book issue. |
 | `foundry_issue` | When known | `#<number>` for the downstream Foundry tracking issue. |
 | `commit_sha` | At merge | Book merge SHA. Leave blank until merged. |
@@ -28,7 +27,7 @@
 ## Example row
 
 ```csv
-CHG-NOV-001,NOV-01,conditioned-body,Conditioned Body,design/cards/conditioned-body.md,Limits,"At most one purchase at each level; missed purchases cannot be banked.","Maximum three purchases; each purchase costs 2 DP.",Mechanical,"Unbounded +1 max HP and a use-it-or-lose-it level tax.",Approved,Bruce,Pending,#1234,#5678,,2026-10-23,"Cap agreed; playtest at levels 5 and 7."
+CHG-NOV-001,NOV-01,conditioned-body,Conditioned Body,design/cards/conditioned-body.md,Limits,"At most one purchase at each level; missed purchases cannot be banked.","Maximum three purchases; each purchase costs 2 DP.",Mechanical,"Unbounded +1 max HP and a use-it-or-lose-it level tax.",Approved,Bruce,#1234,#5678,,2026-10-23,"Cap agreed; monitor at the table."
 ```
 
 ## One row per field
@@ -48,7 +47,6 @@ A title change and a rules change are two rows. A DP change and a requirement ch
 
 - No duplicate `change_id`.
 - No `Approved` row without `approved_by`.
-- No `Mechanical` row without `playtest_status`.
 - No `Rename` row without both original and revised titles.
 - No `ID migration` row without migration notes in `notes`.
 - Every `stable_id` resolves to a current source card/trait.

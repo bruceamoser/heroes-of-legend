@@ -2,6 +2,14 @@
 
 This folder is the single place to track the abilities review from first decision to release. It is deliberately separate from the generated Excel workbooks: the workbooks are the review view, this folder is the audit trail.
 
+## Workspace path
+
+`/home/bmoser/OpenBaD/workspaces/heroes-of-legend`
+
+## Workspace audit
+
+Confirmed on 2026-10-24: 19 workbooks present, 18 areas tracked, 123 ledger rows, six worktrees repaired, backups in `backups/`.
+
 ## Status
 
 - **Local preparation:** complete. Stable IDs and Change Log sheets have been added to the 19 workbooks; the control set is in place.
@@ -27,10 +35,13 @@ This folder is the single place to track the abilities review from first decisio
 
 - The **book Markdown is authoritative**. The Excel workbooks and this folder are review artifacts, not a rules source.
 - Every change must be traceable by **Stable ID**, not only by title. Workbook **Change Log** sheets are capture views; `CHANGE_LEDGER.csv` is authoritative.
+- After every decision, show the complete final text (title, narrative, rules) before moving to the next item.
 - Every area needs a **book issue**, a **book branch**, a **book PR**, and an **area row** in `AREA_TRACKER.md`.
 - Foundry and Character Workshop are **deferred** until all book areas are landed. Foundry content is pinned to the final book commit.
 - Per-area **source audits are required**. Per-area PDF, Foundry and Workshop builds are not.
 - Do not edit generated Foundry packs, generated book indexes or the Excel workbooks as if they were source.
+- Write permissions, not exclusions: state what an ability does, not what it does not do.
+- No em dashes anywhere. Use commas, colons, parentheses or separate sentences.
 - Do not change a Stable ID to fix a title. Rename the title; migrate the ID only with an explicit ID-migration change.
 
 ## Working files

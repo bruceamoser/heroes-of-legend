@@ -25,4 +25,4 @@ No incremental book, Character Workshop or Foundry builds. Per area: source audi
 
 ## Current area
 
-**Dwarf ancestry (ANC-01)** is in review. The first trait is **Stubborn as Bedrock**. Issue #1285, branch `codex/1285-ancestry-dwarf`.
+**Odd class signatures (CLS-05)** is approved. All nine signatures are final and `review/abilities/workbooks/24_Class_Odd.xlsx` has been refreshed. Issue #1293, branch `codex/1293-class-odd`. Pick the next area from `review/abilities/AREA_TRACKER.md`.

@@ -1,6 +1,6 @@
 # Heroes of Legend — Excel review set
 
-Generated 2026-10-23 from the read-only `heroes-of-legend` reference repository. No source markdown was modified.
+Generated 2026-10-26 from the read-only `heroes-of-legend` reference repository. No source markdown was modified.
 
 Start at `../START_HERE.md`; the control set and SOP are in `../`.
 
@@ -8,7 +8,7 @@ Start at `../START_HERE.md`; the control set and SOP are in `../`.
 
 | File | Content | Review rows |
 |---|---|---|
-| `00_Index_and_Review_Findings.xlsx` | Index, findings, flagged cards, coverage, method | 32 findings / 96 flags |
+| `00_Index_and_Review_Findings.xlsx` | Index, findings, flagged cards, coverage, method | 32 findings / 95 flags |
 | `10_Ancestry_Dwarf.xlsx` | Dwarf ancestry | 5 traits / 10 pairs |
 | `11_Ancestry_Elf.xlsx` | Elf ancestry | 5 traits / 10 pairs |
 | `12_Ancestry_Halfling.xlsx` | Halfling ancestry | 5 traits / 10 pairs |
@@ -49,7 +49,7 @@ The process, tracker, ledger, templates and release checklist live in `review/ab
 1. Open the index workbook and read **Findings**. Use **Flagged Cards** as the working triage list.
 2. Use the ancestry and class workbooks for character-facing review. Each choice has a design read and a suggested change.
 3. Use the tier workbooks for catalog review. **Review Queue** isolates flagged rows; **Requirements** and **Families** expose the structural questions.
-4. Every data sheet has a **Decision** dropdown (Keep / Revise / Cut / Playtest / Unsure) and a blank **Your notes** column.
+4. Every data sheet has a **Decision** dropdown (Keep / Revise / Cut / Unsure) and a blank **Your notes** column.
 5. Use **Stable ID** to link a row to a field-level change on the workbook's **Change Log** sheet, then merge it into `review/abilities/CHANGE_LEDGER.csv` before the area PR.
 
 ## Highest-value findings
@@ -64,14 +64,14 @@ The process, tracker, ledger, templates and release checklist live in `review/ab
 - **F08 (Medium)** — The summon catalog is a 6 creature-type x 3 tier matrix of near-identical 232-word cards. Several titles were changed to 'Summon X — Tier' while IDs and filenames retain the old evocative names (call-a-burrower, the-ancestors-stand, the-walking-toolbox, etc.). _Suggested:_ Use one shared summon procedure plus six type records (or a single matrix card with type and tier columns), then keep only the type-specific lines. Align title, ID and filename, or document stable IDs with a 'formerly called' note.
 - **F09 (Medium)** — The six treatment cards are near-identical, but Treat Soft Tissue is Type Skill instead of Recovery, uses 'Self or one willing patient' instead of 'One wound listing X', and is 97 words versus 145-146 for the others. _Suggested:_ Standardize the template: Type Recovery, target 'One wound listing Soft Tissue', same time/once-per-day/outcome wording. Consider one 'Treat Wound' card with a wound-type choice.
 - **F10 (Medium)** — Forage Woodland is Type Skill instead of Skill / Utility and is 108 words versus 139-141 for the other three. _Suggested:_ Standardize Type and template. Consider one 'Forage' card that works in any viable terrain, with a Bane or reduced yield in poor terrain, instead of four terrain-specific purchases.
-- **F11 (Medium)** — Halfling is HP +1 and Speed 5 with no trait that raises HP or Speed. Dwarf can reach HP +5, Human HP +3 or Speed 7, Elf Speed 7. Halfling's traits are mostly situational except A Little Luck. _Suggested:_ Add +1 maximum HP to Bigger on the Inside or Second Breakfast, or give Under Their Noses a broader always-on benefit. If the gap is intentional, state the compensation (luck/stealth) in the ancestry text.
-- **F12 (Medium)** — Two pairs of ancestry traits are mechanically identical: Stubborn as Bedrock and Never Quite Finished are both '+1 maximum HP'; Grace of the Elder Folk and Road in the Blood are both '+1 base Speed'. _Suggested:_ Keep the stat but add a small ancestry-specific rider: Dwarf +1 to stabilization or reduce Bleeding after a rest; Human a travel/endurance clause; Elf ignore 1 square of difficult terrain once per scene; Human speed a forced-march benefit.
+- **F11 (Medium)** — Halfling is HP +1 and Speed 5. Bigger on the Inside now raises HP, but no Halfling trait raises Speed, and the ancestry still has the lowest base HP/Speed. _Suggested:_ Keep the +1 HP on Bigger on the Inside. Consider a Speed trait or a small always-on movement benefit if Halfling still feels slow. If the gap is intentional, state the luck/stealth compensation in the ancestry text.
 - **F13 (Medium)** — Once per day, before any attribute roll, gain 1 Boon. This is the broadest ancestry trait in the game. _Suggested:_ Monitor at the table. If it dominates, make it once per scene, require a roll with a meaningful consequence, or limit it to non-attack rolls. Keep it if Halfling needs the power (see F11).
 - **F14 (Medium)** — Three universal cards use action labels outside the five standard labels: 'Main Action or Maneuver', 'Action conversion' and 'Varies'. _Suggested:_ Add a secondary 'Action detail' field for compound costs, or define the labels in the conventions. Convert an Action reads like a rules procedure, not an ability; consider moving it to the combat chapter.
 - **F15 (Medium)** — The four basic attacks have Tier Universal but Type Attack; the other fourteen universal cards have Type Universal. _Suggested:_ Make Type functional (Attack, Defense, Movement, Utility) for all cards and let Tier/availability carry 'Universal'; or add a Universal tag to the four attacks and document the distinction.
 - **F16 (Medium)** — Three Master cards require only two rank-2 disciplines (Mind 2 + Guard 2; Mind 2 + Storm 2; Storm 2 + Athletics 2). _Suggested:_ Confirm the intent. If these are meant to be broad Master options, add a policy note. If not, raise one requirement to rank 3. A Voice across the Valley is also noncombat utility; consider Adept if it is not meant to be a Master capstone.
 - **F17 (Medium)** — Five shared cards carry Type Skill / Attack but make no attack roll; they only set up or improve a later attack. _Suggested:_ Add a Setup tag for attack-support cards, or document that Attack includes 'sets up an attack'. Apply the same rule to signature Tags so the taxonomy is predictable.
 - **F18 (Medium)** — Ten signature abilities are clear power spikes: a level-1 intercept, Aid for two allies, repeatable free attacks, a round of untargetability, party-wide movement, an 8-hour watch buff, and 2-Boon reactions. _Suggested:_ Playtest these first. Consider once-per-round limits, adjacency requirements, shorter durations, or 1 Boon instead of 2 where the spike is largest. Keep the fantasy; tighten the repeatability.
+- **F19 (Medium)** — Several Master or Adept signature choices are simple riders or narrow utility: a 2-square push, a 2-square push plus move, an anti-grapple maneuver, a lockpicking card and a trail-concealment card. _Suggested:_ For each, either add a second clause that broadens the moment (condition, ally benefit, alternate use) or accept it as a deliberate specialist pick and say so in the class guidance.
 
 ## Scope and caveats
 

@@ -37,7 +37,7 @@ Create these labels in both repos (adjust colors as desired):
 ```text
 area:universal, area:novice, area:adept, area:master,
 area:ancestry, area:class, downstream:foundry,
-needs-review, needs-playtest, release:16.x, blocked
+needs-review, release:16.x, blocked
 ```
 
 ## 2. Create the book epic

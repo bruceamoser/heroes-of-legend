@@ -36,6 +36,8 @@ The review covers 419 cards, 20 ancestry traits, 90 class signatures and the sha
 6. **The book lands first.** Foundry content is pinned to the final book commit. Do not update Foundry content before the book release merge.
 7. **No generated pack edits.** Generated Foundry packs, generated book indexes and generated workbook content are not authoring sources.
 8. **Main stays releasable.** Area work merges into `release/abilities-review`, not directly into `main`.
+9. **Write permissions, not exclusions.** State what an ability does. Avoid “does not…” clauses; they can imply that unmentioned actions are allowed.
+10. **No em dashes.** Use commas, colons, parentheses or separate sentences. This applies to all new and edited text.
 
 ## 3. Roles
 
@@ -102,11 +104,12 @@ Recommended order: Universal → Novice → Adept → Master → ancestries → 
 
 ### 6.2 Review the workbook
 
-1. Work through every row. Use `Decision` (`Keep`, `Revise`, `Cut`, `Playtest`, `Unsure`).
-2. For every `Revise`, `Cut` or `Playtest` decision, add a change row to the workbook's **Change Log** sheet.
-3. Record: Stable ID, source file, field, original, revised, change type, reason, decision, approver, playtest status.
-4. Mechanical changes require explicit Bruce approval and a playtest note. Editorial changes can be approved by the area reviewer if Bruce delegates that.
+1. Work through every row. Use `Decision` (`Keep`, `Revise`, `Cut`, `Unsure`).
+2. For every `Revise` or `Cut` decision, add a change row to the workbook's **Change Log** sheet.
+3. Record: Stable ID, source file, field, original, revised, change type, reason, decision and approver.
+4. Mechanical changes require explicit Bruce approval. The whole system is in playtesting, so no per-change playtest status is recorded.
 5. Export or merge the area rows into `review/abilities/CHANGE_LEDGER.csv` before opening the PR.
+6. **Before moving to the next row, show the complete final text** — title, narrative and rules — for confirmation. Record the decision, then move on.
 
 ### 6.3 Apply the book changes
 
@@ -246,7 +249,7 @@ npm run package:release
 
 Required columns:
 
-`change_id, area, stable_id, ability_or_trait, source_file, field, original, revised, change_type, reason, decision, approved_by, playtest_status, book_issue, foundry_issue, commit_sha, date, notes`
+`change_id, area, stable_id, ability_or_trait, source_file, field, original, revised, change_type, reason, decision, approved_by, book_issue, foundry_issue, commit_sha, date, notes`
 
 Rules:
 
@@ -254,8 +257,7 @@ Rules:
 - Use the Stable ID, not only the title.
 - `change_type`: Editorial, Wording, Mechanical, Rename, Add, Remove, Tier / DP, ID migration.
 - `decision`: Proposed, Approved, Rejected, Deferred.
-- `playtest_status`: Not needed, Pending, Passed, Failed, N/A.
-- Mechanical changes cannot be `Approved` without an approver and playtest status.
+- Mechanical changes cannot be `Approved` without an explicit approver.
 - Before the area PR, merge the workbook rows into the CSV and validate that every approved source edit has a row.
 
 ## 10. Definition of done

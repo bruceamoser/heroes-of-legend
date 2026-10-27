@@ -1,9 +1,9 @@
 file,category,review_rows,sheets,purpose,owner,status
 00_Index_and_Review_Findings.xlsx,index,32 findings / 96 flags,"Cover, Inventory, Findings, Flagged Cards, Change Log, Coverage, Method",Triage, navigation and cross-cutting findings,Bruce,Ready
-10_Ancestry_Dwarf.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Dwarf ancestry review,Bruce,Ready
-11_Ancestry_Elf.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Elf ancestry review,Bruce,Ready
-12_Ancestry_Halfling.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Halfling ancestry review,Bruce,Ready
-13_Ancestry_Human.xlsx,ancestry,5 traits / 10 pairs,"Overview, Traits, Pairs, Compare, Change Log",Human ancestry review,Bruce,Ready
+10_Ancestry_Dwarf.xlsx,ancestry,5 traits,"Overview, Traits, Pairs, Compare, Change Log",Dwarf ancestry review,Bruce,Ready
+11_Ancestry_Elf.xlsx,ancestry,5 traits,"Overview, Traits, Pairs, Compare, Change Log",Elf ancestry review,Bruce,Ready
+12_Ancestry_Halfling.xlsx,ancestry,5 traits,"Overview, Traits, Pairs, Compare, Change Log",Halfling ancestry review,Bruce,Ready
+13_Ancestry_Human.xlsx,ancestry,5 traits,"Overview, Traits, Pairs, Compare, Change Log",Human ancestry review,Bruce,Ready
 20_Class_Arcanist.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Arcanist signature review,Bruce,Ready
 21_Class_Blade.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Blade signature review,Bruce,Ready
 22_Class_Intellect.xlsx,class,9 signatures,"Overview, Level 1, Level 3, Level 7, All Signatures, Balance Check, Power Watchlist, Change Log",Intellect signature review,Bruce,Ready

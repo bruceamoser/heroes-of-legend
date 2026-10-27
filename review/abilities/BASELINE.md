@@ -6,6 +6,8 @@ Recorded before any review branch or source edit. Update the **Current** column 
 
 | Item | Baseline value | Current |
 |---|---|---|
+| Workspace path | `/home/bmoser/OpenBaD/workspaces/heroes-of-legend` | active |
+| Backup set | `backups/` | created |
 | Book repository | `bruceamoser/heroes-of-legend` | — |
 | Book `main` SHA | `9fe404119ddfad90ce52eb15b39e548a4a273bee` | same |
 | Book version | `16.4.0` | same |
