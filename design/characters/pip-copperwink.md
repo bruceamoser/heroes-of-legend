@@ -14,8 +14,8 @@
 
 Total **+3**. Shadow minima: Agility, Guile ≥ 0; met. Mental sum **+1**, so each stage’s base pool is **11 DP**.
 
-- [Under Their Noses](../ancestries/trait-halfling-small-passage.md): You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.
-- [Quiet as a Burrow](../ancestries/trait-halfling-quiet-company.md): Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing companion following your route gains 1 Boon to their next quiet-movement roll this scene. You cannot confer Hidden by walking in open view.
+- [Under Their Noses](../ancestries/trait-halfling-small-passage.md): You gain 1 Boon to hiding. When you are adjacent to a standing creature at least one size larger than you, you can attempt to hide behind it, even in combat and with no other cover, as long as it is between you and the observer. The creature can be an ally or an enemy.
+- [Quick Tongue](../ancestries/trait-halfling-quiet-company.md): Gain 1 Boon to Guile rolls to negotiate or argue. When you use Guile to defend your own or an ally’s actions, gain 2 Boons instead.
 
 
 ## Level 0 — origins and purchases
