@@ -1,7 +1,7 @@
 # Heroes of Legend — workspace start here
 
 This is the review workspace for the Heroes of Legend abilities review. The Git
-repository is `book/`; `review/abilities/`, `review/abilities/workbooks/` and `work/` are the working layer
+repository is the repository root; `review/abilities/`, `review/abilities/workbooks/` and `work/` are the working layer
 around it. There is exactly one repository checkout.
 
 Workspace root: `/home/bmoser/OpenBaD/workspaces/heroes-of-legend`.
@@ -14,12 +14,12 @@ symlink to this directory, so both paths show the same files.
 |---|---|
 | `review/abilities/` | Live review control set: SOP, area tracker, change ledger, area briefs, issue drafts and ideas. Start with `review/abilities/README.md`. |
 | `review/abilities/workbooks/` | Live review workbooks: 19 `.xlsx` files (18 content workbooks plus an index). |
-| `book/` | The single Git checkout, on `release/abilities-review`. `book/design/` is the only design source tree. `book/review/abilities/` is the published copy of the control set and workbooks. |
-| `work/` | Parsers, workbook builders, audit helpers and `publish_control_set.py`, which copies `review/abilities/` and `review/abilities/workbooks/` into `book/review/abilities/`. |
+| the repository root | The single Git checkout, on `release/abilities-review`. `design/` is the only design source tree. `review/abilities/` is the published copy of the control set and workbooks. |
+| `work/` | Parsers, workbook builders, audit helpers and `publish_control_set.py`, which publishes the live control set and workbooks into the repo. |
 | `backups/` | Pre-cleanup snapshots, branch patches and archives. |
 
 The repo's `design/`, `scripts/` and `release/` directories are the real project
-directories and live only in `book/`. They are not review copies.
+directories and live only in the repository root. They are not review copies.
 
 ## Current status
 
@@ -37,7 +37,7 @@ directories and live only in `book/`. They are not review copies.
   Foundry tracker [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252),
   release branch `release/abilities-review`, and area branches `codex/1285`
   through `codex/1293`.
-- **Published record:** `book/review/abilities/` contains the current control set
+- **Published record:** `review/abilities/` contains the current control set
   and workbooks. Publish updates with `python3 work/publish_control_set.py`.
 
 ## Read in this order
@@ -60,6 +60,6 @@ package and release Foundry.
 
 - Do not create `book-<area>` worktrees. They are full repository checkouts and
   duplicate the entire `design/` tree (about 640 MB each). Use branches in
-  `book/`; if parallel checkouts are unavoidable, put them outside this workspace.
-- `book/` is the only design source tree. The Markdown under `book/design/` is
+  the repository root; if parallel checkouts are unavoidable, put them outside this workspace.
+- the repository root is the only design source tree. The Markdown under `design/` is
   authoritative; `review/abilities/` and `review/abilities/workbooks/` are review artifacts.
