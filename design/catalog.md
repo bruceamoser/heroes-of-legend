@@ -361,15 +361,15 @@ No discipline requirement; purchase each once, during level 0 or later. These ar
 - [Create a Window](cards/signature-arcanist-leave-a-window.md) — Reaction; level 3; Class Arcanist; minimum level 3.
 - [Open the Circle](cards/signature-arcanist-open-the-circle.md) — Maneuver; level 7; Class Arcanist; minimum level 7.
 - [Study the Pattern](cards/signature-arcanist-study-the-pattern.md) — Maneuver; level 1; Class Arcanist; minimum level 1.
-- [Cut and Turn](cards/signature-blade-cut-and-turn.md) — Passive; level 1; Class Blade; minimum level 1.
+- [Reckless Charge](cards/signature-blade-cut-and-turn.md) — Maneuver; level 1; Class Blade; minimum level 1.
 - [Dance Through Steel](cards/signature-blade-dance-through-steel.md) — Main Action; level 7; Class Blade; minimum level 7.
-- [Fell the Balance](cards/signature-blade-fell-the-balance.md) — Passive; level 3; Class Blade; minimum level 3.
+- [Not So Fast](cards/signature-blade-fell-the-balance.md) — Reaction; level 3; Class Blade; minimum level 3.
 - [Measured Guard](cards/signature-blade-measured-guard.md) — Reaction; level 1; Class Blade; minimum level 1.
-- [Perfect Placement](cards/signature-blade-perfect-placement.md) — Passive; level 7; Class Blade; minimum level 7.
-- [Pressure Point](cards/signature-blade-pressure-point.md) — Passive; level 1; Class Blade; minimum level 1.
+- [Get Out of Here](cards/signature-blade-perfect-placement.md) — Main Action; level 7; Class Blade; minimum level 7.
+- [Cleave](cards/signature-blade-pressure-point.md) — Main Action; level 1; Class Blade; minimum level 1.
 - [Relentless Pursuit](cards/signature-blade-relentless-pursuit.md) — Reaction; level 7; Class Blade; minimum level 7.
 - [Return Stroke](cards/signature-blade-return-stroke.md) — Reaction; level 3; Class Blade; minimum level 3.
-- [Sweeping Entry](cards/signature-blade-sweeping-entry.md) — Maneuver; level 3; Class Blade; minimum level 3.
+- [Twitch Reflexes](cards/signature-blade-sweeping-entry.md) — Passive; level 3; Class Blade; minimum level 3.
 - [A Better Angle](cards/signature-intellect-a-better-angle.md) — Maneuver; level 3; Class Intellect; minimum level 3.
 - [A Route for Everyone](cards/signature-intellect-a-route-for-everyone.md) — Main Action; level 7; Class Intellect; minimum level 7.
 - [Diagnose the Failure](cards/signature-intellect-diagnose-the-failure.md) — Main Action; level 3; Class Intellect; minimum level 3.

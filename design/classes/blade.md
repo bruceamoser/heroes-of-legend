@@ -14,21 +14,21 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 ## Level 1 choices
 
-- [Cut and Turn](../cards/signature-blade-cut-and-turn.md)
-- [Pressure Point](../cards/signature-blade-pressure-point.md)
+- [Reckless Charge](../cards/signature-blade-cut-and-turn.md)
+- [Cleave](../cards/signature-blade-pressure-point.md)
 - [Measured Guard](../cards/signature-blade-measured-guard.md)
 
 ## Level 3 choices
 
-- [Sweeping Entry](../cards/signature-blade-sweeping-entry.md)
+- [Twitch Reflexes](../cards/signature-blade-sweeping-entry.md)
 - [Return Stroke](../cards/signature-blade-return-stroke.md)
-- [Fell the Balance](../cards/signature-blade-fell-the-balance.md)
+- [Not So Fast](../cards/signature-blade-fell-the-balance.md)
 
 ## Level 7 choices
 
 - [Dance Through Steel](../cards/signature-blade-dance-through-steel.md)
 - [Relentless Pursuit](../cards/signature-blade-relentless-pursuit.md)
-- [Perfect Placement](../cards/signature-blade-perfect-placement.md)
+- [Get Out of Here](../cards/signature-blade-perfect-placement.md)
 
 ## Signature identity in play
 

@@ -1,16 +1,16 @@
-# Sweeping Entry
+# Twitch Reflexes
 
-*You rush in behind a broad sweep, using the threat of the blade to claim a better position.*
+*You move before the thought finishes, blade already turning to the next threat.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self; a visible enemy you can approach by a legal route.
+**Target / range / shape:** Self.
 
-Move up to 3 squares toward that enemy without provoking. Your next Main Action melee attack this turn may push one of its targets 1 square directly away after resolution, on any result.
+You can take one additional Reaction each round.
 
-**Duration:** Movement is immediate; unused push benefit expires at turn end.
+**Duration:** Passive.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Move up to 3 squares toward that enemy without provoking. Your next Main Action 
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Control
+**Tags:** Skill / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Passive.
 
 **ID:** signature-blade-sweeping-entry
 

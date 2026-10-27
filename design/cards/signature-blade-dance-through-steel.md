@@ -8,13 +8,13 @@
 
 **Target / range / shape:** Up to three distinct adjacent enemies.
 
-Choose the targets and roll Agility once using the least favorable net Boons/Banes among them.
+Choose up to three distinct adjacent enemies and roll Agility once using the least favorable net Boons/Banes among them.
 
 - **Weak:** Deal 4 physical damage to each.
-- **Standard:** Deal 4 physical damage to each; you may move up to 1 square without provoking afterward.
-- **Strong:** Deal 6 physical damage to each; you may move up to 2 squares without provoking afterward.
+- **Standard:** Deal 4 physical damage to each, then you may move up to 1 square without provoking.
+- **Strong:** Deal 6 physical damage to each, then you may move up to 2 squares without provoking.
 
-This is one signature attack, not three free attacks. All targets are chosen before any movement.
+This is one signature attack against all chosen targets. Choose all targets before rolling.
 
 **Duration:** Damage and movement resolve immediately.
 

@@ -1,16 +1,16 @@
-# Pressure Point
+# Cleave
 
-*You turn your strike across a joint or supporting limb, leaving your opponent struggling to keep pace.*
+*You sweep your blade in a wide arc, forcing everyone near you to give ground.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One target of your Main Action melee attack.
+**Target / range / shape:** All creatures adjacent to you, including allies. You must be wielding a melee weapon.
 
-After a Standard result, apply Slowed 1 to one target. After Strong, apply Slowed 2 instead. The attack otherwise resolves normally.
+Make one Brawn roll. On a Weak result, deal 1 damage to each creature adjacent to you. On a Standard result, deal 1 damage and push each creature 1 square directly away from you. On a Strong result, deal 1 damage and push each creature 2 squares directly away from you. Resolve collisions normally.
 
-**Duration:** Slowed uses normal decay.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ After a Standard result, apply Slowed 1 to one target. After Strong, apply Slowe
 
 **Type:** Signature
 
-**Tags:** Skill / Control
+**Tags:** Skill / Attack / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Once on your turn.
 
 **ID:** signature-blade-pressure-point
 
