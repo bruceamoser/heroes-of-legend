@@ -31,7 +31,7 @@ their changes were committed; patches are in `backups/pre-reorg-20261027-*`.
 
 - **Review progress:** 4 ancestries (ANC-01 through ANC-04) and 5 classes (CLS-01 through CLS-05) are approved. Last completed: CLS-05 Odd class signatures. Next: CLS-06 Protector.
 - **Local preparation:** complete. Stable IDs and Change Log sheets have been added to the 19 workbooks; the control set is in place.
-- **Consolidation:** the nine approved area branches were committed and merged locally into `release/abilities-review`; the consolidated review data is at commit `1e245a1`. No GitHub PRs were opened or pushed by this cleanup, so the tracker's Book PR and Merge SHA columns remain blank until those PRs are created.
+- **Consolidation:** the nine approved area branches were committed and merged locally into `release/abilities-review`; the consolidated review data is at the tip of that branch. No GitHub PRs were opened or pushed by this cleanup, so the tracker's Book PR and Merge SHA columns remain blank until those PRs are created.
 - **Repo setup:** complete. Epic #1283, Foundry tracker bruceamoser/heroes-of-legend-foundry#252, `release/abilities-review`, and area branches `codex/1284` through `codex/1293` are created. The published control set and workbooks are under `review/abilities/`.
 - **Build policy:** no incremental book, Workshop or Foundry builds. Source audits run per area; the full build phase runs once after every area is landed.
 
