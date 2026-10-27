@@ -4,7 +4,7 @@
 
 ## Rules
 
-You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.
+You gain 1 Boon to hiding. When you are adjacent to a standing creature at least one size larger than you, you can attempt to hide behind it, even in combat and with no other cover, as long as it is between you and the observer. The creature can be an ally or an enemy.
 
 **Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

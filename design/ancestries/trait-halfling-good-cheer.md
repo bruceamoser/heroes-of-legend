@@ -4,7 +4,7 @@
 
 ## Rules
 
-Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a small piece of good fortune. No reroll after seeing the result and no effect on inventory dice.
+Once per day, before a roll that uses an attribute, gain 3 Boons. Describe a small piece of good fortune.
 
 **Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

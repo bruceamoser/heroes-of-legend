@@ -1,10 +1,10 @@
-# Quiet as a Burrow
+# Quick Tongue
 
-*You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.*
+*You let the accusation hang, then answer with the one question nobody wanted asked.*
 
 ## Rules
 
-Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing companion following your route gains 1 Boon to their next quiet-movement roll this scene. You cannot confer Hidden by walking in open view.
+Gain 1 Boon to Guile rolls to negotiate or argue. When you use Guile to defend your own or an ally’s actions, gain 2 Boons instead.
 
 **Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

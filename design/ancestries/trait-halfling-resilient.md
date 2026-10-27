@@ -1,10 +1,10 @@
-# Second Breakfast
+# Endless Pockets
 
-*You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.*
+*Your coat has pockets. Those pockets have pockets. Somewhere in there is a spoon you forgot you packed.*
 
 ## Rules
 
-When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.
+Your Bulk capacity increases by 1.
 
 **Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
