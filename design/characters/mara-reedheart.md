@@ -14,8 +14,8 @@
 
 Total **+3**. Shepherd minima: Reason, Guile ≥ 0; met. Mental sum **+2**, so each stage’s base pool is **12 DP**.
 
-- [Road in the Blood](../ancestries/trait-human-far-walker.md): Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
-- [Make Room at the Fire](../ancestries/trait-human-shared-table.md): Once per scene, when you offer genuine food, shelter or shared work to a nonhostile person, gain 1 Boon to the next Guile roll seeking ordinary hospitality or trust from them before the scene ends. No automatic friendship or compelled response.
+- [Adaptable](../ancestries/trait-human-far-walker.md): You gain 1 additional DP at each level, including level 0.
+- [Ingenuity](../ancestries/trait-human-shared-table.md): Once per scene, assemble a temporary tool, implement or weapon from nearby materials. Gain 1 Boon to the next roll using it; it lasts until the end of the scene.
 
 
 ## Level 0 — origins and purchases
