@@ -381,9 +381,9 @@ No discipline requirement; purchase each once, during level 0 or later. These ar
 - [Test the Hypothesis](cards/signature-intellect-test-the-hypothesis.md) — Main Action; level 7; Class Intellect; minimum level 7.
 - [Coordinated Rush](cards/signature-leader-coordinated-rush.md) — Main Action; level 7; Class Leader; minimum level 7.
 - [Follow My Signal](cards/signature-leader-follow-my-signal.md) — Passive; level 1; Class Leader; minimum level 1.
-- [Hold Your Nerve](cards/signature-leader-hold-your-nerve.md) — Reaction; level 3; Class Leader; minimum level 3.
-- [Lead the Step](cards/signature-leader-lead-the-step.md) — Passive; level 1; Class Leader; minimum level 1.
-- [Orderly Withdrawal](cards/signature-leader-orderly-withdrawal.md) — Maneuver; level 3; Class Leader; minimum level 3.
+- [Blow the Horn](cards/signature-leader-hold-your-nerve.md) — Maneuver; level 3; Class Leader; minimum level 3.
+- [Lead the Way](cards/signature-leader-lead-the-step.md) — Maneuver; level 1; Class Leader; minimum level 1.
+- [Lead by Example](cards/signature-leader-orderly-withdrawal.md) — Main Action; level 3; Class Leader; minimum level 3.
 - [Press the Opening](cards/signature-leader-press-the-opening.md) — Maneuver; level 3; Class Leader; minimum level 3.
 - [Refuse the Rout](cards/signature-leader-refuse-the-rout.md) — Maneuver; level 7; Class Leader; minimum level 7.
 - [Stand Together](cards/signature-leader-stand-together.md) — Maneuver; level 1; Class Leader; minimum level 1.
