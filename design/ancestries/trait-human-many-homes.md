@@ -1,10 +1,10 @@
 # A Foot in Two Worlds
 
-*You greet a stranger in the words of another home, smiling as they answer in the same tongue.*
+*You greet a stranger in the words of another home, and by the end of the evening you have learned the shape of their craft.*
 
 ## Rules
 
-Know two additional ordinary spoken [languages](../rules/languages.md). Choose the communities that taught you; this does not grant a second culture’s discipline or card.
+Choose another ancestry. You learn one language native to that ancestry and gain one trait from that ancestry’s trait list as this trait’s benefit. You keep your Human base HP and Speed.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

@@ -4,7 +4,7 @@
 
 ## Rules
 
-Once per day, declare before an ordinary noncombat roll that you are taking the difficult way on purpose. Gain 1 Boon. You still need a plausible method and any specialist permission; this does not change a card’s attribute.
+Once per day, before an ordinary noncombat roll, describe the difficult way you are taking. Gain 3 Boons to that roll.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

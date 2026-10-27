@@ -4,7 +4,7 @@
 
 ## Rules
 
-Maximum HP +1. Describe the ordinary hardship that taught you to keep going.
+Maximum HP +1. You gain 1 Boon to Fortitude rolls to resist death marks. Describe the ordinary hardship that taught you to keep going.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
