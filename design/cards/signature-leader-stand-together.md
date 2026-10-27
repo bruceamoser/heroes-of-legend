@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self and one adjacent willing ally.
 
-Both gain 1 Boon to defense until the start of your next turn while adjacent to one another. You must remain able to act. Reusing this card replaces your previous application; it does not multiply it.
+You and one adjacent willing ally each gain 2 Boons to defense until the start of your next turn while you remain adjacent.
 
 **Duration:** Until the start of your next turn or adjacency is lost.
 

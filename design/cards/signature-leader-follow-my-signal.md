@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Target / range / shape:** Up to two allies within 3 squares that can see or hear your Aid signal.
 
@@ -22,7 +22,7 @@ When you use Aid, you may assist two allies instead of one. Name the task for ea
 
 **Tags:** Skill / Utility
 
-**Limits:** One two-recipient Aid on your turn; further Aid uses are ordinary.
+**Limits:** One two-recipient Aid on your turn.
 
 **ID:** signature-leader-follow-my-signal
 

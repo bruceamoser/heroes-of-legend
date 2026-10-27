@@ -15,14 +15,14 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 ## Level 1 choices
 
 - [Follow My Signal](../cards/signature-leader-follow-my-signal.md)
-- [Lead the Step](../cards/signature-leader-lead-the-step.md)
+- [Lead the Way](../cards/signature-leader-lead-the-step.md)
 - [Stand Together](../cards/signature-leader-stand-together.md)
 
 ## Level 3 choices
 
 - [Press the Opening](../cards/signature-leader-press-the-opening.md)
-- [Orderly Withdrawal](../cards/signature-leader-orderly-withdrawal.md)
-- [Hold Your Nerve](../cards/signature-leader-hold-your-nerve.md)
+- [Lead by Example](../cards/signature-leader-orderly-withdrawal.md)
+- [Blow the Horn](../cards/signature-leader-hold-your-nerve.md)
 
 ## Level 7 choices
 

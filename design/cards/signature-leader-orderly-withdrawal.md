@@ -1,16 +1,20 @@
-# Orderly Withdrawal
+# Lead by Example
 
-*You call a short retreat and count the steps, keeping the line together as everyone moves.*
+*You step into the gap and strike, showing your companions exactly where the line will break.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** Two willing allies within 4 squares that can perceive your signal.
+**Target / range / shape:** One creature within reach of your melee weapon.
 
-Each may move up to 2 squares without provoking, in an order you choose. Each may end farther from or nearer to the fight as needed; no attack is granted. Choose legal routes and free endpoints.
+Make a melee weapon attack using Guile instead of Brawn. On a Weak result, deal 2 physical damage. On a Standard result, deal 4 physical damage and choose one effect. On a Strong result, deal 6 physical damage and choose two different effects.
 
-**Duration:** Immediate movement.
+- Break Their Guard: The target gains Dazed 1.
+- Open the Line: Each ally within 5 squares who can see or hear you may move 1 square without provoking.
+- Point the Way: Each ally within 5 squares who can see or hear you gains 1 Boon to their next attack against the target.
+
+**Duration:** Immediate attack. Dazed uses normal decay; each Boon expires when used or at the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +24,9 @@ Each may move up to 2 squares without provoking, in an order you choose. Each ma
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Control / Support
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once on your turn.
 
 **ID:** signature-leader-orderly-withdrawal
 
