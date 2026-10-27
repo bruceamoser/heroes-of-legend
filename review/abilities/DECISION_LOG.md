@@ -28,6 +28,7 @@ Append a row for every process or rules decision that future work depends on. Do
 | D-022 | 2026-10-24 | Intellect signature review complete. | All nine Intellect signatures approved locally. | Bruce | Approved |
 | D-023 | 2026-10-24 | Leader signature review complete. | All nine Leader signatures approved locally. | Bruce | Approved |
 | D-024 | 2026-10-27 | Moved the project into `/home/bmoser/OpenBaD/workspaces/heroes-of-legend`. | Keeps the project inside the OpenBaD workspaces tree; all worktrees were repaired and uncommitted changes preserved. The old path is a compatibility symlink. | Bruce | Implemented |
+| D-025 | 2026-10-27 | Odd signature review complete. | All nine Odd signatures approved locally; 71 field-level change records. | Bruce | Approved |
 
 ## Superseding a decision
 
