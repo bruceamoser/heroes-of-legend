@@ -14,7 +14,7 @@
 
 Total **+3**. Protector minima: Fortitude, Reason ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
 
-- [Stubborn as Bedrock](../ancestries/trait-dwarf-deep-constitution.md): Maximum HP +1. Gain no additional resistance from this trait.
+- [Hard as Bedrock](../ancestries/trait-dwarf-deep-constitution.md): Maximum HP +1. Gain no additional resistance from this trait.
 - [A Grudge Well Kept](../ancestries/trait-dwarf-carved-history.md): Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.
 
 Borin can invoke A Grudge Well Kept after any creature damages him, once per combat; it need not be the first hit.
