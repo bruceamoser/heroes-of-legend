@@ -30,9 +30,9 @@ directories and live only in `book/`. They are not review copies.
 - **Next area:** CLS-06 Protector. Pick it from `review/abilities/AREA_TRACKER.md`.
 - **Tracking:** 18 areas, 19 workbooks, 317 ledger rows, 258 approved.
 - **Consolidation:** the nine approved area branches were committed and merged
-  locally into `release/abilities-review`. No GitHub PRs were opened or pushed by
-  this cleanup, so the tracker's Book PR and Merge SHA columns remain blank until
-  those PRs are created.
+  locally into `release/abilities-review`; the consolidated review data is at
+  commit `1e245a1`. No GitHub PRs were opened or pushed by this cleanup, so the
+  tracker's Book PR and Merge SHA columns remain blank until those PRs are created.
 - **Repo setup:** book epic [#1283](https://github.com/bruceamoser/heroes-of-legend/issues/1283),
   Foundry tracker [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252),
   release branch `release/abilities-review`, and area branches `codex/1285`
