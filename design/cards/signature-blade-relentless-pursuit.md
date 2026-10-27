@@ -4,13 +4,13 @@
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** A visible enemy within 2 squares when it begins voluntary movement.
 
-After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, you may make one free Basic Melee attack against it using Brawn. Choose a legal route and endpoint; this does not stop or rewind its movement. If that movement was granted by a free attack, it cannot trigger this card’s free attack. No attack chains.
+After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, make one free Basic Melee attack against it using Brawn with 1 Boon. On a Weak result, apply Slowed 1. On a Standard result, apply Slowed 2. On a Strong result, apply Slowed 3. Slowed uses normal decay.
 
-**Duration:** Immediate pursuit and optional attack.
+**Duration:** Immediate pursuit and attack.
 
 **Equipment / acquisition:** A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.
 
@@ -20,7 +20,7 @@ After it finishes moving, move up to your Speed toward it without provoking. If 
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Attack
+**Tags:** Skill / Attack / Movement
 
 **Limits:** Repeatable; normal action economy applies.
 
