@@ -6,14 +6,33 @@ This folder is the single place to track the abilities review from first decisio
 
 `/home/bmoser/OpenBaD/workspaces/heroes-of-legend`
 
+## Workspace map
+
+| Path | Role |
+|---|---|
+| `book/` | The single Git checkout, on `release/abilities-review`. Contains `design/`, `review/abilities/`, `release/` and `scripts/`. |
+| `review/abilities/` | This live control set. |
+| `review/abilities/workbooks/` | Live review workbooks. |
+| `work/` | Parsers, workbook builders and `publish_control_set.py`. |
+| `backups/` | Pre-cleanup snapshots and branch patches. |
+
+`book/review/abilities/` is the published record. `work/publish_control_set.py`
+copies this folder and `review/abilities/workbooks/` into the repo. The repo directories are the real
+project directories; they are not review copies.
+
 ## Workspace audit
 
-Confirmed on 2026-10-24: 19 workbooks present, 18 areas tracked, 123 ledger rows, six worktrees repaired, backups in `backups/`.
+Confirmed on 2026-10-27: 19 workbooks present, 18 areas tracked, 317 ledger rows
+(258 approved), 9 approved area branches consolidated into
+`release/abilities-review`. The nine `book-<area>` worktrees were removed after
+their changes were committed; patches are in `backups/pre-reorg-20261027-*`.
 
 ## Status
 
+- **Review progress:** 4 ancestries (ANC-01 through ANC-04) and 5 classes (CLS-01 through CLS-05) are approved. Last completed: CLS-05 Odd class signatures. Next: CLS-06 Protector.
 - **Local preparation:** complete. Stable IDs and Change Log sheets have been added to the 19 workbooks; the control set is in place.
-- **Repo setup:** complete. Epic #1283, Foundry tracker bruceamoser/heroes-of-legend-foundry#252, `release/abilities-review`, Universal issue #1284 and `codex/1284-universal` are created. The control set is committed at `102dd0b` under `review/abilities/` in the book repo.
+- **Consolidation:** the nine approved area branches were committed and merged locally into `release/abilities-review` in `book/`. No GitHub PRs were opened or pushed by this cleanup, so the tracker's Book PR and Merge SHA columns remain blank until those PRs are created.
+- **Repo setup:** complete. Epic #1283, Foundry tracker bruceamoser/heroes-of-legend-foundry#252, `release/abilities-review`, and area branches `codex/1284` through `codex/1293` are created. The published control set and workbooks are under `book/review/abilities/`.
 - **Build policy:** no incremental book, Workshop or Foundry builds. Source audits run per area; the full build phase runs once after every area is landed.
 
 ## Read in this order
@@ -46,20 +65,21 @@ Confirmed on 2026-10-24: 19 workbooks present, 18 areas tracked, 123 ledger rows
 
 ## Working files
 
-- Workbooks: `review/abilities/workbooks/`
-- Control docs: `review/abilities/`
-- Current area brief: `review/abilities/areas/UNI-01.md`
+- Repository: `book/` (the single Git checkout, on `release/abilities-review`)
+- Workbooks: `review/abilities/workbooks/` (live); published copy in `book/review/abilities/workbooks/`
+- Control docs: `review/abilities/` (live); published copy in `book/review/abilities/`
+- Last completed area brief: `review/abilities/areas/CLS-05.md`; next area from `AREA_TRACKER.md`
 - Exported/merged ledger: `review/abilities/CHANGE_LEDGER.csv`
 - Per-workbook capture: each workbook's **Change Log** sheet
-- Build scripts: local workspace only; not committed
+- Publish live review data to the repo: `python3 work/publish_control_set.py`
+- Build scripts: `book/scripts/`; local helper scripts in `work/` are not committed
 
 ## Immediate next actions
 
-1. Approve the release branch model and grant write access to both repos.
-2. Create the book epic and Foundry tracking issue from the templates.
-3. Create `release/abilities-review` in the book repo.
-4. Fill in issue numbers and branch names in `AREA_TRACKER.md`.
-5. Start with the first area (recommended: Universal, then one tier at a time).
+1. Continue with CLS-06 Protector from `AREA_TRACKER.md`.
+2. Push the nine consolidated area branches and open their book PRs when ready; then fill in Book PR and Merge SHA in the tracker.
+3. Keep `review/abilities/` and `review/abilities/workbooks/` as the live copies; publish to `book/review/abilities/` after changes.
+4. Do not create `book-<area>` worktrees in this workspace; use branches in `book/`.
 
 ## Setup and automation references
 
