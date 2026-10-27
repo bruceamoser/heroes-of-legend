@@ -79,7 +79,7 @@ their changes were committed; patches are in `backups/pre-reorg-20261027-*`.
 1. Continue with CLS-06 Protector from `AREA_TRACKER.md`.
 2. Push the nine consolidated area branches and open their book PRs when ready; then fill in Book PR and Merge SHA in the tracker.
 3. Edit the live workspace copies first, then publish to the repo after changes.
-4. Do not create `book-<area>` worktrees in this workspace; use branches in the repository root.
+4. Do not create `book-<area>` worktrees in this workspace; use branches in the main checkout.
 
 ## Setup and automation references
 

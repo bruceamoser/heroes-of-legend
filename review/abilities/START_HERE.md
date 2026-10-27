@@ -59,7 +59,7 @@ package and release Foundry.
 ## Workspace hygiene
 
 - Do not create `book-<area>` worktrees. They are full repository checkouts and
-  duplicate the entire `design/` tree (about 640 MB each). Use branches in
-  the repository root; if parallel checkouts are unavoidable, put them outside this workspace.
+  duplicate the entire `design/` tree (about 640 MB each). Use branches in the
+  main checkout; if parallel checkouts are unavoidable, put them outside this workspace.
 - the repository root is the only design source tree. The Markdown under `design/` is
   authoritative; `review/abilities/` and `review/abilities/workbooks/` are review artifacts.
