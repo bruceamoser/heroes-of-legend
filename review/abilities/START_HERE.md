@@ -28,7 +28,7 @@ directories and live only in the repository root. They are not review copies.
   class signatures**; all nine signatures are final and `review/abilities/workbooks/24_Class_Odd.xlsx`
   has been refreshed.
 - **Next area:** CLS-06 Protector. Pick it from `review/abilities/AREA_TRACKER.md`.
-- **Tracking:** 18 areas, 19 workbooks, 317 ledger rows, 258 approved.
+- **Tracking:** 18 areas, 19 workbooks, 305 ledger records: 299 approved and 6 deferred Universal proposals.
 - **Consolidation:** the nine approved area branches were committed and merged
   locally into `release/abilities-review`; the consolidated review data is at
   commit `1e245a1`. No GitHub PRs were opened or pushed by this cleanup, so the
