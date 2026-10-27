@@ -1,16 +1,16 @@
-# Prepared Explanation
+# Angle of Attack
 
-*You give your companion a few precise words, then point out the place their next step should land.*
+*You see the exchange a heartbeat before it happens, then step into the opening you already know is there.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One ally within 3 squares that can hear and understand your Aid.
+**Target / range / shape:** One creature within reach of your melee weapon. You must be wielding a melee weapon.
 
-Your Aid can reach that ally. When you give Aid, the ally may also move 1 square without provoking before making the aided roll. This movement uses no ally action or movement allowance. Aid’s Boon and expiry are unchanged.
+Make a melee weapon attack against one creature within reach, using Knowledge instead of Brawn. On a Weak result, deal 3 physical damage. On a Standard result, deal 5 physical damage. On a Strong result, deal 7 physical damage.
 
-**Duration:** Movement is immediate; Aid lasts until used or the start of your next turn.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Your Aid can reach that ally. When you give Aid, the ally may also move 1 square
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Attack
 
-**Limits:** The movement benefit can be granted once on your turn.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-intellect-prepared-explanation
 

@@ -16,7 +16,7 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 - [Spot the Leverage](../cards/signature-intellect-spot-the-leverage.md)
 - [Make the Connection](../cards/signature-intellect-make-the-connection.md)
-- [Prepared Explanation](../cards/signature-intellect-prepared-explanation.md)
+- [Angle of Attack](../cards/signature-intellect-prepared-explanation.md)
 
 ## Level 3 choices
 
@@ -28,7 +28,7 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 - [A Route for Everyone](../cards/signature-intellect-a-route-for-everyone.md)
 - [Test the Hypothesis](../cards/signature-intellect-test-the-hypothesis.md)
-- [Expose the Mechanism](../cards/signature-intellect-expose-the-mechanism.md)
+- [Shatter the Guard](../cards/signature-intellect-expose-the-mechanism.md)
 
 ## Signature identity in play
 

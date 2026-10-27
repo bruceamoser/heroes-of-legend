@@ -1,16 +1,16 @@
 # Spot the Leverage
 
-*You study the hinges and weight of the obstacle, then point to the place where a small effort will matter most.*
+*You study the hinge, the stance or the shifting weight, then point to the place where a small effort will matter most.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One visible ordinary obstacle within 3 squares.
+**Target / range / shape:** One visible creature or obstacle within 5 squares; you and each ally within 5 squares who can hear and understand you.
 
-Learn whether Force can overcome it, its remaining progress target, and one practical point at which to apply force. You or one ally who can hear your explanation gains 2 Boons to the next Force action against that obstacle before the scene ends. No permission to force an impossible obstacle is granted.
+Choose one visible creature or obstacle within 5 squares. Learn one useful opening: for a creature, one of its defenses or one visible weakness; for an obstacle, whether Force can overcome it and its remaining progress target. You and each ally within 5 squares who can hear and understand you gain 1 Boon to your next action against the target before the start of your next turn.
 
-**Duration:** Information persists; the Boons expire when used or the scene ends.
+**Duration:** Information persists; each Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Learn whether Force can overcome it, its remaining progress target, and one prac
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Utility / Control
 
-**Limits:** One application per obstacle per scene; repeated examination does not refresh spent Boons.
+**Limits:** One application per target per scene.
 
 **ID:** signature-intellect-spot-the-leverage
 

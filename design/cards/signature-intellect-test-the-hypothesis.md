@@ -1,18 +1,18 @@
 # Test the Hypothesis
 
-*You arrange the evidence, explain what must have happened and ask your companions to watch while you test the part that could prove you wrong.*
+*You lay out the evidence, name the plan and show your companions the one part that must go right.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes.
+**Time:** One minute.
 
-**Target / range / shape:** An accessible evidence set and one question about what happened.
+**Target / range / shape:** Self and up to three allies who can hear and understand you.
 
-Spend ten minutes examining the evidence. Obtain a supported sequence of events answering your question as far as the evidence allows. The DA states what remains uncertain, one contradiction in your explanation if the evidence contains one, and a concrete lead for checking it if one exists. Share the account with your companions; they need no duplicate interpretation rolls. No secret facts are invented.
+Spend one minute forming a plan from the evidence and observations available. State the plan. The DA confirms what is true, what remains uncertain, and one contradiction or risk. You and each chosen ally gain 2 Boons to your next roll that directly follows the plan.
 
-**Duration:** The account and its stated limits remain known.
+**Duration:** The plan and its stated limits remain known; each Boon expires when used or at the end of the scene.
 
 **Equipment / acquisition:** None.
 
@@ -22,9 +22,9 @@ Spend ten minutes examining the evidence. Obtain a supported sequence of events 
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Support
 
-**Limits:** One account per question; new evidence permits a new examination.
+**Limits:** Once per scene.
 
 **ID:** signature-intellect-test-the-hypothesis
 

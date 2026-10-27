@@ -1,16 +1,16 @@
-# Expose the Mechanism
+# Shatter the Guard
 
-*You point out the repeating hesitation in the creature’s movements and call to your companions just as it happens again.*
+*You name the flaw in the guard, then strike through it before the target can close the gap.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature or active device within 5 squares; up to two allies within 5 squares that can hear you.
+**Target / range / shape:** One visible creature or active device within 5 squares; one ally within 5 squares who can hear and understand you.
 
-Learn one actual resistance and one actual weakness of the target, if present, and one capability you have seen it use in this scene. The DA explains that capability’s visible trigger or limitation. Each chosen ally gains 1 Boon to its next roll against that target before the start of your next turn. No weakness is created and no resistance is reduced.
+Make a Knowledge-based attack against the target. On a Weak result, deal 5 physical damage. On a Standard result, deal 7 physical damage. On a Strong result, deal 9 physical damage. The target loses 1 resistance of your choice until the end of the scene, and the chosen ally gains 1 Boon to their next attack against it before the start of your next turn.
 
-**Duration:** Information persists; each Boon expires when used or the start of your next turn.
+**Duration:** The attack resolves immediately. The resistance loss lasts until the end of the scene; the Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Learn one actual resistance and one actual weakness of the target, if present, a
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Attack / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once on your turn; one resistance reduction per target per scene.
 
 **ID:** signature-intellect-expose-the-mechanism
 

@@ -372,11 +372,11 @@ No discipline requirement; purchase each once, during level 0 or later. These ar
 - [Twitch Reflexes](cards/signature-blade-sweeping-entry.md) — Passive; level 3; Class Blade; minimum level 3.
 - [A Better Angle](cards/signature-intellect-a-better-angle.md) — Maneuver; level 3; Class Intellect; minimum level 3.
 - [A Route for Everyone](cards/signature-intellect-a-route-for-everyone.md) — Main Action; level 7; Class Intellect; minimum level 7.
-- [Diagnose the Failure](cards/signature-intellect-diagnose-the-failure.md) — Main Action; level 3; Class Intellect; minimum level 3.
-- [Expose the Mechanism](cards/signature-intellect-expose-the-mechanism.md) — Maneuver; level 7; Class Intellect; minimum level 7.
+- [Diagnose the Failure](cards/signature-intellect-diagnose-the-failure.md) — Reaction; level 3; Class Intellect; minimum level 3.
+- [Shatter the Guard](cards/signature-intellect-expose-the-mechanism.md) — Main Action; level 7; Class Intellect; minimum level 7.
 - [Make the Connection](cards/signature-intellect-make-the-connection.md) — Main Action; level 1; Class Intellect; minimum level 1.
-- [Predict the Motion](cards/signature-intellect-predict-the-motion.md) — Reaction; level 3; Class Intellect; minimum level 3.
-- [Prepared Explanation](cards/signature-intellect-prepared-explanation.md) — Passive; level 1; Class Intellect; minimum level 1.
+- [Predict the Motion](cards/signature-intellect-predict-the-motion.md) — Passive; level 3; Class Intellect; minimum level 3.
+- [Angle of Attack](cards/signature-intellect-prepared-explanation.md) — Main Action; level 1; Class Intellect; minimum level 1.
 - [Spot the Leverage](cards/signature-intellect-spot-the-leverage.md) — Maneuver; level 1; Class Intellect; minimum level 1.
 - [Test the Hypothesis](cards/signature-intellect-test-the-hypothesis.md) — Main Action; level 7; Class Intellect; minimum level 7.
 - [Coordinated Rush](cards/signature-leader-coordinated-rush.md) — Main Action; level 7; Class Leader; minimum level 7.

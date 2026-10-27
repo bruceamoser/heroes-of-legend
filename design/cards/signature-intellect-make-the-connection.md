@@ -1,16 +1,16 @@
 # Make the Connection
 
-*You set two pieces of evidence side by side and notice the small detail that makes them belong to the same story.*
+*You lay every scrap of what you know side by side and turn the whole picture until the missing edge catches the light.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
 **Time:** One minute.
 
-**Target / range / shape:** An accessible person, object or scene with evidence you can examine.
+**Target / range / shape:** Self; one case, person, place or problem you have been investigating.
 
-Spend one minute examining the evidence and state a question. Learn one supported fact relevant to it and a specific way to investigate further: a person to question, place to examine or test to perform, if one exists. If the evidence cannot answer your question, learn what kind of evidence is missing. No roll; obvious clues remain available to everyone. This does not reveal thoughts or invent events.
+Spend one minute reviewing everything you have learned about one case, person, place or problem. You must have at least one relevant fact or observation. The DA reveals one detail you missed, grounded in the facts already established: a piece of evidence, a motivation, a tell, an angle or a connection.
 
 **Duration:** Information remains known.
 
@@ -24,7 +24,7 @@ Spend one minute examining the evidence and state a question. Learn one supporte
 
 **Tags:** Skill / Utility
 
-**Limits:** One reading per question until new evidence becomes available.
+**Limits:** One revelation per case until new evidence becomes available.
 
 **ID:** signature-intellect-make-the-connection
 
