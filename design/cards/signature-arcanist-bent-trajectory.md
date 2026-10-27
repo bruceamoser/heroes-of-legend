@@ -6,9 +6,9 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** Your single-target spell; choose one visible adjacent unoccupied origin square before rolling.
+**Target / range / shape:** One of your spell attacks; choose one visible, unoccupied square within 6 squares of you before rolling.
 
-Your single-target spell may originate from the chosen square. Determine cover and attack path from there, but measure range from you. You must still see the target and cannot cast through an opaque barrier. This changes only the spell’s origin; it adds no roll or action.
+Choose one of your spell attacks. It can originate from any visible, unoccupied square within 6 squares of you. Determine cover and attack path from that square, but measure range from you. You must know the target’s location. Roll the spell attack normally.
 
 **Duration:** For that spell.
 
