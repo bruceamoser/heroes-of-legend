@@ -39,20 +39,20 @@ Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purc
 ## Level 1 — class and purchases
 
 Choose [Protector](../classes/protector.md). Class grants **Armor 1 and Guard 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
-Free signature: [Between Them](../cards/signature-protector-between-them.md). Its use procedure follows; the linked card remains the complete reference:
+Free signature: [Step Between](../cards/signature-protector-between-them.md). Its use procedure follows; the linked card remains the complete reference:
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** One adjacent willing ally, after a single-target attack is declared against it but before rolling.
 
-Become the target if you meet the attack’s range and targeting requirements. Resolve the attack once against you; your ally receives none of its effects. Afterward the ally may move up to 2 squares without provoking if able. You do not move to intercept and cannot redirect an area attack.
+You and the ally swap squares. You become the target of the attack and resolve it against your defense. If either of you cannot occupy the other's square, you cannot use this reaction. This does not redirect area attacks.
 
-**Duration:** The triggering attack and immediate ally movement.
+**Duration:** The triggering attack.
 
 **Equipment / acquisition:** None.
 
 
-**Signature limit:** Repeatable; normal action economy applies.
+**Signature limit:** Repeatable; uses your Reaction.
 
 Fresh pool: **10 + 1 = 11 DP**. All discipline purchases below occur before cards that need them.
 
@@ -87,7 +87,7 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Hook and Drive holds a doorway; Between Them lets Borin intercept a single attack before the roll and help the ally withdraw. Taking prisoners is a deliberate use of Take Them Alive. His shield and hammer fill both hands: potions require freeing a hand. Treat Soft Tissue supplies useful care after danger, not instant scar removal.
+Hook and Drive holds a doorway; Step Between lets Borin swap squares with an ally and take a single-target attack before the roll. Taking prisoners is a deliberate use of Take Them Alive. His shield and hammer fill both hands: potions require freeing a hand. Treat Soft Tissue supplies useful care after danger, not instant scar removal.
 
 ## Complete learned-card checklist
 
@@ -103,7 +103,7 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Shielding Step](../cards/shielding-step.md) — Reaction; None — no roll.
 - [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
 - [Sure Ascent](../cards/sure-ascent.md) — Main Action; Brawn.
-- [Between Them](../cards/signature-protector-between-them.md) — Reaction; None — no roll.
+- [Step Between](../cards/signature-protector-between-them.md) — Reaction; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 

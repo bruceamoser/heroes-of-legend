@@ -39,20 +39,20 @@ Opening pool: **12 + 0 duplicate compensation = 12 DP**. No disciplines are purc
 ## Level 1 — class and purchases
 
 Choose [Shepherd](../classes/shepherd.md). Class grants **Life 1 and Medicine 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
-Free signature: [Gentle Return](../cards/signature-shepherd-gentle-return.md). Its use procedure follows; the linked card remains the complete reference:
+Free signature: [Mend](../cards/signature-shepherd-gentle-return.md). Its use procedure follows; the linked card remains the complete reference:
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing ally you have just restored HP to with a spell or potion.
+**Target / range / shape:** One living ally within 3 squares.
 
-That ally may stand without spending movement, then move 1 square without provoking if able. This works even if it was above 0 HP before healing. It grants no extra HP, reduces no healing payment and cannot reverse Last Words.
+Moser's law of conservation of Life energy: pay 1 HP before rolling. This cost bypasses resistance and must leave you above 0 HP. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying creature cannot be targeted; stabilize it first. This restores no wounds and cannot reverse Last Words.
 
-**Duration:** Immediate stand and movement after healing.
+**Duration:** Immediate.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand.
 
 
-**Signature limit:** Once on your turn; the ally must actually regain HP.
+**Signature limit:** Repeatable; normal action economy applies.
 
 Fresh pool: **12 + 1 = 13 DP**. All discipline purchases below occur before cards that need them.
 
@@ -85,7 +85,7 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Sap and Breath pays 1 HP before healing 3/5/7 HP; Mara must remain above zero and have a free hand. Gentle Return adds the printed recovery movement once on her turn. Roots Remember Feet controls ground, while Borrow the Beast provides close fighting at the cost of spellcasting, speech and item use. Returning costs a Maneuver, so healing and beast fighting are a real choice. No potion or herb supply is silently granted.
+Sap and Breath pays 1 HP before healing 3/5/7 HP; Mara must remain above zero and have a free hand. Mend is her free signature: pay 1 HP, then restore 3/6/9 HP to one ally within 3 squares. Roots Remember Feet controls ground, while Borrow the Beast provides close fighting at the cost of spellcasting, speech and item use. Returning costs a Maneuver, so healing and beast fighting are a real choice. No potion or herb supply is silently granted.
 
 ## Complete learned-card checklist
 
@@ -105,7 +105,7 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Treat Bone](../cards/treat-bone.md) — Main Action; Knowledge.
 - [Relieve Poison](../cards/relieve-poison.md) — Main Action; Knowledge.
 - [Rouse the Senses](../cards/rouse-the-senses.md) — Main Action; Reason.
-- [Gentle Return](../cards/signature-shepherd-gentle-return.md) — Passive; None — no roll.
+- [Mend](../cards/signature-shepherd-gentle-return.md) — Passive; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 
