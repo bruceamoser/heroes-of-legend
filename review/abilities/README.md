@@ -22,8 +22,8 @@ project directories; they are not review copies.
 
 ## Workspace audit
 
-Confirmed on 2026-10-27: 19 workbooks present, 18 areas tracked, 433 ledger
-records (427 approved; 6 Universal proposals deferred), 9 approved area branches consolidated into
+Confirmed on 2026-10-27: 19 workbooks present, 18 areas tracked, 504 ledger
+records (498 approved; 6 Universal proposals deferred), 9 approved area branches consolidated into
 `release/abilities-review`. The nine `book-<area>` worktrees were removed after
 their changes were committed; patches are in `backups/pre-reorg-20261027-*`.
 
