@@ -29,6 +29,9 @@ Append a row for every process or rules decision that future work depends on. Do
 | D-023 | 2026-10-24 | Leader signature review complete. | All nine Leader signatures approved locally. | Bruce | Approved |
 | D-024 | 2026-10-27 | Moved the project into `/home/bmoser/OpenBaD/workspaces/heroes-of-legend`. | Keeps the project inside the OpenBaD workspaces tree; all worktrees were repaired and uncommitted changes preserved. The old path is a compatibility symlink. | Bruce | Implemented |
 | D-025 | 2026-10-27 | Odd signature review complete. | All nine Odd signatures approved locally; 71 field-level change records. | Bruce | Approved |
+| D-026 | 2026-10-27 | Book-facing text says "ability", never "card". | "Card" is design and production vocabulary; players read abilities. | Bruce | Approved |
+| D-027 | 2026-10-27 | Record each approved signature immediately. | The area file, workbook and ledger must reflect a decision before the next signature is discussed; batching at the end of a class loses decisions. | Bruce | Approved |
+| D-028 | 2026-10-27 | Protector signature review complete. | All nine Protector signatures approved locally; 62 field-level change records. | Bruce | Approved |
 
 ## Superseding a decision
 

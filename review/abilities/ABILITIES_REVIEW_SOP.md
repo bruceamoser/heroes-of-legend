@@ -110,6 +110,7 @@ Recommended order: Universal → Novice → Adept → Master → ancestries → 
 4. Mechanical changes require explicit Bruce approval. The whole system is in playtesting, so no per-change playtest status is recorded.
 5. Export or merge the area rows into `review/abilities/CHANGE_LEDGER.csv` before opening the PR.
 6. **Before moving to the next row, show the complete final text** — title, narrative and rules — for confirmation. Record the decision, then move on.
+7. Record each approved signature immediately in the area file, the workbook row and Change Log, and `CHANGE_LEDGER.csv`. Do not defer recording to the end of the class.
 
 ### 6.3 Apply the book changes
 
