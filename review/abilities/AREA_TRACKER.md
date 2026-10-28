@@ -40,7 +40,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 | CLS-07 | Class | `26_Class_Shadow.xlsx` | — | — | Bruce | Approved | 9 / 9 | 66 approved | — | — | — | All nine signatures approved; full redesign. |
 | CLS-08 | Class | `27_Class_Shepherd.xlsx` | — | — | Bruce | Approved | 9 / 9 | 71 approved | — | — | — | All nine signatures approved; full redesign. |
 | CLS-09 | Class | `28_Class_Unbalanced.xlsx` | — | — | Bruce | Approved | 9 / 9 | 71 approved | — | — | — | All nine signatures approved; full redesign. |
-| CLS-10 | Class | `29_Class_Warden.xlsx` | — | — | Bruce | Not started | 0 / 9 | 0 | — | — | — | 3 signatures × 3 tiers. |
+| CLS-10 | Class | `29_Class_Warden.xlsx` | — | — | Bruce | Approved | 9 / 9 | 76 approved | — | — | — | All nine signatures approved; full redesign. |
 
 ## Release gate
 
