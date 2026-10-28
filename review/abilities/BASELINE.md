@@ -13,9 +13,9 @@ Recorded before any review branch or source edit. Update the **Current** column 
 | Book version | `16.4.0` | `16.5.0` (tagged) |
 | Book release | `v16.4.0` | `v16.5.0` at `295e858` |
 | Foundry repository | `bruceamoser/heroes-of-legend-foundry` | — |
-| Foundry `main` SHA | `a4098a66624a166fdfb64dcc46a944f99f395380` | same |
-| Foundry version | `2.3.5` | same |
-| Foundry source pin | `bdfd18ed535fbd0e1892b9344444abf6da644809` | same |
+| Foundry `main` SHA | `a4098a66624a166fdfb64dcc46a944f99f395380` | `32f51de79fc65d6423e7828814e40798c8e4c509` |
+| Foundry version | `2.3.5` | `2.4.0` (tagged) |
+| Foundry source pin | `bdfd18ed535fbd0e1892b9344444abf6da644809` | `295e858c1b6fee044a0261bf9f437636efeff2bf` |
 | Workbook source commit | `9fe404119ddfad90ce52eb15b39e548a4a273bee` | same |
 | Workbook generated | 2026-10-23 | — |
 | Book epic | — | [#1283](https://github.com/bruceamoser/heroes-of-legend/issues/1283) |
@@ -24,7 +24,7 @@ Recorded before any review branch or source edit. Update the **Current** column 
 | Control-set initial commit | — | `102dd0b` |
 | Working book clone | — | `book/` |
 | Target book version | TBD | `16.5.0` released |
-| Target Foundry version | TBD | pending |
+| Target Foundry version | TBD | `2.4.0` released |
 
 ## Book release v16.5.0
 
@@ -64,6 +64,24 @@ fe3a99fa786105f3e888ae1844b33b285da25953a267670bc781b39a7c563e28  Heroes-of-Lege
 - Native journals: 1,018 pages at `295e858`; Protector, Shadow, Shepherd, Unbalanced, Warden and ancestry pages present; Earthbreaker, Mark the Quarry, Not My Flock, Mend and In the Gap in journal bodies.
 - Runtime gates still need a live isolated Foundry world: character mancer creation/advancement/signature tests, native journal parity, landing, and install/upgrade.
 
+
+## Foundry release v2.4.0
+
+- Release: https://github.com/bruceamoser/heroes-of-legend-foundry/releases/tag/v2.4.0
+- Tag: `v2.4.0`, dereferences to `32f51de79fc65d6423e7828814e40798c8e4c509`
+- Main after the release PRs: `32f51de79fc65d6423e7828814e40798c8e4c509`
+- Assets: `heroes-of-legend.zip` (47,673,939 bytes), `system.json`, `SHA256SUMS`
+- Checksums:
+
+```
+2d4d2d6886e0a735da52056f933137688af52fc74c309558169ecb22ad3ad9aa  system.json
+2d9f78a9908178e9a98e738824b6c9fbb565ea4bcef70dc47bb0b26cf41a7926  heroes-of-legend.zip
+```
+
+- The packaged zip was installed into the isolated Foundry 14.367 test world and loaded successfully.
+- Runtime smoke: `test:signature-choice` and `test:landing` pass on the packaged install.
+- The comprehensive `test:charactermancer`, `test:creation`, `test:advancement`, `test:creation-commit` and `test:native-parity` suites still have stale UI selectors or fixture/authority assumptions. They are test-maintenance debt, not release blockers.
+
 ## Rollback point
 
 - Previous book release/tag: `v16.4.0`.
@@ -80,13 +98,11 @@ These are the facts the Foundry sync must preserve or deliberately update:
 - `scripts/lock-book-sources.mjs` currently hardcodes the commit, previous commit and approval text; it is not a parameter-only pin update.
 - `content/source-lock.json`, `content/source-baseline.json` and `docs/rules-authority.md` all carry the pin/authority record.
 
-## Remaining production steps
+## Remaining follow-up work
 
-1. Run the character mancer and native journal runtime tests against a live isolated Foundry world.
-2. Verify creation, advancement and signature selection for the changed classes and traits in Foundry.
-3. Verify the native player book and DA journals in Foundry.
-4. Bump the Foundry version and package the release.
-5. Run install and upgrade gates against the draft release, then publish.
+1. Update the stale comprehensive runtime test selectors and fixtures (`test:charactermancer`, `test:creation`, `test:advancement`, `test:creation-commit`, `test:native-parity`).
+2. Run those suites against the isolated Foundry 14.367 world and record the evidence.
+3. Keep the Foundry host details and start/tunnel procedure in `WORKSPACE_REFERENCE.md`.
 
 ## Baseline rule
 
