@@ -84,8 +84,8 @@ TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 
 1. In the Foundry repo, update the book pin:
    - `content/source-lock.json`;
-   - `content/source-baseline.json`;
    - `docs/rules-authority.md`.
+   `docs/source-baseline.json` is historical; do not move it.
 2. Run the content imports the change needs. At minimum for card text:
 
 ```sh
@@ -96,16 +96,26 @@ npm run validate:inventory
 npm run import:web-journals
 ```
 
-3. Build and test the Workshop:
+3. Confirm the character mancer can see the new content: choices and inventory carry the new IDs, creation and advancement offer them, and signature selection resolves them. Run the guarded local-world tests:
+
+```sh
+npm run test:charactermancer
+npm run test:creation
+npm run test:advancement
+npm run test:creation-commit
+npm run test:signature-choice
+```
+
+4. Build and test the Workshop:
 
 ```sh
 npm run build:workshop
 npm run test:workshop-builder-view
 ```
 
-4. Spot-check each changed ancestry and class in the local Workshop: titles, IDs, requirements, rules text.
+5. Spot-check each changed ancestry and class in the local Workshop: titles, IDs, requirements, rules text.
 
-**Gate:** imports and validations pass, Workshop build and test pass, spot checks match the book.
+**Gate:** imports and validations pass, character mancer tests pass, Workshop build and test pass, spot checks match the book.
 
 ---
 
@@ -134,13 +144,15 @@ npm run import:native-journals
 npm run import:wounds && npm run validate:wounds
 ```
 
-5. Run the full gate:
+5. Confirm the native player book and DA journals contain the changed class, ancestry and trait pages. Check `static/data/journal-index.json` and the bodies under `content/journals/`; run the native journal tests.
+
+6. Run the full gate:
 
 ```sh
 npm run check
 ```
 
-**Gate:** `npm run check` green; no missing or duplicate content; source pin equals the book release commit.
+**Gate:** `npm run check` green; character mancer and native journals verified; no missing or duplicate content; source pin equals the book release commit.
 
 ---
 
@@ -150,8 +162,10 @@ npm run check
 2. For each class, confirm all nine signatures exist with the current title, Stable ID, level, DP, requirements and rules text.
 3. For each ancestry, confirm all five traits exist with the current title, Stable ID and rules text.
 4. Confirm no retired title or old rules text remains.
-5. Confirm existing actors and worlds still resolve their UUID links.
-6. Record the verification output in the Foundry PR and `review/abilities/BASELINE.md`.
+5. Verify the character mancer: every changed signature and trait is selectable in creation and advancement, and signature selection resolves the current card.
+6. Verify the native player book and DA journals: every changed class and ancestry page is present with the current text.
+7. Confirm existing actors and worlds still resolve their UUID links.
+8. Record the verification output in the Foundry PR and `review/abilities/BASELINE.md`.
 
 **Gate:** automated comparison clean, manual class/ancestry checklist complete, no orphan or duplicate items.
 
