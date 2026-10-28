@@ -1,16 +1,16 @@
-# Unbroken Passage
+# The Long Road
 
-*You put yourself at the front and guide your companions through the press, keeping each dangerous opening behind your shoulder.*
+*You gather them up and lead them out. Nobody gets left behind.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and up to two adjacent willing allies.
+**Target / range / shape:** Self and each willing ally within 5 squares.
 
-Move yourself and the chosen allies up to your Speed each without provoking, in an order you choose. Choose legal routes and separate free endpoints; the allies must finish adjacent to you. Each ally gains 1 Boon to its next defense before the start of your next turn while it remains adjacent to you and you can act. This does not carry an immobile creature or grant attacks.
+You and each chosen ally may move up to your Speed without provoking, ignoring difficult terrain. Each ally must end within 5 squares of you. You may carry one willing Dying ally with you; it moves with you and ends adjacent to you.
 
-**Duration:** Movement is immediate; each defensive Boon expires when used, adjacency is lost or your next turn starts.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Move yourself and the chosen allies up to your Speed each without provoking, in 
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Defense
+**Tags:** Skill / Movement / Support
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-protector-unbroken-passage
 

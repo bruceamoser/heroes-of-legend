@@ -1,22 +1,16 @@
-# Fling the Captive
+# Over the Top
 
-*You catch the struggling body, turn hard at the hips and release the whole tangle in a violent throw.*
+*You take your companion by the belt and the collar and send them over the line.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Brawn
+**Action:** Maneuver · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent creature, whether or not you already grapple it.
+**Target / range / shape:** One willing ally your size or smaller within reach.
 
-Release any Grappled contribution you maintain on the target, then roll Brawn. You must have a Main Action before releasing; this card cannot be used while you are Grappled 3.
+Throw the ally up to 4 squares in a direction you choose, ignoring difficult terrain and passing over occupied squares. The ally must land standing in a free square. If it lands adjacent to an enemy, it may immediately make one Basic Melee attack against that enemy with 1 Boon. That attack is part of your action, not the ally's turn. The ally takes no damage from the throw.
 
-- **Weak:** Deal 3 physical damage and push 1 square.
-- **Standard:** Deal 4 physical damage, push 2 squares and knock prone.
-- **Strong:** Deal 6 physical damage, push 3 squares and knock prone.
-
-No prior grappling card or existing hold is required. The DA judges whether your body can plausibly throw the target; use normal collision rules.
-
-**Duration:** Immediate damage, push and Prone.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -26,7 +20,7 @@ No prior grappling card or existing hold is required. The DA judges whether your
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control
+**Tags:** Skill / Movement / Support
 
 **Limits:** Repeatable; normal action economy applies.
 

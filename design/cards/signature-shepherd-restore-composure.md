@@ -1,26 +1,18 @@
-# Restore Composure
+# The Shared Cup
 
-*You take their shaking hands and pour life into them, holding their gaze until the battlefield comes back into focus.*
+*You take the cup from the strong and put it in the hands of the dying. Life is not created; it is passed on.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing creature within 3 squares, including self.
+**Target / range / shape:** Two willing creatures within 5 squares, one donor and one recipient. You can be either.
 
-Pay 7 HP before rolling, bypassing all resistance and leaving yourself above 0. Requires a free hand. Apply Life resistance to the healing, minimum 1 while HP is missing, capped by missing HP.
+Move up to 6 HP from the donor to the recipient. The donor must remain above 0 HP. The recipient cannot exceed maximum HP. This is a transfer, not healing: no Life resistance applies, and Moser’s law does not add another cost. A Dying recipient who rises above 0 HP clears its death marks.
 
-- **Weak:** Restore 8 HP and reduce temporary Dazed by 1.
-- **Standard:** Restore 16 HP and reduce temporary Dazed by 1.
-- **Strong:** Restore 24 HP, reduce temporary Dazed by 2 and temporary Blinded by 1.
+**Duration:** Immediate.
 
-Remove no starred conditions or scars. No Grit restoration or reversal of Last Words. This is a complete spell; no earlier healing card is required.
-
-A willing creature explicitly harmed by healing instead takes the listed HP amount as Life damage, with normal resistance and minimum damage; apply no beneficial recovery riders. An unwilling creature harmed by healing can be targeted as described below.
-
-**Duration:** Healing and reductions are immediate; spent actions are not restored.
-
-**Equipment / acquisition:** A free hand; no item granted.
+**Equipment / acquisition:** None.
 
 ---
 
@@ -28,16 +20,10 @@ A willing creature explicitly harmed by healing instead takes the listed HP amou
 
 **Type:** Signature
 
-**Tags:** Magic / Recovery
+**Tags:** Magic / Recovery / Support
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-shepherd-restore-composure
 
 [Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)
-
-**Offensive healing — latest agreement:** this spell may target an unwilling
-creature harmed by healing. Resolve it as an attack using its printed attribute,
-range, action and HP cost; the HP result becomes Life damage, without beneficial
-recovery riders. This is the explicit exception to willing-only targeting above.
-Use the creature’s printed defense when a player defends; no opposed second roll.

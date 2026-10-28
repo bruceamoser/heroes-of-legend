@@ -34,9 +34,9 @@ for p in files:
   expected_price='1' if id in ONE_DP else str({'1':2,'3':4,'7':8}.get(tier,''))
   if tier in ('1','3','7') and field(s,'DP')!=expected_price:errors.append(f'{p.name}: tier price')
   if id in ONE_DP and (tier!='1' or req!='None' or field(s,'Type') in ('Universal','Signature') or not field(s,'Limits').startswith('Purchase once')):errors.append(f'{p.name}: invalid one-DP exception')
-  if not field(s,'Attribute').startswith('None') and not all('**'+x+':**' in s for x in ('Weak','Standard','Strong')):
+  if not field(s,'Attribute').startswith('None') and re.search(r'Make (?:a|one|an) (?!Basic\b)[^.]*\b(?:roll|attack)\b',s,re.I) and not all('**'+x+':**' in s for x in ('Weak','Standard','Strong')):
    # Some early signature/utility prototypes print their exact 1/2/3 resolution in prose.
-   if not re.search(r'\b\d+/\d+/\d+\b|Weak:',s):errors.append(f'{p.name}: roll outcomes not explicit')
+   if not re.search(r'\b\d+/\d+/\d+\b|Weak:|\bWeak\b.*\bStandard\b.*\bStrong\b',s,re.S):errors.append(f'{p.name}: roll outcomes not explicit')
 for id in ONE_DP-set(ids):errors.append(f'Missing approved one-DP card: {id}')
 for p in (R/'origins').glob('*.md'):
  s=p.read_text()

@@ -1,18 +1,16 @@
-# Defiant Rescue
+# Take the Wound
 
-*You see the blow gathering over your companion and charge into its path, driving them back behind your shoulder.*
+*You see the blow land on your companion and put your own body under the injury.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One willing ally within 3 squares, after a single-target attack is declared against it but before any attack or defense roll.
+**Target / range / shape:** One ally within 5 squares.
 
-Move up to 3 squares without provoking to a free square adjacent to the ally. You must then be a legal target of that attack. Become its target and resolve it once against you; gain 1 Boon if you make a defense roll. Afterward the ally may move up to 2 squares without provoking if able. If you cannot reach a legal interception position, you cannot use this card.
+Trigger: an ally within 5 squares gains a wound. You take that wound instead. The ally does not gain it. You make the wound roll with 1 Boon. The triggering damage, Dying state, and death marks are unchanged; only the wound moves. You can take the wound only if you could be affected by it normally.
 
-This is declared before the outcome is known. It neither transfers already-resolved damage nor redirects an area attack.
-
-**Duration:** The interception, attack and immediate ally movement.
+**Duration:** As the wound.
 
 **Equipment / acquisition:** None.
 
@@ -22,9 +20,9 @@ This is declared before the outcome is known. It neither transfers already-resol
 
 **Type:** Signature
 
-**Tags:** Skill / Defense / Movement
+**Tags:** Skill / Recovery / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene; uses your Reaction.
 
 **ID:** signature-protector-defiant-rescue
 

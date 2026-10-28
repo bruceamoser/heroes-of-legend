@@ -1,26 +1,18 @@
-# Careful Transfer
+# Triage
 
-*You press an open hand toward the injury and give a measured surge of your own warmth, keeping your voice steady as the effort leaves you pale.*
+*Two wounded, one pair of hands, no time to choose wrong.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing creature within 3 squares, including self.
+**Target / range / shape:** One or two living allies within 3 squares.
 
-Pay 3 HP before rolling, bypassing all resistance and leaving yourself above 0. A free hand is required. Apply Life resistance to healing, minimum 1 while HP is missing, and never exceed maximum HP.
+Moser's law of conservation of Life energy: pay 3 HP before rolling. This cost bypasses resistance and must leave you above 0 HP. Requires a free hand. Make a Reason roll. Choose one or two allies. One ally: restore 6 HP on Weak, 11 HP on Standard, 16 HP on Strong. Two allies: restore 4 HP each on Weak, 7 HP each on Standard, 10 HP each on Strong. Reduce the restored amount by each target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying creature cannot be targeted; stabilize it first. This restores no wounds and cannot reverse Last Words.
 
-- **Weak:** Restore 5 HP.
-- **Standard:** Restore 10 HP and reduce temporary Bleeding by 1.
-- **Strong:** Restore 15 HP, reduce temporary Bleeding by 2 and temporary Dazed by 1.
+**Duration:** Immediate.
 
-This removes no wound or scar and does not restore Grit or reverse Last Words. It is a complete healing spell, not a modifier requiring another learned heal.
-
-A willing creature explicitly harmed by healing instead takes the listed HP amount as Life damage, with normal resistance and minimum damage; apply no beneficial recovery riders. An unwilling creature harmed by healing can be targeted as described below.
-
-**Duration:** Healing and reductions are immediate.
-
-**Equipment / acquisition:** A free hand; no item granted.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -35,9 +27,3 @@ A willing creature explicitly harmed by healing instead takes the listed HP amou
 **ID:** signature-shepherd-careful-transfer
 
 [Class choices](../classes/shepherd.md) · [Card conventions](../card-conventions.md)
-
-**Offensive healing — latest agreement:** this spell may target an unwilling
-creature harmed by healing. Resolve it as an attack using its printed attribute,
-range, action and HP cost; the HP result becomes Life damage, without beneficial
-recovery riders. This is the explicit exception to willing-only targeting above.
-Use the creature’s printed defense when a player defends; no opposed second roll.

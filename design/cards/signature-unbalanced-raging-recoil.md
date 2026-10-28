@@ -1,16 +1,16 @@
-# Raging Recoil
+# Pain Feeds the Fire
 
-*You snarl at the pain and shove back into the attacker, following the stumble with another aggressive step.*
+*The hit lands, and you smile.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent creature, after it damages you.
+**Target / range / shape:** Self, while raging.
 
-Push it up to 2 squares directly away, then you may move up to 2 squares toward it without provoking. Choose a legal route and free endpoint. The original damage remains; this adds no attack or direct damage beyond collisions.
+Each time you take damage while raging, gain 1 Boon to your next attack this round. Boons from this ability stack, up to the normal cap of 3.
 
-**Duration:** Immediate push and movement.
+**Duration:** While raging.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Push it up to 2 squares directly away, then you may move up to 2 squares toward 
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Attack
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** While raging; normal Boon cap applies.
 
 **ID:** signature-unbalanced-raging-recoil
 

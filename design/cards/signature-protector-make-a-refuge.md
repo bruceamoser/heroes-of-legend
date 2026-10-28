@@ -1,16 +1,16 @@
 # Make a Refuge
 
-*You draw a companion into the shelter of your stance and meet the next threat with both of you behind your guard.*
+*You drive your shield into the ground and pull your companions into the space behind it.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and one adjacent willing ally.
+**Target / range / shape:** Self and each willing ally within 5 squares.
 
-Use Defend and extend its 1 Boon to that ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. The ally gains Stability 1 for the first forced movement during the ward, including joining a collision chain. Use the highest applicable Stability, maximum 3. Consume this grant after that event even if another source was higher. Reusing this card replaces the ward, not its spent Stability grant.
+Each ally may immediately move 1 square toward you without provoking. You and each ally within 5 squares when you use this ability gain 1 Boon to defense and Stability 1 until the start of your next turn.
 
-**Duration:** Until the start of your next turn; adjacency is required for the ally.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Use Defend and extend its 1 Boon to that ally. Both benefits last until the star
 
 **Type:** Signature
 
-**Tags:** Skill / Defense
+**Tags:** Skill / Defense / Support
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-protector-make-a-refuge
 

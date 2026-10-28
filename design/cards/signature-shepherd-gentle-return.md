@@ -1,18 +1,18 @@
-# Gentle Return
+# Mend
 
-*You steady your companion as warmth returns, guiding their first step away from the place where they fell.*
+*You put your hand where the wound is and remind the body what whole feels like.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing ally you have just restored HP to with a spell or potion.
+**Target / range / shape:** One living ally within 3 squares.
 
-That ally may stand without spending movement, then move 1 square without provoking if able. This works even if it was above 0 HP before healing. It grants no extra HP, reduces no healing payment and cannot reverse Last Words.
+Moser's law of conservation of Life energy: pay 1 HP before rolling. This cost bypasses resistance and must leave you above 0 HP. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying creature cannot be targeted; stabilize it first. This restores no wounds and cannot reverse Last Words.
 
-**Duration:** Immediate stand and movement after healing.
+**Duration:** Immediate.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,9 +20,9 @@ That ally may stand without spending movement, then move 1 square without provok
 
 **Type:** Signature
 
-**Tags:** Skill / Recovery / Movement
+**Tags:** Magic / Recovery
 
-**Limits:** Once on your turn; the ally must actually regain HP.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-shepherd-gentle-return
 

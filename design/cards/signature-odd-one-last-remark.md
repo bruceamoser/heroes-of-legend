@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One ally within 5 squares that would enter Last Words.
 
-The ally does not enter Last Words yet. It remains at 0 HP with at least three death marks until the end of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it avoids Last Words. At the end of its next turn, if it still has three death marks, Last Words begin.
+The ally does not enter Last Words yet. It remains at 0 HP with at least three death marks until the beginning of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it avoids Last Words. At the beginning of its next turn, if it still has three death marks, Last Words begin.
 
-**Duration:** Until the end of the ally’s next turn.
+**Duration:** Until the beginning of the ally’s next turn.
 
 **Equipment / acquisition:** None.
 

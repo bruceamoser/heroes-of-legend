@@ -1,18 +1,16 @@
-# Leave No Pursuit
+# The Cutting Word
 
-*You brush away the obvious prints, point out the stones that keep none and lead the party off the route their pursuers expect.*
+*You find the sentence that undoes them, and say it quietly.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Guile
 
-**Time:** Ten minutes preparation, then up to one hour of guided travel.
+**Target / range / shape:** One creature within 10 squares that can see or hear you.
 
-**Target / range / shape:** Self and up to six willing companions following your route outside combat.
+Make a Guile roll against the target. The jab can be a spoken barb, a gesture, or a look. Weak: the target has Dazed 1. Standard: the target has Dazed 1 and Frightened 1. Strong: the target has Dazed 2 and Frightened 1, and it cannot take Reactions until the end of its next turn.
 
-Spend ten minutes preparing a departure from a campsite or other stopping place. Conceal ordinary traces of the departure and guide the group for up to one hour. Attempts to follow those ordinary tracks take 2 Banes. This does not erase magical marks, remove witnesses or conceal people from direct view. The protection ends where the party leaves your guidance or creates a conspicuous new trail.
-
-**Duration:** The concealed trail remains difficult to follow until new evidence exposes it.
+**Duration:** Conditions use their normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -22,9 +20,9 @@ Spend ten minutes preparing a departure from a campsite or other stopping place.
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Social / Control
 
-**Limits:** One application per departure; repeated preparation does not add more Banes.
+**Limits:** Once per scene.
 
 **ID:** signature-shadow-leave-no-pursuit
 

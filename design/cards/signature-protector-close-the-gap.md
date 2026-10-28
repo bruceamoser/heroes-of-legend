@@ -1,16 +1,16 @@
-# Close the Gap
+# Hand on the Collar
 
-*You hurry to a companion’s side and turn outward, ready to meet whatever followed them.*
+*You grab a fistful of cloak and haul your companion out of the circle.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self; one visible ally.
+**Target / range / shape:** One willing ally within 2 squares.
 
-Move up to 2 squares toward that ally without provoking. If you end adjacent to it, gain Defend’s 1 Boon to defense until the start of your next turn. This is the ordinary Defend benefit and does not multiply an existing Defend.
+Pull the ally up to 2 squares toward you, ending in a free square adjacent to you. Its movement does not provoke. If the ally was adjacent to you, you may move into the square it left.
 
-**Duration:** Movement is immediate; Defend ends at the start of your next turn.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Move up to 2 squares toward that ally without provoking. If you end adjacent to 
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Defense
+**Tags:** Skill / Movement / Support
 
 **Limits:** Repeatable; normal action economy applies.
 

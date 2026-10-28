@@ -1,16 +1,16 @@
-# Pass the Guard
+# Read the Room
 
-*You slip along the blind side of the struggle, ducking below a reach and stepping through the open space beyond.*
+*You find the one thing the other side wants and set it on the table.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** Self; a legal route of up to 3 squares.
+**Target / range / shape:** One creature within 5 squares that you can see.
 
-Move up to 3 squares without provoking. Ignore the extra cost of difficult terrain during this move, but do not cross standing occupied squares or barriers. The movement grants no attack or automatic Hidden.
+Make a Guile roll against the target. An intent is what the creature wants from this exchange or what it means to do next. Weak: learn one intent. Standard: learn one intent, and gain 1 Boon to your next social roll against it. Strong: learn one intent, and gain 2 Boons to your next social roll against it.
 
-**Duration:** Immediate movement.
+**Duration:** The scene.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Move up to 3 squares without provoking. Ignore the extra cost of difficult terra
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Social / Utility
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene per creature.
 
 **ID:** signature-shadow-pass-the-guard
 

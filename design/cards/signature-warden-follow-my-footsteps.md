@@ -1,18 +1,18 @@
-# Follow My Footsteps
+# Twin Strike
 
-*You test the ground with your boot and offer a hand, bringing your companion onto the firm patch beside you.*
+*Two blades, one motion.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** Self and one adjacent willing ally able to move.
+**Target / range / shape:** One or two creatures within reach.
 
-Move up to 1 square, then the ally may move up to 1 square. Both movements ignore difficult-terrain surcharges and do not provoke. Each must follow a legal route and end in a separate supported free square. This does not cross gaps or standing creatures. The ally spends no action.
+Requires two light melee weapons, one in each hand. Make one attack with each weapon. Each attack uses your normal attack procedure and deals 1 physical damage on Weak, 2 on Standard, 3 on Strong. You can target the same creature with both attacks or one creature with each. After the attacks, gain 1 Boon to defense until the start of your next turn.
 
-**Duration:** Instant.
+**Duration:** Immediate; the defense Boon lasts until the start of your next turn.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** Two light melee weapons, one in each hand.
 
 ---
 
@@ -20,10 +20,10 @@ Move up to 1 square, then the ally may move up to 1 square. Both movements ignor
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Defense
 
-**Limits:** Each participant moves once per use.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-warden-follow-my-footsteps
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

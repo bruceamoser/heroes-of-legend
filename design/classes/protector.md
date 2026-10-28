@@ -14,30 +14,30 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 ## Level 1 choices
 
-- [Between Them](../cards/signature-protector-between-them.md)
-- [Set Your Feet](../cards/signature-protector-set-your-feet.md)
-- [Close the Gap](../cards/signature-protector-close-the-gap.md)
+- [In the Gap](../cards/signature-protector-set-your-feet.md)
+- [Step Between](../cards/signature-protector-between-them.md)
+- [Hand on the Collar](../cards/signature-protector-close-the-gap.md)
 
 ## Level 3 choices
 
-- [Break Their Advance](../cards/signature-protector-break-their-advance.md)
-- [Shelter the Fallen](../cards/signature-protector-shelter-the-fallen.md)
+- [Break the Charge](../cards/signature-protector-break-their-advance.md)
+- [Over My Body](../cards/signature-protector-shelter-the-fallen.md)
 - [Make a Refuge](../cards/signature-protector-make-a-refuge.md)
 
 ## Level 7 choices
 
-- [Unbroken Passage](../cards/signature-protector-unbroken-passage.md)
-- [Defiant Rescue](../cards/signature-protector-defiant-rescue.md)
-- [Drive Back the Circle](../cards/signature-protector-drive-back-the-circle.md)
+- [The Long Road](../cards/signature-protector-unbroken-passage.md)
+- [Take the Wound](../cards/signature-protector-defiant-rescue.md)
+- [Radiant Threshold](../cards/signature-protector-drive-back-the-circle.md)
 
 ## Signature identity in play
 
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Intercept, anchor, or arrive ready to defend.
-- **Level 3:** Push an attacker back, extract the fallen, or make a refuge.
-- **Level 7:** Charge into a strike, clear the circle, or escort companions through danger.
+- **Level 1:** Hold a frontage, swap into a blow, or haul an ally clear.
+- **Level 3:** Break a charge, take a lethal hit, or make a refuge.
+- **Level 7:** Draw a radiant line, take a wound, or lead the party out.
 
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

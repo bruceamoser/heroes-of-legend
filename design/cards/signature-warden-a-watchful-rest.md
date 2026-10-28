@@ -1,18 +1,16 @@
-# A Watchful Rest
+# The Green Spear
 
-*You circle the camp, test the ground for water and point out the approaches before assigning the first watch.*
+*You ask the wood for a weapon, and it gives you a spear. You throw it before the answer stops moving.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** Ten minutes.
+**Target / range / shape:** One creature within 8 squares.
 
-**Target / range / shape:** A possible resting place and up to six willing companions; ten minutes of examination.
+A spear of stone and living wood forms in your hand and flies at the target. Make a Knowledge attack roll. Weak: 3 physical damage. Standard: 5 physical damage, and the target is Slowed 1. Strong: 7 physical damage, and the target is Slowed 2 and Prone. The spear disappears after the attack. This does not require ammunition or a free hand after the throw.
 
-Spend ten minutes examining an accessible resting place. Learn its exposed approaches and any local environmental danger that observable signs can reveal. Prepare a watch plan. For the next eight hours while remaining there, you and the chosen companions gain 1 Boon to consequential rolls noticing approaching danger. This grants no automatic detection, shelter, supplies, safe-place ruling or Grit recovery. Sleeping characters do not become awake observers.
-
-**Duration:** Eight hours or until the group leaves.
+**Duration:** Immediate; Slowed and Prone use their normal rules.
 
 **Equipment / acquisition:** None.
 
@@ -22,10 +20,10 @@ Spend ten minutes examining an accessible resting place. Learn its exposed appro
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Magic / Attack / Control
 
-**Limits:** One prepared resting place per Warden; preparing another ends the previous benefit.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-warden-a-watchful-rest
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

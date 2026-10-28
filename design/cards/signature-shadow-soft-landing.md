@@ -1,18 +1,18 @@
-# Soft Landing
+# Blade in the Back
 
-*You vault the low rail and land on bent knees, catching your balance before a loose stone can rattle.*
+*You wait for the half-second when the guard turns, and the knife goes in under the ribs.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** Self; a visible supported free landing within 2 squares.
+**Target / range / shape:** One creature within reach that has not noticed you or is adjacent to one of your allies.
 
-Jump to the destination without provoking. You may cross a gap or low obstacle but not a wall or an occupied standing creature’s square. Land standing without audible footfalls. This grants no protection from a separate fall and requires a landing you can reach within the printed distance.
+Make an Agility roll against the target. Weak: 3 physical damage. Standard: 4 physical damage, and the target has Bleeding 1. Strong: 6 physical damage, and the target has Bleeding 2.
 
-**Duration:** Immediate jump.
+**Duration:** Immediate; Bleeding uses its normal decay.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A melee weapon.
 
 ---
 
@@ -20,7 +20,7 @@ Jump to the destination without provoking. You may cross a gap or low obstacle b
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Control
 
 **Limits:** Repeatable; normal action economy applies.
 

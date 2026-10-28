@@ -1,18 +1,18 @@
-# Strike and Vanish
+# Hamstring
 
-*Your strike lands and you slip away on its follow-through, already looking for the next patch of cover.*
+*You cut the tendon, not the throat. The fight is already decided.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** Self, after your Main Action attack resolves.
+**Target / range / shape:** One creature within reach or range.
 
-After any result, move up to 1 square without provoking. After a Standard or Strong result, move up to 3 squares instead. An attack from Hidden ends Hidden normally; this movement does not automatically hide you again.
+Make an Agility roll against the target. Weak: 2 physical damage, and the target has Slowed 1. Standard: 3 physical damage, and the target has Slowed 1 and Dazed 1. Strong: 5 physical damage, and the target has Slowed 1, Dazed 1 and Prone.
 
-**Duration:** Immediate movement.
+**Duration:** Immediate; conditions use their normal decay.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A light or ranged weapon.
 
 ---
 
@@ -20,9 +20,9 @@ After any result, move up to 1 square without provoking. After a Standard or Str
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-shadow-strike-and-vanish
 

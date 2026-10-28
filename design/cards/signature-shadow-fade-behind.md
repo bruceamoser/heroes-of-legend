@@ -1,16 +1,16 @@
 # Fade Behind
 
-*You give ground without a sound, using the enemy’s reaching weapon to hide the direction of your first step.*
+*You give ground without a sound, and the enemy’s own reaching weapon hides the direction of your first step.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Agility
 
-**Target / range / shape:** Self, when you use Disengage.
+**Target / range / shape:** Self.
 
-As part of Disengage, move up to 2 squares without provoking. This additional movement makes no audible footfalls but does not silence speech or deliberately used equipment. It does not grant Hidden in open view; actual concealment still matters.
+Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed, provided you have cover or obscurement. You still make the ordinary Hide attempt. If you succeed, you are Hidden until you attack, are revealed, or the concealment ends.
 
-**Duration:** Immediate movement; Disengage lasts for this turn.
+**Duration:** Immediate; Hidden uses its normal duration.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ As part of Disengage, move up to 2 squares without provoking. This additional mo
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Movement / Utility
 
 **Limits:** Once on your turn.
 

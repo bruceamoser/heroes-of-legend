@@ -1,18 +1,18 @@
-# Know What You Hunt
+# Death from the Blind Spot
 
-*You point out the plates that overlap, the limb it favors and the moment its breath catches, telling your companions where to meet it.*
+*You have run it to ground. It turns, and you are already in the one place it cannot see.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible creature within 8 squares that you have seen perform an ability or leave physical evidence.
+**Target / range / shape:** One creature you have hit or tracked this scene.
 
-Study the creature and name up to three willing allies within 5 squares who can hear you. The DA reveals two true, useful facts from its actual resistances, weaknesses or observed ability restrictions. If fewer exist, learn all that exist; invent none. Each chosen ally gains 1 Boon to its next roll acting against that creature this scene. This does not expose its thoughts, unseen location or an unobserved secret identity.
+This ability consumes your Main Action and your movement for the turn. Move up to 6 squares to a square adjacent to the target, ignoring difficult terrain and without provoking. Then make one melee attack with 1 Boon. Weak: 6 physical damage. Standard: 9 physical damage, and the target is Prone. Strong: 12 physical damage, and the target is Prone and Dazed 1. If you cannot reach a square adjacent to the target, you cannot use this ability.
 
-**Duration:** Facts remain known; each Boon ends when used or the scene ends.
+**Duration:** Immediate; Prone and Dazed use their normal rules.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A melee weapon.
 
 ---
 
@@ -20,10 +20,10 @@ Study the creature and name up to three willing allies within 5 squares who can 
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Attack / Movement / Control
 
-**Limits:** Once per creature per scene; repeated uses do not renew spent benefits.
+**Limits:** Once per scene.
 
 **ID:** signature-warden-know-what-you-hunt
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

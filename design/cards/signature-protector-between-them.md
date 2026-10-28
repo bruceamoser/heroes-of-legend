@@ -1,16 +1,16 @@
-# Between Them
+# Step Between
 
-*You step your guard into the line of the strike and wave your companion behind you as it lands.*
+*You shove your companion behind you and take the blow on your own guard.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** One adjacent willing ally, after a single-target attack is declared against it but before rolling.
 
-Become the target if you meet the attack’s range and targeting requirements. Resolve the attack once against you; your ally receives none of its effects. Afterward the ally may move up to 2 squares without provoking if able. You do not move to intercept and cannot redirect an area attack.
+You and the ally swap squares. You become the target of the attack and resolve it against your defense. If either of you cannot occupy the other’s square, you cannot use this reaction. This does not redirect area attacks.
 
-**Duration:** The triggering attack and immediate ally movement.
+**Duration:** The triggering attack.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ Become the target if you meet the attack’s range and targeting requirements. R
 
 **Tags:** Skill / Defense / Movement
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Repeatable; uses your Reaction.
 
 **ID:** signature-protector-between-them
 

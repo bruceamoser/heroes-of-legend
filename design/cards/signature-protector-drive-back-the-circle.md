@@ -1,16 +1,16 @@
-# Drive Back the Circle
+# Radiant Threshold
 
-*You brace and surge outward, forcing the surrounding enemies back while your companions scramble into the room you have made.*
+*You call on the gods of war and protection. A line of white fire draws itself across the ground, and the air smells of iron and lightning.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** Every enemy adjacent when you begin; up to two willing allies initially within 2 squares.
+**Target / range / shape:** A straight line starting from a point you can see within 5 squares.
 
-Push each enemy 2 squares directly away from you, in an order you choose. Then each chosen ally may move up to 2 squares without provoking. The allies need legal routes and free endpoints. No direct damage; collisions resolve normally.
+Make a Reason roll. Weak: 3 squares long; 1 radiant damage. Standard: 5 squares long; 2 radiant damage. Strong: 7 squares long; 3 radiant damage. The line is 1 square wide and lasts until the start of your next turn. You and allies you choose when you create it are unaffected. A creature takes the damage when the line appears in its square, when it enters a square of the line, or when it starts its turn there. A creature can take this damage only once per turn. The line does not block movement.
 
-**Duration:** Immediate displacement and ally movement.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Push each enemy 2 squares directly away from you, in an order you choose. Then e
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Control / Attack
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-protector-drive-back-the-circle
 
