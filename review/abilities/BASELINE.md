@@ -55,6 +55,15 @@ fe3a99fa786105f3e888ae1844b33b285da25953a267670bc781b39a7c563e28  Heroes-of-Lege
 - Player-book audit: 259 pages, 471 ability outcomes checked, 0 errors.
 - Rendered PDF spot checks: Earthbreaker, Mark the Quarry, In the Gap, Not Quite Yet, Mend, Step Between and Take the Wound present; Set Your Feet, Soft Landing, Between Them, Defiant Rescue and Gentle Return absent.
 
+## Workshop and Foundry sync
+
+- Foundry/Workshop PR: [#253](https://github.com/bruceamoser/heroes-of-legend-foundry/pull/253), squash-merged to `main` at `2f80951417f8827dff90f5cbc54b0ffd06626c4f`.
+- Workshop Pages: https://bruceamoser.github.io/heroes-of-legend-foundry/ deployed from `2f80951`.
+- Live `choices.json`: 521 records at `295e858`; Earthbreaker and Mend present.
+- Character mancer catalogs: all 45 changed class signatures and all ancestry traits present; `npm run check` 709/709.
+- Native journals: 1,018 pages at `295e858`; Protector, Shadow, Shepherd, Unbalanced, Warden and ancestry pages present; Earthbreaker, Mark the Quarry, Not My Flock, Mend and In the Gap in journal bodies.
+- Runtime gates still need a live isolated Foundry world: character mancer creation/advancement/signature tests, native journal parity, landing, and install/upgrade.
+
 ## Rollback point
 
 - Previous book release/tag: `v16.4.0`.
@@ -73,11 +82,11 @@ These are the facts the Foundry sync must preserve or deliberately update:
 
 ## Remaining production steps
 
-1. Update the Workshop source pin and content imports; build and test the Workshop.
-2. Publish the GitHub Pages site and verify the live ancestries and classes.
-3. Update the Foundry source pin and content; run `npm run check`.
-4. Verify all 90 signatures and 20 ancestry traits in Foundry.
-5. Package and publish the new Foundry version; install/upgrade test.
+1. Run the character mancer and native journal runtime tests against a live isolated Foundry world.
+2. Verify creation, advancement and signature selection for the changed classes and traits in Foundry.
+3. Verify the native player book and DA journals in Foundry.
+4. Bump the Foundry version and package the release.
+5. Run install and upgrade gates against the draft release, then publish.
 
 ## Baseline rule
 
