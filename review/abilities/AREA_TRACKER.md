@@ -37,7 +37,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 | CLS-04 | Class | `23_Class_Leader.xlsx` | [#1292](https://github.com/bruceamoser/heroes-of-legend/issues/1292) | `codex/1292-class-leader` | Bruce | Approved | 9 / 9 | 34 approved | TBD | TBD | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | All nine Leader signatures approved. |
 | CLS-05 | Class | `24_Class_Odd.xlsx` | [#1293](https://github.com/bruceamoser/heroes-of-legend/issues/1293) | `codex/1293-class-odd` | Bruce | Approved | 9 / 9 | 71 approved | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | All nine signatures approved; row 9 amended to a beginning-of-turn delay. |
 | CLS-06 | Class | `25_Class_Protector.xlsx` | — | — | Bruce | Approved | 9 / 9 | 62 approved | — | — | — | All nine signatures approved; full redesign. |
-| CLS-07 | Class | `26_Class_Shadow.xlsx` | — | — | Bruce | Not started | 0 / 9 | 0 | — | — | — | 3 signatures × 3 tiers. |
+| CLS-07 | Class | `26_Class_Shadow.xlsx` | — | — | Bruce | Approved | 9 / 9 | 66 approved | — | — | — | All nine signatures approved; full redesign. |
 | CLS-08 | Class | `27_Class_Shepherd.xlsx` | — | — | Bruce | Not started | 0 / 9 | 0 | — | — | — | 3 signatures × 3 tiers. |
 | CLS-09 | Class | `28_Class_Unbalanced.xlsx` | — | — | Bruce | Not started | 0 / 9 | 0 | — | — | — | 3 signatures × 3 tiers. |
 | CLS-10 | Class | `29_Class_Warden.xlsx` | — | — | Bruce | Not started | 0 / 9 | 0 | — | — | — | 3 signatures × 3 tiers. |
