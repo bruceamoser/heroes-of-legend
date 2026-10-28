@@ -34,6 +34,7 @@ Append a row for every process or rules decision that future work depends on. Do
 | D-028 | 2026-10-27 | Protector signature review complete. | All nine Protector signatures approved locally; 62 field-level change records. | Bruce | Approved |
 | D-029 | 2026-10-27 | Shadow signature review complete. | All nine Shadow signatures approved locally; 66 field-level change records. | Bruce | Approved |
 | D-030 | 2026-10-27 | Shepherd signature review complete. | All nine Shepherd signatures approved locally; 71 field-level change records. | Bruce | Approved |
+| D-031 | 2026-10-27 | Unbalanced signature review complete. | All nine Unbalanced signatures approved locally; 71 field-level change records. | Bruce | Approved |
 
 ## Superseding a decision
 
