@@ -1,6 +1,6 @@
 # UNI-02: Universal Novice abilities
 
-**Status:** In review, 11 of 13 approved; 2 pending.
+**Status:** Complete, 13 of 13 approved.
 **Scope:** The 13 no-discipline Novice abilities.
 **Purpose:** Establish the Universal baseline before designing Adept and Master options.
 **Order:** Six 1-DP exceptions first, then the seven 2-DP Novice abilities.
@@ -51,7 +51,8 @@
 - **UNV-NOV9 Read the Room** (`notice-the-human-detail`): Approved 2026-10-29. Stable ID retained; investigation task progress, 1/2/3.
 - **UNV-NOV10 Pack with Purpose** (`pack-with-purpose`): Approved 2026-10-29.
 - **UNV-NOV11 Tell a Worthy Story** (`tell-a-worthy-story`): Approved 2026-10-29. Manipulation task progress, 1/2/3.
-- **Pending:** Hold a Conversation (no U number) and Conditioned Body (C/A/B).
+- **UNV-NOV12 Conditioned Body** (`conditioned-body`): Approved 2026-10-29. Option C; +1 max HP per purchase, once per level; playtesting may revisit.
+- **UNV-NOV13 Hold a Conversation** (`hold-a-conversation`): Approved 2026-10-29. Progress-only social task, 2/3/4 progress.
 
 ## Decided row: Catch That!
 
@@ -124,8 +125,7 @@ item too large to catch.
 
 ## Batch 2 proposal: remaining 12
 
-Approved 2026-10-29 for U2 through U11. Hold a Conversation and Conditioned Body
-remain pending. Exact mechanics: `UNI-02_MECHANICS.md`.
+Approved 2026-10-29 for U2 through U11, Conditioned Body and Hold a Conversation. Exact mechanics: `UNI-02_MECHANICS.md`.
 
 
 All twelve use `Tier: Novice · Minimum level: 1`, `Requirements to learn: None`,

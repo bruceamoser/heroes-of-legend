@@ -1,7 +1,7 @@
 # UNI-02 Batch 2 mechanics: current vs proposed
 
 **Status:** Comparison for review. No batch approval recorded. Bruce is leaning
-Option C for Conditioned Body, pending this exact math.
+Option C for Conditioned Body, approved 2026-10-29; playtesting may revisit.
 
 ## Conditioned Body
 

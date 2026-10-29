@@ -1,6 +1,6 @@
 # UNI-02 Batch 2 revised texts
 
-**Status:** Approved 2026-10-29 for U1 through U11. Hold a Conversation and Conditioned Body remain pending.
+**Status:** Approved 2026-10-29 for U1 through U11, Conditioned Body and Hold a Conversation.
 
 ## Mapping
 
@@ -426,4 +426,4 @@ Option C remains your leaning. The exact math is in `UNI-02_MECHANICS.md`: at le
 
 Approved 2026-10-29 for U1 through U11. The workbook, Change Log and
 `CHANGE_LEDGER.csv` now carry `CHG-UNV-005` through `CHG-UNV-025`.
-Hold a Conversation and Conditioned Body remain pending.
+Conditioned Body and Hold a Conversation approved 2026-10-29.

@@ -24,7 +24,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 | Area ID | Category | Workbook | Book issue | Branch | Owner | Status | Decisions | Change rows | Book PR | Merge SHA | Foundry issue | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | Deferred | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Parked; ancestries first. |
-| NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | In review | 11 / 133 | 11 | — | — | — | 11 Universal Novice approved under UNI-02; 122 remaining. |
+| NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | Complete | 13 / 133 | 13 | — | — | — | 13 Universal Novice approved under UNI-02; 120 remaining. |
 | ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | In review | 6 / 97 | 6 | — | — | — | 6 Universal Adept approved under UNI-03; 91 shared Adept cards remain. |
 | MAS-01 | Master | `33_Master_Abilities.xlsx` | — | — | Bruce | In review | 3 / 89 | 3 | — | — | — | 3 Universal Master approved under UNI-04; 86 shared Master cards remain. |
 | ANC-01 | Ancestry | `10_Ancestry_Dwarf.xlsx` | [#1285](https://github.com/bruceamoser/heroes-of-legend/issues/1285) | `codex/1285-ancestry-dwarf` | Bruce | Approved | 5 / 5 | 10 approved | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Traits complete; positive-wording pass done; pairs reference-only. |
