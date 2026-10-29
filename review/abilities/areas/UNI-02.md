@@ -1,6 +1,6 @@
 # UNI-02: Universal Novice abilities
 
-**Status:** In review, 1 of 13 decided.
+**Status:** In review, 11 of 13 approved; 2 pending.
 **Scope:** The 13 no-discipline Novice abilities.
 **Purpose:** Establish the Universal baseline before designing Adept and Master options.
 **Order:** Six 1-DP exceptions first, then the seven 2-DP Novice abilities.
@@ -41,6 +41,17 @@
 - **UNV-NOV1 Catch That!** (`catch-that`): Approved 2026-10-29. Final text as
   proposed. Type Utility; Tags Universal / Reaction / Skill; Tier Novice,
   Minimum level 1, DP 1; Attribute None (no roll).
+- **UNV-NOV2 Another Tongue** (`another-tongue`): Approved 2026-10-29.
+- **UNV-NOV3 Message by Heart** (`message-by-heart`): Approved 2026-10-29.
+- **UNV-NOV4 A Party Piece** (`a-party-piece`): Approved 2026-10-29. Choose one instrument; 1 Boon to any Guile roll while playing it.
+- **UNV-NOV5 Quick Exit** (`quick-exit`): Approved 2026-10-29.
+- **UNV-NOV6 Look Over Here!** (`look-over-here`): Approved 2026-10-29.
+- **UNV-NOV7 Carry the Wounded** (`catch-a-falling-friend`): Approved 2026-10-29. Stable ID retained; replaces Catch a Falling Friend.
+- **UNV-NOV8 Keep Your Bearings** (`keep-your-bearings`): Approved 2026-10-29. Navigation task progress, 1/2/3.
+- **UNV-NOV9 Read the Room** (`notice-the-human-detail`): Approved 2026-10-29. Stable ID retained; investigation task progress, 1/2/3.
+- **UNV-NOV10 Pack with Purpose** (`pack-with-purpose`): Approved 2026-10-29.
+- **UNV-NOV11 Tell a Worthy Story** (`tell-a-worthy-story`): Approved 2026-10-29. Manipulation task progress, 1/2/3.
+- **Pending:** Hold a Conversation (no U number) and Conditioned Body (C/A/B).
 
 ## Decided row: Catch That!
 
@@ -112,6 +123,10 @@ item too large to catch.
 
 
 ## Batch 2 proposal: remaining 12
+
+Approved 2026-10-29 for U2 through U11. Hold a Conversation and Conditioned Body
+remain pending. Exact mechanics: `UNI-02_MECHANICS.md`.
+
 
 All twelve use `Tier: Novice · Minimum level: 1`, `Requirements to learn: None`,
 `Attribute: None (no roll)`, and functional Type plus Tags. The eleven marked
