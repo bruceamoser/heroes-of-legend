@@ -13,8 +13,8 @@ Recorded before any review branch or source edit. Update the **Current** column 
 | Book version | `16.4.0` | `16.5.0` (tagged) |
 | Book release | `v16.4.0` | `v16.5.0` at `295e858` |
 | Foundry repository | `bruceamoser/heroes-of-legend-foundry` | — |
-| Foundry `main` SHA | `a4098a66624a166fdfb64dcc46a944f99f395380` | `314d3754b3758ff3ab3b1eecabb774df8bc5a566` |
-| Foundry version | `2.3.5` | `2.5.0` (tagged) |
+| Foundry `main` SHA | `a4098a66624a166fdfb64dcc46a944f99f395380` | `d5a68b2695cb7ef5db5ffeb516fde28c8a723c84` |
+| Foundry version | `2.3.5` | `2.5.1` (tagged) |
 | Foundry source pin | `bdfd18ed535fbd0e1892b9344444abf6da644809` | `295e858c1b6fee044a0261bf9f437636efeff2bf` |
 | Workbook source commit | `9fe404119ddfad90ce52eb15b39e548a4a273bee` | same |
 | Workbook generated | 2026-10-23 | — |
@@ -24,7 +24,7 @@ Recorded before any review branch or source edit. Update the **Current** column 
 | Control-set initial commit | — | `102dd0b` |
 | Working book clone | — | `book/` |
 | Target book version | TBD | `16.5.0` released |
-| Target Foundry version | TBD | `2.5.0` released |
+| Target Foundry version | TBD | `2.5.1` released |
 
 ## Book release v16.5.0
 
@@ -65,22 +65,23 @@ fe3a99fa786105f3e888ae1844b33b285da25953a267670bc781b39a7c563e28  Heroes-of-Lege
 - Runtime gates still need a live isolated Foundry world: character mancer creation/advancement/signature tests, native journal parity, landing, and install/upgrade.
 
 
-## Foundry release v2.5.0
+## Foundry release v2.5.1
 
-- Release: https://github.com/bruceamoser/heroes-of-legend-foundry/releases/tag/v2.5.0
-- Tag: `v2.5.0`, dereferences to `314d3754b3758ff3ab3b1eecabb774df8bc5a566`
-- Main after the release merge: `314d3754b3758ff3ab3b1eecabb774df8bc5a566`
-- Assets: `heroes-of-legend.zip` (47609888 bytes), `system.json`, `SHA256SUMS`
+- Release: https://github.com/bruceamoser/heroes-of-legend-foundry/releases/tag/v2.5.1
+- Tag: `v2.5.1`, dereferences to `d5a68b2695cb7ef5db5ffeb516fde28c8a723c84`
+- Main after the release merge: `d5a68b2695cb7ef5db5ffeb516fde28c8a723c84`
+- Assets: `heroes-of-legend.zip` (47610123 bytes), `system.json`, `SHA256SUMS`
 - Checksums:
 
 ```
-95da066b8ad60f517fa8fde40783ca55bf3ce58cf81a9c90b46cadf0630d62fe  system.json
-eb80a18acb1287c3ee17e16a84d1a6dabc3d68ed4cb94848204a1df07fe50234  heroes-of-legend.zip
+c3053fed96459b39c2be474c1b0ddd7cbb38f08fe01e1593278c5406e5a62045  system.json
+6e4467a2a745aeb198dbef4529c36dce7b287ffeb354abbf43aec0b37d6f71b2  heroes-of-legend.zip
 ```
 
-- Removed the `summon` Actor type, `SummonData`, `SummonSheet` and the 73-Actor `packs/summons` compendium. A summon is a standard `creature` Actor with `flags.heroes-of-legend.summon`; the creature sheet toggles **Use as summon** / **Return to creature**. The 73 profiles remain in `static/data/summons.json` and ship as `data/summons.json`.
-- Authored content packs are now 656 files (419 abilities, 44 equipment, 192 creatures and the index). The release package is 510 files.
-- The packaged zip was installed on Foundry 14.367. The Adder toggle smoke passed: standard `creature`, profile `summon-adder`, attacker outcomes, HP maximum 5, flag cleared, no page errors.
+- **2.5.1 fix:** unlinked-token summon flags now persist on the TokenDocument instead of the transient synthetic Actor. The summon-state helper reads token flags, the handler re-renders the current token Actor sheet, and **Return to creature** clears token and inherited base flags. Missing profiles and permission failures now surface a notification.
+- **2.5.0 model:** the `summon` Actor type, `SummonData`, `SummonSheet` and 73-Actor `packs/summons` compendium remain removed. A summon is a standard `creature` Actor with `flags.heroes-of-legend.summon`; the 73 profiles remain in `static/data/summons.json` and ship as `data/summons.json`.
+- Authored content packs: 656 files. Release package: 510 files.
+- Packaged 2.5.1 installed on Foundry 14.367. Token-only and base-Actor set/return smoke passed with normal clicks after focusing the sheet; token flag persisted and cleared, attacker/standard views switched, no page errors.
 - `test:signature-choice` and `test:landing` remain green; the comprehensive `test:charactermancer`, `test:creation`, `test:advancement`, `test:creation-commit` and `test:native-parity` suites still need selector/fixture maintenance.
 
 ## Rollback point
