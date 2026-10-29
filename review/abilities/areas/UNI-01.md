@@ -1,4 +1,6 @@
-# UNI-01 — Universal abilities review
+> **Working name:** Basic abilities (`BAS-01`). The `UNI-01` code and `CHG-UNI-*` IDs are retained for historical continuity. Use **Universal** only for learned abilities that require no discipline rank.
+
+# UNI-01: Basic abilities review (legacy code)
 
 **Status:** In review  
 **Book issue:** [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284)  
