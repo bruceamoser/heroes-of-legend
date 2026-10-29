@@ -25,7 +25,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | Deferred | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Parked; ancestries first. |
 | NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | In review | 11 / 133 | 11 | — | — | — | 11 Universal Novice approved under UNI-02; 122 remaining. |
-| ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 91 | 0 | — | — | — | Shared cards only. |
+| ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | In review | 6 / 97 | 6 | — | — | — | 6 Universal Adept approved under UNI-03; 91 shared Adept cards remain. |
 | MAS-01 | Master | `33_Master_Abilities.xlsx` | — | — | Bruce | Not started | 0 / 87 | 0 | — | — | — | Shared cards only. |
 | ANC-01 | Ancestry | `10_Ancestry_Dwarf.xlsx` | [#1285](https://github.com/bruceamoser/heroes-of-legend/issues/1285) | `codex/1285-ancestry-dwarf` | Bruce | Approved | 5 / 5 | 10 approved | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Traits complete; positive-wording pass done; pairs reference-only. |
 | ANC-02 | Ancestry | `11_Ancestry_Elf.xlsx` | [#1286](https://github.com/bruceamoser/heroes-of-legend/issues/1286) | `codex/1286-ancestry-elf` | Bruce | Approved | 5 / 5 | 8 approved | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Traits complete; positive-wording pass done; pairs reference-only. |
