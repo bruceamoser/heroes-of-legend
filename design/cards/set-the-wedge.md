@@ -1,18 +1,16 @@
 # Set the Wedge
 
-*You slide a wedge into the joint and tap it home, giving the next shove somewhere to bite.*
+*You tap the wedge home. The next shoulder against the door will meet wood already ready to give.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** One adjacent unattended door, lid or movable obstacle.
 
-Using a lever and wedges, prepare the obstacle. The next Force action by you or an ally against that obstacle gains 1 Boon. Describe whether you are helping open, close or move it; the benefit applies only to that task. No change to the obstacle’s strength occurs without the Force action.
+Prepare the obstacle with your lever and wedges. The next Force roll by you or an ally to open, close or move it gains 2 Boons. Choose the intended task when preparing it.
 
-**Duration:** Until used or 1 minute passes.
-
-**Equipment / acquisition:** Requires lever and wedges, Bulk 1; grants one set if absent.
+**Equipment / acquisition:** A lever and wedges (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,8 @@ Using a lever and wedges, prepare the obstacle. The next Force action by you or 
 
 **Type:** Skill / Utility
 
-**Limits:** One prepared obstacle at a time; repeated preparation does not add Boons.
+**Limits:** One prepared obstacle at a time; benefit lasts one minute or until used.
 
 **ID:** set-the-wedge
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,33 +1,25 @@
-# Call the Opening
+# Fortune Favors Us
 
-*You see the gap before anyone else and shout the name of the friend who can reach it.*
+*You speak a blessing. Your companions draw a steadier breath, lift their weapons, and meet the coming blow with sudden certainty.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One visible enemy within 5 squares
+**Target / range / shape:** Up to three willing creatures within 4 squares who hear you.
 
-Choose willing allies that can hear your call. The Weak Boon expires at the start of your next turn. Free attacks never trigger additional free attacks.
+Each target gains 1 Boon to attack and defense rolls until the end of your next turn.
 
-- **Weak:** One ally gains 1 Boon to its next attack on that enemy.
-- **Standard:** One ally adjacent to it makes a free Basic Melee attack.
-- **Strong:** Two distinct adjacent allies each make a free Basic Melee attack.
-
-Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
-
-**Duration:** Free attacks resolve immediately. The Weak Boon lasts until the start of your next turn or until used.
-
-**Equipment / acquisition:** None.
+On later turns, spend a Maneuver to sustain the blessing until the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2
 
-**Type:** Skill
+**Type:** Magic / Support
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** Maintain one blessing at a time.
 
 **ID:** call-the-opening
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

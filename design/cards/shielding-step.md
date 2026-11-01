@@ -1,18 +1,16 @@
 # Shielding Step
 
-*You are already moving before your friend sees the blow.*
+*You turn your shield between the attacker and your friend. The blow is yours to answer now.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing ally, after a single-target attack is declared but before its roll.
+**Target / range / shape:** One adjacent willing ally after a single-target attack is declared and before its roll.
 
-While holding a shield, replace the ally as the target if you meet the attack’s range and targeting requirements. Resolve that attack against you once, using your defense if one is called for. The ally takes none of this attack’s effects. You do not move; this cannot redirect an area attack.
+Replace the ally as the target if you meet the attack's range and targeting requirements. Resolve the attack against you.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires a shield. Grants one ordinary shield, Bulk 1, if absent.
+**Equipment / acquisition:** Use a held ordinary shield (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,6 @@ While holding a shield, replace the ally as the target if you meet the attack’
 
 **Type:** Skill / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** shielding-step
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

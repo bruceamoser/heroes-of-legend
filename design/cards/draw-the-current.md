@@ -1,26 +1,20 @@
 # Draw the Current
 
-*You wind a tight ribbon of air around your casting hand and let it tug toward the place you want your enemy to stumble.*
+*You wind a ribbon of air around the coming spell. When the force lands, the wind takes hold of the opening it leaves.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self; one creature affected by your next qualifying spell.
+**Target / range / shape:** Self and one creature damaged by your next qualifying spell this turn.
 
-Prepare your next Main Action spell this turn that deals damage. After resolving it, push one creature it damaged 1 square away from you. Choose the recipient after resolution; it must be visible within 5 squares then. Use ordinary forced-movement rules. This adds no direct damage and grants no attack.
-
-**Duration:** Until the next qualifying spell resolves or the end of this turn.
-
-**Equipment / acquisition:** None.
+Prepare your next damaging Main Action spell this turn. After it resolves, choose one visible creature it damaged within 6 squares. Push or pull that creature 2 squares away from or toward you.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 2 and Scholarship 1
 
 **Type:** Magic / Control
-
-**Limits:** Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.
 
 **ID:** draw-the-current
 

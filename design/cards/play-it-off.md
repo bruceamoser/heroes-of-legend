@@ -1,18 +1,14 @@
 # Play It Off
 
-*You laugh at your own apparent clumsiness and turn the suspicious glance toward an innocent explanation.*
+*You laugh at the apparent clumsiness and supply the innocent explanation before the suspicious glance can harden.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a Guile roll to explain suspicious behavior without violence.
+**Target / range / shape:** Self before a Guile roll explaining suspicious behavior to a listener who understands you, without violence.
 
-Gain 1 Boon to that roll if you can speak to a listener who understands you. Describe your plausible explanation before rolling. This cannot hide visible evidence, compel belief or change an attack or defense roll.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Describe a plausible explanation. Gain 2 Boons to the Guile roll.
 
 ---
 
@@ -20,8 +16,6 @@ Gain 1 Boon to that roll if you can speak to a listener who understands you. Des
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** play-it-off
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

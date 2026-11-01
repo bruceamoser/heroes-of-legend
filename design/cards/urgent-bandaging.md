@@ -1,31 +1,27 @@
 # Urgent Bandaging
 
-*You tear a strip, press hard and tie the knot while the battle rages around you.*
+*You cross the last pace with the bandage already torn, press hard, and knot it before your companion can fall.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** Knowledge
 
-**Target / range / shape:** Self or one adjacent willing creature
+**Target / range / shape:** Self or one adjacent willing creature.
 
-Reduce temporary Bleeding only, to a minimum of 0. A starred source requires its stated remedy.
+Make a Knowledge roll.
 
-- **Weak:** Reduce Bleeding by 1.
-- **Standard:** Reduce Bleeding by 2.
-- **Strong:** Reduce Bleeding by 3.
+- **Weak:** Reduce temporary Bleeding by 2.
+- **Standard:** Reduce temporary Bleeding by 3.
+- **Strong:** Reduce temporary Bleeding by 4.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand and cloth.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Medicine 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Recovery
 
 **ID:** urgent-bandaging
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

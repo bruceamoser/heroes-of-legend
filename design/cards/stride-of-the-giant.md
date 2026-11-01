@@ -1,30 +1,24 @@
 # Stride of the Giant
 
-*You stamp once, your shadow swelling across the feet gathered around you.*
+*Your rune-shadow towers over the melee. You stamp once, and the ground answers beneath every gathered foot.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** Each other adjacent creature.
+**Target / range / shape:** Every other adjacent creature.
 
-Your outline swells like a mountain’s shadow and your heel strikes the ground. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets. The size is momentary; you occupy your normal square.
+Make a Brawn area attack.
 
-- **Weak:** 2 physical damage and push 1.
-- **Standard:** 3 physical damage and push 2.
-- **Strong:** 5 physical damage, push 2 and knock prone.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 3 physical damage; push 1 square away from you.
+- **Standard:** 4 physical damage; push 2 squares away from you.
+- **Strong:** 6 physical damage and Prone; push 2 squares away from you.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Armor 3
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** stride-of-the-giant
 

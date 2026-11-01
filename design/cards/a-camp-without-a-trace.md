@@ -1,24 +1,16 @@
 # A Camp without a Trace
 
-*You lift the crushed leaves, scatter the cold ash and leave the place looking as though it never held a story.*
+*You lift the crushed leaves and scatter the cold ash. From the old firepit, even you have to look twice to see which way the party left.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** One hour per attempt.
+**Time:** Ten minutes while clearing a departed campsite.
 
-**Target / range / shape:** One departed campsite used by up to six people; one hour.
+**Target / range / shape:** One departed campsite used by your party.
 
-Conceal ordinary evidence of your camp. The DA sets a progress target for its size and disturbance. On completion, attempts to track your departure from this site take 1 Bane. This does not erase magical marks, remove witnesses or hide occupants.
-
-- **Weak:** 1 progress; identify one conspicuous trace still needing work.
-- **Standard:** 2 progress; also learn which approach shows the clearest remaining trail.
-- **Strong:** 3 progress; gain both details and preserve one useful ordinary item found while cleaning, if any is present.
-
-**Duration:** Until new evidence exposes the departure route.
-
-**Equipment / acquisition:** None.
+Camouflage the ordinary traces of the departed camp. You and up to six companions gain 2 Boons to attribute rolls concealing your departure trail during the first hour of travel from it.
 
 ---
 
@@ -26,8 +18,6 @@ Conceal ordinary evidence of your camp. The DA sets a progress target for its si
 
 **Type:** Skill / Utility
 
-**Limits:** One application per departure; no stacking Banes from repeated cleanup.
-
 **ID:** a-camp-without-a-trace
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

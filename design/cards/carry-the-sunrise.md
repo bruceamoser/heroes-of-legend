@@ -1,26 +1,20 @@
 # Carry the Sunrise
 
-*You raise the light and step forward, giving your companions something bright to follow.*
+*You lift the light and stride into the dark. Your companions gather in its wake, each finding the space to raise a shield again.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Willing allies within 2 squares.
+**Target / range / shape:** Self and every willing ally initially within 3 squares.
 
-Carry the light forward. Move up to 2 squares without provoking, then each willing ally initially in range may move up to 2 squares toward your new position without provoking. At their endpoints they gain 1 Boon to their next defense before the start of your next turn.
-
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
-
-**Equipment / acquisition:** No item needed unless named above.
+Move up to 3 squares without provoking. Each willing ally initially within 3 squares may then move up to 3 squares toward your new position without provoking. You and each ally that moves gain 1 Boon to the next defense before the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Radiance 3
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Movement / Defense
 
 **ID:** carry-the-sunrise
 

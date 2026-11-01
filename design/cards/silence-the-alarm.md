@@ -1,30 +1,26 @@
 # Silence the Alarm
 
-*You see the breath gathering for a shout and move before the warning comes.*
+*You see the shout gathering and strike beneath it. Their warning becomes a breath that finds no sound.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-Strike before the warning can leave its mouth. Requires melee weapon. The silence blocks speech, not spells or abilities that do not require speech.
+Make an Agility melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage; the target cannot speak until the end of its next turn.
-- **Strong:** 6 physical damage and the same silence.
+- **Standard:** 4 physical damage; suppress the target's speech until the end of its next turn.
+- **Strong:** 6 physical damage; apply the same speech suppression.
 
-**Duration:** Speech restriction lasts until the end of the target’s next turn; damage is immediate.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** silence-the-alarm
 

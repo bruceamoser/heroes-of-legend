@@ -1,33 +1,25 @@
 # Borrowed Identity
 
-*You settle into another life until even the way you wait at a doorway belongs to someone else.*
+*You rehearse the cover together until the pauses and glances belong to the same story. When the door opens, you all know your parts.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Time:** One hour preparation; resolve each new consequential challenge during the encounter.
+**Time:** One hour preparing the cover together.
 
-**Target / range / shape:** Self and, on Strong, one willing companion; one hour preparation, then the duration of each consequential encounter.
+**Target / range / shape:** Self and up to three willing companions.
 
-Prepare a mundane identity using suitable clothing, a plausible role and information you have obtained about it. Spend one hour establishing the appearance and rehearsing its habits. This card can sustain the identity across an extended infiltration, but grants no memories, language or compulsory authority. For a consequential challenge, the DA states the objective and a binary or cumulative progress target. On completion, that challenge is resolved; do not repeat it for routine interactions with people accepting the same evidence. A new contradiction, suspicious witness or different demand may create a new challenge.
+Prepare a coherent mundane cover for yourself and up to three willing companions using suitable clothing and information you have obtained. Each participant gains 2 Boons to Guile or Reason rolls sustaining that cover while using it. The cover persists until abandoned or materially contradicted.
 
-- **Weak:** 1 progress; identify one visible inconsistency you can repair in ten minutes with suitable materials.
-- **Standard:** 2 progress; also learn one expectation the listener openly expresses about your role.
-- **Strong:** 3 progress; also establish cover for one willing companion as your attendant or colleague if their clothing and behavior support it. That cover lasts until new evidence challenges it, not indefinitely against every observer.
-
-**Duration:** The prepared identity lasts until abandoned or contradicted; resolve new consequential challenges separately.
-
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** Suitable clothing and acquired information for the roles.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Subterfuge 3 and Influence 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** borrowed-identity
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

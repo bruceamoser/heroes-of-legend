@@ -1,26 +1,20 @@
 # A Hand from Before
 
-*You call an ancestor’s name and reach toward your companion. A translucent hand appears at their shoulder, bracing them against the coming blow.*
+*A hand like your grandmother's closes over your companion's shoulder. The blow passes, and the hand guides them to your side.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** An adjacent ally before a physical defense.
+**Target / range / shape:** One visible willing ally within 2 squares, before it defends against a physical attack.
 
-A translucent hand braces your friend. Give that defense 1 Boon; afterward the ally may move 1 square to a free square adjacent to you without provoking.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+The ally gains 1 Boon to the defense. After the attack resolves, it may move up to 2 squares without provoking to a free square adjacent to you.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Calling 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense / Movement
 
 **ID:** a-hand-from-before
 

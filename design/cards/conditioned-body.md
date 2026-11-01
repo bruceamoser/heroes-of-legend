@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self
+**Target / range / shape:** Self.
 
-Maximum HP +1. At most one purchase at each level; missed purchases cannot be banked. No attribute increase.
+Maximum HP +1 per purchase. Purchase once at each character level. Each level's purchase stands on its own. This ability increases maximum HP only.
 
 **Duration:** Permanent maximum HP increase for each permitted purchase.
 
@@ -18,10 +18,12 @@ Maximum HP +1. At most one purchase at each level; missed purchases cannot be ba
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Training / Passive
+**Type:** Training
 
-**Limits:** At most one purchase per level; unused purchases cannot be saved.
+**Tags:** Universal / Training / Passive
+
+**Limits:** At most one purchase per level; each level's purchase stands on its own.
 
 **ID:** conditioned-body
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,18 +1,16 @@
 # Wake the Nerves
 
-*You touch two fingers to your companion’s temple and send a small pulse down their trembling limbs.*
+*You touch two fingers to the temple and send a fine pulse down the limbs. The hand that would not move begins to close.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** One adjacent willing living creature.
 
-Reduce temporary Dazed by 1, minimum 0. This does not restore action categories already determined for the current turn; it can improve the target’s next turn. It restores no HP and does not treat a lasting wound.
+Reduce temporary Dazed by 2 or temporary Paralyzed by 1.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce temporary Dazed by 1, minimum 0. This does not restore action categories 
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** wake-the-nerves
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

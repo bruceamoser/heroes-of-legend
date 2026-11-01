@@ -1,18 +1,16 @@
 # Shielded Advance
 
-*You keep your shield toward the threat and slide into place beside a friend, giving them room behind its edge.*
+*You slide forward with the shield turned toward the threat. A companion finds room behind its edge.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, then one adjacent willing ally at your destination.
+**Target / range / shape:** Self, then one willing ally adjacent to your destination.
 
-Move up to 2 squares using normal movement and opportunity rules. Choose the ally after moving. While you remain adjacent and hold the shield, that ally gains 1 Boon to its next defense against an attack the DA judges shield-blockable. This grants neither Shield Block nor an attack.
+Move up to 2 squares without provoking. Choose one willing ally adjacent to your destination. While you remain adjacent and hold the shield, it gains 1 Boon to its next shield-blockable defense before the end of your next turn.
 
-**Duration:** Until used or the start of your next turn.
-
-**Equipment / acquisition:** Requires a held shield. Grants one ordinary shield, Bulk 1, if absent.
+**Equipment / acquisition:** Use a held ordinary shield (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,6 @@ Move up to 2 squares using normal movement and opportunity rules. Choose the all
 
 **Type:** Skill / Movement / Defense
 
-**Limits:** Repeated uses do not multiply this card’s benefit on the same ally.
-
 **ID:** shielded-advance
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

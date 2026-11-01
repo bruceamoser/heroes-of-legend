@@ -1,31 +1,27 @@
 # Driving Volley
 
-*You loose shots across the enemies’ footing, driving them away from the route your companion needs.*
+*You loose across the line, each shot arriving where an enemy needs to plant a foot.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** Up to two visible creatures within 8 squares
+**Target / range / shape:** Up to two visible enemies within 8 squares.
 
-For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll.
+Make an Agility ranged attack against the chosen targets.
 
-- **Weak:** 3 physical damage to each.
-- **Standard:** 3 physical damage to each; push each 1.
-- **Strong:** 5 physical damage to each; push each 2.
+- **Weak:** 3 physical damage.
+- **Standard:** 3 physical damage; push 1 square away from you.
+- **Strong:** 5 physical damage; push 2 squares away from you.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.
+**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Marksmanship 2
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** driving-volley
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

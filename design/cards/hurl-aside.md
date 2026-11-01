@@ -1,22 +1,20 @@
 # Hurl Aside
 
-*Lift, turn, and send them crashing through the battlefield.*
+*You smash one enemy back, then sweep your weapon low, sending fallen foes skidding into the ranks behind.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent creature
+**Target / range / shape:** One adjacent enemy and every other Prone enemy adjacent to you.
 
-Choose your target and make the attack.
+Make a Brawn melee attack. Apply the result to each target.
 
-- **Weak:** 5 physical damage; push 2.
-- **Standard:** 5 physical damage; push 3 and knock prone.
-- **Strong:** 7 physical damage; push 4 and knock prone.
+- **Weak:** 4 physical damage; push it 2 squares directly away from you.
+- **Standard:** 5 physical damage; push it 3 squares directly away from you and apply Prone.
+- **Strong:** 7 physical damage; push it 4 squares directly away from you and apply Prone.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -24,8 +22,6 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** hurl-aside
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

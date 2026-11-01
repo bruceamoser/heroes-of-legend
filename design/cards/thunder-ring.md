@@ -1,31 +1,27 @@
 # Thunder Ring
 
-*Your shout breaks across the battlefield like a bell of thunder.*
+*Your shout lands like a bell struck at arm's length. The staggered ones have no time to brace for the second peal.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** Every other creature within 1 square of you
+**Target / range / shape:** Every other creature within 1 square of you.
 
-For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.
+Make a Reason area spell attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; push 1 away from you.
-- **Strong:** 5 physical damage; push 1 and Deafened 1.
+- **Standard:** 3 physical damage; push 1 square away from you.
+- **Strong:** 5 physical damage and Deafened 1; push 1 square away from you.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+A target already Deafened before this attack is pushed 1 additional square on Standard or Strong.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 2
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** thunder-ring
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

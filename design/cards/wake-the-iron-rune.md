@@ -1,26 +1,20 @@
 # Wake the Iron Rune
 
-*You trace the rune on your armor. Its lines darken as a heavy pressure settles through your boots into the ground.*
+*You run a thumb across the rune. A quiet weight settles through your boots, as if the ground has learned your name.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, wearing armor.
+**Target / range / shape:** Self while wearing armor.
 
-Gain Stability 1 until the start of your next turn. Use your highest applicable Stability, maximum 3; this is not an additional distance reduction.
-
-**Duration:** Until the start of your next turn.
-
-**Equipment / acquisition:** No item needed unless named above.
+While wearing armor, gain Stability 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Armor 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense
 
 **ID:** wake-the-iron-rune
 

@@ -1,31 +1,25 @@
 # Still the Will
 
-*You fix your attention on your enemy and tighten your outstretched fingers. Their movement falters as they struggle to turn thought into action.*
+*You raise one finger, and the thought your enemy was about to turn into action catches on it.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One visible creature within 4 squares
+**Target / range / shape:** One visible enemy within 4 squares.
 
-Proposed NPC defense attribute: Reason.
+Make a Guile control attack.
 
-- **Weak:** 3 mental damage; Dazed 1.
-- **Standard:** 3 mental damage; Dazed 2.
-- **Strong:** 5 mental damage; Paralyzed 2.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+- **Weak:** Slowed 1.
+- **Standard:** Slowed 2.
+- **Strong:** Slowed 3 and Dazed 1.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Mind 3
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Control
 
 **ID:** still-the-will
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,24 +1,18 @@
 # Mercy in the Light
 
-*You speak a blessing over your companion. Warm light spreads beneath your palm, easing their wounds and trembling as your own strength ebbs.*
+*Warm light passes beneath your palm. Your companion's breathing steadies, and for a moment the horror seems farther away.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible willing creature within 3 squares, including self.
+**Target / range / shape:** One visible willing creature within 3 squares, including yourself, or one creature in range harmed by healing.
 
-Pay 1 HP before rolling, ignoring resistance; you must remain above 0 HP. Requires a free hand. Life resistance reduces HP restored, to a minimum of 1 where HP is missing, capped by missing HP. A willing creature harmed by healing instead takes the printed HP amount as Life damage, with normal resistance and minimum damage, and gains no beneficial rider. This card does not permit targeting an unwilling creature. No resurrection, wound removal or Grit restoration.
+Pay 1 HP and make a Reason healing roll.
 
 - **Weak:** Restore 3 HP.
 - **Standard:** Restore 5 HP and reduce temporary Frightened by 1.
 - **Strong:** Restore 7 HP and reduce temporary Frightened by 2.
-
-Reduce the condition no lower than 0; starred conditions require their stated remedy. This blessing can express a deity, a sacred oath or a personal faith; it requires no additional religious prerequisite.
-
-**Duration:** Healing and condition reduction are immediate.
-
-**Equipment / acquisition:** None.
 
 ---
 
@@ -26,14 +20,6 @@ Reduce the condition no lower than 0; starred conditions require their stated re
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action and HP cost each time.
-
 **ID:** mercy-in-the-light
 
 [Card conventions](../card-conventions.md)
-
-**Offensive healing — latest agreement:** this spell may target an unwilling
-creature harmed by healing. Resolve it as an attack using its printed attribute,
-range, action and HP cost; the HP result becomes Life damage, without beneficial
-recovery riders. This is the explicit exception to willing-only targeting above.
-Use the creature’s printed defense when a player defends; no opposed second roll.

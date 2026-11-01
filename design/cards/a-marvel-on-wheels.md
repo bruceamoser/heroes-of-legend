@@ -1,30 +1,28 @@
 # A Marvel on Wheels
 
-*You set your folded contraption on the ground and pull its handle. Wheels snap outward, the launcher kicks, and its shot slams toward your target before the frame folds shut again.*
+*You pull the handle and the little frame unfolds. Its shot tears a line through the press before the wheels snap back beneath your hands.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature within 6 squares.
+**Target / range / shape:** Every creature in one straight line of three visible squares, each within 6 squares.
 
-Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if absent. After firing it folds back into your hands.
+Unfold the launcher and make a Knowledge line attack.
 
-- **Weak:** 4 physical damage and push 1.
-- **Standard:** 4 physical damage and push 2.
-- **Strong:** 6 physical damage and push 3.
+- **Weak:** 4 physical damage; push 1 square away from you.
+- **Standard:** 5 physical damage; push 2 squares away from you.
+- **Strong:** 7 physical damage; push 3 squares away from you.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+The launcher folds back into your hands after firing.
 
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** One reusable folding launcher (Bulk 1), built on learning and supplied if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3 and Marksmanship 1
 
-**Type:** Skill / Attack / Crafting
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** a-marvel-on-wheels
 

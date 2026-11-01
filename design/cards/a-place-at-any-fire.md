@@ -1,24 +1,16 @@
 # A Place at Any Fire
 
-*You introduce yourself, offer a little news from the road, and ask who has room beside the fire. As people answer, you watch for a face willing to welcome you.*
+*You trade a little news from the road, remember a name, and make room for someone else beside the fire. Before long, someone is making room for you.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Time:** A short conversation, outside combat.
+**Time:** Ten minutes sharing conversation or news.
 
-**Target / range / shape:** A nonhostile gathering that can understand you; a short conversation
+**Target / range / shape:** A nonhostile gathering whose members can understand you.
 
-No forced friendship or compelled service. If ordinary hospitality is freely offered, take it without a roll. DA names the objective before a consequential attempt.
-
-- **Weak:** Make 1 progress toward acceptance.
-- **Standard:** Make 2 progress and learn a useful local custom.
-- **Strong:** Make 3 progress and gain an introduction to a willing local contact.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+After the conversation, the DA introduces a willing local host who offers your party an ordinary meal and a place to sleep until the next morning. The host also points you toward one local person who can help with your stated business.
 
 ---
 
@@ -26,8 +18,8 @@ No forced friendship or compelled service. If ordinary hospitality is freely off
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** Once per visit to a community.
 
 **ID:** a-place-at-any-fire
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

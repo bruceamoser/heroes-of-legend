@@ -1,26 +1,22 @@
 # Lantern in the Palm
 
-*You cup your hand and breathe a warm bead of light into it. The glow spills between your fingers onto the faces and stones around you.*
+*You breathe a warm bead of light into your hand. It lifts to your shoulder, leaving both hands free as its glow reaches your companions.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and squares within 3 squares of you.
+**Target / range / shape:** Self and squares within 3 squares.
 
-Create a light that moves with you and illuminates squares within 3 squares along unobstructed paths. Ordinary darkness does not conceal creatures or objects in that light. Solid obstructions, smoke and magical darkness remain. The light is visible to enemies too. You may end it without an action. It grants no attack bonus or special detection.
+Create a light that hovers at your shoulder for the scene and illuminates squares within 3 squares along unobstructed paths. You may end it freely or replace it with a new casting.
 
-**Duration:** One scene or until ended; only one light from this card per user.
-
-**Equipment / acquisition:** Requires a free hand when cast; the light then hovers above your shoulder.
+**Equipment / acquisition:** A free hand when cast.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Radiance 1
 
 **Type:** Magic / Utility
-
-**Limits:** One active light per user. Recasting replaces it; lights grant no stacking bonus.
 
 **ID:** lantern-in-the-palm
 

@@ -1,31 +1,25 @@
 # Gust Hammer
 
-*You thrust your palm forward. A compressed rush of air strikes your enemy squarely and drives them backward.*
+*You strike the air with your palm. The compressed gust lands like a shoulder against your enemy's chest.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 4 squares
+**Target / range / shape:** One visible enemy within 4 squares.
 
-Proposed NPC defense attribute: Fortitude.
+Make a Reason spell attack.
 
-- **Weak:** 2 physical damage; push 1.
-- **Standard:** 2 physical damage; push 2.
-- **Strong:** 4 physical damage; push 3.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+- **Weak:** 2 physical damage; push 1 square away from you.
+- **Standard:** 2 physical damage; push 2 squares away from you.
+- **Strong:** 4 physical damage; push 3 squares away from you.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Storm 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** gust-hammer
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

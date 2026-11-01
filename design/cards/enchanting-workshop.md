@@ -1,26 +1,18 @@
 # Enchanting Workshop
 
-*You set your tools beside the impossible ingredient and begin the work that ordinary hands cannot finish.*
+*You set your tools beside the impossible ingredient. This is the part of the work that ordinary hands cannot finish.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** The recipe’s stated interval per attempt.
+**Time:** The recipe's full stated interval per attempt.
 
-**Target / range / shape:** One known special-item recipe; recipe interval
+**Target / range / shape:** One known compatible special-item or ordinary recipe.
 
-Requires a special recipe and its printed materials. Also permits ordinary recipes listed under Trail Workshop; grants two of those ordinary recipe choices and missing craft tools. No special recipe is granted. This is campaign-dependent access and should not be a recommended starter purchase.
+Choose one special-item recipe available in the campaign and two ordinary recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg; learn them. You can craft known special-item recipes and the compatible ordinary recipes using their stated materials, tools and full intervals. Roll Knowledge: Weak adds 1 progress, Standard 2, Strong 3, or the recipe's inventory steps for a supply.
 
-- **Weak:** 1 progress.
-- **Standard:** 2 progress.
-- **Strong:** 3 progress.
-
-Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. Other recipe types require their named crafting permission.
-
-**Duration:** Completed products persist as their recipes specify.
-
-**Equipment / acquisition:** Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No special recipe or materials granted.
+**Equipment / acquisition:** Craft tools (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -28,8 +20,6 @@ Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food,
 
 **Type:** Magic / Crafting / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** enchanting-workshop
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

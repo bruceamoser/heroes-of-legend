@@ -1,33 +1,27 @@
 # Treat Soft Tissue
 
-*You wash your hands and begin the close, careful work of mending what has been torn.*
+*You wash away the grit and work stitch by stitch, giving torn flesh the chance to knit.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** One hour per attempt; at most once per wound per day.
+**Time:** One hour.
 
-**Target / range / shape:** Self or one willing patient; one hour
+**Target / range / shape:** One wound on yourself or a willing patient listing Soft Tissue treatment.
 
-Requires a wound listing Soft Tissue treatment; once per wound per day across all healers. Meet its recovery value to remove only its listed treatable penalties. The scar and accumulated wound count remain.
+Make a Knowledge treatment roll.
 
-- **Weak:** 1 recovery progress.
-- **Standard:** 2 recovery progress.
-- **Strong:** 3 recovery progress.
-
-**Duration:** Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.
-
-**Equipment / acquisition:** None.
+- **Weak:** Add 1 recovery progress.
+- **Standard:** Add 2 recovery progress.
+- **Strong:** Add 3 recovery progress.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Medicine 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Recovery
 
 **ID:** treat-soft-tissue
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

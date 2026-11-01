@@ -1,33 +1,29 @@
 # Read a Dangerous Trail
 
-*You stop where the prints grow hurried and look ahead with a new understanding.*
+*You stop where the tracks bunch together. Someone ahead had time to be afraid, and the ground tells you what they saw.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Time:** Ten minutes per attempt.
+**Time:** Ten minutes.
 
-**Target / range / shape:** An accessible trail; 10 minutes
+**Target / range / shape:** One accessible physical trail.
 
-Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.
+Read the tracks and make a Reason roll.
 
-- **Weak:** 1 progress toward finding the trail’s destination; identify one supported sign of the travelers’ recent pace.
-- **Standard:** 2 progress, the pace information above, and one supported warning sign.
-- **Strong:** 3 progress, both findings above, and a usable route around one known hazard, if one exists.
+- **Weak:** Learn the travelers' direction, approximate number and pace.
+- **Standard:** Also learn the most recent danger their trail shows they encountered, and where they encountered it.
+- **Strong:** Also find a usable approach that avoids that danger, if the terrain offers one.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+You and up to six companions gain 1 Boon to your next attribute rolls following this trail before it is lost or the scene ends.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Wilderness 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** read-a-dangerous-trail
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,18 +1,14 @@
 # Ride the Furnace Breath
 
-*The fire bends around you, lifting your cloak like a sail as you stride out through its roaring edge.*
+*The flame bends beneath your cloak. You catch its rising breath and stride through the roar toward clear air.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before taking fire damage from one event.
+**Target / range / shape:** Self before one event deals fire damage.
 
-Gain fire resistance 3 against the event. After it resolves, if capable, move up to 3 squares without provoking. Use a legal path and supported endpoint; this grants no flight or protection from later damage along the path.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Gain fire resistance 3 against the event. After it resolves, move up to 4 squares without provoking to a free supported square.
 
 ---
 
@@ -20,8 +16,6 @@ Gain fire resistance 3 against the event. After it resolves, if capable, move up
 
 **Type:** Magic / Defense / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** ride-the-furnace-breath
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

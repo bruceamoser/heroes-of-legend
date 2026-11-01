@@ -1,27 +1,21 @@
 # Borrow the Shadow
 
-*You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.*
+*You wait for a passing body to break the lanternlight. Then you move through its wake and leave the room looking for you.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, when a visible creature within 2 squares moves past actual concealment
+**Target / range / shape:** Self when a visible creature within 2 squares moves past actual concealment.
 
-After the triggering creature finishes its movement, move up to your Speed along a legal route toward the concealment it passed. Do not provoke. You may become Hidden at the endpoint only if the concealment actually hides you under the normal Hidden rule; the card does not conceal an exposed creature. No teleportation or movement through occupied standing squares.
-
-**Duration:** Movement resolves immediately; Hidden follows its normal rules.
-
-**Equipment / acquisition:** None.
+After the creature finishes moving, move up to your Speed toward the concealment without provoking. If your endpoint offers actual concealment, attempt to Hide there with 1 Boon as part of this Reaction.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Subterfuge 3
 
-**Type:** Skill / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** borrow-the-shadow
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

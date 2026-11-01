@@ -1,31 +1,25 @@
 # Intrusive Echo
 
-*You speak a word that keeps repeating inside your enemy’s head. They shake their head, struggling to follow the fight through the echo.*
+*You speak one hard syllable. It repeats behind your enemy's ears until the sounds of the room begin to disappear.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One visible creature within 4 squares
+**Target / range / shape:** One visible enemy within 4 squares.
 
-Proposed NPC defense attribute: Reason.
+Make a Guile spell attack. Against a Deafened target, gain 1 Boon to this attack.
 
 - **Weak:** 2 mental damage.
-- **Standard:** 2 mental damage; Dazed 1.
-- **Strong:** 4 mental damage; Dazed 1 and Deafened 1.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+- **Standard:** 2 mental damage and Dazed 1.
+- **Strong:** 4 mental damage, Dazed 1 and Deafened 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Mind 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** intrusive-echo
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

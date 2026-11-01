@@ -1,24 +1,16 @@
 # A Voice across the Valley
 
-*You whisper into the wind and wait for the familiar answer to find its way home.*
+*You whisper a familiar name into the wind. A minute later, the answer reaches you with the softness of a voice at the fireside.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes to contact; up to one minute of exchange.
+**Time:** One minute to call; up to ten minutes of conversation.
 
-**Target / range / shape:** One willing creature personally known to you within one day’s ordinary travel; ten minutes.
+**Target / range / shape:** One willing creature personally known to you within one day's ordinary travel.
 
-Name the recipient and speak a message of up to twenty words. If the recipient is outside range or unwilling, learn only that no contact was made. The message conveys your identity but reveals no location. No sight or attack path is required; this is communication, not targeting for another card.
-
-- **Weak:** Deliver the message; the recipient may acknowledge receipt with a yes or no.
-- **Standard:** Deliver it and receive a willing reply of up to twenty words.
-- **Strong:** Deliver it and exchange up to three messages of twenty words each in both directions during the next minute.
-
-**Duration:** The exchange lasts at most one minute after contact.
-
-**Equipment / acquisition:** None.
+Call the recipient. After one minute, a willing recipient may join you in up to ten minutes of spoken-length conversation. Your call identifies you; each participant chooses the words it sends. An unanswered call reveals only that no reply arrived.
 
 ---
 
@@ -26,8 +18,8 @@ Name the recipient and speak a message of up to twenty words. If the recipient i
 
 **Type:** Magic / Utility
 
-**Limits:** Once per recipient per day. No mind reading or ability to command the listener.
+**Limits:** Once per recipient per day.
 
 **ID:** a-voice-across-the-valley
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

@@ -1,18 +1,16 @@
 # Shatterguard
 
-*You thrust your shield into the blow. Ice bursts from its rim and drives the attacker back.*
+*You catch the blow on your shield. Ice bursts from the rim and follows the attacker's retreating hands.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a defense roll against a shield-blockable attack from an adjacent creature.
+**Target / range / shape:** Self before a shield-blockable defense against an adjacent attacker.
 
-Gain 1 Boon to this defense. After the attack resolves, on a Strong defense push the attacker 2 squares directly away from you. Use the existing defense roll; Stability applies. This is not an additional use of Shield Block.
+Gain 2 Boons to the defense. On a Strong defense, after the attack resolves, apply Freezing 1 to the attacker and push it 2 squares away from you.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a held shield. Grants one ordinary shield, Bulk 1, if absent.
+**Equipment / acquisition:** Use a held ordinary shield (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,6 @@ Gain 1 Boon to this defense. After the attack resolves, on a Strong defense push
 
 **Type:** Magic / Defense / Control
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** shatterguard
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,6 +1,6 @@
 # Break the Formation
 
-*Drive one foe backward until the enemy line becomes a pile of limbs.*
+*You hammer your weapon into the first shield and keep driving, sending its bearer crashing into the ranks behind.*
 
 ## Rules
 
@@ -8,15 +8,13 @@
 
 **Target / range / shape:** One adjacent creature
 
-Choose your target and make the attack.
+Make a Brawn melee attack.
 
-- **Weak:** 4 physical damage; push 1.
-- **Standard:** 4 physical damage; push 2.
-- **Strong:** 6 physical damage; push 3 and knock prone.
+- **Weak:** 4 physical damage; push the target 1 square directly away from you.
+- **Standard:** 4 physical damage; push it 2 squares directly away from you.
+- **Strong:** 6 physical damage; push it 3 squares directly away from you and apply Prone.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -24,8 +22,6 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** break-the-formation
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

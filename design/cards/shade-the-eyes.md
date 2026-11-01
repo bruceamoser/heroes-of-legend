@@ -1,27 +1,21 @@
 # Shade the Eyes
 
-*You spread two fingers before the glare, casting a cool golden shade over your companion’s face.*
+*You cast a cool golden shade across your companion's face, and the merciless glare softens beneath your hand.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one visible willing ally within 3 squares, before one event deals radiant damage.
+**Target / range / shape:** Self or one visible willing ally within 3 squares before one event deals radiant damage.
 
-Grant radiant resistance 2 against that event. Use the highest matching resistance, not their sum. This does not prevent a separate condition imposed by the event.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Grant radiant resistance 3 against the triggering event. Reduce temporary Blinded applied by that event by 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Radiance 1
 
-**Type:** Magic / Defense
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense / Recovery
 
 **ID:** shade-the-eyes
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

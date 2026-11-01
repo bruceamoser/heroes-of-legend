@@ -1,6 +1,6 @@
 # Invitation to the Blade
 
-*You lower your guard just enough to invite a strike, then turn your blade across the opening and attack as your opponent commits.*
+*You leave a handspan of daylight beside your blade. When your opponent reaches for it, you cut across their guard and close the opening.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** One adjacent creature.
 
-Offer a tempting line, then close it with a melee attack.
+Make an Agility melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; gain 1 Boon to your next defense against this target before the start of your next turn.
-- **Strong:** 5 physical damage and the same defensive Boon.
+- **Standard:** 4 physical damage; gain 1 Boon to your next defense against this target before the start of your next turn.
+- **Strong:** 6 physical damage and the same defensive Boon.
 
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Arms 1
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** invitation-to-the-blade
 

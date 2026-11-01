@@ -1,18 +1,14 @@
 # Thought Before the Blow
 
-*You picture where the blow will end and let your body follow the empty space beside that image.*
+*You picture where the blow must finish. Your body follows the empty space beside that thought.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a defense roll against an attack you can perceive.
+**Target / range / shape:** Self before defending against an attack you can perceive.
 
-Use Reason instead of the normal defense attribute and gain 1 Boon to this defense. On a Strong defense, after the attack resolves, you may move up to 2 squares without provoking. Use the existing defense roll and a legal movement path.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Use Reason for this defense and gain 1 Boon. After the attack resolves, move up to 2 squares without provoking.
 
 ---
 
@@ -20,8 +16,6 @@ Use Reason instead of the normal defense attribute and gain 1 Boon to this defen
 
 **Type:** Magic / Defense / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** thought-before-the-blow
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

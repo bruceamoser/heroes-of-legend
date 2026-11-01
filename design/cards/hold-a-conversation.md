@@ -8,15 +8,15 @@
 
 **Time:** One minute per attempt.
 
-**Target / range / shape:** One nonhostile creature you share a language with; one minute
+**Target / range / shape:** One nonhostile creature you share a language with.
 
-Expert social practice, not compulsory speech or a replacement for roleplay. No card is required to talk, persuade or ask questions.
+Ordinary conversation remains available to everyone; this ability adds a reliable way to steer it. Choose one plausible conversation objective. Make a Guile check to make progress toward the social task.
 
-- **Weak:** 1 progress toward a plausible conversation objective; learn one topic the listener openly welcomes.
-- **Standard:** 2 progress; learn that topic and one concern the listener expresses about your request.
-- **Strong:** 3 progress, both details above, and a subject it openly shows reluctance to discuss.
+- **Weak:** 2 progress.
+- **Standard:** 3 progress.
+- **Strong:** 4 progress.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+**Duration:** The progress persists for the social task.
 
 **Equipment / acquisition:** None.
 
@@ -24,10 +24,12 @@ Expert social practice, not compulsory speech or a replacement for roleplay. No 
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Skill / Social
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** hold-a-conversation
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

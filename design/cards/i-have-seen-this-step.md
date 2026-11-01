@@ -1,26 +1,20 @@
 # I Have Seen This Step
 
-*You recognize an attacker’s raised arm from a dream and shout a warning before the blow falls.*
+*You have seen that raised arm before, in a dream or an old battlefield sketch. Your warning reaches your companion before the weapon does.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** An ally within 3 squares before a visible physical attack.
+**Target / range / shape:** One willing ally within 3 squares who hears you, before it defends against a visible physical attack.
 
-Call the warning you remember. If the ally hears you, it gains 1 Boon to this defense. No reroll after seeing dice.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+The ally gains 1 Boon to the defense. After the attack resolves, it may move 1 square without provoking.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Scholarship 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense / Movement
 
 **ID:** i-have-seen-this-step
 

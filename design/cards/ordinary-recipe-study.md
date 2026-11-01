@@ -1,22 +1,18 @@
 # Ordinary Recipe Study
 
-*You copy the useful notes, stain the page with practice, and make the method your own.*
+*You copy the useful notes, stain them with practice, and keep the page where your hands can find it.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Two compatible ordinary recipes chosen on purchase
+**Target / range / shape:** Two new compatible ordinary recipes.
 
-No roll. Learn two recipes usable with a crafting card you already know. Repeatable purchase; no duplicate recipe choice. Does not grant materials or equipment.
-
-**Duration:** The recipes are learned permanently.
-
-**Equipment / acquisition:** None.
+Learn two new ordinary recipes compatible with a crafting ability you know.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1; known compatible crafting card
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1; a known compatible crafting ability
 
 **Type:** Skill / Utility
 
@@ -24,4 +20,4 @@ No roll. Learn two recipes usable with a crafting card you already know. Repeata
 
 **ID:** ordinary-recipe-study
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

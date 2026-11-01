@@ -1,30 +1,26 @@
 # Cut Off the Escape
 
-*You follow their glance toward freedom and send your shot to meet it.*
+*You read the glance toward freedom and put the shot into the stride that would take them there.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible creature within 8 squares.
+**Target / range / shape:** One visible enemy within 8 squares.
 
-Drive a shot across its escape route. Requires ranged weapon and ammunition.
+Make an Agility ranged attack.
 
 - **Weak:** 4 physical damage.
-- **Standard:** 4 physical damage and push 1 square.
-- **Strong:** 6 physical damage, push 1 square and Slowed 2.
+- **Standard:** 4 physical damage and Slowed 1; push 1 square away from you.
+- **Strong:** 6 physical damage and Slowed 2; push 1 square away from you.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.
+**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Marksmanship 2
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** cut-off-the-escape
 

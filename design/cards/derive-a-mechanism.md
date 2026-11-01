@@ -1,33 +1,25 @@
 # Derive a Mechanism
 
-*You lay out the pieces and follow the maker’s thinking, one ingenious decision at a time.*
+*You lay the pieces in order and follow the maker's decisions until you can explain every turn of the wheel.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Four hours per attempt.
+**Time:** Four hours.
 
-**Target / range / shape:** One accessible ordinary mechanical item; four hours
+**Target / range / shape:** One accessible ordinary mechanical item.
 
-Proposal: target 12 for an ordinary mechanism. Requires tools and access to the item at every attempt. Creates a recipe, not the item or permission to craft it. Special items excluded.
+Study the item and write an ordinary recipe for its mechanism. Before work begins, the DA states the recipe's output, required materials and tools, full crafting interval and the crafting capability that can use it. After four hours of study, you learn that recipe.
 
-- **Weak:** 1 derivation progress.
-- **Standard:** 2 derivation progress.
-- **Strong:** 3 derivation progress.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** Craft tools.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** derive-a-mechanism
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

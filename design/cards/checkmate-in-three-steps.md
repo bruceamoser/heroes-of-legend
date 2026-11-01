@@ -1,30 +1,26 @@
 # Checkmate in Three Steps
 
-*You watch how your opponent recovers from each movement, step where their balance will be weakest, and strike as their foot begins to land.*
+*You drive your opponent back one step, turn with the second, and strike where the third has to land.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-Name the weakness you are exploiting and make a melee or unarmed attack. You need not invent a hidden vulnerability; stance and timing are enough.
+Make a Knowledge melee attack. Against a Slowed target, gain 1 Boon to this attack.
 
-- **Weak:** 4 physical damage and push 1.
-- **Standard:** 4 physical damage, push 1 and knock prone.
-- **Strong:** 6 physical damage, push 2, knock prone and apply Dazed 1.
+- **Weak:** 4 physical damage; push 1 square.
+- **Standard:** 5 physical damage; push 1 square and apply Prone.
+- **Strong:** 7 physical damage; push 2 squares and apply Prone and Dazed 1.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** checkmate-in-three-steps
 

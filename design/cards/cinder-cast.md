@@ -1,31 +1,25 @@
 # Cinder Cast
 
-*You gather glowing embers in your palm and fling them toward your enemy. They flare into flame against the target.*
+*You roll the embers once across your knuckles and fling them. The sparks take root in cloth and hair.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature within 5 squares
+**Target / range / shape:** One visible enemy within 5 squares.
 
-Proposed NPC defense attribute: Agility.
+Make a Knowledge spell attack.
 
 - **Weak:** 3 fire damage.
-- **Standard:** 3 fire damage; Burning 1.
-- **Strong:** 5 fire damage; Burning 2.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+- **Standard:** 3 fire damage and Burning 1.
+- **Strong:** 5 fire damage and Burning 2.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** cinder-cast
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

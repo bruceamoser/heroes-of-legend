@@ -1,18 +1,16 @@
 # Hold the Pulse
 
-*You press your hand over the wound and feel the escaping blood slow beneath a faint red glow.*
+*A red thread gathers around your fingers. You close it over the wound just before the next pulse escapes.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one adjacent willing living creature, immediately before its Bleeding damage at turn end.
+**Target / range / shape:** Self or one visible willing living creature within 3 squares, before its end-of-turn Bleeding damage.
 
-Reduce temporary Bleeding by 2, minimum 0, then resolve its remaining Bleeding and normal decay. Starred contributions remain. This restores no HP and does not treat the wound that caused it.
+Reduce temporary Bleeding by 2 before the damage resolves.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce temporary Bleeding by 2, minimum 0, then resolve its remaining Bleeding a
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** hold-the-pulse
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

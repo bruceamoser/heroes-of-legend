@@ -1,30 +1,24 @@
 # Let the Spark Decide
 
-*You snap your fingers and send a bright spark toward your target. At your gesture it blossoms into flame or scatters into a spray of frost, striking with a sudden shove.*
+*A spark dances between your fingers. You snap it away, and it chooses the cold brilliance of frost or the hungry color of flame.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One visible creature within 5 squares.
+**Target / range / shape:** One visible enemy within 5 squares.
 
-Choose fire or cold before rolling. Make one Guile attack against the target.
+Choose fire or cold, then make a Guile spell attack.
 
-- **Weak:** Deal 3 damage of the chosen type.
-- **Standard:** Deal 3 damage of that type and push the target 1 square.
-- **Strong:** Deal 5 damage of that type and push the target 2 squares.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 3 damage of the chosen type.
+- **Standard:** 3 damage of that type; push 1 square away from you.
+- **Strong:** 5 damage of that type; push 2 squares away from you.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** let-the-spark-decide
 

@@ -1,26 +1,22 @@
 # A Word Apart
 
-*You lean close beneath the surrounding chatter, shielding your lips as you give your companion the words they need.*
+*You lean beneath the surrounding chatter and give your companion the one sentence that changes how they will answer.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing ally who can hear and understand you.
+**Target / range / shape:** One adjacent willing ally who hears and understands you.
 
-Speak a private message of up to twenty words. Other creatures cannot overhear it through ordinary hearing while you and the ally can speak quietly; this does not defeat magic or prevent anyone noticing the exchange. Name a social task the message helps with. The ally gains 1 Boon to its next Guile or Reason roll for that task within the scene. This does not compel agreement or replace the conversation.
-
-**Duration:** Message is immediate; the Boon ends when used or the scene ends.
-
-**Equipment / acquisition:** None.
+Privately deliver a message of up to twenty words while you and the ally can speak quietly. Name a social task it helps with. The ally gains 2 Boons to its next Guile or Reason roll for that task this scene.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2 and Subterfuge 1
 
-**Type:** Skill / Utility
+**Type:** Skill / Support / Utility
 
-**Limits:** An ally can hold only one unused benefit from this card; a later use replaces its message’s task and expiry.
+**Limits:** An ally keeps one unused counsel benefit from you; later counsel replaces it.
 
 **ID:** a-word-apart
 

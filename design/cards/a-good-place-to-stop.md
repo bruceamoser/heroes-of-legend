@@ -1,20 +1,16 @@
 # A Good Place to Stop
 
-*You notice the dry ground beneath the roots and the way the wind bends around the rise.*
+*You feel the wind fall quiet beneath the ridge and find the dry hollow where last year's leaves still lie.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Time:** Ten minutes of examination.
 
-**Target / range / shape:** A campsite you can examine for ten minutes.
+**Target / range / shape:** One campsite you can examine.
 
-After examining a site, learn one present, observable environmental danger to camping there, if any, and one available way to shelter from it, if one exists. No roll. This does not reveal hidden creatures, create shelter or promise safety from later events.
-
-**Duration:** Information learned remains known.
-
-**Equipment / acquisition:** None.
+After examining the site, learn the environmental dangers that the site currently presents and an available way to shelter from each. When your party makes camp using that shelter, you and up to six companions gain 1 Boon to attribute rolls against weather and exposure while that camp remains in use.
 
 ---
 
@@ -22,8 +18,6 @@ After examining a site, learn one present, observable environmental danger to ca
 
 **Type:** Skill / Utility
 
-**Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
-
 **ID:** a-good-place-to-stop
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

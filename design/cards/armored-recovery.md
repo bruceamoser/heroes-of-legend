@@ -1,18 +1,16 @@
 # Armored Recovery
 
-*You plant an armored fist and rise with the familiar weight settling around you.*
+*You plant an armored fist, roll the weight beneath you, and rise already moving.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, prone while wearing armor
+**Target / range / shape:** Self while wearing armor.
 
-Stand without spending movement, then move up to 2 squares without provoking. You must be wearing armor; choose a legal route and free endpoint.
+Stand if Prone, then move up to 2 squares without provoking.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires armor.
+**Equipment / acquisition:** Worn armor.
 
 ---
 
@@ -20,8 +18,6 @@ Stand without spending movement, then move up to 2 squares without provoking. Yo
 
 **Type:** Skill / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** armored-recovery
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

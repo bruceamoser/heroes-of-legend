@@ -1,26 +1,18 @@
 # Make Something Useful
 
-*You pull sound pieces from the wreckage, lay them beside your tools and fit them together into something the party can use.*
+*You pull sound pieces from the wreckage and set them beside your tools. The thing the party needs is already taking shape.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** The recipe’s stated interval per attempt.
+**Time:** The recipe's full stated interval per attempt.
 
-**Target / range / shape:** One known ordinary recipe and plausible local materials; recipe interval
+**Target / range / shape:** One known compatible ordinary recipe and suitable salvaged materials.
 
-Grants craft tools if absent and two ordinary recipes. For this card, equivalent salvaged materials may replace the recipe’s ordinary materials when the DA judges them suitable. Still requires a recipe; no magic or free ingredients.
+Learn two recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. You can craft those and other known recipes explicitly compatible with this ability, using equivalent salvaged materials the DA confirms are suitable. Roll Knowledge: Weak adds 1 progress or inventory step, Standard 2, Strong 3, as the recipe specifies.
 
-- **Weak:** 1 progress or inventory step.
-- **Standard:** 2 progress or inventory steps.
-- **Strong:** 3 progress or inventory steps; leave the workspace ready for immediate reuse.
-
-Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. Other recipe types require their named crafting permission.
-
-**Duration:** Crafted items and supplies persist until used or destroyed.
-
-**Equipment / acquisition:** Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.
+**Equipment / acquisition:** Craft tools (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -28,8 +20,6 @@ Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food,
 
 **Type:** Skill / Crafting / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** make-something-useful
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

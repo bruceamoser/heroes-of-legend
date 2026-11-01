@@ -1,34 +1,26 @@
 # Wear the Great Beast
 
-*You draw a deep breath as muscle and fur reshape your outline into something formidable.*
+*Your shoulders rise above your companions as fur and antlers catch the light. The enemy line suddenly looks close enough to break.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Spend a Maneuver to become a mighty bear, elk or great hunting cat for the scene. Keep your HP, wounds, attributes and one-square footprint. Speed is ancestry base + Agility + 1, reduced by encumbrance and other applicable penalties, minimum 0. Equipment folds away and provides no benefits. Gain physical resistance 2; highest matching resistance applies. You cannot speak, cast spells or use items, and have no free hands.
+Become a mighty bear, elk or great hunting cat for the scene. Gain physical resistance 2, Speed +1 and Stability 2. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver.
 
-**Claw, antler or bite — Main Action, Brawn; one adjacent creature.**
+**Claw, antler or bite: Main Action, Brawn; one adjacent enemy.** Against a Prone target, gain 1 Boon to the attack.
 
-- **Weak:** Deal 5 physical damage.
-- **Standard:** Deal 5 physical damage and push 2 squares.
-- **Strong:** Deal 7 physical damage, push 3 squares and knock prone.
-
-Return with a Maneuver. Another form ends this one; HP loss and conditions remain yours. No earlier form card is required.
-
-**Duration:** Until the scene ends, unless ended earlier as stated above.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 5 physical damage.
+- **Standard:** 6 physical damage; push 2 squares.
+- **Strong:** 8 physical damage; push 3 squares and apply Prone.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Defense
 
 **ID:** wear-the-great-beast
 

@@ -1,6 +1,6 @@
 # Hook and Drive
 
-*Catch their guard and haul them into the place they least want to stand.*
+*You catch their ankle with your weapon and drive your shoulder forward. Their next stride becomes a scramble to stay upright.*
 
 ## Rules
 
@@ -8,15 +8,13 @@
 
 **Target / range / shape:** One adjacent creature
 
-Choose your target and make the attack.
+Make a Brawn melee attack.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; pull 1.
-- **Strong:** 5 physical damage; pull 1 and knock prone.
+- **Weak:** 2 physical damage and Slowed 1.
+- **Standard:** 3 physical damage and Slowed 2.
+- **Strong:** 5 physical damage, Slowed 2 and Prone.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires and grants one ordinary melee weapon, Bulk 1, only if none is owned.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -24,8 +22,6 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** hook-and-drive
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

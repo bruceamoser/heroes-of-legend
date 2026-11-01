@@ -1,26 +1,20 @@
 # Turn the River
 
-*You yield just enough to feel the force pass you, then guide it somewhere else.*
+*You yield a pace and let the attack pass. Their weight follows your hand into the space you have just left.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before defending against a visible adjacent physical attacker.
+**Target / range / shape:** Self before defending against a visible adjacent physical attacker.
 
-Use Reason for this defense. On a Strong defense, you may pull the attacker 1 square toward your previous position after moving yourself 1 square to a free square without provoking. Both destinations must be legal.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Use Reason for this defense and gain 1 Boon. After the attack resolves, move 1 square without provoking. On a Strong defense, also pull the attacker 1 square toward the space you left.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Athletics 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense / Control
 
 **ID:** turn-the-river
 

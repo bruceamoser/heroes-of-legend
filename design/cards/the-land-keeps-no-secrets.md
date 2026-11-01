@@ -1,20 +1,16 @@
 # The Land Keeps No Secrets
 
-*You look from the broken ridge to the river and understand the journey waiting between them.*
+*From the ridge, you read the bend of trees, the color of the river and the pale line beneath the snow. You know where the land will let you pass.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Time:** Ten minutes of examination.
 
-**Target / range / shape:** A natural route visible from a vantage point; ten minutes examination.
+**Target / range / shape:** A natural landscape visible from a vantage point.
 
-Identify one observable route hazard and an available way around it, if any. No roll. You and up to six companions who follow your chosen route gain 1 Boon each to their next consequential noncombat roll negotiating that hazard. Hidden dangers remain hidden; this neither finds absent resources nor reveals a route beyond what can be observed.
-
-**Duration:** Until the identified hazard is passed or you abandon the route.
-
-**Equipment / acquisition:** None.
+Examine the visible natural landscape. Name a destination you can see or a feature you seek, such as drinkable water, shelter or a pass. Learn the best available route toward it within the examined landscape and the terrain hazards on that route. You and up to six companions gain 2 Boons to attribute rolls negotiating those hazards while following the route.
 
 ---
 
@@ -22,8 +18,6 @@ Identify one observable route hazard and an available way around it, if any. No 
 
 **Type:** Skill / Utility
 
-**Limits:** Reexamining the same hazard does not refresh an expended Boon. No routine travel roll is introduced.
-
 **ID:** the-land-keeps-no-secrets
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

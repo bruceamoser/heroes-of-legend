@@ -8,15 +8,15 @@
 
 **Time:** One minute per attempt.
 
-**Target / range / shape:** An unfamiliar place with usable landmarks; one minute
+**Target / range / shape:** A navigation task in an unfamiliar place with usable landmarks.
 
-Ordinary navigation is possible without the card. No routine travel roll; only consequential uncertainty. No magic compass when evidence is absent.
+Make a navigation check to make progress toward the navigation task.
 
-- **Weak:** 1 progress toward finding your way; identify a visible landmark you can use to retrace this attempt.
-- **Standard:** 2 progress and identify your return direction.
-- **Strong:** 3 progress and describe a recognizable landmark to companions.
+- **Weak:** 1 progress.
+- **Standard:** 2 progress.
+- **Strong:** 3 progress.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+**Duration:** The progress persists for the navigation task.
 
 **Equipment / acquisition:** None.
 
@@ -24,10 +24,12 @@ Ordinary navigation is possible without the card. No routine travel roll; only c
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Skill / Exploration
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** keep-your-bearings
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

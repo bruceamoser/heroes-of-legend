@@ -1,24 +1,16 @@
 # The City Opens Its Doors
 
-*You follow a familiar sign to a side entrance, and someone inside recognizes how you knock.*
+*You stop at the guarded street and study the rooflines. Then you smile and lead your companions toward a door no one thought to watch.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Four hours per attempt.
+**Time:** Ten minutes examining one inhabited city block.
 
-**Target / range / shape:** An inhabited settlement where an illicit network could plausibly operate; four hours.
+**Target / range / shape:** One inhabited city block you can examine.
 
-Seek a willing contact for one specific clandestine service: an introduction, passage or a hiding place. The DA confirms a suitable provider could be found and states available leads, stakes and a progress target before rolling. Completion finds a willing provider if one exists, not free service or guaranteed loyalty. The price and risk must be stated before you accept.
-
-- **Weak:** 1 progress; learn one local sign or custom actually used by the network.
-- **Standard:** 2 progress; also learn one requirement a potential contact publicly or privately communicates.
-- **Strong:** 3 progress; also identify a practical way to verify that contact’s stated offer.
-
-**Duration:** Information and earned contacts persist; their circumstances may change.
-
-**Equipment / acquisition:** None.
+Name a place within 6 squares in the examined block that you want to reach. You and the DA establish a previously unmentioned concealed service entrance, roof path or passage from your current public location toward that place, consistent with the building's structure and established facts. The DA describes its entrance, exit and any obstacle along it. The route becomes an established feature your party can use.
 
 ---
 
@@ -26,8 +18,8 @@ Seek a willing contact for one specific clandestine service: an introduction, pa
 
 **Type:** Skill / Utility
 
-**Limits:** Cannot invent a network in an empty ruin or repeatedly roll without pursuing a new lead.
+**Limits:** Once per scene.
 
 **ID:** the-city-opens-its-doors
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

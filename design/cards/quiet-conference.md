@@ -1,18 +1,14 @@
 # Quiet Conference
 
-*You draw a small circle in the air. Each companion hears the others as if all were seated around the same quiet table.*
+*You draw a small circle. The others' words arrive as if you were all around the same quiet table, even after the company spreads out.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and up to 3 visible willing allies within 3 squares.
+**Target / range / shape:** Self and up to three visible willing allies within 3 squares.
 
-Link the chosen participants for silent conversation. Each can send short spoken-length messages to the group without an action; each listener must understand the language. A participant leaving 3 squares from you loses the link until it returns. The link transmits words, not senses or thoughts, and supplies no commands, attacks or Boons.
-
-**Duration:** 10 minutes; one conference at a time.
-
-**Equipment / acquisition:** None.
+Link the participants for silent conversation for ten minutes. Each can send short spoken-length messages to the group without an action, in languages the listeners understand. A participant beyond 10 squares from you leaves the link until it returns.
 
 ---
 
@@ -20,8 +16,8 @@ Link the chosen participants for silent conversation. Each can send short spoken
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One conference at a time.
 
 **ID:** quiet-conference
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

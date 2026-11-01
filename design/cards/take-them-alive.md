@@ -1,18 +1,14 @@
 # Take Them Alive
 
-*You turn the edge at the last instant and finish with a controlled blow, leaving your opponent unconscious instead of dead.*
+*At the last instant you turn the edge. The pommel lands beneath the ear, and you catch your opponent as their knees give way.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Target / range / shape:** A creature reduced to 0 HP by your melee attack
 
-Declare before the attack. NPC remains unconscious until the scene ends or healed; no wound inflicted by this finishing blow. This is the purchased exception to lethal attacks, not universal permission. Player characters retain their normal 0-HP rules.
-
-**Duration:** Unconscious until the scene ends or the target is healed.
-
-**Equipment / acquisition:** None.
+Before making a melee attack, declare that you intend to capture the target. If it reduces an NPC to 0 HP, the NPC becomes Unconscious until the scene ends or it receives healing. This finishing blow leaves it alive and inflicts no wound.
 
 ---
 
@@ -20,8 +16,6 @@ Declare before the attack. NPC remains unconscious until the scene ends or heale
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** take-them-alive
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

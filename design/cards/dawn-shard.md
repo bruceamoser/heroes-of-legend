@@ -1,31 +1,25 @@
 # Dawn Shard
 
-*You cast a sliver of brightness that catches your foe like sunlight on broken glass.*
+*A sliver of dawn catches in your enemy's outline, burning bright enough for every waiting eye to follow.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 5 squares
+**Target / range / shape:** One visible enemy within 5 squares.
 
-The light lasts until the start of your next turn; it does not reveal a target through opaque cover or override magical invisibility. Proposed NPC defense attribute: Agility.
+Make a Reason spell attack.
 
 - **Weak:** 3 radiant damage.
-- **Standard:** 3 radiant damage; mark it with visible light.
-- **Strong:** 5 radiant damage; mark it and apply Blinded 1.
-
-**Duration:** Damage is immediate; light lasts until the start of your next turn. Blinded decays normally.
-
-**Equipment / acquisition:** None.
+- **Standard:** 3 radiant damage; outline the target in light until the end of your next turn. The next attack against it before then gains 1 Boon.
+- **Strong:** 5 radiant damage and Blinded 1; apply the same outline.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Radiance 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Support
 
 **ID:** dawn-shard
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

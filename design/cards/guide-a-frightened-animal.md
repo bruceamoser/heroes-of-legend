@@ -1,33 +1,27 @@
 # Guide a Frightened Animal
 
-*You lower your voice and let the animal see that your hands are quiet.*
+*You lower your hands and breathe with the trembling animal until it can look at you instead of the thing behind you.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Time:** One minute per attempt.
+**Target / range / shape:** One animal within 3 squares that sees or hears you.
 
-**Target / range / shape:** One nonhostile animal able to perceive you; one minute
+Make a Guile roll. Learn the animal's immediate source of distress and one approach it would presently accept, such as an offered lead, food or a familiar handler.
 
-Spend one minute calming a nonhostile animal that can see or hear you. State the behavior you want, such as letting a companion approach. The DA sets a progress target for a behavior the animal could plausibly accept. Roll Guile. This card gives no control over hostile or intelligent creatures.
+- **Weak:** Reduce its temporary Frightened by 1.
+- **Standard:** Reduce its temporary Frightened by 2.
+- **Strong:** Reduce its temporary Frightened by 3.
 
-- **Weak:** Add 1 progress toward calming the animal.
-- **Standard:** Add 2 progress and identify an immediate cause of its distress.
-- **Strong:** Add 3 progress, identify that cause, and when this completes the target, one willing companion may approach without upsetting it.
-
-**Duration:** Progress toward the declared behavior persists while the situation remains applicable.
-
-**Equipment / acquisition:** None.
+Gain 1 Boon to your next roll using that approach before the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Skill / Utility
-
-**Limits:** Pay the printed action and any full activity time for each use.
+**Type:** Skill / Recovery / Utility
 
 **ID:** guide-a-frightened-animal
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,21 +1,11 @@
-# Heroes of Legend Starter Kit v16.5.0
+# Heroes of Legend v16.6.0
 
-Includes the **Player’s Book** and **Dungeon Architect’s Guide & Bestiary** for levels 1–10.
+The approved discipline catalog brings clearer fantasy, condition combinations and stronger purchase choices across Novice, Adept and Master abilities. This playtest release also integrates the approved Universal ladder.
 
-## What changed
+- Integrates 297 active discipline proposals with stable IDs retained through renames. A Common Tongue replaces the rejected Raise a Cause concept using a new ID.
+- Fits prosthetic replacement at Adept, revises control floors, and distinguishes focused healing from shared pools.
+- Updates Universal abilities, including the six Adept choices and the three Master choices.
+- Summons not commanded during their controller's turn disappear at that turn's end. Constant interaction and concentration describe maintaining their presence, without a new concentration check.
+- Both books and the starter kit use this approved playtest catalog. Balance and encounter budgets remain subjects for table testing.
 
-- **20 ancestry traits finalized** for dwarf, elf, halfling and human. Each ancestry now has five reviewed traits with clear triggers, limits and scaling.
-- **All 90 class signatures finalized** across ten classes, three at levels 1, 3 and 7. This pass rebuilds Protector, Shadow, Shepherd, Unbalanced and Warden; Arcanist, Blade, Intellect, Leader and Odd carry their approved sets.
-- Every signature keeps its stable ID, level, DP and acquisition requirements. Renamed abilities keep their existing filenames and IDs for Foundry and web compatibility.
-- The Odd signature **Not Quite Yet** now ends its delay at the beginning of the ally’s next turn, not the end.
-- Class pages and the catalog are regenerated. Both books are rebuilt against the current references.
-
-The Player’s Book retains **419 abilities**, **44 equipment entries** and **73 summoned forms**.
-The DA companion includes **192 illustrated creatures** and **126 monster abilities**.
-
-Download the starter-kit ZIP for both books, or choose the individual PDFs.
-The manifest records the source commit, page counts and PDF hashes; SHA256SUMS.txt verifies the downloads.
-
-This is a digital playtest edition. CV and encounter budgets remain estimates; this content review does not establish new combat-balance results.
-
-Web and Foundry synchronization follows in the same production pass.
+Downstream implementation and verification are tracked in bruceamoser/heroes-of-legend-foundry#252; source review is #1294.

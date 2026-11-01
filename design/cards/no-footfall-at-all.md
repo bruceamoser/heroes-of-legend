@@ -1,26 +1,20 @@
 # No Footfall at All
 
-*You place each foot as though the floor were listening for your name.*
+*You set each foot as if the floor were listening for your name. The guards hear the empty hall you leave behind.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-For the rest of this turn, your movement makes no audible footfalls and does not provoke. Move up to 2 squares immediately as part of this Maneuver. You remain visible unless actual concealment hides you; you do not silence speech or equipment deliberately used.
-
-**Duration:** Until the end of your current turn.
-
-**Equipment / acquisition:** No item needed unless named above.
+Your movement makes no audible footfalls. As a Maneuver, move up to your Speed without provoking.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Subterfuge 3
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** no-footfall-at-all
 

@@ -1,30 +1,26 @@
 # Rest for the Restless
 
-*You extend a hand toward the restless creature and speak a quiet dismissal. A pale thread of Life energy lashes from your fingers into it.*
+*You speak the dismissal softly. The pale thread that leaves your hand strikes with the weight of a door closing.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 4 squares.
+**Target / range / shape:** One visible enemy within 4 squares.
 
-Speak a quiet dismissal and send a thread of Life energy into the target. This is a damaging spell, not free healing; it restores no HP.
+Make a Reason spell attack.
 
 - **Weak:** 3 Life damage.
-- **Standard:** 3 Life damage; a creature explicitly harmed by healing is also pushed 1 square.
-- **Strong:** 5 Life damage; such a creature is pushed 2 squares.
+- **Standard:** 4 Life damage.
+- **Strong:** 6 Life damage.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Against a creature harmed by healing, also push it 1/2/3 squares on Weak/Standard/Strong.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Life 2
 
-**Type:** Magic / Attack / Recovery
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** rest-for-the-restless
 

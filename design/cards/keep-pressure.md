@@ -1,18 +1,16 @@
 # Keep Pressure
 
-*You catch the loosening bandage and press down firmly before another pulse of blood escapes.*
+*The bandage shifts as your companion moves. Your hand is there before the next pulse of blood escapes.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one adjacent willing creature, before its Bleeding damage at turn end.
+**Target / range / shape:** Self or one adjacent willing creature before its end-of-turn Bleeding damage.
 
-Reduce temporary Bleeding by 1, minimum 0, then resolve remaining Bleeding and its normal decay. This does not remove a starred contribution, heal a wound or restore HP.
+Reduce the target's temporary Bleeding by 1 before the damage resolves.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a free hand and cloth; grants no item.
+**Equipment / acquisition:** A free hand and cloth.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce temporary Bleeding by 1, minimum 0, then resolve remaining Bleeding and i
 
 **Type:** Skill / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** keep-pressure
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

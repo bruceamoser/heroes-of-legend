@@ -1,33 +1,23 @@
 # Reconstruct the Event
 
-*You walk the empty scene until its scattered traces become a sequence of human choices.*
+*You close your eyes, then walk the room as it was: a chair drawn back, a door left open, a figure pausing at the stair.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** One hour per attempt.
+**Time:** Ten minutes.
 
-**Target / range / shape:** An accessible evidence set; one hour
+**Target / range / shape:** One accessible scene with physical evidence of an event.
 
-Examine an accessible evidence set. The DA names the question and sets a cumulative progress target before a consequential reconstruction; obvious deductions need no roll. On completion, obtain an evidence-supported sequence answering that question as far as the surviving evidence allows. Identify the limits of that account explicitly. Share it with companions; they need no duplicate interpretation rolls for the same facts.
-
-- **Weak:** 1 progress and one supported fact relevant to the sequence.
-- **Standard:** 2 progress, that fact, and one gap or contradiction requiring investigation.
-- **Strong:** 3 progress and both findings; identify a specific place, object or person the evidence points toward for resolving the gap, if one exists.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+Choose an event that left physical traces in the scene. The DA describes its evidence-supported sequence, identifies where the evidence leaves a gap, and names one specific place, person or object to investigate that gap, if a lead survives. You can show the reconstruction to your companions as a shared ghostly image of the supported sequence.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility
 
 **ID:** reconstruct-the-event
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,31 +1,27 @@
 # Pinning Shot
 
-*You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.*
+*Your arrow bites beside the next foothold. The enemy shortens its stride before it can think to do otherwise.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible creature within 8 squares
+**Target / range / shape:** One visible enemy within 8 squares.
 
-Choose your target and make the attack.
+Make an Agility ranged attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; Slowed 1.
-- **Strong:** 5 physical damage; Slowed 2.
+- **Standard:** 3 physical damage and Slowed 1.
+- **Strong:** 5 physical damage and Slowed 2.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.
+**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Marksmanship 1
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Control
 
 **ID:** pinning-shot
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

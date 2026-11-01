@@ -1,6 +1,6 @@
 # Read the Remains
 
-*You crouch beside the overturned cup and follow the scrape across the floor, piecing together what moved through the room.*
+*You crouch beside the overturned cup. A clean crescent in the dust tells you where the missing chair stood.*
 
 ## Rules
 
@@ -8,26 +8,20 @@
 
 **Time:** Ten minutes.
 
-**Target / range / shape:** One accessible scene or object; 10 minutes
+**Target / range / shape:** One accessible scene or evidence-bearing object.
 
-Facts must be available from the evidence, never invented by the card. Correct examination reveals obvious clues without a roll; only consequential uncertainty calls for this card.
+Choose a question about what happened here and make a Reason roll. The DA answers from the surviving evidence.
 
-- **Weak:** Learn one supported fact.
-- **Standard:** Learn two supported facts.
-- **Strong:** Learn three supported facts.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+- **Weak:** Learn one relevant detail and what it supports.
+- **Standard:** Also learn which part of that account remains uncertain and where you could investigate it.
+- **Strong:** Also learn whether a specific explanation you propose fits all the evidence examined.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Scholarship 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** read-the-remains
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

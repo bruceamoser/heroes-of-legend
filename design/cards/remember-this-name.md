@@ -1,32 +1,24 @@
-# Remember This Name
+# A Name Remembered
 
-*You tell the room what your companion did, and watch people turn to look at them differently.*
+*Someone studies your face, whispers the name from the story, and nudges their companion. You can feel the room reconsidering you.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Time:** A few minutes per attempt.
+**Target / range / shape:** Self.
 
-**Target / range / shape:** A nonhostile audience; a few minutes.
+Choose a specific deed or act people credit to you, whether true or rumored, and a name by which you are known, such as Eric the Red or Torag Silver Tongue. Record a recognizable description associated with that reputation.
 
-Tell a truthful or honestly believed story about a companion. Name a plausible introduction, audience or welcome you seek.
+Your name, reputation and the description people associate with you become established facts of the campaign. Wherever your reputation is known, its stories carry that description.
 
-- **Weak:** 1 progress toward that welcome.
-- **Standard:** 2 progress and learn who can grant it.
-- **Strong:** 3 progress and a willing listener offers to introduce you.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** No item needed unless named above.
+When your reputation helps a roll, gain 2 Boons. When it hinders a roll, take 2 Banes.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2
 
 **Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** remember-this-name
 

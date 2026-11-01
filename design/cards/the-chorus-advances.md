@@ -1,26 +1,20 @@
-# The Chorus Advances
+# Rally to Me
 
-*You catch the rhythm of your companions’ steps and give them the next beat.*
+*You raise your voice over the din: "Here! With me!" Your companions turn toward the familiar call and begin to steady themselves.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Two willing allies within 3 squares who hear you.
+**Target / range / shape:** Every willing ally within 3 squares who hears you.
 
-Each moves 1 square toward a visible enemy without provoking, one at a time. Their actions remain their own.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Each ally reduces temporary Frightened by 1 and may move up to 2 squares toward you without provoking.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Recovery / Movement
 
 **ID:** the-chorus-advances
 

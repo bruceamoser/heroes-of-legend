@@ -1,6 +1,6 @@
 # Identify a Mixture
 
-*You turn the bottle toward the light and recognize a familiar cloud in the liquid.*
+*You roll the bottle against the light. A pale thread settles beneath the stopper, and you set it down with sudden care.*
 
 ## Rules
 
@@ -8,13 +8,13 @@
 
 **Time:** Ten minutes.
 
-**Target / range / shape:** One accessible potion or mixture; 10 minutes
+**Target / range / shape:** One accessible potion or mixture.
 
-Weak: learn broad purpose. Standard: learn its use and effects. Strong: also reveal contamination or a harmful additive. Does not consume the mixture.
+Examine the mixture and make a Reason roll. The mixture remains available afterward.
 
-**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
-
-**Equipment / acquisition:** None.
+- **Weak:** Learn its broad purpose and whether using it would harm its intended recipient.
+- **Standard:** Learn its effects, use and any contamination or harmful additive.
+- **Strong:** Also learn one available treatment for its harmful effects, if a treatment exists.
 
 ---
 
@@ -22,8 +22,6 @@ Weak: learn broad purpose. Standard: learn its use and effects. Strong: also rev
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and any full activity time for each use.
-
 **ID:** identify-a-mixture
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

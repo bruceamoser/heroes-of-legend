@@ -1,18 +1,14 @@
 # Still the Avalanche
 
-*You stamp a ring of blue ice beneath your companion while a turning wind catches the falling snow and stone.*
+*Blue ice locks beneath your companions' boots while a turning wind catches the falling snow and stone above them.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one visible willing ally within 3 squares, when one effect would forcibly move it; declare before that effect’s damage or displacement resolves.
+**Target / range / shape:** Self and willing allies within 3 squares affected by one event that would forcibly move them, before its damage or displacement resolves.
 
-The target gains Stability 3 for this forced movement and cold resistance 3 against damage from the same triggering effect. Apply Stability once before moving, including when the target joins a moving collision group. This does not stop falling, Prone or other conditions.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Each recipient gains Stability 3 against the forced movement and physical resistance 3 and cold resistance 3 against the triggering damage event. Each may remain standing if that event would make it Prone.
 
 ---
 
@@ -20,8 +16,6 @@ The target gains Stability 3 for this forced movement and cold resistance 3 agai
 
 **Type:** Magic / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** still-the-avalanche
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

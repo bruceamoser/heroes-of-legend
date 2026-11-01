@@ -1,18 +1,14 @@
 # Follow My Leap
 
-*You spring across the gap and call back the rhythm of the jump; your companions follow the line of your landing.*
+*You spring for the far side and call the rhythm back over your shoulder. One by one, your companions take the same impossible stride.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and up to 2 willing allies within 2 squares who can hear you.
+**Target / range / shape:** Self and up to three willing allies within 2 squares who hear you.
 
-You may broad jump up to 4 squares to a free supported square, without an approach. Each chosen ally may spend its Reaction to make the same kind of jump, up to 4 squares from its own position. Everyone must have a clear path and a separate legal landing. Jumps provoke normally. No ordinary movement is spent.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+You and up to three willing allies who hear you each jump up to 5 squares from your own positions to separate visible free supported landings, with no approach required. These jumps do not provoke.
 
 ---
 
@@ -20,8 +16,6 @@ You may broad jump up to 4 squares to a free supported square, without an approa
 
 **Type:** Skill / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** follow-my-leap
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

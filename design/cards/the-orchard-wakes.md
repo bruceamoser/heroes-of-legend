@@ -1,30 +1,24 @@
 # The Orchard Wakes
 
-*You spread your arms, and the roots answer as if the whole orchard had stirred in its sleep.*
+*You lift your hand. Roots lift with it, gathering stumbling enemies into a knot of branches and struggling feet.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** Up to three visible grounded creatures within 5 squares.
+**Target / range / shape:** One visible grounded enemy within 5 squares, plus every other visible grounded Slowed enemy within 5 squares.
 
-Branches and roots answer together. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them. You choose targets; allies need not be included.
+Choose one visible grounded enemy within 5 squares and every other visible grounded Slowed enemy within 5 squares. Make a Reason control attack.
 
-- **Weak:** Pull each 1 square toward you.
-- **Standard:** Pull each 2 squares and apply Slowed 1.
-- **Strong:** Pull each 3 squares, apply Slowed 1 and knock each prone.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** Pull each target 1 square toward you and apply Slowed 1.
+- **Standard:** Pull each target 2 squares toward you and apply Slowed 2.
+- **Strong:** Pull each target 3 squares toward you and apply Slowed 2 and Prone.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Control
 
 **ID:** the-orchard-wakes
 

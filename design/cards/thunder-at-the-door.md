@@ -1,30 +1,24 @@
 # Thunder at the Door
 
-*You raise your palm toward your enemy and close your fingers. A thunderclap bursts beside them, rattling their balance and ringing in their ears.*
+*You close your fist beside the distant doorway. The answering thunder shakes your enemy's hearing and drives them back a step.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 4 squares.
+**Target / range / shape:** One visible enemy within 4 squares.
 
-A thunderclap arrives where you point.
+Make a Reason spell attack.
 
 - **Weak:** 3 physical damage.
 - **Standard:** 3 physical damage and Deafened 1.
-- **Strong:** 5 physical damage, Deafened 1 and push 1.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Strong:** 5 physical damage and Deafened 1; push 1 square away from you.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Storm 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** thunder-at-the-door
 

@@ -1,32 +1,22 @@
 # Teach Stone to Bend
 
-*You press your palm against the stone and patiently coax a different shape from it.*
+*You press your hand into the wall as if it were cool clay. Stone folds around your fingers and opens beneath them.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Knowledge
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes per attempt.
+**Time:** One minute.
 
-**Target / range / shape:** One adjacent ordinary stone obstruction; ten minutes.
+**Target / range / shape:** Ordinary stone in one adjacent square.
 
-Persuade a small part of the stone to soften. Create passage progress toward a target stated by the DA; no instant destruction of a building.
-
-- **Weak:** 1 progress.
-- **Standard:** 2 progress.
-- **Strong:** 3 progress and identify whether continuing would endanger the structure.
-
-**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
-
-**Equipment / acquisition:** No item needed unless named above.
+Reshape up to one square of ordinary stone that you touch into a passage, handholds, steps or cover. The changed stone stays within that square and retains its new shape. Before you begin, the DA tells you whether the change will remove structural support.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility
 
 **ID:** teach-stone-to-bend
 

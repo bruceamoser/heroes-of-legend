@@ -1,30 +1,20 @@
 # A Door That Is Not There
 
-*You trace a doorframe in the air. An image of weathered wood and an iron latch settles into the space, convincing until a hand passes through it.*
+*You draw a latch in the air. Weathered wood settles around it, complete with the faint sway of a hanging curtain.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** A visible unoccupied square within 4 squares.
+**Target / range / shape:** One visible unoccupied square within 4 squares.
 
-Place a silent, flat illusion of a door, window, screen or similar scene feature. It lasts 10 minutes; touch reveals it, and it blocks neither attacks nor movement.
-
-- **Weak:** The image holds while you remain still.
-- **Standard:** The image holds while you move.
-- **Strong:** It also includes small natural movement, such as a shifting curtain.
-
-**Duration:** Ten minutes, unless ended earlier as stated above.
-
-**Equipment / acquisition:** No item needed unless named above.
+Create a silent flat image of a door, window, curtain or screen in the chosen square for ten minutes. It may include small natural movement and remains while you move. Physical contact reveals the image's illusory nature. You may end it freely or replace it with a new casting.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Mind 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility
 
 **ID:** a-door-that-is-not-there
 

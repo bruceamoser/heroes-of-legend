@@ -1,32 +1,26 @@
 # The Key Changes Hands
 
-*You draw someone’s attention with a question while your other hand lifts the unattended key from the table.*
+*You ask the question with one hand and take the answer with the other. The key is already under your palm.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One adjacent visible unattended object of Bulk 0 or 1.
+**Target / range / shape:** One adjacent visible Bulk 0 or 1 object that is unattended or unsecured in a pocket or pouch.
 
-Name the object and describe your distraction. An unobserved accessible pickup needs no roll. When discovery has consequences, roll Guile:
+Make a Guile roll and take the object into a free hand.
 
-- **Weak:** Draw attention aside and gain 1 Boon to your next attempt to take this object before the end of your next turn. You have not taken it yet.
-- **Standard:** Take the object into your free hand without immediate notice.
+- **Weak:** An observer notices your hand after the object is taken.
+- **Standard:** Take it without immediate notice.
 - **Strong:** Take it without immediate notice and leave a harmless substitute you already hold.
 
-An observer can notice the missing object later. This takes only unattended objects, never held or worn equipment.
-
-**Duration:** Object transfer is immediate. The Weak Boon expires after your next attempt or at the end of your next turn.
-
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** A free hand.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** the-key-changes-hands
 

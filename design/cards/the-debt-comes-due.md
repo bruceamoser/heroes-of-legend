@@ -1,30 +1,24 @@
 # The Debt Comes Due
 
-*You touch the place they hurt you, and the mark answers in heat.*
+*You touch the place they struck you. The mark glows, and its answer leaps back across the space between you.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** Guile
 
-**Target / range / shape:** A visible creature within 4 squares after it damages you.
+**Target / range / shape:** One visible creature within 4 squares immediately after it damages you.
 
-The mark answers with heat. This attack cannot trigger further free attacks.
+Make a Guile spell attack against the creature.
 
 - **Weak:** 2 fire damage.
 - **Standard:** 3 fire damage.
 - **Strong:** 5 fire damage and Burning 1.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2
 
 **Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-debt-comes-due
 

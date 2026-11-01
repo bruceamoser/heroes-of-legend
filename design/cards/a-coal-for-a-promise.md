@@ -1,30 +1,24 @@
 # A Coal for a Promise
 
-*You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.*
+*You name what your enemy stands to lose and flick a glowing coal toward them. Their answer dies as the ember flares.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One visible creature within 5 squares.
+**Target / range / shape:** One visible enemy within 5 squares.
 
-Name something it stands to lose and cast a burning coal. The threat is a flourish, not a compulsory bargain.
+Make a Guile spell attack. You are the source of its Frightened condition.
 
 - **Weak:** 3 fire damage.
-- **Standard:** 3 fire damage and Frightened 1 of you.
-- **Strong:** 5 fire damage and Frightened 1 of you.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Standard:** 3 fire damage and Frightened 1.
+- **Strong:** 5 fire damage and Frightened 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** a-coal-for-a-promise
 

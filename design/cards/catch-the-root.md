@@ -1,18 +1,14 @@
 # Catch the Root
 
-*Your boot hooks a root as the shove lands, and your hand closes around a low branch before it can tear you away.*
+*Your heel finds a root as the impact lands. The branch in your hand bends, but you hold your ground.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before forced movement while beside rooted vegetation you can reach.
+**Target / range / shape:** Self, before forced movement while you can grasp rooted vegetation.
 
-Gain Stability 2 for this forced movement, including if you join a collision group. This requires a usable root or branch; loose grass and carried plants are insufficient. It does not prevent Prone or reduce collision damage.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Gain Stability 3 against the triggering forced movement. If that movement would apply Prone, you remain standing.
 
 ---
 
@@ -20,8 +16,6 @@ Gain Stability 2 for this forced movement, including if you join a collision gro
 
 **Type:** Skill / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** catch-the-root
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

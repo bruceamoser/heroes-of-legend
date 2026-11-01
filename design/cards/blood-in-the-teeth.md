@@ -1,6 +1,6 @@
 # Blood in the Teeth
 
-*You swallow the taste of blood and drive your weapon into your opponent, leaning so far into the blow that you leave yourself exposed.*
+*The blow rocks you back a step. You bare your teeth, plant your heel, and answer with the whole weight of your body.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** One adjacent creature.
 
-You take the hurt and turn it outward. Make a melee attack. Until the start of your next turn, your defenses against physical attacks take 1 Bane.
+Make a Fortitude melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage; push 1 square.
-- **Strong:** 6 physical damage; push 2 squares.
+- **Standard:** 5 physical damage.
+- **Strong:** 7 physical damage.
 
-**Duration:** Damage and push are immediate; your defense Bane lasts until the start of your next turn.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Arms 1
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** blood-in-the-teeth
 

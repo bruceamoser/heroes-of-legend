@@ -1,30 +1,26 @@
 # Read the Quarry
 
-*You study the creature’s gait and fire toward the place its next step will carry it, watching for the marks that movement leaves behind.*
+*You aim where the stride must finish, watching the fleck of mud and the dragging heel that will tell you where it goes next.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature within 8 squares.
+**Target / range / shape:** One visible enemy within 8 squares.
 
-Study how it moves and place a ranged shot where it will be. Requires ranged weapon and ammunition; check supply after use.
+Make a Knowledge ranged attack. Learn a distinctive trace useful for following the target and gain 1 Boon to rolls following its physical trail for the scene.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; learn one visible sign useful for following its trail.
-- **Strong:** 5 physical damage; gain the sign and apply Slowed 1.
+- **Standard:** 3 physical damage.
+- **Strong:** 5 physical damage and Slowed 1.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.
+**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Marksmanship 1
 
-**Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Utility
 
 **ID:** read-the-quarry
 

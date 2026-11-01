@@ -1,18 +1,16 @@
 # Press and Bind
 
-*You press folded cloth against the cut and tie it tight with your teeth and free hand.*
+*You fold the cloth, press it into the wound, and pull the knot tight with your teeth.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self or one adjacent willing creature.
 
-Reduce temporary Bleeding by 1, minimum 0. This does not treat the underlying wound or remove a starred contribution. It restores no HP.
+Reduce the target's temporary Bleeding by 1.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a free hand and cloth; grants no item.
+**Equipment / acquisition:** A free hand and cloth.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce temporary Bleeding by 1, minimum 0. This does not treat the underlying wo
 
 **Type:** Skill / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** press-and-bind
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,27 +1,23 @@
 # Catch the Mechanism
 
-*You spot the spring beginning to uncoil and jab your tool into the mechanism before it finishes its stroke.*
+*You see the spring beginning to uncoil and drive a tool into its path before the stroke can finish.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a defense roll against a mechanical trap whose mechanism is within reach.
+**Target / range / shape:** Self before defending against a visible mechanical trap whose workings you can reach.
 
-Use Knowledge instead of the trap’s normal defense attribute for this roll. This creates no additional roll and does not disarm the trap or protect anyone else. You must be able to see and reach its workings.
+Use Knowledge for this defense and gain 1 Boon. On a Strong defense, after the trap resolves, its mechanism remains jammed until someone spends a Main Action freeing it.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a held craft tool. Grants craft tools, Bulk 1, if absent.
+**Equipment / acquisition:** A held craft tool; craft tools (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1
 
-**Type:** Skill / Defense
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense / Utility
 
 **ID:** catch-the-mechanism
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

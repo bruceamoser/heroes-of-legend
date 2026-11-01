@@ -1,27 +1,23 @@
 # Weight of Iron
 
-*You feel the blow travel down through your armor and into the ground beneath your feet.*
+*You settle your weight into the armor. The sweep strikes your legs, but you choose to remain standing.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, when an effect would knock you prone
+**Target / range / shape:** Self while wearing armor.
 
-Remain standing.
+While wearing armor, gain Stability 2. When an effect would make you Prone, you may remain standing.
 
-**Duration:** Instant
-
-**Equipment / acquisition:** Requires armor.
+**Equipment / acquisition:** Worn armor.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Armor 3
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense
 
 **ID:** weight-of-iron
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

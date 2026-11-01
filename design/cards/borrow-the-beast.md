@@ -1,34 +1,26 @@
 # Borrow the Beast
 
-*Fur rises along your arms, and the world fills with scent.*
+*Fur rises along your arms. You drop to all fours, and the scent of the fleeing creature parts from the smells of rain and earth.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Spend a Maneuver to become a wolf, great cat, boar or similarly sized land beast for the scene. Keep your HP, wounds, attributes, occupied square and Speed. Equipment folds into the form and grants no benefits. You cannot speak, cast spells or use items, and have no free hand for healing or potions. Return with a Maneuver. Another form ends this one; HP loss and conditions remain yours.
+Become a wolf, great cat, boar or similar one-square land beast for the scene. Gain 1 Boon to rolls following a trail by scent. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver.
 
-**Claw or bite — Main Action, Brawn; one adjacent creature.**
+**Claw or bite: Main Action, Brawn; one adjacent enemy.**
 
-- **Weak:** Deal 3 physical damage.
-- **Standard:** Deal 3 physical damage and push 1 square.
-- **Strong:** Deal 5 physical damage, push 1 square and knock prone.
-
-Choose the beast’s appearance; the rules above define its capabilities.
-
-**Duration:** Until the scene ends, unless ended earlier as stated above.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 3 physical damage.
+- **Standard:** 3 physical damage; push 1 square.
+- **Strong:** 5 physical damage; push 1 square and apply Prone.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Utility
 
 **ID:** borrow-the-beast
 

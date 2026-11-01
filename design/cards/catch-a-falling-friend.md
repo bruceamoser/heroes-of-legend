@@ -1,34 +1,29 @@
-# Catch a Falling Friend
+# Carry the Wounded
 
-*You reach before you think, fingers closing as the ground drops away beneath your friend.*
+*You get a shoulder under your friend's arm and take their weight before the next arrow falls.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** Brawn
+**Action:** Maneuver · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent willing creature beginning to fall
+**Target / range / shape:** One adjacent willing creature, or one adjacent creature at 0 HP.
 
-Reaction; requires a free hand and secure footing at the start. Weak and Standard leave the friend held at the edge until moved or released. If no support could bear both, DA states that before use; no impossible attempt.
+You can move with the creature at half your Speed. The creature moves with you and ends adjacent. You can carry them through doors, up stairs and across ordinary terrain. If you fall prone, you set them down safely in an adjacent square. One creature at a time; a second carrier or a litter can share the load.
 
-- **Weak:** Stop its fall; you drop prone at the edge.
-- **Standard:** Stop its fall and keep your footing.
-- **Strong:** Stop its fall and pull it into an adjacent free safe square.
+**Duration:** While you carry them.
 
-**Stability exception:** this willing rescue movement ignores Stability.
-It does not allow moving an unwilling target or bypassing a grapple.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** Requires a free hand; grants none.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Movement
+
+**Tags:** Universal / Skill / Support
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** catch-a-falling-friend
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

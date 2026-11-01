@@ -1,30 +1,24 @@
 # Palm of the Gale
 
-*You plant your feet and strike with an open palm. A gust bursts from the motion and hits your opponent with the blow.*
+*You plant your feet and exhale through the strike. The gust hits with your hand and carries the enemy a stride beyond it.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Fortitude
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-Release the breath you have been holding through an open palm. No weapon required.
+Make a Fortitude melee spell attack.
 
-- **Weak:** 2 physical damage and push 1.
-- **Standard:** 3 physical damage and push 2.
-- **Strong:** 5 physical damage and push 3.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 2 physical damage; push 1 square away from you.
+- **Standard:** 3 physical damage; push 2 squares away from you.
+- **Strong:** 5 physical damage; push 3 squares away from you.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Storm 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** palm-of-the-gale
 
