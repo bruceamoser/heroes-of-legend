@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": "SUMMON-MAINTENANCE",
+      "authority": "DIR-CALLING-001",
+      "disposition": "Canonical rule + Player11 + DA09/05/appendices updated; native registration/command/expiry implemented; Workshop maintenance remains manual with current journals."
+    },
+    {
+      "id": "SHARED-ACCESS",
+      "authority": "DIR-INFLUENCE-009",
+      "disposition": "All classes may buy shared abilities with level/ranks/DP. Class price changes rank investment only. Player05/09 and conventions explicit; development tests preserve eligibility."
+    },
+    {
+      "id": "CONDITION-PAYOFF",
+      "authority": "D-037 and DIR-ARMS-003/004",
+      "disposition": "Whole printed eligible group; setup condition remains unless effect changes it. Player09/conventions updated, each exact ability imported."
+    },
+    {
+      "id": "TEMPORARY-LASTING",
+      "authority": "November1 direct explanatory-section request and existing condition/wound rules",
+      "disposition": "Player08 table/removal steps/examples + DA02 + canonical conditions expanded. Mixed contributions kept separate. Native treatment/repair bug corrected to preserve temporary effects."
+    },
+    {
+      "id": "UNIVERSAL-PRICES",
+      "authority": "Approved UNI-02/03/04",
+      "disposition": "Exact printed1/2Novice,3Adept,6/8Master; cards/importer/reader intros/glossary aligned."
+    },
+    {
+      "id": "PARTY-PIECE",
+      "authority": "Approved UNI-02",
+      "disposition": "Owned chosen instrument, held and played, any Guile roll; creation/advancement/portable and roll sources updated. Player introduction corrected."
+    },
+    {
+      "id": "HEALING",
+      "authority": "Existing recovery/HP-cost approval",
+      "disposition": "Life resistance, minimum1, missingHPcap; Workshop potion discrepancy repaired using native shared healing arithmetic. Treatment keeps scar and one/wound/day."
+    },
+    {
+      "id": "INVENTORY",
+      "authority": "Existing equipment ruling",
+      "disposition": "Supply checks step down on1 only; last dose succeeds. Brewing two exact capped pairs no-roll under approved abilities; otherrecipes remain rolled."
+    },
+    {
+      "id": "TIMING-FREE-ATTACKS",
+      "authority": "Existing foundations/card conventions",
+      "disposition": "Player-selected alternating activations, resolve-and-decay at affected turn end, no recursively generated freeattack chain. No blanket once/turn or Dazed cap invented."
+    },
+    {
+      "id": "ART-CONSUMERS",
+      "authority": "November1 ancestry art request",
+      "disposition": "Four transparent figure cutouts preserve original source illustrations. Book layout uses new variants. Current Workshop/native ancestry views have no use of those scenic assets."
+    }
+  ],
+  "source_review": "Independent source-contract compatibility review found no mechanical error in new condition section. Native temporary-effect treatment mismatch was fixed.",
+  "runtime_status": "pending final candidate native verification"
+}

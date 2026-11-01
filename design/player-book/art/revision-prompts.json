@@ -365,5 +365,45 @@
     "transparent": false,
     "role": "landscape",
     "scope": "abilities"
+  },
+  {
+    "key": "ancestry-human-cutout",
+    "path": "design/player-book/art/interior/ancestry-human-cutout.png",
+    "prompt": "Background extraction of existing human ancestry illustration: preserve all three existing people, faces, poses, ancestry features, clothing and carried equipment. Remove scenic background, ground and loose scenery; retain clean hair/fabric edges and real alpha transparency. No redesign or added text.",
+    "transparent": true,
+    "role": "ancestry-figure-cutout",
+    "source": "design/player-book/art/interior/ancestry-human.png",
+    "tool": "built-in image_gen",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "ancestry-elf-cutout",
+    "path": "design/player-book/art/interior/ancestry-elf-cutout.png",
+    "prompt": "Background extraction of existing elf ancestry illustration: preserve all three existing people, faces, poses, ancestry features, clothing and carried equipment. Remove scenic background, ground and loose scenery; retain clean hair/fabric edges and real alpha transparency. No redesign or added text.",
+    "transparent": true,
+    "role": "ancestry-figure-cutout",
+    "source": "design/player-book/art/interior/ancestry-elf.png",
+    "tool": "built-in image_gen",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "ancestry-dwarf-cutout",
+    "path": "design/player-book/art/interior/ancestry-dwarf-cutout.png",
+    "prompt": "Background extraction of existing dwarf ancestry illustration: preserve all three existing people, faces, poses, ancestry features, clothing and carried equipment. Remove scenic background, ground and loose scenery; retain clean hair/fabric edges and real alpha transparency. No redesign or added text.",
+    "transparent": true,
+    "role": "ancestry-figure-cutout",
+    "source": "design/player-book/art/interior/ancestry-dwarf.png",
+    "tool": "built-in image_gen",
+    "date": "2026-11-01"
+  },
+  {
+    "key": "ancestry-halfling-cutout",
+    "path": "design/player-book/art/interior/ancestry-halfling-cutout.png",
+    "prompt": "Background extraction of existing halfling ancestry illustration: preserve all three existing people, faces, poses, ancestry features, clothing and carried equipment. Remove scenic background, ground and loose scenery; retain clean hair/fabric edges and real alpha transparency. No redesign or added text.",
+    "transparent": true,
+    "role": "ancestry-figure-cutout",
+    "source": "design/player-book/art/interior/ancestry-halfling.png",
+    "tool": "built-in image_gen",
+    "date": "2026-11-01"
   }
 ]

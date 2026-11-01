@@ -1,0 +1,76 @@
+{
+  "scope": "Approved meanings and requested explanatory implementation; no new control caps, concentration system, automatic rest cure or universal permanent-condition removal introduced.",
+  "sources": [
+    {
+      "source_file": "design/rules/summoning.md",
+      "sha256": "1911c2d94359e6147bf6d05ebe18d29f0828ae6f7418a669e9519a380e17e2f4",
+      "change_id": "CHG-RUL-001"
+    },
+    {
+      "source_file": "design/rules/conditions.md",
+      "sha256": "92949af1b32911ea025aa9d4506c006372449834c98d2451084fef2bb94b46d8",
+      "change_id": "CHG-RUL-002"
+    },
+    {
+      "source_file": "design/card-conventions.md",
+      "sha256": "07f865f840bfbe6ff41aef2d548112396fec53d2a3011eb9d499ec8f76c83bf5",
+      "change_id": "CHG-RUL-003"
+    },
+    {
+      "source_file": "design/player-book/manuscript/02-creation.md",
+      "sha256": "a54f919567650a1d3974279d673d6491a94f0273d0a630592d737fd5a094f9a0",
+      "change_id": "CHG-RUL-004"
+    },
+    {
+      "source_file": "design/player-book/manuscript/05-disciplines.md",
+      "sha256": "8fcd4ade429c00c099e568c20f8dc0d40fbd0930161f3bbadd17ec25468a5531",
+      "change_id": "CHG-RUL-005"
+    },
+    {
+      "source_file": "design/player-book/manuscript/08-recovery.md",
+      "sha256": "230629843f1775786552cb06e1e11fb1e49df2b1b2f8e5a13bc7c855381e42c4",
+      "change_id": "CHG-RUL-006"
+    },
+    {
+      "source_file": "design/player-book/manuscript/09-abilities.md",
+      "sha256": "47075400857916ef787c68d5d15857e792b8f4ca2c121e48c8bee0f2b9e35204",
+      "change_id": "CHG-RUL-007"
+    },
+    {
+      "source_file": "design/player-book/manuscript/11-summons.md",
+      "sha256": "b60ba9c2efa6034b65f01be49c2841002bbd35ab0fbdef5f01013eb987508162",
+      "change_id": "CHG-RUL-008"
+    },
+    {
+      "source_file": "design/player-book/manuscript/14-reference.md",
+      "sha256": "802112daa39ae7c5bdc79f17560ff34b54e1b2e0e13a9b1e58e01a26d2d699da",
+      "change_id": "CHG-RUL-009"
+    },
+    {
+      "source_file": "design/da-book/manuscript/02-running-the-game.md",
+      "sha256": "40c07d040d604526fcba1d79befebbe7306d7f5483943de98a3b696e0055858d",
+      "change_id": "CHG-RUL-010"
+    },
+    {
+      "source_file": "design/da-book/manuscript/05-building-encounters.md",
+      "sha256": "dd486f1bf035e25b35055c10297c831bba5911810b5795681660012601e5a5b6",
+      "change_id": "CHG-RUL-011"
+    },
+    {
+      "source_file": "design/da-book/manuscript/09-using-the-bestiary.md",
+      "sha256": "5c8b84eb4f731236e8237a84f75f72615483a507c85998b585836a22245dcb28",
+      "change_id": "CHG-RUL-012"
+    },
+    {
+      "source_file": "design/da-book/manuscript/appendix-a-creature-design.md",
+      "sha256": "3dc9d879ac61daf0efc4332f3f7d6d493abcffd70c49f1c3ddcc46fd52a3e4b4",
+      "change_id": "CHG-RUL-013"
+    },
+    {
+      "source_file": "design/da-book/manuscript/appendix-c-summoned-forms.md",
+      "sha256": "075d47a7392807349dc8b9d58fbf5037ac630429abaae3bbbcb9ec26abf2cb29",
+      "change_id": "CHG-RUL-014"
+    }
+  ],
+  "unresolved_observations": "Other low-confidence structural risks remain playtest concerns, not silently enacted shared rules."
+}

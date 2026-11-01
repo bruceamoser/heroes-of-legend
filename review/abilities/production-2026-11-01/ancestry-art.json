@@ -1,0 +1,73 @@
+{
+  "request": "Keep existing people, cut out scenic backgrounds; propagate to book and any web/Foundry use.",
+  "assets": [
+    {
+      "ancestry": "human",
+      "target": "design/player-book/art/interior/ancestry-human-cutout.png",
+      "source": "design/player-book/art/interior/ancestry-human.png",
+      "tool": "built-in image_gen background-extraction",
+      "generation_file": "exec-0d4f83e0-9639-456a-b228-135c47142738.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 468953,
+      "sha256": "ae669db186dc65d434137b46b4f73aa0fef490c8f36f232da7760d375ae55ad4"
+    },
+    {
+      "ancestry": "elf",
+      "target": "design/player-book/art/interior/ancestry-elf-cutout.png",
+      "source": "design/player-book/art/interior/ancestry-elf.png",
+      "tool": "built-in image_gen background-extraction",
+      "generation_file": "exec-0508ec29-bb3b-4ca8-8ea0-b5150fbf953c.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 437965,
+      "sha256": "8597240348314b1d47ce8d1021baa655f777f4a298c916ac0a499154295cc8c1"
+    },
+    {
+      "ancestry": "dwarf",
+      "target": "design/player-book/art/interior/ancestry-dwarf-cutout.png",
+      "source": "design/player-book/art/interior/ancestry-dwarf.png",
+      "tool": "built-in image_gen background-extraction",
+      "generation_file": "exec-ddda07d7-a9df-4aab-bb07-46b1f990e1cc.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 452893,
+      "sha256": "e19a87a451ee49a5d8bd526a35942ee8b56899a0c9667d2da8d381c064d926b8"
+    },
+    {
+      "ancestry": "halfling",
+      "target": "design/player-book/art/interior/ancestry-halfling-cutout.png",
+      "source": "design/player-book/art/interior/ancestry-halfling.png",
+      "tool": "built-in image_gen background-extraction",
+      "generation_file": "exec-dfb4a171-cc52-49c4-b2ec-ff229916cd87.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 504490,
+      "sha256": "973dcc1adc679dd9175d031fe64ada4ff7953865ceac2bdd75174ce905eaa35d"
+    }
+  ]
+}
