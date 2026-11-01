@@ -108,18 +108,62 @@ A cosmetic wound can need no treatment. If treating a socially significant scar
 removes its intimidation Boon and persuasion Bane, remove **both**, as printed.
 The DA decides when broad physical or mental activity penalties apply.
 
-## Read a condition
+## Temporary and lasting conditions
 
-A numbered condition can use its rating for severity, duration, or both. At the end
-of the affected character's turn, resolve its effect, then reduce its temporary
-rating by 1. At 0 it ends. A condition gained during that turn also decreases at
-that turn's end.
+Read the condition's source as well as its name. An ability, wound or other effect
+says how the condition begins and which remedy ends it. A rating, an asterisk and
+a wound's Recovery Value tell you different things.
 
-An asterisk prevents automatic decay. **Blinded 1*** persists until its remedy;
-Blinded 2* would not make the blindness stronger. Record temporary and starred
-contributions separately. Add effective severity where relevant, but decay only
-the temporary part. Generic temporary reduction removes temporary rating; lasting
-treatment follows its source. Maintained Grappled and binary Prone have separate rules.
+| What you record | What time does | How it ends |
+|---|---|---|
+| Temporary numbered condition, such as Bleeding 3 or Blinded 2 | At the end of your turn, resolve its effect, then reduce its temporary rating by 1 | Reaching 0, or a remedy that applies to that condition |
+| Starred condition, such as Blinded 1* | The starred rating stays until its remedy applies | The source's specified treatment, replacement or other remedy |
+| Lasting wound penalty, such as a Bane or movement loss | The penalty stays until its printed remedy applies | Complete that wound's treatment or another remedy the wound lists |
+| Maintained or binary state, such as Grappled or Prone | Follow that state's own rules | Release or escape the grapple; spend 2 movement to stand from Prone |
+
+**Temporary** means the numbered contribution decays automatically. A condition
+gained during your turn also decreases at that turn's end. The number may measure
+severity, duration, or both: Blinded 2 prevents sight until it clears, while Dazed
+can restrict fewer action categories as its rating falls.
+
+**Lasting** means the effect stays until its remedy. An asterisk marks no automatic
+decay. It does not mean incurable: Blinded 1* can be treatable when its source says
+so. Some injuries cause permanent loss; those entries identify replacement or an
+exceptional remedy rather than ordinary treatment. Rest restores HP when safe;
+a lasting condition follows its own remedy.
+
+### Removing a lasting condition
+
+1. **Find its source.** Read the ability or wound that applied it. For a wound,
+   record its table and result, lasting effects, Treatment / remedy and RV.
+2. **Use the listed remedy.** A treatment label identifies the required capability:
+   Soft Tissue, Bone, Mental, Elemental, Radiant or Life. A replacement or special
+   cure instead follows its own procedure. A dash in RV means there is no treatment
+   progress track; read the remedy column.
+3. **Track recovery where an RV is printed.** Use the matching treatment ability
+   and its full time. One wound receives one attempt per day across all healers.
+   Add 1, 2 or 3 progress for Weak, Standard or Strong and keep that progress.
+4. **Remove the effects the remedy names.** Reaching RV completes that wound's
+   treatment. The scar still counts toward future wound rolls. A replacement
+   restores only the function its remedy specifies.
+
+> **Example: two kinds of blindness.** Blinded 2 from a temporary effect clears
+> after two end-of-turn decay steps. Physical wound 366 instead causes Blinded 1*
+> and lists Soft Tissue treatment, RV 5. A Standard treatment adds 2 progress; a
+> Strong treatment on a later day adds 3. At 5, sight returns. The scar remains.
+
+### When temporary and lasting effects overlap
+
+Record temporary and starred contributions separately. Add effective severity
+where the condition uses severity, but decay only the temporary part. For a
+duration-only condition, either positive contribution keeps the condition active.
+An ability that reduces temporary Dazed affects that temporary contribution;
+lasting treatment follows its source.
+
+If an eye injury already causes Blinded 1* and dust adds temporary Blinded 2,
+clearing the dust leaves the wound's blindness in place. Treating the eye injury
+resolves its starred contribution; any remaining temporary blindness follows its
+own decay or remedy.
 
 Dazed and Grappled determine your retained action categories at **turn start**.
 A change during the turn does not undo actions already spent or recalculate that

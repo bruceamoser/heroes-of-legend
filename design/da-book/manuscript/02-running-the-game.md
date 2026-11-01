@@ -188,6 +188,26 @@ Apply ordinary modifiers in each case. Rolling for an NPC does not transfer cont
 of that NPC. Events well away from the heroes can be resolved by your judgment
 without simulating a battle nobody is playing.
 
+## Explain temporary and lasting conditions
+
+When a condition is applied, name its source and explain how it ends. A temporary
+numbered contribution resolves and decreases by 1 at the affected creature's turn
+end. A starred contribution has no automatic decay. Lasting wound penalties use
+the wound's printed remedy. Grappled and Prone use their own escape, release or
+standing procedures.
+
+Treat **lasting** as a duration category, not a promise that recovery is impossible.
+Point the player to the wound's Treatment / remedy and Recovery Value (RV). With
+the matching treatment capability, one attempt per wound per day adds 1/2/3
+progress; reaching RV removes the listed effects while the scar remains. A dash
+means no treatment track. A lost part or explicitly permanent injury instead uses
+its stated replacement or exceptional remedy.
+
+Keep temporary and starred contributions separate. If dust adds temporary
+Blinded 2 to an eye injury's Blinded 1*, clearing the dust leaves the eye injury.
+The [condition reference](../../rules/conditions.md) and
+[wound procedure](../../rules/wounds.md) supply the full removal rules.
+
 ## Return to the scene
 
 When immediate opposition ends, resolve remaining urgent consequences before

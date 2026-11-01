@@ -25,13 +25,36 @@ adjacent creature by 1 without a roll: staunch Bleeding, extinguish Burning, or 
 someone suffering Freezing with a plausible method. This is not a universal cure
 for every condition. Specialist abilities can remove more or use a cheaper action.
 A star prevents automatic decay, not a removal method explicitly allowed by its
-source. Mixed temporary and starred contributions still need a specific tracking
-ruling; do not assume the star makes later temporary contributions permanent.
+source. Record temporary and starred contributions separately, using the mixed-source
+tracking procedure below.
 
 Example: untreated Bleeding 3 deals 3 damage, decreases to 2, then deals 2 and 1
 on subsequent turns before ending. A Main Action reducing it before the first tick
 changes that sequence to 2, then 1. Burning and Freezing apply matching resistance
 to each tick, with the normal minimum 1 damage for a damaging event.
+
+## Temporary and lasting conditions
+
+A temporary numbered contribution resolves and decays at the end of the affected
+creature's turn. A starred contribution has no automatic decay. A lasting wound
+penalty remains until its printed remedy. Maintained Grappled and binary Prone
+instead use their own release, escape or standing rules.
+
+An asterisk means persistent, not necessarily incurable. To remove a lasting
+effect, find the ability or wound that caused it and follow its stated remedy.
+For a wound with a treatment label and Recovery Value (RV), use the matching
+treatment capability. One attempt per wound per day adds 1/2/3 progress; reaching
+RV removes the effects named by that remedy. A dash in RV means no treatment
+track. Replacement and exceptional remedies follow their own printed procedure.
+Scars remain after functional recovery.
+
+For example, Physical wound 366 causes Blinded 1* and lists Soft Tissue treatment,
+RV 5. Standard treatment adds 2 progress, and Strong treatment on a later day adds
+3; reaching 5 restores sight. Temporary Blinded 2 instead clears through two
+end-of-turn decay steps. A safe breath restores HP while a lasting condition
+continues to follow its remedy.
+
+## Condition reference
 
 | Condition | Effect | Removal / persistence |
 |---|---|---|
