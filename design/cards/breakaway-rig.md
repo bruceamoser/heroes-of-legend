@@ -1,27 +1,23 @@
 # Breakaway Rig
 
-*You pull a concealed fastening. Sleeves, straps and outer layers slip loose in the hands trying to hold you.*
+*You pull the hidden fastening. The grip closes on an empty sleeve as you take one quick step away.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, immediately before a grapple would add to your Grappled rating.
+**Target / range / shape:** Self immediately before a grapple adds a new Grappled contribution.
 
-Reduce this new contribution by 2, minimum 0, before applying it. Existing contributions remain. If no contribution remains, that grappler establishes no hold. You must be wearing accessible clothing or a harness you can release. This grants no protection against a later attempt.
+Reduce the new Grappled contribution by 3 before applying it. Afterward, you may move 1 square without provoking.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires worn clothing or a harness; grants no item.
+**Equipment / acquisition:** Accessible worn breakaway clothing or a harness.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3 and Subterfuge 1
 
-**Type:** Skill / Defense
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense / Movement
 
 **ID:** breakaway-rig
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

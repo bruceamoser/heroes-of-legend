@@ -1,16 +1,16 @@
-# Shelter the Fallen
+# Over My Body
 
-*You drop beside your fallen companion, steady their breathing and drag them behind your guard in one practiced motion.*
+*You throw yourself across your companion and take the blow meant for them.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent Dying player-character ally.
+**Target / range / shape:** One ally within 3 squares.
 
-Stabilize it, then move it up to 2 squares to a free square adjacent to you without provoking. You need a free hand and must be able to support its weight. Gain Defend until the start of your next turn. This restores no HP and removes no wound; it cannot interrupt Last Words.
+Trigger: an ally within 3 squares takes damage from a single-target attack that would reduce it to 0 HP or give it its third death mark. You move up to 2 squares to a square adjacent to that ally and take the damage instead. If the damage would reduce you to 0 HP, you remain at 1 HP instead.
 
-**Duration:** Stabilization and relocation are immediate; your Defend ends at the start of your next turn.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Stabilize it, then move it up to 2 squares to a free square adjacent to you with
 
 **Type:** Signature
 
-**Tags:** Skill / Recovery / Movement / Defense
+**Tags:** Skill / Defense / Recovery
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene; uses your Reaction.
 
 **ID:** signature-protector-shelter-the-fallen
 

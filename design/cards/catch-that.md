@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One falling, unattended item in your square or an adjacent square, within reach. Before it lands or falls out of reach.
+**Target / range / shape:** One falling, unattended item in your square or an adjacent square, within reach, before it lands or falls out of reach.
 
-Catch the item in a free hand. It must be small enough to hold in that hand. This cannot intercept an attack or take an item another creature is holding.
+Catch the item in a free hand. The item must be small enough to hold in that hand. The ability catches falling objects; attacks and items held by another creature follow their own rules.
 
 **Duration:** Instant.
 
@@ -18,10 +18,12 @@ Catch the item in a free hand. It must be small enough to hold in that hand. Thi
 
 **Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Reaction / Skill
 
 **Limits:** Purchase once; each use spends your Reaction.
 
 **ID:** catch-that
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

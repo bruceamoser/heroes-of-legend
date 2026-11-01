@@ -4,7 +4,7 @@
 
 ## Rules
 
-Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.
+The first creature that deals damage to you in each combat becomes the mark of your grudge. You gain 1 Boon to attack rolls against each creature marked by your grudge. A creature remains marked forever, even if it escapes. Each creature can be marked once. You can hold any number of grudges.
 
 **Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

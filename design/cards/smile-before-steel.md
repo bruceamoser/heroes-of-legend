@@ -1,6 +1,6 @@
 # Smile Before Steel
 
-*You smile and feint toward one side, then strike from the other and step away as your opponent turns after you.*
+*You glance over their shoulder as though a friend has arrived. Your blade comes from the other side, and you are already stepping past the reply.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** One adjacent creature.
 
-Use a melee weapon, a wink and a deliberately misleading step.
+Make a Guile melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; move 1 square without provoking.
-- **Strong:** 5 physical damage; move 2 squares without provoking.
+- **Standard:** 4 physical damage, then move up to 1 square without provoking.
+- **Strong:** 6 physical damage, then move up to 2 squares without provoking.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Arms 1
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** smile-before-steel
 

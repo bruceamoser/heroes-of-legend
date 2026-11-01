@@ -1,6 +1,6 @@
-# Forage Woodland
+# Wild Harvest
 
-*You leave the obvious trail and return with the forest’s quiet offerings gathered in your hands.*
+*You leave the obvious trail and return with what the land was keeping: a handful of food, a useful root, a length of sound fiber.*
 
 ## Rules
 
@@ -8,26 +8,16 @@
 
 **Time:** One hour per attempt.
 
-**Target / range / shape:** A viable forest patch; one hour
+**Target / range / shape:** One viable natural area.
 
-Choose food or ordinary plant crafting material; one bundle only, maximum d8. The first step from out creates d4; further steps raise it to d6, then d8. DA establishes whether the patch has usable resources; no repeat harvesting of an exhausted patch.
-
-- **Weak:** Raise one eligible supply by 1 step.
-- **Standard:** Raise it by 2 steps.
-- **Strong:** Raise it by 3 steps.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+Choose one food or ordinary material supply for which the area contains usable resources. Make a Knowledge roll and raise that supply by 1/2/3 inventory steps on Weak/Standard/Strong, up to d8. The first step from out creates d4. The DA identifies which resources the patch can actually provide and when it is exhausted.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** forage-woodland
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

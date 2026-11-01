@@ -1,18 +1,16 @@
 # Field Triage
 
-*You move from one companion to the next, tying a hard knot here and clearing a trembling hand there without losing sight of the fight.*
+*You work down the line with water, cloth and a voice that leaves no room for panic. One companion is already moving as you turn to the next.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Up to 2 adjacent willing creatures, including yourself.
+**Target / range / shape:** Up to three adjacent willing or unconscious creatures, including yourself.
 
-For each target, choose either temporary Bleeding or temporary Poisoned and reduce it by 2, minimum 0. You may choose differently for each. Starred sources remain. This restores no HP and does not treat wounds.
+For each target, choose temporary Bleeding, Burning, Freezing or Poisoned and reduce it by 2. You may choose a different condition for each.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a free hand and cloth; grants no item.
+**Equipment / acquisition:** A free hand and suitable first-aid materials, such as cloth and water.
 
 ---
 
@@ -20,8 +18,6 @@ For each target, choose either temporary Bleeding or temporary Poisoned and redu
 
 **Type:** Skill / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** field-triage
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

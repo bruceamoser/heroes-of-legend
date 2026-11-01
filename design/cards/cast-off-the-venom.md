@@ -1,18 +1,16 @@
 # Cast Off the Venom
 
-*You draw your hand through the air before your companion; a dark sweat beads on their skin as their breathing steadies.*
+*Dark sweat beads on your companions' skin. You sweep your hand outward, and the poison's grip begins to loosen.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One visible willing living creature within 3 squares.
+**Target / range / shape:** Every willing living creature within 3 squares, including yourself.
 
-Reduce temporary Poisoned by 3, minimum 0. A starred source requires its own remedy. This restores no HP and grants no protection against a new dose.
+Each target reduces temporary Poisoned by 3.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce temporary Poisoned by 3, minimum 0. A starred source requires its own rem
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** cast-off-the-venom
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

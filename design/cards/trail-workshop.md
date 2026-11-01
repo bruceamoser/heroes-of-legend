@@ -1,26 +1,18 @@
 # Trail Workshop
 
-*You spread your tools on a cloth and turn a stopping place into a workshop.*
+*You spread the cloth, set the tools where your hands know to find them, and turn a roadside stop into a workshop.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** The recipe’s stated interval per attempt.
+**Time:** The recipe's full stated interval per attempt.
 
-**Target / range / shape:** One known compatible ordinary recipe; recipe interval
+**Target / range / shape:** One known compatible ordinary recipe.
 
-Requires a known ordinary recipe. Grants craft tools if absent and two compatible ordinary recipe choices. Recipe defines materials, time and completion; no free materials.
+Learn two recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. You can craft those and other known recipes explicitly compatible with this ability. Roll Knowledge: Weak adds 1 progress or inventory step, Standard 2, Strong 3, as the recipe specifies.
 
-- **Weak:** 1 progress or inventory step.
-- **Standard:** 2 progress or inventory steps.
-- **Strong:** 3 progress or inventory steps.
-
-Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. Other recipe types require their named crafting permission.
-
-**Duration:** Crafted items and supplies persist until used or destroyed.
-
-**Equipment / acquisition:** Craft tools, Bulk 1, if absent; choose two compatible ordinary recipes. No materials granted.
+**Equipment / acquisition:** Craft tools (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -28,8 +20,6 @@ Compatible ordinary choices are Bound Torches, Fletched Ammunition, Travel Food,
 
 **Type:** Skill / Crafting / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** trail-workshop
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

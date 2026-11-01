@@ -1,33 +1,23 @@
 # The Road Remembers
 
-*You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.*
+*You lay your palm in the old footprint. For a heartbeat, the last traveler's weight presses against your hand.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes.
+**Time:** One minute.
 
-**Target / range / shape:** A natural trail or campsite; 10 minutes
+**Target / range / shape:** One physical trail you can touch.
 
-Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains the information listed below. No automatic tracking through erased evidence.
-
-- **Weak:** Learn the direction of recent passage.
-- **Standard:** Also learn approximate group size.
-- **Strong:** Also identify a distinctive trace useful for following that group.
-
-**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
-
-**Equipment / acquisition:** None.
+Choose one creature whose physical trail you can touch. You sense its passage along that trail during the previous day, learning its appearance, direction and whether it was traveling freely, fleeing or being carried. You can follow its faint footprints for the next hour while a continuous physical trail remains.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Wilderness 2
 
-**Type:** Skill / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility
 
 **ID:** the-road-remembers
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

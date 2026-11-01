@@ -1,16 +1,16 @@
 # A Better Angle
 
-*You call two short directions, placing your companion where they can see the opening you have found.*
+*You call two short directions, placing your companion where the opening is already waiting.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** One willing ally within 4 squares that can hear and understand you.
 
-The ally may move up to 3 squares without provoking. It gains 1 Boon to its next roll before the start of your next turn if that roll acts on a visible objective you name when using this card. The ally chooses whether and how to act; this grants no attack.
+The ally may move up to 3 squares without provoking. The ally may then make one Basic Melee or Basic Ranged attack against a target they can see. That attack is part of your Maneuver, so the ally’s action remains available.
 
-**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ The ally may move up to 3 squares without provoking. It gains 1 Boon to its next
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Support / Movement
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once on your turn.
 
 **ID:** signature-intellect-a-better-angle
 

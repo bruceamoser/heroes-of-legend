@@ -1,18 +1,14 @@
 # Bridge of Winter
 
-*You press your palm toward the far side of the gap. Ice grows outward from both edges and joins into a pale bridge beneath drifting frost.*
+*Ice reaches from both banks, meeting with a deep clear note. Frost drifts beneath the bridge as the first boot touches it.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** A visible gap up to 3 squares wide within 4 squares
+**Target / range / shape:** One visible gap up to 3 squares wide within 4 squares, with solid anchors at both ends.
 
-The bridge is one square wide. Requires solid anchors at both ends. Holds ordinary creatures and carried equipment; lasts 10 minutes. It creates normal terrain, not slippery terrain or a damaging trap. Warn all occupants visibly during its final round; cannot dismiss early to drop someone.
-
-**Duration:** Ten minutes; final-round warning and no early dismissal.
-
-**Equipment / acquisition:** None.
+Create a one-square-wide bridge between solid anchors across the gap. It supports ordinary creatures and their carried equipment for ten minutes. During its final round it visibly frosts and cracks; it lasts until current occupants reach an anchored end. A new casting may replace it once those occupants are secure.
 
 ---
 
@@ -20,8 +16,6 @@ The bridge is one square wide. Requires solid anchors at both ends. Holds ordina
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** bridge-of-winter
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

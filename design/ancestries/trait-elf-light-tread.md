@@ -4,7 +4,7 @@
 
 ## Rules
 
-Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.
+In woodlands and forests, you ignore difficult terrain. This includes difficult terrain caused by natural terrain or obstacles, such as roots, undergrowth, fallen leaves and uneven natural ground. Your Speed increases by 1 while you are in woodlands, forests or similar wooded terrain.
 
 **Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

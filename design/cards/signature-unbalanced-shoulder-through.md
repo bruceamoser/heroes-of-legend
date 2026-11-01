@@ -1,16 +1,16 @@
-# Shoulder Through
+# Charge
 
-*You drive your shoulder into the resistance and keep pushing after the first step gives way.*
+*You lower your shoulder and let the distance do the work.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One creature pushed by your Force action.
+**Target / range / shape:** One creature at least 2 squares away and within your Speed, in a straight line.
 
-Add 1 square to your Force push, on any result. You may then move 1 square directly toward the target without provoking if the square is free. This adds no grapple reduction or obstacle progress, and grants no attack.
+Move up to your Speed in a straight line toward the target. This movement provokes normally. If you end adjacent to it, make a Brawn roll against it. Weak: 2 physical damage, and push it 1 square. Standard: 3 physical damage, push it 2 squares, and it is Prone. Strong: 5 physical damage, push it 3 squares, and it is Prone. Resolve collisions normally. If you cannot move at least 2 squares, you cannot use this ability.
 
-**Duration:** Immediate additional push and following step.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Add 1 square to your Force push, on any result. You may then move 1 square direc
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Attack / Movement / Control
 
-**Limits:** Once on your turn.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-unbalanced-shoulder-through
 

@@ -1,16 +1,16 @@
-# Laugh at the Fall
+# Grab and Hurl
 
-*You spit out the dust, bark a laugh and surge to your feet before the enemy has finished enjoying the sight.*
+*You get a hand on them, and the room becomes a weapon.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** Self, when you stand from Prone.
+**Target / range / shape:** One adjacent creature your size or smaller.
 
-Standing costs 1 square of movement instead of 2. After standing on your turn, gain 1 Boon to your next Force action or Main Action melee attack before that turn ends. This grants no ability to stand while movement is prohibited.
+Make a Brawn roll against the target. Weak: it has Grappled 1. Standard: throw it up to 2 squares in a direction you choose; it lands Prone. Strong: throw it up to 3 squares in a direction you choose; it lands Prone and takes 2 physical damage. Resolve collisions normally. The throw ends any grapple from this ability.
 
-**Duration:** Standing cost is always changed; the Boon expires when used or this turn ends.
+**Duration:** Immediate; Grappled and Prone use their normal rules.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Standing costs 1 square of movement instead of 2. After standing on your turn, g
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Control / Movement
 
-**Limits:** The Boon can be gained once on your turn; repeated standing does not stack it.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-unbalanced-laugh-at-the-fall
 

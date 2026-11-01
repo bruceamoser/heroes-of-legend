@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** One willing ally within 5 squares that can hear you, before its defense against an attack.
 
-Grant 2 Boons to that defense. After the entire attack resolves, the ally may move up to 3 squares without provoking if still able. This does not invalidate, redirect or rewind the attack.
+Grant 2 Boons to that defense. After the entire attack resolves, the ally may move up to 3 squares without provoking if still able.
 
 **Duration:** The triggering defense and subsequent movement.
 

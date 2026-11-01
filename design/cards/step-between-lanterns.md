@@ -1,26 +1,20 @@
 # Step Between Lanterns
 
-*You wait for a lantern to turn away, then move along the strip of darkness between its light and the next.*
+*You wait until the lanterns turn apart and cross the strip of darkness before their light can meet again.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, with a concealed route.
+**Target / range / shape:** Self along a concealed route.
 
-Move up to 2 squares through actual dimness or concealment without provoking. If you were Hidden and the whole route conceals you, remain Hidden. This does not hide you in an exposed square.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Move up to 3 squares through actual dimness or concealment without provoking. Gain 1 Boon to any Agility roll needed to remain Hidden during this movement.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** step-between-lanterns
 

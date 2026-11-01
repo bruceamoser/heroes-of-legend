@@ -1,18 +1,18 @@
-# Keep the Quarry Close
+# Steady Aim
 
-*You loose your shot, watch the quarry turn and run to keep its path in view.*
+*You wait for the breath between heartbeats, and the arrow goes where you look.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, after your Main Action attack against one visible creature.
+**Target / range / shape:** Self; one visible creature.
 
-Once on your turn, after resolving a Standard or Strong Main Action attack, move toward one creature affected by it: up to 1 square on Standard, or 2 on Strong. This movement does not provoke. You must be able to move and follow a legal route; it grants no attack.
+Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you make against that creature and ignore partial cover from it.
 
-**Duration:** Instant.
+**Duration:** Until you move.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A ranged weapon and ammunition.
 
 ---
 
@@ -20,10 +20,10 @@ Once on your turn, after resolving a Standard or Strong Main Action attack, move
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack
 
-**Limits:** Once on your turn.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-warden-keep-the-quarry-close
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

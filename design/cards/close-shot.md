@@ -1,18 +1,16 @@
 # Close Shot
 
-*You turn your bow across your body and loose as the charging enemy comes within arm’s reach.*
+*You turn the bow across your body and loose as the charging enemy reaches you.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** One visible enemy immediately after it ends voluntary movement adjacent to you.
 
-Make one free Basic Ranged attack against that enemy, using that card’s attribute, damage, range and ammunition check. Forced movement cannot trigger this card. A free attack or movement granted by a free attack cannot trigger it, and this attack cannot trigger further free attacks.
+Make one free Basic Ranged attack against the enemy.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a ranged weapon and ammunition; grants one ordinary ranged weapon and one d8 ammunition bundle if absent, each Bulk 1.
+**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
 
 ---
 
@@ -20,8 +18,6 @@ Make one free Basic Ranged attack against that enemy, using that card’s attrib
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** close-shot
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

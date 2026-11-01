@@ -1,31 +1,27 @@
 # Ride the Falling Stone
 
-*You run along the wreckage before the world catches up.*
+*The floor starts to go. You run with it for one last stride, reaching for the companion beside you.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** Agility
 
-**Target / range / shape:** Self, when a floor, ledge or support gives way
+**Target / range / shape:** Self when a floor, ledge or support gives way beneath you.
 
-Resolve before the fall. Movement can cross collapsing support but not empty air; end on a safe free square or suffer the remaining fall normally. No opportunity attacks. Carrying the ally requires a free hand and a supportable load; choose separate safe free endpoints for both of you.
+Before the fall, make an Agility roll and move across the collapsing support without provoking.
 
-- **Weak:** Move 1 square toward a safe surface.
-- **Standard:** Move 2 squares toward a safe surface.
-- **Strong:** Move 3 squares and carry one adjacent willing ally with you.
+- **Weak:** Move up to 2 squares.
+- **Standard:** Move up to 3 squares.
+- **Strong:** Move up to 4 squares and carry one adjacent willing or unconscious companion you can physically support.
 
-**Duration:** Immediate, before the triggering fall resolves.
-
-**Equipment / acquisition:** None.
+End on a free supported square or resolve the remaining fall from your new position.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Athletics 2
 
-**Type:** Skill / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Defense
 
 **ID:** ride-the-falling-stone
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,33 +1,23 @@
 # Guide the Crossing
 
-*You study the dangerous ground until a route appears in your mind, then turn to bring everyone through.*
+*You walk the ledge first, set the line where it will hold, and turn back for the companion who cannot make the climb alone.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes per attempt.
+**Time:** Ten minutes of preparation, followed by the time needed to cross.
 
-**Target / range / shape:** One noncombat natural hazard and companions; 10 minutes
+**Target / range / shape:** Self and up to six companions crossing one natural hazard outside combat.
 
-Prepare and lead a route through one noncombat natural hazard for yourself and up to six companions. The DA sets its progress target and confirms a physically possible method before rolling. You may attempt terrain ordinary travelers could not cross unaided if you supply the needed ropes, supports or other means. When the target is met, companions who can follow your directions and method cross without separate rolls for the same hazard. New hazards or changed circumstances are resolved separately.
-
-- **Weak:** 1 progress; identify a safe place to pause before the next attempt, if one is present.
-- **Standard:** 2 progress; also identify which visible part of the route most threatens a carried load.
-- **Strong:** 3 progress; also adapt the route for one willing or unconscious companion unable to make the crossing unaided, provided the party can physically carry them.
-
-**Duration:** Progress persists on this route; the completed crossing covers the named hazard only.
-
-**Equipment / acquisition:** None.
+Prepare a physically possible route across one natural hazard using the supports and equipment your party can supply. After ten minutes, you and up to six companions complete that crossing together. You may include companions carried by the group. Before preparation begins, the DA tells you the equipment and carrying capacity the route needs.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** guide-the-crossing
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

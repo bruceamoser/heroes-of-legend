@@ -1,30 +1,26 @@
 # Ember Along the Edge
 
-*You run two fingers beside your weapon’s edge, leaving a line of fire along it, then strike with the burning blade.*
+*You run two fingers beside the blade. Fire clings to the edge, and the first cut leaves a bright line behind it.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-Run a spark along your melee weapon and strike. Its appearance remains yours to choose.
+Make a Knowledge weapon spell attack.
 
 - **Weak:** 2 physical and 1 fire damage.
-- **Standard:** 2 physical and 1 fire damage; Burning 1.
-- **Strong:** 3 physical and 2 fire damage; Burning 1.
+- **Standard:** 2 physical and 2 fire damage and Burning 1.
+- **Strong:** 3 physical and 3 fire damage and Burning 1.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1 and Arms 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** ember-along-the-edge
 

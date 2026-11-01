@@ -1,16 +1,16 @@
 # Deliberate Spark
 
-*You flick a final spark into the ground beside your target’s foot, forcing a stumbling step as the spell lands.*
+*You snap your fingers at the corner of the flagstones, and the trapped gas answers with a sharp, expanding bang.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One creature hit by your Main Action damaging spell.
+**Target / range / shape:** One corner of your square; each creature in the four squares that share that corner and are in line of effect.
 
-On a Standard or Strong result, after resolving the spell, you may push one of its targets 1 square directly away from you. Use this once on your turn. It adds no direct damage; normal collision rules apply.
+Choose a corner of your square and spark a brief flare of gas there. Each creature in the four squares that share that corner, including you, is pushed 2 squares directly away from that corner. A creature in more than one of those squares is pushed once. The spark does not provoke opportunity attacks. Resolve the push as forced movement; normal collision rules apply.
 
-**Duration:** Immediate push after the spell.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ On a Standard or Strong result, after resolving the spell, you may push one of i
 
 **Tags:** Magic / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Once per round; uses your Maneuver.
 
 **ID:** signature-arcanist-deliberate-spark
 

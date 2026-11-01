@@ -1,16 +1,16 @@
 # Measured Guard
 
-*You catch the incoming blow on your guard and turn your shoulders, stepping smoothly past its line.*
+*You catch the incoming blow on your guard, turn it aside and answer with a sharp cut of your own.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self, before a defense against an adjacent enemy.
 
-Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squares without provoking, whatever the defense result. This does not prevent the attack’s damage or conditions; you must still be able to move.
+Gain 1 Boon to the defense. After the attack resolves, if the defense was Strong and the attacker is within your reach, make a Basic Melee attack against that attacker. This counterattack is part of the Reaction and does not use your Main Action.
 
-**Duration:** The triggering defense and immediate movement.
+**Duration:** The triggering defense and immediate counterattack.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squa
 
 **Type:** Signature
 
-**Tags:** Skill / Defense / Movement
+**Tags:** Skill / Defense / Attack
 
 **Limits:** Repeatable; normal action economy applies.
 

@@ -1,18 +1,14 @@
 # Silent Cue
 
-*You touch your temple and picture your companion; the words arrive in their thoughts like your voice close to their ear.*
+*You picture your companion and the words you need them to hear. Their eyes flick toward you as the thought arrives.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** One visible willing creature within 3 squares.
 
-Send one sentence of up to 20 words to the target without speaking aloud. It must understand the language used. This is one-way communication, not mind reading, a command or a Boon.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Send a sentence of up to twenty words in a language the target understands. It may immediately send a sentence of up to twenty words back to you.
 
 ---
 
@@ -20,8 +16,6 @@ Send one sentence of up to 20 words to the target without speaking aloud. It mus
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** silent-cue
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

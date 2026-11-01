@@ -1,18 +1,16 @@
 # Catch Them Falling
 
-*You dive flat and seize your companion’s arm, hauling them over the edge in one desperate heave.*
+*You throw yourself along the ledge and seize your companion's wrist before the drop can take their weight.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing creature when it begins to fall.
+**Target / range / shape:** One willing or unconscious creature within 3 squares when it begins to fall, whose weight you can physically support.
 
-If you are supported and have a free hand, move the target into one free supported square adjacent to you. This stops the fall before it travels. It does not stop ongoing forced movement or move a target larger than your own footprint. You become Prone.
+Move up to 3 squares along a supported route without provoking to reach the creature. With a free hand, catch and place it in a free supported square adjacent to you, stopping its fall.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ If you are supported and have a free hand, move the target into one free support
 
 **Type:** Skill / Movement / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** catch-them-falling
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

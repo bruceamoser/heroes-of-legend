@@ -1,24 +1,18 @@
-# Turn the Hunt
+# Mark the Quarry
 
-*You read the turn of the beast’s weight and strike where its next step must fall, driving it toward the ground you chose.*
+*You put an arrow through its shoulder and point. The rest of the party follows the mark.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Knowledge
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible creature: adjacent with a melee weapon, or within 8 squares with a ranged weapon and ammunition.
+**Target / range / shape:** One visible creature within 12 squares.
 
-Choose melee or ranged before rolling Knowledge. Make one attack.
+Requires a ranged weapon and ammunition. Make a Basic Ranged attack as part of this action. If it hits, the target is marked for one day with the glowing dust of a cave mushroom. While marked, you and each ally who can see it gain 2 Boons to any attack against it, ignore partial cover from it, and the target cannot hide. The mark deals no additional damage.
 
-- **Weak:** Deal 4 physical damage and push the target 1 square.
-- **Standard:** Deal 5 physical damage and push it 2 squares.
-- **Strong:** Deal 7 physical damage, push it 3 squares and apply Slowed 2.
+**Duration:** One day.
 
-After resolving the attack, you may move 1 square without provoking. Ranged use checks ammunition once after the attack. These are complete outcomes; this card requires no earlier signature.
-
-**Duration:** Damage and movement are immediate; Slowed decays normally.
-
-**Equipment / acquisition:** On learning, choose one ordinary melee weapon or one ordinary ranged weapon with a d8 ammunition bundle; grant each chosen item only if absent. Each item is Bulk 1. Each use requires the equipment for its chosen attack mode.
+**Equipment / acquisition:** A ranged weapon and ammunition.
 
 ---
 
@@ -26,10 +20,10 @@ After resolving the attack, you may move 1 square without provoking. Ranged use 
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Movement
+**Tags:** Skill / Attack / Support
 
-**Limits:** One attack per use.
+**Limits:** Once per day.
 
 **ID:** signature-warden-turn-the-hunt
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

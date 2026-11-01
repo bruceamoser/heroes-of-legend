@@ -1,16 +1,16 @@
-# Unlikely Assistant
+# Foul Wind
 
-*You wedge a boot where a tool should go, offer an unexpected comparison and somehow make the work easier.*
+*You drop low, spin, and let out a belch that smells like a grave. Your allies know what is coming and hit the ground.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Fortitude
 
-**Target / range / shape:** One ally within 3 squares that can understand your Aid.
+**Target / range / shape:** Self; each willing ally within 5 squares; then each non-prone creature within 5 squares other than you.
 
-Your Aid reaches that ally and grants 2 Boons instead of 1 to the declared task’s next roll. Describe how your unusual method helps. It grants no missing specialist permission, extra crafting attempt or additional contribution to a group check.
+Each willing ally within 5 squares may immediately fall prone. Make one Fortitude roll. Each non-prone creature within 5 squares other than you takes poison damage: **Weak:** 1; **Standard:** 2; **Strong:** 4.
 
-**Duration:** Until the aided roll or the start of your next turn.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Your Aid reaches that ally and grants 2 Boons instead of 1 to the declared task�
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Attack / Control
 
-**Limits:** Normal Aid action and group-check restrictions apply.
+**Limits:** Once on your turn.
 
 **ID:** signature-odd-unlikely-assistant
 

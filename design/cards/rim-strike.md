@@ -1,24 +1,20 @@
 # Rim Strike
 
-*You step inside the weapon’s reach and drive the rim of your shield into your opponent’s chest.*
+*You step inside their weapon and drive the shield's rim into the place where their stance has to give.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-NPC defense: Brawn.
+Make a Brawn shield attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; push 1 square directly away.
-- **Strong:** 5 physical damage; push 2 squares directly away.
+- **Standard:** 3 physical damage; push 1 square away from you.
+- **Strong:** 5 physical damage; push 2 squares away from you.
 
-Apply Stability to the push.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a held shield. Grants one ordinary shield, Bulk 1, if absent.
+**Equipment / acquisition:** Use a held ordinary shield (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -26,8 +22,6 @@ Apply Stability to the push.
 
 **Type:** Skill / Attack / Control
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** rim-strike
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

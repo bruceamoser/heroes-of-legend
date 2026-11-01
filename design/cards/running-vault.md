@@ -1,31 +1,21 @@
 # Running Vault
 
-*You measure the gap in a glance and let your stride become a leap.*
+*You take the last stride without slowing and turn the obstacle into a place your feet have already passed.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** Agility
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** A visible unoccupied landing within 3 squares
+**Target / range / shape:** Self to a visible free supported landing within 5 squares.
 
-Choose a landing within the rolled distance. If none is safe, remain at the origin. This crosses gaps, not walls; it is not flight. Ordinary jumping remains available without this card.
-
-- **Weak:** Jump up to 1 square.
-- **Standard:** Jump up to 2 squares.
-- **Strong:** Jump up to 3 squares.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+Jump up to 5 squares to a visible free supported landing, with no approach required. This movement does not provoke.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Athletics 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement
 
 **ID:** running-vault
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

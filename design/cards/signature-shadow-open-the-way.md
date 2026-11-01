@@ -1,24 +1,18 @@
 # Open the Way
 
-*You find the lock’s rhythm through the tool, work its stubborn point and ease it open without a click.*
+*There is always another door. You just have to know where the hinges are.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One adjacent ordinary lock.
+**Target / range / shape:** One adjacent lock, simple trap, or hidden entrance.
 
-Use lock tools to work toward the DA’s stated opening target. Each attempt takes a Main Action, in or out of combat.
+Use appropriate tools to work toward the DA's stated target. Each attempt takes a Main Action. Weak: 2 progress. Standard: 3 progress. Strong: 5 progress. On completion, open the lock, disable the trap, or find the entrance. Your work makes no audible noise and leaves no trace. The DA states any known risk before you begin.
 
-- **Weak:** Add 2 progress.
-- **Standard:** Add 3 progress.
-- **Strong:** Add 4 progress.
+**Duration:** Progress persists for that task.
 
-Your tool work makes no audible noise and leaves no tool marks. This does not silence the door or disarm a linked trap; the DA states any known risk before you begin.
-
-**Duration:** Progress persists for that lock.
-
-**Equipment / acquisition:** Lock tools required; grants one set, Bulk 1, if absent.
+**Equipment / acquisition:** Appropriate tools.
 
 ---
 

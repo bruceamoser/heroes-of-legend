@@ -1,16 +1,16 @@
-# Bring Them Near
+# The Fold
 
-*You reach toward your companion as the blow lands, calling them back along the safe route you can see.*
+*You plant your staff and call on the power that watches the flock. A ring of quiet light spreads across the ground.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing ally within 4 squares, after it takes damage.
+**Target / range / shape:** A 3 × 3 area centered on a point within 5 squares.
 
-If still able to move, the ally may move up to 3 squares toward you without provoking. If it ends adjacent to you, it gains 1 Boon to its next defense before the start of your next turn. The attack already resolved; this does not undo its damage or move a Dying or restrained creature.
+Call divine energy. The area becomes the Fold until the end of your next turn. You and each ally in the Fold gain 1 Boon to all rolls. The Fold does not move. As a Maneuver on a later turn, you can sustain the Fold until the end of your next turn. Sustaining costs the Maneuver and requires you to be able to act.
 
-**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
+**Duration:** Until the end of your next turn; sustained one round at a time.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ If still able to move, the ally may move up to 3 squares toward you without prov
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Defense
+**Tags:** Magic / Support
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene to create; sustaining costs a Maneuver each time.
 
 **ID:** signature-shepherd-bring-them-near
 

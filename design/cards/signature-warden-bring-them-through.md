@@ -1,16 +1,16 @@
-# Bring Them Through
+# Call the Wild
 
-*You call out footholds and openings in a steady voice, guiding your companions through the broken ground before the enemy can close it.*
+*You call, and something with teeth and hunger answers. It is not yours. It is here for the hunt.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** Up to three willing allies visible within 4 squares, able to hear your directions and move.
+**Target / range / shape:** Self.
 
-Each ally may move up to 3 squares along a legal route without provoking, ignoring difficult-terrain surcharges. Resolve them one at a time; each ends in a supported free square. This does not cross gaps, barriers or occupied standing creatures. Allies spend no actions.
+Call a real beast of CV 7 or lower that you are familiar with. It appears in a free square adjacent to you and uses its normal bestiary profile. It is controlled by the DA unless you spend a Maneuver to command it; when commanded, it follows your direction on your turn. It remains for the scene or until it drops to 0 HP. It is a living creature, not a spirit: it can be attacked, healed, and killed.
 
-**Duration:** Instant.
+**Duration:** The scene, or until the beast drops.
 
 **Equipment / acquisition:** None.
 
@@ -20,10 +20,10 @@ Each ally may move up to 3 squares along a legal route without provoking, ignori
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Magic / Support / Utility
 
-**Limits:** Each ally moves once per use.
+**Limits:** Once per scene.
 
 **ID:** signature-warden-bring-them-through
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

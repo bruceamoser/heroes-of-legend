@@ -1,18 +1,14 @@
 # Duck into the Brush
 
-*You drop behind a twist of roots, letting the branches catch at the blow meant for you.*
+*You let the branches close around your outline and turn your shoulder behind the thickest root.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a defense roll against an attack dealing physical damage while occupying vegetation that already supplies cover.
+**Target / range / shape:** Self while vegetation supplies cover.
 
-Gain 1 Boon to this defense. This is in addition to the existing cover modifier, under normal Boon/Bane rules. It does not grant Hidden or change the vegetation’s cover rating.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+While vegetation gives you cover, gain 1 Boon to defenses against attacks dealing physical damage.
 
 ---
 
@@ -20,8 +16,6 @@ Gain 1 Boon to this defense. This is in addition to the existing cover modifier,
 
 **Type:** Skill / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** duck-into-the-brush
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

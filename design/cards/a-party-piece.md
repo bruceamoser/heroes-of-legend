@@ -1,27 +1,29 @@
 # A Party Piece
 
-*You begin your familiar song or send three cups spinning, drawing smiles from the people gathered around you.*
+*You lift your instrument, find the room's rhythm, and let the first phrase carry your argument.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Your own performance using the specialty chosen when you learn this ability.
+**Target / range / shape:** Self, while playing your chosen instrument.
 
-Choose one mundane performance specialty when you learn this ability, such as singing, juggling, storytelling or playing a particular instrument. Gain 1 Boon to Guile rolls made to entertain through that specialty. Use the ordinary task’s stakes and outcomes; this grants no automatic persuasion, deception or change of attitude. Anyone can attempt a performance without this ability, and a performance with no uncertain consequence needs no roll.
+When you learn this ability, choose one ordinary instrument you own, such as a lute, flute, drum, fiddle or horn. While you play that instrument, gain 1 Boon to any Guile roll. The instrument must be in your hands and in playing condition. The Boon can support performance, persuasion, deception and other Guile approaches that the music carries. Ordinary performance remains available to everyone; a performance with no uncertain consequence needs no roll.
 
-**Duration:** While performing the chosen specialty.
+**Duration:** While you play the chosen instrument.
 
-**Equipment / acquisition:** Requires any ordinary props or instrument needed for your chosen performance; grants none.
+**Equipment / acquisition:** Requires an ordinary Musical Instrument (Bulk 1), chosen when you learn this ability; grants none.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
 
-**Limits:** Purchase once; choose one specialty when learned.
+**Tags:** Universal / Skill / Social / Passive
+
+**Limits:** Purchase once; choose one instrument when learned.
 
 **ID:** a-party-piece
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

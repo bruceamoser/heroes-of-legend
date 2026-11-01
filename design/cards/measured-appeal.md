@@ -1,6 +1,6 @@
 # Measured Appeal
 
-*You let the room grow quiet before putting the request into words they can hear.*
+*You lay out the bargain, then leave space for the answer. The first objection tells you where the real negotiation begins.*
 
 ## Rules
 
@@ -8,17 +8,13 @@
 
 **Time:** One minute per attempt.
 
-**Target / range / shape:** One willing listener; one minute of conversation
+**Target / range / shape:** One willing negotiating partner who can understand you.
 
-Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.
+Make a Guile roll toward the concession you seek.
 
-- **Weak:** 1 progress toward a plausible stated concession; learn one objection the listener openly raises.
-- **Standard:** 2 progress; learn that objection and one stated condition that might address it.
-- **Strong:** 3 progress, both details above, and a related concern the listener volunteers.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+- **Weak:** 2 progress.
+- **Standard:** 3 progress; learn a counteroffer the listener would accept.
+- **Strong:** 4 progress; learn the least costly counteroffer the listener would accept in the present circumstances.
 
 ---
 
@@ -26,8 +22,6 @@ Before rolling, agree with the DA on what you are trying to accomplish and what 
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** measured-appeal
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,22 +1,14 @@
 # Borrow a Voice
 
-*You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.*
+*You whisper into your cupped hand. The same words emerge from the empty stairwell in the voice everyone expected to hear.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** An audible point within 4 squares
+**Target / range / shape:** One point within 4 squares with an open path for sound.
 
-Lasts only long enough to deliver the sound. No mind control or automatic deception. The listener responds to the fiction; DA calls further rolls only when consequences require them.
-
-- **Weak:** Create a brief nonverbal sound.
-- **Standard:** Create one short phrase in your own voice.
-- **Strong:** Create one short phrase in a voice you have heard.
-
-**Duration:** One brief sound or short phrase, then the effect ends.
-
-**Equipment / acquisition:** None.
+Create one brief nonverbal sound or speak a phrase of up to twenty words from the chosen point, using your own voice or a voice you have heard.
 
 ---
 
@@ -24,8 +16,6 @@ Lasts only long enough to deliver the sound. No mind control or automatic decept
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** borrow-a-voice
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

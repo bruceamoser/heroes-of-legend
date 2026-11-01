@@ -1,16 +1,16 @@
-# Break Their Grip
+# Deathless Rage
 
-*You wrench your shoulders free and crash back against the hands that tried to hold you.*
+*You should be down. You have not noticed.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self while Grappled 1 or 2, and one adjacent creature contributing to that grapple.
+**Target / range / shape:** Self, while raging.
 
-Reduce your Grappled rating by up to 2, removing actual contributions you choose and the matching burden on those grapplers. Then push one contributing adjacent grappler up to 2 squares directly away and move 1 square without provoking if now able. You must have retained a Maneuver; at Grappled 3 you cannot use this card.
+Once per scene, when you would be reduced to 0 HP while raging, you remain at 1 HP instead. You keep fighting until the end of your next turn. If you are not healed above 0 HP by then, you fall to 0 HP and begin Dying. This does not prevent the wound or the death marks.
 
-**Duration:** Immediate release, push and possible step.
+**Duration:** Until the end of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Reduce your Grappled rating by up to 2, removing actual contributions you choose
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Recovery / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-unbalanced-break-their-grip
 

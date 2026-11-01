@@ -1,30 +1,26 @@
 # Keep Time with Steel
 
-*You sing a marching beat as you strike, then nod your companion toward the space your blow has opened.*
+*Your weapon rings against theirs on the beat. You call the next step, and your companion is already moving into the opening.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy; one willing ally within 3 squares who hears you.
 
-Strike in the rhythm that carries your companions forward. Requires melee weapon.
+Make a Guile melee attack.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; one ally adjacent to you may move 1 square without provoking.
-- **Strong:** 5 physical damage; that ally may move 2 squares without provoking.
+- **Weak:** 3 physical damage; the ally may move 1 square without provoking.
+- **Standard:** 3 physical damage; the ally may move 2 squares without provoking.
+- **Strong:** 5 physical damage; the ally may move 3 squares without provoking.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Influence 1
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** keep-time-with-steel
 

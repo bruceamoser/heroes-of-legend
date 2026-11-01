@@ -1,31 +1,27 @@
 # Swing into Trouble
 
-*You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.*
+*You kick away from the ledge and let the rope take you. Your boots arrive at the landing ahead of the rest of you.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Agility
+**Action:** Maneuver · **Attribute:** Agility
 
-**Target / range / shape:** A secured rope or hanging fixture, and a visible free landing within 4 squares
+**Target / range / shape:** A secured rope or hanging fixture and a visible free supported landing within 4 squares.
 
-Requires an actual usable support. No automatic extra attack. If the rolled distance cannot reach a safe landing, remain hanging at a reachable position; the DA states the risk before the roll.
+Make an Agility roll and swing from the secured support.
 
-- **Weak:** Swing 2 squares.
-- **Standard:** Swing 3 squares and push one adjacent creature at the landing 1 square.
-- **Strong:** Swing 4 squares; push that creature 2 squares and knock it prone.
+- **Weak:** Move up to 2 squares.
+- **Standard:** Move up to 3 squares; push one enemy adjacent to the landing 1 square away from you.
+- **Strong:** Move up to 4 squares; push that enemy 2 squares away from you and apply Prone.
 
-**Duration:** Immediate movement and displacement.
-
-**Equipment / acquisition:** None.
+End at a free supported landing within the rolled distance or remain hanging at a reachable hold.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Athletics 1
 
-**Type:** Skill / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Control
 
 **ID:** swing-into-trouble
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

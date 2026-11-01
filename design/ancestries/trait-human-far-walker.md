@@ -1,10 +1,10 @@
-# Road in the Blood
+# Adaptable
 
-*You settle your pack higher on your shoulders and lengthen your stride toward the next rise.*
+*You watch, try, fail once, and come back with the trick.*
 
 ## Rules
 
-Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
+You gain 1 additional DP at each level, including level 0.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

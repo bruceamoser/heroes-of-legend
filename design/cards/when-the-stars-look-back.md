@@ -1,30 +1,24 @@
 # When the Stars Look Back
 
-*You point toward your enemy and open a brief vision of the star-filled dark in their thoughts. They falter beneath the sense that something vast has noticed them.*
+*You open the star-filled dark in your enemy's thoughts. Something vast looks back, and for a heartbeat their body forgets to move.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 5 squares.
+**Target / range / shape:** One visible enemy within 5 squares.
 
-For a moment, it understands that it has been noticed.
+Make a Reason spell attack. You are the source of Frightened.
 
-- **Weak:** 4 mental damage and Dazed 1.
+- **Weak:** 4 mental damage and Frightened 1.
 - **Standard:** 4 mental damage and Dazed 2.
-- **Strong:** 6 mental damage and Paralyzed 2.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Strong:** 6 mental damage and Paralyzed 1.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Mind 3
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** when-the-stars-look-back
 

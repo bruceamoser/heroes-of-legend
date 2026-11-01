@@ -1,6 +1,6 @@
 # Quiet Latch
 
-*You ease a tool into the keyway and feel each small resistance give way.*
+*You feel each pin through the tool and ease it past the click, keeping the work close and quiet.*
 
 ## Rules
 
@@ -8,26 +8,22 @@
 
 **Time:** One minute per attempt.
 
-**Target / range / shape:** One adjacent mundane lock; one minute per attempt
+**Target / range / shape:** One adjacent ordinary lock.
 
-Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.
+Make a Guile roll toward opening the lock. Your toolwork is audible only in adjacent squares.
 
-- **Weak:** 1 progress toward opening; identify whether the next attempt risks making audible noise.
-- **Standard:** 2 progress toward opening and the same warning about noise.
-- **Strong:** 3 progress and the same noise warning; leave no tool marks.
+- **Weak:** 1 opening progress.
+- **Standard:** 2 opening progress.
+- **Strong:** 3 opening progress; leave no tool marks.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** Lock tools required; gain one set, Bulk 1, on learning if absent.
+**Equipment / acquisition:** Lock tools (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** quiet-latch
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,27 +1,23 @@
 # Snare the Missile
 
-*You flick a hooked tool into the missile’s path, trusting the angle and the length of the line more than your reflexes.*
+*You flick the hooked line into the shaft's path. The angle you measured matters more than the speed of your hand.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a defense roll against one physical projectile attack.
+**Target / range / shape:** Self before defending against a single-target physical projectile attack.
 
-Use Knowledge instead of the normal defense attribute and gain 1 Boon to this defense. Make only the existing defense roll. This does not work against an area attack or a projectile larger than your own footprint.
+Use Knowledge for this defense and gain 2 Boons. On a Strong defense, after the attack resolves, catch the projectile if it fits in your free hand.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires held craft tools and a free hand; grants craft tools, Bulk 1, if absent.
+**Equipment / acquisition:** Held craft tools and a free hand; craft tools (Bulk 1), supplied on learning if needed.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Marksmanship 2
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Marksmanship 1
 
-**Type:** Skill / Defense
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense / Utility
 
 **ID:** snare-the-missile
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

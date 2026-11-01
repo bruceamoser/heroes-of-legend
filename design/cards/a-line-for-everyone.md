@@ -1,33 +1,25 @@
 # A Line for Everyone
 
-*You test the line, look back at your companions and show them where to put their hands.*
+*You cross first, test the anchors, and show every companion where to put their hands.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Brawn
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Ten minutes per attempt.
+**Time:** Ten minutes securing the route.
 
-**Target / range / shape:** One natural climb or gap and a suitable rope; ten minutes per attempt.
+**Target / range / shape:** One natural climb or gap and a suitable rope.
 
-Establish a roped route toward a DA-declared progress target. You must reach and secure its anchors; this grants no remote placement or impossible foothold. On completion, you and up to six companions gain 1 Boon each to their next roll traversing this route while the rope remains secured.
+Establish a suitable rope route between anchors you can actually reach and secure. You and up to six companions gain 1 Boon to attribute rolls traversing it. Climbing along that secured rope costs 1 movement per square. The benefits last while the route and rope remain intact.
 
-- **Weak:** 1 progress; retain your safe grip.
-- **Standard:** 2 progress; retain your grip and secure one carried item.
-- **Strong:** 3 progress; gain both benefits and identify an available resting point along the route, if one exists.
-
-**Duration:** Until the rope is removed or the route changes.
-
-**Equipment / acquisition:** Suitable rope required; grants an ordinary rope coil, Bulk 1, if absent.
+**Equipment / acquisition:** One ordinary rope coil (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Athletics 2 and Wilderness 1
 
-**Type:** Skill / Utility
-
-**Limits:** One Boon per traveler per route; rebuilding the same route does not refresh it. Existing ordinary rope use remains possible.
+**Type:** Skill / Movement / Utility
 
 **ID:** a-line-for-everyone
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

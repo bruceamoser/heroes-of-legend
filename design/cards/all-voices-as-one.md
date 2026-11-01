@@ -1,28 +1,22 @@
 # All Voices as One
 
-*You call the moment, and your companions answer with a single rush of steel.*
+*Your call cuts across the clash of weapons. From every side, your companions answer with a single, coordinated strike.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Two allies within 4 squares who hear you and are adjacent to enemies.
+**Target / range / shape:** Every willing ally within 4 squares who hears you.
 
-Each makes one free Basic Melee attack. After its attack, each may move 1 square without provoking. These attacks never trigger additional free attacks.
+Each ally makes one free Basic Melee attack against an adjacent enemy. Against a Frightened target, the attack gains 1 Boon.
 
-Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Each attacking ally needs its own melee weapon. This card grants no equipment.
+**Equipment / acquisition:** Each attacking ally uses a melee weapon.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
 
-**Type:** Skill / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack / Support
 
 **ID:** all-voices-as-one
 

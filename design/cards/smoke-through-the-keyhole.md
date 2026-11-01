@@ -1,27 +1,21 @@
 # Smoke Through the Keyhole
 
-*Your outline frays into smoke; the lock remains untouched.*
+*Your outline unravels into a thin grey thread. You pour through the crack and gather yourself on the other side.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, through a visible small opening into a free adjacent square
+**Target / range / shape:** Self through a continuous open gap to a visible free square within 2 squares.
 
-Move only to a visible free square. Carried equipment travels with you. No lingering gaseous immunity, flight, damage or movement through a sealed barrier. Does not provoke.
-
-**Duration:** One immediate passage; you reform at the destination.
-
-**Equipment / acquisition:** None.
+Become smoke and move with your carried equipment through a continuous open gap as narrow as a keyhole to a visible free square within 2 squares. This movement does not provoke. Reform at the destination.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2
 
-**Type:** Magic / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Movement / Utility
 
 **ID:** smoke-through-the-keyhole
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

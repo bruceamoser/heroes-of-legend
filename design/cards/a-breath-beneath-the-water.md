@@ -1,18 +1,14 @@
 # A Breath beneath the Water
 
-*You touch your throat and feel the next breath come cool and easy beneath the surface.*
+*You touch each companion's throat. The first breath beneath the surface tastes cool and clean, and no one has to turn back alone.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one adjacent willing creature.
+**Target / range / shape:** Up to four adjacent willing creatures, including yourself.
 
-The target can breathe ordinary water and air for one hour. This does not change Speed, permit speech underwater, remove poison or protect against pressure or temperature. One recipient at a time from this card per caster; applying it again ends your previous application. Give the recipient a perceptible warning one minute before expiration.
-
-**Duration:** One hour; ends early if you replace it.
-
-**Equipment / acquisition:** None.
+Each recipient can breathe ordinary water and air for one hour. Each feels a warning one minute before expiration. Keep one active group at a time; when you replace it, the previous group retains this breathing for one more minute.
 
 ---
 
@@ -20,8 +16,6 @@ The target can breathe ordinary water and air for one hour. This does not change
 
 **Type:** Magic / Utility
 
-**Limits:** No HP is restored, so this is not a healing spell and has no Life-energy payment.
-
 **ID:** a-breath-beneath-the-water
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

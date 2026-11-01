@@ -1,31 +1,25 @@
 # Noonday Judgment
 
-*You lift your hand, and a harsh brightness gathers over the place you have chosen.*
+*Light gathers over the battlefield until every blade throws a sharp black shadow. Then noon falls all at once.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** Every creature in a visible 3-by-3 area within 6 squares
+**Target / range / shape:** Every creature in one visible 3-by-3 area within 6 squares.
 
-For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Agility.
+Make a Reason area spell attack.
 
 - **Weak:** 4 radiant damage.
-- **Standard:** 4 radiant damage; Blinded 1.
-- **Strong:** 6 radiant damage; Blinded 2.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+- **Standard:** 4 radiant damage and Blinded 1.
+- **Strong:** 6 radiant damage and Blinded 2.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Radiance 3
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** noonday-judgment
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

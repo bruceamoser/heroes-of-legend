@@ -1,18 +1,14 @@
 # Recall the Shape
 
-*The stretched tether begins to unravel. You close your fist and draw the creature’s scattered light back to your side.*
+*The shining tether stretches almost to nothing. You catch it between your fingers and draw the faraway shape back beside you.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** One visible summon of yours when separation from you would first exceed 6 squares.
+**Target / range / shape:** Your summons.
 
-Before the tether makes it disappear, teleport the summon to a free supported space adjacent to you that fits its footprint. If none exists, you cannot use this card. Any remaining forced movement continues from the new positions, and the normal tether still applies. Preserve HP, conditions, duration and command history. This does not prevent disappearance from 0 HP or your unconsciousness.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Your summons' tethers extend to 10 squares. When one of your visible summons would disappear because its distance from you first exceeds 10 squares, you may spend your Reaction to teleport it to a free supported space adjacent to you that fits its footprint. Preserve its HP, conditions, remaining duration and command history. Remaining forced movement continues from the new positions.
 
 ---
 
@@ -20,8 +16,6 @@ Before the tether makes it disappear, teleport the summon to a free supported sp
 
 **Type:** Magic / Defense / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** recall-the-shape
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

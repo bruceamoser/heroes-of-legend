@@ -1,6 +1,6 @@
 # Bottled Morning
 
-*You stir until the sharp smell softens, then hold the bottle up to the dawn.*
+*You stir until the sharp scent softens, then hold the bottle against the dawn to judge its color.*
 
 ## Rules
 
@@ -8,27 +8,21 @@
 
 **Time:** One hour per crafting attempt.
 
-**Target / range / shape:** One compatible known ordinary recipe; one hour.
+**Target / range / shape:** One known Lesser Healing Bottle or Travel Food recipe.
 
-Use the Lesser Healing Bottle or Travel Food recipe; both are learned with this card. Spend the recipe’s one-hour interval with a mixing kit and suitable ingredients, then roll Knowledge.
+Learn Lesser Healing Bottle and Travel Food.
 
-- **Weak:** Raise one matching supply by 1 inventory step.
-- **Standard:** Raise it by 2 steps.
-- **Strong:** Raise it by 3 steps.
+**Brew:** With its recipe's tools and materials, make or refill one Lesser Healing Bottle supply to d4 in one hour, without a roll.
 
-The first step from out creates d4. Obey the recipe cap: d4 for Lesser Healing Bottle, d8 for Travel Food. Check carried ingredients after each attempt. No group crafting. Brewing restores no HP and pays no healing spell cost; using a finished potion follows Use a Healing Potion.
+**Provisions:** Craft Travel Food using its full one-hour interval and materials. Make a Knowledge crafting roll for 1/2/3 inventory steps on Weak/Standard/Strong, up to d8.
 
-**Duration:** Finished supplies persist until used.
-
-**Equipment / acquisition:** One mixing kit, Bulk 1, if absent; Lesser Healing Bottle and Travel Food recipes. No ingredients or finished bottles.
+**Equipment / acquisition:** A mixing kit (Bulk 1), supplied on learning if needed; both named recipes.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Medicine 1
 
-**Type:** Skill / Crafting
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Crafting / Utility
 
 **ID:** bottled-morning
 

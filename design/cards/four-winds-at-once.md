@@ -1,6 +1,6 @@
 # Four Winds at Once
 
-*You turn on your heel, breathing out as the air whirls outward with you.*
+*You turn on your heel. The wind turns with you, throwing the crowd outward and carrying your next step into the space it opens.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** Every other adjacent creature.
 
-Turn with the wind at your heels. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them.
+Make a Fortitude area attack.
 
-- **Weak:** 3 physical damage and push 1.
-- **Standard:** 4 physical damage and push 2.
-- **Strong:** 6 physical damage and push 2; you may move 2 squares without provoking afterward.
+- **Weak:** 3 physical damage; push 1 square away from you.
+- **Standard:** 4 physical damage; push 2 squares away from you.
+- **Strong:** 6 physical damage; push 2 squares away from you.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+After the attack resolves, move up to 2 squares without provoking.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Storm 2 and Athletics 2
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control / Movement
 
 **ID:** four-winds-at-once
 

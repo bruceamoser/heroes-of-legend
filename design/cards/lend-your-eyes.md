@@ -1,18 +1,14 @@
 # Lend Your Eyes
 
-*You touch your companion’s brow. When you close your own eyes, the room returns from the place where they stand.*
+*You touch each companion's brow. For a moment you all see the room from a different place, and then the choice of where to look becomes yours.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing, conscious creature other than a summoned form.
+**Target / range / shape:** Self and up to three adjacent willing conscious creatures other than summoned forms.
 
-While within 6 squares of the target, you may see through its eyes instead of your own. Choose which view to use at the start of your turn; the initial use starts with its view. You gain no control, additional actions or other senses. Use its existing vision and visibility limits. Attacks and effects still need range and an actual path from your own position. This can supply sight while you are Blinded, but does not remove the condition.
-
-**Duration:** 1 minute; one link at a time. Either participant can end it freely; it ends if either becomes unconscious.
-
-**Equipment / acquisition:** None.
+Link your sight with up to three willing conscious creatures for the scene. At the start of each participant's turn, it may choose to see through its own eyes or one linked participant's eyes until the start of its next turn. Use those eyes' vision. The network lasts while you remain conscious; a participant's link ends if it becomes unconscious or moves more than 20 squares from you.
 
 ---
 
@@ -20,8 +16,6 @@ While within 6 squares of the target, you may see through its eyes instead of yo
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** lend-your-eyes
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

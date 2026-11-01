@@ -1,18 +1,14 @@
 # Crosswind
 
-*You snap your wrist sideways, sending a gust across the shaft just as it flies toward your companion.*
+*You snap your wrist. The arrow catches a sideways gust, and its point wavers just as your companion turns.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one visible willing ally within 3 squares, before a defense roll against a physical projectile attack.
+**Target / range / shape:** Self or one visible willing ally within 3 squares before defending against a single-target physical projectile attack.
 
-Grant 1 Boon to this defense. This cannot affect an area attack or a projectile larger than the target’s footprint. Use the existing defense roll.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+The target gains 2 Boons to the defense.
 
 ---
 
@@ -20,8 +16,6 @@ Grant 1 Boon to this defense. This cannot affect an area attack or a projectile 
 
 **Type:** Magic / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** crosswind
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

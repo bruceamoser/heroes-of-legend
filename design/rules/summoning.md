@@ -33,6 +33,11 @@ healing rules. A printed harmful Life effect is damage, not healing.
 
 ## Pay for activity
 
+Summoned creatures require your constant interaction and concentration to maintain
+their presence in reality. At the end of your turn, each of your summons that
+received no command during that turn disappears. The immediate command granted
+when you summon a creature counts as its command for that turn.
+
 **Agreed:** an uncommanded summon does nothing. It does not follow, keep watch,
 alert its controller, continue attacking, search, help or perform a standing order.
 It takes no independent Reaction, including an opportunity attack. A prior order

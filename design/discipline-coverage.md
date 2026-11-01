@@ -139,7 +139,7 @@ available; no starting ledger or inventory changes are needed.
 - Leader’s Watch the Rear still protects an ally at range 5 and grants three squares
   of movement after any outcome. The Forest Takes the Blow needs vegetation,
   range 3 and a Strong result for two squares; its shared niche does not replace
-  that signature. Protector’s Defiant Rescue retains its mobile interception.
+  that signature. Protector’s Take the Wound retains its ranged wound interception.
   Compare the whole cost and trigger at the table; no signature is weakened here.
 
 ## Foundry follow-through

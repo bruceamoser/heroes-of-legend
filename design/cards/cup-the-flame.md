@@ -1,27 +1,21 @@
 # Cup the Flame
 
-*You curl your fingers toward the incoming fire and fold its hottest tongue into your palm.*
+*You curl your fingers toward the incoming heat and fold its brightest tongue into your palm.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before taking fire damage from one event.
+**Target / range / shape:** Self before one event deals fire damage.
 
-Gain fire resistance 2 for that event. Use the highest matching resistance, not their sum; the normal minimum damage remains. This does not remove Burning.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Gain fire resistance 3 against the event. Reduce temporary Burning applied to you by that event by 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1
 
-**Type:** Magic / Defense
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense / Recovery
 
 **ID:** cup-the-flame
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,16 +1,16 @@
-# Useful Interruption
+# Use Their Voice
 
-*You interrupt with a question, a spilled drink or an absurdly well-timed cough, and your companion moves while everyone looks at you.*
+*You tilt your head toward a spirit only you can see. It calls out in the target’s own voice from an empty patch of air.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One creature within 3 squares that can see or hear your distraction; one willing ally within 3 squares.
+**Target / range / shape:** One enemy within 5 squares that can hear you; one willing ally within 5 squares that can see or hear you.
 
-Describe a distraction the creature can perceive. The ally may move up to 2 squares without provoking from that creature. It also gains 1 Boon to its next roll against that creature before the start of your next turn. Other enemies can still react to the movement. This does not compel belief or grant Hidden.
+The spirit calls out in the target’s own voice from a point you choose within 5 squares. The target turns toward the voice. The ally may move up to 2 squares without provoking and gains 1 Boon to its next attack against that target before the start of your next turn.
 
-**Duration:** Movement is immediate; the Boon expires when used or the start of your next turn.
+**Duration:** Movement is immediate; the Boon expires when used or at the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Describe a distraction the creature can perceive. The ally may move up to 2 squa
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Support / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once on your turn.
 
 **ID:** signature-odd-useful-interruption
 

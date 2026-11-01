@@ -1,24 +1,18 @@
 # A Roof before Nightfall
 
-*You bend the first poles into place while your companions gather around the promise of a dry night.*
+*The first poles bend into place as your companions gather around the promise of a dry night.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Time:** One hour per crafting attempt.
+**Time:** Ten minutes per construction attempt.
 
-**Target / range / shape:** A chosen campsite and available ordinary materials; one hour per attempt.
+**Target / range / shape:** One campsite and suitable Camp Shelter materials.
 
-Build a temporary shelter for yourself and up to six companions. This card grants the reusable [Camp Shelter recipe](../recipes/camp-shelter.md); use its target 4, materials, tools and one-hour attempt time. On completion it shelters the occupants from ordinary rain and wind; it is not fortification. No group crafting.
+Learn and use the Camp Shelter recipe. Each construction attempt takes ten minutes; make a Knowledge crafting roll for 1/2/3 progress on Weak/Standard/Strong toward its target 4. On completion, shelter yourself and up to six companions from ordinary rain and wind. A Strong result that completes it makes it packable for reuse as the recipe specifies.
 
-- **Weak:** 1 construction progress; identify any unsuitable material before consuming it.
-- **Standard:** 2 construction progress and the same material check.
-- **Strong:** 3 construction progress and the same material check; if this result completes the shelter, it can be packed for reuse as one Bulk 1 bundle under the recipe’s rules.
-
-**Duration:** Until dismantled or damaged; packing requires ten minutes.
-
-**Equipment / acquisition:** Craft tools, Bulk 1, if absent. The recipe is known on learning this card; no materials granted.
+**Equipment / acquisition:** Craft tools (Bulk 1), supplied on learning if needed; Camp Shelter recipe.
 
 ---
 
@@ -26,8 +20,6 @@ Build a temporary shelter for yourself and up to six companions. This card grant
 
 **Type:** Skill / Crafting / Utility
 
-**Limits:** This card crafts only its Camp Shelter recipe. Extreme weather and hostile attack can damage the shelter; DA states visible limitations before construction.
-
 **ID:** a-roof-before-nightfall
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

@@ -1,6 +1,6 @@
 # Identify an Enchantment
 
-*You study the object until its small strangenesses begin to form a language you understand.*
+*You turn the object until its stray sparks repeat, then speak the word the pattern has been waiting for.*
 
 ## Rules
 
@@ -8,13 +8,13 @@
 
 **Time:** Ten minutes.
 
-**Target / range / shape:** One accessible magical item; 10 minutes
+**Target / range / shape:** One accessible magical item.
 
-Weak: learn broad purpose. Standard: learn function and activation requirements. Strong: also reveal any curse and its activation. No recipe or waived prerequisites.
+Study the item and make a Knowledge roll.
 
-**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
-
-**Equipment / acquisition:** None.
+- **Weak:** Learn its broad purpose and whether activating it carries a curse or harmful effect.
+- **Standard:** Learn its functions, activation requirements and the triggers of any curse.
+- **Strong:** Also learn a specific way to suppress or remove a curse it carries, if such a remedy exists.
 
 ---
 
@@ -22,8 +22,6 @@ Weak: learn broad purpose. Standard: learn function and activation requirements.
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and any full activity time for each use.
-
 **ID:** identify-an-enchantment
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

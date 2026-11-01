@@ -20,13 +20,13 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 ## Level 3 choices
 
-- [Cast and Scatter](../cards/signature-arcanist-cast-and-scatter.md)
-- [Leave a Window](../cards/signature-arcanist-leave-a-window.md)
+- [Siphon Cast](../cards/signature-arcanist-cast-and-scatter.md)
+- [Create a Window](../cards/signature-arcanist-leave-a-window.md)
 - [Arcane Deflection](../cards/signature-arcanist-arcane-deflection.md)
 
 ## Level 7 choices
 
-- [Fold the Distance](../cards/signature-arcanist-fold-the-distance.md)
+- [Folded Aegis](../cards/signature-arcanist-fold-the-distance.md)
 - [Choose the Edge](../cards/signature-arcanist-choose-the-edge.md)
 - [Open the Circle](../cards/signature-arcanist-open-the-circle.md)
 

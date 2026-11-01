@@ -1,16 +1,16 @@
-# Perfect Placement
+# Get Out of Here
 
-*You turn your opponent with the flat of your weapon, then step into the ground you have made them surrender.*
+*You get a grip under the arms, lift, and send them somewhere else.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One target of your Standard or Strong Main Action melee attack, then self.
+**Target / range / shape:** One adjacent creature your size or smaller. You must have a free hand.
 
-After resolving the attack, push the target up to 2 squares directly away from you. Then you may move up to 2 squares without provoking. Resolve both in order along legal routes; normal collision rules apply to the push.
+Make a Brawn roll against the target. On a Weak result, throw it 3 squares. On a Standard result, throw it 5 squares and apply Dazed 1. On a Strong result, throw it 7 squares and apply Dazed 2. Choose the direction. The target lands prone. Resolve collisions normally.
 
-**Duration:** Immediate push and personal movement.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ After resolving the attack, push the target up to 2 squares directly away from y
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Attack / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Once on your turn.
 
 **ID:** signature-blade-perfect-placement
 

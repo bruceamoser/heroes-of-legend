@@ -1,22 +1,16 @@
-# Crush the Barrier
+# Rampage
 
-*You hear the first crack, plant your feet and drive through the weak point with another heave.*
+*You do not stop at the first body.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent ordinary physical obstruction.
+**Target / range / shape:** Self; a straight line up to your Speed.
 
-Use Force to overcome the obstruction; the DA states its progress target and consequences before rolling.
+This ability consumes your Main Action and your movement for the turn. Move up to your Speed in a straight line. Each enemy within 1 square of your path takes 2 physical damage and is pushed 1 square directly away from the path. Then make a Brawn roll against one enemy adjacent to you at the end of the movement. Weak: 3 physical damage. Standard: 4 physical damage, and it is Prone. Strong: 6 physical damage, and it is Prone. If you cannot move at least 2 squares in a straight line, you cannot use this ability. You cannot move again after the charge.
 
-- **Weak:** Add 2 progress.
-- **Standard:** Add 4 progress.
-- **Strong:** Add 6 progress.
-
-If this completes the target, you may move up to 2 squares through the opened route without provoking. This affects no creature or grapple and cannot force an impossible structure.
-
-**Duration:** Progress and any completed opening persist; movement is immediate.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -26,9 +20,9 @@ If this completes the target, you may move up to 2 squares through the opened ro
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Attack / Movement / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-unbalanced-crush-the-barrier
 

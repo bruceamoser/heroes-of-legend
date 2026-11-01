@@ -1,6 +1,6 @@
-# Notice the Human Detail
+# Read the Room
 
-*You notice the untouched cup, the worried glance, the detail everyone else stepped past.*
+*You set down your cup, look past the speaker, and see the room as a map of alliances and fears.*
 
 ## Rules
 
@@ -8,15 +8,15 @@
 
 **Time:** One minute.
 
-**Target / range / shape:** An accessible scene or person you can examine; one minute
+**Target / range / shape:** An investigation task about a social gathering or group you can observe.
 
-No secret fact is invented. Obvious clues require no roll. This grants no lie detection, mind reading or an Observation attribute.
+Make an investigation check to make progress toward the investigation task.
 
-- **Weak:** Learn one visible detail relevant to your stated question.
-- **Standard:** Also identify a plausible interpretation.
-- **Strong:** Also identify a concrete way to check that interpretation.
+- **Weak:** 1 progress.
+- **Standard:** 2 progress.
+- **Strong:** 3 progress.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+**Duration:** The progress persists for the investigation task.
 
 **Equipment / acquisition:** None.
 
@@ -24,10 +24,12 @@ No secret fact is invented. Obvious clues require no roll. This grants no lie de
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Skill / Social / Investigation
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** notice-the-human-detail
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

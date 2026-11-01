@@ -1,6 +1,6 @@
 # Forage Wetlands
 
-*You kneel beside the reeds, finding nourishment where others see only mud.*
+*You kneel beside the reeds and find nourishment where the others saw only mud.*
 
 ## Rules
 
@@ -8,19 +8,9 @@
 
 **Time:** One hour per attempt.
 
-**Target / range / shape:** A viable marsh or riverside; one hour
+**Target / range / shape:** One viable marsh or riverside patch.
 
-Spend one hour searching a place that contains usable resources. Choose food or ordinary plant materials, then roll Knowledge. Improve one matching supply bundle; if you have none, its first step creates a d4 supply. Further steps raise it to d6, then d8. This card cannot raise a bundle above d8.
-
-- **Weak:** Raise the bundle by 1 inventory step.
-- **Standard:** Raise it by 2 inventory steps.
-- **Strong:** Raise it by 3 inventory steps.
-
-The DA determines what resources are present. You cannot produce rare treasure or harvest a patch that has already been exhausted.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+Choose one food or ordinary material supply for which the area contains usable resources. Make a Knowledge roll and raise that supply by 1/2/3 inventory steps on Weak/Standard/Strong, up to d8. The first step from out creates d4. The DA identifies which resources the patch can actually provide and when it is exhausted.
 
 ---
 
@@ -28,8 +18,6 @@ The DA determines what resources are present. You cannot produce rare treasure o
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and any full activity time for each use.
-
 **ID:** forage-wetlands
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

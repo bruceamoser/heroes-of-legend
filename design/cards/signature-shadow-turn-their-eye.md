@@ -1,16 +1,16 @@
-# Turn Their Eye
+# Fast Talk
 
-*You send a glance and a tiny distracting motion toward one side while your companion slips quietly toward the other.*
+*You are already three sentences into the lie before the guard decides to be suspicious.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One willing ally within 3 squares that can perceive your signal.
+**Target / range / shape:** One creature within 5 squares that can hear and understand you.
 
-Provide a plausible distraction that nearby observers can see or hear. The ally may move up to 2 squares without provoking and gains 1 Boon to its next roll to remain unnoticed before the start of your next turn. The movement itself grants no Hidden in open view.
+State the social goal you are pursuing and what you want the target to do. Make a Guile roll. The result adds progress toward that goal: Weak: 2 progress. Standard: 3 progress. Strong: 5 progress. The DA sets the progress target before the roll. When the total reaches it, the target agrees within its wants and limits. This does not compel self-harm, betrayal, or a change to its loyalties.
 
-**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
+**Duration:** Immediate progress; the negotiation persists.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Provide a plausible distraction that nearby observers can see or hear. The ally 
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Social / Utility
 
 **Limits:** Repeatable; normal action economy applies.
 

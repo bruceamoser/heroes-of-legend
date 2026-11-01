@@ -1,26 +1,20 @@
 # The Otter’s Bargain
 
-*You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.*
+*Webbing opens between your fingers. You slip into the river and catch its pull like a second pair of hands.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Webbing slips between your fingers for one scene. Swimming squares cost you 1 movement instead of the normal difficult-water cost where movement is otherwise possible. You still need air, and dangerous currents may still call for ordinary rolls. You do not gain land Speed or a second HP pool.
-
-**Duration:** Until the scene ends, unless ended earlier as stated above.
-
-**Equipment / acquisition:** No item needed unless named above.
+For the scene, swimming costs you 1 movement per square and you gain 1 Boon to attribute rolls swimming against currents or keeping your course in rough water.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Movement / Utility
 
 **ID:** the-otter-s-bargain
 

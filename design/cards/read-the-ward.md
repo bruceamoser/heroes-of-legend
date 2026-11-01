@@ -1,18 +1,14 @@
 # Read the Ward
 
-*You follow the shimmer to its edges and trace the repeating mark where the magic holds itself together.*
+*You trace the shimmer to the place where its pattern repeats. "There. When it brightens, pull."*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** One visible ongoing magical effect within 6 squares.
 
-The DA tells you its remaining duration and any stated way to end it early. You or an ally gains 1 Boon to the next attribute roll specifically made to escape or disrupt that effect this turn. This grants no new way to cancel magic, identify an item’s other powers or learn a recipe.
-
-**Duration:** Information is retained; the Boon ends when used or this turn ends.
-
-**Equipment / acquisition:** None.
+Learn the effect's remaining duration and any stated way to escape or end it. Choose yourself or one ally within 6 squares who hears you; that creature gains 2 Boons to its next attribute roll to escape or disrupt the effect before the end of your next turn.
 
 ---
 
@@ -20,8 +16,6 @@ The DA tells you its remaining duration and any stated way to end it early. You 
 
 **Type:** Skill / Utility
 
-**Limits:** Repeated uses do not multiply this card’s benefit on the same roll.
-
 **ID:** read-the-ward
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

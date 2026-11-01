@@ -24,6 +24,11 @@ A summon receives at most one command on your turn. You can spend your Main Acti
 on one creature and your Maneuver on another. A summoning card's immediate free
 Main command counts as that creature's command for the turn.
 
+Summoned creatures require your constant interaction and concentration to maintain
+their presence in reality. At the end of your turn, each of your summons that
+received no command during that turn disappears. Its immediate command when
+summoned counts for that turn.
+
 An uncommanded summon does **nothing**. It does not follow, keep watch, alert you,
 continue a previous task, or take Reactions and opportunity attacks. Existing
 conditions, durations and passive defenses still operate. Resolve its turn-based

@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Your own carried inventory
+**Target / range / shape:** Your own carried inventory.
 
-Passive: once on your turn, stow one held ordinary item as part of drawing a different stowed weapon for an attack. The weapon still needs the required hands. Grants no free potion use, extra inventory slot or reduced Bulk.
+Once on your turn, stow one held ordinary item as part of drawing a different stowed weapon for an attack. The weapon still needs the required hands. The benefit covers the stow-and-draw; potions, inventory space and Bulk follow their normal rules.
 
 **Duration:** Once on each of your turns, when the printed weapon-switch trigger occurs.
 
@@ -18,10 +18,12 @@ Passive: once on your turn, stow one held ordinary item as part of drawing a dif
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Skill / Passive
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** pack-with-purpose
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

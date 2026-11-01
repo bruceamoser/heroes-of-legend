@@ -1,27 +1,23 @@
 # Ease the Spasm
 
-*You lay a warm hand over a cramped muscle and feel it loosen beneath your fingers.*
+*You brush a warm hand down the cramped muscle. The leg loosens, and your companion takes the step they were fighting for.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self or one adjacent willing living creature.
 
-Reduce temporary Slowed by 1, minimum 0. This restores no HP and does not repair a wound, replace a limb or remove a starred condition.
+Reduce temporary Slowed by 1. The target may move 1 square without provoking.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Life 1
 
-**Type:** Magic / Recovery
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Recovery / Movement
 
 **ID:** ease-the-spasm
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self and up to three willing allies within 4 squares that can hear you.
 
-Each recipient reduces temporary Frightened by up to 2, minimum 0, and gains 1 Boon to its next defense before the start of your next turn. Each may immediately move 1 square without provoking. Resolve movement in an order you choose. No effect on starred conditions, and no restoration of actions already spent.
+Each recipient reduces one Frightened or Dazed condition by up to 2, to a minimum of 0, and gains 1 Boon to its next defense before the start of your next turn. Each may immediately move 1 square without provoking. Resolve movement in an order you choose. This applies to ordinary conditions.
 
 **Duration:** Condition reduction and movement are immediate; Boons expire when used or the start of your next turn.
 

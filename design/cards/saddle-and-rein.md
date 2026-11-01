@@ -1,22 +1,16 @@
 # Saddle and Rein
 
-*You settle into the animal’s movement until your hands and its breathing find a rhythm.*
+*Your mount gathers itself beneath you. One touch of the rein, one shift of weight, and you both meet the obstacle in the same stride.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** One willing mount you are riding; one consequential noncombat obstacle.
+**Target / range / shape:** Self while riding a willing mount.
 
-Describe how you guide the mount. The DA states the obstacle’s progress target before the roll. Use only routes the mount can physically negotiate. This card grants neither a mount nor extra combat actions.
+While riding a willing mount, gain 1 Boon to attribute rolls guiding it through difficult ground, keeping your seat or calming it. When an effect would make you fall from that mount, you may spend your Reaction to remain mounted.
 
-- **Weak:** 1 progress; keep one held item secure.
-- **Standard:** 2 progress; keep that item secure and identify a nearby place to steady the mount.
-- **Strong:** 3 progress; gain both benefits and give one following rider 1 Boon to their next roll at this obstacle.
-
-**Duration:** For this obstacle.
-
-**Equipment / acquisition:** A willing mount; none granted.
+**Equipment / acquisition:** A willing mount.
 
 ---
 
@@ -24,8 +18,6 @@ Describe how you guide the mount. The DA states the obstacle’s progress target
 
 **Type:** Skill / Utility
 
-**Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
-
 **ID:** saddle-and-rein
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

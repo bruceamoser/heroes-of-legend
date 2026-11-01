@@ -15,7 +15,7 @@
 Total **+3**. Blade minima: Agility, Brawn ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
 
 - [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md): Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.
-- [The Wood Whispers](../ancestries/trait-elf-leaf-listener.md): In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. The signs can indicate a general direction, not an unseen creature’s exact square; this does not bypass Hidden.
+- [Nature’s Whispers](../ancestries/trait-elf-leaf-listener.md): Gain 1 Boon to a roll interpreting living signs.
 
 
 ## Level 0 — origins and purchases

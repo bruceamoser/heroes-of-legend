@@ -1,16 +1,25 @@
-# Wrong Place for That
+# Out of Body
 
-*You catch a companion by the sleeve and stumble away together, leaving the next blow aimed at suddenly empty ground.*
+*You step out of yourself, leaving your body slumped and prone while your spirit moves free.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and one adjacent willing ally, after an attack against either of you resolves.
+**Target / range / shape:** Self.
 
-You and that ally may each move up to 2 squares without provoking. Choose the order and legal free endpoints. Each must still be able to move. The triggering attack has already resolved; this provides no retroactive protection.
+Your body falls prone and cannot act, move or take Reactions. It has 3 defense Banes. Your spirit appears in your square or an adjacent free square.
 
-**Duration:** Immediate movement.
+The spirit has Speed 5, can speak, can pass through nonmagical solid objects and creatures, and is immune to mundane attacks. It cannot attack, cast spells, use equipment or physically interact with objects. Its movement does not provoke opportunity attacks. Magical attacks can target it; resolve them against your normal defenses, and damage to the spirit is damage to your body. If your body drops to 0 HP, the projection ends.
+
+At the end of your turn, choose one:
+
+- **Snap Back:** Your spirit returns to your body.
+- **Manifest:** Your body appears in the spirit’s square or the nearest free square that is not separated from your body by a solid barrier, prone. The projection ends.
+
+If no legal Manifest square exists, you can only Snap Back.
+
+**Duration:** Until the end of your turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +29,7 @@ You and that ally may each move up to 2 squares without provoking. Choose the or
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Utility / Movement
 
 **Limits:** Repeatable; normal action economy applies.
 

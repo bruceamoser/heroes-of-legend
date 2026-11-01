@@ -1,0 +1,17 @@
+{
+  "books_built": 2,
+  "player_pages": 256,
+  "da_pages": 311,
+  "source_clean": true,
+  "audits": "passed",
+  "rendered_pages_inspected": [
+    "player108",
+    "player121",
+    "player122 including enlarged right-column crop",
+    "player130",
+    "player148",
+    "da280"
+  ],
+  "visual_findings": "Inspected abilities, moved tier, new language ability, control revision and shared summon introduction legible; no clipping found on inspected pages. Machine geometry/transcription audit passes all pages.",
+  "limits": "Rendered spot checks, not a manual visual read of all567pages."
+}

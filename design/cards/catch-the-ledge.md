@@ -1,18 +1,16 @@
 # Catch the Ledge
 
-*Your hand snaps out and closes over the ledge as your feet swing into empty air.*
+*Your hand snaps shut on stone as your feet swing into empty air. The rest of the fall waits below you.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, when a fall begins beside a ledge or secure handhold within reach.
+**Target / range / shape:** Self when a fall begins beside a reachable ledge or secure hold.
 
-With a free hand, catch the hold before falling and hang there. You do not move onto the ledge; climbing back uses ordinary movement. This cannot stop a push or pull that is still moving you away from the hold.
+Catch the hold with a free hand and hang there before the fall travels.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ With a free hand, catch the hold before falling and hang there. You do not move 
 
 **Type:** Skill / Defense / Movement
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** catch-the-ledge
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

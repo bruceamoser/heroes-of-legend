@@ -1,27 +1,21 @@
 # Veiled Crossing
 
-*You wait for the shadows to join, then lead your companion along their quiet seam.*
+*You wait for the shadows to join, then take your companion along the seam between them.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, with an actual concealed route
+**Target / range / shape:** Self and one adjacent willing ally along an actual concealed route.
 
-Move up to your Speed along a legal concealed route without provoking. One adjacent willing ally may follow that route up to the same distance, spending its Reaction and ending in a separate free square. A participant already Hidden remains Hidden only while the route continues to conceal them. A participant not Hidden gains no automatic concealment. This card does not permit movement through exposed or occupied standing squares.
-
-**Duration:** Instant
-
-**Equipment / acquisition:** None.
+You and one adjacent willing ally move up to your Speed along the same concealed route without provoking, ending in separate free supported squares. A Hidden participant remains Hidden while the route conceals it.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** veiled-crossing
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,18 +1,18 @@
-# Stay on the Scent
+# Volley
 
-*You watch the first turn of their shoulders and cut toward their escape route before their footsteps fade.*
+*You empty the quiver into the space where the enemy is standing.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible enemy within 5 squares when it begins voluntary movement.
+**Target / range / shape:** A 2 × 2 area within 10 squares.
 
-After that movement ends, move up to 3 squares toward its final position without provoking, if you can still see it. Gain 1 Boon to your next attack against it before the end of your next turn. You must be able to move; this grants no attack and does not reveal a creature that becomes Hidden.
+Requires a ranged weapon and ammunition. Make one Agility roll and apply it to each creature in the area. Weak: 1 physical damage. Standard: 2 physical damage. Strong: 3 physical damage. Roll once using the worst applicable Boon or Bane among the targets. Each target applies resistance separately. A creature can be affected once per use.
 
-**Duration:** Movement is immediate; the Boon ends when used or at the end of your next turn.
+**Duration:** Immediate.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A ranged weapon and ammunition.
 
 ---
 
@@ -20,10 +20,10 @@ After that movement ends, move up to 3 squares toward its final position without
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack
 
-**Limits:** One Reaction per use; repeated uses do not multiply the unused Boon.
+**Limits:** Repeatable; normal action economy applies.
 
 **ID:** signature-warden-stay-on-the-scent
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

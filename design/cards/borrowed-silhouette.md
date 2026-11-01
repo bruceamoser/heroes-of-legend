@@ -1,26 +1,20 @@
 # Borrowed Silhouette
 
-*You leave a flickering likeness where your enemy expects to find you.*
+*Your likeness leans into the waiting blade. You follow its shadow sideways as it breaks into strips of light.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before a visible attack.
+**Target / range / shape:** Self before defending against a visible attack.
 
-A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square without provoking after the attack resolves. The duplicate vanishes immediately; it cannot absorb another attack.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Gain 2 Boons to the defense. After the attack resolves, move 1 square without provoking.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Mind 2
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense / Movement
 
 **ID:** borrowed-silhouette
 

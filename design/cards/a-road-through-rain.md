@@ -1,26 +1,22 @@
 # A Road through Rain
 
-*You draw your hand through the rain, dust or smoke ahead. It parts along your gesture, leaving a narrow strip of clear air through which your companions can see.*
+*You draw a long line through the choking air. The wind holds it open, and your companions breathe cleanly again.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** A straight route of up to 3 visible squares beginning adjacent to you.
+**Target / range / shape:** Up to six connected visible air-filled squares within 4 squares.
 
-Part nonmagical rain, airborne dust or smoke along that route until the start of your next turn. It removes those visibility obstructions only; solid cover and magical darkness remain. The cleared route improves visibility for everyone, including enemies; it grants no movement.
-
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
-
-**Equipment / acquisition:** No item needed unless named above.
+Maintain a current of breathable air through the chosen air-filled squares. Ordinary smoke, fog, dust, rain and airborne poison are swept from those squares until the end of your next turn. On later turns, you may spend a Maneuver to sustain the current until the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 2
 
-**Type:** Magic
+**Type:** Magic / Utility / Control
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** Maintain one current at a time.
 
 **ID:** a-road-through-rain
 

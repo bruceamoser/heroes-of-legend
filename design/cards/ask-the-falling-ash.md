@@ -1,6 +1,6 @@
 # Ask the Falling Ash
 
-*You scatter the ash and watch for the pattern that makes your breath catch.*
+*Ash turns in the bowl. For an instant, its shadow is the door you were about to open.*
 
 ## Rules
 
@@ -8,25 +8,19 @@
 
 **Time:** Ten minutes.
 
-**Target / range / shape:** One scene or decision you can describe; ten minutes.
+**Target / range / shape:** One course of action you describe.
 
-Read a pattern in ash, water or falling leaves. Ask about a possible next step, not a guaranteed future.
+Describe a course of action your party could begin during the next hour and make a Reason roll. The DA answers from the present situation.
 
-- **Weak:** DA names one evident risk.
-- **Standard:** Also names one presently available way to investigate it.
-- **Strong:** Also identifies one sign to watch for if that risk approaches.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** Learn one concrete danger on that course.
+- **Standard:** Also learn an available way to avoid or lessen it.
+- **Strong:** Also learn a recognizable sign that will warn you before that danger strikes.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility
 
 **ID:** ask-the-falling-ash
 

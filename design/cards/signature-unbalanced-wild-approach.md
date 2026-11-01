@@ -1,16 +1,16 @@
-# Wild Approach
+# Go Berserk
 
-*You roar and charge into the opening, arriving with your whole weight behind the next blow.*
+*You stop listening to the part of you that wants to stay alive.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self; one visible enemy.
+**Target / range / shape:** Self.
 
-Move up to 3 squares toward that enemy. This movement provokes normally. Gain 1 Boon to your next Main Action melee attack this turn. You must actually move at least 1 square to gain the Boon.
+Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain DR 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
 
-**Duration:** Movement is immediate; Boon expires when used or this turn ends.
+**Duration:** Until the end of the scene, or until you end it.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Move up to 3 squares toward that enemy. This movement provokes normally. Gain 1 
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Attack / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-unbalanced-wild-approach
 

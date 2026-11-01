@@ -1,26 +1,20 @@
 # Read the Next Blow
 
-*You watch the shoulder rather than the blade and move before the strike is fully formed.*
+*You watch the shoulder, not the blade. By the time the edge starts moving, you have already chosen where to stand.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self, before defending against a visible physical attack.
 
-Predict the line of a blow you can see. Use Reason instead of the attack’s printed defense attribute for this defense only. This cannot replace resistance to poison, cold, mental intrusion or another internal threat.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Use Reason for this defense and gain 1 Boon to it.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Defense
 
 **ID:** read-the-next-blow
 

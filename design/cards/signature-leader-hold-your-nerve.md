@@ -1,16 +1,16 @@
-# Hold Your Nerve
+# Blow the Horn
 
-*You call your companion’s name above the din, steadying their breath before panic or shock can take hold.*
+*You put the horn to your lips, or simply fill your lungs, and let loose a sound that breaks the enemy advance.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One willing ally within 4 squares that can hear you, when it gains temporary Frightened or Dazed.
+**Target / range / shape:** Every enemy within 5 squares that can hear you.
 
-Reduce the newly applied contribution of that condition by up to 2, minimum 0, before it takes effect. This does not remove an older contribution or a starred source. No HP is restored.
+Make one Guile roll and apply the result to each target. On a Weak result, apply Frightened 1. On a Standard result, apply Frightened 1 and Dazed 1. On a Strong result, apply Frightened 2 and Dazed 1.
 
-**Duration:** Immediate reduction of the new contribution.
+**Duration:** Conditions use normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Reduce the newly applied contribution of that condition by up to 2, minimum 0, b
 
 **Type:** Signature
 
-**Tags:** Skill / Recovery
+**Tags:** Skill / Control
 
 **Limits:** Repeatable; normal action economy applies.
 

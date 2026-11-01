@@ -1,26 +1,20 @@
 # No Road Away
 
-*You move when they move, keeping yourself between them and an easy escape.*
+*You see the escape before the first step and call your companion's name. The two of you move together to keep the quarry in reach.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** A visible enemy within 3 squares when it begins voluntary movement; resolve after it finishes moving.
+**Target / range / shape:** A visible enemy within 3 squares when it begins voluntary movement; you and one willing ally within 3 squares who hears you.
 
-Follow up to 3 squares toward it without provoking. You must use a legal route; this does not stop its movement or grant an attack.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+After the enemy finishes moving, you and the ally may each move up to 3 squares toward it without provoking.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2
 
 **Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** no-road-away
 

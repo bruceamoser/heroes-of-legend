@@ -1,20 +1,16 @@
 # The Right Small Courtesy
 
-*You watch who pours first, who waits, and which little gesture makes a stranger smile.*
+*You notice which cup is filled first and whose name softens the room. When you offer the same small courtesy, the conversation opens around you.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
 **Time:** Ten minutes of observation.
 
-**Target / range / shape:** A gathering you can observe for ten minutes.
+**Target / range / shape:** A gathering you can observe.
 
-Learn one local courtesy actually demonstrated during your observation and whom it is appropriate to address first, if evident. No roll. Once in this gathering, gain 1 Boon to a Guile roll seeking hospitality or an introduction when you use that courtesy. You need a way to communicate; this grants neither a language nor friendship.
-
-**Duration:** Information remains known; the Boon is available until you leave the gathering.
-
-**Equipment / acquisition:** None.
+Learn a courtesy practiced by this gathering and whom it is appropriate to address first. When you use that courtesy, gain 1 Boon to Guile social rolls with members of the gathering for the rest of the scene.
 
 ---
 
@@ -22,8 +18,6 @@ Learn one local courtesy actually demonstrated during your observation and whom 
 
 **Type:** Skill / Utility
 
-**Limits:** One Boon use per gathering per scene; further observation does not refresh it.
-
 **ID:** the-right-small-courtesy
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

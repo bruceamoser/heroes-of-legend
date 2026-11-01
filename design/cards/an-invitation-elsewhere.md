@@ -1,30 +1,24 @@
 # An Invitation Elsewhere
 
-*You bow and extend a hand as though inviting your enemy to dance. An unseen tug draws them across the ground toward you.*
+*You extend a hand as if asking for a dance. An unseen tug supplies the first step before the invitation can be answered.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One visible creature within 4 squares.
+**Target / range / shape:** One visible enemy within 4 squares.
 
-Offer the impossible courtesy of a dance-step somewhere else. Magical force moves the target; it does not compel agreement or belief.
+Make a Guile control attack.
 
-- **Weak:** Pull it 1 square toward you.
-- **Standard:** Pull it 2 squares.
-- **Strong:** Pull it 2 squares; you may move 1 square without provoking afterward.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** Pull the target 1 square toward you.
+- **Standard:** Pull it 1 square toward you; you may move 1 square without provoking.
+- **Strong:** Pull it 2 squares toward you; you may move 1 square without provoking.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Mind 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Control / Movement
 
 **ID:** an-invitation-elsewhere
 

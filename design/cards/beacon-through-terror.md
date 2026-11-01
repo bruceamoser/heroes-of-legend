@@ -1,18 +1,14 @@
 # Beacon through Terror
 
-*You lift a bright hand between your companion and the horror, giving their eyes one steady light to hold.*
+*You lift one steady light between your companion and the horror. Their gaze finds it, and they begin to breathe again.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One visible willing ally within 3 squares, immediately after temporary Frightened or Blinded is applied.
+**Target / range / shape:** One visible willing ally within 3 squares immediately after an event applies temporary Frightened or Blinded.
 
-Reduce one of those newly applied conditions by 2, minimum 0. Choose one if both were applied. Existing and starred contributions remain. Your light grants no vision through walls or lasting immunity.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Reduce the target's newly applied temporary Frightened and Blinded contributions by 2 each.
 
 ---
 
@@ -20,8 +16,6 @@ Reduce one of those newly applied conditions by 2, minimum 0. Choose one if both
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** beacon-through-terror
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

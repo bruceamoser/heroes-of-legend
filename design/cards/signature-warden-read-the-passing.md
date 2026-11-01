@@ -1,18 +1,16 @@
-# Read the Passing
+# Beast Speech
 
-*You kneel beside a bent stem, brush grit from a footprint and look toward the gap the travelers chose.*
+*You make a sound somewhere between a bird and a question, and the forest answers.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Time:** One minute.
+**Target / range / shape:** Self.
 
-**Target / range / shape:** Accessible tracks or other physical signs you can examine for one minute.
+For the scene, you can speak with animals. You can ask questions and understand their replies, limited by what the animal has experienced and can understand. You gain 1 Boon to all rolls interacting with animals you are speaking with. This does not make an animal friendly or obedient, and does not compel it to act against its nature.
 
-Examine the signs for one minute. Learn the direction of travel and one supported detail about the travelers, such as their number, gait or burden. If the signs cannot support either answer, learn what obscures them. Gain 1 Boon to your next roll following this trail this scene. Obvious tracks remain readable by anyone; this reveals no exact unseen location or evidence that does not exist.
-
-**Duration:** Information remains known; the Boon ends when used or the scene ends.
+**Duration:** The scene.
 
 **Equipment / acquisition:** None.
 
@@ -22,10 +20,10 @@ Examine the signs for one minute. Learn the direction of travel and one supporte
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Utility / Support
 
-**Limits:** Once per set of signs; new evidence permits another use.
+**Limits:** Once per scene.
 
 **ID:** signature-warden-read-the-passing
 
-[Card conventions](../card-conventions.md)
+[Class choices](../classes/warden.md) · [Card conventions](../card-conventions.md)

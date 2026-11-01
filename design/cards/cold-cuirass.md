@@ -1,18 +1,14 @@
 # Cold Cuirass
 
-*You draw your shoulders in as frost plates over your coat; the blow cracks the ice before it reaches you.*
+*Frost plates across your coat. The edge cracks the ice before it reaches the skin beneath.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, before taking physical damage from one attack.
+**Target / range / shape:** Self before taking physical damage from one attack.
 
-Gain physical resistance 2 against this attack only. Use the highest matching resistance, not their sum. Resolve the attack’s other effects normally.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+Gain physical resistance 2 against the attack.
 
 ---
 
@@ -20,8 +16,6 @@ Gain physical resistance 2 against this attack only. Use the highest matching re
 
 **Type:** Magic / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** cold-cuirass
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

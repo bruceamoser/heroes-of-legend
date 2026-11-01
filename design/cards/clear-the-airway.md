@@ -1,18 +1,16 @@
 # Clear the Airway
 
-*You brace your companion, turn their face and clear the obstruction before panic takes their breath.*
+*You turn your companion's head and catch the sharp change in their breathing before the poison can settle.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing creature, immediately after temporary Asleep or Poisoned is applied by an inhaled substance.
+**Target / range / shape:** Self or one adjacent willing or unconscious creature, immediately after an inhaled or swallowed substance applies temporary Asleep or Poisoned.
 
-Reduce the newly applied temporary condition by 2, minimum 0. Choose one if both were applied. This does not undo damage, restore HP, remove an existing contribution or treat a starred condition. An unconscious ally can receive this aid.
+Reduce one newly applied temporary Asleep or Poisoned contribution by 2.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires one free hand; grants no item.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -20,8 +18,6 @@ Reduce the newly applied temporary condition by 2, minimum 0. Choose one if both
 
 **Type:** Skill / Recovery
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** clear-the-airway
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

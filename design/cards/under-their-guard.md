@@ -1,26 +1,26 @@
 # Under Their Guard
 
-*You slip through the little space their weapon leaves behind.*
+*A blade catches high against yours. You step inside it and sweep through the enemies whose tangled footing leaves them slow to turn.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One adjacent enemy and a visible free square within 2 squares.
+**Target / range / shape:** One adjacent enemy and every other Slowed enemy adjacent to you.
 
-Pass along a legal route to that square without provoking from the chosen enemy. Other enemies can still react. You cannot pass through its occupied square.
+Make an Agility melee attack. Each target takes:
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+- **Weak:** 3 physical damage.
+- **Standard:** 4 physical damage.
+- **Strong:** 6 physical damage.
 
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** Requires a melee weapon.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Arms 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack
 
 **ID:** under-their-guard
 

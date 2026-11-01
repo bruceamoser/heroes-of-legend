@@ -1,6 +1,6 @@
 # A Lock Has a Language
 
-*You close your eyes and listen through your fingertips for the lockmaker’s last little secret.*
+*You listen through your fingertips, learn the maker's rhythm, and answer it with a turn of the tool.*
 
 ## Rules
 
@@ -8,23 +8,21 @@
 
 **Target / range / shape:** One adjacent ordinary lock.
 
-Use lock tools on one adjacent ordinary lock. An attempt takes a Main Action, including under pressure. The DA states the opening target and consequences before the attempt; accumulate progress toward opening it.
+Make a Reason roll toward opening the lock. Learn whether it shows damage or tampering.
 
-- **Weak:** Add 1 progress and learn whether the lock shows damage or tampering.
-- **Standard:** Add 2 progress and learn the same detail.
-- **Strong:** Add 3 progress and learn the same detail. If this opens it, you can later relock it with your tools in one Maneuver without rolling.
+- **Weak:** 2 opening progress.
+- **Standard:** 3 opening progress.
+- **Strong:** 4 opening progress.
 
-**Duration:** Opening progress persists; information remains known.
+Once you open it this way, you may relock it with your tools in a Maneuver.
 
-**Equipment / acquisition:** Lock tools required; gain one set, Bulk 1, on learning if absent.
+**Equipment / acquisition:** Lock tools (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Utility
 
 **ID:** a-lock-has-a-language
 

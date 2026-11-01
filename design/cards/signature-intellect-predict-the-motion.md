@@ -4,13 +4,13 @@
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one willing ally within 3 squares, before defending against a visible physical attack.
+**Target / range / shape:** Self.
 
-The recipient may use Reason for this defense instead of its normal attribute and gains 1 Boon to the roll. An ally must hear and understand your warning. Resolve the ordinary defense once. This does not apply to poison, internal injury or mental intrusion.
+You may use Knowledge instead of Brawn or Agility for defense against physical attacks.
 
-**Duration:** The triggering defense only.
+**Duration:** Passive.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ The recipient may use Reason for this defense instead of its normal attribute an
 
 **Tags:** Skill / Defense
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Passive.
 
 **ID:** signature-intellect-predict-the-motion
 

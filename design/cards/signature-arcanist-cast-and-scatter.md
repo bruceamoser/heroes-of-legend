@@ -1,16 +1,16 @@
-# Cast and Scatter
+# Siphon Cast
 
-*Your spell bursts from your hands and you follow its recoil into a quick sidestep, robes brushing the space where you stood.*
+*You let the spell tear a hole in the moment, stepping through the space it leaves behind.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** Self, after your Main Action spell resolves.
+**Target / range / shape:** Self, when you cast a Main Action spell that requires a roll.
 
-Move up to 2 squares without provoking. Choose a legal route and free endpoint. This uses no movement allowance and does not change the spell’s result.
+Take 1 Bane on the spell’s roll. The spell resolves as you vanish from your original position. Choose a free square you can see within 4 squares of that position; at the start of your next turn, you rematerialize there. You are untargetable while vanished. Your current turn ends, and you have no actions or reactions until you rematerialize. This movement does not provoke opportunity attacks.
 
-**Duration:** Immediate movement.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 

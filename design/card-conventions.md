@@ -226,3 +226,10 @@ including additional creatures struck in a collision chain. Distances on cards a
 before Stability. Other riders still apply when displacement is reduced to 0.
 Voluntary movement, projectile range, obstacle progress and grapple reduction are
 not reduced by Stability. Any exception must be explicit on the card.
+
+## Approved playtest catalog, November 1, 2026
+
+Universal Adept abilities cost 3 DP. The Mountain Walks and Touched by the Divine
+cost 6 DP at Master; One More Dawn costs 8 DP. Printed costs take precedence.
+Ability entries omit empty Duration, Equipment and Limits fields; any specific
+expiry, equipment or use limit remains in the rules or its printed field.

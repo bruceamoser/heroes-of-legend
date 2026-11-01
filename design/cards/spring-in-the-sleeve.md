@@ -1,30 +1,26 @@
 # Spring in the Sleeve
 
-*You level your wrist and release the catch. A hook shoots from your bracer on a spring, striking your enemy and tugging them toward you.*
+*You level your wrist. A hook snaps from the bracer and catches hard enough to drag your enemy a step closer.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature within 3 squares.
+**Target / range / shape:** One visible enemy within 3 squares.
 
-A spring-driven hook snaps from a bracer you build on learning the card. It is reusable, Bulk 1, granted if absent.
+Make a Knowledge device attack.
 
 - **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage and pull 1.
-- **Strong:** 5 physical damage and pull 2.
+- **Standard:** 3 physical damage; pull 1 square toward you.
+- **Strong:** 5 physical damage; pull 2 squares toward you.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** One reusable spring-hook bracer (Bulk 1), built on learning and supplied if needed.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1
 
-**Type:** Skill / Attack / Crafting
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Attack
 
 **ID:** spring-in-the-sleeve
 

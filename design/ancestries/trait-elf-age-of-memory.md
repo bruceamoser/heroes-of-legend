@@ -1,10 +1,10 @@
 # A Lifetime Ago
 
-*You pause beside the broken road and recall the voices of the people who laid its first stones.*
+*You pause beside the broken road, and the voices of your ancestors rise in the quiet between thoughts.*
 
 ## Rules
 
-Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.
+Once per day, before you make a Knowledge or Reason roll, you may call on the knowledge of your ancestors to gain 1 Boon to that roll.
 
 **Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

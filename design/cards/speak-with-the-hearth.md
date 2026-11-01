@@ -1,6 +1,6 @@
 # Speak with the Hearth
 
-*You lower your hand into the fire without being burned. Shapes gather among the coals: traces of the people and possessions that recently passed its warmth.*
+*You stir the coals with one bare finger. Faces gather in the glow, each turning toward the warmth as they did before.*
 
 ## Rules
 
@@ -8,17 +8,13 @@
 
 **Time:** Ten minutes.
 
-**Target / range / shape:** One ordinary fire you can touch without harm; 10 minutes
+**Target / range / shape:** One ordinary fire within reach.
 
-The touch is safe only for this divination. Information is limited to the fire’s actual recent history, not distant events. One reading per fire per day. A missing clue cannot be invented.
+Read the fire's impressions of the previous day and make a Knowledge roll. Your touch is safe for this reading.
 
-- **Weak:** Learn whether it was lit within the last day.
-- **Standard:** Also learn how many people recently warmed themselves beside it.
-- **Strong:** Also glimpse one distinctive item carried by the most recent visitor.
-
-**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
-
-**Equipment / acquisition:** None.
+- **Weak:** Learn when it was last lit and how many people warmed themselves beside it.
+- **Standard:** Also see the appearance of its most recent visitor.
+- **Strong:** Also hear one brief exchange spoken beside it that bears on a question you name, if such an exchange occurred.
 
 ---
 
@@ -26,8 +22,8 @@ The touch is safe only for this divination. Information is limited to the fire�
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One reading per fire per day.
 
 **ID:** speak-with-the-hearth
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

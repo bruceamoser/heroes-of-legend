@@ -1,6 +1,6 @@
 # Write the Final Line
 
-*You recognize the opening in your opponent’s recovery and drive a precise strike into it before they regain their balance.*
+*Their eyes lose you for a heartbeat. You step into that heartbeat and put the point exactly where the fight will end.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** One adjacent creature.
 
-Step inside the familiar pattern and finish your melee attack before they find a new one.
+Make an Agility melee attack. If the target has temporary Dazed, reduce that temporary rating by 1 before rolling and gain 2 Boons to this attack.
 
-- **Weak:** 5 physical damage.
-- **Standard:** 5 physical damage and Dazed 1.
-- **Strong:** 7 physical damage and Dazed 2.
+- **Weak:** 4 physical damage.
+- **Standard:** 6 physical damage.
+- **Strong:** 9 physical damage.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Arms 3
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** write-the-final-line
 

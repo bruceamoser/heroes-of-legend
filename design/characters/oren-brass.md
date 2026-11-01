@@ -14,7 +14,7 @@
 
 Total **+3**. Intellect minima: Knowledge, Reason ≥ 0; met. Mental sum **+3**, so each stage’s base pool is **13 DP**.
 
-- [Road in the Blood](../ancestries/trait-human-far-walker.md): Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
+- [Adaptable](../ancestries/trait-human-far-walker.md): You gain 1 additional DP at each level, including level 0.
 - [A Foot in Two Worlds](../ancestries/trait-human-many-homes.md): Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.
 
 ## Level 0 — origins and purchases

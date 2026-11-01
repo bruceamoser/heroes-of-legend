@@ -1,18 +1,16 @@
-# Unseen Passage
+# One with the Dark
 
-*You draw the surrounding shadow across your body like a cloak and slip away while your outline fades from sight.*
+*They search the room three times. You are standing in the corner.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Shroud yourself from sight, then move up to 3 squares without provoking. Until the end of your next turn, you cannot be selected as a visible target. Attacks that do not require seeing you and areas covering your square can still affect you. You remain solid and audible; this grants no passage through barriers or occupied squares.
+Once per scene, while you are in dim light or darkness, become Hidden until you attack, are revealed, or enter bright light. While Hidden this way, you always roll with 3 Boons to stay hidden or remain concealed. You can move normally; the DA judges whether the concealment and your route are plausible.
 
-The shroud ends immediately after you make an attack, cast another spell or use a card on another creature. Your own movement does not end it. This card supplies its complete concealment effect; it does not require a separate Invisible condition or change anyone else’s detection rules.
-
-**Duration:** Until the end of your next turn, or immediately after an ending action.
+**Duration:** Until you attack, are revealed, or enter bright light.
 
 **Equipment / acquisition:** None.
 
@@ -22,9 +20,9 @@ The shroud ends immediately after you make an attack, cast another spell or use 
 
 **Type:** Signature
 
-**Tags:** Magic / Utility / Movement
+**Tags:** Skill / Utility / Movement
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-shadow-unseen-passage
 

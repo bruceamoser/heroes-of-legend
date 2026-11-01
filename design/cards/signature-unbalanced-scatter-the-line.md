@@ -1,22 +1,16 @@
-# Scatter the Line
+# Earthbreaker
 
-*You throw your arms wide and drive into the bodies around you, sending the whole front rank stumbling away.*
+*You stop charging, plant both hands in the ground, and let the earth answer.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** Every enemy adjacent when you begin.
+**Target / range / shape:** Self; each enemy within 2 squares.
 
-Roll Brawn once using the least favorable net Boons/Banes among the targets.
+Make a Brawn roll and apply it to every enemy in range. Weak: 2 physical damage, and push 1 square directly away from you. Standard: 4 physical damage, push 2 squares, and it is Prone. Strong: 6 physical damage, push 3 squares, and it is Prone and Dazed 1. Structures and unattended objects in the area take double damage. Resolve collisions normally. This does not move you.
 
-- **Weak:** Push each 2 squares directly away from you.
-- **Standard:** Push each 3 squares.
-- **Strong:** Push each 4 squares and knock each prone.
-
-Resolve the targets in an order you choose. No direct damage; normal collisions apply.
-
-**Duration:** Immediate displacement and Prone.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -26,9 +20,9 @@ Resolve the targets in an order you choose. No direct damage; normal collisions 
 
 **Type:** Signature
 
-**Tags:** Skill / Control
+**Tags:** Skill / Attack / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-unbalanced-scatter-the-line
 

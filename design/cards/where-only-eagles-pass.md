@@ -1,31 +1,23 @@
 # Where Only Eagles Pass
 
-*You put your hand against the sheer face and see a way upward that no roadmaker would dare name.*
+*You put your hand into a seam barely wider than a nail, take your companion's weight, and begin to climb.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Brawn
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One natural climb within reach; each attempt covers up to your Speed in squares.
+**Target / range / shape:** Self and one carried willing or unconscious companion on a natural surface with small holds.
 
-Climb a natural surface too sheer for an ordinary unaided ascent if the DA confirms that small seams, projections or cracks exist. No purchase of an earlier climbing card is required. A featureless wall, a ceiling or an impossible load remains impassable. Choose a reachable resting place within the rolled distance; if none exists, keep your initial secure position.
+Climb up to your Speed along a natural surface with small seams, projections or cracks, carrying one willing or unconscious companion you can physically support. Climbing costs 1 movement per square for this move. End with both of you in separate free supported spaces, or with your companion still carried outside combat.
 
-- **Weak:** Climb up to 2 squares, capped by Speed, and keep a secure grip.
-- **Standard:** Climb up to 4 squares, capped by Speed, with one willing or unconscious companion carried with you.
-- **Strong:** Climb up to your Speed, with that companion; you may secure a held rope at a suitable anchor on arrival.
-
-**Duration:** Movement resolves immediately.
-
-**Equipment / acquisition:** A free hand; any carried rope is supplied separately.
+**Equipment / acquisition:** A free hand.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Athletics 3
 
-**Type:** Skill / Utility
-
-**Limits:** The companion ends in a separate safe square or remains carried outside combat; in combat choose legal separate endpoints before moving. Carrying requires a body and load the DA judges physically supportable.
+**Type:** Skill / Movement / Utility
 
 **ID:** where-only-eagles-pass
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

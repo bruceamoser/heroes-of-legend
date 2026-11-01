@@ -1,22 +1,11 @@
-# Heroes of Legend Starter Kit v16.4.0
+# Heroes of Legend v16.6.0
 
-Includes the **Player’s Book** and **Dungeon Architect’s Guide & Bestiary** for levels 1–10.
+The approved discipline catalog brings clearer fantasy, condition combinations and stronger purchase choices across Novice, Adept and Master abilities. This playtest release also integrates the approved Universal ladder.
 
-## What changed
+- Integrates 297 active discipline proposals with stable IDs retained through renames. A Common Tongue replaces the rejected Raise a Cause concept using a new ID.
+- Fits prosthetic replacement at Adept, revises control floors, and distinguishes focused healing from shared pools.
+- Updates Universal abilities, including the six Adept choices and the three Master choices.
+- Summons not commanded during their controller's turn disappear at that turn's end. Constant interaction and concentration describe maintaining their presence, without a new concentration check.
+- Both books and the starter kit use this approved playtest catalog. Balance and encounter budgets remain subjects for table testing.
 
-- **33 new reusable monster abilities:** six Maneuvers and 27 Reactions. Each new template serves at least two creatures, with descriptive text suited to each creature. The monster library now contains **126 abilities**.
-- Distinctive Maneuver coverage grows from **127 to 165 creatures**; Reaction coverage grows from **13 to 136**. All 192 creatures were reviewed, including deliberate decisions to keep simpler foes lean.
-- Duelists turn blades, guardians cover companions, pack hunters follow their allies, skeletons fall to pieces, and dragons sweep attackers away. Reactions compete with opportunity attacks within the normal action budget.
-- Eight short movement techniques gain useful opportunity-avoidance benefits. Condition timing, complete table effects and provisional CV estimates are updated alongside roster, encounter and index references.
-- **55 summon profiles synchronized**, including complete Maneuver rules, player-facing Boons and controller-turn timing. Summons retain their command requirements and receive no independent Reactions.
-- Both books are rebuilt with the approved catalog and current references.
-
-The Player’s Book retains **419 abilities**, **44 equipment entries** and **73 summoned forms**.
-The DA companion includes **192 illustrated creatures** and **126 monster abilities**.
-
-Download the starter-kit ZIP for both books, or choose the individual PDFs.
-The manifest records the source commit, page counts and PDF hashes; SHA256SUMS.txt verifies the downloads.
-
-This is a digital playtest edition. CV and encounter budgets remain estimates; the coverage review does not establish new combat-balance results.
-
-Foundry implementation is tracked in [issue #175](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/175).
+Downstream implementation and verification are tracked in bruceamoser/heroes-of-legend-foundry#252; source review is #1294.

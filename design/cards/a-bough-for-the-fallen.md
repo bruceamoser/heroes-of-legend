@@ -1,37 +1,27 @@
 # A Bough for the Fallen
 
-*You kneel, and a cradle of roots lifts your companion as warmth drains from your hands.*
+*Roots lift your companion as warmth drains from your hands. The branches bend toward you, giving them a way back into the line.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One willing creature within 3 squares.
+**Target / range / shape:** One visible willing creature within 3 squares, including yourself, or one creature in range harmed by healing.
 
-Roots gently lift the fallen. Pay 3 HP first, leaving yourself above 0; cost bypasses resistance. Requires a free hand. Life resistance reduces healing, minimum 1.
+Pay 3 HP and make a Reason healing roll.
 
-- **Weak:** Restore 5 HP.
-- **Standard:** Restore 9 HP; the target may stand without spending movement.
-- **Strong:** Restore 13 HP; the target may stand without spending movement, then move 1 square without provoking.
+- **Weak:** Restore 5 HP; the recipient may move 1 square toward you without provoking.
+- **Standard:** Restore 9 HP; it may move 2 squares toward you without provoking.
+- **Strong:** Restore 13 HP; it may move 3 squares toward you without provoking.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+A recipient receiving beneficial healing may stand before this movement.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Life 2 and Wilderness 1
 
-**Type:** Magic / Recovery
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Recovery / Movement
 
 **ID:** a-bough-for-the-fallen
 
 [Build this character](../paths/green-healer.md) · [Card conventions](../card-conventions.md)
-
-**Offensive healing — latest agreement:** this spell may target an unwilling
-creature harmed by healing. Resolve it as an attack using its printed attribute,
-range, action and HP cost; the HP result becomes Life damage, without beneficial
-recovery riders. This is the explicit exception to willing-only targeting above.
-Use the creature’s printed defense when a player defends; no opposed second roll.

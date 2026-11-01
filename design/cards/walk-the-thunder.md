@@ -1,26 +1,20 @@
 # Walk the Thunder
 
-*You run along the wall or skim the shallow water, planting each foot as a gust catches beneath it, then step back onto solid ground.*
+*You run up the wall as if the air were steps, skim the river's face, and land with the thunder still behind your heels.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self.
+**Target / range / shape:** Self along a wall or across water to supported ground.
 
-Run up to 3 squares along a wall or over shallow water; finish on ground that supports you. This movement does not provoke. If no legal endpoint exists, do not begin.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Run up to 4 squares along solid vertical surfaces or across water, ending in a visible free supported ground square. This movement does not provoke.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 2
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Movement
 
 **ID:** walk-the-thunder
 

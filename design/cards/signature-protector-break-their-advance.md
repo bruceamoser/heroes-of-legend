@@ -1,16 +1,16 @@
-# Break Their Advance
+# Break the Charge
 
-*You absorb the hit and answer with a hard shove, stepping forward as the attacker stumbles away.*
+*You meet the charge with your shoulder and drive the attacker back.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent enemy, after it damages you.
+**Target / range / shape:** One enemy within 2 squares.
 
-Push it up to 2 squares directly away from you, then you may move 1 square toward it without provoking. Use legal routes and a free endpoint. The damage already taken remains; normal collision rules apply.
+Trigger: an enemy moves within 2 squares of you while moving toward an ally you can see. Make a Brawn roll against the target. Weak: 2 physical damage. Standard: 2 physical damage, and the target is Prone. Strong: 4 physical damage, and the target is Prone and Dazed 1.
 
-**Duration:** Immediate push and movement.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Push it up to 2 squares directly away from you, then you may move 1 square towar
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Movement
+**Tags:** Skill / Attack / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Repeatable; uses your Reaction.
 
 **ID:** signature-protector-break-their-advance
 

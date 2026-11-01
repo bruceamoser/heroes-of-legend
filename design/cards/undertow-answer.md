@@ -1,30 +1,24 @@
 # Undertow Answer
 
-*You beckon to the water, and it reaches for the feet beside it.*
+*You beckon. The water beside your enemy rises like a hand and closes around the next step.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 4 squares, standing in or beside water.
+**Target / range / shape:** One visible grounded enemy within 4 squares in or beside at least a bucket of water.
 
-Choose a visible water square beside the target; measure the pull toward that square. Call a hand of existing water; enough water to fill a bucket must be present. It returns immediately to its source.
+Choose a visible water square beside the target and make a Reason control attack.
 
-- **Weak:** Pull 1 square toward the water.
-- **Standard:** Pull 2 squares and Slowed 1.
-- **Strong:** Pull 3 squares, apply Slowed 1 and knock prone.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 2 physical damage; pull 1 square toward that water square.
+- **Standard:** 3 physical damage and Slowed 1; pull 2 squares toward it.
+- **Strong:** 5 physical damage, Slowed 1 and Prone; pull 3 squares toward it.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Wilderness 2 and Frost 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** undertow-answer
 

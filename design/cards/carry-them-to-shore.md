@@ -1,26 +1,20 @@
 # Carry Them to Shore
 
-*You lock an arm around your companion and turn toward the bank with everything you have left.*
+*You catch one companion under each arm and strike out for the bank. The current pulls; you pull harder.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing or unconscious creature in water.
+**Target / range / shape:** Self and up to two adjacent willing or unconscious creatures in water whom you can physically support.
 
-You need a free hand and must be physically able to support the target’s weight, as judged by the DA. Move yourself and the target up to your Speed through water, ending side by side in free squares. This movement does not provoke; the target needs no movement or Reaction. You must choose legal endpoints first and cannot pass solid obstacles.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+With a free hand for each companion, move yourself and up to two adjacent willing or unconscious creatures up to your Speed through water. You support and guide their movement; each ends in a free square adjacent to you. This movement does not provoke. Swimming costs 1 movement per square for this move.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Movement / Utility
 
 **ID:** carry-them-to-shore
 

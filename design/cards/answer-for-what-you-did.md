@@ -1,30 +1,26 @@
 # Answer for What You Did
 
-*You tell your quarry why you came, then step in and strike to stop their retreat.*
+*Their courage falters when they recognize you. You step across their retreat and bring the weapon down before they find a new excuse.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** One adjacent creature.
+**Target / range / shape:** One adjacent enemy.
 
-Bring the pursuit to a close with a melee attack. Against a quarry you marked with Name the Reckoning, gain 1 Boon; that card is helpful, not required.
+Make a Guile melee attack. Gain 1 Boon to this attack against a Frightened target.
 
-- **Weak:** 5 physical damage.
-- **Standard:** 5 physical damage and Slowed 2.
-- **Strong:** 7 physical damage, Slowed 2 and knock prone.
+- **Weak:** 4 physical damage.
+- **Standard:** 5 physical damage and Slowed 1.
+- **Strong:** 7 physical damage, Slowed 2 and Prone.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** answer-for-what-you-did
 

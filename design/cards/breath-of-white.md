@@ -1,31 +1,25 @@
 # Breath of White
 
-*You exhale a billowing fan of white mist. Rime settles on the lashes and clothing of everyone it catches.*
+*You exhale white mist. It rolls over nearby weapons and leaves a shining crust on every lash and collar.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** Every creature in 3 connected squares, all adjacent to you; choose the squares before rolling.
+**Target / range / shape:** Every creature in three connected squares, all adjacent to you.
 
-NPC defense: Fortitude. Make one area attack using the worst applicable Boons/Banes.
+Make a Knowledge area spell attack.
 
-- **Weak:** 2 cold damage to each target.
-- **Standard:** 3 cold damage to each target.
-- **Strong:** 4 cold damage and Freezing 1 to each target.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
+- **Weak:** 2 cold damage.
+- **Standard:** 3 cold damage.
+- **Strong:** 4 cold damage and Freezing 1.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Frost 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** breath-of-white
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

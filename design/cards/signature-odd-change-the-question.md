@@ -1,18 +1,16 @@
-# Change the Question
+# A Door Where There Wasn’t
 
-*You stop pulling at the locked door and look up at the hinge, then show everyone the different problem you mean to solve.*
+*You knock politely on the wall, mutter an apology to the spirit, and a door opens where no door belongs.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Time:** One minute.
+**Target / range / shape:** Self; one nonmagical barrier within reach.
 
-**Target / range / shape:** One noncombat obstacle you and your companions can examine.
+A door-sized opening appears in the barrier. Only you and your worn or carried gear can pass through it. The opening closes immediately after you pass through or at the end of your next turn.
 
-Spend one minute examining the obstacle and describe an alternative approach. The DA identifies one workable alternative using available people, tools or features, if one exists, and states its risks. If none exists, learn the concrete missing resource or access that prevents it. You and one ally each gain 1 Boon to the next roll pursuing that alternative this scene. This grants no automatic success or specialist permission.
-
-**Duration:** Information remains known; Boons expire when used or the scene ends.
+**Duration:** Until you pass through or the end of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -22,9 +20,9 @@ Spend one minute examining the obstacle and describe an alternative approach. Th
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Utility / Movement
 
-**Limits:** One examination of an obstacle per scene unless its circumstances change.
+**Limits:** Once per scene; the barrier must be nonmagical and no more than one square thick.
 
 **ID:** signature-odd-change-the-question
 

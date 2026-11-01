@@ -1,16 +1,16 @@
-# Set Your Feet
+# In the Gap
 
-*You settle your weight into the ground and draw your guard close, letting the shove spend itself against your stance.*
+*You set your shoulder into the frame and spread your guard across the opening. Nothing comes through without coming through you.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self while your Defend is active.
+**Target / range / shape:** A frontage of three squares: your square and the squares immediately to your left and right.
 
-Gain Stability 2 while your Defend is active. Use your highest applicable Stability, maximum 3. You still need to use Defend normally; this grants no resistance to damage.
+Until the start of your next turn, enemies cannot move past that frontage while you are standing and conscious. Your square is already blocked by your body; this extends the block to the squares on either side. Enemies can still attack you, shove you, or attack allies with ranged attacks. If you move, fall, or are moved away, the effect ends.
 
-**Duration:** While your Defend remains active.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Gain Stability 2 while your Defend is active. Use your highest applicable Stabil
 
 **Type:** Signature
 
-**Tags:** Skill / Defense
+**Tags:** Skill / Control / Defense
 
 **Limits:** Repeatable; normal action economy applies.
 

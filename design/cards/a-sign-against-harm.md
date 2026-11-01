@@ -1,26 +1,20 @@
 # A Sign against Harm
 
-*You draw a bright line in front of your companion. As the blow approaches, the line spreads into a brief ward across its path.*
+*You draw a bright stroke across the air. It spreads in front of your companion just as the blow arrives.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self or one adjacent willing ally before an attack that will give the target a defense roll.
+**Target / range / shape:** Self or one visible willing ally within 3 squares before a defense roll.
 
-Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.
-
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+The target gains 1 Boon to the defense.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Guard 1
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Defense
 
 **ID:** a-sign-against-harm
 

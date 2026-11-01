@@ -1,30 +1,26 @@
 # A Sword Made of Dawn
 
-*You lift your weapon and feel a second, burning edge reach out from its tip.*
+*A second edge of white fire reaches from your weapon. You guide it toward the enemy already struggling in the flames.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** One visible creature within 3 squares.
+**Target / range / shape:** One visible enemy within 3 squares.
 
-Extend a blade of fire from your held melee weapon. This card supplies its reach; other melee attacks keep their own range.
+Make a Knowledge weapon spell attack. Against a Burning target, gain 2 Boons to this attack.
 
 - **Weak:** 4 fire damage.
-- **Standard:** 4 fire damage and push 2 squares.
-- **Strong:** 6 fire damage, push 2 squares and Burning 2.
+- **Standard:** 5 fire damage; push 2 squares away from you.
+- **Strong:** 8 fire damage and Burning 2; push 2 squares away from you.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Flame 3 and Arms 1
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** a-sword-made-of-dawn
 

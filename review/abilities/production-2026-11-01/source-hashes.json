@@ -1,0 +1,1717 @@
+{
+  "approval": "review/abilities/production-2026-11-01/approval.json",
+  "sources": [
+    {
+      "path": "design/cards/a-bough-for-the-fallen.md",
+      "sha256": "c5de4dd0cfc7f3629fc962004ab25091980163d07869c5cfa38d4fb554a3bdd5"
+    },
+    {
+      "path": "design/cards/a-breath-beneath-the-water.md",
+      "sha256": "51826e412c878d3bbfca1d6742bc2326595b230c080c81e1aa4d13859a5ecd75"
+    },
+    {
+      "path": "design/cards/a-camp-without-a-trace.md",
+      "sha256": "327912cad78d15d2ff818af9975962ab26cb8e8f98e69d08441336137a3566d3"
+    },
+    {
+      "path": "design/cards/a-coal-for-a-promise.md",
+      "sha256": "f0df3ae262f06bed56367a1adc6fedd3e93ddcb67e63e971c5adfaf0678bde47"
+    },
+    {
+      "path": "design/cards/a-common-tongue.md",
+      "sha256": "898304eb1a03f6b727338ffa17a271fe5abcab20395d199b4b214a17701c3d9b"
+    },
+    {
+      "path": "design/cards/a-company-of-reflections.md",
+      "sha256": "64315782cb14c953a23ac34d91ce2164a0dd0da1a2d26e91da0617a140e6f6ad"
+    },
+    {
+      "path": "design/cards/a-courtesy-unanswered.md",
+      "sha256": "6aad7ab80b6b8333a1825793fcf6de99f87a6b9d0becff065e9d70015932f1cc"
+    },
+    {
+      "path": "design/cards/a-door-that-is-not-there.md",
+      "sha256": "6000430bd572ae2b616590aff27704d30930aaedaa7b752190b2020c35856b55"
+    },
+    {
+      "path": "design/cards/a-friend-beneath-the-door.md",
+      "sha256": "58c4d5e29dbefffdd4b5b8a7d2a5b0c24430bccad66321add067d94a7a9c704f"
+    },
+    {
+      "path": "design/cards/a-good-place-to-stop.md",
+      "sha256": "50cdd39e1e99810d74bfe45123e614143d0c7c35c9c81ffa6392333f6776fd97"
+    },
+    {
+      "path": "design/cards/a-hand-from-before.md",
+      "sha256": "7cf604b2085a0e91aa6c1de6493a99bc4bfd90efb88b7775e71bebcbf1955b2d"
+    },
+    {
+      "path": "design/cards/a-knot-you-can-trust.md",
+      "sha256": "92e80e90fdf97321fa76c5bd6ee55a6e52e22e435f3453abeee7e297cdcf81c2"
+    },
+    {
+      "path": "design/cards/a-line-for-everyone.md",
+      "sha256": "efee6a38840fc0db15947910c8abdd0d4a0403e9dca67d59fa01ffdf79c32d78"
+    },
+    {
+      "path": "design/cards/a-lock-has-a-language.md",
+      "sha256": "e5481b8475d9f1ee291cf5eab407116db151c929dd5c7a599927b90d3216d89f"
+    },
+    {
+      "path": "design/cards/a-marvel-on-wheels.md",
+      "sha256": "7f4d7f71108e26023adfe2d498db6138a7517fd8b78907e0adff0b0b0aa1f2f0"
+    },
+    {
+      "path": "design/cards/a-name-worth-knowing.md",
+      "sha256": "88e678d5919fd64d6909ec52532ac32434912e6a4749405d01531306376dea89"
+    },
+    {
+      "path": "design/cards/a-party-piece.md",
+      "sha256": "d226d826279d2b7be98b4edd737619c9980bdfa4381ae42e447f8877d0ffed8d"
+    },
+    {
+      "path": "design/cards/a-place-at-any-fire.md",
+      "sha256": "fb1df765563248669dd15729275317986372e7ed5482218ba4807508315a7ac8"
+    },
+    {
+      "path": "design/cards/a-ribcage-for-a-shield.md",
+      "sha256": "bd98e6725f6eede8324b9956945973d2ff6ffa1f1e46d7145d3cb28bb72e27c9"
+    },
+    {
+      "path": "design/cards/a-road-through-rain.md",
+      "sha256": "a842d4ab46f9f31bbd01215a0112543293db3c08b7441ea04085d9476ec762f2"
+    },
+    {
+      "path": "design/cards/a-roof-before-nightfall.md",
+      "sha256": "eb44c9d35fc124de0086ef05cf874d8e7c7af53479c122ca060825fadfd6ccbc"
+    },
+    {
+      "path": "design/cards/a-shadow-at-the-heart.md",
+      "sha256": "214642b6de5db13bc99f2c75ac1b33b84b99ce306831ec5a4529a8cd7712914d"
+    },
+    {
+      "path": "design/cards/a-shelter-of-light.md",
+      "sha256": "f01bdbe476f22959b84e95d589560e87ba68e6eb1b23f527b757fe9deb3c7828"
+    },
+    {
+      "path": "design/cards/a-sign-against-harm.md",
+      "sha256": "74265a68ac321d024d34f0fd19b655b9b0c1614846ca0c966158444986ae2fae"
+    },
+    {
+      "path": "design/cards/a-small-and-watchful-shape.md",
+      "sha256": "d069aea5f604a8b7ac71ee61d758c700437074d08bda895333f1cc1308d974ca"
+    },
+    {
+      "path": "design/cards/a-splendid-mistake.md",
+      "sha256": "a36bd228861f258340d2e343fb98f6a17e48532a6c1bbb563f099c0b112313da"
+    },
+    {
+      "path": "design/cards/a-steady-hand-at-dawn.md",
+      "sha256": "9735c9b9650e39b48c34c441a3100c1bbeb19c77c3d046f50290e9679c35097a"
+    },
+    {
+      "path": "design/cards/a-sword-made-of-dawn.md",
+      "sha256": "c263ed5954077f404b3bf71132d4e8c495e0794e4ed4483f510c59bee3a8f036"
+    },
+    {
+      "path": "design/cards/a-thought-that-is-not-yours.md",
+      "sha256": "beb338675b44af113aa7bc31a6003225e1fc5ec421cc26c5c5f571b529981674"
+    },
+    {
+      "path": "design/cards/a-verse-for-courage.md",
+      "sha256": "61a9684af48497a96d118e9e78742ba62a8da397bd6e16369cc768d79625279d"
+    },
+    {
+      "path": "design/cards/a-voice-across-the-valley.md",
+      "sha256": "856c3625fbceb11c43370852fe90b348abbee25ba2b528fa474f615fb3a32028"
+    },
+    {
+      "path": "design/cards/a-word-apart.md",
+      "sha256": "a406f58a788c9dab1919aab8a23ed072a3b5ce26484cb77e9f6036e8e5d4ce0e"
+    },
+    {
+      "path": "design/cards/aid.md",
+      "sha256": "7f826e70aaf206aa97a7fbf6bb759b51b0b21b02280319714203cdc1032c5760"
+    },
+    {
+      "path": "design/cards/all-voices-as-one.md",
+      "sha256": "2138f1e9c26f4fad85575015a85cb78a7360899ec0f784e31d44a571d47f8c7a"
+    },
+    {
+      "path": "design/cards/an-impossible-theft.md",
+      "sha256": "86a969b9a59e2c4628ec663400fb87f444ec254f6875391ccd2be2e033fd4a56"
+    },
+    {
+      "path": "design/cards/an-invitation-elsewhere.md",
+      "sha256": "bc05667f158968c8389384109445a3e82d50bbfcfd790d284030ef44c64ff9c5"
+    },
+    {
+      "path": "design/cards/anatomy-of-an-opening.md",
+      "sha256": "4a439ed4b8027d2c60510e8725f1c25878fe4926292e8f95fad5b9ee0d648c75"
+    },
+    {
+      "path": "design/cards/another-tongue.md",
+      "sha256": "0b0fe80fec4e4e38c4e683f5f1afbbb913efe46df4d386fe9422343f149cff1f"
+    },
+    {
+      "path": "design/cards/answer-for-what-you-did.md",
+      "sha256": "87243ca791859aebc35997aa4c9f1d6ff04207a5d825e2b5b7760d70e75e58b9"
+    },
+    {
+      "path": "design/cards/armored-recovery.md",
+      "sha256": "044d0ee0be3fcd62953b4da3ae0702852cd4d200606326f829ffb48d5dbd740b"
+    },
+    {
+      "path": "design/cards/arrive-under-guard.md",
+      "sha256": "3bf109491eac65856eb2c73e20323c432171999301e4b8f6ff291c0adf17e26f"
+    },
+    {
+      "path": "design/cards/ask-the-falling-ash.md",
+      "sha256": "9c5c498821799f91ca7415933b207b89ee7c37a89b7ada3ebea238858cad3c22"
+    },
+    {
+      "path": "design/cards/bank-the-embers.md",
+      "sha256": "1ef5a6537360dff25d009c9b123467a15e3ebe888a0a76bc734280357c5b4765"
+    },
+    {
+      "path": "design/cards/basic-melee.md",
+      "sha256": "9d6e0b6ca75363b94c6886fb3c53087f854098f024aac232395c61fdc438ae40"
+    },
+    {
+      "path": "design/cards/basic-ranged.md",
+      "sha256": "a9533cbe2e5d4d40304aafc2b119ad941616db097362363a8f85781131fa4bf8"
+    },
+    {
+      "path": "design/cards/basic-throw.md",
+      "sha256": "dd508c31a7f860401aec775291447a1e04c63bf82a01e8f3c2c4332617ae39c2"
+    },
+    {
+      "path": "design/cards/basic-unarmed.md",
+      "sha256": "5f5db412a0c40a65a6d302cd61de2f14f3e590466a6031029a79d6592d173879"
+    },
+    {
+      "path": "design/cards/beacon-through-terror.md",
+      "sha256": "36ed5531928c44adaaf7c3b0b8cd0845d12182269b00885db513fa52b97ae099"
+    },
+    {
+      "path": "design/cards/behind-the-hawthorn.md",
+      "sha256": "bc80b301bb2f29c2c90d978ccd9cb56f4155fddeb57e0d3035707171660a587f"
+    },
+    {
+      "path": "design/cards/bind-and-turn.md",
+      "sha256": "c7c5ba44af3b7066cb966f3e6d3d76b3510fb033ebc0e2f5793a060f8c5e53b8"
+    },
+    {
+      "path": "design/cards/blood-in-the-teeth.md",
+      "sha256": "80fab9cb0d4c16607e968a962cdcd7782aadeb8fd96b509176cb2283e348722b"
+    },
+    {
+      "path": "design/cards/borrow-a-voice.md",
+      "sha256": "39ca3abdb28127dad54a8e5441ca44d3aad45bb0653b0165d893188d6f13a27a"
+    },
+    {
+      "path": "design/cards/borrow-the-beast.md",
+      "sha256": "488ab488e0bffd2c892b1cf5c28f60b07a9b2d0839e883bc4450753d7c00ea72"
+    },
+    {
+      "path": "design/cards/borrow-the-shadow.md",
+      "sha256": "c9b4140a18ca3de3ef7099679dfa958aaacab23564c8afbd89c1152ab92e9075"
+    },
+    {
+      "path": "design/cards/borrow-tomorrow-s-weather.md",
+      "sha256": "e50de6d79910dac53b1f928a2f00c49f9a32711cc89fe9db4d94f71a755fd224"
+    },
+    {
+      "path": "design/cards/borrowed-clothes-borrowed-manners.md",
+      "sha256": "eb7bcf9b622b52d50f3a3bb63fe6ab3bb6b14277b35a587d3192f8cb63dbb008"
+    },
+    {
+      "path": "design/cards/borrowed-identity.md",
+      "sha256": "99b4e6f16269be68c52e5b28c44e69787b1614be1d5f163d0a00ec19d897449d"
+    },
+    {
+      "path": "design/cards/borrowed-silhouette.md",
+      "sha256": "0ad5f34818e9643bfef1234ba2a0e43a37c09b17ab1ccbd9a2adb69826387635"
+    },
+    {
+      "path": "design/cards/bottled-morning.md",
+      "sha256": "cf8a9606edf0192d0781c822aad5c513f284f893b2665d493e43fae7fbe5d2e9"
+    },
+    {
+      "path": "design/cards/bow-to-the-balcony.md",
+      "sha256": "e02cc90f461f74447e5946ca0ecc0cc0bc2d604c65d859c3993dce69428ec530"
+    },
+    {
+      "path": "design/cards/braced-harness.md",
+      "sha256": "76be886afb1e65daab4dc7ed33789358773d674b9ebd2fe53a498edd01974e8e"
+    },
+    {
+      "path": "design/cards/break-the-charge.md",
+      "sha256": "4f2b9843254b0735e8b83365239eae27000eff1da5f096a9b5c32104a5584068"
+    },
+    {
+      "path": "design/cards/break-the-formation.md",
+      "sha256": "785076b96189371d8988f688974a336a9930f3501f2fcb4fb9297814d27210e6"
+    },
+    {
+      "path": "design/cards/breakaway-rig.md",
+      "sha256": "93603187f3a9953a44fce0ad1f5cd754329bdc965a1b436af8e057dd52153254"
+    },
+    {
+      "path": "design/cards/breath-of-the-wyrmling.md",
+      "sha256": "74744073f8a7063b72bce648d3e6af36c11e177f9b19c7d10642935ec2b8f1bb"
+    },
+    {
+      "path": "design/cards/breath-of-white.md",
+      "sha256": "c58c8fac4461419b5858ffd766690e1a721cb9cfb90da5ace4887bac063700c3"
+    },
+    {
+      "path": "design/cards/briar-gate.md",
+      "sha256": "8c137a74ceb9e9cea6909a13cdbab7e7d4466ec414692dcee66ffc49c77e74b4"
+    },
+    {
+      "path": "design/cards/bridge-of-winter.md",
+      "sha256": "e53a853bfcab3f95c35d3882161de86e811afae72b5af410385ef84648dcffd2"
+    },
+    {
+      "path": "design/cards/call-a-burrower.md",
+      "sha256": "474eb60e768efb6677c16ecdfa608a79295022d074eae5df07e1e30c1c898675"
+    },
+    {
+      "path": "design/cards/call-a-sentinel.md",
+      "sha256": "21057aa9e602b652d58783f9435f5dfb6bfa576a6ee04923a5d78fda1a0a4ca5"
+    },
+    {
+      "path": "design/cards/call-a-tempest-beast.md",
+      "sha256": "28af85a185997080d8f25134d58f9b9d2845d52a93c9b68134b7632bbea45ca3"
+    },
+    {
+      "path": "design/cards/call-the-elder-stag.md",
+      "sha256": "e813483f095a402bd31038f573c7d9957fe9173362f0ecf1d552bfc41fee9982"
+    },
+    {
+      "path": "design/cards/call-the-faithful-hound.md",
+      "sha256": "c2bae217edb53f7d24964b0a232c1b1e0c04ac328caf04c310c064a1e48ef29d"
+    },
+    {
+      "path": "design/cards/call-the-hunting-cat.md",
+      "sha256": "463b0ed0c1fa7f1d65cda7ebf212bbf1635360e63b62cbcfa5b31e7651aef747"
+    },
+    {
+      "path": "design/cards/call-the-opening.md",
+      "sha256": "0660c418450ef4ee90d191a24dc6b3a1030f96ad66eabd7e102c4e0b65a037a5"
+    },
+    {
+      "path": "design/cards/call-their-name.md",
+      "sha256": "488fe8b6d3563d4861e061eadf6eec84ea1dcbbb2cef6a245b96210e91b6ba44"
+    },
+    {
+      "path": "design/cards/carry-the-sunrise.md",
+      "sha256": "b7c45e5e2507d99b5488b83de75e45a38583b34a14ca374b078edf7c6781001b"
+    },
+    {
+      "path": "design/cards/carry-them-to-shore.md",
+      "sha256": "020d298b6562cfcbef0b37f81775a79db7d4491a187885de8f7b07b5a089ff4e"
+    },
+    {
+      "path": "design/cards/carry-to-safety.md",
+      "sha256": "aef25249ab47205b78480b6482d29d643eb8ed17ecd5777853fa283654847f43"
+    },
+    {
+      "path": "design/cards/cast-off-the-venom.md",
+      "sha256": "bd38361a7d3ac7bf000fd1192059d9c768b8f85a26bb3cb5366a54ce6d060213"
+    },
+    {
+      "path": "design/cards/cast-through-the-reflection.md",
+      "sha256": "018836d0a42465559359b8305395043ddf910d24649699b3a1309a6986d89943"
+    },
+    {
+      "path": "design/cards/catch-a-falling-friend.md",
+      "sha256": "b643150c2abd7dfb312a80bb2eae257d8f99dbb5ee95eba1452044e8c3aa62b1"
+    },
+    {
+      "path": "design/cards/catch-that.md",
+      "sha256": "1357adb03d1908f65677f9ace8af3429cc7949aa2d01b048ab157806801ada6d"
+    },
+    {
+      "path": "design/cards/catch-the-ledge.md",
+      "sha256": "d9f7b5b4709f3b0d5bc62f03c70fa096589cfb8fecd1367477002ca858eec835"
+    },
+    {
+      "path": "design/cards/catch-the-mechanism.md",
+      "sha256": "87820ce2266df81da20d35cee15b1ee973cbbcc8454a1e838b88ed946b1f7f57"
+    },
+    {
+      "path": "design/cards/catch-the-root.md",
+      "sha256": "b91788c51da935a89ae712ead6e7947efce2d78316c7439c3a1c7df289604736"
+    },
+    {
+      "path": "design/cards/catch-the-spell.md",
+      "sha256": "2ced5e1929c7cef2382c64c9f9d928911c946b66dca10fd1d0fbe6bf8dd94fe1"
+    },
+    {
+      "path": "design/cards/catch-them-falling.md",
+      "sha256": "68f0569391b8fea10688e487ea6f3ce0d54615ab9a76e1cd12a00fac8d5e1da0"
+    },
+    {
+      "path": "design/cards/checkmate-in-three-steps.md",
+      "sha256": "5473f1128fce45efd9fb58bb23892965d8967da30645e7cd67eda61518891757"
+    },
+    {
+      "path": "design/cards/cinder-cast.md",
+      "sha256": "2d021235751eefd9f915971929854c97bd894bae1c77fe74b1eadf73217290fa"
+    },
+    {
+      "path": "design/cards/circle-of-old-names.md",
+      "sha256": "17a7009227853a96fcddfccdeccac66f9b192ea7d2b4e00281f006f1133a5ede"
+    },
+    {
+      "path": "design/cards/clear-the-airway.md",
+      "sha256": "1544c8b7c93403f3df54a7a38a036827eddd2dfab8f96e27e7e2c369f83b0dbe"
+    },
+    {
+      "path": "design/cards/clear-the-smoke.md",
+      "sha256": "c848b05f5f958dc0e7fa09a7e396601c3be5148a78765932009a9c6ca2d37e06"
+    },
+    {
+      "path": "design/cards/close-shot.md",
+      "sha256": "3cccbff0ec32091888588efd5f0b62be6ee337fc10e0707fcaa1bbf4a348e1fe"
+    },
+    {
+      "path": "design/cards/cold-cuirass.md",
+      "sha256": "76c89db9ec4c54cbc37a1b8276a2b0dd0681cba8fbddda900c50fbc92631c96a"
+    },
+    {
+      "path": "design/cards/command-a-summon.md",
+      "sha256": "552d6916a86335b9965d86e45862ab9c6abf1e9366689f573332ba2847acd959"
+    },
+    {
+      "path": "design/cards/conditioned-body.md",
+      "sha256": "2d4222641cbc81aa425af9c01106808d12a4d0abcae2a6f1ae70f7d2d44c48ad"
+    },
+    {
+      "path": "design/cards/convert-an-action.md",
+      "sha256": "68a360f0e15f1437023bf057d5e74bb7356a4c48cffe60d77ebf650ea07a2b52"
+    },
+    {
+      "path": "design/cards/create-a-distraction.md",
+      "sha256": "1199fbf6b237aa980c249ecbd472803f8334220e5614dfd7273bb30d835645e9"
+    },
+    {
+      "path": "design/cards/crosswind.md",
+      "sha256": "a9499c476b4338e51d492a2f5b73ada58f80c4755f900c486f9489d61052fefd"
+    },
+    {
+      "path": "design/cards/cup-the-flame.md",
+      "sha256": "34111a2cdd06f17ebe0b187574df63810afe8463639805feffb0b9332bf2f7a4"
+    },
+    {
+      "path": "design/cards/cut-off-the-escape.md",
+      "sha256": "8e5329081086b1d26a81fe303b46e06e0dcd50f0fccdadc3bf536bd2baba7302"
+    },
+    {
+      "path": "design/cards/dance-beyond-the-circle.md",
+      "sha256": "3c78308909b917c3a632c3eaa8d5216de02b4b074fcaaab1ec34878554b0fb7f"
+    },
+    {
+      "path": "design/cards/dawn-shard.md",
+      "sha256": "1bfa79765735cfb6dfbd0397847a2239264fee8f5aa5aff3b4b13751d025ede1"
+    },
+    {
+      "path": "design/cards/defend.md",
+      "sha256": "6abb6ec369854c42e2b60794b392736704253d5d674ac7de7f691d4aaf5e56c8"
+    },
+    {
+      "path": "design/cards/derive-a-mechanism.md",
+      "sha256": "efa05aa79664f0186de3a0d6aad050f06ba4ec636ee81832182bf9714b69491b"
+    },
+    {
+      "path": "design/cards/disengage.md",
+      "sha256": "ba3f17a907f80b63cd1e3de0a8cbd52b5ef51ed82b8fd9f974d49b3d05f89eb0"
+    },
+    {
+      "path": "design/cards/doors-for-the-host.md",
+      "sha256": "99c63e1a03bc5409f28354d93f356eaa7332f18ac20cb1f28f11e8b3897e3752"
+    },
+    {
+      "path": "design/cards/drain-warmth.md",
+      "sha256": "37d254c5ca32f641d1cbbd65cf2f759ae39dd7f2ce4dec4db75ba56e4a74b6a7"
+    },
+    {
+      "path": "design/cards/draw-the-current.md",
+      "sha256": "264d7eb59dde8d03555bbe379b63dd61730d8645bea206dbd236eacd385a10c0"
+    },
+    {
+      "path": "design/cards/draw-the-tether.md",
+      "sha256": "7c05775336126b86590226ac951634d8b97a29fc5bbbee919fdc4083fb3082cb"
+    },
+    {
+      "path": "design/cards/dread-reflection.md",
+      "sha256": "ebd90b8684fa1c8b89932b116c35ce77283c06013e5cdb1af45030a6d598eaa0"
+    },
+    {
+      "path": "design/cards/driving-volley.md",
+      "sha256": "d94d5b59bc43650961eced13c68738e837a744482a2291f13162ba2a00265f6a"
+    },
+    {
+      "path": "design/cards/duck-into-the-brush.md",
+      "sha256": "f74f1ba18eea07a61686aa5c741a11d56a097b0c91df4f685b5e97067559b4aa"
+    },
+    {
+      "path": "design/cards/ease-the-spasm.md",
+      "sha256": "7487012d6bf80da524ed5294b1e791a49b0d2fc5e214bacd7c62e0baf12576b0"
+    },
+    {
+      "path": "design/cards/ember-along-the-edge.md",
+      "sha256": "9c6c0c4822b473f5a8f2c24f974920b7f4bae88c4a95344be82c682ef8347e98"
+    },
+    {
+      "path": "design/cards/enchanting-workshop.md",
+      "sha256": "3f3423064cf33bbd413c708a68fcccf18ba6dcf30e67044d8c7334f1e11032fc"
+    },
+    {
+      "path": "design/cards/expert-river-crossing.md",
+      "sha256": "1355e7f1d7d310845b9351ef96ce093eceabd4a4dd5c07d4c15bc437acad9882"
+    },
+    {
+      "path": "design/cards/field-triage.md",
+      "sha256": "9a30713d586c96a46f474ed6dd6fad9180659564cabb4ae67ccc9ce7672355e6"
+    },
+    {
+      "path": "design/cards/find-the-seam.md",
+      "sha256": "e6bbf7fc041e44ca1a6055d70c53ac4e1fef2419d5cf62a531396a0341cbc4b4"
+    },
+    {
+      "path": "design/cards/find-your-footing.md",
+      "sha256": "78bbe221c534037b7c015b9d1714f9be49a17033b55dc852cf38749c02533510"
+    },
+    {
+      "path": "design/cards/fit-a-replacement.md",
+      "sha256": "b04daeb9e6eeb9a6b0a939c9fd20de0f7e5b3b53976ba0fc5439a5b61849f706"
+    },
+    {
+      "path": "design/cards/follow-my-leap.md",
+      "sha256": "3379d1e1a59a07697e329e38388afd7d28d6beb7448470ad55f84e9b8a293e22"
+    },
+    {
+      "path": "design/cards/forage-coast.md",
+      "sha256": "305e021fb4b52de52c9dfb0ac3807d2cd42d06c4309f0d70463b312cb5c93b98"
+    },
+    {
+      "path": "design/cards/forage-mountains.md",
+      "sha256": "9f0e38b0fd956c6c40374346779085ace6569f0418f18afb24c845aaf84ed2ed"
+    },
+    {
+      "path": "design/cards/forage-wetlands.md",
+      "sha256": "6945505d57c7e1c75e4a439442c3b860b7a795c5225ae28e167b6751ade448c4"
+    },
+    {
+      "path": "design/cards/forage-woodland.md",
+      "sha256": "1c30ae0a1be6ba5f2deb419d3fcc6b7ba33b2eb1a6fe494929c3f5ef1e1f735c"
+    },
+    {
+      "path": "design/cards/force.md",
+      "sha256": "b6a84c55a7cec479d15bdbc9b55dcba483a469d301f33f2f8f2588f1b3b9b0c3"
+    },
+    {
+      "path": "design/cards/forked-sky.md",
+      "sha256": "298c75cf7bc86d30f00b2f4a084e88533d01163f27bf1d2bdd21a96bc90a40bb"
+    },
+    {
+      "path": "design/cards/four-winds-at-once.md",
+      "sha256": "762f11ab3bb0ef5b195326d223dc8128862576be848fd2f7720e8dc4d988a8cb"
+    },
+    {
+      "path": "design/cards/furnace-sweep.md",
+      "sha256": "4cdb97841b85685e033bf4da3da6f0329c7cf9f8477b7ee29ec543714b62cd65"
+    },
+    {
+      "path": "design/cards/guide-a-frightened-animal.md",
+      "sha256": "38e52c016425a38247c9404231bf325b170cb538155c93e633b214805f1e2ef1"
+    },
+    {
+      "path": "design/cards/guide-the-crossing.md",
+      "sha256": "63fe6e2743967b365f7e86d05dd1d98beaaa4a1b49a8868be978bc966ddedd7e"
+    },
+    {
+      "path": "design/cards/gust-hammer.md",
+      "sha256": "40db71bc6a7c95b82c1e75ab67e21829c4ca5fa2358f0ec4f93ce183e318bbe5"
+    },
+    {
+      "path": "design/cards/handle-an-item.md",
+      "sha256": "5669b050822aea10a0b7f333e24d4f83ad085bfa1f6eabfd06adcf7f4a746dfc"
+    },
+    {
+      "path": "design/cards/haul-them-home.md",
+      "sha256": "e65d0aa7289b59250f8ef5dd576e864a33bf69658982cd5103d7305c9ec006e4"
+    },
+    {
+      "path": "design/cards/high-guard.md",
+      "sha256": "26797506110ac809f89b97aa11617766fe883ebe416c6b63346574819e706418"
+    },
+    {
+      "path": "design/cards/hold-a-conversation.md",
+      "sha256": "b192777d442e9397f2d5362dddbd8a413f3509ad97a199e75b382e6eb7d1e692"
+    },
+    {
+      "path": "design/cards/hold-the-passage.md",
+      "sha256": "9e4eef14937c0435d81027a5ff8849c65415213f4bab5db9cb62d723a73470fd"
+    },
+    {
+      "path": "design/cards/hold-the-pulse.md",
+      "sha256": "4664dcc61320edcbfbfdb083e72aff09fa3403119b8389fb9769c4e5bfeb5138"
+    },
+    {
+      "path": "design/cards/hook-and-drive.md",
+      "sha256": "d061be03d1b0b450f1ef0e0c140085b9f52ae2f223782eef87c8f60e0bf9f772"
+    },
+    {
+      "path": "design/cards/hook-with-the-shield.md",
+      "sha256": "fbffac32ef1b7dfb538b038bd7786aa0897f88eada337b77102a767f85943b17"
+    },
+    {
+      "path": "design/cards/hurl-aside.md",
+      "sha256": "cb12b0b4fd26b6842f5ee68233d6ce53a7419684b4ae9aa0e2788c17f2a78fc1"
+    },
+    {
+      "path": "design/cards/i-have-seen-this-step.md",
+      "sha256": "cf6e1165b6bbeacd9ad3b2e683be44f3f4f576a2fbda893fba3b1a9556162b50"
+    },
+    {
+      "path": "design/cards/ice-across-the-break.md",
+      "sha256": "789d59465a5356a48ff4be08d43e76dd964fa70a899aa6a8a4abf412f0906c2e"
+    },
+    {
+      "path": "design/cards/icebound-path.md",
+      "sha256": "7cf754c369287fc250e4371b7aedc9d3d3caf940371edb14a0d737168f74ca37"
+    },
+    {
+      "path": "design/cards/identify-a-mixture.md",
+      "sha256": "26910ca707fe3c5e69e0265f175a33554f5cbb45221894a42739b60a10c83fda"
+    },
+    {
+      "path": "design/cards/identify-an-enchantment.md",
+      "sha256": "48317c4bb5def99b02ddf209d1032dbc4ba86866824358ab0394566187fff6d1"
+    },
+    {
+      "path": "design/cards/intrusive-echo.md",
+      "sha256": "3ecbb869c1c03769d0de1f8f81e1b697766a068c3bafff664da0e7296cca93f3"
+    },
+    {
+      "path": "design/cards/invitation-to-the-blade.md",
+      "sha256": "7af6a3efb19d8ea2a953732632ea97e0a4f50cc9eeaaaed139a0951e6eb5e3a7"
+    },
+    {
+      "path": "design/cards/ironbound-advance.md",
+      "sha256": "c3cd7c0dcd515d07013ffefb0ff486ae73c8c7dbff39c917cc37204426f66c88"
+    },
+    {
+      "path": "design/cards/keep-pressure.md",
+      "sha256": "83497a7d1552ab89a17ad47096996c2d909b3c99cf82dfa0eade88d36283b30a"
+    },
+    {
+      "path": "design/cards/keep-the-door-closed.md",
+      "sha256": "7e30d005a5a24822884487a4f03b90c47fe4b53d18a56954891a376cd368fbf1"
+    },
+    {
+      "path": "design/cards/keep-time-with-steel.md",
+      "sha256": "c5ac8181c33c5b6d3180bc1aa7f4e739aa7ff189efef4b9a9fc9c8495e13736f"
+    },
+    {
+      "path": "design/cards/keep-your-bearings.md",
+      "sha256": "a7dc88f48b895a3330b31cc45ab6884738715fa881e52e2f0f8c7f05c9db9684"
+    },
+    {
+      "path": "design/cards/lantern-in-the-palm.md",
+      "sha256": "9df5bdcc109ddceeb342c0469be5ee6781c7efa58127cd6d189865bec22a1290"
+    },
+    {
+      "path": "design/cards/lantern-moths.md",
+      "sha256": "63f9e149d4d81434a2c8eafc2143fc77e4c5296382f5c1b9951940a3ec7fb0b1"
+    },
+    {
+      "path": "design/cards/last-light-of-the-watch.md",
+      "sha256": "589ea3075f1feae809b695da11e3255ec26cb8d3f2312939e0542fc73461e0ac"
+    },
+    {
+      "path": "design/cards/lend-your-eyes.md",
+      "sha256": "8751d934610a052e8579964d9d51f83b1001ae24e68600b3da11729b019a9253"
+    },
+    {
+      "path": "design/cards/let-the-spark-decide.md",
+      "sha256": "496f9f3271c7b7396a2c8aed55b1fd8b2bcb9d555b85dd1f19ab2ed4283ee16b"
+    },
+    {
+      "path": "design/cards/live-in-the-mask.md",
+      "sha256": "f304b05743e7a956992c695ab0b77ba76aeb779127b340fca081ae75995ef6f2"
+    },
+    {
+      "path": "design/cards/look-over-here.md",
+      "sha256": "9d24dd5315f74fcdac6e6fdcc2539c39350b12c51c3e89ab55c7af7377e0eb7a"
+    },
+    {
+      "path": "design/cards/make-something-useful.md",
+      "sha256": "19d2e162057b97dbb0504cbecd0f04f1a51f64243df25b385a6f39f9ce11bceb"
+    },
+    {
+      "path": "design/cards/measured-appeal.md",
+      "sha256": "fa529ab42ccce4200b40aebb86271d1c0254577d26174b45f84b017ba0f385cc"
+    },
+    {
+      "path": "design/cards/mercy-in-the-light.md",
+      "sha256": "ce9d7418eef82395ccb04103e84ec9596285b2baf609bf2ca83be7e4b34d2698"
+    },
+    {
+      "path": "design/cards/message-by-heart.md",
+      "sha256": "2bebd44a4eacf0a352dddb64d7078c85f05dc8ecd1372543485a65a0d0808595"
+    },
+    {
+      "path": "design/cards/move.md",
+      "sha256": "96be0a08d7e6cd7a3807b763fe950efd3d16dd043593d65d0aa1b05e481611f1"
+    },
+    {
+      "path": "design/cards/name-the-reckoning.md",
+      "sha256": "d2f8cda810deb154cfb17bb08197040d7ac8f1fbaf8de850436080507ed58c99"
+    },
+    {
+      "path": "design/cards/name-what-is-real.md",
+      "sha256": "88a68a812a4961aa02a3313d11b3da6d1b1679c70728e83cb57d3e6757b76f5d"
+    },
+    {
+      "path": "design/cards/no-footfall-at-all.md",
+      "sha256": "f3e8731b07b96b6ada493ec71cd700eb8c0d0c8ccd6f3826286c43c8d0fe7cfa"
+    },
+    {
+      "path": "design/cards/no-road-away.md",
+      "sha256": "6b60f9ade4a29873637df5487630e545ce60a7dfcca2096c2c4ba0420aaa4453"
+    },
+    {
+      "path": "design/cards/noonday-judgment.md",
+      "sha256": "5bbc8a6fa20878a982f53819760e7a6b075b0c90c9c82c4942d348984b2ef513"
+    },
+    {
+      "path": "design/cards/not-yet-your-name.md",
+      "sha256": "d7f8eb37603c6cec628510d21f4e8c1fba8f0c0ba0dd75ddf3d5f7c740387216"
+    },
+    {
+      "path": "design/cards/notice-the-human-detail.md",
+      "sha256": "995e008af28a3af6321c057e0d1136ccfb30723723f7f5b18788b55a838fd660"
+    },
+    {
+      "path": "design/cards/oathlight-strike.md",
+      "sha256": "041f8f88a21f8140cfbfb91f60805707a7e9983e32740e5ca5e00fa9d7974ac0"
+    },
+    {
+      "path": "design/cards/one-more-dawn.md",
+      "sha256": "434ffcea066fc63e1175678a49a6a6194152cf1aec8127d2bce27d2e631895b0"
+    },
+    {
+      "path": "design/cards/open-the-furnace-door.md",
+      "sha256": "f75ebd1a5b211de70087308afc1b6680c764ed76c5b10f8d4efb80cc42801f74"
+    },
+    {
+      "path": "design/cards/opportunity-attack.md",
+      "sha256": "e4fd7cb75a07c06b35774bcfa4ad14299b25221c9e057719024b29bdc670f173"
+    },
+    {
+      "path": "design/cards/ordinary-recipe-study.md",
+      "sha256": "78bfd6859d5529ead25f286de159b10a7d8434915ed089833c61071b6691bbf3"
+    },
+    {
+      "path": "design/cards/pack-with-purpose.md",
+      "sha256": "30af29d16713306f9612d8be66296fe39e9bcb5ae3156d76f7c5516a20b0fff6"
+    },
+    {
+      "path": "design/cards/palm-of-the-gale.md",
+      "sha256": "ab9ae43049596e7be5324ed134f79dc4ca22ece3807d7c961fdd53d40be35a8c"
+    },
+    {
+      "path": "design/cards/pinning-shot.md",
+      "sha256": "816357099d337d561fbae2636d2322f35a68626744d9f980e2015347e415d0a7"
+    },
+    {
+      "path": "design/cards/play-it-off.md",
+      "sha256": "3a2b6168123a3c4a5f70ca1ad7d27cb122ca48ef7cda67ab9d0713c326701a7f"
+    },
+    {
+      "path": "design/cards/pounce-of-the-red-claw.md",
+      "sha256": "6b0294e3e59babab2644ac720e5f184e08e8d914e457280b4450580dcf7654fa"
+    },
+    {
+      "path": "design/cards/press-and-bind.md",
+      "sha256": "44cedcf568e390d85649b6960ecc548cd386fdf5586c27adcc0f92f6f1e0ac4b"
+    },
+    {
+      "path": "design/cards/procession-of-the-quiet.md",
+      "sha256": "f8c3a6ef552ccbacc824e8178cc869a592f082c0501e012e9e0f3fa178adb521"
+    },
+    {
+      "path": "design/cards/quick-exit.md",
+      "sha256": "ac39f0fa207de2ac448f4f09c2cd88d019076a2b27e7e12b85b2123d85d3e06e"
+    },
+    {
+      "path": "design/cards/quiet-conference.md",
+      "sha256": "189daddd41d9ca516c61ea89c9892538f35b57bbd6cd7248c4123d9dc3a50d4f"
+    },
+    {
+      "path": "design/cards/quiet-latch.md",
+      "sha256": "e10c2502381b71eceea61a3615138ed2313c7a1c26922480334d767cccdaae36"
+    },
+    {
+      "path": "design/cards/read-a-dangerous-trail.md",
+      "sha256": "aaff6d5e090eff48f952a1a0a60696863a03a4d8cc30a0a352b8f963f1d04566"
+    },
+    {
+      "path": "design/cards/read-the-maker-s-hand.md",
+      "sha256": "8d98caa0522b0d0dacb10e95d3ce62d46f54226593db713e7399f6f0302501bd"
+    },
+    {
+      "path": "design/cards/read-the-next-blow.md",
+      "sha256": "09e8a73c4c3d259056dc44e4c05b0738f1f63ba428fed0b844d98fa0ac10e329"
+    },
+    {
+      "path": "design/cards/read-the-quarry.md",
+      "sha256": "a6465d81712db129577b813ff41ff2248bcbec77400bc56d6bcc1be6844bf36c"
+    },
+    {
+      "path": "design/cards/read-the-remains.md",
+      "sha256": "46dc73e30017b4f84671a3979522e76b718b12cf9f69a13cf85c53abb2040a7d"
+    },
+    {
+      "path": "design/cards/read-the-ward.md",
+      "sha256": "db9e31a46aaa116c6c14dbad668870f30295c5823b1213c7408bfcc73ea26148"
+    },
+    {
+      "path": "design/cards/recall-the-shape.md",
+      "sha256": "1d3b7f94ebf329f04dee0a387a1963781fa2303b2846775024170da8c8e3feed"
+    },
+    {
+      "path": "design/cards/recast-the-footprint.md",
+      "sha256": "fa6b0c576719a1e7c14ec3baceea43a280a55bf648256c28f8db29d32f9bbb94"
+    },
+    {
+      "path": "design/cards/reconstruct-the-event.md",
+      "sha256": "253b010d5269b6879bcfc69512392f25bfeb34c4777bcd71719f09918141db09"
+    },
+    {
+      "path": "design/cards/reduce-a-condition.md",
+      "sha256": "6bfbae67317b15acfaec490f185cc3e9ee4c4c828c408538a767d6b57882c0be"
+    },
+    {
+      "path": "design/cards/relieve-poison.md",
+      "sha256": "a2e0751817d1cdf3ad19cb8cb32a3ca7959f0b7538c491e7c80e949fd3340508"
+    },
+    {
+      "path": "design/cards/remember-this-name.md",
+      "sha256": "e49eb90213d51571d1df3a9c47acb651565c335c779087f6ba85a86981778584"
+    },
+    {
+      "path": "design/cards/rest-for-the-restless.md",
+      "sha256": "388b3a9d030a993a53e156de2aaaf9b6298ee635df97ec8ff9c28ee44ecf3f47"
+    },
+    {
+      "path": "design/cards/return-to-strength.md",
+      "sha256": "98056b12faf85c1f65260495562a6396ecbeb5b7811c17b740acdbc747020453"
+    },
+    {
+      "path": "design/cards/reveal-the-threshold.md",
+      "sha256": "ebad0aff5ce61b6806e02dd13228432a0eb9af36dfe962728fcddb2249733b9c"
+    },
+    {
+      "path": "design/cards/ride-the-falling-stone.md",
+      "sha256": "11fcff4d2cda47c94f762537f3c4e971ce4210dab6c4ce3a1e8a35dbef5a9e3a"
+    },
+    {
+      "path": "design/cards/ride-the-furnace-breath.md",
+      "sha256": "1cfb172aff4be1b73d7bfdb0b6fc7dcdd2ddbdfe3cac1fc72e5a793f76a9216e"
+    },
+    {
+      "path": "design/cards/rim-strike.md",
+      "sha256": "a560490eac1ff5da4a65bb00107d9099cca6d9bfefb29b3e08f444844261d807"
+    },
+    {
+      "path": "design/cards/rime-footholds.md",
+      "sha256": "514e185c41b367e962e631f0d3c9ba8815181a722130a323e01effa764db20e4"
+    },
+    {
+      "path": "design/cards/rime-grip.md",
+      "sha256": "a139c508bcde230b5120bfb9f767008d9174d7ef1fb2974165b97e18de422463"
+    },
+    {
+      "path": "design/cards/road-of-dawn.md",
+      "sha256": "8c5fdacbbfe7184464bf10bcbeff04bbda09b043c1b6241553cf2ca348966551"
+    },
+    {
+      "path": "design/cards/road-of-rime.md",
+      "sha256": "482f5ccd72aaea969294778155efbf3069de673b115c86f1a74505e63f028377"
+    },
+    {
+      "path": "design/cards/roots-remember-feet.md",
+      "sha256": "4c46f51fad46140ac89d81e9824f73c7d3d154e234ab8f14dc51cf063f340366"
+    },
+    {
+      "path": "design/cards/rouse-the-senses.md",
+      "sha256": "ec42881fb30b5e6532cc01fe15db013ff3275452fbc7f19050f286db24eb079b"
+    },
+    {
+      "path": "design/cards/running-vault.md",
+      "sha256": "4e9fd31e5e78e0f1cba75a3d6850f191ccdc096b090e31d52e25682243de349d"
+    },
+    {
+      "path": "design/cards/saddle-and-rein.md",
+      "sha256": "fa1f8a1053797f07186add1cdcad4d397b40be904f7f286380e51dc8ff0c6553"
+    },
+    {
+      "path": "design/cards/sap-and-breath.md",
+      "sha256": "699cefacdaf3b7a72a57e3acbb0c2e53fc76473f1523ad62a46386eb9beb63dc"
+    },
+    {
+      "path": "design/cards/scales-beneath-the-skin.md",
+      "sha256": "0c047a71f341adc36841e19beb752adf77627bb65d80ed554ceb47bd7804775a"
+    },
+    {
+      "path": "design/cards/secure-a-hold.md",
+      "sha256": "0d9e3ba67362c13addc39d49ac6d8524e60b59a84e233cd008a37614857a0ebe"
+    },
+    {
+      "path": "design/cards/sell-the-feint.md",
+      "sha256": "dd21022d72e5a781a8c8803dc92a9a4ba805eccc064a6e84d32cb15dc582b375"
+    },
+    {
+      "path": "design/cards/set-the-wedge.md",
+      "sha256": "0516e1be2b898f3c7a1c95ae2491c55a2213b1f0580e9f817b298dc19c45c2fc"
+    },
+    {
+      "path": "design/cards/sever-the-pursuit.md",
+      "sha256": "1052a0da7abd260bcda99a7790cad8a314c0336aaaade03e0fdbe8454c216fd8"
+    },
+    {
+      "path": "design/cards/shade-the-eyes.md",
+      "sha256": "d08819073bfc25f3c7a8600a7ae2635a62272515d9b3f80a0dfdd79714ceb0b1"
+    },
+    {
+      "path": "design/cards/shared-breath.md",
+      "sha256": "7b3e2e6fc12371b06a98174427c6b83b45663b461958284b64d9b5dcfafe8ff6"
+    },
+    {
+      "path": "design/cards/shatterguard.md",
+      "sha256": "17bf54c6d7669f98d671c2909c5fbd019dc32539f240fc6ab0faaf5d7cf9e9ed"
+    },
+    {
+      "path": "design/cards/shield-block.md",
+      "sha256": "bd890d5b177b2c0eded18b75901adba56c0162c25f7f6a4710298cd662421e94"
+    },
+    {
+      "path": "design/cards/shield-roof.md",
+      "sha256": "dc9948382236b2769492de08de1209deb8d2297878618cd144118b8b3868437c"
+    },
+    {
+      "path": "design/cards/shielded-advance.md",
+      "sha256": "c5dd3425a7d9a27fa397fb7cccb896c548746e9be948c87f5c161996ac143b84"
+    },
+    {
+      "path": "design/cards/shielding-step.md",
+      "sha256": "df2b6d97c0e6e063a049c7b0eaf6dcbf4630f23a44896d42dfcd5b9365813e3e"
+    },
+    {
+      "path": "design/cards/signature-arcanist-arcane-deflection.md",
+      "sha256": "468828f53e8a9bc0d30e3c0630b502e06e4205dee2fdb149ad55f61d29b63101"
+    },
+    {
+      "path": "design/cards/signature-arcanist-bent-trajectory.md",
+      "sha256": "738b7b025388f4b258c82b9af18e8f538066319caff0ca1e2ae027af418c4e71"
+    },
+    {
+      "path": "design/cards/signature-arcanist-cast-and-scatter.md",
+      "sha256": "724b93d46f6da5cadc966776a32d7b0ff43244736be54b7d1b8cd140a896db28"
+    },
+    {
+      "path": "design/cards/signature-arcanist-choose-the-edge.md",
+      "sha256": "aaf1acd96b8d9e7cae077fd1306fb526d186288cdb2c737353520f440548dc4b"
+    },
+    {
+      "path": "design/cards/signature-arcanist-deliberate-spark.md",
+      "sha256": "1e45bd1957791e1596c28161e6c72f4bdc0b392c22a8d5a8bf891c9ccb85488a"
+    },
+    {
+      "path": "design/cards/signature-arcanist-fold-the-distance.md",
+      "sha256": "3907938adc529cda826600531546cd99616818fb6f2abf847ece9b73e866aa1f"
+    },
+    {
+      "path": "design/cards/signature-arcanist-leave-a-window.md",
+      "sha256": "b9cd6a295314dd6fd58a8410a3cc00c492358407b3171b70f548209b85e070b9"
+    },
+    {
+      "path": "design/cards/signature-arcanist-open-the-circle.md",
+      "sha256": "68eb3dfd6e9002fbfacae9d4ac3cb9a3dc210080b894a7e5b54c4f1299b7a40c"
+    },
+    {
+      "path": "design/cards/signature-arcanist-study-the-pattern.md",
+      "sha256": "9f0bb4fd27a5d1922c11f86bd74ab0c2b0f38c0c2fd8785341c0af02c5b21d2c"
+    },
+    {
+      "path": "design/cards/signature-blade-cut-and-turn.md",
+      "sha256": "2727ac305070fbfa70f41def1e6f1044c4fc27cc1b6ddc1f9c0e33bc116ca967"
+    },
+    {
+      "path": "design/cards/signature-blade-dance-through-steel.md",
+      "sha256": "d5ef338482ae1ef00aa99d192f12e07f57083f1ce2fe82560a587ec0aed5c267"
+    },
+    {
+      "path": "design/cards/signature-blade-fell-the-balance.md",
+      "sha256": "697fa3f9c66317dc806da9b4977b1468697b8cd0ec7aaa71d59d26b47f9ff2e0"
+    },
+    {
+      "path": "design/cards/signature-blade-measured-guard.md",
+      "sha256": "76ca12056335e22d66c72e4c11355f600cabd4e7d423217c3a444e117c80d084"
+    },
+    {
+      "path": "design/cards/signature-blade-perfect-placement.md",
+      "sha256": "c0585b27c196f7738bf8cab66554927303fdb8f4614f2d53557b8e19ffb65521"
+    },
+    {
+      "path": "design/cards/signature-blade-pressure-point.md",
+      "sha256": "310849ac3504c3547713bf561065ef36a500cbae77de70ef52bbf088122684b6"
+    },
+    {
+      "path": "design/cards/signature-blade-relentless-pursuit.md",
+      "sha256": "127ae4f86af5eefa1fd0cebcf19d13b74714d8c4603b64f1394a3623c0f9e800"
+    },
+    {
+      "path": "design/cards/signature-blade-return-stroke.md",
+      "sha256": "f7ccc5488fb845be80b7d786f3b1fea73fe9bdcd83c2a7aac02fa01d2f0a8a4f"
+    },
+    {
+      "path": "design/cards/signature-blade-sweeping-entry.md",
+      "sha256": "9c2ec1968e2c8dc94eb9a0c4a149ed712234aa1829d8ecc7483e4dc4e8ae8587"
+    },
+    {
+      "path": "design/cards/signature-intellect-a-better-angle.md",
+      "sha256": "a6f551ea7e87d9d28e1d261675134bbb50f605e566f94e44d6329ccce7586a77"
+    },
+    {
+      "path": "design/cards/signature-intellect-a-route-for-everyone.md",
+      "sha256": "5ba1ae98f150d41236ba6efe68bf2bed791866197f11091a93e46df0e06445d5"
+    },
+    {
+      "path": "design/cards/signature-intellect-diagnose-the-failure.md",
+      "sha256": "5b82404e954069447bafa50e488868f03149beaf5acf861198684b0a5fe1cecf"
+    },
+    {
+      "path": "design/cards/signature-intellect-expose-the-mechanism.md",
+      "sha256": "e82cf097cc7925c3f8c519eeac435dafa458c06c8520c7f6996e0903d428d28d"
+    },
+    {
+      "path": "design/cards/signature-intellect-make-the-connection.md",
+      "sha256": "408878037eb4aa35e73da5f39a7f3fa760ff8b1a6066b07e37cabc4b43f5f225"
+    },
+    {
+      "path": "design/cards/signature-intellect-predict-the-motion.md",
+      "sha256": "6fd6f56093ca8557d26456c22e9103e89421928c0f3698702c56a66cab443f26"
+    },
+    {
+      "path": "design/cards/signature-intellect-prepared-explanation.md",
+      "sha256": "992c351977c23f06b744bbe75a29d166824a5c070940506f231e32eb785e495f"
+    },
+    {
+      "path": "design/cards/signature-intellect-spot-the-leverage.md",
+      "sha256": "2486c6eb34016955416efeb5c96fc5a4a9f5509814925e75cfbb11c572a6cdf3"
+    },
+    {
+      "path": "design/cards/signature-intellect-test-the-hypothesis.md",
+      "sha256": "5e38f574e4437cc714237c129d33ea07f217bdeff3a101fb84b64b38cde250a7"
+    },
+    {
+      "path": "design/cards/signature-leader-coordinated-rush.md",
+      "sha256": "126e6915ddb0ba9c5808267feaa971cd4ac361046ba13ea15d61c4b1b7bb5e38"
+    },
+    {
+      "path": "design/cards/signature-leader-follow-my-signal.md",
+      "sha256": "07d34de207310bff1799f7d26ee6dc6a8bd42636cb0da470447b46fdb16fa05a"
+    },
+    {
+      "path": "design/cards/signature-leader-hold-your-nerve.md",
+      "sha256": "ae3e83200593706995f2e1eead30d49c359d807935990fb344083e0ab186523d"
+    },
+    {
+      "path": "design/cards/signature-leader-lead-the-step.md",
+      "sha256": "4a0fa432195118c6b8bcb92d46e3c43e06e415d9c73856450f5f3f5576d21461"
+    },
+    {
+      "path": "design/cards/signature-leader-orderly-withdrawal.md",
+      "sha256": "384e95a9862fca98f9c1f839e6a1e604a56cc80b7e25f680c4413e975fc5e0f5"
+    },
+    {
+      "path": "design/cards/signature-leader-press-the-opening.md",
+      "sha256": "28082686ddbaad2648817efd4797f29009a017c46cbb5a6755303bdb2794aebd"
+    },
+    {
+      "path": "design/cards/signature-leader-refuse-the-rout.md",
+      "sha256": "17ed234da2fa842c21ffb8adc70f532f537cb251a8fad3cffb32e5091da2b566"
+    },
+    {
+      "path": "design/cards/signature-leader-stand-together.md",
+      "sha256": "b1b2005fcf6d3f318499df41c6c3b9b07f1a02f40e78b45c66940019a8bcaab2"
+    },
+    {
+      "path": "design/cards/signature-leader-watch-the-rear.md",
+      "sha256": "ecbb54ca5912642855408acd8fea4e88a26d5e5deb030fcce323539e43cb65b1"
+    },
+    {
+      "path": "design/cards/signature-odd-always-a-way-around.md",
+      "sha256": "682eccb82828ecfdf2d0eb19fd227b8bee8b2a7b7425334854e6dc8ce67d3e44"
+    },
+    {
+      "path": "design/cards/signature-odd-an-unexpected-exit.md",
+      "sha256": "fc6e64a849942353ccc220f0dcb8428e67ec022d23c416a55c1f906bbc6b1d76"
+    },
+    {
+      "path": "design/cards/signature-odd-change-the-question.md",
+      "sha256": "0c4e30b817dd5fb9e4c46bf1910e7e84c050985293fb00a4376ea86cc9339aa4"
+    },
+    {
+      "path": "design/cards/signature-odd-one-last-remark.md",
+      "sha256": "76bb7141a166c497652eae9bbfc052177db781993a904a50320832d22c1f86e3"
+    },
+    {
+      "path": "design/cards/signature-odd-sideways-thinking.md",
+      "sha256": "cf2ccf99ac66435ad81c3143b4ac03aaf565be3cbf39396268422e0f7effffc9"
+    },
+    {
+      "path": "design/cards/signature-odd-strange-but-effective.md",
+      "sha256": "d7ad5cd1b9de15e825c3d170ed3a039c3cdec74ccc033cf4a146826d53e67573"
+    },
+    {
+      "path": "design/cards/signature-odd-unlikely-assistant.md",
+      "sha256": "52a28b42d920d202e17e2e9f8441c08cfe4385611a341ae7acfaee03b7e8bbaf"
+    },
+    {
+      "path": "design/cards/signature-odd-useful-interruption.md",
+      "sha256": "6998b7c9f0d5b27c7d9d8bd0aea149aaccd5db75897bd90cd1a4813e31a3768b"
+    },
+    {
+      "path": "design/cards/signature-odd-wrong-place-for-that.md",
+      "sha256": "bbb47f3753215960b895bae1322f3448b4efd5f492d2183d5664088f4bbaf2f6"
+    },
+    {
+      "path": "design/cards/signature-protector-between-them.md",
+      "sha256": "212c4ecdf598446f6d5bff25136fdcd5e1d52647e5ace27d56c67b22f56a5de2"
+    },
+    {
+      "path": "design/cards/signature-protector-break-their-advance.md",
+      "sha256": "82a6a8830a242c9135d8fdaedf973d225e358ba963d1714a3f28ded80444c9ac"
+    },
+    {
+      "path": "design/cards/signature-protector-close-the-gap.md",
+      "sha256": "a73f9e129e93eb695c076a18f8739b805d34e761501c181413b23a06f0e375b6"
+    },
+    {
+      "path": "design/cards/signature-protector-defiant-rescue.md",
+      "sha256": "5c1ef25fea22fae097be2746cb689ae64030223c68f66e52edd63a4611ef5632"
+    },
+    {
+      "path": "design/cards/signature-protector-drive-back-the-circle.md",
+      "sha256": "47dcdd537be505c62374eef3e0ee3dbc7bfde7b1c8ba9b33039406ec83754e4f"
+    },
+    {
+      "path": "design/cards/signature-protector-make-a-refuge.md",
+      "sha256": "cb33fe25ac7ce20972d57a9b034dc6b8cb10cb751c8520babc007b1a5998a3d2"
+    },
+    {
+      "path": "design/cards/signature-protector-set-your-feet.md",
+      "sha256": "6bceb174c4090277e04736f3e4d210f9d0d638e52866481261eb08784c8f78e1"
+    },
+    {
+      "path": "design/cards/signature-protector-shelter-the-fallen.md",
+      "sha256": "f4d28dd24537335e5f674066a28ea9abfddff08a471c234ff85acf07b07ad778"
+    },
+    {
+      "path": "design/cards/signature-protector-unbroken-passage.md",
+      "sha256": "3f0d948f39801eb0bc2114355c8bb9f276da03561bb526ff8b567ea9fbf188f0"
+    },
+    {
+      "path": "design/cards/signature-shadow-exploit-confusion.md",
+      "sha256": "cdfc074a60e2267e2bf955c3ef7d01f27e84b57abcbcd185c127e68170b94d5a"
+    },
+    {
+      "path": "design/cards/signature-shadow-fade-behind.md",
+      "sha256": "aa0aaf068b60bbf5fad4db94c79f1a76e1c90eaa09a916b6965194b63c148c59"
+    },
+    {
+      "path": "design/cards/signature-shadow-leave-no-pursuit.md",
+      "sha256": "0fd9732816f1730ab46e978dea73d7e2cd0caa26ceb3a17b6a4bc89c1cfc54e9"
+    },
+    {
+      "path": "design/cards/signature-shadow-open-the-way.md",
+      "sha256": "61f6b483baa3cb77e487f34e77aa47710777aa24e640052cdc847194c7687dfc"
+    },
+    {
+      "path": "design/cards/signature-shadow-pass-the-guard.md",
+      "sha256": "97268ab578e6118751567827051f276a08ef043a989bd7853deb7a18d2e18bef"
+    },
+    {
+      "path": "design/cards/signature-shadow-soft-landing.md",
+      "sha256": "7e951ebb138d27dbd3a396ca2f79212ea62968fdf0f426127920acbe023d3a6b"
+    },
+    {
+      "path": "design/cards/signature-shadow-strike-and-vanish.md",
+      "sha256": "99e8a57b4ab383947e8e0c8d28bda34d63a8cf70a8d860af0681fdfeaa995016"
+    },
+    {
+      "path": "design/cards/signature-shadow-turn-their-eye.md",
+      "sha256": "5a6f7e7acea819339617ffe31a3d2111e5d9585263df77a61934714243c30e05"
+    },
+    {
+      "path": "design/cards/signature-shadow-unseen-passage.md",
+      "sha256": "91e51ce96f73a2eeaeb2fd117988ec249c5f899794fff32386348ce97b2fa898"
+    },
+    {
+      "path": "design/cards/signature-shepherd-a-hand-in-darkness.md",
+      "sha256": "96658a0686e2a27fb44469ef7d2adf4a81bd4b2cbd572ab7a47ca5401cd5584f"
+    },
+    {
+      "path": "design/cards/signature-shepherd-bring-them-near.md",
+      "sha256": "225526e13ef3b56dc21c6da346725dd417b080df21612e7dee2cf9a6304ac820"
+    },
+    {
+      "path": "design/cards/signature-shepherd-careful-transfer.md",
+      "sha256": "bb5fb86b34e3d9d1433cb71901797c429144ce20b4702beb82f5f8e7fd45f533"
+    },
+    {
+      "path": "design/cards/signature-shepherd-ease-the-burden.md",
+      "sha256": "84cca3772c2e4d4eac835c3e35cec5f2d1015006e1d63832228be08b9de3f82f"
+    },
+    {
+      "path": "design/cards/signature-shepherd-gentle-return.md",
+      "sha256": "73af87c8182f9918144d7f89ec95031f3cc8383140ff84b59f2b763e54ce8da2"
+    },
+    {
+      "path": "design/cards/signature-shepherd-hear-me-still.md",
+      "sha256": "899de41945a33565dbc818af2c647e18b4e2492caaa989c6a89c5d1bf936232d"
+    },
+    {
+      "path": "design/cards/signature-shepherd-quiet-the-tremor.md",
+      "sha256": "9431fddefe1e586d164caf76445b9941e5c2b81d1507b3fadad05259cc88278f"
+    },
+    {
+      "path": "design/cards/signature-shepherd-restore-composure.md",
+      "sha256": "0b123bf29ca88987b2035eee97b220c7c312722df0b907d43ebf020fe4defe41"
+    },
+    {
+      "path": "design/cards/signature-shepherd-shared-resolve.md",
+      "sha256": "22982207bc4ad4974606591a00d1a7af7c6d0ae2de96a92ab17e8accf734e951"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-break-their-grip.md",
+      "sha256": "038c515af59e6e58048ecd2b9e9aa6b99894e385e4c7a21158633dda75133e27"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-crash-down.md",
+      "sha256": "fc46f0ede05fc8f184a7278f0c83958c9332eec36d4d9c85c2def13a3615b2cf"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-crush-the-barrier.md",
+      "sha256": "2d6d09c36b67fc5c9ea6d2659aa367c64fffb285c7e88ce459ae33ab1d0d1de7"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-fling-the-captive.md",
+      "sha256": "6f684226f80786a0f8434f5c90baa8d4fdcf5acca4fb2b330e6b6b49ffa11fe0"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-laugh-at-the-fall.md",
+      "sha256": "e210924c6ddd6b7aa90a4b82a3ec5d9272c9d4470a601583bc92a0c2f746eff2"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-raging-recoil.md",
+      "sha256": "1e08c55c250d6c199b9d867a019bb330541c4489a28b8d09c4a8905e3cc3ff9d"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-scatter-the-line.md",
+      "sha256": "452079d952d1308e978ad6774d4273440ab9ee744d7ecdfc29514dbef7d711f8"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-shoulder-through.md",
+      "sha256": "2ec31bc5effcd7ab921bdb651d9c78c31c23fdced032f06fe8fedfdc35ed6d35"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-wild-approach.md",
+      "sha256": "f596a3e9be4e58d74273bf2416d645484171a3a2bb7be74d3fa793cf81f78568"
+    },
+    {
+      "path": "design/cards/signature-warden-a-watchful-rest.md",
+      "sha256": "40dbdfc4e26019b6870f34f01ed2cecefa3b80866c374bcb4b2365ba2ce66fe4"
+    },
+    {
+      "path": "design/cards/signature-warden-bring-them-through.md",
+      "sha256": "185f66fdde8a90d32875d8dec31d85c5ef5fd656746430d0f2d9948228ba2457"
+    },
+    {
+      "path": "design/cards/signature-warden-follow-my-footsteps.md",
+      "sha256": "7c58469f28fa4761ef99ee9f12a29f5e05a18d62b6b91be124b5a783ac3e85d3"
+    },
+    {
+      "path": "design/cards/signature-warden-keep-the-quarry-close.md",
+      "sha256": "2fc9ac0363310302b864e5f4bea04d127ad9ffe893a4aec6413427208c395a54"
+    },
+    {
+      "path": "design/cards/signature-warden-know-what-you-hunt.md",
+      "sha256": "4288f494978c5238f6fb0c9a8032988901cbdf24a0f6c00f3debf8c3bf48ecc5"
+    },
+    {
+      "path": "design/cards/signature-warden-read-the-passing.md",
+      "sha256": "36303945575831d553f49f1bbf28cd9fae563e9ceb56cdb2da5ea0c2ab9cc27f"
+    },
+    {
+      "path": "design/cards/signature-warden-stay-on-the-scent.md",
+      "sha256": "00d1cfeb9a8372542fae38435cdb407f25a77bb9d97c264d18f6c2a6ce861517"
+    },
+    {
+      "path": "design/cards/signature-warden-through-bramble-and-stone.md",
+      "sha256": "8752ae10ad51c6aa3fef13d26c1b4e69b1eedc56549c25fcb6c60e64147dbd24"
+    },
+    {
+      "path": "design/cards/signature-warden-turn-the-hunt.md",
+      "sha256": "67091ce87948b2dea8b6f4b9667e5e55ae6c185a42b3fcb224025a53efb474d8"
+    },
+    {
+      "path": "design/cards/silence-the-alarm.md",
+      "sha256": "faf056051a11c274b4c95ef8a153d6f01047109c89c9e2b18c8bf0ba49d0efc6"
+    },
+    {
+      "path": "design/cards/silent-cue.md",
+      "sha256": "bd98321b2213d94ddc40342bf118bdcf871c7da09de5ec500a96c6310532dae3"
+    },
+    {
+      "path": "design/cards/slip-the-closing-door.md",
+      "sha256": "f001040b9b6a66ba3d6e8a94af390d4c683b2cca755aa79c5600c3faefc98ef7"
+    },
+    {
+      "path": "design/cards/smile-before-steel.md",
+      "sha256": "2e7bccf5de29994bc2b2e3c11625cf2bb3d41d637595f68dbec0d2d5a489f2d4"
+    },
+    {
+      "path": "design/cards/smoke-in-a-bottle.md",
+      "sha256": "91600100d2cc2de15df640d1cddf32dcb05759fdabf26114fca79b5942e34bca"
+    },
+    {
+      "path": "design/cards/smoke-through-the-keyhole.md",
+      "sha256": "2181897cef52b6e8a1d04c3f59419524e6b5cffd94358d9b6a32b8a85c52d744"
+    },
+    {
+      "path": "design/cards/snare-the-missile.md",
+      "sha256": "c91722d584ff57945c116367ddc98134b6cc8360e7a9b46a97d95648073b5a99"
+    },
+    {
+      "path": "design/cards/speak-with-the-hearth.md",
+      "sha256": "d2c813ff2fba4371e0eb7fa989a673aa90ea9b90a269177a6dc44617d42d9a4d"
+    },
+    {
+      "path": "design/cards/spot-the-tell.md",
+      "sha256": "aecd86cb97f1f0f491e0f988be7f6bcb94db43813df8e0e0ca475245b5e9d867"
+    },
+    {
+      "path": "design/cards/spring-in-the-sleeve.md",
+      "sha256": "cc9ac698bb04221cb3aa72dcb299902ae1a7aacaee193170befce310d105afd2"
+    },
+    {
+      "path": "design/cards/stabilize.md",
+      "sha256": "6ed8bc954dd9f45c7157f6e46f455c7c31303285b020e05c179390977557d7b3"
+    },
+    {
+      "path": "design/cards/stand.md",
+      "sha256": "2755f4b56e931196755599882ba39b9e23ebdcedeaaab9219f01ba6e9134f1a8"
+    },
+    {
+      "path": "design/cards/stay-with-my-voice.md",
+      "sha256": "7eb2d951c64a0f10f3cb3bdbf9c0045233d3d80ca822c256aa53c6841ed46934"
+    },
+    {
+      "path": "design/cards/steel-at-the-wrist.md",
+      "sha256": "c263759c45b45268f57d5dfe2031da9967b89af97314639abbda060694ebc52c"
+    },
+    {
+      "path": "design/cards/step-between-lanterns.md",
+      "sha256": "be73544c810cf946e0fc4d33e2c34c8642d4eeaed48a57f10df9471e206025f5"
+    },
+    {
+      "path": "design/cards/step-through-the-spark.md",
+      "sha256": "5d1b6df941f309e27a789e8f64b8f2dd3c867ac5ae67bc12477641e28b5cf87a"
+    },
+    {
+      "path": "design/cards/still-the-avalanche.md",
+      "sha256": "5ec6c512bf1742aa536510b338899feb50645c4c97ca69a84a4072b6dcddbe7a"
+    },
+    {
+      "path": "design/cards/still-the-will.md",
+      "sha256": "d04eaefc2034d33aa14dcdbdf9ed7b34f91343024e2978996c5e8d09df63d55d"
+    },
+    {
+      "path": "design/cards/stillness-at-the-center.md",
+      "sha256": "c29b1f37696c4f98a152d6eac3e5bae75c34fc4ae53898907fe88cab9bc31464"
+    },
+    {
+      "path": "design/cards/stitch-the-living-pattern.md",
+      "sha256": "b87b8e2779e5132424ae4242d712be4aac4295541b9b35c7c1bd901b2841741e"
+    },
+    {
+      "path": "design/cards/stone-on-your-shoulders.md",
+      "sha256": "cbd86211869e32afb8d3548ee46786fa6a04873855dbff1870d84f320989c323"
+    },
+    {
+      "path": "design/cards/storm-on-a-string.md",
+      "sha256": "919547bd4c91feae16f8656cbb6c48f1fcd3ced0d13b046ff5d85fdcc060db8f"
+    },
+    {
+      "path": "design/cards/stride-of-the-giant.md",
+      "sha256": "807ec6b7e3048a4f9a1ec3af10d0fc0b5021a07291da526016221c6d27b1829f"
+    },
+    {
+      "path": "design/cards/summon-construct-master.md",
+      "sha256": "be43517247c6fbc7633b7a0a45ca614d180427e43aedc707177c41958253e003"
+    },
+    {
+      "path": "design/cards/summon-construct-novice.md",
+      "sha256": "cc7522154e874f05ada89166db178ba2d36c57413f36ac8bdcad6e0fc5b3c3b1"
+    },
+    {
+      "path": "design/cards/summon-elemental-adept.md",
+      "sha256": "3d1dab66362f3bb7aecbea1e38429000cd0ebac638210a9b3c6257c9be3cd4f7"
+    },
+    {
+      "path": "design/cards/summon-elemental-novice.md",
+      "sha256": "d8005da56ce1c6aae3de126366ba8a134f5ab00eb36899d2d6270ecf1e9b1dc1"
+    },
+    {
+      "path": "design/cards/summon-fey-adept.md",
+      "sha256": "359f1c700be3704f80869bf44caa47a5b384c90b7bb63226be27f9b1fa3d4678"
+    },
+    {
+      "path": "design/cards/summon-fey-master.md",
+      "sha256": "a71c5572910fe572a199029a69ec4d5a850e90d9cea6e44ade4953f2ec5de212"
+    },
+    {
+      "path": "design/cards/summon-undead-adept.md",
+      "sha256": "5954ae144bdfc0486777c61cb06458a073b11c1291577e773b25264090d73696"
+    },
+    {
+      "path": "design/cards/sure-ascent.md",
+      "sha256": "89b03fbd4c23a85429199738b3a20e4e533559ece20254675b59c79bc5b41059"
+    },
+    {
+      "path": "design/cards/sustain-the-failing.md",
+      "sha256": "0be89c1bcd7a5df2593af068c24ed0926d562b7f5d42cb5f63a7a800f1780488"
+    },
+    {
+      "path": "design/cards/swing-into-trouble.md",
+      "sha256": "29e3771b5770d548d86d864898ceac1a6eb72531c155997fd08553b6250e61d2"
+    },
+    {
+      "path": "design/cards/take-the-measure.md",
+      "sha256": "04d55da6c8083a763724f30ef4b49f0caa9656e30c5c6b9df1cc5b26c6e0d7f4"
+    },
+    {
+      "path": "design/cards/take-them-alive.md",
+      "sha256": "60972c9c7b1f7c46618856c76b4f119d0bf8f22fb9bfb468e93753951956c6fd"
+    },
+    {
+      "path": "design/cards/teach-stone-to-bend.md",
+      "sha256": "ada885377b0263c09f763f502a491a783bf35cf8241921ed05d7e4f4ef5c6694"
+    },
+    {
+      "path": "design/cards/tell-a-worthy-story.md",
+      "sha256": "e1efccf5192734e03e79b52d3dac7c11aefb8b6294d8b3fbdc99dcce82ace363"
+    },
+    {
+      "path": "design/cards/terms-before-swords.md",
+      "sha256": "f8002b8d6b89f9fa984db8363a89cccbdafbbc36d014b118115e1b1c68282ff1"
+    },
+    {
+      "path": "design/cards/the-ancestors-stand.md",
+      "sha256": "f03e91dfc2d23dde2e2f2ba755deb96b4b22e89ef764fa10272f41a41d4d6a90"
+    },
+    {
+      "path": "design/cards/the-angle-of-unease.md",
+      "sha256": "c14e5ee145ea402975bde852793ad581f7354ec00ef8c352399301e9af281b0d"
+    },
+    {
+      "path": "design/cards/the-bones-rise.md",
+      "sha256": "336b421f7445d3dba8b10d3cb72186361b15760fdfaf708f322cf234e8a7c06a"
+    },
+    {
+      "path": "design/cards/the-chorus-advances.md",
+      "sha256": "a34327d48ca89029e09383dde5219f35b5daae7bd394dc361b95d9c700a78357"
+    },
+    {
+      "path": "design/cards/the-circle-holds.md",
+      "sha256": "74bd0ef7ca6cdc01047282719a8cd3137d5d706e5d1c106fe94db42af2dcac59"
+    },
+    {
+      "path": "design/cards/the-city-opens-its-doors.md",
+      "sha256": "8e6655055710ffdf345f623e834e0218babf979b8bba344b88e3e0dfce516d53"
+    },
+    {
+      "path": "design/cards/the-cleverest-mixture.md",
+      "sha256": "62c2dd46ff78b76bff69dfab5524f6bd9c9f55a069763a4def6c558ce271e89c"
+    },
+    {
+      "path": "design/cards/the-debt-comes-due.md",
+      "sha256": "eb36a2f1f25371f76ef7da366642908c0810d3fa41ca636df09a17c160e0dbaf"
+    },
+    {
+      "path": "design/cards/the-forest-takes-the-blow.md",
+      "sha256": "53054916fde6ef753607fe075cd1a70a58134e4eb3fca0e9bdead01ff4cffcdc"
+    },
+    {
+      "path": "design/cards/the-grove-gives-back.md",
+      "sha256": "73d0afab9033f870e6d4476b262b146022cdc0718f5fe8dea8f5cf42f6c77720"
+    },
+    {
+      "path": "design/cards/the-hunt-ends-here.md",
+      "sha256": "29f8a50ea96c3f57d0aaeee8d807a466033044da42b32dc6000dfb885222ca6f"
+    },
+    {
+      "path": "design/cards/the-impossible-escape.md",
+      "sha256": "6959cfec1c40fa7d6645f5ca91da145e9e3e60267475a4a577df11f17974e632"
+    },
+    {
+      "path": "design/cards/the-key-changes-hands.md",
+      "sha256": "d28a76fd8320c3efee3c483806ad5be8c1537deeb507d3e48f180807d7645e5e"
+    },
+    {
+      "path": "design/cards/the-land-keeps-no-secrets.md",
+      "sha256": "e5b2f2befdaeb586d3a33d7ea9b8046a3ed4c964614103b06910b208d095329d"
+    },
+    {
+      "path": "design/cards/the-last-word.md",
+      "sha256": "0c996aca18ecb929a11a8bd99ce07fa04b72468412b1bfa58bbedb2ed20510ed"
+    },
+    {
+      "path": "design/cards/the-lucky-trinket.md",
+      "sha256": "e40ff309cbaaaa4ba3de47ca8377e33ab7cc90ae5a78d48f550f3ca8846e5880"
+    },
+    {
+      "path": "design/cards/the-moment-foretold.md",
+      "sha256": "ae7556f4c9caf93d57e8e863186d2884349aa72e5df9d88107d1fd901d29f70c"
+    },
+    {
+      "path": "design/cards/the-mountain-walks.md",
+      "sha256": "a3bb6a8dbaf674a3e3479adeaf1405755af6c9140ece57f824d49807ce12c2ce"
+    },
+    {
+      "path": "design/cards/the-orchard-wakes.md",
+      "sha256": "9cbd32c7154e47288ca373d2d3577a9cd4b5d8f96de302aff366cb0c5f30bdb0"
+    },
+    {
+      "path": "design/cards/the-otter-s-bargain.md",
+      "sha256": "9742eac6b294d0d3361213fc9f49a977be581322feb4b9cd9e3e83220330ae39"
+    },
+    {
+      "path": "design/cards/the-patient-metal.md",
+      "sha256": "b7873192d02ae8dc9874f10570a72579fc679791be032496acc42331ed63a769"
+    },
+    {
+      "path": "design/cards/the-right-small-courtesy.md",
+      "sha256": "d5b49778832aa05a715a208eecd2378b6990d175489485666f8c74ced651d875"
+    },
+    {
+      "path": "design/cards/the-road-remembers.md",
+      "sha256": "0f223b61249afc25baaec869bf23c82f81bf3ad67436105794eee0cb8d09a344"
+    },
+    {
+      "path": "design/cards/the-shape-of-escape.md",
+      "sha256": "ca4af35c3c4fc6d90de17ee89e4d10408f1afc874e3c9021a8004cbc4b9940aa"
+    },
+    {
+      "path": "design/cards/the-sky-comes-down.md",
+      "sha256": "fff7b4726dc38c479f584de61ae7f74d9ec6701bba4eaed5c2d92e462891de6d"
+    },
+    {
+      "path": "design/cards/the-strong-arm.md",
+      "sha256": "55a6eebbe10ededdd9a82b91dd2a8039baba6946a769f1cf9b96a62d53e48b31"
+    },
+    {
+      "path": "design/cards/the-tale-will-tell-of-you.md",
+      "sha256": "280aaa6f2f7790457f169a6eb534c5d292591c232dd6d3eee05c75a656c73dde"
+    },
+    {
+      "path": "design/cards/the-unlit-road.md",
+      "sha256": "175fa1108529fd8d98f16b668ab016df9bc9dd37296551929b9d12720ba825cb"
+    },
+    {
+      "path": "design/cards/the-untroubled-hand.md",
+      "sha256": "664f5876c4389c047fa1955e2f2c6017348e64a8cdc01b3e2437cecc9eddb1d2"
+    },
+    {
+      "path": "design/cards/the-walking-toolbox.md",
+      "sha256": "d78f9399a4e3dccb413ae17645a1952062807f9049daddad66a43622ad0f4610"
+    },
+    {
+      "path": "design/cards/the-web-of-whispers.md",
+      "sha256": "199fb9deb495c1071a083b7e17d25183bebb59268655106da067f13b33e8075b"
+    },
+    {
+      "path": "design/cards/the-wind-makes-room.md",
+      "sha256": "d74530749c62cf1a450426a93ec524d9c404d450240243c374caa7ebc4fbde7e"
+    },
+    {
+      "path": "design/cards/thought-before-the-blow.md",
+      "sha256": "49a4eb62bcc8001c89ed520d9f88e06ef012772183a7fbc6001ef516070090ed"
+    },
+    {
+      "path": "design/cards/through-the-spearpoints.md",
+      "sha256": "ee0d91d152a5abad913611d2679955ce21560a79a12971611ba1702211a6853e"
+    },
+    {
+      "path": "design/cards/thunder-at-the-door.md",
+      "sha256": "13b1400786d827519c0c205f805e361e8bb3f876377f530e62465a514bef3569"
+    },
+    {
+      "path": "design/cards/thunder-ring.md",
+      "sha256": "e67b406ab54b2a43cbf25433d8ccf0cd384ca8221214d4a428f17ea2e2f462ab"
+    },
+    {
+      "path": "design/cards/touched-by-the-divine.md",
+      "sha256": "af0694fe8aa37a9dbfbd1e340741cef6c944a35a598278aac235c03967c7d19a"
+    },
+    {
+      "path": "design/cards/trail-workshop.md",
+      "sha256": "51a77a8c96e50bd4ea58a2afb6902e352a57d24e1603c2bf4c305d1bbc678b3c"
+    },
+    {
+      "path": "design/cards/translate-the-fragment.md",
+      "sha256": "eded3830db2e4443307ae34c7591af4fca76d7772015d4a82b31d37b324bfb53"
+    },
+    {
+      "path": "design/cards/traverse-the-impossible.md",
+      "sha256": "8de88292b436f84b99e59c80ab1ce62f12c971cc029615595d315ed0d42fe1ea"
+    },
+    {
+      "path": "design/cards/treat-bone.md",
+      "sha256": "83fde5e22be6c44908ac152ecc811dab94fc78f6741e239058ff723947bb2541"
+    },
+    {
+      "path": "design/cards/treat-elemental-injury.md",
+      "sha256": "7121173315ad7ba04718c778484bc6f474dcd1c7e6df6881723b44d1185a6794"
+    },
+    {
+      "path": "design/cards/treat-life-injury.md",
+      "sha256": "3aa2d0c5c911eac37262f317702500b565c64c2ec71487fe1b34b452f5c1a16b"
+    },
+    {
+      "path": "design/cards/treat-mental-trauma.md",
+      "sha256": "bd09d86e508ad0c444f8cd71caf81fd830d24ce74a966370b0bce23ac3316c4e"
+    },
+    {
+      "path": "design/cards/treat-radiant-injury.md",
+      "sha256": "5ae41742f8863ef4bb0bf8149599992427959c97589c6954776ba733ec5a213e"
+    },
+    {
+      "path": "design/cards/treat-soft-tissue.md",
+      "sha256": "b7b96f50fc235bb4496ac7ba6754450b5b55ec199582001697f73f35269be77c"
+    },
+    {
+      "path": "design/cards/turn-the-fall.md",
+      "sha256": "066f134db7c35c85e458f306a43ffb15d880a70ecb87343f1511b20acf26d4b5"
+    },
+    {
+      "path": "design/cards/turn-the-river.md",
+      "sha256": "e01783fef7e900680c8219df164ecbd5748561b5f14ca6a034013cd2b8e6f61b"
+    },
+    {
+      "path": "design/cards/under-their-guard.md",
+      "sha256": "ecb73dfec6381ac931ed2a6ccc6b02e3bd9c6f0a5a5c0c00d392b47da3425c25"
+    },
+    {
+      "path": "design/cards/undertow-answer.md",
+      "sha256": "78aee0a38fbf25585a63e56fd09185790bc6bc184264eb8f6f34b69ea0611afe"
+    },
+    {
+      "path": "design/cards/unravel-the-bolt.md",
+      "sha256": "168da5ceb48f1407400a943f33f07e618095e615498f1b6b13f85322ed0fb7a2"
+    },
+    {
+      "path": "design/cards/urgent-bandaging.md",
+      "sha256": "7e7a03f7bdd496134bf2561752af0a238cdea72ada1214f3cdc1e8310c2de0c2"
+    },
+    {
+      "path": "design/cards/use-a-healing-potion.md",
+      "sha256": "210f6e2c84a51dd31f6b44a534f602e703b137eec38cef08697a63d1fdec82ea"
+    },
+    {
+      "path": "design/cards/veiled-crossing.md",
+      "sha256": "fffaa6945a8c0919ec82809b87182867ff47157c634778f2f51b1855fe6ec321"
+    },
+    {
+      "path": "design/cards/wake-the-iron-rune.md",
+      "sha256": "70c931051466bbf43b16edef1073fe2bb7d2cd8f43d91e4ab2ec75098d14e4b1"
+    },
+    {
+      "path": "design/cards/wake-the-nerves.md",
+      "sha256": "19c435b810ad7d855dde98ca32df9c2400dbaa344b41ea1b7083d99692975992"
+    },
+    {
+      "path": "design/cards/walk-the-thunder.md",
+      "sha256": "be76eb6beae682ce44b1e1852c8d2a9a900e2f2f854e01965ddc9f18403c6556"
+    },
+    {
+      "path": "design/cards/wear-heavy-armor.md",
+      "sha256": "8fd78167e224dce43bc6e37bf5e8a816e6209ff6c04f1fc53c247d4499b87b34"
+    },
+    {
+      "path": "design/cards/wear-light-armor.md",
+      "sha256": "088eb8fb1130c9e715d950805919047c65535a1e1c49166c6b123bf6eabdc91e"
+    },
+    {
+      "path": "design/cards/wear-medium-armor.md",
+      "sha256": "b3e1c4630f93f688d85f09ac5eb3de27176aad245db74b9c1a6d0f5b653b65c1"
+    },
+    {
+      "path": "design/cards/wear-the-great-beast.md",
+      "sha256": "18b4b69e3713bdc28c62ef8cebbc2eca1dfae3ce2d95c85d92a945d82508be93"
+    },
+    {
+      "path": "design/cards/weight-of-iron.md",
+      "sha256": "1c470261c5bc2a5fee6f6627b1369e140883cc586bedc3b4c5bc91b971360098"
+    },
+    {
+      "path": "design/cards/when-the-stars-look-back.md",
+      "sha256": "79bdc25d96da840c2b6209e79b11839ef6ec14a9d17497561d495cf4d2072243"
+    },
+    {
+      "path": "design/cards/where-only-eagles-pass.md",
+      "sha256": "aa51e22848538af0afcc6c2b1b745d71bf0fb932f94076b6fb8b4ed170782fae"
+    },
+    {
+      "path": "design/cards/white-heat.md",
+      "sha256": "b31f55525a588d8066ddacbcce3e166f0252ef59f5138935dd5a245a51658200"
+    },
+    {
+      "path": "design/cards/whiteout.md",
+      "sha256": "508ca3e077c19c20a94cfb491e5a89f810fad2e415636feb5b7adfbf6617ffe0"
+    },
+    {
+      "path": "design/cards/wind-the-sight.md",
+      "sha256": "6d245ccd29456af34399284e3f9006b080f17a70a5c51cd63adb347437d72fe1"
+    },
+    {
+      "path": "design/cards/wings-over-the-battle.md",
+      "sha256": "53c2abfbaa5e6e6ce5b34230e3f83e357a951ea40188d136900e9348240aab69"
+    },
+    {
+      "path": "design/cards/winter-hold.md",
+      "sha256": "0a643250ae6ef891b490322b98ed3fed45328a55a6ce2e5a80cc7b354d7aa3b8"
+    },
+    {
+      "path": "design/cards/winter-store.md",
+      "sha256": "8fa820e11e978c1925d889dea1cce3937b1a3fa155328fd2fb5584b388b27c7e"
+    },
+    {
+      "path": "design/cards/write-the-final-line.md",
+      "sha256": "475a00de934a85df21d8bd1cd646007b31a8a0fb5486a08604ec5929c2436e4a"
+    },
+    {
+      "path": "design/rules/summoning.md",
+      "sha256": "3b23bad56f9630b2c8642c008152cd61b85e48578f7c2cef7c239ede6726808f"
+    }
+  ]
+}

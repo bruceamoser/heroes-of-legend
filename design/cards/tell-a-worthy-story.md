@@ -1,22 +1,22 @@
 # Tell a Worthy Story
 
-*You begin with the detail you remember best, and the listeners lean a little closer.*
+*You watch the listener's face, choose the detail that will hook them, and spin the tale toward the answer you need.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Time:** A few minutes per attempt.
+**Time:** A few minutes.
 
-**Target / range / shape:** A willing audience; a few minutes
+**Target / range / shape:** A manipulation task involving one listener or a small audience that can understand you.
 
-Ordinary conversation remains available. Choose a plausible objective before rolling; this does not compel belief or behavior.
+Choose a claim you want the listener to accept: a lie, a cover story, a rumor, or a version of events that favors you. Make a manipulation check to make progress toward the manipulation task.
 
-- **Weak:** 1 progress toward engaging them; recognize one part of the story that visibly interests a listener.
-- **Standard:** 2 progress, that interest, and a volunteered local detail.
-- **Strong:** 3 progress, both details above, and an introduction to a willing listener.
+- **Weak:** 1 progress.
+- **Standard:** 2 progress.
+- **Strong:** 3 progress.
 
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+**Duration:** The progress persists for the manipulation task.
 
 **Equipment / acquisition:** None.
 
@@ -24,10 +24,12 @@ Ordinary conversation remains available. Choose a plausible objective before rol
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
 
-**Type:** Skill / Utility
+**Type:** Utility
+
+**Tags:** Universal / Skill / Social
 
 **Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** tell-a-worthy-story
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,33 +1,23 @@
 # Fit a Replacement
 
-*You adjust the last fastening and wait beside your patient as they try their weight again.*
+*You adjust the final strap and offer your arm. This time, when your patient puts weight on the new limb, it holds.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Time:** Four hours per attempt.
+**Time:** Four hours.
 
-**Target / range / shape:** One patient and a suitable prosthesis; four hours
+**Target / range / shape:** One willing patient and a suitable already-made, correctly sized prosthesis.
 
-Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieves only the wound penalties explicitly replaceable by that prosthesis. Does not regrow the body part or erase the wound.
-
-- **Weak:** 1 fitting progress.
-- **Standard:** 2 fitting progress.
-- **Strong:** 3 fitting progress.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+Fit and adjust the prosthesis to its patient. At the end of the work, it relieves the wound penalties its recipe or remedy explicitly replaces.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Medicine 3
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Medicine 2
 
-**Type:** Skill
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Skill / Recovery / Utility
 
 **ID:** fit-a-replacement
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

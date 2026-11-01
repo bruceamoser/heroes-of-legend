@@ -1,16 +1,16 @@
-# Shared Resolve
+# Not My Flock
 
-*You gather your companions with a few familiar words, steadying one trembling voice after another until they answer together.*
+*You see the blow land on your flock, and the light comes off you like a blade.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** Self and up to three willing allies within 3 squares that can hear you.
+**Target / range / shape:** One creature within 10 squares that has damaged one of your allies since the end of your last turn.
 
-Each recipient chooses one temporary condition from Frightened, Dazed or Poisoned and reduces it by up to 2, minimum 0. Each also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred source removed and no spent actions returned. A recipient without those conditions still gains the defensive Boon.
+Make a Reason roll against the target. Weak: 4 radiant damage. Standard: 8 radiant damage, and the target has Frightened 1. Strong: 12 radiant damage, and the target has Frightened 2, and it cannot attack your allies until the end of its next turn.
 
-**Duration:** Reductions are immediate; Boons expire when used or the start of your next turn.
+**Duration:** Immediate; conditions use their normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Each recipient chooses one temporary condition from Frightened, Dazed or Poisone
 
 **Type:** Signature
 
-**Tags:** Skill / Recovery / Defense
+**Tags:** Magic / Attack / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-shepherd-shared-resolve
 

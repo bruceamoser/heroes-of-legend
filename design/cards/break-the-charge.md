@@ -1,6 +1,6 @@
 # Break the Charge
 
-*You plant your feet as the enemy rushes in, then strike into their advance with enough force to send them stumbling back.*
+*You wait until their next stride has nowhere else to go, then drive the weapon across their chest and send them back down the path they chose.*
 
 ## Rules
 
@@ -8,23 +8,19 @@
 
 **Target / range / shape:** An enemy entering an adjacent square voluntarily.
 
-Meet the charge with a melee blow; resolve after it enters. This attack cannot trigger additional free attacks.
+After the enemy enters the adjacent square, make a Fortitude melee attack.
 
-- **Weak:** 4 physical damage.
-- **Standard:** 4 physical damage and push 1 square back the way it came.
-- **Strong:** 6 physical damage, push 2 and knock it prone.
+- **Weak:** 4 physical damage; push it 1 square back the way it came.
+- **Standard:** 6 physical damage; push it 2 squares back the way it came.
+- **Strong:** 8 physical damage; push it 3 squares back the way it came and apply Prone.
 
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
-
-**Equipment / acquisition:** Requires a melee weapon; gain one ordinary melee weapon, Bulk 1, on learning if absent.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Arms 3
 
 **Type:** Skill / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** break-the-charge
 

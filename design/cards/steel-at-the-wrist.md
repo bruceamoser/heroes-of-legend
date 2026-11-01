@@ -1,18 +1,16 @@
 # Steel at the Wrist
 
-*You catch the attacking weapon close to its wielder’s hand and force the point away from your body.*
+*You meet the weapon close to the hand that holds it, lock your own blade across its path, and wrench the point aside.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self, before a defense roll against an adjacent creature’s melee weapon attack.
 
-Use Brawn instead of the attack’s normal defense attribute for this roll. This adds no Boon and makes no extra roll.
+Before the defense roll, use Brawn as your defense attribute and gain 1 Boon to that roll.
 
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a melee weapon. Grants one ordinary melee weapon, Bulk 1, if absent.
+**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,6 @@ Use Brawn instead of the attack’s normal defense attribute for this roll. This
 
 **Type:** Skill / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
-
 **ID:** steel-at-the-wrist
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

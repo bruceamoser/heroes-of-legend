@@ -14,30 +14,30 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 
 ## Level 1 choices
 
-- [Shoulder Through](../cards/signature-unbalanced-shoulder-through.md)
-- [Wild Approach](../cards/signature-unbalanced-wild-approach.md)
-- [Laugh at the Fall](../cards/signature-unbalanced-laugh-at-the-fall.md)
+- [Charge](../cards/signature-unbalanced-shoulder-through.md)
+- [Go Berserk](../cards/signature-unbalanced-wild-approach.md)
+- [Grab and Hurl](../cards/signature-unbalanced-laugh-at-the-fall.md)
 
 ## Level 3 choices
 
-- [Crush the Barrier](../cards/signature-unbalanced-crush-the-barrier.md)
-- [Fling the Captive](../cards/signature-unbalanced-fling-the-captive.md)
-- [Raging Recoil](../cards/signature-unbalanced-raging-recoil.md)
+- [Rampage](../cards/signature-unbalanced-crush-the-barrier.md)
+- [Pain Feeds the Fire](../cards/signature-unbalanced-raging-recoil.md)
+- [Over the Top](../cards/signature-unbalanced-fling-the-captive.md)
 
 ## Level 7 choices
 
-- [Scatter the Line](../cards/signature-unbalanced-scatter-the-line.md)
-- [Break Their Grip](../cards/signature-unbalanced-break-their-grip.md)
-- [Crash Down](../cards/signature-unbalanced-crash-down.md)
+- [Earthbreaker](../cards/signature-unbalanced-scatter-the-line.md)
+- [Deathless Rage](../cards/signature-unbalanced-break-their-grip.md)
+- [The Cannonball](../cards/signature-unbalanced-crash-down.md)
 
 ## Signature identity in play
 
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Drive through, charge, or rise fighting.
-- **Level 3:** Break an obstruction, throw a creature, or shove back through pain.
-- **Level 7:** Scatter enemies, wrench free and retaliate, or finish a push with a knockdown.
+- **Level 1:** Charge, rage, or hurl.
+- **Level 3:** Rampage, turn pain into Boons, or throw an ally over the line.
+- **Level 7:** Break the ground, refuse to fall, or launch yourself as a missile.
 
 
 **Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

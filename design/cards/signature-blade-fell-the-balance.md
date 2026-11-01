@@ -1,16 +1,16 @@
-# Fell the Balance
+# Not So Fast
 
-*You feel their weight shift, hook their footing with your own and let the strike finish the fall.*
+*You step into the gap and put your blade where the next stride was going to be.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** Brawn
 
-**Target / range / shape:** One target of your Standard or Strong Main Action melee attack.
+**Target / range / shape:** One enemy that voluntarily enters a square you threaten from outside your reach.
 
-After the attack resolves, you may knock that target prone. This does not require a push rider or replace another effect. It adds no damage and cannot turn Prone into a numbered condition.
+Make a Basic Melee attack against the triggering enemy. After the attack resolves, the enemy’s movement ends, and it cannot move again until the start of its next turn.
 
-**Duration:** Prone lasts until removed normally.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ After the attack resolves, you may knock that target prone. This does not requir
 
 **Type:** Signature
 
-**Tags:** Skill / Control
+**Tags:** Skill / Attack / Control
 
-**Limits:** Once on your turn; no benefit from free attacks.
+**Limits:** Once per round; uses your Reaction.
 
 **ID:** signature-blade-fell-the-balance
 

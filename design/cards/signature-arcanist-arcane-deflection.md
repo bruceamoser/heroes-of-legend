@@ -1,14 +1,14 @@
 # Arcane Deflection
 
-*You catch the approaching spell against a spread palm and twist, sending its pressure back toward its maker.*
+*You catch the approaching spell against an arcane barrier in your spread palm, converting damage into force.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** Self or one willing ally within 3 squares, before its defense against a spell.
+**Target / range / shape:** Self, before your defense against a spell. The point of impact is one corner of your square.
 
-Grant 2 Boons to that defense, including a defense against an area spell. After a Strong defense, you may push the visible caster 1 square directly away from you if it is within 5 squares. Make no extra roll; this does not cancel the spell or protect other targets.
+Roll your defense normally. You take no damage from the spell. Choose a corner of your square as the point of impact. Each creature in the four squares that share that corner, including you, is pushed a number of squares equal to the spell’s raw damage before your defense or resistance, directly away from that corner. Resolve the push as forced movement; normal collision rules apply.
 
 **Duration:** The triggering defense and immediate push.
 

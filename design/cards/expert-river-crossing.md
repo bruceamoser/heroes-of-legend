@@ -1,22 +1,14 @@
 # Expert River Crossing
 
-*You study the current, choose your line, and slip into the river without surrendering your bearings.*
+*You point out the current's quiet seam and match your companion stroke for stroke, keeping the small dry bundle above the spray.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Brawn
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** A swim you could ordinarily attempt
+**Target / range / shape:** Self and one adjacent willing companion during a shared swim.
 
-Choose a swim that you could ordinarily attempt. Before a consequential attempt, the DA states how much progress is needed to complete it. Roll Brawn. This card does not let you breathe underwater.
-
-- **Weak:** Add 1 progress toward completing the swim and keep one carried item dry.
-- **Standard:** Add 2 progress, keep that item dry and keep your bearings in the current.
-- **Strong:** Add 3 progress and gain both benefits above; also identify a safer nearby landing, if one is available.
-
-**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
-
-**Equipment / acquisition:** None.
+You and one adjacent willing companion you guide gain 1 Boon to attribute rolls completing the same swim. You may keep one carried item of Bulk 1 or less dry during that swim.
 
 ---
 
@@ -24,8 +16,6 @@ Choose a swim that you could ordinarily attempt. Before a consequential attempt,
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and any full activity time for each use.
-
 **ID:** expert-river-crossing
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

@@ -1,30 +1,24 @@
 # The Angle of Unease
 
-*You tilt your hand, and your enemy reaches for a balance the room no longer seems to offer.*
+*You tilt your hand. The room stays still, but your enemy reaches for a balance that has moved somewhere else.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** One visible creature within 5 squares.
+**Target / range / shape:** One visible enemy within 5 squares.
 
-The room seems to lean in a direction that does not exist.
+Make a Reason spell attack. You are the source of Frightened.
 
-- **Weak:** 2 mental damage and push 1.
-- **Standard:** 3 mental damage and push 2.
-- **Strong:** 5 mental damage, push 2 and Frightened 1 of you.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+- **Weak:** 2 mental damage; push 1 square away from you.
+- **Standard:** 3 mental damage; push 2 squares away from you.
+- **Strong:** 5 mental damage and Frightened 1; push 2 squares away from you.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Mind 2
 
-**Type:** Magic / Attack
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Attack / Control
 
 **ID:** the-angle-of-unease
 

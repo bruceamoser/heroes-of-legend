@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self and up to three willing allies within 5 squares that can hear and understand you.
 
-Each recipient may move up to 3 squares without provoking, in an order you choose. Each gains 1 Boon to its next defense before the start of your next turn. Choose legal routes and separate free endpoints; this grants no attacks.
+Each recipient may move up to 3 squares without provoking, in an order you choose. Each gains 1 Boon to its next defense before the start of your next turn. Choose legal routes and separate free endpoints.
 
 **Duration:** Movement is immediate; each Boon expires when used or the start of your next turn.
 

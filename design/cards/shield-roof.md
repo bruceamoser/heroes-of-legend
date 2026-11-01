@@ -1,18 +1,16 @@
 # Shield Roof
 
-*You lift your shield over the group and call your companions close, making a small roof against the falling ruin.*
+*You raise the shield high. Your companions fold close beneath it as the storm of debris breaks overhead.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and willing allies adjacent to you.
+**Target / range / shape:** Self and willing adjacent allies.
 
-While you hold the shield, you and allies who remain adjacent gain Stability 2 and 1 Boon to defenses against area attacks the DA judges shield-blockable. This grants no protection against other attacks and does not itself activate Shield Block.
+While you hold the shield, you and willing adjacent allies gain Stability 2 and 2 Boons to defenses against shield-blockable area attacks until the end of your next turn.
 
-**Duration:** Until the start of your next turn.
-
-**Equipment / acquisition:** Requires a held shield. Grants one ordinary shield, Bulk 1, if absent.
+**Equipment / acquisition:** Use a held ordinary shield (Bulk 1), supplied on learning if needed.
 
 ---
 
@@ -20,8 +18,6 @@ While you hold the shield, you and allies who remain adjacent gain Stability 2 a
 
 **Type:** Skill / Defense
 
-**Limits:** Repeated uses do not multiply this card’s benefits on a recipient.
-
 **ID:** shield-roof
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Card conventions](../card-conventions.md)

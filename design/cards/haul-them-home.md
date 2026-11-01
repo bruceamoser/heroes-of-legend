@@ -1,29 +1,22 @@
 # Haul Them Home
 
-*You wrap the rope across your back and lean into the pull, bringing your companion over the lip a handspan at a time.*
+*You brace the rope across your back and lean, bringing your companion over the lip a handspan at a time.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** One willing creature within 3 squares, secured to a rope you hold.
+**Target / range / shape:** One willing or unconscious creature within 5 squares, already secured to a rope you hold, whose weight you can support.
 
-Move the creature up to 2 squares toward you along a clear route the rope can support, including upward. It need not spend movement or a Reaction, and this movement does not provoke. It cannot pass through a barrier or an occupied standing creature; finish in a free square supported by ground or the secured rope. You must have secure footing, a free hand, and be able to support its weight as judged by the DA. This cannot extract a Grappled creature or deal collision damage. Ordinary rope use remains available without this card.
+Move the recipient up to 3 squares toward you along the clear rope-supported route, including upward. This rescue movement ignores Stability and does not provoke. A Grappled recipient can join once its hold has been released.
 
-**Stability exception:** this willing rescue movement ignores Stability.
-It does not allow moving an unwilling target or bypassing a grapple.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** Requires a rope, supplied separately. Attaching it to the recipient is not part of this Maneuver.
+**Equipment / acquisition:** Secure footing, a free hand and rope; one ordinary rope coil (Bulk 1), supplied on learning if needed.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Athletics 2 and Guard 1
 
 **Type:** Skill / Movement / Utility
-
-**Limits:** Repeatable while the rope, route and support requirements hold. Each use costs a Maneuver.
 
 **ID:** haul-them-home
 

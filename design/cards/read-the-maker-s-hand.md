@@ -1,20 +1,16 @@
 # Read the Maker’s Hand
 
-*You turn the old fitting over and recognize a solution worth borrowing.*
+*You turn the fitting over and follow the maker's last decision. There is the joint that matters, and there is the part worth saving.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Passive · **Attribute:** None (no roll)
 
-**Time:** Ten minutes handling the object.
+**Time:** One minute handling or examining the mechanism.
 
-**Target / range / shape:** An ordinary object you can handle for ten minutes.
+**Target / range / shape:** One accessible ordinary mechanism.
 
-Recognize its ordinary materials and one visible construction method without a roll. When crafting a known ordinary recipe, you may reuse a suitable component from this object in place of the matching ordinary material; the component is consumed or incorporated. DA determines suitability. This grants no recipe, crafting permission, extra attempt or special material.
-
-**Duration:** Knowledge persists; each salvaged component can be used once.
-
-**Equipment / acquisition:** None.
+Learn the mechanism's ordinary materials, intended function and one accessible component whose removal or adjustment would disable it. Choose a component suitable for reuse in a known compatible recipe, if one is present. You or an ally gains 2 Boons to the next attribute roll this scene repairing or disabling the mechanism, or crafting with that component.
 
 ---
 
@@ -22,8 +18,6 @@ Recognize its ordinary materials and one visible construction method without a r
 
 **Type:** Skill / Utility
 
-**Limits:** Ordinary activities remain available without this card. Roll only when uncertainty has consequences.
-
 **ID:** read-the-maker-s-hand
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)

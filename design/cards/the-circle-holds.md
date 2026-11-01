@@ -1,26 +1,22 @@
 # The Circle Holds
 
-*You trace the last arc and stand inside the promise you have made together.*
+*You close the bright circle underfoot. Inside it, your companions brace as the magic breaks around its rim.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self and allies within 2 squares.
+**Target / range / shape:** Ground within 2 squares of your position when cast.
 
-Until the start of your next turn, each gains 1 Boon to defense against spells. Each gains Stability 2 for the first forced movement against them, including collision chains; highest applicable Stability only, maximum 3. The grant is consumed after that event even if a higher Stability applied. The ward is not physical cover.
-
-**Duration:** Until the start of your next turn; each Stability grant is used once.
-
-**Equipment / acquisition:** No item needed unless named above.
+Mark a circle of ground within 2 squares of your position. Until the end of your next turn, willing creatures in the circle gain 1 Boon to defenses against spells and Stability 2. On later turns, you may spend a Maneuver to sustain the circle until the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Guard 3
 
-**Type:** Magic
+**Type:** Magic / Defense
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** Maintain one circle at a time.
 
 **ID:** the-circle-holds
 

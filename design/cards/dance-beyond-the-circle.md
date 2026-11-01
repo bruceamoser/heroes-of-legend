@@ -1,26 +1,20 @@
 # Dance beyond the Circle
 
-*You offer your companion a hand across the room; the world turns, and your places are exchanged.*
+*You offer a hand across the room. Two figures turn as if in the same dance, and the world gives each the other's place.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Two willing creatures within 4 squares, either of which may be yourself.
+**Target / range / shape:** Two visible willing creatures within 6 squares, either of which may be yourself.
 
-Exchange their positions by teleportation. Both must be visible and each destination must fit its new occupant. No damage or attacks are granted; the movement does not provoke.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+Exchange the two creatures' positions by teleportation. Each destination must fit its new occupant. Each gains 1 Boon to its next defense before the end of your next turn.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Mind 3
 
-**Type:** Magic
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Movement / Defense
 
 **ID:** dance-beyond-the-circle
 

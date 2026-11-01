@@ -1,16 +1,16 @@
-# Lead the Step
+# Lead the Way
 
-*You give ground with one hand extended, drawing your companions after you before the enemy can separate you.*
+*You set the pace and the line forms behind you without a word.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-**Target / range / shape:** Up to two adjacent willing allies, when you use Disengage.
+**Target / range / shape:** Self; any willing allies within 3 squares who can see or hear you.
 
-Each chosen ally may move 1 square without provoking, in an order you choose. Your Disengage works normally. The allies spend no actions or movement allowances and must end in separate free squares.
+When you move using your Speed, any willing ally within 3 squares who can see or hear you may move with you at the same time, following your path, up to the distance you move, to a maximum of 2 squares. An ally who comes within 3 squares during your movement may join for the remainder of that movement. The allies spend no movement. This movement follows normal opportunity attack rules.
 
-**Duration:** Immediate ally movement; your Disengage lasts for this turn.
+**Duration:** During your movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +20,7 @@ Each chosen ally may move 1 square without provoking, in an order you choose. Yo
 
 **Type:** Signature
 
-**Tags:** Skill / Movement
+**Tags:** Skill / Support / Movement
 
 **Limits:** Once on your turn.
 

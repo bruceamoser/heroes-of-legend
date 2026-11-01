@@ -1,32 +1,28 @@
 # An Impossible Theft
 
-*You stretch a hand toward the prize; your shadow’s fingers arrive before yours.*
+*Your shadow reaches first. Its fingers close around the prize, and the object slides through the air toward your waiting hand.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** Guile
 
-**Target / range / shape:** One visible unattended object of Bulk 0 or 1 within 6 squares.
+**Target / range / shape:** One visible Bulk 0 or 1 object within 6 squares that is unattended, held in one hand, or unsecured in a pocket or pouch.
 
-Reach with your shadow along an open path; you cannot take held or worn equipment. Use ordinary terrain costs and move the object toward yourself.
+Make a Guile theft attack and draw the object toward you along an open path.
 
 - **Weak:** Move it up to 2 squares.
 - **Standard:** Move it up to 4 squares.
 - **Strong:** Move it up to 6 squares.
 
-If it reaches you, catch it in a free hand. Otherwise leave it in the last square reached. This causes no impact damage.
+The object leaves its holder's hand or pocket when moved. Catch it if it reaches your free hand; otherwise place it in the last square reached.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
-
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** A free hand to catch the object.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Subterfuge 3
 
-**Type:** Magic / Utility
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Type:** Magic / Utility / Control
 
 **ID:** an-impossible-theft
 

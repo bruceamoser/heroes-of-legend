@@ -1,0 +1,1516 @@
+{
+  "discipline": [
+    {
+      "stable_id": "blood-in-the-teeth",
+      "revision_sha256": "e3647841ecfb44414215ca29a05e7247b4cc8b354fbc1ce0e46ed0783112688d",
+      "source_file": "design/cards/blood-in-the-teeth.md"
+    },
+    {
+      "stable_id": "hook-and-drive",
+      "revision_sha256": "cb6298e82ab62888dd840cbb0dcf261c90ac6e25f5a1f6523cdfd5c2d536a2fa",
+      "source_file": "design/cards/hook-and-drive.md"
+    },
+    {
+      "stable_id": "invitation-to-the-blade",
+      "revision_sha256": "8f10997eb408817dd29009e1e40004911fcef343d26d289317975a04706fa34e",
+      "source_file": "design/cards/invitation-to-the-blade.md"
+    },
+    {
+      "stable_id": "smile-before-steel",
+      "revision_sha256": "3bdb802c619159c57842218d3aeb8bd0c3a7a50b8226de734b8d0a407a70e1ef",
+      "source_file": "design/cards/smile-before-steel.md"
+    },
+    {
+      "stable_id": "steel-at-the-wrist",
+      "revision_sha256": "a6c9f197bf82e855d0200c0f5273cf8037a475541326935abc766fc335131b9f",
+      "source_file": "design/cards/steel-at-the-wrist.md"
+    },
+    {
+      "stable_id": "take-them-alive",
+      "revision_sha256": "f767b48f4242e14cc5e4a8e8c79cc21ddce81b15e04c7b449eda7e1677ca1147",
+      "source_file": "design/cards/take-them-alive.md"
+    },
+    {
+      "stable_id": "bind-and-turn",
+      "revision_sha256": "7d51c4633087007a9304517dca2e77f204b339d82eac8a6f73353ac94b34bc79",
+      "source_file": "design/cards/bind-and-turn.md"
+    },
+    {
+      "stable_id": "break-the-formation",
+      "revision_sha256": "7015ae152b3010f116fe9055fd31a7437aa9066be6462adeaa0d1cce230a8db5",
+      "source_file": "design/cards/break-the-formation.md"
+    },
+    {
+      "stable_id": "through-the-spearpoints",
+      "revision_sha256": "6e654c4d2c09cc982aa4419c1d5d5bd4bd67dec29f6ef18b78fa8181884de419",
+      "source_file": "design/cards/through-the-spearpoints.md"
+    },
+    {
+      "stable_id": "under-their-guard",
+      "revision_sha256": "a9a08efd19fa88826ba8624833c4dc03d26a3b9a813495b27e152bb3e9a9ca77",
+      "source_file": "design/cards/under-their-guard.md"
+    },
+    {
+      "stable_id": "bow-to-the-balcony",
+      "revision_sha256": "dfd6eff9e4133570b8d37b42d81667c5159053b1585357eea188ab80f625b614",
+      "source_file": "design/cards/bow-to-the-balcony.md"
+    },
+    {
+      "stable_id": "break-the-charge",
+      "revision_sha256": "b6c7b49f037b8b7eaa464fa6e105eaa30139a05d5090dfbe13fbc25d19bfe20f",
+      "source_file": "design/cards/break-the-charge.md"
+    },
+    {
+      "stable_id": "hurl-aside",
+      "revision_sha256": "696f2f5470dc8d72c1b0bd823a4d74b9f84a2612ea6b9ac2de754047f5811bf8",
+      "source_file": "design/cards/hurl-aside.md"
+    },
+    {
+      "stable_id": "write-the-final-line",
+      "revision_sha256": "0c255bbf57bd1abd5fb345def24303871f0683cf284ce74ec62e141ffb335691",
+      "source_file": "design/cards/write-the-final-line.md"
+    },
+    {
+      "stable_id": "a-friend-beneath-the-door",
+      "revision_sha256": "260c318cb346b31231eb61cedfc35b1b261518e03f4670aec64b85b19f386204",
+      "source_file": "design/cards/a-friend-beneath-the-door.md"
+    },
+    {
+      "stable_id": "call-a-burrower",
+      "revision_sha256": "1ffda10c0f5b8f80f9308cddc96ffee820fe0ee0cd67b7a121494c998caba4a0",
+      "source_file": "design/cards/call-a-burrower.md"
+    },
+    {
+      "stable_id": "call-a-sentinel",
+      "revision_sha256": "8a581d15b19a452499ddf50a88cd35ebc88ba93d976d9cf30f3fe00ce6d20884",
+      "source_file": "design/cards/call-a-sentinel.md"
+    },
+    {
+      "stable_id": "call-a-tempest-beast",
+      "revision_sha256": "a138e993402fd285a0571ca2f10c7ded5346838a1b723b2cdaca76cc663e7784",
+      "source_file": "design/cards/call-a-tempest-beast.md"
+    },
+    {
+      "stable_id": "call-the-elder-stag",
+      "revision_sha256": "b356a8a9f42fcb0e239fb769c47e01cf491da2d9fa6cd675444c2bdd6a2b20ff",
+      "source_file": "design/cards/call-the-elder-stag.md"
+    },
+    {
+      "stable_id": "call-the-faithful-hound",
+      "revision_sha256": "034351f2cb3b3fcb17154bd0699db4fbd42aabc0ee7119bd4ce5c82723f87212",
+      "source_file": "design/cards/call-the-faithful-hound.md"
+    },
+    {
+      "stable_id": "call-the-hunting-cat",
+      "revision_sha256": "5ae0a0cb20148693a3b035b01c4e837a8d75ba6528c60c6c6680057d2f2b0d20",
+      "source_file": "design/cards/call-the-hunting-cat.md"
+    },
+    {
+      "stable_id": "procession-of-the-quiet",
+      "revision_sha256": "3c0924c88c3617579091be5b61604a7d6f7eaa895d50f11bc6395677d35d653b",
+      "source_file": "design/cards/procession-of-the-quiet.md"
+    },
+    {
+      "stable_id": "summon-construct-master",
+      "revision_sha256": "0fa78caef372ec4a9cc0b195faf64faa2f3a12c53abf936105704c851b849450",
+      "source_file": "design/cards/summon-construct-master.md"
+    },
+    {
+      "stable_id": "summon-construct-novice",
+      "revision_sha256": "2c1f0dcc8d1bc5e18da8c1f1dc9618bf089d9da95b4c8bc64e745ecff30c0166",
+      "source_file": "design/cards/summon-construct-novice.md"
+    },
+    {
+      "stable_id": "summon-elemental-adept",
+      "revision_sha256": "ba898832520cd4a29b3d3c812f2caa151081340ab331d81ddd46af50fa8e1ee7",
+      "source_file": "design/cards/summon-elemental-adept.md"
+    },
+    {
+      "stable_id": "summon-elemental-novice",
+      "revision_sha256": "0031029d46cc16393049b985defba83b68414f53a013849415342618339368bc",
+      "source_file": "design/cards/summon-elemental-novice.md"
+    },
+    {
+      "stable_id": "summon-fey-adept",
+      "revision_sha256": "4e13f3a4b269fd57ccdfc552c6657cefe160eb0eeb0627e95b72eba0667c4886",
+      "source_file": "design/cards/summon-fey-adept.md"
+    },
+    {
+      "stable_id": "summon-fey-master",
+      "revision_sha256": "950a38e029cfdbd50a841887d5996f9fe61819a11dd5d0725b1deccc1ec16c52",
+      "source_file": "design/cards/summon-fey-master.md"
+    },
+    {
+      "stable_id": "summon-undead-adept",
+      "revision_sha256": "6da39a9b235b01f0951126ab1fdd6b41195759f6eebdd821983cc9f8bc8bc012",
+      "source_file": "design/cards/summon-undead-adept.md"
+    },
+    {
+      "stable_id": "the-ancestors-stand",
+      "revision_sha256": "8dddaab75ccf156d9c2de42e528aa047354d42fee1ee87337c934cec5d6156db",
+      "source_file": "design/cards/the-ancestors-stand.md"
+    },
+    {
+      "stable_id": "the-bones-rise",
+      "revision_sha256": "29dce5dd764db895f5afd47d1a4c434ad6d169b885a04116dec701694b8d1310",
+      "source_file": "design/cards/the-bones-rise.md"
+    },
+    {
+      "stable_id": "the-walking-toolbox",
+      "revision_sha256": "f01cc54be1a11bce666b69001bbc2c0c59956f6b7171e9af7b43a6960edc5981",
+      "source_file": "design/cards/the-walking-toolbox.md"
+    },
+    {
+      "stable_id": "a-hand-from-before",
+      "revision_sha256": "f1f42cde294a86c0a00f592bd86e0a279fc2f4909148f46c0e3bf78dbce26d30",
+      "source_file": "design/cards/a-hand-from-before.md"
+    },
+    {
+      "stable_id": "draw-the-tether",
+      "revision_sha256": "f38142850a69370ef996625294de1419fc77599a639a044d9cc875e718960191",
+      "source_file": "design/cards/draw-the-tether.md"
+    },
+    {
+      "stable_id": "a-ribcage-for-a-shield",
+      "revision_sha256": "a477a0ea47da145b2ddeffd359d1566c26c3cbe304c6454ee4b556c5ad0975a6",
+      "source_file": "design/cards/a-ribcage-for-a-shield.md"
+    },
+    {
+      "stable_id": "recast-the-footprint",
+      "revision_sha256": "e90cc431f35831699f9ab87ebc8995b50cd8b8a256abdfc0ef70395a7b1fdb04",
+      "source_file": "design/cards/recast-the-footprint.md"
+    },
+    {
+      "stable_id": "doors-for-the-host",
+      "revision_sha256": "1e03d02ea27faef1944a4b2927eda28d863b76bbd6f77f42637444c60ab63bbe",
+      "source_file": "design/cards/doors-for-the-host.md"
+    },
+    {
+      "stable_id": "recall-the-shape",
+      "revision_sha256": "3c87949ce2af8dd9c414b17cc2799453896b02682281cad51f57e01bcd30bee2",
+      "source_file": "design/cards/recall-the-shape.md"
+    },
+    {
+      "stable_id": "catch-the-mechanism",
+      "revision_sha256": "e4842d194a97ad718655b8db3aa576853398a08e42f77c64cfe9e79b17ab2643",
+      "source_file": "design/cards/catch-the-mechanism.md"
+    },
+    {
+      "stable_id": "set-the-wedge",
+      "revision_sha256": "f86c0255b9cd7cd04d00f275f59b7b10e9e2f4a974118037dbdce0c96ade1c93",
+      "source_file": "design/cards/set-the-wedge.md"
+    },
+    {
+      "stable_id": "spring-in-the-sleeve",
+      "revision_sha256": "5365af91a1ad3afdb442b1c45e884deb524b5c4a490840ba1317b5460bd97d23",
+      "source_file": "design/cards/spring-in-the-sleeve.md"
+    },
+    {
+      "stable_id": "smoke-in-a-bottle",
+      "revision_sha256": "61190785566f02cb299d781803030443b656540ef599a0ee3e5db6bb872a1858",
+      "source_file": "design/cards/smoke-in-a-bottle.md"
+    },
+    {
+      "stable_id": "trail-workshop",
+      "revision_sha256": "a0c5e601b611b5676302306903b965df6c102608a78112add96ffc8a3ff40024",
+      "source_file": "design/cards/trail-workshop.md"
+    },
+    {
+      "stable_id": "make-something-useful",
+      "revision_sha256": "6169444fc0e659f0cfaf322128dd8b8df42399c55805f81fd0ec0dc11fb1a696",
+      "source_file": "design/cards/make-something-useful.md"
+    },
+    {
+      "stable_id": "ordinary-recipe-study",
+      "revision_sha256": "1fc901ce90e514e78bf0b2194be9136eec3cc57fad6fc3f7c7a4aecb374cd32e",
+      "source_file": "design/cards/ordinary-recipe-study.md"
+    },
+    {
+      "stable_id": "derive-a-mechanism",
+      "revision_sha256": "0f075549e1ff86ae0ba385f028c0984b42851ab0489e9f79e2ccc443917e44cb",
+      "source_file": "design/cards/derive-a-mechanism.md"
+    },
+    {
+      "stable_id": "enchanting-workshop",
+      "revision_sha256": "ccd27117a962bc5c3abd29a7dbc3b9f91542d03fec26750372723efd61857915",
+      "source_file": "design/cards/enchanting-workshop.md"
+    },
+    {
+      "stable_id": "a-courtesy-unanswered",
+      "revision_sha256": "056f113c2f3a647f77daed68d1472f892397a0b6e1d16dadd03fc09bc322c554",
+      "source_file": "design/cards/a-courtesy-unanswered.md"
+    },
+    {
+      "stable_id": "borrowed-clothes-borrowed-manners",
+      "revision_sha256": "ea9265c035c55fd49fca2be1fb9267ad100ee4a61bec4bd4294dafd84b9bbab1",
+      "source_file": "design/cards/borrowed-clothes-borrowed-manners.md"
+    },
+    {
+      "stable_id": "create-a-distraction",
+      "revision_sha256": "4f279b3b33337beb733c85699e5dd9ac867ed5de13037585cf53f9a7b53ead87",
+      "source_file": "design/cards/create-a-distraction.md"
+    },
+    {
+      "stable_id": "play-it-off",
+      "revision_sha256": "f75aead897d7c614020255ebb14056b8f7551952b07ec9cd507cde5cbf4df698",
+      "source_file": "design/cards/play-it-off.md"
+    },
+    {
+      "stable_id": "quiet-latch",
+      "revision_sha256": "cb085561715fbd0d4f961392729656f3648f4c912f927188b357e12bd9bf2cb3",
+      "source_file": "design/cards/quiet-latch.md"
+    },
+    {
+      "stable_id": "step-between-lanterns",
+      "revision_sha256": "d261e636c20c6155daed4b14e0a1888308c982144e5eaa3e9bfa39e0f3123613",
+      "source_file": "design/cards/step-between-lanterns.md"
+    },
+    {
+      "stable_id": "the-key-changes-hands",
+      "revision_sha256": "cc69b21f96888b1056d144f7d59a27bcc1e57abd5938834e6ea85f0cdd7101e0",
+      "source_file": "design/cards/the-key-changes-hands.md"
+    },
+    {
+      "stable_id": "a-lock-has-a-language",
+      "revision_sha256": "6a399e0a7a98aa9786a1ecb73a2b602d768a99816db39ce347f2760ad60843b8",
+      "source_file": "design/cards/a-lock-has-a-language.md"
+    },
+    {
+      "stable_id": "silence-the-alarm",
+      "revision_sha256": "31188bf01217034c53251c930f4a2ae9dfd9ecbfdaa35db3b25026c12c666ef8",
+      "source_file": "design/cards/silence-the-alarm.md"
+    },
+    {
+      "stable_id": "slip-the-closing-door",
+      "revision_sha256": "482a3cd3b899d295263ff3da9de6407c6bcfcc4bdd5d756e620eb5af10ae9522",
+      "source_file": "design/cards/slip-the-closing-door.md"
+    },
+    {
+      "stable_id": "the-unlit-road",
+      "revision_sha256": "1d613ff98a4521b4e138ff7d5cfe043f4e43fec8ae68caf4a571e8552f45e8da",
+      "source_file": "design/cards/the-unlit-road.md"
+    },
+    {
+      "stable_id": "veiled-crossing",
+      "revision_sha256": "50cf272e9f3d29fb72b59c8bf02736188e0bed14e8f6d0d5442b40f603e6d6d3",
+      "source_file": "design/cards/veiled-crossing.md"
+    },
+    {
+      "stable_id": "a-shadow-at-the-heart",
+      "revision_sha256": "28ba58a976fcce8c2bb4ac770cafae0fbd10ea51a52c73d2e9aa484f004a1fc3",
+      "source_file": "design/cards/a-shadow-at-the-heart.md"
+    },
+    {
+      "stable_id": "an-impossible-theft",
+      "revision_sha256": "256c279109c2cbf37e8451d39c8e8d11b1716dee88fc80bd50d160c39605c8ed",
+      "source_file": "design/cards/an-impossible-theft.md"
+    },
+    {
+      "stable_id": "borrow-the-shadow",
+      "revision_sha256": "f30e87aa714d10478ad011aed3f6db4a5c383ea9a6020f4964522b0f1f2b81c7",
+      "source_file": "design/cards/borrow-the-shadow.md"
+    },
+    {
+      "stable_id": "no-footfall-at-all",
+      "revision_sha256": "85de8c5f75f0ebc7ad3c081daceddb4725938dc4e2615ab13caf90cdfc0b9a53",
+      "source_file": "design/cards/no-footfall-at-all.md"
+    },
+    {
+      "stable_id": "the-city-opens-its-doors",
+      "revision_sha256": "762577779ed65d0c8f02404a5df0456b9b41addd399e3f45488d0dff3ce5f7b9",
+      "source_file": "design/cards/the-city-opens-its-doors.md"
+    },
+    {
+      "stable_id": "a-coal-for-a-promise",
+      "revision_sha256": "f8de1f20e592b83e9be3b6ed92c1123d805eddd53fe0966859d722ca9328f839",
+      "source_file": "design/cards/a-coal-for-a-promise.md"
+    },
+    {
+      "stable_id": "cinder-cast",
+      "revision_sha256": "bc121478886b91146d7ad85378b07c772828a8c7286c0dbf0733caa78acfe45f",
+      "source_file": "design/cards/cinder-cast.md"
+    },
+    {
+      "stable_id": "breath-of-the-wyrmling",
+      "revision_sha256": "d1df180d9814dbab841f7bb90dfa2c92603d0a097ce2f63b8e0bca0f117e6b63",
+      "source_file": "design/cards/breath-of-the-wyrmling.md"
+    },
+    {
+      "stable_id": "let-the-spark-decide",
+      "revision_sha256": "ac5e94741025f3240833245a2ae462b8ca4bf431b3a4851437e07285e2f1918b",
+      "source_file": "design/cards/let-the-spark-decide.md"
+    },
+    {
+      "stable_id": "bank-the-embers",
+      "revision_sha256": "9a08217428383cbdc4fcc0c5bac3a65aeb32a06e5b03cfbc9cb82dd0aae0ad2b",
+      "source_file": "design/cards/bank-the-embers.md"
+    },
+    {
+      "stable_id": "cup-the-flame",
+      "revision_sha256": "5c04e660f9ef40094b09c95903a6a242d6ba9a522e714ac43ec302bf90891990",
+      "source_file": "design/cards/cup-the-flame.md"
+    },
+    {
+      "stable_id": "speak-with-the-hearth",
+      "revision_sha256": "b3ca45a938c4a8c5cc6164c36c5cc6b65d58c3f7131fa902401256ba548cc3de",
+      "source_file": "design/cards/speak-with-the-hearth.md"
+    },
+    {
+      "stable_id": "borrow-tomorrow-s-weather",
+      "revision_sha256": "ce96a57e4d69edb089b01b720d57fd37bc97d186d666881c54fadc4dc49adca6",
+      "source_file": "design/cards/borrow-tomorrow-s-weather.md"
+    },
+    {
+      "stable_id": "furnace-sweep",
+      "revision_sha256": "a5a27812101f13239270b447db4891578bc94484d133f1c09ea86daf9fd2dc59",
+      "source_file": "design/cards/furnace-sweep.md"
+    },
+    {
+      "stable_id": "smoke-through-the-keyhole",
+      "revision_sha256": "91cc707c6a0f52f374cd0988941b394dedbf053125a44961a491cc9ae3e5c068",
+      "source_file": "design/cards/smoke-through-the-keyhole.md"
+    },
+    {
+      "stable_id": "step-through-the-spark",
+      "revision_sha256": "d7fd09172257c2518f3c2b15d5411cb5e220548d4441e9dc9fc8a53b8acc7b0a",
+      "source_file": "design/cards/step-through-the-spark.md"
+    },
+    {
+      "stable_id": "the-debt-comes-due",
+      "revision_sha256": "dda9b65eed668d6fe387476f2daac0e8760e2bf9d018ecf7c4b925775bced3fe",
+      "source_file": "design/cards/the-debt-comes-due.md"
+    },
+    {
+      "stable_id": "a-splendid-mistake",
+      "revision_sha256": "5ff0564bf3251e10ae8667541df760c065d1b285a2f145de24ffc2155b55211c",
+      "source_file": "design/cards/a-splendid-mistake.md"
+    },
+    {
+      "stable_id": "open-the-furnace-door",
+      "revision_sha256": "eeb9248ad3cb16a1e32a6838cd95106bdba8215251f6f39fbb540589d844f1e3",
+      "source_file": "design/cards/open-the-furnace-door.md"
+    },
+    {
+      "stable_id": "white-heat",
+      "revision_sha256": "824aa1ecc99d34d6007f202cfc1256a5e3b4c3ba312e52297fc69952597813aa",
+      "source_file": "design/cards/white-heat.md"
+    },
+    {
+      "stable_id": "ride-the-furnace-breath",
+      "revision_sha256": "c5b8260d87c55740de2f340c81ee8d4cf720bac2c9251fd4e1984c89b45f0a40",
+      "source_file": "design/cards/ride-the-furnace-breath.md"
+    },
+    {
+      "stable_id": "wings-over-the-battle",
+      "revision_sha256": "de97d37a277f0707cb8f335d55ae9bb39f292a6442278b359e60e62dace1de31",
+      "source_file": "design/cards/wings-over-the-battle.md"
+    },
+    {
+      "stable_id": "breath-of-white",
+      "revision_sha256": "7d01f564216eac11e9db639495b0397b0aa6be683c6d41423011679df76d7281",
+      "source_file": "design/cards/breath-of-white.md"
+    },
+    {
+      "stable_id": "rime-grip",
+      "revision_sha256": "aad27100667effdfa17feb7befff873349d722710d0f2752f93433bd1cad2b6e",
+      "source_file": "design/cards/rime-grip.md"
+    },
+    {
+      "stable_id": "cold-cuirass",
+      "revision_sha256": "4f5e172aac46e5ddfdd1fbee09066a42db42e9c0a00e09d45f8f884445e21f0a",
+      "source_file": "design/cards/cold-cuirass.md"
+    },
+    {
+      "stable_id": "rime-footholds",
+      "revision_sha256": "14c44f46362c3b38361ea793801e5fc1a0d7cfe3dff937e0754ebcbb7584c569",
+      "source_file": "design/cards/rime-footholds.md"
+    },
+    {
+      "stable_id": "winter-store",
+      "revision_sha256": "84e080469ca6f602c3531980a4c1c4a7252f5c515d7b871465d6b5812fca5e52",
+      "source_file": "design/cards/winter-store.md"
+    },
+    {
+      "stable_id": "bridge-of-winter",
+      "revision_sha256": "14bbcab46a65d7544fd01af75fd6408a200f82b56c5b4852c1a375c1045d616d",
+      "source_file": "design/cards/bridge-of-winter.md"
+    },
+    {
+      "stable_id": "icebound-path",
+      "revision_sha256": "d26d8eca933f28d036a2ca542c156e416c9b38029dd5ef0e2134b9de13637282",
+      "source_file": "design/cards/icebound-path.md"
+    },
+    {
+      "stable_id": "road-of-rime",
+      "revision_sha256": "e9f97ca1957ee1d327fee2f81e031ff031f7a623b4fd46a93ffb21b48f39870b",
+      "source_file": "design/cards/road-of-rime.md"
+    },
+    {
+      "stable_id": "whiteout",
+      "revision_sha256": "5284b0d032301e48e07d7cf6e5d630f62b9bfa81e153cdead9482f0f8ea7ab9c",
+      "source_file": "design/cards/whiteout.md"
+    },
+    {
+      "stable_id": "winter-hold",
+      "revision_sha256": "dfededf9265e2dce0b1d73d5abeb31a4034c8b1e373fc767a7e2341a796e1bd6",
+      "source_file": "design/cards/winter-hold.md"
+    },
+    {
+      "stable_id": "forage-woodland",
+      "revision_sha256": "f4f4b16c19d5e3aeb4a9f6b254cd1ad1e9a4a1483058ad9828cde37493ec8e98",
+      "source_file": "design/cards/forage-woodland.md"
+    },
+    {
+      "stable_id": "forage-coast",
+      "revision_sha256": "e3b8beb347bd991cf99a86c68e52b7317035bcfa5feed8ed26a74dbb69b201f7",
+      "source_file": "design/cards/forage-coast.md"
+    },
+    {
+      "stable_id": "forage-mountains",
+      "revision_sha256": "604011d510ccc034bf50ab71fdbac9b7a77f95b145ecb67adef01875f422dfdf",
+      "source_file": "design/cards/forage-mountains.md"
+    },
+    {
+      "stable_id": "forage-wetlands",
+      "revision_sha256": "5808dc611910b0948db0455b94005cc1d6cbf4666c0c26f57998a548bf5bd660",
+      "source_file": "design/cards/forage-wetlands.md"
+    },
+    {
+      "stable_id": "a-place-at-any-fire",
+      "revision_sha256": "d3324171ac86f633130286952f9e45634d5112424aa8b5dcc6fe2370bf609c64",
+      "source_file": "design/cards/a-place-at-any-fire.md"
+    },
+    {
+      "stable_id": "a-verse-for-courage",
+      "revision_sha256": "d1f5b0e67fda8522687762d549fa4e0cab56642d2ab2e734bf0b647a6a68d114",
+      "source_file": "design/cards/a-verse-for-courage.md"
+    },
+    {
+      "stable_id": "call-their-name",
+      "revision_sha256": "a46472556bf1b384803ed6d6b07367723caa3689dbc2fe36094033fb977eecbe",
+      "source_file": "design/cards/call-their-name.md"
+    },
+    {
+      "stable_id": "keep-time-with-steel",
+      "revision_sha256": "9a4b76cdb4167afce3bb7b0fb844339ecb438dc82c4dc863df44d48386df4f0f",
+      "source_file": "design/cards/keep-time-with-steel.md"
+    },
+    {
+      "stable_id": "measured-appeal",
+      "revision_sha256": "118e1f906d416d4c1e3cc609c453cddfbaa60223dd163bdd4a88ca428327a9b6",
+      "source_file": "design/cards/measured-appeal.md"
+    },
+    {
+      "stable_id": "name-the-reckoning",
+      "revision_sha256": "51ca23b3918df573744baa319bcfaff9b47ef06b5fab4e3fa73fe0518aafd00c",
+      "source_file": "design/cards/name-the-reckoning.md"
+    },
+    {
+      "stable_id": "the-right-small-courtesy",
+      "revision_sha256": "c106ca9372c63ed38ada559b283424d5e9e93352c9c04af45580617d3bad7976",
+      "source_file": "design/cards/the-right-small-courtesy.md"
+    },
+    {
+      "stable_id": "call-the-opening",
+      "revision_sha256": "70a001e2179b8e6923c6480913e6e67332b33503e545454251a4734f2bdcd11f",
+      "source_file": "design/cards/call-the-opening.md"
+    },
+    {
+      "stable_id": "no-road-away",
+      "revision_sha256": "75d7f6d2fd1a896564d04e83f855813263bd5724b1c9a8a6c0b2a457276ed3c6",
+      "source_file": "design/cards/no-road-away.md"
+    },
+    {
+      "stable_id": "remember-this-name",
+      "revision_sha256": "26259bed0c32cae8405eba01e262db6c6e490db1cf3b1cfb893fa2881710afa6",
+      "source_file": "design/cards/remember-this-name.md"
+    },
+    {
+      "stable_id": "the-chorus-advances",
+      "revision_sha256": "05bc6676d839d3a2973ebe825f07542b74887ee55bc81ee231050cb329d492f3",
+      "source_file": "design/cards/the-chorus-advances.md"
+    },
+    {
+      "stable_id": "all-voices-as-one",
+      "revision_sha256": "91966e2a24069513d8ffa339f3d0f594c0861adfd011777bde3ffd5a2282a85e",
+      "source_file": "design/cards/all-voices-as-one.md"
+    },
+    {
+      "stable_id": "answer-for-what-you-did",
+      "revision_sha256": "f30f4183648ed80a5a5c8f5966881dea613b42b288136b00811b56a18efd3fed",
+      "source_file": "design/cards/answer-for-what-you-did.md"
+    },
+    {
+      "stable_id": "terms-before-swords",
+      "revision_sha256": "c848b777b2e6a5e2048f1ec13230694f47882d60ccd01b8e73baf359b6e741ca",
+      "source_file": "design/cards/terms-before-swords.md"
+    },
+    {
+      "stable_id": "the-tale-will-tell-of-you",
+      "revision_sha256": "a9fc2b60c650764931182053f09d568f4170249491876d05e7b77ccd23196523",
+      "source_file": "design/cards/the-tale-will-tell-of-you.md"
+    },
+    {
+      "stable_id": "a-common-tongue",
+      "revision_sha256": "5a91c8ae6be60dabbbeac53aa558da57742ea55c4c7f56003382e69a0bc3f6f2",
+      "source_file": "design/cards/a-common-tongue.md"
+    },
+    {
+      "stable_id": "a-bough-for-the-fallen",
+      "revision_sha256": "42b3ae1f52c7d1e17daf1bcdaec275f632e3be1de516b05086010a004a67b223",
+      "source_file": "design/cards/a-bough-for-the-fallen.md"
+    },
+    {
+      "stable_id": "a-breath-beneath-the-water",
+      "revision_sha256": "ed8b786d7afdb651e6a5cabe0b7dd895077297ef894591bf5088aa56266fccfe",
+      "source_file": "design/cards/a-breath-beneath-the-water.md"
+    },
+    {
+      "stable_id": "a-camp-without-a-trace",
+      "revision_sha256": "6f27d063078e305f8f017cf7fbfe924618573368dbf57a13884d598450efb1fb",
+      "source_file": "design/cards/a-camp-without-a-trace.md"
+    },
+    {
+      "stable_id": "a-line-for-everyone",
+      "revision_sha256": "a7a43acecca70ec36c9fc4d0fbe5f2c6cbd1e27bb5f5ea95ee07f1d3e9df46bd",
+      "source_file": "design/cards/a-line-for-everyone.md"
+    },
+    {
+      "stable_id": "a-roof-before-nightfall",
+      "revision_sha256": "088eb368bc7c77534ac1dce445e02a72ca5f82c1da467e455482ff7a54cfa575",
+      "source_file": "design/cards/a-roof-before-nightfall.md"
+    },
+    {
+      "stable_id": "a-small-and-watchful-shape",
+      "revision_sha256": "b91686fb334af1448c95ba4417b22c81939a9014041019a1b883204fd7dee6c9",
+      "source_file": "design/cards/a-small-and-watchful-shape.md"
+    },
+    {
+      "stable_id": "a-word-apart",
+      "revision_sha256": "dd0a614df039d99215a9a5d83305f014034aa5c52048809e6bed3efedde7e696",
+      "source_file": "design/cards/a-word-apart.md"
+    },
+    {
+      "stable_id": "borrowed-identity",
+      "revision_sha256": "e27a34eb6596b0407efbaab8c7a4dbbec40b2eeb5bd3ae9b33c5c0abd674c197",
+      "source_file": "design/cards/borrowed-identity.md"
+    },
+    {
+      "stable_id": "bottled-morning",
+      "revision_sha256": "557d2a57cf1ecbd2d9f354fc3610ce3bb5f426b3c3c8efa9a8750be676771b17",
+      "source_file": "design/cards/bottled-morning.md"
+    },
+    {
+      "stable_id": "follow-my-leap",
+      "revision_sha256": "f26ca9483a667f1a27d69acd0abb33a5a094aa4a64efea7882dbcd7abc8f62ce",
+      "source_file": "design/cards/follow-my-leap.md"
+    },
+    {
+      "stable_id": "ice-across-the-break",
+      "revision_sha256": "4a50b3e464da23704e64af82d983609cdd96638e1cf2bc3d4544e2df20edc9f4",
+      "source_file": "design/cards/ice-across-the-break.md"
+    },
+    {
+      "stable_id": "live-in-the-mask",
+      "revision_sha256": "6c00ad848faea0da781678c064d19ca731aa748f38a955f10025536d3ca30ead",
+      "source_file": "design/cards/live-in-the-mask.md"
+    },
+    {
+      "stable_id": "not-yet-your-name",
+      "revision_sha256": "2c809e5bb838e7934078bcc0f4ecf09e38b3369541b5486121a6fba5d49c404d",
+      "source_file": "design/cards/not-yet-your-name.md"
+    },
+    {
+      "stable_id": "pounce-of-the-red-claw",
+      "revision_sha256": "dbefaa874badad47ea22251e22dc91f2ede85e5f738f2fcbe74ea7efa27b4f6d",
+      "source_file": "design/cards/pounce-of-the-red-claw.md"
+    },
+    {
+      "stable_id": "quiet-conference",
+      "revision_sha256": "1b39db851d53ce015933db0a11c2cbf2a3b5ca7e1470380677d795fb70648f7d",
+      "source_file": "design/cards/quiet-conference.md"
+    },
+    {
+      "stable_id": "scales-beneath-the-skin",
+      "revision_sha256": "5579c77d1ec03e77b1c2f9237c1fc3ea701ff8ccb85902b126d8179e13db4eb1",
+      "source_file": "design/cards/scales-beneath-the-skin.md"
+    },
+    {
+      "stable_id": "the-cleverest-mixture",
+      "revision_sha256": "02e82010714a90ffea04fea99e75b25a173d03c01a436eb55eb37b0b064d2b61",
+      "source_file": "design/cards/the-cleverest-mixture.md"
+    },
+    {
+      "stable_id": "the-grove-gives-back",
+      "revision_sha256": "084e805665e7ebad8171f8fd1b28f969fb2f4799c4154ee7e13fc10e260a944d",
+      "source_file": "design/cards/the-grove-gives-back.md"
+    },
+    {
+      "stable_id": "the-hunt-ends-here",
+      "revision_sha256": "3f706b93582c1f2bfbdf2c5f1f333d19dab15774c248fb7c883c3e92429b1083",
+      "source_file": "design/cards/the-hunt-ends-here.md"
+    },
+    {
+      "stable_id": "undertow-answer",
+      "revision_sha256": "1ffbc1cdda41c9764b7d0173445f87467bbd254ac97f611675d8748c03e44bb0",
+      "source_file": "design/cards/undertow-answer.md"
+    },
+    {
+      "stable_id": "wake-the-nerves",
+      "revision_sha256": "7cd1c60b9bdef8741cd6bd39b5d5b3215583412e90a42e7a89af07b0fd09ee77",
+      "source_file": "design/cards/wake-the-nerves.md"
+    },
+    {
+      "stable_id": "a-company-of-reflections",
+      "revision_sha256": "e161d247bec754a0dff597d4ed0726d0a9dd300f38f26f3914263c561189dbb1",
+      "source_file": "design/cards/a-company-of-reflections.md"
+    },
+    {
+      "stable_id": "a-marvel-on-wheels",
+      "revision_sha256": "14391e985b4fba755f570e303fc2c830f58420ef5db3c3d8b37d989a2068c81b",
+      "source_file": "design/cards/a-marvel-on-wheels.md"
+    },
+    {
+      "stable_id": "a-sword-made-of-dawn",
+      "revision_sha256": "e29751aa7e4e19c3bf3dd8c66eb0512431dcf279ca4cf86842969ce1a3516a64",
+      "source_file": "design/cards/a-sword-made-of-dawn.md"
+    },
+    {
+      "stable_id": "a-voice-across-the-valley",
+      "revision_sha256": "3848147590829cdc6f2732ce15d4e9d19f63ba08c6d4ce75f7c7f7c0237b03f2",
+      "source_file": "design/cards/a-voice-across-the-valley.md"
+    },
+    {
+      "stable_id": "arrive-under-guard",
+      "revision_sha256": "2627e111d882a73986ef44471b3eb9926ac8937bdf9d9afc858e324d09d23a17",
+      "source_file": "design/cards/arrive-under-guard.md"
+    },
+    {
+      "stable_id": "breakaway-rig",
+      "revision_sha256": "a9d8dafeab0894c8394c52b422dddbacd286b5d3e4aab71484472e565b69964e",
+      "source_file": "design/cards/breakaway-rig.md"
+    },
+    {
+      "stable_id": "cast-through-the-reflection",
+      "revision_sha256": "3365bf48472d21062362b0bc180219a6580b2e915083c88b1c1154fefa803bec",
+      "source_file": "design/cards/cast-through-the-reflection.md"
+    },
+    {
+      "stable_id": "circle-of-old-names",
+      "revision_sha256": "2fbaad08d53c734d8b413e2c3b9dd50099fe590154056f82a23b48c95a7db84d",
+      "source_file": "design/cards/circle-of-old-names.md"
+    },
+    {
+      "stable_id": "draw-the-current",
+      "revision_sha256": "64fbbdbf1655135c3e032430e0aa69e118a9f4d04487a1248e88790f10da6e9f",
+      "source_file": "design/cards/draw-the-current.md"
+    },
+    {
+      "stable_id": "ember-along-the-edge",
+      "revision_sha256": "7edc3ccd89c4eb0dbab186cbc2ec036e85169a6042d0c47945d15b0b0a07cf37",
+      "source_file": "design/cards/ember-along-the-edge.md"
+    },
+    {
+      "stable_id": "four-winds-at-once",
+      "revision_sha256": "ef598f5d5afb9af11f73f4d24005ed130d6c63777b316b9fa0218c48cf10a662",
+      "source_file": "design/cards/four-winds-at-once.md"
+    },
+    {
+      "stable_id": "haul-them-home",
+      "revision_sha256": "120b1c8010412f6a0b894b4042d4cb956453868ab85849bf5c1d096cb949bd1c",
+      "source_file": "design/cards/haul-them-home.md"
+    },
+    {
+      "stable_id": "hook-with-the-shield",
+      "revision_sha256": "28314bf9f54cc9c6319a8e502fcb7cc9e388830e3295a45498f8e5c1fae9526b",
+      "source_file": "design/cards/hook-with-the-shield.md"
+    },
+    {
+      "stable_id": "ironbound-advance",
+      "revision_sha256": "bcc6eb1441dae025ba54a379114ad3de004a3941c10670e3d0520f4cc245d2e7",
+      "source_file": "design/cards/ironbound-advance.md"
+    },
+    {
+      "stable_id": "read-the-maker-s-hand",
+      "revision_sha256": "9c7c4f6d922a4361f95a77559cbe3995e637aecd9354afaca6bc9ec414167e0c",
+      "source_file": "design/cards/read-the-maker-s-hand.md"
+    },
+    {
+      "stable_id": "sell-the-feint",
+      "revision_sha256": "16cd695df070d34bd8487e96d681337290136ae8aa67ce0348805700cd08a6db",
+      "source_file": "design/cards/sell-the-feint.md"
+    },
+    {
+      "stable_id": "shatterguard",
+      "revision_sha256": "2e4857edcccf74873965e82acf444b88098139638ff475b36f1065114321e2c6",
+      "source_file": "design/cards/shatterguard.md"
+    },
+    {
+      "stable_id": "snare-the-missile",
+      "revision_sha256": "a475849d26f81bdd998196b25cfbd7c594087705e0ea27339c01359f4a3599df",
+      "source_file": "design/cards/snare-the-missile.md"
+    },
+    {
+      "stable_id": "still-the-avalanche",
+      "revision_sha256": "c82d01ba53057cd2501cbaa7ed3421d746742deb6ec4014a8790470ca99f65f5",
+      "source_file": "design/cards/still-the-avalanche.md"
+    },
+    {
+      "stable_id": "storm-on-a-string",
+      "revision_sha256": "0aef9969e8b28fd2af74fc8b460b0785486f7165b981558eb750b9a9414a0324",
+      "source_file": "design/cards/storm-on-a-string.md"
+    },
+    {
+      "stable_id": "the-wind-makes-room",
+      "revision_sha256": "1e59383cbc146e819d9e7a0ab025fcd0c58db1a2fc3626f89d0b9e3bbea6ad7d",
+      "source_file": "design/cards/the-wind-makes-room.md"
+    },
+    {
+      "stable_id": "turn-the-fall",
+      "revision_sha256": "eb1af5022707600dff267a7dcbc5962ace76fffb9016bb201853d7499ae4d5ba",
+      "source_file": "design/cards/turn-the-fall.md"
+    },
+    {
+      "stable_id": "wind-the-sight",
+      "revision_sha256": "09b309511b4bbb3e7608ef2c7eda4354bfb39837ac87896e6abebca97625187f",
+      "source_file": "design/cards/wind-the-sight.md"
+    },
+    {
+      "stable_id": "wear-light-armor",
+      "revision_sha256": "2aba755939f471b23a41fc0e5f703d04fb692dd7cb7d3a6eddf10777cb6c654c",
+      "source_file": "design/cards/wear-light-armor.md"
+    },
+    {
+      "stable_id": "wear-medium-armor",
+      "revision_sha256": "1f7c3cd99d4f7f6c5def98156c4669710aba4f3c98313debef8879b5740d8711",
+      "source_file": "design/cards/wear-medium-armor.md"
+    },
+    {
+      "stable_id": "wear-heavy-armor",
+      "revision_sha256": "f42357ae22720a24c3630cad32f5a46a70ca83f7ab703702a16a21e60a14997d",
+      "source_file": "design/cards/wear-heavy-armor.md"
+    },
+    {
+      "stable_id": "braced-harness",
+      "revision_sha256": "f04572c286e527d08b144198ffca9dc22413b898685cdc1dd2e9e5b1fbed6a10",
+      "source_file": "design/cards/braced-harness.md"
+    },
+    {
+      "stable_id": "wake-the-iron-rune",
+      "revision_sha256": "45bf6df21891868049869c66eaf353d56a9a5bdc6b232ca77a0f61abdf55e37b",
+      "source_file": "design/cards/wake-the-iron-rune.md"
+    },
+    {
+      "stable_id": "armored-recovery",
+      "revision_sha256": "23723f46e8453526b314bcaddb01ae77b530193b9a63c00774d5d524549da237",
+      "source_file": "design/cards/armored-recovery.md"
+    },
+    {
+      "stable_id": "stone-on-your-shoulders",
+      "revision_sha256": "0d8bae98f209c86f60a4b2a0baaddc8f1bcb8d3eedd05a1022ccc84bf3450a95",
+      "source_file": "design/cards/stone-on-your-shoulders.md"
+    },
+    {
+      "stable_id": "weight-of-iron",
+      "revision_sha256": "65c862be78db6d493d7853a66fe8e2d7bef4c1528dee3444b3ef487c66a9601e",
+      "source_file": "design/cards/weight-of-iron.md"
+    },
+    {
+      "stable_id": "stride-of-the-giant",
+      "revision_sha256": "05dfd49621934b0840c5692c9205838222449f75ebe7f14837b41e635f224a79",
+      "source_file": "design/cards/stride-of-the-giant.md"
+    },
+    {
+      "stable_id": "a-sign-against-harm",
+      "revision_sha256": "ab5f4523acabdb63d8b7c78104c7cf88aa42dcc04e4ca747b1170b481cefc251",
+      "source_file": "design/cards/a-sign-against-harm.md"
+    },
+    {
+      "stable_id": "rim-strike",
+      "revision_sha256": "a744c2f2c0924a8ba0cb646e09396194721c1514aa6816899c038171371a1d6f",
+      "source_file": "design/cards/rim-strike.md"
+    },
+    {
+      "stable_id": "shielded-advance",
+      "revision_sha256": "73c18037766918750b27b2f6409d6e51225191c5f8bb8e58e5597d2187702a32",
+      "source_file": "design/cards/shielded-advance.md"
+    },
+    {
+      "stable_id": "shielding-step",
+      "revision_sha256": "c8e33f610749325095e56fbf87378d5be8ed9eabebdbb8ef1486e5e67592f48c",
+      "source_file": "design/cards/shielding-step.md"
+    },
+    {
+      "stable_id": "hold-the-passage",
+      "revision_sha256": "5b3d0219949b7d0e73e6c64d0ab5c60e0c16df781b7b5073a5f8fdb813a20623",
+      "source_file": "design/cards/hold-the-passage.md"
+    },
+    {
+      "stable_id": "unravel-the-bolt",
+      "revision_sha256": "f12b067b2448c3e3742e6b5d285f300959b5b6653a3a052771c2c6237584a4bf",
+      "source_file": "design/cards/unravel-the-bolt.md"
+    },
+    {
+      "stable_id": "carry-to-safety",
+      "revision_sha256": "b0ea9b4497a206469c6568b69f4c61f2fcca427f228238e4f0c5601ec72372f1",
+      "source_file": "design/cards/carry-to-safety.md"
+    },
+    {
+      "stable_id": "high-guard",
+      "revision_sha256": "94fed77ac188181eb5717dc9dd073ab4b97c17765d13fb4de58f1e7b642ce5e2",
+      "source_file": "design/cards/high-guard.md"
+    },
+    {
+      "stable_id": "shield-roof",
+      "revision_sha256": "b29810c31c25c5f694d817167e327527eb5ff3d28f8c404006fbdc2b181182c8",
+      "source_file": "design/cards/shield-roof.md"
+    },
+    {
+      "stable_id": "the-circle-holds",
+      "revision_sha256": "11fe9eecc94101323840f9c2869b0bf0d8668132f6e6cf1a19b0ec137ffbf47c",
+      "source_file": "design/cards/the-circle-holds.md"
+    },
+    {
+      "stable_id": "a-knot-you-can-trust",
+      "revision_sha256": "a46b7f9f575245f5d4e39552867f3961aa6bcbfb696f5e439fc9d6a3f9b44927",
+      "source_file": "design/cards/a-knot-you-can-trust.md"
+    },
+    {
+      "stable_id": "catch-the-ledge",
+      "revision_sha256": "27cedbf8645c08ffea8346b9a678198ef7c2ad737e7eb985280678af18e51a3a",
+      "source_file": "design/cards/catch-the-ledge.md"
+    },
+    {
+      "stable_id": "expert-river-crossing",
+      "revision_sha256": "eb879468396bac0439dd5ef60b9f6cf62f5eb57b4aab7a0c8c37d67440efa05e",
+      "source_file": "design/cards/expert-river-crossing.md"
+    },
+    {
+      "stable_id": "find-your-footing",
+      "revision_sha256": "d79ea5c30a02f879ea991c27d5df4ce7c2cbec0365215ca440543f11c7749a79",
+      "source_file": "design/cards/find-your-footing.md"
+    },
+    {
+      "stable_id": "secure-a-hold",
+      "revision_sha256": "c8544572513d5e1a0369190b7e8db01305e78eec0613e575089b4442832de8eb",
+      "source_file": "design/cards/secure-a-hold.md"
+    },
+    {
+      "stable_id": "sure-ascent",
+      "revision_sha256": "b41eb9b4c159bc8d958280cbae5f40fea3edc6bafd2f7454bc8546ca92cbab36",
+      "source_file": "design/cards/sure-ascent.md"
+    },
+    {
+      "stable_id": "swing-into-trouble",
+      "revision_sha256": "387e1ce31a13d9d802db82c69717693df32a623248fec8229f129790d04c8afe",
+      "source_file": "design/cards/swing-into-trouble.md"
+    },
+    {
+      "stable_id": "the-untroubled-hand",
+      "revision_sha256": "1a5191a238d1d0e3ccb376c24c20da2588e07d6ceadd45093ec0b61f3a8b7487",
+      "source_file": "design/cards/the-untroubled-hand.md"
+    },
+    {
+      "stable_id": "ride-the-falling-stone",
+      "revision_sha256": "48cbfdf55e2ecaf06998ffb6c0e504133df3cbf22b95c542dde4897c3ca31b65",
+      "source_file": "design/cards/ride-the-falling-stone.md"
+    },
+    {
+      "stable_id": "running-vault",
+      "revision_sha256": "7b097da54b6615959609ec97babb386e4f90f29b47a1d9dc18f5ae17499f7b79",
+      "source_file": "design/cards/running-vault.md"
+    },
+    {
+      "stable_id": "turn-the-river",
+      "revision_sha256": "33223298dd3404e0e9af8c307a7c459ca437cce9ffdafdb41d6b9dd73d3f24ed",
+      "source_file": "design/cards/turn-the-river.md"
+    },
+    {
+      "stable_id": "catch-them-falling",
+      "revision_sha256": "aa919810998ac6696cd7e640f1a187a1caa3a6f3197bfdf226c591917321e3db",
+      "source_file": "design/cards/catch-them-falling.md"
+    },
+    {
+      "stable_id": "stillness-at-the-center",
+      "revision_sha256": "98ebfaa09b9c70351b16ba16af1003f773a8f240eca203d705705a7f472455b8",
+      "source_file": "design/cards/stillness-at-the-center.md"
+    },
+    {
+      "stable_id": "traverse-the-impossible",
+      "revision_sha256": "de72f34e2571533653cba576104502df9edabf2449c60f24962b51195445b9ad",
+      "source_file": "design/cards/traverse-the-impossible.md"
+    },
+    {
+      "stable_id": "where-only-eagles-pass",
+      "revision_sha256": "347ddb2634cb6516f23892c3c05a13630ba60dae1cb1a6ccd8bea4458dedccca",
+      "source_file": "design/cards/where-only-eagles-pass.md"
+    },
+    {
+      "stable_id": "close-shot",
+      "revision_sha256": "13f5dbd3d067a7e9466550586c1d91750805ae300f8643e9ab3d1bdf19ed380e",
+      "source_file": "design/cards/close-shot.md"
+    },
+    {
+      "stable_id": "pinning-shot",
+      "revision_sha256": "dc54259250be494a9a284924b670a64dc354bbe90e8d012135c73e9c679010c7",
+      "source_file": "design/cards/pinning-shot.md"
+    },
+    {
+      "stable_id": "read-the-quarry",
+      "revision_sha256": "f0abc076f6640af8b937efe5b79ff2a913ef05dea29fe90b39d6d41efb4c68de",
+      "source_file": "design/cards/read-the-quarry.md"
+    },
+    {
+      "stable_id": "take-the-measure",
+      "revision_sha256": "95ff4de914d8c97b04b9a965e44bd15ebc5dc5a58d941bce48168676b5cd1aaa",
+      "source_file": "design/cards/take-the-measure.md"
+    },
+    {
+      "stable_id": "cut-off-the-escape",
+      "revision_sha256": "9fca80e19b73d8ccfa4b70aff4ada697beb07ae6d4b89db0a99f57c9a56e8243",
+      "source_file": "design/cards/cut-off-the-escape.md"
+    },
+    {
+      "stable_id": "driving-volley",
+      "revision_sha256": "2d93d7651b67d97eb70980873603e4268143eb6ee94374c696aad21f4efc57db",
+      "source_file": "design/cards/driving-volley.md"
+    },
+    {
+      "stable_id": "find-the-seam",
+      "revision_sha256": "b7d4a39575ff82545da68ba3ac145ae4ee7926057b775d8906c23cade277268a",
+      "source_file": "design/cards/find-the-seam.md"
+    },
+    {
+      "stable_id": "sever-the-pursuit",
+      "revision_sha256": "1a59ba7c924038ddc4c251b2c60a534148aad99222968ba3bbaaf8721dc77b16",
+      "source_file": "design/cards/sever-the-pursuit.md"
+    },
+    {
+      "stable_id": "treat-soft-tissue",
+      "revision_sha256": "3bd7558390985f0b90b1180ce0dc9686c66199063d9213804fe11f6fcda7f166",
+      "source_file": "design/cards/treat-soft-tissue.md"
+    },
+    {
+      "stable_id": "treat-bone",
+      "revision_sha256": "37e8acf4fd11cd77a174e5f0448bd3301cb6c7c61beb57efec17d7abbfacc3cd",
+      "source_file": "design/cards/treat-bone.md"
+    },
+    {
+      "stable_id": "treat-elemental-injury",
+      "revision_sha256": "8b7100eb976cb32b9e984562dac3901459ab0a206b9887175ed9f353b432320e",
+      "source_file": "design/cards/treat-elemental-injury.md"
+    },
+    {
+      "stable_id": "treat-mental-trauma",
+      "revision_sha256": "618cbbf92252beaa428a2abc36ec1477d67c64bcb0f942e8365c9390345a2194",
+      "source_file": "design/cards/treat-mental-trauma.md"
+    },
+    {
+      "stable_id": "treat-radiant-injury",
+      "revision_sha256": "933e8dd5e5820ab3efa8f7154c13afafb46d7722f26bad302b753309115e5a76",
+      "source_file": "design/cards/treat-radiant-injury.md"
+    },
+    {
+      "stable_id": "treat-life-injury",
+      "revision_sha256": "cae14681491935dd68f06a7dd9ab5f0718c2062d459ed993a521912844af6f38",
+      "source_file": "design/cards/treat-life-injury.md"
+    },
+    {
+      "stable_id": "press-and-bind",
+      "revision_sha256": "06555fdff528564ee4bf881014964d257204ce1fb0f546b3318fce822a9e42f8",
+      "source_file": "design/cards/press-and-bind.md"
+    },
+    {
+      "stable_id": "keep-pressure",
+      "revision_sha256": "54b9a2373f93cd0a20db9b6f0a6e93e92eda2067fa0c7f0e9ad6d892a45c7254",
+      "source_file": "design/cards/keep-pressure.md"
+    },
+    {
+      "stable_id": "relieve-poison",
+      "revision_sha256": "2fa1ffad04a6675f0afba8d732c5fb8d8eb05bd6e4d06134b0ff8b2384284705",
+      "source_file": "design/cards/relieve-poison.md"
+    },
+    {
+      "stable_id": "rouse-the-senses",
+      "revision_sha256": "e72959b2d46ddea592416f6cd28d56405dcf2d8f7b3d7247cec8b2f1c36f71e0",
+      "source_file": "design/cards/rouse-the-senses.md"
+    },
+    {
+      "stable_id": "a-steady-hand-at-dawn",
+      "revision_sha256": "f071ad9b495578a2c5a0e2697cf2d04112167910f511f08567527e1a19601159",
+      "source_file": "design/cards/a-steady-hand-at-dawn.md"
+    },
+    {
+      "stable_id": "urgent-bandaging",
+      "revision_sha256": "2c6deb723e9f24568e78b52dfece24ace9abcb5f3fb8c4073c7657a2afb0e095",
+      "source_file": "design/cards/urgent-bandaging.md"
+    },
+    {
+      "stable_id": "clear-the-airway",
+      "revision_sha256": "c561be6cf5f6b41ae370ef4ad0f246d8f2d3f2fc54908e5a0a0113bba3b73eeb",
+      "source_file": "design/cards/clear-the-airway.md"
+    },
+    {
+      "stable_id": "field-triage",
+      "revision_sha256": "ff4535aa0008134c15092ab1a002245313dc5ae75f2b8573e05ad4e895ae56a9",
+      "source_file": "design/cards/field-triage.md"
+    },
+    {
+      "stable_id": "stay-with-my-voice",
+      "revision_sha256": "fbd91d3c8bbc51d6d0e37363fb198a662ff9d0db65fca0e038231579b77bafcf",
+      "source_file": "design/cards/stay-with-my-voice.md"
+    },
+    {
+      "stable_id": "fit-a-replacement",
+      "revision_sha256": "5ad8040da24d52f8dda749fbd8e8db786281dadec967cac7be7f0bbae6b4fe3a",
+      "source_file": "design/cards/fit-a-replacement.md"
+    },
+    {
+      "stable_id": "drain-warmth",
+      "revision_sha256": "8a4a5fb30ec0c93834f30e4a6defc379fe814b047982301747217c9098846531",
+      "source_file": "design/cards/drain-warmth.md"
+    },
+    {
+      "stable_id": "ease-the-spasm",
+      "revision_sha256": "f784eafcf4f0d624ab5764928a1a5456343ce9acb5463c801308ecdedd405fe8",
+      "source_file": "design/cards/ease-the-spasm.md"
+    },
+    {
+      "stable_id": "keep-the-door-closed",
+      "revision_sha256": "e68c1040594887ed90fd0541f37c4292565efd0fa915ac6f4c0c7cfcfcd731fc",
+      "source_file": "design/cards/keep-the-door-closed.md"
+    },
+    {
+      "stable_id": "sap-and-breath",
+      "revision_sha256": "2fca2ce96f08ed971a654431613cb6e4c0f5a08492db9bf0931b95241a50f0b2",
+      "source_file": "design/cards/sap-and-breath.md"
+    },
+    {
+      "stable_id": "shared-breath",
+      "revision_sha256": "90090a91cf968e2d98d6ce7162c2f66d4f274db9f46df2b21437ad3ce263f360",
+      "source_file": "design/cards/shared-breath.md"
+    },
+    {
+      "stable_id": "hold-the-pulse",
+      "revision_sha256": "3ba67d1301bc6c1962a6864528b4793c47be1a4e8d7a2abc0c38323a4683f6b1",
+      "source_file": "design/cards/hold-the-pulse.md"
+    },
+    {
+      "stable_id": "rest-for-the-restless",
+      "revision_sha256": "33e23cec71de57ca979267250f85a587f450b444b4c9e97117397630e1b0334a",
+      "source_file": "design/cards/rest-for-the-restless.md"
+    },
+    {
+      "stable_id": "sustain-the-failing",
+      "revision_sha256": "f68241078eb146c40e1619af56e5e5bd76d4a3815dbfa34f9d026f28f8bb4cdc",
+      "source_file": "design/cards/sustain-the-failing.md"
+    },
+    {
+      "stable_id": "cast-off-the-venom",
+      "revision_sha256": "1686cc978eb477ab48d3dc49d2ba65857588ba8f58d287d51bdbffbfa48bda3f",
+      "source_file": "design/cards/cast-off-the-venom.md"
+    },
+    {
+      "stable_id": "return-to-strength",
+      "revision_sha256": "12c0cf11f5759b35080351a492fdfd8ab883416dbb92e876428635d949d0199f",
+      "source_file": "design/cards/return-to-strength.md"
+    },
+    {
+      "stable_id": "dawn-shard",
+      "revision_sha256": "b8b120e39c3de6a0617b94eaafd70f298a8cf4354b94bcc80a5ca9f2d056ec2a",
+      "source_file": "design/cards/dawn-shard.md"
+    },
+    {
+      "stable_id": "lantern-in-the-palm",
+      "revision_sha256": "aebc3556aa0f09cca1ce00bab20e3fb3b19d4f40cfd35d4ee276fd5c0b9d8e97",
+      "source_file": "design/cards/lantern-in-the-palm.md"
+    },
+    {
+      "stable_id": "lantern-moths",
+      "revision_sha256": "7825f685a387cf14e653f998d6279749e2feed53cf7b582884c6a815a15bd318",
+      "source_file": "design/cards/lantern-moths.md"
+    },
+    {
+      "stable_id": "mercy-in-the-light",
+      "revision_sha256": "1e2535deb5d5c4a857d3b154caa146cf9a95e8e77b4e46ea94b1cd01da2eb433",
+      "source_file": "design/cards/mercy-in-the-light.md"
+    },
+    {
+      "stable_id": "oathlight-strike",
+      "revision_sha256": "71f7bfeac578cfc8816288bef74596c76d6151c06507e7f9ad125ebe0429d788",
+      "source_file": "design/cards/oathlight-strike.md"
+    },
+    {
+      "stable_id": "shade-the-eyes",
+      "revision_sha256": "db146bcb80261f2de5cf6dae2845af1b6766e9e847b946b412524c48039696ce",
+      "source_file": "design/cards/shade-the-eyes.md"
+    },
+    {
+      "stable_id": "a-shelter-of-light",
+      "revision_sha256": "7c63136f0f856a453268c48e3caa600cd5a276aa816c69ed0d1fb09a06534ff3",
+      "source_file": "design/cards/a-shelter-of-light.md"
+    },
+    {
+      "stable_id": "beacon-through-terror",
+      "revision_sha256": "e6442434e26a58a8d69b82dadca6d1d6b3dd402028b1f6581e941e8bf6407c6d",
+      "source_file": "design/cards/beacon-through-terror.md"
+    },
+    {
+      "stable_id": "reveal-the-threshold",
+      "revision_sha256": "2d7c890efcf9f6b377f1ff380377854a3bcc5c7610243006dd85e5d992e3e453",
+      "source_file": "design/cards/reveal-the-threshold.md"
+    },
+    {
+      "stable_id": "carry-the-sunrise",
+      "revision_sha256": "5e5fd5102d93295dae30229bfa9de28028cc6b063df1d67cc07a67c0061f5bfd",
+      "source_file": "design/cards/carry-the-sunrise.md"
+    },
+    {
+      "stable_id": "last-light-of-the-watch",
+      "revision_sha256": "2c03f90d0ab9b21d1739277cfcaab412f8542b7cb373e1505424ae7dbaf4620d",
+      "source_file": "design/cards/last-light-of-the-watch.md"
+    },
+    {
+      "stable_id": "noonday-judgment",
+      "revision_sha256": "2ecb7c786300b32ae4071af59537f732d77e4451ca4007605a88c246f921aa8a",
+      "source_file": "design/cards/noonday-judgment.md"
+    },
+    {
+      "stable_id": "road-of-dawn",
+      "revision_sha256": "4f8bb3e90b8cb186109eb705d2d3f0c8cdf400655256d40f1c4468c323e188d2",
+      "source_file": "design/cards/road-of-dawn.md"
+    },
+    {
+      "stable_id": "anatomy-of-an-opening",
+      "revision_sha256": "790c6db1eedc992c53c144b2b999c0c389ee9ef7822672d50900f5b6de11808b",
+      "source_file": "design/cards/anatomy-of-an-opening.md"
+    },
+    {
+      "stable_id": "i-have-seen-this-step",
+      "revision_sha256": "17b7370b45a3ffeb9155cb500c1752cbfcfff6aa4c2f09c96f75f81cbd074d3d",
+      "source_file": "design/cards/i-have-seen-this-step.md"
+    },
+    {
+      "stable_id": "identify-a-mixture",
+      "revision_sha256": "348344edb12a038f335e6baae68fa590e71ce45cc0b36f594feb7ca4cc64e964",
+      "source_file": "design/cards/identify-a-mixture.md"
+    },
+    {
+      "stable_id": "identify-an-enchantment",
+      "revision_sha256": "56ebee325d621781ab5b1535e73726b7645ea98ad0728ab12fb04aecad7c26b7",
+      "source_file": "design/cards/identify-an-enchantment.md"
+    },
+    {
+      "stable_id": "read-the-remains",
+      "revision_sha256": "8da157a7059ec9556f6af8f33c57f4ed5c1a2e01221bd53f739f8d93c59271ad",
+      "source_file": "design/cards/read-the-remains.md"
+    },
+    {
+      "stable_id": "spot-the-tell",
+      "revision_sha256": "d3dfa0054e2cd2367d6fcaf168303d532319eff665faba69ede38270c3584032",
+      "source_file": "design/cards/spot-the-tell.md"
+    },
+    {
+      "stable_id": "stitch-the-living-pattern",
+      "revision_sha256": "6973c366676d7e1b591f0d151f2e28284abbb87ec64b0e5450431504cd3d4eb0",
+      "source_file": "design/cards/stitch-the-living-pattern.md"
+    },
+    {
+      "stable_id": "the-patient-metal",
+      "revision_sha256": "e282e065f2037a542ea8a712e9c562559a0244c41709fd05bb38135a93b13836",
+      "source_file": "design/cards/the-patient-metal.md"
+    },
+    {
+      "stable_id": "ask-the-falling-ash",
+      "revision_sha256": "dca8024f7b84188f9ff9717c2be57efb1ec0070df2a0b79b837f67bb18d4e387",
+      "source_file": "design/cards/ask-the-falling-ash.md"
+    },
+    {
+      "stable_id": "catch-the-spell",
+      "revision_sha256": "3700187a68c27aa65c6b6b1870c9666513373d1d5e0803767165d55692284472",
+      "source_file": "design/cards/catch-the-spell.md"
+    },
+    {
+      "stable_id": "read-the-next-blow",
+      "revision_sha256": "b06b9874fc1806792129ed867f4d4301a18de75080a42048e866492cb774c23b",
+      "source_file": "design/cards/read-the-next-blow.md"
+    },
+    {
+      "stable_id": "read-the-ward",
+      "revision_sha256": "cd5a5ffc376a02936a99fb8902f48935a1b49f01faccbfa7614a1bb7c8b8f638",
+      "source_file": "design/cards/read-the-ward.md"
+    },
+    {
+      "stable_id": "teach-stone-to-bend",
+      "revision_sha256": "5d861665719ee0a3d62776545f81fef2bbd6ca9f8e666221e272ea15b089a779",
+      "source_file": "design/cards/teach-stone-to-bend.md"
+    },
+    {
+      "stable_id": "translate-the-fragment",
+      "revision_sha256": "b1ce0a7f38bbc33a025bd726bef8030a76f177fe243157810e6734f7fcb97dce",
+      "source_file": "design/cards/translate-the-fragment.md"
+    },
+    {
+      "stable_id": "checkmate-in-three-steps",
+      "revision_sha256": "97e0e1eb4f6337a4186e45fae676ccfcebeed9b58f624d49ad9bf2e1300d84dd",
+      "source_file": "design/cards/checkmate-in-three-steps.md"
+    },
+    {
+      "stable_id": "reconstruct-the-event",
+      "revision_sha256": "e178977e0e07919a18b5d5517d9da9b845bdc342fd643fb4749db45aab32a5da",
+      "source_file": "design/cards/reconstruct-the-event.md"
+    },
+    {
+      "stable_id": "the-moment-foretold",
+      "revision_sha256": "ecbc0ffdedc08d78caf4c8f8e56fe9929b084fed3824ea731902afd8045f6c7b",
+      "source_file": "design/cards/the-moment-foretold.md"
+    },
+    {
+      "stable_id": "the-shape-of-escape",
+      "revision_sha256": "68225b47096d1a248589388fe6682b6862e9ba09765f6362b81c8db67089f71f",
+      "source_file": "design/cards/the-shape-of-escape.md"
+    },
+    {
+      "stable_id": "clear-the-smoke",
+      "revision_sha256": "e7f170b3f4261b199c8e8e84071f4054be490d4034a1228cdeb712a688d49dca",
+      "source_file": "design/cards/clear-the-smoke.md"
+    },
+    {
+      "stable_id": "crosswind",
+      "revision_sha256": "b45dd8afc0f8335173fc3442ad6fab30d5d6da6efd4602b8561da56772ff54b4",
+      "source_file": "design/cards/crosswind.md"
+    },
+    {
+      "stable_id": "gust-hammer",
+      "revision_sha256": "44f5af2d106aaa8fc5acbbc9b004d67f5b7b175562583b0a1d76240bdae96403",
+      "source_file": "design/cards/gust-hammer.md"
+    },
+    {
+      "stable_id": "palm-of-the-gale",
+      "revision_sha256": "4290373f0862e4a85ab741839ffecb5661cd93ff3888628b2e40fa1fb9047cae",
+      "source_file": "design/cards/palm-of-the-gale.md"
+    },
+    {
+      "stable_id": "thunder-at-the-door",
+      "revision_sha256": "a89d322e95fd2e14d9fd27c112d18335f8a8a5819367300c39c1505ae13511e4",
+      "source_file": "design/cards/thunder-at-the-door.md"
+    },
+    {
+      "stable_id": "a-road-through-rain",
+      "revision_sha256": "44098d177a86b89c3eb10515eb24108bc3c15543f7933ef8b629603bcd8ee5c9",
+      "source_file": "design/cards/a-road-through-rain.md"
+    },
+    {
+      "stable_id": "thunder-ring",
+      "revision_sha256": "b8b12c101181b17fc2150ac44375b308caaf6f70c46f9aeb890881a809511ca1",
+      "source_file": "design/cards/thunder-ring.md"
+    },
+    {
+      "stable_id": "walk-the-thunder",
+      "revision_sha256": "97c30be1f4a15d841e2510939b281ce8dc4af64baf98580e91a31a3c3222423c",
+      "source_file": "design/cards/walk-the-thunder.md"
+    },
+    {
+      "stable_id": "forked-sky",
+      "revision_sha256": "e9da0443cc94ec516307b2b894c83bfb2dc540f3909d7be79051b3485b91c1c5",
+      "source_file": "design/cards/forked-sky.md"
+    },
+    {
+      "stable_id": "the-sky-comes-down",
+      "revision_sha256": "f0bd3671cb33e9bb71a6cf56921e370517a70e649457076127408f53e43345fb",
+      "source_file": "design/cards/the-sky-comes-down.md"
+    },
+    {
+      "stable_id": "a-door-that-is-not-there",
+      "revision_sha256": "7eb8cd3b6da10bdffc815d63e363e9def2d3ad732d8a23615429dab5a5c801fd",
+      "source_file": "design/cards/a-door-that-is-not-there.md"
+    },
+    {
+      "stable_id": "borrow-a-voice",
+      "revision_sha256": "24a6ad9c0d849f61dccbee560472db915198fbe069616d9cb78235b994f082b1",
+      "source_file": "design/cards/borrow-a-voice.md"
+    },
+    {
+      "stable_id": "silent-cue",
+      "revision_sha256": "33578828af3c76723aff9e092ce0eb4ce8a1d3493c76d9ecc413538f802b70a3",
+      "source_file": "design/cards/silent-cue.md"
+    },
+    {
+      "stable_id": "a-thought-that-is-not-yours",
+      "revision_sha256": "abe5de4a03c2b63d912cb54b3a1eed8bfb2420ffd3e2b335799ecbbb97ff720a",
+      "source_file": "design/cards/a-thought-that-is-not-yours.md"
+    },
+    {
+      "stable_id": "an-invitation-elsewhere",
+      "revision_sha256": "0c3d56e72e1a07afe601c9b224aaa6d51f5b96d34d2e1a341a45c09ca197496d",
+      "source_file": "design/cards/an-invitation-elsewhere.md"
+    },
+    {
+      "stable_id": "intrusive-echo",
+      "revision_sha256": "5d8775d5391b5161d7764ab06fc5c2da8f0fe1df89986c4616c31bfdf67a3347",
+      "source_file": "design/cards/intrusive-echo.md"
+    },
+    {
+      "stable_id": "name-what-is-real",
+      "revision_sha256": "9003455ddc3a9042c967641c616c5c29ae669d44c3562b825307a5bebb0c4531",
+      "source_file": "design/cards/name-what-is-real.md"
+    },
+    {
+      "stable_id": "behind-the-hawthorn",
+      "revision_sha256": "96a276b54f1f7b1a9b99b45deeac940cdf49305bdc973c7e3579810ce7ca9d88",
+      "source_file": "design/cards/behind-the-hawthorn.md"
+    },
+    {
+      "stable_id": "borrowed-silhouette",
+      "revision_sha256": "bb66fe3936026ecadd596d8ec767127ca76a6b8bd6e683917c98a684913c250a",
+      "source_file": "design/cards/borrowed-silhouette.md"
+    },
+    {
+      "stable_id": "dread-reflection",
+      "revision_sha256": "e9bed8912a748c52123707767762ac025d7fcbc7165aa3d758b202ffd2e95d7b",
+      "source_file": "design/cards/dread-reflection.md"
+    },
+    {
+      "stable_id": "the-angle-of-unease",
+      "revision_sha256": "8cb3d15e41301a9be2bfff4c2980ade0ccf0e8cc425b53f14fae91a828780fac",
+      "source_file": "design/cards/the-angle-of-unease.md"
+    },
+    {
+      "stable_id": "dance-beyond-the-circle",
+      "revision_sha256": "8267bf59bcc404347849e940ec69b9500bdf81a13a3bec51500ce11de9f3b136",
+      "source_file": "design/cards/dance-beyond-the-circle.md"
+    },
+    {
+      "stable_id": "lend-your-eyes",
+      "revision_sha256": "2a778bdae9b9af62723d596efeca4170b9d7e46717858bac502f0cdb263d1088",
+      "source_file": "design/cards/lend-your-eyes.md"
+    },
+    {
+      "stable_id": "still-the-will",
+      "revision_sha256": "e833751e5a779af510422992f6c0e689cc1ee48b74d6fb9e7d05ac3ea0382f41",
+      "source_file": "design/cards/still-the-will.md"
+    },
+    {
+      "stable_id": "thought-before-the-blow",
+      "revision_sha256": "4e30440d0469d943433837af46319feb291021d6e62cd03f6a2b440dfa9189fa",
+      "source_file": "design/cards/thought-before-the-blow.md"
+    },
+    {
+      "stable_id": "when-the-stars-look-back",
+      "revision_sha256": "63a9a8d06ec5d1b59cf40fa5927ddac0f98815b7ec6b5d33f446cf5932cef712",
+      "source_file": "design/cards/when-the-stars-look-back.md"
+    },
+    {
+      "stable_id": "a-good-place-to-stop",
+      "revision_sha256": "8e63a97345f89534b46d707cbac69b6ed7ba947591723da5472bc6d6ed0d92fd",
+      "source_file": "design/cards/a-good-place-to-stop.md"
+    },
+    {
+      "stable_id": "borrow-the-beast",
+      "revision_sha256": "74bcb393bbc9de9eba2752bb892dcf20509effa659d36d802ea75bf78231e7ed",
+      "source_file": "design/cards/borrow-the-beast.md"
+    },
+    {
+      "stable_id": "duck-into-the-brush",
+      "revision_sha256": "f4feedd175bdb6ffcf7e6ae0d8101b8f5bd1c335d1df5edff7ab7c4ae91debf7",
+      "source_file": "design/cards/duck-into-the-brush.md"
+    },
+    {
+      "stable_id": "guide-a-frightened-animal",
+      "revision_sha256": "cdbc7a9bd48757b6f3c9221faad0eb0c5b84679c1de4ae34e9e677933bb48cd4",
+      "source_file": "design/cards/guide-a-frightened-animal.md"
+    },
+    {
+      "stable_id": "roots-remember-feet",
+      "revision_sha256": "a6f7c696f4c0fb9301b7d9106ff83dc9020647e19349fda1839dcc9fefda1390",
+      "source_file": "design/cards/roots-remember-feet.md"
+    },
+    {
+      "stable_id": "saddle-and-rein",
+      "revision_sha256": "35e1af1960bfa0fa80b75e228a583680f5815a1dfc887936ff240d2b119440fc",
+      "source_file": "design/cards/saddle-and-rein.md"
+    },
+    {
+      "stable_id": "the-otter-s-bargain",
+      "revision_sha256": "adec2e0ebe0c6df4f75f45a3922332b4eddf0c8363c41418cdfd4e1e75146b72",
+      "source_file": "design/cards/the-otter-s-bargain.md"
+    },
+    {
+      "stable_id": "briar-gate",
+      "revision_sha256": "2dce7402a5e7d2287b552bc285ed0f8fa0ec522d0b93b03868eb153b9fbe6ec7",
+      "source_file": "design/cards/briar-gate.md"
+    },
+    {
+      "stable_id": "catch-the-root",
+      "revision_sha256": "8313d792e9e6ab078ce3f24fd6e53dac6ff80c6878aef82f95f937151f14c25b",
+      "source_file": "design/cards/catch-the-root.md"
+    },
+    {
+      "stable_id": "read-a-dangerous-trail",
+      "revision_sha256": "072a4ae82ffef062d66b434871b8c78929d41ee7f0cb7a34e654794eff1eb064",
+      "source_file": "design/cards/read-a-dangerous-trail.md"
+    },
+    {
+      "stable_id": "the-road-remembers",
+      "revision_sha256": "5ed89fb18716d4c67bdd1ea6a580839e1e07925b6caae10ea961d72e49a97abd",
+      "source_file": "design/cards/the-road-remembers.md"
+    },
+    {
+      "stable_id": "carry-them-to-shore",
+      "revision_sha256": "012d9e224b7d625d75ce92f6ff4ee2bb4aaa19c5f2428dcfddfb50b522266589",
+      "source_file": "design/cards/carry-them-to-shore.md"
+    },
+    {
+      "stable_id": "guide-the-crossing",
+      "revision_sha256": "0f9294f9a084386379de6ac5d1ed14949d8d6241003665f9c9d8196184a02b3b",
+      "source_file": "design/cards/guide-the-crossing.md"
+    },
+    {
+      "stable_id": "the-forest-takes-the-blow",
+      "revision_sha256": "e18a1df314ffd3723d33304068b4183c191678667f5b5a53d3c093ef06144963",
+      "source_file": "design/cards/the-forest-takes-the-blow.md"
+    },
+    {
+      "stable_id": "the-land-keeps-no-secrets",
+      "revision_sha256": "ab4b07f907b48c2500491fe900b2572b53a4c85e07cbcd9b6b4af90772f14ade",
+      "source_file": "design/cards/the-land-keeps-no-secrets.md"
+    },
+    {
+      "stable_id": "the-orchard-wakes",
+      "revision_sha256": "e16b028b854be60434c44738757348384ee30bc6fdad99020465d612eb5b30d1",
+      "source_file": "design/cards/the-orchard-wakes.md"
+    },
+    {
+      "stable_id": "wear-the-great-beast",
+      "revision_sha256": "c84571e346b389a504ad4b0d2e1aed033a9f2b7a954019e4bb54c605e1722cda",
+      "source_file": "design/cards/wear-the-great-beast.md"
+    }
+  ],
+  "universal_ids": [
+    "catch-that",
+    "another-tongue",
+    "message-by-heart",
+    "a-party-piece",
+    "quick-exit",
+    "look-over-here",
+    "catch-a-falling-friend",
+    "keep-your-bearings",
+    "notice-the-human-detail",
+    "pack-with-purpose",
+    "tell-a-worthy-story",
+    "conditioned-body",
+    "hold-a-conversation",
+    "the-strong-arm",
+    "the-last-word",
+    "the-impossible-escape",
+    "a-name-worth-knowing",
+    "the-web-of-whispers",
+    "the-lucky-trinket",
+    "the-mountain-walks",
+    "touched-by-the-divine"
+  ],
+  "retired_id": "turn-the-crowd",
+  "replacement_id": "a-common-tongue",
+  "selection": "All four foraging and both workshop proposals retained; no optional consolidation.",
+  "shared_rule": "DIR-CALLING-001"
+}

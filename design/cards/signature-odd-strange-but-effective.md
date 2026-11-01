@@ -1,24 +1,16 @@
-# Strange but Effective
+# Borrowed Life
 
-*You loop a strap, plant your heel against a unlikely purchase and pull with a grin as the whole problem lurches sideways.*
+*You open your mouth and a dead expert answers. For a few minutes, the greatest locksmith, duelist or scholar you have ever met is wearing your body.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+**Action:** Main Action · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent obstacle or creature, or your own Grappled condition.
+**Target / range / shape:** Self.
 
-Choose Force’s intended result before rolling: obstacle progress, reducing your Grappled rating, or pushing a creature. Describe a plausible means of exerting force.
+Once per scene, invite a spirit into your body. Choose one skill, tool or weapon. For the scene, you gain 3 Boons to rolls using that expertise. The spirit speaks through you and colors your mannerisms, but you remain in control.
 
-- **Weak:** 2 progress, Grappled reduction, or squares of push.
-- **Standard:** 3 progress, Grappled reduction, or squares of push.
-- **Strong:** 4 progress, Grappled reduction, or squares of push.
-
-Afterward you may move up to 2 squares without provoking if able. Grappled 3 leaves no Main Action to spend; this cannot release a fully restrained user.
-
-**Stability:** apply it only to the push option, not obstacle progress or Grappled reduction.
-
-**Duration:** Immediate progress, reduction or push, then movement.
+**Duration:** Until the end of the scene.
 
 **Equipment / acquisition:** None.
 
@@ -28,9 +20,9 @@ Afterward you may move up to 2 squares without provoking if able. Grappled 3 lea
 
 **Type:** Signature
 
-**Tags:** Skill / Control / Utility
+**Tags:** Skill / Support / Utility
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once per scene.
 
 **ID:** signature-odd-strange-but-effective
 

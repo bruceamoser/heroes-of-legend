@@ -1,10 +1,10 @@
-# Stubborn as Bedrock
+# Hard as Bedrock
 
 *You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.*
 
 ## Rules
 
-Maximum HP +1. Gain no additional resistance from this trait.
+Maximum HP +1.
 
 **Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 

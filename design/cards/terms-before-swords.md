@@ -1,33 +1,25 @@
 # Terms before Swords
 
-*You walk into the silence between two angry voices and give them a reason to wait.*
+*You lower your weapon just enough for them to see the choice. "Lay down your arms. You have my word you will leave this field alive."*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Time:** Ten minutes per attempt.
+**Target / range / shape:** A group of Frightened NPC enemies within 6 squares who hear and understand you.
 
-**Target / range / shape:** Representatives of opposing groups who can hear and understand you; ten minutes.
+Offer safety in exchange for surrender. Make a Guile roll toward the group's surrender task.
 
-Offer specific terms and a reason each side might prefer negotiation. The DA first states whether any party is willing to consider them; no willing listener means no attempt. For consequential negotiation set a progress target and state binary or cumulative. On completion, willing representatives agree only to the stated terms they have authority to accept. The card does not compel obedience or stop combat.
-
-- **Weak:** 1 progress; learn one objection openly raised by a willing representative.
-- **Standard:** 2 progress; also identify a concession that representative says could address it.
-- **Strong:** 3 progress; also learn a practical guarantee a willing representative would accept to support the agreement.
-
-**Duration:** An agreed arrangement lasts for its stated terms; participants retain agency.
-
-**Equipment / acquisition:** None.
+- **Weak:** 3 progress.
+- **Standard:** 5 progress.
+- **Strong:** 7 progress.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
 
-**Type:** Skill / Utility
-
-**Limits:** No automatic truce, command or control of player characters.
+**Type:** Skill / Social / Control
 
 **ID:** terms-before-swords
 
-[Card conventions](../card-conventions.md) · [Adventure development](../fantasy-paths.md)
+[Card conventions](../card-conventions.md)
