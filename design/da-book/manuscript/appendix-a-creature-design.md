@@ -110,7 +110,8 @@ raising all numbers until the fight lasts longer.
 
 For a new summon, also test command affordability, the initial free command, tether
 pressure and the cost of replacing a lost form. Check that uncommanded forms provide
-no active scouting, alerts or attacks. A summoned healer charges its controller;
+no active scouting, alerts or attacks and disappear at the end of a controller's
+turn in which they received no command. A summoned healer charges its controller;
 the form cannot receive healing. These restrictions are part of its actual play value.
 
 After a change, recalculate the estimate and check the creature's full outcome

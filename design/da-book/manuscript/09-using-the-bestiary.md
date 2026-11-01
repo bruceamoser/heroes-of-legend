@@ -224,6 +224,11 @@ may spend Main and Maneuver on different summons. Normal downward conversion
 applies; a Main-command package does not also include free movement. Convert its
 Maneuver to movement if it must approach before attacking.
 
+Summoned creatures require constant interaction and concentration to maintain
+their presence in reality. At the end of the controller's turn, each summon that
+received no command during that turn disappears. The initial free command counts
+for that turn.
+
 No command means no activity: no following, watching, alerting, helping or continued
 attack. Existing conditions and durations still resolve on the controller's turn.
 Commands cannot be saved for an enemy turn. Summons have no independent Reactions,

@@ -9,6 +9,11 @@ The controlling player handles its rolls. These profiles differ deliberately fro
 the DA creature cards: a summon has no independent activity, Reactions or opportunity
 attacks. The initial free Main command counts as its one command for that turn.
 
+Summoned creatures require constant interaction and concentration to maintain
+their presence in reality. At the end of the controller's turn, each summon that
+received no command during that turn disappears. The initial free command counts
+for that turn.
+
 A form cannot be healed. At 0 HP, beyond its six-square tether, or when its controller
 becomes unconscious or dies, it disappears. Its energy nature grants no unprinted
 immunity or incorporeality. Existing conditions and durations still resolve on its

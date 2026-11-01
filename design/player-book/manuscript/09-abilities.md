@@ -5,7 +5,9 @@ Its first lines describe what your hero does. Its rules tell you how that moment
 changes the game. Declare the ability before rolling and use its printed attribute.
 
 The numbered diamond is the minimum level: **1 Novice**, **3 Adept**, or **7 Master**.
-Novice purchases are allowed in level-0 creation. Shared cards normally cost 2, 4 or 8 DP; the six exceptions below cost 1 DP.
+Novice purchases are allowed in level-0 creation. Discipline abilities normally cost
+2, 4 or 8 DP. Paid abilities without discipline requirements print their own prices:
+1 or 2 DP at Novice, 3 DP at Adept, and 6 or 8 DP at Master.
 Every listed discipline rank must be owned before learning. No earlier card is
 required merely because its name or theme resembles a later one. The symbols beside
 a card name identify its disciplines; each discipline entry shows its symbol. Full
@@ -25,7 +27,7 @@ be purchased once each, during level 0 or later. They are not free Universal gra
 - [Another Tongue](../../cards/another-tongue.md): learn one ordinary language.
 - [Message by Heart](../../cards/message-by-heart.md): retain one message exactly.
 - [Catch That!](../../cards/catch-that.md): catch a falling item with your Reaction.
-- [A Party Piece](../../cards/a-party-piece.md): entertain with a practiced specialty.
+- [A Party Piece](../../cards/a-party-piece.md): gain 1 Boon to Guile rolls while playing your chosen instrument.
 - [Quick Exit](../../cards/quick-exit.md): gain one movement square when you Disengage.
 - [Look Over Here!](../../cards/look-over-here.md): distract an adjacent attacker to aid an ally’s defense.
 
@@ -35,6 +37,12 @@ Check the action, attribute, targets, range and equipment. Make any choices the 
 requires, then pay its costs. If it calls for a roll, apply just the outcome you rolled.
 Track duration and limits afterward. “Once per round” resets at the start of your
 next turn. “Scene” means one continuous situation; a brief pause does not reset it.
+
+Abilities can build on conditions applied by companions. An ability that targets
+every creature meeting a condition affects the whole eligible group within its
+printed range and shape. The condition remains unless the ability explicitly
+changes or removes it. Use player-selected activation order to set up a payoff;
+the target's normal condition timing still applies.
 
 Type tags help you find abilities; they do not add rules. A card can be Attack,
 Magic and Control at once. Main Action, Maneuver, Reaction, Movement and Passive

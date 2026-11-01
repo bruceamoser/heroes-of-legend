@@ -198,6 +198,18 @@ expiry, not a fresh bonus every time the token is selected. Narrative, physical
 plausibility, willing participation and DA judgments stay visible to the people
 playing; do not turn them into extra automated saves.
 
+## Shared access and condition combinations
+
+Every class can learn a shared ability by meeting its printed level and discipline
+requirements and paying its price. Class affinity changes the cost of training
+ranks. Class signatures retain their printed class requirements.
+
+An ability that targets every creature meeting a condition affects the whole
+eligible group within its printed range and shape. The condition remains unless
+the ability explicitly changes or removes it. Player-selected activation order
+supports one character setting up another character's payoff; normal condition
+timing continues to apply.
+
 ## Class signature standard
 
 **Agreed:** signatures define their class and are slightly more powerful than shared

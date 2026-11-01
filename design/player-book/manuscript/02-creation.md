@@ -200,7 +200,8 @@ is safe. Mental attributes modify only the two creation pools, not these awards.
 
 Novice, Adept and Master abilities normally cost **2, 4 and 8 DP** and require minimum levels
 **1, 3 and 7**. Novice purchases are explicitly permitted during level-0 creation.
-The six shared 1-DP abilities keep their printed price at every level.
+Paid abilities without discipline requirements use their printed exceptions:
+Novice 1 or 2 DP, Adept 3 DP, and Master 6 or 8 DP.
 Higher tiers do not require an earlier card in a chain. Mixed requirements mean you
 need every listed rank. Class signatures require only their class and level; extra
 eligible signatures can be purchased for the same tier price.

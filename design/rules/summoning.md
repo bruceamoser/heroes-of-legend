@@ -93,7 +93,8 @@ and the printed activity time; one spoken instruction never buys hours of labor.
 
 ## What still happens without a command
 
-The creature remains present and can be damaged or forcibly moved. Existing
+Until it disappears at the end of your turn, the creature remains present and can
+be damaged or forcibly moved. Existing
 conditions, durations, tether checks and already-resolved effects continue normally.
 These are consequences, not permission for new activity. A previous Defend benefit
 lasts only to its printed expiry; it does not renew itself.

@@ -173,7 +173,8 @@ assume every party has a ranged solution because bows exist in the equipment lis
 Place cover, objectives or approaches that make the encounter playable, or present
 the creature as a danger to avoid until prepared.
 
-Summons consume their controller's commands. An uncommanded summon does nothing;
+Summons consume their controller's commands. At the end of its controller's turn,
+an uncommanded summon disappears. Before then, it does nothing;
 it does not provide a free guard, scout or opportunity attack. Its six-square
 tether, inability to receive healing and disappearance when its controller falls
 all affect its usefulness. Count what it can actually do, not an imaginary independent

@@ -11,7 +11,8 @@ no action, equipment, attribute bonus or unrestricted use of that discipline's c
 
 Your class makes some disciplines easier to develop than others. A Blade learns
 martial techniques readily; an Arcanist has a shorter road into elemental magic.
-Both can study beyond those strengths. Abilities themselves cost the same DP at
+Every class can learn a shared ability that meets its printed level, discipline
+and DP requirements. Both can study beyond those strengths. Abilities themselves cost the same DP at
 each tier, whatever your class.
 
 ## Buying ranks
