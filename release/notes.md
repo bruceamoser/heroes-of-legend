@@ -11,3 +11,5 @@ The approved discipline catalog brings clearer fantasy, condition combinations a
 Downstream implementation and verification are tracked in bruceamoser/heroes-of-legend-foundry#252; source review is #1294.
 
 Shared-reader reconciliation also updates DA summon guidance, condition-combination explanations, shared class access and the Universal pricing/Party Piece introductions.
+
+The ancestry pages now feature transparent figure cutouts of their existing characters. The recovery chapter explains temporary, starred and lasting conditions with a removal procedure and a worked treatment example.
