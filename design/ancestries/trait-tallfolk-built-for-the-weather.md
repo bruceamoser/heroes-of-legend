@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to Fortitude rolls against exposure to natural cold, heat or the fatigue of a long march. This does not grant damage resistance, remove conditions or apply against magical attacks.
+Gain 1 Boon to Fortitude rolls against exposure to natural cold, heat or the fatigue of a long march.
 
 **Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-tallfolk-built-for-the-weather
 
