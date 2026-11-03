@@ -4,7 +4,7 @@
 
 ## Rules
 
-Gain Seismic Vision with a range of 6 squares.
+Gain [Seismic Vision](../rules/vision.md) with a range of 6 squares.
 
 **Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 

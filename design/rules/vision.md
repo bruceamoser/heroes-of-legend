@@ -1,6 +1,6 @@
 # Vision and perception
 
-**Decision:** Vision principles specified by Bruce on November 3, 2026 during ancestry review. Detailed nonvisual perception abilities remain to be authored and reviewed.
+Light and perception determine what a hero can observe and target. An ability grants the sense, rating or range it names; use the shared definitions here to resolve it.
 
 ## Light and sight
 
@@ -8,14 +8,21 @@ In complete darkness, no one can see.
 
 In low light, the Dungeon Architect assigns 1 to 3 Banes according to the level of darkness. Apply these Banes to observation attempts and actions that require vision.
 
+| Illumination | Sight-related Banes |
+|---|---:|
+| Clear light | 0 |
+| Dim light | 1 |
+| Very dim light | 2 |
+| Barely perceptible light | 3 |
+
+The table gives guidance for describing a lighting penalty. Judge the light reaching the subject of the attempt and apply that penalty once to the roll. Other sources of Boons and Banes use the ordinary resolution rules.
+
 ## Low-Light Vision
 
-Low-Light Vision has a rating. Ignore that many Banes imposed by low light, to a minimum of zero low-light Banes.
+Low-Light Vision has a rating. Ignore that many Banes imposed by low light, to a minimum of zero low-light Banes. Remove the ignored lighting Banes before combining the roll’s remaining Boons and Banes.
 
-For example, in light imposing 2 Banes, Low-Light Vision 1 leaves 1 low-light Bane. Low-Light Vision 2 ignores both. In complete darkness, no one can see.
+For example, in light imposing 3 Banes, Low-Light Vision 1 leaves 2 low-light Banes. Low-Light Vision 2 leaves 1. In complete darkness, no one can see.
 
-Bruce specified optional Low-Light Vision 1 for mountain dwarves and optional Low-Light Vision 2 for Deep Dwarves. The approved Starlight Eyes trait grants Low-Light Vision 1; the approved Eyes for the Dark trait grants Low-Light Vision 2. These grants are choices of ancestry trait.
+## Other forms of perception
 
-## Perception beyond vision
-
-Sonar, seismic, thermal and spiritual perception are distinct forms of perception identified by Bruce. Each ability using one states what it detects, its range and how its information supports observation and targeting. These categories are not automatic grants to any ancestry.
+Sonar, seismic, thermal and spiritual perception are distinct forms of perception. A named sense uses its own means of gathering information. Its rules state what it perceives and how that information supports observation and targeting; its granting ability supplies any printed range.

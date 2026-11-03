@@ -2,7 +2,7 @@
 
 *The shield-bearing guardian who brings everyone home.*
 
-**Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 11/13.**
+**Hill Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 11/13.**
 
 **Languages:** Common and Dwarven. See the [language reference](../rules/languages.md).
 

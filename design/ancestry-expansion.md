@@ -1,6 +1,6 @@
 # Ancestry Expansion — Review Draft
 
-**Status:** Drafting authorized November 3, 2026. Exact wording, statistics, traits and images await Bruce’s review. Nothing here records approval to release or implement downstream.
+**Status:** All thirty added trait grants approved November 3, 2026. Bruce subsequently authorized completing both books and publishing a new minor GitHub release. v16.7.0 is in preparation; outstanding shared-rule questions are tracked below. Foundry implementation remains separate.
 
 Book tracking: [issue #1299](https://github.com/bruceamoser/heroes-of-legend/issues/1299). Downstream tracking: [Foundry #259](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/259). Branch: `codex/1299-ancestry-review`.
 
@@ -110,3 +110,9 @@ Required review before final books: constructed-body recovery/physiology and hea
 Bruce approved the final23–30 batch with three explicit amendments: Quick Hands adds sleight of hand; The Answering Voice invokes a Reason Boon; A Hand on the Rudder invokes an Agility Boon. The Oath-Bound grants now support Reason, Knowledge, Fortitude and Agility, plus the once-per-day HP-paid reroll. The spent HP remains unavailable until next dawn. All thirty trait grants are approved; earlier pending/proposed descriptions in this planning history are superseded by the source files’ final statuses and CHG-ANC-EXP-001 through030. Full ancestry prose, statistics and art are separate from trait approval.
 
 Outstanding: review shared Seismic Vision mechanics; integrate shared rules into both books; clarify touch/contact and delayed HP recovery; settle Oath-Bound constructed-body healing/rest; build and inspect updated books. No merge, release or downstream implementation authorized.
+
+## Minor release authorized — v16.7.0
+
+Bruce’s explicit instruction: “once this is done, lets build the books out and then push a new release to gh , make sure we add th evision rules changes and get a minor release out there”. Prepare16.7.0 dated November3,2026, retaining the current ten-entry roster, starting-value tables and artwork as part of the requested book expansion. This authorizes finishing source integration, required production checks, merging the reviewed source and publishing both books and the complete verified starter-kit assets. It does not request Foundry implementation.
+
+Prepared: one shared vision source included by both book builders, one shared reach/defense/delayed-HP-recovery source, source/PDF coverage checks for those paragraphs, current worked-character ancestry labels and release reader text. Release notes and version are updated. Source/link checks pass. Final builds and publication await the pending questions: Seismic Vision’s targeting definition, Oath-Bound ordinary living healing/recovery, last-HP payment for The Debt Comes Due, and optional surface-dwarf Low-Light Vision placement. Answers are required; elapsed time is not approval. Final source/release checks will be recorded after these decisions.

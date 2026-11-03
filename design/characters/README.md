@@ -7,10 +7,10 @@ origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 
 | Character | Trope | Ancestry / class | HP | Speed | Bulk / capacity | L0 spent / pool | L1 spent / pool |
 |---|---|---|---:|---:|---:|---:|---:|
-| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Dwarf Protector | 25 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
-| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
+| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Hill Dwarf Protector | 25 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
+| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Wood Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
 | [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 11 / 11 | 12 / 12 |
-| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Elf Arcanist | 17 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
+| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Wood Elf Arcanist | 17 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
 | [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 7 | 7 / 10 | 12 / 12 | 13 / 13 |
 | [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 9 / 10 | 13 / 13 | 15 / 15 |
 

@@ -2,7 +2,7 @@
 
 *The old elemental scholar with dangerous curiosity.*
 
-**Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.**
+**Wood Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.**
 
 **Languages:** Common, Elven and Dwarven (Another Tongue). See the [language reference](../rules/languages.md).
 

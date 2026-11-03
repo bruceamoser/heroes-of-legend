@@ -39,8 +39,6 @@ suppress bonuses or set a value instead. Item changes never revise your creation
 
 ## 2. Choose ancestry
 
-**Ancestry review draft:** The expanded roster, revised introductions, new traits and new starting values are proposed for Bruce’s review. They are not an approved release.
-
 Choose one of the ten ancestries. Record its HP contribution, base Speed and Size
 where printed, then choose **two of its five traits**. Read the exact benefits: a
 description of keen eyes does not grant an extra sense unless the rules say so.

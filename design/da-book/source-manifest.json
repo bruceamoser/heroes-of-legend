@@ -1,5 +1,5 @@
 {
-  "title": "Heroes of Legend: Dungeon Architect’s Guide & Bestiary",
+  "title": "Heroes of Legend: Dungeon Architect\u2019s Guide & Bestiary",
   "status": "Manuscript draft for review; CV uncalibrated",
   "chapters": [
     "da-book/manuscript/01-becoming-the-da.md",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "name": "Fey — classic",
+      "name": "Fey \u2014 classic",
       "sources": [
         "bestiary/creatures/dryad.md",
         "bestiary/creatures/satyr.md",
@@ -578,6 +578,12 @@
     "da-book/manuscript/04-places-and-people.md": [
       "rules/languages.md",
       "da-book/manuscript/04a-languages.md"
+    ],
+    "da-book/manuscript/02-running-the-game.md": [
+      "rules/ancestry-procedures.md"
+    ],
+    "da-book/manuscript/06-hazards-and-environment.md": [
+      "rules/vision.md"
     ]
   }
 }

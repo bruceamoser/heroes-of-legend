@@ -4,7 +4,7 @@
 
 ## Rules
 
-Low-Light Vision 2.
+[Low-Light Vision](../rules/vision.md) 2.
 
 **Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 

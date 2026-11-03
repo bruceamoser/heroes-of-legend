@@ -26,7 +26,7 @@ for folder in ['ancestries','origins','classes','disciplines','cards','paths','e
  for p in (DESIGN/folder).glob('*.md'):
   if p.name!='README.md' and (folder!='paths' or p.stem in SELECTED_PATHS): files[p.resolve()]=key(p)
 for p in (BOOK/'manuscript').glob('*.md'): files[p.resolve()]=key(p)
-for f in ['rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
+for f in ['rules/vision.md','rules/ancestry-procedures.md','rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
  p=DESIGN/f; files[p.resolve()]=key(p)
 aliases={'development.md':'02-creation.md','rules/foundations.md':'06-playing.md','rules/session-resolution.md':'06-playing.md','rules/stability.md':'06-playing.md','card-conventions.md':'09-abilities.md','catalog.md':'09-abilities.md','rules/recovery.md':'08-recovery.md','rules/summoning.md':'11-summons.md','equipment.md':'10-equipment.md','recipes.md':'10-equipment.md','disciplines.md':'05-disciplines.md','fantasy-paths.md':'05-disciplines.md'}
 for a,b in aliases.items(): files[(DESIGN/a).resolve()]=key(BOOK/'manuscript'/b)
@@ -363,7 +363,7 @@ parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
 parts.append(coin_reference())
 parts.append(section('3','Ancestry, Culture and Background'))
-parts.append('#heading(level:2)[Ten peoples, side by side]\nThe proposed ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n\n#note[Ancestry review draft: new descriptions, traits, statistics and illustrations await Bruce’s review.]\n#pagebreak(weak:true)\n')
+parts.append('#heading(level:2)[Ten peoples, side by side]\nThe ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
 
 ancestry_intro=BOOK/'manuscript/intro-ancestry.md'
 record(ancestry_intro,'section')
@@ -408,6 +408,9 @@ for p in sorted((DESIGN/'paths').glob('*.md'),key=name):
  if p.stem in SELECTED_PATHS:parts.append(doc(p,'path',wide=True))
 parts.append(']\n#tail-art("paths")\n')
 parts.append(manuscript('06-playing.md','6','Playing the Game','Overhead square-grid scene: one guardian blocks a doorway while companions use cover and a forced push opens an escape route. Clear spaces and no decorative grid distortion.'))
+for shared,kind in [('vision.md','vision-reference'),('ancestry-procedures.md','ancestry-reference')]:
+ p=DESIGN/'rules'/shared;record(p,kind)
+ parts.append('#pagebreak(weak:true)\n#entry('+q(name(p))+','+q(key(p))+')\n'+reading(clean(p),p))
 parts.append(manuscript('07-adventure.md','7','Beyond the Battlefield','An adventuring company shares a riverside camp with travelers; one mends a rope, one bargains, one watches the forest.'))
 p=DESIGN/'rules/languages.md';record(p,'language-reference')
 parts.append('#pagebreak(weak:true)\n#entry("Languages",'+q(key(p))+')\n'+reading(clean(p),p))
@@ -458,7 +461,7 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))
-manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':44,'recipes':10,'summon':73,'character':6}}
+manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':44,'recipes':10,'summon':73,'character':6}}
 manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
 manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

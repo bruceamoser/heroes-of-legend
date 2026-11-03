@@ -4,7 +4,7 @@
 
 ## Rules
 
-Low-Light Vision 1.
+[Low-Light Vision](../rules/vision.md) 1.
 
 **Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
 

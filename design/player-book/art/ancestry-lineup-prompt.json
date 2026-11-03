@@ -5,7 +5,7 @@
   "mode": "built-in image_gen",
   "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-81697c78-feb7-48a5-ad61-094374989060.png",
   "path": "design/player-book/art/interior/ancestry-lineup.png",
-  "status": "Proposed for Bruce’s review",
+  "status": "Included in v16.7.0 under Bruce’s release instruction",
   "reference": "ancestry-expansion-prompts.json eight ancestry group outputs; contact-sheet style reference",
   "left_to_right": [
     "Human",

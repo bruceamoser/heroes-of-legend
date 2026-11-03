@@ -22,4 +22,4 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 **Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.

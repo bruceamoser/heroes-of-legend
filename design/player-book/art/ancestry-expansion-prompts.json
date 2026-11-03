@@ -6,7 +6,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-b91b6e97-72ec-40a4-8e6b-e19df3f9d3b1.png",
     "path": "design/player-book/art/interior/ancestry-wood-elf-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-high-elf-cutout",
@@ -15,7 +15,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-27e0a720-656a-4bdd-b7e5-5cf3b7d9c8d8.png",
     "path": "design/player-book/art/interior/ancestry-high-elf-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-hill-dwarf-cutout",
@@ -24,7 +24,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-c96b1c32-d8f6-495c-b79b-aad3768d0c00.png",
     "path": "design/player-book/art/interior/ancestry-hill-dwarf-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-deep-dwarf-cutout",
@@ -33,7 +33,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-2fa6471f-66b0-45d1-b650-6fdc01f9260f.png",
     "path": "design/player-book/art/interior/ancestry-deep-dwarf-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-tallfolk-cutout",
@@ -42,7 +42,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-e726fa2e-396d-4125-a559-687fd3247095.png",
     "path": "design/player-book/art/interior/ancestry-tallfolk-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-gnome-cutout",
@@ -51,7 +51,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-a72ec94f-bda2-4dae-9a85-aa864250a999.png",
     "path": "design/player-book/art/interior/ancestry-gnome-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-goblin-cutout",
@@ -60,7 +60,7 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-3ccb2722-9666-4535-b0f5-0f7239367e45.png",
     "path": "design/player-book/art/interior/ancestry-goblin-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   },
   {
     "key": "ancestry-oath-bound-cutout",
@@ -69,6 +69,6 @@
     "mode": "built-in image_gen",
     "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-fb9c5083-0546-4c49-bdc7-f71c823a9af8.png",
     "path": "design/player-book/art/interior/ancestry-oath-bound-cutout.png",
-    "status": "Proposed for Bruce’s review"
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
   }
 ]

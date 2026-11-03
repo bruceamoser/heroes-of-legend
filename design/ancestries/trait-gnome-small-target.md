@@ -4,7 +4,7 @@
 
 ## Rules
 
-Gain 1 Boon to defense rolls.
+Gain 1 Boon to [defense rolls](../rules/ancestry-procedures.md).
 
 **Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
 

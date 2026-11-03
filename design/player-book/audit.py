@@ -22,6 +22,11 @@ def norm(s):
  s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
  return re.sub(r'[^a-z0-9]','',s.lower())
 n=norm(text)
+for shared in ['vision.md','ancestry-procedures.md']:
+ source=R/'design/rules'/shared
+ for paragraph in re.split(r'\n\s*\n',source.read_text()):
+  if paragraph.startswith(('#','|')):continue
+  if norm(paragraph) not in n:errors.append('Shared rule text missing: '+shared+' '+paragraph[:50])
 art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())+json.loads((B/'art/class-cutout-prompts.json').read_text())+json.loads((B/'art/reference-prompts.json').read_text())+json.loads((B/'art/ancestry-expansion-prompts.json').read_text())+[json.loads((B/'art/ancestry-lineup-prompt.json').read_text())]
 missing_art=[x['path'] for x in art if not (R/x['path']).is_file()]
 if missing_art:errors.append(f'{len(missing_art)} missing illustration assets')

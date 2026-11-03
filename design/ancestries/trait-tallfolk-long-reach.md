@@ -4,7 +4,7 @@
 
 ## Rules
 
-You can interact with objects and use non-attack touch abilities at a range of 2 squares.
+You can interact with objects and use [non-attack touch abilities](../rules/ancestry-procedures.md) at a range of 2 squares.
 
 **Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
 

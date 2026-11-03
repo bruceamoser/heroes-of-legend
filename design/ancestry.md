@@ -1,8 +1,6 @@
 # Ancestries
 
-**Status:** Expanded roster proposed for Bruce’s review; not approved.
-
-Choose two traits from five. Use the printed traits and HP/Speed starting values. Culture is independent. See the [ancestry introduction](player-book/manuscript/intro-ancestry.md) for the proposed stature comparison and review scope.
+Choose two traits from five. Use the printed traits and HP/Speed starting values. Culture is independent. See the [ancestry introduction](player-book/manuscript/intro-ancestry.md) for the stature comparison.
 
 - [Human](ancestries/human.md)
 - [High Elf](ancestries/high-elf.md)

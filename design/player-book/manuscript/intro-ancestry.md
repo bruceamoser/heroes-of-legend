@@ -1,6 +1,4 @@
-# Ancestry review draft
-
-The expanded ancestry roster, revised descriptions, new traits, illustrations and changed starting values in this section are proposals for Bruce’s review. Existing Human, Halfling and Hill Dwarf trait mechanics are retained. Wood Elf trait mechanics are retained, with one descriptive clarification. This is a book review draft, not an approved release.
+# Ancestry, culture and background
 
 Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture. An ancestry’s familiar temperament describes a tendency, never an obligation or an automatic attribute modifier.
 
