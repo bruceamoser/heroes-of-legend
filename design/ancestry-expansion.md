@@ -72,9 +72,9 @@ Bruce also specified an optional mountain-dwarf trait granting Low-Light Vision 
 
 Nonvisual perception categories identified: sonar, seismic, thermal and spiritual. Proposed additional categories for discussion: scent and magical perception, with electrical sensing a possible specialist creature sense. These suggestions are not approved abilities. Scope, range and targeting permissions need individual wording. Include the new shared rule in book teaching and check conflicting draft vision grants at the review checkpoint. Current review PDFs predate this decision.
 
-### Seismic Vision revision under review
+### Seismic Vision grant approved; shared definition pending
 
-During trait 7/30, Bruce requested simplifying The Stone Tells You to a Seismic Vision grant with a range of 6 squares. The revised trait proposes Passive timing. A shared Seismic Vision definition still needs review of what it detects, how contact works and how the information supports targeting. The old three-square Maneuver/stationary/turn-end text is superseded draft material, not an approved shared definition. Exact revised trait remains proposed until Bruce’s final decision.
+During trait 7/30, Bruce requested simplifying The Stone Tells You to a Seismic Vision grant with a range of 6 squares. Bruce approved the exact passive trait on November 3, 2026 (CHG-ANC-EXP-007). A shared Seismic Vision definition still needs review of what it detects, how contact works and how the information supports targeting. The old three-square Maneuver/stationary/turn-end text is superseded draft material, not an approved shared definition. The grant and its six-square range are approved; this does not approve an unstated shared sense definition.
 
 ## Required checkpoint — vision rules in both books
 

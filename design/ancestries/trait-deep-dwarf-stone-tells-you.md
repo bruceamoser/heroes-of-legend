@@ -10,7 +10,7 @@ Gain Seismic Vision with a range of 6 squares.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; shared Seismic Vision definition remains under review.
 
 **ID:** trait-deep-dwarf-stone-tells-you
 
