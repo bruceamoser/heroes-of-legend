@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls for precise manual work, such as fitting parts, engraving or carefully repairing a delicate object. You must have suitable tools and take the ordinary time the work requires. This does not grant a Boon to attacks.
+Gain 1 Boon to Knowledge rolls for crafting work. You must have suitable tools and take the ordinary time the work requires.
 
 **Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-high-elf-practised-hand
 
