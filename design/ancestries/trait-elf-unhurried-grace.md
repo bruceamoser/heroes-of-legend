@@ -4,12 +4,12 @@
 
 ## Rules
 
-Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.
+Base Speed +1. Describe whether your grace is quick footwork, effortless balance or a dancer’s economy.
 
-**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
 **ID:** trait-elf-unhurried-grace
 
-[Ancestry choices](elf.md)
+[Ancestry choices](wood-elf.md)

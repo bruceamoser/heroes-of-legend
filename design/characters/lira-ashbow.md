@@ -2,7 +2,7 @@
 
 *The woodland archer who reads a trail as readily as a target.*
 
-**Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.**
+**Wood Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.**
 
 **Languages:** Common and Elven. See the [language reference](../rules/languages.md).
 

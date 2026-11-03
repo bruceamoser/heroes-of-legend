@@ -1,0 +1,74 @@
+[
+  {
+    "key": "ancestry-wood-elf-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Wood Elves: noticeably short, slender, agile adults with dark brown/black hair, pointed ears, angular elven faces. Lively impulsive energy; a quick-footed woman scout leaning forward with bow lowered, a dark-haired man traveler nimbly balancing a walking staff, older compact woman herbalist alert and amused. All short and nimble, NOT tall statuesque high elves. Practical green travel clothes, restrained gold accents.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-b91b6e97-72ec-40a4-8e6b-e19df3f9d3b1.png",
+    "path": "design/player-book/art/interior/ancestry-wood-elf-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-high-elf-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: High Elves: exceptionally tall, strong broad-shouldered adult elves, pointed ears and angular elven faces akin to wood elves but radically taller and more powerfully built. A composed strong woman with a long traveling cloak and sheathed sword, a silver-haired tall man scholar holding a closed book, a strong older woman artisan with measuring dividers. Stoic, thoughtful expressions, proud upright carriage, patient confidence. Pale and warm skin tones, restrained ivory/green/gold garments. Not frail, not uniformly aristocratic.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-27e0a720-656a-4bdd-b7e5-5cf3b7d9c8d8.png",
+    "path": "design/player-book/art/interior/ancestry-high-elf-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-hill-dwarf-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Surface Hill Dwarves: short, broad, stocky and powerfully built adult dwarves; ruddy and warm-brown skin, ordinary proportioned eyes, dense hair, great physical solidity. A mature bearded man mason with hammer, a stout woman traveler with braided dark hair and shield slung on back, an older bearded smith examining a metal fitting. Mountain-hall people, richly practical leather and wool with green/gold details. Not grey deep dwarves. All full bodies.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-c96b1c32-d8f6-495c-b79b-aad3768d0c00.png",
+    "path": "design/player-book/art/interior/ancestry-hill-dwarf-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-deep-dwarf-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Deep Dwarves: THREE short, slight-bodied adult dwarves radically unlike stocky surface dwarves. Grey skin in slate, ash and soft charcoal shades; large dark-adapted eyes, compact narrow frames, fine pale or dark hair. Reserved, shy, observant posture but dignified capable adults. One woman lightly touching a stone sample in her hand, older slight man carrying a hooded lantern unlit, young adult woman rope surveyor with a coiled rope. Plain tailored grey/green workwear and subtle gold buckles. They are small subterranean people, not goblins, not broad muscular dwarves. No scenery.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-2fa6471f-66b0-45d1-b650-6fdc01f9260f.png",
+    "path": "design/player-book/art/interior/ancestry-deep-dwarf-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-tallfolk-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Tallfolk: three towering giant-kin adult people with distinctly elongated limbs, large hands, strong physiques, humanlike rounded ears and varied brown/warm skin tones. Woman traveler with a very long staff, broad man porter with carefully packed load, elderly tall woman wearing a patched green coat, looking thoughtful. Their long proportions and enormous hands express scale without scenery. Ordinary practical clothes, welcoming individual faces, no horns or pointed elf ears. Not bodybuilders.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-e726fa2e-396d-4125-a559-687fd3247095.png",
+    "path": "design/player-book/art/interior/ancestry-tallfolk-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-gnome-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Gnomes: three VERY tiny adult FEY people, smaller than halflings, long pointed ears, clever expressive mature faces, subtly uncanny luminous eyes, long-lived ingenious inventors. Woman with copper spectacles adjusting a palm-sized clockwork bird, elderly man with exuberant eyebrows holding an ingenious folded tool, adult woman with short wild white hair examining a brass gear. Small slender bodies, tiny deft hands, fine green wool, leather aprons, brass mechanisms. Fey charm, wicked intelligence; not children, not chibi, no wings, no mushroom hats or comic caricature.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-a72ec94f-bda2-4dae-9a85-aa864250a999.png",
+    "path": "design/player-book/art/interior/ancestry-gnome-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-goblin-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Goblins: three SMALL adult green/olive/ochre-skinned people with long pointed ears, broad angular noses and alert expressive eyes. Dignified free people building lives after ancestral enslavement. Skilled woman carpenter with a fine hand plane, man traveler carrying a neatly repaired pack and folded map, older woman wearing a well-made green coat holding a simple metal kettle. Resourceful confident individuals, sturdy compact bodies, carefully repaired clothing and personal craft. No chains, collars, orcs, cruel expressions, slavish poses, vermin or comedy. Their contributions and freedom are visible through competent work and pride.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-3ccb2722-9666-4535-b0f5-0f7239367e45.png",
+    "path": "design/player-book/art/interior/ancestry-goblin-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  },
+  {
+    "key": "ancestry-oath-bound-cutout",
+    "prompt": "Use case: illustration-story. Asset type: Heroes of Legend fantasy RPG ancestry introduction, print-quality transparent character group. Style reference: intricate hand-inked contours, richly shaded watercolor and gouache, realistic anatomy and textured cloth, matching the existing forest-green, antique-gold, ivory and leather-brown book illustrations. Three distinct adult adventurers of the SAME ancestry, different genders and ages, varied noncombat professions/clothing; full bodies visible head to boots, compact balanced group composition, clean silhouette and clear faces. No environment, floor, lettering, borders, captions, watermark or checkerboard. True transparent alpha around the figures, all equipment contained in canvas, generous transparent edge margin. Not chibi, not cartoon, not photorealistic. Depict dignity and individual character.\nSubject: Oath-Bound: three adult humanoid people of varied genders and skin tones, physically recognizable by delicate luminous gold branching oath-marks on visible hands, throat and cheek. Mark designs are abstract lines, NOT text or runes. A mature woman road traveler holding an open hand, younger man in a green cloak bearing a sealed unlettered token, older dark-skinned woman with silver hair and a walking stick. Quiet uncanny shared identity, thoughtful independent expressions, no compulsory submission, no demon horns, no patron or deity. Green/ivory traveling clothes and muted gold. Full bodies.",
+    "transparent_background": true,
+    "mode": "built-in image_gen",
+    "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-fb9c5083-0546-4c49-bdc7-f71c823a9af8.png",
+    "path": "design/player-book/art/interior/ancestry-oath-bound-cutout.png",
+    "status": "Included in v16.7.0 under Bruce’s release instruction"
+  }
+]

@@ -34,7 +34,7 @@
 #v(14pt)
 #text(size: 9pt)[Manuscript and layout prepared with Codex under Bruce’s direction.
 Starter Kit v#release.version · #release.date.
-Current approved rules and catalog.]
+Expanded ancestry edition.]
 #pagebreak()
 #outline(title: [Contents], depth: 1)
 #tail-art("journey")

@@ -50,6 +50,18 @@ for source in manifest['monster_abilities']:
 for source in manifest['summons']:
  title=(D/source).read_text().splitlines()[0][2:].replace(' (CV',' — Summoned (CV')
  if titles.count(title)!=1:errors.append('Summon bookmark: '+title)
+# Both books consume the exact same authored shared-rule paragraphs.
+plain=subprocess.check_output(['pdftotext',str(pdf),'-'],text=True)
+def shared_norm(value):
+ import unicodedata
+ value=unicodedata.normalize('NFKC',value).replace('\u00ad','')
+ value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
+ return re.sub(r'[^a-z0-9]','',value.lower())
+for shared in ['vision.md','ancestry-procedures.md']:
+ if titles.count((D/'rules'/shared).read_text().splitlines()[0][2:])!=1:errors.append('Shared rule bookmark coverage: '+shared)
+ for paragraph in re.split(r'\n\s*\n',(D/'rules'/shared).read_text()):
+  if paragraph.startswith(('#','|')):continue
+  if shared_norm(paragraph) not in shared_norm(plain):errors.append('Shared rule text missing: '+shared+' '+paragraph[:50])
 refs={p.indirect_reference.idnum for p in r.pages};nlinks=0
 for n,page in enumerate(r.pages,1):
  for ref in page.get('/Annots',[]):

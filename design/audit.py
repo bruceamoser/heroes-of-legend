@@ -53,8 +53,19 @@ for p in (R/'paths').glob('*.md'):
  elif [field(cards.get((R/'cards'/x).resolve(),''),'Tier / minimum level') for x in targets]!=['1','3','7']:errors.append(f'{p.name}: path tier order')
 for p in (R/'classes').glob('*.md'):
  if len(re.findall(r'\.\./cards/signature-',p.read_text()))!=9:errors.append(f'{p.name}: signature choices')
-for a in ['human','elf','dwarf','halfling']:
- if len(list((R/'ancestries').glob('trait-'+a+'-*.md')))!=5:errors.append(a+': trait choices')
+ancestry_sources=re.findall(r'\]\((ancestries/[^)]+\.md)\)',(R/'ancestry.md').read_text())
+if len(ancestry_sources)!=10 or len(set(ancestry_sources))!=10:errors.append('Expected ten distinct ancestry entries')
+trait_ids=[]
+for source in ancestry_sources:
+ p=R/source
+ choices=re.findall(r'\]\((trait-[^)]+\.md)\)',p.read_text())
+ if len(choices)!=5 or len(set(choices))!=5:errors.append(p.name+': expected five distinct trait choices')
+ for choice in choices:
+  cp=p.parent/choice
+  if not cp.is_file():continue
+  trait_id=field(cp.read_text(),'ID');trait_ids.append(trait_id)
+  if trait_id!=cp.stem:errors.append(cp.name+': trait ID differs from stable filename')
+if len(trait_ids)!=50 or len(set(trait_ids))!=50:errors.append('Expected fifty unique linked ancestry trait IDs')
 # Action-route breadth is a design report, not a quota overriding the approved catalog.
 coverage_gaps=problems(survey())
 for gap in coverage_gaps:print('Coverage observation: '+gap)

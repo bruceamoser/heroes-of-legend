@@ -1,15 +1,14 @@
-# Heroes of Legend v16.6.0
+# Heroes of Legend v16.7.0 — Expanded ancestries and vision rules
 
-The approved discipline catalog brings clearer fantasy, condition combinations and stronger purchase choices across Novice, Adept and Master abilities. This playtest release also integrates the approved Universal ladder.
+Build heroes from ten ancestries, each with five traits and a choice of two: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.
 
-- Integrates 297 active discipline proposals with stable IDs retained through renames. A Common Tongue replaces the rejected Raise a Cause concept using a new ID.
-- Fits prosthetic replacement at Adept, revises control floors, and distinguishes focused healing from shared pools.
-- Updates Universal abilities, including the six Adept choices and the three Master choices.
-- Summons not commanded during their controller's turn disappear at that turn's end. Constant interaction and concentration describe maintaining their presence, without a new concentration check.
-- Both books and the starter kit use this approved playtest catalog. Balance and encounter budgets remain subjects for table testing.
+- Adds thirty reviewed ancestry traits and preserves the twenty existing trait IDs. Former Elf and Dwarf choices are presented as Wood Elf and Hill Dwarf.
+- Gives the ancestries fuller narratives and eight new or revised character-group illustrations. A ten-person lineup opens the ancestry chapter to show their differing heights and builds.
+- Presents Oath-Bound as created beings with an unknown purpose and destiny, drawing personal gifts from their oath holder.
+- Adds shared light, rated Low-Light Vision and Seismic Vision rules to both books. Traits reference those rules by name and rating or range.
+- Clarifies touch reach, defense-roll Boons and HP that remains unavailable for recovery until a stated time. Updates worked-character ancestry labels while preserving their builds.
+- Includes both the Player’s Book and the Dungeon Architect’s Guide & Bestiary, plus the complete starter-kit bundle and verification files.
 
-Downstream implementation and verification are tracked in bruceamoser/heroes-of-legend-foundry#252; source review is #1294.
+This is a playtest release; trait balance and encounter budgets remain subjects for table testing.
 
-Shared-reader reconciliation also updates DA summon guidance, condition-combination explanations, shared class access and the Universal pricing/Party Piece introductions.
-
-The ancestry pages now feature transparent figure cutouts of their existing characters. The recovery chapter explains temporary, starred and lasting conditions with a removal procedure and a worked treatment example.
+Foundry and Character Workshop implementation of the new ancestry choices is tracked separately in [Foundry issue259](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/259). Book source and review: [PR1300](https://github.com/bruceamoser/heroes-of-legend/pull/1300).

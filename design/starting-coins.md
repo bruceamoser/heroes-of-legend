@@ -13,9 +13,15 @@ Contributions represent what the character brings on departure: savings, communi
 | Choice | Coins |
 |---|---:|
 | [Human](ancestries/human.md) | +1 |
-| [Elf](ancestries/elf.md) | +2 |
-| [Dwarf](ancestries/dwarf.md) | +2 |
+| [High Elf](ancestries/high-elf.md) | +2 |
+| [Wood Elf](ancestries/wood-elf.md) | +2 |
+| [Hill Dwarf](ancestries/hill-dwarf.md) | +2 |
+| [Deep Dwarf](ancestries/deep-dwarf.md) | +2 |
 | [Halfling](ancestries/halfling.md) | +0 |
+| [Tallfolk](ancestries/tallfolk.md) | +1 |
+| [Gnome](ancestries/gnome.md) | +1 |
+| [Goblin](ancestries/goblin.md) | +0 |
+| [Oath-Bound](ancestries/oath-bound.md) | +1 |
 
 ## Culture contribution
 
@@ -94,9 +100,9 @@ Contributions represent what the character brings on departure: savings, communi
 
 ## Checks and examples
 
-All **23,040 ancestry/culture/background/class combinations** fall between **50 and 70 coins**, before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.
+All **57,600 ancestry/culture/background/class combinations** fall between **50 and 70 coins**, before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.
 
-Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = **50**. Maximum: Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = **70**.
+Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = **50**. Maximum: Wood Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = **70**.
 
 At the low end, road essentials and a lesser potion cost 44 and leave 6. At the high end, the same basket leaves 26. The [market](market.md) lists all prices; purchases still consume Bulk and obey hand/training requirements.
 

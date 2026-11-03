@@ -6,10 +6,10 @@
 
 Stability +1. You gain 1 Boon to Guile rolls.
 
-**Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
 **ID:** trait-dwarf-low-center
 
-[Ancestry choices](dwarf.md)
+[Ancestry choices](hill-dwarf.md)

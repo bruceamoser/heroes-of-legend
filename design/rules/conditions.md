@@ -63,7 +63,7 @@ continues to follow its remedy.
 | Bleeding X | X damage at end of turn, bypasses resistance | Resolve damage, then decay; appropriate Main reduces 1 |
 | Poisoned X | X Banes to action/defense/death rolls, not inventory dice; no damage | Decay unless explicitly maintained or persistent |
 | Frightened X | X Banes while its source is perceptible; no forced choices or movement | Decay unless explicitly maintained or persistent; source must be identified |
-| Blinded X | Cannot see; no direct sight-required targeting | Duration only; decay; Blinded 1* requires its specified remedy |
+| Blinded X | Cannot see; use an explicit alternative-sense targeting grant where applicable | Duration only; decay; Blinded 1* requires its specified remedy |
 | Deafened X | Cannot hear; cannot respond to hearing-only triggers | Duration only; decay; Deafened 1* requires its specified remedy |
 | Slowed X | Speed −X, minimum 0 | Decay unless explicitly persistent |
 | Dazed X | At 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction; movement remains | Choose at turn start; no retroactive change to spent actions; decay 1 at turn end |

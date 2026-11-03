@@ -39,16 +39,22 @@ suppress bonuses or set a value instead. Item changes never revise your creation
 
 ## 2. Choose ancestry
 
-Choose Human, Elf, Dwarf or Halfling. Record the ancestry's HP contribution and base
-Speed, then choose **two of its five traits**. Read the exact benefits: a description
-of keen eyes does not grant an extra sense unless the rules say so.
+Choose one of the ten ancestries. Record its HP contribution, base Speed and Size
+where printed, then choose **two of its five traits**. Read the exact benefits: a
+description of keen eyes does not grant an extra sense unless the rules say so.
 
 | Ancestry | HP contribution | Base Speed | Starting coin contribution |
 |---|---:|---:|---:|
 | Human | +2 | 6 | +1 |
-| Elf | +2 | 6 | +2 |
-| Dwarf | +4 | 5 | +2 |
+| High Elf | +3 | 6 | +2 |
+| Wood Elf | +2 | 6 | +2 |
+| Hill Dwarf | +4 | 5 | +2 |
+| Deep Dwarf | +2 | 5 | +2 |
 | Halfling | +1 | 5 | +0 |
+| Tallfolk | +5 | 6 | +1 |
+| Gnome | +1 | 6 | +1 |
+| Goblin | +1 | 6 | +0 |
+| Oath-Bound | +2 | 6 | +1 |
 
 Any ancestry can grow up in any culture. Your ancestry is not a compulsory profession,
 personality or allegiance.
