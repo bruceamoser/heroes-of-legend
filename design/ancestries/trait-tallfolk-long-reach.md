@@ -4,7 +4,7 @@
 
 ## Rules
 
-You can interact with an unattended object 1 square farther away than normal. Once on each of your turns, a melee attack you make as a Main Action with printed range 1 square may instead target a creature within 2 squares. This extends neither areas nor Reactions and does not reach through an obstruction.
+You can interact with objects and use non-attack touch abilities at a range of 2 squares.
 
 **Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
 
