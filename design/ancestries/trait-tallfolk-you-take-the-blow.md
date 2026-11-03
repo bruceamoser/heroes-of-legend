@@ -10,7 +10,7 @@ Your base Speed increases by 1.
 
 **Duration:** Permanent.
 
-**Status:** Proposed replacement for You Take the Blow; not approved.
+**Status:** Approved by Bruce on November 3, 2026; replaces the rejected You Take the Blow concept.
 
 **ID:** trait-tallfolk-you-take-the-blow
 
