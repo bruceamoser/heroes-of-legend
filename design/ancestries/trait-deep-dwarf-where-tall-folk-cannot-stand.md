@@ -4,13 +4,13 @@
 
 ## Rules
 
-In a low or narrow passage that physically admits your head and shoulders, crouching or squeezing imposes no movement surcharge or Banes on your attacks. Other terrain costs and obstacles still apply. You cannot pass through solid material or an opening your body cannot fit through.
+You move and attack normally while crouching or squeezing through low or narrow passages.
 
 **Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-deep-dwarf-where-tall-folk-cannot-stand
 
