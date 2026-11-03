@@ -4,7 +4,7 @@
 
 ## Rules
 
-Dim light imposes no sight-related Banes on you. You still need some light; this does not let you see in total darkness, through an obstruction or while Blinded.
+Low-Light Vision 1.
 
 **Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
 

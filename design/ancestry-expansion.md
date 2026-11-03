@@ -63,3 +63,11 @@ Validation and rendered-page evidence are recorded below after the build.
 ### Local review copies
 
 `design/player-book/output/Heroes-of-Legend-Ancestry-Review-Draft.pdf` is the twelve-page excerpt, corresponding to full-book PDF pages 11–22. `design/player-book/output/Heroes-of-Legend-Players-Book-Ancestry-Review-Draft.pdf` is the full 263-page review book. Generated PDFs are ignored build outputs; rebuild from this branch to reproduce them. The draft title page and ancestry opening both identify review status. Release version remains unchanged.
+
+## Vision direction — November 3, 2026
+
+Bruce established [vision rules](rules/vision.md) during review of Starlight Eyes: complete darkness prevents sight for everyone; low light imposes 1–3 Banes on observation and vision-dependent actions; Low-Light Vision ratings ignore that many low-light Banes. Starlight Eyes is revised to Low-Light Vision 1, awaiting review of the revised full trait. The earlier unlimited dim-light benefit and Deep Dwarf darkness sight are superseded proposals.
+
+Bruce also specified an optional mountain-dwarf trait granting Low-Light Vision 1 and an optional Deep Dwarf trait granting Low-Light Vision 2. Queue those changes for their own trait review. The five-choice surface-dwarf roster currently has no vision trait, so its replacement/addition remains open. “Mountain dwarf” does not by itself settle the pending Hill/Mountain naming decision.
+
+Nonvisual perception categories identified: sonar, seismic, thermal and spiritual. Proposed additional categories for discussion: scent and magical perception, with electrical sensing a possible specialist creature sense. These suggestions are not approved abilities. Scope, range and targeting permissions need individual wording. Include the new shared rule in book teaching and check conflicting draft vision grants at the review checkpoint. Current review PDFs predate this decision.
