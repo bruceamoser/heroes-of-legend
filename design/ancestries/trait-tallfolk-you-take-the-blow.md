@@ -1,16 +1,16 @@
-# You Take the Blow
+# Long Stride
 
-*You step across the gap and put your broad shoulder where the strike will land.*
+*You cross the courtyard in a few easy strides while your companions hurry to keep pace.*
 
 ## Rules
 
-Once per combat, when an adjacent ally is the sole target of an attack, spend your Reaction before its roll to become the target instead. You must be within the attack’s range and be a legal target. Resolve the attack against you, using your defense when required and your resistance; apply all its effects to you. This cannot intercept an area attack or an attack already targeting you.
+Your base Speed increases by 1.
 
-**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Reaction.
+**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** Permanent.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Proposed replacement for You Take the Blow; not approved.
 
 **ID:** trait-tallfolk-you-take-the-blow
 

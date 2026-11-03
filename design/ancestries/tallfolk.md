@@ -18,7 +18,7 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [Broad Back](trait-tallfolk-broad-back.md) — You settle the awkward load across your shoulders and leave a hand free for the door.
 - [A Big Shadow](trait-tallfolk-a-big-shadow.md) — You unfold to your full height, and wait for the room to notice.
 - [Built for the Weather](trait-tallfolk-built-for-the-weather.md) — You pull your collar closed and keep pace through the driving sleet.
-- [You Take the Blow](trait-tallfolk-you-take-the-blow.md) — You step across the gap and put your broad shoulder where the strike will land.
+- [Long Stride](trait-tallfolk-you-take-the-blow.md) — You cross the courtyard in a few easy strides while your companions hurry to keep pace.
 
 **Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
 
