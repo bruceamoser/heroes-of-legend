@@ -71,3 +71,7 @@ Bruce established [vision rules](rules/vision.md) during review of Starlight Eye
 Bruce also specified an optional mountain-dwarf trait granting Low-Light Vision 1 and an optional Deep Dwarf trait granting Low-Light Vision 2. Queue those changes for their own trait review. The five-choice surface-dwarf roster currently has no vision trait, so its replacement/addition remains open. “Mountain dwarf” does not by itself settle the pending Hill/Mountain naming decision.
 
 Nonvisual perception categories identified: sonar, seismic, thermal and spiritual. Proposed additional categories for discussion: scent and magical perception, with electrical sensing a possible specialist creature sense. These suggestions are not approved abilities. Scope, range and targeting permissions need individual wording. Include the new shared rule in book teaching and check conflicting draft vision grants at the review checkpoint. Current review PDFs predate this decision.
+
+### Seismic Vision revision under review
+
+During trait 7/30, Bruce requested simplifying The Stone Tells You to a Seismic Vision grant with a range of 6 squares. The revised trait proposes Passive timing. A shared Seismic Vision definition still needs review of what it detects, how contact works and how the information supports targeting. The old three-square Maneuver/stationary/turn-end text is superseded draft material, not an approved shared definition. Exact revised trait remains proposed until Bruce’s final decision.

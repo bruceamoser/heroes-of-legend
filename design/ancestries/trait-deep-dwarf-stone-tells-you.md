@@ -4,9 +4,9 @@
 
 ## Rules
 
-Spend a Maneuver without moving to feel movement within 3 squares through continuous stone or packed earth you touch. Until you move or your turn ends, you know the square of a walking or digging creature touching that surface. Airborne or motionless creatures are not detected. This is not sight, does not reveal identity and does not remove Banes or satisfy sight-required targeting.
+Gain Seismic Vision with a range of 6 squares.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Maneuver.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
