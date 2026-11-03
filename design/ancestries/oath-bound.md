@@ -14,6 +14,8 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 **Starting values:** HP +2; base Speed 6.
 
+**Constructed life:** Use the shared [Oath-Bound recovery rules](../rules/ancestry-procedures.md).
+
 - [The Answering Voice](trait-oath-bound-the-mark.md) — You reach toward the presence that made you, and certainty settles into your voice.
 - [Borrowed Knowing](trait-oath-bound-read-the-oath.md) — You know the answer before you know where the memory came from.
 - [The Debt Comes Due](trait-oath-bound-the-debt-comes-due.md) — You ask for another chance, and a little of the life you were given answers.

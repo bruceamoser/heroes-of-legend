@@ -187,7 +187,7 @@ costs 2 movement, and you cannot end there. Standing costs 2 movement. An abilit
 that moves you without provoking still respects terrain, occupied spaces and legal
 endpoints unless it explicitly says otherwise.
 
-A target you must see must actually be visible. An attack also needs a path to it.
+A sight-required target must be visible to you or located by an explicit alternative-sense targeting grant. An attack also needs a path to it.
 Partial obstruction gives **1 Bane**; heavy cover gives **3 Banes**. Heavy cover still
 leaves a narrow attack path, such as fighting from behind a wall or dense thicket.
 A solid barrier with no attack path prevents that attack. Concealment that prevents

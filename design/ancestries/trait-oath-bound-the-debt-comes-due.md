@@ -4,7 +4,7 @@
 
 ## Rules
 
-Once per day, after an attribute roll, spend 1 HP to reroll it and use the new result. That HP cannot be restored until the next dawn.
+Once per day, after an attribute roll, spend 1 [HP](../rules/ancestry-procedures.md) to reroll it and use the new result. That HP cannot be restored until the next dawn.
 
 **Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
 

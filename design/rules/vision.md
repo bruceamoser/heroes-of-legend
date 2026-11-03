@@ -23,6 +23,14 @@ Low-Light Vision has a rating. Ignore that many Banes imposed by low light, to a
 
 For example, in light imposing 3 Banes, Low-Light Vision 1 leaves 2 low-light Banes. Low-Light Vision 2 leaves 1. In complete darkness, no one can see.
 
+## Seismic Vision
+
+While touching a continuous solid surface, Seismic Vision lets you pinpoint moving creatures and objects touching that surface within the sense’s printed range. It works in complete darkness.
+
+You may use this perception to target a creature or object it locates. Use the attack’s or ability’s ordinary range and require a clear path to the target.
+
+For example, a Deep Dwarf with The Stone Tells You can pinpoint a creature moving across the same connected stone floor within 6 squares, even after the lantern goes out. They can target that creature with an ability whose range and clear path reach it.
+
 ## Other forms of perception
 
 Sonar, seismic, thermal and spiritual perception are distinct forms of perception. A named sense uses its own means of gathering information. Its rules state what it perceives and how that information supports observation and targeting; its granting ability supplies any printed range.
