@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to Brawn rolls to lift, carry, bend or force an unattended object. This does not increase carrying capacity or damage and does not apply to attacks, grappling or forcing a creature.
+Gain 1 Boon to Brawn rolls to lift, carry, bend or force an object.
 
 **Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-high-elf-name-that-opens-doors
 
