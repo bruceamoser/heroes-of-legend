@@ -75,3 +75,16 @@ Nonvisual perception categories identified: sonar, seismic, thermal and spiritua
 ### Seismic Vision revision under review
 
 During trait 7/30, Bruce requested simplifying The Stone Tells You to a Seismic Vision grant with a range of 6 squares. The revised trait proposes Passive timing. A shared Seismic Vision definition still needs review of what it detects, how contact works and how the information supports targeting. The old three-square Maneuver/stationary/turn-end text is superseded draft material, not an approved shared definition. Exact revised trait remains proposed until Bruce’s final decision.
+
+## Required checkpoint — vision rules in both books
+
+Bruce explicitly requested this plan during trait 7/30: abilities should reference the rules, and vision rules must reach both rule books during this process. Complete this checkpoint before generating the next review PDFs and before declaring the ancestry pass complete.
+
+- [ ] Finish the shared reader-facing definitions in `design/rules/vision.md`: complete darkness, 1–3 low-light Banes, Low-Light Vision ratings, and Seismic Vision. Bring unresolved Seismic Vision detection/contact/targeting details back to Bruce for review. Other senses used by this pass need an approved definition before their abilities are finalized. Additional suggested sense categories remain proposals.
+- [ ] Include the shared source in the Player’s Book’s Playing the Game material, with a registered source label and working references. Use the existing builder’s shared-reference pattern; remove design-review metadata from reader-facing rendering.
+- [ ] Include the same shared source in the DA book through `design/da-book/source-manifest.json` shared sections, alongside hazards/environment guidance. Keep one canonical rule definition rather than separately authored versions.
+- [ ] Ancestry traits and abilities state the sense grant and its rating/range, referencing the common rules. Shared detection, targeting and light behavior belong in the shared rule. Add a short usage example in the rule section.
+- [ ] Check the affected ancestry text and related sense references for contradictions with the approved rules. Show any new mechanics requiring decisions; no silent bestiary rebalance or unrelated ability review.
+- [ ] Build both books, verify shared-rule text and links in both PDFs, inspect rendered rule and ancestry pages, and regenerate the full review book and ancestry excerpt. Record completion in this plan and `review/NEXT_ACTION.md`.
+
+This is a required deliverable, not a postponed downstream task. Foundry implementation and release remain outside authorization.
