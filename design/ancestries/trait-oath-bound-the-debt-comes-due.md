@@ -10,7 +10,7 @@ Once per day, after an attribute roll, spend 1 HP to reroll it and use the new r
 
 **Duration:** The spent HP remains unavailable for recovery until the next dawn.
 
-**Status:** Revised batch proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-oath-bound-the-debt-comes-due
 

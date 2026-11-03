@@ -10,7 +10,7 @@ Your base Speed increases by 1.
 
 **Duration:** Permanent.
 
-**Status:** Revised batch proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-goblin-run-away-better
 

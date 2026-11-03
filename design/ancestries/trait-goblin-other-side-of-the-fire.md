@@ -10,7 +10,7 @@ Gain 1 Boon to Guile rolls to negotiate safe passage or ownership.
 
 **Duration:** While its stated circumstances apply.
 
-**Status:** Revised batch proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-goblin-other-side-of-the-fire
 

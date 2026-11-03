@@ -10,7 +10,7 @@ Gain 1 Boon to Knowledge rolls when you call upon your oath holder.
 
 **Duration:** While its stated circumstances apply.
 
-**Status:** Revised batch proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-oath-bound-read-the-oath
 
