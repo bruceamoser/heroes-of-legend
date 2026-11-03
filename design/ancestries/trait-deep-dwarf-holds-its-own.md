@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes or thin air. You still need breathable air; this does not let you breathe underwater or ignore damage, poison or conditions already suffered.
+Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes, poison or thin air.
 
 **Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-deep-dwarf-holds-its-own
 
