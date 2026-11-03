@@ -10,7 +10,7 @@ Low-Light Vision 1.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-high-elf-starlight-eyes
 
