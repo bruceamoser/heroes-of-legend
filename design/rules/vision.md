@@ -14,7 +14,7 @@ Low-Light Vision has a rating. Ignore that many Banes imposed by low light, to a
 
 For example, in light imposing 2 Banes, Low-Light Vision 1 leaves 1 low-light Bane. Low-Light Vision 2 ignores both. In complete darkness, no one can see.
 
-Bruce specified optional Low-Light Vision 1 for mountain dwarves and optional Low-Light Vision 2 for Deep Dwarves. Starlight Eyes is being revised to grant Low-Light Vision 1. These grants are choices of ancestry trait.
+Bruce specified optional Low-Light Vision 1 for mountain dwarves and optional Low-Light Vision 2 for Deep Dwarves. The approved Starlight Eyes trait grants Low-Light Vision 1. These grants are choices of ancestry trait.
 
 ## Perception beyond vision
 
