@@ -14,7 +14,7 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 **Starting values:** HP +2; base Speed 5.
 
-- [Eyes for the Dark](trait-deep-dwarf-eyes-for-the-dark.md) — The lantern goes out. You keep watching the doorway.
+- [Eyes for the Dark](trait-deep-dwarf-eyes-for-the-dark.md) — You study the passage in a faint wash of reflected light.
 - [The Stone Tells You](trait-deep-dwarf-stone-tells-you.md) — You rest your palm against the floor and wait for the answering tread.
 - [A Sense of Depth](trait-deep-dwarf-never-off-the-map.md) — You wake in the dark and know which wall lies beneath the mountain.
 - [A Patient Breath](trait-deep-dwarf-holds-its-own.md) — You slow your breathing while the others hurry through the stale passage.

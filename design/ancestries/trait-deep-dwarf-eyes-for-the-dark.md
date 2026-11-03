@@ -1,16 +1,16 @@
 # Eyes for the Dark
 
-*The lantern goes out. You keep watching the doorway.*
+*You study the passage in a faint wash of reflected light.*
 
 ## Rules
 
-You can see in ordinary darkness within 6 squares, without sight-related Banes from that darkness. In darkness you distinguish shapes and movement, but not colors or fine writing. Magical darkness, obstructions and Blinded still prevent sight normally.
+Low-Light Vision 2.
 
 **Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-deep-dwarf-eyes-for-the-dark
 
