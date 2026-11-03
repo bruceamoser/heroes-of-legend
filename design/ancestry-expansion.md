@@ -92,3 +92,7 @@ This is a required deliverable, not a postponed downstream task. Foundry impleme
 ## Tallfolk protection concept rejected
 
 During trait 15/30, Bruce requested replacing You Take the Blow because ancestry interception intrudes on Protector identity and purchased Guard discipline. Bruce subsequently approved Long Stride (base Speed +1, passive and permanent), including its full narrative and rules (CHG-ANC-EXP-015). The existing draft ID/filename is retained for continuity. This approved replacement uses the established Speed modifier vocabulary; fifteen new traits are now approved.
+
+## Grouped remaining-trait proposal — November 3, 2026
+
+After approving Eyes from Elsewhere, Bruce requested traits18–30 be reviewed and proposed together. Seventeen trait grants are approved; thirteen exact source texts remain batch proposals. Most retain existing mechanics with positive wording. Bright Idea now proposes a personal, once-per-day Knowledge/Reason insight bonus instead of a party buff. The Debt Comes Due proposes a once-per-day personal outcome upgrade paid in HP instead of an ally bonus/future-action Bane exchange. Both are substantive unapproved redesigns, not cleanup. Their title/trait-list narratives were synchronized. Pending ledger records CHG-ANC-EXP-018-P1 through CHG-ANC-EXP-030-P1; exact texts/change notes in the local review area file. Individual statuses remain authoritative; no batch approval is inferred.

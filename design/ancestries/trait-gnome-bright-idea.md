@@ -1,16 +1,16 @@
 # Bright Idea
 
-*You draw three lines in the dust, add a spoon, and suddenly everyone understands.*
+*You draw three lines in the dust, add a spoon, and the answer takes shape.*
 
 ## Rules
 
-Once per day, spend a Main Action explaining a practical plan using an object or feature at hand. Choose up to three allies within 3 squares who can understand you. Before the scene ends, each gains 1 Boon to one non-attack, non-defense roll directly carrying out that plan. Name the intended task when you explain it; unused Boons expire at the scene’s end.
+Once per day, before a Knowledge or Reason roll, gain 2 Boons by describing an unconventional approach to the problem.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Main Action.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Batch review proposal; not approved.
 
 **ID:** trait-gnome-bright-idea
 

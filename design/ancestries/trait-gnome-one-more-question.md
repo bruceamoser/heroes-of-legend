@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to Reason rolls to notice or see through magical illusions. You need a perceptible clue to examine; this does not detect all magic, dispel an illusion or let you see an Invisible creature automatically.
+Gain 1 Boon to Reason rolls to notice or see through magical illusions.
 
 **Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-gnome-one-more-question
 

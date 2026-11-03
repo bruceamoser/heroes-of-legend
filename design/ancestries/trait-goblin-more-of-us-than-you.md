@@ -4,13 +4,13 @@
 
 ## Rules
 
-Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies. You must still meet the attack’s ordinary range, targeting and equipment requirements.
+Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies.
 
 **Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Batch review proposal; not approved.
 
 **ID:** trait-goblin-more-of-us-than-you
 

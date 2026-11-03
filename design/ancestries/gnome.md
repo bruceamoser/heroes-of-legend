@@ -18,7 +18,7 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [Eyes from Elsewhere](trait-gnome-one-more-question.md) — The painted door is convincing. Its shadow has forgotten where the sun is.
 - [Fingers in the Works](trait-gnome-fingers-in-the-works.md) — You ease one small part out of place, and the whole machine loses its argument.
 - [Small Target](trait-gnome-small-target.md) — You tuck yourself behind the low stone as the arrow strikes its edge.
-- [Bright Idea](trait-gnome-bright-idea.md) — You draw three lines in the dust, add a spoon, and suddenly everyone understands.
+- [Bright Idea](trait-gnome-bright-idea.md) — You draw three lines in the dust, add a spoon, and the answer takes shape.
 
 **Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
 

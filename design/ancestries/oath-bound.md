@@ -16,7 +16,7 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 - [The Mark](trait-oath-bound-the-mark.md) — You uncover your palm, and the answering lines catch the light.
 - [Read the Oath](trait-oath-bound-read-the-oath.md) — As the promise is spoken, you feel its shape settle between you.
-- [The Debt Comes Due](trait-oath-bound-the-debt-comes-due.md) — You lend your companion your certainty and feel your own next step grow heavier.
+- [The Debt Comes Due](trait-oath-bound-the-debt-comes-due.md) — You call on the old promise and feel its price settle into your bones.
 - [Bound by Your Word](trait-oath-bound-bound-by-your-word.md) — You remember what you promised, and find one more measure of resolve.
 - [An Answering Thread](trait-oath-bound-neither-here-nor-there.md) — You show the stranger your mark. For a moment, neither of you stands alone.
 
