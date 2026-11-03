@@ -10,7 +10,7 @@ You can interact with objects and use non-attack touch abilities at a range of 2
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Proposed ancestry review draft; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-tallfolk-long-reach
 
