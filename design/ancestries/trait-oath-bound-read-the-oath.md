@@ -1,16 +1,16 @@
-# Read the Oath
+# Borrowed Knowing
 
-*As the promise is spoken, you feel its shape settle between you.*
+*You know the answer before you know where the memory came from.*
 
 ## Rules
 
-Once per scene, when a creature within 3 squares makes a promise aloud to you in a language you understand, ask the DA whether it presently intends to keep that promise. The answer is sincere, insincere or unreadable if its mind is protected from such reading.
+Gain 1 Boon to Knowledge rolls when you call upon your oath holder.
 
 **Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** While its stated circumstances apply.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-oath-bound-read-the-oath
 

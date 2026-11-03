@@ -1,16 +1,16 @@
-# Know the Way Out
+# Quick on Your Feet
 
-*You glance toward the gap before the trouble starts, then wave your friends through.*
+*You are halfway across the yard before the others have found their stride.*
 
 ## Rules
 
-On your turn, difficult terrain costs you 1 movement per square when each step takes you farther from a visible hostile creature you name at the start of that movement.
+Your base Speed increases by 1.
 
 **Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** Permanent.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-goblin-run-away-better
 

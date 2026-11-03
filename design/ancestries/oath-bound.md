@@ -1,12 +1,12 @@
 # Oath-Bound
 
-*Something was promised. You are what is left of the promise.*
+*Made for a purpose. Set adrift before you learned what it was.*
 
-Oath-Bound inherit the traces of an old promise. Fine marks on skin, an answering warmth when a vow is spoken, or a momentary gleam along the fingers may reveal the same strange inheritance in people who otherwise look quite different. Their connection passes through generations, even when the words that began it have been lost.
+Oath-Bound are constructs brought into existence by an oath holder. Each was made for a higher purpose and carries a destiny, yet begins their life without knowing what that purpose or destiny is. They have been given existence without an explanation: a ship set adrift, with neither a chart nor a remembered destination.
 
-One family remembers a rescue repaid; another preserves only a warning. Who stood at the other end of the first promise, and whether anyone still waits there, are questions for the campaign. An Oath-Bound person may investigate, cherish or reject the story handed down to them.
+Their oath holder is the source of that existence. An Oath-Bound may recognize a name, a presence or a sign of the one who made them. Calling upon that connection can bring conviction, understanding or strength. The answer may feel intimate even when the being who gives it remains a mystery.
 
-The inheritance does not command obedience. Promises made today are the character’s own choices. Their gifts can make trust, obligation and mutual aid tangible without deciding whom they must serve or what kind of person they must become.
+Life among other peoples gives them relationships, work and ambitions of their own. A journey might uncover why they were made, or simply teach them what they value while searching. The character’s choices belong to the player; their hidden purpose offers a mystery to discover together with the Dungeon Architect.
 
 ## Rules
 
@@ -14,11 +14,11 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 **Starting values:** HP +2; base Speed 6.
 
-- [The Mark](trait-oath-bound-the-mark.md) — You uncover your palm, and the answering lines catch the light.
-- [Read the Oath](trait-oath-bound-read-the-oath.md) — As the promise is spoken, you feel its shape settle between you.
-- [The Debt Comes Due](trait-oath-bound-the-debt-comes-due.md) — You call on the old promise and feel its price settle into your bones.
-- [Bound by Your Word](trait-oath-bound-bound-by-your-word.md) — You remember what you promised, and find one more measure of resolve.
-- [An Answering Thread](trait-oath-bound-neither-here-nor-there.md) — You show the stranger your mark. For a moment, neither of you stands alone.
+- [The Answering Voice](trait-oath-bound-the-mark.md) — You reach toward the presence that made you, and certainty settles into your voice.
+- [Borrowed Knowing](trait-oath-bound-read-the-oath.md) — You know the answer before you know where the memory came from.
+- [The Debt Comes Due](trait-oath-bound-the-debt-comes-due.md) — You ask for another chance, and a little of the life you were given answers.
+- [The Will That Made You](trait-oath-bound-bound-by-your-word.md) — Something in you remembers that your work is unfinished.
+- [A Hand on the Rudder](trait-oath-bound-neither-here-nor-there.md) — For a moment, the world is less bewildering and the next step feels clearer.
 
 **Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
 

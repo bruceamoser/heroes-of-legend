@@ -16,9 +16,9 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 
 - [Waste Nothing](trait-goblin-scavenger.md) — You turn the broken hinge over. There is good work left in it yet.
 - [Better Together](trait-goblin-more-of-us-than-you.md) — Your companion draws their eye, and you know exactly when to step in.
-- [Know the Way Out](trait-goblin-run-away-better.md) — You glance toward the gap before the trouble starts, then wave your friends through.
+- [Quick on Your Feet](trait-goblin-run-away-better.md) — You are halfway across the yard before the others have found their stride.
 - [The Other Side of the Fire](trait-goblin-other-side-of-the-fire.md) — You recognize the guarded silence and make your offer without stepping closer.
-- [Never Where You Aim](trait-goblin-never-where-you-aim.md) — The blow catches empty air. You are already a step nearer your friends.
+- [Quick Hands](trait-goblin-never-where-you-aim.md) — The awkward bundle settles into your grip before anyone notices it slipping.
 
 **Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).
 

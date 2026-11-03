@@ -1,16 +1,16 @@
-# Never Where You Aim
+# Quick Hands
 
-*The blow catches empty air. You are already a step nearer your friends.*
+*The awkward bundle settles into your grip before anyone notices it slipping.*
 
 ## Rules
 
-Once per round, after an attack against you resolves and deals no damage, spend your Reaction to move 1 square into a legal unoccupied space. This movement is in addition to your movement for the turn.
+Gain 1 Boon to Guile rolls to handle objects quickly or discreetly.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Reaction.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** While its stated circumstances apply.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-goblin-never-where-you-aim
 

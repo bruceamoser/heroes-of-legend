@@ -1,16 +1,16 @@
 # The Debt Comes Due
 
-*You call on the old promise and feel its price settle into your bones.*
+*You ask for another chance, and a little of the life you were given answers.*
 
 ## Rules
 
-Once per day, after a Weak or Standard attribute roll, pay 1 HP to improve the result by one step: Weak becomes Standard, or Standard becomes Strong. The HP cost bypasses resistance and must leave you above 0 HP.
+Once per day, after an attribute roll, spend 1 HP to reroll it and use the new result. That HP cannot be restored until the next dawn.
 
 **Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** The spent HP remains unavailable for recovery until the next dawn.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-oath-bound-the-debt-comes-due
 

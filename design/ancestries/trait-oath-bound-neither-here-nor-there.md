@@ -1,16 +1,16 @@
-# An Answering Thread
+# A Hand on the Rudder
 
-*You show the stranger your mark. For a moment, neither of you stands alone.*
+*For a moment, the world is less bewildering and the next step feels clearer.*
 
 ## Rules
 
-Gain 1 Boon to Guile rolls to establish trust with someone who freely reveals a promise, debt or duty they have chosen to honor. You need a shared means of communication.
+Gain 1 Boon to Reason rolls when you call upon your oath holder.
 
 **Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** While its stated circumstances apply.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-oath-bound-neither-here-nor-there
 

@@ -1,16 +1,16 @@
-# The Mark
+# The Answering Voice
 
-*You uncover your palm, and the answering lines catch the light.*
+*You reach toward the presence that made you, and certainty settles into your voice.*
 
 ## Rules
 
-You control a soft glow along your inherited mark. Gain 1 Boon to Guile rolls when you openly stake your own reputation on a promise you intend to keep.
+Gain 1 Boon to Guile rolls when you call upon your oath holder.
 
 **Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** While its stated circumstances apply.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Revised batch proposal; not approved.
 
 **ID:** trait-oath-bound-the-mark
 

@@ -10,7 +10,7 @@ Gain 1 Boon to Knowledge rolls to build, repair, disable or alter a mechanical d
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-gnome-fingers-in-the-works
 

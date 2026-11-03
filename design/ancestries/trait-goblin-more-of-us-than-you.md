@@ -10,7 +10,7 @@ Gain 1 Boon to your first attack roll on each of your turns against a creature a
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-goblin-more-of-us-than-you
 

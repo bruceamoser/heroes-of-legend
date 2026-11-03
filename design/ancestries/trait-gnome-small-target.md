@@ -4,13 +4,13 @@
 
 ## Rules
 
-While you have physical cover from a ranged attack, gain 1 Boon to your defense roll against that attack. When a player-controlled attacker makes the roll instead, their attack takes 1 Bane.
+Gain 1 Boon to defense rolls.
 
 **Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
 
 **Duration:** While its stated circumstances apply; permanent for base statistics.
 
-**Status:** Batch review proposal; not approved.
+**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
 
 **ID:** trait-gnome-small-target
 
