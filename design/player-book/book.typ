@@ -14,7 +14,7 @@
   #v(12pt)
   #text(font: "Cinzel", size: 18pt)[Player’s Book]
   #v(10pt)
-  #text(size: 13pt)[Levels 1–10 · Playtest Edition]
+  #text(size: 13pt)[Levels 1–10 · Ancestry Review Draft]
   #v(22pt)
   #image("art/hol-crest-v2.png", width: 130pt)
   #v(20pt)
@@ -34,7 +34,7 @@
 #v(14pt)
 #text(size: 9pt)[Manuscript and layout prepared with Codex under Bruce’s direction.
 Starter Kit v#release.version · #release.date.
-Current approved rules and catalog.]
+November 3, 2026 ancestry review draft. Expanded ancestry content awaits Bruce’s approval.]
 #pagebreak()
 #outline(title: [Contents], depth: 1)
 #tail-art("journey")

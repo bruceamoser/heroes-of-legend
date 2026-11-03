@@ -313,18 +313,20 @@ def discipline_matrix():
  result+='#v(12pt)\n#grid(columns:(1fr,1fr),gutter:18pt,[Some studies come naturally to your class; others take more development. Every discipline remains available after level 0.],[A starting rank granted by your origin or class is already owned. Pay only for ranks you still need, in order. Standard ability prices are 2 / 4 / 8 DP by tier; six shared Novice cards print a 1-DP exception.])\n#tail-art("discipline-instruments")\n'
  return result
 
+ANC_NAMES={'human':'Human','high-elf':'High Elf','wood-elf':'Wood Elf','hill-dwarf':'Hill Dwarf','deep-dwarf':'Deep Dwarf','halfling':'Halfling','tallfolk':'Tallfolk','gnome':'Gnome','goblin':'Goblin','oath-bound':'Oath-Bound'}
+
 def hp_reference():
  p=BOOK/'manuscript/02-creation.md'
  ancestry=[]
- for a in ['human','elf','dwarf','halfling']:
-  row=next(l for l in p.read_text().splitlines() if l.startswith('| '+a.title()+' |'));cells=row.strip('|').split('|');ancestry.append('| '+cells[0].strip()+' | '+cells[1].strip()+' |')
+ for a in ['human','high-elf','wood-elf','hill-dwarf','deep-dwarf','halfling','tallfolk','gnome','goblin','oath-bound']:
+  row=next(l for l in p.read_text().splitlines() if l.startswith('| '+ANC_NAMES[a]+' |'));cells=row.strip('|').split('|');ancestry.append('| '+cells[0].strip()+' | '+cells[1].strip()+' |')
  classes=[]
  for c in CLASS_ORDER:
   cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution (\+\d+)',cp.read_text()).group(1)+' |')
  intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.\n\n#note[#align(center)[#text(size:15pt,weight:"bold")[12 + ancestry + class + Fortitude + explicit benefits]]]\n'
  table=lambda title,rows:render('## '+title+'\n| Choice | HP |\n|---|---:|\n'+'\n'.join(rows),p,base=1).replace('#rule-table(2,','#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,')
- intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Deep Constitution and Conditioned Body, for example, each add 1 HP.\n\nHP does not increase automatically with level. Record current HP separately from your maximum.],['+table('Class',classes)+'])\n'
- intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Dwarf Protector*\n\n12 + 4 ancestry + 5 class + 2 Fortitude = *23 HP*. With the dwarf’s HP trait and Conditioned Body, the total is *25*.],[*Halfling Arcanist*\n\n12 + 1 ancestry + 2 class − 1 Fortitude = *14 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
+ intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock and Conditioned Body, for example, each add 1 HP.\n\nHP does not increase automatically with level. Record current HP separately from your maximum.],['+table('Class',classes)+'])\n'
+ intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n12 + 4 ancestry + 5 class + 2 Fortitude = *23 HP*. With the hill dwarf’s HP trait and Conditioned Body, the total is *25*.],[*Halfling Arcanist*\n\n12 + 1 ancestry + 2 class − 1 Fortitude = *14 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
  intro+='#tail-art("hp-vitality")\n'
  return intro
 
@@ -361,10 +363,21 @@ parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
 parts.append(coin_reference())
 parts.append(section('3','Ancestry, Culture and Background'))
-parts.append('#twocol[Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture.\n\nYour ancestry supplies inherited traits. Your culture describes a community and its traditions. Your background recalls something you did or experienced before adventuring. These choices offer connections, memories and capabilities; they do not dictate your personality. Ancestry traits are passive unless stated otherwise. Base-statistic changes are permanent; other benefits last while their stated circumstances apply.\n\nChoose each origin as a complete pair: its rank and ability belong together. Resolve all level-0 grants before making purchases. Duplicate grants add one DP to that stage rather than a higher rank or unrestricted replacement.]\n#illustration("origins", height: 330pt, fit: "cover")\n')
-for a in ['human','elf','dwarf','halfling']:
- parts.append('#pagebreak(weak: true)\n#grid(columns: (1fr,1fr), gutter: 18pt, [\n'+doc(DESIGN/'ancestries'/f'{a}.md','ancestry',wide=True)+'], [#illustration('+q('ancestry-'+a+'-cutout')+', height: 245pt)])\n#v(10pt)\n')
- parts.append('#twocol[\n'+''.join(doc(DESIGN/'ancestries'/x,'trait',wide=True) for x in re.findall(r'\]\((trait-[^)]+\.md)\)',(DESIGN/'ancestries'/f'{a}.md').read_text()))+']\n')
+parts.append('#heading(level:2)[Ten peoples, side by side]\nThe proposed ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n\n#note[Ancestry review draft: new descriptions, traits, statistics and illustrations await Bruce’s review.]\n#pagebreak(weak:true)\n')
+
+ancestry_intro=BOOK/'manuscript/intro-ancestry.md'
+record(ancestry_intro,'section')
+parts.append('#metadata('+q(key(ancestry_intro))+')<'+key(ancestry_intro)+'>\n'+reading(ancestry_intro.read_text(),ancestry_intro)+'#illustration("origins", height: 250pt, fit: "cover")\n')
+for a in ANC_NAMES:
+ p=DESIGN/'ancestries'/f'{a}.md'
+ record(p,'ancestry')
+ narrative,rules=clean(p).split('---',1)
+ # Keep narrative, illustration and all five choices on one ancestry page.
+ rules='\n'.join(line for line in rules.splitlines() if not line.startswith('- ['))
+ parts.append('#pagebreak(weak:true)\n#entry('+q(name(p))+','+q(key(p))+')\n')
+ parts.append('#grid(columns:(1.2fr,1fr),gutter:18pt,['+render(narrative,p)+'],[#illustration('+q('ancestry-'+a+'-cutout')+',height:230pt)])\n#v(10pt)\n'+render(rules,p))
+ parts.append('#v(6pt)\n')
+ parts.append(flow([doc(DESIGN/'ancestries'/x,'trait',wide=True) for x in re.findall(r'\]\((trait-[^)]+\.md)\)',p.read_text())]))
 for typ,title in [('culture','Cultures'),('background','Backgrounds')]:
  parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\n')
  intro=BOOK/'manuscript'/('intro-'+typ+'.md');record(intro,'section')
@@ -445,8 +458,8 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))
-manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':4,'trait':20,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':44,'recipes':10,'summon':73,'character':6}}
-manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',ROOT/'release/version.json']]
+manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':44,'recipes':10,'summon':73,'character':6}}
+manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
 manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Included',len(included),'records;',len(card_records),'abilities;',len(links),'internal links.')

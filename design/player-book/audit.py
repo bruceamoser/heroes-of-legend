@@ -22,9 +22,18 @@ def norm(s):
  s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
  return re.sub(r'[^a-z0-9]','',s.lower())
 n=norm(text)
-art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())+json.loads((B/'art/class-cutout-prompts.json').read_text())+json.loads((B/'art/reference-prompts.json').read_text())
+art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())+json.loads((B/'art/class-cutout-prompts.json').read_text())+json.loads((B/'art/reference-prompts.json').read_text())+json.loads((B/'art/ancestry-expansion-prompts.json').read_text())+[json.loads((B/'art/ancestry-lineup-prompt.json').read_text())]
 missing_art=[x['path'] for x in art if not (R/x['path']).is_file()]
 if missing_art:errors.append(f'{len(missing_art)} missing illustration assets')
+# Verify complete ancestry trait rules reach the PDF, not only the entry titles.
+for entry in (x for x in m['included'] if x['kind']=='trait'):
+ source=(R/entry['path']).read_text()
+ rules=source.split('## Rules',1)[1].split('**Ancestry:**',1)[0].strip()
+ if norm(rules) not in n:errors.append('Ancestry trait rules missing or split: '+entry['path'])
+for portrait in (B/'art/interior').glob('ancestry-*-cutout.png'):
+ from PIL import Image
+ with Image.open(portrait) as im:
+  if im.mode!='RGBA' or im.getchannel('A').getextrema()[0]!=0:errors.append('Ancestry portrait lacks transparency: '+portrait.stem)
 if len([x for x in art if x['key'].startswith('symbol-')])!=18:errors.append('Expected 18 simple discipline symbols')
 placements=json.loads((B/'generated/illustration-placements.json').read_text())
 image_counts=collections.Counter(x['asset'] for x in placements)

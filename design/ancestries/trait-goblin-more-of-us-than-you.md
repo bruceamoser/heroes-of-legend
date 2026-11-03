@@ -1,0 +1,17 @@
+# Better Together
+
+*Your companion draws their eye, and you know exactly when to step in.*
+
+## Rules
+
+Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies. You must still meet the attack’s ordinary range, targeting and equipment requirements.
+
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**Status:** Proposed ancestry review draft; not approved.
+
+**ID:** trait-goblin-more-of-us-than-you
+
+[Ancestry choices](goblin.md)

@@ -2,6 +2,10 @@
 
 *Quiet feet, a generous table and courage that surprises people who judge by height.*
 
+Halflings are small, compact people, larger than gnomes, with a gift for making limited space comfortable. Others often notice their height before noticing the person, a mistake a halfling may patiently correct or quietly put to use.
+
+Hospitality and good company are familiar pleasures, but a generous table does not require an easy life. Courage can live beside trembling knees, a sharp tongue beside warm manners, and a taste for home beside an irresistible curiosity about the road. A halfling raised far from halfling communities brings their own customs to those possibilities.
+
 ## Rules
 
 Choose two of the five traits below. These are invitations to a familiar fantasy,

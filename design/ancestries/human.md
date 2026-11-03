@@ -2,6 +2,10 @@
 
 *Restless, adaptable and fiercely invested in a life that never feels long enough.*
 
+Humans have no single stature, complexion or way of making a home. A short life beside the elder peoples can give an ordinary season an urgent importance: learn the trade, mend the friendship, see what lies beyond the ridge. Some make roots; others make roads between the places they love.
+
+Adaptability takes many forms. One human gathers languages and acquaintances; another learns by failing until a stubborn problem yields. Neither ambition nor restlessness is compulsory. A human hero may want a quiet life enough to undertake a dangerous journey to protect it.
+
 ## Rules
 
 Choose two of the five traits below. These are invitations to a familiar fantasy,

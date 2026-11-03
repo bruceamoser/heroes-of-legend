@@ -1,0 +1,22 @@
+{
+  "key": "ancestry-lineup",
+  "prompt": "Use case: illustration-story. Asset type: full-width ancestry comparison illustration for the opening of the Heroes of Legend ancestry chapter. Generate ONE wide landscape composition, approximately 3:1 aspect ratio, containing EXACTLY TEN adult fantasy people standing side by side on the SAME ground baseline, whole bodies visible with margin above heads and below feet. True transparent background. The supplied image is ONLY a style/morphology reference contact sheet; do NOT reproduce its grid, labels, or multiple people per ancestry. Match fine ink outlines, realistic fantasy anatomy, richly shaded watercolor/gouache, muted forest green, antique gold, ivory, leather. Calm natural standing poses, each clearly separated, minimal equipment, no large hats, weapons or props obscuring bodies. All ten face mostly toward viewer. Explicitly preserve differing physical heights; small people are adult proportioned, not children. No text, labels, letters, numbers, frame, landscape or checkerboard.\nLEFT TO RIGHT, EXACT ORDER and RELATIVE HEIGHTS (all feet aligned):\n1 HUMAN woman, warm-brown skin, dark hair, ordinary human rounded ears and balanced build, height 175cm, plain traveler green coat.\n2 HIGH ELF man, height 205cm, tall STRONG broad shoulders, angular elven face, pointed ears, long pale hair, stoic proud expression, ivory tunic with green cloak; visibly taller and stronger than human.\n3 WOOD ELF woman, height 145cm, short nimble slender adult, dark black hair, angular face and similar pointed elf ears, alert impulsive stance, fitted green traveling clothes; much shorter than high elf.\n4 HILL DWARF man, height 130cm, VERY broad stocky dense frame, warm ruddy skin, full beard, heavy arms, practical craft clothes; almost as broad as tall.\n5 DEEP DWARF woman, height 108cm, short SLIGHT narrow shoulders and slim body, grey skin, large dark eyes, fine pale hair, reserved shy posture, modest grey green tunic; noticeably shorter and narrower than hill dwarf, unlike goblin face.\n6 HALFLING woman, height 92cm, small compact adult, rounded humanlike ears, curly brown hair, warm expression, waistcoat and practical trousers; larger than gnome.\n7 TALLFOLK woman, height 255cm, towering highest figure with long strong limbs and huge hands, rounded ears, brown skin, plain green traveling tunic, straight upright posture; nearly three times halfling height.\n8 GNOME man, height 65cm, SMALLEST adult in whole image, tiny slender fey with long pointed ears, mature clever face, unruly silver hair and copper spectacles, small leather tool apron; unmistakably smaller than halfling and goblin.\n9 GOBLIN man, height 100cm, small compact capable adult with olive green skin, prominent long pointed ears, broad angular nose, alert eyes, carefully mended worker clothes, confident free person, not a villain; larger than gnome.\n10 OATH-BOUND woman, height 178cm, humanlike build, dark skin, short silver hair, clearly VISIBLE softly glowing GOLD branching abstract oath lines on both hands and visible throat, green coat sleeves rolled; no horns, lettering or sigils.\nThe full row must fit comfortably without cropping, overlap or duplicate figures. Feet on one shared baseline, actual heights controlling head positions. This is an anatomical comparison, not ten equally sized portraits. No pedestals. Background alpha transparent, no drawn ground.",
+  "transparent_background": true,
+  "mode": "built-in image_gen",
+  "generated_source": "/home/bmoser/.codex/generated_images/01a1a207-4fa0-7090-a2ec-4bae83e3c304/exec-81697c78-feb7-48a5-ad61-094374989060.png",
+  "path": "design/player-book/art/interior/ancestry-lineup.png",
+  "status": "Proposed for Bruce’s review",
+  "reference": "ancestry-expansion-prompts.json eight ancestry group outputs; contact-sheet style reference",
+  "left_to_right": [
+    "Human",
+    "High Elf",
+    "Wood Elf",
+    "Hill Dwarf",
+    "Deep Dwarf",
+    "Halfling",
+    "Tallfolk",
+    "Gnome",
+    "Goblin",
+    "Oath-Bound"
+  ]
+}
