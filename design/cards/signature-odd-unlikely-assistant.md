@@ -1,6 +1,6 @@
 # Foul Wind
 
-*Each willing ally within 5 squares. Then each non-prone creature within 5 squares other than you. Each willing ally within 5 squares may immediately fall prone. Make one Fortitude roll. Each non-prone creature within 5 squares other than you takes poison damage: On a Standard result, 2;.*
+*Let willing allies within 5 squares drop Prone, then roll Fortitude to deal poison damage to each other creature within 5 squares that is still upright.*
 
 ## Rules
 

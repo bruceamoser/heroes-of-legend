@@ -1,6 +1,6 @@
 # Quiet Latch
 
-*Choose one adjacent ordinary lock. Make a Guile roll toward opening the lock. Your toolwork is audible only in adjacent squares. On a Standard result, 2 opening progress.*
+*Pick an adjacent ordinary lock with a Guile roll. Your toolwork is audible only in adjacent squares.*
 
 ## Rules
 

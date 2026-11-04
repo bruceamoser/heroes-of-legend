@@ -1,6 +1,6 @@
 # Fast Talk
 
-*Choose one creature within 5 squares that can hear and understand you. State the social goal you are pursuing and what you want the target to do. Make a Guile roll. The result adds progress toward that goal: On a Standard result, add 3 progress.*
+*Roll Guile to make progress toward a social goal with a creature within 5 squares that can hear and understand you.*
 
 ## Rules
 

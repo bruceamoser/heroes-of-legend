@@ -1,6 +1,6 @@
 # Press and Bind
 
-*Self or one adjacent willing creature. Reduce the target's temporary Bleeding by 1.*
+*Reduce temporary Bleeding by 1 on yourself or an adjacent willing creature.*
 
 ## Rules
 

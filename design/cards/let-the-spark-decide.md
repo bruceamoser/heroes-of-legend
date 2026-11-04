@@ -1,6 +1,6 @@
 # Let the Spark Decide
 
-*Choose one visible enemy within 5 squares. Choose fire or cold, then make a Guile spell attack. On a Standard result, 3 damage of that type. Push 1 square away from you.*
+*Choose fire or cold, then make a Guile spell attack against a visible enemy within 5 squares. The attack deals damage of that type and can push the enemy away.*
 
 ## Rules
 
