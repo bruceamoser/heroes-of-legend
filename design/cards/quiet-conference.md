@@ -1,6 +1,6 @@
 # Quiet Conference
 
-*You draw a small circle. The others' words arrive as if you were all around the same quiet table, even after the company spreads out.*
+*Self and up to three visible willing allies within 3 squares. Link the participants for silent conversation for ten minutes. Each can send short spoken-length messages to the group without an action, in languages the listeners understand. A participant beyond 10 squares from you leaves the link until it returns.*
 
 ## Rules
 

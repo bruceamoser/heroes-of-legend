@@ -1,6 +1,6 @@
 # Wake the Iron Rune
 
-*You run a thumb across the rune. A quiet weight settles through your boots, as if the ground has learned your name.*
+*While wearing armor, while wearing armor, gain Stability 1.*
 
 ## Rules
 

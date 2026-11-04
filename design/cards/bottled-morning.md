@@ -1,6 +1,6 @@
 # Bottled Morning
 
-*You stir until the sharp scent softens, then hold the bottle against the dawn to judge its color.*
+*When your melee attack drops a creature to 0 HP, use a Reaction to move up to 3 squares without provoking and make a free Basic Melee attack against a different creature.*
 
 ## Rules
 

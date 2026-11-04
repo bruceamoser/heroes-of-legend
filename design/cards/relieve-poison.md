@@ -1,6 +1,6 @@
 # Relieve Poison
 
-*You recognize the tremor and guide your companion through the next breath, working to slow what is spreading through them.*
+*Self or one adjacent willing creature. Make a Knowledge roll. Weak — Reduce temporary Poisoned by 1. Standard — Reduce temporary Poisoned by 2. Strong — Reduce temporary Poisoned by 3.*
 
 ## Rules
 

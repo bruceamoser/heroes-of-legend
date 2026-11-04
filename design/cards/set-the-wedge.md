@@ -1,6 +1,6 @@
 # Set the Wedge
 
-*You tap the wedge home. The next shoulder against the door will meet wood already ready to give.*
+*Choose one adjacent unattended door, lid or movable obstacle. Prepare the obstacle with your lever and wedges. The next Force roll by you or an ally to open, close or move it gains 2 Boons. Choose the intended task when preparing it.*
 
 ## Rules
 

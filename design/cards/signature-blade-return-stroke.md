@@ -1,6 +1,6 @@
 # Return Stroke
 
-*You let the attack slide past your guard and bring your weapon back before your opponent recovers.*
+*Choose an adjacent melee attacker, after you resolve a Standard or Strong defense against its attack. Make one free Basic Melee attack against it, rolling Brawn and using Basic Melee’s outcomes. This requires a melee weapon and the ability to attack. This is a single free attack.*
 
 ## Rules
 

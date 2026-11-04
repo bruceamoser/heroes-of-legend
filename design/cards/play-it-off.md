@@ -1,6 +1,6 @@
 # Play It Off
 
-*You laugh at the apparent clumsiness and supply the innocent explanation before the suspicious glance can harden.*
+*Before a Guile roll explaining suspicious behavior to a listener who understands you, without violence, describe a plausible explanation. Gain 2 Boons to the Guile roll.*
 
 ## Rules
 

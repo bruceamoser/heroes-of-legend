@@ -1,6 +1,6 @@
 # Another Tongue
 
-*You answer the stranger in the language of their childhood, and hear their surprise give way to recognition.*
+*Learn one ordinary language when you take this ability, including its usual script if it has one.*
 
 ## Rules
 

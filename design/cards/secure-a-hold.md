@@ -1,6 +1,6 @@
 # Secure a Hold
 
-*You step inside their reach, catch an arm, and lock your weight into the struggle.*
+*Choose one adjacent enemy. Make a Brawn grappling attack. Weak — Apply Grappled 1. Standard — Apply Grappled 2. Strong — Apply Grappled 3.*
 
 ## Rules
 

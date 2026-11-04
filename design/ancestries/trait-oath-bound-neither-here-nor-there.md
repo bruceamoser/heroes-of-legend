@@ -1,6 +1,6 @@
 # A Hand on the Rudder
 
-*For a moment, the world is less bewildering and the next step feels clearer.*
+*Gain 1 Boon to Agility rolls when you call upon your oath holder.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Go Berserk
 
-*You stop listening to the part of you that wants to stay alive.*
+*Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain DR 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.*
 
 ## Rules
 

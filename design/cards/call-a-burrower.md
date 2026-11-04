@@ -1,6 +1,6 @@
 # Call Spirit: Novice
 
-*You speak into the hush between breaths. A little light answers, wearing the outline of something remembered.*
+*Summon a Spirit of Adept tier or lower within 3 squares for one scene.*
 
 ## Rules
 

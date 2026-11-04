@@ -1,6 +1,6 @@
 # A Camp without a Trace
 
-*You lift the crushed leaves and scatter the cold ash. From the old firepit, even you have to look twice to see which way the party left.*
+*Hide the traces of your camp in ten minutes and give your group 2 Boons to conceal its trail during the first hour of travel.*
 
 ## Rules
 

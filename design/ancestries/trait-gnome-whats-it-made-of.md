@@ -1,6 +1,6 @@
 # What’s It Made Of?
 
-*You turn the device over, already asking why its maker put the hinge there.*
+*Gain 1 Boon to Knowledge rolls to understand the construction, function or failure of a mechanism or manufactured mixture.*
 
 ## Rules
 

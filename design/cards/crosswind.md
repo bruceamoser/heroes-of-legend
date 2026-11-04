@@ -1,6 +1,6 @@
 # Crosswind
 
-*You snap your wrist. The arrow catches a sideways gust, and its point wavers just as your companion turns.*
+*Self or one visible willing ally within 3 squares before defending against a single-target physical projectile attack. The target gains 2 Boons to the defense.*
 
 ## Rules
 

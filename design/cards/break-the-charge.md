@@ -1,6 +1,6 @@
 # Break the Charge
 
-*You wait until their next stride has nowhere else to go, then drive the weapon across their chest and send them back down the path they chose.*
+*Make a Brawn melee attack that damages and pushes an adjacent creature. A Strong result also knocks it Prone.*
 
 ## Rules
 

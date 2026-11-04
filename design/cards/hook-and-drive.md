@@ -1,6 +1,6 @@
 # Hook and Drive
 
-*You catch their ankle with your weapon and drive your shoulder forward. Their next stride becomes a scramble to stay upright.*
+*Choose one adjacent creature. Make a Brawn melee attack. On a Standard result, deal 3 physical damage and Slowed 2.*
 
 ## Rules
 

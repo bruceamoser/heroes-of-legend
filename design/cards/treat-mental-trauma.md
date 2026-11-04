@@ -1,6 +1,6 @@
 # Treat Mental Trauma
 
-*You find a quiet place and sit close enough that the memory can be faced in company.*
+*Choose one wound on yourself or a willing patient listing Mental treatment. Make a Reason treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

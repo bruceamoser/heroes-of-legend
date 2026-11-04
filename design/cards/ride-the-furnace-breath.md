@@ -1,6 +1,6 @@
 # Ride the Furnace Breath
 
-*The flame bends beneath your cloak. You catch its rising breath and stride through the roar toward clear air.*
+*Before one event deals fire damage, gain fire resistance 3 against the event. After it resolves, move up to 4 squares without provoking to a free supported square.*
 
 ## Rules
 

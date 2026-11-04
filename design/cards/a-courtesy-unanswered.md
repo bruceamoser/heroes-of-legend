@@ -1,6 +1,6 @@
 # A Courtesy Unanswered
 
-*You dip your head as if making room for a reply. The blade comes up before the greeting can be returned.*
+*Make a Guile melee attack that can Slow your target. Gain 1 Boon if you started Hidden.*
 
 ## Rules
 

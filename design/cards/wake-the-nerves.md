@@ -1,6 +1,6 @@
 # Wake the Nerves
 
-*You touch two fingers to the temple and send a fine pulse down the limbs. The hand that would not move begins to close.*
+*Choose one adjacent willing living creature. Reduce temporary Dazed by 2 or temporary Paralyzed by 1.*
 
 ## Rules
 

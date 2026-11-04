@@ -1,6 +1,6 @@
 # Not So Fast
 
-*You step into the gap and put your blade where the next stride was going to be.*
+*Choose one enemy that voluntarily enters a square you threaten from outside your reach. Make a Basic Melee attack against the triggering enemy. After the attack resolves, the enemy’s movement ends, and it cannot move again until the start of its next turn.*
 
 ## Rules
 

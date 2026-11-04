@@ -1,6 +1,6 @@
 # Entangling Growth
 
-*You speak to the roots, and they remember they were here first.*
+*Choose one or two creatures within 8 squares that are adjacent to each other. Make one Knowledge roll and apply it to each target. On a Standard result, deal 3 physical damage, and the target is Slowed 2.*
 
 ## Rules
 

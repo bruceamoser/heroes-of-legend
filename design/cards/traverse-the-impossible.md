@@ -1,6 +1,6 @@
 # Traverse the Impossible
 
-*You look across the gap once, take the stride you need, and trust the leap you have practiced all your life.*
+*Self to a visible free supported landing within 8 squares. Leap up to 8 squares to a visible free supported landing, clearing creatures and obstacles up to 2 squares high along the route. This movement does not provoke.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Keep Time with Steel
 
-*Your weapon rings against theirs on the beat. You call the next step, and your companion is already moving into the opening.*
+*Choose one adjacent enemy. One willing ally within 3 squares who hears you. Make a Guile melee attack. On a Standard result, deal 3 physical damage. The ally may move 2 squares without provoking.*
 
 ## Rules
 

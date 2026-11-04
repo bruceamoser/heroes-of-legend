@@ -1,6 +1,6 @@
 # The Cannonball
 
-*You back up three steps, lower your head, and throw yourself at them like a stone from a sling.*
+*Rush up to 4 squares through difficult terrain and roll Brawn if you reach the target. Deal physical damage and risk taking damage and a condition yourself.*
 
 ## Rules
 

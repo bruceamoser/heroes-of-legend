@@ -1,6 +1,6 @@
 # Pocket Sand
 
-*You reach into a pocket that should not contain sand and throw it into exactly the wrong pair of eyes.*
+*That enemy. Throw grit or debris into its face. The target takes 1 Bane to that roll. After the roll resolves, it gains Blinded 1 until the end of its next turn.*
 
 ## Rules
 

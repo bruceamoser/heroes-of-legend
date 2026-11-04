@@ -1,6 +1,6 @@
 # A Place at Any Fire
 
-*You trade a little news from the road, remember a name, and make room for someone else beside the fire. Before long, someone is making room for you.*
+*Talk with a nonhostile gathering for ten minutes to find a host who offers your party food, a bed and a useful local introduction.*
 
 ## Rules
 

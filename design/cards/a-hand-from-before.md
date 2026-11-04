@@ -1,6 +1,6 @@
 # A Hand from Before
 
-*A hand like your grandmother's closes over your companion's shoulder. The blow passes, and the hand guides them to your side.*
+*Use a Reaction to give a nearby ally 1 Boon against a physical attack. Afterward, it may move up to 2 squares to your side without provoking.*
 
 ## Rules
 

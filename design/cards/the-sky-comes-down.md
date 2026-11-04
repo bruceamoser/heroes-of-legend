@@ -1,6 +1,6 @@
 # The Sky Comes Down
 
-*You close your fist. Lightning hits first; the falling wall of air catches the survivors as they turn from the flash.*
+*Every creature in one visible 3-by-3 area within 6 squares. Make a Reason area spell attack. On a Standard result, deal 4 lightning damage. Push each target 1 square away from the center.*
 
 ## Rules
 

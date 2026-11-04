@@ -1,6 +1,6 @@
 # An Honest Maker’s Hand
 
-*Your hands know the difference between a quick fix and honest work — and you refuse to settle for the former.*
+*Once per day, improve a Weak crafting or repair roll to Standard, or a Standard result to Strong.*
 
 ## Rules
 

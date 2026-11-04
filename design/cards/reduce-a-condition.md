@@ -1,6 +1,6 @@
 # Reduce a Condition
 
-*You smother the flame, bind the cut or steady your breath, attending to the hurt before it worsens.*
+*Self or one adjacent creature. With a plausible method, reduce Bleeding, Burning, or Freezing by 1. This is not a general cure for all conditions. A persistent source can require a specific remedy.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Borrowed Clothes, Borrowed Manners
 
-*You adjust the collar and practice the little habit that makes the clothes look lived in. Then you join the room as if you have always belonged.*
+*Prepare a cover identity for yourself and up to three companions. Each gains 2 Boons to Guile or Reason rolls to maintain it.*
 
 ## Rules
 

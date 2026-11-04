@@ -1,6 +1,6 @@
 # The Orchard Wakes
 
-*You lift your hand. Roots lift with it, gathering stumbling enemies into a knot of branches and struggling feet.*
+*Choose one visible grounded enemy within 5 squares, plus every other visible grounded Slowed enemy within 5 squares. Choose one visible grounded enemy within 5 squares and every other visible grounded Slowed enemy within 5 squares. Make a Reason control attack. On a Standard result, pull each target 2 squares toward you and apply Slowed 2.*
 
 ## Rules
 

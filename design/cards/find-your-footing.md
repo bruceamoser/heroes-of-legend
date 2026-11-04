@@ -1,6 +1,6 @@
 # Find Your Footing
 
-*You shift to the next hold and pull clear of the grasping water, using the route your hands have already found.*
+*While climbing or swimming, move up to 3 squares along a route you can climb or swim, paying 1 movement per square for this move. This movement does not provoke.*
 
 ## Rules
 

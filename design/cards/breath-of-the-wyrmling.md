@@ -1,6 +1,6 @@
 # Breath of the Wyrmling
 
-*Heat gathers behind your teeth. You open your mouth, and a low stream of flame races across the ground.*
+*Roll Knowledge to deal cold damage in three connected squares next to you. A Strong result also inflicts Freezing.*
 
 ## Rules
 

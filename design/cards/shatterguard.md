@@ -1,6 +1,6 @@
 # Shatterguard
 
-*You catch the blow on your shield. Ice bursts from the rim and follows the attacker's retreating hands.*
+*Before a shield-blockable defense against an adjacent attacker, gain 2 Boons to the defense. On a Strong defense, after the attack resolves, apply Freezing 1 to the attacker and push it 2 squares away from you.*
 
 ## Rules
 

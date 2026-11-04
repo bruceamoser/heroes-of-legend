@@ -1,6 +1,6 @@
 # Drain Warmth
 
-*You close your hand, and the color leaves your enemy's face as if a cold wind had passed straight through them.*
+*Choose one visible enemy within 4 squares. Make a Guile spell attack. Weak — 2 Life damage. Standard — 3 Life damage. Strong — 5 Life damage and Slowed 1.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Death from the Blind Spot
 
-*You have run it to ground. It turns, and you are already in the one place it cannot see.*
+*Choose one creature you have hit or tracked this scene. This ability consumes your Main Action and your movement for the turn. Move up to 6 squares to a square adjacent to the target, ignoring difficult terrain and without provoking. Then make one melee attack with 1 Boon. On a Standard result, deal 9 physical damage, and the target is Prone.*
 
 ## Rules
 

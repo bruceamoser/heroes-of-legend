@@ -1,6 +1,6 @@
 # The Other Side of the Fire
 
-*You recognize the guarded silence and make your offer without stepping closer.*
+*Gain 1 Boon to Guile rolls to negotiate safe passage or ownership.*
 
 ## Rules
 

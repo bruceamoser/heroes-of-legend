@@ -1,6 +1,6 @@
 # Carry Them to Shore
 
-*You catch one companion under each arm and strike out for the bank. The current pulls; you pull harder.*
+*Use a Maneuver to carry or support an adjacent willing or unconscious ally and move up to your Speed without provoking.*
 
 ## Rules
 

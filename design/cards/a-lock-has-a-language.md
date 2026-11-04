@@ -1,6 +1,6 @@
 # A Lock Has a Language
 
-*You listen through your fingertips, learn the maker's rhythm, and answer it with a turn of the tool.*
+*Roll Reason to open an ordinary lock and learn whether it was damaged or tampered with. You can relock it with a Maneuver.*
 
 ## Rules
 

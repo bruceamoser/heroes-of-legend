@@ -1,6 +1,6 @@
 # I Have Seen This Step
 
-*You have seen that raised arm before, in a dream or an old battlefield sketch. Your warning reaches your companion before the weapon does.*
+*Choose one willing ally within 3 squares who hears you, before it defends against a visible physical attack. The ally gains 1 Boon to the defense. After the attack resolves, it may move 1 square without provoking.*
 
 ## Rules
 

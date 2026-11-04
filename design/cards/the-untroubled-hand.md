@@ -1,6 +1,6 @@
 # The Untroubled Hand
 
-*You breathe out and guide their weight past you. Your open hand reaches the place their balance has already left.*
+*Choose one adjacent enemy. Make a Reason unarmed attack. On a Standard result, deal 3 physical damage. Push 1 square away from you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # The Forest Takes the Blow
 
-*A branch bows between your friend and the blade. As it springs back, the green closes over their escape.*
+*Choose one visible willing ally within 3 squares occupying rooted vegetation, before it defends against an attack dealing physical damage. The ally gains 2 Boons to this defense. After the attack resolves, it may move up to 3 squares without provoking, starting through the vegetation around it.*
 
 ## Rules
 

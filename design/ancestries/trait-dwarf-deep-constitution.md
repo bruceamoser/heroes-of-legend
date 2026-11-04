@@ -1,6 +1,6 @@
 # Hard as Bedrock
 
-*You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.*
+*Maximum HP +1.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # The Patient Metal
 
-*You warm the bent hinge between your palms until the metal remembers the line it used to hold.*
+*Choose one accessible damaged component of an ordinary metal item, small enough to hold between your hands. Reshape a damaged fitting, fastener, edge or link that fits between your hands. Make a Knowledge roll. On a Standard result, restore its ordinary function permanently.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Read the Room
 
-*You set down your cup, look past the speaker, and see the room as a map of alliances and fears.*
+*Choose an investigation task about a social gathering or group you can observe. Make an investigation check to make progress toward the investigation task. On a Standard result, add 2 progress.*
 
 ## Rules
 

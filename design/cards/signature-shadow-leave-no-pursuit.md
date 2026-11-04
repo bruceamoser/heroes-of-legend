@@ -1,6 +1,6 @@
 # The Cutting Word
 
-*You find the sentence that undoes them, and say it quietly.*
+*Choose one creature within 10 squares that can see or hear you. Make a Guile roll against the target. The jab can be a spoken barb, a gesture, or a look. On a Standard result, the target has Dazed 1 and Frightened 1.*
 
 ## Rules
 

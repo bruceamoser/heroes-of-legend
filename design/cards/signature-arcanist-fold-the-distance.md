@@ -1,6 +1,6 @@
 # Folded Aegis
 
-*You fold the air around yourself into overlapping plates of shimmering force.*
+*For 2 hours, you are wrapped in magical heavy armor. You gain physical resistance 3, fire resistance 3 and cold resistance 3. Use the highest matching resistance for each damage type, to the normal cap of 3. The armor is weightless and needs no armor training.*
 
 ## Rules
 

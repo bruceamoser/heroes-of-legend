@@ -1,6 +1,6 @@
 # The Web of Whispers
 
-*You send word through the people who owe you a favor, the people who fear you, and the people who simply like to talk.*
+*One question about a person, place, faction or event your network or research could plausibly know. Ask one question. The DA answers truthfully from what that network would know. The answer may be incomplete or point to a source. You also learn who can tell you more.*
 
 ## Rules
 

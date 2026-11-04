@@ -1,6 +1,6 @@
 # Stone on Your Shoulders
 
-*The rune drinks the impact and sends its weight through your boots. You take the step the blow was meant to steal.*
+*Before one event deals physical damage, gain physical resistance 3 against the event. After it resolves, move 1 square without provoking.*
 
 ## Rules
 

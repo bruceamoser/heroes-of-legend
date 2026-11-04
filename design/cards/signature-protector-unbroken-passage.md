@@ -1,6 +1,6 @@
 # The Long Road
 
-*You gather them up and lead them out. Nobody gets left behind.*
+*Self and each willing ally within 5 squares. You and each chosen ally may move up to your Speed without provoking, ignoring difficult terrain. Each ally must end within 5 squares of you. You may carry one willing Dying ally with you. It moves with you and ends adjacent to you.*
 
 ## Rules
 

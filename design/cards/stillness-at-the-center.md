@@ -1,6 +1,6 @@
 # Stillness at the Center
 
-*You find the still point in the struggle. One touch there, and the bodies locked around it begin to fail in sequence.*
+*Choose one adjacent enemy and every other adjacent Grappled enemy. Choose one adjacent enemy and every other adjacent Grappled enemy. Make a Reason unarmed attack. On a Standard result, deal 4 physical damage, Slowed 1 and Dazed 1.*
 
 ## Rules
 

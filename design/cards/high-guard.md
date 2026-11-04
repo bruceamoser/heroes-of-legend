@@ -1,6 +1,6 @@
 # High Guard
 
-*You lift the battered shield and turn with every impact. There is always another edge waiting behind its rim.*
+*Before a shield-blockable defense, use Shield Block as part of this Reaction, granting 2 Boons to eligible defenses until the start of your next turn.*
 
 ## Rules
 

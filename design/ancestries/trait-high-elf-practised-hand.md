@@ -1,6 +1,6 @@
 # The Practised Hand
 
-*You turn the tiny fitting once, then set it exactly where it belongs.*
+*Gain 1 Boon to Knowledge rolls for crafting work.*
 
 ## Rules
 

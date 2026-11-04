@@ -1,6 +1,6 @@
 # Find the Seam
 
-*You wait for the slit between shield and stone. The next shot follows that narrow line as if the armor were never there.*
+*Choose one visible creature within your ranged weapon attack's range. Your next ranged weapon attack against the target this turn treats its physical resistance and cover Banes as 0.*
 
 ## Rules
 

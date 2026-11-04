@@ -1,6 +1,6 @@
 # Breath of White
 
-*You exhale white mist. It rolls over nearby weapons and leaves a shining crust on every lash and collar.*
+*Roll Reason to grow a hedge that provides difficult terrain and heavy cover. Sustain it with a Maneuver each turn.*
 
 ## Rules
 

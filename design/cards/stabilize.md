@@ -1,6 +1,6 @@
 # Stabilize
 
-*You press against the wound and keep your voice steady, giving your friend something to hold on to.*
+*Choose one adjacent Dying player character. Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no wound, and does not restore Grit. Taking damage while stable enters Dying again.*
 
 ## Rules
 

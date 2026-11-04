@@ -1,6 +1,6 @@
 # Expert River Crossing
 
-*You point out the current's quiet seam and match your companion stroke for stroke, keeping the small dry bundle above the spray.*
+*Self and one adjacent willing companion during a shared swim. You and one adjacent willing companion you guide gain 1 Boon to attribute rolls completing the same swim. You may keep one carried item of Bulk 1 or less dry during that swim.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Through the Narrow Places
 
-*You lower your head and slip beneath the fallen beam without breaking stride.*
+*You move and attack normally while crouching or squeezing through low or narrow passages.*
 
 ## Rules
 

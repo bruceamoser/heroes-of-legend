@@ -1,6 +1,6 @@
 # Thought Before the Blow
 
-*You picture where the blow must finish. Your body follows the empty space beside that thought.*
+*Before defending against an attack you can perceive, use Reason for this defense and gain 1 Boon. After the attack resolves, move up to 2 squares without provoking.*
 
 ## Rules
 

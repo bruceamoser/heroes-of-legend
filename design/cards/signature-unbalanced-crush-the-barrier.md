@@ -1,6 +1,6 @@
 # Rampage
 
-*You do not stop at the first body.*
+*Spend your Main Action and movement to charge in a straight line, damaging and pushing enemies along the path. Roll Brawn against an enemy adjacent to where you stop.*
 
 ## Rules
 

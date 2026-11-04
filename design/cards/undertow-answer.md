@@ -1,6 +1,6 @@
 # Undertow Answer
 
-*You beckon. The water beside your enemy rises like a hand and closes around the next step.*
+*Choose one visible grounded enemy within 4 squares in or beside at least a bucket of water. Choose a visible water square beside the target and make a Reason control attack. On a Standard result, deal 3 physical damage and Slowed 1. Pull 2 squares toward it.*
 
 ## Rules
 

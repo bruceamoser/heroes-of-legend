@@ -1,6 +1,6 @@
 # Mercy in the Light
 
-*Warm light passes beneath your palm. Your companion's breathing steadies, and for a moment the horror seems farther away.*
+*Choose one visible willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 1 HP and make a Reason healing roll. On a Standard result, restore 5 HP and reduce temporary Frightened by 1.*
 
 ## Rules
 

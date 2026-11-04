@@ -1,6 +1,6 @@
 # Cast through the Reflection
 
-*You tilt an invisible mirror. Your casting hand appears at the new angle, steadying the spell as you release it.*
+*Carry one adjacent willing creature or a creature at 0 HP at half your Speed, keeping it beside you.*
 
 ## Rules
 

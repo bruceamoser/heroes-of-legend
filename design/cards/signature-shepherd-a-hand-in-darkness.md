@@ -1,6 +1,6 @@
 # The Shepherd's Call
 
-*You draw a small sigil over the heart and speak a name into it. The mark stays warm.*
+*Choose up to three willing characters. Mark each target with a physical sigil. The first time a marked character would be reduced to 0 HP, it remains at 1 HP instead. The mark then disappears. An unused mark fades at the coming dawn. A character can bear only one mark from this ability.*
 
 ## Rules
 

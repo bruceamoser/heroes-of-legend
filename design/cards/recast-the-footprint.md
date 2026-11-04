@@ -1,6 +1,6 @@
 # Recast the Footprint
 
-*You erase the shape with one hand and draw it again with the other. Your companion unfolds where the enemy left a gap.*
+*Choose one visible summon of yours within 6 squares. Teleport the summon up to 4 squares to a visible free supported space within 6 squares of you that fits its footprint. It retains its HP, conditions, remaining duration and command history.*
 
 ## Rules
 

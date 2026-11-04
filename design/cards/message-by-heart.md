@@ -1,6 +1,6 @@
 # Message by Heart
 
-*You repeat the message under your breath, matching every word until you can hear it without the speaker.*
+*Choose one message of up to 50 words that you can hear, or read in a script you know. After rehearsing the message for one minute, you can reproduce its words exactly from memory. You may retain unfamiliar words this way without understanding them. You can retain one message at a time. Memorizing another replaces it. Recalling the stored message takes only the normal time to speak or write it. Translation and understanding come from your own knowledge or other abilities.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Furnace Sweep
 
-*You throw open an invisible furnace door. Heat rolls across the line in front of you, shoving weapons and bodies aside.*
+*Every creature in a 3-wide, 2-deep rectangle immediately ahead of you. Make a Knowledge area spell attack. On a Standard result, deal 3 fire damage. Push 1 square away from you.*
 
 ## Rules
 

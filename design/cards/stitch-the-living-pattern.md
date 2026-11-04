@@ -1,6 +1,6 @@
 # Stitch the Living Pattern
 
-*Blue threads gather above the wound. As they draw together, a matching ache closes around your own hand.*
+*Choose one visible willing creature within 3 squares, including yourself, or one creature within that range harmed by healing. Pay 1 HP and make a Knowledge healing roll. On a Standard result, restore 5 HP.*
 
 ## Rules
 

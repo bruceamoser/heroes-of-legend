@@ -1,6 +1,6 @@
 # Convert an Action
 
-*You abandon the opening you were watching and throw your effort into what matters now.*
+*Spend Main Action to gain a Maneuver. Spend a Maneuver to gain another movement allowance. One-way conversion only. Converting both gives a full sprint.*
 
 ## Rules
 

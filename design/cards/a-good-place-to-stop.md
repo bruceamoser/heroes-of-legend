@@ -1,6 +1,6 @@
 # A Good Place to Stop
 
-*You feel the wind fall quiet beneath the ridge and find the dry hollow where last year's leaves still lie.*
+*Examine a campsite for ten minutes to find its hazards and shelter. Use that shelter to give your group 1 Boon against weather and exposure.*
 
 ## Rules
 

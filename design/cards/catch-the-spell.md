@@ -1,6 +1,6 @@
 # Catch the Spell
 
-*You catch the spell's bright seam on your fingers and twist, turning its force away from your heart.*
+*Before defending against a single-target spell from a visible caster within 4 squares, gain 2 Boons to the defense. On a Strong defense, after the spell resolves, move up to 2 squares without provoking.*
 
 ## Rules
 

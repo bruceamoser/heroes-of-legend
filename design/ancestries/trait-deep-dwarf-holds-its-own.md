@@ -1,6 +1,6 @@
 # A Patient Breath
 
-*You slow your breathing while the others hurry through the stale passage.*
+*Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes, poison or thin air.*
 
 ## Rules
 

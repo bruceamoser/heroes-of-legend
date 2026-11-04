@@ -1,6 +1,6 @@
 # Borrow Tomorrow’s Weather
 
-*You reach into empty air and pull back a handful of tomorrow: smoke warm from a future hearth, or ice wet with a storm not yet here.*
+*Prepare a disguise in ten minutes, learn a detail that sells the role and gain 1 Boon to Guile rolls to pass as that role.*
 
 ## Rules
 

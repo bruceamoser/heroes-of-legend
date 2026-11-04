@@ -1,6 +1,6 @@
 # The Lucky Trinket
 
-*You turn the coin over in your pocket, or touch the smooth stone at your throat, and believe, as you always have, that it brings you luck.*
+*You carry a personal trinket you believe is magical. It may or may not be. Once a day, when you make a non-combat roll, you can use the trinket to gain 2 Boons on that roll.*
 
 ## Rules
 

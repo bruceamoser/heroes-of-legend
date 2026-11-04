@@ -1,6 +1,6 @@
 # Walk the Thunder
 
-*You run up the wall as if the air were steps, skim the river's face, and land with the thunder still behind your heels.*
+*Self along a wall or across water to supported ground. Run up to 4 squares along solid vertical surfaces or across water, ending in a visible free supported ground square. This movement does not provoke.*
 
 ## Rules
 

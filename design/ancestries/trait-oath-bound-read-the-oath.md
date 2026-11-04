@@ -1,6 +1,6 @@
 # Borrowed Knowing
 
-*You know the answer before you know where the memory came from.*
+*Gain 1 Boon to Knowledge rolls when you call upon your oath holder.*
 
 ## Rules
 

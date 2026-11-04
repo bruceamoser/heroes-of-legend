@@ -1,6 +1,6 @@
 # A Ribcage for a Shield
 
-*Pale ribs close around your companion and take the shape of the blow. Then they spring outward with a crack like breaking ice.*
+*Use a Reaction to give an ally 2 Boons against a physical attack, then push an attacker adjacent to that ally 2 squares away.*
 
 ## Rules
 

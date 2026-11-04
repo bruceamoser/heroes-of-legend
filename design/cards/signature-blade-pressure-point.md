@@ -1,6 +1,6 @@
 # Cleave
 
-*You sweep your blade in a wide arc, forcing everyone near you to give ground.*
+*All creatures adjacent to you, including allies. You must be wielding a melee weapon. Make one Brawn roll. On a Weak result, deal 1 damage to each creature adjacent to you. On a Standard result, deal 1 damage and push each creature 1 square directly away from you. On a Strong result, deal 1 damage and push each creature 2 squares directly away from you. Resolve collisions normally.*
 
 ## Rules
 

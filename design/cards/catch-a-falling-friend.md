@@ -1,6 +1,6 @@
 # Carry the Wounded
 
-*You get a shoulder under your friend's arm and take their weight before the next arrow falls.*
+*Use a Reaction to catch a falling unattended object that fits in your free hand.*
 
 ## Rules
 

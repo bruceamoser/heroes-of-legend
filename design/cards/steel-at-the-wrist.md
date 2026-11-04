@@ -1,6 +1,6 @@
 # Steel at the Wrist
 
-*You meet the weapon close to the hand that holds it, lock your own blade across its path, and wrench the point aside.*
+*Before a defense roll against an adjacent creature’s melee weapon attack, before the defense roll, use Brawn as your defense attribute and gain 1 Boon to that roll.*
 
 ## Rules
 

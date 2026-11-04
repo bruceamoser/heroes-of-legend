@@ -1,6 +1,6 @@
 # Not Yet Your Name
 
-*You seize your companion's hand. The strength you give them leaves your own breath thin, but theirs comes back.*
+*Choose one adjacent willing or unconscious creature after it enters Dying and its wound is resolved. Pay 7 HP and restore 12 HP to the recipient.*
 
 ## Rules
 

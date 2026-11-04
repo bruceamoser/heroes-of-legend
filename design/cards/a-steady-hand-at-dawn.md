@@ -1,6 +1,6 @@
 # A Steady Hand at Dawn
 
-*You set the tools where your hands will find them and begin the familiar work without a wasted movement.*
+*Complete hour-long wound treatments in ten minutes and add 2 recovery progress on a Weak treatment roll.*
 
 ## Rules
 

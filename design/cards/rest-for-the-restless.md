@@ -1,6 +1,6 @@
 # Rest for the Restless
 
-*You speak the dismissal softly. The pale thread that leaves your hand strikes with the weight of a door closing.*
+*Choose one visible enemy within 4 squares. Make a Reason spell attack. On a Standard result, deal 4 Life damage.*
 
 ## Rules
 

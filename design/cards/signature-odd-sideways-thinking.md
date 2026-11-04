@@ -1,6 +1,6 @@
 # Borrowed Tongue
 
-*You go still for a moment, then answer in a language you have never learned. The spirit inside you remembers it for you.*
+*One language you hear spoken. A spirit that knows the language possesses you. You understand and speak that language for the scene. You do not read or write it.*
 
 ## Rules
 

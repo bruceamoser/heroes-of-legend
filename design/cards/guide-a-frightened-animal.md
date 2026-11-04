@@ -1,6 +1,6 @@
 # Guide a Frightened Animal
 
-*You lower your hands and breathe with the trembling animal until it can look at you instead of the thing behind you.*
+*Choose one animal within 3 squares that sees or hears you. Make a Guile roll. Learn the animal's immediate source of distress and one approach it would presently accept, such as an offered lead, food or a familiar handler. On a Standard result, reduce its temporary Frightened by 2.*
 
 ## Rules
 

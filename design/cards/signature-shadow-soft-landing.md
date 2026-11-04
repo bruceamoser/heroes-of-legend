@@ -1,6 +1,6 @@
 # Blade in the Back
 
-*You wait for the half-second when the guard turns, and the knife goes in under the ribs.*
+*Choose one creature within reach that has not noticed you or is adjacent to one of your allies. Make an Agility roll against the target. On a Standard result, deal 4 physical damage, and the target has Bleeding 1.*
 
 ## Rules
 

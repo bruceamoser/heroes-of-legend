@@ -1,6 +1,6 @@
 # A Splendid Mistake
 
-*The ball of magic swells faster than your hands can hold it. You hurl it away and decide, at the last instant, what color the disaster will be.*
+*Roll Guile to deal fire or lightning damage in a 3-by-3 area. Standard and Strong results also push creatures outward.*
 
 ## Rules
 

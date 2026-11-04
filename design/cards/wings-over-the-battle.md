@@ -1,6 +1,6 @@
 # Wings over the Battle
 
-*Wings burst from your shoulders. One powerful beat carries you over the locked shields, and another sets you down beyond them.*
+*Self to a visible free supported square within 6 squares. Fly up to 6 squares over creatures, gaps and difficult ground to a visible free supported square, then land. This movement does not provoke.*
 
 ## Rules
 

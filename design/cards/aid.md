@@ -1,6 +1,6 @@
 # Aid
 
-*You catch the loose end, offer the missing word, or put your shoulder beside a friend’s.*
+*Use a Maneuver to help an adjacent ally and give it 1 Boon on its next roll for the task.*
 
 ## Rules
 

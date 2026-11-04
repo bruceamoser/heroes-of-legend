@@ -1,6 +1,6 @@
 # Ember Along the Edge
 
-*You run two fingers beside the blade. Fire clings to the edge, and the first cut leaves a bright line behind it.*
+*Choose one adjacent enemy. Make a Knowledge weapon spell attack. On a Standard result, deal 2 physical and 2 fire damage and Burning 1.*
 
 ## Rules
 

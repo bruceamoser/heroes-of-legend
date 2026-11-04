@@ -1,6 +1,6 @@
 # A Voice across the Valley
 
-*You whisper a familiar name into the wind. A minute later, the answer reaches you with the softness of a voice at the fireside.*
+*Call a creature you know within a day's travel and speak with it for up to ten minutes if it answers.*
 
 ## Rules
 

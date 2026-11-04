@@ -1,6 +1,6 @@
 # Thunder Ring
 
-*Your shout lands like a bell struck at arm's length. The staggered ones have no time to brace for the second peal.*
+*Every other creature within 1 square of you. Make a Reason area spell attack. On a Standard result, deal 3 physical damage. Push 1 square away from you.*
 
 ## Rules
 

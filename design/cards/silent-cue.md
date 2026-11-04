@@ -1,6 +1,6 @@
 # Silent Cue
 
-*You picture your companion and the words you need them to hear. Their eyes flick toward you as the thought arrives.*
+*Choose one visible willing creature within 3 squares. Send a sentence of up to twenty words in a language the target understands. It may immediately send a sentence of up to twenty words back to you.*
 
 ## Rules
 

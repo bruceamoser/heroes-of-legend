@@ -1,6 +1,6 @@
 # A Sign against Harm
 
-*You draw a bright stroke across the air. It spreads in front of your companion just as the blow arrives.*
+*Use a Reaction to give yourself or a willing ally within 3 squares 1 Boon to a defense roll.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Call Their Name
 
-*You call the name their oldest friend would use. Their eyes find yours through the panic, and their breathing begins to slow.*
+*Move up to 3 squares without provoking, then let nearby willing allies follow. You and each ally that moves gain 1 Boon to your next defense.*
 
 ## Rules
 

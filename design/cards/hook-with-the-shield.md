@@ -1,6 +1,6 @@
 # Hook with the Shield
 
-*You catch the ankle behind your shield's lower edge and drive forward before the enemy can reset its foot.*
+*Choose one adjacent enemy. Make a Brawn control attack. On a Standard result, push 2 squares away from you.*
 
 ## Rules
 

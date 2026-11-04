@@ -1,6 +1,6 @@
 # Never Quite Finished
 
-*You wipe the sweat from your face and lift the load again, remembering the people still waiting for you.*
+*Maximum HP +1. You gain 1 Boon to Fortitude rolls to resist death marks. Describe the ordinary hardship that taught you to keep going.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Smile Before Steel
 
-*You glance over their shoulder as though a friend has arrived. Your blade comes from the other side, and you are already stepping past the reply.*
+*Choose one adjacent creature. Make a Guile melee attack. On a Standard result, deal 4 physical damage, then move up to 1 square without provoking.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Keep Your Bearings
 
-*You pause, find a familiar angle in the unfamiliar world, and choose your way.*
+*Choose a navigation task in an unfamiliar place with usable landmarks. Make a navigation check to make progress toward the navigation task. On a Standard result, add 2 progress.*
 
 ## Rules
 

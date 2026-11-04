@@ -1,6 +1,6 @@
 # Lead the Way
 
-*You set the pace and the line forms behind you without a word.*
+*Any willing allies within 3 squares who can see or hear you. When you move using your Speed, any willing ally within 3 squares who can see or hear you may move with you at the same time, following your path, up to the distance you move, to a maximum of 2 squares. An ally who comes within 3 squares during your movement may join for the remainder of that movement. The allies spend no movement. This movement follows normal opportunity attack rules.*
 
 ## Rules
 

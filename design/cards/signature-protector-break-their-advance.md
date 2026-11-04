@@ -1,6 +1,6 @@
 # Break the Charge
 
-*You meet the charge with your shoulder and drive the attacker back.*
+*Choose one enemy within 2 squares. Trigger: an enemy moves within 2 squares of you while moving toward an ally you can see. Make a Brawn roll against the target. On a Standard result, deal 2 physical damage, and the target is Prone.*
 
 ## Rules
 

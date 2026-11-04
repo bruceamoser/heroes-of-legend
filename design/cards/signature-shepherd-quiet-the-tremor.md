@@ -1,6 +1,6 @@
 # Mend the Wound
 
-*You set the bone, close the tear, and talk them through the part where it hurts.*
+*Choose one willing creature with a Soft Tissue or Bone wound. Make a Reason roll. Add progress to that wound's treatment track. On a Standard result, add 3 progress.*
 
 ## Rules
 

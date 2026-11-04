@@ -1,6 +1,6 @@
 # A Sword Made of Dawn
 
-*A second edge of white fire reaches from your weapon. You guide it toward the enemy already struggling in the flames.*
+*Make a Knowledge spell attack that deals fire damage and can push or ignite an enemy. Gain 2 Boons against a Burning target.*
 
 ## Rules
 

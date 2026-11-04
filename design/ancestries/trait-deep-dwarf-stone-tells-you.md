@@ -1,6 +1,6 @@
 # The Stone Tells You
 
-*You rest your palm against the floor and wait for the answering tread.*
+*Gain Seismic Vision with a range of 6 squares.*
 
 ## Rules
 

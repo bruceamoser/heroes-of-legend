@@ -1,6 +1,6 @@
 # Return to Strength
 
-*You pull a shaking companion upright as life surges through them. Their first steady step comes at the cost of your own breath.*
+*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 7 HP and make a Reason healing roll. On a Standard result, restore 16 HP.*
 
 ## Rules
 

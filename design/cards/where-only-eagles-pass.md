@@ -1,6 +1,6 @@
 # Where Only Eagles Pass
 
-*You put your hand into a seam barely wider than a nail, take your companion's weight, and begin to climb.*
+*Self and one carried willing or unconscious companion on a natural surface with small holds. Climb up to your Speed along a natural surface with small seams, projections or cracks, carrying one willing or unconscious companion you can physically support. Climbing costs 1 movement per square for this move. End with both of you in separate free supported spaces, or with your companion still carried outside combat.*
 
 ## Rules
 

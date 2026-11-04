@@ -1,6 +1,6 @@
 # Bind and Turn
 
-*Their strike carries past you. You catch the extended arm against your weapon and turn your hips, sending them stumbling across your front.*
+*Make a Fortitude melee attack against an adjacent creature for 3, 5 or 7 physical damage.*
 
 ## Rules
 

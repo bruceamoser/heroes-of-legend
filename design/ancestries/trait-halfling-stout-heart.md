@@ -1,6 +1,6 @@
 # Bigger on the Inside
 
-*You swallow, glance at the friends beside you and step forward even while your knees shake.*
+*Gain 1 Boon to rolls affected by Frightened. Your maximum HP increases by 1. Resolve the Boon and Banes normally.*
 
 ## Rules
 

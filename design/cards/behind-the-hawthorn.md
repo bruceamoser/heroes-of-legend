@@ -1,6 +1,6 @@
 # Behind the Hawthorn
 
-*A scatter of leaves hangs where the blow found you. You step out of a second swirl a few paces away.*
+*After an adjacent creature's melee attack against you resolves, roll Agility to push it away and knock it Prone on a Strong result.*
 
 ## Rules
 

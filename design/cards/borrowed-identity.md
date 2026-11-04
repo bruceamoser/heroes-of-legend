@@ -1,6 +1,6 @@
 # Borrowed Identity
 
-*You rehearse the cover together until the pauses and glances belong to the same story. When the door opens, you all know your parts.*
+*Use a Reaction to gain 2 Boons to defend against a visible attack, then move 1 square without provoking.*
 
 ## Rules
 

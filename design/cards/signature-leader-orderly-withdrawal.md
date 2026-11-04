@@ -1,6 +1,6 @@
 # Lead by Example
 
-*You step into the gap and strike, showing your companions exactly where the line will break.*
+*Make a Guile melee attack. On a Standard or Strong result, choose effects that Daze your target, let allies move, or set up their next attacks.*
 
 ## Rules
 

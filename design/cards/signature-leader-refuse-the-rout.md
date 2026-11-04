@@ -1,6 +1,6 @@
 # Refuse the Rout
 
-*You stand where everyone can see you, raise your voice and turn a scattering retreat into a line that holds.*
+*Self and up to three willing allies within 4 squares that can hear you. Each recipient reduces one Frightened or Dazed condition by up to 2, to a minimum of 0, and gains 1 Boon to its next defense before the start of your next turn. Each may immediately move 1 square without provoking. Resolve movement in an order you choose. This applies to ordinary conditions.*
 
 ## Rules
 

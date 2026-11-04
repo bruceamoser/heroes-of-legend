@@ -1,6 +1,6 @@
 # Use a Healing Potion
 
-*You pull the stopper and swallow the sharp mouthful, feeling warmth return to aching limbs.*
+*Self or one adjacent willing creature. Requires a free hand. The giver spends the Maneuver. Another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead or end Last Words.*
 
 ## Rules
 

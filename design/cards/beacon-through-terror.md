@@ -1,6 +1,6 @@
 # Beacon through Terror
 
-*You lift one steady light between your companion and the horror. Their gaze finds it, and they begin to breathe again.*
+*After a visible attack against you resolves, use a Reaction to teleport up to 3 squares to a visible free supported square.*
 
 ## Rules
 

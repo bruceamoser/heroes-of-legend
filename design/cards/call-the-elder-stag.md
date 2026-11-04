@@ -1,6 +1,6 @@
 # Call Animal: Master
 
-*You stamp your foot. Something vast answers beneath the ground, and an ancient outline rises into the light.*
+*Summon a Novice Animal within 3 squares for one scene. Choose its form each time you cast.*
 
 ## Rules
 

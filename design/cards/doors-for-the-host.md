@@ -1,6 +1,6 @@
 # Doors for the Host
 
-*You open your arms. Bright doorways unfold beneath your summoned host, and the whole line steps into a new formation.*
+*Every visible summon of yours within 6 squares. Teleport each of your visible summons within 6 squares up to 4 squares to a visible free supported space within 6 squares of you. Each destination fits the form's footprint. You choose the order. The destinations are separate. Each form retains its HP, conditions, remaining duration and command history.*
 
 ## Rules
 

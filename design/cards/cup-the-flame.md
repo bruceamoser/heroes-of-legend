@@ -1,6 +1,6 @@
 # Cup the Flame
 
-*You curl your fingers toward the incoming heat and fold its brightest tongue into your palm.*
+*Before one event deals fire damage, gain fire resistance 3 against the event. Reduce temporary Burning applied to you by that event by 1.*
 
 ## Rules
 

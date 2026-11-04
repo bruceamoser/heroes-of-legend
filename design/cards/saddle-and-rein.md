@@ -1,6 +1,6 @@
 # Saddle and Rein
 
-*Your mount gathers itself beneath you. One touch of the rein, one shift of weight, and you both meet the obstacle in the same stride.*
+*While riding a willing mount, while riding a willing mount, gain 1 Boon to attribute rolls guiding it through difficult ground, keeping your seat or calming it. When an effect would make you fall from that mount, you may spend your Reaction to remain mounted.*
 
 ## Rules
 

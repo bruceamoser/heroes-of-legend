@@ -1,6 +1,6 @@
 # Call Animal: Novice
 
-*You whistle once. A hound-shaped shimmer lifts its head, catches your scent, and waits for the chase.*
+*Summon an Animal of Adept tier or lower within 3 squares for one scene.*
 
 ## Rules
 

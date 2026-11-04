@@ -1,6 +1,6 @@
 # Call Animal: Adept
 
-*Your answering call comes back as a growl. Claws take shape beside you, already flexing against the earth.*
+*Give up to three willing creatures 1 Boon to attack and defense rolls. Sustain the blessing with a Maneuver each turn.*
 
 ## Rules
 

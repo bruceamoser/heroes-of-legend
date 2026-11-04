@@ -1,6 +1,6 @@
 # Borrow the Beast
 
-*Fur rises along your arms. You drop to all fours, and the scent of the fleeing creature parts from the smells of rain and earth.*
+*Use a Reaction to move toward cover when a nearby creature passes it. If your destination conceals you, try to Hide with 1 Boon.*
 
 ## Rules
 

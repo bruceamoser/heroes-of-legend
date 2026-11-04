@@ -1,6 +1,6 @@
 # Stand
 
-*You draw a knee under yourself and rise to face what comes next.*
+*While prone, spend 2 squares of movement to stand. This spends movement, not a Maneuver.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Call Fey: Novice
 
-*You open your hand as if offering a secret. A small, bright figure steps from the space between your fingers.*
+*Summon a Novice Fey within 3 squares for one scene. Choose its form each time you cast.*
 
 ## Rules
 

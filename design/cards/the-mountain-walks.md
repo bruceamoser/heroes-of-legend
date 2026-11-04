@@ -1,6 +1,6 @@
 # The Mountain Walks
 
-*You set your shoulder to the world and take one step that the battlefield cannot refuse.*
+*Charge in a straight line, pushing creatures out of your path and breaking through nonmagical barriers you can damage.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Bridge of Winter
 
-*Ice reaches from both banks, meeting with a deep clear note. Frost drifts beneath the bridge as the first boot touches it.*
+*Summon a Novice Spirit within 3 squares for one scene. Choose its form each time you cast.*
 
 ## Rules
 

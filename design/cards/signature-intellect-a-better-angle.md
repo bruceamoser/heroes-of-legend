@@ -1,6 +1,6 @@
 # A Better Angle
 
-*You call two short directions, placing your companion where the opening is already waiting.*
+*Choose one willing ally within 4 squares that can hear and understand you. The ally may move up to 3 squares without provoking. The ally may then make one Basic Melee or Basic Ranged attack against a target they can see. That attack is part of your Maneuver, so the ally’s action remains available.*
 
 ## Rules
 

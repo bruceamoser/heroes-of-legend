@@ -1,6 +1,6 @@
 # Dance Through Steel
 
-*You turn through the surrounding blades, strike each opening in a single flowing sequence and step out before the circle closes.*
+*Choose up to three distinct adjacent enemies. Choose up to three distinct adjacent enemies and roll Agility once using the least favorable net Boons/Banes among them. On a Standard result, deal 4 physical damage to each, then you may move up to 1 square without provoking.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Shielded Advance
 
-*You slide forward with the shield turned toward the threat. A companion finds room behind its edge.*
+*Then one willing ally adjacent to your destination, move up to 2 squares without provoking. Choose one willing ally adjacent to your destination. While you remain adjacent and hold the shield, it gains 1 Boon to its next shield-blockable defense before the end of your next turn.*
 
 ## Rules
 

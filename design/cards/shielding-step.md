@@ -1,6 +1,6 @@
 # Shielding Step
 
-*You turn your shield between the attacker and your friend. The blow is yours to answer now.*
+*Choose one adjacent willing ally after a single-target attack is declared and before its roll. Replace the ally as the target if you meet the attack's range and targeting requirements. Resolve the attack against you.*
 
 ## Rules
 

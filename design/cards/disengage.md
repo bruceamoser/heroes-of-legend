@@ -1,6 +1,6 @@
 # Disengage
 
-*You give ground carefully, refusing to offer the opening your enemy is waiting for.*
+*Your voluntary movement does not provoke opportunity attacks for the rest of this turn.*
 
 ## Rules
 

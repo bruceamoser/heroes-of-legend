@@ -1,6 +1,6 @@
 # Rouse the Senses
 
-*You take their hand, speak their name, and wait until their eyes find the same world as yours.*
+*Choose one adjacent willing creature. Make a Reason roll. Weak — Reduce temporary Dazed by 1. Standard — Reduce temporary Dazed by 2. Strong — Reduce temporary Dazed by 3.*
 
 ## Rules
 

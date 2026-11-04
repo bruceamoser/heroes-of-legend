@@ -1,6 +1,6 @@
 # Under Their Noses
 
-*You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.*
+*You gain 1 Boon to hiding. When you are adjacent to a standing creature at least one size larger than you, you can attempt to hide behind it, even in combat and with no other cover, as long as it is between you and the observer. The creature can be an ally or an enemy.*
 
 ## Rules
 

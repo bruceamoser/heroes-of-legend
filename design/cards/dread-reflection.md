@@ -1,6 +1,6 @@
 # Dread Reflection
 
-*Your outline borrows the shape your enemy least wants to see. They recoil before they remember whose face was there.*
+*Choose one visible enemy within 5 squares. Make a Guile spell attack. You are the source of Frightened. On a Standard result, deal 3 mental damage and Frightened 1.*
 
 ## Rules
 

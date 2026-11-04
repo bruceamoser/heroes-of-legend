@@ -1,6 +1,6 @@
 # Call Construct: Adept
 
-*You close your fist on an imagined frame. Plates and joints gather around it until your servant stands complete.*
+*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Construct entry from the summon selection with a minimum tier of 3 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
 
 ## Rules
 

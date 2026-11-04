@@ -1,6 +1,6 @@
 # Over the Top
 
-*You take your companion by the belt and the collar and send them over the line.*
+*Choose one willing ally your size or smaller within reach. Throw the ally up to 4 squares in a direction you choose, ignoring difficult terrain and passing over occupied squares. The ally must land standing in a free square. If it lands adjacent to an enemy, it may immediately make one Basic Melee attack against that enemy with 1 Boon. That attack is part of your action, not the ally's turn. The ally takes no damage from the throw.*
 
 ## Rules
 

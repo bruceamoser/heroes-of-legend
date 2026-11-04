@@ -1,6 +1,6 @@
 # Basic Throw
 
-*You feel the weight settle in your palm before sending it spinning toward your mark.*
+*Roll Brawn to strike an adjacent creature unarmed for 1, 2 or 4 physical damage.*
 
 ## Rules
 

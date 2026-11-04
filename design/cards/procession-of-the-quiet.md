@@ -1,6 +1,6 @@
 # Call Undead: Master
 
-*Your shadow spreads into an open grave of light. Something mighty rises from it, held together by the shape of your command.*
+*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Undead entry from the summon selection with a minimum tier of 7 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Coal for a Promise
 
-*You name what your enemy stands to lose and flick a glowing coal toward them. Their answer dies as the ember flares.*
+*Make a Guile spell attack that burns an enemy within 5 squares and can leave it Frightened.*
 
 ## Rules
 

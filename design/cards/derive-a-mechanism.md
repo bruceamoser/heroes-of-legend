@@ -1,6 +1,6 @@
 # Derive a Mechanism
 
-*You lay the pieces in order and follow the maker's decisions until you can explain every turn of the wheel.*
+*Choose one accessible ordinary mechanical item. Study the item and write an ordinary recipe for its mechanism. Before work begins, the DA states the recipe's output, required materials and tools, full crafting interval and the crafting capability that can use it. After four hours of study, you learn that recipe.*
 
 ## Rules
 

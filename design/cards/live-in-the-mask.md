@@ -1,6 +1,6 @@
 # Live in the Mask
 
-*You keep the borrowed person alive in the small moments: how they listen, where they stand, whose joke makes them smile.*
+*While maintaining a plausible mundane disguise or impersonation, gain 2 Boons to Guile or Reason rolls maintaining a plausible mundane disguise or impersonation during conversation.*
 
 ## Rules
 

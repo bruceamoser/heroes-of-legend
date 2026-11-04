@@ -1,6 +1,6 @@
 # A Line for Everyone
 
-*You cross first, test the anchors, and show every companion where to put their hands.*
+*Secure a rope route in ten minutes. Give your group 1 Boon to traverse it and climb the rope at normal movement cost.*
 
 ## Rules
 

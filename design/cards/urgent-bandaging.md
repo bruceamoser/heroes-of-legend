@@ -1,6 +1,6 @@
 # Urgent Bandaging
 
-*You cross the last pace with the bandage already torn, press hard, and knot it before your companion can fall.*
+*Self or one adjacent willing creature. Make a Knowledge roll. Weak — Reduce temporary Bleeding by 2. Standard — Reduce temporary Bleeding by 3. Strong — Reduce temporary Bleeding by 4.*
 
 ## Rules
 

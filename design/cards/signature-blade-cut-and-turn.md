@@ -1,6 +1,6 @@
 # Reckless Charge
 
-*You lower your shoulder and crash forward, blade swinging wide, leaving your guard open.*
+*As a Maneuver, move up to 2 squares toward an enemy and make a Basic Melee attack with extra damage. Take 1 Bane to defenses until your next turn.*
 
 ## Rules
 

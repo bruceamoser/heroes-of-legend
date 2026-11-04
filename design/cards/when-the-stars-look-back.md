@@ -1,6 +1,6 @@
 # When the Stars Look Back
 
-*You open the star-filled dark in your enemy's thoughts. Something vast looks back, and for a heartbeat their body forgets to move.*
+*Choose one visible enemy within 5 squares. Make a Reason spell attack. You are the source of Frightened. On a Standard result, deal 4 mental damage and Dazed 2.*
 
 ## Rules
 

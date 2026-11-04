@@ -1,6 +1,6 @@
 # Cast Off the Venom
 
-*Dark sweat beads on your companions' skin. You sweep your hand outward, and the poison's grip begins to loosen.*
+*Place a casting point that gives your next Main Action spell this turn 1 Boon and changes where its attack path or area begins.*
 
 ## Rules
 

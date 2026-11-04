@@ -1,6 +1,6 @@
 # Swing into Trouble
 
-*You kick away from the ledge and let the rope take you. Your boots arrive at the landing ahead of the rest of you.*
+*Choose a secured rope or hanging fixture and a visible free supported landing within 4 squares. Make an Agility roll and swing from the secured support. On a Standard result, move up to 3 squares. Push one enemy adjacent to the landing 1 square away from you.*
 
 ## Rules
 

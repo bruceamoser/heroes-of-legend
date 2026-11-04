@@ -1,6 +1,6 @@
 # No Footfall at All
 
-*You set each foot as if the floor were listening for your name. The guards hear the empty hall you leave behind.*
+*Your movement makes no audible footfalls. As a Maneuver, move up to your Speed without provoking.*
 
 ## Rules
 

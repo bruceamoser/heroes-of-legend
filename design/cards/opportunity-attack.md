@@ -1,6 +1,6 @@
 # Opportunity Attack
 
-*You recognize the careless instant and strike before it passes.*
+*Choose an adjacent creature triggering an opportunity. Make Basic Melee only. No specialty card. Leaving reach voluntarily provokes. Casting, standing, stowing and retrieving are intended triggers. The start of the provoking action interrupts it: resolve this attack first, then continue the original action if the actor remains capable. Damage alone does not cancel it. Forced movement does not provoke. Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes. This card adds no separate roll beyond any roll it explicitly requires.*
 
 ## Rules
 

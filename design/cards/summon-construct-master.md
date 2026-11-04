@@ -1,6 +1,6 @@
 # Call Construct: Master
 
-*You draw the first line with both arms. Great interlocking pieces answer it, settling into a frame that makes the ground seem smaller.*
+*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Construct entry from the summon selection with a minimum tier of 7 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Bent Trajectory
 
-*You incline a finger, sending your spell around the nearer edge of a pillar before it turns toward your mark.*
+*One of your spell attacks. Choose one visible, unoccupied square within 6 squares of you before rolling. Choose one of your spell attacks. It can originate from any visible, unoccupied square within 6 squares of you. Determine cover and attack path from that square, but measure range from you. You must know the target’s location. Roll the spell attack normally.*
 
 ## Rules
 

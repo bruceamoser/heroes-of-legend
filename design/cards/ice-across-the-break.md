@@ -1,6 +1,6 @@
 # Ice across the Break
 
-*Ice grows from both banks and meets with a sharp crack. You set your boot on it, then wave the next traveler forward.*
+*Choose one visible straight gap up to 5 squares wide within 5 squares, with same-height anchors at both ends. Create a one-square-wide supported bridge across up to 5 straight empty squares between same-height solid anchors. The bridge costs 1 movement per square for everyone and lasts ten minutes. It warns occupants in its final minute and remains beneath current travelers until they reach an anchor. You may replace it when those travelers are secure.*
 
 ## Rules
 

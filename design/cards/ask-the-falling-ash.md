@@ -1,6 +1,6 @@
 # Ask the Falling Ash
 
-*Ash turns in the bowl. For an instant, its shadow is the door you were about to open.*
+*Use a Maneuver to reduce temporary Burning by 2 or put out an adjacent hand-sized flame.*
 
 ## Rules
 

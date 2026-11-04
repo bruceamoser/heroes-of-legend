@@ -1,6 +1,6 @@
 # Foul Wind
 
-*You drop low, spin, and let out a belch that smells like a grave. Your allies know what is coming and hit the ground.*
+*Let willing allies within 5 squares drop Prone, then roll Fortitude to deal poison damage to each other creature within 5 squares that is still upright.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Basic Ranged
 
-*You steady your breathing, pick your mark, and release.*
+*Roll Brawn to throw a weapon at a visible creature within 3 squares for 2, 3 or 5 physical damage.*
 
 ## Rules
 

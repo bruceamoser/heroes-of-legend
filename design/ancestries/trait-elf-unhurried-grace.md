@@ -1,6 +1,6 @@
 # Grace of the Elder Folk
 
-*You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.*
+*Base Speed +1. Describe whether your grace is quick footwork, effortless balance or a dancer’s economy.*
 
 ## Rules
 

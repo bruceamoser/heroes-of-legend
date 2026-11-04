@@ -1,6 +1,6 @@
 # Snare the Missile
 
-*You flick the hooked line into the shaft's path. The angle you measured matters more than the speed of your hand.*
+*Before defending against a single-target physical projectile attack, use Knowledge for this defense and gain 2 Boons. On a Strong defense, after the attack resolves, catch the projectile if it fits in your free hand.*
 
 ## Rules
 

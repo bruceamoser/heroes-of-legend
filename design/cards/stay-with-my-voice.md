@@ -1,6 +1,6 @@
 # Stay with My Voice
 
-*You hold your companion's gaze across the chaos. "Here. Breathe. Choose your next step."*
+*Choose one willing ally within 3 squares who hears you, immediately before it chooses action categories at the start of its turn. Reduce the target's temporary Dazed by 2 before it chooses its action categories.*
 
 ## Rules
 

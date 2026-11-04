@@ -1,6 +1,6 @@
 # Make Something Useful
 
-*You pull sound pieces from the wreckage and set them beside your tools. The thing the party needs is already taking shape.*
+*Choose one known compatible ordinary recipe and suitable salvaged materials. Learn two recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. You can craft those and other known recipes explicitly compatible with this ability, using equivalent salvaged materials the DA confirms are suitable. Roll Knowledge: Weak adds 1 progress or inventory step, Standard 2, Strong 3, as the recipe specifies.*
 
 ## Rules
 

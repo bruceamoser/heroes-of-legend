@@ -1,6 +1,6 @@
 # Read the Next Blow
 
-*You watch the shoulder, not the blade. By the time the edge starts moving, you have already chosen where to stand.*
+*Before defending against a visible physical attack, use Reason for this defense and gain 1 Boon to it.*
 
 ## Rules
 

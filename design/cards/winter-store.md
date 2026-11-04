@@ -1,6 +1,6 @@
 # Winter Store
 
-*A pale rim grows around the wrapping. The herbs inside settle into a deep, clean chill.*
+*Choose one unattended or willingly offered bundle within reach, up to Bulk 1. Preserve the bundle's perishable contents for 24 hours. Time under this spell does not count toward ordinary spoilage. Keep one bundle preserved at a time. A new casting transfers the effect to the new bundle.*
 
 ## Rules
 

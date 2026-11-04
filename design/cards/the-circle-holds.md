@@ -1,6 +1,6 @@
 # The Circle Holds
 
-*You close the bright circle underfoot. Inside it, your companions brace as the magic breaks around its rim.*
+*Ground within 2 squares of your position when cast. Mark a circle of ground within 2 squares of your position. Until the end of your next turn, willing creatures in the circle gain 1 Boon to defenses against spells and Stability 2. On later turns, you may spend a Maneuver to sustain the circle until the end of your next turn.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Quick Exit
 
-*You turn a careful retreat into one last quick step beyond the enemy's reach.*
+*When you use disengage, gain 1 additional square of available movement this turn. Spend it using normal terrain costs and movement restrictions. The bonus applies to the Disengage movement. Your Speed and converted movement allowances stay unchanged. Disengage's protection from opportunity attacks applies normally.*
 
 ## Rules
 

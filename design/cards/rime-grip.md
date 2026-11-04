@@ -1,6 +1,6 @@
 # Rime Grip
 
-*Frost closes around your enemy's wrists and ankles. Their next step breaks with a sound like cracking glass.*
+*Choose one visible enemy within 5 squares. Make a Knowledge spell attack. On a Standard result, deal 3 cold damage and Slowed 1.*
 
 ## Rules
 

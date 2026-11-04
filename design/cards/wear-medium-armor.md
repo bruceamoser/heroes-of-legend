@@ -1,6 +1,6 @@
 # Wear Medium Armor
 
-*You settle the last strap and turn your shoulders. The medium armor moves with you now, its weight a familiar promise.*
+*While wearing the trained armor, while wearing medium armor, gain physical resistance 2.*
 
 ## Rules
 

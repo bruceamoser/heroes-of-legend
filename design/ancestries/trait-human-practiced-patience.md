@@ -1,6 +1,6 @@
 # The Impossible Streak
 
-*You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.*
+*Once per day, before an ordinary noncombat roll, describe the difficult way you are taking. Gain 3 Boons to that roll.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Checkmate in Three Steps
 
-*You drive your opponent back one step, turn with the second, and strike where the third has to land.*
+*Choose one adjacent enemy. Make a Knowledge melee attack. Against a Slowed target, gain 1 Boon to this attack. On a Standard result, deal 5 physical damage. Push 1 square and apply Prone.*
 
 ## Rules
 

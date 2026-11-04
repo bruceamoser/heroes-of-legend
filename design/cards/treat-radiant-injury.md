@@ -1,6 +1,6 @@
 # Treat Radiant Injury
 
-*You shade the injured eyes and work gently where the light has left its mark.*
+*Choose one wound on yourself or a willing patient listing Radiant treatment. Make a Reason treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

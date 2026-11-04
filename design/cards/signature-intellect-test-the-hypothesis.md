@@ -1,6 +1,6 @@
 # Test the Hypothesis
 
-*You lay out the evidence, name the plan and show your companions the one part that must go right.*
+*Self and up to three allies who can hear and understand you. Spend one minute forming a plan from the evidence and observations available. State the plan. The DA confirms what is true, what remains uncertain, and one contradiction or risk. You and each chosen ally gain 2 Boons to your next roll that directly follows the plan.*
 
 ## Rules
 

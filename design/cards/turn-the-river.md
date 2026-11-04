@@ -1,6 +1,6 @@
 # Turn the River
 
-*You yield a pace and let the attack pass. Their weight follows your hand into the space you have just left.*
+*Before defending against a visible adjacent physical attacker, use Reason for this defense and gain 1 Boon. After the attack resolves, move 1 square without provoking. On a Strong defense, also pull the attacker 1 square toward the space you left.*
 
 ## Rules
 

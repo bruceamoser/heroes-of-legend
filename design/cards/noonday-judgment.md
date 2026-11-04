@@ -1,6 +1,6 @@
 # Noonday Judgment
 
-*Light gathers over the battlefield until every blade throws a sharp black shadow. Then noon falls all at once.*
+*Every creature in one visible 3-by-3 area within 6 squares. Make a Reason area spell attack. On a Standard result, deal 4 radiant damage and Blinded 1.*
 
 ## Rules
 

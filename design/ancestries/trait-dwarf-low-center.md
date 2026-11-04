@@ -1,6 +1,6 @@
 # Rooted in Stone
 
-*You spread your boots against the stone and lean into the approaching shove.*
+*Stability +1. You gain 1 Boon to Guile rolls.*
 
 ## Rules
 

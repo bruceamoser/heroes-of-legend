@@ -1,6 +1,6 @@
 # Force
 
-*You set your shoulder, plant your feet and make the stubborn thing give ground.*
+*Choose an adjacent obstacle, grapple, or creature. Choose the intended result before rolling: reduce an obstacle’s remaining strength, reduce your Grappled rating, or push a creature. DA establishes any obstacle target. Grappled 3 leaves no Main Action to spend. On a Standard result, add 2 progress, grapple reduction, or squares of push.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Shadow at the Heart
 
-*You step into the last place your enemy expected to see you. Their certainty breaks a heartbeat before the blade arrives.*
+*Make a Guile melee attack that can Daze your target. Gain 2 Boons if you started Hidden.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Sap and Breath
 
-*Green warmth passes from your palm into the wound. The bleeding slows as your fingers turn cold.*
+*Choose one willing creature within 2 squares, including yourself, or one creature in range harmed by healing. Pay 1 HP and make a Reason healing roll. On a Standard result, restore 5 HP and reduce temporary Bleeding by 1.*
 
 ## Rules
 

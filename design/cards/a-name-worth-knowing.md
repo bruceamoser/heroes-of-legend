@@ -1,6 +1,6 @@
 # A Name Worth Knowing
 
-*You speak your name, or the name of the deed they have already heard, and watch the door open a little wider.*
+*Work with the DA to introduce a contact and a small favor owed between you. Gain 2 Boons in social interactions with that contact.*
 
 ## Rules
 

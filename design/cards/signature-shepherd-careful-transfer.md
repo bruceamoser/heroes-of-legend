@@ -1,6 +1,6 @@
 # Triage
 
-*Two wounded, one pair of hands, no time to choose wrong.*
+*Spend 3 HP and roll Reason to heal one living ally or split the healing between two living allies within 3 squares.*
 
 ## Rules
 

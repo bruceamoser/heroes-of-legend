@@ -1,6 +1,6 @@
 # Step Between Lanterns
 
-*You wait until the lanterns turn apart and cross the strip of darkness before their light can meet again.*
+*Self along a concealed route. Move up to 3 squares through actual dimness or concealment without provoking. Gain 1 Boon to any Agility roll needed to remain Hidden during this movement.*
 
 ## Rules
 

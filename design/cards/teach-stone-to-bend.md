@@ -1,6 +1,6 @@
 # Teach Stone to Bend
 
-*You press your hand into the wall as if it were cool clay. Stone folds around your fingers and opens beneath them.*
+*Ordinary stone in one adjacent square. Reshape up to one square of ordinary stone that you touch into a passage, handholds, steps or cover. The changed stone stays within that square and retains its new shape. Before you begin, the DA tells you whether the change will remove structural support.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Through the Spearpoints
 
-*You knock one spear aside, shoulder past its bearer, and run the opening before the points can turn after you.*
+*Move up to your Speed toward a visible enemy without provoking. End closer to that enemy. This movement is in addition to your ordinary movement.*
 
 ## Rules
 

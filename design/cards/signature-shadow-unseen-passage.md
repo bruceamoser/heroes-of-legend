@@ -1,6 +1,6 @@
 # One with the Dark
 
-*They search the room three times. You are standing in the corner.*
+*Once per scene, while you are in dim light or darkness, become Hidden until you attack, are revealed, or enter bright light. While Hidden this way, you always roll with 3 Boons to stay hidden or remain concealed. You can move normally. The DA judges whether the concealment and your route are plausible.*
 
 ## Rules
 

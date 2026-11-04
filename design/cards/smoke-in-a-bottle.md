@@ -1,6 +1,6 @@
 # Smoke in a Bottle
 
-*You shake the bottle once and throw. It breaks with a pop, spilling a thick grey screen across the space your friends need.*
+*Choose one connected smoke area within 3 squares, or one compatible recipe while crafting. Use a prepared Smoke Flask supply and make a Knowledge roll. Fill up to 3/5/7 connected visible unoccupied ground squares within 3 squares with smoke on Weak/Standard/Strong. The smoke supplies heavy cover until the end of your next turn.*
 
 ## Rules
 

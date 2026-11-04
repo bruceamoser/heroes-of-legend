@@ -1,6 +1,6 @@
 # Fast Talk
 
-*You are already three sentences into the lie before the guard decides to be suspicious.*
+*Roll Guile to make progress toward a social goal with a creature within 5 squares that can hear and understand you.*
 
 ## Rules
 

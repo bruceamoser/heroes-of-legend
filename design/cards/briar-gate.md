@@ -1,6 +1,6 @@
 # Briar Gate
 
-*You draw a crooked line across the ground. Brambles follow your hand, knitting a thorny screen between your companions and the enemy.*
+*Create a bridge across a gap up to 3 squares wide for ten minutes.*
 
 ## Rules
 

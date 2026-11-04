@@ -1,6 +1,6 @@
 # Footfall on the Leaves
 
-*You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.*
+*Ignore difficult terrain and gain 1 Speed in wooded terrain.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Basic Unarmed
 
-*You close the distance with fist, heel or shoulder, putting your whole body behind the blow.*
+*Use a Reaction to reduce newly applied temporary Frightened and Blinded by 2 each on an ally within 3 squares.*
 
 ## Rules
 

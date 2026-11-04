@@ -1,6 +1,6 @@
 # Draw the Current
 
-*You wind a ribbon of air around the coming spell. When the force lands, the wind takes hold of the opening it leaves.*
+*Self and one creature damaged by your next qualifying spell this turn. Prepare your next damaging Main Action spell this turn. After it resolves, choose one visible creature it damaged within 6 squares. Push or pull that creature 2 squares away from or toward you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Steady Voice
 
-*You find the one calm sentence under the noise, and they hear it.*
+*Choose one ally within 3 squares that can hear and understand you. Make a Guile roll. Choose Frightened or Dazed on the target. On a Standard result, reduce it by 1, and the target gains 1 Boon to its next roll to resist fear or Daze.*
 
 ## Rules
 

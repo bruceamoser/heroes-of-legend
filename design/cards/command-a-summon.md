@@ -1,6 +1,6 @@
 # Command a Summon
 
-*You point toward the opening and give a sharp instruction. The creature moves to carry it out, then stills when its task is done.*
+*Command a summon within its tether. Spend a Main Action to give it a Main Action and Maneuver, or a Maneuver to give it a Maneuver and movement.*
 
 ## Rules
 

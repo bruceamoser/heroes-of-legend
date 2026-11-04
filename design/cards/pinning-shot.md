@@ -1,6 +1,6 @@
 # Pinning Shot
 
-*Your arrow bites beside the next foothold. The enemy shortens its stride before it can think to do otherwise.*
+*Choose one visible enemy within 8 squares. Make an Agility ranged attack. Weak — 3 physical damage. Standard — 3 physical damage and Slowed 1. Strong — 5 physical damage and Slowed 2.*
 
 ## Rules
 

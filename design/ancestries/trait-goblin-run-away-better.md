@@ -1,6 +1,6 @@
 # Quick on Your Feet
 
-*You are halfway across the yard before the others have found their stride.*
+*Your base Speed increases by 1.*
 
 ## Rules
 

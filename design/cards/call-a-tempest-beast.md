@@ -1,6 +1,6 @@
 # Call Elemental: Master
 
-*You spread your hands. The world answers with a deep vibration, and a towering knot of elemental force takes form.*
+*Summon an Animal of Master tier or lower within 3 squares for one scene.*
 
 ## Rules
 

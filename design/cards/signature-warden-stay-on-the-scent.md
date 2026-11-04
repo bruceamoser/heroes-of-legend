@@ -1,6 +1,6 @@
 # Volley
 
-*You empty the quiver into the space where the enemy is standing.*
+*Choose a 2 × 2 area within 10 squares. Requires a ranged weapon and ammunition. Make one Agility roll and apply it to each creature in the area. On a Standard result, deal 2 physical damage.*
 
 ## Rules
 

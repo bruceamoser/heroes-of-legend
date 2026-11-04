@@ -1,6 +1,6 @@
 # Answer for What You Did
 
-*Their courage falters when they recognize you. You step across their retreat and bring the weapon down before they find a new excuse.*
+*While wearing armor, use a Maneuver to stand and move up to 2 squares without provoking.*
 
 ## Rules
 

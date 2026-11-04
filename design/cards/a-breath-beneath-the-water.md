@@ -1,6 +1,6 @@
 # A Breath beneath the Water
 
-*You touch each companion's throat. The first breath beneath the surface tastes cool and clean, and no one has to turn back alone.*
+*Let up to four adjacent willing creatures breathe air and water for an hour.*
 
 ## Rules
 

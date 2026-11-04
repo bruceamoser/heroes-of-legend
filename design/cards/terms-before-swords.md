@@ -1,6 +1,6 @@
 # Terms before Swords
 
-*You lower your weapon just enough for them to see the choice. "Lay down your arms. You have my word you will leave this field alive."*
+*Choose a group of Frightened NPC enemies within 6 squares who hear and understand you. Offer safety in exchange for surrender. Make a Guile roll toward the group's surrender task. On a Standard result, add 5 progress.*
 
 ## Rules
 

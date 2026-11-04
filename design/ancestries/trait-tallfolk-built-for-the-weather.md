@@ -1,6 +1,6 @@
 # Built for the Weather
 
-*You pull your collar closed and keep pace through the driving sleet.*
+*Gain 1 Boon to Fortitude rolls against exposure to natural cold, heat or the fatigue of a long march.*
 
 ## Rules
 
