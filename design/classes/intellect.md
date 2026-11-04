@@ -35,9 +35,9 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Find leverage, connect evidence, or give useful directions.
-- **Level 3:** Direct an ally, diagnose mechanisms, or predict an attack.
-- **Level 7:** Route the party, reconstruct events, or expose a target for allies.
+- **Level 1:** Find leverage, connect evidence, or attack with Knowledge.
+- **Level 3:** Direct an ally’s movement and attack, help an ally reroll a Weak result, or defend with Knowledge.
+- **Level 7:** Route the party, test a plan with the DA, or expose a target for allies.
 
 
 **Starting coin contribution:** +8 coins. See [starting coins](../starting-coins.md).

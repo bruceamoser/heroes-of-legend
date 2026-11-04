@@ -35,8 +35,8 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Reframe a task, distract usefully, or escape after exertion.
-- **Level 3:** Assist unusually well, uncover an alternate approach, or pull a companion out of trouble.
-- **Level 7:** Borrow another’s competence, fill the field with spectral witnesses, or postpone a companion’s Last Words.
+- **Level 1:** Speak a language through a spirit, distract with a borrowed voice, or blind an enemy with pocket sand.
+- **Level 3:** Release a poisonous wind, open a passage through a barrier, or project your spirit from your body.
+- **Level 7:** Borrow another’s expertise, fill the field with spectral witnesses, or postpone a companion’s Last Words.
 
 **Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

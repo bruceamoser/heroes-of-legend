@@ -15,9 +15,9 @@
 Total **+3**. Protector minima: Fortitude, Reason ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
 
 - [Hard as Bedrock](../ancestries/trait-dwarf-deep-constitution.md): Maximum HP +1. Gain no additional resistance from this trait.
-- [A Grudge Well Kept](../ancestries/trait-dwarf-carved-history.md): Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.
+- [A Grudge Well Kept](../ancestries/trait-dwarf-carved-history.md): The first creature that deals damage to you in each combat becomes the mark of your grudge. You gain 1 Boon to attack rolls against each creature marked by your grudge. A creature remains marked forever, even if it escapes. Each creature can be marked once. You can hold any number of grudges.
 
-Borin can invoke A Grudge Well Kept after any creature damages him, once per combat; it need not be the first hit.
+The first creature to damage Borin in each combat joins his permanent grudges; he gains the attack Boon against every creature so marked.
 
 ## Level 0 — origins and purchases
 
@@ -31,7 +31,7 @@ Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purc
 | [Braced Harness](../cards/braced-harness.md) | Armor 1 | 2 | 8 |
 | [Take Them Alive](../cards/take-them-alive.md) | Arms 1 | 2 | 6 |
 | [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 4 |
-| [Catch a Falling Friend](../cards/catch-a-falling-friend.md) | None | 2 | 2 |
+| [Carry the Wounded](../cards/catch-a-falling-friend.md) | None | 2 | 2 |
 | [Tell a Worthy Story](../cards/tell-a-worthy-story.md) | None | 2 | 0 |
 
 **Spent 10; 0 DP expires. Stage closes at 0.**
@@ -45,12 +45,11 @@ Free signature: [Step Between](../cards/signature-protector-between-them.md). It
 
 **Target / range / shape:** One adjacent willing ally, after a single-target attack is declared against it but before rolling.
 
-You and the ally swap squares. You become the target of the attack and resolve it against your defense. If either of you cannot occupy the other's square, you cannot use this reaction. This does not redirect area attacks.
+You and the ally swap squares. You become the target of the attack and resolve it against your defense. If either of you cannot occupy the other’s square, you cannot use this reaction. This does not redirect area attacks.
 
 **Duration:** The triggering attack.
 
 **Equipment / acquisition:** None.
-
 
 **Signature limit:** Repeatable; uses your Reaction.
 
@@ -93,17 +92,17 @@ Hook and Drive holds a doorway; Step Between lets Borin swap squares with an all
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Wear Light Armor](../cards/wear-light-armor.md) — Passive; None — no roll.
+- [Wear Light Armor](../cards/wear-light-armor.md) — Passive; None (no roll).
 - [Hook and Drive](../cards/hook-and-drive.md) — Main Action; Brawn.
 - [Braced Harness](../cards/braced-harness.md) — Reaction; Fortitude.
-- [Take Them Alive](../cards/take-them-alive.md) — Passive; None — no roll.
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None — no roll.
-- [Catch a Falling Friend](../cards/catch-a-falling-friend.md) — Reaction; Brawn.
+- [Take Them Alive](../cards/take-them-alive.md) — Passive; None (no roll).
+- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
+- [Carry the Wounded](../cards/catch-a-falling-friend.md) — Maneuver; Brawn.
 - [Tell a Worthy Story](../cards/tell-a-worthy-story.md) — Main Action; Guile.
-- [Shielding Step](../cards/shielding-step.md) — Reaction; None — no roll.
+- [Shielding Step](../cards/shielding-step.md) — Reaction; None (no roll).
 - [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
-- [Sure Ascent](../cards/sure-ascent.md) — Main Action; Brawn.
-- [Step Between](../cards/signature-protector-between-them.md) — Reaction; None — no roll.
+- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
+- [Step Between](../cards/signature-protector-between-them.md) — Reaction; None (no roll).
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 

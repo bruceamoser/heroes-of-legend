@@ -2,7 +2,7 @@
 
 *The grove healer who can become the beast defending it.*
 
-**Human Shepherd · HP 18/18 · Grit 2/2 · Speed 7 squares · Bulk 7/10.**
+**Human Shepherd · HP 18/18 · Grit 2/2 · Speed 6 squares · Bulk 7/10.**
 
 **Languages:** Common and Reed Speech (an ordinary regional language). See the [language reference](../rules/languages.md).
 
@@ -20,21 +20,21 @@ Total **+3**. Shepherd minima: Reason, Guile ≥ 0; met. Mental sum **+2**, so e
 
 ## Level 0 — origins and purchases
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Forage Woodland](../cards/forage-woodland.md).
+- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Wild Harvest](../cards/forage-woodland.md).
 - [Grove Tended](../origins/background-grove-tended.md): **Life 1** and [Sap and Breath](../cards/sap-and-breath.md).
 
-Opening pool: **12 + 0 duplicate compensation = 12 DP**. No disciplines are purchased at this stage.
+Opening pool: **12 + 1 Adaptable + 0 duplicate compensation = 13 DP**. No disciplines are purchased at this stage.
 
 | Purchase | Requirements held / price basis | DP spent | Remaining |
 |---|---|---:|---:|
-| [Roots Remember Feet](../cards/roots-remember-feet.md) | Wilderness 1 | 2 | 10 |
-| [Borrow the Beast](../cards/borrow-the-beast.md) | Wilderness 1 | 2 | 8 |
-| [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) | Wilderness 1 | 2 | 6 |
-| [A Good Place to Stop](../cards/a-good-place-to-stop.md) | Wilderness 1 | 2 | 4 |
-| [The Otter’s Bargain](../cards/the-otter-s-bargain.md) | Wilderness 1 | 2 | 2 |
-| [Keep the Door Closed](../cards/keep-the-door-closed.md) | Life 1 | 2 | 0 |
+| [Roots Remember Feet](../cards/roots-remember-feet.md) | Wilderness 1 | 2 | 11 |
+| [Borrow the Beast](../cards/borrow-the-beast.md) | Wilderness 1 | 2 | 9 |
+| [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) | Wilderness 1 | 2 | 7 |
+| [A Good Place to Stop](../cards/a-good-place-to-stop.md) | Wilderness 1 | 2 | 5 |
+| [The Otter’s Bargain](../cards/the-otter-s-bargain.md) | Wilderness 1 | 2 | 3 |
+| [Keep the Door Closed](../cards/keep-the-door-closed.md) | Life 1 | 2 | 1 |
 
-**Spent 12; 0 DP expires. Stage closes at 0.**
+**Spent 12; 1 DP expires. Stage closes at 0.**
 
 ## Level 1 — class and purchases
 
@@ -51,22 +51,21 @@ Moser's law of conservation of Life energy: pay 1 HP before rolling. This cost b
 
 **Equipment / acquisition:** A free hand.
 
-
 **Signature limit:** Repeatable; normal action economy applies.
 
-Fresh pool: **12 + 1 = 13 DP**. All discipline purchases below occur before cards that need them.
+Fresh pool: **12 + 1 Adaptable + 1 = 14 DP**. All discipline purchases below occur before cards that need them.
 
 | Purchase | Requirements held / price basis | DP spent | Remaining |
 |---|---|---:|---:|
-| **Radiance 1** | Home; previous rank 0 | 1 | 12 |
-| [Lantern in the Palm](../cards/lantern-in-the-palm.md) | Radiance 1 | 2 | 10 |
-| [Dawn Shard](../cards/dawn-shard.md) | Radiance 1 | 2 | 8 |
-| [Treat Soft Tissue](../cards/treat-soft-tissue.md) | Medicine 1 | 2 | 6 |
-| [Treat Bone](../cards/treat-bone.md) | Medicine 1 | 2 | 4 |
-| [Relieve Poison](../cards/relieve-poison.md) | Medicine 1 | 2 | 2 |
-| [Rouse the Senses](../cards/rouse-the-senses.md) | Medicine 1 | 2 | 0 |
+| **Radiance 1** | Home; previous rank 0 | 1 | 13 |
+| [Lantern in the Palm](../cards/lantern-in-the-palm.md) | Radiance 1 | 2 | 11 |
+| [Dawn Shard](../cards/dawn-shard.md) | Radiance 1 | 2 | 9 |
+| [Treat Soft Tissue](../cards/treat-soft-tissue.md) | Medicine 1 | 2 | 7 |
+| [Treat Bone](../cards/treat-bone.md) | Medicine 1 | 2 | 5 |
+| [Relieve Poison](../cards/relieve-poison.md) | Medicine 1 | 2 | 3 |
+| [Rouse the Senses](../cards/rouse-the-senses.md) | Medicine 1 | 2 | 1 |
 
-**Spent 13; 0 DP expires. Stage closes at 0.**
+**Spent 13; 1 DP expires. Stage closes at 0.**
 
 **Final disciplines:** Life 1, Medicine 1, Radiance 1, Wilderness 1.
 
@@ -75,7 +74,7 @@ Fresh pool: **12 + 1 = 13 DP**. All discipline purchases below occur before card
 **No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
 
 HP: 12 + ancestry 2 + class 3 + Fortitude 1 + trait 0 + Conditioned Body 0 = **18**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 1 = **7**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 0 = **6**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
@@ -91,21 +90,21 @@ Sap and Breath pays 1 HP before healing 3/5/7 HP; Mara must remain above zero an
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Forage Woodland](../cards/forage-woodland.md) — Main Action; Knowledge.
+- [Wild Harvest](../cards/forage-woodland.md) — Main Action; Knowledge.
 - [Sap and Breath](../cards/sap-and-breath.md) — Main Action; Reason.
 - [Roots Remember Feet](../cards/roots-remember-feet.md) — Main Action; Reason.
-- [Borrow the Beast](../cards/borrow-the-beast.md) — Maneuver; None — no roll.
+- [Borrow the Beast](../cards/borrow-the-beast.md) — Maneuver; None (no roll).
 - [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) — Main Action; Guile.
-- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None — no roll.
-- [The Otter’s Bargain](../cards/the-otter-s-bargain.md) — Maneuver; None — no roll.
-- [Keep the Door Closed](../cards/keep-the-door-closed.md) — Reaction; None — no roll.
-- [Lantern in the Palm](../cards/lantern-in-the-palm.md) — Maneuver; None — no roll.
+- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None (no roll).
+- [The Otter’s Bargain](../cards/the-otter-s-bargain.md) — Maneuver; None (no roll).
+- [Keep the Door Closed](../cards/keep-the-door-closed.md) — Reaction; None (no roll).
+- [Lantern in the Palm](../cards/lantern-in-the-palm.md) — Maneuver; None (no roll).
 - [Dawn Shard](../cards/dawn-shard.md) — Main Action; Reason.
 - [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
 - [Treat Bone](../cards/treat-bone.md) — Main Action; Knowledge.
 - [Relieve Poison](../cards/relieve-poison.md) — Main Action; Knowledge.
 - [Rouse the Senses](../cards/rouse-the-senses.md) — Main Action; Reason.
-- [Mend](../cards/signature-shepherd-gentle-return.md) — Passive; None — no roll.
+- [Mend](../cards/signature-shepherd-gentle-return.md) — Main Action; Reason.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 

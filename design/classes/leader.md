@@ -35,9 +35,9 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Signal two allies, withdraw together, or hold a paired line.
-- **Level 3:** Order a retreat, call a basic strike, or interrupt panic and shock.
-- **Level 7:** Coordinate a rush, rally a group, or cover an ally's escape.
+- **Level 1:** Aid two allies, lead companions along your path, or strengthen an adjacent pair’s defense.
+- **Level 3:** Call a basic strike, lead with a melee attack, or frighten and daze enemies with a horn call.
+- **Level 7:** Coordinate a rush, rally a group, or cover an ally’s escape.
 
 
 **Starting coin contribution:** +6 coins. See [starting coins](../starting-coins.md).

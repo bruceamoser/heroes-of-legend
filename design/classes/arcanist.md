@@ -35,9 +35,9 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Bend spell angles, add a spark's shove, or read active magic.
-- **Level 3:** Move after casting, protect one creature from an area, or turn spell pressure aside.
-- **Level 7:** Move a companion through space, shape a spell's final displacement, or ward a circle.
+- **Level 1:** Bend a spell’s origin, push creatures with a corner spark, or read ongoing magic.
+- **Level 3:** Vanish after casting, open linked windows for an ally, or convert spell damage into a push.
+- **Level 7:** Wear a magical aegis, cast a spell twice, or ward a circle.
 
 
 **Starting coin contribution:** +6 coins. See [starting coins](../starting-coins.md).

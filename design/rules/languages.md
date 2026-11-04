@@ -19,11 +19,10 @@ If Common was your only home language, choose another ordinary language learned
 through neighbors, work or travel. This starting choice is separate from your
 culture's discipline and ability pair and costs no DP.
 
-Apply explicit extra grants afterward. **A Foot in Two Worlds** grants two additional
-ordinary spoken languages. Choose two distinct languages you do not already know;
-it does not grant another culture's abilities. A signed language is an ordinary
-language when the campaign uses it, but a grant restricted to *spoken* languages
-does not include it.
+Apply explicit extra grants afterward. **A Foot in Two Worlds** lets a Human choose
+another ancestry, learn one language native to it and gain one trait from its trait
+list, while keeping Human base HP and Speed. A signed language is an ordinary
+language when the campaign uses it. Follow any explicit restriction on a grant.
 
 Unless a grant says otherwise, knowing a language includes speaking, understanding,
 and reading and writing its usual script, if it has one. A grant that specifically
@@ -116,5 +115,5 @@ practice remain useful even when they do not grant permanent fluency.
 
 > **At the gate.** An elf raised in a dwarven mining town chooses Common and
 > Dwarven. She reads the quarry's warning without a roll. Its damaged diagram
-> still needs investigation. Her human companion's extra spoken Goblin lets him
-> question a salvager, but does not let him read the salvager's written ledger.
+> still needs investigation. Her human companion chose Goblin for A Foot in Two
+> Worlds and learned Goblin; he can question a salvager and read the written ledger.

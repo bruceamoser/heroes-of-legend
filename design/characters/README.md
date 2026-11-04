@@ -1,7 +1,7 @@
 # Six level-1 characters — complete creation walkthroughs
 
-Created from the approved catalog on `main` after PRs #1132–#1158. These are worked
-character choices, not new rules, random samples or combat-balance results. Every
+Reconciled with the approved current catalog in the decision-conformance correction
+(#1301). These are worked character choices, not new rules, random samples or combat-balance results. Every
 character stops at level 1. Follow the linked sheet for both complete DP ledgers,
 origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 
@@ -11,10 +11,13 @@ origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 | [Lira Ashbow](lira-ashbow.md) | Woodland archer | Wood Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
 | [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 11 / 11 | 12 / 12 |
 | [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Wood Elf Arcanist | 17 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
-| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 7 | 7 / 10 | 12 / 12 | 13 / 13 |
-| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 9 / 10 | 13 / 13 | 15 / 15 |
+| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 6 | 7 / 10 | 12 / 13 | 13 / 14 |
+| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 6 | 9 / 10 | 13 / 14 | 15 / 16 |
 
-Pip, Oren and Vaelis use the 1-DP shared abilities to spend their odd creation points.
+Pip and Vaelis spend their full creation pools. Oren retains his listed purchases;
+Adaptable leaves 1 DP to expire at each stage, as it does for Mara. Oren’s borrowed
+Hill Dwarf trait is An Honest Maker’s Hand, with Dwarven as its native-language grant.
+Lira’s listed Speed is 8 outside wooded terrain and 9 within it.
 
 All start at full HP, Grit 2, no wounds and no death marks. Unspent creation DP
 expires separately at each stage. Ancestry and culture are independent: Mara is a

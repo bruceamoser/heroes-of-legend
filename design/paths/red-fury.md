@@ -12,7 +12,7 @@ requirements. An origin granting Arms 1 can put the idea within reach at level 0
 
 ## At the table
 
-You are the person who advances when everyone else takes a breath. The first blow asks you to accept an exposed defense; the pleasure is deciding that now is the moment to do it, not maintaining a rage counter.
+You are the person who advances when everyone else takes a breath. Blood in the Teeth turns endurance into a Fortitude-based attack. The pleasure is choosing the moment to commit to the blow.
 
 ## Give it room to grow
 

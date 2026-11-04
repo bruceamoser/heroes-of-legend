@@ -14,13 +14,13 @@
 
 Total **+3**. Blade minima: Agility, Brawn ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
 
-- [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md): Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.
+- [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md): In woodlands and forests, you ignore difficult terrain. This includes difficult terrain caused by natural terrain or obstacles, such as roots, undergrowth, fallen leaves and uneven natural ground. Your Speed increases by 1 while you are in woodlands, forests or similar wooded terrain.
 - [Nature’s Whispers](../ancestries/trait-elf-leaf-listener.md): Gain 1 Boon to a roll interpreting living signs.
 
 
 ## Level 0 — origins and purchases
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Forage Woodland](../cards/forage-woodland.md).
+- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Wild Harvest](../cards/forage-woodland.md).
 - [Messenger](../origins/background-messenger.md): **Marksmanship 1** and [Pinning Shot](../cards/pinning-shot.md).
 
 Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purchased at this stage.
@@ -40,16 +40,15 @@ Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purc
 Choose [Blade](../classes/blade.md). Class grants **Arms 1 and Athletics 1**; 0 duplicate(s) give **+0 DP**, not higher ranks.
 Free signature: [Measured Guard](../cards/signature-blade-measured-guard.md). Its use procedure follows; the linked card remains the complete reference:
 
-**Action:** Reaction · **Attribute:** None — no roll
+**Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self, before a defense against an adjacent enemy.
 
-Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squares without provoking, whatever the defense result. This does not prevent the attack’s damage or conditions; you must still be able to move.
+Gain 1 Boon to the defense. After the attack resolves, if the defense was Strong and the attacker is within your reach, make a Basic Melee attack against that attacker. This counterattack is part of the Reaction and does not use your Main Action.
 
-**Duration:** The triggering defense and immediate movement.
+**Duration:** The triggering defense and immediate counterattack.
 
 **Equipment / acquisition:** None.
-
 
 **Signature limit:** Repeatable; normal action economy applies.
 
@@ -77,7 +76,7 @@ Fresh pool: **10 + 0 = 10 DP**. All discipline purchases below occur before card
 | Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
 
 HP: 12 + ancestry 2 + class 4 + Fortitude 1 + trait 0 + Conditioned Body 1 = **20**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **4** + purchased Bulk **6** = **10**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 + trait 0 = **8**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **4** + purchased Bulk **6** = **10**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 = **8**, or **9** in wooded terrain with Footfall on the Leaves.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
@@ -87,25 +86,25 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Pinning Shot uses Agility; Read the Quarry offers a Knowledge-based alternative. Take the Measure rewards staying still for the shot. Foraging, climbing and river crossing support the scout role. Measured Guard is an emergency answer when an enemy closes, not an archery signature: this build exposes a real class-identity gap. The bow needs both hands while in use; the knife is stowed then.
+Pinning Shot uses Agility; Read the Quarry offers a Knowledge-based alternative. Take the Measure rewards staying still for the shot. Foraging, climbing and river crossing support the scout role. Measured Guard gives a defense Boon when an adjacent enemy attacks; on a Strong defense, Lira can answer with Basic Melee if the attacker remains within reach. The bow needs both hands while in use; the knife is stowed then.
 
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Forage Woodland](../cards/forage-woodland.md) — Main Action; Knowledge.
+- [Wild Harvest](../cards/forage-woodland.md) — Main Action; Knowledge.
 - [Pinning Shot](../cards/pinning-shot.md) — Main Action; Agility.
 - [Read the Quarry](../cards/read-the-quarry.md) — Main Action; Knowledge.
-- [Take the Measure](../cards/take-the-measure.md) — Maneuver; None — no roll.
+- [Take the Measure](../cards/take-the-measure.md) — Maneuver; None (no roll).
 - [Roots Remember Feet](../cards/roots-remember-feet.md) — Main Action; Reason.
-- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None — no roll.
+- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None (no roll).
 - [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) — Main Action; Guile.
 - [Hook and Drive](../cards/hook-and-drive.md) — Main Action; Brawn.
-- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None — no roll.
-- [Sure Ascent](../cards/sure-ascent.md) — Main Action; Brawn.
-- [Expert River Crossing](../cards/expert-river-crossing.md) — Main Action; Brawn.
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None — no roll.
-- [Measured Guard](../cards/signature-blade-measured-guard.md) — Reaction; None — no roll.
+- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None (no roll).
+- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
+- [Expert River Crossing](../cards/expert-river-crossing.md) — Passive; None (no roll).
+- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
+- [Measured Guard](../cards/signature-blade-measured-guard.md) — Reaction; None (no roll).
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 
