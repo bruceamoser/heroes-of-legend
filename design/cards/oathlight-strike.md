@@ -1,6 +1,6 @@
 # Oathlight Strike
 
-*You speak your promise as steel catches the light. A spark from the blow settles beside a companion like a waiting shield.*
+*Choose one adjacent enemy. Make a Reason melee attack. On a Standard result, deal 2 physical and 1 radiant damage. One willing ally within 2 squares gains 1 Boon to its next defense before the end of your next turn.*
 
 ## Rules
 

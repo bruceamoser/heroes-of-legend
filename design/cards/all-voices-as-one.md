@@ -1,6 +1,6 @@
 # All Voices as One
 
-*Your call cuts across the clash of weapons. From every side, your companions answer with a single, coordinated strike.*
+*Call willing allies within 4 squares to make free Basic Melee attacks. They gain 1 Boon against Frightened targets.*
 
 ## Rules
 

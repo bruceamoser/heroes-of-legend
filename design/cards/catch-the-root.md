@@ -1,6 +1,6 @@
 # Catch the Root
 
-*Your heel finds a root as the impact lands. The branch in your hand bends, but you hold your ground.*
+*Before forced movement while you can grasp rooted vegetation, gain Stability 3 against the triggering forced movement. If that movement would apply Prone, you remain standing.*
 
 ## Rules
 

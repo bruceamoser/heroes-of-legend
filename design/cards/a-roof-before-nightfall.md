@@ -1,6 +1,6 @@
 # A Roof before Nightfall
 
-*The first poles bend into place as your companions gather around the promise of a dry night.*
+*Learn Camp Shelter and roll Knowledge to build protection from rain and wind for your group.*
 
 ## Rules
 

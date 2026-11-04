@@ -1,6 +1,6 @@
 # Charge
 
-*You lower your shoulder and let the distance do the work.*
+*Charge straight toward a creature within your Speed. If you reach it, roll Brawn to deal physical damage and push it, with a chance to knock it Prone.*
 
 ## Rules
 

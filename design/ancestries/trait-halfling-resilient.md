@@ -1,6 +1,6 @@
 # Endless Pockets
 
-*Your coat has pockets. Those pockets have pockets. Somewhere in there is a spoon you forgot you packed.*
+*Your Bulk capacity increases by 1.*
 
 ## Rules
 

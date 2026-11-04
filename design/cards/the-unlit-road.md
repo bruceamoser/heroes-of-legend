@@ -1,6 +1,6 @@
 # The Unlit Road
 
-*You step where the lanternlight thins. The next shadow opens under your feet before the chill can leave them.*
+*Your shadowed square and one visible free supported shadowed square within 4 squares. Teleport to the chosen shadowed square.*
 
 ## Rules
 

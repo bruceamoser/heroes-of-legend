@@ -1,6 +1,6 @@
 # Treat Bone
 
-*You steady the limb, set the splint, and wait with your patient through the hardest breath.*
+*Choose one wound on yourself or a willing patient listing Bone treatment. Make a Knowledge treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

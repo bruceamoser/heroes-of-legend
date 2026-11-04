@@ -1,6 +1,6 @@
 # Hold the Passage
 
-*You set your shield and call the line close. Every companion at your shoulder feels the stance settle beneath them.*
+*Self and willing adjacent allies. You and willing adjacent allies gain 1 Boon to defenses and Stability 1 until the end of your next turn while adjacent to you and while you hold the shield.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Borrowed Life
 
-*You open your mouth and a dead expert answers. For a few minutes, the greatest locksmith, duelist or scholar you have ever met is wearing your body.*
+*Once per scene, invite a spirit into your body. Choose one skill, tool or weapon. For the scene, you gain 3 Boons to rolls using that expertise. The spirit speaks through you and colors your mannerisms, but you remain in control.*
 
 ## Rules
 

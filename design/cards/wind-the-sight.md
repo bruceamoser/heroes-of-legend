@@ -1,6 +1,6 @@
 # Wind the Sight
 
-*You tighten the sight until the narrow opening settles exactly between its marks. The shot follows the line you understand.*
+*Your ranged weapon attacks. Your ranged weapon attacks may use Knowledge in place of their printed attack attribute. Treat cover Banes against those attacks as 1 lower.*
 
 ## Rules
 

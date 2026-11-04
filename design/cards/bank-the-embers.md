@@ -1,6 +1,6 @@
 # Bank the Embers
 
-*You close your palm over the flames. Their heat gathers into a tiny coal that crumbles between your fingers.*
+*Roll Brawn to strike an adjacent creature with a melee weapon for 2, 3 or 5 physical damage.*
 
 ## Rules
 

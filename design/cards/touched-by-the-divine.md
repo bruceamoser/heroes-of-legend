@@ -1,6 +1,6 @@
 # Touched by the Divine
 
-*You dreamed that every person in the world spoke at once. A being of light touched your forehead. When you woke, you understood every spoken language.*
+*You understand every spoken language you hear. Your own speech and literacy remain the languages you have learned.*
 
 ## Rules
 

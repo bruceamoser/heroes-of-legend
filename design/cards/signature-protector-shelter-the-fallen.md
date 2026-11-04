@@ -1,6 +1,6 @@
 # Over My Body
 
-*You throw yourself across your companion and take the blow meant for them.*
+*Choose one ally within 3 squares. Trigger: an ally within 3 squares takes damage from a single-target attack that would reduce it to 0 HP or give it its third death mark. You move up to 2 squares to a square adjacent to that ally and take the damage instead. If the damage would reduce you to 0 HP, you remain at 1 HP instead.*
 
 ## Rules
 

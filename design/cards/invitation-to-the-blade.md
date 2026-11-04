@@ -1,6 +1,6 @@
 # Invitation to the Blade
 
-*You leave a handspan of daylight beside your blade. When your opponent reaches for it, you cut across their guard and close the opening.*
+*Choose one adjacent creature. Make an Agility melee attack. On a Standard result, deal 4 physical damage. Gain 1 Boon to your next defense against this target before the start of your next turn.*
 
 ## Rules
 

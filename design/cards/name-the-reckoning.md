@@ -1,6 +1,6 @@
 # Name the Reckoning
 
-*You name the deed they hoped no one would answer for. Your voice carries across the fight, and the certainty leaves their face.*
+*Choose one enemy within 4 squares who hears and understands you. Make a Guile control attack. You are the source of the Frightened condition. On a Standard result, frightened 2.*
 
 ## Rules
 

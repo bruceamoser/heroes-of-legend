@@ -1,6 +1,6 @@
 # Read the Room
 
-*You find the one thing the other side wants and set it on the table.*
+*Choose one creature within 5 squares that you can see. Make a Guile roll against the target. An intent is what the creature wants from this exchange or what it means to do next. On a Standard result, learn one intent, and gain 1 Boon to your next social roll against it.*
 
 ## Rules
 

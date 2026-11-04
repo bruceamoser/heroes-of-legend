@@ -1,6 +1,6 @@
 # Palm of the Gale
 
-*You plant your feet and exhale through the strike. The gust hits with your hand and carries the enemy a stride beyond it.*
+*Choose one adjacent enemy. Make a Fortitude melee spell attack. On a Standard result, deal 3 physical damage. Push 2 squares away from you.*
 
 ## Rules
 

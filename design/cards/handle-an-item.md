@@ -1,6 +1,6 @@
 # Handle an Item
 
-*Your hands know where each familiar piece belongs, even when you have to hurry.*
+*Choose an accessible item. Drawing a weapon is included in its attack action. Dropping is free. Proper stowing or picking up costs a Maneuver. Ordinary item use follows its own card. No free two-handed grip exception is assumed.*
 
 ## Rules
 

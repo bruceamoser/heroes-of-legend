@@ -1,6 +1,6 @@
 # Eyes for the Dark
 
-*You study the passage in a faint wash of reflected light.*
+*Gain Low-Light Vision 2. Ignore the first two Banes from dim light.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Let the Spark Decide
 
-*A spark dances between your fingers. You snap it away, and it chooses the cold brilliance of frost or the hungry color of flame.*
+*Choose one visible enemy within 5 squares. Choose fire or cold, then make a Guile spell attack. On a Standard result, 3 damage of that type. Push 1 square away from you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # The Land Keeps No Secrets
 
-*From the ridge, you read the bend of trees, the color of the river and the pale line beneath the snow. You know where the land will let you pass.*
+*Choose a natural landscape visible from a vantage point. Examine the visible natural landscape. Name a destination you can see or a feature you seek, such as drinkable water, shelter or a pass. Learn the best available route toward it within the examined landscape and the terrain hazards on that route. You and up to six companions gain 2 Boons to attribute rolls negotiating those hazards while following the route.*
 
 ## Rules
 

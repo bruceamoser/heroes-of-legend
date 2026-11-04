@@ -1,6 +1,6 @@
 # Starlight Eyes
 
-*Under the last light of evening, you can still count the stitches.*
+*Gain Low-Light Vision 1. Ignore the first Bane from dim light.*
 
 ## Rules
 

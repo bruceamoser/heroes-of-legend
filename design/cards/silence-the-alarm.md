@@ -1,6 +1,6 @@
 # Silence the Alarm
 
-*You see the shout gathering and strike beneath it. Their warning becomes a breath that finds no sound.*
+*Choose one adjacent enemy. Make an Agility melee attack. On a Standard result, deal 4 physical damage. Suppress the target's speech until the end of its next turn.*
 
 ## Rules
 

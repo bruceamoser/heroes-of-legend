@@ -1,6 +1,6 @@
 # Mend
 
-*You put your hand where the wound is and remind the body what whole feels like.*
+*Spend 1 HP and roll Reason to heal a living ally within 3 squares. On a Strong result, the ally can also stand without spending movement.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Ordinary Recipe Study
 
-*You copy the useful notes, stain them with practice, and keep the page where your hands can find it.*
+*Two new compatible ordinary recipes. Learn two new ordinary recipes compatible with a crafting ability you know.*
 
 ## Rules
 

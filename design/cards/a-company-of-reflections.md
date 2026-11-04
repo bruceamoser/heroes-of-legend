@@ -1,6 +1,6 @@
 # A Company of Reflections
 
-*A wavering double steps beside each companion. When the enemy strikes, both outlines turn together.*
+*Give up to three willing creatures within 3 squares 2 Boons to defenses until the end of your next turn.*
 
 ## Rules
 

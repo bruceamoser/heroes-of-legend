@@ -1,6 +1,6 @@
 # Shield Block
 
-*You hunker behind your shield, listening to the hard knocks against its face.*
+*Before a defense against an attack the da judges blockable, requires a held shield. Grants none. Gain 1 Boon to eligible defense rolls while using it. Creatures use the same rule.*
 
 ## Rules
 

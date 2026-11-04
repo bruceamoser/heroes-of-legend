@@ -1,6 +1,6 @@
 # Long Stride
 
-*You cross the courtyard in a few easy strides while your companions hurry to keep pace.*
+*Your base Speed increases by 1.*
 
 ## Rules
 

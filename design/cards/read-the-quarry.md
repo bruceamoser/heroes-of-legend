@@ -1,6 +1,6 @@
 # Read the Quarry
 
-*You aim where the stride must finish, watching the fleck of mud and the dragging heel that will tell you where it goes next.*
+*Choose one visible enemy within 8 squares. Make a Knowledge ranged attack. Learn a distinctive trace useful for following the target and gain 1 Boon to rolls following its physical trail for the scene. On a Standard result, deal 3 physical damage.*
 
 ## Rules
 

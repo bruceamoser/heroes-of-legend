@@ -1,6 +1,6 @@
 # Earthbreaker
 
-*You stop charging, plant both hands in the ground, and let the earth answer.*
+*Each enemy within 2 squares. Make a Brawn roll and apply it to every enemy in range. On a Standard result, deal 4 physical damage, push 2 squares, and it is Prone.*
 
 ## Rules
 

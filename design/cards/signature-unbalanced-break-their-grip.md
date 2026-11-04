@@ -1,6 +1,6 @@
 # Deathless Rage
 
-*You should be down. You have not noticed.*
+*While raging, once per scene, when you would be reduced to 0 HP while raging, you remain at 1 HP instead. You keep fighting until the end of your next turn. If you are not healed above 0 HP by then, you fall to 0 HP and begin Dying. This does not prevent the wound or the death marks.*
 
 ## Rules
 

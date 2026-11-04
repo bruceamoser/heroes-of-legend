@@ -1,6 +1,6 @@
 # Break the Formation
 
-*You hammer your weapon into the first shield and keep driving, sending its bearer crashing into the ranks behind.*
+*Use a Reaction to reduce an incoming Grappled contribution by 3, then move 1 square without provoking.*
 
 ## Rules
 

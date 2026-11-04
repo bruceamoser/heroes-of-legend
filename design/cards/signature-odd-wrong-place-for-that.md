@@ -1,6 +1,6 @@
 # Out of Body
 
-*You step out of yourself, leaving your body slumped and prone while your spirit moves free.*
+*Leave your prone body and move as a spirit that can pass through nonmagical objects and creatures. End the projection by returning to your body or bringing it to a legal square near your spirit.*
 
 ## Rules
 

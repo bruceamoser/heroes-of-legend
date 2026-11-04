@@ -1,6 +1,6 @@
 # Last Light of the Watch
 
-*You thrust a bright palm between your companion and the threat. For an instant, every shadow on their face falls behind them.*
+*Choose one visible willing ally within 3 squares before a defense roll. Reduce the target's temporary Blinded and Frightened by 1 each before the defense. It gains 2 Boons to that defense.*
 
 ## Rules
 

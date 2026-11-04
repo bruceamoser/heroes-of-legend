@@ -1,6 +1,6 @@
 # Use Their Voice
 
-*You tilt your head toward a spirit only you can see. It calls out in the target’s own voice from an empty patch of air.*
+*Choose one enemy within 5 squares that can hear you. One willing ally within 5 squares that can see or hear you. The spirit calls out in the target’s own voice from a point you choose within 5 squares. The target turns toward the voice. The ally may move up to 2 squares without provoking and gains 1 Boon to its next attack against that target before the start of your next turn.*
 
 ## Rules
 

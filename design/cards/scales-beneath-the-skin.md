@@ -1,6 +1,6 @@
 # Scales beneath the Skin
 
-*Scales shimmer across your arms as the blow lands, catching both the edge and the heat behind it.*
+*Before one event deals physical or fire damage, gain physical resistance 3 and fire resistance 3 against the event.*
 
 ## Rules
 

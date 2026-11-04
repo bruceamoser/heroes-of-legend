@@ -1,6 +1,6 @@
 # Road of Dawn
 
-*A warm path opens beneath your companions' feet. They lift their faces and step out of the fear together.*
+*Choose up to three visible willing creatures within 4 squares, including yourself. Each target reduces temporary Frightened by 1 and may move up to 2 squares without provoking to a free supported square.*
 
 ## Rules
 

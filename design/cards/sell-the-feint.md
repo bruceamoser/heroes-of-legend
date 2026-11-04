@@ -1,6 +1,6 @@
 # Sell the Feint
 
-*You offer the opening with your shoulder and let their eyes follow the wrong edge of your weapon.*
+*Choose one adjacent enemy that can see you. Gain 2 Boons to your next melee attack against the target this turn.*
 
 ## Rules
 

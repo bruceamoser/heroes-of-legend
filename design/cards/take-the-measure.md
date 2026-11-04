@@ -1,6 +1,6 @@
 # Take the Measure
 
-*You settle the sight through one slow breath and wait for the gap to return.*
+*Choose one visible creature within your ranged attack's range. While you hold your position, your next ranged attack against the target this turn gains 1 Boon.*
 
 ## Rules
 

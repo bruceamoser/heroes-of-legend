@@ -1,6 +1,6 @@
 # Long Reach
 
-*You catch the latch above your companions’ heads without rising onto your toes.*
+*You can interact with objects and use non-attack touch abilities at a range of 2 squares.*
 
 ## Rules
 

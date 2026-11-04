@@ -1,6 +1,6 @@
 # Bow to the Balcony
 
-*Your opponent crumples. You salute the watching gallery, slip through the falling guard, and let the next challenger discover that the flourish was a strike.*
+*While wearing armor, use a Reaction and roll Fortitude to gain Stability against incoming forced movement.*
 
 ## Rules
 

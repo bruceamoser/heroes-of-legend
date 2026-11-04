@@ -1,6 +1,6 @@
 # Borrow a Voice
 
-*You whisper into your cupped hand. The same words emerge from the empty stairwell in the voice everyone expected to hear.*
+*Take the form of a land beast for the scene. Follow trails by scent with 1 Boon and attack with claws or teeth.*
 
 ## Rules
 

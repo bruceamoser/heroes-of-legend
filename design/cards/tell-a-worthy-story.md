@@ -1,6 +1,6 @@
 # Tell a Worthy Story
 
-*You watch the listener's face, choose the detail that will hook them, and spin the tale toward the answer you need.*
+*Choose a manipulation task involving one listener or a small audience that can understand you. Choose a claim you want the listener to accept: a lie, a cover story, a rumor, or a version of events that favors you. Make a manipulation check to make progress toward the manipulation task. On a Standard result, add 2 progress.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Ride the Falling Stone
 
-*The floor starts to go. You run with it for one last stride, reaching for the companion beside you.*
+*When a floor, ledge or support gives way beneath you, before the fall, make an Agility roll and move across the collapsing support without provoking. On a Standard result, move up to 3 squares.*
 
 ## Rules
 

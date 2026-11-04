@@ -1,6 +1,6 @@
 # Four Winds at Once
 
-*You turn on your heel. The wind turns with you, throwing the crowd outward and carrying your next step into the space it opens.*
+*Every other adjacent creature. Make a Fortitude area attack. On a Standard result, deal 4 physical damage. Push 2 squares away from you.*
 
 ## Rules
 

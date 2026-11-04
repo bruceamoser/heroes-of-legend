@@ -1,6 +1,6 @@
 # Storm on a String
 
-*You curl a finger. A thin spiral of wind catches the object and lays it on the path toward your hand.*
+*Choose one visible unattended object of Bulk 1 orless within 5 squares. Move the object up to 5 squares toward you along an open path. Catch it if it reaches your free hand, or leave it in the last square reached.*
 
 ## Rules
 

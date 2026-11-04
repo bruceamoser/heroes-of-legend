@@ -1,6 +1,6 @@
 # Predict the Motion
 
-*You watch the attacker’s hips and shoulders, then call the turn before the weapon follows.*
+*You may use Knowledge instead of Brawn or Agility for defense against physical attacks.*
 
 ## Rules
 

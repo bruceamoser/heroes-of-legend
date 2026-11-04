@@ -1,6 +1,6 @@
 # In the Gap
 
-*You set your shoulder into the frame and spread your guard across the opening. Nothing comes through without coming through you.*
+*Choose a frontage of three squares: your square and the squares immediately to your left and right. Until the start of your next turn, enemies cannot move past that frontage while you are standing and conscious. Your square is already blocked by your body. This extends the block to the squares on either side. Enemies can still attack you, shove you, or attack allies with ranged attacks. If you move, fall, or are moved away, the effect ends.*
 
 ## Rules
 

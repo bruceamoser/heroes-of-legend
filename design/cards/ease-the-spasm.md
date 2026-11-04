@@ -1,6 +1,6 @@
 # Ease the Spasm
 
-*You brush a warm hand down the cramped muscle. The leg loosens, and your companion takes the step they were fighting for.*
+*Self or one adjacent willing living creature. Reduce temporary Slowed by 1. The target may move 1 square without provoking.*
 
 ## Rules
 

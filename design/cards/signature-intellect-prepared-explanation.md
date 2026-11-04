@@ -1,6 +1,6 @@
 # Angle of Attack
 
-*You see the exchange a heartbeat before it happens, then step into the opening you already know is there.*
+*Choose one creature within reach of your melee weapon. You must be wielding a melee weapon. Make a melee weapon attack against one creature within reach, using Knowledge instead of Brawn. On a Weak result, deal 3 physical damage. On a Standard result, deal 5 physical damage. On a Strong result, deal 7 physical damage.*
 
 ## Rules
 

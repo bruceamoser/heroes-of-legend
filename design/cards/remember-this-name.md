@@ -1,6 +1,6 @@
 # A Name Remembered
 
-*Someone studies your face, whispers the name from the story, and nudges their companion. You can feel the room reconsidering you.*
+*Choose a specific deed or act people credit to you, whether true or rumored, and a name by which you are known, such as Eric the Red or Torag Silver Tongue. Record a recognizable description associated with that reputation. Your name, reputation and the description people associate with you become established facts of the campaign. Wherever your reputation is known, its stories carry that description. When your reputation helps a roll, gain 2 Boons. When it hinders a roll, take 2 Banes.*
 
 ## Rules
 

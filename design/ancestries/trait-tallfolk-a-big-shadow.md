@@ -1,6 +1,6 @@
 # A Big Shadow
 
-*You unfold to your full height, and wait for the room to notice.*
+*Gain 1 Boon to Guile rolls to overawe or draw attention through your physical presence.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Lifetime Ago
 
-*You pause beside the broken road, and the voices of your ancestors rise in the quiet between thoughts.*
+*Once per day, before you make a Knowledge or Reason roll, you may call on the knowledge of your ancestors to gain 1 Boon to that roll.*
 
 ## Rules
 

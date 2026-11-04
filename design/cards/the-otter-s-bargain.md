@@ -1,6 +1,6 @@
 # The Otter’s Bargain
 
-*Webbing opens between your fingers. You slip into the river and catch its pull like a second pair of hands.*
+*For the scene, swimming costs you 1 movement per square and you gain 1 Boon to attribute rolls swimming against currents or keeping your course in rough water.*
 
 ## Rules
 

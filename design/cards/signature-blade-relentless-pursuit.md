@@ -1,6 +1,6 @@
 # Relentless Pursuit
 
-*You follow the retreating shoulder through the press, keeping your blade close enough that escape becomes another opening.*
+*Choose a visible enemy within 2 squares when it begins voluntary movement. After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, make one free Basic Melee attack against it using Brawn with 1 Boon. On a Weak result, apply Slowed 1. On a Standard result, apply Slowed 2. On a Strong result, apply Slowed 3. Slowed uses normal decay.*
 
 ## Rules
 

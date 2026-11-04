@@ -1,6 +1,6 @@
 # Study the Pattern
 
-*You trace the glowing lines in the air until you can feel which thread is holding the magic together.*
+*Choose one ongoing magical effect within 5 squares that you are aware of. Learn its origin and purpose, whether a creature or object sustains it, and its duration if it has one. You also become aware of how to end the effect if it is possible. Gain 1 Boon to your next roll using that information before the scene ends.*
 
 ## Rules
 

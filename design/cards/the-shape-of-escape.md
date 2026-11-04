@@ -1,6 +1,6 @@
 # The Shape of Escape
 
-*Your body loosens into a ribbon of living clay. You pour through the crack, gather yourself on the far side, and offer the same passage to a friend.*
+*Self and one willing adjacent ally. You and one willing adjacent ally, with carried equipment, become ribbons of clay and move up to 4 squares along continuous open routes to visible free squares. Each route may pass through gaps as narrow as a finger. This movement does not provoke. Each traveler reforms at its destination.*
 
 ## Rules
 

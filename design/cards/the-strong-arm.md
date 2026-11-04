@@ -1,6 +1,6 @@
 # The Strong Arm
 
-*You get both hands under the cart, the boulder or the broken beam, and send it where it needs to go.*
+*Choose one visible creature within 4 squares. You can throw weapons or improvised items that a normal person would require two hands to throw. Make a Brawn attack. On a Standard result, deal 4 physical damage. The target is pushed 1 square.*
 
 ## Rules
 

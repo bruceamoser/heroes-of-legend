@@ -1,6 +1,6 @@
 # Cold Cuirass
 
-*Frost plates across your coat. The edge cracks the ice before it reaches the skin beneath.*
+*Before taking physical damage from one attack, gain physical resistance 2 against the attack.*
 
 ## Rules
 

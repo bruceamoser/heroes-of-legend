@@ -1,6 +1,6 @@
 # Shared Breath
 
-*You breathe out slowly. Your companion's chest rises with renewed strength as yours catches on the effort.*
+*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 1 HP and make a Reason healing roll. On a Standard result, restore 6 HP.*
 
 ## Rules
 

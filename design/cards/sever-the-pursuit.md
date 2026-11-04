@@ -1,6 +1,6 @@
 # Sever the Pursuit
 
-*Your shots bite across the leading ranks. The chase loses its rhythm one stumbling stride at a time.*
+*Choose up to three visible enemies within 8 squares. Make an Agility ranged attack against the chosen targets. On a Standard result, deal 4 physical damage and Slowed 2.*
 
 ## Rules
 

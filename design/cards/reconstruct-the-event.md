@@ -1,6 +1,6 @@
 # Reconstruct the Event
 
-*You close your eyes, then walk the room as it was: a chair drawn back, a door left open, a figure pausing at the stair.*
+*Choose one accessible scene with physical evidence of an event. Choose an event that left physical traces in the scene. The DA describes its evidence-supported sequence, identifies where the evidence leaves a gap, and names one specific place, person or object to investigate that gap, if a lead survives. You can show the reconstruction to your companions as a shared ghostly image of the supported sequence.*
 
 ## Rules
 

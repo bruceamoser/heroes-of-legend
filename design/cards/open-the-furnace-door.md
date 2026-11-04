@@ -1,6 +1,6 @@
 # Open the Furnace Door
 
-*You pull an unseen latch. The blast drives your enemy line backward, and the shape in the flame follows them with your eyes.*
+*Every creature in a 3-wide, 2-deep rectangle immediately ahead of you. Make a Guile area spell attack. You are the source of its Frightened condition. On a Standard result, deal 5 fire damage. Push 2 squares away from you.*
 
 ## Rules
 

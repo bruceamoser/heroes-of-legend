@@ -1,6 +1,6 @@
 # Wear Heavy Armor
 
-*You settle the last strap and turn your shoulders. The heavy armor moves with you now, its weight a familiar promise.*
+*While wearing the trained armor, while wearing heavy armor, gain physical resistance 3.*
 
 ## Rules
 

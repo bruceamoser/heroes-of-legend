@@ -1,6 +1,6 @@
 # Hurl Aside
 
-*You smash one enemy back, then sweep your weapon low, sending fallen foes skidding into the ranks behind.*
+*Choose one adjacent enemy and every other Prone enemy adjacent to you. Make a Brawn melee attack. Apply the result to each target. On a Standard result, deal 5 physical damage. Push it 3 squares directly away from you and apply Prone.*
 
 ## Rules
 

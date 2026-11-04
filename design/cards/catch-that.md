@@ -1,6 +1,6 @@
 # Catch That!
 
-*Your hand snaps out beneath the falling bottle, catching it before it shatters on the stones.*
+*Use a Reaction and a free hand to catch a reachable ledge or hold when you start falling.*
 
 ## Rules
 

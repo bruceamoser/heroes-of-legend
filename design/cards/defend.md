@@ -1,6 +1,6 @@
 # Defend
 
-*You draw into a guarded stance, watching for the moment danger commits itself.*
+*Gain 1 Boon to defense rolls. Repeating this same benefit does not increase it. Shield Block is a separate source and stacks through Boon/Bane rules.*
 
 ## Rules
 

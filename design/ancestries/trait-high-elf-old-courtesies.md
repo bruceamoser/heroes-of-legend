@@ -1,6 +1,6 @@
 # Still Water
 
-*You let the clamor spend itself before deciding what deserves your attention.*
+*Gain 1 Boon to Reason rolls to recognize deception or maintain concentration amid noise, argument or distraction.*
 
 ## Rules
 

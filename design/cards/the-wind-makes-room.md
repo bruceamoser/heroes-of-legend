@@ -1,6 +1,6 @@
 # The Wind Makes Room
 
-*A low gust lifts your companions' steps over the rubble, giving each a little more room to choose the next move.*
+*Choose up to three visible willing creatures within 4 squares, including yourself. Each recipient may move up to 2 squares without provoking. Difficult terrain costs 1 movement per square for this move.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Spot the Tell
 
-*The creature draws breath through the same side of its jaw. This time, everyone knows what comes next.*
+*Choose one visible creature within 6 squares whose attack you witnessed this scene. Choose the witnessed attack. Learn its range and defense attribute. You and every ally within 3 squares who hears your explanation gain 1 Boon to the next defense against that attack before the start of your next turn.*
 
 ## Rules
 

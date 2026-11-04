@@ -1,6 +1,6 @@
 # Bright Idea
 
-*You draw three lines in the dust, add a spoon, and the answer takes shape.*
+*Once per day, before a Knowledge or Reason roll, gain 2 Boons by describing an unconventional approach to the problem.*
 
 ## Rules
 

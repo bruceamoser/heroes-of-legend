@@ -1,6 +1,6 @@
 # Blood in the Teeth
 
-*The blow rocks you back a step. You bare your teeth, plant your heel, and answer with the whole weight of your body.*
+*Make a sound or speak up to twenty words from a point within 4 squares, using your own voice or one you've heard.*
 
 ## Rules
 

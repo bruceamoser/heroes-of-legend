@@ -1,6 +1,6 @@
 # Braced Harness
 
-*You lean into your harness and let every strap take its part of the blow.*
+*When an enemy moves adjacent, use a Reaction to strike with Fortitude and push it back the way it came.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Hold a Conversation
 
-*You find the question that makes a stranger set aside what they were doing and listen.*
+*Choose one nonhostile creature you share a language with. Choose one plausible conversation objective. Make a Guile check to make progress toward the social task. On a Standard result, add 3 progress.*
 
 ## Rules
 

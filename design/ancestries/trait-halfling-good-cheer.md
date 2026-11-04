@@ -1,6 +1,6 @@
 # A Little Luck
 
-*The latch catches your coat a heartbeat before you step into trouble.*
+*Once per day, before a roll that uses an attribute, gain 3 Boons. Describe a small piece of good fortune.*
 
 ## Rules
 

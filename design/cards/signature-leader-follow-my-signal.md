@@ -1,6 +1,6 @@
 # Follow My Signal
 
-*You lift two fingers and catch a pair of answering glances; both companions know what comes next.*
+*Choose up to two allies within 3 squares that can see or hear your Aid signal. When you use Aid, you may assist two allies instead of one. Name the task for each and explain how your signal helps. Each gains Aid’s normal 1 Boon to its next matching roll before the start of your next turn. Outside combat, Aid still replaces your own contribution to a group roll.*
 
 ## Rules
 

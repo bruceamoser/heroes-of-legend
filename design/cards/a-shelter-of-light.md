@@ -1,6 +1,6 @@
 # A Shelter of Light
 
-*You raise your hand. A quiet brightness gathers around your companions, turning each incoming blade a little from its path.*
+*Give yourself and nearby willing allies 1 Boon to defenses. Sustain the shelter with a Maneuver each turn.*
 
 ## Rules
 

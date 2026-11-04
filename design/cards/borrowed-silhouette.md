@@ -1,6 +1,6 @@
 # Borrowed Silhouette
 
-*Your likeness leans into the waiting blade. You follow its shadow sideways as it breaks into strips of light.*
+*Learn Lesser Healing Bottle and Travel Food. Brew or refill a lesser bottle in one hour without a roll, or roll Knowledge to craft provisions.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Follow My Leap
 
-*You spring for the far side and call the rhythm back over your shoulder. One by one, your companions take the same impossible stride.*
+*Self and up to three willing allies within 2 squares who hear you. You and up to three willing allies who hear you each jump up to 5 squares from your own positions to separate visible free supported landings, with no approach required. These jumps do not provoke.*
 
 ## Rules
 

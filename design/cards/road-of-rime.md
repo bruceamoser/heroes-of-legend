@@ -1,6 +1,6 @@
 # Road of Rime
 
-*Packed snow rolls ahead of your hand, laying a firm white road over mud and broken stone.*
+*Choose up to eight connected supported ground squares within 6 squares. Self and one willing ally within 3 squares. Lay a ribbon of up to eight connected supported ground squares within 6 squares. Entering these squares costs 1 movement, replacing difficult-ground costs, until the end of your next turn. You and one willing ally within 3 squares may each move up to 3 squares along the ribbon without provoking.*
 
 ## Rules
 

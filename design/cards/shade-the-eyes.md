@@ -1,6 +1,6 @@
 # Shade the Eyes
 
-*You cast a cool golden shade across your companion's face, and the merciless glare softens beneath your hand.*
+*Self or one visible willing ally within 3 squares before one event deals radiant damage. Grant radiant resistance 3 against the triggering event. Reduce temporary Blinded applied by that event by 1.*
 
 ## Rules
 

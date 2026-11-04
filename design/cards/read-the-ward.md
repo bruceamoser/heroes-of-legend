@@ -1,6 +1,6 @@
 # Read the Ward
 
-*You trace the shimmer to the place where its pattern repeats. "There. When it brightens, pull."*
+*Choose one visible ongoing magical effect within 6 squares. Learn the effect's remaining duration and any stated way to escape or end it. Choose yourself or one ally within 6 squares who hears you. That creature gains 2 Boons to its next attribute roll to escape or disrupt the effect before the end of your next turn.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Breakaway Rig
 
-*You pull the hidden fastening. The grip closes on an empty sleeve as you take one quick step away.*
+*Roll Fortitude to breathe fire down a line of three squares. Standard and Strong results also inflict Burning.*
 
 ## Rules
 

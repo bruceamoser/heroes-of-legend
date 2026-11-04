@@ -1,6 +1,6 @@
 # Choose the Edge
 
-*You throw both hands apart, splitting the spell into two screaming arcs.*
+*When you cast a single-target spell that requires a roll, you take 2 Banes on defense rolls until the start of your next turn. Choose two different targets or directions before rolling. Resolve the triggering spell twice, once for each choice, with a separate roll for each casting. Each casting uses the spell’s normal range and effects. Pay any costs for the spell once.*
 
 ## Rules
 

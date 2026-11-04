@@ -1,6 +1,6 @@
 # Treat Soft Tissue
 
-*You wash away the grit and work stitch by stitch, giving torn flesh the chance to knit.*
+*Choose one wound on yourself or a willing patient listing Soft Tissue treatment. Make a Knowledge treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

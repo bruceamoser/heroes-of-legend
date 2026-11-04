@@ -1,6 +1,6 @@
 # Carry the Sunrise
 
-*You lift the light and stride into the dark. Your companions gather in its wake, each finding the space to raise a shield again.*
+*Swim up to your Speed while supporting up to two adjacent companions. This movement costs 1 per square and does not provoke.*
 
 ## Rules
 

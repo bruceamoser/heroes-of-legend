@@ -1,6 +1,6 @@
 # Pain Feeds the Fire
 
-*The hit lands, and you smile.*
+*While raging, each time you take damage while raging, gain 1 Boon to your next attack this round. Boons from this ability stack, up to the normal cap of 3.*
 
 ## Rules
 

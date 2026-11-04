@@ -1,6 +1,6 @@
 # One More Dawn
 
-*You remember why tomorrow matters and find a last reserve you did not know you carried.*
+*Gain 1 additional Grit on acquisition. Purchase once ever. This does not replenish previously spent Grit.*
 
 ## Rules
 

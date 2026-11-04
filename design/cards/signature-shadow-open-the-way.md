@@ -1,6 +1,6 @@
 # Open the Way
 
-*There is always another door. You just have to know where the hinges are.*
+*Choose one adjacent lock, simple trap, or hidden entrance. Use appropriate tools to work toward the DA's stated target. Each attempt takes a Main Action. On a Standard result, add 3 progress.*
 
 ## Rules
 

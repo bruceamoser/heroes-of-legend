@@ -1,6 +1,6 @@
 # Eyes from Elsewhere
 
-*The painted door is convincing. Its shadow has forgotten where the sun is.*
+*Gain 1 Boon to Reason rolls to notice or see through magical illusions.*
 
 ## Rules
 

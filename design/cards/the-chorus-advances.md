@@ -1,6 +1,6 @@
 # Rally to Me
 
-*You raise your voice over the din: "Here! With me!" Your companions turn toward the familiar call and begin to steady themselves.*
+*Every willing ally within 3 squares who hears you. Each ally reduces temporary Frightened by 1 and may move up to 2 squares toward you without provoking.*
 
 ## Rules
 

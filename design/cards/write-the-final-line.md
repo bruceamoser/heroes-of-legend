@@ -1,6 +1,6 @@
 # Write the Final Line
 
-*Their eyes lose you for a heartbeat. You step into that heartbeat and put the point exactly where the fight will end.*
+*Choose one adjacent creature. Make an Agility melee attack. If the target has temporary Dazed, reduce that temporary rating by 1 before rolling and gain 2 Boons to this attack. On a Standard result, deal 6 physical damage.*
 
 ## Rules
 

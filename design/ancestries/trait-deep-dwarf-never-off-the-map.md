@@ -1,6 +1,6 @@
 # A Sense of Depth
 
-*You wake in the dark and know which wall lies beneath the mountain.*
+*Underground, you always know which way is up and whether your route is rising or descending. Gain 1 Boon to Reason rolls to navigate underground or retrace a subterranean route.*
 
 ## Rules
 

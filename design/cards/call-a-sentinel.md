@@ -1,6 +1,6 @@
 # Call Spirit: Adept
 
-*You call a name into the empty place beside you. An answering presence straightens as if taking up an old duty.*
+*Summon an Elemental of Master tier or lower within 3 squares for one scene.*
 
 ## Rules
 

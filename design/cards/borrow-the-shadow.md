@@ -1,6 +1,6 @@
 # Borrow the Shadow
 
-*You wait for a passing body to break the lanternlight. Then you move through its wake and leave the room looking for you.*
+*Roll Guile to spread smoke for heavy cover or ice for difficult terrain. Sustain the area with a Maneuver each turn.*
 
 ## Rules
 

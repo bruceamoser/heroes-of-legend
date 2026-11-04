@@ -1,6 +1,6 @@
 # Stride of the Giant
 
-*Your rune-shadow towers over the melee. You stamp once, and the ground answers beneath every gathered foot.*
+*Every other adjacent creature. Make a Brawn area attack. On a Standard result, deal 4 physical damage. Push 2 squares away from you.*
 
 ## Rules
 

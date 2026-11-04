@@ -1,6 +1,6 @@
 # Catch the Ledge
 
-*Your hand snaps shut on stone as your feet swing into empty air. The rest of the fall waits below you.*
+*Use Knowledge with 1 Boon to defend against a mechanical trap you can reach. A Strong defense jams the mechanism after it resolves.*
 
 ## Rules
 

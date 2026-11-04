@@ -1,6 +1,6 @@
 # Hamstring
 
-*You cut the tendon, not the throat. The fight is already decided.*
+*Choose one creature within reach or range. Make an Agility roll against the target. On a Standard result, deal 3 physical damage, and the target has Slowed 1 and Dazed 1.*
 
 ## Rules
 

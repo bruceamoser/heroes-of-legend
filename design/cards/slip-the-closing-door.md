@@ -1,6 +1,6 @@
 # Slip the Closing Door
 
-*The enemy arrives where you were standing. You are already slipping through the space beside them.*
+*After a visible enemy ends voluntary movement adjacent to you, move up to 2 squares without provoking. If your endpoint offers actual concealment, you may attempt to Hide there as part of this Reaction.*
 
 ## Rules
 

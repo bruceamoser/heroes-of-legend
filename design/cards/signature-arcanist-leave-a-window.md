@@ -1,6 +1,6 @@
 # Create a Window
 
-*You draw a glowing seam in the air, then another across the room, and the two join with a soft pulse.*
+*Create two connected windows so an ally can move between them or make one attack through them on their turn.*
 
 ## Rules
 

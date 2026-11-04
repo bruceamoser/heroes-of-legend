@@ -1,6 +1,6 @@
 # Adaptable
 
-*You watch, try, fail once, and come back with the trick.*
+*You gain 1 additional DP at each level, including level 0.*
 
 ## Rules
 

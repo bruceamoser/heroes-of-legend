@@ -1,6 +1,6 @@
 # Ironbound Advance
 
-*You settle the weight of the armor behind your stride. The press of weapons gives ground, but your footing does not.*
+*While wearing armor, move up to 4 squares without provoking. While wearing armor, gain Stability 3 until the end of your next turn.*
 
 ## Rules
 

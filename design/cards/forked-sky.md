@@ -1,6 +1,6 @@
 # Forked Sky
 
-*The bolt splits at your fingertips. Each fork finds the next shape you have named, leaving a trail of burning cloth in the rain.*
+*Choose up to three visible enemies within 6 squares. Make a Knowledge spell attack against the chosen targets. On a Standard result, deal 4 lightning damage and Burning 1.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Blow the Horn
 
-*You put the horn to your lips, or simply fill your lungs, and let loose a sound that breaks the enemy advance.*
+*Every enemy within 5 squares that can hear you. Make one Guile roll and apply the result to each target. On a Weak result, apply Frightened 1. On a Standard result, apply Frightened 1 and Dazed 1. On a Strong result, apply Frightened 2 and Dazed 1.*
 
 ## Rules
 

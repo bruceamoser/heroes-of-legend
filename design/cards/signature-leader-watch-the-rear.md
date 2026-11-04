@@ -1,6 +1,6 @@
 # Watch the Rear
 
-*You shout a warning before the blow lands, then direct your companion out of the next attacker’s reach.*
+*Choose one willing ally within 5 squares that can hear you, before its defense against an attack. Grant 2 Boons to that defense. After the entire attack resolves, the ally may move up to 3 squares without provoking if still able.*
 
 ## Rules
 

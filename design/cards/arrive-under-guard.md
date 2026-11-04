@@ -1,6 +1,6 @@
 # Arrive under Guard
 
-*You hurry to your companion's side and settle between them and the threat, close enough that each can read the other's next movement.*
+*Spend ten minutes and roll Reason to learn a danger on a course of action you propose. Better results reveal a way to lessen it or a warning sign.*
 
 ## Rules
 

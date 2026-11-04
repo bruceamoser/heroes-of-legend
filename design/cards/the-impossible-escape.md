@@ -1,6 +1,6 @@
 # The Impossible Escape
 
-*You find the one loose thread in the guard's grip, the cell's frame or the rope around your wrists.*
+*When grappled, make an Agility check. Weak: Reduce your Grappled rating by 2. Standard outcome — Reduce your Grappled rating by 3. Strong outcome — You are free of the Grapple. Your Grappled rating becomes 0. You can squeeze through a gap wide enough for your head and shoulders at half Speed.*
 
 ## Rules
 

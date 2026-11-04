@@ -1,6 +1,6 @@
 # Wear the Great Beast
 
-*Your shoulders rise above your companions as fur and antlers catch the light. The enemy line suddenly looks close enough to break.*
+*Become a mighty bear, elk or great hunting cat for the scene. Gain physical resistance 2, Speed +1 and Stability 2. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver. Weak: 5 physical damage. Standard outcome — 6 physical damage. Push 2 squares. Strong outcome — 8 physical damage. Push 3 squares and apply Prone.*
 
 ## Rules
 

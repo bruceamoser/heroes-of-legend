@@ -1,6 +1,6 @@
 # Hold the Pulse
 
-*A red thread gathers around your fingers. You close it over the wound just before the next pulse escapes.*
+*Self or one visible willing living creature within 3 squares, before its end-of-turn Bleeding damage. Reduce temporary Bleeding by 2 before the damage resolves.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Field Triage
 
-*You work down the line with water, cloth and a voice that leaves no room for panic. One companion is already moving as you turn to the next.*
+*Choose up to three adjacent willing or unconscious creatures, including yourself. For each target, choose temporary Bleeding, Burning, Freezing or Poisoned and reduce it by 2. You may choose a different condition for each.*
 
 ## Rules
 

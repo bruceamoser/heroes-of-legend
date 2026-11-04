@@ -1,6 +1,6 @@
 # The Road Remembers
 
-*You lay your palm in the old footprint. For a heartbeat, the last traveler's weight presses against your hand.*
+*Choose one physical trail you can touch. Choose one creature whose physical trail you can touch. You sense its passage along that trail during the previous day, learning its appearance, direction and whether it was traveling freely, fleeing or being carried. You can follow its faint footprints for the next hour while a continuous physical trail remains.*
 
 ## Rules
 

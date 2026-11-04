@@ -1,6 +1,6 @@
 # Quick Hands
 
-*The awkward bundle settles into your grip before anyone notices it slipping.*
+*Gain 1 Boon to Guile rolls to handle objects quickly or discreetly, or to use sleight of hand.*
 
 ## Rules
 

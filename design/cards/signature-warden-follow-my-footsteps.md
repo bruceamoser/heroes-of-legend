@@ -1,6 +1,6 @@
 # Twin Strike
 
-*Two blades, one motion.*
+*Choose one or two creatures within reach. Requires two light melee weapons, one in each hand. Make one attack with each weapon. Each attack uses your normal attack procedure and deals 1 physical damage on Weak, 2 on Standard, 3 on Strong. You can target the same creature with both attacks or one creature with each. After the attacks, gain 1 Boon to defense until the start of your next turn.*
 
 ## Rules
 

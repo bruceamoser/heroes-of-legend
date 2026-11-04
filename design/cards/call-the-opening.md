@@ -1,6 +1,6 @@
 # Fortune Favors Us
 
-*You speak a blessing. Your companions draw a steadier breath, lift their weapons, and meet the coming blow with sudden certainty.*
+*Use a Reaction to reduce an ally's temporary Frightened by 1 before it rolls with the penalty.*
 
 ## Rules
 

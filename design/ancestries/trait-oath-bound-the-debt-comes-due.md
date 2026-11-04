@@ -1,6 +1,6 @@
 # The Debt Comes Due
 
-*You ask for another chance, and a little of the life you were given answers.*
+*Once per day, spend 1 HP to reroll an attribute roll and use the new result. Pay only if you can stay above 0 HP. The spent HP is unavailable for healing until the next dawn.*
 
 ## Rules
 

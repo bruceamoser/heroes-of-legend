@@ -1,6 +1,6 @@
 # Look Over Here!
 
-*You snap your cloak across the attacker's view, drawing their eye just as your companion needs an opening.*
+*Choose one ally about to make a defense roll against a sight-dependent attack declared by an adjacent enemy that can see you. Before the roll. Grant the ally 1 Boon to that defense roll. The distraction affects the defense roll. The attack resolves normally. Apply the normal Boon/Bane rules.*
 
 ## Rules
 

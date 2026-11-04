@@ -1,6 +1,6 @@
 # Guide the Crossing
 
-*You walk the ledge first, set the line where it will hold, and turn back for the companion who cannot make the climb alone.*
+*Self and up to six companions crossing one natural hazard outside combat. Prepare a physically possible route across one natural hazard using the supports and equipment your party can supply. After ten minutes, you and up to six companions complete that crossing together. You may include companions carried by the group. Before preparation begins, the DA tells you the equipment and carrying capacity the route needs.*
 
 ## Rules
 

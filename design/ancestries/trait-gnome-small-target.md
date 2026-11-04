@@ -1,6 +1,6 @@
 # Small Target
 
-*You tuck yourself behind the low stone as the arrow strikes its edge.*
+*Gain 1 Boon to defense rolls.*
 
 ## Rules
 

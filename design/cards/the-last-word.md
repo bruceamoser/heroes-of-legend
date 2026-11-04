@@ -1,6 +1,6 @@
 # The Last Word
 
-*The blow lands, the world goes white, and you spend your last breath on one final strike.*
+*When you enter dying, take one Main Action before the Dying procedure. Then mark the wound and resolve Dying normally. Once per scene.*
 
 ## Rules
 

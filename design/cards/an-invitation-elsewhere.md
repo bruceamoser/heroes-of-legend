@@ -1,6 +1,6 @@
 # An Invitation Elsewhere
 
-*You extend a hand as if asking for a dance. An unseen tug supplies the first step before the invitation can be answered.*
+*Roll Guile to pull an enemy toward you. On Standard or Strong, you can also move 1 square without provoking.*
 
 ## Rules
 

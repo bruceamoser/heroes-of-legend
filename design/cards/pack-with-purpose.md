@@ -1,6 +1,6 @@
 # Pack with Purpose
 
-*Your hand finds the familiar loop and makes room for the weapon you need next.*
+*Your own carried inventory. Once on your turn, stow one held ordinary item as part of drawing a different stowed weapon for an attack. The weapon still needs the required hands. The benefit covers the stow-and-draw. Potions, inventory space and Bulk follow their normal rules.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # The Green Spear
 
-*You ask the wood for a weapon, and it gives you a spear. You throw it before the answer stops moving.*
+*Choose one creature within 8 squares. A spear of stone and living wood forms in your hand and flies at the target. Make a Knowledge attack roll. On a Standard result, deal 5 physical damage, and the target is Slowed 1.*
 
 ## Rules
 

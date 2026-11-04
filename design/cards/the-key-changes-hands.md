@@ -1,6 +1,6 @@
 # The Key Changes Hands
 
-*You ask the question with one hand and take the answer with the other. The key is already under your palm.*
+*Choose one adjacent visible Bulk 0 or 1 object that is unattended or unsecured in a pocket or pouch. Make a Guile roll and take the object into a free hand. On a Standard result, take it without immediate notice.*
 
 ## Rules
 

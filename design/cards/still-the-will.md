@@ -1,6 +1,6 @@
 # Still the Will
 
-*You raise one finger, and the thought your enemy was about to turn into action catches on it.*
+*Choose one visible enemy within 4 squares. Make a Guile control attack. Weak — Slowed 1. Standard — Slowed 2. Strong — Slowed 3 and Dazed 1.*
 
 ## Rules
 

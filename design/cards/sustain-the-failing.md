@@ -1,6 +1,6 @@
 # Sustain the Failing
 
-*You hold out your hand. Warmth gathers in your companion's wounds while your own knees threaten to give.*
+*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 3 HP and make a Reason healing roll. On a Standard result, restore 10 HP.*
 
 ## Rules
 

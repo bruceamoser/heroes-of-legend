@@ -1,6 +1,6 @@
 # The Grove Gives Back
 
-*You open your hands to the circle. Warmth leaves you in a green current, dividing where each companion needs it most.*
+*Choose up to three visible willing creatures within 3 squares, including yourself, or creatures in range harmed by healing. Pay 7 HP once and make a Reason healing roll. Divide the pool among the chosen recipients, assigning at least 1 HP to each. On a Standard result, share 20 HP, allocating up to 12 HP per recipient.*
 
 ## Rules
 

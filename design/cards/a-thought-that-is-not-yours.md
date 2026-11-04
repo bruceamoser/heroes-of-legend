@@ -1,6 +1,6 @@
 # A Thought That Is Not Yours
 
-*You hold your enemy's gaze and let one impossible shape pass between you. Their next movement loses its place in the world.*
+*Make a Reason spell attack that deals mental damage and can Daze an enemy within 4 squares.*
 
 ## Rules
 

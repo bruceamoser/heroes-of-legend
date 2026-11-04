@@ -1,6 +1,6 @@
 # The Moment Foretold
 
-*This is the instant you dreamed: the hand slipping, the bridge giving way. This time, your voice reaches them.*
+*Choose one willing ally within 3 squares who hears you, after it rolls a Weak attribute result and before that result resolves. The ally rerolls the attribute roll with 2 Boons and uses the new result.*
 
 ## Rules
 

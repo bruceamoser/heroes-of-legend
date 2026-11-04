@@ -1,6 +1,6 @@
 # Measured Strength
 
-*You set your feet, test the weight and lift without a wasted motion.*
+*Gain 1 Boon to Brawn rolls to lift, carry, bend or force an object.*
 
 ## Rules
 

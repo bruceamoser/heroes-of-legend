@@ -1,6 +1,6 @@
 # A Knot You Can Trust
 
-*You tie the knot without looking and test it with a sharp pull. Then you put your friend's weight on it.*
+*Secure or release a rope at an anchor as part of your climb.*
 
 ## Rules
 

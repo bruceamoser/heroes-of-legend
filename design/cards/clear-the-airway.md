@@ -1,6 +1,6 @@
 # Clear the Airway
 
-*You turn your companion's head and catch the sharp change in their breathing before the poison can settle.*
+*Self or one adjacent willing or unconscious creature, immediately after an inhaled or swallowed substance applies temporary Asleep or Poisoned. Reduce one newly applied temporary Asleep or Poisoned contribution by 2.*
 
 ## Rules
 

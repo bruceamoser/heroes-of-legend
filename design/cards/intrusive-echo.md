@@ -1,6 +1,6 @@
 # Intrusive Echo
 
-*You speak one hard syllable. It repeats behind your enemy's ears until the sounds of the room begin to disappear.*
+*Choose one visible enemy within 4 squares. Make a Guile spell attack. Against a Deafened target, gain 1 Boon to this attack. On a Standard result, deal 2 mental damage and Dazed 1.*
 
 ## Rules
 

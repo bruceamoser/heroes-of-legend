@@ -1,6 +1,6 @@
 # Catch the Mechanism
 
-*You see the spring beginning to uncoil and drive a tool into its path before the stroke can finish.*
+*Before defending against a visible mechanical trap whose workings you can reach, use Knowledge for this defense and gain 1 Boon. On a Strong defense, after the trap resolves, its mechanism remains jammed until someone spends a Main Action freeing it.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # The Weight of Centuries
 
-*You close your eyes, and the room returns as it stood a lifetime ago.*
+*Once per day, before a Knowledge or Reason roll concerning something you personally encountered, gain 2 Boons by recalling that experience. Describe what you remember.*
 
 ## Rules
 

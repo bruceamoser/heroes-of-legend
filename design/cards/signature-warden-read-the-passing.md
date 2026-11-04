@@ -1,6 +1,6 @@
 # Beast Speech
 
-*You make a sound somewhere between a bird and a question, and the forest answers.*
+*For the scene, you can speak with animals. You can ask questions and understand their replies, limited by what the animal has experienced and can understand. You gain 1 Boon to all rolls interacting with animals you are speaking with. This does not make an animal friendly or obedient, and does not compel it to act against its nature.*
 
 ## Rules
 

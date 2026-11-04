@@ -1,6 +1,6 @@
 # Armored Recovery
 
-*You plant an armored fist, roll the weight beneath you, and rise already moving.*
+*Move toward an ally without provoking. If you end adjacent, you both gain 1 Boon to defenses while you stay together until the end of your next turn.*
 
 ## Rules
 

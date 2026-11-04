@@ -1,6 +1,6 @@
 # A Common Tongue
 
-*You speak, and strange replies arrive clear: a growl full of hunger, a ghost's broken warning, the polished words of a distant court. You give them all a place in the conversation.*
+*Lead a conversation across language barriers and give participating allies 2 Boons to negotiate a specific agreement.*
 
 ## Rules
 

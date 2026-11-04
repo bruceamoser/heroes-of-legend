@@ -1,6 +1,6 @@
 # Call the Wild
 
-*You call, and something with teeth and hunger answers. It is not yours. It is here for the hunt.*
+*Call a real beast of CV 7 or lower that you are familiar with. It appears in a free square adjacent to you and uses its normal bestiary profile. It is controlled by the DA unless you spend a Maneuver to command it. When commanded, it follows your direction on your turn. It remains for the scene or until it drops to 0 HP. It is a living creature, not a spirit: it can be attacked, healed, and killed.*
 
 ## Rules
 

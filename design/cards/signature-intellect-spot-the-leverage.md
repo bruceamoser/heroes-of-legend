@@ -1,6 +1,6 @@
 # Spot the Leverage
 
-*You study the hinge, the stance or the shifting weight, then point to the place where a small effort will matter most.*
+*Choose one visible creature or obstacle within 5 squares. You and each ally within 5 squares who can hear and understand you. Choose one visible creature or obstacle within 5 squares. Learn one useful opening: for a creature, one of its defenses or one visible weakness. For an obstacle, whether Force can overcome it and its remaining progress target. You and each ally within 5 squares who can hear and understand you gain 1 Boon to your next action against the target before the start of your next turn.*
 
 ## Rules
 

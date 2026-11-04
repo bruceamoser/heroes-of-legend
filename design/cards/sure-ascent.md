@@ -1,6 +1,6 @@
 # Sure Ascent
 
-*You find a seam with the side of your boot and pull upward, letting the rock take your weight one steady point at a time.*
+*Self during a climb. Climbing costs you 1 movement per square. When you climb using a secured safety rope, gain 1 Boon to attribute rolls for that climb.*
 
 ## Rules
 

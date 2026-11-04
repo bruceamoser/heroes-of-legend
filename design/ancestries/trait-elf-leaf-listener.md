@@ -1,6 +1,6 @@
 # Nature’s Whispers
 
-*You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.*
+*Gain 1 Boon to a roll interpreting living signs.*
 
 ## Rules
 

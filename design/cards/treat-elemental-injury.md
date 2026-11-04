@@ -1,6 +1,6 @@
 # Treat Elemental Injury
 
-*You clean away the ash, frost or branching burn and tend the living tissue beneath it.*
+*Choose one wound on yourself or a willing patient listing Elemental treatment. Make a Knowledge treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

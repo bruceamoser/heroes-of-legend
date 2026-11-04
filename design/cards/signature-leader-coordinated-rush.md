@@ -1,6 +1,6 @@
 # Coordinated Rush
 
-*You signal the rush and watch two companions strike together, each arriving where the other needs them.*
+*Two willing allies within 4 squares that can perceive your signal. Each ally may move up to 3 squares without provoking, then make one free Basic Melee attack against an adjacent enemy if able. Resolve one ally completely before the other. On a Strong result, the attack may push its target 1.*
 
 ## Rules
 

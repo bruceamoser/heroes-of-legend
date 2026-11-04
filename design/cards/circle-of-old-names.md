@@ -1,6 +1,6 @@
 # Circle of Old Names
 
-*You speak the names that once meant safety. Your companions steady their feet as if older hands have braced their shoulders.*
+*Self and willing allies within 2 squares. Each recipient reduces temporary Frightened by 1 and gains Stability 2 until the end of your next turn.*
 
 ## Rules
 

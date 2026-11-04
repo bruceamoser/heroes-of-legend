@@ -1,6 +1,6 @@
 # Duck into the Brush
 
-*You let the branches close around your outline and turn your shoulder behind the thickest root.*
+*While vegetation supplies cover, while vegetation gives you cover, gain 1 Boon to defenses against attacks dealing physical damage.*
 
 ## Rules
 

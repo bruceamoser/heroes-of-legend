@@ -1,6 +1,6 @@
 # A Route for Everyone
 
-*You trace the route in the air and name each companion in turn, turning a crowded battlefield into a sequence of clear steps.*
+*Self and up to three willing allies within 5 squares that can hear and understand you. Each recipient may move up to 3 squares without provoking, in an order you choose. Each gains 1 Boon to its next defense before the start of your next turn. Choose legal routes and separate free endpoints.*
 
 ## Rules
 

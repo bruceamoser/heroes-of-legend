@@ -1,6 +1,6 @@
 # Name What Is Real
 
-*You press a familiar image toward your companion: a face, a hearth, the feel of a hand. Their attention catches on it.*
+*Self or one visible willing ally within 3 squares immediately after temporary Dazed is applied. Reduce the newly applied temporary Dazed contribution by 1.*
 
 ## Rules
 

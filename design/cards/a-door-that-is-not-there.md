@@ -1,6 +1,6 @@
 # A Door That Is Not There
 
-*You draw a latch in the air. Weathered wood settles around it, complete with the faint sway of a hanging curtain.*
+*Create a silent image of a door, window, curtain or screen for ten minutes. Touch reveals the illusion.*
 
 ## Rules
 

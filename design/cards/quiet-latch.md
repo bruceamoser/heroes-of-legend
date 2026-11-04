@@ -1,6 +1,6 @@
 # Quiet Latch
 
-*You feel each pin through the tool and ease it past the click, keeping the work close and quiet.*
+*Choose one adjacent ordinary lock. Make a Guile roll toward opening the lock. Your toolwork is audible only in adjacent squares. On a Standard result, 2 opening progress.*
 
 ## Rules
 

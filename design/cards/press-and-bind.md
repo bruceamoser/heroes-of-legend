@@ -1,6 +1,6 @@
 # Press and Bind
 
-*You fold the cloth, press it into the wound, and pull the knot tight with your teeth.*
+*Self or one adjacent willing creature. Reduce the target's temporary Bleeding by 1.*
 
 ## Rules
 

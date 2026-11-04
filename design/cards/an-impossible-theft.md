@@ -1,6 +1,6 @@
 # An Impossible Theft
 
-*Your shadow reaches first. Its fingers close around the prize, and the object slides through the air toward your waiting hand.*
+*Roll Guile to pull a small unattended, held or unsecured object toward you from up to 6 squares away.*
 
 ## Rules
 

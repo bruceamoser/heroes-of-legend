@@ -1,6 +1,6 @@
 # Keep the Door Closed
 
-*You grip your companion's hand as their breath breaks. For one more heartbeat, they find the strength to hold on.*
+*Choose one adjacent Dying player character with an existing death mark, immediately before a death mark would be added. Before the new death mark is added, clear one existing death mark from the target.*
 
 ## Rules
 

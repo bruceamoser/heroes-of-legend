@@ -1,6 +1,6 @@
 # Weight of Iron
 
-*You settle your weight into the armor. The sweep strikes your legs, but you choose to remain standing.*
+*While wearing armor, while wearing armor, gain Stability 2. When an effect would make you Prone, you may remain standing.*
 
 ## Rules
 

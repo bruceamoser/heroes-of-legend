@@ -1,6 +1,6 @@
 # Keep Pressure
 
-*The bandage shifts as your companion moves. Your hand is there before the next pulse of blood escapes.*
+*Self or one adjacent willing creature before its end-of-turn Bleeding damage. Reduce the target's temporary Bleeding by 1 before the damage resolves.*
 
 ## Rules
 

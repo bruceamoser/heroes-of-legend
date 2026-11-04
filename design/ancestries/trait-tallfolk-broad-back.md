@@ -1,6 +1,6 @@
 # Broad Back
 
-*You settle the awkward load across your shoulders and leave a hand free for the door.*
+*Your Bulk capacity increases by 3.*
 
 ## Rules
 

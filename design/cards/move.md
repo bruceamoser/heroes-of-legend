@@ -1,6 +1,6 @@
 # Move
 
-*You pick your route and go, boots finding the next patch of open ground.*
+*Spend up to Speed in movement squares, split around your actions. Normal terrain costs 1. Difficult terrain costs 2. Occupied squares cannot be crossed unless the occupant is prone. Crossing costs 2 and cannot end there.*
 
 ## Rules
 

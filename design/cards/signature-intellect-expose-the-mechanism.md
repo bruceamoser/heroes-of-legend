@@ -1,6 +1,6 @@
 # Shatter the Guard
 
-*You name the flaw in the guard, then strike through it before the target can close the gap.*
+*Choose one visible creature or active device within 5 squares. One ally within 5 squares who can hear and understand you. Make a Knowledge-based attack against the target. On a Weak result, deal 5 physical damage. On a Standard result, deal 7 physical damage. On a Strong result, deal 9 physical damage. The target loses 1 resistance of your choice until the end of the scene, and the chosen ally gains 1 Boon to their next attack against it before the start of your next turn.*
 
 ## Rules
 

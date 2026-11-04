@@ -1,6 +1,6 @@
 # Dawn Shard
 
-*A sliver of dawn catches in your enemy's outline, burning bright enough for every waiting eye to follow.*
+*Choose one visible enemy within 5 squares. Make a Reason spell attack. On a Standard result, deal 3 radiant damage. Outline the target in light until the end of your next turn. The next attack against it before then gains 1 Boon.*
 
 ## Rules
 

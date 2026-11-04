@@ -1,6 +1,6 @@
 # Call Elemental: Novice
 
-*A spark, a drop or a pebble circles your palm. You give it a name, and it unfolds into a restless little shape.*
+*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Elemental entry from the summon selection with a minimum tier of 1 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
 
 ## Rules
 

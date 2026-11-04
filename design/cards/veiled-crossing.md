@@ -1,6 +1,6 @@
 # Veiled Crossing
 
-*You wait for the shadows to join, then take your companion along the seam between them.*
+*Self and one adjacent willing ally along an actual concealed route. You and one adjacent willing ally move up to your Speed along the same concealed route without provoking, ending in separate free supported squares. A Hidden participant remains Hidden while the route conceals it.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Pounce of the Red Claw
 
-*You gather low and spring. Claws flash where the enemy expected empty air, and your landing carries you past their guard.*
+*Choose one enemy reachable by a legal move of up to 3 squares. Move up to 3 squares without provoking, then make an Agility unarmed attack against an adjacent enemy. On a Standard result, deal 5 physical damage and Prone.*
 
 ## Rules
 

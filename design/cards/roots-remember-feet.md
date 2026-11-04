@@ -1,6 +1,6 @@
 # Roots Remember Feet
 
-*Roots push through the cracks and hook behind your enemy's heels. You curl your fingers, drawing the stumbling figure toward you.*
+*Choose one visible grounded enemy within 4 squares. Make a Reason control attack. On a Standard result, deal 2 physical damage, Slowed 2. Pull 1 square toward you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Steady Aim
 
-*You wait for the breath between heartbeats, and the arrow goes where you look.*
+*One visible creature. Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you make against that creature and ignore partial cover from it.*
 
 ## Rules
 

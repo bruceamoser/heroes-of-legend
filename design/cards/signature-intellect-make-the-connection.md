@@ -1,6 +1,6 @@
 # Make the Connection
 
-*You lay every scrap of what you know side by side and turn the whole picture until the missing edge catches the light.*
+*One case, person, place or problem you have been investigating. Spend one minute reviewing everything you have learned about one case, person, place or problem. You must have at least one relevant fact or observation. The DA reveals one detail you missed, grounded in the facts already established: a piece of evidence, a motivation, a tell, an angle or a connection.*
 
 ## Rules
 

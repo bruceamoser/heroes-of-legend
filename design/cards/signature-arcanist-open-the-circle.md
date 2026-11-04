@@ -1,6 +1,6 @@
 # Open the Circle
 
-*You sweep a ring of light around your companions, its edge rising like a thin glass wall when magic strikes.*
+*Self and willing allies within 2 squares when used. Each recipient gains 1 Boon to defenses against spells until the start of your next turn. During that time, each recipient gains Stability 2.*
 
 ## Rules
 

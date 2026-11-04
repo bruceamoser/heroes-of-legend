@@ -1,6 +1,6 @@
 # The Angle of Unease
 
-*You tilt your hand. The room stays still, but your enemy reaches for a balance that has moved somewhere else.*
+*Choose one visible enemy within 5 squares. Make a Reason spell attack. You are the source of Frightened. On a Standard result, deal 3 mental damage. Push 2 squares away from you.*
 
 ## Rules
 

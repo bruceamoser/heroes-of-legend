@@ -1,6 +1,6 @@
 # Come Back
 
-*You are already moving when they fall.*
+*Choose one ally within 3 squares. Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a square adjacent to that ally, without provoking. Then stabilize it. Stabilization clears death marks and restores no HP. The wound remains, and Last Words cannot be interrupted.*
 
 ## Rules
 

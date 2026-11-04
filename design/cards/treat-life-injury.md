@@ -1,6 +1,6 @@
 # Treat Life Injury
 
-*You follow the patient's faltering rhythm until their body begins to answer with its own.*
+*Choose one wound on yourself or a willing patient listing Life treatment. Make a Reason treatment roll. On a Standard result, add 2 recovery progress.*
 
 ## Rules
 

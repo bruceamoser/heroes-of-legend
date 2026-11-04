@@ -1,6 +1,6 @@
 # Rim Strike
 
-*You step inside their weapon and drive the shield's rim into the place where their stance has to give.*
+*Choose one adjacent enemy. Make a Brawn shield attack. On a Standard result, deal 3 physical damage. Push 1 square away from you.*
 
 ## Rules
 

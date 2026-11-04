@@ -1,6 +1,6 @@
 # A Marvel on Wheels
 
-*You pull the handle and the little frame unfolds. Its shot tears a line through the press before the wheels snap back beneath your hands.*
+*Roll Knowledge to fire a folding launcher that damages and pushes creatures in a line of three squares.*
 
 ## Rules
 

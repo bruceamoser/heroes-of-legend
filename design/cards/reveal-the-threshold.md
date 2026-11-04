@@ -1,6 +1,6 @@
 # Reveal the Threshold
 
-*You sweep light along the old wall. At the false doorway it gathers into a bright seam, showing exactly where the deception begins.*
+*Choose one visible 3-by-3 area within 5 squares. Make a Reason roll while examining the area. On a Standard result, also reveal how it is activated or sustained.*
 
 ## Rules
 

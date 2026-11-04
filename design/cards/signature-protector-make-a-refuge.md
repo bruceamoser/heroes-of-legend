@@ -1,6 +1,6 @@
 # Make a Refuge
 
-*You drive your shield into the ground and pull your companions into the space behind it.*
+*Self and each willing ally within 5 squares. Each ally may immediately move 1 square toward you without provoking. You and each ally within 5 squares when you use this ability gain 1 Boon to defense and Stability 1 until the start of your next turn.*
 
 ## Rules
 

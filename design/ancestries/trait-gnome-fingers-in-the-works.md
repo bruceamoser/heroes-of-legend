@@ -1,6 +1,6 @@
 # Fingers in the Works
 
-*You ease one small part out of place, and the whole machine loses its argument.*
+*Gain 1 Boon to Knowledge rolls to build, repair, disable or alter a mechanical device, using suitable tools and materials.*
 
 ## Rules
 

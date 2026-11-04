@@ -1,6 +1,6 @@
 # Quick Tongue
 
-*You let the accusation hang, then answer with the one question nobody wanted asked.*
+*Gain 1 Boon to Guile rolls to negotiate or argue. When you use Guile to defend your own or an ally’s actions, gain 2 Boons instead.*
 
 ## Rules
 

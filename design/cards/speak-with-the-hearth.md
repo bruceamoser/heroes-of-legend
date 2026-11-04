@@ -1,6 +1,6 @@
 # Speak with the Hearth
 
-*You stir the coals with one bare finger. Faces gather in the glow, each turning toward the warmth as they did before.*
+*Choose one ordinary fire within reach. Read the fire's impressions of the previous day and make a Knowledge roll. Your touch is safe for this reading. On a Standard result, also see the appearance of its most recent visitor.*
 
 ## Rules
 

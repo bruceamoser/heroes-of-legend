@@ -1,6 +1,6 @@
 # Twitch Reflexes
 
-*You move before the thought finishes, blade already turning to the next threat.*
+*You can take one additional Reaction each round.*
 
 ## Rules
 

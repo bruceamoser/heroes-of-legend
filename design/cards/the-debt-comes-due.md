@@ -1,6 +1,6 @@
 # The Debt Comes Due
 
-*You touch the place they struck you. The mark glows, and its answer leaps back across the space between you.*
+*Choose one visible creature within 4 squares immediately after it damages you. Make a Guile spell attack against the creature. On a Standard result, deal 3 fire damage.*
 
 ## Rules
 

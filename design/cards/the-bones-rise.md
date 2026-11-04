@@ -1,6 +1,6 @@
 # Call Undead: Novice
 
-*You draw a pale line through the air. Spectral bones settle around it, then lift their empty gaze to you.*
+*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Undead entry from the summon selection with a minimum tier of 1 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
 
 ## Rules
 

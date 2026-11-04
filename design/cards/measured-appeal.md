@@ -1,6 +1,6 @@
 # Measured Appeal
 
-*You lay out the bargain, then leave space for the answer. The first objection tells you where the real negotiation begins.*
+*Choose one willing negotiating partner who can understand you. Make a Guile roll toward the concession you seek. On a Standard result, add 3 progress. Learn a counteroffer the listener would accept.*
 
 ## Rules
 

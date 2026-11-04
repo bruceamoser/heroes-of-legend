@@ -1,6 +1,6 @@
 # The Right Small Courtesy
 
-*You notice which cup is filled first and whose name softens the room. When you offer the same small courtesy, the conversation opens around you.*
+*Choose a gathering you can observe. Learn a courtesy practiced by this gathering and whom it is appropriate to address first. When you use that courtesy, gain 1 Boon to Guile social rolls with members of the gathering for the rest of the scene.*
 
 ## Rules
 

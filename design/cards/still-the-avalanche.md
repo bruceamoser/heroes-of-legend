@@ -1,6 +1,6 @@
 # Still the Avalanche
 
-*Blue ice locks beneath your companions' boots while a turning wind catches the falling snow and stone above them.*
+*Self and willing allies within 3 squares affected by one event that would forcibly move them, before its damage or displacement resolves. Each recipient gains Stability 3 against the forced movement and physical resistance 3 and cold resistance 3 against the triggering damage event. Each may remain standing if that event would make it Prone.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Verse for Courage
 
-*You strike the first line of the marching song. Your companion answers with a step forward and a grin they had almost forgotten.*
+*Let an ally who hears you move 1 square without provoking and give it 1 Boon to its next attribute roll.*
 
 ## Rules
 

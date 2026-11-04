@@ -1,6 +1,6 @@
 # A Door Where There Wasn’t
 
-*You knock politely on the wall, mutter an apology to the spirit, and a door opens where no door belongs.*
+*One nonmagical barrier within reach. A door-sized opening appears in the barrier. Only you and your worn or carried gear can pass through it. The opening closes immediately after you pass through or at the end of your next turn.*
 
 ## Rules
 

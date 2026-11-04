@@ -1,6 +1,6 @@
 # Close Shot
 
-*You turn the bow across your body and loose as the charging enemy reaches you.*
+*Choose one visible enemy immediately after it ends voluntary movement adjacent to you. Make one free Basic Ranged attack against the enemy.*
 
 ## Rules
 

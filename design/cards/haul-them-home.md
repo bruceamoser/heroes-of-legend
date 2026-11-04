@@ -1,6 +1,6 @@
 # Haul Them Home
 
-*You brace the rope across your back and lean, bringing your companion over the lip a handspan at a time.*
+*Choose one willing or unconscious creature within 5 squares, already secured to a rope you hold, whose weight you can support. Move the recipient up to 3 squares toward you along the clear rope-supported route, including upward. This rescue movement ignores Stability and does not provoke. A Grappled recipient can join once its hold has been released.*
 
 ## Rules
 

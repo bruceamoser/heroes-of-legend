@@ -1,6 +1,6 @@
 # The Hunt Ends Here
 
-*They finally run. Your shot meets the stride you have been watching for since the fight began.*
+*Choose one visible enemy within 8 squares after it moves voluntarily. Make a Knowledge ranged attack. On a Standard result, deal 5 physical damage and Slowed 1.*
 
 ## Rules
 

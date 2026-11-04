@@ -1,6 +1,6 @@
 # Get Out of Here
 
-*You get a grip under the arms, lift, and send them somewhere else.*
+*Choose one adjacent creature your size or smaller. You must have a free hand. Make a Brawn roll against the target. On a Weak result, throw it 3 squares. On a Standard result, throw it 5 squares and apply Dazed 1. On a Strong result, throw it 7 squares and apply Dazed 2. Choose the direction. The target lands prone. Resolve collisions normally.*
 
 ## Rules
 

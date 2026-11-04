@@ -1,6 +1,6 @@
 # A Road through Rain
 
-*You draw a long line through the choking air. The wind holds it open, and your companions breathe cleanly again.*
+*Sweep smoke, fog, dust, rain and airborne poison from up to six connected squares. Sustain the clear air with a Maneuver each turn.*
 
 ## Rules
 

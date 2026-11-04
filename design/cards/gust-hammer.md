@@ -1,6 +1,6 @@
 # Gust Hammer
 
-*You strike the air with your palm. The compressed gust lands like a shoulder against your enemy's chest.*
+*Choose one visible enemy within 4 squares. Make a Reason spell attack. On a Standard result, deal 2 physical damage. Push 2 squares away from you.*
 
 ## Rules
 

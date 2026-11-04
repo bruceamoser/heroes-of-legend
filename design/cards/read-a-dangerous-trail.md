@@ -1,6 +1,6 @@
 # Read a Dangerous Trail
 
-*You stop where the tracks bunch together. Someone ahead had time to be afraid, and the ground tells you what they saw.*
+*Choose one accessible physical trail. Read the tracks and make a Reason roll. On a Standard result, also learn the most recent danger their trail shows they encountered, and where they encountered it.*
 
 ## Rules
 

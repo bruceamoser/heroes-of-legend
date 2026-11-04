@@ -1,6 +1,6 @@
 # Siphon Cast
 
-*You let the spell tear a hole in the moment, stepping through the space it leaves behind.*
+*When you cast a main action spell that requires a roll, take 1 Bane on the spell’s roll. The spell resolves as you vanish from your original position. Choose a free square you can see within 4 squares of that position. At the start of your next turn, you rematerialize there. You are untargetable while vanished. Your current turn ends, and you have no actions or reactions until you rematerialize. This movement does not provoke opportunity attacks.*
 
 ## Rules
 

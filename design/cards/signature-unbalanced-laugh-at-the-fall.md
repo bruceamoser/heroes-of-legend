@@ -1,6 +1,6 @@
 # Grab and Hurl
 
-*You get a hand on them, and the room becomes a weapon.*
+*Choose one adjacent creature your size or smaller. Make a Brawn roll against the target. On a Standard result, throw it up to 2 squares in a direction you choose. It lands Prone.*
 
 ## Rules
 

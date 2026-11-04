@@ -1,6 +1,6 @@
 # A Word Apart
 
-*You lean beneath the surrounding chatter and give your companion the one sentence that changes how they will answer.*
+*Whisper up to twenty words to an adjacent ally and give it 2 Boons on its next Guile or Reason roll for the social task you name.*
 
 ## Rules
 

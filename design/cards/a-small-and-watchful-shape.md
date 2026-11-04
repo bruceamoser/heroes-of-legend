@@ -1,6 +1,6 @@
 # A Small and Watchful Shape
 
-*You fold into a small furred shape. Chairs become towers, and the gap beneath the door suddenly looks like an invitation.*
+*Take the shape of a cat-sized land animal for ten minutes to slip through small openings and gain 1 Boon to Agility rolls to Hide.*
 
 ## Rules
 

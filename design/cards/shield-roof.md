@@ -1,6 +1,6 @@
 # Shield Roof
 
-*You raise the shield high. Your companions fold close beneath it as the storm of debris breaks overhead.*
+*Self and willing adjacent allies. While you hold the shield, you and willing adjacent allies gain Stability 2 and 2 Boons to defenses against shield-blockable area attacks until the end of your next turn.*
 
 ## Rules
 

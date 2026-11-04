@@ -1,6 +1,6 @@
 # A Bough for the Fallen
 
-*Roots lift your companion as warmth drains from your hands. The branches bend toward you, giving them a way back into the line.*
+*Spend 3 HP and roll Reason to heal a creature within 3 squares and give it a chance to move toward you without provoking.*
 
 ## Rules
 

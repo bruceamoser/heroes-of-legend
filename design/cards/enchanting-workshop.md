@@ -1,6 +1,6 @@
 # Enchanting Workshop
 
-*You set your tools beside the impossible ingredient. This is the part of the work that ordinary hands cannot finish.*
+*Choose one known compatible special-item or ordinary recipe. Choose one special-item recipe available in the campaign and two ordinary recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. Learn them. You can craft known special-item recipes and the compatible ordinary recipes using their stated materials, tools and full intervals. Roll Knowledge: Weak adds 1 progress, Standard 2, Strong 3, or the recipe's inventory steps for a supply.*
 
 ## Rules
 

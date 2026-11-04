@@ -1,6 +1,6 @@
 # Carry to Safety
 
-*You take your companion's weight and turn. Their next steps belong to you until you both reach cover.*
+*Use a Maneuver to reduce temporary Poisoned by 3 on willing living creatures within 3 squares, including yourself.*
 
 ## Rules
 

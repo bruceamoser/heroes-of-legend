@@ -1,6 +1,6 @@
 # Clear the Smoke
 
-*You sweep a hand across your face. A clean breath of wind drives a channel through the hanging smoke.*
+*Choose up to three connected visible squares within 3 squares containing ordinary smoke or fog. Disperse ordinary smoke or fog in the chosen squares until the end of your next turn.*
 
 ## Rules
 

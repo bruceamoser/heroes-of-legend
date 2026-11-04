@@ -1,6 +1,6 @@
 # The Answering Voice
 
-*You reach toward the presence that made you, and certainty settles into your voice.*
+*Gain 1 Boon to Reason rolls when you call upon your oath holder.*
 
 ## Rules
 

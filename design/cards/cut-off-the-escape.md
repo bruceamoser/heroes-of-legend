@@ -1,6 +1,6 @@
 # Cut Off the Escape
 
-*You read the glance toward freedom and put the shot into the stride that would take them there.*
+*Choose one visible enemy within 8 squares. Make an Agility ranged attack. On a Standard result, deal 4 physical damage and Slowed 1. Push 1 square away from you.*
 
 ## Rules
 

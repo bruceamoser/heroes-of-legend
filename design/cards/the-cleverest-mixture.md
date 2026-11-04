@@ -1,6 +1,6 @@
 # The Cleverest Mixture
 
-*You judge the bottle's color and work down the line, giving each companion the mouthful their shaking hands cannot manage.*
+*Self or up to two adjacent willing or unconscious creatures. On a Standard result, reduce Poisoned by 3 or Dazed by 2.*
 
 ## Rules
 

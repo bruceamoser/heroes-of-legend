@@ -1,6 +1,6 @@
 # Identify a Mixture
 
-*You roll the bottle against the light. A pale thread settles beneath the stopper, and you set it down with sudden care.*
+*Choose one accessible potion or mixture. Examine the mixture and make a Reason roll. The mixture remains available afterward. On a Standard result, learn its effects, use and any contamination or harmful additive.*
 
 ## Rules
 

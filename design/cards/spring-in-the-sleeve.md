@@ -1,6 +1,6 @@
 # Spring in the Sleeve
 
-*You level your wrist. A hook snaps from the bracer and catches hard enough to drag your enemy a step closer.*
+*Choose one visible enemy within 3 squares. Make a Knowledge device attack. On a Standard result, deal 3 physical damage. Pull 1 square toward you.*
 
 ## Rules
 

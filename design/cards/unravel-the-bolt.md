@@ -1,6 +1,6 @@
 # Unravel the Bolt
 
-*You catch the straight line of the spell in your thoughts and pull one bright thread sideways.*
+*Self or one visible willing ally within 4 squares, before defending against a single-target spell from a visible caster within 4 squares of you. The recipient gains 2 Boons to the defense. On a Strong defense, after the spell resolves, it may move 1 square without provoking.*
 
 ## Rules
 

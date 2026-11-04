@@ -1,6 +1,6 @@
 # A Party Piece
 
-*You lift your instrument, find the room's rhythm, and let the first phrase carry your argument.*
+*Choose an instrument you own when you learn this ability. Gain 1 Boon to Guile rolls while playing it.*
 
 ## Rules
 

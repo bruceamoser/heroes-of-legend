@@ -1,6 +1,6 @@
 # Under Their Guard
 
-*A blade catches high against yours. You step inside it and sweep through the enemies whose tangled footing leaves them slow to turn.*
+*Choose one adjacent enemy and every other Slowed enemy adjacent to you. Make an Agility melee attack. Each target takes: - On a Standard result, deal 4 physical damage.*
 
 ## Rules
 

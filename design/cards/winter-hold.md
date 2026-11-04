@@ -1,6 +1,6 @@
 # Winter Hold
 
-*You close your hand. Frost thickens at every joint until the struggle itself seems to freeze in place.*
+*Choose one visible enemy within 5 squares. Make a Knowledge spell attack. On a Standard result, deal 4 cold damage and Freezing 2.*
 
 ## Rules
 

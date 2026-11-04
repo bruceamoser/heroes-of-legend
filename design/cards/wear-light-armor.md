@@ -1,6 +1,6 @@
 # Wear Light Armor
 
-*You settle the last strap and turn your shoulders. The light armor moves with you now, its weight a familiar promise.*
+*While wearing the trained armor, while wearing light armor, gain physical resistance 1.*
 
 ## Rules
 

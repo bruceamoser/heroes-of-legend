@@ -1,6 +1,6 @@
 # Anatomy of an Opening
 
-*You watch the uneven stride, wait for the weight to shift, and put your blade where the armor has to bend.*
+*Make a Knowledge melee attack that can reveal the target's physical resistance. On Strong, you can also move 1 square without provoking.*
 
 ## Rules
 

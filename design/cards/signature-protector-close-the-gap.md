@@ -1,6 +1,6 @@
 # Hand on the Collar
 
-*You grab a fistful of cloak and haul your companion out of the circle.*
+*Choose one willing ally within 2 squares. Pull the ally up to 2 squares toward you, ending in a free square adjacent to you. Its movement does not provoke. If the ally was adjacent to you, you may move into the square it left.*
 
 ## Rules
 

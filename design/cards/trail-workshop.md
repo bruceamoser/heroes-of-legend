@@ -1,6 +1,6 @@
 # Trail Workshop
 
-*You spread the cloth, set the tools where your hands know to find them, and turn a roadside stop into a workshop.*
+*Choose one known compatible ordinary recipe. Learn two recipes chosen from Bound Torches, Fletched Ammunition, Travel Food, Twisted Cord, Wooden Brace and Simple Replacement Leg. You can craft those and other known recipes explicitly compatible with this ability. Roll Knowledge: Weak adds 1 progress or inventory step, Standard 2, Strong 3, as the recipe specifies.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Step Through the Spark
 
-*You follow the skipping spark with one quick step. The space between is gone before your cloak has time to cool.*
+*Choose one visible free supported square within 3 squares. Teleport to the chosen square.*
 
 ## Rules
 

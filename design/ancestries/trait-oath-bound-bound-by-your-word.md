@@ -1,6 +1,6 @@
 # The Will That Made You
 
-*Something in you remembers that your work is unfinished.*
+*Gain 1 Boon to Fortitude rolls when you call upon your oath holder.*
 
 ## Rules
 

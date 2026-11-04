@@ -1,6 +1,6 @@
 # Better Together
 
-*Your companion draws their eye, and you know exactly when to step in.*
+*Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies.*
 
 ## Rules
 

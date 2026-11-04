@@ -1,6 +1,6 @@
 # Driving Volley
 
-*You loose across the line, each shot arriving where an enemy needs to plant a foot.*
+*Choose up to two visible enemies within 8 squares. Make an Agility ranged attack against the chosen targets. On a Standard result, deal 3 physical damage. Push 1 square away from you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Basic Melee
 
-*You set your feet and bring your weapon around in a practiced strike.*
+*Roll Agility to shoot a visible creature within 8 squares for 2, 3 or 5 physical damage.*
 
 ## Rules
 

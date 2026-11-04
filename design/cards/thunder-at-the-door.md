@@ -1,6 +1,6 @@
 # Thunder at the Door
 
-*You close your fist beside the distant doorway. The answering thunder shakes your enemy's hearing and drives them back a step.*
+*Choose one visible enemy within 4 squares. Make a Reason spell attack. On a Standard result, deal 3 physical damage and Deafened 1.*
 
 ## Rules
 

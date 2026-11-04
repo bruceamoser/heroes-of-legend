@@ -1,6 +1,6 @@
 # Conditioned Body
 
-*You remember the work that built this strength: another load, another climb, another day you kept going.*
+*Maximum HP +1 per purchase. Purchase once at each character level. Each level's purchase stands on its own. This ability increases maximum HP only.*
 
 ## Rules
 

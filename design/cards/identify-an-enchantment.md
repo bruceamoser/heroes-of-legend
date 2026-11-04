@@ -1,6 +1,6 @@
 # Identify an Enchantment
 
-*You turn the object until its stray sparks repeat, then speak the word the pattern has been waiting for.*
+*Choose one accessible magical item. Study the item and make a Knowledge roll. On a Standard result, learn its functions, activation requirements and the triggers of any curse.*
 
 ## Rules
 

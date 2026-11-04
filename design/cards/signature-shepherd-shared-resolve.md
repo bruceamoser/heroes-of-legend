@@ -1,6 +1,6 @@
 # Not My Flock
 
-*You see the blow land on your flock, and the light comes off you like a blade.*
+*Choose one creature within 10 squares that has damaged one of your allies since the end of your last turn. Make a Reason roll against the target. On a Standard result, deal 8 radiant damage, and the target has Frightened 1.*
 
 ## Rules
 

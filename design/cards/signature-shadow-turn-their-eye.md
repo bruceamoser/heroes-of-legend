@@ -1,6 +1,6 @@
 # Fast Talk
 
-*You are already three sentences into the lie before the guard decides to be suspicious.*
+*Choose one creature within 5 squares that can hear and understand you. State the social goal you are pursuing and what you want the target to do. Make a Guile roll. The result adds progress toward that goal: On a Standard result, add 3 progress.*
 
 ## Rules
 

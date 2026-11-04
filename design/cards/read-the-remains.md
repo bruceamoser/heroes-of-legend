@@ -1,6 +1,6 @@
 # Read the Remains
 
-*You crouch beside the overturned cup. A clean crescent in the dust tells you where the missing chair stood.*
+*Choose one accessible scene or evidence-bearing object. Choose a question about what happened here and make a Reason roll. The DA answers from the surviving evidence. On a Standard result, also learn which part of that account remains uncertain and where you could investigate it.*
 
 ## Rules
 

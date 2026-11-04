@@ -1,6 +1,6 @@
 # Radiant Threshold
 
-*You call on the gods of war and protection. A line of white fire draws itself across the ground, and the air smells of iron and lightning.*
+*Create a line of radiant damage that lasts until the start of your next turn. Your Reason result sets its length and damage, and you choose which allies can cross safely.*
 
 ## Rules
 
