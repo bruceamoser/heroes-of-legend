@@ -21,7 +21,7 @@ def main():
         raise SystemExit('Commit reviewed source changes before producing a clean release package.')
     py = sys.executable
     pdf_py = os.environ.get('PDF_PYTHON', py)
-    for script in ('design/audit.py','design/bestiary/audit.py','design/bestiary/art/audit.py','scripts/audit_repository.py'):
+    for script in ('design/audit.py','design/bestiary/audit.py','design/bestiary/art/audit.py','scripts/audit_repository.py','scripts/audit_worked_examples.py'):
         run(py, ROOT/script)
     if not args.package_only:
         typst = os.environ.get('TYPST') or shutil.which('typst')
