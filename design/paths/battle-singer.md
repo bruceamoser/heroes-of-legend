@@ -16,7 +16,7 @@ Fight close enough for your rhythm to matter. Your Guile-based strike opens a st
 
 ## Give it room to grow
 
-- At level 3, [The Chorus Advances](../cards/the-chorus-advances.md) (Influence 2) opens another way to affect the scene.
+- At level 3, [Rally to Me](../cards/the-chorus-advances.md) (Influence 2) opens another way to affect the scene.
 - At level 7, [All Voices as One](../cards/all-voices-as-one.md) (Influence 3) offers a larger moment.
 
 These are independent cards. You need every stated discipline rank, not the earlier card.

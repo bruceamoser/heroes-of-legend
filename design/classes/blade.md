@@ -35,9 +35,9 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 The revised options aim for these moments, with a deliberate advantage over shared
 cards of their tier. Each is an independent choice, not a progression chain.
 
-- **Level 1:** Flow through melee, hinder a target, or guard and reposition.
-- **Level 3:** Enter decisively, counterattack, or take an opponent's footing.
-- **Level 7:** Strike a surrounding group, pursue and strike, or dictate where the duel moves.
+- **Level 1:** Charge into a melee attack, cleave adjacent creatures, or counterattack after a Strong defense.
+- **Level 3:** Gain additional Reactions, counterattack after a Standard or Strong defense, or stop an entering enemy’s movement.
+- **Level 7:** Strike a surrounding group, pursue and strike, or throw an adjacent creature.
 
 
 **Starting coin contribution:** +4 coins. See [starting coins](../starting-coins.md).

@@ -14,10 +14,10 @@
 
 Total **+3**. Arcanist minima: Agility, Knowledge ≥ 0; met. Mental sum **+3**, so each stage’s base pool is **13 DP**.
 
-- [A Lifetime Ago](../ancestries/trait-elf-age-of-memory.md): Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.
-- [Dream beneath the Stars](../ancestries/trait-elf-star-familiar.md): You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.
+- [A Lifetime Ago](../ancestries/trait-elf-age-of-memory.md): Once per day, before you make a Knowledge or Reason roll, you may call on the knowledge of your ancestors to gain 1 Boon to that roll.
+- [Dream beneath the Stars](../ancestries/trait-elf-star-familiar.md): You may rest in a quiet waking reverie instead of sleeping. You remain aware of nearby ordinary sights and sounds. The reverie counts as sleep for rest and recovery.
 
-A Lifetime Ago: the community of Emberglass Observatory, where Vaelis studied before its abandonment. This is fictional history, not an extra culture grant.
+Vaelis studied at Emberglass Observatory before its abandonment. This is fictional history; A Lifetime Ago calls on ancestral knowledge for any Knowledge or Reason roll, once per day.
 
 ## Level 0 — origins and purchases
 
@@ -32,7 +32,7 @@ Opening pool: **13 + 0 duplicate compensation = 13 DP**. No disciplines are purc
 | [Speak with the Hearth](../cards/speak-with-the-hearth.md) | Flame 1 | 2 | 9 |
 | [A Coal for a Promise](../cards/a-coal-for-a-promise.md) | Flame 1 | 2 | 7 |
 | [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 5 |
-| [Notice the Human Detail](../cards/notice-the-human-detail.md) | None | 2 | 3 |
+| [Read the Room](../cards/notice-the-human-detail.md) | None | 2 | 3 |
 | [Keep Your Bearings](../cards/keep-your-bearings.md) | None | 2 | 1 |
 | [Another Tongue](../cards/another-tongue.md) — Dwarven | None; 1-DP ability | 1 | 0 |
 
@@ -43,18 +43,17 @@ Opening pool: **13 + 0 duplicate compensation = 13 DP**. No disciplines are purc
 Choose [Arcanist](../classes/arcanist.md). Class grants **Scholarship 1 and Calling 1**; 0 duplicate(s) give **+0 DP**, not higher ranks.
 Free signature: [Deliberate Spark](../cards/signature-arcanist-deliberate-spark.md). Its use procedure follows; the linked card remains the complete reference:
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One creature hit by your Main Action damaging spell.
+**Target / range / shape:** One corner of your square; each creature in the four squares that share that corner and are in line of effect.
 
-On a Standard or Strong result, after resolving the spell, you may push one of its targets 1 square directly away from you. Use this once on your turn. It adds no direct damage; normal collision rules apply.
+Choose a corner of your square and spark a brief flare of gas there. Each creature in the four squares that share that corner, including you, is pushed 2 squares directly away from that corner. A creature in more than one of those squares is pushed once. The spark does not provoke opportunity attacks. Resolve the push as forced movement; normal collision rules apply.
 
-**Duration:** Immediate push after the spell.
+**Duration:** Immediate.
 
 **Equipment / acquisition:** None.
 
-
-**Signature limit:** Once on your turn; no benefit from free attacks.
+**Signature limit:** Once per round; uses your Maneuver.
 
 Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before cards that need them.
 
@@ -63,7 +62,7 @@ Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before card
 | [Read the Remains](../cards/read-the-remains.md) | Scholarship 1 | 2 | 11 |
 | [Identify an Enchantment](../cards/identify-an-enchantment.md) | Scholarship 1 | 2 | 9 |
 | [A Hand from Before](../cards/a-hand-from-before.md) | Calling 1 | 2 | 7 |
-| [Summon Fey — Novice](../cards/a-friend-beneath-the-door.md) | Calling 1 | 2 | 5 |
+| [Call Fey: Novice](../cards/a-friend-beneath-the-door.md) | Calling 1 | 2 | 5 |
 | **Storm 1** | Adjacent; previous rank 0 | 2 | 3 |
 | [Gust Hammer](../cards/gust-hammer.md) | Storm 1 | 2 | 1 |
 | [Catch That!](../cards/catch-that.md) | None; 1-DP ability | 1 | 0 |
@@ -87,34 +86,34 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Cinder Cast and Rime Grip provide distinct elemental choices; Gust Hammer adds another positioning tool. Deliberate Spark adds its printed shove to a qualifying Standard or Strong Main spell once on Vaelis’s turn. Reading remains, identifying enchantments and speaking with a hearth establish the scholar outside battle. No staff, spellbook or focus is required or granted by these cards; both hands begin available.
+Cinder Cast and Rime Grip provide distinct elemental choices; Gust Hammer adds another positioning tool. Deliberate Spark uses a Maneuver, once per round, to push each creature around a chosen corner of Vaelis’s square 2 squares away, including Vaelis. Reading remains, identifying enchantments and speaking with a hearth establish the scholar outside battle. No staff, spellbook or focus is required or granted by these cards; both hands begin available.
 
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Catch That!](../cards/catch-that.md) — Reaction; None — no roll.
+- [Catch That!](../cards/catch-that.md) — Reaction; None (no roll).
 
-- [Another Tongue](../cards/another-tongue.md) — Passive; None — no roll.
+- [Another Tongue](../cards/another-tongue.md) — Passive; None (no roll).
 
 - [Cinder Cast](../cards/cinder-cast.md) — Main Action; Knowledge.
 - [Rime Grip](../cards/rime-grip.md) — Main Action; Knowledge.
 - [Breath of the Wyrmling](../cards/breath-of-the-wyrmling.md) — Main Action; Fortitude.
 - [Speak with the Hearth](../cards/speak-with-the-hearth.md) — Main Action; Knowledge.
 - [A Coal for a Promise](../cards/a-coal-for-a-promise.md) — Main Action; Guile.
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None — no roll.
-- [Notice the Human Detail](../cards/notice-the-human-detail.md) — Main Action; Reason.
+- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
+- [Read the Room](../cards/notice-the-human-detail.md) — Main Action; Reason.
 - [Keep Your Bearings](../cards/keep-your-bearings.md) — Main Action; Reason.
 - [Read the Remains](../cards/read-the-remains.md) — Main Action; Reason.
 - [Identify an Enchantment](../cards/identify-an-enchantment.md) — Main Action; Knowledge.
-- [A Hand from Before](../cards/a-hand-from-before.md) — Reaction; None — no roll.
-- [Summon Fey — Novice](../cards/a-friend-beneath-the-door.md) — Main Action; None — no roll.
+- [A Hand from Before](../cards/a-hand-from-before.md) — Reaction; None (no roll).
+- [Call Fey: Novice](../cards/a-friend-beneath-the-door.md) — Main Action; None (no roll).
 - [Gust Hammer](../cards/gust-hammer.md) — Main Action; Reason.
-- [Deliberate Spark](../cards/signature-arcanist-deliberate-spark.md) — Passive; None — no roll.
+- [Deliberate Spark](../cards/signature-arcanist-deliberate-spark.md) — Maneuver; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 
-**Summoning revision:** the former tiny-scout card is now Summon Fey — Novice.
+**Summoning choice:** Call Fey: Novice summons an eligible fey profile.
 Its Calling 1 requirement and 2-DP cost are unchanged, so this ledger stays valid;
 choose an eligible creature from the summon profiles. No tiny form,
 scouting sense or object-carrying ability is automatically supplied.

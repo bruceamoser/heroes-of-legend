@@ -22,7 +22,7 @@ Make one Guile roll and apply the result to each target. On a Weak result, apply
 
 **Tags:** Skill / Control
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** Once on your turn.
 
 **ID:** signature-leader-hold-your-nerve
 

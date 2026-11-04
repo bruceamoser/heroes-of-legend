@@ -38,6 +38,10 @@ def main():
     run(py, ROOT/'design/da-book/assemble.py', '--check')
     run(py, ROOT/'design/player-book/audit.py')
     run(pdf_py, ROOT/'design/da-book/audit_pdf.py')
+    run(py, ROOT/'scripts/audit-pdf-entries.py', '--book', ROOT,
+        '--player', ROOT/'design/player-book/output/heroes-of-legend-players-book.pdf',
+        '--da', ROOT/'design/da-book/output/heroes-of-legend-da-guide-bestiary.pdf',
+        '--output', ROOT/'design/player-book/generated/entry-conformance.json')
     out = ROOT/'dist'/('v'+version['version']); out.mkdir(parents=True, exist_ok=True)
     books = {
         'Heroes-of-Legend-Players-Book.pdf': ROOT/'design/player-book/output/heroes-of-legend-players-book.pdf',

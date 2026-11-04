@@ -31,7 +31,7 @@ Opening pool: **11 + 0 duplicate compensation = 11 DP**. No disciplines are purc
 | [Step Between Lanterns](../cards/step-between-lanterns.md) | Subterfuge 1 | 2 | 7 |
 | [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md) | Subterfuge 1 | 2 | 5 |
 | [Sell the Feint](../cards/sell-the-feint.md) | Arms 1 and Subterfuge 1 | 2 | 3 |
-| [Notice the Human Detail](../cards/notice-the-human-detail.md) | None | 2 | 1 |
+| [Read the Room](../cards/notice-the-human-detail.md) | None | 2 | 1 |
 | [Quick Exit](../cards/quick-exit.md) | None; 1-DP ability | 1 | 0 |
 
 **Spent 11; 0 DP expires. Stage closes at 0.**
@@ -41,16 +41,15 @@ Opening pool: **11 + 0 duplicate compensation = 11 DP**. No disciplines are purc
 Choose [Shadow](../classes/shadow.md). Class grants **Subterfuge 1 and Athletics 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
 Free signature: [Fade Behind](../cards/signature-shadow-fade-behind.md). Its use procedure follows; the linked card remains the complete reference:
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Agility
 
-**Target / range / shape:** Self, when you use Disengage.
+**Target / range / shape:** Self.
 
-As part of Disengage, move up to 2 squares without provoking. This additional movement makes no audible footfalls but does not silence speech or deliberately used equipment. It does not grant Hidden in open view; actual concealment still matters.
+Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed, provided you have cover or obscurement. You still make the ordinary Hide attempt. If you succeed, you are Hidden until you attack, are revealed, or the concealment ends.
 
-**Duration:** Immediate movement; Disengage lasts for this turn.
+**Duration:** Immediate; Hidden uses its normal duration.
 
 **Equipment / acquisition:** None.
-
 
 **Signature limit:** Once on your turn.
 
@@ -88,27 +87,27 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Smile Before Steel lets Pip fight with Guile; Sell the Feint prepares that attack. Quiet Latch and the illusion/voice cards support infiltration. Fade Behind adds quiet movement to Disengage but never makes open ground concealment. Quick Exit adds one available movement square when Pip Disengages, once per turn; it does not change his Speed. The sword stays in one hand, leaving the other available. Courtesy and Invitation use that same sword rather than granting spares.
+Smile Before Steel lets Pip fight with Guile; Sell the Feint prepares that attack. Quiet Latch and the illusion/voice cards support infiltration. Fade Behind uses a Maneuver to Disengage, then attempt to Hide with 1 Boon, even while observed if Pip has cover or obscurement. Quick Exit adds one available movement square when Pip Disengages, once per turn; it does not change his Speed. The sword stays in one hand, leaving the other available. Courtesy and Invitation use that same sword rather than granting spares.
 
 ## Complete learned-card checklist
 
 These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
 
-- [Quick Exit](../cards/quick-exit.md) — Passive; None — no roll.
+- [Quick Exit](../cards/quick-exit.md) — Passive; None (no roll).
 
-- [The Key Changes Hands](../cards/the-key-changes-hands.md) — Main Action; Guile.
+- [The Key Changes Hands](../cards/the-key-changes-hands.md) — Maneuver; Guile.
 - [Smile Before Steel](../cards/smile-before-steel.md) — Main Action; Guile.
 - [Quiet Latch](../cards/quiet-latch.md) — Main Action; Guile.
-- [Step Between Lanterns](../cards/step-between-lanterns.md) — Maneuver; None — no roll.
+- [Step Between Lanterns](../cards/step-between-lanterns.md) — Maneuver; None (no roll).
 - [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md) — Main Action; Guile.
-- [Sell the Feint](../cards/sell-the-feint.md) — Maneuver; None — no roll.
-- [Notice the Human Detail](../cards/notice-the-human-detail.md) — Main Action; Reason.
-- [Borrow a Voice](../cards/borrow-a-voice.md) — Main Action; Guile.
-- [A Door That Is Not There](../cards/a-door-that-is-not-there.md) — Main Action; Guile.
-- [Sure Ascent](../cards/sure-ascent.md) — Main Action; Brawn.
-- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None — no roll.
+- [Sell the Feint](../cards/sell-the-feint.md) — Maneuver; None (no roll).
+- [Read the Room](../cards/notice-the-human-detail.md) — Main Action; Reason.
+- [Borrow a Voice](../cards/borrow-a-voice.md) — Maneuver; None (no roll).
+- [A Door That Is Not There](../cards/a-door-that-is-not-there.md) — Main Action; None (no roll).
+- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
+- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None (no roll).
 - [Invitation to the Blade](../cards/invitation-to-the-blade.md) — Main Action; Agility.
-- [Fade Behind](../cards/signature-shadow-fade-behind.md) — Passive; None — no roll.
+- [Fade Behind](../cards/signature-shadow-fade-behind.md) — Maneuver; Agility.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
 

@@ -16,7 +16,7 @@ Ask a friend what they need to attempt, then give the next roll a verse. Beyond 
 
 ## Give it room to grow
 
-- At level 3, [Remember This Name](../cards/remember-this-name.md) (Influence 2) opens another way to affect the scene.
+- At level 3, [A Name Remembered](../cards/remember-this-name.md) (Influence 2) opens another way to affect the scene.
 - At level 7, [The Tale Will Tell of You](../cards/the-tale-will-tell-of-you.md) (Influence 3) offers a larger moment.
 
 These are independent cards. You need every stated discipline rank, not the earlier card.

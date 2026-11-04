@@ -62,7 +62,7 @@ def clean(p):
  s=re.sub(r'\*\*Inspiration lens:\*\*.*?This is a character\s*idea,', 'This is a character idea,',s,flags=re.S)
  if p.parent.name=='paths':s=s.replace('This is a character idea, not a new class, subclass or prerequisite chain.','')
  # Navigation and review apparatus do not belong in the printed entry.
- s='\n'.join(line for line in s.splitlines() if not (line.startswith('[') and ('](' in line)) and not re.match(r'^-?\s*\*\*ID:',line))
+ s='\n'.join(line for line in s.splitlines() if not re.fullmatch(r'\s*\[[^\]]+\]\([^)]*\)(?:\s*·\s*\[[^\]]+\]\([^)]*\))*\s*',line) and not re.match(r'^-?\s*\*\*ID:',line))
  s=s.replace('The revised options aim for these moments, with a deliberate advantage over shared\ncards of their tier. Each is an independent choice, not a progression chain.','Each signature is an independent choice, not a progression chain.')
  s=s.replace('**Agreed:**','**Class foundations:**').replace('**Agreed concept:**','**Identity:**').replace('**Proposed foundations:**','**Class foundations:**').replace('**Proposal:**','**Starting disciplines:**').replace('**Proposed starting disciplines:**','**Starting disciplines:**').replace('**Proposed pricing:**','**Discipline pricing:**')
  s=s.replace('**Offensive healing — latest agreement:**','**Offensive healing:**')
