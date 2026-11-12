@@ -1,6 +1,6 @@
 # One More Dawn
 
-*Gain 1 additional Grit on acquisition. Purchase once ever. This does not replenish previously spent Grit.*
+*Gain 1 Boon to Fortitude death rolls, including immediate rolls caused by damage at 0 HP. This grants no Grit. Purchase once.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self
 
-Gain 1 additional Grit on acquisition. Purchase once ever. This does not replenish previously spent Grit.
+Gain 1 Boon to Fortitude death rolls, including immediate rolls caused by damage at 0 HP. This grants no Grit. Purchase once.
 
-**Duration:** Gain the Grit once on acquisition; this never replenishes spent Grit.
+**Duration:** Permanent while learned.
 
 **Equipment / acquisition:** None.
 

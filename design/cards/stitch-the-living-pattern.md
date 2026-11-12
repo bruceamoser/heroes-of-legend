@@ -1,6 +1,6 @@
 # Stitch the Living Pattern
 
-*Choose one visible willing creature within 3 squares, including yourself, or one creature within that range harmed by healing. Pay 1 HP and make a Knowledge healing roll. On a Standard result, restore 5 HP.*
+*Choose one visible willing creature within 3 squares, including yourself, or one creature within that range harmed by healing. Pay 1 SP and make a Knowledge healing roll. On a Standard result, restore 5 HP.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One visible willing creature within 3 squares, including yourself, or one creature within that range harmed by healing.
 
-Pay 1 HP and make a Knowledge healing roll.
+Pay 1 SP and make a Knowledge healing roll.
 
 - **Weak:** Restore 3 HP.
 - **Standard:** Restore 5 HP.

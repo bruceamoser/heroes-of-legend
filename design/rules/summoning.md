@@ -60,16 +60,16 @@ and actions directing it.
 Commanding has no roll. Any permitted attack or task uses the summon profile’s
 printed procedure. A command is not automatic success or a way to invent a skill.
 
-## Healing through a summon — approved October 16, 2026
+## Healing through a summon
 
 When a summoned creature uses a healing ability, its controller pays the ability’s
-printed HP cost instead of the summon. Pay once, before resolving the ability,
-bypassing resistance. The controller must remain above 0 HP after payment or the
+printed SP cost instead of the summon. Pay once, before resolving the ability,
+from the controller’s SP reserve. The controller must have enough SP or the
 ability cannot be used. The summon still uses its own printed attribute and healing
 outcomes; its command and action requirements are unchanged.
 
-For example, the Moon Hart’s Battle Mending costs its controller 3 HP, then the
-player rolls the hart’s Reason for 5/10/15 healing. The hart does not also pay 3 HP.
+For example, the Moon Hart’s Battle Mending costs its controller 3 SP, then the
+player rolls the hart’s Reason for 5/10/15 healing. The hart does not also pay 3 SP.
 An ordinary unsummoned healer continues to pay its own cost.
 
 ## Orders in ordinary language

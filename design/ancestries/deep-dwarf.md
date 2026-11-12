@@ -12,7 +12,7 @@ Stone, darkness and small changes in air or vibration shape their experience. Th
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +2; base Speed 5.
+**Starting values:** HP contribution +2 at creation and per level; base Speed 5.
 
 - [Eyes for the Dark](trait-deep-dwarf-eyes-for-the-dark.md) — You study the passage in a faint wash of reflected light.
 - [The Stone Tells You](trait-deep-dwarf-stone-tells-you.md) — You rest your palm against the floor and wait for the answering tread.

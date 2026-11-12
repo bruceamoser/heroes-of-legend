@@ -47,3 +47,5 @@ is knowledge, not a free finished item.
 - [Weather Clothes](equipment/weather-clothes.md)
 - [Winter Lining](equipment/winter-lining.md)
 - [Writing Kit](equipment/writing-kit.md)
+
+- [First-Aid Supplies](equipment/first-aid-supplies.md) — d6, 5 coins, 1 Bulk; ten-minute care.

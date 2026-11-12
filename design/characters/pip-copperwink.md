@@ -2,7 +2,7 @@
 
 *The charming burglar with a duelist’s smile.*
 
-**Halfling Shadow · HP 16/16 · Grit 2/2 · Speed 7 squares · Bulk 10/10.**
+**Halfling Shadow · HP 13/13 · Grit 1 remaining / 1 granted · Speed 7 squares · Bulk 10/10.**
 
 **Languages:** Common and Halfling. See the [language reference](../rules/languages.md).
 
@@ -76,10 +76,10 @@ Fresh pool: **11 + 1 = 12 DP**. All discipline purchases below occur before card
 | Lock tools | [Quiet Latch](../cards/quiet-latch.md) | 1 |
 | Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
 
-HP: 12 + ancestry 1 + class 3 + Fortitude 0 + trait 0 + Conditioned Body 0 = **16**.
+HP: 10 + ancestry 1 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 0 = **13**. HP gain per level: **3**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **3** + purchased Bulk **7** = **10**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 2 + trait 0 = **7**.
 
-Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 

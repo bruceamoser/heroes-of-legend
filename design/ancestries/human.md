@@ -11,7 +11,7 @@ Adaptability takes many forms. One human gathers languages and acquaintances; an
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.
 
-**Starting values:** HP +2; base Speed 6.
+**Starting values:** HP contribution +2 at creation and per level; base Speed 6.
 
 - [Never Quite Finished](trait-human-weathered.md) — There is always one more person to help, one more hill to cross.
 - [Adaptable](trait-human-far-walker.md) — You learn quickly, turning every new experience into another useful skill.

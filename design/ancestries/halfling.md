@@ -11,7 +11,7 @@ Hospitality and good company are familiar pleasures, but a generous table does n
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.
 
-**Starting values:** HP +1; base Speed 5; Size Small.
+**Starting values:** HP contribution +1 at creation and per level; base Speed 5; Size Small.
 
 - [Bigger on the Inside](trait-halfling-stout-heart.md) — Your knees may shake. Your friends will never see you leave them.
 - [Under Their Noses](trait-halfling-small-passage.md) — The grand folk rarely remember to look beneath the table.

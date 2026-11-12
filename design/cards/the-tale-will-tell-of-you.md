@@ -1,6 +1,6 @@
 # The Tale Will Tell of You
 
-*Choose one willing ally within 4 squares who hears you when it enters Dying. The ally may immediately spend 1 of its own Grit to regain full HP.*
+*Choose one willing ally within 4 squares who hears you when it enters Dying. The ally may spend 1 of its own Grit using the normal half-HP recovery. If it does, it can stand without spending movement and move up to 2 squares without provoking. This movement is part of your Reaction.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One willing ally within 4 squares who hears you when it enters Dying.
 
-The ally may immediately spend 1 of its own Grit to regain full HP.
+The ally may spend 1 of its own Grit using the normal half-HP recovery. If it does, it can stand without spending movement and move up to 2 squares without provoking. This movement is part of your Reaction.
 
 ---
 

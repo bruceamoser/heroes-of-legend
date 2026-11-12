@@ -5,7 +5,7 @@
 ## Rules
 
 
-Nonmagical wound treatment and condition care.
+Nonmagical treatment and condition care.
 
 Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute
 bonus, equipment or permission to use every card in this field. A card prints the

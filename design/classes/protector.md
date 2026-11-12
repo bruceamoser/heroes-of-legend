@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Fortitude, Reason; HP contribution +5. No multiclassing.
+**Agreed:** minimum 0 in Fortitude, Reason; HP contribution +3 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.
 

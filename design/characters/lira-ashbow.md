@@ -2,7 +2,7 @@
 
 *The woodland archer who reads a trail as readily as a target.*
 
-**Wood Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.**
+**Wood Elf Blade · HP 16/16 · Grit 1 remaining / 1 granted · Speed 8 squares · Bulk 10/10.**
 
 **Languages:** Common and Elven. See the [language reference](../rules/languages.md).
 
@@ -75,10 +75,10 @@ Fresh pool: **10 + 0 = 10 DP**. All discipline purchases below occur before card
 | One-handed hunting knife | [Hook and Drive](../cards/hook-and-drive.md) | 1 |
 | Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
 
-HP: 12 + ancestry 2 + class 4 + Fortitude 1 + trait 0 + Conditioned Body 1 = **20**.
+HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 + Conditioned Body 1 = **16**. HP gain per level: **4**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **4** + purchased Bulk **6** = **10**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 = **8**, or **9** in wooded terrain with Footfall on the Leaves.
 
-Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 

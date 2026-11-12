@@ -86,10 +86,6 @@ def clean(p):
   # Teaching and timing are in the authored recovery chapter. Keep the complete table.
   start=s.index('| Condition |'); end=s.index('\n\n',s.index('| Invisible',start))
   s='# Condition reference\n\n'+s[start:end]
- if p.name=='wounds.md':
-  s=s[s.index('## Physical\n'):]
-  s=s.replace('Broad activity Banes replace the earlier limb-, Force-, and attribute-specific penalties.','The DA judges when a physical-activity penalty applies.')
-  s=re.sub(r'##? [^\n]*?(?:design|review|concerns)[^\n]*\n.*?(?=\n##|\Z)','',s,flags=re.S|re.I)
  if p.parent.name=='characters':
   s=re.sub(r'\b(?:Home|Adjacent|Foreign|Opposed);', 'Class price;', s)
   s=re.sub(r'###? Summoning catalog.*?(?=\n##|\Z)', '', s, flags=re.S)
@@ -323,10 +319,10 @@ def hp_reference():
  classes=[]
  for c in CLASS_ORDER:
   cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution (\+\d+)',cp.read_text()).group(1)+' |')
- intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.\n\n#note[#align(center)[#text(size:15pt,weight:"bold")[12 + ancestry + class + Fortitude + explicit benefits]]]\n'
+ intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.\n\n#note[#align(center)[#text(size:12pt,weight:"bold")[10 + level × (ancestry + class) + Fortitude + explicit benefits]]]\n'
  table=lambda title,rows:render('## '+title+'\n| Choice | HP |\n|---|---:|\n'+'\n'.join(rows),p,base=1).replace('#rule-table(2,','#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,')
- intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock and Conditioned Body, for example, each add 1 HP.\n\nHP does not increase automatically with level. Record current HP separately from your maximum.],['+table('Class',classes)+'])\n'
- intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n12 + 4 ancestry + 5 class + 2 Fortitude = *23 HP*. With the hill dwarf’s HP trait and Conditioned Body, the total is *25*.],[*Halfling Arcanist*\n\n12 + 1 ancestry + 2 class − 1 Fortitude = *14 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
+ intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock and Conditioned Body, for example, each add 1 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. At level 0 use 10 + ancestry + Fortitude + benefits. Record current HP separately.],['+table('Class',classes)+'])\n'
+ intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With the hill dwarf’s HP trait and Conditioned Body, the total is *20*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
  intro+='#tail-art("hp-vitality")\n'
  return intro
 
@@ -435,9 +431,8 @@ for folder,title in [('equipment','Equipment entries'),('recipes','Recipes')]:
 parts.append(manuscript('11-summons.md','11','Summoned Companions'))
 parts.append(summon_roster())
 for p in sorted((DESIGN/'bestiary/summons').glob('*.md'),key=name):parts.append(summon_card(p))
-parts.append(section('12','Wound Tables'))
-parts.append('#note[Roll 3d6 plus one die per prior wound, maximum five dice total. Keep the highest three, sort ascending and read the three-digit result. Use the damage-type table. Each wound always leaves a scar; treatment removes only its printed treatable effects. See Harm and Recovery for the complete procedure.]\n')
-p=DESIGN/'rules/wounds.md';record(p,'wound-tables');parts.append('#metadata('+q(key(p))+')<'+key(p)+'>\n'+render(clean(p),p,base=1))
+parts.append(section('12','Scars and Survival'))
+p=DESIGN/'rules/wounds.md';record(p,'scar-reference');parts.append('#metadata('+q(key(p))+')<'+key(p)+'>\n'+render(clean(p),p,base=1))
 parts.append(section('13','Ready-to-Play Heroes'))
 parts.append('#twocol[These six level-1 heroes show complete creation, including both DP ledgers and paid equipment. Use one as written or follow its ledger as an example. A changed choice must still meet requirements. Lira is an archer built as a Blade; the Warden provides another route to a wilderness-focused hero.]\n')
 hero_intro=(DESIGN/'characters/README.md').read_text()
@@ -461,7 +456,7 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))
-manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':44,'recipes':10,'summon':73,'character':6}}
+manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':45,'recipes':10,'summon':73,'character':6}}
 manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
 manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

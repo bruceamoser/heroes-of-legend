@@ -32,16 +32,15 @@ from Knowledge, Reason and Guile apply only at levels 0 and 1, not to later awar
 | 9 | 17 | — |
 | 10 | 18 | — |
 
-Grit grants add the new point; they do not refund previous expenditure. Attributes
-and HP do not rise automatically with level. Cards may provide their explicit,
-limited increases. Discipline ranks are purchased in sequence at class prices,
+Grit grants add the new point; they do not refund previous expenditure. Attributes stay fixed. Each new level adds the ancestry and class HP contributions;
+fixed HP benefits are added only once. Discipline ranks are purchased in sequence at class prices,
 and the hero must meet a card's requirements before buying it. There are no
 prerequisite-card chains or access to a second class's signatures.
 
 > **Example: reaching level 3.** A hero receives 11 DP, gains one Grit and chooses
 > a level-3 signature from their class. They can now buy eligible Adept cards, but
-> still need those cards' discipline requirements. Their base attributes and HP
-> remain the same unless a specific purchase or effect changes them.
+> still need those cards' discipline requirements. Their attributes stay fixed; add ancestry + class contributions to maximum HP.
+> Add the same gain to current HP unless they are at 0.
 
 Review the group's new choices before preparing the next adventure. A new route,
 healing option or area attack can change what an obstacle asks of the party.
@@ -50,130 +49,78 @@ to enjoy the choice they made.
 
 ## Safe places and downtime
 
-A safe place is a judgment about the situation, not a magical property of an inn.
-A guarded camp may be safe; a room above a hostile tavern may not. Explain the
-reason when the party asks whether it can spend DP or take a breath. Do not move
-the standard simply because you hoped to keep them under pressure.
+Explain whether a campsite permits safe overnight rest before the group commits
+to it. Eight hours, including six hours of sleep or equivalent stillness, restores
+HP and SP and renews the recipient's first-aid allowance, at most once in 24 hours.
+Food, water and adequate shelter are required. A fight, forced travel or strenuous
+work interrupts the rest; brief waking and routine watch do not. There is no
+short-rest reset. Safe time for spending DP need not be enough time for recovery.
 
-Distinguish a safe breath from longer work. HP recovery does not complete a
-four-hour fitting attempt, buy ingredients or advance a research project by a day.
-For downtime, ask each player what they do, record the required time and resources,
-and resolve only consequential uncertainty.
+Track current HP and SP between encounters. Ten minutes can permit supplied First
+Aid, but cannot replenish everyone's resources. Respect intelligent retreat and
+preparation. Pressure can come from time, enemies and objectives; do not invent an
+ambush merely to prevent a rest that was already established as safe.
 
-Track the wound receiving treatment, its accumulated recovery progress and whether
-it has had today's attempt. Track crafting by recipe and supply; track derivation
-by its own interval and target. Several heroes can pursue different projects,
-but they cannot pool group rolls into crafting, derivation or treatment.
+## Keep the survival sequence clear
 
-## Grit is a lasting resource
+At positive HP, damage reduces HP normally. At 0, a hero enters Dying and becomes
+unconscious and prone. Each Dying turn begins with a Fortitude death roll. Weak
+adds one mark; Standard changes nothing; Strong stabilizes at 0 and clears marks.
+Retained natural 111 adds two marks instead of one; 666 restores 1 HP and clears
+marks. Further damage while already at 0 causes one immediate death roll per
+damaging event, including damage to a stabilized hero. It does not automatically
+add a mark. The initial hit taking positive HP to 0 does not add this extra roll.
 
-Characters begin with 2 Grit at level 1 and gain a point at levels 3 and 7. A
-once-only learned card can provide another. Ordinary rest does not refill it.
-Keep both grants and expenditure visible, so the player knows what remains when
-a dangerous choice arrives.
+At three marks the hero dies unless Grit or an explicit prevention resolves
+immediately. Grit can be spent after seeing a death roll that adds marks, including
+the third. It sets HP to half maximum, rounded up, clears marks and ends Dying.
+It costs no action and never refreshes. Gain one point each at levels 1, 3 and 7;
+these are the only grants. Record grants and expenditure separately.
 
-Do not use a fixed quota of encounters to grind away Grit. Give dangers understandable
-stakes and opportunities to prepare, negotiate or withdraw. Choosing to risk a
-remaining point for a companion should feel like the player's decision. A campaign
-can remain challenging through objectives, rivals and changed circumstances without
-making every journey an unavoidable sequence of fights.
+Anyone can Stabilize an adjacent Dying hero with a Maneuver and no roll. Clear
+marks, end Dying and leave the hero at 0 HP, conscious but unable to take actions
+or voluntary movement. They can speak and accept aid. Further damage returns them
+to Dying and causes an immediate death roll. Positive healing ends Dying and
+HP-caused unconsciousness, without removing unrelated conditions.
 
-## When a hero reaches 0 HP
+State HP, marks, remaining Grit and relevant conditions. The fallen hero's player
+chooses whether to spend their Grit. Keep turn timing while Dying or immediate
+hazards remain. Ordinary NPCs die at 0; summons disappear. Do not give every enemy
+the heroes' death rolls or lifetime reserves.
 
-A player character enters **Dying**, immediately suffers a new wound, and follows
-the survival procedure. Ordinary creatures and NPCs die at 0 instead; they do not
-automatically gain the heroes' death rolls or Grit. A summoned form disappears.
+## Treatment and magical healing
 
-Roll 3d6 plus one die per prior wound, capped at five dice total. Keep the highest
-three, sort them from low to high, and read them as a three-digit result. The new
-wound joins the count after this roll. Treatment never removes a scar from the count.
+First Aid takes ten uninterrupted minutes, a first-aid supply and a Knowledge
+roll: restore 2/4/6 HP. Each recipient has one attempt between safe overnight rests,
+shared across all helpers and treatment abilities. Mark it when the attempt
+begins, even if interrupted. Treatment ignores Life resistance. Stabilization and
+condition-removal actions do not use this allowance.
 
-Choose the table for the largest damage component **after resistance**; the player
-chooses ties. When all components were resisted and only the minimum 1 damage
-causes the wound, the player chooses among the attack's original damage types.
-Physical includes force and sonic. Fire, Cold and Lightning share Elemental wounds
-but retain separate resistances. Mental, Radiant and Life/Necrotic each have a table.
+Learned treatment improves that attempt. Magical healing instead spends the
+caster's SP and can be repeated while SP remains; it does not consume first aid.
+A potion uses its printed inventory die. Apply Life resistance to magical healing
+and potions. A creature cannot receive more than its missing HP.
 
-> **Example: the second wound.** A hero with one prior wound rolls 2, 4, 4 and 6.
-> Keep 4, 4, 6 and read **446**, not fourteen. If the attack dealt 2 Physical and
-> 1 Fire but both were fully resisted, the minimum damage still applies and the
-> player chooses Physical or Elemental for that result.
+A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
+their controller's SP instead and cannot receive healing. SP returns after safe
+overnight rest, not by repeatedly healing one another. The Player's Book and
+[shared recovery procedure](../../rules/recovery.md) give the complete rules.
 
-If a body part is absent or the result cannot apply, advance to the next listed
-result, such as 116 to 122, until an applicable entry is reached. Do not reroll
-for a more convenient wound. All tables end at 666.
+## Scars and a hero's death
 
-## Keep the survival choice clear
+A survived incident that brought a hero to 0 leaves one descriptive scar. Several
+falls during that incident do not require several rolls or injury records. Ask the
+player what they wish to remember. Scars carry no penalties, Boons or treatment
+requirements. Do not turn a cosmetic description into a lost limb or compelled
+behavior. [Scars and Survival](../../rules/wounds.md) offers prompts.
 
-At the start of a Dying turn, the player chooses to spend one Grit or make a death
-roll. That choice stands for the turn; they cannot see the roll before deciding.
-Spending Grit restores full HP but preserves the wound.
+If a hero dies, give their player room for a farewell or silence. This is narration,
+not a two-round grace period for more actions or healing. Ordinary healing cannot
+restore the dead. Any exceptional prevention must act before death is final.
 
-| Fortitude death roll | Result |
-|---|---|
-| Weak | Add 1 death mark. |
-| Standard | No change. |
-| Strong | Stabilize at 0 HP and clear death marks. |
-| Retained natural 111 | Add 2 death marks instead of the ordinary Weak result. |
-| Retained natural 666 | Restore 1 HP and clear death marks. |
-
-At three death marks, the character enters Last Words. Damage while already Dying
-adds one mark per damaging event, not another wound. Damage that returns a stabilized
-character to Dying causes a new wound and adds one mark.
-
-The universal Stabilize Maneuver targets an adjacent Dying PC, clears their marks
-and leaves them at 0 HP, unable to act. Healing above 0 clears marks and ends
-HP-caused unconsciousness, but does not remove an unrelated condition. A safe
-breath cannot be used to skip an unresolved Dying procedure.
-
-Run this moment carefully. State the current HP, marks, Grit and relevant conditions.
-Other players can decide how to help, but the fallen hero's player chooses whether
-to spend their Grit.
-
-## Treatment removes effects, not history
-
-Each wound identifies its lasting penalties, required treatment and **Recovery
-Value**, or **RV**. Use the appropriate card and its full work interval. Weak,
-Standard and Strong add 1/2/3 recovery progress. Each wound can receive only one
-treatment attempt per day across all healers.
-
-When progress reaches RV, remove exactly the listed treatable effects. The scar
-and wound count remain. A separate temporary condition uses its normal decay or
-removal; it does not restart because the wound is still recorded.
-
-> **Example: a shoulder wound.** Physical 333 applies Bleeding 1 and a lasting
-> Bane to physical activities. Bleeding resolves and decays, or can be reduced
-> appropriately. Soft Tissue treatment needs RV 3 to remove the Bane. Standard
-> treatment adds 2 on one day; Weak adds 1 on the next, completing treatment.
-> The scar remains and counts toward later wound rolls.
-
-Use the broad language of physical or mental activities when applying wound Banes.
-Decide whether the injury matters to the task rather than requiring an argument
-about exactly which joint moved. Cosmetic and social consequences should likewise
-follow the entry; treatment that removes both a social Boon and Bane removes both.
-
-A replacement limb is a real project. The Simple Replacement Leg recipe makes a
-prosthesis; Fit a Replacement then fits it and relieves only the penalties the
-wound allows it to relieve. Owning a wooden leg does not itself erase a movement
-penalty, regrow a limb or remove the scar. A rest remedy applies only when printed.
-
-## Last Words and what follows
-
-A wound result of **666**, or three death marks, begins **Last Words**. The character
-can speak and do nothing else. They die at the end of the second following turn.
-Ordinary healing, treatment, potions and Grit cannot reverse this. Only an explicit
-exceptional ability could say otherwise.
-
-Give that time to the player. They may offer a warning, name a successor, speak to
-a friend or remain silent. Do not require a speech or turn the moment into a test
-of performance. Resolve any abilities triggered by hearing Last Words according
-to their own text.
-
-Afterward, let the group decide what the company does. A funeral, a journey home
-or a promise to finish the work may matter more than immediately introducing
-another threat. Discuss a replacement character promptly so the player can return
-to active participation. Agree on entry circumstances and starting resources openly;
-this book does not impose an unreviewed universal replacement package.
+Let the company decide what comes next: a funeral, a journey home, a promise or
+an urgent escape. Discuss a replacement character promptly so the player can
+return to participation. Agree on entry circumstances and resources openly.
 
 ## Capture, retreat and retirement
 

@@ -36,8 +36,7 @@ under the condition rules, not forever because the attack’s duration is Instan
 “Once per round” resets at the start of your next turn.
 “Scene” means one continuous situation; a brief pause does not reset it.
 
-Healing costs 1/3/7 HP by tier, paid before the roll, bypassing resistance and leaving
-the caster above 0. Requires a free hand. Healing resistance is Life resistance;
+Healing costs 1/2/4 SP by tier, paid before the roll; the caster must have the SP. Requires a free hand. Healing resistance is Life resistance;
 minimum 1 applies only when HP is missing. No healing above maximum. Potions use
 their own fixed value and inventory die, with no spell outcome roll or caster cost.
 
@@ -79,7 +78,7 @@ uses Reason. They are distinct techniques, not permission to replace every attac
 attribute. When a card explicitly replaces a defense attribute, declare and pay its
 Reaction before rolling. No extra modifier is added.
 
-Beast forms keep your own HP, wounds and attributes; they are not disposable HP
+Beast forms keep your own HP, scars and attributes; they are not disposable HP
 pools. Use the form’s printed actions and equipment restrictions. The new cards
 state how to enter and leave a form, so the table does not need a monster stat block.
 
@@ -153,7 +152,7 @@ total matter. Put separate effects in separate sentences or bullets. Show Weak,
 Standard and Strong rather than compressing a whole procedure into unexplained slashes.
 
 Finally, read every field against the card’s purpose. A swimming card must not carry
-a wound-treatment limit; an area card should say which creatures it affects rather
+a recipient treatment limit; an area card should say which creatures it affects rather
 than recite rules for unrelated target shapes. Structural checks cannot perform this
 editorial review, and passing them must not be presented as proof that wording is clear.
 

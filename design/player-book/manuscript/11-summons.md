@@ -46,8 +46,8 @@ summon, using ordinary grid distance. At 6 squares the summon remains; beyond
 
 ## Healing through a summon
 
-When a summon uses a printed healing ability, you pay its HP cost once before
-resolution, bypassing resistance. You must remain above 0 HP after payment.
+When a summon uses a printed healing ability, you pay its SP cost once before
+resolution. You must have enough SP.
 The summon uses its own attribute and outcomes and still requires its command
 and action. It can heal an eligible other creature, but cannot receive healing.
 Ordinary unsummoned healers pay their own cost.

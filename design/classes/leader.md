@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Guile, Fortitude; HP contribution +4. No multiclassing.
+**Agreed:** minimum 0 in Guile, Fortitude; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Influence, Guard, Arms, Scholarship.
 

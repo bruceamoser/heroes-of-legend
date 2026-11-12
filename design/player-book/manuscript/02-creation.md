@@ -43,15 +43,15 @@ Choose one of the ten ancestries. Record its HP contribution, base Speed and Siz
 where printed, then choose **two of its five traits**. Read the exact benefits: a
 description of keen eyes does not grant an extra sense unless the rules say so.
 
-| Ancestry | HP contribution | Base Speed | Starting coin contribution |
+| Ancestry | HP contribution per level | Base Speed | Starting coin contribution |
 |---|---:|---:|---:|
 | Human | +2 | 6 | +1 |
-| High Elf | +3 | 6 | +2 |
+| High Elf | +2 | 6 | +2 |
 | Wood Elf | +2 | 6 | +2 |
-| Hill Dwarf | +4 | 5 | +2 |
+| Hill Dwarf | +3 | 5 | +2 |
 | Deep Dwarf | +2 | 5 | +2 |
 | Halfling | +1 | 5 | +0 |
-| Tallfolk | +5 | 6 | +1 |
+| Tallfolk | +3 | 6 | +1 |
 | Gnome | +1 | 6 | +1 |
 | Goblin | +1 | 6 | +0 |
 | Oath-Bound | +2 | 6 | +1 |
@@ -148,22 +148,24 @@ future recipe opportunities separately.
 
 | Record | Calculation |
 |---|---|
-| Maximum HP | 12 + ancestry HP + class HP + Fortitude + explicit benefits |
+| Maximum HP | 10 + level × (ancestry HP + class HP) + Fortitude + explicit benefits |
 | Capacity | 10 + 3 × Brawn |
 | Encumbrance | Carried Bulk above capacity, minimum 0 |
 | Speed | Ancestry base + Agility − encumbrance, minimum 0 |
 | Stability | 0 unless an explicit grant raises it; highest source, cap 3 |
-| Starting Grit | 2, plus any explicitly purchased increase |
-| Starting wounds / death marks | 0 / 0 |
+| Starting Grit | 1 at level 1; gain 1 more at levels 3 and 7 |
+| Starting scars / death marks | 0 / 0 |
 
-HP does not automatically grow each level. A purchase such as Conditioned Body can
-increase it within that card's limits. Record current and maximum HP separately.
+At each new level after 1, add ancestry + class HP contributions. Fortitude and fixed
+HP benefits are added only once. At level 0 use 10 + ancestry HP + Fortitude + explicit benefits. Record current and maximum HP separately.
 Record your highest resistance for each damage type, never a sum of matching armor.
 
 > **Example — Borin's pack.** Borin is a dwarf Protector with Fortitude +2. His base
-> maximum HP is 12 + 4 + 5 + 2 = 23. His chosen trait and Conditioned Body each add
-> 1, giving 25. Brawn +1 gives capacity 13. His 11 Bulk fits, so Agility +0 leaves
+> maximum HP is 10 + 3 + 3 + 2 = 18. His chosen trait and Conditioned Body each add
+> 1, giving 20. Brawn +1 gives capacity 13. His 11 Bulk fits, so Agility +0 leaves
 > his dwarf base Speed at 5. Armor does not automatically add Stability.
+
+Record **3 maximum SP at level 0**, plus **3 from class at level 1**, for **6 SP** before explicit benefits. Ancestry, culture and background contribute 1 each. SP pays for magical healing; it does not grant spell knowledge.
 
 ## 9. Take coins and shop
 
@@ -213,6 +215,6 @@ need every listed rank. Class signatures require only their class and level; ext
 eligible signatures can be purchased for the same tier price.
 
 Your Grit increases are universal experience, not class features. They do not refund
-previous expenditure. A once-only learned card can grant one additional Grit. Ordinary
+previous expenditure. Only the level 1, 3 and 7 milestones grant Grit. Ordinary
 rest does not refresh Grit. Your abilities, scars and choices tell the story of the
 hero you become.

@@ -17,16 +17,14 @@ Use the current catalog choices and the advancement rules below.
    Buy ranks at class prices and eligible abilities. Spend or lose the pool.
 7. Resolve explicit equipment and recipe grants. One compatible weapon can serve
    several attacks; do not grant or count it twice. Describe its appearance now.
-8. HP = 12 + ancestry contribution + class contribution + Fortitude + explicit
+8. HP = 10 + level × (ancestry contribution + class contribution) + Fortitude + explicit
    chosen benefits. Capacity = 10 + 3 × Brawn. Every Bulk above capacity reduces
    Speed by 1. Speed = ancestry base + Agility − that penalty, minimum 0.
 
 Record Stability 0 unless an explicit chosen trait, ability or item grants more.
 Use the highest applicable value, maximum 3; do not derive it from attributes.
 
-Grit begins at 2 at level 1, plus one at levels 3 and 7. Grit expenditure persists;
-a purchased once-only card may grant another point. There is no class-based automatic
-attribute or HP growth. Small HP purchases are explicitly limited per level.
+Grit grants one point each at levels 1, 3 and 7; expenditure is permanent. These are the only Grit grants. Add ancestry + class HP contributions at each new level; attributes stay fixed. At level 0, use 10 + ancestry contribution + Fortitude + explicit benefits. See [recovery](rules/recovery.md) for SP, treatment and level-up handling.
 
 DA awards milestone levels. Level 2 onward grants 8 + new level DP; bank it, spend
 only in a DA-approved safe place. Tier 1/3/7 cards normally cost 2/4/8 DP. The six [1-DP shared abilities](card-conventions.md) are Novice exceptions: no discipline requirements, purchase once each, available at level 0 and later. Ranks must be

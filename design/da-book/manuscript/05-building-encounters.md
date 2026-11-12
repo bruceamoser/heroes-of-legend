@@ -14,7 +14,7 @@ calibrated to promise a particular fight length or chance of injury.
 
 1. **Choose the objective.** What do the heroes want, and what does the opposition want?
 2. **Review the party.** Note actual levels, attack options, healing, control, mobility,
-   supplies, wounds and available Grit.
+   supplies, current HP/SP and available Grit.
 3. **Choose an initial CV budget.** Account for party size, level and intended danger.
 4. **Select a roster.** Give its members useful roles and understandable reasons to act.
 5. **Draw the relevant terrain.** Show approaches, exits, sight lines and hazards.
@@ -162,10 +162,9 @@ than its total suggests.
 ## Healing, flight and summoned allies
 
 Healing follows the same rules for players and ordinary NPCs. A healer pays the
-printed HP cost before resolution and must remain above 0. Free hands, range,
-actions, Life resistance and opportunity attacks matter. Give the party visible
-information about enemy healing rather than silently increasing its cost or limiting
-it to a number of uses.
+printed SP cost before resolution and must have enough SP. Free hands, range,
+actions, Life resistance and opportunity attacks matter. An ordinary NPC healer has 6 SP unless its entry prints another reserve. Give the
+party visible information about enemy healing; track the actual reserve.
 
 A flying creature needs the flight actually printed on its card. Review its ability
 to attack while staying out of reach and what the party can do about that. Do not
@@ -183,14 +182,14 @@ turn. Do not automatically increase the budget to erase a summoner's investment.
 ## Observe, then adjust the estimate
 
 For playtests, record the actual party and supplies rather than an idealized average
-hero. Note rounds, healing actions and HP costs, Grit spent, new wounds, depleted
+hero. Note rounds, healing actions and SP costs, Grit spent, new scars, depleted
 supplies, escapes, disabled turns, and whether players discovered the intended
 counterplay. Record whether the encounter was enjoyable as well as whether the
 company survived.
 
 The design targets are roughly four rounds for a typical encounter, six for a hard
 one and ten for an extreme one. A reasonably prepared party's typical encounter
-is intended to have about a 20–30% chance of at least one new wound without a healer,
+is intended to have about a 20–30% chance of at least one hero falling to 0 HP without a healer,
 or 5–15% with one. These are goals across many trials, not requirements for an
 individual table or evidence that this budget achieves them.
 

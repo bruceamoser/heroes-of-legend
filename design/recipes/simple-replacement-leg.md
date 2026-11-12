@@ -13,4 +13,4 @@
 
 Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.
 
-Requires Fit a Replacement before relieving any wound effect; the wound must permit replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.
+Requires Fit a Replacement to fit it for ordinary standing and walking by a person missing a leg. A descriptive scar never requires a replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.

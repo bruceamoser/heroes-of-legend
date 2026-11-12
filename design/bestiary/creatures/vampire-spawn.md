@@ -39,7 +39,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Weak defense:** Restore up to 2 HP from HP lost by a living target. **Standard defense:** Restore up to 1 HP from HP lost by a living target.
 
-**Limit:** At the printed outcomes, restore at most 1 or 2 HP to the attacker, never more than the HP actually lost by a living target to this attack after resistance. Life resistance on the recipient reduces this recovery, minimum 1 only if a positive amount is transferred. No recovery from a target that loses 0 HP or is not living. This transfer grants no wound treatment.
+**Limit:** At the printed outcomes, restore at most 1 or 2 HP to the attacker, never more than the HP actually lost by a living target to this attack after resistance. Life resistance on the recipient reduces this recovery, minimum 1 only if a positive amount is transferred. No recovery from a target that loses 0 HP or is not living. This transfer grants no treatment.
 
 ### Slip Through Shadow
 

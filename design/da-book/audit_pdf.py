@@ -89,10 +89,11 @@ short=[i+1 for i,n in enumerate(page_words) if n<30 and i!=0]
 if short:errors.append('Unexpected nearly empty pages: '+str(short))
 text=B/'output/proof.txt';subprocess.run(['pdftotext','-layout',str(pdf),str(text)],check=True)
 s=text.read_text();pages=s.split('\f')
-start=next(p for t,p in outline if t=='Wound Tables');end=next(p for t,p in outline if t=='Creature Indexes')
+start=next(p for t,p in outline if t=='Scars and Survival');end=next(p for t,p in outline if t=='Creature Indexes')
 wounds='\n'.join(pages[start-1:end-1])
 rolls=re.findall(r'^\s*([1-6]{3})\s+',wounds,re.M)
-if len(rolls)!=280:errors.append(f'Wound table row count {len(rolls)} != 280')
+if rolls:errors.append('Obsolete wound table results remain')
+if 'Scars and Survival' not in s:errors.append('Missing scar reference')
 raw=B/'output/da-guide-unoptimized.pdf'
 raw_text=subprocess.check_output(['pdftotext','-layout',str(raw),'-'])
 if raw_text!=text.read_bytes():errors.append('Image compression changed extracted text')

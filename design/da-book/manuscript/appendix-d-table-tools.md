@@ -23,7 +23,7 @@ history nobody has time to read.
 | Before play | Notes |
 |---|---|
 | Party: names, levels, cards and relevant defenses | |
-| Current HP, Grit, wounds and important supplies | |
+| Current HP, SP, Grit, scars and important supplies | |
 | Heroes' objective; opposition's objective | |
 | Initial budget and difficulty intention | |
 | Roster, individual CVs and total, including possible waves | |
@@ -34,8 +34,8 @@ history nobody has time to read.
 | After play | Notes |
 |---|---|
 | Rounds and how the encounter ended | |
-| HP loss; healing actions and caster HP costs | |
-| Grit spent; new wounds; deaths or Last Words | |
+| HP loss; healing actions and caster SP costs | |
+| Grit spent; new scars; deaths | |
 | Supplies depleted or equipment lost | |
 | Disabled turns and important movement effects | |
 | Counterplay discovered and used | |
@@ -70,15 +70,15 @@ history nobody has time to read.
 
 ## Recovery record
 
-| Hero | Prior scars | Current wound/table result | Lasting effect | Treatment / RV | Progress | Last attempt day |
-|---|---|---|---|---|---|---|
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
+| Hero | Current / max HP | Current / max SP | Grit left / granted | Death marks | First aid used? |
+|---|---|---|---|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
 
-Keep Grit expenditure and grants separately from treatment. Completing treatment
-removes the listed effect, not the scar. A wound receives at most one treatment
-attempt per day across every healer who could treat it.
+Record first aid once per recipient between safe overnight rests, across all
+helpers. Record scars separately as descriptions of incidents, without penalties.
+Grit is gained once at levels 1/3/7 and never refreshes.
 
 ## Turn and outcome reminder
 
@@ -86,12 +86,12 @@ attempt per day across every healer who could treat it.
 |---|---|
 | Combat begins | One unmodified 3d6: 12+ players start, otherwise opposition. That side starts every round. |
 | Choose next actor | Alternate sides; each chooses an unacted member. Finish the remaining side when the other has none. |
-| Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, choose Grit or death roll. |
+| Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, make a death roll or spend Grit; Grit is also allowed immediately after a roll adds marks. |
 | Before rolling | Declare card, target, action, applicable Boons/Banes and consequences. |
 | Provoking action starts | Available opportunity Reaction resolves Basic Melee first; continue if capable. |
 | Resolve attack | Correct attacker/defender perspective; full outcome, weakness then resistance; minimum 1 per damaging event. |
 | End of turn | Resolve temporary condition effects, then decrease their ratings by 1. Use printed expiries for other effects. |
-| Danger ends | Resolve Dying and immediate hazards; take a safe breath when possible. HP returns; wounds and spent Grit remain. |
+| Danger ends | Resolve Dying and immediate hazards; record HP/SP spent. First Aid needs time and supplies; overnight rest restores HP/SP, never Grit. |
 
 ## Condition reference
 
@@ -109,10 +109,7 @@ actions. Use the greater restriction when they coexist. Paralyzed, Asleep and
 Unconscious impose their immediate restrictions. Helpless-state defense Banes
 apply once when several such states overlap.
 
-## Wound reference
+## Scar reference
 
-The five complete wound tables follow the conditions. They retain all 280 authored
-results and their recovery values. Use chapter 8 for the wound roll, table choice,
-applicability fallback and survival procedure. The table's remedy states which
-lasting effects it removes; immediate displacement and temporary conditions do
-not recur merely because a scar remains.
+Scars and Survival follows the conditions. These are descriptive prompts, with no
+rolls, penalties or recovery tracks. Use chapter 8 for the survival procedure.

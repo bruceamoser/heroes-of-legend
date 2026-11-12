@@ -121,22 +121,17 @@ Measure between the nearest occupied squares of controller and summon, using
 ordinary grid distance; this applies to every footprint. Exactly 6 squares is
 within the tether; beyond 6 causes immediate disappearance.
 
-**Summoned healing — approved October 16, 2026:** the controller pays the healing
-ability’s printed HP cost instead of the summon, once, before resolution. Payment
-bypasses resistance and must leave the controller above 0 HP. Use the summon’s
+**Summoned healing:** the controller pays the healing
+ability’s printed SP cost instead of the summon, once, before resolution. The
+controller must have sufficient SP. Use the summon’s
 printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
 
 Ordinary travel has no routine roll and no exhaustion track. Group checks occur
 outside combat only: each participant adds 1/2/3 to a declared target. State binary
-or cumulative before rolling. No group crafting, recipe derivation or wound treatment.
+or cumulative before rolling. No group crafting, recipe derivation or treatment.
 
-After a safe breath, restore full HP. Grit expenditure and wounds persist. Player
-characters enter Dying at 0; creatures normally die there. Attacks are lethal unless
-an explicit ability permits a different outcome; grapple/restraint can capture.
-
-[Recovery boundary](recovery.md) records what is preserved and what still needs a
-complete standalone reference before this draft is used without the agreed spec.
+Safe overnight rest restores HP and SP; first aid uses one recipient allowance between rests. Scars are descriptive; Grit is gained once at levels 1/3/7 and never refreshes. At 0 HP heroes enter Dying; further damage causes an immediate Fortitude death roll. Three death marks kill unless Grit or an explicit prevention resolves immediately. See [recovery](recovery.md) for the complete procedure.
 
 [Latest perception, timing and movement decisions](session-resolution.md) supersede
-earlier timing notes. [Full conditions](conditions.md), [wounds](wounds.md), and
+earlier timing notes. [Full conditions](conditions.md), [scars](wounds.md), and
 [encounter calibration](encounters.md) complete the current working references.

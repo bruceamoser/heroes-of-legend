@@ -121,12 +121,12 @@ Fresh safe water can refill its flask freely; a town refill costs 1 coin if char
 | Ordinary porter or laborer | 3 | One safe workday; load agreed in advance |
 | Skilled local worker | 6 | One safe workday; tools/materials extra if needed |
 | Local wilderness guide | 8 | One travel day on an agreed route; no combat obligation |
-| Wound-treatment appointment | 10 | One eligible attempt; no guaranteed recovery |
+| First-aid appointment | 10 | One supplied treatment; uses the recipient’s daily allowance |
 | Ordinary magical identification | 8 | One attempt with an appropriate card; outcome as printed |
 | Minor mundane repair | 3 | One small job; replacement parts extra |
 
 A service fee buys the provider’s time, not an automatic Strong outcome. Daily
-wound-treatment limits still apply across all healers. Inn lodging does not refill
+treatment limits still apply across all healers. Inn lodging does not refill
 Grit or erase scars. Transport quotes grant no mount statistics or summon eligibility.
 Hired people have agency; wages do not buy disposable combatants or unlimited
 ability access. Extended hazardous work needs a specific agreement with the DA.
@@ -188,3 +188,7 @@ explorer with a potion costs 51, so the low end requires a small tradeoff. This
 is a purchasing target; calculate the actual purse from the starting allocation below.
 
 The [starting allocation](starting-coins.md) supplies base + ancestry + culture + background + class values, all within that target.
+
+## First-aid supplies
+
+A d6 supply costs 5 coins and weighs 1 Bulk. Use it for First Aid and learned treatment; check inventory after each attempt. One recipient can receive one treatment attempt between safe overnight rests.

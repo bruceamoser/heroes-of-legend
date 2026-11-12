@@ -162,7 +162,7 @@ outer door and warn future workers, leaving the guardians in place. Fighting is
 an option if the party wants to clear the chamber, not a hidden condition of Mara's
 payment. The guardians have no additional reinforcements or powers.
 
-If the party fights here immediately after the toll yard without a safe breath,
+If the party fights here immediately after the toll yard without healing or overnight rest,
 consider the accumulated pressure. Do not call the pair of encounters a single
 standard fight just because each total is below 40. Both rosters and all expended
 resources belong in the session's record.

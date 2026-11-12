@@ -104,8 +104,8 @@ Cards define exceptional capabilities and area dimensions. Use the shared
 [session rules](../rules/session-resolution.md) for ordinary hiding, falling,
 interruption and movement; creature categories add no unprinted rules.
 
-**Summoned healing — approved October 16, 2026:** the controller pays a summoned
-healer’s printed HP cost instead of the summon, once, before resolution. The payment
-bypasses resistance and must leave the controller above 0 HP. The summon uses its
-own printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
+**Summoned healing:** the controller pays a summoned
+healer’s printed SP cost instead of the summon, once, before resolution. The controller
+must have enough SP. The summon uses its
+own printed attribute and outcomes. Ordinary unsummoned healers pay their own cost and have 6 SP unless another reserve is printed.
 Numerical CV and budget assumptions remain design notes, not proof of encounter difficulty.

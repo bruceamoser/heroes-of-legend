@@ -188,7 +188,7 @@ can call for Agility after you establish what is at stake.
 Falling uses the existing rate of 3 HP per two squares fallen. Do not conceal a
 fall's height until after a hero jumps. Resolve exceptional surfaces and landing
 circumstances openly; a hazard entry should state any specific additional condition
-rather than assuming every fall applies Prone or a wound.
+rather than assuming every fall applies Prone or an additional injury rule.
 
 ## Hazards during combat
 

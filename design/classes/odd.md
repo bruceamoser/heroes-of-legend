@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** no attribute minimums; HP contribution +3. No multiclassing.
+**Agreed:** no attribute minimums; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Arms, Marksmanship, Armor, Guard, Athletics, Subterfuge, Influence, Scholarship, Wilderness, Craft, Medicine, Flame, Frost, Storm, Life, Radiance, Mind, Calling.
 
@@ -37,6 +37,6 @@ cards of their tier. Each is an independent choice, not a progression chain.
 
 - **Level 1:** Speak a language through a spirit, distract with a borrowed voice, or blind an enemy with pocket sand.
 - **Level 3:** Release a poisonous wind, open a passage through a barrier, or project your spirit from your body.
-- **Level 7:** Borrow another’s expertise, fill the field with spectral witnesses, or postpone a companion’s Last Words.
+- **Level 7:** Borrow another’s expertise, fill the field with spectral witnesses, or delay a companion’s death long enough for a rescue.
 
 **Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

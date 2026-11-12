@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Knowledge, Reason; HP contribution +2. No multiclassing.
+**Agreed:** minimum 0 in Knowledge, Reason; HP contribution +1 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.
 

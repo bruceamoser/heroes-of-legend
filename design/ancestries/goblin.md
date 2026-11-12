@@ -12,7 +12,7 @@ A goblin adventurer may want to support a community, win recognition or simply d
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +1; base Speed 6; Size Small.
+**Starting values:** HP contribution +1 at creation and per level; base Speed 6; Size Small.
 
 - [Waste Nothing](trait-goblin-scavenger.md) — You turn the broken hinge over. There is good work left in it yet.
 - [Better Together](trait-goblin-more-of-us-than-you.md) — Your companion draws their eye, and you know exactly when to step in.

@@ -1,6 +1,6 @@
 # The Last Word
 
-*When you enter dying, take one Main Action before the Dying procedure. Then mark the wound and resolve Dying normally. Once per scene.*
+*When you enter dying, take one Main Action before the Dying procedure. Then resolve Dying normally. Record a descriptive scar if you survive. Once per scene.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self, when you enter Dying.
 
-Take one Main Action before the Dying procedure. Then mark the wound and resolve Dying normally. Once per scene.
+Take one Main Action before the Dying procedure. Then resolve Dying normally. Record a descriptive scar if you survive. Once per scene.
 
 **Duration:** Instant.
 

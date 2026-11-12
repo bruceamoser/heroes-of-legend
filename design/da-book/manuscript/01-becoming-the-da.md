@@ -43,11 +43,10 @@ what each hero hopes to accomplish and why these people would travel together.
 A shared debt, a rescue, a commission or a promise can bring very different heroes
 onto the same road.
 
-Discuss the game's lasting injuries and death. HP can return after a safe breath;
-spent Grit and wounds remain. Agree on how much detail the group wants when those
-injuries occur. A player can prefer a brief statement of a wound's effects without
-changing those effects. Establish a simple way for anyone to pause or redirect a
-scene when its content makes play uncomfortable.
+Discuss scars and death. HP returns through healing or safe overnight rest; spent
+Grit never refreshes. Players choose descriptive scars without mechanical penalties.
+Agree on the level of injury detail and a way to pause or redirect uncomfortable
+content.
 
 Set practical expectations as well: session length, attendance, how the group
 handles an absent player, and whether players enjoy speaking in character or
@@ -79,8 +78,9 @@ it does not create a routine miss. Since damage is only part of an attack, pay
 attention to the push that opens a route, the condition that changes a plan, or
 the maneuver that allows someone else to act safely.
 
-A safe breath restores HP. This lets the next encounter begin with heroes ready
-to act, while wounds and spent Grit preserve the cost of earlier danger. Do not
+HP and SP carry forward until recovered. A brief pause does not reset them;
+first aid, magical healing, supplies and safe overnight rest support continued
+adventuring. Scars and spent Grit preserve the history of earlier danger. Do not
 assume a campaign needs a fixed number of fights between rests. An encounter can
 matter because it costs time, exposes a secret, changes an alliance, or leaves a
 scar, even when everyone later returns to full HP.
@@ -93,7 +93,7 @@ witness. Invite a contribution without requiring every hero to roll in every sce
 Sometimes the right contribution is a question or a choice to trust a companion.
 
 Read the characters' less frequently used cards during preparation. Put opportunities
-for them in the world: tracks worth following, a wound that needs proper treatment,
+for them in the world: tracks worth following, a companion who needs first aid,
 an object whose history can be discovered. Present the opportunity clearly. A
 player should not need to guess that you prepared a scene for their expertise.
 
@@ -116,7 +116,7 @@ decision, offer to revisit that decision before proceeding.
 ## Close the session with something to carry forward
 
 Ask what the heroes intend to do next. Record people helped or harmed, promises,
-new information, treasure and unresolved threats. Confirm wounds, treatment progress,
+new information, treasure and unresolved threats. Confirm HP, SP, treatment allowances, scars,
 Grit and supplies with the players. Their plans tell you what to prepare; the
 consequences tell you what the world does while they prepare.
 

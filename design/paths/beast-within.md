@@ -12,7 +12,7 @@ requirements. An origin granting Wilderness 1 can put the idea within reach at l
 
 ## At the table
 
-Begin by changing form, then commit to claws, teeth and body weight. You carry the same wounds in every shape, and folded equipment cannot keep protecting you. Pounce can also be a momentary transformation, letting a human-form fighter borrow the leap without staying a beast.
+Begin by changing form, then commit to claws, teeth and body weight. You carry the same HP and conditions in every shape, and folded equipment cannot keep protecting you. Pounce can also be a momentary transformation, letting a human-form fighter borrow the leap without staying a beast.
 
 ## Give it room to grow
 

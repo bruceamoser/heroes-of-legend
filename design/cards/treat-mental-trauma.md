@@ -1,20 +1,24 @@
 # Treat Mental Trauma
 
-*Choose one wound on yourself or a willing patient listing Mental treatment. Make a Reason treatment roll. On a Standard result, add 2 recovery progress.*
+*You work carefully, easing pain and helping your patient recover their strength.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
-**Time:** One hour.
+**Time:** Ten uninterrupted minutes.
 
-**Target / range / shape:** One wound on yourself or a willing patient listing Mental treatment.
+**Target / range / shape:** Yourself or one willing, Dying or stabilized living creature within reach.
 
-Make a Reason treatment roll.
+Use one first-aid supply and the recipient's treatment allowance. Make a Reason roll.
 
-- **Weak:** Add 1 recovery progress.
-- **Standard:** Add 2 recovery progress.
-- **Strong:** Add 3 recovery progress.
+- **Weak:** Restore 3 HP.
+- **Standard:** Restore 5 HP.
+- **Strong:** Restore 7 HP and reduce temporary Frightened by 1.
+
+**Equipment / acquisition:** A free hand and first-aid supplies; check the inventory die after use.
+
+**Limits:** One treatment attempt per recipient between safe overnight rests, shared with First Aid and all other treatment abilities. Does not remove starred conditions or scars.
 
 ---
 

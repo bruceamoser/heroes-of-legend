@@ -1,14 +1,14 @@
 # Not Yet Your Name
 
-*Choose one adjacent willing or unconscious creature after it enters Dying and its wound is resolved. Pay 7 HP and restore 12 HP to the recipient.*
+*Choose one adjacent willing or unconscious creature after it enters Dying. Pay 4 SP and restore 12 HP to the recipient.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One adjacent willing or unconscious creature after it enters Dying and its wound is resolved.
+**Target / range / shape:** One adjacent willing or unconscious creature after it enters Dying.
 
-Pay 7 HP and restore 12 HP to the recipient.
+Pay 4 SP and restore 12 HP to the recipient.
 
 **Equipment / acquisition:** A free hand.
 

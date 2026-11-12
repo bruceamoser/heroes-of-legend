@@ -1,6 +1,6 @@
 # Use a Healing Potion
 
-*Self or one adjacent willing creature. Requires a free hand. The giver spends the Maneuver. Another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead or end Last Words.*
+*Self or one adjacent willing creature. Requires a free hand. The giver spends the Maneuver. Another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self or one adjacent willing creature
 
-Requires a free hand. The giver spends the Maneuver; another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead or end Last Words.
+Requires a free hand. The giver spends the Maneuver; another recipient spends a Reaction unless at 0 HP. Restore the bottle’s printed fixed HP, apply Life resistance with minimum 1 actual healing where HP is missing, then check inventory. No outcome roll. Potions do not restore the dead.
 
 **Duration:** Instant
 

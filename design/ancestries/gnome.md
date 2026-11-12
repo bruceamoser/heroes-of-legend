@@ -12,7 +12,7 @@ Inventing and tinkering delight many gnomes: an unfamiliar mechanism invites exa
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +1; base Speed 6; Size Small.
+**Starting values:** HP contribution +1 at creation and per level; base Speed 6; Size Small.
 
 - [What’s It Made Of?](trait-gnome-whats-it-made-of.md) — You turn the device over, already asking why its maker put the hinge there.
 - [Eyes from Elsewhere](trait-gnome-one-more-question.md) — The painted door is convincing. Its shadow has forgotten where the sun is.

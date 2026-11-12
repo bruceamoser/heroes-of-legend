@@ -39,7 +39,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 ### Battle Mending
 
-One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 3, Standard 6, Strong 9 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 9, Standard 6, Strong 3 Life damage. Same cost; no healing riders.
+One adjacent living ally; free hand. Pay 1 SP first; the creature has a 6 SP reserve and must have enough to pay. A player rolls this creature’s Reason: Weak heals 3, Standard 6, Strong 9 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 9, Standard 6, Strong 3 Life damage. Same cost; no healing riders.
 
 ### Warding Light
 
@@ -63,7 +63,7 @@ One willing ally within 3 squares reduces Frightened by 1. Until this creature�
 
 **Purpose:** Keep the people under their care alive.
 
-**Tactics and retreat:** Heal an ally before trading staff blows; withdraw with wounded companions when life costs become dangerous.
+**Tactics and retreat:** Heal an ally before trading staff blows; withdraw with wounded companions when its SP reserve is low.
 
 **Counterplay and conversation:** Pressure the healer’s position, separate them from patients, or negotiate safe evacuation.
 

@@ -50,9 +50,10 @@ def validate(manifest):
         path = (DESIGN / source).resolve()
         if not path.is_relative_to(DESIGN) or not path.is_file():
             raise ValueError(f'Invalid source: {source}')
-    wound_rows = re.findall(r'^\| [1-6]{3} \|.*$', read(manifest['wounds']).split('## Physical\n', 1)[1], re.M)
-    if len(wound_rows) != 280:
-        raise ValueError('Expected all 280 wound results')
+    scar_text = read(manifest['wounds'])
+    if '# Scars and Survival' not in scar_text or 'never adds a mechanical' not in scar_text:
+        raise ValueError('Missing descriptive scar reference')
+    wound_rows = []
     return sources, creatures, wound_rows
 
 
@@ -121,12 +122,7 @@ def assemble():
             conditions = read(manifest['conditions'])
             table = conditions[conditions.index('| Condition |'):].split('\n\n', 1)[0]
             append_source(manifest['conditions'], '## Conditions at a glance\n\n' + table)
-            wounds = '## Physical\n' + read(manifest['wounds']).split('## Physical\n', 1)[1]
-            # Keep all tables and remedies intact; remove historical revision commentary.
-            wounds = wounds.replace('Physical includes sonic and force injuries. Broad activity Banes replace the earlier limb-, Force-, and attribute-specific penalties.', 'Physical includes sonic and force injuries.')
-            wounds = wounds.replace('Elemental 556 converts the earlier single-turn\nParalysis to **Paralyzed 1** under the shared decay rule.', '')
-            wounds = wounds.replace('Frightened uses the creature or phenomenon responsible as its source and now decays\nnormally; it no longer has the earlier until-safely-away duration.', 'Frightened uses the creature or phenomenon responsible as its source and decays normally.')
-            append_source(manifest['wounds'], '## Wound tables\n\n' + wounds, heading_shift=1)
+            append_source(manifest['wounds'], read(manifest['wounds']), heading_shift=1)
 
     records = []
     for family in manifest['families']:
@@ -186,7 +182,7 @@ def main():
         OUT.mkdir(exist_ok=True)
         for name, text in outputs.items():
             (OUT / name).write_text(text)
-    print(f'{count} sources; 192 creatures; 126 monster abilities; 73 summons; 280 wound results. ' + ('Assembly current.' if args.check else 'Markdown assembly written.'))
+    print(f'{count} sources; 192 creatures; 126 monster abilities; 73 summons; descriptive scar reference. ' + ('Assembly current.' if args.check else 'Markdown assembly written.'))
 
 
 if __name__ == '__main__':

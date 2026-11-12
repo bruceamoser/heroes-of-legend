@@ -9,7 +9,7 @@
 
 **Action:** Main Action
 
-Use the printed attack. Standard also applies Bleeding 1; Strong applies Bleeding 2. Bleeding resolves and decays at the target’s turn end. This is not a wound roll unless the ordinary Dying rule calls for one.
+Use the printed attack. Standard also applies Bleeding 1; Strong applies Bleeding 2. Bleeding resolves and decays at the target’s turn end. At 0 HP follow the ordinary Dying and immediate death-roll rules.
 
 **Limits:** Only creatures whose entries list this ability possess it. Printed
 entry values and restrictions apply; no ability grants unlisted actions.

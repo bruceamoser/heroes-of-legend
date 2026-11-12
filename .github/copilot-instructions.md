@@ -39,7 +39,9 @@ rules source.
 - Use squares. Matching resistance uses the highest value, normal cap 3;
   minimum 1 damage per event. Stability is an explicit grant, 0–3.
 - Summons are commanded energy forms, cannot receive healing and disappear at 0 HP.
-- HP returns after a safe breath; wounds and spent Grit carry forward.
+- Safe overnight rest restores HP/SP; scars are descriptive and Grit never refreshes.
+- Health rewrite #1306 supersedes old wound/RV/Last Words rules; use design/rules/recovery.md.
+- Bruce directed the new playtest numbers to be written as rules, without provisional labels.
 - “Skill” may be a card type. It does not reintroduce a skill modifier or skill sheet.
 
 The current catalog is approved for playtesting. CV and encounter budgets remain
