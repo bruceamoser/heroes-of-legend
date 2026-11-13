@@ -112,11 +112,13 @@ damage to attacks made with that melee weapon, with Burning 1 on Strong. It does
 not turn a ranged attack into a compatible use. A hero may own it before meeting
 the requirement, but cannot use its special benefit until qualified.
 
-A [Cincture of Might](../../equipment/cincture-of-might.md) gives its printed Brawn
-benefit while worn. It does not stack with another positive Brawn item and does
-not recalculate creation DP or class eligibility. Use explicit card text for cursed
-items that suppress bonuses or set an attribute; a curse is not permission to
-invent a hidden exception after its bearer acts.
+A [Cincture of Might](../../equipment/cincture-of-might.md) adds +1 Brawn while worn.
+For each attribute, apply the highest item bonus and the largest item penalty together.
+If an item sets an attribute to a specific value, use that exact value in place of
+the base attribute and its modifiers. A character can use one item that sets a given
+attribute at a time. State any curse exception on its card, including which bonuses
+it suppresses or which effects it overrides. Use the character's base attributes
+for creation DP and class eligibility.
 
 You can change an item's history and appearance to fit a campaign. A brass lens
 may come from a lighthouse or a buried observatory without changing its ability.

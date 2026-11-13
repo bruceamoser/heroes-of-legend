@@ -19,11 +19,10 @@ These are not exclusive lists. Roll the attribute printed on the ability you use
 Some techniques deliberately use an unusual attribute, such as Knowledge for a
 carefully studied attack. There is no added skill rating.
 
-Your chosen attributes stay fixed as you gain levels. Explicit items can modify an
-attribute while their rules apply. Ordinary published item adjustments run no
-higher than +2 or lower than −2, but can move your total outside the creation range.
-Matching bonuses do not add together: use the largest. A curse can explicitly
-suppress bonuses or set a value instead. Item changes never revise your creation DP.
+Your chosen attributes stay fixed as you gain levels. Use those values for creation
+DP and class eligibility. An item can change your effective attribute while its
+rules apply, even outside the creation range. See [Equipment and Recipes](10-equipment.md)
+for bonuses, penalties, and items that set an attribute to a specific value.
 
 ## Choose ancestry
 

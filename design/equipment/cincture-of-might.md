@@ -8,7 +8,7 @@
 
 **Requirements:** No discipline requirement; understanding not required. **Action:** Passive unless the effect says otherwise.
 
-Brawn +1 while worn. Does not stack with another positive Brawn item; does not change creation DP or class eligibility.
+While worn, this belt gives a +1 item bonus to Brawn. Apply the highest applicable Brawn item bonus.
 
 Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.
 
