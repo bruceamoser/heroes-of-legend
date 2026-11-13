@@ -1,7 +1,7 @@
 # Guard
 Be where someone needs you before they have to ask.
 
-These abilities require a held shield. Use your available Reaction for reactive techniques. Damage prevention always leaves at least 1 damage from each attack.
+These abilities require a held shield. Use your available Reaction for reactive techniques. Damage prevention uses the normal minimum for attacks that deal damage after immunity.
 
 ## Interception
 

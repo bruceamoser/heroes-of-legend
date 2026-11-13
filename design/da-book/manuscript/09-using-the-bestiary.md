@@ -30,7 +30,8 @@ collects healing, senses, signs, motives and encounter guidance.
 | Stability | Forced movement consumed by its resistance to displacement; highest grant, maximum 3. |
 | Weaknesses | Numerical damage weaknesses or explicit special vulnerabilities. Read the details. |
 | Resistances | Damage types and reductions. The Physical entry repeats Armor DR; never add them together. |
-| Immunities | Only the printed immunities apply. Category names grant none by themselves. |
+| Damage Immunities | Remove the named damage types from the event. |
+| Condition Immunities | Prevent the named conditions from applying. Use the immunities printed on the card. |
 
 **0** under Evasion or Threat means no modifier from that field. “1 Bane” means
 one Bane through the ordinary dice procedure, not minus one to a total.
@@ -135,11 +136,11 @@ attack used for opportunity attacks; do not substitute a specialty attack.
 
 ## Damage defenses in order
 
-For each damage component, add its applicable numerical weakness, then subtract
-its matching resistance. Use the highest value of a given type rather than adding
-several sources; the normal cap is 3. Do not add a weakness for a damage type the
-event never included. Apply minimum 1 damage to the whole damaging event after
-its components have been reduced.
+Remove damage components covered by immunity. For each remaining component, add
+applicable weakness, then subtract matching resistance and apply other reductions.
+Use the highest resistance of each type, normally capped at 3. Apply a minimum of
+1 total damage if any positive damage component survived immunity. If immunity
+removed every component, the event deals 0 HP damage.
 
 > **Example: mixed damage.** An event deals 4 Physical and 1 Fire. Fire Weakness 2
 > changes the Fire component to 3. Physical resistance 2 and Fire resistance 1
@@ -149,6 +150,18 @@ its components have been reduced.
 A special vulnerability follows its own wording. Fire stops the Bridge Troll's
 Knit Flesh for the stated interval; it does not automatically add Fire damage.
 The troll recovers HP only while above 0 and cannot regenerate from death.
+
+### Damage and condition immunities
+
+Damage immunities can name Physical, Fire, Cold, Lightning, Poison, Life, Radiant,
+Mental, or Force. Condition immunities name the exact condition. Current bestiary
+examples include Asleep, Bleeding, Blinded, Frightened, and Poisoned. Use the
+immunities printed for the creature or explicitly granted by an effect.
+
+Fire damage immunity removes the Fire damage from a hit and from any Burning
+ticks. Burning still applies and decays unless the creature is also immune to
+Burning. A hit that deals 0 damage can still push or apply another rider if the
+effect permits it. Resolve riders that require damage only when damage is dealt.
 
 ## Forced movement and Stability
 
@@ -171,7 +184,7 @@ can enter the last square and stop even if its cost exceeds that budget.
 Move the group as one creature using the original movement allowance that remains.
 Each new impact deals **physical damage** equal to the movement remaining at contact
 to every member of the group and whatever it strikes. Creatures and objects with
-HP each apply their own resistance, with a minimum of 1 damage. For an object
+HP each apply their own damage defenses. For an object
 without HP, judge the result from the impact and the object’s construction. A
 glass jug might shatter while a sturdy chest slides intact.
 

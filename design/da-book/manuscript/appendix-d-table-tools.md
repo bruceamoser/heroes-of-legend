@@ -89,7 +89,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 | Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, roll Fortitude. Weak adds a failure, Strong adds a success. Three failures mean death, three successes stabilize. Grit can intervene after a failure. |
 | Before rolling | Declare card, target, action, applicable Boons/Banes and consequences. |
 | Provoking action starts | Resolve the Opportunity Attack first. Heroes use Basic Melee with a held melee weapon or Basic Unarmed with a free hand. DA creatures use bestiary Basic Melee. Continue if capable. |
-| Resolve attack | Correct attacker/defender perspective; full outcome, weakness then resistance; minimum 1 per damaging event. |
+| Resolve attack | Read the full outcome. Remove immune damage, then apply weakness and resistance. Minimum 1 if any damaging component survives immunity. |
 | End of turn | Resolve temporary condition effects, then decrease their ratings by 1. Use printed expiries for other effects. |
 | Danger ends | Resolve Dying and immediate hazards; record HP/SP spent. First Aid needs time and supplies; overnight rest restores HP/SP, never Grit. |
 
@@ -108,6 +108,10 @@ Dazed and Grappled restrict category selection at turn start without undoing spe
 actions. Use the greater restriction when they coexist. Paralyzed, Asleep and
 Unconscious impose their immediate restrictions. Helpless-state defense Banes
 apply once when several such states overlap.
+
+At Grappled 3 or higher, escape requires release by a grappler or an outside
+intervention that breaks the hold. Moving a grappler beyond the hold’s reach or
+knocking them unconscious ends their contribution.
 
 ## Scar reference
 

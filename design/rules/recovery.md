@@ -48,7 +48,7 @@ or silence as part of that moment.
 
 ### Further damage
 
-Every damaging event while already at 0 HP causes **one immediate death roll**.
+Taking damage while already at 0 HP causes **one immediate death roll** per event. An event that deals 0 damage leaves the tallies alone.
 Apply the death roll's result once for the whole event. Later events such as
 Bleeding or Burning each trigger their own roll. Damage while stabilized
 first returns you to Dying, then causes this immediate roll. The event that first

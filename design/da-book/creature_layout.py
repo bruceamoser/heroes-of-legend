@@ -101,6 +101,7 @@ def parse_card(text):
     stats = '**Attributes:**' + stats
     stats = re.sub(r'(\*\*(?:Evasion|Threat):\*\*) None', r'\1 0', stats)
     left, defenses = stats.split('**Weaknesses:**', 1)
+    defenses = defenses.replace('**Immunities:**', '**Condition Immunities:**')
     return dict(description=description.strip(), stats=left.strip(),
                 defenses='**Weaknesses:** ' + defenses.strip(), tables=tables,
                 details=details, traits=traits, fields=fields, summon=summon)
