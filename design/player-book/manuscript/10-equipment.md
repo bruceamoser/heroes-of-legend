@@ -81,11 +81,16 @@ the crafting result produces; none of those are supplied by the recipe's name al
 and subtract the largest applicable item penalty. Published item modifiers range
 from −2 to +2. Your effective attribute can go beyond the creation range.
 
+**Cursed penalties.** If a cursed item penalizes an attribute, apply the largest
+applicable item penalty and ignore item bonuses to that attribute while the curse
+applies.
+
 **Set a value.** If an item sets an attribute to a specific value, use that exact
 value while the item applies. It replaces your base value and every bonus and
 penalty to that attribute. You can use one item that sets a given attribute at a
 time. Apply any exception printed on a curse card, such as suppressing item bonuses
 or taking precedence over other effects.
 
-> With Brawn +1, a +2 item bonus, a +1 item bonus, and a −1 item penalty, your
-> effective Brawn is +2. An item that sets Brawn to +3 gives you exactly +3.
+> With Brawn +1 and item bonuses of +2 and +1, your effective Brawn is +3. A cursed
+> item with a −1 Brawn penalty suppresses both bonuses and brings your Brawn to 0.
+> An item that sets Brawn to +3 gives you exactly +3 unless the curse overrides it.

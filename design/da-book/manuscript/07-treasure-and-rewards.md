@@ -114,6 +114,8 @@ the requirement, but cannot use its special benefit until qualified.
 
 A [Cincture of Might](../../equipment/cincture-of-might.md) adds +1 Brawn while worn.
 For each attribute, apply the highest item bonus and the largest item penalty together.
+If a cursed item penalizes that attribute, apply the largest item penalty and ignore
+item bonuses to that attribute while the curse applies.
 If an item sets an attribute to a specific value, use that exact value in place of
 the base attribute and its modifiers. A character can use one item that sets a given
 attribute at a time. State any curse exception on its card, including which bonuses
