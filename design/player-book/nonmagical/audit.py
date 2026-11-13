@@ -27,7 +27,7 @@ for page,d in enumerate(data,2):
 payload=json.loads((HERE/'combined.json').read_text())
 combined=payload['abilities']
 magic={m['id']:m for m in payload['magic']}
-assert [sum(c['count']==n for c in combined) for n in (2,3,4)]==[15,9,6]
+assert [sum(c['count']==n for c in combined) for n in (2,3,4)]==[21,12,8]
 fulltext=compact(' '.join(raw))
 endpoints={p['entries'][-1]['id']:p for d in data for p in d['paths']}
 for c in combined:
@@ -51,4 +51,4 @@ for n,page in enumerate(ET.fromstring(xml).findall('.//x:page',ns),1):
   a=w.attrib
   assert 34 <= float(a['xMin']) < float(a['xMax']) <= 578,(n,w.text,'horizontal overflow')
   assert 10 <= float(a['yMin']) < float(a['yMax']) <= 785,(n,w.text,'vertical overflow')
-print(f'PASS: {len(reader.pages)} pages; 176 base and 30 combined effects match source; exact endpoints, reverse links, distinct discipline counts, DP, gates and bounds checked.')
+print(f'PASS: {len(reader.pages)} pages; 176 base and 41 combined effects match source; exact endpoints, reverse links, distinct discipline counts, DP, gates and bounds checked.')

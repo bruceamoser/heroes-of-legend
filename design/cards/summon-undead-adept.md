@@ -1,21 +1,7 @@
 # Call Undead: Adept
 
-*Choose one visible unoccupied placement within 3 squares that fits the chosen form's entire footprint. Choose one Undead entry from the summon selection with a minimum tier of 3 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** None (no roll)
-
-**Target / range / shape:** One visible unoccupied placement within 3 squares that fits the chosen form's entire footprint.
-
-Choose one Undead entry from the summon selection with a minimum tier of 3 or lower. Call one instance using its summon profile. Choose the form anew each casting. It remains for one scene.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Calling 2
-
-**Type:** Magic / Summoning
+This former independent ability is retired. Use [Spirits I](../spellbooks/spirits.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** summon-undead-adept
-
-[Card conventions](../card-conventions.md)

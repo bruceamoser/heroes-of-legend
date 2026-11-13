@@ -16,7 +16,7 @@ Gain 1 additional square of available movement this turn. Spend it using normal 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Movement
 

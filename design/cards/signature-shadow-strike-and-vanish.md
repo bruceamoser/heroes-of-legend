@@ -16,7 +16,7 @@ Make an Agility roll against the target. Weak: 2 physical damage, and the target
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 3
 
 **Type:** Signature
 

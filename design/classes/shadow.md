@@ -6,11 +6,13 @@
 
 **Agreed:** minimum 0 in Agility, Guile; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
-**Starting disciplines:** choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.
+**Starting SP contribution:** +3 maximum SP once, at level 1.
 
-**Discipline pricing:** Home: Subterfuge, Marksmanship. Adjacent: Mind, Athletics. All others Foreign; no Opposed disciplines.
+**Starting disciplines:** choose two distinct disciplines from Subterfuge, Marksmanship, Mentalism, Athletics.
 
-Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.
+**Learning costs:** Discipline access costs 1 DP for every class. Learned steps cost 1/2/2/3 DP; the last requires level 3. Combined abilities require level 7 and cost 3/4/5 DP for two/three/four disciplines.
+
+Choose one class-exclusive signature at levels 1, 3 and 7. Each milestone grants one signature; additional signatures are not purchased separately. No discipline requirements.
 
 ## Level 1 choices
 

@@ -1,25 +1,7 @@
 # Sell the Feint
 
-*Choose one adjacent enemy that can see you. Gain 2 Boons to your next melee attack against the target this turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** One adjacent enemy that can see you.
-
-Gain 2 Boons to your next melee attack against the target this turn.
-
-**Equipment / acquisition:** A melee weapon.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Arms 1 and Subterfuge 1
-
-**Type:** Skill / Attack
-
-**Limits:** One unused feint benefit at a time.
+This former independent ability is retired. Use [Blade Ward I](../disciplines/arms.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** sell-the-feint
-
-[Card conventions](../card-conventions.md)

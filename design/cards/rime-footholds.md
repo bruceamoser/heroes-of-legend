@@ -1,21 +1,7 @@
 # Rime Footholds
 
-*Choose up to three connected solid-surface squares within 1 square. Grow handholds on up to three connected solid-surface squares within 1 square. Creatures can climb those squares using ordinary climbing movement. The holds last ten minutes and remain beneath current climbers until those climbers reach another secure hold. You may replace the set once its climbers are secure.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to three connected solid-surface squares within 1 square.
-
-Grow handholds on up to three connected solid-surface squares within 1 square. Creatures can climb those squares using ordinary climbing movement. The holds last ten minutes and remain beneath current climbers until those climbers reach another secure hold. You may replace the set once its climbers are secure.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Frost 1
-
-**Type:** Magic / Movement / Utility
+This former independent ability is retired. Use [Water I](../spellbooks/water.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** rime-footholds
-
-[Card conventions](../card-conventions.md)

@@ -16,7 +16,7 @@ A door-sized opening appears in the barrier. Only you and your worn or carried g
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

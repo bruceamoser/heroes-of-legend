@@ -17,12 +17,12 @@ Rope Coil costs 5; an ordinary melee weapon costs 12; a Lesser Healing Bottle co
 
 There is no established mandatory treasure total per level in this manuscript.
 Consider the party's current supplies, actual needs and opportunities to spend.
-A reward can be generous without buying a new discipline rank: coins purchase
-objects and services, while DP purchases character development.
+Coins let heroes pay for equipment, supplies and services. Award DP with
+milestone levels.
 
 | Reward | What the party gains | What it does not supply |
 |---|---|---|
-| Coins | Flexible purchasing power where goods are available | DP, discipline ranks or class signatures |
+| Coins | Flexible purchasing power where goods are available | Availability depends on the local market |
 | Equipment | A specific physical object | Unprinted training or an extra attack |
 | A supply | Its stated inventory die and uses | Guaranteed charges equal to the die's faces |
 | A recipe | Knowledge of a particular product | Crafting capability, tools or ingredients by itself |
@@ -137,22 +137,16 @@ no chance to recognize risk.
 
 ## Recipes, ingredients and work
 
-Crafting requires an appropriate capability, a known recipe, its tools and actual
-ingredients. Cards that grant recipes provide those stated choices; additional
-recipes can come through Ordinary Recipe Study, discovery or derivation. They
-are not automatically available for coin purchase.
+Use the recipe to establish how the hero learns it, what tools and materials it
+requires and how long an attempt takes. Trail Workshop teaches a choice of
+ordinary recipes. Others may come from a teacher or a discovery. Let the hero
+know what an attempt will consume before starting work.
 
-An identified object is not automatically a known recipe. Derivation uses its own
-ability, work intervals and cumulative target. Rare objects may require a long
-research project. Do not shorten that project through group rolls; neither crafting
-nor derivation uses group checks.
-
-> **Example: Bottled Morning.** A crafter with this ability knows the Lesser Healing
-> Bottle recipe. With a mixing kit, moonmint, clean water and prepared life salts,
-> they spend one hour and roll Knowledge. The outcome raises one compatible supply
-> by 1/2/3 inventory steps, but the recipe's cap is d4. From out, any result therefore
-> produces a d4 bottle. Strong does not create three bottles or exceed the cap.
-> Check carried ingredients after the attempt. The recipe is not free stock.
+> **Example — Lesser Healing Bottle.** A hero learns the formula from a healer
+> and gathers a mixing kit, fresh moonmint, clean water and prepared life salts.
+> After one hour of work, a Knowledge roll adds 1/2/3 inventory steps, starting
+> at d4 and capped at d4. From an empty supply, each outcome produces one d4
+> bottle. Check any carried material supply after the attempt.
 
 The ordinary d6 material bundle costs 12 coins, while prepared healing ingredients
 cost 80 for their d6 bundle. Each bundle must contain the materials the recipe

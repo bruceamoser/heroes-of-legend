@@ -16,7 +16,7 @@ Mark each target with a physical sigil. The first time a marked character would 
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 7
 
 **Type:** Signature
 

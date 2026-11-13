@@ -16,7 +16,7 @@ Make a Guile roll. Choose Frightened or Dazed on the target. Weak: reduce that c
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

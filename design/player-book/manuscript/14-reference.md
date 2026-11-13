@@ -1,8 +1,8 @@
 # Table References
 
 Use these pages when the action pauses for a rule. Keep your most-used abilities
-beside your sheet, along with the conditions currently affecting you. The tiered ability
-index includes universal actions, shared abilities and class signatures.
+beside your sheet, along with the conditions currently affecting you. Basic Actions
+lists the actions any hero can use.
 
 ## Your turn in order
 
@@ -18,7 +18,7 @@ index includes universal actions, shared abilities and class signatures.
 |---|---|
 | Ordinary roll | 3d6 + one attribute; Weak ≤8, Standard 9–14, Strong ≥15 |
 | Boons / Banes | Cancel; add up to 3 net dice; keep highest / lowest 3 |
-| Natural 111 / 666 | Weak + complication / Strong + benefit, using retained dice |
+| Natural 111 / 666 | Weak + complication / Strong + benefit. Death rolls use only the band. |
 | Initiative | One unmodified 3d6; 12+ players first; same side begins each round |
 | Action conversion | Main → Maneuver → movement; never upward |
 | Ordinary movement | Normal 1; difficult 2; diagonal 1; stand costs 2 |
@@ -27,8 +27,9 @@ index includes universal actions, shared abilities and class signatures.
 | Resistance | Highest matching type, cap 3; minimum 1 damage per event |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Healing spell cost | Novice 1, Adept 2, Master 4 SP; pay before resolving |
-| Potion | Free hand, Maneuver; another recipient uses Reaction unless at 0 HP |
+| Maximum SP, level 1+ | 6 + 2 × (level − 1) + learned capacity and explicit benefits |
+| Healing spell cost | Printed spell cost; pay before resolving |
+| Potion | Spend a Maneuver with a free hand. A different recipient above 0 HP spends a Reaction. |
 | Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
 | First Aid | Ten minutes + supplies; Knowledge heals 2/4/6; one attempt per recipient between rests |
 | Supplies | Roll inventory die after use; on 1, step down; last use works |
@@ -52,7 +53,7 @@ Banes cancel before applying their net cap.
 
 **Bulk.** An item's inventory load. Capacity and carried Bulk determine encumbrance.
 
-**Class.** Your signature identity and discipline pricing. Choose one; there is no multiclassing.
+**Class.** Your hero’s training at level 1. Your class offers starting disciplines and signature choices at levels 1, 3 and 7.
 
 **Complication.** An additional problem that does not erase progress already earned.
 
@@ -63,10 +64,9 @@ may measure severity, duration or both.
 
 **DA.** Dungeon Architect, the participant who presents and adjudicates the world.
 
-**Discipline.** A ranked field of study used to qualify for learned abilities. Rank
-alone grants no bonus or action.
+**Discipline.** A field opening four learning paths. Spend 1 DP to begin studying it, then learn the entries of your chosen path. Learn each path in order at 1/2/2/3 DP; its final step requires level 3.
 
-**DP.** Development Points, spent on eligible ranks and abilities. Level-0 and level-1
+**DP.** Development Points, spent to study disciplines and learn entries. Level-0 and level-1
 pools expire separately; later awards may be saved.
 
 **DR.** Damage reduction. Armor DR is physical resistance, applied after the attack outcome.
@@ -92,7 +92,7 @@ or openly revealing yourself ends it.
 
 **Inventory die.** A supply's remaining uncertainty. Roll after use; step down on 1.
 
-**Death.** Three death marks kill unless Grit or an explicit prevention resolves immediately. A farewell grants no extra actions.
+**Death.** Three failures on death rolls kill unless Grit or an ability intervenes immediately. The player can describe their hero’s Last Words.
 
 **Maneuver.** A smaller action used for movement techniques, setup, support and practical tasks.
 
@@ -104,17 +104,16 @@ is not itself a Reaction.
 **Treatment allowance.** One attempt per recipient between safe overnight rests, shared across First Aid and learned treatments.
 
 **Resistance.** Reduction to a matching damage type; highest source, maximum 3.
-Life resistance also reduces ordinary healing.
+Life resistance also reduces magical healing and potions.
 
 **Safe place.** A location the DA judges suitable for spending saved DP. Recovery requires the full safe overnight rest procedure.
 
-**Signature.** A class-exclusive ability. Its prerequisites are class and minimum level,
-not discipline ranks or earlier signatures.
+**Signature.** An ability you choose from your class at level 1, 3 or 7.
 
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Tier.** Novice, Adept or Master, with minimum levels 1, 3 and 7 and standard prices 2, 4 and 8 DP. Paid abilities without discipline requirements print exceptions: Novice 1 or 2 DP, Adept 3 DP, and Master 6 or 8 DP.
+**Learning.** Begin paths at level 0 and learn their final entries from level 3. From level 7, learn a combined ability after completing its named paths. Spend 3/4/5 DP for two/three/four disciplines.
 
 **Scar.** A descriptive reminder of surviving an incident at 0 HP; no mechanical penalties or treatment track.
 
@@ -128,4 +127,10 @@ strong or weak.
 
 ## Survival at a glance
 
-At 0: Dying, prone and unconscious. Fortitude each turn: Weak +1 mark; Standard unchanged; Strong stabilize at 0; natural 111 +2 marks; natural 666 regain 1 HP. Further damage at 0 triggers another immediate roll. Three marks kill unless prevented immediately. Stabilize: adjacent Maneuver, no roll, clear marks, conscious but unable to fight at 0. Grit: gain one at levels 1/3/7, spend permanently for half maximum HP rounded up, including after the third strike.
+When you fall to 0 HP, you enter Dying, fall prone and lose consciousness. Roll Fortitude at the start of each
+Dying turn and immediately after each damaging event while already at 0 HP.
+Weak adds one failure, Strong adds one success and Standard changes neither.
+Use only the result band, including on triples. Three failures mean death.
+Three successes stabilize you at 0 HP. An adjacent ally can stabilize you with
+a Maneuver. Clear both tallies on stabilization or recovery above 0 HP.
+Spend Grit for half maximum HP, rounded up, even after the third failure.

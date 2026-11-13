@@ -13,11 +13,13 @@ class WorkedExampleAuditTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.book = Path(self.temp.name)
-        for directory in ("characters", "cards", "paths"):
+        for directory in ("characters", "cards", "paths", "disciplines", "spellbooks", "origins", "classes", "equipment"):
             target = self.book / "design" / directory
             target.mkdir(parents=True)
             for path in (ROOT / "design" / directory).glob("*.md"):
                 shutil.copy2(path, target / path.name)
+
+        shutil.copy2(ROOT / "design/market.md", self.book / "design/market.md")
 
     def mutate(self, path, old, new):
         target = self.book / "design" / path
@@ -38,14 +40,14 @@ class WorkedExampleAuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "pool including explicit Adaptable"):
             verify(self.book)
 
-    def test_stale_checklist_fails(self):
-        self.mutate("characters/pip-copperwink.md", "— Maneuver; Agility.", "— Passive; None (no roll).")
-        with self.assertRaisesRegex(ValueError, "checklist Fade Behind"):
+    def test_missing_prerequisite_fails(self):
+        self.mutate("characters/pip-copperwink.md", "[Patient Hand II]", "[Patient Hand III]")
+        with self.assertRaisesRegex(ValueError, "prerequisites"):
             verify(self.book)
 
-    def test_old_path_name_fails(self):
-        self.mutate("paths/ancestral-guardian.md", "[Call Spirit: Master]", "[Summon Spirit — Master]")
-        with self.assertRaisesRegex(ValueError, "current title"):
+    def test_incorrect_market_price_fails(self):
+        self.mutate("characters/lira-ashbow.md", "| 9 | 1 |", "| 5 | 1 |")
+        with self.assertRaisesRegex(ValueError, "market price"):
             verify(self.book)
 
 

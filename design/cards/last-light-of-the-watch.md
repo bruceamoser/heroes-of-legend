@@ -1,21 +1,7 @@
 # Last Light of the Watch
 
-*Choose one visible willing ally within 3 squares before a defense roll. Reduce the target's temporary Blinded and Frightened by 1 each before the defense. It gains 2 Boons to that defense.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** One visible willing ally within 3 squares before a defense roll.
-
-Reduce the target's temporary Blinded and Frightened by 1 each before the defense. It gains 2 Boons to that defense.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Radiance 3
-
-**Type:** Magic / Defense / Recovery
+This former independent ability is retired. Use [Protection I](../spellbooks/protection.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** last-light-of-the-watch
-
-[Card conventions](../card-conventions.md)

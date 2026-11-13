@@ -15,6 +15,8 @@ def export(typst, root, book):
   command=[typst,'compile','--root',str(root),'--font-path',str(book/'fonts'),str(book/'book.typ'),str(raw)]
   subprocess.run(command,check=True)
   art=json.loads(subprocess.check_output([typst,'eval','--root',str(root),'--font-path',str(book/'fonts'),'--in',str(book/'book.typ'),'query(<art-placement>).map(it => it.value)'],text=True))
+  spreads=json.loads(subprocess.check_output([typst,'eval','--root',str(root),'--font-path',str(book/'fonts'),'--in',str(book/'book.typ'),'query(<spell-spread-page>).map(it => (book:it.value.book,side:it.value.side,page:it.location().page()))'],text=True))
+  (book/'generated/spell-spread-pages.json').write_text(json.dumps(spreads,indent=2)+'\n')
   duplicates={key:count for key,count in collections.Counter(a['asset'] for a in art).items() if count>1}
   if duplicates:raise RuntimeError(f'Repeated in-flow illustrations: {duplicates}')
   placements=plan(raw,art)

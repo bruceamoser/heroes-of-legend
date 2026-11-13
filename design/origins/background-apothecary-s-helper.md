@@ -6,11 +6,11 @@
 
 ## Rules
 
-**Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
+**Type:** Background. **Status:** Proposal. Choose one paired option; take the access and first entry together.
 
-- Scholarship 1 and [Identify a Mixture](../cards/identify-a-mixture.md).
-- Medicine 1 and [Relieve Poison](../cards/relieve-poison.md).
+- **Scholarship access** and [Recall the Record I](../disciplines/scholarship.md).
+- **Medicine access** and [Read the Symptoms I](../disciplines/medicine.md).
 
-Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.
+Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Guard 1** and [A Sign against Harm](../cards/a-sign-against-harm.md).
-- **Armor 1** and [Wake the Iron Rune](../cards/wake-the-iron-rune.md).
+- **Guard access** and [Sheltering Guard I](../disciplines/guard.md).
+- **Armor access** and [Armored Training I](../disciplines/armor.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Scholarship 1** and [Anatomy of an Opening](../cards/anatomy-of-an-opening.md).
-- **Influence 1** and [Measured Appeal](../cards/measured-appeal.md).
+- **Scholarship access** and [Recall the Record I](../disciplines/scholarship.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

@@ -10,4 +10,4 @@ For ancestry comparisons, Gnomes, Halflings and Goblins are Small; Humans, both 
 
 ## Your other beginnings
 
-Choose each origin as a complete pair: its rank and ability belong together. Resolve all level-0 grants before making purchases. Duplicate grants add one DP to that stage rather than a higher rank or unrestricted replacement.
+Choose one option each from your culture and background. Begin the listed discipline and learn its first entry. Add 1 level-0 DP for each discipline or entry you already know.

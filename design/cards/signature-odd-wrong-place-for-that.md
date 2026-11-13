@@ -25,7 +25,7 @@ If no legal Manifest square exists, you can only Snap Back.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

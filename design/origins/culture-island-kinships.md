@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Wilderness 1** and [Forage Coast](../cards/forage-coast.md).
-- **Storm 1** and [Thunder at the Door](../cards/thunder-at-the-door.md).
+- **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
+- **Elements access** and [Air I](../spellbooks/air.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

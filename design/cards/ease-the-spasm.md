@@ -1,23 +1,7 @@
 # Ease the Spasm
 
-*Self or one adjacent willing living creature. Reduce temporary Slowed by 1. The target may move 1 square without provoking.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self or one adjacent willing living creature.
-
-Reduce temporary Slowed by 1. The target may move 1 square without provoking.
-
-**Equipment / acquisition:** A free hand.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Life 1
-
-**Type:** Magic / Recovery / Movement
+This former independent ability is retired. Use [Restoration I](../spellbooks/restoration.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** ease-the-spasm
-
-[Card conventions](../card-conventions.md)

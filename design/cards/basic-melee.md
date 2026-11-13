@@ -1,6 +1,6 @@
 # Basic Melee
 
-*Roll Agility to shoot a visible creature within 8 squares for 2, 3 or 5 physical damage.*
+*Strike an adjacent creature with your melee weapon. Roll Brawn for 2/3/5 physical damage.*
 
 ## Rules
 

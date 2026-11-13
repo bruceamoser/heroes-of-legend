@@ -16,7 +16,7 @@ Call divine energy. The area becomes the Fold until the end of your next turn. Y
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shepherd; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 3
 
 **Type:** Signature
 

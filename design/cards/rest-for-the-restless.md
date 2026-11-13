@@ -1,27 +1,7 @@
 # Rest for the Restless
 
-*Choose one visible enemy within 4 squares. Make a Reason spell attack. On a Standard result, deal 4 Life damage.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Reason
-
-**Target / range / shape:** One visible enemy within 4 squares.
-
-Make a Reason spell attack.
-
-- **Weak:** 3 Life damage.
-- **Standard:** 4 Life damage.
-- **Strong:** 6 Life damage.
-
-Against a creature harmed by healing, also push it 1/2/3 squares on Weak/Standard/Strong.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Life 2
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Restoration I](../spellbooks/restoration.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** rest-for-the-restless
-
-[Build this character](../paths/grave-warden.md) · [Card conventions](../card-conventions.md)

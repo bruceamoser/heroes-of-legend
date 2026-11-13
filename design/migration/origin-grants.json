@@ -1,0 +1,502 @@
+{
+  "background-market-chemist.md:Smoke in a Bottle": {
+    "discipline": "Craft",
+    "ability": "Smoke in a Bottle I",
+    "source": "disciplines/craft.md"
+  },
+  "background-market-chemist.md:Identify a Mixture": {
+    "discipline": "Scholarship",
+    "ability": "Recall the Record I",
+    "source": "disciplines/scholarship.md"
+  },
+  "background-bargain-keeper.md:A Coal for a Promise": {
+    "discipline": "Elements",
+    "ability": "Flame I",
+    "source": "spellbooks/flame.md"
+  },
+  "background-bargain-keeper.md:An Invitation Elsewhere": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "background-reluctant-knife.md:A Courtesy Unanswered": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-reluctant-knife.md:Take Them Alive": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "culture-free-harbors.md:A Place at Any Fire": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "culture-free-harbors.md:The Key Changes Hands": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "culture-terrace-towns.md:Swing into Trouble": {
+    "discipline": "Athletics",
+    "ability": "Sure Ascent I",
+    "source": "disciplines/athletics.md"
+  },
+  "culture-terrace-towns.md:Lantern in the Palm": {
+    "discipline": "Wards",
+    "ability": "Protection I",
+    "source": "spellbooks/protection.md"
+  },
+  "culture-traveling-companies.md:Smile Before Steel": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "culture-traveling-companies.md:Create a Distraction": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-court-questioner.md:Anatomy of an Opening": {
+    "discipline": "Scholarship",
+    "ability": "Recall the Record I",
+    "source": "disciplines/scholarship.md"
+  },
+  "background-court-questioner.md:Measured Appeal": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "culture-highland-holds.md:Winter Store": {
+    "discipline": "Elements",
+    "ability": "Water I",
+    "source": "spellbooks/water.md"
+  },
+  "culture-highland-holds.md:Thunder at the Door": {
+    "discipline": "Elements",
+    "ability": "Air I",
+    "source": "spellbooks/air.md"
+  },
+  "background-war-drummer.md:Keep Time with Steel": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "background-war-drummer.md:Shielding Step": {
+    "discipline": "Guard",
+    "ability": "Shield Bash I",
+    "source": "disciplines/guard.md"
+  },
+  "background-bone-tender.md:Summon Undead — Novice": {
+    "discipline": "Invocation",
+    "ability": "Spirits I",
+    "source": "spellbooks/spirits.md"
+  },
+  "background-bone-tender.md:Keep the Door Closed": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  },
+  "culture-cloister-valleys.md:Lantern Moths": {
+    "discipline": "Wards",
+    "ability": "Protection I",
+    "source": "spellbooks/protection.md"
+  },
+  "culture-cloister-valleys.md:Treat Mental Trauma": {
+    "discipline": "Medicine",
+    "ability": "Field Dressing I",
+    "source": "disciplines/medicine.md"
+  },
+  "culture-deep-halls.md:Trail Workshop": {
+    "discipline": "Craft",
+    "ability": "Mend and Fit I",
+    "source": "disciplines/craft.md"
+  },
+  "culture-deep-halls.md:Wake the Iron Rune": {
+    "discipline": "Armor",
+    "ability": "Armored Training I",
+    "source": "disciplines/armor.md"
+  },
+  "background-duelist-s-second.md:Invitation to the Blade": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "background-duelist-s-second.md:Wear Light Armor": {
+    "discipline": "Armor",
+    "ability": "Armored Training I",
+    "source": "disciplines/armor.md"
+  },
+  "background-grove-tended.md:Sap and Breath": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  },
+  "background-grove-tended.md:Roots Remember Feet": {
+    "discipline": "Wilderness",
+    "ability": "Read the Trail I",
+    "source": "disciplines/wilderness.md"
+  },
+  "culture-ember-cities.md:Speak with the Hearth": {
+    "discipline": "Elements",
+    "ability": "Flame I",
+    "source": "spellbooks/flame.md"
+  },
+  "culture-ember-cities.md:Make Something Useful": {
+    "discipline": "Craft",
+    "ability": "Mend and Fit I",
+    "source": "disciplines/craft.md"
+  },
+  "culture-border-marches.md:A Sign against Harm": {
+    "discipline": "Guard",
+    "ability": "Sheltering Guard I",
+    "source": "disciplines/guard.md"
+  },
+  "culture-border-marches.md:Read the Quarry": {
+    "discipline": "Marksmanship",
+    "ability": "Watchful Shot I",
+    "source": "disciplines/marksmanship.md"
+  },
+  "culture-cairn-communities.md:A Hand from Before": {
+    "discipline": "Invocation",
+    "ability": "Spirits I",
+    "source": "spellbooks/spirits.md"
+  },
+  "culture-cairn-communities.md:Keep the Door Closed": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  },
+  "background-dragon-dreamer.md:Breath of the Wyrmling": {
+    "discipline": "Elements",
+    "ability": "Flame I",
+    "source": "spellbooks/flame.md"
+  },
+  "background-dragon-dreamer.md:Let the Spark Decide": {
+    "discipline": "Elements",
+    "ability": "Flame I",
+    "source": "spellbooks/flame.md"
+  },
+  "background-physician-s-student.md:Anatomy of an Opening": {
+    "discipline": "Scholarship",
+    "ability": "Recall the Record I",
+    "source": "disciplines/scholarship.md"
+  },
+  "background-physician-s-student.md:Treat Bone": {
+    "discipline": "Medicine",
+    "ability": "Field Dressing I",
+    "source": "disciplines/medicine.md"
+  },
+  "culture-forest-communities.md:Forage Woodland": {
+    "discipline": "Wilderness",
+    "ability": "Wild Harvest I",
+    "source": "disciplines/wilderness.md"
+  },
+  "culture-forest-communities.md:Borrow a Voice": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "culture-gathered-peoples.md:Silent Cue": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "culture-gathered-peoples.md:Treat Soft Tissue": {
+    "discipline": "Medicine",
+    "ability": "Field Dressing I",
+    "source": "disciplines/medicine.md"
+  },
+  "background-beast-reared.md:Borrow the Beast": {
+    "discipline": "Wilderness",
+    "ability": "Read the Trail I",
+    "source": "disciplines/wilderness.md"
+  },
+  "background-beast-reared.md:Summon Animal — Novice": {
+    "discipline": "Invocation",
+    "ability": "Spirits I",
+    "source": "spellbooks/spirits.md"
+  },
+  "culture-grass-sea-clans.md:Read the Quarry": {
+    "discipline": "Marksmanship",
+    "ability": "Watchful Shot I",
+    "source": "disciplines/marksmanship.md"
+  },
+  "culture-grass-sea-clans.md:Invitation to the Blade": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "background-confidence-artist.md:Smile Before Steel": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "background-confidence-artist.md:Create a Distraction": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-burglar.md:The Key Changes Hands": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-burglar.md:Quiet Latch": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-oath-witness.md:Name the Reckoning": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "background-oath-witness.md:Oathlight Strike": {
+    "discipline": "Wards",
+    "ability": "Protection I",
+    "source": "spellbooks/protection.md"
+  },
+  "background-traveling-player.md:A Verse for Courage": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "background-traveling-player.md:A Door That Is Not There": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "culture-reed-villages.md:Rime Footholds": {
+    "discipline": "Elements",
+    "ability": "Water I",
+    "source": "spellbooks/water.md"
+  },
+  "culture-reed-villages.md:A Hand from Before": {
+    "discipline": "Invocation",
+    "ability": "Spirits I",
+    "source": "spellbooks/spirits.md"
+  },
+  "background-star-touched.md:A Thought That Is Not Yours": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "background-star-touched.md:I Have Seen This Step": {
+    "discipline": "Scholarship",
+    "ability": "Recall the Record I",
+    "source": "disciplines/scholarship.md"
+  },
+  "background-kennel-keeper.md:Summon Animal — Novice": {
+    "discipline": "Invocation",
+    "ability": "Spirits I",
+    "source": "spellbooks/spirits.md"
+  },
+  "background-kennel-keeper.md:Guide a Frightened Animal": {
+    "discipline": "Wilderness",
+    "ability": "Gentle Hand I",
+    "source": "disciplines/wilderness.md"
+  },
+  "background-itinerant-tinker.md:Spring in the Sleeve": {
+    "discipline": "Craft",
+    "ability": "Mend and Fit I",
+    "source": "disciplines/craft.md"
+  },
+  "background-itinerant-tinker.md:Make Something Useful": {
+    "discipline": "Craft",
+    "ability": "Mend and Fit I",
+    "source": "disciplines/craft.md"
+  },
+  "culture-oasis-cities.md:Measured Appeal": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "culture-oasis-cities.md:Read the Remains": {
+    "discipline": "Scholarship",
+    "ability": "Read the Evidence I",
+    "source": "disciplines/scholarship.md"
+  },
+  "culture-river-settlements.md:Expert River Crossing": {
+    "discipline": "Athletics",
+    "ability": "Strong Swimmer I",
+    "source": "disciplines/athletics.md"
+  },
+  "culture-river-settlements.md:Shared Breath": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  },
+  "background-poacher.md:Read the Quarry": {
+    "discipline": "Marksmanship",
+    "ability": "Watchful Shot I",
+    "source": "disciplines/marksmanship.md"
+  },
+  "background-poacher.md:Winter Store": {
+    "discipline": "Elements",
+    "ability": "Water I",
+    "source": "spellbooks/water.md"
+  },
+  "culture-island-kinships.md:Forage Coast": {
+    "discipline": "Wilderness",
+    "ability": "Wild Harvest I",
+    "source": "disciplines/wilderness.md"
+  },
+  "culture-island-kinships.md:Thunder at the Door": {
+    "discipline": "Elements",
+    "ability": "Air I",
+    "source": "spellbooks/air.md"
+  },
+  "background-monastery-runaway.md:The Untroubled Hand": {
+    "discipline": "Athletics",
+    "ability": "Sure Ascent I",
+    "source": "disciplines/athletics.md"
+  },
+  "background-monastery-runaway.md:Palm of the Gale": {
+    "discipline": "Elements",
+    "ability": "Air I",
+    "source": "spellbooks/air.md"
+  },
+  "background-storm-survivor.md:Thunder at the Door": {
+    "discipline": "Elements",
+    "ability": "Air I",
+    "source": "spellbooks/air.md"
+  },
+  "background-storm-survivor.md:The Otter’s Bargain": {
+    "discipline": "Wilderness",
+    "ability": "Read the Trail I",
+    "source": "disciplines/wilderness.md"
+  },
+  "background-ward-scribe.md:A Sign against Harm": {
+    "discipline": "Guard",
+    "ability": "Sheltering Guard I",
+    "source": "disciplines/guard.md"
+  },
+  "background-ward-scribe.md:Wake the Iron Rune": {
+    "discipline": "Armor",
+    "ability": "Armored Training I",
+    "source": "disciplines/armor.md"
+  },
+  "background-pit-fighter.md:Blood in the Teeth": {
+    "discipline": "Arms",
+    "ability": "Measured Cut I",
+    "source": "disciplines/arms.md"
+  },
+  "background-pit-fighter.md:Secure a Hold": {
+    "discipline": "Athletics",
+    "ability": "Sure Ascent I",
+    "source": "disciplines/athletics.md"
+  },
+  "background-temple-attendant.md:Oathlight Strike": {
+    "discipline": "Wards",
+    "ability": "Protection I",
+    "source": "spellbooks/protection.md"
+  },
+  "background-temple-attendant.md:Shared Breath": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  },
+  "background-apothecary-s-helper.md:Identify a Mixture": {
+    "discipline": "Scholarship",
+    "ability": "Recall the Record I",
+    "source": "disciplines/scholarship.md"
+  },
+  "background-apothecary-s-helper.md:Relieve Poison": {
+    "discipline": "Medicine",
+    "ability": "Read the Symptoms I",
+    "source": "disciplines/medicine.md"
+  },
+  "culture-walled-communities.md:Wear Light Armor": {
+    "discipline": "Armor",
+    "ability": "Armored Training I",
+    "source": "disciplines/armor.md"
+  },
+  "culture-walled-communities.md:Shielding Step": {
+    "discipline": "Guard",
+    "ability": "Shield Bash I",
+    "source": "disciplines/guard.md"
+  },
+  "background-household-guard.md:Hook and Drive": {
+    "discipline": "Arms",
+    "ability": "Driving Blow I",
+    "source": "disciplines/arms.md"
+  },
+  "background-household-guard.md:Shielding Step": {
+    "discipline": "Guard",
+    "ability": "Shield Bash I",
+    "source": "disciplines/guard.md"
+  },
+  "background-stage-assistant.md:Create a Distraction": {
+    "discipline": "Subterfuge",
+    "ability": "Quiet Passage I",
+    "source": "disciplines/subterfuge.md"
+  },
+  "background-stage-assistant.md:Intrusive Echo": {
+    "discipline": "Mentalism",
+    "ability": "Thought I",
+    "source": "spellbooks/thought.md"
+  },
+  "background-shore-gatherer.md:Forage Coast": {
+    "discipline": "Wilderness",
+    "ability": "Wild Harvest I",
+    "source": "disciplines/wilderness.md"
+  },
+  "background-shore-gatherer.md:Expert River Crossing": {
+    "discipline": "Athletics",
+    "ability": "Strong Swimmer I",
+    "source": "disciplines/athletics.md"
+  },
+  "culture-learning-houses.md:Read the Remains": {
+    "discipline": "Scholarship",
+    "ability": "Read the Evidence I",
+    "source": "disciplines/scholarship.md"
+  },
+  "culture-learning-houses.md:Cinder Cast": {
+    "discipline": "Elements",
+    "ability": "Flame I",
+    "source": "spellbooks/flame.md"
+  },
+  "background-weather-apprentice.md:Gust Hammer": {
+    "discipline": "Elements",
+    "ability": "Air I",
+    "source": "spellbooks/air.md"
+  },
+  "background-weather-apprentice.md:Rime Grip": {
+    "discipline": "Elements",
+    "ability": "Water I",
+    "source": "spellbooks/water.md"
+  },
+  "background-messenger.md:Pinning Shot": {
+    "discipline": "Marksmanship",
+    "ability": "Hobbling Shot I",
+    "source": "disciplines/marksmanship.md"
+  },
+  "background-messenger.md:Measured Appeal": {
+    "discipline": "Influence",
+    "ability": "Make the Case I",
+    "source": "disciplines/influence.md"
+  },
+  "background-bridge-worker.md:Trail Workshop": {
+    "discipline": "Craft",
+    "ability": "Mend and Fit I",
+    "source": "disciplines/craft.md"
+  },
+  "background-bridge-worker.md:Sure Ascent": {
+    "discipline": "Athletics",
+    "ability": "Sure Ascent I",
+    "source": "disciplines/athletics.md"
+  },
+  "background-grave-attendant.md:Treat Soft Tissue": {
+    "discipline": "Medicine",
+    "ability": "Field Dressing I",
+    "source": "disciplines/medicine.md"
+  },
+  "background-grave-attendant.md:Shared Breath": {
+    "discipline": "Life",
+    "ability": "Restoration I",
+    "source": "spellbooks/restoration.md"
+  }
+}

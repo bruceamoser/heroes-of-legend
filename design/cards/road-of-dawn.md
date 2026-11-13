@@ -1,21 +1,7 @@
 # Road of Dawn
 
-*Choose up to three visible willing creatures within 4 squares, including yourself. Each target reduces temporary Frightened by 1 and may move up to 2 squares without provoking to a free supported square.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to three visible willing creatures within 4 squares, including yourself.
-
-Each target reduces temporary Frightened by 1 and may move up to 2 squares without provoking to a free supported square.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Radiance 3
-
-**Type:** Magic / Recovery / Movement
+This former independent ability is retired. Use [Protection I](../spellbooks/protection.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** road-of-dawn
-
-[Card conventions](../card-conventions.md)

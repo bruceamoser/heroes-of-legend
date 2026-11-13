@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Subterfuge 1** and [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md).
-- **Arms 1** and [Take Them Alive](../cards/take-them-alive.md).
+- **Subterfuge access** and [Quiet Passage I](../disciplines/subterfuge.md).
+- **Arms access** and [Measured Cut I](../disciplines/arms.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

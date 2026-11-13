@@ -1,27 +1,7 @@
 # Invitation to the Blade
 
-*Choose one adjacent creature. Make an Agility melee attack. On a Standard result, deal 4 physical damage. Gain 1 Boon to your next defense against this target before the start of your next turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Agility
-
-**Target / range / shape:** One adjacent creature.
-
-Make an Agility melee attack.
-
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage; gain 1 Boon to your next defense against this target before the start of your next turn.
-- **Strong:** 6 physical damage and the same defensive Boon.
-
-**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Arms 1
-
-**Type:** Skill / Attack
+This former independent ability is retired. Use [Measured Cut I](../disciplines/arms.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** invitation-to-the-blade
-
-[Build this character](../paths/duelling-master.md) · [Card conventions](../card-conventions.md)

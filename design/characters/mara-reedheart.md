@@ -18,34 +18,36 @@ Total **+3**. Shepherd minima: Reason, Guile ≥ 0; met. Mental sum **+2**, so e
 - [Ingenuity](../ancestries/trait-human-shared-table.md): Once per scene, assemble a temporary tool, implement or weapon from nearby materials. Gain 1 Boon to the next roll using it; it lasts until the end of the scene.
 
 
-## Level 0 — origins and purchases
+## Level 0 — origins and learning
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Wild Harvest](../cards/forage-woodland.md).
-- [Grove Tended](../origins/background-grove-tended.md): **Life 1** and [Sap and Breath](../cards/sap-and-breath.md).
+- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
+- [Grove Tended](../origins/background-grove-tended.md): **Life access** and [Restoration I](../spellbooks/restoration.md).
 
-Opening pool: **12 + 1 Adaptable + 0 duplicate compensation = 13 DP**. No disciplines are purchased at this stage.
+Pool: **10 + 2 mental attributes + 1 ancestry + 0 duplicate grants = 13 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Roots Remember Feet](../cards/roots-remember-feet.md) | Wilderness 1 | 2 | 11 |
-| [Borrow the Beast](../cards/borrow-the-beast.md) | Wilderness 1 | 2 | 9 |
-| [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) | Wilderness 1 | 2 | 7 |
-| [A Good Place to Stop](../cards/a-good-place-to-stop.md) | Wilderness 1 | 2 | 5 |
-| [The Otter’s Bargain](../cards/the-otter-s-bargain.md) | Wilderness 1 | 2 | 3 |
-| [Keep the Door Closed](../cards/keep-the-door-closed.md) | Life 1 | 2 | 1 |
+| [Restoration II](../spellbooks/restoration.md) | Restoration I | 2 | 11 |
+| [Restoration III](../spellbooks/restoration.md) | Restoration II | 2 | 9 |
+| [Wild Harvest II](../disciplines/wilderness.md) | Wild Harvest I | 2 | 7 |
+| [Wild Harvest III](../disciplines/wilderness.md) | Wild Harvest II | 2 | 5 |
+| [Medicine access](../disciplines/medicine.md) | Opens its paths | 1 | 4 |
+| [Field Dressing I](../disciplines/medicine.md) | Medicine access | 1 | 3 |
+| [Field Dressing II](../disciplines/medicine.md) | Field Dressing I | 2 | 1 |
 
-**Spent 12; 1 DP expires. Stage closes at 0.**
+**Spent 12; 1 DP expires when this stage closes.**
 
-## Level 1 — class and purchases
+## Level 1 — class and learning
 
-Choose [Shepherd](../classes/shepherd.md). Class grants **Life 1 and Medicine 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
+Choose [Shepherd](../classes/shepherd.md). Gain **Life and Medicine access**. Duplicate access gives 1 DP each, never a free improvement.
+
 Free signature: [Mend](../cards/signature-shepherd-gentle-return.md). Its use procedure follows; the linked card remains the complete reference:
 
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One living ally within 3 squares.
 
-pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This erases no scars and cannot restore the dead.
+pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.
 
 **Duration:** Immediate.
 
@@ -53,80 +55,59 @@ pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a fr
 
 **Signature limit:** Repeatable; normal action economy applies.
 
-Fresh pool: **12 + 1 Adaptable + 1 = 14 DP**. All discipline purchases below occur before cards that need them.
+Pool: **10 + 2 mental attributes + 1 ancestry + 2 duplicate grants = 15 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| **Radiance 1** | Home; previous rank 0 | 1 | 13 |
-| [Lantern in the Palm](../cards/lantern-in-the-palm.md) | Radiance 1 | 2 | 11 |
-| [Dawn Shard](../cards/dawn-shard.md) | Radiance 1 | 2 | 9 |
-| [Treat Soft Tissue](../cards/treat-soft-tissue.md) | Medicine 1 | 2 | 7 |
-| [Treat Bone](../cards/treat-bone.md) | Medicine 1 | 2 | 5 |
-| [Relieve Poison](../cards/relieve-poison.md) | Medicine 1 | 2 | 3 |
-| [Rouse the Senses](../cards/rouse-the-senses.md) | Medicine 1 | 2 | 1 |
+| [Spellcraft access](../disciplines/spellcraft.md) | Opens its paths | 1 | 14 |
+| [Soul Capacity I](../disciplines/spellcraft.md) | Spellcraft access | 1 | 13 |
+| [Soul Capacity II](../disciplines/spellcraft.md) | Soul Capacity I | 2 | 11 |
+| [Soul Capacity III](../disciplines/spellcraft.md) | Soul Capacity II | 2 | 9 |
+| [Recovery I](../disciplines/spellcraft.md) | Spellcraft access | 1 | 8 |
+| [Recovery II](../disciplines/spellcraft.md) | Recovery I | 2 | 6 |
+| [Recovery III](../disciplines/spellcraft.md) | Recovery II | 2 | 4 |
+| [Gentle Hand I](../disciplines/wilderness.md) | Wilderness access | 1 | 3 |
+| [Gentle Hand II](../disciplines/wilderness.md) | Gentle Hand I | 2 | 1 |
 
-**Spent 13; 1 DP expires. Stage closes at 0.**
+**Spent 14; 1 DP expires when this stage closes.**
 
-**Final disciplines:** Life 1, Medicine 1, Radiance 1, Wilderness 1.
+## Learned abilities and spellbook pages
 
-## Equipment and derived statistics
+- [Field Dressing I](../disciplines/medicine.md).
+- [Field Dressing II](../disciplines/medicine.md).
+- [Gentle Hand I](../disciplines/wilderness.md).
+- [Gentle Hand II](../disciplines/wilderness.md).
+- [Recovery I](../disciplines/spellcraft.md).
+- [Recovery II](../disciplines/spellcraft.md).
+- [Recovery III](../disciplines/spellcraft.md).
+- [Restoration I](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
+- [Restoration II](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
+- [Restoration III](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
+- [Soul Capacity I](../disciplines/spellcraft.md).
+- [Soul Capacity II](../disciplines/spellcraft.md).
+- [Soul Capacity III](../disciplines/spellcraft.md).
+- [Wild Harvest I](../disciplines/wilderness.md).
+- [Wild Harvest II](../disciplines/wilderness.md).
+- [Wild Harvest III](../disciplines/wilderness.md).
 
-**No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
+All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
 
-HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 + Conditioned Body 0 = **15**. HP gain per level: **4**. SP: **6/6**. First aid: **available**..
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 0 = **6**.
-
-Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
-
-Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
-
-**Recipes:** none granted or purchased.
-
-## At the table
-
-Sap and Breath pays 1 SP before healing 3/5/7 HP; Mara must have the SP and a free hand. Mend is her free signature: pay 1 SP, then restore 3/6/9 HP to one ally within 3 squares. Roots Remember Feet controls ground, while Borrow the Beast provides close fighting at the cost of spellcasting, speech and item use. Returning costs a Maneuver, so healing and beast fighting are a real choice. No potion or herb supply is silently granted.
-
-## Complete learned-card checklist
-
-These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
-
-- [Wild Harvest](../cards/forage-woodland.md) — Main Action; Knowledge.
-- [Sap and Breath](../cards/sap-and-breath.md) — Main Action; Reason.
-- [Roots Remember Feet](../cards/roots-remember-feet.md) — Main Action; Reason.
-- [Borrow the Beast](../cards/borrow-the-beast.md) — Maneuver; None (no roll).
-- [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) — Main Action; Guile.
-- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None (no roll).
-- [The Otter’s Bargain](../cards/the-otter-s-bargain.md) — Maneuver; None (no roll).
-- [Keep the Door Closed](../cards/keep-the-door-closed.md) — Reaction; None (no roll).
-- [Lantern in the Palm](../cards/lantern-in-the-palm.md) — Maneuver; None (no roll).
-- [Dawn Shard](../cards/dawn-shard.md) — Main Action; Reason.
-- [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
-- [Treat Bone](../cards/treat-bone.md) — Main Action; Knowledge.
-- [Relieve Poison](../cards/relieve-poison.md) — Main Action; Knowledge.
-- [Rouse the Senses](../cards/rouse-the-senses.md) — Main Action; Reason.
-- [Mend](../cards/signature-shepherd-gentle-return.md) — Main Action; Reason.
-
-All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
-
-## Starting coins and shopping — allocation
+## Equipment and starting numbers
 
 40 + 1 + 5 + 5 + 3 (base + ancestry + culture + background + class) = **54 coins**.
 
-One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
 
-| Purchase | Coins | Bulk | Coins left |
+| Item | Coins | Bulk | Coins left |
 |---|---:|---:|---:|
 | [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 51 |
 | [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 47 |
 | [Water Flask](../equipment/water-flask.md) | 3 | 1 | 44 |
 | [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 35 |
-| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 30 |
-| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 28 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 8 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 30 |
+| [First-aid supplies](../market.md) | 5 | 1 | 25 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 5 |
 
-**Spent 46; coins carried 8; final Bulk 7/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
-Mara uses Lantern in the Palm instead of buying lighting; its limitations still apply.
+**Spent 49; coins remaining 5; Bulk 7/10.** No encumbrance penalty.
 
-[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
-
-**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.
+HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **13/13**. Speed **6**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.

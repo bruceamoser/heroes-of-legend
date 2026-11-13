@@ -16,7 +16,7 @@ Take 1 Bane on the spell’s roll. The spell resolves as you vanish from your or
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 

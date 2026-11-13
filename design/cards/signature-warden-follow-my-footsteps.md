@@ -16,7 +16,7 @@ Requires two light melee weapons, one in each hand. Make one attack with each we
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Warden; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 1
 
 **Type:** Signature
 

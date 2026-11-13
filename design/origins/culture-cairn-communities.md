@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Calling 1** and [A Hand from Before](../cards/a-hand-from-before.md).
-- **Life 1** and [Keep the Door Closed](../cards/keep-the-door-closed.md).
+- **Invocation access** and [Spirits I](../spellbooks/spirits.md).
+- **Life access** and [Restoration I](../spellbooks/restoration.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

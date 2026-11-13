@@ -16,7 +16,7 @@ The ally makes one free Basic Melee attack against an adjacent enemy. On a Stron
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 3
 
 **Type:** Signature
 

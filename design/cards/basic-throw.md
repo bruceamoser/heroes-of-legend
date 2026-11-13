@@ -1,6 +1,6 @@
 # Basic Throw
 
-*Roll Brawn to strike an adjacent creature unarmed for 1, 2 or 4 physical damage.*
+*Throw a suitable carried object at a visible creature within 3 squares. Roll Brawn for 2/3/5 physical damage.*
 
 ## Rules
 

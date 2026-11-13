@@ -2,7 +2,7 @@
 import json,re,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3]
-SOURCE=ROOT/'design/revision/nonmagical'
+SOURCE=ROOT/'design/disciplines'
 HERE=Path(__file__).resolve().parent
 ORDER=['arms','armor','guard','marksmanship','athletics','subterfuge','wilderness','medicine','craft','scholarship','influence']
 def slug(s):return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
@@ -30,13 +30,13 @@ assert len({e['id'] for d in records for p in d['paths'] for e in p['entries']})
 out=ROOT/'output/pdf';out.mkdir(parents=True,exist_ok=True)
 lookup={e['id']:(d,p,e) for d in records for p in d['paths'] for e in p['entries']}
 magic=[]
-for section in re.split(r'^## ',(SOURCE/'magical-endpoints.md').read_text(),flags=re.M)[1:]:
+for section in re.split(r'^## ',(ROOT/'design/magic-endpoints.md').read_text(),flags=re.M)[1:]:
  name,ident,discipline,book,pages,advanced=section.strip().split('\n')
  ref=ident.removeprefix('ID: ')
  magic.append({'id':ref,'anchor':'magic:'+ref,'name':name,'discipline':discipline.removeprefix('Discipline: '),'branch':book.removeprefix('List: '),'pages':pages.removeprefix('Pages 7–8: '),'advanced':advanced.removeprefix('Advanced pages: ')})
 magic_lookup={m['id']:m for m in magic}
 combined=[]
-source=(SOURCE/'combined.md').read_text()
+source=(ROOT/'design/combined-abilities.md').read_text()
 for section in re.split(r'^## ',source,flags=re.M)[1:]:
  name,meta,req,effect=section.strip().split('\n',3)
  m=re.fullmatch(r'DP: (\d+) \| Level: (\d+)',meta);assert m
@@ -52,7 +52,7 @@ for section in re.split(r'^## ',source,flags=re.M)[1:]:
  count=len({p['discipline'] for p in parents})
  assert count==len(refs) and count in (2,3,4),(name,refs)
  assert int(m[1])==count+1 and int(m[2])==7
- combined.append({'id':'combined:'+slug(name),'name':name,'dp':int(m[1]),'level':7,'count':count,'requires':refs,'parents':parents,'effect':effect.strip(),'mixed':any(r in magic_lookup for r in refs)})
+ combined.append({'id':'combined:'+slug(name),'name':name,'dp':int(m[1]),'level':7,'count':count,'requires':refs,'parents':parents,'effect':effect.strip(),'mixed':any(r in magic_lookup for r in refs) and any(r not in magic_lookup for r in refs)})
 assert len({c['id'] for c in combined})==len(combined)
 for d in records:
  for p in d['paths']:
@@ -62,7 +62,7 @@ HERE.joinpath('combined.json').write_text(json.dumps({'intro':intro,'abilities':
 HERE.joinpath('generated.json').write_text(json.dumps(records,indent=2,ensure_ascii=False))
 # Procedures use a deliberately small Markdown subset: headings and paragraphs.
 procs=[]
-for para in (SOURCE/'procedures.md').read_text().strip().split('\n\n'):
+for para in (ROOT/'design/rules/learning.md').read_text().strip().split('\n\n'):
  if para.startswith('# '):procs.append({'kind':'page','text':para[2:]})
  elif para.startswith('## '):procs.append({'kind':'heading','text':para[3:]})
  else:procs.append({'kind':'paragraph','text':para.replace('\n',' ')})
@@ -72,5 +72,5 @@ manifest=HERE.parent/'generated/art-files.json'
 if not manifest.exists():
  manifest.parent.mkdir(parents=True,exist_ok=True)
  manifest.write_text(json.dumps([p.stem for p in (HERE.parent/'art/interior').glob('*.png')]))
-subprocess.run(['typst','compile','--root',str(ROOT),str(HERE/'book.typ'),str(out/'nonmagical-disciplines.pdf')],check=True)
+if '--data-only' not in __import__('sys').argv: subprocess.run(['typst','compile','--root',str(ROOT),str(HERE/'book.typ'),str(out/'nonmagical-disciplines.pdf')],check=True)
 print(f'Validated 11 disciplines, 176 base entries and {len(combined)} level-7 combinations.')

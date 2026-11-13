@@ -16,7 +16,7 @@ Make a melee weapon attack against one creature within reach, using Knowledge in
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Intellect; minimum level 1
 
 **Type:** Signature
 

@@ -1,18 +1,10 @@
 # Life
 
-*You learn to feel the fragile warmth that living things carry between one breath and the next.*
+Restore, transform, cultivate and unravel living things.
 
-## Rules
+Begin studying this discipline for 1 DP, then choose one of its four spellbooks. Learn the book’s sections in order, adding their pages to your repertoire.
 
-
-Healing and draining the same life energy; resistance interacts with both.
-
-Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute
-bonus, equipment or permission to use every card in this field. A card prints the
-rank required before purchase. No additional level gate applies to ranks.
-
-Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;
-Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.
-No discipline may be bought at level 0.
-
-[Discipline index](../disciplines.md) · [Catalog](../catalog.md)
+- [Serevan’s Book of Restoration](../spellbooks/restoration.md).
+- [Serevan’s Book of Transformation](../spellbooks/transformation.md).
+- [Serevan’s Book of Growth](../spellbooks/growth.md).
+- [Serevan’s Book of Decay](../spellbooks/decay.md).

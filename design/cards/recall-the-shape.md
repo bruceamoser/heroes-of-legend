@@ -1,21 +1,7 @@
 # Recall the Shape
 
-*Your summons. Your summons' tethers extend to 10 squares. When one of your visible summons would disappear because its distance from you first exceeds 10 squares, you may spend your Reaction to teleport it to a free supported space adjacent to you that fits its footprint. Preserve its HP, conditions, remaining duration and command history. Remaining forced movement continues from the new positions.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Your summons.
-
-Your summons' tethers extend to 10 squares. When one of your visible summons would disappear because its distance from you first exceeds 10 squares, you may spend your Reaction to teleport it to a free supported space adjacent to you that fits its footprint. Preserve its HP, conditions, remaining duration and command history. Remaining forced movement continues from the new positions.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Calling 3
-
-**Type:** Magic / Defense / Movement
+This former independent ability is retired. Use [Spirits I](../spellbooks/spirits.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** recall-the-shape
-
-[Card conventions](../card-conventions.md)

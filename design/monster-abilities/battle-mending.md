@@ -9,7 +9,7 @@
 
 **Action:** Main Action; spell
 
-One visible adjacent living creature; free hand required. Pay the printed life cost first, bypassing resistance, and remain above 0 HP. A player controller rolls the creature’s printed healing attribute for its printed HP outcomes. For a hostile NPC healing an ally, ask a player to make that same creature-attribute roll, including its applicable Boons/Banes. The DA still chooses its action and target; being the dice roller grants no control of the NPC. Life resistance reduces healing normally. This may instead target a healing-harmed creature: the result becomes Life damage, with Fortitude defense if a player is defending for that creature and no extra opposed roll. Keep the same range, life cost and free-hand requirement. This can be repeated while affordable. Provokes as spellcasting; no separate spell slots.
+Choose one visible adjacent living ally and keep a free hand. Resolve opportunity attacks for casting, then pay the creature’s printed SP cost from its reserve. A summoned healer uses its controller’s reserve. Roll the creature’s healing attribute and apply its printed HP outcomes and the recipient’s Life resistance. For an NPC healer, the DA chooses the target and a player makes the roll. You can instead direct the spell at a creature whose profile says healing harms it. Keep the range, free hand and SP cost, and use the healing values as Life damage. A player defending against this attack rolls Fortitude and reads the creature’s defense outcomes.
 
 **Limits:** Only creatures whose entries list this ability possess it. Printed
 entry values and restrictions apply; no ability grants unlisted actions.

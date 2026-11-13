@@ -1,25 +1,7 @@
 # Wear Light Armor
 
-*While wearing the trained armor, while wearing light armor, gain physical resistance 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self while wearing the trained armor.
-
-While wearing light armor, gain physical resistance 1.
-
-**Equipment / acquisition:** One ordinary light armor (Bulk 1), supplied on learning if needed.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Armor 1
-
-**Type:** Training / Defense
-
-**Limits:** Purchase once.
+This former independent ability is retired. Use [Armored Training I](../disciplines/armor.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** wear-light-armor
-
-[Card conventions](../card-conventions.md)

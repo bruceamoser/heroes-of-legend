@@ -16,7 +16,7 @@ This ability consumes your Main Action and your movement for the turn. Move up t
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

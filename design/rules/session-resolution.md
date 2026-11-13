@@ -105,13 +105,13 @@ Cancel Boons/Banes and apply the existing net cap of 3. Do not roll impossible
 attempts or apply the same obstacle twice under different names. Group progress
 and binary/cumulative task targets keep their existing rules.
 
-## Magic boundaries — agreed
+## Magic and healing
 
-Countermagic uses defensive interference and disruption; a separate generic spell
-cancellation system is not required. Healing used against a healing-harmed unwilling
-creature resolves as an attack spell, like Flame Dart: use the spell’s printed
-attribute and result as Life damage, normal attack targeting and resistance.
-Keep the healing spell’s action, range, free hand and upfront life cost. Beneficial
-recovery riders do not help that target. Eligible creature cards must print the
-appropriate defense attribute; no extra opposed save is added. Ordinary willing
-healing retains its existing procedure.
+Use the [spellbook rules](magic.md) for casting, Rituals, sustain and cancellation.
+A character can unravel a casting through an ability that names a cancellation
+procedure. Its usual target is 2 + the affected spell's printed SP cost.
+
+Healing aimed at a creature whose profile says healing harms it becomes a Life
+attack. Keep the spell's action, range, free hand and SP cost. Resolve its
+printed healing values as Life damage, using the spell's attribute or the
+target's applicable player defense. Recovery benefits apply only to healing.

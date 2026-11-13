@@ -1,21 +1,7 @@
 # Play It Off
 
-*Before a Guile roll explaining suspicious behavior to a listener who understands you, without violence, describe a plausible explanation. Gain 2 Boons to the Guile roll.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self before a Guile roll explaining suspicious behavior to a listener who understands you, without violence.
-
-Describe a plausible explanation. Gain 2 Boons to the Guile roll.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
-
-**Type:** Skill / Utility
+This former independent ability is retired. Use [Quiet Passage I](../disciplines/subterfuge.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** play-it-off
-
-[Card conventions](../card-conventions.md)

@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Mind 1** and [Silent Cue](../cards/silent-cue.md).
-- **Medicine 1** and [Treat Soft Tissue](../cards/treat-soft-tissue.md).
+- **Mentalism access** and [Thought I](../spellbooks/thought.md).
+- **Medicine access** and [Field Dressing I](../disciplines/medicine.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

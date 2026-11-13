@@ -16,7 +16,7 @@ Make a Brawn roll and apply it to every enemy in range. Weak: 2 physical damage,
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 7
 
 **Type:** Signature
 

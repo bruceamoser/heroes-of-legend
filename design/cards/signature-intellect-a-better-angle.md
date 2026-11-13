@@ -16,7 +16,7 @@ The ally may move up to 3 squares without provoking. The ally may then make one 
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Intellect; minimum level 3
 
 **Type:** Signature
 

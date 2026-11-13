@@ -18,7 +18,7 @@ Throw grit or debris into its face. The target takes 1 Bane to that roll. After 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 1
 
 **Type:** Signature
 

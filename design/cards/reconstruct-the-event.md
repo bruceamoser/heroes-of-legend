@@ -1,23 +1,7 @@
 # Reconstruct the Event
 
-*Choose one accessible scene with physical evidence of an event. Choose an event that left physical traces in the scene. The DA describes its evidence-supported sequence, identifies where the evidence leaves a gap, and names one specific place, person or object to investigate that gap, if a lead survives. You can show the reconstruction to your companions as a shared ghostly image of the supported sequence.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** None (no roll)
-
-**Time:** Ten minutes.
-
-**Target / range / shape:** One accessible scene with physical evidence of an event.
-
-Choose an event that left physical traces in the scene. The DA describes its evidence-supported sequence, identifies where the evidence leaves a gap, and names one specific place, person or object to investigate that gap, if a lead survives. You can show the reconstruction to your companions as a shared ghostly image of the supported sequence.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
-
-**Type:** Magic / Utility
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** reconstruct-the-event
-
-[Card conventions](../card-conventions.md)

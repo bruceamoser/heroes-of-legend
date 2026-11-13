@@ -16,7 +16,7 @@ A spear of stone and living wood forms in your hand and flies at the target. Mak
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Warden; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 3
 
 **Type:** Signature
 

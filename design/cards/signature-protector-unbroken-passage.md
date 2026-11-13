@@ -16,7 +16,7 @@ You and each chosen ally may move up to your Speed without provoking, ignoring d
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Protector; minimum level 7
 
 **Type:** Signature
 

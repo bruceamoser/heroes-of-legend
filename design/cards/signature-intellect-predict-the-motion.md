@@ -16,7 +16,7 @@ You may use Knowledge instead of Brawn or Agility for defense against physical a
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Intellect; minimum level 3
 
 **Type:** Signature
 

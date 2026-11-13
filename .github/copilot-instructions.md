@@ -29,8 +29,9 @@ rules source.
   Boons/Banes cancel; up to three net extra dice, retaining best/worst three.
 - Weak ≤8 is progress, Standard 9–14, Strong ≥15. Natural retained 111 adds a
   complication to Weak; 666 adds a benefit to Strong.
-- No separate skill bonuses, spell slots or prerequisite-card chains. Cards have
-  level gates 1/3/7 and printed discipline requirements; buy discipline ranks in order.
+- No skill bonuses or expended spell slots. Disciplines open sequential learned
+  paths; I/II/III improve an ability and the endpoint requires level 3. Combined
+  abilities require all exact endpoints and level 7, at 3/4/5 DP for 2/3/4 disciplines.
 - Main Action → Maneuver → movement conversions; a Reaction is separate.
 - Players roll. NPC attacks use player defense outcomes, reversed from attacker
   outcomes. NPC-only resolution is in `design/rules/session-resolution.md`.
@@ -101,3 +102,12 @@ TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 The build requires Typst 0.15.1, Python dependencies in
 `design/player-book/requirements.txt`, and Poppler. Review rendered PDFs as well as
 machine checks. No simulation result from an earlier catalog certifies this one.
+
+## Reader-facing learning language
+
+Describe what the hero studies, learns and can do in plain player-facing language.
+Keep costs and prerequisites clear, but avoid design shorthand and negative gating
+boilerplate such as “Access grants no ability.” Introduce the positive sequence:
+begin studying a discipline, choose a path or spellbook, then learn its entries.
+Explain equipment and preparation as actions the player takes. Preserve actual
+mechanical limits where they are needed to resolve play.

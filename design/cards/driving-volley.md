@@ -1,27 +1,7 @@
 # Driving Volley
 
-*Choose up to two visible enemies within 8 squares. Make an Agility ranged attack against the chosen targets. On a Standard result, deal 3 physical damage. Push 1 square away from you.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Agility
-
-**Target / range / shape:** Up to two visible enemies within 8 squares.
-
-Make an Agility ranged attack against the chosen targets.
-
-- **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; push 1 square away from you.
-- **Strong:** 5 physical damage; push 2 squares away from you.
-
-**Equipment / acquisition:** Use an ordinary ranged weapon and ammunition, supplied on learning if needed: one Bulk 1 weapon and one Bulk 1 d8 ammunition bundle.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Marksmanship 2
-
-**Type:** Skill / Attack / Control
+This former independent ability is retired. Use [Measured Shot I](../disciplines/marksmanship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** driving-volley
-
-[Card conventions](../card-conventions.md)

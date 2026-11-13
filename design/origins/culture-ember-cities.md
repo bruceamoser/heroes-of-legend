@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Flame 1** and [Speak with the Hearth](../cards/speak-with-the-hearth.md).
-- **Craft 1** and [Make Something Useful](../cards/make-something-useful.md).
+- **Elements access** and [Flame I](../spellbooks/flame.md).
+- **Craft access** and [Mend and Fit I](../disciplines/craft.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

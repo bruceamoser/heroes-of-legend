@@ -6,11 +6,11 @@
 
 ## Rules
 
-**Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
+**Type:** Background. **Status:** Proposal. Choose one paired option; take the access and first entry together.
 
-- Marksmanship 1 and [Pinning Shot](../cards/pinning-shot.md).
-- Influence 1 and [Measured Appeal](../cards/measured-appeal.md).
+- **Marksmanship access** and [Hobbling Shot I](../disciplines/marksmanship.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
 
-Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.
+Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

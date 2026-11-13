@@ -4,13 +4,13 @@ These conventions apply to the current catalog.
 
 ## Learn, declare, resolve
 
-Tier diamonds show minimum level 1, 3 or 7, with Novice purchases allowed during
-level-0 creation. Standard DP costs are 2, 4 and 8. All printed discipline ranks must be
-owned before purchase. No lower-tier ability is required unless Bruce explicitly
-approves an exception; the current design uses no chains. Signature cards require
-only the class and level. Ordinary items and ancestry traits are not DP abilities.
+Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
-The six 1-DP shared Novice exceptions are [Another Tongue](cards/another-tongue.md), [Message by Heart](cards/message-by-heart.md), [Catch That!](cards/catch-that.md), [A Party Piece](cards/a-party-piece.md), [Quick Exit](cards/quick-exit.md), [Look Over Here!](cards/look-over-here.md). Each requires no discipline, may be purchased during level-0 creation or later, and may be purchased only once. They are paid abilities, not free Universal cards. The printed price applies; their tier remains 1.
+A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
+
+Combined abilities require level 7, every named branch endpoint and a separate learning cost: 3 DP for two disciplines, 4 DP for three, 5 DP for four. Magical and nonmagical disciplines may combine. Owning only a discipline or a partially learned branch does not satisfy an endpoint. No lower-count combined ability is required unless explicitly listed.
+
+The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
 
 Declare a card before rolling. Roll 3d6 plus its one printed attribute with the
 normal Boon/Bane rules. No skill bonus, weapon damage die or extra attribute damage.
@@ -72,11 +72,7 @@ can support the tier but may never replace its number.
 
 ## A different kind of expertise
 
-The attribute printed on the chosen card is the one you roll. Anatomy of an Opening
-makes Knowledge a way to fight; Smile Before Steel uses Guile; The Untroubled Hand
-uses Reason. They are distinct techniques, not permission to replace every attack’s
-attribute. When a card explicitly replaces a defense attribute, declare and pay its
-Reaction before rolling. No extra modifier is added.
+Use the attribute printed on the ability. Learning an unusual attack does not replace every attack’s attribute. No skill modifier is added.
 
 Beast forms keep your own HP, scars and attributes; they are not disposable HP
 pools. Use the form’s printed actions and equipment restrictions. The new cards
@@ -113,22 +109,7 @@ of handling it, then specify its actual additive effects and use requirements.
 
 ## Development breadth
 
-**Agreed direction October 13, 2026:** aim for approximately 10–15 shared Passive
-abilities, including useful enduring expertise outside combat. This count excludes
-ancestry traits and class-exclusive signatures; it is a design target, not a rule
-limiting what a character may learn. Including the small 1-DP options, the shared catalog has eighteen.
-
-Higher-tier utility should change the problems a character can tackle or the people
-they can help, rather than merely repeat ordinary 1/2/3 progress. Use mixed discipline
-requirements when both fields contribute to the technique. “A 2 and B 1” requires
-both ranks before learning; it does not require an earlier ability. Preserve strong
-single-discipline rank-3 destinations and class-and-level-only signature requirements.
-
-Named abilities use their printed requirements.
-
-Bruce also accepts the revised grant-only menu of up to 35 eligible unowned shared
-choices as useful breadth. Evaluate their distinctness and value rather than adding
-prerequisites solely to reduce the count.
+Each discipline has four sequential paths. The first three learned entries build one ability; the endpoint adds a new capability at level 3. Combined abilities require every exact endpoint, level 7 and 3/4/5 DP for two/three/four disciplines. Class signatures keep class-and-level requirements. See [learning](rules/learning.md).
 
 ## Concrete language review
 
@@ -200,8 +181,7 @@ playing; do not turn them into extra automated saves.
 ## Shared access and condition combinations
 
 Every class can learn a shared ability by meeting its printed level and discipline
-requirements and paying its price. Class affinity changes the cost of training
-ranks. Class signatures retain their printed class requirements.
+requirements and paying its price. Discipline access costs 1 DP for every class. Class signatures retain their printed class requirements.
 
 An ability that targets every creature meeting a condition affects the whole
 eligible group within its printed range and shape. The condition remains unless
@@ -240,7 +220,6 @@ not reduced by Stability. Any exception must be explicit on the card.
 
 ## Approved playtest catalog, November 1, 2026
 
-Universal Adept abilities cost 3 DP. The Mountain Walks and Touched by the Divine
-cost 6 DP at Master; One More Dawn costs 8 DP. Printed costs take precedence.
+The earlier independent Adept and Master catalog has been replaced by sequential discipline paths and level-7 combined abilities. Class signatures are milestone choices, not additional DP purchases.
 Ability entries omit empty Duration, Equipment and Limits fields; any specific
 expiry, equipment or use limit remains in the rules or its printed field.

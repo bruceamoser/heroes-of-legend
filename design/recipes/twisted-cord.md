@@ -5,7 +5,7 @@
 ## Rules
 
 - **ID:** recipe-twisted-cord
-- **Permission:** Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission
+- **Permission:** Know this recipe through Trail Workshop I or II, a teacher or discovery.
 - **Tools:** Craft tools
 - **Materials per attempt:** Suitable long fibers, obtained in the scene or one compatible carried bundle use
 - **Time per attempt:** One hour
@@ -13,4 +13,4 @@
 
 Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.
 
-[Product](../equipment/rope-coil.md). This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.
+[Product](../equipment/rope-coil.md). Trail Workshop I teaches two recipes from its named list; II teaches two more. Recipe knowledge is reusable and grants no ingredients.

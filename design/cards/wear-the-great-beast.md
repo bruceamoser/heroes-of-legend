@@ -1,27 +1,7 @@
 # Wear the Great Beast
 
-*Become a mighty bear, elk or great hunting cat for the scene. Gain physical resistance 2, Speed +1 and Stability 2. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver. Weak: 5 physical damage. Standard outcome — 6 physical damage. Push 2 squares. Strong outcome — 8 physical damage. Push 3 squares and apply Prone.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-Become a mighty bear, elk or great hunting cat for the scene. Gain physical resistance 2, Speed +1 and Stability 2. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver.
-
-**Claw, antler or bite: Main Action, Brawn; one adjacent enemy.** Against a Prone target, gain 1 Boon to the attack.
-
-- **Weak:** 5 physical damage.
-- **Standard:** 6 physical damage; push 2 squares.
-- **Strong:** 8 physical damage; push 3 squares and apply Prone.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
-
-**Type:** Magic / Attack / Defense
+This former independent ability is retired. Use [Read the Trail I](../disciplines/wilderness.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** wear-the-great-beast
-
-[Build this character](../paths/beast-within.md) · [Card conventions](../card-conventions.md)

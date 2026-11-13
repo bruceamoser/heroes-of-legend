@@ -1,23 +1,7 @@
 # Press and Bind
 
-*Reduce temporary Bleeding by 1 on yourself or an adjacent willing creature.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self or one adjacent willing creature.
-
-Reduce the target's temporary Bleeding by 1.
-
-**Equipment / acquisition:** A free hand and cloth.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Medicine 1
-
-**Type:** Skill / Recovery
+This former independent ability is retired. Use [Field Dressing I](../disciplines/medicine.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** press-and-bind
-
-[Card conventions](../card-conventions.md)

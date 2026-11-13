@@ -2,7 +2,7 @@
 
 *The woodland archer who reads a trail as readily as a target.*
 
-**Wood Elf Blade · HP 16/16 · Grit 1 remaining / 1 granted · Speed 8 squares · Bulk 10/10.**
+**Wood Elf Blade · HP 15/15 · Grit 1 remaining / 1 granted · Speed 8 squares · Bulk 8/10.**
 
 **Languages:** Common and Elven. See the [language reference](../rules/languages.md).
 
@@ -18,26 +18,27 @@ Total **+3**. Blade minima: Agility, Brawn ≥ 0; met. Mental sum **+0**, so eac
 - [Nature’s Whispers](../ancestries/trait-elf-leaf-listener.md): Gain 1 Boon to a roll interpreting living signs.
 
 
-## Level 0 — origins and purchases
+## Level 0 — origins and learning
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness 1** and [Wild Harvest](../cards/forage-woodland.md).
-- [Messenger](../origins/background-messenger.md): **Marksmanship 1** and [Pinning Shot](../cards/pinning-shot.md).
+- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
+- [Messenger](../origins/background-messenger.md): **Marksmanship access** and [Hobbling Shot I](../disciplines/marksmanship.md).
 
-Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purchased at this stage.
+Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Read the Quarry](../cards/read-the-quarry.md) | Marksmanship 1 | 2 | 8 |
-| [Take the Measure](../cards/take-the-measure.md) | Marksmanship 1 | 2 | 6 |
-| [Roots Remember Feet](../cards/roots-remember-feet.md) | Wilderness 1 | 2 | 4 |
-| [A Good Place to Stop](../cards/a-good-place-to-stop.md) | Wilderness 1 | 2 | 2 |
-| [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) | Wilderness 1 | 2 | 0 |
+| [Hobbling Shot II](../disciplines/marksmanship.md) | Hobbling Shot I | 2 | 8 |
+| [Hobbling Shot III](../disciplines/marksmanship.md) | Hobbling Shot II | 2 | 6 |
+| [Wild Harvest II](../disciplines/wilderness.md) | Wild Harvest I | 2 | 4 |
+| [Wild Harvest III](../disciplines/wilderness.md) | Wild Harvest II | 2 | 2 |
+| [Read the Trail I](../disciplines/wilderness.md) | Wilderness access | 1 | 1 |
 
-**Spent 10; 0 DP expires. Stage closes at 0.**
+**Spent 9; 1 DP expires when this stage closes.**
 
-## Level 1 — class and purchases
+## Level 1 — class and learning
 
-Choose [Blade](../classes/blade.md). Class grants **Arms 1 and Athletics 1**; 0 duplicate(s) give **+0 DP**, not higher ranks.
+Choose [Blade](../classes/blade.md). Gain **Arms and Athletics access**. Duplicate access gives 1 DP each, never a free improvement.
+
 Free signature: [Measured Guard](../cards/signature-blade-measured-guard.md). Its use procedure follows; the linked card remains the complete reference:
 
 **Action:** Reaction · **Attribute:** None (no roll)
@@ -52,79 +53,56 @@ Gain 1 Boon to the defense. After the attack resolves, if the defense was Strong
 
 **Signature limit:** Repeatable; normal action economy applies.
 
-Fresh pool: **10 + 0 = 10 DP**. All discipline purchases below occur before cards that need them.
+Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Hook and Drive](../cards/hook-and-drive.md) | Arms 1 | 2 | 8 |
-| [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | Athletics 1 | 2 | 6 |
-| [Sure Ascent](../cards/sure-ascent.md) | Athletics 1 | 2 | 4 |
-| [Expert River Crossing](../cards/expert-river-crossing.md) | Athletics 1 | 2 | 2 |
-| [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 0 |
+| [Measured Shot I](../disciplines/marksmanship.md) | Marksmanship access | 1 | 9 |
+| [Measured Shot II](../disciplines/marksmanship.md) | Measured Shot I | 2 | 7 |
+| [Measured Shot III](../disciplines/marksmanship.md) | Measured Shot II | 2 | 5 |
+| [Sure Ascent I](../disciplines/athletics.md) | Athletics access | 1 | 4 |
+| [Sure Ascent II](../disciplines/athletics.md) | Sure Ascent I | 2 | 2 |
+| [Sure Ascent III](../disciplines/athletics.md) | Sure Ascent II | 2 | 0 |
 
-**Spent 10; 0 DP expires. Stage closes at 0.**
+**Spent 10; 0 DP expires when this stage closes.**
 
-**Final disciplines:** Arms 1, Athletics 1, Marksmanship 1, Wilderness 1.
+## Learned abilities and spellbook pages
 
-## Equipment and derived statistics
+- [Hobbling Shot I](../disciplines/marksmanship.md).
+- [Hobbling Shot II](../disciplines/marksmanship.md).
+- [Hobbling Shot III](../disciplines/marksmanship.md).
+- [Measured Shot I](../disciplines/marksmanship.md).
+- [Measured Shot II](../disciplines/marksmanship.md).
+- [Measured Shot III](../disciplines/marksmanship.md).
+- [Read the Trail I](../disciplines/wilderness.md).
+- [Sure Ascent I](../disciplines/athletics.md).
+- [Sure Ascent II](../disciplines/athletics.md).
+- [Sure Ascent III](../disciplines/athletics.md).
+- [Wild Harvest I](../disciplines/wilderness.md).
+- [Wild Harvest II](../disciplines/wilderness.md).
+- [Wild Harvest III](../disciplines/wilderness.md).
 
-| Owned item and chosen appearance | Grant | Bulk |
-|---|---|---:|
-| Two-handed yew bow | [Pinning Shot](../cards/pinning-shot.md) | 1 |
-| One d8 arrow bundle | [Pinning Shot](../cards/pinning-shot.md) | 1 |
-| One-handed hunting knife | [Hook and Drive](../cards/hook-and-drive.md) | 1 |
-| Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
+All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
 
-HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 + Conditioned Body 1 = **16**. HP gain per level: **4**. SP: **6/6**. First aid: **available**..
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **4** + purchased Bulk **6** = **10**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 = **8**, or **9** in wooded terrain with Footfall on the Leaves.
-
-Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
-
-Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
-
-**Recipes:** none granted or purchased.
-
-## At the table
-
-Pinning Shot uses Agility; Read the Quarry offers a Knowledge-based alternative. Take the Measure rewards staying still for the shot. Foraging, climbing and river crossing support the scout role. Measured Guard gives a defense Boon when an adjacent enemy attacks; on a Strong defense, Lira can answer with Basic Melee if the attacker remains within reach. The bow needs both hands while in use; the knife is stowed then.
-
-## Complete learned-card checklist
-
-These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
-
-- [Wild Harvest](../cards/forage-woodland.md) — Main Action; Knowledge.
-- [Pinning Shot](../cards/pinning-shot.md) — Main Action; Agility.
-- [Read the Quarry](../cards/read-the-quarry.md) — Main Action; Knowledge.
-- [Take the Measure](../cards/take-the-measure.md) — Maneuver; None (no roll).
-- [Roots Remember Feet](../cards/roots-remember-feet.md) — Main Action; Reason.
-- [A Good Place to Stop](../cards/a-good-place-to-stop.md) — Passive; None (no roll).
-- [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md) — Main Action; Guile.
-- [Hook and Drive](../cards/hook-and-drive.md) — Main Action; Brawn.
-- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None (no roll).
-- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
-- [Expert River Crossing](../cards/expert-river-crossing.md) — Passive; None (no roll).
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
-- [Measured Guard](../cards/signature-blade-measured-guard.md) — Reaction; None (no roll).
-
-All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
-
-## Starting coins and shopping — allocation
+## Equipment and starting numbers
 
 40 + 2 + 5 + 7 + 4 (base + ancestry + culture + background + class) = **58 coins**.
 
-One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
 
-| Purchase | Coins | Bulk | Coins left |
+| Item | Coins | Bulk | Coins left |
 |---|---:|---:|---:|
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 55 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 51 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 48 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 39 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 34 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 14 |
+| [Ordinary Ranged Weapon](../equipment/ordinary-ranged-weapon.md) | 18 | 1 | 40 |
+| [Ammunition Bundle](../equipment/ammunition-bundle.md) | 9 | 1 | 31 |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 28 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 24 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 21 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 12 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 7 |
+| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 2 |
 
-**Spent 44; coins carried 14; final Bulk 10/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+**Spent 56; coins remaining 2; Bulk 8/10.** No encumbrance penalty.
 
-[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
+HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **6/6**. Speed **8**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
 
-**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.
+Speed is 9 in wooded terrain from Woodland Tread. The bow requires both hands.

@@ -16,7 +16,7 @@ Throw the ally up to 4 squares in a direction you choose, ignoring difficult ter
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

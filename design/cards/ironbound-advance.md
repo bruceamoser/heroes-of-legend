@@ -1,23 +1,7 @@
 # Ironbound Advance
 
-*While wearing armor, move up to 4 squares without provoking. While wearing armor, gain Stability 3 until the end of your next turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self while wearing armor.
-
-Move up to 4 squares without provoking. While wearing armor, gain Stability 3 until the end of your next turn.
-
-**Equipment / acquisition:** Worn armor.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Armor 3
-
-**Type:** Skill / Movement / Defense
+This former independent ability is retired. Use [Armored Training I](../disciplines/armor.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** ironbound-advance
-
-[Card conventions](../card-conventions.md)

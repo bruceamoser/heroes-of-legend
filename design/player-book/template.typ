@@ -117,7 +117,8 @@
   #place(center + horizon, text(size: 9pt, fill: ivory, weight: "bold", tier))
 ]
 #let discipline-mark(name, rank, size: 29pt) = box(width: size + 2pt, height: size)[
-  #place(center+horizon, image("art/interior/symbol-"+name+".png",width:size,height:size,fit:"contain"))
+  #let token-path = if name in ("elements","mentalism","divination","invocation","force","wards","spellcraft") {"art/tokens/"+name+".svg"} else {"art/interior/symbol-"+name+".png"}
+  #place(center+horizon, image(token-path,width:size,height:size,fit:"contain"))
   #if rank != "" {
     // The offset numeral leaves each symbol's identifying upper contour visible.
     place(right+bottom, rect(width:12pt,height:13pt,radius:2pt,fill:ivory,stroke:.5pt+forest,

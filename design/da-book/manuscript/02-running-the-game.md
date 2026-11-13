@@ -123,27 +123,31 @@ task and space available. Do not quietly raise it whenever another helper joins.
 A three-person attempt yields 3–9 progress before special effects. Use that range
 to avoid accidentally assigning an unreachable target. A target represents the
 amount of combined work, not a new difficulty threshold for each roll.
-Group checks do not apply to combat, crafting, recipe derivation or treatment.
+Make combat, crafting and treatment rolls individually.
 In combat, a hero can spend their own Force action on an obstacle under its normal
 rules; the group does not pool simultaneous rolls.
 
-## Conversation is an action in the world
+## Set a social objective
 
-Give an NPC a want, a concern and a limit. Let the players speak in character or
-summarize a proposal. Use the attribute printed on a social card. Without one,
-choose the attribute that matches the approach: Guile for a deceptive bargain,
-Knowledge for a technical case, or Reason to untangle conflicting accounts.
+Give the listener a want, a concern and a limit. Ask what concession the heroes
+seek and decide who can grant it. Good evidence may settle the matter outright.
+For a concession that takes several exchanges, state which approaches could
+work, what the listener needs and the progress target. Start from 3 for a
+modest request, 6 for substantial, 9 for demanding or 12 for exceptional.
 
-Good evidence may settle a question without a roll. A roll can change how a
-witness cooperates, but cannot make them reveal a fact they never knew. Likewise,
-a bargain does not erase another person's responsibilities or compel a player
-character's beliefs. Apply an explicit supernatural ability according to its card;
-ordinary persuasion does not acquire that ability by a high result.
+Each meaningful exchange takes about a minute outside combat or a Main Action
+in combat. Call for the attribute that matches the approach and award 1/2/3
+progress, or use the printed results of a learned technique. Ask for a new
+offer, fact or change in the situation before another roll. Keep separate
+progress for listeners whose interests differ. At the target, deliver the
+agreed concession. Each player decides how their hero responds.
 
-> **Example: the missing wage chest.** A guard suspects the heroes of theft. Showing
-> the recovered chest and its unbroken seal answers that suspicion. Do not require
-> a second persuasion roll just to make the guard notice the seal. Negotiating
-> access to a restricted archive afterward is a different request.
+> **Example — the missing wage chest.** Showing the guard the recovered chest
+> with its seal intact answers the suspicion of theft. To enter the restricted
+> archive, the group needs 6 progress and a reason the guard can explain to
+> their captain. A Standard Make the Case II contributes 3. A witness letter
+> and a Standard Reason roll contribute 2. Offering to enter under escort
+> contributes the last point on a Weak roll. The guard agrees to that escort.
 
 ## Enter turns when order matters
 
@@ -152,7 +156,7 @@ an exact order. At the start, roll unmodified 3d6 once: 12 or above means the
 players' side starts; below 12 means the opposing side starts. Alternate one actor
 from each side. Each side chooses its next actor. When one side has no unacted
 members, the other finishes its remaining turns. The same side starts each round;
-do not reroll initiative.
+do not reroll initiative. Each round lasts **6 seconds**, so 10 rounds make 1 minute.
 
 Each actor has one Main Action, one Maneuver, one Reaction and movement. Main
 converts to Maneuver, and Maneuver to movement; conversion never goes upward.
@@ -168,9 +172,21 @@ Drawing a weapon as part of its attack remains part of that action.
 
 > **Example: a healer under pressure.** A hero next to an enemy begins casting a
 > healing spell. The enemy spends its Reaction on Basic Melee. If the hero remains
-> capable and can pay the healing cost while staying above 0 HP, the spell proceeds.
-> If the attack drops the hero to 0, they cannot continue. There is no extra
-> concentration or counterspell roll.
+> able to act and the target is still in reach, the hero pays the printed SP and
+> resolves the spell. If the attack drops the hero to 0 HP, the action is spent
+> and the SP stays in the hero's reserve.
+
+## Keep track of ongoing magic
+
+Use each spell's printed action or Ritual time. A Ritual takes the stated
+uninterrupted work, with its SP and materials paid at the listed time. Resolve
+the effect when the work is complete.
+
+A sustained spell lasts through the caster's next turn. Starting on that turn,
+the caster can spend a Maneuver and 1 SP each turn to continue it, up to its
+printed duration. Track one sustained spell per caster. Track cancellation
+progress against the individual casting when an ability supplies it. Its usual
+target is 2 + the affected spell's printed SP cost.
 
 ## Who handles the dice
 

@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One adjacent ally
 
-Plausibly assist a declared task. Proposal: the ally gains 1 Boon to that task’s next roll before the start of your next turn. Outside combat, contribute Aid or your own group roll, not both.
+Plausibly assist a declared task. The ally gains 1 Boon to that task’s next roll before the start of your next turn. Outside combat, contribute Aid or your own group roll, not both.
 
 **Duration:** Until the start of your next turn, or until the aided roll is made.
 

@@ -16,7 +16,7 @@ Make a Reason roll. Weak: 3 squares long; 1 radiant damage. Standard: 5 squares 
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Protector; minimum level 7
 
 **Type:** Signature
 

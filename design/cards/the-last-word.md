@@ -1,29 +1,7 @@
 # The Last Word
 
-*When you enter dying, take one Main Action before the Dying procedure. Then resolve Dying normally. Record a descriptive scar if you survive. Once per scene.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self, when you enter Dying.
-
-Take one Main Action before the Dying procedure. Then resolve Dying normally. Record a descriptive scar if you survive. Once per scene.
-
-**Duration:** Instant.
-
-**Equipment / acquisition:** None.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 3 · **Requirements to learn:** None
-
-**Type:** Utility
-
-**Tags:** Universal / Reaction / Recovery
-
-**Limits:** Once per scene; one Main Action.
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-last-word
-
-[Card conventions](../card-conventions.md)

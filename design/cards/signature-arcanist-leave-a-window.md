@@ -16,7 +16,7 @@ The two squares become connected windows until the end of the ally’s turn. The
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 

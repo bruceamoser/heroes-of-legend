@@ -1,21 +1,7 @@
 # Circle of Old Names
 
-*Self and willing allies within 2 squares. Each recipient reduces temporary Frightened by 1 and gains Stability 2 until the end of your next turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self and willing allies within 2 squares.
-
-Each recipient reduces temporary Frightened by 1 and gains Stability 2 until the end of your next turn.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Calling 2 and Guard 1
-
-**Type:** Magic / Recovery / Defense
+This former independent ability is retired. Use [Spirits I](../spellbooks/spirits.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** circle-of-old-names
-
-[Build this character](../paths/ancestral-guardian.md) · [Card conventions](../card-conventions.md)

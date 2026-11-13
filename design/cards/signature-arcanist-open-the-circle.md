@@ -16,7 +16,7 @@ Each recipient gains 1 Boon to defenses against spells until the start of your n
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 7
 
 **Type:** Signature
 

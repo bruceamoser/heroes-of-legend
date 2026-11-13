@@ -1,29 +1,7 @@
 # Touched by the Divine
 
-*You understand every spoken language you hear. Your own speech and literacy remain the languages you have learned.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-You understand every spoken language you hear. Your own speech and literacy remain the languages you have learned.
-
-**Duration:** Permanent.
-
-**Equipment / acquisition:** None.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 6 · **Requirements to learn:** None
-
-**Type:** Utility
-
-**Tags:** Universal / Skill / Language / Passive
-
-**Limits:** Purchase once.
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** touched-by-the-divine
-
-[Card conventions](../card-conventions.md)

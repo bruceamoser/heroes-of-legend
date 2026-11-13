@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Radiance 1** and [Oathlight Strike](../cards/oathlight-strike.md).
-- **Life 1** and [Shared Breath](../cards/shared-breath.md).
+- **Wards access** and [Protection I](../spellbooks/protection.md).
+- **Life access** and [Restoration I](../spellbooks/restoration.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

@@ -16,36 +16,28 @@ goal or reach a significant turning point. A negotiated settlement can qualify
 just as well as a battle. Tell the group what kind of progress you intend to
 recognize so they do not feel required to seek unnecessary fights.
 
-At level 2 and every later level, award **8 + the new level DP**. These points can
-be saved and spent in a place you judge safe. The character-creation DP adjustments
-from Knowledge, Reason and Guile apply only at levels 0 and 1, not to later awards.
+The DA awards milestone levels. From level 2 onward, gain 8 + the new level in DP. Save these points or spend them when the DA judges you are somewhere safe. Add your ancestry and class contributions to maximum HP. If you have positive HP, add the same amount to current HP. At 0 HP, increase only your maximum.
 
-| New level | DP award | Additional milestone |
-|---:|---:|---|
-| 2 | 10 | — |
-| 3 | 11 | +1 Grit; one chosen level-3 class signature; Adept cards become available |
-| 4 | 12 | — |
-| 5 | 13 | — |
-| 6 | 14 | — |
-| 7 | 15 | +1 Grit; one chosen level-7 class signature; Master cards become available |
-| 8 | 16 | — |
-| 9 | 17 | — |
-| 10 | 18 | — |
+At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. At other levels, gain the DP, HP and SP listed below.
 
-Grit grants add the new point; they do not refund previous expenditure. Attributes stay fixed. Each new level adds the ancestry and class HP contributions;
-fixed HP benefits are added only once. Discipline ranks are purchased in sequence at class prices,
-and the hero must meet a card's requirements before buying it. There are no
-prerequisite-card chains or access to a second class's signatures.
+| New level | DP | Other milestone |
+|---|---:|---|
+| 2 | 10 | HP and +2 SP growth |
+| 3 | 11 | HP and +2 SP growth; final path entries; one signature; 1 Grit |
+| 4 | 12 | HP and +2 SP growth |
+| 5 | 13 | HP and +2 SP growth |
+| 6 | 14 | HP and +2 SP growth |
+| 7 | 15 | HP and +2 SP growth; combined abilities; one signature; 1 Grit |
+| 8 | 16 | HP and +2 SP growth |
+| 9 | 17 | HP and +2 SP growth |
+| 10 | 18 | HP and +2 SP growth |
 
-> **Example: reaching level 3.** A hero receives 11 DP, gains one Grit and chooses
-> a level-3 signature from their class. They can now buy eligible Adept cards, but
-> still need those cards' discipline requirements. Their attributes stay fixed; add ancestry + class contributions to maximum HP.
-> Add the same gain to current HP unless they are at 0.
+Record what you learned, including spellbook pages, and how much DP remains. You can use any learned entry when you meet its requirements.
 
-Review the group's new choices before preparing the next adventure. A new route,
-healing option or area attack can change what an obstacle asks of the party.
-Do not immediately make every new ability ineffective; give the players a chance
-to enjoy the choice they made.
+
+From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve.
+
+Beginning a discipline costs 1 DP. Its path entries cost 1/2/2/3 DP in order. The final entry requires level 3. At level 7, a hero can learn combined abilities after completing the listed paths. The cost is 3/4/5 DP for two/three/four disciplines.
 
 ## Safe places and downtime
 
@@ -53,8 +45,7 @@ Explain whether a campsite permits safe overnight rest before the group commits
 to it. Eight hours, including six hours of sleep or equivalent stillness, restores
 HP and SP and renews the recipient's first-aid allowance, at most once in 24 hours.
 Food, water and adequate shelter are required. A fight, forced travel or strenuous
-work interrupts the rest; brief waking and routine watch do not. There is no
-short-rest reset. Safe time for spending DP need not be enough time for recovery.
+work interrupts the rest; brief waking and routine watch do not. A shorter safe pause may give the heroes time to spend DP or tend an injury.
 
 Track current HP and SP between encounters. Ten minutes can permit supplied First
 Aid, but cannot replenish everyone's resources. Respect intelligent retreat and
@@ -63,30 +54,29 @@ ambush merely to prevent a rest that was already established as safe.
 
 ## Keep the survival sequence clear
 
-At positive HP, damage reduces HP normally. At 0, a hero enters Dying and becomes
-unconscious and prone. Each Dying turn begins with a Fortitude death roll. Weak
-adds one mark; Standard changes nothing; Strong stabilizes at 0 and clears marks.
-Retained natural 111 adds two marks instead of one; 666 restores 1 HP and clears
-marks. Further damage while already at 0 causes one immediate death roll per
-damaging event, including damage to a stabilized hero. It does not automatically
-add a mark. The initial hit taking positive HP to 0 does not add this extra roll.
+When a hero falls to 0 HP, they enter Dying, fall prone and lose consciousness.
+Start two fresh tallies. At the start of each Dying turn, call for a Fortitude
+death roll. Weak adds one failure, Standard leaves both tallies as they are,
+and Strong adds one success. Use the result band even on retained triples.
 
-At three marks the hero dies unless Grit or an explicit prevention resolves
-immediately. Grit can be spent after seeing a death roll that adds marks, including
-the third. It sets HP to half maximum, rounded up, clears marks and ends Dying.
-It costs no action and never refreshes. Gain one point each at levels 1, 3 and 7;
-these are the only grants. Record grants and expenditure separately.
+The third success stabilizes the hero at 0 HP. The third failure kills them
+unless Grit or an ability intervenes immediately. Each damaging event while
+already at 0 HP calls for one immediate death roll. If the hero was stable,
+start a fresh Dying episode before rolling.
 
-Anyone can Stabilize an adjacent Dying hero with a Maneuver and no roll. Clear
-marks, end Dying and leave the hero at 0 HP, conscious but unable to take actions
-or voluntary movement. They can speak and accept aid. Further damage returns them
-to Dying and causes an immediate death roll. Positive healing ends Dying and
-HP-caused unconsciousness, without removing unrelated conditions.
+Anyone can spend a Maneuver to stabilize an adjacent Dying hero. This clears
+both tallies and ends Dying. The hero is conscious and prone at 0 HP with three
+defense Banes. They can speak and accept aid. They regain actions and voluntary
+movement when HP returns, subject to other conditions. Healing above 0 also
+clears both tallies and ends Dying and HP-caused unconsciousness.
 
-State HP, marks, remaining Grit and relevant conditions. The fallen hero's player
-chooses whether to spend their Grit. Keep turn timing while Dying or immediate
-hazards remain. Ordinary NPCs die at 0; summons disappear. Do not give every enemy
-the heroes' death rolls or lifetime reserves.
+The hero's player can spend Grit immediately after a death roll adds a failure,
+including the third. Grit restores half maximum HP, rounded up, clears both
+tallies and ends Dying. Gain one point at each of levels 1, 3 and 7 and record
+grants and expenditures separately.
+
+Keep turn timing while Dying or immediate hazards remain. Ordinary NPCs die
+at 0 HP. Summoned forms disappear.
 
 ## Treatment and magical healing
 
@@ -99,7 +89,7 @@ condition-removal actions do not use this allowance.
 Learned treatment improves that attempt. Magical healing instead spends the
 caster's SP and can be repeated while SP remains; it does not consume first aid.
 A potion uses its printed inventory die. Apply Life resistance to magical healing
-and potions. A creature cannot receive more than its missing HP.
+and potions. Restore at least 1 HP if any is missing, up to maximum HP.
 
 A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
 their controller's SP instead and cannot receive healing. SP returns after safe
@@ -114,9 +104,9 @@ player what they wish to remember. Scars carry no penalties, Boons or treatment
 requirements. Do not turn a cosmetic description into a lost limb or compelled
 behavior. [Scars and Survival](../../rules/wounds.md) offers prompts.
 
-If a hero dies, give their player room for a farewell or silence. This is narration,
-not a two-round grace period for more actions or healing. Ordinary healing cannot
-restore the dead. Any exceptional prevention must act before death is final.
+If a hero dies, give their player a moment for Last Words, a final gesture or silence. Abilities
+that prevent death resolve at their stated triggers. Returning a dead hero
+to life requires a resurrection ritual.
 
 Let the company decide what comes next: a funeral, a journey home, a promise or
 an urgent escape. Discuss a replacement character promptly so the player can

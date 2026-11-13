@@ -1,21 +1,7 @@
 # A Company of Reflections
 
-*Give up to three willing creatures within 3 squares 2 Boons to defenses until the end of your next turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to three visible willing creatures within 3 squares, including yourself.
-
-Each recipient gains 2 Boons to defenses until the end of your next turn. You keep one company at a time; a new casting replaces your previous doubles.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Mind 2 and Guard 2
-
-**Type:** Magic / Defense
+This former independent ability is retired. Use [Thought I](../spellbooks/thought.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** a-company-of-reflections
-
-[Build this character](../paths/mirror-weaver.md) · [Card conventions](../card-conventions.md)

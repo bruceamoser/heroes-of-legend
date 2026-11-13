@@ -46,9 +46,12 @@ from distinct valid sources stack, cancel, and then use the three-die net limit.
 Read retained natural 111 as Weak with an additional complication and 666 as Strong
 with an additional benefit. The result still makes its printed progress. The DA
 fits a benefit or complication to the scene; it does not silently double damage or
-grant another action.
+grant another action. Death rolls use only the result band.
 
 ## Taking turns
+
+A round lasts **6 seconds**, so 10 rounds make 1 minute. Each character takes
+one turn during that time.
 
 At the start of combat, one player rolls unmodified 3d6. On 12 or more, the player
 side acts first. Otherwise the opposing side begins. This determines which side
@@ -56,8 +59,7 @@ starts **every round of this combat**; do not roll again each round.
 
 The starting side chooses one of its characters to act. Then the other side chooses
 one. Alternate until everyone has taken a turn. If one side has no characters left
-to act, the other finishes its remaining turns. A character takes one turn each round.
-Each side chooses its order as it goes.
+to act, the other finishes its remaining turns. Each side chooses its order as it goes.
 
 On your turn, you have one **Main Action**, one **Maneuver**, and movement up to your
 **Speed**. You also have one **Reaction**, available for its stated trigger. Refresh
@@ -161,9 +163,8 @@ item, or retrieving an item can provoke. The enemy may spend its Reaction to mak
 provoking action**, before the original action takes effect.
 
 Then continue the original action if its actor is capable. Damage alone does not
-cancel it. An actor reduced to Dying cannot continue. Commit the action on declaration;
-if interrupted permanently, that action is spent. Additional HP or item costs are
-paid only when the action continues into resolution. An unspent potion is not drunk
+cancel it. Recheck targets and range before continuing. At 0 HP, an actor must regain HP before they can act again. Commit the action on declaration;
+if interrupted permanently, that action is spent. Pay the printed cost when the action continues into resolution. An unspent potion is not drunk
 by an interrupted character who can no longer act.
 
 Drawing a weapon as part of attacking adds no separate action. Dropping an item is
@@ -172,9 +173,9 @@ An ability can explicitly allow movement without provoking.
 
 > **Example — a spell under pressure.** Vaelis begins casting beside an armed foe.
 > The foe spends its Reaction on Basic Melee. Vaelis makes the required defense and
-> loses HP. Still conscious and otherwise capable, Vaelis continues the spell and
-> pays any remaining printed cost. A healing spell cannot proceed if its upfront
-> life cost would leave its caster at 0 HP.
+> loses HP. Vaelis can still act, so she checks her targets again, pays the
+> spell's SP cost and resolves it. If the attack drops her to 0 HP, she spends
+> the action she declared and keeps the SP.
 
 ## Distance, space and cover
 

@@ -16,7 +16,7 @@ Each willing ally within 5 squares may immediately fall prone. Make one Fortitud
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

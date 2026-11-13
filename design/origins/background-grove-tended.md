@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Life 1** and [Sap and Breath](../cards/sap-and-breath.md).
-- **Wilderness 1** and [Roots Remember Feet](../cards/roots-remember-feet.md).
+- **Life access** and [Restoration I](../spellbooks/restoration.md).
+- **Wilderness access** and [Read the Trail I](../disciplines/wilderness.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

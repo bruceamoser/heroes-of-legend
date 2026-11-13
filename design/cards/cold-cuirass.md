@@ -1,21 +1,7 @@
 # Cold Cuirass
 
-*Before taking physical damage from one attack, gain physical resistance 2 against the attack.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self before taking physical damage from one attack.
-
-Gain physical resistance 2 against the attack.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Frost 1
-
-**Type:** Magic / Defense
+This former independent ability is retired. Use [Water I](../spellbooks/water.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** cold-cuirass
-
-[Card conventions](../card-conventions.md)

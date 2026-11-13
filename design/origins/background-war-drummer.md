@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Influence 1** and [Keep Time with Steel](../cards/keep-time-with-steel.md).
-- **Guard 1** and [Shielding Step](../cards/shielding-step.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
+- **Guard access** and [Shield Bash I](../disciplines/guard.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

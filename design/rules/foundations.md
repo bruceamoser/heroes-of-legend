@@ -23,8 +23,9 @@ per Weak/Standard/Strong result.
 
 At combat start, one unmodified 3d6: 12+ gives players the first turn, otherwise
 the opposing side starts. Alternate sides; each side chooses its next character.
-The same side starts every round. Each character has Main, Maneuver, Reaction and
-movement. Main converts to Maneuver, Maneuver to movement; never upward.
+The same side starts every round. A round lasts 6 seconds and ends after everyone
+has had a turn. Each character has Main, Maneuver, Reaction and movement. Main
+converts to Maneuver, Maneuver to movement; never upward.
 
 Player attacks use one attacker roll, even against a player. NPC attacks use the
 player’s defense roll. Strong defense receives Weak attack effects, Standard
@@ -128,9 +129,9 @@ printed attribute and outcomes. Ordinary unsummoned healers pay their own cost.
 
 Ordinary travel has no routine roll and no exhaustion track. Group checks occur
 outside combat only: each participant adds 1/2/3 to a declared target. State binary
-or cumulative before rolling. No group crafting, recipe derivation or treatment.
+or cumulative before rolling. Make crafting and treatment rolls individually.
 
-Safe overnight rest restores HP and SP; first aid uses one recipient allowance between rests. Scars are descriptive; Grit is gained once at levels 1/3/7 and never refreshes. At 0 HP heroes enter Dying; further damage causes an immediate Fortitude death roll. Three death marks kill unless Grit or an explicit prevention resolves immediately. See [recovery](recovery.md) for the complete procedure.
+Safe overnight rest restores HP and SP; first aid uses one recipient allowance between rests. Scars are descriptive; Grit is gained once at levels 1/3/7 and never refreshes. At 0 HP heroes enter Dying; further damage causes an immediate Fortitude death roll. Weak adds a failure, Strong adds a success and Standard changes neither tally. Three failures kill unless Grit or an ability intervenes. Three successes stabilize at 0 HP. See [recovery](recovery.md) for the complete procedure.
 
 [Latest perception, timing and movement decisions](session-resolution.md) supersede
 earlier timing notes. [Full conditions](conditions.md), [scars](wounds.md), and

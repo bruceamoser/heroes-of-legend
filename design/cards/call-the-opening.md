@@ -1,25 +1,7 @@
 # Fortune Favors Us
 
-*Use a Reaction to reduce an ally's temporary Frightened by 1 before it rolls with the penalty.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to three willing creatures within 4 squares who hear you.
-
-Each target gains 1 Boon to attack and defense rolls until the end of your next turn.
-
-On later turns, spend a Maneuver to sustain the blessing until the end of your next turn.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Influence 2
-
-**Type:** Magic / Support
-
-**Limits:** Maintain one blessing at a time.
+This former independent ability is retired. Use [Make the Case I](../disciplines/influence.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** call-the-opening
-
-[Card conventions](../card-conventions.md)

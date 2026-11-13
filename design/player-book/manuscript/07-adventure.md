@@ -104,85 +104,82 @@ no automatic falling damage. Exceptional surfaces and landing circumstances are 
 
 ## Talk, bargain and persuade
 
-Speak for your character, summarize what they say, or use a mixture of both. Explain
-what you want and why the other person might agree. The DA portrays their interests,
-knowledge and limits. A roll resolves uncertainty; it does not erase their motives.
+Describe what you want and why the listener might agree. A letter, an offer or
+a demonstration can settle the matter outright. When it takes several exchanges,
+agree on the concession and who can grant it. The DA sets the progress target
+and tells you which approaches could work.
 
-Use the attribute printed on a social ability. Without one, the DA calls for an
-attribute appropriate to the approach. Guile might carry a deceptive bargain;
-Knowledge might establish a technical argument; Reason might find the important
-contradiction. A useful fact or appropriate gesture can make a roll unnecessary.
+One meaningful exchange usually takes about a minute, or a Main Action in
+combat. Use the attribute and outcomes of a learned Influence ability, or roll
+the attribute the DA assigns for ordinary progress of 1/2/3. Bring a new fact,
+offer or change in the situation for each further roll. Speakers working toward
+the same concession can share progress. Listeners with different interests
+may need separate objectives.
 
-Scars are descriptive. They grant no intimidation Boon, persuasion Bane or other
-modifier. The DA judges the merits of an approach; personality and allegiance
-remain choices.
+At the target, the listener grants the agreed concession. Each player still
+decides what their own hero thinks and does. See [Influence](../../disciplines/influence.md)
+for techniques that improve your arguments, distractions and threats.
 
 ## Magic in your hands
 
-Magic is learned through abilities and disciplines. There are no spell slots. Printed spell-point costs spend your SP reserve. A spell uses the same action, attribute and outcome structure as another
-ability, with its printed requirements and costs. An attack spell still produces
-its Weak result on a Weak roll; it does not simply fizzle.
+Learn spells from the pages of your spellbooks. To cast one, spend its printed
+SP cost and follow its action and outcome. An attack spell deals its Weak damage
+on a Weak roll.
 
 You choose a card before rolling. A line, rectangle or placed area must use its
 printed dimensions and range. Connected placed squares share edges. Decide targets
 and any damage-type choice before rolling. An illustration or evocative description
 does not silently make the area larger or add a condition.
 
-Defensive interference and disruption are supplied by abilities. There is no
-universal spell-cancellation roll. Casting beside an enemy can provoke an opportunity
-attack; resolve it before continuing the spell if still capable.
+To unravel a spell, use a spell or ability that supplies cancellation progress.
+The usual target is 2 + the affected spell's printed SP cost. Casting beside
+an enemy can provoke an opportunity attack. Resolve it before paying SP and
+continuing the spell.
 
 Beast forms keep your own HP, attributes and scars. They are not replaceable HP
 pools. Use the form's printed actions and equipment restrictions. A form does not
 import an entire monster entry or grant spellcasting if its rules forbid it.
 
+For casting actions, Rituals, sustained magic and spellbook learning, use [Magic and spellbooks](../../rules/magic.md).
+
 ## Healing spends spell points
 
-A Novice healing spell costs **1 SP**, an Adept spell **2 SP**, and a Master spell
-**4 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
-Pay the full SP cost before rolling. You must have enough SP; your HP is not the
-casting resource. Healing requires a free hand. Restore the printed HP, apply the
+Each spell costs its printed SP. Page 1 of every spellbook costs **0 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
+Pay the full SP cost before rolling, after resolving any opportunity attack.
+Healing requires a free hand. Restore the printed HP, apply the
 recipient's Life resistance, and restore at least 1 if HP is missing. Never exceed
 maximum HP. A Dying or stabilized living recipient needs no consent or Reaction.
-Healing erases no scars and cannot restore the dead. Potions use their own fixed
+Ordinary healing erases no scars and cannot restore the dead; only an explicit resurrection working can do so. Potions use their own fixed
 healing and inventory die, without a spell outcome roll or SP cost.
 
-> **Example: a finite reserve.** A healer with 6 SP spends 1 SP on Sap and Breath.
-> Standard restores 5 HP; Life resistance 2 reduces that to 3. The healer has 5 SP
-> left. Healing the caster's HP cannot replenish that reserve.
+> **Example: a finite reserve.** A Shepherd with 6 SP uses Mend for 1 SP. A Standard result restores 6 HP; Life resistance 2 reduces that to 4. The healer has 5 SP left. Restoring HP cannot replenish SP.
 
 A healing spell can attack a creature whose profile says healing harms it. Use the
 spell’s attribute, range and SP cost. Its HP result becomes Life damage; beneficial
 recovery riders do not help that target. Use the ordinary player-roll procedure,
 without a second opposed save.
 
-## Make, identify and derive
+## Make and identify items
 
-A crafting card grants the capability to work; a **recipe** describes the specific
-thing you can make. Recipes specify permission, tools, materials, time and output.
-Choose the recipes granted when learning your crafting ability. Ordinary Recipe Study
-offers additional eligible recipes through DP. Other recipes can be found or derived;
-they are not automatically on sale for coins.
+A recipe tells you what you can make, what it takes and how you learn it. Trail
+Workshop I teaches two recipes from its list. Trail Workshop II teaches two
+more. Teachers and discoveries can provide other recipes.
 
-Acquire the actual ingredients. Foraged materials need not be carried indefinitely;
-carried bundles use their printed Bulk and inventory die. Complete the recipe's
-full time, roll the crafting card's attribute, and increase one existing product
-supply by 1/2/3 inventory steps as the recipe allows. Starting from out, the first
-step is d4. Never exceed the recipe's cap. Check carried material supply after use.
+Gather the ingredients and complete the recipe's work interval on your own.
+Roll Knowledge when called for and apply progress or inventory steps as the
+recipe describes. A supply starts at d4 and grows up to the recipe's cap. Check
+the inventory die for any carried materials you used.
 
-Derivation is reverse engineering, not the same as identification. Identification
-cards reveal what their outcomes say; an item may require that understanding before
-use. A magical sword may work at once, while a tome may remain unusable until understood.
-A derivation card specifies its target and work interval. Exceptional objects can
-require years of accumulated work. No group crafting or group derivation shortens it.
+Inspect an unfamiliar item to learn what its appearance and ordinary use reveal.
+If the item requires deeper understanding, follow its instructions. The Identify
+spell in the [Detection spellbook](../../spellbooks/detection.md) reveals a magical
+item's properties as described on its page.
 
 ## Rest and development
 
 The DA determines whether a place is safe enough to spend saved DP. Level awards
-are milestones, not payment for each defeated creature. Keep a record of purchases,
-prerequisites, recipes and scars so your development remains clear.
+are milestones, not payment for each defeated creature. Record your learned abilities, recipes, remaining DP and scars.
 
 First Aid uses supplies and time; safe overnight rest restores HP and SP.
 An inn, a friendly workshop, a healer's garden or a camp among allies can become part
-of the story. Rest restores what its rule says it restores. It does not refund Grit,
-remove a permanent scar, or refill a bottle whose inventory die is out.
+of the story. Gather supplies before you leave, and note what the company still needs to replace.

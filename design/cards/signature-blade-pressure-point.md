@@ -16,7 +16,7 @@ Make one Brawn roll. On a Weak result, deal 1 damage to each creature adjacent t
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Blade; minimum level 1
 
 **Type:** Signature
 

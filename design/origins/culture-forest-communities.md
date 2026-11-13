@@ -6,11 +6,11 @@
 
 ## Rules
 
-**Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
+**Type:** Culture. **Status:** Proposal. Choose one paired option; take the access and first entry together.
 
-- **Wilderness 1** and [Forage Woodland](../cards/forage-woodland.md).
-- **Mind 1** and [Borrow a Voice](../cards/borrow-a-voice.md).
+- **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
+- **Mentalism access** and [Thought I](../spellbooks/thought.md).
 
-Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.
+Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

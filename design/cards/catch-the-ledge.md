@@ -1,23 +1,7 @@
 # Catch the Ledge
 
-*Use Knowledge with 1 Boon to defend against a mechanical trap you can reach. A Strong defense jams the mechanism after it resolves.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self when a fall begins beside a reachable ledge or secure hold.
-
-Catch the hold with a free hand and hang there before the fall travels.
-
-**Equipment / acquisition:** A free hand.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Athletics 1
-
-**Type:** Skill / Defense / Movement
+This former independent ability is retired. Use [Sure Ascent I](../disciplines/athletics.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** catch-the-ledge
-
-[Card conventions](../card-conventions.md)

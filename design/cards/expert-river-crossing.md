@@ -1,21 +1,7 @@
 # Expert River Crossing
 
-*Self and one adjacent willing companion during a shared swim. You and one adjacent willing companion you guide gain 1 Boon to attribute rolls completing the same swim. You may keep one carried item of Bulk 1 or less dry during that swim.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self and one adjacent willing companion during a shared swim.
-
-You and one adjacent willing companion you guide gain 1 Boon to attribute rolls completing the same swim. You may keep one carried item of Bulk 1 or less dry during that swim.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Athletics 1
-
-**Type:** Skill / Utility
+This former independent ability is retired. Use [Strong Swimmer I](../disciplines/athletics.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** expert-river-crossing
-
-[Card conventions](../card-conventions.md)

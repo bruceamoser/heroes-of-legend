@@ -16,7 +16,7 @@ Once per scene, while you are in dim light or darkness, become Hidden until you 
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 7
 
 **Type:** Signature
 

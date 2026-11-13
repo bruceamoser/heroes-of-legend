@@ -1,21 +1,7 @@
 # Cast through the Reflection
 
-*Carry one adjacent willing creature or a creature at 0 HP at half your Speed, keeping it beside you.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** One visible unoccupied square within 6 squares with an unobstructed path from you.
-
-Place a casting point in the chosen square. Your next Main Action spell this turn may use that point for its attack path, cover and area origin, and gains 1 Boon to its attribute roll. Measure cast range from your own position. The point ends after that spell or at the end of your turn.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3 and Mind 1
-
-**Type:** Magic / Utility
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** cast-through-the-reflection
-
-[Card conventions](../card-conventions.md)

@@ -8,7 +8,7 @@
 
 **Market price:** 15 coins. **Bulk:** 1.
 
-A d4 Smoke Flask supply. Requires the Smoke in a Bottle ability to use its printed effect; buying this supply grants no crafting recipe or ability. Check its die after use.
+One single-use Smoke Flask, consumed when thrown. Requires [Smoke in a Bottle I](../disciplines/craft.md); use the range and duration of your learned improvements. Buying it grants no recipe or ability.
 
 Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.
 

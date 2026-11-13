@@ -1,21 +1,7 @@
 # The Unlit Road
 
-*Your shadowed square and one visible free supported shadowed square within 4 squares. Teleport to the chosen shadowed square.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Your shadowed square and one visible free supported shadowed square within 4 squares.
-
-Teleport to the chosen shadowed square.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
-
-**Type:** Magic / Movement
+This former independent ability is retired. Use [Quiet Passage I](../disciplines/subterfuge.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-unlit-road
-
-[Build this character](../paths/night-walker.md) · [Card conventions](../card-conventions.md)

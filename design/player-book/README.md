@@ -16,7 +16,8 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
-- `recipe-presentation.json`: reader-facing grant, crafting and completion text.
+- `../spellbooks/`, `../combined-abilities.md`, `../rules/learning.md` and `../rules/magic.md`: canonical learning and casting chapters.
+- `integrate_learning.py`: assembles learned paths, linked spell tables, individual casting blocks and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
@@ -33,6 +34,8 @@ Poppler, Pillow and pypdf for illustrated export and audits. Dependencies are ex
 python3 -m pip install -r design/player-book/requirements.txt
 TYPST=/path/to/typst python3 design/player-book/build.py --compile
 python3 design/player-book/audit.py
+python3 scripts/audit_spellbooks.py
+python3 scripts/audit_spellbook_spreads.py
 ```
 
 If `TYPST` is unset, the script uses Typst on PATH, then the local tool-test binary
@@ -61,9 +64,14 @@ python3 design/bestiary/audit.py
 
 ## Current baseline and release
 
-Bruce approved the current system through October 17, 2026. Current authored
+The November playtest revision integrates health, sequential learning, spellbook pages and combined disciplines. Current authored
 rules and catalog entries are the authority; Git history holds previous editions.
-New mechanics require a new review. CV calibration remains playtest work.
+The 29 spellbooks contain 319 casting blocks: 169 Main Actions, 22 Maneuvers,
+12 Reactions with triggers, and 116 Rituals with casting times. Shared casting,
+sustain, cancellation and SP-transfer procedures are in `design/rules/magic.md`.
+Basic Actions contains the 18 universal actions; the six small talents appear
+in character creation. New mechanics require review. CV calibration remains
+playtest work.
 
 Both books share the language reference. The Player’s Book includes every summoned
 form but excludes the full DA bestiary and encounter-construction material.
@@ -74,3 +82,14 @@ always includes this book and the Dungeon Architect’s Guide & Bestiary.
 See [QA report](qa-report.md) for validation and [current rules](decision-log.md)
 for important cross-references. Rendered-page review remains required after layout
 changes; this digital playtest edition is not a print-production certification.
+
+
+Each of the 29 spellbooks occupies one even/odd facing spread. The colored list
+and eleven intact spell blocks share that spread, with consistent text sizing
+and the discipline token on every card. `spellbook-spreads.typ` measures cards
+and partitions them into four columns; a failed fit stops the build.
+`spellbook-art.json` assigns one unique illustration per book. Seven existing
+painted assets and 22 detailed generated fantasy illustrations fill the available
+space. All 22 replacements preserve their transparent alpha backgrounds. New magical-discipline tokens live in `art/tokens/`; Life retains its
+existing token. `audit_spellbook_spreads.py` checks facing-page alignment,
+complete spell text, illustration placement and token coverage.

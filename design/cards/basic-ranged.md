@@ -1,6 +1,6 @@
 # Basic Ranged
 
-*Roll Brawn to throw a weapon at a visible creature within 3 squares for 2, 3 or 5 physical damage.*
+*Shoot a visible creature within 8 squares. Roll Agility for 2/3/5 physical damage.*
 
 ## Rules
 

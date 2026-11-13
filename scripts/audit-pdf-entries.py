@@ -21,7 +21,9 @@ book=Path(a.book);pgs=pages(a.player);dapgs=pages(a.da)
 cards=[]
 sources=[('ability',f) for f in sorted((book/'design/cards').glob('*.md'))]+[('trait',f) for f in sorted((book/'design/ancestries').glob('trait-*.md'))]
 for kind,f in sources:
- s=f.read_text();title=re.search(r'^# (.+)',s).group(1);sid=re.search(r'\*\*ID:\*\* (\S+)',s).group(1)
+ s=f.read_text()
+ if '## Replaced learning reference' in s:continue
+ title=re.search(r'^# (.+)',s).group(1);sid=re.search(r'\*\*ID:\*\* (\S+)',s).group(1)
  narrative=s.split('\n\n')[1].strip('*')
  fields={}
  for label,value in re.findall(r'\*\*([^*]+):\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',s):fields[label]=value.strip()
@@ -59,7 +61,7 @@ for c in cards:
   if not v:continue
   display = (v + ' DP') if key == 'DP' and v.isdigit() else v
   if key == 'DP' and v == 'Not purchased' and c['fields'].get('Tier / minimum level') == 'Universal':
-   display='Universal'
+   display='Basic action'
   status='present' if norm(display) in nt else 'review_missing'
   if v in intentional.get(key,set()):status='shared_omission' if status!='present' else status
   checks.append({'field':key,'expected':v,'status':status})
