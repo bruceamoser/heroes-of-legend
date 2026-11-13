@@ -32,3 +32,19 @@ Validation: Typst 0.15.1 compile, four letter-size pages; visual inspection of a
 rendered pages. Existing book builds are unaffected because neither consumes this study.
 The separate health rewrite PR #1307 remains untouched. No claim of spell balance or
 completed casting mechanics is made by this layout proof.
+
+## Named-tome revision
+
+Bruce requested continuous Spell Law-style lists rather than purchase panels. The
+preferred visual sample is now `tomes.typ`: four named tomes on one letter-size page,
+with row colors keyed to named Forge abilities. Roman numerals preserve the mapping
+in monochrome. Titles and early-node names are newly proposed flavor; existing spell
+selections, costs and capstone names are unchanged. The earlier folio remains a
+progression/confluence reference, not the preferred list layout.
+
+```sh
+typst compile design/player-book/forge-proof/tomes.typ output/pdf/forge-named-tomes.pdf
+```
+
+Validation: one page compiled and visually inspected; 44 spell rows. This change
+adds presentation names only and does not change prerequisites or spell mechanics.
