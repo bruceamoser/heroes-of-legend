@@ -63,10 +63,9 @@ Medicine, Craft, Scholarship, Influence order.
 2. Map old card IDs and all ancestry/culture/background/class grants to the new
    paths, preserving reference redirects or explicit replacement records. Do not
    silently reinterpret an old card with the same evocative title as the new rule.
-3. Author the level-7 combined disciplines with exact prerequisite endpoint IDs.
-   Two/three/four-discipline combinations all require level 7. No generic investment
-   or inferred adjacency qualifies an entry. This packet intentionally does not
-   invent connections before those abilities are designed.
+3. Review the level-7 combined abilities now authored in `combined.md`, including
+   their exact endpoint connections. Two/three/four-discipline combinations all
+   require level 7. No generic investment or inferred adjacency qualifies an entry.
 4. Integrate the approved source into both book builds and retire superseded
    rank/card prose in one coherent migration, together with approved health changes.
 5. Implement Foundry only against the reviewed source commit.
@@ -98,3 +97,38 @@ Player's Book's existing `reading-columns` compositor. Paths read down the left
 column before continuing down the right, with independent vertical placement and
 intact path cards. Removed the row-aligned two-by-two grid. Rebuilt all 13 pages,
 visually reviewed column order and spacing, and passed the complete packet audit.
+
+
+## Level-7 combined disciplines
+
+Source issue: https://github.com/bruceamoser/heroes-of-legend/issues/1312
+
+`combined.md` adds 30 new abilities: 15 two-discipline (3 DP), nine three-discipline
+(4 DP), and six four-discipline (5 DP). Every ability requires level 7 and every
+listed endpoint, with distinct disciplines counted rather than merely distinct
+spell lists. Nine entries combine magical and nonmagical training, three at each
+breadth. Magical abilities spend explicitly printed SP per use; DP is learning only.
+
+`magical-endpoints.md` records the eight required spell-list endpoints directly
+from the existing local Magic Forge catalog (November 12, 2026). Their existing
+IDs such as `air:3` are preserved; the `:3` is the prototype's zero-based final
+node, not a different gate. The reference includes pages 7–8 and the three advanced
+spells learned with each endpoint. This is a prerequisite reference, not a second
+complete spell catalog. Names and unlocks should be sourced from the eventual
+canonical magic catalog when integrating both systems.
+
+The 24-page packet retains the base discipline pages, adds a linked combined-ability
+index on page 14, abilities on pages 15–21, a reverse endpoint directory on pages
+22–23, and magical endpoint references on page 24. Exact discipline, branch/list,
+endpoint name and linked page appear on every combined card. Reverse connections
+are generated from the same required-ID lists; there is no independently edited
+connection table that can drift. Not every base endpoint has a combined ability in
+this first set; absent connections do not imply prerequisites or grants.
+
+Validation checks all 176 base and 30 combined effect texts in the PDF, distinct
+discipline counts, all-of endpoint requirements, gates and costs, generated reverse
+connections, magical page references, navigation presence and printable text bounds.
+All added pages were rendered and visually reviewed in the actual book template.
+The first-aid allowance, minimum-one damage and available-Reaction constraints are
+retained. Large-scale effects and new SP costs are first-playtest design choices;
+structural validation is not encounter-balance evidence.
