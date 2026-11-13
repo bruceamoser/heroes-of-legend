@@ -586,7 +586,8 @@
       "rules/vision.md"
     ],
     "da-book/manuscript/08-campaigns-and-consequences.md": [
-      "rules/learning.md"
+      "rules/learning.md",
+      "rules/magic.md"
     ]
   }
 }

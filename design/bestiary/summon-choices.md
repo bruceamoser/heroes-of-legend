@@ -1,14 +1,10 @@
 # Summon selection
 
-**Proposed permissions:** select a listed creature whose category matches the card
-and whose minimum tier does not exceed it. Category or CV alone grants no access.
-The expanded roster provides 73 explicit selections. All use the established
-command limits, six-square tether and disappearance rules. No uncommanded activity,
-Reactions, opportunity attacks, permanent loot or summon chains.
+Choose a listed creature in the spell's category whose rating is at or below the maximum that spell names. A spell may instead name a specific profile. The roster provides 73 selections, each using the shared command, six-square tether and disappearance procedures.
 
 ## Animal
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Adder](summons/adder.md) | Venomous nuisance |
 | 1 | [Cave Bat](summons/cave-bat.md) | Cavern scout |
@@ -34,7 +30,7 @@ Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Fey
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Hearth Brownie](summons/hearth-brownie.md) | Helper |
 | 1 | [Hedge Sprite](summons/hedge-sprite.md) | Trickster |
@@ -49,7 +45,7 @@ Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Spirit
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Lantern Spirit](summons/lantern-spirit.md) | Guide |
 | 3 | [Ancestor Guardian](summons/ancestor-guardian.md) | Protector |
@@ -60,7 +56,7 @@ Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Elemental
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Emberling](summons/emberling.md) | Fire skirmisher |
 | 1 | [Rill Sprite](summons/rill-sprite.md) | Water helper |
@@ -74,7 +70,7 @@ Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Undead
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Grave Wisp](summons/grave-wisp.md) | Lurer |
 | 1 | [Skeleton Archer](summons/bone-archer.md) | Artillery |
@@ -96,7 +92,7 @@ Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Construct
 
-| Minimum card tier | Creature | Useful command role |
+| Rating | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Clay Helper](summons/clay-helper.md) | Laborer |
 | 1 | [Clockwork Scout](summons/clockwork-scout.md) | Surveyor |

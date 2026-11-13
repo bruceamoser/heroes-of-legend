@@ -11,7 +11,7 @@ for k,v in m['expected'].items():
  if c[k]!=v:errors.append(f'{k}: {c[k]} != {v}')
 if len({x['path'] for x in m['included']})!=len(m['included']):errors.append('Duplicate source entries')
 if len({x['key'] for x in m['included']})!=len(m['included']):errors.append('Duplicate labels')
-body=(B/'generated/body.typ').read_text()
+body=(B/'generated/body.typ').read_text()+(B/'generated/learning.typ').read_text()
 for x in m['included']:
  if x['key'] not in body:errors.append('Missing source label: '+x['path'])
  if hashlib.sha256((R/x['path']).read_bytes()).hexdigest()!=x['sha256']:errors.append('Source changed since build: '+x['path'])
@@ -49,10 +49,10 @@ for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:',
                'one of your two traits', 'Recipe permission:', 'Type: Culture', 'Type: Background']:
  if phrase in text:errors.append('Retired reader boilerplate: '+phrase)
 for title in ['Starting HP', 'Starting SP', 'Starting coins', 'Learning and using disciplines',
-              'Universal action index', 'Novice ability index', 'Adept ability index', 'Master ability index']:
+              'Basic action index', 'Talent index', 'Level 1 signature index', 'Level 3 signature index', 'Level 7 signature index']:
  if norm(title) not in n:errors.append('Missing reader reference: '+title)
 summaries=json.loads((B/'ability-summaries.json').read_text())
-shared=[x for x in m['cards'] if not Path(x['path']).name.startswith('signature-')]
+shared=[x for x in m['cards'] if x['tier']=='Universal']
 for x in shared:
  slug=Path(x['path']).stem
  if slug not in summaries:errors.append('Missing ability summary: '+slug)
@@ -71,6 +71,9 @@ for entry in combinations:
 books=json.loads((B/'generated/spellbooks.json').read_text())
 if len(books)!=29 or sum(len(b['rows']) for b in books)!=319:errors.append('Incomplete spellbook atlas')
 for book in books:
+ for spell in book['spells']:
+  for value in [spell['name'],*spell['action'].split(' · '),spell['target'],spell['duration'],spell['effect']]:
+   if norm(value) not in n:errors.append('Missing spell block text: '+spell['id'])
  for row in book['rows']:
   if norm(row[1]) not in n:errors.append('Missing spell: '+row[1])
 for phrase in ['Choose your languages', 'Ordinary languages', 'Uncommon and ancient languages', 'Use languages at the table', 'Keep learning grounded']:
@@ -78,7 +81,7 @@ for phrase in ['Choose your languages', 'Ordinary languages', 'Uncommon and anci
 for row in (R/'design/rules/languages.md').read_text().splitlines():
  if row.startswith('| ') and not row.startswith('| Language'):
   if norm(row.split('|')[1]) not in n:errors.append('Missing language choice: '+row)
-if body.count('#ability-directory(')!=2:errors.append('Expected universal and independent-talent directories')
+if body.count('#ability-directory(')!=1:errors.append('Expected one Basic Actions directory')
 if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
 for cp in (R/'design/origins').glob('*.md'):
  for grant in re.findall(r'^- (\*\*[^\n]+)',cp.read_text(),re.M):

@@ -20,37 +20,136 @@ Repair the body without bypassing recovery limits.
 | A2 | Regenerate | 5 | IV |
 | A3 | Mass Heal | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### Spare the Dying
-Stabilize a dying creature without restoring HP. HOL death strikes and permanent scars remain governed by the recovery rules.
+
+**ID:** spell:restoration:1
+**Page:** 1
+**Action:** Maneuver
+**SP:** 0
+**Attribute:** None
+**Target / range:** One adjacent Dying creature
+**Duration:** Instant
+
+Steady the creature's breathing. Stabilize it at 0 HP and clear its death marks, following the normal stabilization procedure.
 
 ### Cure Wounds
-Restore HP through touch. Healing is limited by the caster's SP and the final recipient recovery rules.
+
+**ID:** spell:restoration:2
+**Page:** 2
+**Action:** Main Action
+**SP:** 1
+**Attribute:** Reason
+**Target / range:** One adjacent living creature
+**Duration:** Instant
+
+Close fresh injuries with a warm touch. Restore 3/5/7 HP, applying the recipient's Life resistance and maximum HP.
 
 ### Healing Word
-Restore a small amount of HP to a visible ally through a spoken word, using a clearly specified action-economy cost.
+
+**ID:** spell:restoration:3
+**Page:** 3
+**Action:** Maneuver
+**SP:** 1
+**Attribute:** Reason
+**Target / range:** One living creature within 4 squares that can hear you
+**Duration:** Instant
+
+Speak a brief word of renewal. Restore 1/2/3 HP, applying Life resistance and maximum HP.
 
 ### Lesser Restoration
-Remove one eligible minor bodily affliction. The page lists the conditions it can address.
+
+**ID:** spell:restoration:4
+**Page:** 4
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Reason
+**Target / range:** One adjacent living creature
+**Duration:** Instant
+
+Choose Poisoned, Blinded or Deafened. Reduce its temporary rating by 1/2/3. This also treats a lasting instance whose source specifically names Lesser Restoration as its remedy.
 
 ### Prayer of Healing
-Restore several willing creatures through a period of uninterrupted care; it cannot be compressed into a combat action.
+
+**ID:** spell:restoration:5
+**Page:** 5
+**Action:** Ritual · 10 minutes
+**SP:** 2
+**Attribute:** Reason
+**Target / range:** Up to six willing living creatures within 3 squares throughout the ritual
+**Duration:** Instant
+
+Guide a shared prayer of recovery. Roll once; each recipient restores 3/5/7 HP after Life resistance. Each creature can benefit from Prayer of Healing once between safe overnight rests.
 
 ### Mass Healing Word
-Give a small amount of immediate healing to several visible allies using a shared healing budget.
+
+**ID:** spell:restoration:6
+**Page:** 6
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Reason
+**Target / range:** Up to three living creatures within 6 squares that can hear you
+**Duration:** Instant
+
+Send a restoring word through your companions. Roll once; each restores 2/3/5 HP after Life resistance.
 
 ### Greater Restoration
-Remove a specified major affliction or lasting magical impairment, with substantial cost and any required material.
+
+**ID:** spell:restoration:7
+**Page:** 7
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Reason
+**Target / range:** One adjacent living creature
+**Duration:** Instant
+
+Choose one temporary condition; reduce it by 2/4/6. Alternatively, end one curse or lasting condition whose source names Greater Restoration as its remedy. That alternative is automatic and replaces the rolled reduction.
 
 ### Mass Cure Wounds
-Restore a larger pool of HP across a bounded group of nearby creatures.
+
+**ID:** spell:restoration:8
+**Page:** 8
+**Action:** Main Action
+**SP:** 4
+**Attribute:** Reason
+**Target / range:** Up to three living creatures within 6 squares
+**Duration:** Instant
+
+Weave wounds closed across a small company. Roll once; each restores 4/6/8 HP after Life resistance.
 
 ### Heal
-Deliver substantial restoration to one creature and remove the explicitly listed bodily afflictions.
+
+**ID:** spell:restoration:a1
+**Page:** A1
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Reason
+**Target / range:** One living creature within 3 squares
+**Duration:** Instant
+
+Flood the recipient with restorative power. Restore 8/12/16 HP after Life resistance and reduce both Bleeding and Poisoned by 2.
 
 ### Regenerate
-Restore damaged body parts through a sustained recovery effect. It does not return a departed spirit.
+
+**ID:** spell:restoration:a2
+**Page:** A2
+**Action:** Ritual · 1 hour
+**SP:** 5
+**Attribute:** None
+**Target / range:** One willing adjacent living creature throughout the ritual
+**Duration:** Instant
+
+Restore one missing nonvital limb or damaged ordinary sense, and restore 10 HP after Life resistance. The renewed part functions normally when the ritual finishes. Scars can remain as the player describes. This treats physical loss; curses use their named remedies.
 
 ### Mass Heal
-Distribute a major but finite amount of restoration among a group; normal recovery restrictions still apply.
+
+**ID:** spell:restoration:a3
+**Page:** A3
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Reason
+**Target / range:** Up to six living creatures within 6 squares
+**Duration:** Instant
+
+Roll once for a shared healing total of 12/18/24 HP. Divide it among the chosen recipients, assigning at least 1 to each before Life resistance. Each recipient also reduces Bleeding by 2.

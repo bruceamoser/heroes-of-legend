@@ -20,37 +20,136 @@ Move objects through directed force.
 | A2 | Disintegrate | 5 | IV |
 | A3 | Reverse Gravity | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### Arcane Bolt
-Strike one target with concentrated magical energy. HOL reduces this to a 0-SP foundational attack; HARP's paid damage scaling is not automatic.
+
+**ID:** spell:telekinesis:1
+**Page:** 1
+**Action:** Main Action
+**SP:** 0
+**Attribute:** Knowledge
+**Target / range:** One creature within 8 squares
+**Duration:** Instant
+
+Strike with a bolt of compressed force. Deal 2/3/5 force damage.
 
 ### Mage Hand
-Create a small spectral hand for simple remote manipulation. It cannot attack or independently use complex devices.
+
+**ID:** spell:telekinesis:2
+**Page:** 2
+**Action:** Maneuver
+**SP:** 1
+**Attribute:** None
+**Target / range:** One unattended object of Bulk 1 or less within 4 squares
+**Duration:** Until your next turn ends
+
+A spectral hand lifts and moves the object up to 2 squares, or opens one unlocked door or container. It handles ordinary items with simple motions. Each new manipulation uses another casting.
 
 ### Magic Missile
-Send a small fixed volley of force darts to visible targets. HOL's always-hit system preserves its reliable, divisible damage identity.
+
+**ID:** spell:telekinesis:3
+**Page:** 3
+**Action:** Main Action
+**SP:** 1
+**Attribute:** Knowledge
+**Target / range:** Up to three creatures within 8 squares
+**Duration:** Instant
+
+Send luminous darts along clear paths. Roll once for a shared total of 3/5/7 force damage; divide it before resistance, assigning at least 1 to each target. Each target takes one damage event.
 
 ### Staying
-Hold a bounded object in position with directed pressure; it does not also move the object or grant fine manipulation.
+
+**ID:** spell:telekinesis:4
+**Page:** 4
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Knowledge
+**Target / range:** One creature within 6 squares
+**Duration:** Instant; conditions decay normally
+
+Invisible pressure pins the target's movement. Apply Slowed 1/2/3. On Strong, also pull it 1 square toward a visible supported square; Stability applies.
 
 ### Levitate — Objects
-Raise an unattended load vertically under a fixed weight and maintenance limit.
+
+**ID:** spell:telekinesis:5
+**Page:** 5
+**Action:** Main Action
+**SP:** 2
+**Attribute:** None
+**Target / range:** One unattended object of Bulk 3 or less within 6 squares
+**Duration:** Sustained, up to 1 minute
+
+Lift it up to 3 squares from its supporting surface. Each upkeep moves it up to 2 squares through open space. Place it gently when the spell ends. It can carry its ordinary contents, but living riders require their own movement or support.
 
 ### Shatter
-Break or damage brittle objects and creatures with a burst of resonant force in a bounded area.
+
+**ID:** spell:telekinesis:6
+**Page:** 6
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Knowledge
+**Target / range:** Every creature and unattended fragile object in a 1-square-radius burst within 6 squares
+**Duration:** Instant
+
+Sound a sharp resonant crack. Deal 3/5/7 force damage. Ordinary unattended glass or brittle pottery in the burst shatters; sturdier structures use their HP or a DA-set demolition objective.
 
 ### Telekinesis
-Move, manipulate or contest control of a substantial object or creature while concentrating.
+
+**ID:** spell:telekinesis:7
+**Page:** 7
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Knowledge
+**Target / range:** One creature or unattended object within 6 squares
+**Duration:** Instant
+
+Move a creature 1/2/3 squares toward a visible supported destination, applying Stability. Alternatively, automatically move an unattended object of Bulk 6 or less up to 3 squares. The route must be open and wide enough for the target.
 
 ### Resilient Sphere
-Enclose one eligible subject in a protective force sphere with explicit movement and escape rules.
+
+**ID:** spell:telekinesis:8
+**Page:** 8
+**Action:** Main Action
+**SP:** 4
+**Attribute:** None
+**Target / range:** One willing creature within 3 squares
+**Duration:** Sustained, up to 1 minute
+
+Enclose it in a translucent sphere with 12 HP and resistance 2 to all damage. Attacks from outside strike the sphere; the recipient may roll it 1 square using its movement. Actions affecting the outside require leaving with a Maneuver. Destruction ends the sphere after that damage event.
 
 ### Wall of Force
-Create a strong temporary barrier of force with a fixed shape, duration and countermeasures.
+
+**ID:** spell:telekinesis:a1
+**Page:** A1
+**Action:** Main Action
+**SP:** 5
+**Attribute:** None
+**Target / range:** Six connected unoccupied squares within 8 squares
+**Duration:** Sustained, up to 1 minute
+
+Raise a transparent force wall 2 squares high. It blocks physical passage and attacks across it. All sections share 18 HP and resistance 2 to all damage; attacks always deal at least 1. Destroying the wall opens all its squares.
 
 ### Disintegrate
-Destroy eligible nonliving material or deliver a potent attack to one creature; living targets still use HOL's damage procedure.
+
+**ID:** spell:telekinesis:a2
+**Page:** A2
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Knowledge
+**Target / range:** One creature or unattended object within 8 squares
+**Duration:** Instant
+
+A narrow beam deals 6/9/12 force damage. An unattended nonmagical object of Bulk 3 or less is reduced to dust if this damage destroys it. Living targets follow normal HP and dying rules.
 
 ### Reverse Gravity
-Reverse gravity in a bounded area, with explicit anchoring, collision and safe-ending procedures.
+
+**ID:** spell:telekinesis:a3
+**Page:** A3
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Knowledge
+**Target / range:** Every creature in a 2-square-radius area within 8 squares
+**Duration:** Until the end of your next turn
+
+Lift each affected creature 1/2/3 squares vertically, stopping at obstacles. It floats at that height until expiry, when it falls normally. A creature holding a fixed support may release it or remain supported. Flying creatures can use their normal movement to leave the area.

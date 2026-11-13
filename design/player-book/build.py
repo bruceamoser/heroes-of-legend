@@ -26,7 +26,7 @@ for folder in ['ancestries','origins','classes','disciplines','cards','paths','e
  for p in (DESIGN/folder).glob('*.md'):
   if p.name!='README.md' and (folder!='paths' or p.stem in SELECTED_PATHS): files[p.resolve()]=key(p)
 for p in (BOOK/'manuscript').glob('*.md'): files[p.resolve()]=key(p)
-for f in ['rules/vision.md','rules/ancestry-procedures.md','rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
+for f in ['rules/magic.md','rules/vision.md','rules/ancestry-procedures.md','rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
  p=DESIGN/f; files[p.resolve()]=key(p)
 aliases={'development.md':'02-creation.md','rules/foundations.md':'06-playing.md','rules/session-resolution.md':'06-playing.md','rules/stability.md':'06-playing.md','card-conventions.md':'09-abilities.md','catalog.md':'09-abilities.md','rules/recovery.md':'08-recovery.md','rules/summoning.md':'11-summons.md','equipment.md':'10-equipment.md','recipes.md':'10-equipment.md','disciplines.md':'05-disciplines.md','fantasy-paths.md':'05-disciplines.md'}
 for a,b in aliases.items(): files[(DESIGN/a).resolve()]=key(BOOK/'manuscript'/b)
@@ -200,7 +200,7 @@ def card(p):
  if '**Summoning' not in s and 'Choose one bestiary entry explicitly approved for' in s:
   s=re.sub(r'Choose anew each casting;.*?Apply \[Command a Summon\].*?\n', 'Use its profile in [Summoned Companions](../player-book/manuscript/11-summons.md) and the shared summoning procedure.\n',s,flags=re.S)
  icons=''.join('#discipline-mark('+q(d.lower())+','+q(r)+')' for d,r in re.findall(r'([A-Za-z]+) ([123])',req) if (DESIGN/'disciplines'/(d.lower()+'.md')).exists())
- return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Universal' if tier=='Universal' else ('Class choice' if tags=='Signature' else price+' DP'),key(p)]))+')[\n'+render(s,p)+']\n'
+ return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Basic action' if tier=='Universal' else ('Class choice' if tags=='Signature' else price+' DP'),key(p)]))+')[\n'+render(s,p)+']\n'
 
 def flow(entries,gap='5pt'):
  return '#reading-columns(('+','.join('['+c+']' for c in entries)+',), gap:'+gap+')\n'
@@ -314,7 +314,7 @@ def sp_reference():
  return result
 
 def ability_browser(paths,tier):
- title={'Universal':'Universal actions','1':'Novice abilities','3':'Adept abilities','7':'Master abilities'}[tier]
+ title={'Universal':'Basic actions','1':'Novice abilities','3':'Adept abilities','7':'Master abilities'}[tier]
  result='#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\n'
  result+='Find a useful option here, then follow its name to the complete card. Summaries help you choose; the card supplies the exact targets, costs and outcomes.\n\n'
  rows=[]
@@ -339,6 +339,10 @@ parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
 parts.append(sp_reference())
 parts.append(coin_reference())
+p=BOOK/'manuscript/02b-talents.md';record(p,'talent-reference')
+parts.append('#pagebreak(weak:true)\n#heading(level:2)[Small talents]\n#metadata('+q(key(p))+')<'+key(p)+'>\n'+render(p.read_text().split('\n\n',1)[1],p)+'\n#v(7pt)\n')
+talent_ids=['another-tongue','message-by-heart','catch-that','a-party-piece','quick-exit','look-over-here']
+parts.append(flow([card(DESIGN/'cards'/f'{slug}.md') for slug in talent_ids]))
 parts.append(section('3','Ancestry, Culture and Background'))
 parts.append('#heading(level:2)[Ten peoples, side by side]\nThe ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
 
@@ -375,6 +379,8 @@ for cname in CLASS_ORDER:
  sigs=re.findall(r'\]\(\.\./cards/(signature-[^)]+\.md)\)',p.read_text())
  parts.append(flow([card(DESIGN/'cards'/sig) for sig in sigs]))
 parts.append(manuscript('05-disciplines.md','5','Disciplines and Character Paths'))
+p=DESIGN/'rules/magic.md';record(p,'magic-reference')
+(GEN/'magic-rules.typ').write_text('#metadata('+q(key(p))+')<'+key(p)+'>\n'+reading(p.read_text(),p))
 subprocess.run([os.sys.executable,str(BOOK/'integrate_learning.py')],check=True)
 parts.append('#include "learning.typ"\n')
 parts.append(manuscript('06-playing.md','6','Playing the Game','Overhead square-grid scene: one guardian blocks a doorway while companions use cover and a forced push opens an escape route. Clear spaces and no decorative grid distortion.'))
@@ -386,8 +392,8 @@ p=DESIGN/'rules/languages.md';record(p,'language-reference')
 parts.append('#pagebreak(weak:true)\n#entry("Languages",'+q(key(p))+')\n'+reading(clean(p),p))
 parts.append(manuscript('08-recovery.md','8','Harm and Recovery'))
 parts.append(doc(DESIGN/'rules/conditions.md','condition-reference',wide=True,break_before=True))
-parts.append(manuscript('09-abilities.md','9','Abilities'))
-for tier in ['Universal','1','3','7']:
+parts.append(manuscript('09-abilities.md','9','Basic Actions'))
+for tier in ['Universal']:
  paths=[]
  for p in sorted((DESIGN/'cards').glob('*.md'),key=name):
   if p.name.startswith('signature-') or p.stem in redirects:continue
@@ -423,8 +429,8 @@ for p in sorted((DESIGN/'characters').glob('*.md'),key=name):
  if p.name!='README.md':parts.append(doc(p,'character',wide=True,break_before=True))
 parts.append(manuscript('14-reference.md','14','Table References'))
 parts.append('#include "../sheets.typ"\n')
-for tier,title in [('Universal','Universal action index'),('1','Novice ability index'),('3','Adept ability index'),('7','Master ability index')]:
- parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\nUniversal actions, independent talents and class signatures are listed together. A class requirement marks an exclusive signature.\n\n')
+for tier,title in [('Universal','Basic action index'),('0','Talent index'),('1','Level 1 signature index'),('3','Level 3 signature index'),('7','Level 7 signature index')]:
+ parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\n')
  entries=[]
  for c in sorted((c for c in card_records if c['tier']==tier),key=lambda x:x['name'].casefold()):
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
@@ -432,7 +438,7 @@ for tier,title in [('Universal','Universal action index'),('1','Novice ability i
 (GEN/'body.typ').write_text(''.join(parts))
 manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':len(card_records),'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':0,'path':0,'equipment':45,'recipes':10,'summon':73,'character':6}}
 manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
-manifest['learning_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [DESIGN/'development.md',DESIGN/'combined-abilities.md',DESIGN/'magic-endpoints.md',BOOK/'integrate_learning.py',BOOK/'nonmagical/build.py',BOOK/'nonmagical/book.typ',DESIGN/'rules/learning.md',*sorted((DESIGN/'disciplines').glob('*.md')),*sorted((DESIGN/'spellbooks').glob('*.md'))]]
+manifest['learning_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [DESIGN/'development.md',DESIGN/'combined-abilities.md',DESIGN/'magic-endpoints.md',BOOK/'integrate_learning.py',BOOK/'nonmagical/build.py',BOOK/'nonmagical/book.typ',DESIGN/'rules/learning.md',DESIGN/'rules/magic.md',*sorted((DESIGN/'disciplines').glob('*.md')),*sorted((DESIGN/'spellbooks').glob('*.md'))]]
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Included',len(included),'records;',len(card_records),'abilities;',len(links),'internal links.')
 if '--compile' in os.sys.argv:

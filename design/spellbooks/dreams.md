@@ -20,37 +20,136 @@ Sleep, dreams and their remembered impressions.
 | A2 | Weird | 5 | IV |
 | A3 | Astral Projection | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### Dreams
-Receive symbolic impressions about one chosen topic during natural sleep. This minor form is limited to one dream per full rest.
+
+**ID:** spell:dreams:1
+**Page:** 1
+**Action:** Maneuver
+**SP:** 0
+**Attribute:** None
+**Target / range:** One willing sleeping creature within 1 square
+**Duration:** 1 minute
+
+Share one brief harmless dream image or soothing sensation. The sleeper later remembers it as a dream. Ordinary waking ends the exchange.
 
 ### Sleep
-Make progress toward putting nearby susceptible creatures to sleep. Disturbance and harm provide explicit awakening conditions.
+
+**ID:** spell:dreams:2
+**Page:** 2
+**Action:** Main Action
+**SP:** 1
+**Attribute:** Reason
+**Target / range:** One creature within 4 squares
+**Duration:** Instant; conditions decay normally
+
+Send drowsiness over the target. Apply Slowed 1/2/3; on Strong also apply Asleep 1. Damage or ordinary waking procedures end Asleep.
 
 ### Dream Message
-Use only Dream's message-bearing application to meet a willing known sleeper. Hostile nightmares are not included on this page.
+
+**ID:** spell:dreams:3
+**Page:** 3
+**Action:** Ritual · 10 minutes
+**SP:** 1
+**Attribute:** None
+**Target / range:** One willing sleeping creature you personally know on the same plane
+**Duration:** 1 minute
+
+Appear in a short dream and exchange up to fifty words each. The recipient recognizes you and remembers the conversation on waking. The ritual reaches the subject only while it is asleep.
 
 ### Phantasmal Force
-Create a convincing mental illusion for one target, with bounded consequences and a clear way to investigate it.
+
+**ID:** spell:dreams:4
+**Page:** 4
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Guile
+**Target / range:** One creature within 6 squares
+**Duration:** Sustained, up to 1 minute
+
+Create a troubling sensory image that only the target perceives. Apply Frightened 1/2/3, naming the image as its source. Each upkeep renews Frightened 1. Physical contact or a completed illusion examination exposes it and ends its fear contribution.
 
 ### Hypnotic Pattern
-Distract a bounded group with a captivating pattern; harm and assistance can break the effect.
+
+**ID:** spell:dreams:5
+**Page:** 5
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Reason
+**Target / range:** Up to three creatures in a 2-square-radius area within 8 squares that can see the pattern
+**Duration:** Instant; conditions decay normally
+
+Weave a mesmerizing display. Apply Dazed 1/1/2 to each chosen target. Sight is required when the spell resolves.
 
 ### Phantasmal Killer
-Assault one mind with a personal nightmare that causes fear and psychic harm while maintained.
+
+**ID:** spell:dreams:6
+**Page:** 6
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Guile
+**Target / range:** One creature within 6 squares
+**Duration:** Instant; conditions decay normally
+
+Make a private nightmare seem to strike. Deal 3/5/7 mental damage and apply Frightened 1, with the nightmare as its source until your next turn ends.
 
 ### Dream
-Enter a known sleeper's dream to communicate or attempt a specified disturbing nightmare.
+
+**ID:** spell:dreams:7
+**Page:** 7
+**Action:** Ritual · 10 minutes
+**SP:** 3
+**Attribute:** None
+**Target / range:** One willing sleeping creature you personally know on the same plane
+**Duration:** 10 minutes
+
+Meet in a shared dream with speech and vivid images. Each participant can recall the exchange afterward. The dream ends if either wakes; you can show remembered experiences as you recall them.
 
 ### Sign of Sleep
-Prepare a fixed sleep-triggering inscription on an eligible stationary surface; its trigger and removal are explicit.
+
+**ID:** spell:dreams:8
+**Page:** 8
+**Action:** Ritual · 10 minutes
+**SP:** 4
+**Attribute:** Reason
+**Target / range:** One visible mark on an object within reach
+**Duration:** 8 hours or until triggered
+
+The first creature to read or closely examine the mark receives Slowed 2/3/4 and Asleep 1/1/2, set by your casting roll. Its appearance suggests a magical inscription. Damage or waking ends Asleep normally. The mark triggers once.
 
 ### Lord Dream
-Seek several distinct symbolic dreams during a full rest through a major prepared working.
+
+**ID:** spell:dreams:a1
+**Page:** A1
+**Action:** Ritual · 1 hour
+**SP:** 5
+**Attribute:** None
+**Target / range:** Self and up to five willing sleepers within 3 squares
+**Duration:** 1 hour
+
+Host a shared dream with chosen scenery and conversation. Participants may practice, exchange memories or plan together. Each receives 1 Boon on its first roll directly implementing one agreed plan within 24 hours; record that plan before waking.
 
 ### Weird
-Manifest shared nightmare imagery that threatens a group with fear and psychic harm.
+
+**ID:** spell:dreams:a2
+**Page:** A2
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Guile
+**Target / range:** Up to six creatures within 8 squares
+**Duration:** Instant; conditions decay normally
+
+Surround the targets with personalized waking terrors. Roll once; each takes 3/5/7 mental damage and gains Frightened 2, with the visions as source until your next turn ends.
 
 ### Astral Projection
-Separate willing travelers' astral forms from their bodies for a major journey, preserving explicit return and vulnerability rules.
+
+**ID:** spell:dreams:a3
+**Page:** A3
+**Action:** Ritual · 1 hour
+**SP:** 5
+**Attribute:** None
+**Target / range:** Self and up to three willing creatures beside you
+**Duration:** 1 hour
+
+Send visible spirit projections into the nearby spirit realm while bodies sleep. Projections travel together up to 1 kilometer from the bodies, speak with spirits and observe corresponding places. They return when the spell ends or a body is disturbed. Projections use observation and speech; physical acts and further casting take place after returning to the bodies.

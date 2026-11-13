@@ -1,6 +1,6 @@
 # Basic Unarmed
 
-*Use a Reaction to reduce newly applied temporary Frightened and Blinded by 2 each on an ally within 3 squares.*
+*Strike an adjacent creature with your bare hands or a kick. Roll Brawn for 1/2/4 physical damage.*
 
 ## Rules
 

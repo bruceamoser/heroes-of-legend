@@ -16,8 +16,8 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
-- `../spellbooks/`, `../combined-abilities.md` and `../rules/learning.md`: canonical learning chapter.
-- `integrate_learning.py`: assembles learned paths, spell tables and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
+- `../spellbooks/`, `../combined-abilities.md`, `../rules/learning.md` and `../rules/magic.md`: canonical learning and casting chapters.
+- `integrate_learning.py`: assembles learned paths, linked spell tables, individual casting blocks and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
@@ -34,6 +34,7 @@ Poppler, Pillow and pypdf for illustrated export and audits. Dependencies are ex
 python3 -m pip install -r design/player-book/requirements.txt
 TYPST=/path/to/typst python3 design/player-book/build.py --compile
 python3 design/player-book/audit.py
+python3 scripts/audit_spellbooks.py
 ```
 
 If `TYPST` is unset, the script uses Typst on PATH, then the local tool-test binary
@@ -64,7 +65,12 @@ python3 design/bestiary/audit.py
 
 The November playtest revision integrates health, sequential learning, spellbook pages and combined disciplines. Current authored
 rules and catalog entries are the authority; Git history holds previous editions.
-New mechanics require a new review. CV calibration remains playtest work.
+The 29 spellbooks contain 319 casting blocks: 169 Main Actions, 22 Maneuvers,
+12 Reactions with triggers, and 116 Rituals with casting times. Shared casting,
+sustain, cancellation and SP-transfer procedures are in `design/rules/magic.md`.
+Basic Actions contains the 18 universal actions; the six small talents appear
+in character creation. New mechanics require review. CV calibration remains
+playtest work.
 
 Both books share the language reference. The Player’s Book includes every summoned
 form but excludes the full DA bestiary and encounter-construction material.

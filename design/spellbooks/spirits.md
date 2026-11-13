@@ -20,37 +20,136 @@ Contact incorporeal beings and understand hauntings.
 | A2 | Create Undead | 5 | IV |
 | A3 | Lifegiving | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### Chill Touch
-Channel the chill of death through a touch attack and briefly prevent the target from regaining HP. Uses the revised 5e close-range identity.
+
+**ID:** spell:spirits:1
+**Page:** 1
+**Action:** Main Action
+**SP:** 0
+**Attribute:** Reason
+**Target / range:** One creature within 6 squares
+**Duration:** Instant
+
+A spectral hand closes around the target. Deal 2/3/5 life damage.
 
 ### Gentle Repose
-Preserve a corpse from decay and unwanted animation for a defined duration; it does not return the dead to life.
+
+**ID:** spell:spirits:2
+**Page:** 2
+**Action:** Ritual · 1 minute
+**SP:** 1
+**Attribute:** None
+**Target / range:** One adjacent corpse
+**Duration:** 24 hours
+
+Preserve the body from ordinary decay. Time under Gentle Repose still counts toward any spell's stated resurrection deadline; preservation keeps the remains suitable for examination or rites.
 
 ### Speak with Dead
-Ask a corpse a limited number of questions drawn from what it knew in life; it cannot acquire new knowledge.
+
+**ID:** spell:spirits:3
+**Page:** 3
+**Action:** Ritual · 10 minutes
+**SP:** 1
+**Attribute:** Reason
+**Target / range:** One adjacent corpse with a recognizable head
+**Duration:** Up to three questions
+
+Call an echo of its remembered experience. Weak permits one question, Standard two, Strong three. The DA answers from what the person knew in life, in brief sensory recollections. A corpse can provide this echo once between safe overnight rests.
 
 ### Spirit Guardians
-Surround yourself with manifested guardians that hinder and harm eligible nearby enemies while maintained.
+
+**ID:** spell:spirits:4
+**Page:** 4
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Reason
+**Target / range:** Up to three creatures within 2 squares of you
+**Duration:** Sustained, up to 1 minute
+
+Spirits wheel around you. When cast, deal 2/3/5 radiant damage to the chosen creatures. On a later turn, spend a Main Action and roll again to strike up to three creatures currently within 2 squares. Upkeep preserves the spirits between those attacks.
 
 ### Lifekeeping
-Hold a departing life briefly at the boundary of death so others can address its fatal injuries; final HOL timing must match death strikes.
+
+**ID:** spell:spirits:5
+**Page:** 5
+**Action:** Reaction · when a visible living creature within 3 squares gains its third death mark
+**SP:** 2
+**Attribute:** None
+**Target / range:** That creature
+**Duration:** Until the end of your next turn
+
+Hold its departing spirit. Delay death from that third mark until the duration ends. Stabilization or HP recovery during the interval clears death marks normally. Further damage still causes immediate death rolls; another third-mark result ends the hold. Each creature can benefit once between safe overnight rests.
 
 ### Animate Dead
-Animate eligible remains under explicit control, duration and action limits; the spell does not restore the former person.
+
+**ID:** spell:spirits:6
+**Page:** 6
+**Action:** Main Action
+**SP:** 3
+**Attribute:** None
+**Target / range:** One open square within 3 squares
+**Duration:** 1 minute, with commands
+
+Shape an Undead energy form rated 1 from Summoned Companions, using nearby bones as a visual focus. It uses its printed profile, immediate Main command, normal commands and six-square tether. Its departure leaves the original bones.
 
 ### Control Undead
-Attempt to direct an eligible undead being through a resisted effect with a limited control budget.
+
+**ID:** spell:spirits:7
+**Page:** 7
+**Action:** Main Action
+**SP:** 3
+**Attribute:** Reason
+**Target / range:** One independent undead creature within 6 squares
+**Duration:** Until the end of its next turn
+
+Press a spirit-binding command to halt, retreat up to its Speed, or release a held object. The creature chooses to obey using its own actions or take 3/5/7 radiant damage and Frightened 1. A player decides that choice for their own creature.
 
 ### Contact Other Plane
-Seek answers from a distant supernatural intelligence through a risky prepared contact.
+
+**ID:** spell:spirits:8
+**Page:** 8
+**Action:** Ritual · 10 minutes
+**SP:** 4
+**Attribute:** Reason
+**Target / range:** One known spirit or planar source
+**Duration:** Instant
+
+Ask one question. Weak brings a truthful but symbolic clue, Standard a direct answer within the source's knowledge, and Strong adds a relevant warning or lead. The DA establishes the source's identity and disposition through the contact.
 
 ### Etherealness
-Enter an adjacent incorporeal state with explicit limits on movement, interaction and return.
+
+**ID:** spell:spirits:a1
+**Page:** A1
+**Action:** Main Action
+**SP:** 5
+**Attribute:** None
+**Target / range:** Self and carried gear
+**Duration:** Sustained, up to 1 minute
+
+Step partly into the spirit realm. Move at half Speed through ordinary solid material up to 1 square thick, ending each turn in open space. Observe spirits and physical surroundings as pale outlines. Return with a Maneuver to handle physical objects or cast. Expiry returns you to the nearest open square within 3 squares.
 
 ### Create Undead
-Create a more capable undead servant through a costly working and strict control limits.
+
+**ID:** spell:spirits:a2
+**Page:** A2
+**Action:** Main Action
+**SP:** 5
+**Attribute:** None
+**Target / range:** One open space within 3 squares
+**Duration:** 1 minute, with commands
+
+Shape one Undead energy form rated 7 or lower from Summoned Companions. Give its immediate Main command and use the printed profile, normal commands and six-square tether.
 
 ### Lifegiving
-Reunite a willing departed spirit with a viable body inside a defined time window. Fatal bodily damage must first be repaired.
+
+**ID:** spell:spirits:a3
+**Page:** A3
+**Action:** Ritual · 1 minute
+**SP:** 5
+**Attribute:** None
+**Target / range:** One willing dead person whose intact body is adjacent; death within the past minute
+**Duration:** Instant
+
+Consume 100 coins of funerary incense and return the person at 1 HP, with death marks cleared and fatal injuries closed. The spirit chooses whether to return. Retain scars, spent SP and spent Grit. This uses the person's one lifetime return through Lifegiving, Mass Lifegiving or True Resurrection.

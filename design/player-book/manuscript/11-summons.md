@@ -4,9 +4,7 @@ You call across a boundary, and something answers: paws on stone, a flicker of
 ancestral light, a shape unfolding from cold air. The creature acts through your
 attention. Its presence gives you choices, not a second independent turn.
 
-Choose from the profiles in this chapter when a summoning ability permits the
-category and tier. Higher-tier cards can choose eligible lower-tier creatures.
-Category names alone do not grant access to an unlisted creature.
+Choose a profile in the category and at or below the roster rating named by your spell. Some spells name a particular profile directly. Ratings 1, 3 and 7 describe the callings in the roster; your learned spellbook pages tell you which spells you can cast.
 
 Summons are energy forms shaped to resemble creatures. They cannot receive
 healing and disappear at 0 HP without leaving a body. They occupy squares, block
@@ -21,7 +19,7 @@ apply. The Main-command package has no separate movement allowance: convert its
 Maneuver to movement if it needs to approach before attacking.
 
 A summon receives at most one command on your turn. You can spend your Main Action
-on one creature and your Maneuver on another. A summoning card's immediate free
+on one creature and your Maneuver on another. A summoning spell's immediate free
 Main command counts as that creature's command for the turn.
 
 Summoned creatures require your constant interaction and concentration to maintain

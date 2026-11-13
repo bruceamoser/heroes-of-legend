@@ -2,12 +2,7 @@
 
 ## Choose a creature, not another spell
 
-The summoning card specifies category, maximum eligible tier, number, placement and
-duration. Choose an explicitly eligible bestiary entry each casting. The six
-families are Animal, Fey, Spirit, Elemental, Undead and Construct; each has independent
-Novice, Adept and Master cards. Higher cards may select eligible lower-tier entries.
-All eighteen currently summon one creature. More powerful tiers expand eligibility,
-not the number of independent actors. No prerequisite-card chains.
+Each summoning spell specifies its category, maximum eligible roster rating, placement and duration. Choose a listed profile in that category at or below the printed rating. The six families are Animal, Fey, Spirit, Elemental, Undead and Construct. Ratings 1, 3 and 7 identify the available profiles; learned spellbook pages determine which callings you can cast. A spell that names a particular profile uses that profile directly.
 
 A category is an explicit bestiary tag. A ghost is not automatically selectable
 under both Spirit and Undead; its entry must say so. These are summoned forms, not
@@ -52,7 +47,7 @@ and actions directing it.
 - Normal conversions apply: Main → Maneuver → movement. There is no separate free
   movement grant in the Main-command package. For example, convert its Maneuver
   to movement to approach, then spend Main on an attack.
-- A newly summoned creature receives the summoning card’s immediate free Main
+- A newly summoned creature receives the summoning spell’s immediate free Main
   command. That is its command for this turn; it cannot also receive a paid one.
 - Resolve the granted activity on the controller’s turn. It cannot be banked for
   an enemy turn. No summon chains and no independent summon turns.

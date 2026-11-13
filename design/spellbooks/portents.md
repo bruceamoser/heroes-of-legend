@@ -20,37 +20,136 @@ Bounded warnings and possible consequences.
 | A2 | Anticipations True | 5 | IV |
 | A3 | Spell Anticipation True | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### True Strike
-Use magical foresight to guide one weapon attack. This follows the revised 5e attack-cantrip concept; HOL retains the weapon's learned profile and uses its own result bands.
+
+**ID:** spell:portents:1
+**Page:** 1
+**Action:** Main Action
+**SP:** 0
+**Attribute:** Reason
+**Target / range:** One adjacent creature with a melee weapon, or one visible creature within 8 squares with a ranged weapon
+**Duration:** Instant
+
+Follow a brief vision of the opening to come. Make one weapon attack using Reason and deal 2/3/5 physical damage. Use the weapon's ordinary hand and ammunition requirements.
 
 ### Guidance
-Give a willing creature a small, bounded insight on an imminent noncombat task. Repeated castings do not stack.
+
+**ID:** spell:portents:2
+**Page:** 2
+**Action:** Maneuver
+**SP:** 1
+**Attribute:** None
+**Target / range:** One willing creature within 3 squares
+**Duration:** Until its next roll or your next turn ends
+
+Offer a useful flash of intuition. Give 1 Boon to the recipient's next non-attack task roll. A creature can hold one Guidance benefit at a time.
 
 ### Augury
-Read an omen concerning a specific near-term course of action; the answer reflects the information and circumstances of the casting.
+
+**ID:** spell:portents:3
+**Page:** 3
+**Action:** Ritual · 1 minute
+**SP:** 1
+**Attribute:** None
+**Target / range:** One course of action you intend to begin within 10 minutes
+**Duration:** Instant
+
+Ask whether the contemplated course is likely to bring benefit, danger, both or neither during the next hour. The DA answers from current circumstances. New decisions can change the outcome. Ask once per distinct proposed course between overnight rests.
 
 ### Intuitions
-Receive a short vision of the likely immediate consequences of a declared action.
+
+**ID:** spell:portents:4
+**Page:** 4
+**Action:** Reaction · before you roll a defense
+**SP:** 2
+**Attribute:** None
+**Target / range:** Self
+**Duration:** The triggering defense
+
+A momentary warning sharpens your response. Gain 1 Boon to that defense.
 
 ### Anticipations I
-Anticipate the broad category of one creature's next action, not a complete script of its intentions.
+
+**ID:** spell:portents:5
+**Page:** 5
+**Action:** Main Action
+**SP:** 2
+**Attribute:** None
+**Target / range:** Self
+**Duration:** 1 minute
+
+Read the next immediate threat. Once during the duration, gain 2 Boons to one defense you declare before rolling. The spell ends when you use that benefit.
 
 ### Spell Anticipations
-Recognize an anticipated spell and its intended target when a subject is about to cast.
+
+**ID:** spell:portents:6
+**Page:** 6
+**Action:** Reaction · when a visible caster begins a spell targeting you
+**SP:** 3
+**Attribute:** None
+**Target / range:** Self; caster within 8 squares
+**Duration:** The triggering spell
+
+Recognize its magical approach. Learn the spell's action, damage type or principal condition before choosing any remaining response. Gain 1 Boon to your defense against that spell.
 
 ### Divination
-Ask a bounded question about a future undertaking and receive an informative, potentially symbolic response.
+
+**ID:** spell:portents:7
+**Page:** 7
+**Action:** Ritual · 10 minutes
+**SP:** 3
+**Attribute:** Reason
+**Target / range:** One specific undertaking planned for the next day
+**Duration:** Instant
+
+Seek a warning. Weak reveals one relevant omen, Standard adds a concrete obstacle, and Strong adds a practical way to prepare. The DA describes possibilities based on present circumstances, not a compulsory future.
 
 ### Commune
-Ask a small set of specific questions of a supernatural source whose knowledge has limits.
+
+**ID:** spell:portents:8
+**Page:** 8
+**Action:** Ritual · 10 minutes
+**SP:** 4
+**Attribute:** None
+**Target / range:** One spiritual patron or source with which you have an established relationship
+**Duration:** Instant
+
+Ask up to three questions answerable by yes, no or uncertain. Answers reflect that source's knowledge and may be uncertain where events or secrets exceed it. You can seek this communion once between safe overnight rests.
 
 ### Foresight
-Give a willing subject sustained supernatural warning and a strong, explicitly bounded advantage in dangerous situations.
+
+**ID:** spell:portents:a1
+**Page:** A1
+**Action:** Main Action
+**SP:** 5
+**Attribute:** None
+**Target / range:** One willing creature within 3 squares
+**Duration:** 10 minutes
+
+Give the recipient 1 Boon to defenses. Once during the duration, after a defense roll, it may reroll the whole roll and keep either result. Recasting replaces the previous benefit on that creature.
 
 ### Anticipations True
-Anticipate the immediate broad actions of several nearby creatures under a shared observation limit.
+
+**ID:** spell:portents:a2
+**Page:** A2
+**Action:** Reaction · after you roll a defense
+**SP:** 5
+**Attribute:** None
+**Target / range:** Self
+**Duration:** The triggering defense
+
+Follow an alternate future. Reroll the whole defense and keep either result. Use at most one Anticipations True casting on a given defense.
 
 ### Spell Anticipation True
-Extend advanced spell anticipation to a bounded group, revealing the imminent spells and targets you can actually perceive.
+
+**ID:** spell:portents:a3
+**Page:** A3
+**Action:** Reaction · when a visible spell targets you or an ally within 3 squares
+**SP:** 5
+**Attribute:** None
+**Target / range:** You and up to two targeted allies within 3 squares
+**Duration:** The triggering spell
+
+Warn the chosen recipients before their defenses are rolled. Each gains 2 Boons to its defense against that spell. Each creature resolves its own defense normally.

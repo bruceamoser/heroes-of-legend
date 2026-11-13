@@ -16,7 +16,7 @@ When you learn this ability, choose one ordinary language you do not already kno
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Utility
 

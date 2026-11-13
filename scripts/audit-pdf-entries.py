@@ -61,7 +61,7 @@ for c in cards:
   if not v:continue
   display = (v + ' DP') if key == 'DP' and v.isdigit() else v
   if key == 'DP' and v == 'Not purchased' and c['fields'].get('Tier / minimum level') == 'Universal':
-   display='Universal'
+   display='Basic action'
   status='present' if norm(display) in nt else 'review_missing'
   if v in intentional.get(key,set()):status='shared_omission' if status!='present' else status
   checks.append({'field':key,'expected':v,'status':status})

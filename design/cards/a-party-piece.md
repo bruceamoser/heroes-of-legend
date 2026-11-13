@@ -16,7 +16,7 @@ When you learn this ability, choose one ordinary instrument you own, such as a l
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Utility
 

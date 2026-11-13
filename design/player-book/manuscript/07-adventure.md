@@ -119,7 +119,7 @@ remain choices.
 
 ## Magic in your hands
 
-Magic is learned through abilities and disciplines. There are no spell slots. Printed spell-point costs spend your SP reserve. A spell uses the same action, attribute and outcome structure as another
+Learn magic through the pages of your discipline’s spellbooks. There are no spell slots. Printed spell-point costs spend your SP reserve. A spell uses the same action, attribute and outcome structure as another
 ability, with its printed requirements and costs. An attack spell still produces
 its Weak result on a Weak roll; it does not simply fizzle.
 
@@ -135,6 +135,8 @@ attack; resolve it before continuing the spell if still capable.
 Beast forms keep your own HP, attributes and scars. They are not replaceable HP
 pools. Use the form's printed actions and equipment restrictions. A form does not
 import an entire monster entry or grant spellcasting if its rules forbid it.
+
+For casting actions, Rituals, sustained magic and spellbook learning, use [Magic and spellbooks](../../rules/magic.md).
 
 ## Healing spends spell points
 

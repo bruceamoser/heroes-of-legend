@@ -20,37 +20,136 @@ Soil, stone, excavation and reinforcement.
 | A2 | Flesh to Stone | 5 | IV |
 | A3 | Earthquake | 5 | IV |
 
-## Spell descriptions
+## Spells
 
 ### Enchanted Rope
-Guide an existing rope into a knot or around a support. This minor form cannot attack or bind an unwilling creature.
+
+**ID:** spell:earth:1
+**Page:** 1
+**Action:** Maneuver
+**SP:** 0
+**Attribute:** None
+**Target / range:** One unattended rope up to 6 squares long within 3 squares
+**Duration:** 1 minute
+
+Guide the rope's free end through a reachable opening and tie or undo one ordinary knot. It can secure itself to a suitable anchor. It bears its ordinary load and moves through unoccupied space.
 
 ### Loosen Earth
-Turn compact ground into workable loose soil, making excavation possible without removing the material.
+
+**ID:** spell:earth:2
+**Page:** 2
+**Action:** Ritual · 1 minute
+**SP:** 1
+**Attribute:** None
+**Target / range:** One unoccupied square of loose earth within 3 squares, up to 1 square deep
+**Duration:** Instant
+
+Loosen, shift or pile the soil into an adjacent unoccupied square. Work around buried structures and roots. The resulting earth is ordinary material.
 
 ### Earthwall
-Raise a barrier of packed earth from suitable ground. It can be dug through or destroyed.
+
+**ID:** spell:earth:3
+**Page:** 3
+**Action:** Main Action
+**SP:** 1
+**Attribute:** None
+**Target / range:** Three connected unoccupied ground squares within 6 squares
+**Duration:** 10 minutes
+
+Raise a bank of packed earth 1 square high. It provides cover and costs 2 movement to climb. Each bank square has 6 HP and physical resistance 1.
 
 ### Cracks Call
-Extend existing flaws in a bounded object or structure. The spell exploits a weakness rather than conjuring an earthquake.
+
+**ID:** spell:earth:4
+**Page:** 4
+**Action:** Main Action
+**SP:** 2
+**Attribute:** Knowledge
+**Target / range:** One visible unoccupied 2-square section of stone within 6 squares
+**Duration:** Instant
+
+Split ordinary stone along an existing weakness. Add 2/4/6 progress toward a DA-set demolition objective declared before casting. Creatures supported by collapsing stone may use their normal falling responses. Magical barriers use their own removal procedures.
 
 ### Meld into Stone
-Hide yourself within a sufficiently large piece of stone, subject to defined perception and exit restrictions.
+
+**ID:** spell:earth:5
+**Page:** 5
+**Action:** Main Action
+**SP:** 2
+**Attribute:** None
+**Target / range:** Self; one adjacent natural stone mass large enough to hold you
+**Duration:** 10 minutes
+
+Step inside the stone with your carried gear. You can hear muffled sounds and may emerge from your entry face with a Maneuver. While inside, rest and observe; manipulating the outside world requires emerging. If the stone is broken apart, emerge into the nearest open square and take 3 physical damage.
 
 ### Stone Shape
-Reshape a bounded quantity of stone into a useful simple form, passage or closure.
+
+**ID:** spell:earth:6
+**Page:** 6
+**Action:** Ritual · 10 minutes
+**SP:** 3
+**Attribute:** None
+**Target / range:** One adjacent unattended stone mass, up to one square in each dimension
+**Duration:** Instant
+
+Reshape existing stone into a doorway, trough, steps or similarly simple form. Preserve its volume and structural support. Fine mechanisms require ordinary finishing work.
 
 ### Stoneskin
-Give a willing creature stone-like resistance to physical harm for a limited duration and maintenance cost.
+
+**ID:** spell:earth:7
+**Page:** 7
+**Action:** Main Action
+**SP:** 3
+**Attribute:** None
+**Target / range:** One willing creature within 3 squares
+**Duration:** Sustained, up to 1 minute
+
+Harden the recipient's skin like weathered granite. It gains physical resistance 2, using the highest matching resistance.
 
 ### Wall of Stone
-Raise connected stone panels. Lasting construction requires sustained work and an appropriate foundation.
+
+**ID:** spell:earth:8
+**Page:** 8
+**Action:** Main Action
+**SP:** 4
+**Attribute:** None
+**Target / range:** Six connected unoccupied squares on solid ground within 8 squares
+**Duration:** 1 hour
+
+Raise a stone wall 2 squares high. Each section has 12 HP and physical resistance 2. It can include openings you shape when casting. At expiry the conjured stone crumbles into harmless dust.
 
 ### Move Earth
-Reshape a substantial area of soil over time, creating trenches, slopes and embankments.
+
+**ID:** spell:earth:a1
+**Page:** A1
+**Action:** Ritual · 1 hour
+**SP:** 5
+**Attribute:** None
+**Target / range:** A 10-by-10-square patch of soil within 12 squares
+**Duration:** Instant
+
+Grade, trench or mound earth by up to 2 squares of depth or height. Shift it within the chosen patch, preserving volume. Move exposed loose soil around foundations rather than carrying buildings or creatures with it.
 
 ### Flesh to Stone
-Make progress toward petrifying one living target. The target has defined opportunities to interrupt or reverse the transformation.
+
+**ID:** spell:earth:a2
+**Page:** A2
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Knowledge
+**Target / range:** One creature within 6 squares
+**Duration:** Until the end of your next turn; conditions then decay normally
+
+Stone creeps across the target. Apply Slowed 2/3/4. On Strong also apply Paralyzed 1. A second Strong casting while this spell's Slowed remains makes the target Petrified for 1 minute. Remove Curse, Greater Restoration or the caster's Maneuver ends that petrification.
 
 ### Earthquake
-Cause a major local tremor that threatens structures and footing. Its collateral effects are part of its identity.
+
+**ID:** spell:earth:a3
+**Page:** A3
+**Action:** Main Action
+**SP:** 5
+**Attribute:** Knowledge
+**Target / range:** Every grounded creature in a 3-square-radius area within 10 squares
+**Duration:** Instant
+
+Shake the ground violently. Deal 4/6/8 physical damage and make affected creatures Prone. Add 2/4/6 progress toward one visible structure's DA-set collapse objective in the area; the DA describes unstable features before the roll.

@@ -16,7 +16,7 @@ Grant the ally 1 Boon to that defense roll. The distraction affects the defense 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Defense
 

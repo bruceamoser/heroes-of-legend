@@ -1,3 +1,5 @@
-# Universal actions and independent talents
+# Basic Actions
 
-The discipline chapter contains learned paths, spellbooks and combined abilities. This chapter provides the actions every character can attempt and the six independent 1-DP talents. Each talent is learned once; its printed equipment and situation requirements still apply. Class signatures appear with their class.
+Every hero can use these actions. Choose the action that fits what you want to do, gather any equipment it uses, and follow its procedure. These are the foundation for attacks, movement, defense, helping others and handling the world around you.
+
+Your disciplines develop these capabilities through practiced techniques. Your class signatures appear with your class, personal talents with character creation, and spells with their spellbooks.

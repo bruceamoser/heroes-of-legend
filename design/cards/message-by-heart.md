@@ -18,7 +18,7 @@ After rehearsing the message for one minute, you can reproduce its words exactly
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Utility
 
