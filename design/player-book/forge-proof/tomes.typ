@@ -26,7 +26,7 @@
    columns: (22pt, 1fr, 25pt, 23pt),
    inset: (x: 4pt, y: 2.5pt), stroke: none,
    fill: (x,y) => if y==0 {ink} else {let i = y - 1; shades.at(if i < 8 {calc.floor(i/2)} else {3})},
-   table.header(..("Page", "Spell", "SP", "Key").map(t=>text(size: 8pt, fill: white, weight: "bold", t))),
+   table.header(..("Page", "Spell", "SP", "Sect.").map(t=>text(size: 8pt, fill: white, weight: "bold", t))),
    ..(l.spells + l.advanced).enumerate().map(((i,s))=>(
     text(size: 9pt, if i < 8 {str(s.page)} else {"A"+str(s.page)}),
     text(size: 10pt, s.name),
@@ -35,7 +35,7 @@
    )).flatten()
   )
   #v(5pt)
-  #text(size: 8pt, weight: "bold")[FORGE PURCHASES  I → II → III → IV]
+  #text(size: 8pt, weight: "bold")[LEARNED SECTIONS  I → II → III → IV]
   #v(2pt)
   #for i in range(4) {
    grid(columns: (18pt, 1fr, 26pt), gutter: 3pt,
@@ -47,7 +47,7 @@
   #text(size: 8pt)[*IV teaches pages 7–8 and all three advanced pages (A1–A3).*]
  ]
 }
-#text(font: "Cinzel", size: 8pt, tracking: 1pt)[HEROES OF LEGEND #h(1fr) THE FORGE]
+#text(font: "Cinzel", size: 8pt, tracking: 1pt)[HEROES OF LEGEND #h(1fr) SPELLBOOKS]
 #v(8pt)
 #align(center)[#text(font: "Cinzel", size: 25pt)[The Elemental Library] \
 #text(size: 10pt, style: "italic")[Four paths into the secrets of fire, water, earth and air.]]
@@ -55,4 +55,4 @@
 #grid(columns: (1fr,1fr), gutter: 12pt, ..books.map(b=>tome(b)))
 #v(7pt)
 #line(length: 100%, stroke: .5pt + gold)
-#text(size: 9pt)[*Begin with Elements (1 DP).* It opens all four lists; it teaches no spells. Buy each list’s keys in order. Row colors and keys identify the ability that teaches each spell. *SP* is the casting cost; page 1 costs 0 SP. *L3* requires character level 3.]
+#text(size: 9pt)[*Begin with Elements (1 DP).* It opens all four lists; it teaches no spells. Learn each tome’s sections in order. Row colors and section numbers show which spells you learn together. *SP* is the casting cost; page 1 costs 0 SP. *L3* requires character level 3.]

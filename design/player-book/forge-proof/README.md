@@ -48,3 +48,8 @@ typst compile design/player-book/forge-proof/tomes.typ output/pdf/forge-named-to
 
 Validation: one page compiled and visually inspected; 44 spell rows. This change
 adds presentation names only and does not change prerequisites or spell mechanics.
+
+Player-facing terminology correction: use **Learned Sections**, not “Forge purchases.”
+Refer to learning sections in order and label the row mapping “Sect.” The Forge is
+internal design terminology, not the voice of the printed learning reference.
+The revised single-page PDF was rebuilt and visually checked after this correction.
