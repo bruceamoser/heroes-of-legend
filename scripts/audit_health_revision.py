@@ -26,8 +26,9 @@ for path in ['development.md','rules/recovery.md','player-book/manuscript/02-cre
  assert '2 maximum SP each level' in read(path),path
 canonical=read('rules/recovery.md');player=read('player-book/manuscript/08-recovery.md')
 assert canonical.split('\nA non-player healer')[0].strip()==player.replace('../../rules/wounds.md','wounds.md').strip()
-for phrase in ['one immediate death roll','half maximum HP, rounded up','including the third mark','one treatment attempt between safe overnight rests']:
- assert phrase in canonical.replace('**',''),phrase
+for phrase in ['one immediate death roll','half maximum HP, rounded up','including the third failure','Add 1 failure mark','Add 1 success mark','third success','one treatment attempt between safe overnight rests']:
+ assert phrase in ' '.join(canonical.replace('**','').split()),phrase
+assert 'Retained natural 111' not in canonical and 'Retained natural 666' not in canonical
 for folder in ['player-book/manuscript','da-book/manuscript']:
  for p in (D/folder).glob('*.md'):
   s=p.read_text()

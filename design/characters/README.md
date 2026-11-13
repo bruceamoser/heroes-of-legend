@@ -11,4 +11,4 @@ Each example follows its level-0 origins and learning, then a separate level-1 c
 | [Mara Reedheart](mara-reedheart.md) | Grove healer | Human Shepherd | 15 | 6 | 7 / 10 | 12 / 13 | 14 / 15 |
 | [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 13 | 6 | 8 / 10 | 14 / 14 | 14 / 16 |
 
-All begin at full HP and SP, with one unspent Grit, first aid available and no scars or death marks. Lira gains an additional square of Speed in wooded terrain. These examples demonstrate legal learning and budgets, not comparative combat balance.
+All begin at full HP and SP, with one unspent Grit, first aid available and no scars or death roll marks. Lira gains an additional square of Speed in wooded terrain. These examples demonstrate legal learning and budgets, not comparative combat balance.

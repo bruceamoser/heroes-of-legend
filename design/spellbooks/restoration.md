@@ -32,7 +32,7 @@ Repair the body without bypassing recovery limits.
 **Target / range:** One adjacent Dying creature
 **Duration:** Instant
 
-Steady the creature's breathing. Stabilize it at 0 HP and clear its death marks, following the normal stabilization procedure.
+Steady the creature's breathing. Stabilize it at 0 HP and clear both death roll tallies, following the normal stabilization procedure.
 
 ### Cure Wounds
 

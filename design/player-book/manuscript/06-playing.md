@@ -46,7 +46,7 @@ from distinct valid sources stack, cancel, and then use the three-die net limit.
 Read retained natural 111 as Weak with an additional complication and 666 as Strong
 with an additional benefit. The result still makes its printed progress. The DA
 fits a benefit or complication to the scene; it does not silently double damage or
-grant another action.
+grant another action. Death rolls use only the result band.
 
 ## Taking turns
 

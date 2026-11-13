@@ -46,4 +46,4 @@ With suitable supplies, anyone can give first aid. Spend 10 minutes and roll Kno
 
 Condition care treats specific conditions. Apply the treatment’s listed condition reductions and any HP recovery it provides.
 
-A safe overnight rest takes 8 hours, including 6 hours of sleep and 2 quiet hours, and restores HP and SP once per 24 hours. Shelter alone does not guarantee safety. Track treatment through HP and the recipient’s first-aid allowance. Scars remain part of the hero’s story. Use the Stabilize Maneuver to help an adjacent Dying hero. The hero stays at 0 HP and clears their death marks. Further damage at 0 causes an immediate death roll.
+A safe overnight rest takes 8 hours, including 6 hours of sleep and 2 quiet hours, and restores HP and SP once per 24 hours. Shelter alone does not guarantee safety. Track treatment through HP and the recipient’s first-aid allowance. Scars remain part of the hero’s story. Use the Stabilize Maneuver to help an adjacent Dying hero. The hero stays at 0 HP and clears both death roll tallies. Further damage at 0 causes an immediate death roll.

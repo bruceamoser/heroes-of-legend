@@ -1,6 +1,6 @@
 # Come Back
 
-*Choose one ally within 3 squares. Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a square adjacent to that ally, without provoking. Then stabilize it. Stabilization clears death marks and restores no HP. The scar remains if the ally survives. This cannot restore the dead.*
+*Choose one ally within 3 squares. Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a square adjacent to that ally, without provoking. Then stabilize it. Stabilization clears both death roll tallies and restores no HP. The scar remains if the ally survives. This cannot restore the dead.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One ally within 3 squares.
 
-Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a square adjacent to that ally, without provoking. Then stabilize it. Stabilization clears death marks and restores no HP; the scar remains if the ally survives. This cannot restore the dead.
+Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a square adjacent to that ally, without provoking. Then stabilize it. Stabilization clears both death roll tallies and restores no HP; the scar remains if the ally survives. This cannot restore the dead.
 
 **Duration:** Immediate.
 

@@ -70,7 +70,7 @@ history nobody has time to read.
 
 ## Recovery record
 
-| Hero | Current / max HP | Current / max SP | Grit left / granted | Death marks | First aid used? |
+| Hero | Current / max HP | Current / max SP | Grit left / granted | Death failures / successes | First aid used? |
 |---|---|---|---|---|---|
 | | | | | | |
 | | | | | | |
@@ -86,7 +86,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 |---|---|
 | Combat begins | One unmodified 3d6: 12+ players start, otherwise opposition. That side starts every round. |
 | Choose next actor | Alternate sides; each chooses an unacted member. Finish the remaining side when the other has none. |
-| Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, make a death roll or spend Grit; Grit is also allowed immediately after a roll adds marks. |
+| Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, roll Fortitude. Weak adds a failure, Strong adds a success. Three failures mean death, three successes stabilize. Grit can intervene after a failure. |
 | Before rolling | Declare card, target, action, applicable Boons/Banes and consequences. |
 | Provoking action starts | Available opportunity Reaction resolves Basic Melee first; continue if capable. |
 | Resolve attack | Correct attacker/defender perspective; full outcome, weakness then resistance; minimum 1 per damaging event. |

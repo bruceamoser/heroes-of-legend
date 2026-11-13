@@ -30,10 +30,11 @@
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("CULTURE"),field("BACKGROUND"))
  #v(10pt)#grid(columns:(1fr,)*6,gutter:7pt,..("Brawn","Fortitude","Agility","Guile","Knowledge","Reason").map(score))
  #strip("Keep fighting")
- #grid(columns:(2fr,1fr,1fr),gutter:7pt,
-  field("HP: CURRENT                         MAXIMUM",height:42pt),
-  field("GRIT: CURRENT / TOTAL GRANTED",height:42pt),
-  field("DEATH MARKS",height:42pt))
+ #grid(columns:(2fr,1.35fr,1fr,1fr),gutter:7pt,
+  field("HP: CURRENT / MAXIMUM",height:42pt),
+  field("GRIT: LEFT / GRANTED",height:42pt),
+  field("DEATH FAILURES",height:42pt),
+  field("DEATH SUCCESSES",height:42pt))
  #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:7pt,field("SPEED (SQUARES)"),field("STABILITY"),field("BULK / CAPACITY"))
  #strip("Protection & preparation")
  #grid(columns:(1fr,1fr),gutter:7pt,field("RESISTANCES (HIGHEST OF EACH TYPE; CAP 3)",height:38pt),field("LEFT HAND / RIGHT HAND",height:38pt))

@@ -37,7 +37,7 @@ Staunch takes a Maneuver instead of a Main Action.
 
 ### Keep Them Breathing
 DP: 3 | Level: 3
-Reaction. When an adjacent creature takes damage at 0 HP, grant 1 Boon to its immediate death roll. Declare before the roll. This does not stabilize it, restore HP or remove death marks.
+Reaction. When an adjacent creature takes damage at 0 HP, grant 1 Boon to its immediate death roll. Declare before the roll. Apply that roll’s result to its death roll tallies.
 
 ## Diagnosis
 

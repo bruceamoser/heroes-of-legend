@@ -124,7 +124,7 @@ scar_rows=[line for line in (R/'design/rules/wounds.md').read_text().splitlines(
 for row in scar_rows:
  for cell in row.strip('|').split('|'):
   if norm(cell.strip()) not in n:errors.append('Missing scar prompt: '+cell.strip())
-for required in ['Scars and Survival','half maximum HP','First Aid','death marks']:
+for required in ['Scars and Survival','half maximum HP','First Aid','Death Failures','Death Successes','Add 1 failure mark','Add 1 success mark']:
  if norm(required) not in n:errors.append('Missing recovery rule: '+required)
 for obsolete in ['Roll 3d6 plus one die per prior wound','One treatment attempt per wound per day']:
  if norm(obsolete) in n:errors.append('Obsolete wound procedure: '+obsolete)

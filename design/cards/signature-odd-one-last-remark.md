@@ -1,14 +1,14 @@
 # Not Quite Yet
 
-*Choose one ally within 5 squares that would die from its third death mark. The ally does not die yet. It remains at 0 HP with at least three death marks until the beginning of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it survives. At the beginning of its next turn, if it still has three death marks, it dies unless it spends Grit immediately.*
+*Choose one ally within 5 squares that would die from its third failure mark. The ally does not die yet. It remains at 0 HP with three failure marks until the beginning of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it survives. At the beginning of its next turn, if it still has three failure marks, it dies unless it spends Grit immediately.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None (no roll)
 
-**Target / range / shape:** One ally within 5 squares that would die from its third death mark.
+**Target / range / shape:** One ally within 5 squares that would die from its third failure mark.
 
-The ally does not die yet. It remains at 0 HP with at least three death marks until the beginning of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it survives. At the beginning of its next turn, if it still has three death marks, it dies unless it spends Grit immediately.
+The ally does not die yet. It remains at 0 HP with three failure marks until the beginning of its next turn and makes no further death rolls during the delay. If it is stabilized or healed above 0 before then, it survives. At the beginning of its next turn, if it still has three failure marks, it dies unless it spends Grit immediately.
 
 **Duration:** Until the beginning of the ally’s next turn.
 

@@ -18,7 +18,7 @@ lists the actions any hero can use.
 |---|---|
 | Ordinary roll | 3d6 + one attribute; Weak ≤8, Standard 9–14, Strong ≥15 |
 | Boons / Banes | Cancel; add up to 3 net dice; keep highest / lowest 3 |
-| Natural 111 / 666 | Weak + complication / Strong + benefit, using retained dice |
+| Natural 111 / 666 | Weak + complication / Strong + benefit. Death rolls use only the band. |
 | Initiative | One unmodified 3d6; 12+ players first; same side begins each round |
 | Action conversion | Main → Maneuver → movement; never upward |
 | Ordinary movement | Normal 1; difficult 2; diagonal 1; stand costs 2 |
@@ -92,7 +92,7 @@ or openly revealing yourself ends it.
 
 **Inventory die.** A supply's remaining uncertainty. Roll after use; step down on 1.
 
-**Death.** Three death marks kill unless Grit or an explicit prevention resolves immediately.
+**Death.** Three failures on death rolls kill unless Grit or an ability intervenes immediately. The player can describe their hero’s Last Words.
 
 **Maneuver.** A smaller action used for movement techniques, setup, support and practical tasks.
 
@@ -127,4 +127,10 @@ strong or weak.
 
 ## Survival at a glance
 
-At 0: Dying, prone and unconscious. Fortitude each turn: Weak +1 mark; Standard unchanged; Strong stabilize at 0; natural 111 +2 marks; natural 666 regain 1 HP. Further damage at 0 triggers another immediate roll. Three marks kill unless prevented immediately. Stabilize: adjacent Maneuver, no roll, clear marks, conscious but unable to fight at 0. Grit: gain one at levels 1/3/7, spend permanently for half maximum HP rounded up, including after the third strike.
+When you fall to 0 HP, you enter Dying, fall prone and lose consciousness. Roll Fortitude at the start of each
+Dying turn and immediately after each damaging event while already at 0 HP.
+Weak adds one failure, Strong adds one success and Standard changes neither.
+Use only the result band, including on triples. Three failures mean death.
+Three successes stabilize you at 0 HP. An adjacent ally can stabilize you with
+a Maneuver. Clear both tallies on stabilization or recovery above 0 HP.
+Spend Grit for half maximum HP, rounded up, even after the third failure.

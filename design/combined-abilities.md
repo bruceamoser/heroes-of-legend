@@ -169,7 +169,7 @@ Main Action · Reason · 5 SP. Raise up to eight connected thorn-wall squares on
 ## True Resurrection
 DP: 3 | Level: 7
 Requires: restoration:3, spirits:3
-Ritual · 8 uninterrupted hours · Reason · 8 SP, with remains of one person dead no longer than seven days and unique funerary materials worth 500 coins. The DA establishes availability before preparation. The spirit must freely agree. At completion, consume the materials and return that person to life at 1 HP in a restored body, ending death marks but retaining descriptive scars. No roll. No duplicate body, restored Grit or SP is created. Each person has one lifetime return to life, shared with Lifegiving and Mass Lifegiving. This ritual restores a life ended before its natural span.
+Ritual · 8 uninterrupted hours · Reason · 8 SP, with remains of one person dead no longer than seven days and unique funerary materials worth 500 coins. The DA establishes availability before preparation. The spirit must freely agree. At completion, consume the materials and return that person to life at 1 HP in a restored body, clearing both death roll tallies but retaining descriptive scars. No roll. No duplicate body, restored Grit or SP is created. Each person has one lifetime return to life, shared with Lifegiving and Mass Lifegiving. This ritual restores a life ended before its natural span.
 
 ## Simulacrum
 DP: 3 | Level: 7
@@ -194,7 +194,7 @@ Main Action · Reason · 7 SP. Choose a visible point within 12 squares and a 1-
 ## Mass Lifegiving
 DP: 4 | Level: 7
 Requires: restoration:3, spirits:3, sanctuary:3
-Ritual · 1 uninterrupted hour · Reason · 10 SP, within a safe prepared sanctuary. Choose up to three willing dead people whose bodies are present and who died within the previous hour. Consume 200 coins of consecrated materials for each; the DA establishes availability beforehand. Restore their fatal injuries, return them to life at 1 HP and clear death marks. No roll. Scars remain; SP and Grit are not restored. Each person has one lifetime return to life, shared with Lifegiving and True Resurrection.
+Ritual · 1 uninterrupted hour · Reason · 10 SP, within a safe prepared sanctuary. Choose up to three willing dead people whose bodies are present and who died within the previous hour. Consume 200 coins of consecrated materials for each; the DA establishes availability beforehand. Restore their fatal injuries, return them to life at 1 HP and clear both death roll tallies. No roll. Scars remain; SP and Grit are not restored. Each person has one lifetime return to life, shared with Lifegiving and True Resurrection.
 
 ## Foresight — Oracle’s Dream
 DP: 4 | Level: 7

@@ -54,30 +54,29 @@ ambush merely to prevent a rest that was already established as safe.
 
 ## Keep the survival sequence clear
 
-At positive HP, damage reduces HP normally. At 0, a hero enters Dying and becomes
-unconscious and prone. Each Dying turn begins with a Fortitude death roll. Weak
-adds one mark; Standard changes nothing; Strong stabilizes at 0 and clears marks.
-Retained natural 111 adds two marks instead of one; 666 restores 1 HP and clears
-marks. Further damage while already at 0 causes one immediate death roll per
-damaging event, including damage to a stabilized hero. It does not automatically
-add a mark. The initial hit taking positive HP to 0 does not add this extra roll.
+When a hero falls to 0 HP, they enter Dying, fall prone and lose consciousness.
+Start two fresh tallies. At the start of each Dying turn, call for a Fortitude
+death roll. Weak adds one failure, Standard leaves both tallies as they are,
+and Strong adds one success. Use the result band even on retained triples.
 
-At three marks the hero dies unless Grit or an explicit prevention resolves
-immediately. Grit can be spent after seeing a death roll that adds marks, including
-the third. It sets HP to half maximum, rounded up, clears marks and ends Dying.
-It costs no action and never refreshes. Gain one point each at levels 1, 3 and 7;
-these are the only grants. Record grants and expenditure separately.
+The third success stabilizes the hero at 0 HP. The third failure kills them
+unless Grit or an ability intervenes immediately. Each damaging event while
+already at 0 HP calls for one immediate death roll. If the hero was stable,
+start a fresh Dying episode before rolling.
 
-Anyone can Stabilize an adjacent Dying hero with a Maneuver and no roll. Clear
-marks, end Dying and leave the hero at 0 HP, conscious but unable to take actions
-or voluntary movement. They can speak and accept aid. Further damage returns them
-to Dying and causes an immediate death roll. Positive healing ends Dying and
-HP-caused unconsciousness, without removing unrelated conditions.
+Anyone can spend a Maneuver to stabilize an adjacent Dying hero. This clears
+both tallies and ends Dying. The hero is conscious and prone at 0 HP with three
+defense Banes. They can speak and accept aid. They regain actions and voluntary
+movement when HP returns, subject to other conditions. Healing above 0 also
+clears both tallies and ends Dying and HP-caused unconsciousness.
 
-State HP, marks, remaining Grit and relevant conditions. The fallen hero's player
-chooses whether to spend their Grit. Keep turn timing while Dying or immediate
-hazards remain. Ordinary NPCs die at 0; summons disappear. Do not give every enemy
-the heroes' death rolls or lifetime reserves.
+The hero's player can spend Grit immediately after a death roll adds a failure,
+including the third. Grit restores half maximum HP, rounded up, clears both
+tallies and ends Dying. Gain one point at each of levels 1, 3 and 7 and record
+grants and expenditures separately.
+
+Keep turn timing while Dying or immediate hazards remain. Ordinary NPCs die
+at 0 HP. Summoned forms disappear.
 
 ## Treatment and magical healing
 
@@ -105,7 +104,7 @@ player what they wish to remember. Scars carry no penalties, Boons or treatment
 requirements. Do not turn a cosmetic description into a lost limb or compelled
 behavior. [Scars and Survival](../../rules/wounds.md) offers prompts.
 
-If a hero dies, give their player room for a farewell or silence. Abilities
+If a hero dies, give their player a moment for Last Words, a final gesture or silence. Abilities
 that prevent death resolve at their stated triggers. Returning a dead hero
 to life requires a resurrection ritual.
 

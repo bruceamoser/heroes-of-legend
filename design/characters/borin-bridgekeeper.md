@@ -105,6 +105,6 @@ One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All oth
 
 **Spent 56; coins remaining 8; Bulk 8/13.** No encumbrance penalty.
 
-HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 = **19**. HP gain per level: **6**. SP: **6/6**. Speed **5**. Grit **1 remaining / 1 granted**. First aid **available**; no death marks or scars.
+HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 = **19**. HP gain per level: **6**. SP: **6/6**. Speed **5**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
 
 Physical resistance 1 while wearing light armor. A hammer and shield occupy both hands; free a hand before using an item.

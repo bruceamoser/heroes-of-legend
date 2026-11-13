@@ -24,24 +24,27 @@ magic and ignore Life resistance. Healing cannot restore the dead.
 
 ## Falling to 0 HP
 
-A player character reduced from positive HP to 0 enters **Dying**, falls prone and
-becomes unconscious. Clear old death marks when a new Dying episode begins. Ordinary NPCs and creatures normally die
-at 0; summoned forms disappear.
+A player character reduced from positive HP to 0 enters **Dying**, falls prone
+and becomes unconscious. Start each Dying episode with zero failure marks and
+zero success marks. Ordinary NPCs and creatures normally die at 0. Summoned
+forms disappear.
 
-At the start of each Dying turn, make a **Fortitude death roll** using the normal
-3d6, Boons and Banes. You can spend Grit before rolling or immediately after a
-result adds death marks, including the third mark.
+At the start of each Dying turn, make a **Fortitude death roll** using 3d6 and
+the usual Boons and Banes. Use only the result band for this roll, even on
+retained triples.
 
 | Death-roll result | Effect |
 |---|---|
-| Weak | Add 1 death mark. |
-| Standard | No change. |
-| Strong | Stabilize at 0 HP and clear all death marks. |
-| Retained natural 111 | Add 2 death marks instead of the ordinary Weak result. |
-| Retained natural 666 | Restore 1 HP, clear death marks and end Dying. |
+| Weak | Add 1 failure mark. |
+| Standard | Keep both tallies as they are. |
+| Strong | Add 1 success mark. |
 
-At **three death marks**, you die unless you spend Grit or an ability intervenes
-at its stated trigger. If your hero dies, you can describe their farewell.
+Track failures and successes separately throughout the episode. On your **third
+success**, stabilize at 0 HP and clear both tallies. On your **third failure**,
+you die unless you spend Grit or an ability intervenes at its stated trigger.
+
+**Last Words.** If your hero dies, you can describe their final words, gesture
+or silence as part of that moment.
 
 ### Further damage
 
@@ -59,14 +62,14 @@ battle does not skip death rolls.
 ## Stabilization and recovery at 0
 
 Anyone can use the **Stabilize Maneuver** on an adjacent Dying hero, without a roll
-or supplies. Clear their death marks and end Dying, leaving them at **0 HP**. They
+or supplies. Clear both tallies and end Dying, leaving them at **0 HP**. They
 regain consciousness from HP loss, but remain prone and cannot take Main Actions,
 Maneuvers, Reactions or voluntary movement until they regain HP. Apply the same three defense Banes as Unconscious while at 0. They can speak,
 perceive their surroundings and accept help. Companions can carry them. Another
 source of unconsciousness or incapacity still follows its own remedy.
 
 A stabilized hero makes no turn-start death rolls. Further damage restarts Dying.
-Healing above 0 ends Dying, clears marks and ends HP-caused unconsciousness; it
+Healing above 0 ends Dying, clears both tallies and ends HP-caused unconsciousness; it
 does not automatically stand the hero up or remove other conditions. Healing may
 target a Dying or stabilized hero without requiring consent or a Reaction.
 
@@ -78,14 +81,14 @@ magic or a new session. Unspent points carry forward; spending one removes it
 permanently. These milestones are the only Grit grants.
 
 Spend one Grit when you fall to 0, at the start of a Dying turn, immediately after
-a death roll adds marks, or while stabilized at 0. This costs no action or Reaction.
-Set current HP to **half maximum HP, rounded up**, clear death marks, and end Dying
-and HP-caused unconsciousness. Other conditions remain. You may spend Grit after
-the roll that would give your third mark, before death becomes final. Spend it before death becomes final. If an ability makes HP unavailable for recovery, apply that limit to Grit as well.
+a death roll adds a failure mark (including the third failure), or while
+stabilized at 0. This costs no action or Reaction. Set current HP to **half maximum HP, rounded up**, clear both tallies, and end Dying and HP-caused
+unconsciousness. Other conditions remain. If an ability makes HP unavailable
+for recovery, apply that limit to Grit as well.
 
-> **Example: the third strike.** With 17 maximum HP and two death marks, you roll
-> Weak. You spend your last Grit immediately: set HP to 9 and clear the marks.
-> Without Grit or an ability that prevents this death, the third mark kills you.
+> **Example — a third failure.** You have 17 maximum HP, two failures and one
+> success. You roll Weak. Before death becomes final, you spend your last Grit.
+> Set HP to 9 and clear both tallies.
 
 ## Scars tell the story
 

@@ -103,6 +103,6 @@ One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All oth
 
 **Spent 56; coins remaining 2; Bulk 8/10.** No encumbrance penalty.
 
-HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **6/6**. Speed **8**. Grit **1 remaining / 1 granted**. First aid **available**; no death marks or scars.
+HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **6/6**. Speed **8**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
 
 Speed is 9 in wooded terrain from Woodland Tread. The bow requires both hands.

@@ -74,13 +74,13 @@ Spirits wheel around you. When cast, deal 2/3/5 radiant damage to the chosen cre
 
 **ID:** spell:spirits:5
 **Page:** 5
-**Action:** Reaction · when a visible living creature within 3 squares gains its third death mark
+**Action:** Reaction · when a visible living creature within 3 squares gains its third failure mark
 **SP:** 2
 **Attribute:** None
 **Target / range:** That creature
 **Duration:** Until the end of your next turn
 
-Hold its departing spirit. Delay death from that third mark until the duration ends. Stabilization or HP recovery during the interval clears death marks normally. Further damage still causes immediate death rolls; another third-mark result ends the hold. Each creature can benefit once between safe overnight rests.
+Hold its departing spirit. The hold delays death until it expires or the creature rolls another Weak on a death roll. Stabilizing it or restoring its HP during the hold saves it. Damage at 0 HP still triggers death rolls. Each creature can benefit once between safe overnight rests.
 
 ### Animate Dead
 
@@ -152,4 +152,4 @@ Shape one Undead energy form rated 7 or lower from Summoned Companions. Give its
 **Target / range:** One willing dead person whose intact body is adjacent; death within the past minute
 **Duration:** Instant
 
-Consume 100 coins of funerary incense and return the person at 1 HP, with death marks cleared and fatal injuries closed. The spirit chooses whether to return. Retain scars, spent SP and spent Grit. This uses the person's one lifetime return through Lifegiving, Mass Lifegiving or True Resurrection.
+Consume 100 coins of funerary incense and return the person at 1 HP, with both death roll tallies cleared and fatal injuries closed. The spirit chooses whether to return. Retain scars, spent SP and spent Grit. This uses the person's one lifetime return through Lifegiving, Mass Lifegiving or True Resurrection.
