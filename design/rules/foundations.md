@@ -21,11 +21,16 @@ per Weak/Standard/Strong result.
 
 ## Turns and attacks
 
-At combat start, one unmodified 3d6: 12+ gives players the first turn, otherwise
-the opposing side starts. Alternate sides; each side chooses its next character.
-The same side starts every round. A round lasts 6 seconds and ends after everyone
-has had a turn. Each character has Main, Maneuver, Reaction and movement. Main
-converts to Maneuver, Maneuver to movement; never upward.
+At combat start, the DA decides whether either side has pulled off an ambush.
+An ambushing side starts without an initiative roll. Otherwise, one player rolls
+unmodified 3d6. On 12 or more, the players start. On 11 or less, the opposition
+starts. The starting side opens every round.
+
+Alternate sides from the first turn of combat. Each side chooses its next
+character, and the side with turns remaining finishes them when the other runs
+out. A round lasts 6 seconds and ends after everyone has had a turn. Each
+character has Main, Maneuver, Reaction and movement. Main converts to Maneuver,
+and Maneuver converts to movement. Conversion goes in that direction only.
 
 Player attacks use one attacker roll, even against a player. NPC attacks use the
 player’s defense roll. Strong defense receives Weak attack effects, Standard

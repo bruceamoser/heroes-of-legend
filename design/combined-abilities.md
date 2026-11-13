@@ -184,7 +184,7 @@ Ritual · 1 hour · Knowledge · 6 SP. Open a doorway on an adjacent solid wall 
 ## Foresight — Shared Vigil
 DP: 3 | Level: 7
 Requires: thought:3, portents:3
-Ritual · 10 minutes · Reason · 5 SP. Link yourself and up to three willing creatures within 3 squares for one hour. While within 12 squares of you, linked creatures cannot be surprised by a threat any linked member perceives. Once each round, after one linked creature rolls a defense, it may reroll the entire roll and keep either result. The entire group shares this one reroll. The link carries warnings, not unrestricted thoughts. Recasting replaces the previous link. No roll.
+Ritual · 10 minutes · Reason · 5 SP. Link yourself and up to three willing creatures within 3 squares for one hour. Linked creatures within 12 squares of you receive a warning when any linked member perceives a threat. If the warning alerts the group before the attack, roll initiative normally. Once each round, after one linked creature rolls a defense, it may reroll the entire roll and keep either result. The entire group shares this one reroll. The link carries warnings, not unrestricted thoughts. Recasting replaces the previous link. No roll.
 
 ## Storm of Vengeance
 DP: 4 | Level: 7

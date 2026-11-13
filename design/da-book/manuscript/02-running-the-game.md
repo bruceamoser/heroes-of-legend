@@ -152,11 +152,19 @@ agreed concession. Each player decides how their hero responds.
 ## Enter turns when order matters
 
 Use combat turns when competing actions, immediate danger and short durations need
-an exact order. At the start, roll unmodified 3d6 once: 12 or above means the
-players' side starts; below 12 means the opposing side starts. Alternate one actor
-from each side. Each side chooses its next actor. When one side has no unacted
-members, the other finishes its remaining turns. The same side starts each round;
-do not reroll initiative. Each round lasts **6 seconds**, so 10 rounds make 1 minute.
+an exact order. Decide whether either side has pulled off an ambush by considering
+its setup and what the opposition knows when combat begins. For example, heroes
+waiting unseen for an unaware patrol can start first. If the patrol spots them
+before they spring the trap, use the ordinary initiative roll. Calling an attack
+first leaves that roll in place.
+
+The ambushing side starts without an initiative roll. Otherwise, one player rolls
+unmodified 3d6. The players start on 12 or more, and the opposition starts on 11 or
+less. The same side opens each round. Alternate one actor from each side starting
+in the first round, and apply concealment, cover and positioning normally. Each
+side chooses its next actor. When one side has no unacted members, the other
+finishes its remaining turns. Each round lasts **6 seconds**, so 10 rounds make
+1 minute.
 
 Each actor has one Main Action, one Maneuver, one Reaction and movement. Main
 converts to Maneuver, and Maneuver to movement; conversion never goes upward.
