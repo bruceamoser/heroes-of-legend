@@ -101,9 +101,10 @@ the bell chart, talk to individual crew members, pay, bypass the yard, or fight.
 A visibly forged notice carries no official seal; inspecting it reveals this
 without a roll. Exposure makes Brin willing to leave if the heroes allow escape.
 
-If violence starts, the crew uses its printed attacks and maneuvers. They have no
-surprise turn, free opening volley or automatic disarm. Follow the normal initiative
-procedure. When Brin falls or two crew members are out of the fight, the others
+If violence starts, use the normal initiative procedure. If either side has set
+up a successful ambush, that side starts. Alternate turns from the first round,
+and use the crew's printed attacks and maneuvers on its turns. When Brin falls
+or two crew members are out of the fight, the others
 try to withdraw or surrender. That is their chosen response to danger, not a new
 morale roll. Their lethal attacks remain lethal; a surrender must happen before
 0 HP if they are to survive without an explicit exception.

@@ -19,7 +19,7 @@ lists the actions any hero can use.
 | Ordinary roll | 3d6 + one attribute; Weak ≤8, Standard 9–14, Strong ≥15 |
 | Boons / Banes | Cancel; add up to 3 net dice; keep highest / lowest 3 |
 | Natural 111 / 666 | Weak + complication / Strong + benefit. Death rolls use only the band. |
-| Initiative | One unmodified 3d6; 12+ players first; same side begins each round |
+| Initiative | The ambushing side starts. Otherwise roll unmodified 3d6 once. Players start on 12+, opposition on 11 or less. Same side opens every round. |
 | Action conversion | Main → Maneuver → movement; never upward |
 | Ordinary movement | Normal 1; difficult 2; diagonal 1; stand costs 2 |
 | Occupied space | Cross only if occupant Prone, cost 2; never end there |

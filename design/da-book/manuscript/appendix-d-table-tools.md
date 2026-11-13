@@ -84,7 +84,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 
 | Moment | Check |
 |---|---|
-| Combat begins | One unmodified 3d6: 12+ players start, otherwise opposition. That side starts every round. |
+| Combat begins | A successful ambush sets the starting side. Otherwise one player rolls unmodified 3d6. Players start on 12+, opposition on 11 or less. That side opens every round. |
 | Choose next actor | Alternate sides; each chooses an unacted member. Finish the remaining side when the other has none. |
 | Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, roll Fortitude. Weak adds a failure, Strong adds a success. Three failures mean death, three successes stabilize. Grit can intervene after a failure. |
 | Before rolling | Declare card, target, action, applicable Boons/Banes and consequences. |

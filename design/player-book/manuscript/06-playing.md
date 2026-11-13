@@ -53,9 +53,15 @@ grant another action. Death rolls use only the result band.
 A round lasts **6 seconds**, so 10 rounds make 1 minute. Each character takes
 one turn during that time.
 
-At the start of combat, one player rolls unmodified 3d6. On 12 or more, the player
-side acts first. Otherwise the opposing side begins. This determines which side
-starts **every round of this combat**; do not roll again each round.
+At the start of combat, the DA decides whether either side has pulled off an
+ambush. If so, the ambushing side starts without an initiative roll. Otherwise,
+one player rolls unmodified 3d6. On 12 or more, the players start. On 11 or less,
+the opposition starts. The starting side opens **every round of this combat**.
+
+An ambush comes from the setup, such as catching opponents unaware from cover.
+Declaring an attack first leaves the usual initiative procedure in place. Both
+sides take their usual turns in the first round. Use the ordinary rules for
+concealment, cover and positioning.
 
 The starting side chooses one of its characters to act. Then the other side chooses
 one. Alternate until everyone has taken a turn. If one side has no characters left
