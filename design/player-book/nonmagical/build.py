@@ -36,5 +36,10 @@ for para in (SOURCE/'procedures.md').read_text().strip().split('\n\n'):
  elif para.startswith('## '):procs.append({'kind':'heading','text':para[3:]})
  else:procs.append({'kind':'paragraph','text':para.replace('\n',' ')})
 HERE.joinpath('procedures.json').write_text(json.dumps(procs,ensure_ascii=False))
-subprocess.run(['typst','compile',str(HERE/'book.typ'),str(out/'nonmagical-disciplines.pdf')],check=True)
+# The shared template reads its generated artwork manifest at import time.
+manifest=HERE.parent/'generated/art-files.json'
+if not manifest.exists():
+ manifest.parent.mkdir(parents=True,exist_ok=True)
+ manifest.write_text(json.dumps([p.stem for p in (HERE.parent/'art/interior').glob('*.png')]))
+subprocess.run(['typst','compile','--root',str(ROOT),str(HERE/'book.typ'),str(out/'nonmagical-disciplines.pdf')],check=True)
 print('Validated 11 disciplines, 44 sequential paths, 176 uniquely identified entries.')

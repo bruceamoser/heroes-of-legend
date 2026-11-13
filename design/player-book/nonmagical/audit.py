@@ -7,7 +7,7 @@ ROOT=HERE.parents[2]
 PDF=ROOT/'output/pdf/nonmagical-disciplines.pdf'
 data=json.loads((HERE/'generated.json').read_text())
 reader=PdfReader(PDF);assert len(reader.pages)==13,'Expected two procedure pages and eleven discipline pages'
-def compact(t):return re.sub(r'\s+','',t).replace('ﬀ','ff').replace('ﬁ','fi').replace('ﬂ','fl')
+def compact(t):return re.sub(r'\s+','',t).replace('\u00ad','').replace('ﬀ','ff').replace('ﬁ','fi').replace('ﬂ','fl')
 raw=subprocess.check_output(['pdftotext','-raw',str(PDF),'-'],text=True).split('\f')
 all_ids={d['id'] for d in data}
 for d in data:

@@ -80,3 +80,15 @@ discipline, unique graph IDs, exact previous-step prerequisites, 1/2/2/3 DP cost
 level-3 endpoints, printable text bounds and no zero damage floor.
 No released-book builder or canonical live card was changed, so the existing
 full-book builds were not rerun for this isolated packet.
+
+## Book-style correction
+
+The packet now imports the actual Player's Book `template.typ` and uses its setup,
+catalog-card and discipline-mark components. This replaces the standalone pastel
+blocks with the established forest headers, gold borders/dividers, parchment card
+interiors, discipline silhouettes, typography, margins and running headers/footers.
+No ability Markdown changed. All 176 full effects still match the rendered PDF.
+Decorative art is omitted on these dense reference pages rather than adding overflow
+pages; the book's existing functional discipline symbols appear in every path header.
+The shared template is consumed unchanged, so the other books do not need rebuilding.
+All thirteen pages were rendered and visually compared with the existing book.
