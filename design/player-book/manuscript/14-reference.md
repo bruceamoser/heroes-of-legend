@@ -24,7 +24,7 @@ lists the actions any hero can use.
 | Ordinary movement | Normal 1, difficult 2. Same cost diagonally. |
 | Prone movement | Crawl at normal 2 or difficult 3, including diagonally. Stand for 2. |
 | Occupied space | Cross if the occupant is Prone. Pay 2 or the usual entry cost, whichever is higher. End in a free square. |
-| Cover | Partial 1 Bane; heavy 3 Banes; no path means no attack |
+| Cover | Partial 1, heavy 3. Apply Banes to the attack roll or Boons to the defense roll. An attack needs a path. |
 | Resistance | Highest matching type, cap 3; minimum 1 damage per event |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |

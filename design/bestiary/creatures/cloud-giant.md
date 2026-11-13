@@ -51,7 +51,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 *Mist gathers in a thin curtain that blurs the line of approach.*
 
-Place partial obstruction in up to 3 connected visible squares within 3 squares until its next turn. It adds 1 Bane to attacks whose path crosses the veil. Normal cover rules apply; it does not grant Hidden, block movement or cause damage.
+Place a veil in up to 3 connected visible squares within 3 squares until its next turn. It provides partial cover when an attack crosses the veil. Use the usual cover rules. It does not grant Hidden, block movement or cause damage.
 
 ### General details
 

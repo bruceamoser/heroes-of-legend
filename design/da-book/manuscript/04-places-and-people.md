@@ -35,10 +35,13 @@ are unnecessary when they do not affect a choice. If two routes differ in travel
 time, explain that difference along with what the heroes know about their risks.
 Ordinary travel does not require routine rolls or an exhaustion track.
 
-On a tactical map, use squares. Mark difficult terrain, actual barriers, attack
-paths and usable exits. Partial obstruction applies 1 Bane; heavy cover with a
-narrow attack path applies 3. An unseen target behind an opaque barrier is not
-merely a heavily covered target. Abilities still require their own targeting conditions.
+On a tactical map, use squares. Mark difficult terrain, barriers, attack paths
+and usable exits. Judge whether an obstruction protects the target from that
+attack. Partial cover gives the attacker 1 Bane. Heavy cover leaves a narrow
+attack path and gives the attacker 3 Banes. When the defender rolls, give them
+that many Boons instead. Apply cover once and use the usual Boon and Bane rules.
+A blocked path prevents the attack. Use the ability's targeting requirements
+to determine whether an unseen target can be targeted.
 
 Give melee heroes approaches, ranged heroes sight lines, and movement abilities
 places to matter. Avoid filling every battlefield with the same waist-high walls.
