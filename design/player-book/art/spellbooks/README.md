@@ -1,17 +1,12 @@
-# Spellbook marginalia
+# Spellbook illustrations
 
-These 22 original vector studies were drawn for the spellbook spreads. Their
-forest-green linework, gold construction circles and transparent backgrounds
-follow the book palette. Each depicts its named spellbook subject and appears
-once. They are artwork, not mechanical diagrams or additional rules.
+These 22 detailed fantasy illustrations replace the decorative SVG studies at
+Bruce’s request. All were generated with the built-in image_gen tool. The exact
+prompt for each image and its transparency setting are in `prompts.json`.
+Original generated PNGs are preserved with their alpha channels, without
+flattening, resizing or background substitution.
 
-`../../spellbook-art.json` assigns these studies and seven existing painted
-illustrations to books. The renderer sizes each illustration to the space after
-the final spell block. Do not rasterize these originals or duplicate an
-illustration elsewhere in the same book.
-
-The separate `../tokens/` directory contains seven broad magical-discipline
-identifiers: Elements (four facets), Mentalism (mind), Divination (eye),
-Invocation (gateway), Force (cube), Wards (shield rune), and Spellcraft (book
-and star). Life retains its established token. Tokens are functional symbols
-and repeat consistently on the appropriate cards.
+`../../spellbook-art.json` assigns these illustrations and seven existing painted
+assets to the 29 spellbook spreads. Each illustration appears once, fitted within
+an open area of its spread. The small functional discipline tokens in
+`../tokens/` remain separate and repeat on the appropriate cards.

@@ -89,7 +89,7 @@ and eleven intact spell blocks share that spread, with consistent text sizing
 and the discipline token on every card. `spellbook-spreads.typ` measures cards
 and partitions them into four columns; a failed fit stops the build.
 `spellbook-art.json` assigns one unique illustration per book. Seven existing
-painted assets and 22 original ink-and-gold vector studies fill the available
-space. New magical-discipline tokens live in `art/tokens/`; Life retains its
+painted assets and 22 detailed generated fantasy illustrations fill the available
+space. All 22 replacements preserve their transparent alpha backgrounds. New magical-discipline tokens live in `art/tokens/`; Life retains its
 existing token. `audit_spellbook_spreads.py` checks facing-page alignment,
 complete spell text, illustration placement and token coverage.

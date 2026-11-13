@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """Verify facing spreads, intact spell text, unique art and discipline tokens."""
 import json, re, subprocess, unicodedata
+from PIL import Image
 from pathlib import Path
 R=Path(__file__).resolve().parents[1];B=R/'design/player-book'
+prompts=json.loads((B/'art/spellbooks/prompts.json').read_text())
+assert len(prompts)==22 and len({p['id'] for p in prompts})==22
+for entry in prompts:
+    with Image.open(R/entry['path']) as im:
+        assert im.mode=='RGBA' and im.getchannel('A').getextrema()[0]==0,entry['id']
+    assert entry['transparent_background'] is True
 records=json.loads((B/'generated/spell-spread-pages.json').read_text())
 books=json.loads((B/'generated/spellbooks.json').read_text())
 art=json.loads((B/'generated/illustration-placements.json').read_text())
@@ -25,7 +32,7 @@ for book in books:
         for value in [spell['name'],spell['target'],spell['duration'],*spell['action'].split(' · ')]:
             assert norm(value) in npages[hits[0]-1],(spell['id'],value)
     entry=art_map[book['ID']]
-    assert (B/entry['path']).is_file(),entry
+    assert (B/entry['path']).is_file() and entry['path'].endswith('.png'),entry
     hits=[a for a in art if a['asset']==entry['asset']]
     assert len(hits)==1 and hits[0]['page'] in [left,right],book['ID']
     a=hits[0]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "animation",
+    "path": "design/player-book/art/spellbooks/animation.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An intricate enchanted walnut-and-brass articulated marionette, suspended from a carved wooden crossbar by fine golden strings, one small hand lifting by magic. Expressive carved face, aged joints, detailed craft, elegant rather than childish.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "binding",
+    "path": "design/player-book/art/spellbooks/binding.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A pair of ancient heavy iron binding cuffs connected by an elaborate knotted bronze chain, engraved clasps and a subtle violet magical shimmer between the links. Dark iron, worn leather and gold accents.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "calling",
+    "path": "design/player-book/art/spellbooks/calling.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A magnificent curved ivory summoning horn with carved beast reliefs, elaborate aged-bronze bands, dark green leather strap and an emerald mouthpiece. A faint curled golden breath of magic emerges from its bell.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "channeling",
+    "path": "design/player-book/art/spellbooks/channeling.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: Two differently shaped faceted crystals seated in separate ornate bronze conduits, connected by a graceful narrow visible stream of luminous blue-gold energy, like magical power flowing from one reservoir to the other. Tangible detailed apparatus.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "decay",
+    "path": "design/player-book/art/spellbooks/decay.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A beautifully rendered withering botanical specimen: a curled dark rose, seed pod and decaying leaves intertwined around an aged silver funerary brooch. Rich organic textures, earthy umber, tarnished gold and subdued violet, somber botanical fantasy illustration.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "detection",
+    "path": "design/player-book/art/spellbooks/detection.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An exquisite arcane magnifying lens with a large clear crystal optic, engraved bronze adjustable rings and a carved greenwood handle; a hidden glowing sigil visible inside the lens glass. Single coherent handheld instrument.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "dreams",
+    "path": "design/player-book/art/spellbooks/dreams.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A crescent-shaped carved moonstone dream talisman with delicate silver filigree, dark blue velvet ribbon and small suspended crystal stars. A hint of luminous mist clinging to its surface, dreamlike but physically detailed.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "echoes",
+    "path": "design/player-book/art/spellbooks/echoes.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An ancient bronze handbell with beautifully engraved concentric patterns, worn wooden handle and tiny spectral rings of golden sound gently radiating close to the bell, tactile museum-quality artifact.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emotion",
+    "path": "design/player-book/art/spellbooks/emotion.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An ornate heart-shaped garnet pendant in antique gold vinework, with a gracefully draped short green silk ribbon and engraved clasp. Warm restrained magical glow inside the faceted stone, emotionally evocative, realistic jewelry.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "farseeing",
+    "path": "design/player-book/art/spellbooks/farseeing.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An elaborate collapsible brass-and-green-leather spyglass with richly engraved fittings, a vivid blue glass objective lens reflecting distant mountain stars, subtle signs of age and use. Fully visible diagonally composed item.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "imbuement",
+    "path": "design/player-book/art/spellbooks/imbuement.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A masterwork short ceremonial sword resting diagonally beside a small faceted enchanting stone, silver blade carrying subtle luminous gold runes with no readable letters, intricately engraved bronze guard and forest-green leather grip.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "portents",
+    "path": "design/player-book/art/spellbooks/portents.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An exquisite tabletop brass armillary sphere with interlocking engraved astronomical rings, tiny gemstone celestial bodies, a detailed ivory pointer and a small ornate pedestal. Antique divination instrument, physically coherent.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "protection",
+    "path": "design/player-book/art/spellbooks/protection.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An ornate small round warding shield with hammered aged-bronze rim, deep forest-green enamel face and raised silver guardian motif, subtle protective blue light tracing the rim. Fully visible including its curved edge.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "sanctuary",
+    "path": "design/player-book/art/spellbooks/sanctuary.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An intricate portable shrine reliquary with tiny carved oak doors standing partly open to reveal a warm golden inner light, silver hinges, green enamel panels and a detailed peaked roof. A single beautiful handheld sacred object.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "seals",
+    "path": "design/player-book/art/spellbooks/seals.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An ornate heavy bronze signet stamp with carved jade handle beside a rolled parchment secured with red wax bearing a decorative nonalphabetic seal. Fine tactile wax, wood and parchment details, compact unified arrangement.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "shaping",
+    "path": "design/player-book/art/spellbooks/shaping.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An enchanted stoneworker's chisel and small bronze mallet beside a partly transformed marble cube whose corner is becoming a curling stone leaf. Crisp detailed tool materials and believable sculpted stone, compact cohesive arrangement.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "spirits",
+    "path": "design/player-book/art/spellbooks/spirits.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An antique silver-and-bronze spirit lantern with ornate tracery and clouded glass enclosing a subtle luminous blue-white ethereal wisp. Dark green patina, delicately detailed hanging handle, mysterious and solemn, no cartoon face.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "telekinesis",
+    "path": "design/player-book/art/spellbooks/telekinesis.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: A beautifully engraved bronze levitation ring on a small carved base, suspending three irregular stone fragments and a faceted green crystal in a graceful compact orbit. Subtle gold energy filaments, realistic weight and surfaces.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "transformation",
+    "path": "design/player-book/art/spellbooks/transformation.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An exquisite carved bone-and-gold amulet shaped like a butterfly midway between natural insect and tiny silver dragon, delicate green gemstone wings with realistic veining, curled silk cord. Elegant magical metamorphosis artifact.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "unraveling",
+    "path": "design/player-book/art/spellbooks/unraveling.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An old arcane knot of golden threads suspended above an ornate bronze spindle, some threads visibly dissolving into tiny restrained blue sparks, finely engraved spool and worn green silk. A coherent magical unwinding apparatus.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "water",
+    "path": "design/player-book/art/spellbooks/water.png",
+    "prompt": "Use case: illustration-story. Create one premium fantasy RPG rulebook spot illustration. Traditional richly detailed painterly realism with fine engraved textures, convincing material weight and soft dimensional lighting; restrained antique gold, forest green, aged bronze and natural colors, matching an elegant parchment fantasy book. Entire subject visible, balanced three-quarter composition, generous clear margins. Truly transparent alpha background, clean cutout edges. No background, floor, cast-shadow rectangle, border, lettering, watermark, diagram, icon, or vector line art. Subject: An ornate silver ewer with blue-green enamel wave motifs and a curling handle, a suspended ribbon of clear water rising gracefully from its spout and forming a small arc close to the vessel. Realistic metal, luminous translucent water, entire composition isolated.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "perception",
+    "path": "design/player-book/art/spellbooks/perception.png",
+    "prompt": "Create one high-quality fantasy tabletop RPG book spot illustration: an exquisite enchanted handheld mirror for a spellbook of perception and illusions. Antique carved bronze frame with dark green enamel, tiny worn gold filigree, polished silver glass reflecting a mysterious moonlit forest, gracefully shaped handle. Three-quarter view, entire object visible, centered with generous clear margins. Rich traditional painterly realism, finely etched details, tactile metal patina, subtle magical luminosity, restrained forest green and antique gold palette. Professional illustrated fantasy rulebook quality, not a vector icon, not line art, not a diagram. Truly transparent background with clean alpha edges; no backdrop, no ground plane, no border, no lettering, no watermark. Single isolated item.",
+    "transparent_background": true,
+    "tool": "built-in image_gen"
+  }
+]

@@ -58,7 +58,7 @@
     grid(columns:(1fr,1fr),gutter:18pt,
       ..range(side*2,side*2+2).map(col=>block(height:usable)[
         #for it in cards.slice(bounds.at(col),bounds.at(col+1)) {it}
-        #if col==3 {
+        #if col==art.at("column",default:3) {
           let gap = usable - heights.slice(bounds.at(col),bounds.at(col+1)).sum() - 8pt
           v(1fr)
           block(height:calc.min(gap,290pt))[
