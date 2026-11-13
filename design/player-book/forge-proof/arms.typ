@@ -7,28 +7,28 @@
 #set par(leading: .3em,spacing: 4pt)
 #let paths = (
  ("Bladework", "Make each opening count.", (
-  ("Measured Cut", "Learn an attack that rewards a carefully placed strike."),
-  ("Keen Edge", "Measured Cut deals additional damage."),
-  ("Open the Wound", "Measured Cut also applies Bleeding on a Strong result."),
-  ("Sweeping Blade", "Learn a new attack that strikes up to three nearby enemies.")),
+  ("Measured Cut", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack."),
+  ("Keen Edge", "Measured Cut deals +1 damage on every result: 3/4/6 physical damage."),
+  ("Open the Wound", "Measured Cut also applies Bleeding 1 on Strong."),
+  ("Sweeping Blade", "Main Action · Brawn. Attack up to three adjacent enemies. Roll once; each takes 1/2/4 physical damage. Measured Cut improvements do not apply.")),
   "Measured Cut retains its extra damage and gains Bleeding on Strong. Sweeping Blade is a separate learned attack."),
  ("Impact", "Drive your enemy out of position.", (
-  ("Driving Blow", "Learn an attack that pushes its target on a Strong result."),
-  ("Unyielding Force", "Driving Blow pushes its target farther."),
-  ("Rattling Impact", "Driving Blow also applies Dazed on a Strong result."),
-  ("Battering Stroke", "Learn a new attack that drives an enemy into another foe.")),
+  ("Driving Blow", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, push it 1 square directly away from you."),
+  ("Unyielding Force", "Driving Blow pushes 2 squares instead of 1 on Strong."),
+  ("Rattling Impact", "Driving Blow also applies Dazed 1 on Strong, whether or not the target can be pushed."),
+  ("Battering Stroke", "Main Action · Brawn. Deal 2/3/5 physical damage to one adjacent creature; push it up to 2 squares. If another creature blocks that push, both take 1 physical damage and the push ends.")),
   "On Strong, Driving Blow applies its increased push and Dazed together. Battering Stroke is a separate learned attack."),
  ("Disruption", "Deny your opponent an easy escape.", (
-  ("Hamstring", "Learn an attack that applies Slowed on a Strong result."),
-  ("Hobbling Cut", "Hamstring applies additional Slowed."),
-  ("Cruel Precision", "Hamstring also deals additional damage."),
-  ("Pinning Strike", "Learn a new attack that holds an enemy in place.")),
+  ("Hamstring", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, apply Slowed 1."),
+  ("Hobbling Cut", "Hamstring applies Slowed 2 instead of Slowed 1 on Strong."),
+  ("Cruel Precision", "Hamstring deals +1 damage on every result: 3/4/6 physical damage."),
+  ("Pinning Strike", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, its movement is 0 until the end of its next turn. Forced movement still affects it.")),
   "Hamstring retains its increased Slowed and gains extra damage. Pinning Strike is a separate learned attack."),
  ("Dueling", "Turn a guarded exchange in your favor.", (
-  ("Blade Ward", "Learn a reaction that reduces damage from a melee attack."),
-  ("Sure Guard", "Blade Ward prevents additional damage."),
-  ("Give Ground", "Blade Ward also lets you step away after defending."),
-  ("Riposte", "Learn a new reaction that answers a melee attack with a strike.")),
+  ("Blade Ward", "Reaction · After resolving your melee defense roll, before taking damage: reduce that attack’s damage by 2, minimum 0. No additional roll."),
+  ("Sure Guard", "Blade Ward reduces damage by 3 instead of 2."),
+  ("Give Ground", "After Blade Ward resolves, you may move 1 square. This movement does not trigger reactions."),
+  ("Riposte", "Reaction · After resolving a melee attack against you, attack its source if adjacent. Roll Brawn for 2/3/5 physical damage. You must still have your reaction available.")),
   "Blade Ward combines its greater protection with the step away. Riposte is a separate reaction; it does not grant an extra reaction."),
 )
 #let path(p) = {
@@ -37,21 +37,16 @@
   #text(font: "Cinzel",size: 17pt,weight: "bold",name) \
   #text(size: 10pt,style: "italic",theme)
   #v(6pt)
-  #text(size: 8pt,weight: "bold")[LEARNED ABILITIES  I → II → III → IV]
-  #v(4pt)
   #for (i,row) in rows.enumerate() {
    block(width: 100%,fill: shades.at(i),inset: (x: 6pt,y: 6pt))[
     #grid(columns: (16pt,1fr,28pt),gutter: 2pt,
      text(size: 9pt,("I","II","III","IV").at(i)),
      text(size: 10pt,weight: "bold",row.at(0)),
      align(right,text(size: 9pt,str((1,2,2,3).at(i))+" DP")))
-    #if i==3 {text(size: 8pt,weight: "bold")[NEW ABILITY · LEVEL 3]} else if i>0 {text(size: 8pt)[IMPROVES #upper(rows.at(0).at(0))]} else {text(size: 8pt)[LEARN A TECHNIQUE]}
+    #if i==3 {text(size: 8pt,weight: "bold")[LEVEL 3]}
     \ #text(size: 10pt,row.at(1))
    ]
   }
-  #v(6pt)
-  #text(size: 9pt,weight: "bold")[AFTER LEARNING ALL FOUR]
-  \ #text(size: 9pt,summary)
  ]
 }
 #text(font: "Cinzel",size: 8pt,tracking: 1pt)[HEROES OF LEGEND #h(1fr) DISCIPLINES]
@@ -59,9 +54,9 @@
 #text(font: "Cinzel",size: 27pt)[Arms]
 #text(size: 11pt,style: "italic")[Distance, timing and the practiced turn of a weapon.]
 #v(5pt)
-*Begin with Arms (1 DP).* It opens these four paths; it teaches no ability. Your basic melee attack is already available. Learn each path’s abilities in order. Improvements remain in effect together; they do not require a choice each time you attack.
+*Begin with Arms (1 DP).* It opens these four paths; it teaches no ability. Your basic melee attack is already available. Learn each path in order; improvements add together. Damage is listed Weak/Standard/Strong. All attacks require a melee weapon and deal instant damage. Conditions use normal decay. Forced movement stops at blocked squares. An improvement applies only to its named ability.
 #v(8pt)
 #grid(columns: (1fr,1fr),gutter: 12pt,..paths.map(path))
 #v(7pt)
 #line(length: 100%,stroke: .5pt + gold)
-#text(size: 8pt)[Layout study · Proposed Arms examples. These summaries demonstrate learning and improvement; complete ability rules supply actions, ranges, result effects and limits.]
+#text(size: 8pt)[Layout study · Arms mechanics shown for design review.]

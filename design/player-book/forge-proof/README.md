@@ -67,3 +67,9 @@ specified during actual discipline authoring.
 
 Build: `typst compile design/player-book/forge-proof/arms.typ output/pdf/arms-learned-abilities.pdf`.
 Validated: one letter-size page, all four paths visually reviewed without clipping.
+
+Nonmagical revision: the player reference now prints actionable mechanics directly
+in each entry, including action, attribute, range, outcome damage, condition ratings
+and durations. Removed the repeated learning/progression labels and closing summaries.
+Numeric Arms profiles are newly authored examples for Bruce's review, not a balance
+claim or canonical card migration. Rebuilt and visually checked the single-page PDF.
