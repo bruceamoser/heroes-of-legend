@@ -228,18 +228,19 @@ budget, then stops. For example, push 1 can enter one difficult square and stop.
 Stability does not reduce Prone, conditions, voluntary movement, projectile range,
 obstacle progress or the reduction of a grapple.
 
-When a moving creature hits a movable creature or object, they move together.
-Move the group as one creature, spending what remains of the original movement
-allowance. On each new impact, every creature in the group and any creature it
-strikes take damage equal to the movement remaining at contact. Each creature
-applies its own armor, with a minimum of 1 damage. Resolve damage before
-subtracting a new creature's Stability, once per creature for that movement.
-Staying in contact as the group moves deals no further damage.
+When a moving creature hits a movable creature or object, they move together on
+what remains of the original movement allowance. On each new impact, everyone in
+the group and whatever it strikes take **physical damage** equal to the movement
+remaining at contact. Creatures and objects with HP each apply their own resistance,
+with a minimum of 1 damage. For an object without HP, the DA decides how the
+impact affects it. A movable object that breaks drops out of the group.
+Resolve damage before subtracting a new creature's Stability, once per creature
+for that movement. Continued contact deals no further damage.
 
-A hard obstacle stops the group. Each creature takes damage equal to the remaining
-movement plus 1 before armor. Only the original mover bounces one square opposite
-the direction of impact. If that square is blocked, the mover stays in place
-without another collision or damage.
+A fixed barrier stops the group even if it breaks. Add 1 to the damage dealt to
+each group member and the barrier before resistance. After placing the group,
+only the original mover bounces one square opposite the impact. If that square
+is blocked, the mover stays in place without another collision or damage.
 
 > **Example — A third creature joins.** Two creatures moving together hit a third
 > with 3 squares left. Each takes 3 damage before armor. The new creature has
@@ -248,7 +249,7 @@ without another collision or damage.
 > **Crowded collisions.** Moving groups must finish in separate legal spaces.
 > If everyone cannot fit, stop at the last position where they can; the DA decides
 > the arrangement. Placement cannot pass through walls or grant extra forward
-> movement. Resolve any bounce after placing the group.
+> movement.
 
 ## Grappling and capture
 

@@ -76,17 +76,19 @@ path for a Slide and can stop any of these movements early. A Push or Pull
 changes elevation only if its effect allows it. Follow any restrictions in the
 effect. Collision damage requires an actual impact.
 
-Collisions gather movable creatures and objects into a group that moves as one
-creature on the original remaining allowance. At each new impact, every creature
-in the group and any creature it strikes take damage equal to the movement remaining
-at contact. Apply each creature’s own armor to each impact, with a minimum of 1
-damage. Then deduct a newly struck creature’s Stability once for that movement.
-Continued contact between group members deals no further damage.
+Collisions gather movable creatures and intact movable objects into a group that
+moves as one creature on the original remaining allowance. Each new impact deals
+physical damage equal to the movement remaining at contact to every member of the
+group and whatever it strikes. Creatures and objects with HP each apply their own
+resistance, with a minimum of 1 damage. The DA judges the impact on objects without
+HP. Remove any movable object that breaks, including one reduced to 0 HP. Then
+deduct a newly struck creature’s Stability once for that movement. Continued
+contact between group members deals no further damage.
 
-A hard obstacle stops the group. Each creature takes the remaining movement plus 1
-damage before armor. After placement, only the original mover bounces one square opposite
-the direction of impact. If that square is blocked, the mover stays in place without
-another collision or damage.
+A fixed barrier stops the group even if it breaks. Add 1 to the damage dealt to
+each group member and the barrier before resistance. After placement, only the
+original mover bounces one square opposite the impact. If that square is blocked,
+the mover stays in place without another collision or damage.
 
 **Group placement — approved October 16, 2026:** move the group along the forced
 movement path and finish in separate legal spaces. If everyone cannot fit, stop
