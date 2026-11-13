@@ -70,10 +70,13 @@ defense Banes. They can speak and accept aid. They regain actions and voluntary
 movement when HP returns, subject to other conditions. Healing above 0 also
 clears both tallies and ends Dying and HP-caused unconsciousness.
 
-The hero's player can spend Grit immediately after a death roll adds a failure,
-including the third. Grit restores half maximum HP, rounded up, clears both
-tallies and ends Dying. Gain one point at each of levels 1, 3 and 7 and record
-grants and expenditures separately.
+The player can spend one Grit when their hero falls to 0 HP, at the start of a
+Dying turn, immediately after a death roll adds a failure (including the third),
+or while stabilized at 0 HP. Spending Grit costs no action or Reaction. Set
+current HP to half maximum HP, rounded up, clear both tallies, and end Dying
+and unconsciousness caused by HP loss. Other conditions remain. Apply any limit
+on HP available for recovery. Heroes gain one Grit at each of levels 1, 3 and 7.
+Record grants and expenditures separately. Each point is spent permanently.
 
 Keep turn timing while Dying or immediate hazards remain. Ordinary NPCs die
 at 0 HP. Summoned forms disappear.
@@ -92,9 +95,11 @@ A potion uses its printed inventory die. Apply Life resistance to magical healin
 and potions. Restore at least 1 HP if any is missing, up to maximum HP.
 
 A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
-their controller's SP instead and cannot receive healing. SP returns after safe
-overnight rest, not by repeatedly healing one another. The Player's Book and
-[shared recovery procedure](../../rules/recovery.md) give the complete rules.
+their controller's SP and cannot receive healing. A safe overnight rest restores
+all SP. A hero with [Spellcraft Recovery](../../disciplines/spellcraft.md#recovery)
+can also spend one uninterrupted hour in safety resting, meditating, or enjoying
+quiet leisure. Once between safe overnight rests, this restores 1, 2, 3, or 4 SP
+in total for Recovery I, II, III, or IV respectively, up to the hero's maximum.
 
 ## Scars and a hero's death
 
