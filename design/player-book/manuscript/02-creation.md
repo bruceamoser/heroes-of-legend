@@ -78,7 +78,7 @@ Gather the equipment your chosen techniques use; an entry that provides an item 
 
 At level 1 and later, maximum HP is 10 + level × (ancestry contribution + class contribution) + Fortitude + fixed benefits. At level 0, use 10 + ancestry contribution + Fortitude + fixed benefits. Each later level adds ancestry + class contributions; fixed benefits and Fortitude are not added again.
 
-Capacity is 10 + 3 × Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility − encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Every damaging attack still deals at least 1 damage.
+Capacity is 10 + 3 × Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility − encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Damage immunity removes the named damage type before resistance.
 
 Ancestry, culture and background each contribute 1 maximum SP at level 0. Class adds 3 at level 1, giving 6 before explicit benefits. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. Learn spells by studying the sections of your spellbooks. Record current and maximum HP and SP separately, and mark first aid available. Start with no death roll marks or scars.
 

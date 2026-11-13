@@ -8,8 +8,10 @@ is the least severe. Costs, range, effects and limits are printed at the action.
 **Evasion** states Boons or Banes on a player’s attack against the creature.
 **Threat** states Boons or Banes on the player’s defense against the named attack.
 They use normal cancellation and the three-net-dice limit; they are not new numerical
-modifiers. Attacks still hit. Physical **DR** and other resistance apply after the
-outcome, using the highest matching value, cap 3, with minimum 1 damage per event.
+modifiers. Attacks still hit. Remove immune damage types first. Apply weakness and
+then the highest matching resistance, normally capped at 3. The event deals at
+least 1 damage if any damaging component survived immunity. A listed condition
+immunity prevents that condition from applying.
 
 **Weakness X** adds X to the matching damage component before resistance, once
 per damaging event. Use the highest applicable weakness of each type, normal

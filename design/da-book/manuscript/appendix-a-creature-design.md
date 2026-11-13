@@ -33,7 +33,7 @@ Breath” is not an action cost.
 | Identity | Name, CV, description of appearance and nature |
 | Attributes | All six, including attack attributes needed for player control |
 | Body and defenses | HP, Speed/modes, footprint, physical DR, Evasion, Threat, Stability |
-| Damage interactions | Weakness, resistance, immunities and healing behavior |
+| Damage interactions | Weakness, resistance, damage immunities, condition immunities and healing behavior |
 | Actions | Full defense outcomes, ranges, target attributes, costs and limits |
 | Other capabilities | Passives, senses, communication and explicit exceptions |
 | Adventure use | Signs, purpose, tactics, retreat, counterplay, habitat and loot |

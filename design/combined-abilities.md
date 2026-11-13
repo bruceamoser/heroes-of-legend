@@ -19,7 +19,7 @@ Main Action · Brawn, with a melee weapon and shield. Attack up to three adjacen
 ## The Unbroken Gate
 DP: 3 | Level: 7
 Requires: armor:bracing:4, guard:interception:4
-Main Action, wearing armor and holding a shield. Hold your ground until your next turn starts: you cannot move or be moved. When an attacker first chooses an adjacent ally as the sole target of an attack, you may take its place before the roll if you are a legal target. Resolve the attack against you with the usual single roll. These interceptions require no Reaction. All attacks still deal at least 1 damage.
+Main Action, wearing armor and holding a shield. Hold your ground until your next turn starts: you cannot move or be moved. When an attacker first chooses an adjacent ally as the sole target of an attack, you may take its place before the roll if you are a legal target. Resolve the attack against you with the usual single roll. These interceptions require no Reaction. Apply the usual damage rules to the new target.
 
 ## The Last Safe Step
 DP: 3 | Level: 7

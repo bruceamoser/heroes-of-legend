@@ -30,8 +30,10 @@ tracking procedure below.
 
 Example: untreated Bleeding 3 deals 3 damage, decreases to 2, then deals 2 and 1
 on subsequent turns before ending. A Main Action reducing it before the first tick
-changes that sequence to 2, then 1. Burning and Freezing apply matching resistance
-to each tick, with the normal minimum 1 damage for a damaging event.
+changes that sequence to 2, then 1. Burning and Freezing use the normal damage
+rules for each tick. Matching resistance reduces the damage to a minimum of 1.
+Matching damage immunity makes it 0 and the condition still decays. Immunity to
+the condition itself prevents it from applying.
 
 ## Temporary and lasting conditions
 
@@ -54,7 +56,7 @@ An asterisk means persistent, not necessarily incurable. Follow the ability or h
 | Deafened X | Cannot hear; cannot respond to hearing-only triggers | Duration only; decay; Deafened 1* requires its specified remedy |
 | Slowed X | Speed −X, minimum 0 | Decay unless explicitly persistent |
 | Dazed X | At 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction; movement remains | Choose at turn start; no retroactive change to spent actions; decay 1 at turn end |
-| Grappled X | Movement 0; at 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction | Maintained; no decay. Force reduces 1/2/3 when a Main remains; rating 3 requires help |
+| Grappled X | Movement 0; at 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction | Maintained. Force reduces 1/2/3 when a Main remains. At 3+, escape requires release or an outside intervention. |
 | Prone | Crawl for 2 movement per normal square or 3 per difficult square, including diagonally | Spend 2 movement to stand, or end as the source specifies |
 | Asleep X | Unaware, no actions/movement | Default numbered decay; adjacent Main wake effort reduces 1; damage ends it; source can specify persistence |
 | Paralyzed X | Aware, no actions or movement at any positive rating | Duration only; decay; no gradual return of options before 0 |
@@ -71,7 +73,9 @@ When Dazed and Grappled coexist, use the greater action restriction, not their s
 
 Grappling restricts the grappler by their own contribution as well as the target.
 Multiple grapplers' contributions add on the target. Each can freely release even
-at rating 3, ending their contribution. A creature at Grappled 3 or higher can be
+at rating 3, ending their contribution. An outside intervention can break a hold
+by separating the grappler from the target beyond its reach or rendering the
+grappler unconscious. A creature at Grappled 3 or higher can be
 cuffed by an adjacent character using a Maneuver and suitable
 [restraints](../equipment/restraints.md). Once the captive is secured and combat is
 over, resolve the scene through ordinary narration.

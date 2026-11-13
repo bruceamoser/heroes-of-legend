@@ -43,10 +43,17 @@ tasks, roll the acting NPC’s printed attribute and outcomes. Apply the ordinar
 modifiers and use one roll; handling the dice does not transfer control of the NPC.
 Off-screen events may be resolved by DA judgment without simulating combat.
 
-Damage is fixed by the card. Apply the highest resistance of each matching type,
-cap 3; do not sum matching armor. Minimum 1 damage applies to the whole damaging
-event, not each component. Physical is one type. Different resistances coexist.
-Conditions and displacement may matter more than a larger damage number.
+Damage is fixed by the card. Remove components covered by damage immunity first.
+Apply weakness, then the highest resistance of each remaining type, normally
+capped at 3, then other reductions. If at least one positive damage component
+survived immunity, the event deals a minimum of 1 total damage. A fully immune
+event deals 0 HP damage. Conditions and other riders follow their own rules.
+Condition immunity prevents the named condition from applying. Use the explicit
+immunities on the creature or granted by an effect.
+
+Damage types are Physical, Fire, Cold, Lightning, Poison, Life, Radiant, Mental,
+and Force. Current bestiary condition immunities are Asleep, Bleeding, Blinded,
+Frightened, and Poisoned. A creature or effect can explicitly name another condition.
 
 **Numerical weakness — approved October 16, 2026:** Weakness X increases the
 matching damage component by X before resistance. Apply each weakness once per
@@ -96,7 +103,7 @@ Collisions gather movable creatures and intact movable objects into a group that
 moves as one creature on the original remaining allowance. Each new impact deals
 physical damage equal to the movement remaining at contact to every member of the
 group and whatever it strikes. Creatures and objects with HP each apply their own
-resistance, with a minimum of 1 damage. The DA judges the impact on objects without
+damage defenses. The DA judges the impact on objects without
 HP. Remove any movable object that breaks, including one reduced to 0 HP. Then
 deduct a newly struck creature’s Stability once for that movement. Continued
 contact between group members deals no further damage.
@@ -130,7 +137,9 @@ needs only rating 1*. Removal follows the source.
 
 Grappled prevents movement and reduces action choices like Dazed; it is maintained,
 not decaying. The grappler suffers their own contribution too. Force can reduce
-Grappled while Main is retained; rating 3 needs help. Attacks gain Boons equal to
+Grappled while Main is retained. At rating 3 or higher, escape requires a grappler’s
+release or an outside intervention that breaks the hold. Separation beyond reach,
+unconsciousness, or death ends that grappler’s contribution. Attacks gain Boons equal to
 the actual target’s Grappled rating. Greater restriction applies when combined with
 Dazed, not their sum. Prone is binary. Hidden is universal, not observer-by-observer.
 

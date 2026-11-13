@@ -128,10 +128,9 @@ Use the highest applicable resistance of each type, to a maximum of 3. Two sourc
 of physical resistance 2 do not give 4. Physical resistance 2 and Fire resistance 1
 can apply together because they protect against different types.
 
-A damaging event always deals at least **1 total damage** after resistance. This
-minimum applies to the event, not separately to every component. It does not create
-damage for a harmless ability. Conditions, pushes and other riders still apply
-unless their own rules prevent them.
+A damaging event deals at least **1 total damage** after resistance and other
+reductions if any of its original damage is of a type the target can take.
+Apply the minimum once to the event.
 
 > **Example — steel and flame.** An attack deals 3 physical and 1 fire damage.
 > Physical resistance 2 reduces the physical portion to 1. Fire resistance 1 removes
@@ -141,6 +140,28 @@ unless their own rules prevent them.
 Physical includes impacts, sonic force and supernatural force when the attack says
 physical. Fire, Cold and Lightning have separate resistances. Life resistance reduces magical
 healing and potions, but not First Aid or overnight recovery.
+
+### Damage and condition immunities
+
+Use the immunities listed for the creature or granted by an effect. **Damage
+immunity** removes the named damage type from the event before weakness or
+resistance. If immunity removes all of the damage, the event deals **0 HP damage**.
+The rest of the outcome still applies unless its rules require damage or prevent
+the effect. **Condition immunity** prevents the named condition from applying.
+
+Damage immunities can name **Physical, Fire, Cold, Lightning, Poison, Life,
+Radiant, Mental,** or **Force**. Condition immunities name a specific condition.
+The bestiary includes immunity to **Asleep, Bleeding, Blinded, Frightened,** and
+**Poisoned**. A creature or effect can explicitly name another condition.
+
+Against Fire damage immunity, a hit for 2 Physical and 3 Fire loses its Fire
+damage. If Physical resistance reduces the remaining damage to 0, the hit still
+deals 1 total damage.
+
+> **Example — Burning 2.** Fire resistance 3 reduces the tick to 1 damage. Fire
+> damage immunity makes the tick 0. In both cases Burning drops to 1 at turn end.
+> A creature immune to Burning never gains the condition, and a separate Fire
+> hit can still damage it.
 
 Same-kind numerical bonuses do not add together unless explicitly stated. Conditions
 with meaningful ratings can add; binary Prone cannot. Boons and Banes use their own
@@ -237,8 +258,8 @@ obstacle progress or the reduction of a grapple.
 When a moving creature hits a movable creature or object, they move together on
 what remains of the original movement allowance. On each new impact, everyone in
 the group and whatever it strikes take **physical damage** equal to the movement
-remaining at contact. Creatures and objects with HP each apply their own resistance,
-with a minimum of 1 damage. For an object without HP, the DA decides how the
+remaining at contact. Creatures and objects with HP each apply their own damage
+defenses. For an object without HP, the DA decides how the
 impact affects it. A movable object that breaks drops out of the group.
 Resolve damage before subtracting a new creature's Stability, once per creature
 for that movement. Continued contact deals no further damage.
@@ -265,9 +286,11 @@ none of Main Action, Maneuver and Reaction, chosen at turn start. The grappler i
 restricted by their own contribution as well. Multiple grapplers' contributions add
 on the target. Attacks against a Grappled target gain Boons equal to its rating.
 
-If you still have a Main Action, Force can reduce your grapple by 1/2/3. Grappled 3
-needs outside help. A grappler can freely release their own contribution. A grapple
-is maintained and does not simply decay at turn end.
+If you still have a Main Action, Force can reduce your grapple by 1/2/3. At
+Grappled 3 or higher, you can escape only if a grappler releases you or an outside
+intervention breaks the hold. For example, an ally can move the grappler out of
+reach or knock them unconscious. A grappler can freely release their own
+contribution. A maintained grapple lasts until the hold ends.
 
 Attacks are lethal by default. An ability such as Pinning Strike can give you a
 nonlethal option. Declare that option before rolling and follow the ability's
