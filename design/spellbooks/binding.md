@@ -136,11 +136,11 @@ Command one ordinary movement or interaction within the creature's abilities. It
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** None
+**Attribute:** Knowledge
 **Target / range:** An unoccupied 2-by-2-square cage boundary within 6 squares
 **Duration:** Sustained, up to 1 minute
 
-Form a cage around creatures fitting inside its boundary. Bars block bodily passage but allow sight and ranged targeting. The cage has 15 HP and resistance 2 to all damage; attacks always deal at least 1. Teleportation or destroying the cage permits escape. The caster may end it with a Maneuver.
+Form a cage around creatures fitting inside its boundary. Your casting roll gives it 10/15/20 HP. When an NPC casts around heroes, each enclosed hero rolls Reason instead. Use the strongest defense to give the shared cage 20/15/10 HP on Weak/Standard/Strong. The bars block bodily passage but allow sight and ranged targeting. The cage has resistance 2 to all damage and takes at least 1 per attack. Teleportation or destroying it permits escape. The caster may end it with a Maneuver.
 
 ### Imprisonment
 

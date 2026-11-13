@@ -116,7 +116,7 @@ The first time damage would reduce the recipient from positive HP to 0, leave it
 **Target / range:** One willing creature within 3 squares; remain within 6 squares
 **Duration:** 1 minute
 
-Bind your protection to the recipient. After it takes attack damage, you may spend your Reaction to transfer up to 3 of that damage to yourself, leaving at least 1 on it. The transferred damage bypasses your resistance. The bond ends if either participant becomes unconscious or moves beyond 6 squares.
+Bind your protection to the recipient. When an attack would damage it, you may spend your Reaction after its resistance and other reductions, before it loses HP. Transfer up to 3 of that damage to yourself, leaving at least 1 on it. The transferred damage bypasses your resistance. The bond ends if either participant becomes unconscious or moves beyond 6 squares.
 
 ### Globe of Invulnerability
 

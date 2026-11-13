@@ -92,7 +92,7 @@ Give or receive up to 5 existing SP after paying this spell's casting cost. Both
 **Target / range:** One willing ally within 6 squares; targets measured from that ally
 **Duration:** As the transmitted spell
 
-Choose one known Main Action spell costing at most 3 SP. Pay its normal cost plus this spell's 3 SP. The ally spends its Reaction immediately to release it from its position, choosing legal targets; you make any casting roll with the spell's attribute. Resolve it once. You remain responsible for any sustain and duration.
+Choose one known Main Action spell from outside the Channeling book costing at most 3 SP. Pay its normal cost plus this spell's 3 SP. The ally spends its Reaction immediately to release it from its position, choosing legal targets; you make any casting roll with the spell's attribute. Resolve it once. You remain responsible for any sustain and duration.
 
 ### Directed Siphon
 
@@ -128,7 +128,7 @@ Choose a donor and recipient. Transfer up to 8 existing SP with both parties' co
 **Target / range:** Self and up to three willing donors within 3 squares
 **Duration:** As the funded spell
 
-Pay this spell's 5 SP yourself. Choose one known Main Action spell costing at most 6 SP. Each donor spends its Reaction and contributes an agreed amount toward that spell's cost; you pay the remainder. Cast it once with its normal attribute and targets. Contributions pay the spell directly, and you sustain any continuing effect.
+Choose one known Main Action spell from outside the Channeling book costing at most 6 SP. Pay this spell's 5 SP yourself. Each donor spends its Reaction and contributes an agreed amount toward the chosen spell's cost; you pay the remainder. Cast it once with its normal attribute and targets. Contributions pay the spell directly, and you sustain any continuing effect.
 
 ### Rechanneling
 

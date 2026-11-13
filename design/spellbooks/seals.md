@@ -56,7 +56,7 @@ Name up to six guests. When another creature crosses the boundary, a chime sound
 **Target / range:** One adjacent closed door or container
 **Duration:** 8 hours
 
-Add magical fastening. An ordinary opening objective increases by 3 progress. Name up to six creatures who may operate it normally. Knock or a completed cancellation objective ends the magical fastening; physical locks remain as they were.
+Add magical fastening. An ordinary opening objective increases by 3 progress. Name up to six creatures who may operate it normally. Knock ends the magical fastening automatically. Completing a cancellation objective also ends it. Physical locks remain in place.
 
 ### Knock
 
@@ -68,7 +68,7 @@ Add magical fastening. An ordinary opening objective increases by 3 progress. Na
 **Target / range:** One lock or fastening within 3 squares
 **Duration:** Instant
 
-A sharp audible knock carries 12 squares. Add 2/3/4 progress toward an ordinary opening objective. Against Arcane Lock, use the same progress toward its cancellation objective. Resolve one fastening per casting.
+A sharp knock carries 12 squares. Choose one fastening. Against Arcane Lock, end its magical fastening automatically and leave any physical lock in place. Against an ordinary fastening, roll to add 2/3/4 progress toward opening it.
 
 ### Magic Mouth — Warning
 

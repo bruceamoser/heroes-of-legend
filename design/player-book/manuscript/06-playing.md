@@ -50,14 +50,16 @@ grant another action. Death rolls use only the result band.
 
 ## Taking turns
 
+A round lasts **6 seconds**, so 10 rounds make 1 minute. Each character takes
+one turn during that time.
+
 At the start of combat, one player rolls unmodified 3d6. On 12 or more, the player
 side acts first. Otherwise the opposing side begins. This determines which side
 starts **every round of this combat**; do not roll again each round.
 
 The starting side chooses one of its characters to act. Then the other side chooses
 one. Alternate until everyone has taken a turn. If one side has no characters left
-to act, the other finishes its remaining turns. A character takes one turn each round.
-Each side chooses its order as it goes.
+to act, the other finishes its remaining turns. Each side chooses its order as it goes.
 
 On your turn, you have one **Main Action**, one **Maneuver**, and movement up to your
 **Speed**. You also have one **Reaction**, available for its stated trigger. Refresh

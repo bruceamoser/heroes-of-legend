@@ -28,7 +28,7 @@ A **Ritual** gives its required casting time alongside the label. Pay SP and sup
 
 ## Duration and sustained magic
 
-An instant spell resolves once. A fixed-duration spell lasts for its printed time; you may end your own ongoing spell with a Maneuver. When it changes ordinary material permanently, the resulting object or terrain follows ordinary rules afterward. A magical effect ending leaves its described consequences in place: healed HP stays restored and damage stays dealt.
+An instant spell resolves once. A fixed-duration spell lasts for its printed time. In combat, count 10 rounds for each minute. You may end your own ongoing spell with a Maneuver. When it changes ordinary material permanently, the resulting object or terrain follows ordinary rules afterward. A magical effect ending leaves its described consequences in place: healed HP stays restored and damage stays dealt.
 
 For a spell marked **Sustained**, casting maintains it until the end of your next turn. Starting on the turn after you cast it, spend a Maneuver and 1 SP by the end of each turn to maintain it through the end of your following turn, within the printed maximum duration. Perform that upkeep once per turn. A Main Action may convert to the required Maneuver. The upkeep's listed movement or renewal is part of that same Maneuver. A separate attack or other activity that names a Main Action still uses it.
 
@@ -63,3 +63,5 @@ Casting and upkeep costs are paid separately from any SP moved. Transfer existin
 Choose two different personal reserves for a transfer. A summoned form, animated group or magical duplicate uses its controller's resource rules and provides no independent SP reserve. A willing donor chooses its contribution. For unwilling participants, use the printed roll and the ordinary player-facing defense procedure; transferred SP itself causes no HP damage. A redirected transfer resolves once to its final recipient.
 
 A transmitted spell uses its own action category and costs as stated by the channeling block. Its original caster makes any casting roll and handles sustain; the releasing ally uses the named Reaction. Rituals retain their full ritual time and preparation, and are outside effects that explicitly transmit a Main Action spell.
+
+Choose a spell from outside the Channeling book when you use Channel Spell or Lord Channels. Channeling one of the book's own spells would send the magic back as arcane feedback.

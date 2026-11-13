@@ -156,7 +156,7 @@ an exact order. At the start, roll unmodified 3d6 once: 12 or above means the
 players' side starts; below 12 means the opposing side starts. Alternate one actor
 from each side. Each side chooses its next actor. When one side has no unacted
 members, the other finishes its remaining turns. The same side starts each round;
-do not reroll initiative.
+do not reroll initiative. Each round lasts **6 seconds**, so 10 rounds make 1 minute.
 
 Each actor has one Main Action, one Maneuver, one Reaction and movement. Main
 converts to Maneuver, and Maneuver to movement; conversion never goes upward.

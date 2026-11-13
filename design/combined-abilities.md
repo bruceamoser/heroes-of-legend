@@ -19,7 +19,7 @@ Main Action · Brawn, with a melee weapon and shield. Attack up to three adjacen
 ## The Unbroken Gate
 DP: 3 | Level: 7
 Requires: armor:bracing:4, guard:interception:4
-Main Action, wearing armor and holding a shield. Until your next turn starts, you cannot move voluntarily or be forcibly moved. Whenever an adjacent ally is targeted by a single-target attack, you may become its target before its defense roll; roll your own defense and receive all effects. These interceptions require no Reaction. Area attacks are unaffected. All attacks still deal at least 1 damage.
+Main Action, wearing armor and holding a shield. Hold your ground until your next turn starts: you cannot move or be moved. When an attacker first chooses an adjacent ally as the sole target of an attack, you may take its place before the roll if you are a legal target. Resolve the attack against you with the usual single roll. These interceptions require no Reaction. All attacks still deal at least 1 damage.
 
 ## The Last Safe Step
 DP: 3 | Level: 7
@@ -149,7 +149,7 @@ Main Action · Knowledge · 6 SP, with a melee weapon. Form an incandescent shel
 ## The Road for the Lost
 DP: 5 | Level: 7
 Requires: passage:3, seals:3, wilderness:tracking:4, scholarship:planning:4
-10 minutes · 6 SP. Open a visible passage from your position to a landmark on the same plane within 100 squares that you personally visited and surveyed. Both endpoints must have safe, unoccupied footing. Up to twelve willing creatures you name may cross during the next minute; no other creature or attack can pass through it. You may close it early. It transports carried belongings but no unattended freight. Teleportation barriers block the working; it does not bypass an unknown destination or create safe ground.
+Ritual · 10 minutes · 6 SP. Open a visible passage from your position to a landmark on the same plane within 100 squares that you personally visited and surveyed. Both endpoints must have safe, unoccupied footing. Up to twelve willing creatures you name may cross during the next minute; no other creature or attack can pass through it. You may close it early. It transports carried belongings but no unattended freight. Teleportation barriers block the working; it does not bypass an unknown destination or create safe ground.
 
 ## Dawn on the Battlefield
 DP: 5 | Level: 7
