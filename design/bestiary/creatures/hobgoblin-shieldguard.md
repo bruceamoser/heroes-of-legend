@@ -27,7 +27,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 | Reactions | Effect |
 |---|---|
-| Cover a Companion | Before an attack on an adjacent ally: +1 Bane if it can obstruct the attacker. |
+| Cover a Companion | Hinder an attack on an adjacent ally if it can obstruct the attacker. See details. |
 | Shield Hunker | +1 Bane to blockable attacks; see details. |
 | Opportunity Attack | Basic Melee |
 
@@ -49,7 +49,7 @@ Before a shield-blockable attack resolves, spend its Reaction to impose 1 Bane o
 
 *The guardian steps into the line of danger, making the attacker work around its raised guard.*
 
-Before a visible enemy attacks a willing ally adjacent to this creature, impose 1 Bane on that attack roll if this creature can see the attacker. Against an NPC attack, grant that ally 1 Boon to its defense instead. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
+Before a visible enemy attacks a willing ally adjacent to this creature, hinder the attack if this creature can see the attacker. Apply 1 Bane if the attacker rolls or grant the ally 1 Boon if the ally rolls defense. This creature must also be adjacent to the attacker, or hold a shield the DA judges can obstruct the attack. No movement, target substitution or damage transfer. For a single player area attack, use the normal worst-target modifiers; do not roll again.
 
 ### General details
 

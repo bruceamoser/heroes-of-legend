@@ -198,11 +198,14 @@ movement or your usual cost to enter it, and finish in a free square. An ability
 that moves you without provoking still respects terrain, occupied spaces and legal
 endpoints unless it explicitly says otherwise.
 
-A sight-required target must be visible to you or located by an explicit alternative-sense targeting grant. An attack also needs a path to it.
-Partial obstruction gives **1 Bane**; heavy cover gives **3 Banes**. Heavy cover still
-leaves a narrow attack path, such as fighting from behind a wall or dense thicket.
-A solid barrier with no attack path prevents that attack. Concealment that prevents
-you from seeing a sight-required target is not merely heavy cover.
+A sight-required target must be visible to you or located by an explicit
+alternative-sense targeting grant. An attack needs a usable path to its target.
+The DA judges whether an obstruction protects the target from that attack.
+**Partial cover** gives the attacker **1 Bane**. **Heavy cover** gives the
+attacker **3 Banes** and still leaves a narrow attack path, as through a thicket.
+If you roll defense, take **1 Boon** for partial cover or **3 Boons** for heavy
+cover instead. Apply cover once, using the usual Boon and Bane rules. A barrier
+that blocks the path prevents the attack.
 
 For a player area attack, choose the printed range, shape, inclusion and exclusions.
 Roll once using the **worst applicable net Boon/Bane situation** among its targets.

@@ -61,6 +61,18 @@ an event dealing only 4 physical is unchanged. Apply matching resistances next.
 Special vulnerabilities, such as fire stopping regeneration, use their printed
 procedure. They do not imply numerical weakness or extra damage unless stated.
 
+## Cover
+
+The DA judges whether an obstruction protects the target from the attack. Partial
+cover gives the attacker 1 Bane. Heavy cover leaves a narrow attack path and
+gives the attacker 3 Banes. If the defender rolls, apply the same number as Boons
+on that defense roll. Apply cover once to the roll being made, using the usual
+Boon and Bane rules.
+
+An attack needs a usable path. A barrier that blocks the path prevents the attack.
+An attack that requires sight needs a visible target or an explicit alternative
+that permits targeting. Follow the attack's printed targeting rules.
+
 ## Movement
 
 Entering a normal square costs 1 movement and entering a difficult square costs 2.
