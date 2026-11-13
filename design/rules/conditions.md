@@ -71,8 +71,10 @@ When Dazed and Grappled coexist, use the greater action restriction, not their s
 
 Grappling restricts the grappler by their own contribution as well as the target.
 Multiple grapplers' contributions add on the target. Each can freely release even
-at rating 3, ending their contribution. Once helpless capture is established and
-combat is over, resolve the scene through ordinary narration.
+at rating 3, ending their contribution. A creature at Grappled 3 or higher can be
+cuffed by an adjacent character using a Maneuver and suitable
+[restraints](../equipment/restraints.md). Once the captive is secured and combat is
+over, resolve the scene through ordinary narration.
 
 Example: Paralyzed 3 prevents actions and movement, falls to 2 at turn end, then
 to 1, then clears. Dazed 3 instead gradually returns action options as it decays.

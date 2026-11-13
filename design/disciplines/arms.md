@@ -57,6 +57,8 @@ Hamstring deals +1 damage on every result: 3/4/6 physical damage.
 DP: 3 | Level: 3
 Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, its movement is 0 until the end of its next turn. Forced movement still affects it.
 
+Before rolling against a living creature with positive HP, you may declare a nonlethal strike. Resolve damage normally. If this hit would reduce it to 0 HP, leave it at 1 HP and make it Unconscious for 1 minute or until it next takes damage. The creature falls prone and can be restrained while unconscious.
+
 ## Dueling
 
 ### Blade Ward I
