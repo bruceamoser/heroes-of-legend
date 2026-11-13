@@ -32,7 +32,7 @@ rebuild first. `generated/`, `output/` and `dist/` are ignored artifacts.
 
 ## Publication
 
-Use the issue → PR → independent review → squash merge workflow. After merging,
+Use the issue → PR → review → squash merge workflow. After merging,
 package from the merged commit, verify checksums, then create the minor release
 with both named PDFs, the ZIP, manifest and checksum list. Use the release notes
 in this directory. Mark a published release latest only once all assets are present.

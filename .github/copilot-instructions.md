@@ -70,10 +70,12 @@ Preserve source artwork, transparency and font licenses.
 3. Implement the authorized scope. Resolve routine choices without asking again.
 4. Run relevant audits and both builds when shared source or dependencies change.
 5. Push and open a PR with `Closes #N`, concrete changes and validation evidence.
-6. Independent review is required before merging. Bruce’s explicit approval in
-   chat counts; approval of an earlier PR does not approve later changes.
-7. Squash merge approved work and verify issue closure. Do not rewrite repository
-   history during cleanup; it is the archive.
+6. Automatically review the current PR diff against the issue, current rules and
+   Bruce’s decisions. Run the relevant checks and resolve findings within scope.
+   Ask Bruce when a question or concern remains that requires his judgment.
+7. Squash merge the reviewed commit once checks pass and findings are resolved.
+   Bruce’s standing authorization covers book PRs that pass this review. Verify
+   the merge and linked issue closure. Preserve repository history.
 8. Update instructions/skills when they prove stale. New mechanics require visible
    review; never silently make a design change while formatting.
 9. Every rules or content decision and change must also be tracked in an issue on

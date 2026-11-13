@@ -54,7 +54,7 @@ Generated PDFs and build outputs are not editable sources or tracked archives.
 
 ## Working on the game
 
-Issue → branch → implementation → PR → independent review → squash merge.
+Issue → branch → implementation → PR → review → squash merge.
 Bruce A. Moser is the lead designer and final authority. See
 [project instructions](.github/copilot-instructions.md), the [current catalog](design/catalog.md)
 and [further playtest work](design/open-decisions.md).
