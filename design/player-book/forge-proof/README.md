@@ -73,3 +73,9 @@ in each entry, including action, attribute, range, outcome damage, condition rat
 and durations. Removed the repeated learning/progression labels and closing summaries.
 Numeric Arms profiles are newly authored examples for Bruce's review, not a balance
 claim or canonical card migration. Rebuilt and visually checked the single-page PDF.
+
+Naming convention approved by Bruce: use the base ability name with I, II and III
+for its successive improvements; reserve a distinct name for the additional final
+ability (e.g. Measured Cut I/II/III, then Sweeping Blade). These numerals identify
+learning steps, not character levels. Removed redundant leading numerals in the
+layout. Applied to all four Arms paths and visually verified the rebuilt page.

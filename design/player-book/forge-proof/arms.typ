@@ -7,27 +7,27 @@
 #set par(leading: .3em,spacing: 4pt)
 #let paths = (
  ("Bladework", "Make each opening count.", (
-  ("Measured Cut", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack."),
-  ("Keen Edge", "Measured Cut deals +1 damage on every result: 3/4/6 physical damage."),
-  ("Open the Wound", "Measured Cut also applies Bleeding 1 on Strong."),
+  ("Measured Cut I", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack."),
+  ("Measured Cut II", "Measured Cut deals +1 damage on every result: 3/4/6 physical damage."),
+  ("Measured Cut III", "Measured Cut also applies Bleeding 1 on Strong."),
   ("Sweeping Blade", "Main Action · Brawn. Attack up to three adjacent enemies. Roll once; each takes 1/2/4 physical damage. Measured Cut improvements do not apply.")),
   "Measured Cut retains its extra damage and gains Bleeding on Strong. Sweeping Blade is a separate learned attack."),
  ("Impact", "Drive your enemy out of position.", (
-  ("Driving Blow", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, push it 1 square directly away from you."),
-  ("Unyielding Force", "Driving Blow pushes 2 squares instead of 1 on Strong."),
-  ("Rattling Impact", "Driving Blow also applies Dazed 1 on Strong, whether or not the target can be pushed."),
+  ("Driving Blow I", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, push it 1 square directly away from you."),
+  ("Driving Blow II", "Driving Blow pushes 2 squares instead of 1 on Strong."),
+  ("Driving Blow III", "Driving Blow also applies Dazed 1 on Strong, whether or not the target can be pushed."),
   ("Battering Stroke", "Main Action · Brawn. Deal 2/3/5 physical damage to one adjacent creature; push it up to 2 squares. If another creature blocks that push, both take 1 physical damage and the push ends.")),
   "On Strong, Driving Blow applies its increased push and Dazed together. Battering Stroke is a separate learned attack."),
  ("Disruption", "Deny your opponent an easy escape.", (
-  ("Hamstring", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, apply Slowed 1."),
-  ("Hobbling Cut", "Hamstring applies Slowed 2 instead of Slowed 1 on Strong."),
-  ("Cruel Precision", "Hamstring deals +1 damage on every result: 3/4/6 physical damage."),
+  ("Hamstring I", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, apply Slowed 1."),
+  ("Hamstring II", "Hamstring applies Slowed 2 instead of Slowed 1 on Strong."),
+  ("Hamstring III", "Hamstring deals +1 damage on every result: 3/4/6 physical damage."),
   ("Pinning Strike", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, its movement is 0 until the end of its next turn. Forced movement still affects it.")),
   "Hamstring retains its increased Slowed and gains extra damage. Pinning Strike is a separate learned attack."),
  ("Dueling", "Turn a guarded exchange in your favor.", (
-  ("Blade Ward", "Reaction · After resolving your melee defense roll, before taking damage: reduce that attack’s damage by 2, minimum 0. No additional roll."),
-  ("Sure Guard", "Blade Ward reduces damage by 3 instead of 2."),
-  ("Give Ground", "After Blade Ward resolves, you may move 1 square. This movement does not trigger reactions."),
+  ("Blade Ward I", "Reaction · After resolving your melee defense roll, before taking damage: reduce that attack’s damage by 2, minimum 0. No additional roll."),
+  ("Blade Ward II", "Blade Ward reduces damage by 3 instead of 2."),
+  ("Blade Ward III", "After Blade Ward resolves, you may move 1 square. This movement does not trigger reactions."),
   ("Riposte", "Reaction · After resolving a melee attack against you, attack its source if adjacent. Roll Brawn for 2/3/5 physical damage. You must still have your reaction available.")),
   "Blade Ward combines its greater protection with the step away. Riposte is a separate reaction; it does not grant an extra reaction."),
 )
@@ -39,8 +39,7 @@
   #v(6pt)
   #for (i,row) in rows.enumerate() {
    block(width: 100%,fill: shades.at(i),inset: (x: 6pt,y: 6pt))[
-    #grid(columns: (16pt,1fr,28pt),gutter: 2pt,
-     text(size: 9pt,("I","II","III","IV").at(i)),
+    #grid(columns: (1fr,28pt),gutter: 2pt,
      text(size: 10pt,weight: "bold",row.at(0)),
      align(right,text(size: 9pt,str((1,2,2,3).at(i))+" DP")))
     #if i==3 {text(size: 8pt,weight: "bold")[LEVEL 3]}
