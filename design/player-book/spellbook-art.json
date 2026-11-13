@@ -1,0 +1,118 @@
+{
+  "air": {
+    "asset": "feather-and-seal",
+    "path": "art/interior/feather-and-seal.png"
+  },
+  "animation": {
+    "asset": "spellbook-animation",
+    "path": "art/spellbooks/animation.svg"
+  },
+  "binding": {
+    "asset": "spellbook-binding",
+    "path": "art/spellbooks/binding.svg"
+  },
+  "calling": {
+    "asset": "spellbook-calling",
+    "path": "art/spellbooks/calling.svg"
+  },
+  "channeling": {
+    "asset": "spellbook-channeling",
+    "path": "art/spellbooks/channeling.svg"
+  },
+  "decay": {
+    "asset": "spellbook-decay",
+    "path": "art/spellbooks/decay.svg"
+  },
+  "detection": {
+    "asset": "spellbook-detection",
+    "path": "art/spellbooks/detection.svg"
+  },
+  "dreams": {
+    "asset": "spellbook-dreams",
+    "path": "art/spellbooks/dreams.svg"
+  },
+  "earth": {
+    "asset": "mountain-pass",
+    "path": "art/interior/mountain-pass.png"
+  },
+  "echoes": {
+    "asset": "spellbook-echoes",
+    "path": "art/spellbooks/echoes.svg"
+  },
+  "emotion": {
+    "asset": "spellbook-emotion",
+    "path": "art/spellbooks/emotion.svg"
+  },
+  "farseeing": {
+    "asset": "spellbook-farseeing",
+    "path": "art/spellbooks/farseeing.svg"
+  },
+  "flame": {
+    "asset": "elemental-stones",
+    "path": "art/interior/elemental-stones.png"
+  },
+  "growth": {
+    "asset": "root-and-thorn",
+    "path": "art/interior/root-and-thorn.png"
+  },
+  "imbuement": {
+    "asset": "spellbook-imbuement",
+    "path": "art/spellbooks/imbuement.svg"
+  },
+  "passage": {
+    "asset": "paths",
+    "path": "art/interior/paths.png"
+  },
+  "perception": {
+    "asset": "spellbook-perception",
+    "path": "art/spellbooks/perception.svg"
+  },
+  "portents": {
+    "asset": "spellbook-portents",
+    "path": "art/spellbooks/portents.svg"
+  },
+  "protection": {
+    "asset": "spellbook-protection",
+    "path": "art/spellbooks/protection.svg"
+  },
+  "restoration": {
+    "asset": "healers-bowl",
+    "path": "art/interior/healers-bowl.png"
+  },
+  "sanctuary": {
+    "asset": "spellbook-sanctuary",
+    "path": "art/spellbooks/sanctuary.svg"
+  },
+  "seals": {
+    "asset": "spellbook-seals",
+    "path": "art/spellbooks/seals.svg"
+  },
+  "shaping": {
+    "asset": "spellbook-shaping",
+    "path": "art/spellbooks/shaping.svg"
+  },
+  "spirits": {
+    "asset": "spellbook-spirits",
+    "path": "art/spellbooks/spirits.svg"
+  },
+  "telekinesis": {
+    "asset": "spellbook-telekinesis",
+    "path": "art/spellbooks/telekinesis.svg"
+  },
+  "thought": {
+    "asset": "folded-spell",
+    "path": "art/interior/folded-spell.png"
+  },
+  "transformation": {
+    "asset": "spellbook-transformation",
+    "path": "art/spellbooks/transformation.svg"
+  },
+  "unraveling": {
+    "asset": "spellbook-unraveling",
+    "path": "art/spellbooks/unraveling.svg"
+  },
+  "water": {
+    "asset": "spellbook-water",
+    "path": "art/spellbooks/water.svg"
+  }
+}
