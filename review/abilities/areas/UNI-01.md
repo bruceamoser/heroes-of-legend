@@ -1,14 +1,29 @@
-> **Working name:** Basic abilities (`BAS-01`). The `UNI-01` code and `CHG-UNI-*` IDs are retained for historical continuity. Use **Universal** only for learned abilities that require no discipline rank.
+# UNI-01: Basic Actions review
 
-# UNI-01: Basic abilities review (legacy code)
+**Status:** Book revision ready for review
 
-**Status:** In review  
 **Book issue:** [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284)  
-**Branch:** `codex/1284-universal`  
+**Branch:** `codex/1284-basic-actions`
+
 **Workbook:** `review/abilities/workbooks/30_Universal_Abilities.xlsx`  
 **Scope:** 18 universal actions and basic attacks.
 
-## Batch 1 — clear copy fixes
+## Decisions for the current book
+
+Basic Actions teaches the universal actions available to every character. Use each action's timing, trigger and gear requirements. Keep all 18 actions and their stable IDs. The workbook records 6 revised cards and 12 kept cards.
+
+- Force states the result for each choice. Aid already uses the proposed wording. Stabilize names the Dying hero and clears both death roll tallies.
+- Command a Summon states the existing six-square tether and end-of-turn disappearance for an uncommanded summon.
+- Opportunity Attack uses Basic Melee with a held melee weapon or Basic Unarmed with a free hand. The granted attack uses the usual single roll. DA creatures use their bestiary Basic Melee.
+- Shield Block can be declared before either side rolls. Apply its benefit as a defense Boon or an attack Bane until the start of the defender's next turn, while holding the shield.
+- An unconscious or restrained potion recipient counts as willing. Another conscious recipient above 0 HP spends a Reaction, including a restrained recipient who can take one.
+- Keep the current card fields and timing labels. Convert an Action remains a quick reference. The four attack cards print their current damage, so the proposed damage note is retired.
+
+The [change ledger](../CHANGE_LEDGER.csv) and workbook record the current wording. [Foundry #272](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/272) tracks later implementation.
+
+## Earlier review proposals
+
+### Batch 1 — clear copy fixes
 
 These are wording/clarity fixes only; no mechanics change. Recommend approving as one batch.
 
@@ -21,7 +36,7 @@ These are wording/clarity fixes only; no mechanics change. Recommend approving a
 | CHG-UNI-005 | `command-a-summon` | Target | `One of your summons within its tether.` | `One of your summons within 6 squares of you (its tether).` | “Its tether” is ambiguous; the summoning rules use 6 squares. |
 | CHG-UNI-006 | `opportunity-attack` | Attribute | `None — no separate roll; resolve Basic Melee using Brawn` | `Brawn (no separate roll)` | Keeps the Attribute column to an attribute while preserving the rule in the text. |
 
-## Batch 2 — decisions needed
+### Batch 2 — card format proposals
 
 These are not in Batch 1 because they affect taxonomy or card format.
 
@@ -64,12 +79,3 @@ Recommendation: **option 1** for Command/Handle; move `Convert an Action` to the
 ### D-UNI-D — Basic attack baseline note
 
 Unarmed is 1/2/4, Throw/Ranged are 2/3/5, Melee is 2/4/6. This appears intentional. Recommendation: no mechanics change; add a short designer's note to the Universal overview and combat chapter.
-
-## Decisions
-
-- [ ] Approve Batch 1 as written.
-- [ ] Approve Batch 1 with edits (list them).
-- [ ] Decide D-UNI-A: option 1 / 2 / 3.
-- [ ] Decide D-UNI-B: option 1 / 2 / 3.
-- [ ] Decide D-UNI-C: option 1 / 2 / 3.
-- [ ] Decide D-UNI-D: add note / no change.

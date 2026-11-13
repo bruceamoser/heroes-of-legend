@@ -160,12 +160,15 @@ do not reroll initiative. Each round lasts **6 seconds**, so 10 rounds make 1 mi
 
 Each actor has one Main Action, one Maneuver, one Reaction and movement. Main
 converts to Maneuver, and Maneuver to movement; conversion never goes upward.
-An ordinary defense roll does not spend the defender's Reaction. A shield hunker
-or an opportunity attack does.
+An ordinary defense roll does not spend the defender's Reaction. Shield Block,
+a creature's shield hunker and an opportunity attack each spend a Reaction.
+A hero can Shield Block before the roll for an attack their held shield can block.
+Apply its Boon to the defender's roll or its Bane to the attacker's roll.
 
 Starting a provoking action triggers an available opportunity attack before that
-action resolves. It uses **Basic Melee**, not a specialty card. Resolve it, then
-continue the original action if its actor remains capable. Damage alone does not
+action resolves. A hero uses **Basic Melee** with a held melee weapon or **Basic
+Unarmed** with a free hand. DA creatures use their bestiary **Basic Melee**. Resolve
+the attack, then continue the original action if its actor remains capable. Damage alone does not
 cancel a spell or other action. Leaving melee voluntarily, casting beside an enemy,
 standing, stowing and retrieving items can provoke. Forced movement does not.
 Drawing a weapon as part of its attack remains part of that action.

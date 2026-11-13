@@ -1,20 +1,20 @@
 # Opportunity Attack
 
-*Choose an adjacent creature triggering an opportunity. Make Basic Melee only. No specialty card. Leaving reach voluntarily provokes. Casting, standing, stowing and retrieving are intended triggers. The start of the provoking action interrupts it: resolve this attack first, then continue the original action if the actor remains capable. Damage alone does not cancel it. Forced movement does not provoke. Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes. This card adds no separate roll beyond any roll it explicitly requires.*
+*Strike when a creature within your reach leaves an opening.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no separate roll; resolve Basic Melee using Brawn
+**Action:** Reaction · **Attribute:** Brawn for the granted attack
 
 **Target / range / shape:** An adjacent creature triggering an opportunity
 
-Make Basic Melee only; no specialty card. Leaving reach voluntarily provokes; casting, standing, stowing and retrieving are intended triggers. The start of the provoking action interrupts it: resolve this attack first, then continue the original action if the actor remains capable. Damage alone does not cancel it. Forced movement does not provoke.
+Spend your Reaction when an adjacent creature starts a provoking action. Resolve one [Basic Melee](basic-melee.md) attack with a melee weapon you are holding, or one [Basic Unarmed](basic-unarmed.md) attack if you have a free hand. The Reaction pays for the attack. Use its normal roll and outcomes.
 
-Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
+Leaving your reach voluntarily, casting, standing, stowing an item, or retrieving one can provoke. Resolve your attack before the triggering action takes effect. The creature continues its action if it remains capable. Forced movement does not provoke.
 
 **Duration:** Instant
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A held melee weapon or a free hand.
 
 ---
 

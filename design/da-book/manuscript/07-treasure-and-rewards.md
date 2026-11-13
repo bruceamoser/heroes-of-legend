@@ -94,8 +94,9 @@ and Superior 16, before Life resistance and missing-HP limits. Their price buys
 potency as well as uncertain longevity. They do not require a healing spell roll
 or caster HP payment.
 
-A potion still needs a free hand and the giver's Maneuver. A different recipient
-spends a Reaction unless at 0 HP. A bow, two-handed weapon, or weapon-and-shield
+A potion needs a free hand and the giver's Maneuver. An unconscious or restrained
+recipient counts as willing. Another recipient spends a Reaction if conscious and
+above 0 HP. A bow, two-handed weapon, or weapon-and-shield
 combination occupies the hands that would otherwise use the bottle. Dropping an
 item is free; properly stowing it takes a Maneuver and can provoke. Apply those
 costs consistently to heroes and opponents.
