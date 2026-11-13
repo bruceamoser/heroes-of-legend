@@ -6,7 +6,7 @@ must explicitly grant a higher value. Stability is not calculated from attribute
 ancestry size, armor, HP or level. Use the highest applicable grant, never their
 sum, to a maximum of **3**.
 
-Stability consumes the movement of a push, pull or throw, minimum 0. Apply the
+Stability consumes the movement of a push, pull, slide or throw, minimum 0. Apply the
 initial target’s Stability once before it moves. When the moving group strikes a
 new creature, that creature’s Stability consumes remaining movement once as it
 joins the chain, after contact collision damage resolves. If none remains, the group

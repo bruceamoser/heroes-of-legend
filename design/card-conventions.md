@@ -161,6 +161,10 @@ before rolling. Include allies only where the card targets every creature. Resol
 multiple displacements in an order the acting player chooses, using the shared
 collision rules; unresolved moving-group geometry remains a DA ruling.
 
+Use Push for movement directly away from the source, Pull for movement directly
+toward it, and Slide for movement in any direction. State the maximum distance in
+squares and print any special source point, path or destination restrictions.
+
 Use the character's existing roll for a reaction that modifies that roll. A card
 which grants Basic Melee directs its recipient to the Basic Melee card; “no separate
 roll” never makes the granted attack automatic Strong. A player attack still gets
