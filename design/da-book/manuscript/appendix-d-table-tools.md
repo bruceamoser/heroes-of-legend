@@ -102,7 +102,7 @@ Grappled and binary conditions use their own removal rules.
 
 Use a plausible Main Action to reduce Bleeding, Burning or Freezing by 1 on yourself
 or an adjacent creature. This is not a universal condition-removal action. Matching
-resistance applies to Burning and Freezing; Bleeding bypasses it.
+resistance can reduce Burning and Freezing damage to 0. Bleeding bypasses resistance.
 
 Dazed and Grappled restrict category selection at turn start without undoing spent
 actions. Use the greater restriction when they coexist. Paralyzed, Asleep and

@@ -79,7 +79,7 @@ comparison tool with explicit assumptions, not a complete model of combat.
 
 The reference hero has attribute +1 and physical attack outcomes **3/5/7**. Enumerate
 the actual 3d6 outcomes, with extra dice for Evasion and the correct retained-three
-procedure. Apply resistance and minimum damage per event. The reference defender
+procedure. Apply resistance and the attack’s minimum damage. The reference defender
 also uses +1, with Physical resistance 1 and other resistances 0. Threat changes
 the defense distribution. Use the creature's printed target expectation and reference
 attack for O; do not add its attack attribute to a player's defense probability.

@@ -24,7 +24,7 @@ Main Action, wearing armor and holding a shield. Hold your ground until your nex
 ## The Last Safe Step
 DP: 3 | Level: 7
 Requires: guard:watchfulness:4, athletics:balance:4
-Reaction. When an ally within 4 squares is about to take damage from an attack or fall, move up to 4 squares along a legal route to reach it. Neither of you triggers movement reactions during this rescue. If you reach it, move together up to 2 more squares and reduce that damage by 4, minimum 1. An attack still resolves against its original target. A fall ends only if the destination supports both creatures.
+Reaction. When an ally within 4 squares is about to take damage from an attack or fall, move up to 4 squares along a legal route to reach it. Neither of you triggers movement reactions during this rescue. If you reach it, move together up to 2 more squares and reduce that damage by 4. Apply the usual minimum for attacks. An attack still resolves against its original target. A fall ends only if the destination supports both creatures.
 
 ## Anatomist’s Volley
 DP: 3 | Level: 7
@@ -164,7 +164,7 @@ Main Action · Knowledge · 6 SP. Choose up to three visible points within 12 sq
 ## Wall of Thorns — Living Fortress
 DP: 3 | Level: 7
 Requires: growth:3, shaping:3
-Main Action · Reason · 5 SP. Raise up to eight connected thorn-wall squares on unoccupied ground within 8 squares. The walls last 10 minutes, are 2 squares high, block movement and provide cover. Name up to six creatures when casting; each may pass through at normal movement cost. Other creatures can spend a Main Action cutting through one adjacent square with a suitable edged tool, taking 3 physical damage, minimum 1 after resistance. Fire destroys an affected wall square after that attack resolves. No roll.
+Main Action · Reason · 5 SP. Raise up to eight connected thorn-wall squares on unoccupied ground within 8 squares. The walls last 10 minutes, are 2 squares high, block movement and provide cover. Name up to six creatures when casting; each may pass through at normal movement cost. Other creatures can spend a Main Action cutting through one adjacent square with a suitable edged tool, taking 3 physical damage before resistance. Fire destroys an affected wall square after that attack resolves. No roll.
 
 ## True Resurrection
 DP: 3 | Level: 7

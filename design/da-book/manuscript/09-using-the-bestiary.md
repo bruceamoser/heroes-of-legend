@@ -138,9 +138,10 @@ attack used for opportunity attacks; do not substitute a specialty attack.
 
 Remove damage components covered by immunity. For each remaining component, add
 applicable weakness, then subtract matching resistance and apply other reductions.
-Use the highest resistance of each type, normally capped at 3. Apply a minimum of
-1 total damage if any positive damage component survived immunity. If immunity
-removed every component, the event deals 0 HP damage.
+Use the highest resistance of each type, normally capped at 3. An attack deals a
+minimum of 1 total damage if any positive damage component survived immunity.
+Condition ticks, falls, and collisions can be reduced to 0. If immunity removes
+all damage, the event deals 0 HP damage.
 
 > **Example: mixed damage.** An event deals 4 Physical and 1 Fire. Fire Weakness 2
 > changes the Fire component to 3. Physical resistance 2 and Fire resistance 1
@@ -159,9 +160,10 @@ examples include Asleep, Bleeding, Blinded, Frightened, and Poisoned. Use the
 immunities printed for the creature or explicitly granted by an effect.
 
 Fire damage immunity removes the Fire damage from a hit and from any Burning
-ticks. Burning still applies and decays unless the creature is also immune to
-Burning. A hit that deals 0 damage can still push or apply another rider if the
-effect permits it. Resolve riders that require damage only when damage is dealt.
+ticks. Fire resistance can also reduce a Burning tick to 0. Burning still applies
+and decays unless the creature is immune to Burning. A hit that deals 0 damage can
+still push or apply another rider if the effect permits it. Resolve riders that
+require damage only when damage is dealt.
 
 ## Forced movement and Stability
 

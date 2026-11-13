@@ -24,7 +24,7 @@ Choose a suit of armor to match your training and acquire it with your other equ
 | Armored Training II | Armored Training I | 2 | Medium: 2 |
 | Armored Training III | Armored Training II | 2 | Heavy: 3 |
 
-All three may be learned at level 0. Each new step lets you use its armor category as well as any you learned earlier. Use the highest applicable resistance, never their sum. Resistance leaves at least 1 damage per event if any damaging component survives immunity.
+All three may be learned at level 0. Each new step lets you use its armor category as well as any you learned earlier. Use the highest applicable resistance, never their sum. Attacks deal at least 1 damage after resistance if any damaging component survives immunity.
 
 ## Bulk and hands
 
