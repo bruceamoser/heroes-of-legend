@@ -1,0 +1,82 @@
+# Nonmagical discipline revision
+
+Source issue: https://github.com/bruceamoser/heroes-of-legend/issues/1310
+Foundry: https://github.com/bruceamoser/heroes-of-legend-foundry/issues/271
+
+This is the authored first-pass review packet for the approved nonmagical layout.
+It contains 11 disciplines, 44 paths and 176 learning entries. It is not yet wired
+into the released Player's Book or DA book. Existing cards remain intact until their
+origin/class grants, references and replacement mappings are migrated together.
+Do not combine the old rank/card acquisition rules with this packet's learning rules.
+
+The approved Arms sample from PR #1309 supplies its 16 entries. Other entries are
+newly authored for review, informed by the existing discipline descriptions and
+useful catalog ideas (armor resistance, interception, rope travel, recipe work,
+field treatment, tracking and social influence). Four Lanterns Deep supplies the
+four-path sequential structure, not the mechanics or automatic endpoint wiring.
+
+## Authoring and build
+
+Each discipline Markdown file is the editable source. A path has four entries;
+I/II/III retain the base technique name and the final entry has its own name.
+The renderer preserves the body text and derives stable graph IDs from the
+current discipline/path slug plus step number. Once adopted by downstream systems,
+renames must retain these IDs explicitly rather than regenerating different IDs.
+
+Run from repository root:
+
+```sh
+python3 design/player-book/nonmagical/build.py
+python3 design/player-book/nonmagical/audit.py
+```
+
+Output: `output/pdf/nonmagical-disciplines.pdf`. Generated JSON is ignored.
+The first two pages explain acquisition, universal resolution, practical/social
+objectives and the previously agreed recovery limits. Pages 3–13 are the eleven
+disciplines in Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness,
+Medicine, Craft, Scholarship, Influence order.
+
+## Design choices in this first pass
+
+- One DP for discipline access; paths cost 1/2/2/3, with only the final step gated
+  to character level 3. These follow the approved sample, replacing class-priced
+  discipline ranks within this revision. Full creation budgets are not changed here.
+- Improvements are automatic and cumulative, without per-hit option menus.
+  Values described as replacements are totals, not additional increments.
+- Minimum attack damage remains 1 after every reduction. No NPC resistance rolls.
+- Armor progresses through light/medium/heavy in one path; other paths add bracing,
+  defensive reactions and armored mobility. Early heavy-armor access is a visible
+  consequence of the agreed first-three-step availability, for Bruce's review.
+- Utility paths improve time, progress, capacity or scope. Feasible mundane actions
+  are not locked behind training. Known recipes still require ingredients and tools.
+- Medicine uses the health revision's one recipient first-aid attempt between safe
+  overnight rests. Emergency Treatment accelerates that same attempt. Condition
+  care neither restores HP nor consumes the attempt. No hit-dice pool is introduced.
+- Influence uses concrete, attainable concessions and DA-set progress objectives.
+  Reference targets 3/6/9/12 and a worked example are included. Repeated arguments
+  do not generate extra rolls; ordinary credible contributions still work.
+
+## Integration still to do
+
+1. Review these new ability choices and interactions with Bruce; printed numbers
+   are first-playtest rules, not claims of tested balance.
+2. Map old card IDs and all ancestry/culture/background/class grants to the new
+   paths, preserving reference redirects or explicit replacement records. Do not
+   silently reinterpret an old card with the same evocative title as the new rule.
+3. Author the level-7 combined disciplines with exact prerequisite endpoint IDs.
+   Two/three/four-discipline combinations all require level 7. No generic investment
+   or inferred adjacency qualifies an entry. This packet intentionally does not
+   invent connections before those abilities are designed.
+4. Integrate the approved source into both book builds and retire superseded
+   rank/card prose in one coherent migration, together with approved health changes.
+5. Implement Foundry only against the reviewed source commit.
+
+## Verification
+
+Typst 0.15.1 produced 13 letter-size pages. All 13 rendered pages were visually
+reviewed, including final typography and the corrected Medicine/Armor entries.
+The audit verifies all 176 complete effects against PDF text, one page per
+discipline, unique graph IDs, exact previous-step prerequisites, 1/2/2/3 DP costs,
+level-3 endpoints, printable text bounds and no zero damage floor.
+No released-book builder or canonical live card was changed, so the existing
+full-book builds were not rerun for this isolated packet.
