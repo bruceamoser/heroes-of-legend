@@ -53,3 +53,17 @@ Player-facing terminology correction: use **Learned Sections**, not “Forge pur
 Refer to learning sections in order and label the row mapping “Sect.” The Forge is
 internal design terminology, not the voice of the printed learning reference.
 The revised single-page PDF was rebuilt and visually checked after this correction.
+
+## Nonmagical learned abilities
+
+`arms.typ` extends the same color/number scheme to four technique paths. Each row
+names what is learned or improved; the closing summary collects cumulative effects
+and distinguishes the additional level-3 ability. Examples are proposed for layout
+review, not complete rules or replacements for canonical Arms cards. Bladework,
+Impact, Disruption and Dueling draw structural inspiration from Four Lanterns Deep's
+Arms paths, adapted to the requested four-step pattern. No confluence links are
+invented for these newly proposed endpoints; named advanced connections must be
+specified during actual discipline authoring.
+
+Build: `typst compile design/player-book/forge-proof/arms.typ output/pdf/arms-learned-abilities.pdf`.
+Validated: one letter-size page, all four paths visually reviewed without clipping.
