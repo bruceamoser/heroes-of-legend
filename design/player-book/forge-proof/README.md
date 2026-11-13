@@ -79,3 +79,8 @@ for its successive improvements; reserve a distinct name for the additional fina
 ability (e.g. Measured Cut I/II/III, then Sweeping Blade). These numerals identify
 learning steps, not character levels. Removed redundant leading numerals in the
 layout. Applied to all four Arms paths and visually verified the rebuilt page.
+
+Damage invariant reaffirmed by Bruce: all damage has a minimum of 1; every attack
+hits for at least 1 after reductions. Corrected Blade Ward's erroneous zero floor
+and stated the shared attack floor on the Arms sheet. Future defensive abilities
+must preserve this invariant. Rebuilt and visually checked the single-page sample.

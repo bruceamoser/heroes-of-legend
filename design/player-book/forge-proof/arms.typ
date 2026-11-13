@@ -25,7 +25,7 @@
   ("Pinning Strike", "Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, its movement is 0 until the end of its next turn. Forced movement still affects it.")),
   "Hamstring retains its increased Slowed and gains extra damage. Pinning Strike is a separate learned attack."),
  ("Dueling", "Turn a guarded exchange in your favor.", (
-  ("Blade Ward I", "Reaction · After resolving your melee defense roll, before taking damage: reduce that attack’s damage by 2, minimum 0. No additional roll."),
+  ("Blade Ward I", "Reaction · After resolving your melee defense roll, before taking damage: reduce that attack’s damage by 2, minimum 1. No additional roll."),
   ("Blade Ward II", "Blade Ward reduces damage by 3 instead of 2."),
   ("Blade Ward III", "After Blade Ward resolves, you may move 1 square. This movement does not trigger reactions."),
   ("Riposte", "Reaction · After resolving a melee attack against you, attack its source if adjacent. Roll Brawn for 2/3/5 physical damage. You must still have your reaction available.")),
@@ -53,7 +53,7 @@
 #text(font: "Cinzel",size: 27pt)[Arms]
 #text(size: 11pt,style: "italic")[Distance, timing and the practiced turn of a weapon.]
 #v(5pt)
-*Begin with Arms (1 DP).* It opens these four paths; it teaches no ability. Your basic melee attack is already available. Learn each path in order; improvements add together. Damage is listed Weak/Standard/Strong. All attacks require a melee weapon and deal instant damage. Conditions use normal decay. Forced movement stops at blocked squares. An improvement applies only to its named ability.
+*Begin with Arms (1 DP).* It opens these four paths; it teaches no ability. Your basic melee attack is already available. Learn each path in order; improvements add together. Damage is listed Weak/Standard/Strong. All attacks require a melee weapon and deal instant damage. Every attack deals at least 1 damage after all reductions. Conditions use normal decay. Forced movement stops at blocked squares. An improvement applies only to its named ability.
 #v(8pt)
 #grid(columns: (1fr,1fr),gutter: 12pt,..paths.map(path))
 #v(7pt)
