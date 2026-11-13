@@ -173,12 +173,18 @@ a creature's shield hunker and an opportunity attack each spend a Reaction.
 A hero can Shield Block before the roll for an attack their held shield can block.
 Apply its Boon to the defender's roll or its Bane to the attacker's roll.
 
+Entering a normal square costs 1 movement and entering a difficult square costs 2.
+A Prone creature crawls for 2 per normal square or 3 per difficult square. Use the
+same costs diagonally. To cross a square occupied by a Prone creature, pay the
+higher of 2 movement or the usual entry cost and finish in a free square.
+
 Starting a provoking action triggers an available opportunity attack before that
 action resolves. A hero uses **Basic Melee** with a held melee weapon or **Basic
 Unarmed** with a free hand. DA creatures use their bestiary **Basic Melee**. Resolve
 the attack, then continue the original action if its actor remains capable. Damage alone does not
-cancel a spell or other action. Leaving melee voluntarily, casting beside an enemy,
-standing, stowing and retrieving items can provoke. Forced movement does not.
+cancel a spell or other action. Leaving melee reach voluntarily, including by
+crawling, can provoke. Casting beside an enemy, standing, stowing and retrieving
+items can also provoke. Forced movement does not.
 Drawing a weapon as part of its attack remains part of that action.
 
 > **Example: a healer under pressure.** A hero next to an enemy begins casting a

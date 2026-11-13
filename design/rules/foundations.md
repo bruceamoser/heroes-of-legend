@@ -63,9 +63,13 @@ procedure. They do not imply numerical weakness or extra damage unless stated.
 
 ## Movement
 
-Normal squares cost 1, difficult 2. Diagonal movement costs 1. Standing costs 2
-movement. Cannot cross an occupied square unless its occupant is prone; then cost
-2 and never end there. Forced movement consumes the entered terrain’s cost; any
+Entering a normal square costs 1 movement and entering a difficult square costs 2.
+While Prone, crawl for 2 movement per normal square or 3 per difficult square.
+Use the same costs for straight and diagonal steps. Standing costs 2 movement.
+You may cross an occupied square if its occupant is Prone. Pay the higher of 2
+movement or your usual cost to enter it, and finish in a free square. Crawling is
+voluntary movement and can provoke when you leave an
+enemy’s melee reach. Forced movement consumes the entered terrain’s cost. Any
 positive remaining budget can enter the final square and stop even if that cost
 exceeds the budget.
 

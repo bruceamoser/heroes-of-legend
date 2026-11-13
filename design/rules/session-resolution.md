@@ -24,8 +24,8 @@ procedure for that attack. Then the original action continues if its actor is st
 capable; otherwise it stops. Damage alone does not automatically cancel the action.
 Forced movement never provokes.
 
-Leaving melee reach voluntarily, casting a spell beside an enemy, standing,
-stowing and retrieving items are the intended triggers established in discussion.
+Leaving melee reach voluntarily, including by crawling, can provoke. Casting a
+spell beside an enemy, standing, stowing and retrieving items can also provoke.
 Drawing as part of an attack stays part of that attack. **Timing:** commit
 the action when declared; check targets and capability again after interruption;
 pay an additional printed SP/HP/item cost only when continuing into its resolution.
