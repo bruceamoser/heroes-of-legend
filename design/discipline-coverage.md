@@ -62,7 +62,7 @@ ice, climbing handholds and preservation of supplies. Its higher tiers add a shi
 counter, a temporary winter road, protection against a cold impact and a broad whiteout.
 Marksmanship gains a close shot and armor-reading setup, with Craft combinations
 for sight adjustment and projectile interception. Radiance gains protective and
-rallying responses. Medicine’s many wound treatments no longer conceal the lack of
+rallying responses. Medicine’s many treatments no longer conceal the lack of
 quick field support at higher tiers.
 
 ## Shield expertise

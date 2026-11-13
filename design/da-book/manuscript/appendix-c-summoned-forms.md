@@ -20,5 +20,4 @@ immunity or incorporeality. Existing conditions and durations still resolve on i
 controller's turn even when no command is issued.
 
 The category and tier index precedes the profiles. When a summoned healer acts,
-its controller pays the printed HP cost once, before resolution, bypassing resistance
-and remaining above 0; use the form's own attribute and outcomes.
+its controller pays the printed SP cost once, before resolution, and must have enough SP; use the form's own attribute and outcomes.

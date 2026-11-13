@@ -9,7 +9,7 @@
 
 **Action:** Main Action
 
-At the printed outcomes, restore at most 1 or 2 HP to the attacker, never more than the HP actually lost by a living target to this attack after resistance. Life resistance on the recipient reduces this recovery, minimum 1 only if a positive amount is transferred. No recovery from a target that loses 0 HP or is not living. This transfer grants no wound treatment.
+At the printed outcomes, restore at most 1 or 2 HP to the attacker, never more than the HP actually lost by a living target to this attack after resistance. Life resistance on the recipient reduces this recovery, minimum 1 only if a positive amount is transferred. No recovery from a target that loses 0 HP or is not living. This transfer grants no treatment.
 
 Actual damage, targeting and defense attribute are printed on the creature card.
 

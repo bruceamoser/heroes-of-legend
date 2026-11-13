@@ -40,7 +40,7 @@ Roll its printed attack attribute and read the attacker outcomes below. When it 
 
 ### Battle Mending — Main Action
 
-One adjacent living ally; free hand (the hart’s antlers provide this). The controller pays 3 HP first, bypassing resistance, and must remain above 0. The hart does not also pay this cost. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same controller-paid cost.
+One adjacent living ally; free hand (the hart’s antlers provide this). The controller pays 3 SP first and must have enough SP. The hart does not also pay this cost. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target, roll the same Reason attack and apply the listed healing result as Life damage, without healing riders. Same controller-paid cost.
 
 ## Maneuvers
 

@@ -1,6 +1,6 @@
 # Return to Strength
 
-*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 7 HP and make a Reason healing roll. On a Standard result, restore 16 HP.*
+*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 4 SP and make a Reason healing roll. On a Standard result, restore 16 HP.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One willing creature within 3 squares, including yourself, or one creature in range harmed by healing.
 
-Pay 7 HP and make a Reason healing roll.
+Pay 4 SP and make a Reason healing roll.
 
 - **Weak:** Restore 8 HP.
 - **Standard:** Restore 16 HP.

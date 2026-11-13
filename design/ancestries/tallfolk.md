@@ -12,7 +12,7 @@ Their origins and communities belong to the campaign. They need no named giant a
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +5; base Speed 6.
+**Starting values:** HP contribution +3 at creation and per level; base Speed 6.
 
 - [Long Reach](trait-tallfolk-long-reach.md) — You catch the latch above your companions’ heads without rising onto your toes.
 - [Broad Back](trait-tallfolk-broad-back.md) — You settle the awkward load across your shoulders and leave a hand free for the door.

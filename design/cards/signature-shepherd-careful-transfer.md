@@ -1,6 +1,6 @@
 # Triage
 
-*Spend 3 HP and roll Reason to heal one living ally or split the healing between two living allies within 3 squares.*
+*Spend 2 SP and roll Reason to heal one living ally or split the healing between two living allies within 3 squares.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One or two living allies within 3 squares.
 
-Moser's law of conservation of Life energy: pay 3 HP before rolling. This cost bypasses resistance and must leave you above 0 HP. Requires a free hand. Make a Reason roll. Choose one or two allies. One ally: restore 6 HP on Weak, 11 HP on Standard, 16 HP on Strong. Two allies: restore 4 HP each on Weak, 7 HP each on Standard, 10 HP each on Strong. Reduce the restored amount by each target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying creature cannot be targeted; stabilize it first. This restores no wounds and cannot reverse Last Words.
+pay 2 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Choose one or two allies. One ally: restore 6 HP on Weak, 11 HP on Standard, 16 HP on Strong. Two allies: restore 4 HP each on Weak, 7 HP each on Standard, 10 HP each on Strong. Reduce the restored amount by each target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.
 
 **Duration:** Immediate.
 

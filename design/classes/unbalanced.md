@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Brawn, Fortitude; HP contribution +6. No multiclassing.
+**Agreed:** minimum 0 in Brawn, Fortitude; HP contribution +3 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.
 

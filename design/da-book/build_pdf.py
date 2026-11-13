@@ -166,7 +166,7 @@ for src in M['appendices']:
  p=D/src;letter=p.name.split('-')[1].upper()
  body.append('#chapter('+q('APPENDIX '+letter)+','+q(name(p))+','+q(key(p))+')\n')
  s=p.read_text().replace('Entries follow in alphabetical order. Their mechanical text comes directly from\nthe authored monster catalog. The assembled reference omits editorial status lines\nand shared navigation links; it retains every specific action, effect and limit.','Entries follow in alphabetical order. Only creatures whose entries list an ability possess it. Printed entry values and restrictions apply; no ability grants unlisted actions. Every creature card retains the specific effects needed during play.')
- s=s.replace('The full condition table follows in the assembled manuscript.','The full condition table follows.').replace('The five complete wound tables follow the conditions. They retain all 280 authored\nresults and their recovery values.','The five complete wound tables follow the conditions, with all 280 results and their recovery values.')
+ s=s.replace('The full condition table follows in the assembled manuscript.','The full condition table follows.')
  if letter=='D':
   intro,*sections=re.split(r'(?=^## )',s,flags=re.M)
   tools_by_heading={part.splitlines()[0][3:]:part for part in sections}
@@ -201,10 +201,8 @@ for src in M['appendices']:
  if letter=='D':
   p2=D/M['conditions'];s2=p2.read_text();s2=s2[s2.index('| Condition |'):].split('\n\n',1)[0]
   body.append('#chapter("REFERENCE","Conditions",'+q(key(p2))+')\n'+reading(tools_by_heading['Condition reference'],p)+render(s2,p2,wide=True))
-  p2=D/M['wounds'];s2=p2.read_text().split('## Physical\n',1)[1];s2='## Physical\n'+s2
-  s2=s2.replace('Broad activity Banes replace the earlier limb-, Force-, and attribute-specific penalties.','The DA judges when physical activity penalties apply.').replace('Elemental 556 converts the earlier single-turn\nParalysis to **Paralyzed 1** under the shared decay rule.','').replace('Frightened uses the creature or phenomenon responsible as its source and now decays\nnormally; it no longer has the earlier until-safely-away duration.','Frightened uses the creature or phenomenon responsible as its source and decays normally.')
-  s2=re.sub(r'### ([^:\n]+): 500 band\n\n(.*?)\n\n### \1: 600 band\n\n\| Roll \|[^\n]*\n\|[-| :]+\n',lambda m:'### '+m[1]+': 500 band and Last Words\n\n'+m[2]+'\n',s2,flags=re.S)
-  body.append('#chapter("REFERENCE","Wound Tables",'+q(key(p2))+')\n'+reading(tools_by_heading['Wound reference'],p))
+  p2=D/M['wounds'];s2=p2.read_text()
+  body.append('#chapter("REFERENCE","Scars and Survival",'+q(key(p2))+')\n'+reading(tools_by_heading['Scar reference'],p))
   for i,section in enumerate(re.split(r'(?=^## )',s2,flags=re.M)):
    if not section.strip():continue
    if i>1:body.append('#pagebreak(weak:true)\n')
@@ -246,4 +244,4 @@ if opts.compile:
  pdf_python=os.environ.get('PDF_PYTHON') or (str(bundled) if bundled.exists() else sys.executable)
  subprocess.run([pdf_python,str(D/'player-book/optimize_pdf.py'),str(raw),str(final)],check=True)
  print(final)
-print(f'{len(sources)} sources; {len(assets)} distinct interior illustrations/diagrams; 192 creatures, 126 abilities, 73 summons, 280 wounds.')
+print(f'{len(sources)} sources; {len(assets)} distinct interior illustrations/diagrams; 192 creatures, 126 abilities, 73 summons, descriptive scars.')

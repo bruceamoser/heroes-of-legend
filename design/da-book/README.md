@@ -12,7 +12,7 @@ and the Great Library visual style.
 - `../monster-abilities/`: 126 separate monster abilities.
 - `../bestiary/summons/`: 73 player-facing summoned forms.
 - `../rules/languages.md`: shared language reference; `manuscript/04a-languages.md` adds worldbuilding guidance.
-- `../rules/conditions.md` and `../rules/wounds.md`: table references and 280 wound results.
+- `../rules/conditions.md` and `../rules/wounds.md`: conditions and descriptive scar prompts.
 - `../bestiary/art/manifest.json`: unique portraits for all creatures, with stable VTT references.
 - `book.typ`, `template.typ`, `cover.typ`: title pages, layout and cover.
 - `draw_diagrams.py`, `art/`: five editable adventure maps and rules diagrams.

@@ -40,7 +40,7 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 ### Battle Mending
 
-One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
+One adjacent living ally; free hand. Pay 3 SP first; the creature has a 6 SP reserve and must have enough to pay. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
 
 ### Sheltering Light
 

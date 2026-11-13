@@ -2,7 +2,7 @@
 
 *The old elemental scholar with dangerous curiosity.*
 
-**Wood Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.**
+**Wood Elf Arcanist · HP 14/14 · Grit 1 remaining / 1 granted · Speed 7 squares · Bulk 7/7.**
 
 **Languages:** Common, Elven and Dwarven (Another Tongue). See the [language reference](../rules/languages.md).
 
@@ -75,10 +75,10 @@ Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before card
 
 **No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
 
-HP: 12 + ancestry 2 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 1 = **17**.
+HP: 10 + ancestry 2 + class 1 + Fortitude 0 + trait 0 + Conditioned Body 1 = **14**. HP gain per level: **3**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (-1) = **7**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 1 + trait 0 = **7**.
 
-Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 

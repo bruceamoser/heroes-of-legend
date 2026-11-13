@@ -27,10 +27,10 @@ index includes universal actions, shared abilities and class signatures.
 | Resistance | Highest matching type, cap 3; minimum 1 damage per event |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Healing spell cost | Novice 1, Adept 3, Master 7 HP; pay first, stay above 0 |
+| Healing spell cost | Novice 1, Adept 2, Master 4 SP; pay before resolving |
 | Potion | Free hand, Maneuver; another recipient uses Reaction unless at 0 HP |
-| Safe breath | Full HP; Grit and wounds remain |
-| Wound treatment | One attempt per wound per day; 1/2/3 progress toward RV |
+| Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
+| First Aid | Ten minutes + supplies; Knowledge heals 2/4/6; one attempt per recipient between rests |
 | Supplies | Roll inventory die after use; on 1, step down; last use works |
 
 ## Glossary
@@ -72,7 +72,7 @@ pools expire separately; later awards may be saved.
 **DR.** Damage reduction. Armor DR is physical resistance, applied after the attack outcome.
 
 **Dying.** A player character's state at 0 HP before stabilization or recovery.
-Entering it causes a wound; repeated damage while already Dying adds death marks.
+Further damage at 0 causes an immediate death roll; surviving the incident leaves a descriptive scar.
 
 **Effect.** A change produced by a rule. It might be immediate damage, movement,
 a condition or a continuing benefit. Its duration does not repeat instant damage.
@@ -83,8 +83,7 @@ player defenses. They are Boons or Banes, not added numerical totals.
 **Free attack.** An attack granted by a specific rule without spending an action.
 It cannot trigger another free attack.
 
-**Grit.** A limited reserve that can restore a Dying hero to full HP. Ordinary rest
-does not replenish it; the wound remains.
+**Grit.** A lifetime reserve gained once at levels 1/3/7. Spend one to return to half maximum HP, rounded up; it never refreshes.
 
 **Hidden.** A universal concealed state, maintained by actual circumstances. Attacking
 or openly revealing yourself ends it.
@@ -93,8 +92,7 @@ or openly revealing yourself ends it.
 
 **Inventory die.** A supply's remaining uncertainty. Roll after use; step down on 1.
 
-**Last Words.** Speech only, then death at the end of the second following turn.
-Ordinary healing, potions, treatment and Grit cannot reverse it.
+**Death.** Three death marks kill unless Grit or an explicit prevention resolves immediately. A farewell grants no extra actions.
 
 **Maneuver.** A smaller action used for movement techniques, setup, support and practical tasks.
 
@@ -103,14 +101,12 @@ Ordinary healing, potions, treatment and Grit cannot reverse it.
 **Reaction.** Your limited response to a stated trigger. An ordinary defense roll
 is not itself a Reaction.
 
-**Recovery Value.** The accumulated treatment progress needed to remove the wound's
-listed lasting effects. Scar count remains after recovery.
+**Treatment allowance.** One attempt per recipient between safe overnight rests, shared across First Aid and learned treatments.
 
 **Resistance.** Reduction to a matching damage type; highest source, maximum 3.
 Life resistance also reduces ordinary healing.
 
-**Safe place.** A location the DA judges suitable for spending saved DP. A safe breath
-is the shorter recovery pause that restores HP when immediate danger is resolved.
+**Safe place.** A location the DA judges suitable for spending saved DP. Recovery requires the full safe overnight rest procedure.
 
 **Signature.** A class-exclusive ability. Its prerequisites are class and minimum level,
 not discipline ranks or earlier signatures.
@@ -120,8 +116,7 @@ It does not reduce damage, Prone or other conditions.
 
 **Tier.** Novice, Adept or Master, with minimum levels 1, 3 and 7 and standard prices 2, 4 and 8 DP. Paid abilities without discipline requirements print exceptions: Novice 1 or 2 DP, Adept 3 DP, and Master 6 or 8 DP.
 
-**Wound.** A lasting injury record caused by entering Dying. Its active penalty may
-be treated; its scar continues to count for later wound rolls.
+**Scar.** A descriptive reminder of surviving an incident at 0 HP; no mechanical penalties or treatment track.
 
 ## Record useful playtest feedback
 
@@ -130,3 +125,7 @@ Note a confusing phrase as well as the ruling you made. Record striking moments:
 a rescue, a clever use of terrain, an ability that never found a useful opportunity.
 Those observations help improve the game more than a bare claim that something is
 strong or weak.
+
+## Survival at a glance
+
+At 0: Dying, prone and unconscious. Fortitude each turn: Weak +1 mark; Standard unchanged; Strong stabilize at 0; natural 111 +2 marks; natural 666 regain 1 HP. Further damage at 0 triggers another immediate roll. Three marks kill unless prevented immediately. Stabilize: adjacent Maneuver, no roll, clear marks, conscious but unable to fight at 0. Grit: gain one at levels 1/3/7, spend permanently for half maximum HP rounded up, including after the third strike.

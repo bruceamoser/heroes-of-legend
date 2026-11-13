@@ -10,7 +10,7 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
   `../equipment/`, `../recipes/`, `../paths/`, `../characters/`: source catalog entries.
 - `../bestiary/summons/`: the player-facing summoned forms, not DA creature stat blocks.
 - `../rules/languages.md`: shared language rules and choices, also included in the DA book.
-- `../rules/wounds.md`: all five complete wound tables.
+- `../rules/wounds.md`: descriptive scar prompts.
 - `template.typ`: typography, page furniture, ability headers, tables and callouts.
 - `book.typ`, `sheets.typ`, `cover.typ`: assembly, printable sheets and approved cover.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
@@ -42,7 +42,7 @@ loaded from the repository, including the italic face used for narrative text.
 No external Typst package is required by the player book.
 
 `audit.py` checks named-record coverage, source freshness, extracted PDF ability
-outcomes and wound text, origin grants, presentation freshness, class transparency,
+outcomes and recovery text, origin grants, presentation freshness, class transparency,
 retired boilerplate, and page text bounds.
 The two-pass export measures unused page areas before placing a finite set of relevant
 object illustrations and landscapes. Each scene, portrait or object illustration is

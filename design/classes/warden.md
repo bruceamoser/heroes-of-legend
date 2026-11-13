@@ -6,7 +6,7 @@
 
 **Agreed concept:** wilderness guide, tracker and hunter. Nature magic and animal companions are optional shared purchases, not required class features.
 
-**Class foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +4. No multiclassing.
+**Class foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.
 

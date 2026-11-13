@@ -1,6 +1,6 @@
 # Fit a Replacement
 
-*Choose one willing patient and a suitable already-made, correctly sized prosthesis. Fit and adjust the prosthesis to its patient. At the end of the work, it relieves the wound penalties its recipe or remedy explicitly replaces.*
+*Choose one willing patient and a suitable already-made, correctly sized prosthesis. Fit and adjust the prosthesis to its patient. At the end of the work, it restores the ordinary support or grip described by its recipe. A descriptive scar never requires a prosthesis.*
 
 ## Rules
 
@@ -10,7 +10,7 @@
 
 **Target / range / shape:** One willing patient and a suitable already-made, correctly sized prosthesis.
 
-Fit and adjust the prosthesis to its patient. At the end of the work, it relieves the wound penalties its recipe or remedy explicitly replaces.
+Fit and adjust the prosthesis to its patient. At the end of the work, it restores the ordinary support or grip described by its recipe. A descriptive scar never requires a prosthesis.
 
 ---
 

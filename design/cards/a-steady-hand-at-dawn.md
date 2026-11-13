@@ -1,14 +1,14 @@
 # A Steady Hand at Dawn
 
-*Complete hour-long wound treatments in ten minutes and add 2 recovery progress on a Weak treatment roll.*
+*Complete ten-minute first aid or treatment in one minute; add 1 HP to its Weak result.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** A wound you treat with a learned treatment ability.
+**Target / range / shape:** A creature receiving your First Aid or learned treatment.
 
-When you use a wound treatment ability with a printed time of one hour, complete it in ten minutes. On a Weak treatment roll, add 2 recovery progress.
+Complete ten-minute First Aid or learned treatment in one uninterrupted minute. On a Weak result restore 1 additional HP. Supplies and the recipient’s shared treatment allowance are still required.
 
 ---
 

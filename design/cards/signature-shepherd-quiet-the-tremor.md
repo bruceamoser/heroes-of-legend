@@ -1,18 +1,18 @@
 # Mend the Wound
 
-*Choose one willing creature with a Soft Tissue or Bone wound. Make a Reason roll. Add progress to that wound's treatment track. On a Standard result, add 3 progress.*
+*You provide skilled care and help a companion recover strength.*
 
 ## Rules
 
 **Action:** 10 minutes · **Attribute:** Reason
 
-**Target / range / shape:** One willing creature with a Soft Tissue or Bone wound.
+**Target / range / shape:** One willing, Dying or stabilized living creature within reach.
 
-Make a Reason roll. Add progress to that wound's treatment track. Weak: 2 progress. Standard: 3 progress. Strong: 5 progress, and reduce one temporary condition caused by the wound by 1. This counts as the wound's one treatment attempt for the day. You can do it without a treatment kit; steady hands and a quiet word substitute for tools. It does not remove the wound outright, restore HP, or erase a scar.
+Make a Reason roll. Restore 4/6/8 HP on Weak/Standard/Strong. On Strong, also reduce temporary Bleeding, Burning or Freezing by 1. This uses the recipient's one treatment allowance between safe overnight rests. You need no consumable supply for this care. It does not remove starred conditions or erase scars.
 
 **Duration:** The treatment.
 
-**Equipment / acquisition:** A free hand and basic treatment tools.
+**Equipment / acquisition:** A free hand.
 
 ---
 
@@ -22,7 +22,7 @@ Make a Reason roll. Add progress to that wound's treatment track. Weak: 2 progre
 
 **Tags:** Skill / Recovery / Utility
 
-**Limits:** One attempt per wound per day, as normal treatment.
+**Limits:** One treatment attempt per recipient between safe overnight rests.
 
 **ID:** signature-shepherd-quiet-the-tremor
 

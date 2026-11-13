@@ -240,8 +240,7 @@ disappears. Movement of either participant, including forced movement, can break
 the tether. It also disappears if the controller becomes unconscious or dies.
 
 > **Example: the Moon Hart.** A commanded summoned hart uses Battle Mending. Its
-> controller pays 3 HP before resolution, bypassing resistance and remaining above
-> 0. The hart does not also pay. Roll the hart's Reason and heal 5/10/15, reduced
+> controller pays 3 SP before resolution and must have enough SP. The hart does not also pay. Roll the hart's Reason and heal 5/10/15, reduced
 > by the eligible recipient's Life resistance, minimum 1 where HP is missing. The
 > hart itself cannot be healed. An ordinary unsummoned hart pays its own healing cost.
 

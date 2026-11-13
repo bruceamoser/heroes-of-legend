@@ -12,7 +12,7 @@ requirements. An origin granting Life 1 can put the idea within reach at level 0
 
 ## At the table
 
-You stand where the fight’s consequences become personal. Clear a death mark, oppose a restless dead creature, or pay dearly to rescue someone at the moment they fall. Respect for death makes the choices sharper; these cards do not casually erase Last Words.
+You stand where the fight’s consequences become personal. Clear a death mark, oppose a restless dead creature, or pay dearly to rescue someone at the moment they fall. Respect for death makes the choices sharper; these cards do not casually restore the dead.
 
 ## Give it room to grow
 

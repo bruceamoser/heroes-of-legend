@@ -96,14 +96,15 @@ for x in m['cards']:
   if norm(val) not in n:missing_outcomes.append({'card':x['name'],'text':val})
 if missing_names:errors.append(f'{len(missing_names)} card names missing')
 if missing_outcomes:errors.append(f'{len(missing_outcomes)} outcome lines require inspection')
-wounds=[line for line in (R/'design/rules/wounds.md').read_text().splitlines() if re.match(r'^\| [1-6]{3} \|',line) and len(line.split('|'))==7]
-if len(wounds)!=280:errors.append('Wound source count is not 280')
-missing_wound_cells=[]
-for line in wounds:
- cells=line.strip('|').split('|')
- for cell in cells[1:4]:
-  if norm(cell) not in n:missing_wound_cells.append(cell.strip())
-if missing_wound_cells:errors.append(f'{len(missing_wound_cells)} wound cells require inspection')
+wounds=[];missing_wound_cells=[]
+scar_rows=[line for line in (R/'design/rules/wounds.md').read_text().splitlines() if line.startswith('| ')][1:]
+for row in scar_rows:
+ for cell in row.strip('|').split('|'):
+  if norm(cell.strip()) not in n:errors.append('Missing scar prompt: '+cell.strip())
+for required in ['Scars and Survival','half maximum HP','First Aid','death marks']:
+ if norm(required) not in n:errors.append('Missing recovery rule: '+required)
+for obsolete in ['Roll 3d6 plus one die per prior wound','One treatment attempt per wound per day']:
+ if norm(obsolete) in n:errors.append('Obsolete wound procedure: '+obsolete)
 bbox=subprocess.check_output(['pdftotext','-bbox',str(pdf),'-'],text=True)
 root=ET.fromstring(bbox);ns={'x':'http://www.w3.org/1999/xhtml'}
 pages=root.findall('.//x:page',ns);outside=[]

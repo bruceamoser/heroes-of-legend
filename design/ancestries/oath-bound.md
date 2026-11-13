@@ -12,7 +12,7 @@ Life among other peoples gives them relationships, work and ambitions of their o
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +2; base Speed 6.
+**Starting values:** HP contribution +2 at creation and per level; base Speed 6.
 
 **Constructed life:** Use the shared [Oath-Bound recovery rules](../rules/ancestry-procedures.md).
 

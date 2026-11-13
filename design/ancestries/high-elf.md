@@ -12,7 +12,7 @@ A High Elf might be a laborer, a wanderer or a scholar. Strength and deliberatio
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +3; base Speed 6.
+**Starting values:** HP contribution +2 at creation and per level; base Speed 6.
 
 - [The Practised Hand](trait-high-elf-practised-hand.md) — You turn the tiny fitting once, then set it exactly where it belongs.
 - [Still Water](trait-high-elf-old-courtesies.md) — You let the clamor spend itself before deciding what deserves your attention.

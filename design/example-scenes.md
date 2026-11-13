@@ -27,7 +27,7 @@ getting people across, so damage is one tool among several.
 
 ## A healer’s last comfortable choice
 
-The Shepherd has enough HP to pay for a stronger heal but doing so leaves them
+The Shepherd has enough SP to pay for a stronger heal but doing so leaves them
 exposed. They can use the small heal, spend more of themselves, or call for someone
 to deliver a potion. A shield-bearing ally has to free a hand first. Healing is
 powerful and available; the scene asks who accepts the danger, not whether a slot
@@ -35,7 +35,7 @@ remains on a sheet.
 
 ## After the shouting stops
 
-The group catches its breath and HP returns. A scar remains. The healer checks the
-wound’s treatment and adds progress during the next safe day. The craft specialist
+The group uses its remaining supplies for First Aid, then seeks a safe overnight
+rest. The scar remains; it requires no treatment track. The craft specialist
 begins planning a replacement for a permanent loss. The victory changes the people
 who won it without turning every future turn into arithmetic.

@@ -1,6 +1,6 @@
 # Take the Wound
 
-*Choose one ally within 5 squares. Trigger: an ally within 5 squares gains a wound. You take that wound instead. The ally does not gain it. You make the wound roll with 1 Boon. The triggering damage, Dying state, and death marks are unchanged. Only the wound moves. You can take the wound only if you could be affected by it normally.*
+*Choose one ally within 5 squares. Trigger: an ally within 5 squares would take damage that reduces it to 0 HP. Take the entire damage event instead, applying your own weaknesses and resistances once. The ally takes none of that event’s damage or attached conditions; you take its attached conditions. If you fall to 0, resolve your own Dying procedure.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One ally within 5 squares.
 
-Trigger: an ally within 5 squares gains a wound. You take that wound instead. The ally does not gain it. You make the wound roll with 1 Boon. The triggering damage, Dying state, and death marks are unchanged; only the wound moves. You can take the wound only if you could be affected by it normally.
+Trigger: an ally within 5 squares would take damage that reduces it to 0 HP. Take the entire damage event instead, applying your own weaknesses and resistances once. The ally takes none of that event’s damage or attached conditions; you take its attached conditions. If you fall to 0, resolve your own Dying procedure.
 
 **Duration:** As the wound.
 

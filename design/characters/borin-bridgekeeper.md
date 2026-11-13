@@ -2,7 +2,7 @@
 
 *The shield-bearing guardian who brings everyone home.*
 
-**Hill Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 11/13.**
+**Hill Dwarf Protector · HP 20/20 · Grit 1 remaining / 1 granted · Speed 5 squares · Bulk 11/13.**
 
 **Languages:** Common and Dwarven. See the [language reference](../rules/languages.md).
 
@@ -75,10 +75,10 @@ Fresh pool: **10 + 1 = 11 DP**. All discipline purchases below occur before card
 | One-handed broad-headed hammer | [Hook and Drive](../cards/hook-and-drive.md) | 1 |
 | Round shield | [Shielding Step](../cards/shielding-step.md) | 1 |
 
-HP: 12 + ancestry 4 + class 5 + Fortitude 2 + trait 1 + Conditioned Body 1 = **25**.
+HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 + Conditioned Body 1 = **20**. HP gain per level: **6**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (1) = **13**. Granted Bulk **3** + purchased Bulk **8** = **11**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 0 + trait 0 = **5**.
 
-Physical resistance: **1 while wearing the granted light armor**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **1 while wearing the granted light armor**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 

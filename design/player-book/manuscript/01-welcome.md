@@ -37,7 +37,7 @@ Attacks connect. A poor roll changes how much harm and pressure an attack create
 it does not usually erase the turn. A stronger result may push an enemy away, expose
 a weakness, leave them burning, or put an ally where they need to be.
 
-You recover HP after a safe breath, but wounds and spent Grit follow you. Victories
+You recover HP through healing and safe overnight rest; scars and spent Grit follow you. Victories
 can leave permanent scars. A hero who rises again is not untouched by what happened.
 
 ## Learn one roll
@@ -110,8 +110,7 @@ try something anyone could reasonably attempt.
 
 Agree on the tone of the campaign and why your heroes travel together. Discuss what
 kinds of danger, injury and horror people want included or left offstage. Anyone can
-ask to pause a scene or change an uncomfortable detail. The wound tables describe
-fictional injuries; their descriptions can be adjusted while retaining the rules.
+ask to pause a scene or change an uncomfortable detail. Surviving at 0 leaves a player-chosen descriptive scar, without mechanical penalties.
 
 Choose names, something each hero wants, and a connection between companions. Decide
 how to share maps and record supplies. The DA should explain what your characters

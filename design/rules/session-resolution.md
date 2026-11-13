@@ -27,9 +27,9 @@ Leaving melee reach voluntarily, casting a spell beside an enemy, standing,
 stowing and retrieving items are the intended triggers established in discussion.
 Drawing as part of an attack stays part of that attack. **Timing:** commit
 the action when declared; check targets and capability again after interruption;
-pay an additional printed HP/item cost only when continuing into its resolution.
+pay an additional printed SP/HP/item cost only when continuing into its resolution.
 If interrupted permanently, the committed action is spent but an unspent potion or
-HP cost is not consumed.
+SP or HP cost is not consumed.
 
 ## Player-controlled creatures — agreed
 

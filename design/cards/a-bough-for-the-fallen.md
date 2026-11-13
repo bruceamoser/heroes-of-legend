@@ -1,6 +1,6 @@
 # A Bough for the Fallen
 
-*Spend 3 HP and roll Reason to heal a creature within 3 squares and give it a chance to move toward you without provoking.*
+*Spend 2 SP and roll Reason to heal a creature within 3 squares and give it a chance to move toward you without provoking.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One visible willing creature within 3 squares, including yourself, or one creature in range harmed by healing.
 
-Pay 3 HP and make a Reason healing roll.
+Pay 2 SP and make a Reason healing roll.
 
 - **Weak:** Restore 5 HP; the recipient may move 1 square toward you without provoking.
 - **Standard:** Restore 9 HP; it may move 2 squares toward you without provoking.

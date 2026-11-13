@@ -2,7 +2,7 @@
 
 *The investigator-tinker who wins fights by understanding them.*
 
-**Human Intellect · HP 17/17 · Grit 2/2 · Speed 6 squares · Bulk 9/10.**
+**Human Intellect · HP 14/14 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 9/10.**
 
 **Languages:** Common, River Speech and Dwarven (A Foot in Two Worlds). See the [language reference](../rules/languages.md).
 
@@ -78,10 +78,10 @@ Fresh pool: **13 + 1 Adaptable + 2 = 16 DP**. All discipline purchases below occ
 | Compact craft tools | [Trail Workshop](../cards/trail-workshop.md) | 1 |
 | One-handed walking cane, described as a melee weapon | [Anatomy of an Opening](../cards/anatomy-of-an-opening.md) | 1 |
 
-HP: 12 + ancestry 2 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 1 = **17**.
+HP: 10 + ancestry 2 + class 1 + Fortitude 0 + trait 0 + Conditioned Body 1 = **14**. HP gain per level: **3**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **2** + purchased Bulk **7** = **9**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 0 = **6**.
 
-Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 

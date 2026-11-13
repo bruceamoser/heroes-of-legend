@@ -12,7 +12,7 @@ Endurance, craft and a lasting memory are familiar expressions of Hill Dwarf ide
 
 Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
 
-**Starting values:** HP +4; base Speed 5.
+**Starting values:** HP contribution +3 at creation and per level; base Speed 5.
 
 - [Hard as Bedrock](trait-dwarf-deep-constitution.md) — Your ancestors did not dig a home from the mountain by yielding politely.
 - [Stone Mason](trait-dwarf-stone-reader.md) — You know a mason’s lie by the stone around it.

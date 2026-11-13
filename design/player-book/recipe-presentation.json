@@ -27,7 +27,7 @@
   "simple-replacement-leg": {
     "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
     "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
-    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 8**. On completion, receive one correctly sized prosthetic leg. The recipient still needs [Fit a Replacement](../cards/fit-a-replacement.md) before any eligible wound penalty is relieved. The wound must allow replacement."
+    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 8**. On completion, receive one correctly sized prosthetic leg. The recipient still needs [Fit a Replacement](../cards/fit-a-replacement.md) to support ordinary standing and walking. Descriptive scars do not require a replacement."
   },
   "lesser-healing-bottle": {
     "granted_by": "[Bottled Morning](../cards/bottled-morning.md) on learning; also Ordinary Recipe Study when compatible.",

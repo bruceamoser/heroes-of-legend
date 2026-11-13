@@ -2,7 +2,7 @@
 
 *The grove healer who can become the beast defending it.*
 
-**Human Shepherd · HP 18/18 · Grit 2/2 · Speed 6 squares · Bulk 7/10.**
+**Human Shepherd · HP 15/15 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 7/10.**
 
 **Languages:** Common and Reed Speech (an ordinary regional language). See the [language reference](../rules/languages.md).
 
@@ -45,7 +45,7 @@ Free signature: [Mend](../cards/signature-shepherd-gentle-return.md). Its use pr
 
 **Target / range / shape:** One living ally within 3 squares.
 
-Moser's law of conservation of Life energy: pay 1 HP before rolling. This cost bypasses resistance and must leave you above 0 HP. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying creature cannot be targeted; stabilize it first. This restores no wounds and cannot reverse Last Words.
+pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This erases no scars and cannot restore the dead.
 
 **Duration:** Immediate.
 
@@ -73,10 +73,10 @@ Fresh pool: **12 + 1 Adaptable + 1 = 14 DP**. All discipline purchases below occ
 
 **No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
 
-HP: 12 + ancestry 2 + class 3 + Fortitude 1 + trait 0 + Conditioned Body 0 = **18**.
+HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 + Conditioned Body 0 = **15**. HP gain per level: **4**. SP: **6/6**. First aid: **available**..
 Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 0 = **6**.
 
-Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
+Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
 
 Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
@@ -84,7 +84,7 @@ Starting coins and market purchases are resolved in the shopping ledger below. C
 
 ## At the table
 
-Sap and Breath pays 1 HP before healing 3/5/7 HP; Mara must remain above zero and have a free hand. Mend is her free signature: pay 1 HP, then restore 3/6/9 HP to one ally within 3 squares. Roots Remember Feet controls ground, while Borrow the Beast provides close fighting at the cost of spellcasting, speech and item use. Returning costs a Maneuver, so healing and beast fighting are a real choice. No potion or herb supply is silently granted.
+Sap and Breath pays 1 SP before healing 3/5/7 HP; Mara must have the SP and a free hand. Mend is her free signature: pay 1 SP, then restore 3/6/9 HP to one ally within 3 squares. Roots Remember Feet controls ground, while Borrow the Beast provides close fighting at the cost of spellcasting, speech and item use. Returning costs a Maneuver, so healing and beast fighting are a real choice. No potion or herb supply is silently granted.
 
 ## Complete learned-card checklist
 

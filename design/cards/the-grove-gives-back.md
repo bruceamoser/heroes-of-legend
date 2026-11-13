@@ -1,6 +1,6 @@
 # The Grove Gives Back
 
-*Choose up to three visible willing creatures within 3 squares, including yourself, or creatures in range harmed by healing. Pay 7 HP once and make a Reason healing roll. Divide the pool among the chosen recipients, assigning at least 1 HP to each. On a Standard result, share 20 HP, allocating up to 12 HP per recipient.*
+*Choose up to three visible willing creatures within 3 squares, including yourself, or creatures in range harmed by healing. Pay 4 SP once and make a Reason healing roll. Divide the pool among the chosen recipients, assigning at least 1 HP to each. On a Standard result, share 20 HP, allocating up to 12 HP per recipient.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Up to three visible willing creatures within 3 squares, including yourself, or creatures in range harmed by healing.
 
-Pay 7 HP once and make a Reason healing roll. Divide the pool among the chosen recipients, assigning at least 1 HP to each.
+Pay 4 SP once and make a Reason healing roll. Divide the pool among the chosen recipients, assigning at least 1 HP to each.
 
 - **Weak:** Share 12 HP, allocating up to 8 HP per recipient.
 - **Standard:** Share 20 HP, allocating up to 12 HP per recipient.

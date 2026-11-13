@@ -1,6 +1,6 @@
 # Conditions
 
-Agreed condition rules, consolidated after the wound-table review (issue #1125).
+Shared condition rules.
 Use these timing and sensory rules throughout the current catalog.
 
 ## Ratings, decay, and persistence
@@ -16,8 +16,8 @@ condition. Dazed 3 or greater grants no action categories.
 
 An asterisk means **no automatic decay**: Blinded 1* is blindness that persists
 until its specified remedy. It does not mean every such injury is incurable.
-A wound states whether treatment, replacement, or another remedy removes it.
-Maintained Grappled does not decay. Binary conditions and lasting wound penalties
+The source states which remedy removes it.
+Maintained Grappled does not decay. Binary conditions and lasting effects
 use their own removal rules.
 
 Spend a **Main Action** to reduce an appropriate condition on yourself or an
@@ -36,23 +36,10 @@ to each tick, with the normal minimum 1 damage for a damaging event.
 ## Temporary and lasting conditions
 
 A temporary numbered contribution resolves and decays at the end of the affected
-creature's turn. A starred contribution has no automatic decay. A lasting wound
-penalty remains until its printed remedy. Maintained Grappled and binary Prone
+creature's turn. A starred contribution has no automatic decay. A lasting effect remains until its printed remedy. Maintained Grappled and binary Prone
 instead use their own release, escape or standing rules.
 
-An asterisk means persistent, not necessarily incurable. To remove a lasting
-effect, find the ability or wound that caused it and follow its stated remedy.
-For a wound with a treatment label and Recovery Value (RV), use the matching
-treatment capability. One attempt per wound per day adds 1/2/3 progress; reaching
-RV removes the effects named by that remedy. A dash in RV means no treatment
-track. Replacement and exceptional remedies follow their own printed procedure.
-Scars remain after functional recovery.
-
-For example, Physical wound 366 causes Blinded 1* and lists Soft Tissue treatment,
-RV 5. Standard treatment adds 2 progress, and Strong treatment on a later day adds
-3; reaching 5 restores sight. Temporary Blinded 2 instead clears through two
-end-of-turn decay steps. A safe breath restores HP while a lasting condition
-continues to follow its remedy.
+An asterisk means persistent, not necessarily incurable. Follow the ability or hazard's remedy. Temporary Blinded 2 clears after two end-of-turn decay steps; Blinded 1* from a curse remains until that curse's remedy is met. Safe overnight rest restores HP but does not override that remedy. Scars apply no conditions.
 
 ## Condition reference
 
@@ -94,7 +81,7 @@ Blinded 2 is full blindness for two decay steps, not stronger blindness than 1.
 **Provisional prone combat rider for tests:** none beyond movement until approved.
 Do not import automatic melee Boons or ranged Banes from another game's prone rule.
 
-See [wounds](wounds.md) for lasting effects and [foundations](foundations.md) for movement.
+See [recovery](recovery.md) for HP and treatment and [foundations](foundations.md) for movement.
 
 ## Action-category timing — latest agreement
 

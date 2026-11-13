@@ -18,7 +18,7 @@ For example, Small Target gives a gnome 1 Boon to defense rolls. Against an atta
 
 ## Oath-Bound recovery
 
-Oath-Bound count as living creatures for healing and use the ordinary hero rules for HP, wounds, rest and recovery.
+Oath-Bound count as living creatures for healing and use the ordinary hero rules for HP, scars, rest and recovery.
 
 ## Paying HP costs
 
@@ -26,8 +26,8 @@ When an ability asks you to spend HP, pay its printed amount. This cost bypasses
 
 ## HP unavailable for recovery
 
-When an ability makes spent HP unavailable for recovery until a stated time, record that HP and its release time. During that period, healing and a safe breath can restore HP up to maximum HP minus the unavailable amount. Record this separately from wounds and maximum HP.
+When an ability makes spent HP unavailable for recovery until a stated time, record that HP and its release time. During that period, healing and overnight rest can restore HP up to maximum HP minus the unavailable amount. Record this separately from scars and maximum HP.
 
-For example, an Oath-Bound with maximum HP 20 uses The Debt Comes Due and spends 1 HP. Until the next dawn, healing or a safe breath can restore them to 19 HP. At dawn, that HP becomes available for ordinary recovery again.
+For example, an Oath-Bound with maximum HP 20 uses The Debt Comes Due and spends 1 HP. Until the next dawn, healing or overnight rest can restore them to 19 HP. At dawn, that HP becomes available for ordinary recovery again.
 
 A reroll replaces the original roll for the same action or event. Use the original attribute and applicable Boons and Banes, roll again, and resolve the new result, including its retained natural dice.

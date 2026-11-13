@@ -7,19 +7,19 @@ origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 
 | Character | Trope | Ancestry / class | HP | Speed | Bulk / capacity | L0 spent / pool | L1 spent / pool |
 |---|---|---|---:|---:|---:|---:|---:|
-| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Hill Dwarf Protector | 25 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
-| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Wood Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
-| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 11 / 11 | 12 / 12 |
-| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Wood Elf Arcanist | 17 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
-| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 6 | 7 / 10 | 12 / 13 | 13 / 14 |
-| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 6 | 9 / 10 | 13 / 14 | 15 / 16 |
+| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Hill Dwarf Protector | 20 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
+| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Wood Elf Blade | 16 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
+| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 13 | 7 | 10 / 10 | 11 / 11 | 12 / 12 |
+| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Wood Elf Arcanist | 14 | 7 | 7 / 7 | 13 / 13 | 13 / 13 |
+| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 15 | 6 | 7 / 10 | 12 / 13 | 13 / 14 |
+| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 14 | 6 | 9 / 10 | 13 / 14 | 15 / 16 |
 
 Pip and Vaelis spend their full creation pools. Oren retains his listed purchases;
 Adaptable leaves 1 DP to expire at each stage, as it does for Mara. Oren’s borrowed
 Hill Dwarf trait is An Honest Maker’s Hand, with Dwarven as its native-language grant.
 Lira’s listed Speed is 8 outside wooded terrain and 9 within it.
 
-All start at full HP, Grit 2, no wounds and no death marks. Unspent creation DP
+All start at full HP, Grit 1, no scars and no death marks. Unspent creation DP
 expires separately at each stage. Ancestry and culture are independent: Mara is a
 human of Forest Communities, and Oren is a human raised in Deep Halls.
 

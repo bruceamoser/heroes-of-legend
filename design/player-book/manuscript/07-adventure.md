@@ -57,7 +57,7 @@ your own group roll, not both to the same attempt.
 > would stay shut and the declared consequence would follow. Pushing a boulder
 > uphill might instead retain those 6 progress for a later attempt.
 
-Crafting, deriving recipes and wound treatment do not use group checks. Their
+Crafting, deriving recipes and treatment do not use group checks. Their
 individual procedures and daily limits remain in force.
 
 ## Travel and the outdoors
@@ -113,15 +113,13 @@ attribute appropriate to the approach. Guile might carry a deceptive bargain;
 Knowledge might establish a technical argument; Reason might find the important
 contradiction. A useful fact or appropriate gesture can make a roll unnecessary.
 
-A scar's intimidation Boon or persuasion Bane applies when the scar actually
-influences the interaction. The DA decides that circumstance, just as they decide
-whether a wound affects a physical activity. Personality and allegiance remain
-choices, not penalties assigned by a condition table.
+Scars are descriptive. They grant no intimidation Boon, persuasion Bane or other
+modifier. The DA judges the merits of an approach; personality and allegiance
+remain choices.
 
 ## Magic in your hands
 
-Magic is learned through abilities and disciplines. There are no spell slots or
-mana pools. A spell uses the same action, attribute and outcome structure as another
+Magic is learned through abilities and disciplines. There are no spell slots. Printed spell-point costs spend your SP reserve. A spell uses the same action, attribute and outcome structure as another
 ability, with its printed requirements and costs. An attack spell still produces
 its Weak result on a Weak roll; it does not simply fizzle.
 
@@ -134,32 +132,29 @@ Defensive interference and disruption are supplied by abilities. There is no
 universal spell-cancellation roll. Casting beside an enemy can provoke an opportunity
 attack; resolve it before continuing the spell if still capable.
 
-Beast forms keep your own HP, attributes and wounds. They are not replaceable HP
+Beast forms keep your own HP, attributes and scars. They are not replaceable HP
 pools. Use the form's printed actions and equipment restrictions. A form does not
 import an entire monster entry or grant spellcasting if its rules forbid it.
 
-## Moser's law of conservation of Life energy
+## Healing spends spell points
 
-Healing magic transfers life energy; it does not create it freely. A Novice healing
-spell costs its caster **1 HP**, an Adept spell **3 HP**, and a Master spell **7 HP**.
-Pay the full cost before rolling. This cost bypasses all resistance and must leave
-the caster above 0 HP. You cannot begin a healing spell by sacrificing your last HP.
-The cost applies regardless of the tradition used to describe the spell.
+A Novice healing spell costs **1 SP**, an Adept spell **2 SP**, and a Master spell
+**4 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
+Pay the full SP cost before rolling. You must have enough SP; your HP is not the
+casting resource. Healing requires a free hand. Restore the printed HP, apply the
+recipient's Life resistance, and restore at least 1 if HP is missing. Never exceed
+maximum HP. A Dying or stabilized living recipient needs no consent or Reaction.
+Healing erases no scars and cannot restore the dead. Potions use their own fixed
+healing and inventory die, without a spell outcome roll or SP cost.
 
-Healing requires a free hand. Restore the outcome's printed fixed HP, reduce it by
-the recipient's Life resistance, and restore at least 1 if HP is missing. Never
-exceed maximum HP. Healing does not erase wounds or reverse Last Words. Potions have
-their own fixed value and inventory procedure, without a spell outcome roll or caster cost.
-
-> **Example — energy has a price.** A Novice healer at 5 HP pays 1 and falls to 4,
-> then rolls the spell. If its outcome restores 4 HP to a companion with Life
-> resistance 2, the companion regains 2. The caster cannot use the same spell at
-> 1 HP, because paying first would leave them at 0.
+> **Example: a finite reserve.** A healer with 6 SP spends 1 SP on Sap and Breath.
+> Standard restores 5 HP; Life resistance 2 reduces that to 3. The healer has 5 SP
+> left. Healing the caster's HP cannot replenish that reserve.
 
 A healing spell can attack a creature whose profile says healing harms it. Use the
-spell's attack attribute, range and cost. Its HP result becomes Life damage; beneficial
-recovery riders do not help that target. This follows the ordinary player-roll
-procedure, with no extra opposed save.
+spell’s attribute, range and SP cost. Its HP result becomes Life damage; beneficial
+recovery riders do not help that target. Use the ordinary player-roll procedure,
+without a second opposed save.
 
 ## Make, identify and derive
 
@@ -187,7 +182,7 @@ The DA determines whether a place is safe enough to spend saved DP. Level awards
 are milestones, not payment for each defeated creature. Keep a record of purchases,
 prerequisites, recipes and scars so your development remains clear.
 
-A wound may require repeated daily treatment even after you are ready to adventure.
+First Aid uses supplies and time; safe overnight rest restores HP and SP.
 An inn, a friendly workshop, a healer's garden or a camp among allies can become part
 of the story. Rest restores what its rule says it restores. It does not refund Grit,
 remove a permanent scar, or refill a bottle whose inventory die is out.

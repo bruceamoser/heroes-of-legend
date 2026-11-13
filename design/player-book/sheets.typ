@@ -33,7 +33,7 @@
  #grid(columns:(2fr,1fr,1fr),gutter:7pt,
   field("HP: CURRENT                         MAXIMUM",height:42pt),
   field("GRIT: CURRENT / TOTAL GRANTED",height:42pt),
-  field("SCARS / DEATH MARKS",height:42pt))
+  field("DEATH MARKS",height:42pt))
  #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:7pt,field("SPEED (SQUARES)"),field("STABILITY"),field("BULK / CAPACITY"))
  #strip("Protection & preparation")
  #grid(columns:(1fr,1fr),gutter:7pt,field("RESISTANCES (HIGHEST OF EACH TYPE; CAP 3)",height:38pt),field("LEFT HAND / RIGHT HAND",height:38pt))
@@ -63,14 +63,15 @@
 #page-sheet([
  #sheet-title("Belongings & scars")
  #v(8pt)#grid(columns:(2fr,1fr,1fr),gutter:7pt,field("CHARACTER NAME"),field("COINS"),field("BULK / CAPACITY"))
+ #v(5pt)#grid(columns:(1fr,1fr),gutter:7pt,field("SP: CURRENT / MAXIMUM"),field("FIRST AID: AVAILABLE / USED"))
  #strip("Carried equipment")
- #rows(([ITEM / SUPPLY],[BULK],[DIE],[LOCATION / SPECIAL EFFECT]),(1.7fr,35pt,35pt,1.8fr),14,height:18pt)
+ #rows(([ITEM / SUPPLY],[BULK],[DIE],[LOCATION / SPECIAL EFFECT]),(1.7fr,35pt,35pt,1.8fr),12,height:18pt)
  #v(5pt)#text(size:8.5pt)[Capacity = 10 + 3 × Brawn. Speed loses 1 per excess Bulk. Inventory: d20 → d12 → d10 → d8 → d6 → d4 → out. After use, a 1 steps down.]
  #strip("Recipes, tools & materials")
- #rows(([RECIPE / PERMISSION],[TOOLS / MATERIALS / PROJECT PROGRESS]),(1fr,1.6fr),5,height:18pt)
- #strip("Wounds & permanent scars")
- #rows(([WOUND / SCAR],[LASTING EFFECT],[TREATMENT / RV],[PROGRESS / LAST DAY]),(1.2fr,1.4fr,1.2fr,1fr),5,height:22pt)
- #v(7pt)#text(size:8.5pt)[One treatment attempt per wound per day. Weak/Standard/Strong gives 1/2/3 recovery progress. Treatment removes the stated penalty; the scar still counts on future wound rolls.]
+ #rows(([RECIPE / PERMISSION],[TOOLS / MATERIALS / PROJECT PROGRESS]),(1fr,1.6fr),4,height:18pt)
+ #strip("Scars & remembered rescues")
+ #rows(([SCAR],[INCIDENT],[WHO HELPED / WHAT YOU REMEMBER]),(1fr,1.2fr,2fr),4,height:22pt)
+ #v(7pt)#text(size:8.5pt)[Scars are descriptive only. First Aid: one attempt per recipient between safe overnight rests; ten minutes + supplies; Knowledge heals 2/4/6 HP. Grit: 1 at levels 1/3/7, never refreshed; spend for half maximum HP, rounded up.]
 ])
 #page-sheet([
  #sheet-title("Creation ledger")

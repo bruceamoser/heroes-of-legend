@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Agility, Guile; HP contribution +3. No multiclassing.
+**Agreed:** minimum 0 in Agility, Guile; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
 **Starting disciplines:** choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.
 

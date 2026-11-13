@@ -1,6 +1,6 @@
 # Stabilize
 
-*Choose one adjacent Dying player character. Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no wound, and does not restore Grit. Taking damage while stable enters Dying again.*
+*Choose one adjacent Dying player character. Stabilize at 0 HP and clear death marks. No roll. This grants no HP, erases no scar, and does not restore Grit. The recipient is conscious but cannot fight or move voluntarily at 0. Taking damage while stable enters Dying again and causes an immediate death roll.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One adjacent Dying player character
 
-Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no wound, and does not restore Grit. Taking damage while stable enters Dying again.
+Stabilize at 0 HP and clear death marks. No roll. This grants no HP, erases no scar, and does not restore Grit. The recipient is conscious but cannot fight or move voluntarily at 0. Taking damage while stable enters Dying again and causes an immediate death roll.
 
 **Duration:** Instant
 

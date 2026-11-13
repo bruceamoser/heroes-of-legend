@@ -123,7 +123,7 @@ task and space available. Do not quietly raise it whenever another helper joins.
 A three-person attempt yields 3–9 progress before special effects. Use that range
 to avoid accidentally assigning an unreachable target. A target represents the
 amount of combined work, not a new difficulty threshold for each roll.
-Group checks do not apply to combat, crafting, recipe derivation or wound treatment.
+Group checks do not apply to combat, crafting, recipe derivation or treatment.
 In combat, a hero can spend their own Force action on an obstacle under its normal
 rules; the group does not pool simultaneous rolls.
 
@@ -192,30 +192,21 @@ without simulating a battle nobody is playing.
 
 When a condition is applied, name its source and explain how it ends. A temporary
 numbered contribution resolves and decreases by 1 at the affected creature's turn
-end. A starred contribution has no automatic decay. Lasting wound penalties use
-the wound's printed remedy. Grappled and Prone use their own escape, release or
-standing procedures.
-
-Treat **lasting** as a duration category, not a promise that recovery is impossible.
-Point the player to the wound's Treatment / remedy and Recovery Value (RV). With
-the matching treatment capability, one attempt per wound per day adds 1/2/3
-progress; reaching RV removes the listed effects while the scar remains. A dash
-means no treatment track. A lost part or explicitly permanent injury instead uses
-its stated replacement or exceptional remedy.
-
-Keep temporary and starred contributions separate. If dust adds temporary
-Blinded 2 to an eye injury's Blinded 1*, clearing the dust leaves the eye injury.
-The [condition reference](../../rules/conditions.md) and
-[wound procedure](../../rules/wounds.md) supply the full removal rules.
+end. A starred contribution has no automatic decay; follow its source's remedy.
+Grappled and Prone use their own escape, release or standing rules. Scars never
+apply conditions. Keep temporary and starred contributions separate: clearing
+temporary Blinded 2 does not end Blinded 1* from an unresolved curse. See the
+[condition reference](../../rules/conditions.md).
 
 ## Return to the scene
 
 When immediate opposition ends, resolve remaining urgent consequences before
 moving on. A Dying character still needs their survival procedure. Burning can be
 put out when companions have the time and means to do so; combat need not continue
-merely to count safe, uncontested extinguishing actions. A lasting wound, curse or
+merely to count safe, uncontested extinguishing actions. A curse or
 persistent condition remains until its own remedy applies.
 
-Once the heroes can safely take a breath, restore full HP. Preserve Grit expenditure,
+A pause does not restore HP. Offer First Aid when supplies and ten minutes are
+available, or safe overnight rest when the situation permits it. Preserve Grit expenditure,
 scars and other continuing effects. Ask what they do with the scene they have
 changed: whom they help, what they search, and whether they stay or leave.

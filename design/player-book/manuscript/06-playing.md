@@ -131,8 +131,8 @@ unless their own rules prevent them.
 > been reduced to zero, the event would still deal its minimum 1 total damage.
 
 Physical includes impacts, sonic force and supernatural force when the attack says
-physical. Fire, Cold and Lightning have separate resistances even though their wounds
-share the Elemental table. Life resistance also reduces ordinary HP healing.
+physical. Fire, Cold and Lightning have separate resistances. Life resistance reduces magical
+healing and potions, but not First Aid or overnight recovery.
 
 Same-kind numerical bonuses do not add together unless explicitly stated. Conditions
 with meaningful ratings can add; binary Prone cannot. Boons and Banes use their own
@@ -251,5 +251,5 @@ A fight ends when the immediate opposition is resolved, not because everyone dec
 to ignore an active death roll. Resolve Dying before leaving combat timing. When it
 is safe to pause and companions can attend to an ordinary fire or similar immediate
 hazard, settle that hazard as the scene allows. Other conditions remain until their
-own removal, expiry or remedy. A safe breath restores HP; it does not remove wounds,
-refund Grit, cure every condition or reverse Last Words.
+own removal, expiry or remedy. Safe overnight rest restores HP and SP; it does not erase scars, refund Grit,
+cure every condition or restore the dead. A brief pause gives no recovery.

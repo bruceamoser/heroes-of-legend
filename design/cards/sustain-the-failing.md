@@ -1,6 +1,6 @@
 # Sustain the Failing
 
-*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 3 HP and make a Reason healing roll. On a Standard result, restore 10 HP.*
+*Choose one willing creature within 3 squares, including yourself, or one creature in range harmed by healing. Pay 2 SP and make a Reason healing roll. On a Standard result, restore 10 HP.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One willing creature within 3 squares, including yourself, or one creature in range harmed by healing.
 
-Pay 3 HP and make a Reason healing roll.
+Pay 2 SP and make a Reason healing roll.
 
 - **Weak:** Restore 5 HP.
 - **Standard:** Restore 10 HP.

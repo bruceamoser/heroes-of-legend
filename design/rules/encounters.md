@@ -2,7 +2,7 @@
 
 **Agreed targets:** four player characters are the reference party; typical combat
 about 4 rounds, hard about 6, extreme about 10. Typical reasonably prepared parties
-should have roughly a 20–30% chance of at least one new wound without a healer,
+should have roughly a 20–30% chance of at least one hero falling to 0 HP without a healer,
 5–15% with one. These are feel targets, not mandatory outcomes for every battle.
 
 ## Proposed budget procedure
@@ -51,7 +51,7 @@ estimate unreliable. Record uncertainty rather than publishing false precision.
 1. Build a few ordinary melee/ranged creatures with full printed attack and defense
    attributes, HP, resistances, Stability, actions and outcomes.
 2. Test actual level-1 parties with documented supplies and healing access.
-3. Fit B(1) and creature CV to duration, wound incidence, defeat risk and action loss.
+3. Fit B(1) and creature CV to duration, falls to 0 HP, defeat risk and action loss.
 4. Test 3-, 4- and 5-character parties and easy/hard/extreme multipliers. Include
    open and obstructed terrain; party-size scaling may need an enemy-count warning.
 5. Add control, healing and summons one feature at a time; refine U or replace the
