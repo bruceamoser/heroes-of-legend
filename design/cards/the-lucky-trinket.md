@@ -1,29 +1,7 @@
 # The Lucky Trinket
 
-*You carry a personal trinket you believe is magical. It may or may not be. Once a day, when you make a non-combat roll, you can use the trinket to gain 2 Boons on that roll.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-You carry a personal trinket you believe is magical. It may or may not be. Once a day, when you make a non-combat roll, you can use the trinket to gain 2 Boons on that roll.
-
-**Duration:** The trinket remains; the 2 Boons apply to one non-combat roll.
-
-**Equipment / acquisition:** Requires a personal trinket.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 3 · **Requirements to learn:** None
-
-**Type:** Utility
-
-**Tags:** Universal / Skill / Luck / Passive
-
-**Limits:** Once a day; one non-combat roll.
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-lucky-trinket
-
-[Card conventions](../card-conventions.md)

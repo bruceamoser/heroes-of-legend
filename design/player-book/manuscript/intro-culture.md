@@ -5,12 +5,11 @@ knowledge and ways of meeting hardship. An elf raised among dwarven halls may kn
 their songs and stonework; a human from a wandering company may feel at home wherever
 people gather around a fire. Choose a culture independently of your ancestry.
 
-Choose **one complete paired option** from its entry. You gain the listed rank-1
-discipline and ability together at level 0. Its coin contribution also helps determine
+Choose **one complete paired option** from its entry. You gain the listed discipline access and ability together at level 0. Its coin contribution also helps determine
 your starting purse. These gifts describe what you learned, not what you must believe
 or how you must behave. See [Disciplines and Character Paths](05-disciplines.md) for
 how your new discipline opens further choices.
 
-Each duplicate grant gives **1 level-0 DP** instead of an automatic higher rank
+Each duplicate grant gives **1 level-0 DP** instead of an automatic improvement
 or a replacement choice. Spend it before closing that stage. Follow the granted
-ability’s equipment line; an item is supplied only if its grant calls for one.
+ability’s requirements; equipment must be bought unless explicitly granted.

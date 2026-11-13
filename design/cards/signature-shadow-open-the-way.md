@@ -16,7 +16,7 @@ Use appropriate tools to work toward the DA's stated target. Each attempt takes 
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 3
 
 **Type:** Signature
 

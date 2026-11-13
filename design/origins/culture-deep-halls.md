@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Craft 1** and [Trail Workshop](../cards/trail-workshop.md).
-- **Armor 1** and [Wake the Iron Rune](../cards/wake-the-iron-rune.md).
+- **Craft access** and [Mend and Fit I](../disciplines/craft.md).
+- **Armor access** and [Armored Training I](../disciplines/armor.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

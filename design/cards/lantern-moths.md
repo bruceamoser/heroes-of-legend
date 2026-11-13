@@ -1,21 +1,7 @@
 # Lantern Moths
 
-*Choose up to three visible unoccupied squares within 4 squares. Create up to three lights for the scene. Each illuminates its square and adjacent squares. With a Maneuver, move each light up to 2 squares along an open route, keeping it within 6 squares of you. You can end any of your lights freely. Recasting replaces your previous lights.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to three visible unoccupied squares within 4 squares.
-
-Create up to three lights for the scene. Each illuminates its square and adjacent squares. With a Maneuver, move each light up to 2 squares along an open route, keeping it within 6 squares of you. You can end any of your lights freely; recasting replaces your previous lights.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Radiance 1
-
-**Type:** Magic / Utility
+This former independent ability is retired. Use [Protection I](../spellbooks/protection.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** lantern-moths
-
-[Card conventions](../card-conventions.md)

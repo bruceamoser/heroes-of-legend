@@ -29,8 +29,9 @@ rules source.
   Boons/Banes cancel; up to three net extra dice, retaining best/worst three.
 - Weak ≤8 is progress, Standard 9–14, Strong ≥15. Natural retained 111 adds a
   complication to Weak; 666 adds a benefit to Strong.
-- No separate skill bonuses, spell slots or prerequisite-card chains. Cards have
-  level gates 1/3/7 and printed discipline requirements; buy discipline ranks in order.
+- No skill bonuses or expended spell slots. Disciplines open sequential learned
+  paths; I/II/III improve an ability and the endpoint requires level 3. Combined
+  abilities require all exact endpoints and level 7, at 3/4/5 DP for 2/3/4 disciplines.
 - Main Action → Maneuver → movement conversions; a Reaction is separate.
 - Players roll. NPC attacks use player defense outcomes, reversed from attacker
   outcomes. NPC-only resolution is in `design/rules/session-resolution.md`.

@@ -83,7 +83,7 @@
 
 #pagebreak()
 #heading(level:1)[Magical endpoints]
-#text(size:10pt)[These are the exact spell-list endpoints required by the mixed abilities. Each requires its three earlier learned sections, level 3 and 3 DP. It teaches pages 7–8 and all three advanced pages together. Learning only the discipline or an earlier page does not qualify.]
+#text(size:10pt)[These are the exact spell-list endpoints used by combined abilities. Each requires its three earlier learned sections, level 3 and 3 DP. It teaches pages 7–8 and all three advanced pages together. Learning only the discipline or an earlier page does not qualify.]
 #v(8pt)
 #reading-columns(combinations.magic.map(m=>catalog-card(m.name,m.anchor)[
  #text(weight:"bold")[#m.discipline / #m.branch]
@@ -93,6 +93,6 @@
  #v(4pt)
  *Advanced pages:* #m.advanced
  #v(5pt)
- *Further study at level 7:*
+ #if combinations.abilities.any(c=>c.requires.contains(m.id)) {text(weight:"bold")[Further study at level 7:]}
  #for c in combinations.abilities.filter(c=>c.requires.contains(m.id)) {linebreak();xref(c.id,c.name);[ (p. #pageref(c.id))]}
 ]))

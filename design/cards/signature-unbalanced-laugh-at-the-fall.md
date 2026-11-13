@@ -16,7 +16,7 @@ Make a Brawn roll against the target. Weak: it has Grappled 1. Standard: throw i
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

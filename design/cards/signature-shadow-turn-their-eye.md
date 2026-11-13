@@ -16,7 +16,7 @@ State the social goal you are pursuing and what you want the target to do. Make 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 

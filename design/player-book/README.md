@@ -16,7 +16,8 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
-- `recipe-presentation.json`: reader-facing grant, crafting and completion text.
+- `../spellbooks/`, `../combined-abilities.md` and `../rules/learning.md`: canonical learning chapter.
+- `integrate_learning.py`: assembles learned paths, spell tables and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
@@ -61,7 +62,7 @@ python3 design/bestiary/audit.py
 
 ## Current baseline and release
 
-Bruce approved the current system through October 17, 2026. Current authored
+The November playtest revision integrates health, sequential learning, spellbook pages and combined disciplines. Current authored
 rules and catalog entries are the authority; Git history holds previous editions.
 New mechanics require a new review. CV calibration remains playtest work.
 

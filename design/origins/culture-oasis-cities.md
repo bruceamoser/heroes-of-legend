@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Influence 1** and [Measured Appeal](../cards/measured-appeal.md).
-- **Scholarship 1** and [Read the Remains](../cards/read-the-remains.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
+- **Scholarship access** and [Read the Evidence I](../disciplines/scholarship.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

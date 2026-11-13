@@ -1,25 +1,7 @@
 # Secure a Hold
 
-*Choose one adjacent enemy. Make a Brawn grappling attack. Weak — Apply Grappled 1. Standard — Apply Grappled 2. Strong — Apply Grappled 3.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Brawn
-
-**Target / range / shape:** One adjacent enemy.
-
-Make a Brawn grappling attack.
-
-- **Weak:** Apply Grappled 1.
-- **Standard:** Apply Grappled 2.
-- **Strong:** Apply Grappled 3.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Athletics 1
-
-**Type:** Skill / Control
+This former independent ability is retired. Use [Sure Ascent I](../disciplines/athletics.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** secure-a-hold
-
-[Card conventions](../card-conventions.md)

@@ -1,35 +1,7 @@
 # Keep Your Bearings
 
-*Choose a navigation task in an unfamiliar place with usable landmarks. Make a navigation check to make progress toward the navigation task. On a Standard result, add 2 progress.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Reason
-
-**Time:** One minute per attempt.
-
-**Target / range / shape:** A navigation task in an unfamiliar place with usable landmarks.
-
-Make a navigation check to make progress toward the navigation task.
-
-- **Weak:** 1 progress.
-- **Standard:** 2 progress.
-- **Strong:** 3 progress.
-
-**Duration:** The progress persists for the navigation task.
-
-**Equipment / acquisition:** None.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
-
-**Type:** Utility
-
-**Tags:** Universal / Skill / Exploration
-
-**Limits:** Repeatable; pay the action and any stated costs each use.
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** keep-your-bearings
-
-[Card conventions](../card-conventions.md)

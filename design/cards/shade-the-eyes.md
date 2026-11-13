@@ -1,21 +1,7 @@
 # Shade the Eyes
 
-*Self or one visible willing ally within 3 squares before one event deals radiant damage. Grant radiant resistance 3 against the triggering event. Reduce temporary Blinded applied by that event by 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self or one visible willing ally within 3 squares before one event deals radiant damage.
-
-Grant radiant resistance 3 against the triggering event. Reduce temporary Blinded applied by that event by 1.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Radiance 1
-
-**Type:** Magic / Defense / Recovery
+This former independent ability is retired. Use [Protection I](../spellbooks/protection.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** shade-the-eyes
-
-[Card conventions](../card-conventions.md)

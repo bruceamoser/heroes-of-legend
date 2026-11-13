@@ -21,7 +21,9 @@ book=Path(a.book);pgs=pages(a.player);dapgs=pages(a.da)
 cards=[]
 sources=[('ability',f) for f in sorted((book/'design/cards').glob('*.md'))]+[('trait',f) for f in sorted((book/'design/ancestries').glob('trait-*.md'))]
 for kind,f in sources:
- s=f.read_text();title=re.search(r'^# (.+)',s).group(1);sid=re.search(r'\*\*ID:\*\* (\S+)',s).group(1)
+ s=f.read_text()
+ if '## Replaced learning reference' in s:continue
+ title=re.search(r'^# (.+)',s).group(1);sid=re.search(r'\*\*ID:\*\* (\S+)',s).group(1)
  narrative=s.split('\n\n')[1].strip('*')
  fields={}
  for label,value in re.findall(r'\*\*([^*]+):\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',s):fields[label]=value.strip()

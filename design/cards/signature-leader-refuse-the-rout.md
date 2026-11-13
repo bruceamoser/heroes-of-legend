@@ -16,7 +16,7 @@ Each recipient reduces one Frightened or Dazed condition by up to 2, to a minimu
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Leader; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 7
 
 **Type:** Signature
 

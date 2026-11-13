@@ -16,7 +16,7 @@ Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Warden; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 1
 
 **Type:** Signature
 

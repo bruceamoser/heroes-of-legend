@@ -16,7 +16,7 @@ Requires a ranged weapon and ammunition. Make a Basic Ranged attack as part of t
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Warden; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 7
 
 **Type:** Signature
 

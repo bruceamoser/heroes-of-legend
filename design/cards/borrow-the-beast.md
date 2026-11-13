@@ -1,27 +1,7 @@
 # Borrow the Beast
 
-*Use a Reaction to move toward cover when a nearby creature passes it. If your destination conceals you, try to Hide with 1 Boon.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-Become a wolf, great cat, boar or similar one-square land beast for the scene. Gain 1 Boon to rolls following a trail by scent. Equipment folds into the form and supplies its benefits again when you return. To speak, cast spells or use carried items, return to your own shape with a Maneuver.
-
-**Claw or bite: Main Action, Brawn; one adjacent enemy.**
-
-- **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; push 1 square.
-- **Strong:** 5 physical damage; push 1 square and apply Prone.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
-
-**Type:** Magic / Attack / Utility
+This former independent ability is retired. Use [Read the Trail I](../disciplines/wilderness.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** borrow-the-beast
-
-[Build this character](../paths/beast-within.md) · [Card conventions](../card-conventions.md)

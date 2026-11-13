@@ -1,23 +1,7 @@
 # Wake the Nerves
 
-*Choose one adjacent willing living creature. Reduce temporary Dazed by 2 or temporary Paralyzed by 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** One adjacent willing living creature.
-
-Reduce temporary Dazed by 2 or temporary Paralyzed by 1.
-
-**Equipment / acquisition:** A free hand.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Life 2 and Medicine 1
-
-**Type:** Magic / Recovery
+This former independent ability is retired. Use [Restoration I](../spellbooks/restoration.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** wake-the-nerves
-
-[Card conventions](../card-conventions.md)

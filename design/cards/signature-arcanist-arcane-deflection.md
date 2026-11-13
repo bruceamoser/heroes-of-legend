@@ -16,7 +16,7 @@ Roll your defense normally. You take no damage from the spell. Choose a corner o
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 

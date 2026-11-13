@@ -22,7 +22,7 @@ This is one signature attack against all chosen targets. Choose all targets befo
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 

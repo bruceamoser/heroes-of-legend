@@ -16,7 +16,7 @@ Make a Guile roll against the target. An intent is what the creature wants from 
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 3
 
 **Type:** Signature
 

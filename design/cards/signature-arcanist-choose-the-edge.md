@@ -16,7 +16,7 @@ You take 2 Banes on defense rolls until the start of your next turn. Choose two 
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 7
 
 **Type:** Signature
 

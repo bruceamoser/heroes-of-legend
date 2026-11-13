@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Marksmanship 1** and [Read the Quarry](../cards/read-the-quarry.md).
-- **Arms 1** and [Invitation to the Blade](../cards/invitation-to-the-blade.md).
+- **Marksmanship access** and [Watchful Shot I](../disciplines/marksmanship.md).
+- **Arms access** and [Measured Cut I](../disciplines/arms.md).
 
 **Type:** Culture
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

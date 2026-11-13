@@ -1,21 +1,7 @@
 # Crosswind
 
-*Self or one visible willing ally within 3 squares before defending against a single-target physical projectile attack. The target gains 2 Boons to the defense.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self or one visible willing ally within 3 squares before defending against a single-target physical projectile attack.
-
-The target gains 2 Boons to the defense.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Storm 1
-
-**Type:** Magic / Defense
+This former independent ability is retired. Use [Air I](../spellbooks/air.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** crosswind
-
-[Card conventions](../card-conventions.md)

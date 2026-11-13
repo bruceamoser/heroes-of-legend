@@ -27,7 +27,8 @@ index includes universal actions, shared abilities and class signatures.
 | Resistance | Highest matching type, cap 3; minimum 1 damage per event |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Healing spell cost | Novice 1, Adept 2, Master 4 SP; pay before resolving |
+| Maximum SP, level 1+ | 6 + 2 × (level − 1) + learned capacity and explicit benefits |
+| Healing spell cost | Printed spell cost; pay before resolving |
 | Potion | Free hand, Maneuver; another recipient uses Reaction unless at 0 HP |
 | Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
 | First Aid | Ten minutes + supplies; Knowledge heals 2/4/6; one attempt per recipient between rests |
@@ -52,7 +53,7 @@ Banes cancel before applying their net cap.
 
 **Bulk.** An item's inventory load. Capacity and carried Bulk determine encumbrance.
 
-**Class.** Your signature identity and discipline pricing. Choose one; there is no multiclassing.
+**Class.** Your signature identity and starting discipline access. Choose one; there is no multiclassing.
 
 **Complication.** An additional problem that does not erase progress already earned.
 
@@ -63,10 +64,9 @@ may measure severity, duration or both.
 
 **DA.** Dungeon Architect, the participant who presents and adjudicates the world.
 
-**Discipline.** A ranked field of study used to qualify for learned abilities. Rank
-alone grants no bonus or action.
+**Discipline.** A field opening four learning paths. Access costs 1 DP and grants no ability. Learn each path in order at 1/2/2/3 DP; its final step requires level 3.
 
-**DP.** Development Points, spent on eligible ranks and abilities. Level-0 and level-1
+**DP.** Development Points, spent on discipline access and eligible learned entries. Level-0 and level-1
 pools expire separately; later awards may be saved.
 
 **DR.** Damage reduction. Armor DR is physical resistance, applied after the attack outcome.
@@ -109,12 +109,12 @@ Life resistance also reduces ordinary healing.
 **Safe place.** A location the DA judges suitable for spending saved DP. Recovery requires the full safe overnight rest procedure.
 
 **Signature.** A class-exclusive ability. Its prerequisites are class and minimum level,
-not discipline ranks or earlier signatures.
+not discipline access or earlier signatures.
 
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Tier.** Novice, Adept or Master, with minimum levels 1, 3 and 7 and standard prices 2, 4 and 8 DP. Paid abilities without discipline requirements print exceptions: Novice 1 or 2 DP, Adept 3 DP, and Master 6 or 8 DP.
+**Learning gates.** First three path entries: level 0. Final entry: level 3. Combined abilities: level 7, costing 3/4/5 DP for two/three/four disciplines, with all named endpoints required.
 
 **Scar.** A descriptive reminder of surviving an incident at 0 HP; no mechanical penalties or treatment track.
 

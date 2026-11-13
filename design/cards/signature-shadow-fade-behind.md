@@ -16,7 +16,7 @@ Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed,
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 

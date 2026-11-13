@@ -16,7 +16,7 @@ Each time you take damage while raging, gain 1 Boon to your next attack this rou
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

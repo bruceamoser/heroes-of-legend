@@ -16,7 +16,7 @@ Make one free Basic Melee attack against it, rolling Brawn and using Basic Melee
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Blade; minimum level 3
 
 **Type:** Signature
 

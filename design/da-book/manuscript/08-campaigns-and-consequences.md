@@ -16,36 +16,28 @@ goal or reach a significant turning point. A negotiated settlement can qualify
 just as well as a battle. Tell the group what kind of progress you intend to
 recognize so they do not feel required to seek unnecessary fights.
 
-At level 2 and every later level, award **8 + the new level DP**. These points can
-be saved and spent in a place you judge safe. The character-creation DP adjustments
-from Knowledge, Reason and Guile apply only at levels 0 and 1, not to later awards.
+The DA awards milestone levels. From level 2 onward, gain 8 + the new level DP. These points may be saved and spent in a DA-approved safe place. Mental attributes modify only the two creation pools. Add the ancestry and class HP contributions at each new level; increased maximum HP does not erase damage already taken.
 
-| New level | DP award | Additional milestone |
-|---:|---:|---|
-| 2 | 10 | — |
-| 3 | 11 | +1 Grit; one chosen level-3 class signature; Adept cards become available |
-| 4 | 12 | — |
-| 5 | 13 | — |
-| 6 | 14 | — |
-| 7 | 15 | +1 Grit; one chosen level-7 class signature; Master cards become available |
-| 8 | 16 | — |
-| 9 | 17 | — |
-| 10 | 18 | — |
+At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. Other levels grant DP, HP and SP growth without adding a compulsory new active ability. There is no multiclassing or access to another class's signatures.
 
-Grit grants add the new point; they do not refund previous expenditure. Attributes stay fixed. Each new level adds the ancestry and class HP contributions;
-fixed HP benefits are added only once. Discipline ranks are purchased in sequence at class prices,
-and the hero must meet a card's requirements before buying it. There are no
-prerequisite-card chains or access to a second class's signatures.
+| New level | DP | Other milestone |
+|---|---:|---|
+| 2 | 10 | HP and +2 SP growth |
+| 3 | 11 | HP and +2 SP growth; level-3 endpoints; one signature; 1 Grit |
+| 4 | 12 | HP and +2 SP growth |
+| 5 | 13 | HP and +2 SP growth |
+| 6 | 14 | HP and +2 SP growth |
+| 7 | 15 | HP and +2 SP growth; combined abilities; one signature; 1 Grit |
+| 8 | 16 | HP and +2 SP growth |
+| 9 | 17 | HP and +2 SP growth |
+| 10 | 18 | HP and +2 SP growth |
 
-> **Example: reaching level 3.** A hero receives 11 DP, gains one Grit and chooses
-> a level-3 signature from their class. They can now buy eligible Adept cards, but
-> still need those cards' discipline requirements. Their attributes stay fixed; add ancestry + class contributions to maximum HP.
-> Add the same gain to current HP unless they are at 0.
+Record each learned entry, its required previous entry, DP spent and remaining pool. Record spellbook pages rather than treating them as expended slots. All learned abilities remain available; there is no equipped-card hand limit.
 
-Review the group's new choices before preparing the next adventure. A new route,
-healing option or area attack can change what an obstacle asks of the party.
-Do not immediately make every new ability ineffective; give the players a chance
-to enjoy the choice they made.
+
+From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve.
+
+Discipline access costs 1 DP for every class. Learned steps cost 1/2/2/3 DP in order; final entries require level 3. Combined abilities require every named endpoint, level 7, and 3/4/5 DP for two/three/four disciplines.
 
 ## Safe places and downtime
 

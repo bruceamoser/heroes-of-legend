@@ -16,7 +16,7 @@ Once per scene, when you would be reduced to 0 HP while raging, you remain at 1 
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 7
 
 **Type:** Signature
 

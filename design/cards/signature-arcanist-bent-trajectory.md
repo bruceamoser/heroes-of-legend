@@ -16,7 +16,7 @@ Choose one of your spell attacks. It can originate from any visible, unoccupied 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Arcanist; minimum level 1
 
 **Type:** Signature
 

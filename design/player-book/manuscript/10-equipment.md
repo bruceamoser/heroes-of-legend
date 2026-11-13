@@ -7,7 +7,7 @@ which hand will reach your potion when the fight goes badly.
 ## Coins and trade
 
 HOL uses one currency: **coins**. A listed price buys the described ordinary item or
-full supply. Training, discipline ranks and signature access are purchased through
+full supply. Training and discipline access are learned through
 character development, not coins. Owning armor does not teach you to use its gated
 capabilities.
 
@@ -18,19 +18,15 @@ A merchant does not have unlimited stock or an obligation to buy everything you 
 
 ## Armor and training
 
-Choose armor you have learned to wear. Each training grants one ordinary matching
-suit, Bulk 1, if you do not already own one. Its resistance applies only while
-wearing that armor. Buying a suit with coins grants neither training nor resistance.
+Armor training grants no equipment. Buy or otherwise acquire a suit separately. Its resistance applies only while worn and with the matching learned training.
 
-| Training | Armor rank | Minimum level | DP | Physical resistance |
-|---|---:|---:|---:|---:|
-| [Wear Light Armor](../../cards/wear-light-armor.md) | 1 | 1 | 2 | 1 |
-| [Wear Medium Armor](../../cards/wear-medium-armor.md) | 2 | 3 | 4 | 2 |
-| [Wear Heavy Armor](../../cards/wear-heavy-armor.md) | 3 | 7 | 8 | 3 |
+| Training | Requirement | DP | Physical resistance |
+|---|---|---:|---:|
+| [Armored Training I](../../disciplines/armor.md) | Armor access | 1 | Light: 1 |
+| Armored Training II | Armored Training I | 2 | Medium: 2 |
+| Armored Training III | Armored Training II | 2 | Heavy: 3 |
 
-Novice training can be granted or purchased during level-0 creation. Buy discipline
-ranks in order, but you do not need a lower-tier armor training card to learn a
-higher one. Matching resistances use the highest value, normally capped at 3.
+All three may be learned at level 0. Each keeps the earlier permissions. Use the highest applicable resistance, never their sum. Even after resistance, every attack deals at least 1 damage.
 
 ## Bulk and hands
 

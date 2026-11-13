@@ -16,7 +16,7 @@ When you use Aid, you may assist two allies instead of one. Name the task for ea
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 

@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Influence 1** and [A Verse for Courage](../cards/a-verse-for-courage.md).
-- **Mind 1** and [A Door That Is Not There](../cards/a-door-that-is-not-there.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
+- **Mentalism access** and [Thought I](../spellbooks/thought.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

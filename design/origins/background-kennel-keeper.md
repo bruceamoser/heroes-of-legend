@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Calling 1** and [Summon Animal — Novice](../cards/call-the-faithful-hound.md).
-- **Wilderness 1** and [Guide a Frightened Animal](../cards/guide-a-frightened-animal.md).
+- **Invocation access** and [Spirits I](../spellbooks/spirits.md).
+- **Wilderness access** and [Gentle Hand I](../disciplines/wilderness.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

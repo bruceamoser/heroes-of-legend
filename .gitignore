@@ -17,3 +17,6 @@ Thumbs.db
 /design/da-book/generated/
 /design/da-book/output/
 /dist/
+
+# Standalone book layout proofs
+/output/pdf/

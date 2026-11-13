@@ -16,7 +16,7 @@ You and one adjacent willing ally each gain 2 Boons to defense until the start o
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 

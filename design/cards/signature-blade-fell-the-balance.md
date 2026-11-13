@@ -16,7 +16,7 @@ Make a Basic Melee attack against the triggering enemy. After the attack resolve
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Blade; minimum level 3
 
 **Type:** Signature
 

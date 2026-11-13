@@ -22,7 +22,7 @@ for asset in sorted((BOOK/'art/interior').glob('*.png')):
  with Image.open(asset) as im:
   art_report.append(dict(key=asset.stem,width=im.width,height=im.height,mode=im.mode,sha256=hashlib.sha256(asset.read_bytes()).hexdigest()))
 (GEN/'art-report.json').write_text(json.dumps(art_report,indent=2)+'\n')
-for folder in ['ancestries','origins','classes','disciplines','cards','paths','equipment','recipes','characters','bestiary/summons']:
+for folder in ['ancestries','origins','classes','disciplines','cards','paths','equipment','recipes','characters','bestiary/summons','spellbooks']:
  for p in (DESIGN/folder).glob('*.md'):
   if p.name!='README.md' and (folder!='paths' or p.stem in SELECTED_PATHS): files[p.resolve()]=key(p)
 for p in (BOOK/'manuscript').glob('*.md'): files[p.resolve()]=key(p)
@@ -32,6 +32,10 @@ aliases={'development.md':'02-creation.md','rules/foundations.md':'06-playing.md
 for a,b in aliases.items(): files[(DESIGN/a).resolve()]=key(BOOK/'manuscript'/b)
 for a,target in [('ancestry.md','ancestries/human.md'),('class.md','classes/protector.md'),('culture-background.md','origins/culture-border-marches.md')]: files[(DESIGN/a).resolve()]=key(DESIGN/target)
 
+redirects=json.loads((DESIGN/'migration/learning-redirects.json').read_text())
+for slug,entry in redirects.items():files[(DESIGN/'cards'/f'{slug}.md').resolve()]=key(DESIGN/entry['target'])
+for old,new in {'flame':'elements','frost':'elements','storm':'elements','mind':'mentalism','calling':'invocation','radiance':'wards'}.items():
+ files[(DESIGN/'disciplines'/f'{old}.md').resolve()]=key(DESIGN/'disciplines'/f'{new}.md')
 # Historical authoring metadata is omitted; the approval is recorded centrally.
 def clean(p):
  s=p.read_text()
@@ -196,7 +200,7 @@ def card(p):
  if '**Summoning' not in s and 'Choose one bestiary entry explicitly approved for' in s:
   s=re.sub(r'Choose anew each casting;.*?Apply \[Command a Summon\].*?\n', 'Use its profile in [Summoned Companions](../player-book/manuscript/11-summons.md) and the shared summoning procedure.\n',s,flags=re.S)
  icons=''.join('#discipline-mark('+q(d.lower())+','+q(r)+')' for d,r in re.findall(r'([A-Za-z]+) ([123])',req) if (DESIGN/'disciplines'/(d.lower()+'.md')).exists())
- return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Universal' if tier=='Universal' else price+' DP',key(p)]))+')[\n'+render(s,p)+']\n'
+ return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Universal' if tier=='Universal' else ('Class choice' if tags=='Signature' else price+' DP'),key(p)]))+')[\n'+render(s,p)+']\n'
 
 def flow(entries,gap='5pt'):
  return '#reading-columns(('+','.join('['+c+']' for c in entries)+',), gap:'+gap+')\n'
@@ -215,8 +219,7 @@ def manuscript(filename,n,title,artbrief=None):
  v='#chapter('+q(n)+','+q(title)+')\n#metadata('+q(key(p))+')'+ '<'+key(p)+'>\n'
  if artbrief:v+='#illustration('+q({'01-welcome.md':'welcome','06-playing.md':'combat','07-adventure.md':'adventure'}.get(filename,artbrief))+', height: 125pt, fit: "cover")\n'
  if filename=='05-disciplines.md':
-  overview,directions=p.read_text().split('## Choose a direction',1)
-  v+='#grid(columns:(1fr,1fr),gutter:18pt,['+render(overview,p)+'],['+render('## Choose a direction'+directions,p)+'#v(10pt)#illustration("fields-of-study",height:265pt)])\n'
+  v+=reading(p.read_text(),p)+'#illustration("fields-of-study",height:265pt)\n'
  elif filename=='09-abilities.md':
   v+=reading(p.read_text(),p)+'#tail-art("learned-relics")\n'
  elif filename=='11-summons.md':
@@ -260,18 +263,6 @@ CLASS_ORDER=['protector','blade','arcanist','shepherd','intellect','leader','unb
 DISCIPLINES=sorted(p.stem for p in (DESIGN/'disciplines').glob('*.md'))
 SUMMARIES=json.loads((BOOK/'ability-summaries.json').read_text())
 
-def rank_costs(p):
- text=p.read_text()
- if 'Adjacent for every discipline' in text:return {d:(2,4,8) for d in DISCIPLINES}
- result={d:(3,6,12) for d in DISCIPLINES}
- for band,cost in [('Home',(1,2,4)),('Adjacent',(2,4,8)),('Opposed',(4,8,16))]:
-  m=re.search(band+r': ([^.]+)\.',text)
-  if m:
-   for d in m.group(1).lower().split(', '):
-    assert d in result,(p,d)
-    result[d]=cost
- return result
-
 def class_page(p):
  record(p,'class');s=clean(p);raw=p.read_text()
  narrative=re.search(r'^\*([^*]+)\*$',s,re.M).group(1)
@@ -279,14 +270,12 @@ def class_page(p):
  attrs=(attrs.group(1).replace(' and ', ', ')+' ≥ 0') if attrs else 'No minimums'
  hp=re.search(r'HP contribution (\+\d+)',raw).group(1)
  coins=re.search(r'\*\*Starting coin contribution:\*\* (\+\d+)',raw).group(1)
- starting=re.search(r'choose two distinct rank-1 disciplines from ([^.]+)',raw).group(1)
- if p.stem=='odd':starting='any two disciplines'
+ starting=re.search(r'choose two distinct disciplines from ([^.]+)',raw).group(1)
+ if p.stem=='odd':starting=', '.join(['Arms','Armor','Guard','Marksmanship','Athletics','Subterfuge','Wilderness','Medicine','Craft','Scholarship','Influence','Elements','Life','Mentalism','Divination','Invocation','Force','Wards','Spellcraft'])
  else:starting=starting+'.'
- core='*'+narrative+'*\n\n**Attributes:** '+attrs+'. **HP:** '+hp+'. **Coins:** '+coins+'.\n\n**Starting ranks:** Choose two distinct rank-1 disciplines from '+starting+'\n'
+ core='*'+narrative+'*\n\n**Attributes:** '+attrs+'. **HP:** '+hp+'. **Coins:** '+coins+'.\n\n**Starting access:** Choose two distinct disciplines from '+starting+'\n'
  if p.stem=='odd':core=core.replace('from any two disciplines','the full list below.')
- costs=rank_costs(p)
- cost_table='| Discipline | 1 | 2 | 3 |\n|---|---:|---:|---:|\n'+'\n'.join('| ['+d.title()+'](../disciplines/'+d+'.md) | '+' | '.join(map(str,costs[d]))+' |' for d in DISCIPLINES)
- core+='\n### Discipline costs · DP per rank\n'+cost_table
+ core+='\nAccess grants no ability. Learn a discipline for 1 DP; its sequential steps cost 1/2/2/3 DP. The last requires level 3. Combined abilities require level 7, all endpoints and 3/4/5 DP.\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
  # The Warden uses the same three choice headings but has no review appendix.
@@ -295,21 +284,6 @@ def class_page(p):
  result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:520pt)])]\n'
  result+='#v(8pt)\n#signature-menu['+sigs+']\n'
  return result
-
-def discipline_matrix():
- ps=[DESIGN/'classes'/f'{c}.md' for c in CLASS_ORDER];costs={p.stem:rank_costs(p) for p in ps}
- head=['[Discipline]']+['[#text('+q(name(p))+')]' for p in ps]
- rows=[]
- for d in DISCIPLINES:
-  row=['[#xref('+q(key(DESIGN/'disciplines'/f'{d}.md'))+')[#text('+q(d.title())+')]]']
-  row+=['['+'/'.join(map(str,costs[p.stem][d]))+']' for p in ps];rows.append('('+','.join(row)+',)')
- result='#pagebreak(weak:true)\n#heading(level:2)[Discipline costs by class]\n'
- result+='Each cell gives *rank 1 / rank 2 / rank 3*, in DP. These are separate purchases, not cumulative totals. Read across to compare classes or down to plan your own studies.\n\n'
- result+='#cost-matrix(('+','.join(head)+',),('+','.join(rows)+',))\n'
- result+='#v(12pt)\n#grid(columns:(1fr,1fr),gutter:18pt,[Some studies come naturally to your class; others take more development. Every discipline remains available after level 0.],[A starting rank granted by your origin or class is already owned. Pay only for ranks you still need, in order. Standard ability prices are 2 / 4 / 8 DP by tier; six shared Novice cards print a 1-DP exception.])\n#tail-art("discipline-instruments")\n'
- return result
-
-ANC_NAMES={'human':'Human','high-elf':'High Elf','wood-elf':'Wood Elf','hill-dwarf':'Hill Dwarf','deep-dwarf':'Deep Dwarf','halfling':'Halfling','tallfolk':'Tallfolk','gnome':'Gnome','goblin':'Goblin','oath-bound':'Oath-Bound'}
 
 def hp_reference():
  p=BOOK/'manuscript/02-creation.md'
@@ -341,15 +315,8 @@ def ability_browser(paths,tier):
  return result
 
 def recipe_card(p):
- record(p,'recipes');s=p.read_text();data=json.loads((BOOK/'recipe-presentation.json').read_text())[p.stem]
- flavor=re.search(r'^\*([^*]+)\*$',s,re.M).group(1)
- field=lambda label:re.search(r'\*\*'+re.escape(label)+r':\*\*\s*(.*?)(?=\s*\*\*|\n|$)',s).group(1).strip().rstrip('.')
- tools=field('Tools');materials=field('Materials per attempt') if '**Materials per attempt:**' in s else field('Materials')
- grant=data['granted_by'];users=data['used_with'];finish=data['completion']
- body='*'+flavor+'*\n\n**Granted by:** '+grant+'\n\n**Used with:** '+users+'\n\n---\n\n'
- body+='| Preparation | Per attempt |\n|---|---|\n| Tools | '+tools+' |\n| Time | One hour |\n\n'
- body+='**Materials**\n\n'+materials+'.\n\n---\n\n**Work and completion**\n\n'+finish+'\n'
- return '#catalog-card('+q(name(p))+','+q(key(p))+')['+render(body,p)+']\n'
+ record(p,'recipes')
+ return '#catalog-card('+q(name(p))+','+q(key(p))+')['+render(clean(p),p)+']\n'
 
 
 def section(n,title):return '#chapter('+q(n)+','+q(title)+')\n'
@@ -381,7 +348,7 @@ for typ,title in [('culture','Cultures'),('background','Backgrounds')]:
  entries += [doc(p,typ,wide=True) for p in sorted((DESIGN/'origins').glob(typ+'-*.md'),key=name)]
  parts.append(flow(entries)+'#tail-art('+q(typ+'s')+')\n')
 parts.append(section('4','Classes'))
-parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class. Choose one free signature at each milestone; extra eligible signatures cost 2 / 4 / 8 DP. They require only your class and level, with no discipline or earlier-signature requirement.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums and pays the same discipline prices across every field.\n\nChoose one class; there is no multiclassing. You can still learn any shared ability whose requirements you meet, but another class’s signatures remain exclusive.], [\n')
+parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class. Choose one free signature at each milestone; additional signatures are not bought separately. They require only your class and level, with no discipline or earlier-signature requirement.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums. All classes pay the same learning costs.\n\nChoose one class; there is no multiclassing. You can still learn any shared ability whose requirements you meet, but another class’s signatures remain exclusive.], [\n')
 class_rows=[]
 for cp in sorted((DESIGN/'classes').glob('*.md'),key=name):
  ct=cp.read_text(); mm=re.search(r'minimum 0 in ([^;]+);',ct); hp=re.search(r'HP contribution (\+\d+)',ct)
@@ -394,15 +361,8 @@ for cname in CLASS_ORDER:
  sigs=re.findall(r'\]\(\.\./cards/(signature-[^)]+\.md)\)',p.read_text())
  parts.append(flow([card(DESIGN/'cards'/sig) for sig in sigs]))
 parts.append(manuscript('05-disciplines.md','5','Disciplines and Character Paths'))
-parts.append(discipline_matrix())
-discipline_files=sorted((DESIGN/'disciplines').glob('*.md'),key=name)
-for offset in (0,9):
- group=discipline_files[offset:offset+9]
- parts.append('#pagebreak(weak: true)\n#grid(columns:(1fr,1fr),gutter:18pt,['+''.join(doc(p,'discipline',wide=True) for p in group[:5])+'],['+''.join(doc(p,'discipline',wide=True) for p in group[5:])+'])\n')
-parts.append('#pagebreak(weak: true)\n#heading(level: 2)[Character paths]\nThese four example builds show how shared abilities can express familiar fantasy heroes. Use a path as a starting idea, combine it with another, or change it freely. The suggestions waive no costs or requirements; choose a few starting abilities and grow toward the rest.\n\n#twocol[\n')
-for p in sorted((DESIGN/'paths').glob('*.md'),key=name):
- if p.stem in SELECTED_PATHS:parts.append(doc(p,'path',wide=True))
-parts.append(']\n#tail-art("paths")\n')
+subprocess.run([os.sys.executable,str(BOOK/'integrate_learning.py')],check=True)
+parts.append('#include "learning.typ"\n')
 parts.append(manuscript('06-playing.md','6','Playing the Game','Overhead square-grid scene: one guardian blocks a doorway while companions use cover and a forced push opens an escape route. Clear spaces and no decorative grid distortion.'))
 for shared,kind in [('vision.md','vision-reference'),('ancestry-procedures.md','ancestry-reference')]:
  p=DESIGN/'rules'/shared;record(p,kind)
@@ -416,10 +376,10 @@ parts.append(manuscript('09-abilities.md','9','Abilities'))
 for tier in ['Universal','1','3','7']:
  paths=[]
  for p in sorted((DESIGN/'cards').glob('*.md'),key=name):
-  if p.name.startswith('signature-'):continue
+  if p.name.startswith('signature-') or p.stem in redirects:continue
   m=re.search(r'\*\*Tier / minimum level:\*\*\s*(\w+)',p.read_text())
   if m and m.group(1)==tier:paths.append(p)
- parts.append(ability_browser(paths,tier))
+ if paths:parts.append(ability_browser(paths,tier))
 parts.append(manuscript('10-equipment.md','10','Equipment and Recipes'))
 parts.append(doc(DESIGN/'market.md','market-reference',wide=True,break_before=True))
 for folder,title in [('equipment','Equipment entries'),('recipes','Recipes')]:
@@ -450,15 +410,15 @@ for p in sorted((DESIGN/'characters').glob('*.md'),key=name):
 parts.append(manuscript('14-reference.md','14','Table References'))
 parts.append('#include "../sheets.typ"\n')
 for tier,title in [('Universal','Universal action index'),('1','Novice ability index'),('3','Adept ability index'),('7','Master ability index')]:
- parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\nShared abilities and class signatures are listed together. A class requirement marks an exclusive signature.\n\n')
+ parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\nUniversal actions, independent talents and class signatures are listed together. A class requirement marks an exclusive signature.\n\n')
  entries=[]
  for c in sorted((c for c in card_records if c['tier']==tier),key=lambda x:x['name'].casefold()):
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))
-manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':427,'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':18,'path':4,'equipment':45,'recipes':10,'summon':73,'character':6}}
-manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'recipe-presentation.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
-manifest['class_rank_costs']={c:rank_costs(DESIGN/'classes'/f'{c}.md') for c in CLASS_ORDER}
+manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':len(card_records),'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':0,'path':0,'equipment':45,'recipes':10,'summon':73,'character':6}}
+manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
+manifest['learning_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [DESIGN/'development.md',DESIGN/'combined-abilities.md',DESIGN/'magic-endpoints.md',BOOK/'integrate_learning.py',BOOK/'nonmagical/build.py',BOOK/'nonmagical/book.typ',DESIGN/'rules/learning.md',*sorted((DESIGN/'disciplines').glob('*.md')),*sorted((DESIGN/'spellbooks').glob('*.md'))]]
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Included',len(included),'records;',len(card_records),'abilities;',len(links),'internal links.')
 if '--compile' in os.sys.argv:

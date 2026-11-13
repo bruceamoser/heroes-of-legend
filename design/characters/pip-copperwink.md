@@ -2,7 +2,7 @@
 
 *The charming burglar with a duelist’s smile.*
 
-**Halfling Shadow · HP 13/13 · Grit 1 remaining / 1 granted · Speed 7 squares · Bulk 10/10.**
+**Halfling Shadow · HP 13/13 · Grit 1 remaining / 1 granted · Speed 7 squares · Bulk 7/10.**
 
 **Languages:** Common and Halfling. See the [language reference](../rules/languages.md).
 
@@ -18,27 +18,28 @@ Total **+3**. Shadow minima: Agility, Guile ≥ 0; met. Mental sum **+1**, so ea
 - [Quick Tongue](../ancestries/trait-halfling-quiet-company.md): Gain 1 Boon to Guile rolls to negotiate or argue. When you use Guile to defend your own or an ally’s actions, gain 2 Boons instead.
 
 
-## Level 0 — origins and purchases
+## Level 0 — origins and learning
 
-- [Free Harbors](../origins/culture-free-harbors.md): **Subterfuge 1** and [The Key Changes Hands](../cards/the-key-changes-hands.md).
-- [Confidence Artist](../origins/background-confidence-artist.md): **Arms 1** and [Smile Before Steel](../cards/smile-before-steel.md).
+- [Free Harbors](../origins/culture-free-harbors.md): **Subterfuge access** and [Quiet Passage I](../disciplines/subterfuge.md).
+- [Confidence Artist](../origins/background-confidence-artist.md): **Arms access** and [Measured Cut I](../disciplines/arms.md).
 
-Opening pool: **11 + 0 duplicate compensation = 11 DP**. No disciplines are purchased at this stage.
+Pool: **10 + 1 mental attributes + 0 ancestry + 0 duplicate grants = 11 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Quiet Latch](../cards/quiet-latch.md) | Subterfuge 1 | 2 | 9 |
-| [Step Between Lanterns](../cards/step-between-lanterns.md) | Subterfuge 1 | 2 | 7 |
-| [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md) | Subterfuge 1 | 2 | 5 |
-| [Sell the Feint](../cards/sell-the-feint.md) | Arms 1 and Subterfuge 1 | 2 | 3 |
-| [Read the Room](../cards/notice-the-human-detail.md) | None | 2 | 1 |
-| [Quick Exit](../cards/quick-exit.md) | None; 1-DP ability | 1 | 0 |
+| [Patient Hand I](../disciplines/subterfuge.md) | Subterfuge access | 1 | 10 |
+| [Patient Hand II](../disciplines/subterfuge.md) | Patient Hand I | 2 | 8 |
+| [Patient Hand III](../disciplines/subterfuge.md) | Patient Hand II | 2 | 6 |
+| [Quiet Passage II](../disciplines/subterfuge.md) | Quiet Passage I | 2 | 4 |
+| [Quiet Passage III](../disciplines/subterfuge.md) | Quiet Passage II | 2 | 2 |
+| [Measured Cut II](../disciplines/arms.md) | Measured Cut I | 2 | 0 |
 
-**Spent 11; 0 DP expires. Stage closes at 0.**
+**Spent 11; 0 DP expires when this stage closes.**
 
-## Level 1 — class and purchases
+## Level 1 — class and learning
 
-Choose [Shadow](../classes/shadow.md). Class grants **Subterfuge 1 and Athletics 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
+Choose [Shadow](../classes/shadow.md). Gain **Subterfuge and Athletics access**. Duplicate access gives 1 DP each, never a free improvement.
+
 Free signature: [Fade Behind](../cards/signature-shadow-fade-behind.md). Its use procedure follows; the linked card remains the complete reference:
 
 **Action:** Maneuver · **Attribute:** Agility
@@ -53,82 +54,56 @@ Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed,
 
 **Signature limit:** Once on your turn.
 
-Fresh pool: **11 + 1 = 12 DP**. All discipline purchases below occur before cards that need them.
+Pool: **10 + 1 mental attributes + 0 ancestry + 1 duplicate grants = 12 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| **Mind 1** | Adjacent; previous rank 0 | 2 | 10 |
-| [Borrow a Voice](../cards/borrow-a-voice.md) | Mind 1 | 2 | 8 |
-| [A Door That Is Not There](../cards/a-door-that-is-not-there.md) | Mind 1 | 2 | 6 |
-| [Sure Ascent](../cards/sure-ascent.md) | Athletics 1 | 2 | 4 |
-| [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | Athletics 1 | 2 | 2 |
-| [Invitation to the Blade](../cards/invitation-to-the-blade.md) | Arms 1 | 2 | 0 |
+| [Light Fingers I](../disciplines/subterfuge.md) | Subterfuge access | 1 | 11 |
+| [Light Fingers II](../disciplines/subterfuge.md) | Light Fingers I | 2 | 9 |
+| [Light Fingers III](../disciplines/subterfuge.md) | Light Fingers II | 2 | 7 |
+| [Measured Cut III](../disciplines/arms.md) | Measured Cut II | 2 | 5 |
+| [Sure Ascent I](../disciplines/athletics.md) | Athletics access | 1 | 4 |
+| [Sure Ascent II](../disciplines/athletics.md) | Sure Ascent I | 2 | 2 |
+| [Sure Ascent III](../disciplines/athletics.md) | Sure Ascent II | 2 | 0 |
 
-**Spent 12; 0 DP expires. Stage closes at 0.**
+**Spent 12; 0 DP expires when this stage closes.**
 
-**Final disciplines:** Arms 1, Athletics 1, Mind 1, Subterfuge 1.
+## Learned abilities and spellbook pages
 
-## Equipment and derived statistics
+- [Light Fingers I](../disciplines/subterfuge.md).
+- [Light Fingers II](../disciplines/subterfuge.md).
+- [Light Fingers III](../disciplines/subterfuge.md).
+- [Measured Cut I](../disciplines/arms.md).
+- [Measured Cut II](../disciplines/arms.md).
+- [Measured Cut III](../disciplines/arms.md).
+- [Patient Hand I](../disciplines/subterfuge.md).
+- [Patient Hand II](../disciplines/subterfuge.md).
+- [Patient Hand III](../disciplines/subterfuge.md).
+- [Quiet Passage I](../disciplines/subterfuge.md).
+- [Quiet Passage II](../disciplines/subterfuge.md).
+- [Quiet Passage III](../disciplines/subterfuge.md).
+- [Sure Ascent I](../disciplines/athletics.md).
+- [Sure Ascent II](../disciplines/athletics.md).
+- [Sure Ascent III](../disciplines/athletics.md).
 
-| Owned item and chosen appearance | Grant | Bulk |
-|---|---|---:|
-| One-handed slender dueling sword | [Smile Before Steel](../cards/smile-before-steel.md) | 1 |
-| Lock tools | [Quiet Latch](../cards/quiet-latch.md) | 1 |
-| Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
+All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
 
-HP: 10 + ancestry 1 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 0 = **13**. HP gain per level: **3**. SP: **6/6**. First aid: **available**..
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **3** + purchased Bulk **7** = **10**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 2 + trait 0 = **7**.
-
-Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
-
-Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
-
-**Recipes:** none granted or purchased.
-
-## At the table
-
-Smile Before Steel lets Pip fight with Guile; Sell the Feint prepares that attack. Quiet Latch and the illusion/voice cards support infiltration. Fade Behind uses a Maneuver to Disengage, then attempt to Hide with 1 Boon, even while observed if Pip has cover or obscurement. Quick Exit adds one available movement square when Pip Disengages, once per turn; it does not change his Speed. The sword stays in one hand, leaving the other available. Courtesy and Invitation use that same sword rather than granting spares.
-
-## Complete learned-card checklist
-
-These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
-
-- [Quick Exit](../cards/quick-exit.md) — Passive; None (no roll).
-
-- [The Key Changes Hands](../cards/the-key-changes-hands.md) — Maneuver; Guile.
-- [Smile Before Steel](../cards/smile-before-steel.md) — Main Action; Guile.
-- [Quiet Latch](../cards/quiet-latch.md) — Main Action; Guile.
-- [Step Between Lanterns](../cards/step-between-lanterns.md) — Maneuver; None (no roll).
-- [A Courtesy Unanswered](../cards/a-courtesy-unanswered.md) — Main Action; Guile.
-- [Sell the Feint](../cards/sell-the-feint.md) — Maneuver; None (no roll).
-- [Read the Room](../cards/notice-the-human-detail.md) — Main Action; Reason.
-- [Borrow a Voice](../cards/borrow-a-voice.md) — Maneuver; None (no roll).
-- [A Door That Is Not There](../cards/a-door-that-is-not-there.md) — Main Action; None (no roll).
-- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
-- [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) — Passive; None (no roll).
-- [Invitation to the Blade](../cards/invitation-to-the-blade.md) — Main Action; Agility.
-- [Fade Behind](../cards/signature-shadow-fade-behind.md) — Maneuver; Agility.
-
-All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
-
-## Starting coins and shopping — allocation
+## Equipment and starting numbers
 
 40 + 0 + 10 + 7 + 3 (base + ancestry + culture + background + class) = **60 coins**.
 
-One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
 
-| Purchase | Coins | Bulk | Coins left |
+| Item | Coins | Bulk | Coins left |
 |---|---:|---:|---:|
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 57 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 53 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 50 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 41 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 36 |
-| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 34 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 14 |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | 48 |
+| [Lock Tools](../equipment/lock-tools.md) | 20 | 1 | 28 |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 25 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 21 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 18 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 9 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 4 |
 
-**Spent 46; coins carried 14; final Bulk 10/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+**Spent 56; coins remaining 4; Bulk 7/10.** No encumbrance penalty.
 
-[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
-
-**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.
+HP: 10 + ancestry 1 + class 2 + Fortitude 0 + trait 0 = **13**. HP gain per level: **3**. SP: **6/6**. Speed **7**. Grit **1 remaining / 1 granted**. First aid **available**; no death marks or scars.

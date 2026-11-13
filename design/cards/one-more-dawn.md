@@ -1,27 +1,7 @@
 # One More Dawn
 
-*Gain 1 Boon to Fortitude death rolls, including immediate rolls caused by damage at 0 HP. This grants no Grit. Purchase once.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None — no roll
-
-**Target / range / shape:** Self
-
-Gain 1 Boon to Fortitude death rolls, including immediate rolls caused by damage at 0 HP. This grants no Grit. Purchase once.
-
-**Duration:** Permanent while learned.
-
-**Equipment / acquisition:** None.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** None
-
-**Type:** Training / Passive
-
-**Limits:** Purchase once.
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** one-more-dawn
-
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

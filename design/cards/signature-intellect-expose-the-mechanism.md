@@ -16,7 +16,7 @@ Make a Knowledge-based attack against the target. On a Weak result, deal 5 physi
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 

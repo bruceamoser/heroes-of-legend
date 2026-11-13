@@ -13,7 +13,7 @@ because it risks wounds, scarce Grit and death, not because food becomes expensi
 when a character gains levels.
 
 Equipment grants still happen first. Coins buy objects and supplies, never DP,
-discipline ranks, signature access or training. Owning armor does not grant its
+discipline access, signature access or training. Owning armor does not grant its
 training card. A purchased weapon’s appearance supplies no damage modifier.
 Prices for functionally equivalent ordinary melee weapons are equal; a jeweled
 hilt may be valuable decoration but does not hit harder.

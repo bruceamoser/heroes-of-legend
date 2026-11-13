@@ -1,18 +1,6 @@
 # Create Your Hero
 
-Begin with a person you want to play: an armored healer, an eloquent duelist, a hunter
-who speaks with ghosts. Decide what they want, then choose how they pursue it.
-
-Character creation has two stages. **Level 0** is your life before choosing a class.
-**Level 1** is the completed adventurer you bring to the first session. Finish and
-close the level-0 ledger before making level-1 purchases. Both stages have their own
-DP pool; unused points expire separately.
-
-Before making purchases, turn to [Disciplines and Character Paths](05-disciplines.md).
-It explains what discipline ranks mean and how they qualify you for abilities. Keep
-that chapter and your intended class entry handy as you build.
-
-## 1. Assign attributes
+## Assign attributes
 
 Assign a value from −2 to +2 to each of the six attributes. Their total must be **+3**.
 A straightforward starting array is +2, +1, +1, +0, +0, −1, arranged as you choose.
@@ -37,7 +25,7 @@ higher than +2 or lower than −2, but can move your total outside the creation 
 Matching bonuses do not add together: use the largest. A curse can explicitly
 suppress bonuses or set a value instead. Item changes never revise your creation DP.
 
-## 2. Choose ancestry
+## Choose ancestry
 
 Choose one of the ten ancestries. Record its HP contribution, base Speed and Size
 where printed, then choose **two of its five traits**. Read the exact benefits: a
@@ -59,162 +47,59 @@ description of keen eyes does not grant an extra sense unless the rules say so.
 Any ancestry can grow up in any culture. Your ancestry is not a compulsory profession,
 personality or allegiance.
 
-## 3. Choose culture and background
 
-Your **culture** describes the community that shaped you. Your **background** describes
-part of your life or work before adventuring. Choose one of each from the origin
-chapter, then select **one complete paired option from each**. A pair grants a rank-1
-discipline and its accompanying ability. Do not take the rank from one pair and the
-ability from another.
+## Level 0: the life before adventure
 
-A granted ability supplies its stated prerequisite grants. Record the ranks before
-buying anything. If a grant duplicates something you already have, receive **1 DP for
-that stage**. It does not raise the rank, give an unrestricted replacement, or carry
-forward after the stage ends.
+Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from −2 through +2, totaling +3. Attributes stay fixed as you gain levels. Choose an ancestry and two of its five traits, then choose culture and background independently.
 
-Record Common and one ordinary language learned in your home community, then apply
-explicit extra language grants. See [Languages](../../rules/languages.md) for the
-shared list, spoken-only grants and campaign alternatives.
+Choose one complete learning option from your culture and one from your background. Each grants discipline access and its named first ability or spellbook section. An access grant teaches no extra ability. Each duplicate access or learned-entry grant gives 1 DP for this stage; it never grants the next improvement automatically.
 
-## 4. Spend level-0 DP
+Receive 10 + Knowledge + Reason + Guile DP, including negative adjustments, plus duplicate compensation and explicit ancestry benefits. Spend these points on discipline access and eligible learned entries. A discipline costs 1 DP for every character. Follow each path in order: its first three steps cost 1, 2 and 2 DP. The fourth step costs 3 DP and requires level 3. These steps are available at level 0 unless a higher level is printed. Close the stage; unused DP expires.
 
-Your level-0 pool is **10 + Knowledge + Reason + Guile**, plus any duplicate-grant
-compensation. Negative attributes reduce this pool too. Buy eligible Novice abilities
-at their printed price: normally 2 DP, or 1 DP for the six shared exceptions in
-[Abilities](09-abilities.md). Their printed requirements must already be met by your origin grants.
-You may not buy discipline ranks at level 0.
+## Level 1: choose a class
 
-Record each purchase in order. Buy any eligible kind of ability. One or two attacks can define your fighting style,
-leaving room for talents useful between battles. If you have an odd point left,
-a 1-DP ability can put it to use; these choices remain available at later levels too.
+Meet the class's two attribute minimums (normally 0 in each); Odd has none. Choose two distinct disciplines from its starting list. These grants provide access, not learned entries. Each duplicate gives 1 level-1 DP. Choose one level-1 class signature; no discipline requirement applies to that signature.
 
-Close the stage. **Unused level-0 DP expires.** Your future class cannot qualify a
-purchase you made earlier.
+Receive a fresh 10 + Knowledge + Reason + Guile DP, plus this stage's duplicate compensation and explicit ancestry benefits. Learn access and entries at the same prices used at level 0. All prerequisites must already be owned. Close this stage independently; unused DP expires. A later class grant cannot qualify an earlier purchase.
 
-## 5. Choose a class
+## Learning and spellbooks
 
-Choose one class. Both of its required attributes must be at least 0; Odd has no
-minimums. Record its HP contribution and discipline prices. Choose two distinct
-rank-1 disciplines from its starting list, applying duplicate compensation where
-appropriate. Choose one of its three level-1 signature abilities.
+Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Basic melee and ranged attacks remain universal; buying Arms or Marksmanship never supplies those basic attacks.
 
-Your class sets discipline prices and signature access. You can buy any eligible
-shared ability. There is no multiclassing.
+A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
 
-## 6. Spend level-1 DP
+Combined abilities require level 7, every named branch endpoint and a separate learning cost: 3 DP for two disciplines, 4 DP for three, 5 DP for four. Magical and nonmagical disciplines may combine. Owning only a discipline or a partially learned branch does not satisfy an endpoint. No lower-count combined ability is required unless explicitly listed.
 
-Start a new pool of **10 + Knowledge + Reason + Guile**, plus level-1 duplicate
-compensation. Now you can purchase discipline ranks at your class's prices as well
-as eligible abilities. You must buy ranks sequentially: rank 2 requires owning
-rank 1, and rank 3 requires owning rank 2. There is no additional level gate on ranks.
+The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
 
-Your class entry lists the price of every discipline rank. The comparison table in
-[Disciplines and Character Paths](05-disciplines.md) shows all classes together.
-Each price buys that rank alone. For example, a Blade pays 1 DP for Arms 1 and
-2 DP for Arms 2, spending 3 DP to learn both from scratch. A rank grants no action
-or bonus by itself; it qualifies you to learn abilities.
+## Equipment and starting numbers
 
-All card prerequisites must be owned **before purchase**, not merely before use.
-You can own an item whose requirements you do not meet, but cannot use the gated
-capability. A flaming sword's special power does not become available simply because
-you found it.
+Learning requires equipment but does not supply it unless an explicit grant says so. A plain worn outfit is free. Buy weapons, armor, tools, food and other supplies from your starting coins: 40 + ancestry + culture + background + class contributions. Compatible abilities may share one weapon. Recipe knowledge supplies no finished item or ingredients.
 
-Close the stage. **Unused level-1 DP expires.** Later levels allow saving DP.
+At level 1 and later, maximum HP is 10 + level × (ancestry contribution + class contribution) + Fortitude + fixed benefits. At level 0, use 10 + ancestry contribution + Fortitude + fixed benefits. Each later level adds ancestry + class contributions; fixed benefits and Fortitude are not added again.
 
-> **Example — two separate budgets.** A hero with Knowledge +1, Reason +1 and Guile −1
-> gets 11 DP at each creation stage. At level 0, five Novice purchases cost 10 and
-> the last point expires. At level 1, a duplicate class rank adds 1 to the new pool,
-> making 12. Buying a discipline rank priced at 3 DP and four Novice cards for 8 spends 11;
-> the remaining point also expires. Nothing from the first stage was borrowed.
+Capacity is 10 + 3 × Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility − encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Every damaging attack still deals at least 1 damage.
 
-## 7. Resolve equipment and recipes
+Ancestry, culture and background each contribute 1 maximum SP at level 0. Class adds 3 at level 1, giving 6 before explicit benefits. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. SP does not grant spell knowledge. Record current and maximum HP and SP separately, and mark first aid available. Start with no death marks or scars.
 
-Read every acquisition line. Some learned cards grant an ordinary item when first
-acquired. A grant supplies the compatible basic item only if you do not already own
-it. Three attacks that require a melee weapon can share the same weapon; they do not
-generate three free weapons. The same principle applies when you learn training later.
-Selling an item does not reactivate its old grant.
+Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used once and is gone permanently; rest never restores it. Using Grit returns you to half maximum HP, rounded up. See [recovery](../../rules/recovery.md) for dying, scars, treatment and safe overnight rest.
 
-Describe your weapon now. A sword, axe or stout staff can express the same permitted
-melee attacks. Its ordinary appearance changes no damage. A ranged attack still
-requires compatible ranged equipment. Most ordinary melee and ranged weapons use
-**1 Bulk** each. Special items add only their printed effects.
+## Advancement
 
-Choose any recipes explicitly granted by crafting cards. Recipe knowledge is not
-a free finished product or a supply of ingredients. Record tools, materials and
-future recipe opportunities separately.
+The DA awards milestone levels. From level 2 onward, gain 8 + the new level DP. These points may be saved and spent in a DA-approved safe place. Mental attributes modify only the two creation pools. Add the ancestry and class HP contributions at each new level; increased maximum HP does not erase damage already taken.
 
-## 8. Finish your numbers
+At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. Other levels grant DP, HP and SP growth without adding a compulsory new active ability. There is no multiclassing or access to another class's signatures.
 
-| Record | Calculation |
-|---|---|
-| Maximum HP | 10 + level × (ancestry HP + class HP) + Fortitude + explicit benefits |
-| Capacity | 10 + 3 × Brawn |
-| Encumbrance | Carried Bulk above capacity, minimum 0 |
-| Speed | Ancestry base + Agility − encumbrance, minimum 0 |
-| Stability | 0 unless an explicit grant raises it; highest source, cap 3 |
-| Starting Grit | 1 at level 1; gain 1 more at levels 3 and 7 |
-| Starting scars / death marks | 0 / 0 |
-
-At each new level after 1, add ancestry + class HP contributions. Fortitude and fixed
-HP benefits are added only once. At level 0 use 10 + ancestry HP + Fortitude + explicit benefits. Record current and maximum HP separately.
-Record your highest resistance for each damage type, never a sum of matching armor.
-
-> **Example — Borin's pack.** Borin is a dwarf Protector with Fortitude +2. His base
-> maximum HP is 10 + 3 + 3 + 2 = 18. His chosen trait and Conditioned Body each add
-> 1, giving 20. Brawn +1 gives capacity 13. His 11 Bulk fits, so Agility +0 leaves
-> his dwarf base Speed at 5. Armor does not automatically add Stability.
-
-Record **3 maximum SP at level 0**, plus **3 from class at level 1**, for **6 SP** before explicit benefits. Ancestry, culture and background contribute 1 each. SP pays for magical healing; it does not grant spell knowledge.
-
-## 9. Take coins and shop
-
-Starting coins are **40 + ancestry + culture + background + class contributions**.
-The Starting Coins reference at the end of this chapter gives the exact additions. This produces 50–70 coins before
-shopping. Resolve equipment grants first. Everyone begins with a plain worn outfit;
-a pack, supplies and potion are purchases unless explicitly granted.
-
-Use the market. Record coins spent, coins left, supply dice and every item's Bulk.
-A container does not cancel its contents' Bulk. Decide which items are held. A bow,
-a two-handed weapon, or weapon and shield can leave no free hand for healing.
-Sharing a rope or light is practical; somebody still carries it.
-
-## 10. Put a person on the sheet
-
-Name your hero and give them a reason to stay with the party. Put your most-used
-actions on your first reference page. All learned cards remain available; there is
-no prepared-card hand limit.
-
-Before play, check both DP ledgers, requirements, grants, Bulk, free hands and class
-minimums. The six complete characters near the back show every step.
-
-## Growing into a legend
-
-The DA awards levels at milestones. At level 2 and every later level, receive
-**8 + your new level DP**. Save these points or spend them in a place the DA agrees
-is safe. Mental attributes modify only the two creation pools, not these awards.
-
-| New level | DP award | Other universal milestone |
+| New level | DP | Other milestone |
 |---|---:|---|
-| 2 | 10 | — |
-| 3 | 11 | +1 Grit; choose a level-3 class signature; Adept cards available |
-| 4 | 12 | — |
-| 5 | 13 | — |
-| 6 | 14 | — |
-| 7 | 15 | +1 Grit; choose a level-7 class signature; Master cards available |
-| 8 | 16 | — |
-| 9 | 17 | — |
-| 10 | 18 | — |
+| 2 | 10 | HP and +2 SP growth |
+| 3 | 11 | HP and +2 SP growth; level-3 endpoints; one signature; 1 Grit |
+| 4 | 12 | HP and +2 SP growth |
+| 5 | 13 | HP and +2 SP growth |
+| 6 | 14 | HP and +2 SP growth |
+| 7 | 15 | HP and +2 SP growth; combined abilities; one signature; 1 Grit |
+| 8 | 16 | HP and +2 SP growth |
+| 9 | 17 | HP and +2 SP growth |
+| 10 | 18 | HP and +2 SP growth |
 
-Novice, Adept and Master abilities normally cost **2, 4 and 8 DP** and require minimum levels
-**1, 3 and 7**. Novice purchases are explicitly permitted during level-0 creation.
-Paid abilities without discipline requirements use their printed exceptions:
-Novice 1 or 2 DP, Adept 3 DP, and Master 6 or 8 DP.
-Higher tiers do not require an earlier card in a chain. Mixed requirements mean you
-need every listed rank. Class signatures require only their class and level; extra
-eligible signatures can be purchased for the same tier price.
-
-Your Grit increases are universal experience, not class features. They do not refund
-previous expenditure. Only the level 1, 3 and 7 milestones grant Grit. Ordinary
-rest does not refresh Grit. Your abilities, scars and choices tell the story of the
-hero you become.
+Record each learned entry, its required previous entry, DP spent and remaining pool. Record spellbook pages rather than treating them as expended slots. All learned abilities remain available; there is no equipped-card hand limit.

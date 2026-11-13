@@ -16,7 +16,7 @@ You and the ally swap squares. You become the target of the attack and resolve i
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Protector; minimum level 1
 
 **Type:** Signature
 

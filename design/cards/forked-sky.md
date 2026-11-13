@@ -1,25 +1,7 @@
 # Forked Sky
 
-*Choose up to three visible enemies within 6 squares. Make a Knowledge spell attack against the chosen targets. On a Standard result, deal 4 lightning damage and Burning 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Knowledge
-
-**Target / range / shape:** Up to three visible enemies within 6 squares.
-
-Make a Knowledge spell attack against the chosen targets.
-
-- **Weak:** 4 lightning damage.
-- **Standard:** 4 lightning damage and Burning 1.
-- **Strong:** 6 lightning damage and Burning 2.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Storm 3
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Air I](../spellbooks/air.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** forked-sky
-
-[Card conventions](../card-conventions.md)

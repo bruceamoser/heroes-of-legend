@@ -16,7 +16,7 @@ Requires a ranged weapon and ammunition. Make one Agility roll and apply it to e
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Warden; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 3
 
 **Type:** Signature
 

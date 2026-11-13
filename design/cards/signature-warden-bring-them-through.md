@@ -16,7 +16,7 @@ Call a real beast of CV 7 or lower that you are familiar with. It appears in a f
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Warden; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 7
 
 **Type:** Signature
 

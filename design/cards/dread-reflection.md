@@ -1,25 +1,7 @@
 # Dread Reflection
 
-*Choose one visible enemy within 5 squares. Make a Guile spell attack. You are the source of Frightened. On a Standard result, deal 3 mental damage and Frightened 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Guile
-
-**Target / range / shape:** One visible enemy within 5 squares.
-
-Make a Guile spell attack. You are the source of Frightened.
-
-- **Weak:** 3 mental damage and Frightened 1.
-- **Standard:** 3 mental damage and Frightened 1.
-- **Strong:** 5 mental damage and Frightened 2.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Mind 2
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Thought I](../spellbooks/thought.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** dread-reflection
-
-[Card conventions](../card-conventions.md)

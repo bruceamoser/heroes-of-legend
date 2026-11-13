@@ -1,21 +1,7 @@
 # The Forest Takes the Blow
 
-*Choose one visible willing ally within 3 squares occupying rooted vegetation, before it defends against an attack dealing physical damage. The ally gains 2 Boons to this defense. After the attack resolves, it may move up to 3 squares without provoking, starting through the vegetation around it.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** One visible willing ally within 3 squares occupying rooted vegetation, before it defends against an attack dealing physical damage.
-
-The ally gains 2 Boons to this defense. After the attack resolves, it may move up to 3 squares without provoking, starting through the vegetation around it.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
-
-**Type:** Magic / Defense / Movement
+This former independent ability is retired. Use [Read the Trail I](../disciplines/wilderness.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-forest-takes-the-blow
-
-[Card conventions](../card-conventions.md)

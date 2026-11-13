@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Influence 1** and [Name the Reckoning](../cards/name-the-reckoning.md).
-- **Radiance 1** and [Oathlight Strike](../cards/oathlight-strike.md).
+- **Influence access** and [Make the Case I](../disciplines/influence.md).
+- **Wards access** and [Protection I](../spellbooks/protection.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +10 coins. See [starting coins](../starting-coins.md).

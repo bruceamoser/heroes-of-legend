@@ -16,7 +16,7 @@ Move up to your Speed in a straight line toward the target. This movement provok
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

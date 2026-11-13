@@ -16,7 +16,7 @@ Move up to 4 squares in a straight line toward the target, ignoring difficult te
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 7
 
 **Type:** Signature
 

@@ -1,25 +1,7 @@
 # Roots Remember Feet
 
-*Choose one visible grounded enemy within 4 squares. Make a Reason control attack. On a Standard result, deal 2 physical damage, Slowed 2. Pull 1 square toward you.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Reason
-
-**Target / range / shape:** One visible grounded enemy within 4 squares.
-
-Make a Reason control attack.
-
-- **Weak:** 1 physical damage and Slowed 1.
-- **Standard:** 2 physical damage, Slowed 2; pull 1 square toward you.
-- **Strong:** 3 physical damage, Slowed 2 and Prone; pull 1 square toward you.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Read the Trail I](../disciplines/wilderness.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** roots-remember-feet
-
-[Build this character](../paths/root-keeper.md) · [Card conventions](../card-conventions.md)

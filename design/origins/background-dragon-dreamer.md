@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Flame 1** and [Breath of the Wyrmling](../cards/breath-of-the-wyrmling.md).
-- **Flame 1** and [Let the Spark Decide](../cards/let-the-spark-decide.md).
+- **Elements access** and [Flame I](../spellbooks/flame.md).
+- **Elements access** and [Flame I](../spellbooks/flame.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

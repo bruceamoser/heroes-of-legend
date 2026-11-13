@@ -1,21 +1,7 @@
 # The Moment Foretold
 
-*Choose one willing ally within 3 squares who hears you, after it rolls a Weak attribute result and before that result resolves. The ally rerolls the attribute roll with 2 Boons and uses the new result.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Reaction · **Attribute:** None (no roll)
-
-**Target / range / shape:** One willing ally within 3 squares who hears you, after it rolls a Weak attribute result and before that result resolves.
-
-The ally rerolls the attribute roll with 2 Boons and uses the new result.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
-
-**Type:** Magic / Utility
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-moment-foretold
-
-[Build this character](../paths/reader-of-omens.md) · [Card conventions](../card-conventions.md)

@@ -16,7 +16,7 @@ Trigger: one ally within 3 squares enters Dying. Move up to 3 squares to a squar
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

@@ -1,0 +1,1567 @@
+{
+  "snare-the-missile": {
+    "title": "Snare the Missile",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "bottled-morning": {
+    "title": "Bottled Morning",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "white-heat": {
+    "title": "White Heat",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "pack-with-purpose": {
+    "title": "Pack with Purpose",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "the-key-changes-hands": {
+    "title": "The Key Changes Hands",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "walk-the-thunder": {
+    "title": "Walk the Thunder",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "catch-the-root": {
+    "title": "Catch the Root",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "the-web-of-whispers": {
+    "title": "The Web of Whispers",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "hurl-aside": {
+    "title": "Hurl Aside",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "a-good-place-to-stop": {
+    "title": "A Good Place to Stop",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "open-the-furnace-door": {
+    "title": "Open the Furnace Door",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "make-something-useful": {
+    "title": "Make Something Useful",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "shatterguard": {
+    "title": "Shatterguard",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "draw-the-current": {
+    "title": "Draw the Current",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "hold-the-passage": {
+    "title": "Hold the Passage",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "duck-into-the-brush": {
+    "title": "Duck into the Brush",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "call-a-tempest-beast": {
+    "title": "Call Elemental: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "borrowed-identity": {
+    "title": "Borrowed Identity",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "ember-along-the-edge": {
+    "title": "Ember Along the Edge",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "step-between-lanterns": {
+    "title": "Step Between Lanterns",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "arrive-under-guard": {
+    "title": "Arrive under Guard",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "cut-off-the-escape": {
+    "title": "Cut Off the Escape",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "the-debt-comes-due": {
+    "title": "The Debt Comes Due",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "catch-a-falling-friend": {
+    "title": "Carry the Wounded",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "expert-river-crossing": {
+    "title": "Expert River Crossing",
+    "target": "disciplines/athletics.md",
+    "learning": "Strong Swimmer I"
+  },
+  "shared-breath": {
+    "title": "Shared Breath",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "summon-elemental-adept": {
+    "title": "Call Elemental: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "breath-of-the-wyrmling": {
+    "title": "Breath of the Wyrmling",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "whiteout": {
+    "title": "Whiteout",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "rouse-the-senses": {
+    "title": "Rouse the Senses",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "slip-the-closing-door": {
+    "title": "Slip the Closing Door",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "lantern-moths": {
+    "title": "Lantern Moths",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "live-in-the-mask": {
+    "title": "Live in the Mask",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "scales-beneath-the-skin": {
+    "title": "Scales beneath the Skin",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "unravel-the-bolt": {
+    "title": "Unravel the Bolt",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "intrusive-echo": {
+    "title": "Intrusive Echo",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "a-thought-that-is-not-yours": {
+    "title": "A Thought That Is Not Yours",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "palm-of-the-gale": {
+    "title": "Palm of the Gale",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "sustain-the-failing": {
+    "title": "Sustain the Failing",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "a-word-apart": {
+    "title": "A Word Apart",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "winter-hold": {
+    "title": "Winter Hold",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "rime-grip": {
+    "title": "Rime Grip",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "ironbound-advance": {
+    "title": "Ironbound Advance",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "all-voices-as-one": {
+    "title": "All Voices as One",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "four-winds-at-once": {
+    "title": "Four Winds at Once",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "not-yet-your-name": {
+    "title": "Not Yet Your Name",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "dawn-shard": {
+    "title": "Dawn Shard",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "the-road-remembers": {
+    "title": "The Road Remembers",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "wake-the-nerves": {
+    "title": "Wake the Nerves",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "reveal-the-threshold": {
+    "title": "Reveal the Threshold",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "bow-to-the-balcony": {
+    "title": "Bow to the Balcony",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "a-line-for-everyone": {
+    "title": "A Line for Everyone",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "wear-the-great-beast": {
+    "title": "Wear the Great Beast",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "wings-over-the-battle": {
+    "title": "Wings over the Battle",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "close-shot": {
+    "title": "Close Shot",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "armored-recovery": {
+    "title": "Armored Recovery",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "keep-time-with-steel": {
+    "title": "Keep Time with Steel",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "summon-construct-novice": {
+    "title": "Call Construct: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "borrow-the-shadow": {
+    "title": "Borrow the Shadow",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "treat-radiant-injury": {
+    "title": "Treat Radiant Injury",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "the-otter-s-bargain": {
+    "title": "The Otter’s Bargain",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "a-steady-hand-at-dawn": {
+    "title": "A Steady Hand at Dawn",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "conditioned-body": {
+    "title": "Conditioned Body",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "a-courtesy-unanswered": {
+    "title": "A Courtesy Unanswered",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "stride-of-the-giant": {
+    "title": "Stride of the Giant",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "sap-and-breath": {
+    "title": "Sap and Breath",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "break-the-charge": {
+    "title": "Break the Charge",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "forage-woodland": {
+    "title": "Wild Harvest",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "a-common-tongue": {
+    "title": "A Common Tongue",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "press-and-bind": {
+    "title": "Press and Bind",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "cold-cuirass": {
+    "title": "Cold Cuirass",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "dance-beyond-the-circle": {
+    "title": "Dance beyond the Circle",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "spring-in-the-sleeve": {
+    "title": "Spring in the Sleeve",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "an-impossible-theft": {
+    "title": "An Impossible Theft",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "a-shadow-at-the-heart": {
+    "title": "A Shadow at the Heart",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "treat-bone": {
+    "title": "Treat Bone",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "terms-before-swords": {
+    "title": "Terms before Swords",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "where-only-eagles-pass": {
+    "title": "Where Only Eagles Pass",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "a-company-of-reflections": {
+    "title": "A Company of Reflections",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "when-the-stars-look-back": {
+    "title": "When the Stars Look Back",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "summon-fey-adept": {
+    "title": "Call Fey: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "storm-on-a-string": {
+    "title": "Storm on a String",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "a-place-at-any-fire": {
+    "title": "A Place at Any Fire",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "road-of-dawn": {
+    "title": "Road of Dawn",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "the-last-word": {
+    "title": "The Last Word",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "treat-soft-tissue": {
+    "title": "Treat Soft Tissue",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "bridge-of-winter": {
+    "title": "Bridge of Winter",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "take-them-alive": {
+    "title": "Take Them Alive",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "tell-a-worthy-story": {
+    "title": "Tell a Worthy Story",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "thunder-at-the-door": {
+    "title": "Thunder at the Door",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "cast-through-the-reflection": {
+    "title": "Cast through the Reflection",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "a-knot-you-can-trust": {
+    "title": "A Knot You Can Trust",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "the-right-small-courtesy": {
+    "title": "The Right Small Courtesy",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "cinder-cast": {
+    "title": "Cinder Cast",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "cast-off-the-venom": {
+    "title": "Cast Off the Venom",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "a-friend-beneath-the-door": {
+    "title": "Call Fey: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "pinning-shot": {
+    "title": "Pinning Shot",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Hobbling Shot I"
+  },
+  "still-the-avalanche": {
+    "title": "Still the Avalanche",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "wear-light-armor": {
+    "title": "Wear Light Armor",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "a-coal-for-a-promise": {
+    "title": "A Coal for a Promise",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "behind-the-hawthorn": {
+    "title": "Behind the Hawthorn",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "rest-for-the-restless": {
+    "title": "Rest for the Restless",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "spot-the-tell": {
+    "title": "Spot the Tell",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "read-the-next-blow": {
+    "title": "Read the Next Blow",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "treat-elemental-injury": {
+    "title": "Treat Elemental Injury",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "a-roof-before-nightfall": {
+    "title": "A Roof before Nightfall",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "a-shelter-of-light": {
+    "title": "A Shelter of Light",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "ride-the-falling-stone": {
+    "title": "Ride the Falling Stone",
+    "target": "disciplines/athletics.md",
+    "learning": "Catch Your Balance I"
+  },
+  "the-lucky-trinket": {
+    "title": "The Lucky Trinket",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "measured-appeal": {
+    "title": "Measured Appeal",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "hold-a-conversation": {
+    "title": "Hold a Conversation",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "high-guard": {
+    "title": "High Guard",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "a-sword-made-of-dawn": {
+    "title": "A Sword Made of Dawn",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "the-wind-makes-room": {
+    "title": "The Wind Makes Room",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "forage-coast": {
+    "title": "Forage Coast",
+    "target": "disciplines/wilderness.md",
+    "learning": "Wild Harvest I"
+  },
+  "still-the-will": {
+    "title": "Still the Will",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "steel-at-the-wrist": {
+    "title": "Steel at the Wrist",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "lend-your-eyes": {
+    "title": "Lend Your Eyes",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "name-the-reckoning": {
+    "title": "Name the Reckoning",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "read-a-dangerous-trail": {
+    "title": "Read a Dangerous Trail",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "wake-the-iron-rune": {
+    "title": "Wake the Iron Rune",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "weight-of-iron": {
+    "title": "Weight of Iron",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "clear-the-smoke": {
+    "title": "Clear the Smoke",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "read-the-remains": {
+    "title": "Read the Remains",
+    "target": "disciplines/scholarship.md",
+    "learning": "Read the Evidence I"
+  },
+  "smile-before-steel": {
+    "title": "Smile Before Steel",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "noonday-judgment": {
+    "title": "Noonday Judgment",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "call-the-faithful-hound": {
+    "title": "Call Animal: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "recast-the-footprint": {
+    "title": "Recast the Footprint",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "ice-across-the-break": {
+    "title": "Ice across the Break",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "borrow-a-voice": {
+    "title": "Borrow a Voice",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "stillness-at-the-center": {
+    "title": "Stillness at the Center",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "rime-footholds": {
+    "title": "Rime Footholds",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "touched-by-the-divine": {
+    "title": "Touched by the Divine",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "thought-before-the-blow": {
+    "title": "Thought Before the Blow",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "the-unlit-road": {
+    "title": "The Unlit Road",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "shield-roof": {
+    "title": "Shield Roof",
+    "target": "disciplines/guard.md",
+    "learning": "Shield Bash I"
+  },
+  "keep-pressure": {
+    "title": "Keep Pressure",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "wear-heavy-armor": {
+    "title": "Wear Heavy Armor",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "mercy-in-the-light": {
+    "title": "Mercy in the Light",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "draw-the-tether": {
+    "title": "Draw the Tether",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "remember-this-name": {
+    "title": "A Name Remembered",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "write-the-final-line": {
+    "title": "Write the Final Line",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "lantern-in-the-palm": {
+    "title": "Lantern in the Palm",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "an-invitation-elsewhere": {
+    "title": "An Invitation Elsewhere",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "doors-for-the-host": {
+    "title": "Doors for the Host",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "the-cleverest-mixture": {
+    "title": "The Cleverest Mixture",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "the-ancestors-stand": {
+    "title": "Call Spirit: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "breath-of-white": {
+    "title": "Breath of White",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "field-triage": {
+    "title": "Field Triage",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "forage-mountains": {
+    "title": "Forage Mountains",
+    "target": "disciplines/wilderness.md",
+    "learning": "Wild Harvest I"
+  },
+  "cup-the-flame": {
+    "title": "Cup the Flame",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "quiet-latch": {
+    "title": "Quiet Latch",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "borrowed-clothes-borrowed-manners": {
+    "title": "Borrowed Clothes, Borrowed Manners",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "no-road-away": {
+    "title": "No Road Away",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "one-more-dawn": {
+    "title": "One More Dawn",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "the-tale-will-tell-of-you": {
+    "title": "The Tale Will Tell of You",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "ordinary-recipe-study": {
+    "title": "Ordinary Recipe Study",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "silence-the-alarm": {
+    "title": "Silence the Alarm",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "shielded-advance": {
+    "title": "Shielded Advance",
+    "target": "disciplines/guard.md",
+    "learning": "Shield Bash I"
+  },
+  "secure-a-hold": {
+    "title": "Secure a Hold",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "the-shape-of-escape": {
+    "title": "The Shape of Escape",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "ask-the-falling-ash": {
+    "title": "Ask the Falling Ash",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "call-the-hunting-cat": {
+    "title": "Call Animal: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "the-orchard-wakes": {
+    "title": "The Orchard Wakes",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "shade-the-eyes": {
+    "title": "Shade the Eyes",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "hook-with-the-shield": {
+    "title": "Hook with the Shield",
+    "target": "disciplines/guard.md",
+    "learning": "Shield Bash I"
+  },
+  "a-ribcage-for-a-shield": {
+    "title": "A Ribcage for a Shield",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "urgent-bandaging": {
+    "title": "Urgent Bandaging",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "wind-the-sight": {
+    "title": "Wind the Sight",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "summon-construct-master": {
+    "title": "Call Construct: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "identify-a-mixture": {
+    "title": "Identify a Mixture",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "ride-the-furnace-breath": {
+    "title": "Ride the Furnace Breath",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "catch-the-spell": {
+    "title": "Catch the Spell",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "roots-remember-feet": {
+    "title": "Roots Remember Feet",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "running-vault": {
+    "title": "Running Vault",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "take-the-measure": {
+    "title": "Take the Measure",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "oathlight-strike": {
+    "title": "Oathlight Strike",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "the-mountain-walks": {
+    "title": "The Mountain Walks",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "teach-stone-to-bend": {
+    "title": "Teach Stone to Bend",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "recall-the-shape": {
+    "title": "Recall the Shape",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "stay-with-my-voice": {
+    "title": "Stay with My Voice",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "undertow-answer": {
+    "title": "Undertow Answer",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "braced-harness": {
+    "title": "Braced Harness",
+    "target": "disciplines/armor.md",
+    "learning": "Brace I"
+  },
+  "borrow-the-beast": {
+    "title": "Borrow the Beast",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "the-forest-takes-the-blow": {
+    "title": "The Forest Takes the Blow",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "follow-my-leap": {
+    "title": "Follow My Leap",
+    "target": "disciplines/athletics.md",
+    "learning": "Running Vault I"
+  },
+  "turn-the-fall": {
+    "title": "Turn the Fall",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "under-their-guard": {
+    "title": "Under Their Guard",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "road-of-rime": {
+    "title": "Road of Rime",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "procession-of-the-quiet": {
+    "title": "Call Undead: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "set-the-wedge": {
+    "title": "Set the Wedge",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "the-angle-of-unease": {
+    "title": "The Angle of Unease",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "the-circle-holds": {
+    "title": "The Circle Holds",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "borrowed-silhouette": {
+    "title": "Borrowed Silhouette",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "haul-them-home": {
+    "title": "Haul Them Home",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "ease-the-spasm": {
+    "title": "Ease the Spasm",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "speak-with-the-hearth": {
+    "title": "Speak with the Hearth",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "call-their-name": {
+    "title": "Call Their Name",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "briar-gate": {
+    "title": "Briar Gate",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "no-footfall-at-all": {
+    "title": "No Footfall at All",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "a-name-worth-knowing": {
+    "title": "A Name Worth Knowing",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "veiled-crossing": {
+    "title": "Veiled Crossing",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "sure-ascent": {
+    "title": "Sure Ascent",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "guide-a-frightened-animal": {
+    "title": "Guide a Frightened Animal",
+    "target": "disciplines/wilderness.md",
+    "learning": "Gentle Hand I"
+  },
+  "translate-the-fragment": {
+    "title": "Translate the Fragment",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "the-impossible-escape": {
+    "title": "The Impossible Escape",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "i-have-seen-this-step": {
+    "title": "I Have Seen This Step",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "hook-and-drive": {
+    "title": "Hook and Drive",
+    "target": "disciplines/arms.md",
+    "learning": "Driving Blow I"
+  },
+  "return-to-strength": {
+    "title": "Return to Strength",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "a-sign-against-harm": {
+    "title": "A Sign against Harm",
+    "target": "disciplines/guard.md",
+    "learning": "Sheltering Guard I"
+  },
+  "last-light-of-the-watch": {
+    "title": "Last Light of the Watch",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "carry-to-safety": {
+    "title": "Carry to Safety",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "circle-of-old-names": {
+    "title": "Circle of Old Names",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "the-patient-metal": {
+    "title": "The Patient Metal",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "winter-store": {
+    "title": "Winter Store",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "let-the-spark-decide": {
+    "title": "Let the Spark Decide",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "sell-the-feint": {
+    "title": "Sell the Feint",
+    "target": "disciplines/arms.md",
+    "learning": "Blade Ward I"
+  },
+  "call-a-sentinel": {
+    "title": "Call Spirit: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "silent-cue": {
+    "title": "Silent Cue",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "stitch-the-living-pattern": {
+    "title": "Stitch the Living Pattern",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "create-a-distraction": {
+    "title": "Create a Distraction",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "turn-the-river": {
+    "title": "Turn the River",
+    "target": "disciplines/athletics.md",
+    "learning": "Strong Swimmer I"
+  },
+  "the-bones-rise": {
+    "title": "Call Undead: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "crosswind": {
+    "title": "Crosswind",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "reconstruct-the-event": {
+    "title": "Reconstruct the Event",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "icebound-path": {
+    "title": "Icebound Path",
+    "target": "spellbooks/water.md",
+    "learning": "Water I"
+  },
+  "find-the-seam": {
+    "title": "Find the Seam",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "a-bough-for-the-fallen": {
+    "title": "A Bough for the Fallen",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "the-chorus-advances": {
+    "title": "Rally to Me",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "catch-them-falling": {
+    "title": "Catch Them Falling",
+    "target": "disciplines/athletics.md",
+    "learning": "Catch Your Balance I"
+  },
+  "summon-fey-master": {
+    "title": "Call Fey: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "smoke-through-the-keyhole": {
+    "title": "Smoke Through the Keyhole",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "catch-the-mechanism": {
+    "title": "Catch the Mechanism",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "forked-sky": {
+    "title": "Forked Sky",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "catch-the-ledge": {
+    "title": "Catch the Ledge",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "a-camp-without-a-trace": {
+    "title": "A Camp without a Trace",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "answer-for-what-you-did": {
+    "title": "Answer for What You Did",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "summon-elemental-novice": {
+    "title": "Call Elemental: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "saddle-and-rein": {
+    "title": "Saddle and Rein",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "pounce-of-the-red-claw": {
+    "title": "Pounce of the Red Claw",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "quiet-conference": {
+    "title": "Quiet Conference",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "summon-undead-adept": {
+    "title": "Call Undead: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "a-small-and-watchful-shape": {
+    "title": "A Small and Watchful Shape",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "furnace-sweep": {
+    "title": "Furnace Sweep",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "derive-a-mechanism": {
+    "title": "Derive a Mechanism",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "shielding-step": {
+    "title": "Shielding Step",
+    "target": "disciplines/guard.md",
+    "learning": "Shield Bash I"
+  },
+  "wear-medium-armor": {
+    "title": "Wear Medium Armor",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "call-the-elder-stag": {
+    "title": "Call Animal: Master",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "bind-and-turn": {
+    "title": "Bind and Turn",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "invitation-to-the-blade": {
+    "title": "Invitation to the Blade",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "sever-the-pursuit": {
+    "title": "Sever the Pursuit",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "smoke-in-a-bottle": {
+    "title": "Smoke in a Bottle",
+    "target": "disciplines/craft.md",
+    "learning": "Smoke in a Bottle I"
+  },
+  "find-your-footing": {
+    "title": "Find Your Footing",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "trail-workshop": {
+    "title": "Trail Workshop",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "call-the-opening": {
+    "title": "Fortune Favors Us",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "swing-into-trouble": {
+    "title": "Swing into Trouble",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "fit-a-replacement": {
+    "title": "Fit a Replacement",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "blood-in-the-teeth": {
+    "title": "Blood in the Teeth",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "step-through-the-spark": {
+    "title": "Step Through the Spark",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "carry-them-to-shore": {
+    "title": "Carry Them to Shore",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "keep-the-door-closed": {
+    "title": "Keep the Door Closed",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "through-the-spearpoints": {
+    "title": "Through the Spearpoints",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "read-the-ward": {
+    "title": "Read the Ward",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "anatomy-of-an-opening": {
+    "title": "Anatomy of an Opening",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "the-hunt-ends-here": {
+    "title": "The Hunt Ends Here",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "play-it-off": {
+    "title": "Play It Off",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "the-grove-gives-back": {
+    "title": "The Grove Gives Back",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "guide-the-crossing": {
+    "title": "Guide the Crossing",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "the-land-keeps-no-secrets": {
+    "title": "The Land Keeps No Secrets",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "the-strong-arm": {
+    "title": "The Strong Arm",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "enchanting-workshop": {
+    "title": "Enchanting Workshop",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "notice-the-human-detail": {
+    "title": "Read the Room",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "rim-strike": {
+    "title": "Rim Strike",
+    "target": "disciplines/guard.md",
+    "learning": "Interpose I"
+  },
+  "the-moment-foretold": {
+    "title": "The Moment Foretold",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "the-walking-toolbox": {
+    "title": "Call Construct: Adept",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "a-lock-has-a-language": {
+    "title": "A Lock Has a Language",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Patient Hand I"
+  },
+  "identify-an-enchantment": {
+    "title": "Identify an Enchantment",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "treat-life-injury": {
+    "title": "Treat Life Injury",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "breakaway-rig": {
+    "title": "Breakaway Rig",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "read-the-maker-s-hand": {
+    "title": "Read the Maker’s Hand",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "a-voice-across-the-valley": {
+    "title": "A Voice across the Valley",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "clear-the-airway": {
+    "title": "Clear the Airway",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "drain-warmth": {
+    "title": "Drain Warmth",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "forage-wetlands": {
+    "title": "Forage Wetlands",
+    "target": "disciplines/wilderness.md",
+    "learning": "Wild Harvest I"
+  },
+  "relieve-poison": {
+    "title": "Relieve Poison",
+    "target": "disciplines/medicine.md",
+    "learning": "Read the Symptoms I"
+  },
+  "borrow-tomorrow-s-weather": {
+    "title": "Borrow Tomorrow’s Weather",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "driving-volley": {
+    "title": "Driving Volley",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Measured Shot I"
+  },
+  "thunder-ring": {
+    "title": "Thunder Ring",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "a-marvel-on-wheels": {
+    "title": "A Marvel on Wheels",
+    "target": "disciplines/craft.md",
+    "learning": "Mend and Fit I"
+  },
+  "stone-on-your-shoulders": {
+    "title": "Stone on Your Shoulders",
+    "target": "disciplines/armor.md",
+    "learning": "Armored Training I"
+  },
+  "the-sky-comes-down": {
+    "title": "The Sky Comes Down",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "call-a-burrower": {
+    "title": "Call Spirit: Novice",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "a-breath-beneath-the-water": {
+    "title": "A Breath beneath the Water",
+    "target": "disciplines/wilderness.md",
+    "learning": "Read the Trail I"
+  },
+  "a-verse-for-courage": {
+    "title": "A Verse for Courage",
+    "target": "disciplines/influence.md",
+    "learning": "Make the Case I"
+  },
+  "gust-hammer": {
+    "title": "Gust Hammer",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "checkmate-in-three-steps": {
+    "title": "Checkmate in Three Steps",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "dread-reflection": {
+    "title": "Dread Reflection",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "the-untroubled-hand": {
+    "title": "The Untroubled Hand",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "break-the-formation": {
+    "title": "Break the Formation",
+    "target": "disciplines/arms.md",
+    "learning": "Measured Cut I"
+  },
+  "name-what-is-real": {
+    "title": "Name What Is Real",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "treat-mental-trauma": {
+    "title": "Treat Mental Trauma",
+    "target": "disciplines/medicine.md",
+    "learning": "Field Dressing I"
+  },
+  "a-door-that-is-not-there": {
+    "title": "A Door That Is Not There",
+    "target": "spellbooks/thought.md",
+    "learning": "Thought I"
+  },
+  "keep-your-bearings": {
+    "title": "Keep Your Bearings",
+    "target": "disciplines/scholarship.md",
+    "learning": "Recall the Record I"
+  },
+  "beacon-through-terror": {
+    "title": "Beacon through Terror",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "the-city-opens-its-doors": {
+    "title": "The City Opens Its Doors",
+    "target": "disciplines/subterfuge.md",
+    "learning": "Quiet Passage I"
+  },
+  "a-road-through-rain": {
+    "title": "A Road through Rain",
+    "target": "spellbooks/air.md",
+    "learning": "Air I"
+  },
+  "a-hand-from-before": {
+    "title": "A Hand from Before",
+    "target": "spellbooks/spirits.md",
+    "learning": "Spirits I"
+  },
+  "traverse-the-impossible": {
+    "title": "Traverse the Impossible",
+    "target": "disciplines/athletics.md",
+    "learning": "Sure Ascent I"
+  },
+  "a-splendid-mistake": {
+    "title": "A Splendid Mistake",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "carry-the-sunrise": {
+    "title": "Carry the Sunrise",
+    "target": "spellbooks/protection.md",
+    "learning": "Protection I"
+  },
+  "hold-the-pulse": {
+    "title": "Hold the Pulse",
+    "target": "spellbooks/restoration.md",
+    "learning": "Restoration I"
+  },
+  "bank-the-embers": {
+    "title": "Bank the Embers",
+    "target": "spellbooks/flame.md",
+    "learning": "Flame I"
+  },
+  "read-the-quarry": {
+    "title": "Read the Quarry",
+    "target": "disciplines/marksmanship.md",
+    "learning": "Watchful Shot I"
+  }
+}

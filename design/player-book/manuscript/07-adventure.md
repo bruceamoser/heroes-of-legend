@@ -138,18 +138,15 @@ import an entire monster entry or grant spellcasting if its rules forbid it.
 
 ## Healing spends spell points
 
-A Novice healing spell costs **1 SP**, an Adept spell **2 SP**, and a Master spell
-**4 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
+Each spell costs its printed SP. Page 1 of every spellbook costs **0 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
 Pay the full SP cost before rolling. You must have enough SP; your HP is not the
 casting resource. Healing requires a free hand. Restore the printed HP, apply the
 recipient's Life resistance, and restore at least 1 if HP is missing. Never exceed
 maximum HP. A Dying or stabilized living recipient needs no consent or Reaction.
-Healing erases no scars and cannot restore the dead. Potions use their own fixed
+Ordinary healing erases no scars and cannot restore the dead; only an explicit resurrection working can do so. Potions use their own fixed
 healing and inventory die, without a spell outcome roll or SP cost.
 
-> **Example: a finite reserve.** A healer with 6 SP spends 1 SP on Sap and Breath.
-> Standard restores 5 HP; Life resistance 2 reduces that to 3. The healer has 5 SP
-> left. Healing the caster's HP cannot replenish that reserve.
+> **Example: a finite reserve.** A Shepherd with 6 SP uses Mend for 1 SP. A Standard result restores 6 HP; Life resistance 2 reduces that to 4. The healer has 5 SP left. Restoring HP cannot replenish SP.
 
 A healing spell can attack a creature whose profile says healing harms it. Use the
 spell’s attribute, range and SP cost. Its HP result becomes Life damage; beneficial
@@ -158,22 +155,20 @@ without a second opposed save.
 
 ## Make, identify and derive
 
-A crafting card grants the capability to work; a **recipe** describes the specific
+A learned technique improves how you work; a **recipe** describes the specific
 thing you can make. Recipes specify permission, tools, materials, time and output.
-Choose the recipes granted when learning your crafting ability. Ordinary Recipe Study
-offers additional eligible recipes through DP. Other recipes can be found or derived;
+Choose the recipes granted when learning your crafting ability. Trail Workshop II teaches two further recipes from its named list. Other recipes can be taught, found or derived;
 they are not automatically on sale for coins.
 
 Acquire the actual ingredients. Foraged materials need not be carried indefinitely;
 carried bundles use their printed Bulk and inventory die. Complete the recipe's
-full time, roll the crafting card's attribute, and increase one existing product
-supply by 1/2/3 inventory steps as the recipe allows. Starting from out, the first
+full time, roll Knowledge, and use the recipe’s progress target or supply increase. Apply an improvement only when it names that recipe or work. Starting from out, the first
 step is d4. Never exceed the recipe's cap. Check carried material supply after use.
 
 Derivation is reverse engineering, not the same as identification. Identification
 cards reveal what their outcomes say; an item may require that understanding before
 use. A magical sword may work at once, while a tome may remain unusable until understood.
-A derivation card specifies its target and work interval. Exceptional objects can
+The DA sets a derivation objective, requirements and work interval before work begins. Exceptional objects can
 require years of accumulated work. No group crafting or group derivation shortens it.
 
 ## Rest and development

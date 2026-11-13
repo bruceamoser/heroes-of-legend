@@ -18,7 +18,7 @@ Spend one minute forming a plan from the evidence and observations available. St
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 

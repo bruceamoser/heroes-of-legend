@@ -1,27 +1,7 @@
 # Ember Along the Edge
 
-*Choose one adjacent enemy. Make a Knowledge weapon spell attack. On a Standard result, deal 2 physical and 2 fire damage and Burning 1.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Knowledge
-
-**Target / range / shape:** One adjacent enemy.
-
-Make a Knowledge weapon spell attack.
-
-- **Weak:** 2 physical and 1 fire damage.
-- **Standard:** 2 physical and 2 fire damage and Burning 1.
-- **Strong:** 3 physical and 3 fire damage and Burning 1.
-
-**Equipment / acquisition:** Use an ordinary melee weapon (Bulk 1), supplied on learning if needed.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1 and Arms 1
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Flame I](../spellbooks/flame.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** ember-along-the-edge
-
-[Build this character](../paths/spellblade.md) · [Card conventions](../card-conventions.md)

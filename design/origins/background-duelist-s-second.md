@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Arms 1** and [Invitation to the Blade](../cards/invitation-to-the-blade.md).
-- **Armor 1** and [Wear Light Armor](../cards/wear-light-armor.md).
+- **Arms access** and [Measured Cut I](../disciplines/arms.md).
+- **Armor access** and [Armored Training I](../disciplines/armor.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

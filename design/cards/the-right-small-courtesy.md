@@ -1,23 +1,7 @@
 # The Right Small Courtesy
 
-*Choose a gathering you can observe. Learn a courtesy practiced by this gathering and whom it is appropriate to address first. When you use that courtesy, gain 1 Boon to Guile social rolls with members of the gathering for the rest of the scene.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Time:** Ten minutes of observation.
-
-**Target / range / shape:** A gathering you can observe.
-
-Learn a courtesy practiced by this gathering and whom it is appropriate to address first. When you use that courtesy, gain 1 Boon to Guile social rolls with members of the gathering for the rest of the scene.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Influence 1
-
-**Type:** Skill / Utility
+This former independent ability is retired. Use [Make the Case I](../disciplines/influence.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** the-right-small-courtesy
-
-[Card conventions](../card-conventions.md)

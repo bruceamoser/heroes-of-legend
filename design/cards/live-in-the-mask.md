@@ -1,21 +1,7 @@
 # Live in the Mask
 
-*While maintaining a plausible mundane disguise or impersonation, gain 2 Boons to Guile or Reason rolls maintaining a plausible mundane disguise or impersonation during conversation.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self while maintaining a plausible mundane disguise or impersonation.
-
-Gain 2 Boons to Guile or Reason rolls maintaining a plausible mundane disguise or impersonation during conversation.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2 and Influence 1
-
-**Type:** Skill / Utility
+This former independent ability is retired. Use [Quiet Passage I](../disciplines/subterfuge.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** live-in-the-mask
-
-[Card conventions](../card-conventions.md)

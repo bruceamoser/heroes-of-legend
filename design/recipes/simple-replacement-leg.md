@@ -5,7 +5,7 @@
 ## Rules
 
 - **ID:** recipe-simple-replacement-leg
-- **Permission:** Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission
+- **Permission:** Learn this pattern from a teacher or discovery.
 - **Tools:** Craft tools
 - **Materials per attempt:** Suitable wood, leather straps and padding, obtained in the scene or one compatible carried bundle use
 - **Time per attempt:** One hour
@@ -13,4 +13,4 @@
 
 Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.
 
-Requires Fit a Replacement to fit it for ordinary standing and walking by a person missing a leg. A descriptive scar never requires a replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.
+Fitting requires a separate Medicine objective set by the DA for this person. A descriptive scar never requires a replacement. Recipe knowledge supplies no materials.

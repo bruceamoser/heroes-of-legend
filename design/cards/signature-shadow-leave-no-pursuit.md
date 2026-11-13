@@ -16,7 +16,7 @@ Make a Guile roll against the target. The jab can be a spoken barb, a gesture, o
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 7
 
 **Type:** Signature
 

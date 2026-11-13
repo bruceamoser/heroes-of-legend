@@ -2,7 +2,7 @@
 
 *The shield-bearing guardian who brings everyone home.*
 
-**Hill Dwarf Protector · HP 20/20 · Grit 1 remaining / 1 granted · Speed 5 squares · Bulk 11/13.**
+**Hill Dwarf Protector · HP 19/19 · Grit 1 remaining / 1 granted · Speed 5 squares · Bulk 8/13.**
 
 **Languages:** Common and Dwarven. See the [language reference](../rules/languages.md).
 
@@ -19,26 +19,28 @@ Total **+3**. Protector minima: Fortitude, Reason ≥ 0; met. Mental sum **+0**,
 
 The first creature to damage Borin in each combat joins his permanent grudges; he gains the attack Boon against every creature so marked.
 
-## Level 0 — origins and purchases
+## Level 0 — origins and learning
 
-- [Walled Communities](../origins/culture-walled-communities.md): **Armor 1** and [Wear Light Armor](../cards/wear-light-armor.md).
-- [Household Guard](../origins/background-household-guard.md): **Arms 1** and [Hook and Drive](../cards/hook-and-drive.md).
+- [Walled Communities](../origins/culture-walled-communities.md): **Armor access** and [Armored Training I](../disciplines/armor.md).
+- [Household Guard](../origins/background-household-guard.md): **Arms access** and [Driving Blow I](../disciplines/arms.md).
 
-Opening pool: **10 + 0 duplicate compensation = 10 DP**. No disciplines are purchased at this stage.
+Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Braced Harness](../cards/braced-harness.md) | Armor 1 | 2 | 8 |
-| [Take Them Alive](../cards/take-them-alive.md) | Arms 1 | 2 | 6 |
-| [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 4 |
-| [Carry the Wounded](../cards/catch-a-falling-friend.md) | None | 2 | 2 |
-| [Tell a Worthy Story](../cards/tell-a-worthy-story.md) | None | 2 | 0 |
+| [Armored Training II](../disciplines/armor.md) | Armored Training I | 2 | 8 |
+| [Armored Training III](../disciplines/armor.md) | Armored Training II | 2 | 6 |
+| [Driving Blow II](../disciplines/arms.md) | Driving Blow I | 2 | 4 |
+| [Driving Blow III](../disciplines/arms.md) | Driving Blow II | 2 | 2 |
+| [Athletics access](../disciplines/athletics.md) | Opens its paths | 1 | 1 |
+| [Sure Ascent I](../disciplines/athletics.md) | Athletics access | 1 | 0 |
 
-**Spent 10; 0 DP expires. Stage closes at 0.**
+**Spent 10; 0 DP expires when this stage closes.**
 
-## Level 1 — class and purchases
+## Level 1 — class and learning
 
-Choose [Protector](../classes/protector.md). Class grants **Armor 1 and Guard 1**; 1 duplicate(s) give **+1 DP**, not higher ranks.
+Choose [Protector](../classes/protector.md). Gain **Armor and Guard access**. Duplicate access gives 1 DP each, never a free improvement.
+
 Free signature: [Step Between](../cards/signature-protector-between-them.md). Its use procedure follows; the linked card remains the complete reference:
 
 **Action:** Reaction · **Attribute:** None (no roll)
@@ -53,78 +55,56 @@ You and the ally swap squares. You become the target of the attack and resolve i
 
 **Signature limit:** Repeatable; uses your Reaction.
 
-Fresh pool: **10 + 1 = 11 DP**. All discipline purchases below occur before cards that need them.
+Pool: **10 + 0 mental attributes + 0 ancestry + 1 duplicate grants = 11 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Shielding Step](../cards/shielding-step.md) | Guard 1 | 2 | 9 |
-| **Medicine 1** | Adjacent; previous rank 0 | 2 | 7 |
-| [Treat Soft Tissue](../cards/treat-soft-tissue.md) | Medicine 1 | 2 | 5 |
-| **Athletics 1** | Foreign; previous rank 0 | 3 | 2 |
-| [Sure Ascent](../cards/sure-ascent.md) | Athletics 1 | 2 | 0 |
+| [Interpose I](../disciplines/guard.md) | Guard access | 1 | 10 |
+| [Interpose II](../disciplines/guard.md) | Interpose I | 2 | 8 |
+| [Interpose III](../disciplines/guard.md) | Interpose II | 2 | 6 |
+| [Shield Bash I](../disciplines/guard.md) | Guard access | 1 | 5 |
+| [Shield Bash II](../disciplines/guard.md) | Shield Bash I | 2 | 3 |
+| [Shield Bash III](../disciplines/guard.md) | Shield Bash II | 2 | 1 |
 
-**Spent 11; 0 DP expires. Stage closes at 0.**
+**Spent 10; 1 DP expires when this stage closes.**
 
-**Final disciplines:** Armor 1, Arms 1, Athletics 1, Guard 1, Medicine 1.
+## Learned abilities and spellbook pages
 
-## Equipment and derived statistics
+- [Armored Training I](../disciplines/armor.md).
+- [Armored Training II](../disciplines/armor.md).
+- [Armored Training III](../disciplines/armor.md).
+- [Driving Blow I](../disciplines/arms.md).
+- [Driving Blow II](../disciplines/arms.md).
+- [Driving Blow III](../disciplines/arms.md).
+- [Interpose I](../disciplines/guard.md).
+- [Interpose II](../disciplines/guard.md).
+- [Interpose III](../disciplines/guard.md).
+- [Shield Bash I](../disciplines/guard.md).
+- [Shield Bash II](../disciplines/guard.md).
+- [Shield Bash III](../disciplines/guard.md).
+- [Sure Ascent I](../disciplines/athletics.md).
 
-| Owned item and chosen appearance | Grant | Bulk |
-|---|---|---:|
-| Riveted light armor | [Wear Light Armor](../cards/wear-light-armor.md) | 1 |
-| One-handed broad-headed hammer | [Hook and Drive](../cards/hook-and-drive.md) | 1 |
-| Round shield | [Shielding Step](../cards/shielding-step.md) | 1 |
+All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
 
-HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 + Conditioned Body 1 = **20**. HP gain per level: **6**. SP: **6/6**. First aid: **available**..
-Capacity: 10 + 3 × Brawn (1) = **13**. Granted Bulk **3** + purchased Bulk **8** = **11**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 0 + trait 0 = **5**.
-
-Physical resistance: **1 while wearing the granted light armor**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
-
-Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
-
-**Recipes:** none granted or purchased.
-
-## At the table
-
-Hook and Drive holds a doorway; Step Between lets Borin swap squares with an ally and take a single-target attack before the roll. Taking prisoners is a deliberate use of Take Them Alive. His shield and hammer fill both hands: potions require freeing a hand. Treat Soft Tissue supplies useful care after danger, not instant scar removal.
-
-## Complete learned-card checklist
-
-These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
-
-- [Wear Light Armor](../cards/wear-light-armor.md) — Passive; None (no roll).
-- [Hook and Drive](../cards/hook-and-drive.md) — Main Action; Brawn.
-- [Braced Harness](../cards/braced-harness.md) — Reaction; Fortitude.
-- [Take Them Alive](../cards/take-them-alive.md) — Passive; None (no roll).
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
-- [Carry the Wounded](../cards/catch-a-falling-friend.md) — Maneuver; Brawn.
-- [Tell a Worthy Story](../cards/tell-a-worthy-story.md) — Main Action; Guile.
-- [Shielding Step](../cards/shielding-step.md) — Reaction; None (no roll).
-- [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
-- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
-- [Step Between](../cards/signature-protector-between-them.md) — Reaction; None (no roll).
-
-All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
-
-## Starting coins and shopping — allocation
+## Equipment and starting numbers
 
 40 + 2 + 10 + 7 + 5 (base + ancestry + culture + background + class) = **64 coins**.
 
-One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
 
-| Purchase | Coins | Bulk | Coins left |
+| Item | Coins | Bulk | Coins left |
 |---|---:|---:|---:|
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 61 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 57 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 54 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 45 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 40 |
-| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 35 |
-| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 33 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 13 |
+| [Ordinary Light Armor](../equipment/ordinary-light-armor.md) | 10 | 1 | 54 |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | 42 |
+| [Ordinary Shield](../equipment/ordinary-shield.md) | 10 | 1 | 32 |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 29 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 25 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 22 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 13 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 8 |
 
-**Spent 51; coins carried 13; final Bulk 11/13.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+**Spent 56; coins remaining 8; Bulk 8/13.** No encumbrance penalty.
 
-[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
+HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 = **19**. HP gain per level: **6**. SP: **6/6**. Speed **5**. Grit **1 remaining / 1 granted**. First aid **available**; no death marks or scars.
 
-**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.
+Physical resistance 1 while wearing light armor. A hammer and shield occupy both hands; free a hand before using an item.

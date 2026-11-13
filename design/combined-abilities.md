@@ -4,7 +4,7 @@ Magical and nonmagical disciplines can combine freely. A magical ability spends 
 
 Each ability below requires character level 7 and every listed endpoint. Learn the ability separately after meeting all requirements: 3 DP for two disciplines, 4 DP for three, or 5 DP for four. These are new abilities, not automatic improvements to their prerequisite techniques.
 
-A combination does not require a lower-count combined ability unless explicitly listed. The discipline count describes breadth of training, not a separate character level. Reactions still use your available Reaction, damage cannot fall below 1, and healing still uses the recipient’s first-aid allowance. An encounter ends when the immediate conflict is resolved; briefly pausing or restarting an action does not reset an encounter limit.
+A combination does not require a lower-count combined ability unless explicitly listed. The discipline count describes breadth of training, not a separate character level. Reactions still use your available Reaction, damage cannot fall below 1, and first-aid abilities still use the recipient’s first-aid allowance. An encounter ends when the immediate conflict is resolved; briefly pausing or restarting an action does not reset an encounter limit.
 
 ## Iron Tempest
 DP: 3 | Level: 7
@@ -155,3 +155,58 @@ Requires: passage:3, seals:3, wilderness:tracking:4, scholarship:planning:4
 DP: 5 | Level: 7
 Requires: restoration:3, sanctuary:3, medicine:first-aid:4, influence:leadership:4
 Main Action · Knowledge · 6 SP. Choose up to six living willing or helpless allies within 6 squares whom you can see. Roll once; each restores 6/10/14 HP and reduces Bleeding and Frightened by 2 each. A helpless ally need not respond to be included. This is magical healing and neither uses nor refreshes first-aid allowances. It cannot raise the dead, restore Grit or exceed maximum HP. Each recipient is affected once per use.
+
+## Meteor Swarm
+DP: 3 | Level: 7
+Requires: flame:3, telekinesis:3
+Main Action · Knowledge · 6 SP. Choose up to three visible points within 12 squares. Roll once; every creature within 1 square of a chosen point takes 4/7/10 fire damage. A creature in overlapping areas takes damage once. Allies are not exempt. Unattended flammable objects ignite. This is one spell, not three separate castings.
+
+## Wall of Thorns — Living Fortress
+DP: 3 | Level: 7
+Requires: growth:3, shaping:3
+Main Action · Reason · 5 SP. Raise up to eight connected thorn-wall squares on unoccupied ground within 8 squares. The walls last 10 minutes, are 2 squares high, block movement and provide cover. Name up to six creatures when casting; each may pass through at normal movement cost. Other creatures can spend a Main Action cutting through one adjacent square with a suitable edged tool, taking 3 physical damage, minimum 1 after resistance. Fire destroys an affected wall square after that attack resolves. No roll.
+
+## True Resurrection
+DP: 3 | Level: 7
+Requires: restoration:3, spirits:3
+8 uninterrupted hours · Reason · 8 SP, with remains of one person dead no longer than seven days and unique funerary materials worth 500 coins. The DA establishes availability before preparation. The spirit must freely agree. At completion, consume the materials and return that person to life at 1 HP in a restored body, ending death marks but retaining descriptive scars. No roll. No duplicate body, restored Grit or SP is created. A person can benefit from this working only once; natural old age cannot be reversed.
+
+## Simulacrum
+DP: 3 | Level: 7
+Requires: perception:3, animation:3
+8 uninterrupted hours · Knowledge · 8 SP, with a willing adjacent living model and sculpting materials worth 300 coins, consumed on completion. Create one likeness with 10 HP, no SP or Grit, your Speed, and the model’s appearance and voice. It lasts until destroyed or you create another. It cannot cast, use learned abilities or recover HP. On your turn, spend a Main Action to command it to move up to its Speed and perform an ordinary task or Basic Melee attack using your Knowledge and 2/3/5 damage. It has no independent actions or Reactions; you roll its defenses with your attributes. It cannot create a duplicate. Destroying it does not harm the model.
+
+## Demiplane
+DP: 3 | Level: 7
+Requires: passage:3, seals:3
+1 hour · Knowledge · 6 SP. Open a doorway on an adjacent solid wall to your private 6-by-6-square refuge, 3 squares high. The doorway lasts 10 minutes and may be used by anyone who can reach it. You may close it with a Maneuver. A Maneuver inside opens an exit to the last entrance location; if obstructed, use the nearest unoccupied square within 3 squares. The refuge holds ordinary objects and up to twelve creatures, with air and normal time but no created food or water. You have one refuge; recasting reopens it from the new wall. It grants no travel to any other destination. No roll.
+
+## Foresight — Shared Vigil
+DP: 3 | Level: 7
+Requires: thought:3, portents:3
+10 minutes · Reason · 5 SP. Link yourself and up to three willing creatures within 3 squares for one hour. While within 12 squares of you, linked creatures cannot be surprised by a threat any linked member perceives. Once each round, after one linked creature rolls a defense, it may reroll the entire roll and keep either result. The entire group shares this one reroll. The link carries warnings, not unrestricted thoughts. Recasting replaces the previous link. No roll.
+
+## Storm of Vengeance
+DP: 4 | Level: 7
+Requires: air:3, growth:3, sanctuary:3
+Main Action · Reason · 7 SP. Choose a visible point within 12 squares and a 1-square sanctuary within 2 squares of that point. For three rounds, a storm fills a 3-square radius around the point. When cast, roll once: creatures in the storm outside the sanctuary take 3/5/7 lightning damage. At the start of your next two turns, spend your Main Action and roll again to continue it, dealing the same damage and pushing each affected creature 1 square away from the center where legal. If you cannot or do not spend the action, the storm ends. Everyone in the sanctuary is exempt. Recasting ends the earlier storm.
+
+## Mass Lifegiving
+DP: 4 | Level: 7
+Requires: restoration:3, spirits:3, sanctuary:3
+1 uninterrupted hour · Reason · 10 SP, within a safe prepared sanctuary. Choose up to three willing dead people whose bodies are present and who died within the previous hour. Consume 200 coins of consecrated materials for each; the DA establishes availability beforehand. Restore their fatal injuries, return them to life at 1 HP and clear death marks. No roll. Scars remain; SP and Grit are not restored. Each person may benefit once in their lifetime from either Mass Lifegiving or True Resurrection, not once from each.
+
+## Foresight — Oracle’s Dream
+DP: 4 | Level: 7
+Requires: dreams:3, portents:3, spirits:3
+1 hour of shared sleep · Reason · 6 SP. You and up to three willing nearby sleepers seek the help of a willing spirit for one named undertaking in the next 24 hours. The DA gives one truthful warning of a foreseeable obstacle and one usable clue about addressing it, subject to the spirit’s knowledge. Each dreamer may once reroll an entire roll directly addressing the undertaking and keep either result. Unused rerolls expire after 24 hours; a creature cannot hold a benefit from more than one Oracle’s Dream. No casting roll. This does not guarantee success or reveal unknowable future decisions.
+
+## Gate — World Anchor
+DP: 5 | Level: 7
+Requires: earth:3, passage:3, imbuement:3, seals:3
+7 days, 8 hours of work per day · Knowledge · 10 SP on each workday, with prepared stone anchors at two known locations, each accessible during preparation, and 1,000 coins of materials consumed in total. The DA establishes availability and site permissions first. Create a permanent paired gateway, 2 squares wide, between those anchors, even across planes. At an anchor, a holder of either of the two keys you create can spend a Main Action and 3 SP to open both ends for 10 minutes, or a Maneuver to close them. Anyone can pass while open. A key conveys no control over travelers. Destroying either anchor ends the connection; each has 30 HP and physical resistance 3, and always takes at least 1 attack damage. No roll. You may maintain one pair; completing another ends the first.
+
+## Guards and Wards — Living Citadel
+DP: 5 | Level: 7
+Requires: growth:3, shaping:3, earth:3, sanctuary:3
+3 days, 8 hours of work per day · Reason · 10 SP each day, with sound stone, fertile soil, water and 600 coins of materials consumed. On a prepared 12-by-12-square site, raise a one-story living keep with six rooms, a courtyard, a gate and walls 3 squares high. No roll. Walls block movement and sight; each 1-square section has 20 HP and physical resistance 3, with minimum 1 attack damage. You designate up to twelve residents. At dawn, paying 4 SP renews its wards for 24 hours: residents within gain 1 Boon to defenses, and you sense the location of any breached wall while inside. Missing upkeep removes the wards, not the building. The keep needs ordinary food, water and repairs. You may ward only one citadel at a time.

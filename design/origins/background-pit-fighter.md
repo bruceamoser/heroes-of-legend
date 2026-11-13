@@ -8,11 +8,11 @@
 
 Choose one:
 
-- **Arms 1** and [Blood in the Teeth](../cards/blood-in-the-teeth.md).
-- **Athletics 1** and [Secure a Hold](../cards/secure-a-hold.md).
+- **Arms access** and [Measured Cut I](../disciplines/arms.md).
+- **Athletics access** and [Sure Ascent I](../disciplines/athletics.md).
 
 **Type:** Background
 
-Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.
+Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

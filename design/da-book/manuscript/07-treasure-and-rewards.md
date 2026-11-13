@@ -17,12 +17,12 @@ Rope Coil costs 5; an ordinary melee weapon costs 12; a Lesser Healing Bottle co
 
 There is no established mandatory treasure total per level in this manuscript.
 Consider the party's current supplies, actual needs and opportunities to spend.
-A reward can be generous without buying a new discipline rank: coins purchase
+A reward can be generous without buying a new discipline access: coins purchase
 objects and services, while DP purchases character development.
 
 | Reward | What the party gains | What it does not supply |
 |---|---|---|
-| Coins | Flexible purchasing power where goods are available | DP, discipline ranks or class signatures |
+| Coins | Flexible purchasing power where goods are available | DP, discipline access or class signatures |
 | Equipment | A specific physical object | Unprinted training or an extra attack |
 | A supply | Its stated inventory die and uses | Guaranteed charges equal to the die's faces |
 | A recipe | Knowledge of a particular product | Crafting capability, tools or ingredients by itself |
@@ -139,7 +139,7 @@ no chance to recognize risk.
 
 Crafting requires an appropriate capability, a known recipe, its tools and actual
 ingredients. Cards that grant recipes provide those stated choices; additional
-recipes can come through Ordinary Recipe Study, discovery or derivation. They
+recipes can come through teachers, discovery or derivation. They
 are not automatically available for coin purchase.
 
 An identified object is not automatically a known recipe. Derivation uses its own

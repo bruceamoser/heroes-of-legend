@@ -16,7 +16,7 @@ Trigger: an ally within 5 squares would take damage that reduces it to 0 HP. Tak
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Protector; minimum level 7
 
 **Type:** Signature
 

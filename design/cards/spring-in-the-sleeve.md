@@ -1,27 +1,7 @@
 # Spring in the Sleeve
 
-*Choose one visible enemy within 3 squares. Make a Knowledge device attack. On a Standard result, deal 3 physical damage. Pull 1 square toward you.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Knowledge
-
-**Target / range / shape:** One visible enemy within 3 squares.
-
-Make a Knowledge device attack.
-
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage; pull 1 square toward you.
-- **Strong:** 5 physical damage; pull 2 squares toward you.
-
-**Equipment / acquisition:** One reusable spring-hook bracer (Bulk 1), built on learning and supplied if needed.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1
-
-**Type:** Skill / Attack
+This former independent ability is retired. Use [Mend and Fit I](../disciplines/craft.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** spring-in-the-sleeve
-
-[Build this character](../paths/roadside-artificer.md) · [Card conventions](../card-conventions.md)

@@ -1,25 +1,7 @@
 # Winter Hold
 
-*Choose one visible enemy within 5 squares. Make a Knowledge spell attack. On a Standard result, deal 4 cold damage and Freezing 2.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Knowledge
-
-**Target / range / shape:** One visible enemy within 5 squares.
-
-Make a Knowledge spell attack.
-
-- **Weak:** 4 cold damage and Freezing 1.
-- **Standard:** 4 cold damage and Freezing 2.
-- **Strong:** 6 cold damage, Freezing 2 and Paralyzed 1.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Frost 3
-
-**Type:** Magic / Attack / Control
+This former independent ability is retired. Use [Water I](../spellbooks/water.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** winter-hold
-
-[Card conventions](../card-conventions.md)

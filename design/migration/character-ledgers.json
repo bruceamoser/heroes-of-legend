@@ -1,0 +1,476 @@
+[
+  {
+    "character": "borin-bridgekeeper",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 10,
+        "spent": 10,
+        "purchases": [
+          {
+            "ability": "Armored Training II",
+            "dp": 2
+          },
+          {
+            "ability": "Armored Training III",
+            "dp": 2
+          },
+          {
+            "ability": "Driving Blow II",
+            "dp": 2
+          },
+          {
+            "ability": "Driving Blow III",
+            "dp": 2
+          },
+          {
+            "access": "Athletics",
+            "dp": 1
+          },
+          {
+            "ability": "Sure Ascent I",
+            "dp": 1
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 11,
+        "spent": 10,
+        "purchases": [
+          {
+            "ability": "Interpose I",
+            "dp": 1
+          },
+          {
+            "ability": "Interpose II",
+            "dp": 2
+          },
+          {
+            "ability": "Interpose III",
+            "dp": 2
+          },
+          {
+            "ability": "Shield Bash I",
+            "dp": 1
+          },
+          {
+            "ability": "Shield Bash II",
+            "dp": 2
+          },
+          {
+            "ability": "Shield Bash III",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 6,
+    "hp": 19,
+    "coins": 8,
+    "bulk": 8
+  },
+  {
+    "character": "lira-ashbow",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 10,
+        "spent": 9,
+        "purchases": [
+          {
+            "ability": "Hobbling Shot II",
+            "dp": 2
+          },
+          {
+            "ability": "Hobbling Shot III",
+            "dp": 2
+          },
+          {
+            "ability": "Wild Harvest II",
+            "dp": 2
+          },
+          {
+            "ability": "Wild Harvest III",
+            "dp": 2
+          },
+          {
+            "ability": "Read the Trail I",
+            "dp": 1
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 10,
+        "spent": 10,
+        "purchases": [
+          {
+            "ability": "Measured Shot I",
+            "dp": 1
+          },
+          {
+            "ability": "Measured Shot II",
+            "dp": 2
+          },
+          {
+            "ability": "Measured Shot III",
+            "dp": 2
+          },
+          {
+            "ability": "Sure Ascent I",
+            "dp": 1
+          },
+          {
+            "ability": "Sure Ascent II",
+            "dp": 2
+          },
+          {
+            "ability": "Sure Ascent III",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 6,
+    "hp": 15,
+    "coins": 2,
+    "bulk": 8
+  },
+  {
+    "character": "pip-copperwink",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 11,
+        "spent": 11,
+        "purchases": [
+          {
+            "ability": "Patient Hand I",
+            "dp": 1
+          },
+          {
+            "ability": "Patient Hand II",
+            "dp": 2
+          },
+          {
+            "ability": "Patient Hand III",
+            "dp": 2
+          },
+          {
+            "ability": "Quiet Passage II",
+            "dp": 2
+          },
+          {
+            "ability": "Quiet Passage III",
+            "dp": 2
+          },
+          {
+            "ability": "Measured Cut II",
+            "dp": 2
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 12,
+        "spent": 12,
+        "purchases": [
+          {
+            "ability": "Light Fingers I",
+            "dp": 1
+          },
+          {
+            "ability": "Light Fingers II",
+            "dp": 2
+          },
+          {
+            "ability": "Light Fingers III",
+            "dp": 2
+          },
+          {
+            "ability": "Measured Cut III",
+            "dp": 2
+          },
+          {
+            "ability": "Sure Ascent I",
+            "dp": 1
+          },
+          {
+            "ability": "Sure Ascent II",
+            "dp": 2
+          },
+          {
+            "ability": "Sure Ascent III",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 6,
+    "hp": 13,
+    "coins": 4,
+    "bulk": 7
+  },
+  {
+    "character": "vaelis-emberglass",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 14,
+        "spent": 14,
+        "purchases": [
+          {
+            "ability": "Flame II",
+            "dp": 2
+          },
+          {
+            "ability": "Flame III",
+            "dp": 2
+          },
+          {
+            "ability": "Water II",
+            "dp": 2
+          },
+          {
+            "ability": "Water III",
+            "dp": 2
+          },
+          {
+            "access": "Scholarship",
+            "dp": 1
+          },
+          {
+            "ability": "Recall the Record I",
+            "dp": 1
+          },
+          {
+            "ability": "Recall the Record II",
+            "dp": 2
+          },
+          {
+            "ability": "Recall the Record III",
+            "dp": 2
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 14,
+        "spent": 13,
+        "purchases": [
+          {
+            "ability": "Soul Capacity I",
+            "dp": 1
+          },
+          {
+            "ability": "Soul Capacity II",
+            "dp": 2
+          },
+          {
+            "ability": "Soul Capacity III",
+            "dp": 2
+          },
+          {
+            "ability": "Mind Capacity I",
+            "dp": 1
+          },
+          {
+            "ability": "Mind Capacity II",
+            "dp": 2
+          },
+          {
+            "ability": "Mind Capacity III",
+            "dp": 2
+          },
+          {
+            "ability": "Recovery I",
+            "dp": 1
+          },
+          {
+            "ability": "Recovery II",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 20,
+    "hp": 13,
+    "coins": 15,
+    "bulk": 7
+  },
+  {
+    "character": "mara-reedheart",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 13,
+        "spent": 12,
+        "purchases": [
+          {
+            "ability": "Restoration II",
+            "dp": 2
+          },
+          {
+            "ability": "Restoration III",
+            "dp": 2
+          },
+          {
+            "ability": "Wild Harvest II",
+            "dp": 2
+          },
+          {
+            "ability": "Wild Harvest III",
+            "dp": 2
+          },
+          {
+            "access": "Medicine",
+            "dp": 1
+          },
+          {
+            "ability": "Field Dressing I",
+            "dp": 1
+          },
+          {
+            "ability": "Field Dressing II",
+            "dp": 2
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 15,
+        "spent": 14,
+        "purchases": [
+          {
+            "access": "Spellcraft",
+            "dp": 1
+          },
+          {
+            "ability": "Soul Capacity I",
+            "dp": 1
+          },
+          {
+            "ability": "Soul Capacity II",
+            "dp": 2
+          },
+          {
+            "ability": "Soul Capacity III",
+            "dp": 2
+          },
+          {
+            "ability": "Recovery I",
+            "dp": 1
+          },
+          {
+            "ability": "Recovery II",
+            "dp": 2
+          },
+          {
+            "ability": "Recovery III",
+            "dp": 2
+          },
+          {
+            "ability": "Gentle Hand I",
+            "dp": 1
+          },
+          {
+            "ability": "Gentle Hand II",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 13,
+    "hp": 15,
+    "coins": 5,
+    "bulk": 7
+  },
+  {
+    "character": "oren-brass",
+    "stages": [
+      {
+        "stage": 0,
+        "pool": 14,
+        "spent": 14,
+        "purchases": [
+          {
+            "ability": "Trail Workshop I",
+            "dp": 1
+          },
+          {
+            "ability": "Trail Workshop II",
+            "dp": 2
+          },
+          {
+            "ability": "Trail Workshop III",
+            "dp": 2
+          },
+          {
+            "ability": "Recall the Record II",
+            "dp": 2
+          },
+          {
+            "ability": "Recall the Record III",
+            "dp": 2
+          },
+          {
+            "ability": "Read the Evidence I",
+            "dp": 1
+          },
+          {
+            "ability": "Read the Evidence II",
+            "dp": 2
+          },
+          {
+            "ability": "Read the Evidence III",
+            "dp": 2
+          }
+        ]
+      },
+      {
+        "stage": 1,
+        "pool": 16,
+        "spent": 14,
+        "purchases": [
+          {
+            "ability": "Mend and Fit II",
+            "dp": 2
+          },
+          {
+            "ability": "Mend and Fit III",
+            "dp": 2
+          },
+          {
+            "ability": "Raise a Frame I",
+            "dp": 1
+          },
+          {
+            "ability": "Raise a Frame II",
+            "dp": 2
+          },
+          {
+            "ability": "Raise a Frame III",
+            "dp": 2
+          },
+          {
+            "ability": "Survey the Ground I",
+            "dp": 1
+          },
+          {
+            "ability": "Survey the Ground II",
+            "dp": 2
+          },
+          {
+            "ability": "Survey the Ground III",
+            "dp": 2
+          }
+        ]
+      }
+    ],
+    "sp": 6,
+    "hp": 13,
+    "coins": 9,
+    "bulk": 8
+  }
+]

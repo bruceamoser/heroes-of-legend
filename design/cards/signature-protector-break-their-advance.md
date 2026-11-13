@@ -16,7 +16,7 @@ Trigger: an enemy moves within 2 squares of you while moving toward an ally you 
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; minimum level 3
+**Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Protector; minimum level 3
 
 **Type:** Signature
 

@@ -16,7 +16,7 @@ The ally does not die yet. It remains at 0 HP with at least three death marks un
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 7
 
 **Type:** Signature
 

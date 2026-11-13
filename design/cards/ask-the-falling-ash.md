@@ -1,27 +1,7 @@
 # Ask the Falling Ash
 
-*Use a Maneuver to reduce temporary Burning by 2 or put out an adjacent hand-sized flame.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Reason
-
-**Time:** Ten minutes.
-
-**Target / range / shape:** One course of action you describe.
-
-Describe a course of action your party could begin during the next hour and make a Reason roll. The DA answers from the present situation.
-
-- **Weak:** Learn one concrete danger on that course.
-- **Standard:** Also learn an available way to avoid or lessen it.
-- **Strong:** Also learn a recognizable sign that will warn you before that danger strikes.
-
----
-
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
-
-**Type:** Magic / Utility
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** ask-the-falling-ash
-
-[Build this character](../paths/reader-of-omens.md) · [Card conventions](../card-conventions.md)

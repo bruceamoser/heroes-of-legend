@@ -10,8 +10,9 @@ def link(p):return f'[{title(p)}]({p.relative_to(R)})'
 def main():
  cards=[]
  for p in sorted((R/'cards').glob('*.md')):
-  s=p.read_text();cards.append((p,s))
- txt='# Find your next ability\n\nStart with [the character you imagine](fantasy-paths.md), or browse below.\nEach ability is an editable Markdown page. Class signatures remain exclusive;\nshared paths can be mixed by anyone who meets their card requirements.\n\n'
+  s=p.read_text()
+  if '## Replaced learning reference' not in s:cards.append((p,s))
+ txt='# Find your next ability\n\nStart with [disciplines](disciplines.md) and [combined abilities](combined-abilities.md), or browse below.\nEach ability is an editable Markdown page. Class signatures remain exclusive;\nshared paths can be mixed by anyone who learns their entries in order.\n\n'
  txt+='## Shared abilities costing 1 DP\n\nNo discipline requirement; purchase each once, during level 0 or later. These are not free Universal grants.\n\n'
  for p,s in cards:
   if field(s,'DP')=='1':txt+=f'- {link(p)} — {field(s,"Action")}; 1 DP.\n'
@@ -35,12 +36,10 @@ def main():
    txt+=f'- {link(p)} — {desc}\n'
   txt+='\n'
  (R/'culture-background.md').write_text(txt.rstrip()+'\n')
- txt='# Disciplines and their possibilities\n\nThe eighteen fields use the class rank costs in the current catalog. Buy ranks in\norder; no ability chain is required.\n\n'
+ txt='# Disciplines and their possibilities\n\nLearn access for 1 DP. Each discipline opens four sequential paths at 1/2/2/3 DP; final entries require level 3. See [learning](rules/learning.md) and [combined abilities](combined-abilities.md).\n\n'
+ retired={'flame','frost','storm','mind','calling','radiance'}
  for p in sorted((R/'disciplines').glob('*.md')):
-  d=title(p);txt+=f'## {link(p)}\n\n'
-  for cp,s in cards:
-   if re.search(r'\b'+re.escape(d)+r' [123]\b',field(s,'Requirements to learn')):txt+=f'- {link(cp)} — level {field(s,"Tier / minimum level")}; {field(s,"Action")}.\n'
-  txt+='\n'
+  if p.stem not in retired:txt+='- '+link(p)+'\n'
  (R/'disciplines.md').write_text(txt.rstrip()+'\n')
  for folder,name in [('recipes','Recipes'),('equipment','Equipment')]:
   (R/(folder+'.md')).write_text('# '+name+'\n\nFollow the printed acquisition and requirements; a recipe\nis knowledge, not a free finished item.\n\n'+'\n'.join('- '+link(p) for p in sorted((R/folder).glob('*.md')))+'\n')

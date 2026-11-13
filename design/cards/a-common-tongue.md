@@ -1,25 +1,7 @@
 # A Common Tongue
 
-*Lead a conversation across language barriers and give participating allies 2 Boons to negotiate a specific agreement.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self and creatures within 6 squares who hear the conversation.
-
-For the scene while you lead the conversation, participants understand the deliberate spoken messages and calls exchanged in it, according to each creature's own capacity for understanding.
-
-Name one agreement you seek. You and willing allies participating in the conversation gain 2 Boons to Guile, Knowledge or Reason rolls made to negotiate that agreement.
-
----
-
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
-
-**Type:** Magic / Utility
-
-**Limits:** Lead one such conversation at a time.
+This former independent ability is retired. Use [Make the Case I](../disciplines/influence.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** a-common-tongue
-
-[Card conventions](../card-conventions.md)

@@ -6,11 +6,11 @@
 
 ## Rules
 
-**Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
+**Type:** Culture. **Status:** Proposal. Choose one paired option; take the access and first entry together.
 
-- **Arms 1** and [Smile Before Steel](../cards/smile-before-steel.md).
-- **Subterfuge 1** and [Create a Distraction](../cards/create-a-distraction.md).
+- **Arms access** and [Measured Cut I](../disciplines/arms.md).
+- **Subterfuge access** and [Quiet Passage I](../disciplines/subterfuge.md).
 
-Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.
+Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

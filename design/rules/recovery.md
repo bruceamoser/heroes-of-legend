@@ -146,7 +146,7 @@ not remove curses, regrow limbs or cure a starred condition without a named reme
 
 Your SP reserve is separate from HP. Add **1 SP from ancestry, 1 from culture,
 1 from background and 3 from class**: 3 maximum SP at level 0, 6 at level 1, before
-explicit improvements. These contributions are added once. Learning magic is
+explicit improvements. These starting contributions are added once. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. Learning magic is
 separate from having SP. Safe overnight rest restores spent SP; brief pauses do not.
 
 Healing magic spends the caster's printed **SP cost before resolution**, whether

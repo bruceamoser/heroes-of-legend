@@ -16,7 +16,7 @@ Once per scene, spectral figures fill the area. You and each ally gain 1 Boon to
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; minimum level 7
+**Tier / minimum level:** 7 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 7
 
 **Type:** Signature
 

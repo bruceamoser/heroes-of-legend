@@ -2,7 +2,7 @@
 
 *The investigator-tinker who wins fights by understanding them.*
 
-**Human Intellect · HP 14/14 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 9/10.**
+**Human Intellect · HP 13/13 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 8/10.**
 
 **Languages:** Common, River Speech and Dwarven (A Foot in Two Worlds). See the [language reference](../rules/languages.md).
 
@@ -17,28 +17,30 @@ Total **+3**. Intellect minima: Knowledge, Reason ≥ 0; met. Mental sum **+3**,
 - [Adaptable](../ancestries/trait-human-far-walker.md): You gain 1 additional DP at each level, including level 0.
 - [A Foot in Two Worlds](../ancestries/trait-human-many-homes.md): Choose Hill Dwarf: learn Dwarven and gain [An Honest Maker’s Hand](../ancestries/trait-dwarf-maker-s-eye.md). Once per day, after a roll to craft or repair an item, improve Weak to Standard or Standard to Strong. Keep Human base HP and Speed. Oren learned this craft among the dwarves of his Deep Halls home.
 
-## Level 0 — origins and purchases
+## Level 0 — origins and learning
 
-- [Deep Halls](../origins/culture-deep-halls.md): **Craft 1** and [Trail Workshop](../cards/trail-workshop.md).
-- [Court Questioner](../origins/background-court-questioner.md): **Scholarship 1** and [Anatomy of an Opening](../cards/anatomy-of-an-opening.md).
+- [Deep Halls](../origins/culture-deep-halls.md): **Craft access** and [Mend and Fit I](../disciplines/craft.md).
+- [Court Questioner](../origins/background-court-questioner.md): **Scholarship access** and [Recall the Record I](../disciplines/scholarship.md).
 
-Opening pool: **13 + 1 Adaptable + 0 duplicate compensation = 14 DP**. No disciplines are purchased at this stage.
+Pool: **10 + 3 mental attributes + 1 ancestry + 0 duplicate grants = 14 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| [Make Something Useful](../cards/make-something-useful.md) | Craft 1 | 2 | 12 |
-| [Ordinary Recipe Study](../cards/ordinary-recipe-study.md) | Craft 1; known compatible crafting card | 2 | 10 |
-| [Identify an Enchantment](../cards/identify-an-enchantment.md) | Scholarship 1 | 2 | 8 |
-| [Identify a Mixture](../cards/identify-a-mixture.md) | Scholarship 1 | 2 | 6 |
-| [Read the Remains](../cards/read-the-remains.md) | Scholarship 1 | 2 | 4 |
-| [Conditioned Body](../cards/conditioned-body.md) | None | 2 | 2 |
-| [Message by Heart](../cards/message-by-heart.md) | None; 1-DP ability | 1 | 1 |
+| [Trail Workshop I](../disciplines/craft.md) | Craft access | 1 | 13 |
+| [Trail Workshop II](../disciplines/craft.md) | Trail Workshop I | 2 | 11 |
+| [Trail Workshop III](../disciplines/craft.md) | Trail Workshop II | 2 | 9 |
+| [Recall the Record II](../disciplines/scholarship.md) | Recall the Record I | 2 | 7 |
+| [Recall the Record III](../disciplines/scholarship.md) | Recall the Record II | 2 | 5 |
+| [Read the Evidence I](../disciplines/scholarship.md) | Scholarship access | 1 | 4 |
+| [Read the Evidence II](../disciplines/scholarship.md) | Read the Evidence I | 2 | 2 |
+| [Read the Evidence III](../disciplines/scholarship.md) | Read the Evidence II | 2 | 0 |
 
-**Spent 13; 1 DP expires. Stage closes at 0.**
+**Spent 14; 0 DP expires when this stage closes.**
 
-## Level 1 — class and purchases
+## Level 1 — class and learning
 
-Choose [Intellect](../classes/intellect.md). Class grants **Craft 1 and Scholarship 1**; 2 duplicate(s) give **+2 DP**, not higher ranks.
+Choose [Intellect](../classes/intellect.md). Gain **Craft and Scholarship access**. Duplicate access gives 1 DP each, never a free improvement.
+
 Free signature: [Make the Connection](../cards/signature-intellect-make-the-connection.md). Its use procedure follows; the linked card remains the complete reference:
 
 **Action:** Main Action · **Attribute:** None (no roll)
@@ -55,86 +57,63 @@ Spend one minute reviewing everything you have learned about one case, person, p
 
 **Signature limit:** One revelation per case until new evidence becomes available.
 
-Fresh pool: **13 + 1 Adaptable + 2 = 16 DP**. All discipline purchases below occur before cards that need them.
+Pool: **10 + 3 mental attributes + 1 ancestry + 2 duplicate grants = 16 DP**.
 
-| Purchase | Requirements held / price basis | DP spent | Remaining |
+| Learning | Requirement already held | DP | Remaining |
 |---|---|---:|---:|
-| **Medicine 1** | Adjacent; previous rank 0 | 2 | 14 |
-| [Treat Soft Tissue](../cards/treat-soft-tissue.md) | Medicine 1 | 2 | 12 |
-| [Treat Bone](../cards/treat-bone.md) | Medicine 1 | 2 | 10 |
-| [Treat Mental Trauma](../cards/treat-mental-trauma.md) | Medicine 1 | 2 | 8 |
-| [Rouse the Senses](../cards/rouse-the-senses.md) | Medicine 1 | 2 | 6 |
-| **Athletics 1** | Foreign; previous rank 0 | 3 | 3 |
-| [Sure Ascent](../cards/sure-ascent.md) | Athletics 1 | 2 | 1 |
+| [Mend and Fit II](../disciplines/craft.md) | Mend and Fit I | 2 | 14 |
+| [Mend and Fit III](../disciplines/craft.md) | Mend and Fit II | 2 | 12 |
+| [Raise a Frame I](../disciplines/craft.md) | Craft access | 1 | 11 |
+| [Raise a Frame II](../disciplines/craft.md) | Raise a Frame I | 2 | 9 |
+| [Raise a Frame III](../disciplines/craft.md) | Raise a Frame II | 2 | 7 |
+| [Survey the Ground I](../disciplines/scholarship.md) | Scholarship access | 1 | 6 |
+| [Survey the Ground II](../disciplines/scholarship.md) | Survey the Ground I | 2 | 4 |
+| [Survey the Ground III](../disciplines/scholarship.md) | Survey the Ground II | 2 | 2 |
 
-**Spent 15; 1 DP expires. Stage closes at 0.**
+**Spent 14; 2 DP expires when this stage closes.**
 
-**Final disciplines:** Athletics 1, Craft 1, Medicine 1, Scholarship 1.
+## Learned abilities and spellbook pages
 
-## Equipment and derived statistics
+- [Mend and Fit I](../disciplines/craft.md).
+- [Mend and Fit II](../disciplines/craft.md).
+- [Mend and Fit III](../disciplines/craft.md).
+- [Raise a Frame I](../disciplines/craft.md).
+- [Raise a Frame II](../disciplines/craft.md).
+- [Raise a Frame III](../disciplines/craft.md).
+- [Read the Evidence I](../disciplines/scholarship.md).
+- [Read the Evidence II](../disciplines/scholarship.md).
+- [Read the Evidence III](../disciplines/scholarship.md).
+- [Recall the Record I](../disciplines/scholarship.md).
+- [Recall the Record II](../disciplines/scholarship.md).
+- [Recall the Record III](../disciplines/scholarship.md).
+- [Survey the Ground I](../disciplines/scholarship.md).
+- [Survey the Ground II](../disciplines/scholarship.md).
+- [Survey the Ground III](../disciplines/scholarship.md).
+- [Trail Workshop I](../disciplines/craft.md).
+- [Trail Workshop II](../disciplines/craft.md).
+- [Trail Workshop III](../disciplines/craft.md).
 
-| Owned item and chosen appearance | Grant | Bulk |
-|---|---|---:|
-| Compact craft tools | [Trail Workshop](../cards/trail-workshop.md) | 1 |
-| One-handed walking cane, described as a melee weapon | [Anatomy of an Opening](../cards/anatomy-of-an-opening.md) | 1 |
+All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
 
-HP: 10 + ancestry 2 + class 1 + Fortitude 0 + trait 0 + Conditioned Body 1 = **14**. HP gain per level: **3**. SP: **6/6**. First aid: **available**..
-Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **2** + purchased Bulk **7** = **9**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 0 = **6**.
+**Recipes:** Trail Workshop I teaches Bound Torches and Twisted Cord; II adds Travel Food and Wooden Brace. Ingredients must be acquired separately.
 
-Physical resistance: **0**. Other resistances: **0**. Scars and death marks: **0**. Grit: **1**. No HP or Grit has been spent during creation.
-
-Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
-
-**Recipes chosen:** Trail Workshop → Bound Torches and Fletched Ammunition; Make Something Useful → Travel Food and Twisted Cord; Ordinary Recipe Study → Wooden Brace and Simple Replacement Leg. All six are distinct compatible ordinary recipes. One craft tool set serves both crafting cards. The shopping ledger supplies one compatible ordinary material bundle; other ingredients still need to be obtained.
-
-## At the table
-
-Message by Heart lets Oren preserve an exact witness statement of up to 50 words after one minute of rehearsal. Only one message is retained this way.
-
-Anatomy of an Opening uses Knowledge in a fight; Oren chooses its optional melee-weapon grant. Make the Connection reveals one missed detail grounded in established facts after one minute reviewing an investigation, once per case until new evidence appears. Crafting and identification make discoveries useful, while Medicine supports wound care. Oren’s card grants supply tools and recipe knowledge; his shopping ledger adds ordinary ingredients, but no finished crafted supplies.
-
-## Complete learned-card checklist
-
-These are all origin grants, purchases and the free signature; there is no equipped-card limit. Universal references are supplied separately.
-
-- [Message by Heart](../cards/message-by-heart.md) — Main Action; None (no roll).
-
-- [Trail Workshop](../cards/trail-workshop.md) — Main Action; Knowledge.
-- [Anatomy of an Opening](../cards/anatomy-of-an-opening.md) — Main Action; Knowledge.
-- [Make Something Useful](../cards/make-something-useful.md) — Main Action; Knowledge.
-- [Ordinary Recipe Study](../cards/ordinary-recipe-study.md) — Passive; None (no roll).
-- [Identify an Enchantment](../cards/identify-an-enchantment.md) — Main Action; Knowledge.
-- [Identify a Mixture](../cards/identify-a-mixture.md) — Main Action; Reason.
-- [Read the Remains](../cards/read-the-remains.md) — Main Action; Reason.
-- [Conditioned Body](../cards/conditioned-body.md) — Passive; None (no roll).
-- [Treat Soft Tissue](../cards/treat-soft-tissue.md) — Main Action; Knowledge.
-- [Treat Bone](../cards/treat-bone.md) — Main Action; Knowledge.
-- [Treat Mental Trauma](../cards/treat-mental-trauma.md) — Main Action; Reason.
-- [Rouse the Senses](../cards/rouse-the-senses.md) — Main Action; Reason.
-- [Sure Ascent](../cards/sure-ascent.md) — Passive; None (no roll).
-- [Make the Connection](../cards/signature-intellect-make-the-connection.md) — Main Action; None (no roll).
-
-All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
-
-## Starting coins and shopping — allocation
+## Equipment and starting numbers
 
 40 + 1 + 7 + 10 + 8 (base + ancestry + culture + background + class) = **66 coins**.
 
-One plain worn outfit is supplied by the creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
 
-| Purchase | Coins | Bulk | Coins left |
+| Item | Coins | Bulk | Coins left |
 |---|---:|---:|---:|
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 63 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 59 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 56 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 47 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 42 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 22 |
-| [Material Bundle](../equipment/material-bundle.md) | 12 | 1 | 10 |
+| [Craft Tools](../equipment/craft-tools.md) | 15 | 1 | 51 |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | 39 |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 36 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 32 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 29 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 20 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 15 |
+| [Writing Kit](../equipment/writing-kit.md) | 6 | 1 | 9 |
 
-**Spent 56; coins carried 10; final Bulk 9/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
-The material bundle contains wood, fiber and bindings suitable for Twisted Cord or Wooden Brace, not healing ingredients. It begins at d6; no finished crafted goods are assumed.
+**Spent 57; coins remaining 9; Bulk 8/10.** No encumbrance penalty.
 
-[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
-
-**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.
+HP: 10 + ancestry 2 + class 1 + Fortitude 0 + trait 0 = **13**. HP gain per level: **3**. SP: **6/6**. Speed **6**. Grit **1 remaining / 1 granted**. First aid **available**; no death marks or scars.

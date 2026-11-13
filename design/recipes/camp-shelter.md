@@ -6,15 +6,9 @@
 
 **ID:** recipe-camp-shelter
 
-**Permission:** [A Roof before Nightfall](../cards/a-roof-before-nightfall.md).
-**Tools:** Craft tools. **Time per attempt:** One hour.
-**Materials per attempt:** Suitable supports and weatherproof covering, gathered locally or one compatible carried material-bundle use.
-**Completion target:** 4 progress.
+**Permission:** [Raise a Frame I](../disciplines/craft.md).
+**Tools:** Craft tools. **Time per attempt:** One hour, or 30 minutes with Raise a Frame III.
+**Materials per attempt:** Suitable supports and weatherproof covering; the DA fixes the quantity before work.
+**Completion target:** 4 progress for an ordinary shelter accommodating six people.
 
-Roll Knowledge using the crafting card's outcomes. Add 1/2/3 progress. Inspect materials before consuming them; reject unsuitable materials without consuming the rejected portion. Check any used carried material supply after the attempt. No group crafting.
-
-On completion, the shelter accommodates the crafter and up to six companions against ordinary rain and wind. It provides no fortification or protection against extreme weather. If the completing result is Strong, it can be packed in ten minutes into one Bulk 1 bundle and erected again in one hour without a new crafting roll or new materials, while intact. Otherwise it must be rebuilt when dismantled. The DA states visible material and site limitations before the attempt.
-
-The shelter lasts until dismantled or damaged. The recipe is granted by its crafting card and may also be learned through Ordinary Recipe Study if already compatible; recipe knowledge grants no tools, ingredients or crafting permission.
-
-[Recipe index](../recipes.md)
+Roll Knowledge for 1/2/3 progress, improved to 1/3/4 by Raise a Frame II. On completion, the shelter resists ordinary rain and wind, not attacks or extreme weather. It lasts until dismantled or damaged; it is not a portable tent. A Roof before Nightfall instead completes such a shelter in one hour without a roll. Both require sound materials and a suitable site. Shelter alone does not guarantee safe overnight recovery.

@@ -1,7 +1,7 @@
 # Recipes
 
 A recipe is the knowledge of how to make a particular thing. It tells you which
-crafting ability permits the work, what tools and materials you need, how long an
+knowledge or technique permits the work, what tools and materials you need, how long an
 attempt takes, and what the result produces. Knowing a recipe does not supply its
 ingredients or grant the ability needed to use it.
 
@@ -11,9 +11,7 @@ outcomes and limits. Starting crafting abilities provide their stated recipe cho
 you can learn further compatible recipes through the appropriate ability or discover
 them during play.
 
-**Granted by** tells you how a recipe enters your repertoire. **Used with** lists
-abilities that can carry out its work. Ordinary Recipe Study grants two compatible
-recipes, but you must already know an ability that can use them.
+**Permission** tells you how to learn or carry out the work. Trail Workshop teaches its named recipe choices. Other formulas can be learned from teachers or discovery; they grant no materials or equipment.
 
 For every recipe, roll the crafting ability’s printed attribute at the end of an
 attempt. Work alone; there is no group crafting. Accumulate project progress until

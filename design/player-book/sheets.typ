@@ -52,13 +52,13 @@
  #sheet-title("Training & abilities")
  #v(8pt)#grid(columns:(2fr,1fr),gutter:7pt,field("CHARACTER NAME"),field("SAVED DP"))
  #strip("Disciplines")
- #rows(([DISCIPLINE],[RANK],[AFFINITY],[DP PAID / GRANT]),(2fr,40pt,1fr,1.5fr),10,height:17pt)
+ #rows(([DISCIPLINE],[PATH],[LEARNED STEP],[DP PAID / GRANT]),(2fr,40pt,1fr,1.5fr),10,height:17pt)
  #strip("Learned abilities & class signatures")
- #rows(([ABILITY],[TIER],[ACTION],[REQUIREMENTS / PAGE]),(2fr,35pt,70pt,1.5fr),14,height:16pt)
+ #rows(([ABILITY],[LEVEL],[ACTION],[REQUIREMENTS / PAGE]),(2fr,35pt,70pt,1.5fr),14,height:16pt)
  #strip("Ancestry traits & other lasting benefits")
  #rows(([TRAIT / SOURCE],[BENEFIT / LIMIT]),(1fr,2fr),3,height:19pt)
  #v(5pt)#field("LANGUAGES / SPOKEN-ONLY OR OTHER LIMITS",height:30pt)
- #v(8pt)#text(size:8.5pt)[All learned cards are available. Keep frequently used cards beside the encounter sheet. Rank requirements must be owned before purchase; buy ranks in order.]
+ #v(8pt)#text(size:8.5pt)[All learned abilities are available. Keep frequently used cards beside the encounter sheet. Learn each path in order. Record spellbook pages and exact endpoints for combined abilities.]
 ])
 #page-sheet([
  #sheet-title("Belongings & scars")
@@ -86,5 +86,5 @@
  #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + MENTAL ATTRIBUTES"),field("DUPLICATE DP"),field("TOTAL POOL"))
  #v(6pt)#rows(([GRANT / PURCHASE],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("SPENT"),field("UNSPENT DP EXPIRES — CLOSE AT 0"))
- #v(9pt)#text(size:9pt)[Finish: record HP, Grit, Speed and capacity; resolve equipment grants once; add starting coins and shop. Levels 2–10 grant 8 + new level DP, which may be saved and spent in a safe place.]
+ #v(9pt)#text(size:9pt)[Finish: record HP, SP, Grit, Speed and capacity; resolve equipment grants once; add starting coins and shop. Each level after 1 adds 2 maximum SP. Levels 2–10 grant 8 + new level DP, which may be saved and spent in a safe place.]
 ])

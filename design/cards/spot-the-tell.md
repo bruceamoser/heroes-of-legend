@@ -1,21 +1,7 @@
 # Spot the Tell
 
-*Choose one visible creature within 6 squares whose attack you witnessed this scene. Choose the witnessed attack. Learn its range and defense attribute. You and every ally within 3 squares who hears your explanation gain 1 Boon to the next defense against that attack before the start of your next turn.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** One visible creature within 6 squares whose attack you witnessed this scene.
-
-Choose the witnessed attack. Learn its range and defense attribute. You and every ally within 3 squares who hears your explanation gain 1 Boon to the next defense against that attack before the start of your next turn.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Scholarship 1
-
-**Type:** Skill / Defense / Utility
+This former independent ability is retired. Use [Recall the Record I](../disciplines/scholarship.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** spot-the-tell
-
-[Card conventions](../card-conventions.md)

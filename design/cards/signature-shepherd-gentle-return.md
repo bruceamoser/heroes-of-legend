@@ -16,7 +16,7 @@ pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a fr
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

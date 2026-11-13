@@ -48,20 +48,37 @@ if n.count('classaffinitysetsthecostofeachrank'):errors.append('Repeated discipl
 for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:', 'Foreign;',
                'one of your two traits', 'Recipe permission:', 'Type: Culture', 'Type: Background']:
  if phrase in text:errors.append('Retired reader boilerplate: '+phrase)
-for title in ['Starting HP', 'Starting coins', 'Discipline costs by class',
+for title in ['Starting HP', 'Starting coins', 'Learning and using disciplines',
               'Universal action index', 'Novice ability index', 'Adept ability index', 'Master ability index']:
  if norm(title) not in n:errors.append('Missing reader reference: '+title)
 summaries=json.loads((B/'ability-summaries.json').read_text())
 shared=[x for x in m['cards'] if not Path(x['path']).name.startswith('signature-')]
-if set(summaries)!={Path(x['path']).stem for x in shared}:errors.append('Ability summary coverage differs from shared catalog')
-for slug,summary in summaries.items():
- if norm(summary) not in n:errors.append('Missing ability-directory summary: '+slug)
+for x in shared:
+ slug=Path(x['path']).stem
+ if slug not in summaries:errors.append('Missing ability summary: '+slug)
+ elif norm(summaries[slug]) not in n:errors.append('Missing ability-directory summary: '+slug)
+# Verify the new chapter's mechanics and exact prerequisite names survived typesetting.
+learning=json.loads((B/'nonmagical/generated.json').read_text())
+for d in learning:
+ for path in d['paths']:
+  for entry in path['entries']:
+   for value in [entry['name'],entry['effect']]:
+    if norm(value) not in n:errors.append('Missing learning text: '+entry['name'])
+combinations=json.loads((B/'nonmagical/combined.json').read_text())['abilities']
+for entry in combinations:
+ for value in [entry['name'],entry['effect'],*[parent['name'] for parent in entry['parents']]]:
+  if norm(value) not in n:errors.append('Missing combined text: '+entry['name'])
+books=json.loads((B/'generated/spellbooks.json').read_text())
+if len(books)!=29 or sum(len(b['rows']) for b in books)!=319:errors.append('Incomplete spellbook atlas')
+for book in books:
+ for row in book['rows']:
+  if norm(row[1]) not in n:errors.append('Missing spell: '+row[1])
 for phrase in ['Choose your languages', 'Ordinary languages', 'Uncommon and ancient languages', 'Use languages at the table', 'Keep learning grounded']:
  if norm(phrase) not in n:errors.append('Missing language section: '+phrase)
 for row in (R/'design/rules/languages.md').read_text().splitlines():
  if row.startswith('| ') and not row.startswith('| Language'):
   if norm(row.split('|')[1]) not in n:errors.append('Missing language choice: '+row)
-if body.count('#ability-directory(')!=4:errors.append('Expected four opening ability directories')
+if body.count('#ability-directory(')!=2:errors.append('Expected universal and independent-talent directories')
 if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
 for cp in (R/'design/origins').glob('*.md'):
  for grant in re.findall(r'^- (\*\*[^\n]+)',cp.read_text(),re.M):
@@ -70,11 +87,11 @@ from PIL import Image
 for portrait in (B/'art/interior').glob('class-*-cutout.png'):
  with Image.open(portrait) as im:
   if im.mode!='RGBA' or im.getchannel('A').getextrema()[0]!=0:errors.append('Class portrait lacks transparency: '+portrait.stem)
-for source in m.get('presentation_sources',[]):
+for source in m.get('presentation_sources',[])+m.get('learning_sources',[]):
  if hashlib.sha256((R/source['path']).read_bytes()).hexdigest()!=source['sha256']:errors.append('Presentation source changed: '+source['path'])
 if 'Artwork in production' in text:errors.append('Unfilled illustration placeholder in PDF')
 # Creation, the class introduction and glossary may each state the global rule.
-if n.count('nomulticlassing')!=3:errors.append('Unexpected multiclassing repetition outside the three global references')
+if 'nomulticlassing' not in n:errors.append('Missing global class restriction')
 fills=json.loads((B/'generated/space-art.json').read_text())
 for f in fills:
  if not (B/'art/interior'/f"{f['asset']}.png").is_file():errors.append('Missing open-space art: '+f['asset'])

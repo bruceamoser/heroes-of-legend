@@ -16,7 +16,7 @@ Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
+**Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

@@ -1,29 +1,7 @@
 # Quiet Latch
 
-*Pick an adjacent ordinary lock with a Guile roll. Your toolwork is audible only in adjacent squares.*
+## Replaced learning reference
 
-## Rules
-
-**Action:** Main Action · **Attribute:** Guile
-
-**Time:** One minute per attempt.
-
-**Target / range / shape:** One adjacent ordinary lock.
-
-Make a Guile roll toward opening the lock. Your toolwork is audible only in adjacent squares.
-
-- **Weak:** 1 opening progress.
-- **Standard:** 2 opening progress.
-- **Strong:** 3 opening progress; leave no tool marks.
-
-**Equipment / acquisition:** Lock tools (Bulk 1), supplied on learning if needed.
-
----
-
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
-
-**Type:** Skill / Utility
+This former independent ability is retired. Use [Quiet Passage I](../disciplines/subterfuge.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** quiet-latch
-
-[Card conventions](../card-conventions.md)
