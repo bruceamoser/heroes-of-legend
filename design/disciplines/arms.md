@@ -37,7 +37,7 @@ Driving Blow also applies Dazed 1 on Strong, whether or not the target can be pu
 
 ### Battering Stroke
 DP: 3 | Level: 3
-Main Action · Brawn. Deal 2/3/5 physical damage to one adjacent creature; push it up to 2 squares. If another creature blocks that push, both take 1 physical damage and the push ends.
+Main Action · Brawn. Deal 2/3/5 physical damage to one adjacent creature. Push it up to 2 squares directly away from you. Resolve collisions normally.
 
 ## Disruption
 
