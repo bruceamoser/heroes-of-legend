@@ -1,6 +1,6 @@
 # Move
 
-*Spend up to Speed in movement squares, split around your actions. Normal terrain costs 1. Difficult terrain costs 2. Occupied squares cannot be crossed unless the occupant is prone. Crossing costs 2 and cannot end there.*
+*Spend up to Speed in movement squares, split around your actions. Each normal square costs 1 movement and each difficult square costs 2. While Prone, crawl for 2 per normal square or 3 per difficult square.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self
 
-Spend up to Speed in movement squares, split around your actions. Normal terrain costs 1; difficult terrain costs 2. Occupied squares cannot be crossed unless the occupant is prone; crossing costs 2 and cannot end there.
+Spend up to Speed in movement squares, split around your actions. Each normal square costs 1 movement and each difficult square costs 2. While Prone, crawl for 2 per normal square or 3 per difficult square. Straight and diagonal steps cost the same. You may cross an occupied square if its occupant is Prone. Pay the higher of 2 movement or your usual cost to enter it, and finish in a free square. Crawling out of melee reach can provoke an opportunity attack.
 
 **Duration:** Instant
 

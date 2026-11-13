@@ -55,7 +55,7 @@ An asterisk means persistent, not necessarily incurable. Follow the ability or h
 | Slowed X | Speed −X, minimum 0 | Decay unless explicitly persistent |
 | Dazed X | At 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction; movement remains | Choose at turn start; no retroactive change to spent actions; decay 1 at turn end |
 | Grappled X | Movement 0; at 1/2/3+, choose 2/1/0 of Main, Maneuver, Reaction | Maintained; no decay. Force reduces 1/2/3 when a Main remains; rating 3 requires help |
-| Prone | Crawl; standing costs 2 movement | Stand or source effect; occupied prone square traversable at cost 2 |
+| Prone | Crawl for 2 movement per normal square or 3 per difficult square, including diagonally | Spend 2 movement to stand, or end as the source specifies |
 | Asleep X | Unaware, no actions/movement | Default numbered decay; adjacent Main wake effort reduces 1; damage ends it; source can specify persistence |
 | Paralyzed X | Aware, no actions or movement at any positive rating | Duration only; decay; no gradual return of options before 0 |
 | Unconscious | Unaware, prone, no actions/movement | Source; ordinary healing wakes only HP-caused unconsciousness |

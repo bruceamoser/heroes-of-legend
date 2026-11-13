@@ -163,8 +163,9 @@ attacks can be blocked. Combine Defend and Shield Block as separate sources.
 
 ## Opportunity attacks
 
-Leaving an enemy's melee reach voluntarily, casting beside it, standing, stowing an
-item, or retrieving an item can provoke. Spend your Reaction to make **Basic Melee**
+Leaving an enemy's melee reach voluntarily, including by crawling, can provoke.
+Casting beside an enemy, standing, stowing an item, or retrieving one can also
+provoke. Spend your Reaction to make **Basic Melee**
 with a held melee weapon or **Basic Unarmed** with a free hand. A DA creature uses
 its bestiary Basic Melee. Resolve the attack **at the start of the provoking action**,
 before the original action takes effect.
@@ -187,11 +188,13 @@ An ability can explicitly allow movement without provoking.
 ## Distance, space and cover
 
 All distances use **squares**. A square is the useful unit for your map; it does not
-require a fixed conversion into feet or meters. A diagonal step costs one square.
-Normal ground costs 1 movement; difficult ground costs 2.
+require a fixed conversion into feet or meters. Normal ground costs 1 movement per
+square and difficult ground costs 2. While Prone, crawl for 2 movement per normal
+square or 3 per difficult square. Straight and diagonal steps cost the same.
+Standing costs 2 movement.
 
-You cannot move through an occupied square unless its occupant is Prone. That square
-costs 2 movement, and you cannot end there. Standing costs 2 movement. An ability
+You can cross an occupied square if its occupant is Prone. Pay the higher of 2
+movement or your usual cost to enter it, and finish in a free square. An ability
 that moves you without provoking still respects terrain, occupied spaces and legal
 endpoints unless it explicitly says otherwise.
 
