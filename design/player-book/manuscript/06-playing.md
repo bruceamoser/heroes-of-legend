@@ -161,9 +161,8 @@ item, or retrieving an item can provoke. The enemy may spend its Reaction to mak
 provoking action**, before the original action takes effect.
 
 Then continue the original action if its actor is capable. Damage alone does not
-cancel it. An actor reduced to Dying cannot continue. Commit the action on declaration;
-if interrupted permanently, that action is spent. Additional HP or item costs are
-paid only when the action continues into resolution. An unspent potion is not drunk
+cancel it. Recheck targets and range before continuing. At 0 HP, an actor must regain HP before they can act again. Commit the action on declaration;
+if interrupted permanently, that action is spent. Pay the printed cost when the action continues into resolution. An unspent potion is not drunk
 by an interrupted character who can no longer act.
 
 Drawing a weapon as part of attacking adds no separate action. Dropping an item is
@@ -172,9 +171,9 @@ An ability can explicitly allow movement without provoking.
 
 > **Example — a spell under pressure.** Vaelis begins casting beside an armed foe.
 > The foe spends its Reaction on Basic Melee. Vaelis makes the required defense and
-> loses HP. Still conscious and otherwise capable, Vaelis continues the spell and
-> pays any remaining printed cost. A healing spell cannot proceed if its upfront
-> life cost would leave its caster at 0 HP.
+> loses HP. Vaelis can still act, so she checks her targets again, pays the
+> spell's SP cost and resolves it. If the attack drops her to 0 HP, she spends
+> the action she declared and keeps the SP.
 
 ## Distance, space and cover
 

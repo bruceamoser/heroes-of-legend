@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Permission:** Learn this formula from a teacher or discovery; it is not automatically granted by Craft access.
+**Permission:** Learn this formula from a teacher or discover it in play.
 **Tools:** Mixing kit. **Time:** One hour per attempt.
 **Materials:** Bitter starleaf, clean water and a filtering cloth; one compatible material-bundle use per attempt if carried.
 

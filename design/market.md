@@ -8,13 +8,12 @@ currency conversion. Use the prices and supply rules below.
 
 A simple meal costs 1 coin. A plain bed costs 2 coins per night, meals separate.
 Ordinary local labor pays about 3 coins per day; skilled work about 6. These are
-anchors, not a requirement to simulate wages. Dangerous adventuring earns more
-because it risks wounds, scarce Grit and death, not because food becomes expensive
-when a character gains levels.
+guides for an ordinary town. Dangerous adventuring can earn more because the
+company takes greater risks.
 
-Equipment grants still happen first. Coins buy objects and supplies, never DP,
-discipline access, signature access or training. Owning armor does not grant its
-training card. A purchased weapon’s appearance supplies no damage modifier.
+Record any gear your character choices provide, then buy what you still need.
+Choose armor you have trained to wear. Use the damage of your chosen attack
+regardless of the weapon’s appearance.
 Prices for functionally equivalent ordinary melee weapons are equal; a jeweled
 hilt may be valuable decoration but does not hit harder.
 

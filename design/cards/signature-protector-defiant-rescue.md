@@ -10,7 +10,7 @@
 
 Trigger: an ally within 5 squares would take damage that reduces it to 0 HP. Take the entire damage event instead, applying your own weaknesses and resistances once. The ally takes none of that event’s damage or attached conditions; you take its attached conditions. If you fall to 0, resolve your own Dying procedure.
 
-**Duration:** As the wound.
+**Duration:** Immediate. Attached conditions follow their usual timing.
 
 **Equipment / acquisition:** None.
 

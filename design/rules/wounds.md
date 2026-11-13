@@ -1,9 +1,8 @@
 # Scars and Survival
 
 Every survived incident that brought a hero to 0 HP leaves a descriptive scar.
-Choose with the player after danger passes. There is no wound roll, accumulated
-wound modifier, injury table or Recovery Value. A scar never adds a mechanical
-penalty or benefit. The following prompts are invitations, not random results.
+Choose it with the player after danger passes. Use these prompts to describe
+what the hero remembers or carries with them. A scar never adds a mechanical penalty or benefit.
 
 | What happened | A possible lasting reminder |
 |---|---|

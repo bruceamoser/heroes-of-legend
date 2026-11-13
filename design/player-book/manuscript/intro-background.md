@@ -5,12 +5,7 @@ a gate, tended the wounded, traveled with performers or learned to survive by a 
 hand and a quicker smile. Choose something that gives you a memory, a connection and
 a reason to leave familiar ground.
 
-Choose **one complete paired option** from the background. It grants a discipline access
-and its accompanying ability at level 0, and contributes to starting coins. Culture
-and background can point in the same direction or reveal different sides of your hero.
-Resolve duplicate grants before spending your level-0 DP. The
-[discipline chapter](05-disciplines.md) explains the learning paths that access opens.
-
-Each duplicate grant gives **1 level-0 DP** instead of an automatic improvement
-or a replacement choice. Spend it before closing that stage. Follow the granted
-ability’s requirements; equipment must be bought unless explicitly granted.
+Choose **one option** at level 0. Begin the listed discipline and learn the
+accompanying ability or spellbook section. Add 1 level-0 DP for each discipline
+or entry you already know. Record your background’s coin contribution and +1
+starting SP. Gather any gear your new ability uses.

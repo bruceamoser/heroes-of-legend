@@ -183,7 +183,7 @@
   "smoke-through-the-keyhole": "Self through a continuous open gap to a visible free square within 2 squares. Become smoke and move with your carried equipment through a continuous open gap as narrow as a keyhole to a visible free square within 2 squares. This movement does not provoke. Reform at the destination.",
   "speak-with-the-hearth": "Choose one ordinary fire within reach. Read the fire's impressions of the previous day and make a Knowledge roll. Your touch is safe for this reading. On a Standard result, also see the appearance of its most recent visitor.",
   "spring-in-the-sleeve": "Choose one visible enemy within 3 squares. Make a Knowledge device attack. On a Standard result, deal 3 physical damage. Pull 1 square toward you.",
-  "stabilize": "Choose one adjacent Dying player character. Stabilize at 0 HP and clear death marks. No roll. This grants no HP, erases no scar, and does not restore Grit. The recipient is conscious but cannot fight or move voluntarily at 0. Taking damage while stable enters Dying again and causes an immediate death roll.",
+  "stabilize": "Stabilize an adjacent Dying hero at 0 HP and clear their death marks. They regain consciousness from HP loss and can speak while waiting for healing.",
   "stand": "While prone, spend 2 squares of movement to stand. This spends movement, not a Maneuver.",
   "step-between-lanterns": "Self along a concealed route. Move up to 3 squares through actual dimness or concealment without provoking. Gain 1 Boon to any Agility roll needed to remain Hidden during this movement.",
   "step-through-the-spark": "Choose one visible free supported square within 3 squares. Teleport to the chosen square.",

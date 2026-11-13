@@ -10,7 +10,7 @@ The first page of every book costs 0 SP to cast. Keep every learned page availab
 
 ## Casting a spell
 
-Choose a learned spell and legal targets, pay its printed SP, and use its stated action. You need a free hand and a clear path to a target unless the spell describes a remote connection. Measure range in squares from your position. A point or destination must be visible when chosen unless the spell explicitly uses a known place, memory, object or person instead. Carry ordinary gear within your usual capacity when a spell transports you.
+Choose a learned spell and legal targets, and commit its stated action. Resolve any opportunity attack first. If you can continue, recheck your targets, pay the printed SP and resolve the spell. You need a free hand and a clear path to a target unless the spell describes a remote connection. Measure range in squares from your position. A point or destination must be visible when chosen unless the spell explicitly uses a known place, memory, object or person instead. Carry ordinary gear within your usual capacity when a spell transports you.
 
 Use the spell's printed attribute for any roll. A block marked Automatic resolves its stated effect directly. Three values always mean Weak / Standard / Strong. Attacks use the familiar 3d6 resolution and deal at least 1 damage after resistance and reductions. Add a condition at its listed rating, then use its normal timing and decay. Apply healing after the recipient's Life resistance, restore at least 1 HP when HP is missing, and stop at maximum HP. Healing spends SP independently of the recipient's first-aid treatment.
 
@@ -30,7 +30,7 @@ A **Ritual** gives its required casting time alongside the label. Pay SP and sup
 
 An instant spell resolves once. A fixed-duration spell lasts for its printed time; you may end your own ongoing spell with a Maneuver. When it changes ordinary material permanently, the resulting object or terrain follows ordinary rules afterward. A magical effect ending leaves its described consequences in place: healed HP stays restored and damage stays dealt.
 
-For a spell marked **Sustained**, casting maintains it until the end of your next turn. On each later turn, spend a Maneuver and 1 SP before that deadline to maintain it until the end of your following turn, within the printed maximum duration. Perform that upkeep once per turn. A Main Action may convert to the required Maneuver. The upkeep's listed movement or renewal is part of that same Maneuver. A separate attack or other activity that names a Main Action still uses it.
+For a spell marked **Sustained**, casting maintains it until the end of your next turn. Starting on the turn after you cast it, spend a Maneuver and 1 SP by the end of each turn to maintain it through the end of your following turn, within the printed maximum duration. Perform that upkeep once per turn. A Main Action may convert to the required Maneuver. The upkeep's listed movement or renewal is part of that same Maneuver. A separate attack or other activity that names a Main Action still uses it.
 
 You may sustain one spell at a time. Beginning another sustained spell ends the previous one. Unconsciousness, death, or missing an upkeep ends sustain. If a block says a condition is renewed, raise that spell's remaining contribution to the named rating rather than adding another instance each round. Conditions decay normally after renewal ends.
 

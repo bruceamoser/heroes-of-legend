@@ -1,12 +1,12 @@
 # Pain Feeds the Fire
 
-*While raging, each time you take damage while raging, gain 1 Boon to your next attack this round. Boons from this ability stack, up to the normal cap of 3.*
+*Each time you take damage while Go Berserk is active, gain 1 Boon to your next attack this round. Boons from this ability stack, up to the normal cap of 3.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None (no roll)
 
-**Target / range / shape:** Self, while raging.
+**Target / range / shape:** Self, while [Go Berserk](signature-unbalanced-wild-approach.md) is active.
 
 Each time you take damage while raging, gain 1 Boon to your next attack this round. Boons from this ability stack, up to the normal cap of 3.
 

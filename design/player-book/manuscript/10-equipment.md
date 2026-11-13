@@ -7,8 +7,7 @@ which hand will reach your potion when the fight goes badly.
 ## Coins and trade
 
 HOL uses one currency: **coins**. A listed price buys the described ordinary item or
-full supply. Training and discipline access are learned through
-character development, not coins. Choose armor that matches your training.
+full supply. Choose armor that matches the training you’ve learned.
 
 Useful intact gear sells for **half its listed value**, rounded down, or trades at
 **full value** with a willing trader. A 12-coin weapon sells for 6 or trades for
@@ -21,11 +20,11 @@ Choose a suit of armor to match your training and acquire it with your other equ
 
 | Training | Requirement | DP | Physical resistance |
 |---|---|---:|---:|
-| [Armored Training I](../../disciplines/armor.md) | Armor access | 1 | Light: 1 |
+| [Armored Training I](../../disciplines/armor.md) | Study Armor | 1 | Light: 1 |
 | Armored Training II | Armored Training I | 2 | Medium: 2 |
 | Armored Training III | Armored Training II | 2 | Heavy: 3 |
 
-All three may be learned at level 0. Each keeps the earlier permissions. Use the highest applicable resistance, never their sum. Even after resistance, every attack deals at least 1 damage.
+All three may be learned at level 0. Each new step lets you use its armor category as well as any you learned earlier. Use the highest applicable resistance, never their sum. Even after resistance, every attack deals at least 1 damage.
 
 ## Bulk and hands
 

@@ -51,6 +51,9 @@ for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:',
 for title in ['Starting HP', 'Starting SP', 'Starting coins', 'Learning and using disciplines',
               'Basic action index', 'Talent index', 'Level 1 signature index', 'Level 3 signature index', 'Level 7 signature index']:
  if norm(title) not in n:errors.append('Missing reader reference: '+title)
+for phrase in ['safe breath', 'hit dice pool', 'recovery value', 'life cost',
+               'moser’s law', 'as the wound', 'class discipline prices', 'no discipline purchases']:
+ if norm(phrase) in n:errors.append('Retired player rule or wording: '+phrase)
 summaries=json.loads((B/'ability-summaries.json').read_text())
 shared=[x for x in m['cards'] if x['tier']=='Universal']
 for x in shared:
@@ -85,7 +88,8 @@ if body.count('#ability-directory(')!=1:errors.append('Expected one Basic Action
 if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
 for cp in (R/'design/origins').glob('*.md'):
  for grant in re.findall(r'^- (\*\*[^\n]+)',cp.read_text(),re.M):
-  if norm(grant) not in n:errors.append('Origin grant missing: '+cp.stem+' '+grant)
+  printed = re.sub(r'^\*\*(\w+) access\*\* and ', r'Study \1 and learn ', grant)
+  if norm(printed) not in n:errors.append('Origin grant missing: '+cp.stem+' '+printed)
 from PIL import Image
 for portrait in (B/'art/interior').glob('class-*-cutout.png'):
  with Image.open(portrait) as im:
@@ -93,8 +97,7 @@ for portrait in (B/'art/interior').glob('class-*-cutout.png'):
 for source in m.get('presentation_sources',[])+m.get('learning_sources',[]):
  if hashlib.sha256((R/source['path']).read_bytes()).hexdigest()!=source['sha256']:errors.append('Presentation source changed: '+source['path'])
 if 'Artwork in production' in text:errors.append('Unfilled illustration placeholder in PDF')
-# Creation, the class introduction and glossary may each state the global rule.
-if 'nomulticlassing' not in n:errors.append('Missing global class restriction')
+if 'chooseoneclass' not in n:errors.append('Missing instruction to choose one class')
 fills=json.loads((B/'generated/space-art.json').read_text())
 for f in fills:
  if not (B/'art/interior'/f"{f['asset']}.png").is_file():errors.append('Missing open-space art: '+f['asset'])

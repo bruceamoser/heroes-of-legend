@@ -68,7 +68,7 @@
  #rows(([ITEM / SUPPLY],[BULK],[DIE],[LOCATION / SPECIAL EFFECT]),(1.7fr,35pt,35pt,1.8fr),12,height:18pt)
  #v(5pt)#text(size:8.5pt)[Capacity = 10 + 3 × Brawn. Speed loses 1 per excess Bulk. Inventory: d20 → d12 → d10 → d8 → d6 → d4 → out. After use, a 1 steps down.]
  #strip("Recipes, tools & materials")
- #rows(([RECIPE / PERMISSION],[TOOLS / MATERIALS / PROJECT PROGRESS]),(1fr,1.6fr),4,height:18pt)
+ #rows(([RECIPE],[TOOLS / MATERIALS / PROJECT PROGRESS]),(1fr,1.6fr),4,height:18pt)
  #strip("Scars & remembered rescues")
  #rows(([SCAR],[INCIDENT],[WHO HELPED / WHAT YOU REMEMBER]),(1fr,1.2fr,2fr),4,height:22pt)
  #v(7pt)#text(size:8.5pt)[Scars are descriptive only. First Aid: one attempt per recipient between safe overnight rests; ten minutes + supplies; Knowledge heals 2/4/6 HP. Grit: 1 at levels 1/3/7, never refreshed; spend for half maximum HP, rounded up.]
@@ -77,14 +77,14 @@
  #sheet-title("Creation ledger")
  #v(8pt)#field("CHARACTER NAME / CONCEPT",height:36pt)
  #strip("Level 0 — before your class")
- #text(size:9pt)[10 + Knowledge + Reason + Guile + duplicate-grant DP. No discipline purchases.]
- #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + MENTAL ATTRIBUTES"),field("DUPLICATE DP"),field("TOTAL POOL"))
- #v(6pt)#rows(([GRANT / PURCHASE],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
+ #text(size:9pt)[10 + Knowledge + Reason + Guile + ancestry benefits + DP for repeated choices. Study a discipline for 1 DP.]
+ #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + ATTRIBUTES + ANCESTRY"),field("DUPLICATE DP"),field("TOTAL POOL"))
+ #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("SPENT"),field("UNSPENT DP EXPIRES — CLOSE AT 0"))
  #strip("Level 1 — choose your class")
- #text(size:9pt)[New 10 + Knowledge + Reason + Guile + duplicate-grant DP. Apply class discipline prices.]
- #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + MENTAL ATTRIBUTES"),field("DUPLICATE DP"),field("TOTAL POOL"))
- #v(6pt)#rows(([GRANT / PURCHASE],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
+ #text(size:9pt)[Start a new pool using the same formula. Begin two disciplines from your class list and choose one signature.]
+ #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + ATTRIBUTES + ANCESTRY"),field("DUPLICATE DP"),field("TOTAL POOL"))
+ #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("SPENT"),field("UNSPENT DP EXPIRES — CLOSE AT 0"))
  #v(9pt)#text(size:9pt)[Finish: record HP, SP, Grit, Speed and capacity; resolve equipment grants once; add starting coins and shop. Each level after 1 adds 2 maximum SP. Levels 2–10 grant 8 + new level DP, which may be saved and spent in a safe place.]
 ])

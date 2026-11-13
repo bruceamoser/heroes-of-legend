@@ -53,23 +53,23 @@ personality or allegiance.
 
 Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from −2 through +2, totaling +3. Attributes stay fixed as you gain levels. Choose an ancestry and two of its five traits, then choose culture and background independently.
 
-Choose one complete learning option from your culture and one from your background. Each grants discipline access and its named first ability or spellbook section. Each discipline or learned entry you already know gives you 1 additional DP to spend during this stage.
+Choose one complete learning option from your culture and one from your background. Begin studying the discipline listed in each option and learn the accompanying ability or spellbook section. For each discipline or entry you already know, add 1 DP to this stage’s pool.
 
-Receive 10 + Knowledge + Reason + Guile DP, including negative adjustments, plus duplicate compensation and explicit ancestry benefits. Spend these points on discipline access and eligible learned entries. A discipline costs 1 DP for every character. Follow each path in order: its first three steps cost 1, 2 and 2 DP. The fourth step costs 3 DP and requires level 3. These steps are available at level 0 unless a higher level is printed. Close the stage; unused DP expires.
+Receive 10 + Knowledge + Reason + Guile DP, including negative adjustments, plus duplicate compensation and explicit ancestry benefits. Spend these points to begin studying disciplines and learn their entries. Beginning a discipline costs 1 DP. Follow each path in order: its first three steps cost 1, 2 and 2 DP. The fourth step costs 3 DP and requires level 3. These steps are available at level 0 unless a higher level is printed. Close the stage; unused DP expires.
 
 ## Level 1: choose a class
 
 Meet the class's two attribute minimums (normally 0 in each); Odd has none. Choose two distinct disciplines from its starting list. These disciplines establish your class training; develop their paths through further learning. Each duplicate gives 1 level-1 DP. Choose one level-1 class signature; no discipline requirement applies to that signature.
 
-Receive a fresh 10 + Knowledge + Reason + Guile DP, plus this stage's duplicate compensation and explicit ancestry benefits. Learn access and entries at the same prices used at level 0. All prerequisites must already be owned. Close this stage independently; unused DP expires. A later class grant cannot qualify an earlier purchase.
+Receive a fresh 10 + Knowledge + Reason + Guile DP, plus this stage's duplicate compensation and explicit ancestry benefits. Study disciplines and learn entries at the same costs as at level 0. Meet each entry’s requirements before learning it. Spend the points for this stage before finishing level 1.
 
 ## Learning and spellbooks
 
 Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
-A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
+A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Once learned, page 1 costs 0 SP to cast. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
 
-Combined abilities require level 7, every named branch endpoint and a separate learning cost: 3 DP for two disciplines, 4 DP for three, 5 DP for four. Magical and nonmagical disciplines may combine. Owning only a discipline or a partially learned branch does not satisfy an endpoint. No lower-count combined ability is required unless explicitly listed.
+At level 7, learn a combined ability after learning all the final abilities or named spellbook sections it lists. Spend 3 DP for two disciplines, 4 DP for three, or 5 DP for four. Some combinations bring magical and nonmagical disciplines together.
 
 The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
 
@@ -87,14 +87,14 @@ Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used on
 
 ## Advancement
 
-The DA awards milestone levels. From level 2 onward, gain 8 + the new level DP. These points may be saved and spent in a DA-approved safe place. Mental attributes modify only the two creation pools. Add the ancestry and class HP contributions at each new level; increased maximum HP does not erase damage already taken.
+The DA awards milestone levels. From level 2 onward, gain 8 + the new level in DP. Save these points or spend them when the DA judges you are somewhere safe. Add your ancestry and class contributions to maximum HP. If you have positive HP, add the same amount to current HP. At 0 HP, increase only your maximum.
 
-At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. Other levels grant DP, HP and SP growth without adding a compulsory new active ability. There is no multiclassing or access to another class's signatures.
+At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. At other levels, gain the DP, HP and SP listed below.
 
 | New level | DP | Other milestone |
 |---|---:|---|
 | 2 | 10 | HP and +2 SP growth |
-| 3 | 11 | HP and +2 SP growth; level-3 endpoints; one signature; 1 Grit |
+| 3 | 11 | HP and +2 SP growth; final path entries; one signature; 1 Grit |
 | 4 | 12 | HP and +2 SP growth |
 | 5 | 13 | HP and +2 SP growth |
 | 6 | 14 | HP and +2 SP growth |
@@ -103,4 +103,4 @@ At level 3, final branch abilities become available; gain 1 Grit and choose one 
 | 9 | 17 | HP and +2 SP growth |
 | 10 | 18 | HP and +2 SP growth |
 
-Record each learned entry, its required previous entry, DP spent and remaining pool. Record spellbook pages rather than treating them as expended slots. All learned abilities remain available; there is no equipped-card hand limit.
+Record what you learned, including spellbook pages, and how much DP remains. You can use any learned entry when you meet its requirements.

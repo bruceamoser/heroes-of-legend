@@ -44,7 +44,8 @@ def clean(p):
   s=s.replace('**Duration:** While its stated circumstances apply; permanent for base statistics.','')
  if p.parent.name=='origins':
   s=re.sub(r'^\*\*Type:\*\*[^\n]*\n','',s,flags=re.M)
-  s=re.sub(r'^(?:Each option is a pair\.|Grant at level 0\.).*\n','',s,flags=re.M)
+  s=re.sub(r'^(?:Each option grants discipline access|Gain the chosen access).*\n','',s,flags=re.M)
+  s=re.sub(r'- \*\*(\w+) access\*\* and ',r'- **Study \1** and learn ',s)
  if p.parent.name=='paths':
   s=s.replace('This is a character idea, not a new class, subclass or prerequisite chain.','')
   s=s.replace('These are independent cards. You need every stated discipline rank, not the earlier card.','')
@@ -91,7 +92,11 @@ def clean(p):
   start=s.index('| Condition |'); end=s.index('\n\n',s.index('| Invisible',start))
   s='# Condition reference\n\n'+s[start:end]
  if p.parent.name=='characters':
-  s=re.sub(r'\b(?:Home|Adjacent|Foreign|Opposed);', 'Class price;', s)
+  s=re.sub(r'\*\*(\w+) access\*\* and ',r'**Study \1** and learn ',s)
+  s=re.sub(r'(\w+) access(?=\]| \|)',r'Study \1',s)
+  s=s.replace('Duplicate access gives 1 DP each, never a free improvement.','Add 1 DP for each of those disciplines you already study.')
+  s=re.sub(r'Gain \*\*([^*]+) access\*\*\.',r'Study **\1**.',s)
+  s=s.replace('Level 3 endpoints and level 7 combinations are not yet learned.','')
   s=re.sub(r'###? Summoning catalog.*?(?=\n##|\Z)', '', s, flags=re.S)
   s=s.replace('actual creature selection awaits the eligible bestiary profiles', 'choose from the Summoned Companions chapter')
  s=s.replace('The six worked characters now include purses and actual shopping ledgers. No one receives higher-level cards, extra DP or', 'The six worked characters include complete shopping ledgers. No one receives higher-level cards, extra DP or')
@@ -183,7 +188,8 @@ def card(p):
  record(p,'ability');s=clean(p)
  def field(label,default=''):
   m=re.search(r'\*\*'+re.escape(label)+r':\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',s);return m.group(1).strip() if m else default
- tier=field('Tier / minimum level');req=field('Requirements to learn');action=field('Action');attr=field('Attribute');tags=field('Type');price=field('DP')
+ tier=field('Tier / minimum level');req=field('Requirements to learn');action=field('Action');attr=field('Attribute');card_type=field('Type');price=field('DP')
+ tags=card_type
  card_records.append({'path':rel(p),'name':name(p),'tier':tier,'action':action,'requirements':req,'key':key(p)})
  if field('Tags'):tags+=' / '+field('Tags')
  s=re.sub(r'^\*\*(?:Action|Tier / minimum level|Type|Tags):\*\*.*\n','',s,flags=re.M)
@@ -200,7 +206,7 @@ def card(p):
  if '**Summoning' not in s and 'Choose one bestiary entry explicitly approved for' in s:
   s=re.sub(r'Choose anew each casting;.*?Apply \[Command a Summon\].*?\n', 'Use its profile in [Summoned Companions](../player-book/manuscript/11-summons.md) and the shared summoning procedure.\n',s,flags=re.S)
  icons=''.join('#discipline-mark('+q(d.lower())+','+q(r)+')' for d,r in re.findall(r'([A-Za-z]+) ([123])',req) if (DESIGN/'disciplines'/(d.lower()+'.md')).exists())
- return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Basic action' if tier=='Universal' else ('Class choice' if tags=='Signature' else price+' DP'),key(p)]))+')[\n'+render(s,p)+']\n'
+ return '#card(icons: ['+icons+'],'+','.join(map(q,[name(p),'U' if tier=='Universal' else tier,req,action,attr,tags,'Basic action' if tier=='Universal' else ('Class choice' if card_type=='Signature' else price+' DP'),key(p)]))+')[\n'+render(s,p)+']\n'
 
 def flow(entries,gap='5pt'):
  return '#reading-columns(('+','.join('['+c+']' for c in entries)+',), gap:'+gap+')\n'
@@ -295,7 +301,7 @@ def hp_reference():
  classes=[]
  for c in CLASS_ORDER:
   cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution (\+\d+)',cp.read_text()).group(1)+' |')
- intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.\n\n#note[#align(center)[#text(size:12pt,weight:"bold")[10 + level × (ancestry + class) + Fortitude + explicit benefits]]]\n'
+ intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and learning your starting abilities; then start at that maximum.\n\n#note[#align(center)[#text(size:12pt,weight:"bold")[10 + level × (ancestry + class) + Fortitude + explicit benefits]]]\n'
  table=lambda title,rows:render('## '+title+'\n| Choice | HP |\n|---|---:|\n'+'\n'.join(rows),p,base=1).replace('#rule-table(2,','#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,')
  intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock, for example, adds 1 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. At level 0 use 10 + ancestry + Fortitude + benefits. Record current HP separately.],['+table('Class',classes)+'])\n'
  intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With Hard as Bedrock, the total is *19*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
@@ -366,7 +372,7 @@ for typ,title in [('culture','Cultures'),('background','Backgrounds')]:
  entries += [doc(p,typ,wide=True) for p in sorted((DESIGN/'origins').glob(typ+'-*.md'),key=name)]
  parts.append(flow(entries)+'#tail-art('+q(typ+'s')+')\n')
 parts.append(section('4','Classes'))
-parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class. Choose one free signature at each milestone; additional signatures are not bought separately. They require only your class and level, with no discipline or earlier-signature requirement.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums. All classes pay the same learning costs.\n\nChoose one class; there is no multiclassing. You can still learn any shared ability whose requirements you meet, but another class’s signatures remain exclusive.], [\n')
+parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose one class. Begin studying two disciplines from its starting list and choose one signature from your class at levels 1, 3 and 7. You can also study other disciplines with DP.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums. All classes pay the same learning costs.], [\n')
 class_rows=[]
 for cp in sorted((DESIGN/'classes').glob('*.md'),key=name):
  ct=cp.read_text(); mm=re.search(r'minimum 0 in ([^;]+);',ct); hp=re.search(r'HP contribution (\+\d+)',ct)

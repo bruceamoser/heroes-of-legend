@@ -5,11 +5,7 @@ knowledge and ways of meeting hardship. An elf raised among dwarven halls may kn
 their songs and stonework; a human from a wandering company may feel at home wherever
 people gather around a fire. Choose a culture independently of your ancestry.
 
-Choose **one complete paired option** from its entry. You gain the listed discipline access and ability together at level 0. Its coin contribution also helps determine
-your starting purse. These gifts describe what you learned, not what you must believe
-or how you must behave. See [Disciplines and Character Paths](05-disciplines.md) for
-how your new discipline opens further choices.
-
-Each duplicate grant gives **1 level-0 DP** instead of an automatic improvement
-or a replacement choice. Spend it before closing that stage. Follow the granted
-ability’s requirements; equipment must be bought unless explicitly granted.
+Choose **one option** at level 0. Begin the listed discipline and learn the
+accompanying ability or spellbook section. Add 1 level-0 DP for each discipline
+or entry you already know. Record your culture’s coin contribution and +1 starting
+SP. Gather any gear your new ability uses.

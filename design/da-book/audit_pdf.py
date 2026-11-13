@@ -93,6 +93,8 @@ start=next(p for t,p in outline if t=='Scars and Survival');end=next(p for t,p i
 wounds='\n'.join(pages[start-1:end-1])
 rolls=re.findall(r'^\s*([1-6]{3})\s+',wounds,re.M)
 if rolls:errors.append('Obsolete wound table results remain')
+for phrase in ['life cost', 'Bottled Morning', 'short-rest reset', 'Recovery Value']:
+ if phrase.casefold() in s.casefold():errors.append('Retired DA rule or wording: '+phrase)
 if 'Scars and Survival' not in s:errors.append('Missing scar reference')
 raw=B/'output/da-guide-unoptimized.pdf'
 raw_text=subprocess.check_output(['pdftotext','-layout',str(raw),'-'])
