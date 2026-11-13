@@ -32,11 +32,10 @@ the chain. Stability resists displacement; applicable resistance reduces damage.
 
 ## Crowded moving groups — approved October 16, 2026
 
-Move the creatures together along the forced-movement path. They must finish in
+Move the group together along the forced-movement path. Its members must finish in
 separate legal spaces. If the group cannot fit, stop at the last position where
 everyone can fit. The DA determines the exact arrangement.
 
 Placement cannot send a creature through a wall or grant extra forward movement.
-The original mover’s one-square backward bounce still applies where possible.
-Use the existing collision damage and Stability rules; placement does not erase
-an impact. No separate formation or packing procedure is required.
+Resolve any bounce after placing the group. Follow the [collision rules](foundations.md#movement)
+for impacts and a blocked bounce. Placement does not erase an impact.

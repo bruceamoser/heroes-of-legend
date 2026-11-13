@@ -168,21 +168,27 @@ Deduct the initial target's Stability once before forced movement. Terrain then
 consumes movement by square: normal 1, difficult 2. Any positive remaining budget
 can enter the last square and stop even if its cost exceeds that budget.
 
-When the moving creature or group strikes another movable creature, resolve
-collision damage from the movement remaining at contact. Apply applicable damage
-resistance, then deduct the new member's Stability. Continue as one group if movement
-remains. Never charge the same member's Stability twice during that movement.
+When a moving creature or group strikes a movable creature or object, add it to
+the group. Move the group as one creature using the original movement allowance
+that remains. Each new impact deals damage equal to that allowance at contact to
+every creature in the group, including a newly struck creature. Apply each
+creature's own armor to each impact, with a minimum of 1 damage. Then deduct the
+new creature's Stability once for that movement. Continued contact between members
+of the group deals no further damage.
 
 > **Example: a collision chain.** Push 5 meets Stability 1, leaving 4. The target
 > crosses one normal square, leaving 3, then collides with a Stability-2 creature.
-> Both receive 3 collision damage before applicable resistance. Deduct the new
-> member's Stability 2, leaving 1 for further group movement.
+> Both receive 3 collision damage before armor. With armor 1 and 3 respectively,
+> they lose 2 HP and 1 HP. Deduct the new creature's Stability 2, leaving 1 square
+> for the group. If they hit a movable object with that square still available,
+> each creature takes 1 damage after armor and the object joins the group.
 
-A hard obstruction stops the group and adds 1 to the remaining-budget collision
-damage. Every member takes the applicable damage. Finish in separate legal spaces;
-if everyone cannot fit, stop at the last position where they can. You choose the
-arrangement without granting extra forward movement or passage through walls.
-The original mover bounces one square opposite afterward where possible.
+A hard obstacle stops the group. Each creature takes damage equal to the remaining
+movement plus 1 before armor. Finish in separate legal spaces. If the group cannot fit,
+stop at the last position where it can. Choose the arrangement without granting
+extra forward movement or passage through walls. After a hard impact, only the
+original mover bounces one square opposite the direction of impact. If that square
+is blocked, the mover stays in place without another impact or damage.
 
 Stability does not resist Prone, grapples, conditions or damage. If Stability
 prevents a push, the attack's other effects still occur.
