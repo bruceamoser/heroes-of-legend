@@ -152,6 +152,14 @@ The troll recovers HP only while above 0 and cannot regenerate from death.
 
 ## Forced movement and Stability
 
+A Push moves a target directly away from its source. A Pull moves it directly
+toward its source. A Slide can move it in any direction, including vertically.
+The effect's user chooses the Slide path and can stop any of these movements
+before using all the listed squares. Follow any restrictions in the effect. A
+Push or Pull changes elevation only when the effect allows it. Apply collision
+damage only on impact. For example, stopping beside a wall leaves the target
+unharmed by the wall. Pushing the target into it causes a collision.
+
 All actors start at Stability 0 unless an explicit trait, ability or item says
 otherwise. On creature cards, Heavy Frame identifies a permanent grant. A large
 footprint by itself grants none. Use the highest applicable source, maximum 3.

@@ -206,12 +206,21 @@ Roll once using the **worst applicable net Boon/Bane situation** among its targe
 Use that result for all targets; apply their resistances individually. When an NPC
 area attack affects several players, each player makes their own defense roll.
 
-## Push, pull and throw
+## Forced movement
 
-A push moves a target away; a pull brings it toward the source. Follow a card's
-specific direction and shape. Apply **Stability** once to the initial target, reducing
-the available forced movement, to a minimum of 0. Stability is normally 0; only an
-explicit grant increases it. Use the highest source, maximum 3.
+- **Push X** moves the target up to X squares directly away from the source.
+- **Pull X** moves the target up to X squares directly toward the source.
+- **Slide X** moves the target up to X squares in any direction, including vertically.
+
+If you use the effect, choose the Slide path or where to stop a Push or Pull.
+Follow any restrictions printed in the effect. A Push or Pull changes elevation
+only if its effect allows it. A creature thrown by an ability follows that ability's
+directions. You can stop before using the full distance. Collision damage occurs
+only if the target actually hits something.
+
+Apply **Stability** once to the initial target, reducing the available forced
+movement to a minimum of 0. Stability is normally 0. Use the highest explicit
+grant, to a maximum of 3.
 
 Spend the entered square's terrain cost from the movement budget. If any positive
 budget remains, the target enters the final square even if its cost exceeds that

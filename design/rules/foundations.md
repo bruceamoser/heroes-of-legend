@@ -69,6 +69,13 @@ movement. Cannot cross an occupied square unless its occupant is prone; then cos
 positive remaining budget can enter the final square and stop even if that cost
 exceeds the budget.
 
+Push X moves the target up to X squares directly away from the source. Pull X
+moves it up to X squares directly toward the source. Slide X moves it up to X
+squares in any direction, including vertically. The effect’s user chooses the
+path for a Slide and can stop any of these movements early. A Push or Pull
+changes elevation only if its effect allows it. Follow any restrictions in the
+effect. Collision damage requires an actual impact.
+
 Forced collisions gather movable occupants into one moving group. All take the
 collision damage using movement remaining at contact, before deducting the newly
 struck creature’s Stability. If movement remains, the group continues together.

@@ -73,4 +73,4 @@ After Catch Your Balance, you may move 1 square to a safe unoccupied surface wit
 
 ### Catch Them Falling
 DP: 3 | Level: 3
-Reaction. Catch one adjacent falling creature no larger than you. If you have secure footing and a free hand, pull it to a free adjacent square; otherwise you both hang from a reachable secure hold. No hold means you cannot use this ability.
+Reaction. Catch one adjacent falling creature no larger than you. If you have secure footing and a free hand, bring it to a free adjacent square. Otherwise you both hang from a reachable secure hold. No hold means you cannot use this ability.

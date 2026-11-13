@@ -68,7 +68,7 @@ Send luminous darts along clear paths. Roll once for a shared total of 3/5/7 for
 **Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
 
-Invisible pressure pins the target's movement. Apply Slowed 1/2/3. On Strong, also pull it 1 square toward a visible supported square; Stability applies.
+Invisible pressure pins the target's movement. Apply Slowed 1/2/3. On Strong, you can also Slide it 1 square to a visible, supported square. Apply Stability to the Slide.
 
 ### Levitate — Objects
 
