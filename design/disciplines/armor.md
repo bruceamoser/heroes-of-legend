@@ -1,7 +1,7 @@
 # Armor
 Wear your protection as though it were part of you.
 
-Armor abilities require worn armor. Training grants no equipment. Use the highest matching resistance, maximum 3; do not add armor resistance values together.
+Armor abilities require worn armor. Acquire a suit of armor to match your training. Use the highest matching resistance, maximum 3; do not add armor resistance values together.
 
 ## Harness
 

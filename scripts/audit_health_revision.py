@@ -39,7 +39,7 @@ for p in (D/'cards').glob('*.md'):
  if 'healing roll' in s or p.stem in ['signature-shepherd-gentle-return','signature-shepherd-careful-transfer','not-yet-your-name','a-bough-for-the-fallen']:
   assert not re.search(r'(?:[Pp]ay|[Ss]pend) \d+ HP',s),p
   assert re.search(r'(?:[Pp]ay|[Ss]pend) [124] SP',s),p
-assert 'one first-aid attempt between safe overnight rests' in read('rules/learning.md')
+assert 'one first-aid treatment between safe overnight rests' in read('rules/learning.md')
 assert 'first-aid attempt' in read('disciplines/medicine.md')
 assert 'Roll | Injury' not in read('rules/wounds.md')
 assert '280' not in read('da-book/assemble.py')

@@ -8,8 +8,7 @@ which hand will reach your potion when the fight goes badly.
 
 HOL uses one currency: **coins**. A listed price buys the described ordinary item or
 full supply. Training and discipline access are learned through
-character development, not coins. Owning armor does not teach you to use its gated
-capabilities.
+character development, not coins. Choose armor that matches your training.
 
 Useful intact gear sells for **half its listed value**, rounded down, or trades at
 **full value** with a willing trader. A 12-coin weapon sells for 6 or trades for
@@ -18,7 +17,7 @@ A merchant does not have unlimited stock or an obligation to buy everything you 
 
 ## Armor and training
 
-Armor training grants no equipment. Buy or otherwise acquire a suit separately. Its resistance applies only while worn and with the matching learned training.
+Choose a suit of armor to match your training and acquire it with your other equipment. Its resistance applies only while worn and with the matching learned training.
 
 | Training | Requirement | DP | Physical resistance |
 |---|---|---:|---:|

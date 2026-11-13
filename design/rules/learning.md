@@ -1,8 +1,8 @@
 # Learning and using disciplines
 
-A discipline opens four paths of practice. Learn a discipline for 1 DP; this grants no ability or equipment. Within each path, learn the first ability, its second and third improvements, and then its final ability, in that order. The four steps cost 1, 2, 2 and 3 DP. Each entry is learned once. Improvements remain active together and affect only the named ability. The final ability is separate unless it explicitly uses the earlier technique.
+A discipline offers four paths of practice. Spend 1 DP to begin studying it, then choose a path and learn its first ability. Within each path, learn the first ability, its second and third improvements, and then its final ability, in that order. The four steps cost 1, 2, 2 and 3 DP. Each entry is learned once. Improvements remain active together and affect only the named ability. The final ability is separate unless it explicitly uses the earlier technique.
 
-You may learn disciplines and their first three steps during level-0 or level-1 development. The final ability requires character level 3. The numerals I, II and III identify improvements, not character levels. Learning one path never requires learning another path in that discipline. Character creation still provides ordinary actions: disciplines do not sell permission to make a basic attack, speak, climb, search or help someone.
+You may learn disciplines and their first three steps during level-0 or level-1 development. The final ability requires character level 3. The numerals I, II and III identify improvements, not character levels. Learning one path never requires learning another path in that discipline. Every hero can make basic attacks, speak, climb, search and help someone. Discipline paths develop those everyday capabilities into practiced techniques.
 
 When an improvement replaces a number, use the new total rather than adding both totals. For example, Driving Blow II pushes 2 squares instead of 1; Driving Blow III adds Dazed 1. On Strong, both the 2-square push and Dazed apply. There is no choice between them. Only explicit choices such as a destination or target remain.
 
@@ -16,7 +16,7 @@ An ability costs its printed action every time it is used. A Reaction needs its 
 
 Targets must be reachable as the ability describes. Movement requires an unoccupied legal destination and a feasible route; it stops at barriers. Forced movement stops before blocked or occupied squares. Other movement uses the usual movement-reaction rules unless the entry explicitly avoids them. An ability with a choice of up to several targets can affect each target only once per use.
 
-Equipment is required, not granted, unless an entry explicitly grants it. Ordinary recipes and ingredients retain their existing inventory and price rules. Smoke ingredients use one ordinary recipe ingredient batch per flask, with price and availability set before preparation; finished flasks have Bulk 1 each. Prepared products persist until used or spoiled. A named ability never grants magical item creation through ordinary Craft.
+Gather the equipment your chosen technique uses. An entry that provides equipment describes what you receive. Ordinary recipes and ingredients retain their existing inventory and price rules. Smoke ingredients use one ordinary recipe ingredient batch per flask, with price and availability set before preparation; finished flasks have Bulk 1 each. Prepared products persist until used or spoiled. Craft covers ordinary construction and preparation; use the appropriate magical working to create enchanted items.
 
 # Objectives and progress
 
@@ -42,6 +42,8 @@ Example: a keeper needs assurance before opening a gate. The DA sets 6 progress 
 
 ## Medicine and recovery
 
-Anyone with suitable supplies may take 10 minutes and roll Knowledge for ordinary first aid, restoring 2/4/6 HP. Each recipient has one first-aid attempt between safe overnight rests, shared across all healers and abilities. Field Dressing and Emergency Treatment replace that attempt; they never grant another. Condition care is separate and restores no HP unless explicitly stated.
+With suitable supplies, anyone can give first aid. Spend 10 minutes and roll Knowledge to restore 2/4/6 HP. Each recipient can receive one first-aid treatment between safe overnight rests. Choose ordinary first aid, Field Dressing, or Emergency Treatment for that treatment; the recipient’s allowance is shared across all healers.
 
-A safe overnight rest takes 8 hours, including 6 hours of sleep and 2 quiet hours, and restores HP and SP once per 24 hours. Shelter alone does not guarantee safety. Medicine does not create a new healing pool, reset Grit, recover SP or remove descriptive scars. Universal Stabilize remains a Maneuver that stabilizes an adjacent Dying creature at 0 HP without restoring HP. Further damage at 0 causes an immediate death roll.
+Condition care treats specific conditions. Apply the treatment’s listed condition reductions and any HP recovery it provides.
+
+A safe overnight rest takes 8 hours, including 6 hours of sleep and 2 quiet hours, and restores HP and SP once per 24 hours. Shelter alone does not guarantee safety. Track treatment through HP and the recipient’s first-aid allowance. Scars remain part of the hero’s story. To help an adjacent Dying creature in the moment, use the universal Stabilize Maneuver: the creature becomes stable at 0 HP. Further damage at 0 causes an immediate death roll.

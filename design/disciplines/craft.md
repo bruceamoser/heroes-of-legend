@@ -19,7 +19,7 @@ Mend and Fit takes 5 minutes per attempt instead of 10.
 
 ### Field Repair
 DP: 3 | Level: 3
-Main Action · Knowledge, with tools and materials. Work on an item already examined with Mend and Fit; add 1/2/3 repair progress. Until it is repaired, you may repeat this faster action. It grants no improvement beyond restoring function.
+Main Action · Knowledge, with tools and materials. Work on an item already examined with Mend and Fit; add 1/2/3 repair progress. Until it is repaired, you may repeat this faster action. The completed repair restores the item’s ordinary function.
 
 ## Supplies
 
@@ -73,4 +73,4 @@ Smoke in a Bottle flasks last until the end of your second turn after throwing i
 
 ### Screen the Retreat
 DP: 3 | Level: 3
-Main Action. Throw two prepared Smoke in a Bottle flasks at separate points within their range. Resolve each normally. This consumes both flasks and grants no free ingredients.
+Main Action. Throw two prepared Smoke in a Bottle flasks at separate points within their range. Resolve each normally. Consume both prepared flasks.

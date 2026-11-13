@@ -2,7 +2,7 @@
 
 Restore, transform, cultivate and unravel living things.
 
-Learn this discipline for 1 DP. This opens four spellbooks and teaches no spell.
+Begin studying this discipline for 1 DP, then choose one of its four spellbooks. Learn the book’s sections in order, adding their pages to your repertoire.
 
 - [Serevan’s Book of Restoration](../spellbooks/restoration.md).
 - [Serevan’s Book of Transformation](../spellbooks/transformation.md).

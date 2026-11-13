@@ -8,6 +8,8 @@
 
 **Class foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
 
+**Starting SP contribution:** +3 maximum SP once, at level 1.
+
 **Starting disciplines:** choose two distinct disciplines from Wilderness, Marksmanship, Arms, Athletics.
 
 **Learning costs:** Discipline access costs 1 DP for every class. Learned steps cost 1/2/2/3 DP; the last requires level 3. Combined abilities require level 7 and cost 3/4/5 DP for two/three/four disciplines.

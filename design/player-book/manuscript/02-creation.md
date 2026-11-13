@@ -27,22 +27,23 @@ suppress bonuses or set a value instead. Item changes never revise your creation
 
 ## Choose ancestry
 
-Choose one of the ten ancestries. Record its HP contribution, base Speed and Size
-where printed, then choose **two of its five traits**. Read the exact benefits: a
-description of keen eyes does not grant an extra sense unless the rules say so.
+Choose one of the ten ancestries. Record its HP contribution, starting SP, base Speed and Size
+where printed, then choose **two of its five traits**. Each trait describes the senses, talents or other benefits your hero brings to the adventure.
 
-| Ancestry | HP contribution per level | Base Speed | Starting coin contribution |
-|---|---:|---:|---:|
-| Human | +2 | 6 | +1 |
-| High Elf | +2 | 6 | +2 |
-| Wood Elf | +2 | 6 | +2 |
-| Hill Dwarf | +3 | 5 | +2 |
-| Deep Dwarf | +2 | 5 | +2 |
-| Halfling | +1 | 5 | +0 |
-| Tallfolk | +3 | 6 | +1 |
-| Gnome | +1 | 6 | +1 |
-| Goblin | +1 | 6 | +0 |
-| Oath-Bound | +2 | 6 | +1 |
+| Ancestry | HP per level | Starting SP | Base Speed | Starting coins |
+|---|---:|---:|---:|---:|
+| Human | +2 | +1 | 6 | +1 |
+| High Elf | +2 | +1 | 6 | +2 |
+| Wood Elf | +2 | +1 | 6 | +2 |
+| Hill Dwarf | +3 | +1 | 5 | +2 |
+| Deep Dwarf | +2 | +1 | 5 | +2 |
+| Halfling | +1 | +1 | 5 | +0 |
+| Tallfolk | +3 | +1 | 6 | +1 |
+| Gnome | +1 | +1 | 6 | +1 |
+| Goblin | +1 | +1 | 6 | +0 |
+| Oath-Bound | +2 | +1 | 6 | +1 |
+
+Every ancestry contributes **1 maximum SP once, at level 0**. Culture and background each add 1 more; class adds 3 at level 1. From level 2 onward, every character gains **2 maximum SP per level**, independently of ancestry. Learned capacity adds to this shared reserve.
 
 Any ancestry can grow up in any culture. Your ancestry is not a compulsory profession,
 personality or allegiance.
@@ -52,19 +53,19 @@ personality or allegiance.
 
 Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from −2 through +2, totaling +3. Attributes stay fixed as you gain levels. Choose an ancestry and two of its five traits, then choose culture and background independently.
 
-Choose one complete learning option from your culture and one from your background. Each grants discipline access and its named first ability or spellbook section. An access grant teaches no extra ability. Each duplicate access or learned-entry grant gives 1 DP for this stage; it never grants the next improvement automatically.
+Choose one complete learning option from your culture and one from your background. Each grants discipline access and its named first ability or spellbook section. Each discipline or learned entry you already know gives you 1 additional DP to spend during this stage.
 
 Receive 10 + Knowledge + Reason + Guile DP, including negative adjustments, plus duplicate compensation and explicit ancestry benefits. Spend these points on discipline access and eligible learned entries. A discipline costs 1 DP for every character. Follow each path in order: its first three steps cost 1, 2 and 2 DP. The fourth step costs 3 DP and requires level 3. These steps are available at level 0 unless a higher level is printed. Close the stage; unused DP expires.
 
 ## Level 1: choose a class
 
-Meet the class's two attribute minimums (normally 0 in each); Odd has none. Choose two distinct disciplines from its starting list. These grants provide access, not learned entries. Each duplicate gives 1 level-1 DP. Choose one level-1 class signature; no discipline requirement applies to that signature.
+Meet the class's two attribute minimums (normally 0 in each); Odd has none. Choose two distinct disciplines from its starting list. These disciplines establish your class training; develop their paths through further learning. Each duplicate gives 1 level-1 DP. Choose one level-1 class signature; no discipline requirement applies to that signature.
 
 Receive a fresh 10 + Knowledge + Reason + Guile DP, plus this stage's duplicate compensation and explicit ancestry benefits. Learn access and entries at the same prices used at level 0. All prerequisites must already be owned. Close this stage independently; unused DP expires. A later class grant cannot qualify an earlier purchase.
 
 ## Learning and spellbooks
 
-Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Basic melee and ranged attacks remain universal; buying Arms or Marksmanship never supplies those basic attacks.
+Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
 A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
 
@@ -74,13 +75,13 @@ The six independent 1-DP talents remain available once each: Another Tongue, Mes
 
 ## Equipment and starting numbers
 
-Learning requires equipment but does not supply it unless an explicit grant says so. A plain worn outfit is free. Buy weapons, armor, tools, food and other supplies from your starting coins: 40 + ancestry + culture + background + class contributions. Compatible abilities may share one weapon. Recipe knowledge supplies no finished item or ingredients.
+Gather the equipment your chosen techniques use; an entry that provides an item says so. A plain worn outfit is free. Buy weapons, armor, tools, food and other supplies from your starting coins: 40 + ancestry + culture + background + class contributions. Compatible abilities may share one weapon. Use your recipes to make items from the ingredients you gather.
 
 At level 1 and later, maximum HP is 10 + level × (ancestry contribution + class contribution) + Fortitude + fixed benefits. At level 0, use 10 + ancestry contribution + Fortitude + fixed benefits. Each later level adds ancestry + class contributions; fixed benefits and Fortitude are not added again.
 
 Capacity is 10 + 3 × Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility − encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Every damaging attack still deals at least 1 damage.
 
-Ancestry, culture and background each contribute 1 maximum SP at level 0. Class adds 3 at level 1, giving 6 before explicit benefits. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. SP does not grant spell knowledge. Record current and maximum HP and SP separately, and mark first aid available. Start with no death marks or scars.
+Ancestry, culture and background each contribute 1 maximum SP at level 0. Class adds 3 at level 1, giving 6 before explicit benefits. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. Learn spells by studying the sections of your spellbooks. Record current and maximum HP and SP separately, and mark first aid available. Start with no death marks or scars.
 
 Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used once and is gone permanently; rest never restores it. Using Grit returns you to half maximum HP, rounded up. See [recovery](../../rules/recovery.md) for dying, scars, treatment and safe overnight rest.
 

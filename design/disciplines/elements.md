@@ -2,7 +2,7 @@
 
 Shape the physical world: heat, water, stone and air.
 
-Learn this discipline for 1 DP. This opens four spellbooks and teaches no spell.
+Begin studying this discipline for 1 DP, then choose one of its four spellbooks. Learn the book’s sections in order, adding their pages to your repertoire.
 
 - [Vexilar’s Tome of Fire & Catastrophe](../spellbooks/flame.md).
 - [Ysella’s Treatise on Tides & Winter](../spellbooks/water.md).

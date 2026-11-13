@@ -1,7 +1,7 @@
 # Spellcraft
 Study your reserves, restore your focus, and channel magical power.
 
-Spellcraft opens Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. It grants no SP or spell until you learn a section. All SP increases use one shared pool and add to the automatic +2 maximum SP per level after level 1.
+Spellcraft opens Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Learn the steps of your chosen path to develop your reserves, recovery or channeling spells. All SP increases use one shared pool and add to the automatic +2 maximum SP per level after level 1.
 
 ## Soul Capacity
 
@@ -47,15 +47,15 @@ DP: 1 | Level: 0
 
 ### Recovery II
 DP: 2 | Level: 0
-This same recovery restores 2 SP in total. It grants no additional recovery attempt.
+This same recovery restores 2 SP in total. Use this benefit during your one recovery rest between safe overnight rests.
 
 ### Recovery III
 DP: 2 | Level: 0
-This same recovery restores 3 SP in total. It grants no additional recovery attempt.
+This same recovery restores 3 SP in total. Use this benefit during your one recovery rest between safe overnight rests.
 
 ### Recovery IV
 DP: 3 | Level: 3
-This same recovery restores 4 SP in total. It grants no additional recovery attempt.
+This same recovery restores 4 SP in total. Use this benefit during your one recovery rest between safe overnight rests.
 
 ## Channeling
 

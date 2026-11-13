@@ -54,7 +54,7 @@ for d in ['Elements','Life','Mentalism','Divination','Invocation','Force','Wards
    panels.append('#catalog-card('+q(title)+','+q('spellcraft-'+title.lower().replace(' ','-'))+')['+''.join(body)+']')
   magic+='#reading-columns(('+','.join('['+p+']' for p in panels)+',[#spellbook(spellbooks.find(b=>b.ID=="channeling"))],))\n'
  else:
-  magic+='#text(size:10pt)[Learn '+d+' access for 1 DP. It opens these four books and teaches no spell. Learn each book’s sections in order; page 1 costs 0 SP to cast.]\n#v(7pt)\n#reading-columns(spellbooks.filter(b=>b.Discipline=='+q(d)+').map(spellbook))\n'
+  magic+='#text(size:10pt)[Begin studying '+d+' for 1 DP, then choose one of these four spellbooks. Learn its sections in order, adding pages as your knowledge grows. Page 1 costs 0 SP to cast.]\n#v(7pt)\n#reading-columns(spellbooks.filter(b=>b.Discipline=='+q(d)+').map(spellbook))\n'
 # Place spellbooks before the shared combination references.
 pos=s.index('#let combinations =')
 s=s[:pos]+magic+s[pos:]

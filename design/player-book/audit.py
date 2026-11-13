@@ -48,7 +48,7 @@ if n.count('classaffinitysetsthecostofeachrank'):errors.append('Repeated discipl
 for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:', 'Foreign;',
                'one of your two traits', 'Recipe permission:', 'Type: Culture', 'Type: Background']:
  if phrase in text:errors.append('Retired reader boilerplate: '+phrase)
-for title in ['Starting HP', 'Starting coins', 'Learning and using disciplines',
+for title in ['Starting HP', 'Starting SP', 'Starting coins', 'Learning and using disciplines',
               'Universal action index', 'Novice ability index', 'Adept ability index', 'Master ability index']:
  if norm(title) not in n:errors.append('Missing reader reference: '+title)
 summaries=json.loads((B/'ability-summaries.json').read_text())

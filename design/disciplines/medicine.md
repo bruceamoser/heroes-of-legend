@@ -1,7 +1,7 @@
 # Medicine
 Recognize hurt, and work patiently to ease it.
 
-Carry medical supplies and use suitable treatment. First aid allows one attempt per recipient between safe overnight rests, shared across all healers. These abilities grant no extra allowance, SP, Grit or scar removal. Healing never exceeds maximum HP.
+Carry medical supplies and use suitable treatment. First aid allows one attempt per recipient between safe overnight rests, shared across all healers. Healing never exceeds maximum HP.
 
 ## First Aid
 
@@ -19,7 +19,7 @@ Field Dressing takes 5 minutes instead of 10.
 
 ### Emergency Treatment
 DP: 3 | Level: 3
-Main Action · Knowledge, using medical supplies. Apply Field Dressing’s current healing immediately to one adjacent creature. This uses its same first-aid allowance; it grants no extra treatment.
+Main Action · Knowledge, using medical supplies. Apply Field Dressing’s current healing immediately to one adjacent creature. Mark the recipient’s first-aid attempt as used.
 
 ## Triage
 

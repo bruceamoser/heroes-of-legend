@@ -2,7 +2,7 @@
 
 Contact beings, establish bonds and cross boundaries.
 
-Learn this discipline for 1 DP. This opens four spellbooks and teaches no spell.
+Begin studying this discipline for 1 DP, then choose one of its four spellbooks. Learn the book’s sections in order, adding their pages to your repertoire.
 
 - [Vaelis’s Book of Spirits](../spellbooks/spirits.md).
 - [Vaelis’s Book of Calling](../spellbooks/calling.md).

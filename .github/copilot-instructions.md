@@ -102,3 +102,12 @@ TYPST=/path/to/typst python3 scripts/build_starter_kit.py
 The build requires Typst 0.15.1, Python dependencies in
 `design/player-book/requirements.txt`, and Poppler. Review rendered PDFs as well as
 machine checks. No simulation result from an earlier catalog certifies this one.
+
+## Reader-facing learning language
+
+Describe what the hero studies, learns and can do in plain player-facing language.
+Keep costs and prerequisites clear, but avoid design shorthand and negative gating
+boilerplate such as “Access grants no ability.” Introduce the positive sequence:
+begin studying a discipline, choose a path or spellbook, then learn its entries.
+Explain equipment and preparation as actions the player takes. Preserve actual
+mechanical limits where they are needed to resolve play.

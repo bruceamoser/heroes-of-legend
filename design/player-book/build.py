@@ -269,13 +269,13 @@ def class_page(p):
  attrs=re.search(r'minimum 0 in ([^;]+);',raw)
  attrs=(attrs.group(1).replace(' and ', ', ')+' ≥ 0') if attrs else 'No minimums'
  hp=re.search(r'HP contribution (\+\d+)',raw).group(1)
+ sp=re.search(r'\*\*Starting SP contribution:\*\* (\+\d+)',raw).group(1)
  coins=re.search(r'\*\*Starting coin contribution:\*\* (\+\d+)',raw).group(1)
  starting=re.search(r'choose two distinct disciplines from ([^.]+)',raw).group(1)
  if p.stem=='odd':starting=', '.join(['Arms','Armor','Guard','Marksmanship','Athletics','Subterfuge','Wilderness','Medicine','Craft','Scholarship','Influence','Elements','Life','Mentalism','Divination','Invocation','Force','Wards','Spellcraft'])
  else:starting=starting+'.'
- core='*'+narrative+'*\n\n**Attributes:** '+attrs+'. **HP:** '+hp+'. **Coins:** '+coins+'.\n\n**Starting access:** Choose two distinct disciplines from '+starting+'\n'
+ core='*'+narrative+'*\n\n**Attributes:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** '+sp+'. **Coins:** '+coins+'.\n\n**Starting disciplines:** Choose two distinct disciplines from '+starting+'\n'
  if p.stem=='odd':core=core.replace('from any two disciplines','the full list below.')
- core+='\nAccess grants no ability. Learn a discipline for 1 DP; its sequential steps cost 1/2/2/3 DP. The last requires level 3. Combined abilities require level 7, all endpoints and 3/4/5 DP.\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
  # The Warden uses the same three choice headings but has no review appendix.
@@ -284,6 +284,8 @@ def class_page(p):
  result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:520pt)])]\n'
  result+='#v(8pt)\n#signature-menu['+sigs+']\n'
  return result
+
+ANC_NAMES={'human':'Human','high-elf':'High Elf','wood-elf':'Wood Elf','hill-dwarf':'Hill Dwarf','deep-dwarf':'Deep Dwarf','halfling':'Halfling','tallfolk':'Tallfolk','gnome':'Gnome','goblin':'Goblin','oath-bound':'Oath-Bound'}
 
 def hp_reference():
  p=BOOK/'manuscript/02-creation.md'
@@ -295,10 +297,21 @@ def hp_reference():
   cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution (\+\d+)',cp.read_text()).group(1)+' |')
  intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.\n\n#note[#align(center)[#text(size:12pt,weight:"bold")[10 + level × (ancestry + class) + Fortitude + explicit benefits]]]\n'
  table=lambda title,rows:render('## '+title+'\n| Choice | HP |\n|---|---:|\n'+'\n'.join(rows),p,base=1).replace('#rule-table(2,','#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,')
- intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock and Conditioned Body, for example, each add 1 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. At level 0 use 10 + ancestry + Fortitude + benefits. Record current HP separately.],['+table('Class',classes)+'])\n'
- intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With the hill dwarf’s HP trait and Conditioned Body, the total is *20*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
+ intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock, for example, adds 1 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. At level 0 use 10 + ancestry + Fortitude + benefits. Record current HP separately.],['+table('Class',classes)+'])\n'
+ intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With Hard as Bedrock, the total is *19*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
  intro+='#tail-art("hp-vitality")\n'
  return intro
+
+def sp_reference():
+ p=BOOK/'manuscript/02a-starting-sp.md';record(p,'sp-reference')
+ sections=dict((m.group(1),m.group(2).strip()) for m in re.finditer(r'## ([^\n]+)\n(.*?)(?=\n## |\Z)',p.read_text(),re.S))
+ def panel(title):return render('## '+title+'\n\n'+sections[title],p,base=1)
+ result='#pagebreak()\n#heading(level:2)[Starting SP]\n#metadata('+q(key(p))+')<'+key(p)+'>\n'
+ result+=render(sections['Introduction'],p)
+ result+='#note[#align(center)['+render(sections['Maximum SP'],p)+']]\n'
+ result+='#grid(columns:(1fr,1fr),gutter:18pt,['+panel('Starting contributions')+panel('Learned capacity')+'],['+panel('Growth by level')+panel('Current and maximum SP')+'])\n'
+ result+='#v(12pt)\n#heading(level:3)[Two different reserves]\n#grid(columns:(1fr,1fr),gutter:18pt,['+render(sections['A reserve without Spellcraft'],p)+'],['+render(sections['A reserve with learned capacity'],p)+'])\n'
+ return result
 
 def ability_browser(paths,tier):
  title={'Universal':'Universal actions','1':'Novice abilities','3':'Adept abilities','7':'Master abilities'}[tier]
@@ -324,6 +337,7 @@ parts=['#import "../template.typ": *\n']
 parts.append(manuscript('01-welcome.md','1','Welcome to Heroes of Legend','Four companions pause at a ruined library threshold: shield, lantern, open book and bow. Show their anticipation, not a battle.'))
 parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
+parts.append(sp_reference())
 parts.append(coin_reference())
 parts.append(section('3','Ancestry, Culture and Background'))
 parts.append('#heading(level:2)[Ten peoples, side by side]\nThe ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
@@ -352,8 +366,8 @@ parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want 
 class_rows=[]
 for cp in sorted((DESIGN/'classes').glob('*.md'),key=name):
  ct=cp.read_text(); mm=re.search(r'minimum 0 in ([^;]+);',ct); hp=re.search(r'HP contribution (\+\d+)',ct)
- class_rows.append('| ['+name(cp)+'](classes/'+cp.name+') | '+(mm.group(1) if mm else 'None')+' | '+hp.group(1)+' |')
-parts.append(render('| Class | Attributes at least 0 | HP contribution |\n|---|---|---|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'])\n')
+ class_rows.append('| ['+name(cp)+'](classes/'+cp.name+') | '+(mm.group(1) if mm else 'None')+' | '+hp.group(1)+' | '+re.search(r'Starting SP contribution:\*\* (\+\d+)',ct).group(1)+' |')
+parts.append(render('| Class | Attributes ≥ 0 | HP per level | Starting SP |\n|---|---|---:|---:|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'Starting SP is the class’s one-time contribution at level 1. Every character gains +2 maximum SP per level after 1.])\n')
 parts.append('#illustration("classes", height: 350pt, fit: "cover")\n')
 for cname in CLASS_ORDER:
  p=DESIGN/'classes'/f'{cname}.md'

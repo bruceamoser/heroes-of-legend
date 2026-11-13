@@ -64,7 +64,7 @@ may measure severity, duration or both.
 
 **DA.** Dungeon Architect, the participant who presents and adjudicates the world.
 
-**Discipline.** A field opening four learning paths. Access costs 1 DP and grants no ability. Learn each path in order at 1/2/2/3 DP; its final step requires level 3.
+**Discipline.** A field opening four learning paths. Spend 1 DP to begin studying it, then learn the entries of your chosen path. Learn each path in order at 1/2/2/3 DP; its final step requires level 3.
 
 **DP.** Development Points, spent on discipline access and eligible learned entries. Level-0 and level-1
 pools expire separately; later awards may be saved.

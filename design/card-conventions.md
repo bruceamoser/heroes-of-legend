@@ -4,7 +4,7 @@ These conventions apply to the current catalog.
 
 ## Learn, declare, resolve
 
-Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Basic melee and ranged attacks remain universal; buying Arms or Marksmanship never supplies those basic attacks.
+Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
 A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
 
