@@ -114,10 +114,16 @@ return to participation. Agree on entry circumstances and resources openly.
 
 ## Capture, retreat and retirement
 
-Attacks are lethal unless an explicit ability provides a different outcome.
-Ordinary opponents die at 0 HP. To take a prisoner, secure surrender while they
-can still choose it or use grappling and restraint. Do not let an attacker declare
-all their lethal damage nonlethal after the outcome.
+Attacks are lethal by default, and ordinary opponents die at 0 HP. When a player
+declares a nonlethal option before rolling, use the outcome printed in their ability.
+For example, a nonlethal Pinning Strike that would drop a living target to 0 HP
+leaves it at 1 HP and unconscious for 1 minute or until it takes damage again.
+
+An adjacent character with a free hand can spend a Maneuver to apply suitable
+manacles to a surrendered or helpless creature, or one at Grappled 3 or higher.
+The manacles stay locked if the grapplers release their holds. Use the limbs bound
+to judge what the captive can still do. They can be freed with the key, or through
+an escape objective if their means make escape possible.
 
 When escape is possible, describe it. Withdrawing may cost equipment, position or
 an objective, but those consequences should follow the scene. Do not promise safety

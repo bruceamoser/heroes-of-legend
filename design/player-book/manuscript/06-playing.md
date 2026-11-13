@@ -249,9 +249,20 @@ If you still have a Main Action, Force can reduce your grapple by 1/2/3. Grapple
 needs outside help. A grappler can freely release their own contribution. A grapple
 is maintained and does not simply decay at turn end.
 
-Attacks are lethal by default. Taking a prisoner requires a printed nonlethal ability,
-grappling or restraint. Once a helpless captive is secured and no combat remains,
-return to ordinary narration. You do not need to keep taking turns to conduct a conversation.
+Attacks are lethal by default. An ability such as Pinning Strike can give you a
+nonlethal option. Declare that option before rolling and follow the ability's
+printed outcome. You can also take someone alive by securing their surrender,
+making them helpless, or holding them with a grapple.
+
+With a free hand and suitable [restraints](../../equipment/restraints.md), spend a
+Maneuver to cuff an adjacent creature that has surrendered, is helpless, or is
+Grappled 3 or higher. Once it is cuffed, a grappler can release their hold. The
+restraints bind the limbs they enclose until opened or escaped. Return to ordinary
+narration when the captive is secured and the immediate fight is over.
+
+> An ally has knocked a guard unconscious with a nonlethal Pinning Strike. You
+> move beside the guard and spend a Maneuver to cuff their wrists. When the guard
+> wakes, the cuffs still bind their hands.
 
 ## Ending a fight
 
