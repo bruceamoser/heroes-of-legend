@@ -45,9 +45,11 @@ Off-screen events may be resolved by DA judgment without simulating combat.
 
 Damage is fixed by the card. Remove components covered by damage immunity first.
 Apply weakness, then the highest resistance of each remaining type, normally
-capped at 3, then other reductions. If at least one positive damage component
-survived immunity, the event deals a minimum of 1 total damage. A fully immune
-event deals 0 HP damage. Conditions and other riders follow their own rules.
+capped at 3, then other reductions. An attack deals a minimum of 1 total damage
+if at least one positive damage component survived immunity. Damage outside the
+attack's immediate outcome, such as condition ticks, falls, and collisions, can
+be reduced to 0. A fully immune event deals 0 HP damage. Conditions and other
+riders follow their own rules.
 Condition immunity prevents the named condition from applying. Use the explicit
 immunities on the creature or granted by an effect.
 

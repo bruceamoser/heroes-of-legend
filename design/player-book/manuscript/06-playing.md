@@ -128,14 +128,14 @@ Use the highest applicable resistance of each type, to a maximum of 3. Two sourc
 of physical resistance 2 do not give 4. Physical resistance 2 and Fire resistance 1
 can apply together because they protect against different types.
 
-A damaging event deals at least **1 total damage** after resistance and other
-reductions if any of its original damage is of a type the target can take.
-Apply the minimum once to the event.
+An attack that deals damage has a minimum of **1 total damage** after reductions
+if any of its original damage survives immunity. Damage from conditions, falls,
+and collisions can be reduced to 0.
 
 > **Example — steel and flame.** An attack deals 3 physical and 1 fire damage.
 > Physical resistance 2 reduces the physical portion to 1. Fire resistance 1 removes
 > the fire portion. Take 1 total damage, not one of each type. If both portions had
-> been reduced to zero, the event would still deal its minimum 1 total damage.
+> been reduced to zero by resistance, the attack would still deal 1 total damage.
 
 Physical includes impacts, sonic force and supernatural force when the attack says
 physical. Fire, Cold and Lightning have separate resistances. Life resistance reduces magical
@@ -158,8 +158,8 @@ Against Fire damage immunity, a hit for 2 Physical and 3 Fire loses its Fire
 damage. If Physical resistance reduces the remaining damage to 0, the hit still
 deals 1 total damage.
 
-> **Example — Burning 2.** Fire resistance 3 reduces the tick to 1 damage. Fire
-> damage immunity makes the tick 0. In both cases Burning drops to 1 at turn end.
+> **Example — Burning 2.** Fire resistance 3 reduces the tick to 0 damage, as
+> does Fire damage immunity. In both cases Burning drops to 1 at turn end.
 > A creature immune to Burning never gains the condition, and a separate Fire
 > hit can still damage it.
 

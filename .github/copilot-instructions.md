@@ -38,7 +38,7 @@ rules source.
 - Cards determine damage, range and effects. Ordinary weapons supply fictional
   appearance and compatibility; special items add only their explicit benefits.
 - Use squares. Matching resistance uses the highest value, normal cap 3;
-  minimum 1 damage per event if any damaging component survives immunity. Stability is an explicit grant, 0–3.
+  minimum 1 damage per attack if any damaging component survives immunity. Stability is an explicit grant, 0–3.
 - Summons are commanded energy forms, cannot receive healing and disappear at 0 HP.
 - Safe overnight rest restores HP/SP; scars are descriptive and Grit never refreshes.
 - Health rewrite #1306 supersedes old wound/RV/Last Words rules; use design/rules/recovery.md.

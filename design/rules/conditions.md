@@ -30,10 +30,9 @@ tracking procedure below.
 
 Example: untreated Bleeding 3 deals 3 damage, decreases to 2, then deals 2 and 1
 on subsequent turns before ending. A Main Action reducing it before the first tick
-changes that sequence to 2, then 1. Burning and Freezing use the normal damage
-rules for each tick. Matching resistance reduces the damage to a minimum of 1.
-Matching damage immunity makes it 0 and the condition still decays. Immunity to
-the condition itself prevents it from applying.
+changes that sequence to 2, then 1. Matching resistance can reduce a Burning or
+Freezing tick to 0. Matching damage immunity also makes it 0. The condition
+still decays normally. Immunity to the condition prevents it from applying.
 
 ## Temporary and lasting conditions
 
@@ -47,8 +46,8 @@ An asterisk means persistent, not necessarily incurable. Follow the ability or h
 
 | Condition | Effect | Removal / persistence |
 |---|---|---|
-| Burning X | Fire X damage at end of turn; matching resistance applies | Resolve damage, then decay; appropriate Main reduces 1 |
-| Freezing X | Cold X damage at end of turn; matching resistance applies | Resolve damage, then decay; appropriate Main reduces 1 |
+| Burning X | Fire X damage at end of turn. Fire resistance can reduce it to 0. | Resolve damage, then decay; appropriate Main reduces 1 |
+| Freezing X | Cold X damage at end of turn. Cold resistance can reduce it to 0. | Resolve damage, then decay; appropriate Main reduces 1 |
 | Bleeding X | X damage at end of turn, bypasses resistance | Resolve damage, then decay; appropriate Main reduces 1 |
 | Poisoned X | X Banes to action/defense/death rolls, not inventory dice; no damage | Decay unless explicitly maintained or persistent |
 | Frightened X | X Banes while its source is perceptible; no forced choices or movement | Decay unless explicitly maintained or persistent; source must be identified |
