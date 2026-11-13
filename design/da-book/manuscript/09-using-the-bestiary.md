@@ -168,27 +168,33 @@ Deduct the initial target's Stability once before forced movement. Terrain then
 consumes movement by square: normal 1, difficult 2. Any positive remaining budget
 can enter the last square and stop even if its cost exceeds that budget.
 
-When a moving creature or group strikes a movable creature or object, add it to
-the group. Move the group as one creature using the original movement allowance
-that remains. Each new impact deals damage equal to that allowance at contact to
-every creature in the group, including a newly struck creature. Apply each
-creature's own armor to each impact, with a minimum of 1 damage. Then deduct the
-new creature's Stability once for that movement. Continued contact between members
-of the group deals no further damage.
+Move the group as one creature using the original movement allowance that remains.
+Each new impact deals **physical damage** equal to the movement remaining at contact
+to every member of the group and whatever it strikes. Creatures and objects with
+HP each apply their own resistance, with a minimum of 1 damage. For an object
+without HP, judge the result from the impact and the object’s construction. A
+glass jug might shatter while a sturdy chest slides intact.
+
+A movable creature or intact movable object joins the group on impact. Remove
+any movable object that breaks, including an object reduced to 0 HP. Deduct a
+new creature's Stability once, after resolving the damage. Continue with the
+movement left. Continued contact deals no further damage.
 
 > **Example: a collision chain.** Push 5 meets Stability 1, leaving 4. The target
 > crosses one normal square, leaving 3, then collides with a Stability-2 creature.
 > Both receive 3 collision damage before armor. With armor 1 and 3 respectively,
 > they lose 2 HP and 1 HP. Deduct the new creature's Stability 2, leaving 1 square
-> for the group. If they hit a movable object with that square still available,
-> each creature takes 1 damage after armor and the object joins the group.
+> for the group. If they hit a crate with 1 HP and that square still available,
+> each creature takes 1 damage after armor and the crate breaks. The creatures
+> still have 1 square of movement left.
 
-A hard obstacle stops the group. Each creature takes damage equal to the remaining
-movement plus 1 before armor. Finish in separate legal spaces. If the group cannot fit,
-stop at the last position where it can. Choose the arrangement without granting
-extra forward movement or passage through walls. After a hard impact, only the
-original mover bounces one square opposite the direction of impact. If that square
-is blocked, the mover stays in place without another impact or damage.
+A fixed barrier stops the group even if it breaks. Add 1 to the damage dealt to
+each group member and the barrier before resistance. Finish in separate legal
+spaces. If the group cannot fit, stop at the last position where it can. Choose
+the arrangement without granting extra forward movement or passage through walls.
+After a fixed barrier impact, only the original mover bounces one square opposite
+the impact. If that square is blocked, the mover stays in place without another
+impact or damage.
 
 Stability does not resist Prone, grapples, conditions or damage. If Stability
 prevents a push, the attack's other effects still occur.
