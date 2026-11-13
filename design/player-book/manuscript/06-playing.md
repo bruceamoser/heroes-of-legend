@@ -149,18 +149,19 @@ resistance; it adds nothing to a purely physical attack.
 Defend is a universal Maneuver that gives 1 Boon to defenses until the start of your
 next turn. Repeating Defend does not increase that same benefit.
 
-Shield Block spends a Reaction before an eligible defense. While you use the held
-shield, gain 1 Boon to defenses against attacks the DA judges it can block, until
-the start of your next turn. Most ordinary physical attacks can be blocked. Defend
-and Shield Block are separate sources: together they supply 2 Boons. Creatures use
-shields the same way.
+When the DA judges your held shield can block an attack against you, spend your
+Reaction before the roll to Shield Block. While holding the shield, gain 1 Boon
+to defenses against blockable attacks until the start of your next turn. If the
+attacker rolls instead, apply 1 Bane to the attack roll. Most ordinary physical
+attacks can be blocked. Combine Defend and Shield Block as separate sources.
 
 ## Opportunity attacks
 
 Leaving an enemy's melee reach voluntarily, casting beside it, standing, stowing an
-item, or retrieving an item can provoke. The enemy may spend its Reaction to make
-**Basic Melee**, never a specialty card. Resolve that attack **at the start of the
-provoking action**, before the original action takes effect.
+item, or retrieving an item can provoke. Spend your Reaction to make **Basic Melee**
+with a held melee weapon or **Basic Unarmed** with a free hand. A DA creature uses
+its bestiary Basic Melee. Resolve the attack **at the start of the provoking action**,
+before the original action takes effect.
 
 Then continue the original action if its actor is capable. Damage alone does not
 cancel it. Recheck targets and range before continuing. At 0 HP, an actor must regain HP before they can act again. Commit the action on declaration;

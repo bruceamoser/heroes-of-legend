@@ -29,7 +29,7 @@ lists the actions any hero can use.
 | Free attacks | Spend no actions; never trigger more free attacks |
 | Maximum SP, level 1+ | 6 + 2 × (level − 1) + learned capacity and explicit benefits |
 | Healing spell cost | Printed spell cost; pay before resolving |
-| Potion | Spend a Maneuver with a free hand. A different recipient above 0 HP spends a Reaction. |
+| Potion | Spend a Maneuver with a free hand. An unconscious or restrained recipient counts as willing. Another recipient spends a Reaction if conscious and above 0 HP. |
 | Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
 | First Aid | Ten minutes + supplies; Knowledge heals 2/4/6; one attempt per recipient between rests |
 | Supplies | Roll inventory die after use; on 1, step down; last use works |

@@ -23,7 +23,7 @@ One row per review area. Update this file in the same PR as the area change, or 
 
 | Area ID | Category | Workbook | Book issue | Branch | Owner | Status | Decisions | Change rows | Book PR | Merge SHA | Foundry issue | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| UNI-01 | Universal | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-universal` | Bruce | Deferred | 0 / 18 | 6 proposed | — | — | [#252](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/252) | Parked; ancestries first. |
+| UNI-01 | Basic Actions | `30_Universal_Abilities.xlsx` | [#1284](https://github.com/bruceamoser/heroes-of-legend/issues/1284) | `codex/1284-basic-actions` | Bruce | Book PR | 18 / 18 | 22 | [#1315](https://github.com/bruceamoser/heroes-of-legend/pull/1315) | [PR merge record](https://github.com/bruceamoser/heroes-of-legend/pull/1315) | [#272](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/272) | Six cards revised against current main. |
 | NOV-01 | Novice | `31_Novice_Abilities.xlsx` | — | — | Bruce | Complete | 13 / 133 | 13 | — | — | — | 13 Universal Novice approved under UNI-02; 120 remaining. |
 | ADE-01 | Adept | `32_Adept_Abilities.xlsx` | — | — | Bruce | In review | 6 / 97 | 6 | — | — | — | 6 Universal Adept approved under UNI-03; 91 shared Adept cards remain. |
 | MAS-01 | Master | `33_Master_Abilities.xlsx` | — | — | Bruce | In review | 3 / 89 | 3 | — | — | — | 3 Universal Master approved under UNI-04; 86 shared Master cards remain. |

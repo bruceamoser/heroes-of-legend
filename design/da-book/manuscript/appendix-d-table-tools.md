@@ -88,7 +88,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 | Choose next actor | Alternate sides; each chooses an unacted member. Finish the remaining side when the other has none. |
 | Start of affected turn | Choose retained categories for Dazed/Grappled. If Dying, roll Fortitude. Weak adds a failure, Strong adds a success. Three failures mean death, three successes stabilize. Grit can intervene after a failure. |
 | Before rolling | Declare card, target, action, applicable Boons/Banes and consequences. |
-| Provoking action starts | Available opportunity Reaction resolves Basic Melee first; continue if capable. |
+| Provoking action starts | Resolve the Opportunity Attack first. Heroes use Basic Melee with a held melee weapon or Basic Unarmed with a free hand. DA creatures use bestiary Basic Melee. Continue if capable. |
 | Resolve attack | Correct attacker/defender perspective; full outcome, weakness then resistance; minimum 1 per damaging event. |
 | End of turn | Resolve temporary condition effects, then decrease their ratings by 1. Use printed expiries for other effects. |
 | Danger ends | Resolve Dying and immediate hazards; record HP/SP spent. First Aid needs time and supplies; overnight rest restores HP/SP, never Grit. |

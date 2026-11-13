@@ -18,8 +18,9 @@ evidence. These examples do not override the scene or a card’s printed outcome
 ## Opportunities — agreed
 
 Starting a provoking action triggers the opportunity attack **before** that action
-resolves. Resolve Basic Melee using the attacker’s normal player-roll procedure;
-no specialty attack. Then the original action continues if its actor is still
+resolves. A hero uses Basic Melee with a held melee weapon or Basic Unarmed with a
+free hand. A DA creature uses its bestiary Basic Melee. Use the usual single-roll
+procedure for that attack. Then the original action continues if its actor is still
 capable; otherwise it stops. Damage alone does not automatically cancel the action.
 Forced movement never provokes.
 

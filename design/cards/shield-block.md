@@ -1,18 +1,18 @@
 # Shield Block
 
-*Before a defense against an attack the da judges blockable, requires a held shield. Grants none. Gain 1 Boon to eligible defense rolls while using it. Creatures use the same rule.*
+*Bring your shield up against an incoming blow.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** Self, before a defense against an attack the DA judges blockable
+**Target / range / shape:** Self, before the roll for an attack your shield can block
 
-Requires a held shield; grants none. Gain 1 Boon to eligible defense rolls while using it. Creatures use the same rule.
+When an attack targets you, the DA decides whether your held shield can block it. Spend your Reaction before the roll. Until the start of your next turn, while holding the shield, gain 1 Boon on defenses against attacks it can block. When the attacker rolls instead, apply 1 Bane to that roll. Combine this benefit with Defend and other modifiers normally.
 
 **Duration:** Until the start of your next turn
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A held shield.
 
 ---
 

@@ -136,7 +136,7 @@ Do **not** run the full PDF build, Foundry imports, Character Workshop build or 
 1. Commit with the area name and Stable IDs in the message.
 2. Open the PR into `release/abilities-review` using `templates/book-area-pr.md`.
 3. Paste audit output and the `CHANGE_LEDGER.csv` filter/summary into the PR.
-4. The book repo requires independent review. Resolve comments and squash merge.
+4. Follow the [book PR workflow](../../.github/copilot-instructions.md#workflow). Review the current PR, resolve findings and squash merge after checks pass. Raise unresolved decisions with Bruce.
 5. Record the merge SHA in `AREA_TRACKER.md`.
 6. Update the book issue with the PR link, merge SHA, audit evidence and any deferred items.
 

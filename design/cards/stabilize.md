@@ -1,6 +1,6 @@
 # Stabilize
 
-*Choose one adjacent Dying player character. Stabilize at 0 HP and clear both death roll tallies. No roll. The recipient can speak and perceive their surroundings. They remain prone with three defense Banes and regain their actions and voluntary movement when they regain HP. If they take damage at 0 HP, they begin Dying again and make an immediate death roll.*
+*Bring an adjacent Dying hero back to consciousness at 0 HP.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One adjacent Dying player character
 
-Stabilize at 0 HP and clear both death roll tallies. No roll. The recipient can speak and perceive their surroundings. They remain prone with three defense Banes and regain their actions and voluntary movement when they regain HP. If they take damage at 0 HP, they begin Dying again and make an immediate death roll.
+Stabilize the adjacent Dying hero at 0 HP and clear both death roll tallies. The hero regains consciousness from HP loss and can speak and perceive their surroundings. They remain prone with three defense Banes and regain their actions and voluntary movement when they regain HP. If they take damage at 0 HP, they begin Dying again and make an immediate death roll.
 
 **Duration:** Instant
 
