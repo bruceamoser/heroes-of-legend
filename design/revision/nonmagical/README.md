@@ -92,3 +92,9 @@ Decorative art is omitted on these dense reference pages rather than adding over
 pages; the book's existing functional discipline symbols appear in every path header.
 The shared template is consumed unchanged, so the other books do not need rebuilding.
 All thirteen pages were rendered and visually compared with the existing book.
+
+Column-flow correction: both procedure prose and discipline paths now use the
+Player's Book's existing `reading-columns` compositor. Paths read down the left
+column before continuing down the right, with independent vertical placement and
+intact path cards. Removed the row-aligned two-by-two grid. Rebuilt all 13 pages,
+visually reviewed column order and spacing, and passed the complete packet audit.
