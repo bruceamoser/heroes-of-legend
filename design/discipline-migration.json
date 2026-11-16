@@ -3082,7 +3082,7 @@
       "requiresPlayerRebuild": true
     },
     {
-      "sourceId": "combined:anatomists-volley",
+      "sourceId": "combined:anatomist-s-volley",
       "sourceName": "Anatomist’s Volley",
       "sourceCost": 3,
       "sourceRequirements": [
@@ -3549,7 +3549,7 @@
       "requiresPlayerRebuild": true
     },
     {
-      "sourceId": "combined:foresight-oracles-dream",
+      "sourceId": "combined:foresight-oracle-s-dream",
       "sourceName": "Foresight — Oracle’s Dream",
       "sourceCost": 4,
       "sourceRequirements": [
