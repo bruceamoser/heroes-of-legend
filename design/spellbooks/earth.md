@@ -16,9 +16,9 @@ Soil, stone, excavation and reinforcement.
 | 6 | Stone Shape | 3 | III |
 | 7 | Stoneskin | 3 | IV |
 | 8 | Wall of Stone | 4 | IV |
-| A1 | Move Earth | 5 | IV |
-| A2 | Flesh to Stone | 5 | IV |
-| A3 | Earthquake | 5 | IV |
+| A1 | Move Earth | 5 | V |
+| A2 | Flesh to Stone | 5 | VI |
+| A3 | Earthquake | 6 | VII |
 
 ## Spells
 
@@ -148,10 +148,10 @@ Stone creeps across the target. Apply Slowed 2/3/4. On Strong also apply Paralyz
 **ID:** spell:earth:a3
 **Page:** A3
 **Action:** Main Action
-**SP:** 5
+**SP:** 6
 **Attribute:** Knowledge
 **Defense:** Agility
 **Target / range:** Every grounded creature in a 3-square-radius area within 10 squares
 **Duration:** Instant
 
-Shake the ground violently. Deal 4/6/8 physical damage and make affected creatures Prone. Add 2/4/6 progress toward one visible structure's DA-set collapse objective in the area; the DA describes unstable features before the roll.
+Shake the ground violently. Deal 5/8/11 physical damage and make affected creatures Prone. Add 3/5/7 progress toward one visible structure's DA-set collapse objective in the area; the DA describes unstable features before the roll. Each creature takes the spell's damage once; collapsing structures use their normal hazard rules.

@@ -89,5 +89,5 @@
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("DP SPENT"),field("DP SAVED"))
  #strip("Ready to play")
  #text(size:9pt)[Record HP, SP, Grit, Speed and capacity. Gather equipment for your techniques, add starting coins and shop. Keep your favorite abilities and spells on the encounter sheet.]
- #v(8pt)#text(size:9pt)[Each later level grants 4 + the new level DP, HP growth and +2 maximum SP. Levels 3 and 7 each offer one signature choice and one lifetime Grit. Nonmagical paths: 1/2/2/3/4/4/5 DP. Spellbook sections: 1/2/2/3 DP.]
+ #v(8pt)#text(size:9pt)[Each later level grants 4 + the new level DP, HP growth and +2 maximum SP. Levels 3 and 7 each offer one signature choice and one lifetime Grit. Paths and spellbooks: 1/2/2/3/4/4/5 DP. Their first three steps begin at level 1, next three at level 3, and mastery at level 7.]
 ])

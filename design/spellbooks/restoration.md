@@ -16,9 +16,9 @@ Repair the body without bypassing recovery limits.
 | 6 | Mass Healing Word | 3 | III |
 | 7 | Greater Restoration | 3 | IV |
 | 8 | Mass Cure Wounds | 4 | IV |
-| A1 | Heal | 5 | IV |
-| A2 | Regenerate | 5 | IV |
-| A3 | Mass Heal | 5 | IV |
+| A1 | Heal | 5 | V |
+| A2 | Regenerate | 5 | VI |
+| A3 | True Resurrection | 8 | VII |
 
 ## Spells
 
@@ -142,14 +142,14 @@ Flood the recipient with restorative power. Restore 8/12/16 HP after Life resist
 
 Restore one missing nonvital limb or damaged ordinary sense, and restore 10 HP after Life resistance. The renewed part functions normally when the ritual finishes. Scars can remain as the player describes. This treats physical loss; curses use their named remedies.
 
-### Mass Heal
+### True Resurrection
 
-**ID:** spell:restoration:a3
+**ID:** spell-mastery:true-resurrection
 **Page:** A3
-**Action:** Main Action
-**SP:** 5
-**Attribute:** Reason
-**Target / range:** Up to six living creatures within 6 squares
+**Action:** Ritual · 8 hours
+**SP:** 8
+**Attribute:** None
+**Target / range:** Remains of one willing person dead no longer than seven days; 500 coins of funerary materials
 **Duration:** Instant
 
-Roll once for a shared healing total of 12/18/24 HP. Divide it among the chosen recipients, assigning at least 1 to each before Life resistance. Each recipient also reduces Bleeding by 2.
+Restore a life ended before its natural span. Prepare the remains with unique funerary materials whose availability the DA establishes before the ritual. The spirit must freely agree. At completion, consume the materials and return the person to life at 1 HP in a restored body, clearing both death roll tallies. Descriptive scars remain; spent SP and Grit remain spent. Each person has one lifetime return to life, shared with Lifegiving. The ritual creates one restored body, replacing the prepared remains.

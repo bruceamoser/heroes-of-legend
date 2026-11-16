@@ -1,7 +1,7 @@
 # Spellcraft
 Study your reserves, restore your focus and channel magical power.
 
-Soul Capacity, Mind Capacity and Recovery are training paths. Learn their seven steps in order, with steps four through six available at level 3 and mastery at level 7. Channeling is a separate four-section spellbook. Capacity adds to one shared maximum-SP pool and the automatic +2 maximum SP per level after level 1; learning capacity does not refill current SP. Recovery never exceeds maximum. These training paths need no invented combat action.
+Soul Capacity, Mind Capacity and Recovery are training paths. Learn their seven steps in order, with steps four through six available at level 3 and mastery at level 7. Channeling is a seven-section spellbook with the same costs and level gates. Capacity adds to one shared maximum-SP pool and the automatic +2 maximum SP per level after level 1; learning capacity does not refill current SP. Recovery never exceeds maximum. These training paths need no invented combat action.
 
 ## Soul Capacity
 
@@ -95,4 +95,4 @@ The same single recovery rest restores 12 SP in total and takes 30 uninterrupted
 
 ## Channeling
 
-Learn the Channeling spellbook’s four sections in order. Its spells transfer or recover SP using their own costs, targets and actions. A channeling spell cannot channel another channeling spell; attempting that transfer causes arcane feedback and provides no SP. Capacity training grants no channeling spell by itself.
+Learn the Channeling spellbook’s seven sections in order. Sections I–IV each teach two spells; V, VI and VII each teach one spell. Its spells transfer or recover SP using their own costs, targets and actions. A channeling spell cannot channel another channeling spell; attempting that transfer causes arcane feedback and provides no SP. Capacity training grants no channeling spell by itself.

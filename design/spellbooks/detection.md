@@ -16,9 +16,9 @@ Nearby presences, properties and traces.
 | 6 | Identify | 3 | III |
 | 7 | True Seeing | 3 | IV |
 | 8 | Analysis | 4 | IV |
-| A1 | Detect Magic — Scaling Analysis | 5 | IV |
-| A2 | Find the Path | 5 | IV |
-| A3 | Sight True | 5 | IV |
+| A1 | Detect Magic — Scaling Analysis | 5 | V |
+| A2 | Find the Path | 5 | VI |
+| A3 | Sight True | 6 | VII |
 
 ## Spells
 
@@ -147,9 +147,9 @@ Sense the direction of an ordinary traversable route to a location you previousl
 **ID:** spell:detection:a3
 **Page:** A3
 **Action:** Main Action
-**SP:** 5
+**SP:** 6
 **Attribute:** None
 **Target / range:** Self
-**Duration:** 10 minutes
+**Duration:** 1 hour
 
-See Invisible targets and recognize visual illusions within 12 squares. Also see the outlines of creatures immediately beyond ordinary cover up to 1 square thick, within 6 squares. Such outlines reveal position; attacks still require a clear path.
+See Invisible targets and recognize visual illusions and disguising magic within 12 squares. Also see the outlines of creatures and magical effects immediately beyond ordinary cover up to 1 square thick, within 6 squares. The outlines reveal position; attacks still require a clear path. Explicit wards against divination retain their protection.

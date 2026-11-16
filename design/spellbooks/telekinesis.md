@@ -16,9 +16,9 @@ Move objects through directed force.
 | 6 | Shatter | 3 | III |
 | 7 | Telekinesis | 3 | IV |
 | 8 | Resilient Sphere | 4 | IV |
-| A1 | Wall of Force | 5 | IV |
-| A2 | Disintegrate | 5 | IV |
-| A3 | Reverse Gravity | 5 | IV |
+| A1 | Wall of Force | 5 | V |
+| A2 | Disintegrate | 5 | VI |
+| A3 | Reverse Gravity | 5 | VII |
 
 ## Spells
 
@@ -161,4 +161,4 @@ A narrow beam deals 6/9/12 force damage. An unattended nonmagical object of Bulk
 **Target / range:** Every creature in a 2-square-radius area within 8 squares
 **Duration:** Until the end of your next turn
 
-Lift each affected creature 1/2/3 squares vertically, stopping at obstacles. It floats at that height until expiry, when it falls normally. A creature holding a fixed support may release it or remain supported. Flying creatures can use their normal movement to leave the area.
+Lift each affected creature 2/4/6 squares vertically from its starting position, stopping at solid obstacles. It floats there until expiry, then falls from that height using the normal falling rules. A creature already holding a fixed support may keep its grip and remain supported. A floating creature may use ordinary movement to climb a reachable fixed surface or fly out of the affected area; leaving the area ends its levitation. This working affects the chosen creatures once, when cast.

@@ -16,9 +16,9 @@ Cross distances and supernatural boundaries.
 | 6 | Teleportation Circle | 3 | III |
 | 7 | Passwall | 3 | IV |
 | 8 | Plane Shift | 4 | IV |
-| A1 | Teleport | 5 | IV |
-| A2 | Gate — Passage | 5 | IV |
-| A3 | Etherealness — Company | 5 | IV |
+| A1 | Teleport | 5 | V |
+| A2 | Gate — Passage | 5 | VI |
+| A3 | Demiplane | 6 | VII |
 
 ## Spells
 
@@ -142,14 +142,14 @@ Travel with carried gear to the remembered place. Arrive in safe open squares wi
 
 Consume 100 coins of tuned incense to open a two-way doorway 2 squares wide. Any creature that can reach it may cross while open. The far end must be at an anchor you personally visited and currently have permission to open. You can close it with a Maneuver.
 
-### Etherealness — Company
+### Demiplane
 
-**ID:** spell:passage:a3
+**ID:** spell-mastery:demiplane
 **Page:** A3
-**Action:** Main Action
-**SP:** 5
+**Action:** Ritual · 1 hour
+**SP:** 6
 **Attribute:** None
-**Target / range:** Self and up to three willing creatures within 3 squares
-**Duration:** 1 minute
+**Target / range:** An adjacent solid wall; one private 6-by-6-square refuge
+**Duration:** Permanent refuge; doorway 10 minutes
 
-Shift the company into pale spirit forms. Each uses Etherealness's movement and interaction procedure and may return with a Maneuver. The fixed duration covers all recipients; on expiry each returns to the nearest open square within 3 squares.
+Open a doorway on an adjacent solid wall to your private refuge, 6 squares on each side and 3 squares high. It lasts 10 minutes and anyone who reaches it may cross; close it early with a Maneuver. From inside, a Maneuver opens an exit to the last entrance location, or the nearest open square within 3 squares if obstructed. The refuge holds ordinary objects and up to twelve creatures, with air and normal time. Bring food and water. You keep one refuge; recasting reopens it from the new wall. The doorway always returns to its latest entrance, rather than connecting distant places.

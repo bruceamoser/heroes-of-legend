@@ -16,9 +16,9 @@ Bounded warnings and possible consequences.
 | 6 | Spell Anticipations | 3 | III |
 | 7 | Divination | 3 | IV |
 | 8 | Commune | 4 | IV |
-| A1 | Foresight | 5 | IV |
-| A2 | Anticipations True | 5 | IV |
-| A3 | Spell Anticipation True | 5 | IV |
+| A1 | Foresight | 5 | V |
+| A2 | Anticipations True | 5 | VI |
+| A3 | Foresight — Shared Vigil | 5 | VII |
 
 ## Spells
 
@@ -143,14 +143,14 @@ Give the recipient 1 Boon to defenses. Once during the duration, after a defense
 
 Follow an alternate future. Reroll the whole defense and keep either result. Use at most one Anticipations True casting on a given defense.
 
-### Spell Anticipation True
+### Foresight — Shared Vigil
 
-**ID:** spell:portents:a3
+**ID:** spell-mastery:foresight-shared-vigil
 **Page:** A3
-**Action:** Reaction · when a visible spell targets you or an ally within 3 squares
+**Action:** Ritual · 10 minutes
 **SP:** 5
 **Attribute:** None
-**Target / range:** You and up to two targeted allies within 3 squares
-**Duration:** The triggering spell
+**Target / range:** Self and up to three willing creatures within 3 squares
+**Duration:** 1 hour
 
-Warn the chosen recipients before their defenses are rolled. Each gains 2 Boons to its defense against that spell. Each creature resolves its own defense normally.
+Link your awareness of approaching danger. Linked creatures within 12 squares of you receive a warning when any linked member perceives a threat. If it alerts the group before the attack, roll initiative normally. Once each round, after one linked creature rolls a defense, it may reroll the entire roll and keep either result. The group shares this one reroll. The link carries warnings. Keep one Shared Vigil link active; casting another ends the first.

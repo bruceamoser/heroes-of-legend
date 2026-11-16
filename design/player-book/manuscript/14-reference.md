@@ -113,7 +113,7 @@ Life resistance also reduces magical healing and potions.
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Learning.** Follow each path in order. Nonmagical paths cost 1/2/2/3/4/4/5 DP: three beginning entries, three level-3 entries, then a level-7 mastery. Spellbooks retain four sections costing 1/2/2/3 DP; their fourth section requires level 3. Master spells follow the named book at level 7.
+**Learning.** Follow each path in order. Nonmagical paths cost 1/2/2/3/4/4/5 DP: three beginning entries, three level-3 entries, then a level-7 mastery. Spellbooks follow the same seven-step costs and gates. Sections I–IV each teach two spells, then V, VI and VII each teach one spell; VII is mastery.
 
 **Sustain.** A Maneuver costing 0 SP. Sustain one spell at a time, as its text directs. A fixed duration continues for its stated time; moving a directed effect uses its printed action.
 

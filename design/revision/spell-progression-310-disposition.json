@@ -1,0 +1,166 @@
+{
+  "sourceCommit": "55cbd4c70f13704c684f7ba358f0d75bb62b1f30",
+  "policy": "Old IV and independent mastery purchases are returned to DP; conceptual destinations do not grant spells. See the north and south content audits.",
+  "formerFolios": [
+    {
+      "sourceSpellId": "spell-mastery:stormsteel-arc",
+      "sourceName": "Stormsteel Arc",
+      "bookId": "air",
+      "survivingSpellId": "spell:air:a1",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:the-invisible-shieldbearer",
+      "sourceName": "The Invisible Shieldbearer",
+      "bookId": "telekinesis",
+      "survivingSpellId": null,
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:borrowed-dawn",
+      "sourceName": "Borrowed Dawn",
+      "bookId": "restoration",
+      "survivingSpellId": "spell:restoration:a1",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:starfall-volley",
+      "sourceName": "Starfall Volley",
+      "bookId": "flame",
+      "survivingSpellId": "spell:flame:a1",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:step-between-heartbeats",
+      "sourceName": "Step Between Heartbeats",
+      "bookId": "passage",
+      "survivingSpellId": null,
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:sanctuary-of-steel",
+      "sourceName": "Sanctuary of Steel",
+      "bookId": "sanctuary",
+      "survivingSpellId": "spell-mastery:guards-and-wards-living-citadel",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:colossus-of-the-forge",
+      "sourceName": "Colossus of the Forge",
+      "bookId": "imbuement",
+      "survivingSpellId": null,
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:the-road-for-the-lost",
+      "sourceName": "The Road for the Lost",
+      "bookId": "passage",
+      "survivingSpellId": "spell:passage:a2",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:dawn-on-the-battlefield",
+      "sourceName": "Dawn on the Battlefield",
+      "bookId": "restoration",
+      "survivingSpellId": "spell:restoration:8",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:meteor-swarm",
+      "sourceName": "Meteor Swarm",
+      "bookId": "flame",
+      "survivingSpellId": "spell-mastery:meteor-swarm",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:wall-of-thorns-living-fortress",
+      "sourceName": "Wall of Thorns — Living Fortress",
+      "bookId": "growth",
+      "survivingSpellId": "spell:growth:a2",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:true-resurrection",
+      "sourceName": "True Resurrection",
+      "bookId": "restoration",
+      "survivingSpellId": "spell-mastery:true-resurrection",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:simulacrum",
+      "sourceName": "Simulacrum",
+      "bookId": "animation",
+      "survivingSpellId": "spell-mastery:simulacrum",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:demiplane",
+      "sourceName": "Demiplane",
+      "bookId": "passage",
+      "survivingSpellId": "spell-mastery:demiplane",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:foresight-shared-vigil",
+      "sourceName": "Foresight — Shared Vigil",
+      "bookId": "portents",
+      "survivingSpellId": "spell-mastery:foresight-shared-vigil",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:storm-of-vengeance",
+      "sourceName": "Storm of Vengeance",
+      "bookId": "air",
+      "survivingSpellId": "spell-mastery:storm-of-vengeance",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:mass-lifegiving",
+      "sourceName": "Mass Lifegiving",
+      "bookId": "restoration",
+      "survivingSpellId": "spell-mastery:true-resurrection",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:foresight-oracles-dream",
+      "sourceName": "Foresight — Oracle’s Dream",
+      "bookId": "dreams",
+      "survivingSpellId": "spell:dreams:a1",
+      "identityRetained": false,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:gate-world-anchor",
+      "sourceName": "Gate — World Anchor",
+      "bookId": "seals",
+      "survivingSpellId": "spell-mastery:gate-world-anchor",
+      "identityRetained": true,
+      "automaticGrant": false
+    },
+    {
+      "sourceSpellId": "spell-mastery:guards-and-wards-living-citadel",
+      "sourceName": "Guards and Wards — Living Citadel",
+      "bookId": "sanctuary",
+      "survivingSpellId": "spell-mastery:guards-and-wards-living-citadel",
+      "identityRetained": true,
+      "automaticGrant": false
+    }
+  ]
+}

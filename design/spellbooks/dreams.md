@@ -16,9 +16,9 @@ Sleep, dreams and their remembered impressions.
 | 6 | Phantasmal Killer | 3 | III |
 | 7 | Dream | 3 | IV |
 | 8 | Sign of Sleep | 4 | IV |
-| A1 | Lord Dream | 5 | IV |
-| A2 | Weird | 5 | IV |
-| A3 | Astral Projection | 5 | IV |
+| A1 | Lord Dream | 5 | V |
+| A2 | Weird | 5 | VI |
+| A3 | Astral Projection | 6 | VII |
 
 ## Spells
 
@@ -135,7 +135,7 @@ The first creature to read or closely examine the mark receives Slowed 2/3/4 and
 **Target / range:** Self and up to five willing sleepers within 3 squares
 **Duration:** 1 hour
 
-Host a shared dream with chosen scenery and conversation. Participants may practice, exchange memories or plan together. Each receives 1 Boon on its first roll directly implementing one agreed plan within 24 hours; record that plan before waking.
+Host a shared dream with chosen scenery and conversation about one undertaking within the next 24 hours. The DA gives one truthful warning of a foreseeable obstacle, based on present circumstances. Each participant receives 1 Boon on its first roll directly implementing the agreed plan within 24 hours; record the plan before waking. A creature can hold one Lord Dream benefit at a time. The dream reveals possibilities, while later decisions can change the outcome.
 
 ### Weird
 
@@ -155,9 +155,9 @@ Surround the targets with personalized waking terrors. Roll once; each takes 3/5
 **ID:** spell:dreams:a3
 **Page:** A3
 **Action:** Ritual · 1 hour
-**SP:** 5
+**SP:** 6
 **Attribute:** None
 **Target / range:** Self and up to three willing creatures beside you
-**Duration:** 1 hour
+**Duration:** 8 hours
 
-Send visible spirit projections into the nearby spirit realm while bodies sleep. Projections travel together up to 1 kilometer from the bodies, speak with spirits and observe corresponding places. They return when the spell ends or a body is disturbed. Projections use observation and speech; physical acts and further casting take place after returning to the bodies.
+Send visible spirit projections into the nearby spirit realm while your bodies sleep. Projections travel together up to 10 kilometers from the bodies, speak with spirits and observe corresponding places. Magical barriers that block spirit travel still apply. They return when the spell ends, a participant chooses to return with a Maneuver, or a body is disturbed. Projections use observation and speech; physical acts and further casting take place after returning to the bodies.

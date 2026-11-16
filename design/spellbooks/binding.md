@@ -16,9 +16,9 @@ Restraints, vessels and supernatural agreements.
 | 6 | Planar Binding | 3 | III |
 | 7 | Geas | 3 | IV |
 | 8 | Hold Monster | 4 | IV |
-| A1 | Dominate Monster | 5 | IV |
-| A2 | Forcecage | 5 | IV |
-| A3 | Imprisonment | 5 | IV |
+| A1 | Dominate Monster | 5 | V |
+| A2 | Forcecage | 5 | VI |
+| A3 | Imprisonment | 5 | VII |
 
 ## Spells
 

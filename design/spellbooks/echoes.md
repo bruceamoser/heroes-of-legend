@@ -16,9 +16,9 @@ Read traces left by past events.
 | 6 | Delving | 3 | III |
 | 7 | Vision Location | 3 | IV |
 | 8 | Past Store | 4 | IV |
-| A1 | Legend Lore | 5 | IV |
-| A2 | Past Truth | 5 | IV |
-| A3 | Vision Behind — Ages | 5 | IV |
+| A1 | Legend Lore | 5 | V |
+| A2 | Past Truth | 5 | VI |
+| A3 | Vision Behind — Ages | 5 | VII |
 
 ## Spells
 

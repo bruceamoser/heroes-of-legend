@@ -16,7 +16,7 @@ Each path has seven sequential purchases. Learn the base ability and two improve
 
 Circles mark beginning studies, triangles level-3 studies, and diamonds level-7 masteries. In the atlas, solid gold marks learned entries; a gold border around green marks something you can learn now. Follow each path's own line. You can develop several paths and combine their effects when their rules permit.
 
-Magical disciplines gather four themed spellbooks. Learn a book's sections in order for **1 / 2 / 2 / 3 DP**. They teach spells 1-2, 3-4, 5-6, then at level 3 spells 7-8 and all three advanced spells A1-A3. Each book's first spell costs 0 SP to cast. Additional level-7 master spells name the single book whose final section you need, and their own learning price. Spellcraft offers Soul Capacity, Mind Capacity and Recovery training, plus the Channeling spellbook.
+Magical disciplines gather four themed spellbooks. Each book follows the same seven steps, prices and level gates. Sections I–IV each teach two spells; sections V, VI and VII each teach one spell. The final spell is the book’s level-7 mastery. Each book’s first spell costs 0 SP to cast. Spellcraft offers Soul Capacity, Mind Capacity and Recovery training, plus the Channeling spellbook.
 
 The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Every hero retains the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
 

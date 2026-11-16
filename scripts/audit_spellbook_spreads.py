@@ -45,8 +45,10 @@ assert s.count('icons:discipline-mark(lower(b.Discipline),"",size:22pt)')==2
 print('PASS: 29 even/odd facing spreads; 319 intact spell blocks; lists, unique art and discipline tokens; no interleaved pages.')
 
 masteries=json.loads((B/'generated/spell-masteries.json').read_text())
-assert len(masteries)==20
+assert len(masteries)==29 and len({m['book'] for m in masteries})==29
 for spell in masteries:
+    pair=[r['page'] for r in records if r['book']==spell['book']]
     hits=[i for i,p in enumerate(npages,1) if norm(spell['effect']) in p]
-    assert len(hits)==1 and hits[0] not in seen,(spell['id'],'mastery must be complete in its separate folio')
-print('PASS: 20 complete mastery spell blocks in separate folios.')
+    assert len(hits)==1 and hits[0] in pair,(spell['id'],'mastery must appear in its book spread')
+    assert spell['section']=='VII' and spell['dp']==5 and spell['level']==7,spell['id']
+print('PASS: 29 single-spell masteries, each on its own book spread.')

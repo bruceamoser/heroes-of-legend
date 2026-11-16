@@ -4,13 +4,25 @@ A spellbook gathers a related family of spells. Its colored rows show the sectio
 
 ## Learning your books
 
-Begin studying a magical discipline for its class-listed DP cost, then choose a book. Learn its sections in order: I costs 1 DP and teaches spells 1–2; II costs 2 DP and teaches spells 3–4; III costs 2 DP and teaches spells 5–6. At character level 3, learn section IV for 3 DP: it teaches spells 7–8 and all three advanced spells, A1–A3. At level 7, you may learn a mastery spell attached to a book whose section IV you know. Each mastery lists its own DP price and casting cost; its prerequisite is that book’s section IV, not another discipline. The book’s existing advanced spells remain learned at level 3.
+Begin studying a magical discipline for its class-listed DP cost, then choose a book. Learn its seven sections in order. Each section adds the spells shown in its colored rows to your repertoire.
+
+| Learned section | Character level | DP | Spells learned |
+|---|---:|---:|---|
+| I | 1 | 1 | 1–2 |
+| II | 1 | 2 | 3–4 |
+| III | 1 | 2 | 5–6 |
+| IV | 3 | 3 | 7–8 |
+| V | 3 | 4 | A1 |
+| VI | 3 | 4 | A2 |
+| VII · Mastery | 7 | 5 | A3 |
+
+The three advanced sections each teach one spell. Your growing investment develops the book’s distinctive magic, culminating in its mastery spell at level 7. A complete book costs 21 DP after beginning its discipline.
 
 The first spell of every book costs 0 SP to cast. Keep every learned spell available for use. Spellcraft offers three training paths and the Channeling book; its capacity paths add to your shared SP reserve.
 
 ## Casting a spell
 
-Choose a learned spell and legal targets, and commit its stated action. Resolve any opportunity attack first. If you can continue, recheck your targets, pay the printed SP and resolve the spell. You need a free hand and a clear path to a target unless the spell describes a remote connection. Measure range in squares from your position. A point or destination must be visible when chosen unless the spell explicitly uses a known place, memory, object or person instead. Carry ordinary gear within your usual capacity when a spell transports you.
+Choose a learned spell and legal targets, and commit its stated action. Resolve any opportunity attack first. If you can continue, recheck your targets, pay the printed SP and resolve the spell. You need a free hand and a clear path to a target unless the spell describes a remote connection. A spell that names a held weapon or shield as its casting focus uses that item to fulfill the free-hand requirement. Measure range in squares from your position. A point or destination must be visible when chosen unless the spell explicitly uses a known place, memory, object or person instead. Carry ordinary gear within your usual capacity when a spell transports you.
 
 Use the spell's printed attribute for any roll. A block marked Automatic resolves its stated effect directly. Three values always mean Weak / Standard / Strong. Attacks use the familiar 3d6 resolution and the normal rules for immunity, resistance and minimum damage. Apply a condition at its listed rating unless the target is immune to that condition, then use its normal timing and decay. Apply healing after the recipient's Life resistance, restore at least 1 HP when HP is missing, and stop at maximum HP. Healing spends SP independently of the recipient's first-aid treatment.
 
@@ -60,7 +72,7 @@ A spell that creates a summoned form uses its listed profile, one immediate Main
 
 The roster's ratings 1, 3 and 7 describe which profiles a calling can produce. The spell names its permitted category and maximum rating. Use the summoned profile rather than the DA creature's combat entry. Animal shapes worn by a hero instead keep that hero's HP, attributes and resources, using the spell's stated movement and natural attacks.
 
-A Familiar bond or invitation to a named planar being concerns an independent creature. It keeps its own needs, choices and relationships. Negotiate its service through the ordinary social procedures. A resurrection restores the named person only with that person's agreement. Lifegiving, Mass Lifegiving and True Resurrection share one lifetime return per person; Grit is separate.
+A Familiar bond or invitation to a named planar being concerns an independent creature. It keeps its own needs, choices and relationships. Negotiate its service through the ordinary social procedures. A resurrection restores the named person only with that person's agreement. Lifegiving and True Resurrection share one lifetime return per person; Grit is separate.
 
 ## Illusions and informed choices
 

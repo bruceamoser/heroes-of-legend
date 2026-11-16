@@ -26,7 +26,7 @@ for p in sorted((D/'spellbooks').glob('*.md')):
   title=section.splitlines()[0]
   values=dict(re.findall(r'^\*\*([^*]+):\*\* (.+)$',section,re.M))
   effect=section.split('\n\n',2)[2].strip()
-  spells.append(dict(name=title,id=values['ID'],page=values['Page'],action=values['Action'],sp=values['SP'],attribute=values['Attribute'],target=values['Target / range'],duration=values['Duration'],defense=values.get('Defense'),hold=values.get('Hold attribute'),escape=values.get('Escape attribute'),effect=effect))
+  spells.append(dict(name=title,id=values['ID'],page=values['Page'],section=rows[len(spells)][3],action=values['Action'],sp=values['SP'],attribute=values['Attribute'],target=values['Target / range'],duration=values['Duration'],defense=values.get('Defense'),hold=values.get('Hold attribute'),escape=values.get('Escape attribute'),effect=effect))
  assert len(spells)==len(rows)==11,p
  for row,e in zip(rows,spells):assert (row[0],row[1],row[2])==(e['page'],e['name'],e['sp']),p
  books.append(dict(title=lines[0][2:],key=key(p),**fields,rows=rows,spells=spells))
@@ -62,25 +62,9 @@ magic+='#block(above:4pt,below:4pt)[#xref('+q(book['key'])+')['+book['title']+']
 for d in ['Elements','Life','Mentalism','Divination','Invocation','Force','Wards','Spellcraft']:
  for book in [b for b in books if b['Discipline']==d]:
   magic+='#spell-spread(spellbooks.find(b=>b.ID=='+q(book['ID'])+'))\n'
-# Independent mastery spells accompany the existing two-page book spreads.
-masteries=[]
-for section in re.split(r'^## ',(D/'spell-masteries.md').read_text(),flags=re.M)[1:]:
- title=section.splitlines()[0]
- meta=dict(re.findall(r'^(ID|Book): (.+)$',section,re.M))
- cost=re.search(r'^DP: (\d+) \| Level: (\d+)$',section,re.M)
- values=dict(re.findall(r'^\*\*([^*]+):\*\* (.+)$',section,re.M))
- lines=section.splitlines();last=max(i for i,l in enumerate(lines) if l.startswith('**'))
- masteries.append(dict(name=title,id=meta['ID'],book=meta['Book'],dp=int(cost[1]),level=int(cost[2]),page='Mastery',action=values['Action'],sp=values['SP'],attribute=values['Attribute'],target=values['Target / range'],duration=values['Duration'],defense=values.get('Defense'),hold=values.get('Hold attribute'),escape=values.get('Escape attribute'),effect='\n'.join(lines[last+1:]).strip()))
-assert len(masteries)==20
+# Mastery is the seventh section, printed with its own book on the facing spread.
+masteries=[dict(e,book=b['ID'],dp=5,level=7) for b in books for e in b['spells'] if e['section']=='VII']
+assert len(masteries)==29
 (G/'spell-masteries.json').write_text(json.dumps(masteries,ensure_ascii=False))
-magic+='#pagebreak()\n#heading(level:1)[Spellbook masteries]\nAt level 7, learn a mastery after section IV of its named spellbook. Each costs 4 DP to learn; its printed SP is paid when casting. The original spells in each book remain available through its four sections.\n\nWeapon and shield workings use a required held weapon or shield as their casting focus in place of a free hand. Their normal casting, equipment and opportunity attack rules still apply.\n#import "../spellbook-spreads.typ": spell-entry\n#let masteries = json("spell-masteries.json")\n'
-magic+='#let mastery-panels = ()\n'
-for book in books:
- selected=[m for m in masteries if m['book']==book['ID']]
- if not selected:continue
- for i,entry in enumerate(selected):
-  prefix=('#heading(level:2)['+book['title']+']\n#text(size:9pt)[Learn '+book['Endpoint']+' (section IV) first.]\n#v(5pt)\n') if i==0 else ''
-  magic+='#mastery-panels.push(block(breakable:false)['+prefix+'#spell-entry(spellbooks.find(b=>b.ID=='+q(book['ID'])+'),masteries.find(m=>m.id=='+q(entry['id'])+'))])\n'
-magic+='#reading-columns(mastery-panels)\n'
 s=s+magic
 (G/'learning.typ').write_text('#import "../template.typ": *\n'+anchorcode+s)

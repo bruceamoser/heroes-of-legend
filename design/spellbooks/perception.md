@@ -16,9 +16,9 @@ Illusions experienced by minds, not physical matter.
 | 6 | Major Image | 3 | III |
 | 7 | Greater Invisibility | 3 | IV |
 | 8 | Hallucinatory Terrain | 4 | IV |
-| A1 | Mislead | 5 | IV |
-| A2 | Seeming | 5 | IV |
-| A3 | Programmed Illusion | 5 | IV |
+| A1 | Mislead | 5 | V |
+| A2 | Seeming | 5 | VI |
+| A3 | Programmed Illusion | 6 | VII |
 
 ## Spells
 
@@ -146,10 +146,10 @@ Give each recipient an apparent humanoid disguise using Disguise Self's limits. 
 
 **ID:** spell:perception:a3
 **Page:** A3
-**Action:** Ritual · 10 minutes
-**SP:** 5
+**Action:** Ritual · 1 hour
+**SP:** 6
 **Attribute:** None
-**Target / range:** One fixed 3-by-3-square space within reach
-**Duration:** 24 hours or until triggered
+**Target / range:** One fixed 6-by-6-square space within reach
+**Duration:** 7 days
 
-Prepare a visual and audible performance lasting up to 1 minute. State a visible or audible trigger within 6 squares when casting. The first matching event plays the recorded illusion once. Physical interaction reveals it; afterward the spell ends.
+Prepare a moving illusion with sound, scent and harmless temperature, performing a sequence lasting up to 5 minutes. Set one visible or audible trigger within 12 squares when casting. A matching event begins the performance; after it finishes, the illusion waits 10 minutes before it can trigger again. The scene stays within its prepared area and follows the same recorded sequence each time. Physical interaction reveals its insubstantial nature; observers may examine it using the shared illusion procedure. Keep one Programmed Illusion active; casting another ends the first.

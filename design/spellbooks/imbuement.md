@@ -16,9 +16,9 @@ Place magical properties into objects.
 | 6 | Continual Flame | 3 | III |
 | 7 | Holy Symbol | 3 | IV |
 | 8 | Weapon I | 4 | IV |
-| A1 | Contingency | 5 | IV |
-| A2 | Armor IV | 5 | IV |
-| A3 | General IV | 5 | IV |
+| A1 | Contingency | 5 | V |
+| A2 | Armor IV | 5 | VI |
+| A3 | Imbue Spell | 8 | VII |
 
 ## Spells
 
@@ -142,14 +142,14 @@ Pay the chosen spell's SP in addition to this ritual. Name a visible or bodily t
 
 Choose fire, cold, lightning, poison, life, radiant, mental or force. While worn with its normal training, the suit grants resistance 2 to that damage type. Use the highest matching resistance. You may keep one Armor IV enchantment at a time.
 
-### General IV
+### Imbue Spell
 
-**ID:** spell:imbuement:a3
+**ID:** spell:imbuement:imbue-spell
 **Page:** A3
 **Action:** Ritual · 8 hours
-**SP:** 5
+**SP:** 8
 **Attribute:** None
-**Target / range:** One held mundane item; 100 coins of reagents consumed
-**Duration:** 7 days
+**Target / range:** One unattended mundane handheld item; 200 coins of enchanting materials consumed
+**Duration:** Until dismissed, unraveled or replaced
 
-Bind one known automatic, non-attack Maneuver spell costing 0 SP to the item. A bearer can use a Maneuver to produce that spell's printed effect from their own position. Only one instance from the item can persist at a time. You may keep one General IV item at a time.
+Bind one known Main Action or Maneuver spell costing 1–5 SP into the item. Its bearer may release that spell once between your safe overnight rests, using its stated action, their own printed casting attribute and their position. The release costs 0 SP; all other casting requirements, materials and costs apply. The bearer handles any Sustain or commands. Choose a spell from outside Channeling that neither restores or transfers SP nor enchants another item. You keep one imbued item. Completing another ends the previous enchantment without renewing its used release; all your replacements share that allowance. Your normal safe overnight rest renews the allowance once per 24 hours.

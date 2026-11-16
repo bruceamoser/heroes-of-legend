@@ -25,10 +25,10 @@ for path in books:
         required = {'ID', 'Page', 'Action', 'SP', 'Attribute', 'Target / range', 'Duration'}
         assert required <= fields.keys(), (path, row[0], required-fields.keys())
         sid = fields['ID']
-        assert sid == f"spell:{book_id}:{row[0].lower()}" and sid not in seen, sid
+        assert (sid.startswith(f"spell:{book_id}:") or sid.startswith("spell-mastery:")) and sid not in seen, sid
         seen.add(sid)
         assert (row[0], row[1], row[2]) == (fields['Page'], block.splitlines()[0], fields['SP']), sid
-        assert row[3] == ('I' if row[0] in ['1','2'] else 'II' if row[0] in ['3','4'] else 'III' if row[0] in ['5','6'] else 'IV'), sid
+        assert row[3] == ('I' if row[0] in ['1','2'] else 'II' if row[0] in ['3','4'] else 'III' if row[0] in ['5','6'] else 'V' if row[0]=='A1' else 'VI' if row[0]=='A2' else 'VII' if row[0]=='A3' else 'IV'), sid
         assert fields['SP'].isdigit() and int(fields['SP']) >= 0, sid
         assert fields['Attribute'] in attributes, (sid, fields['Attribute'])
         action = fields['Action'].split(' · ')[0]
@@ -50,21 +50,10 @@ assert len(books) == 29 and len(seen) == 319
 print(f'{len(books)} books; {len(seen)} unique spells; matching pages, sections and SP; explicit actions and reaction triggers.')
 print(dict(actions))
 
-masteries=re.split(r'^## ',(ROOT/'design/spell-masteries.md').read_text(),flags=re.M)[1:]
-assert len(masteries)==20
-book_ids={p.stem for p in books}
-for block in masteries:
-    sid=re.search(r'^ID: (.+)$',block,re.M)[1]
-    assert sid.startswith('spell-mastery:') and sid not in seen,sid
-    seen.add(sid)
-    assert re.search(r'^Book: (.+)$',block,re.M)[1] in book_ids,sid
-    assert re.search(r'^DP: 4 \| Level: 7$',block,re.M),sid
-    fields=dict(re.findall(r'^\*\*([^*]+):\*\* (.+)$',block,re.M))
-    assert {'Action','SP','Attribute','Target / range','Duration'}<=fields.keys(),sid
 for path in books:
     for block in re.split(r'^### ',path.read_text(),flags=re.M)[1:]:
         fields=dict(re.findall(r'^\*\*([^*]+):\*\* (.+)$',block,re.M))
         if 'Hold attribute' in fields or 'Escape attribute' in fields:
             assert {'Defense','Hold attribute','Escape attribute'}<=fields.keys(),fields['ID']
             assert all(fields[k] in {'Brawn','Fortitude','Agility','Guile','Knowledge','Reason'} for k in ['Hold attribute','Escape attribute']),fields['ID']
-print('20 unique level-7 book masteries; explicit control defense and escape attributes.')
+print('29 complete seven-section books, one mastery each; explicit control defense and escape attributes.')
