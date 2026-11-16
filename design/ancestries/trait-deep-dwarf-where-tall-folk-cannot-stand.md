@@ -1,16 +1,14 @@
 # Through the Narrow Places
 
-*You move and attack normally while crouching or squeezing through low or narrow passages.*
+*You fold into cramped spaces without losing your practiced movement.*
 
 ## Rules
 
-You move and attack normally while crouching or squeezing through low or narrow passages.
+You fold into cramped spaces without losing your practiced movement. Crouching or squeezing alone imposes no movement surcharge or attack Bane in a passage you can physically enter. When the passage requires crawling, use the ordinary crawl costs.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-deep-dwarf-where-tall-folk-cannot-stand
 

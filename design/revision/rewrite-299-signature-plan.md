@@ -1,5 +1,7 @@
 # Signature development plan — rewrite #299 / #301
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 Design review, November 15, 2026. This is a concrete candidate design, not an approved catalog replacement. It changes no cards. Bruce's authorized direction is class-defining signatures with development at levels 3 and 7, while preserving one free signature choice at each of levels 1, 3 and 7. No DP is granted or charged by this plan.
 
 ## Sources and boundaries
@@ -121,7 +123,7 @@ Each row gives a foundation, a level-3 development and a level-7 development. �
 | `signature-arcanist-bent-trajectory` — [Bent Trajectory](../cards/signature-arcanist-bent-trajectory.md) | Retain | Bent Trajectory foundation; positioning identity without another attack. |
 | `signature-arcanist-deliberate-spark` — [Deliberate Spark](../cards/signature-arcanist-deliberate-spark.md) | Revise | Deliberate Spark foundation; explicitly Spell with a casting-opportunity exception. |
 | `signature-arcanist-study-the-pattern` — [Study the Pattern](../cards/signature-arcanist-study-the-pattern.md) | Revise | Study the Pattern foundation; facts/progress boundary protects paid divination. |
-| `signature-arcanist-cast-and-scatter` — [Siphon Cast](../cards/signature-arcanist-cast-and-scatter.md) | Rehome | Force movement book or level-7 movement mastery candidate; preserve risk/vanish fiction, avoid an unrelated fourth signature line. |
+| `signature-arcanist-cast-and-scatter` — [Siphon Cast](../signature-development.json) | Rehome | Force movement book or level-7 movement mastery candidate; preserve risk/vanish fiction, avoid an unrelated fourth signature line. |
 | `signature-arcanist-leave-a-window` — [Create a Window](../cards/signature-arcanist-leave-a-window.md) | Retain | Bent Trajectory level 3; party extension of positional casting. |
 | `signature-arcanist-arcane-deflection` — [Arcane Deflection](../cards/signature-arcanist-arcane-deflection.md) | Revise | Deliberate Spark level 3; resolved damage reference, capped push, once per scene. |
 | `signature-arcanist-fold-the-distance` — [Folded Aegis](../cards/signature-arcanist-fold-the-distance.md) | Retain | Deliberate Spark level 7; explicit spell classification and daily rest definition. |
@@ -140,19 +142,19 @@ Each row gives a foundation, a level-3 development and a level-7 development. �
 | `signature-blade-fell-the-balance` — [Not So Fast](../cards/signature-blade-fell-the-balance.md) | Revise | Cleave level 3; stopping movement requires Standard/Strong. |
 | `signature-blade-dance-through-steel` — [Dance Through Steel](../cards/signature-blade-dance-through-steel.md) | Revise | Cleave level 7; burst once per scene preserves repeatable paid multiattack. |
 | `signature-blade-relentless-pursuit` — [Relentless Pursuit](../cards/signature-blade-relentless-pursuit.md) | Revise | Reckless Charge level 7; once per scene, same pursuit identity. |
-| `signature-blade-perfect-placement` — [Get Out of Here](../cards/signature-blade-perfect-placement.md) | Rehome | Athletics throwing/wrestling advanced tail, with free-hand/size/collision rules; generic strength belongs beyond Blade. |
+| `signature-blade-perfect-placement` — [Get Out of Here](../signature-development.json) | Rehome | Athletics throwing/wrestling advanced tail, with free-hand/size/collision rules; generic strength belongs beyond Blade. |
 
 ### Intellect source dispositions
 
 | Stable ID / current name | Disposition | Destination / reason |
 |---|---|---|
 | `signature-intellect-spot-the-leverage` — [Spot the Leverage](../cards/signature-intellect-spot-the-leverage.md) | Retain | Analyst foundation; observable information and party application. |
-| `signature-intellect-make-the-connection` — [Make the Connection](../cards/signature-intellect-make-the-connection.md) | Rehome | Scholarship investigation tail; one-minute evidence procedure, not magical omniscience. |
+| `signature-intellect-make-the-connection` — [Make the Connection](../signature-development.json) | Rehome | Scholarship investigation tail; one-minute evidence procedure, not magical omniscience. |
 | `signature-intellect-prepared-explanation` — [Angle of Attack](../cards/signature-intellect-prepared-explanation.md) | Revise | Angle of Attack foundation; Knowledge substitution with study cost instead of superior free damage. |
-| `signature-intellect-a-better-angle` — [A Better Angle](../cards/signature-intellect-a-better-angle.md) | Rehome | Scholarship tactical-reaction tail; reduce to movement or require a limited advanced command to avoid eclipsing Leader. |
+| `signature-intellect-a-better-angle` — [A Better Angle](../signature-development.json) | Rehome | Scholarship tactical-reaction tail; reduce to movement or require a limited advanced command to avoid eclipsing Leader. |
 | `signature-intellect-diagnose-the-failure` — [Diagnose the Failure](../cards/signature-intellect-diagnose-the-failure.md) | Revise | Analyst level 3; once per scene, replacement reroll before effects. |
 | `signature-intellect-predict-the-motion` — [Predict the Motion](../cards/signature-intellect-predict-the-motion.md) | Revise | Angle of Attack level 3; only the studied foe, retaining physical attribute value. |
-| `signature-intellect-a-route-for-everyone` — [A Route for Everyone](../cards/signature-intellect-a-route-for-everyone.md) | Rehome | Athletics/Scholarship group-route advanced tail, choose one canonical home in #302. |
+| `signature-intellect-a-route-for-everyone` — [A Route for Everyone](../signature-development.json) | Rehome | Athletics/Scholarship group-route advanced tail, choose one canonical home in #302. |
 | `signature-intellect-test-the-hypothesis` — [Test the Hypothesis](../cards/signature-intellect-test-the-hypothesis.md) | Retain | Analyst level 7; evidence, time and one active plan. |
 | `signature-intellect-expose-the-mechanism` — [Shatter the Guard](../cards/signature-intellect-expose-the-mechanism.md) | Revise | Angle of Attack level 7; resistance break modifies learned weapon attack, no new superior damage button. |
 
@@ -176,25 +178,25 @@ Each row gives a foundation, a level-3 development and a level-7 development. �
 |---|---|---|
 | `signature-odd-sideways-thinking` — [Borrowed Tongue](../cards/signature-odd-sideways-thinking.md) | Retain | Medium foundation; spell classification and heard-language boundary. |
 | `signature-odd-useful-interruption` — [Use Their Voice](../cards/signature-odd-useful-interruption.md) | Revise | Trickster foundation; once-per-scene ally movement avoids at-will order superiority. |
-| `signature-odd-always-a-way-around` — [Pocket Sand](../cards/signature-odd-always-a-way-around.md) | Rehome | Subterfuge Reaction path; preserve grit/blind trick, fix player-defense perspective. |
-| `signature-odd-unlikely-assistant` — [Foul Wind](../cards/signature-odd-unlikely-assistant.md) | Rehome | Life/poison spellbook candidate, not a foundational pact or spirit identity. |
+| `signature-odd-always-a-way-around` — [Pocket Sand](../signature-development.json) | Rehome | Subterfuge Reaction path; preserve grit/blind trick, fix player-defense perspective. |
+| `signature-odd-unlikely-assistant` — [Foul Wind](../signature-development.json) | Rehome | Life/poison spellbook candidate, not a foundational pact or spirit identity. |
 | `signature-odd-change-the-question` — [A Door Where There Wasn’t](../cards/signature-odd-change-the-question.md) | Revise | Trickster level 3; thickness, visible destination, SP and frequency explicit. |
 | `signature-odd-wrong-place-for-that` — [Out of Body](../cards/signature-odd-wrong-place-for-that.md) | Revise | Medium level 3; magical-targeting definition and once-per-scene limit. |
 | `signature-odd-strange-but-effective` — [Borrowed Life](../cards/signature-odd-strange-but-effective.md) | Revise | Medium level 7; bounded noncombat expertise rather than blanket weapon/magic competence. |
 | `signature-odd-an-unexpected-exit` — [The Unseen Procession](../cards/signature-odd-an-unexpected-exit.md) | Revise | Trickster level 7; explicit expiry and no double application of equivalent defense modifiers. |
-| `signature-odd-one-last-remark` — [Not Quite Yet](../cards/signature-odd-one-last-remark.md) | Revise | Pact level 7 candidate becomes self-only deferred price; retain original ally-saving concept as a Life advanced spell candidate, do not silently remap existing characters. |
+| `signature-odd-one-last-remark` — [Not Quite Yet](../signature-development.json) | Revise | Pact level 7 candidate becomes self-only deferred price; retain original ally-saving concept as a Life advanced spell candidate, do not silently remap existing characters. |
 
 ### Protector source dispositions
 
 | Stable ID / current name | Disposition | Destination / reason |
 |---|---|---|
-| `signature-protector-set-your-feet` — [In the Gap](../cards/signature-protector-set-your-feet.md) | Rehome | Guard Maneuver path; frontage is a broadly useful tank practice. |
+| `signature-protector-set-your-feet` — [In the Gap](../signature-development.json) | Rehome | Guard Maneuver path; frontage is a broadly useful tank practice. |
 | `signature-protector-between-them` — [Step Between](../cards/signature-protector-between-them.md) | Retain | Bodyguard foundation; legal swap before roll. |
-| `signature-protector-close-the-gap` — [Hand on the Collar](../cards/signature-protector-close-the-gap.md) | Rehome | Guard rescue Maneuver path; shared protective movement. |
-| `signature-protector-break-their-advance` — [Break the Charge](../cards/signature-protector-break-their-advance.md) | Rehome | Guard Reaction advanced tail; preserve charge interception with explicit reach/equipment. |
+| `signature-protector-close-the-gap` — [Hand on the Collar](../signature-development.json) | Rehome | Guard rescue Maneuver path; shared protective movement. |
+| `signature-protector-break-their-advance` — [Break the Charge](../signature-development.json) | Rehome | Guard Reaction advanced tail; preserve charge interception with explicit reach/equipment. |
 | `signature-protector-shelter-the-fallen` — [Over My Body](../cards/signature-protector-shelter-the-fallen.md) | Retain | Bodyguard level 3; approved death intervention preserved. |
-| `signature-protector-make-a-refuge` — [Make a Refuge](../cards/signature-protector-make-a-refuge.md) | Rehome | Guard advanced group shelter; does not occupy healing/smite signature line. |
-| `signature-protector-unbroken-passage` — [The Long Road](../cards/signature-protector-unbroken-passage.md) | Rehome | Guard rescue mastery candidate; group escape and carrying Dying ally. |
+| `signature-protector-make-a-refuge` — [Make a Refuge](../signature-development.json) | Rehome | Guard advanced group shelter; does not occupy healing/smite signature line. |
+| `signature-protector-unbroken-passage` — [The Long Road](../signature-development.json) | Rehome | Guard rescue mastery candidate; group escape and carrying Dying ally. |
 | `signature-protector-defiant-rescue` — [Take the Wound](../cards/signature-protector-defiant-rescue.md) | Retain | Bodyguard level 7; no chained redirection. |
 | `signature-protector-drive-back-the-circle` — [Radiant Threshold](../cards/signature-protector-drive-back-the-circle.md) | Revise | Oathstrike level 7; Spell, fixed duration, SP and per-round zone limit. |
 
@@ -218,13 +220,13 @@ Each row gives a foundation, a level-3 development and a level-7 development. �
 |---|---|---|
 | `signature-shepherd-gentle-return` — [Mend](../cards/signature-shepherd-gentle-return.md) | Retain | Healer foundation; repeatable SP-priced healing identity. |
 | `signature-shepherd-ease-the-burden` — [Steady Voice](../cards/signature-shepherd-ease-the-burden.md) | Retain | Keeper foundation; explicit expiry for unused Boon. |
-| `signature-shepherd-hear-me-still` — [Come Back](../cards/signature-shepherd-hear-me-still.md) | Rehome | Medicine Reaction path; rescue movement and stabilization available across classes. |
+| `signature-shepherd-hear-me-still` — [Come Back](../signature-development.json) | Rehome | Medicine Reaction path; rescue movement and stabilization available across classes. |
 | `signature-shepherd-careful-transfer` — [Triage](../cards/signature-shepherd-careful-transfer.md) | Retain | Healer level 3; same healing interface, explicit SP/recipient choice. |
-| `signature-shepherd-quiet-the-tremor` — [Mend the Wound](../cards/signature-shepherd-quiet-the-tremor.md) | Rehome | Medicine treatment tail; shared first-aid allowance and ten-minute time. |
+| `signature-shepherd-quiet-the-tremor` — [Mend the Wound](../signature-development.json) | Rehome | Medicine treatment tail; shared first-aid allowance and ten-minute time. |
 | `signature-shepherd-bring-them-near` — [The Fold](../cards/signature-shepherd-bring-them-near.md) | Revise | Keeper level 3; occupies sustained-spell slot, Maneuver/0 SP, one-minute ceiling. |
 | `signature-shepherd-restore-composure` — [The Shared Cup](../cards/signature-shepherd-restore-composure.md) | Retain | Keeper level 7; conserved transfer prevents healing multiplication. |
 | `signature-shepherd-a-hand-in-darkness` — [The Shepherd's Call](../cards/signature-shepherd-a-hand-in-darkness.md) | Retain | Healer level 7; Ritual label and no repeated sigil stacking. |
-| `signature-shepherd-shared-resolve` — [Not My Flock](../cards/signature-shepherd-shared-resolve.md) | Rehome | Life or Wards advanced retaliation spell; enemy target and immunity/escape rules retained in destination review. |
+| `signature-shepherd-shared-resolve` — [Not My Flock](../signature-development.json) | Rehome | Life or Wards advanced retaliation spell; enemy target and immunity/escape rules retained in destination review. |
 
 ### Unbalanced source dispositions
 
@@ -248,8 +250,8 @@ Each row gives a foundation, a level-3 development and a level-7 development. �
 | `signature-warden-read-the-passing` — [Beast Speech](../cards/signature-warden-read-the-passing.md) | Retain | Companion foundation; ordinary animal agency. |
 | `signature-warden-follow-my-footsteps` — [Twin Strike](../cards/signature-warden-follow-my-footsteps.md) | Retain | Skirmisher foundation; two weapons and individual resistance. |
 | `signature-warden-stay-on-the-scent` — [Volley](../cards/signature-warden-stay-on-the-scent.md) | Retain | Hunter level 3; all creatures in area and one worst-modifier roll. |
-| `signature-warden-through-bramble-and-stone` — [Entangling Growth](../cards/signature-warden-through-bramble-and-stone.md) | Rehome | Life plant-control book; explicit spell defenses and held-target escape. |
-| `signature-warden-a-watchful-rest` — [The Green Spear](../cards/signature-warden-a-watchful-rest.md) | Rehome | Elements earth/wood spell candidate; SP and damage compared to other learned attacks. |
+| `signature-warden-through-bramble-and-stone` — [Entangling Growth](../signature-development.json) | Rehome | Life plant-control book; explicit spell defenses and held-target escape. |
+| `signature-warden-a-watchful-rest` — [The Green Spear](../signature-development.json) | Rehome | Elements earth/wood spell candidate; SP and damage compared to other learned attacks. |
 | `signature-warden-turn-the-hunt` — [Mark the Quarry](../cards/signature-warden-turn-the-hunt.md) | Revise | Hunter level 7; remove hit check, visible removable-mark counterplay proposed. |
 | `signature-warden-bring-them-through` — [Call the Wild](../cards/signature-warden-bring-them-through.md) | Revise | Companion level 7; replace open monster CV choice with authored command-compatible profile. |
 | `signature-warden-know-what-you-hunt` — [Death from the Blind Spot](../cards/signature-warden-know-what-you-hunt.md) | Retain | Skirmisher level 7; tracked/damaged target wording replaces hit terminology. |

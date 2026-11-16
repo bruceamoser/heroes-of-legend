@@ -1,16 +1,16 @@
 # Small Target
 
-*Gain 1 Boon to defense rolls.*
+*You tuck your body tightly behind an obstacle.*
 
 ## Rules
 
-Gain 1 Boon to [defense rolls](../rules/ancestry-procedures.md).
+You tuck your body tightly behind an obstacle. When you already benefit from cover against a ranged attack, gain 1 additional defense Boon against that attack.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
+When the attacker rolls, this defense Boon becomes a Bane to that attack. Apply the normal Boon/Bane cap.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-gnome-small-target
 

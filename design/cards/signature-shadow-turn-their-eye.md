@@ -1,6 +1,6 @@
 # Fast Talk
 
-*Roll Guile to make progress toward a social goal with a creature within 5 squares that can hear and understand you.*
+*Your words turn a room before your enemies can settle it.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ State the social goal you are pursuing and what you want the target to do. Make 
 
 **Equipment / acquisition:** None.
 
+Repeated attempts toward the same objective require a new meaningful contribution; use the DA’s objective and progress rules.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Social / Utility
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shadow-turn-their-eye
 

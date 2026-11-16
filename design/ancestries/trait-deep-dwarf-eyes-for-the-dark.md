@@ -1,16 +1,16 @@
 # Eyes for the Dark
 
-*Gain Low-Light Vision 2. Ignore the first two Banes from dim light.*
+*Your eyes kindle faintly in dim surroundings.*
 
 ## Rules
 
-[Low-Light Vision](../rules/vision.md) 2.
+Your eyes kindle faintly in dim surroundings. Gain Low-Light Vision 2, ignoring two lighting Banes. The glow makes you suffer 1 Bane when hiding from sight in dim light or darkness while your eyes are exposed.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
+Covering your eyes hides their glow and prevents their use. The glow illuminates no square; Low-Light Vision uses existing light and provides no sight in complete darkness.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-deep-dwarf-eyes-for-the-dark
 

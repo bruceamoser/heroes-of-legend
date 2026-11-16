@@ -29,6 +29,7 @@ Influence feelings without dictating every decision.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares that can hear you
 **Duration:** Instant
 
@@ -53,6 +54,7 @@ Bolster its courage. Reduce Frightened by 2 immediately and grant 1 Boon to roll
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 3 squares that can hear and understand you
 **Duration:** Until the social exchange ends, up to 10 minutes
 
@@ -77,6 +79,7 @@ Send a steadying hush through the group. Reduce each target's Frightened by 1/2/
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares that understands your words
 **Duration:** One social objective, up to 10 minutes
 
@@ -89,6 +92,7 @@ Frame a specific, feasible course of action that appeals to the target. Add 2/3/
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** Every creature in a 3-square cone that can perceive you
 **Duration:** Instant; conditions decay normally
 
@@ -101,6 +105,7 @@ Appear as an overwhelming source of dread. Apply Frightened 1/2/3, with you as i
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares able to understand an offered image or emotion
 **Duration:** One social objective, up to 10 minutes
 
@@ -113,6 +118,7 @@ Establish rapport through shared sensations even across a language barrier. Add 
 **Action:** Main Action
 **SP:** 4
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** Up to three creatures within 6 squares
 **Duration:** Instant; conditions decay normally
 
@@ -125,6 +131,7 @@ Scatter attention with conflicting impulses. Apply Dazed 1/1/2. Each affected cr
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** Up to six creatures within 6 squares that understand you and share a motive
 **Duration:** One social objective, up to 10 minutes
 
@@ -137,6 +144,7 @@ Propose one common course of action. Add 3/5/7 progress toward a single attainab
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares that understands you
 **Duration:** Until the end of its next turn
 
@@ -149,6 +157,7 @@ State one brief command: move to a named safe place, release a held object, or p
 **Action:** Ritual · 10 minutes
 **SP:** 5
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One fixed object or 3-square-radius place within reach
 **Duration:** 1 hour
 

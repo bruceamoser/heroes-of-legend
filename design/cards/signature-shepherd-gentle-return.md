@@ -1,6 +1,6 @@
 # Mend
 
-*Spend 1 SP and roll Reason to heal a living ally within 3 squares. On a Strong result, the ally can also stand without spending movement.*
+*You call living strength back into those who need it.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a fr
 
 **Equipment / acquisition:** A free hand.
 
+This is a spell; use its printed 1 SP cost and ordinary casting rules.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Magic / Recovery
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shepherd-gentle-return
 

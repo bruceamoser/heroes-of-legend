@@ -15,11 +15,15 @@
  #grid(columns:(1fr,auto),gutter:6pt,text(weight:"bold",action-parts.first()),text(weight:"bold",e.sp+" SP"))
  #if action-parts.len() > 1 { v(3pt); text(size:8.8pt, action-parts.slice(1).join(" · ")) }
  #v(3pt)
- #text(size:8.8pt)[*Page #e.page* · *Resolution:* #if e.attribute == "None" { [Automatic] } else {e.attribute}]
+ #text(size:8.8pt)[#if e.page == "Mastery" {[*Level 7 · 4 DP*]} else {[*Spell #e.page*]} · *Resolution:* #if e.attribute == "None" { [Automatic] } else {e.attribute}]
  #linebreak()
  #text(size:8.8pt)[*Target / range:* #e.target]
  #linebreak()
  #text(size:8.8pt)[*Duration:* #e.duration]
+ #for (field,label) in (("defense","Defense"),("hold","Hold"),("escape","Escape")) {
+  let value = e.at(field,default:none)
+  if value != none {linebreak();text(size:8.8pt)[*#label:* #value]}
+ }
  #v(5pt)
  #text(e.effect)
 ]

@@ -29,6 +29,7 @@ Bounded warnings and possible consequences.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Reason
+**Defense:** Brawn against a melee weapon; Agility against a ranged weapon
 **Target / range:** One adjacent creature with a melee weapon, or one visible creature within 8 squares with a ranged weapon
 **Duration:** Instant
 

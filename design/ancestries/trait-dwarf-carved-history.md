@@ -1,14 +1,14 @@
 # A Grudge Well Kept
 
-*The first creature that deals damage to you in each combat becomes the mark of your grudge. You gain 1 Boon to attack rolls against each creature marked by your grudge. A creature remains marked forever, even if it escapes. Each creature can be marked once. You can hold any number of grudges.*
+*The first creature to damage you in a combat fixes your attention.*
 
 ## Rules
 
-The first creature that deals damage to you in each combat becomes the mark of your grudge. You gain 1 Boon to attack rolls against each creature marked by your grudge. A creature remains marked forever, even if it escapes. Each creature can be marked once. You can hold any number of grudges.
+The first creature to damage you in a combat fixes your attention. You may nurse that grudge at the start of your turn: gain 1 Boon to your first attack against that creature this turn, but take 1 Bane to attacks against other creatures for the rest of this turn. The remembered target lasts for this combat.
 
-**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-dwarf-carved-history
 

@@ -4,11 +4,11 @@ These conventions apply to the current catalog.
 
 ## Learn, declare, resolve
 
-Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
+Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The fourth entry, at level 3, teaches a distinct ability; the next two improve it. The seventh entry is a level-7 mastery. Sequential prices are 1/2/2/3/4/4/5 DP. North develops a Main Action, west a Maneuver, east a Reaction, and south a distinctive capability. Reactions may be used outside combat. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
 A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
 
-Combined abilities require level 7, every named branch endpoint and a separate learning cost: 3 DP for two disciplines, 4 DP for three, 5 DP for four. Magical and nonmagical disciplines may combine. Owning only a discipline or a partially learned branch does not satisfy an endpoint. No lower-count combined ability is required unless explicitly listed.
+Masteries follow their own branch’s level-3 development and improvements. Magical mastery spells require level 7 and their named book’s fourth section. Spellbooks keep their four-section structure.
 
 The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
 
@@ -185,7 +185,7 @@ playing; do not turn them into extra automated saves.
 ## Shared access and condition combinations
 
 Every class can learn a shared ability by meeting its printed level and discipline
-requirements and paying its price. Discipline access costs 1 DP for every class. Class signatures retain their printed class requirements.
+requirements and paying its price. Beginning another discipline costs the 1, 2 or 3 DP printed for the hero’s class. Class signatures retain their printed class requirements.
 
 An ability that targets every creature meeting a condition affects the whole
 eligible group within its printed range and shape. The condition remains unless
@@ -201,9 +201,7 @@ action efficiency, reliability, scope, positioning or a distinctive permission.
 A vivid name alone does not establish that advantage. Compare the whole procedure,
 including costs, targets and limits, rather than only damage.
 
-Each milestone offers independent choices. Require only class and minimum level;
-never require an earlier signature. All learned signatures remain available, so
-review combinations of purchased passives as well as individual cards.
+Each milestone at levels 1, 3 and 7 offers one choice. A hero can develop a known signature or begin a different line. A later choice includes its foundation; its conditional level-3 section applies only when that earlier development was selected. Present each line’s actual components once. These choices spend no DP.
 
 Signature records retain Type: Signature
 and use Tags for their functional roles; action cost remains a separate field.
@@ -222,8 +220,8 @@ before Stability. Other riders still apply when displacement is reduced to 0.
 Voluntary movement, projectile range, obstacle progress and grapple reduction are
 not reduced by Stability. Any exception must be explicit on the card.
 
-## Approved playtest catalog, November 1, 2026
+## Approved playtest catalog, November 16, 2026
 
-The earlier independent Adept and Master catalog has been replaced by sequential discipline paths and level-7 combined abilities. Class signatures are milestone choices, not additional DP purchases.
+The earlier independent Adept and Master catalog has been replaced by seven-step discipline paths with level-7 masteries. Class signatures are milestone choices, not additional DP purchases.
 Ability entries omit empty Duration, Equipment and Limits fields; any specific
 expiry, equipment or use limit remains in the rules or its printed field.

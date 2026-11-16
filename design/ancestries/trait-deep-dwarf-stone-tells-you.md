@@ -1,16 +1,16 @@
 # The Stone Tells You
 
-*Gain Seismic Vision with a range of 6 squares.*
+*Through a supporting solid surface you feel moving bodies within 6 squares, using Seismic Vision.*
 
 ## Rules
 
-Gain [Seismic Vision](../rules/vision.md) with a range of 6 squares.
+Through a supporting solid surface you feel moving bodies within 6 squares, using Seismic Vision. While that surface is violently shaking, moving or being continuously pounded, this sense is overwhelmed until it becomes still.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
+Ordinary footsteps and isolated impacts do not overwhelm this sense. You must touch the connected solid surface; moving targets share that surface, and attacks require their ordinary range and a clear path.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; shared Seismic Vision definition remains under review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-deep-dwarf-stone-tells-you
 

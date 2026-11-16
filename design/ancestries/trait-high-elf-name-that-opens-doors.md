@@ -1,16 +1,14 @@
 # Measured Strength
 
-*Gain 1 Boon to Brawn rolls to lift, carry, bend or force an object.*
+*You settle your weight and apply force without wasted effort.*
 
 ## Rules
 
-Gain 1 Boon to Brawn rolls to lift, carry, bend or force an object.
+You settle your weight and apply force without wasted effort. Gain 1 Boon to Brawn rolls to lift, carry, bend or force an object.
 
-**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-high-elf-name-that-opens-doors
 

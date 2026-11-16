@@ -1,6 +1,6 @@
 # Beast Speech
 
-*For the scene, you can speak with animals. You can ask questions and understand their replies, limited by what the animal has experienced and can understand. You gain 1 Boon to all rolls interacting with animals you are speaking with. This does not make an animal friendly or obedient, and does not compel it to act against its nature.*
+*You learn to work with the wild rather than merely command it.*
 
 ## Rules
 
@@ -12,7 +12,11 @@ For the scene, you can speak with animals. You can ask questions and understand 
 
 **Duration:** The scene.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand for casting.
+
+This is a spell costing 0 SP. Animals retain their motives and agency. A companion acquired through play uses its actual profile.
+
+**Frequency:** Once per scene.
 
 ---
 
@@ -20,9 +24,9 @@ For the scene, you can speak with animals. You can ask questions and understand 
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Support
+**Tags:** Skill / Signature
 
-**Limits:** Once per scene.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-warden-read-the-passing
 

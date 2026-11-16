@@ -1,14 +1,14 @@
 # Nature’s Whispers
 
-*Gain 1 Boon to a roll interpreting living signs.*
+*You hear tiny changes in birdsong, insect noise and rustling leaves.*
 
 ## Rules
 
-Gain 1 Boon to a roll interpreting living signs.
+You hear tiny changes in birdsong, insect noise and rustling leaves. Gain 1 Boon when interpreting animal behavior or living plants to find water, anticipate weather or notice a disturbance. Sudden exceptionally loud sound imposes 1 Bane on your next hearing-based roll before the end of your next turn.
 
-**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-elf-leaf-listener
 

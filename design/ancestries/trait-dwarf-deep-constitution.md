@@ -1,14 +1,14 @@
 # Hard as Bedrock
 
-*Maximum HP +1.*
+*Your dense frame absorbs punishment.*
 
 ## Rules
 
-Maximum HP +1.
+Your dense frame absorbs punishment. Gain 2 maximum HP. Its weight makes staying afloat difficult: take 1 Bane to Brawn or Agility rolls to swim or stay afloat.
 
-**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-dwarf-deep-constitution
 

@@ -1,16 +1,14 @@
 # A Sense of Depth
 
-*Underground, you always know which way is up and whether your route is rising or descending. Gain 1 Boon to Reason rolls to navigate underground or retrace a subterranean route.*
+*Your inner sense of weight tells you which way is up and whether an underground route rises or falls.*
 
 ## Rules
 
-Underground, you always know which way is up and whether your route is rising or descending. Gain 1 Boon to Reason rolls to navigate underground or retrace a subterranean route.
+Your inner sense of weight tells you which way is up and whether an underground route rises or falls. Gain 1 Boon to Reason rolls to navigate underground or retrace a subterranean route.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-deep-dwarf-never-off-the-map
 

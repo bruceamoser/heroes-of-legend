@@ -1,16 +1,30 @@
 # Predict the Motion
 
-*You may use Knowledge instead of Brawn or Agility for defense against physical attacks.*
+*You study a foe until its movements reveal a weakness.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None (no roll)
+### Angle of Attack
 
-**Target / range / shape:** Self.
+**Action:** Maneuver · **Attribute:** None
 
-You may use Knowledge instead of Brawn or Agility for defense against physical attacks.
+**Target / range / shape:** One visible foe within 5 squares.
 
-**Duration:** Passive.
+Study the foe. Until the start of your next turn, your next weapon attack against it may use Knowledge instead of its ordinary attribute. Use that attack’s actual range, weapon requirements, damage and effects. You may study once on your turn; a new study replaces the previous one.
+
+**Duration:** Until the start of your next turn.
+
+**Equipment / acquisition:** None.
+
+### Predict the Motion
+
+**Action:** Passive · **Attribute:** None
+
+**Target / range / shape:** The foe currently studied with Angle of Attack.
+
+While your study lasts, you may use Knowledge instead of Brawn or Agility to defend against that foe’s attacks. Other defense attributes remain unchanged.
+
+**Duration:** The duration of your study.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +34,9 @@ You may use Knowledge instead of Brawn or Agility for defense against physical a
 
 **Type:** Signature
 
-**Tags:** Skill / Defense
+**Tags:** Skill / Signature
 
-**Limits:** Passive.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-intellect-predict-the-motion
 

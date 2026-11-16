@@ -10,7 +10,7 @@ Stone, darkness and small changes in air or vibration shape their experience. Th
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +2 at creation and per level; base Speed 5.
 
@@ -20,6 +20,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [A Patient Breath](trait-deep-dwarf-holds-its-own.md) — You slow your breathing while the others hurry through the stale passage.
 - [Through the Narrow Places](trait-deep-dwarf-where-tall-folk-cannot-stand.md) — You lower your head and slip beneath the fallen beam without breaking stride.
 
-**Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +1 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).

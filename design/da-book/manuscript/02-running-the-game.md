@@ -199,11 +199,11 @@ Use each spell's printed action or Ritual time. A Ritual takes the stated
 uninterrupted work, with its SP and materials paid at the listed time. Resolve
 the effect when the work is complete.
 
-A sustained spell lasts through the caster's next turn. Starting on that turn,
-the caster can spend a Maneuver and 1 SP each turn to continue it, up to its
-printed duration. Track one sustained spell per caster. Track cancellation
-progress against the individual casting when an ability supplies it. Its usual
-target is 2 + the affected spell's printed SP cost.
+A sustained spell lasts through the end of the caster's next turn. Starting on that turn, the caster spends a Maneuver and 0 SP by turn end to maintain it through the end of the following turn, within its printed duration. Track one sustained spell per caster. Fixed-duration magic lasts for its printed time; directing an effect spends its printed action.
+
+A conscious target of a magical hold may spend a Main Action to attempt escape when its spell allows it. An NPC attempting escape makes the player caster roll the spell's Hold attribute; Weak frees that target. A player target instead rolls the spell's Escape attribute; Strong frees that hero. The spell's initial Defense and casting Attribute are separate fields. This permission overrides the magical hold's action restriction, not separate unconsciousness or physical Grappled 3.
+
+Track cancellation progress against the individual casting. Its usual target is 2 + the affected spell's printed SP cost. See Magic and spellbooks for the full timing and control procedures.
 
 ## Who handles the dice
 

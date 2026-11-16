@@ -1,14 +1,14 @@
 # A Little Luck
 
-*Once per day, before a roll that uses an attribute, gain 3 Boons. Describe a small piece of good fortune.*
+*A small coincidence turns in your favor.*
 
 ## Rules
 
-Once per day, before a roll that uses an attribute, gain 3 Boons. Describe a small piece of good fortune.
+A small coincidence turns in your favor. Once between safe overnight rests, before any attribute roll, describe that good fortune and gain 3 Boons.
 
-**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-halfling-good-cheer
 

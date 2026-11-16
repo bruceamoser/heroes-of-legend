@@ -1,7 +1,7 @@
 # Heroes of Legend — current system
 
 This Markdown workspace is the approved source for the game and both starter-kit
-books. Bruce confirmed this baseline on October 17, 2026. Earlier editions,
+books. The current rewrite decisions are tracked in [revision 299](revision/rewrite-299.md). Earlier editions,
 simulation fixtures and completed revision histories are available through Git
 history; they are not alternate rules sources.
 

@@ -11,7 +11,9 @@ read the card’s Weak, Standard or Strong outcome.
 The starter kit covers **levels 1–10** and includes:
 
 - **Player’s Book:** rules, 10 ancestries, 18 cultures, 32 backgrounds, 10 classes,
-  18 disciplines, 419 abilities, equipment, recipes, languages, scar prompts,
+  19 disciplines, 329 nonmagical training entries, 29 spellbooks with 319 spells,
+  20 book masteries, 90 class signature choices, 19 basic actions, six talents,
+  equipment, recipes, languages, scar prompts,
   73 summoned forms, six example heroes and printable sheets.
 - **Dungeon Architect’s Guide & Bestiary:** running and building adventures,
   encounter guidance, hazards, a rescue adventure with maps, campaign tools,
@@ -20,7 +22,7 @@ The starter kit covers **levels 1–10** and includes:
 [Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
 [Release notes](release/notes.md) · [Build both books](release/README.md)
 
-The current starter kit is **v16.4.0**. Download both books from the
+The current source builds starter kit **v17.0.0**. Download published books from the
 [latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 

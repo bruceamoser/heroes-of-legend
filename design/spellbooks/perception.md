@@ -42,9 +42,9 @@ Create a simple sound or stationary visual image. An image is insubstantial; a s
 **SP:** 1
 **Attribute:** None
 **Target / range:** An image fitting a 2-by-2-square space within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Shape a silent moving image. Each upkeep may move it up to 3 squares and alter its gestures. Physical interaction reveals its insubstantial nature; observers may examine it using the shared illusion procedure.
+Shape a silent moving image. A Maneuver may move it up to 3 squares and alter its gestures. Physical interaction reveals its insubstantial nature; observers may examine it using the shared illusion procedure. Without directing it, the image stays in place and repeats its last simple performance.
 
 ### Disguise Self
 
@@ -78,7 +78,7 @@ Create three shifting doubles. Gain 1 Boon to defenses against attacks that depe
 **SP:** 2
 **Attribute:** None
 **Target / range:** Self or one willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Make the recipient and its carried gear Invisible. Attacking or casting another spell ends this casting's invisibility after that action resolves. Other senses can still locate the recipient.
 
@@ -90,9 +90,9 @@ Make the recipient and its carried gear Invisible. Attacking or casting another 
 **SP:** 3
 **Attribute:** None
 **Target / range:** An image fitting a 3-by-3-square space within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Create a moving illusion with sound, scent and harmless temperature. Each upkeep can move it 3 squares and change its performance. Touch reveals its insubstantial nature. It may conceal a real feature visually; physical terrain remains as it was.
+Create a moving illusion with sound, scent and harmless temperature. A Maneuver can move it 3 squares and change its performance. Touch reveals its insubstantial nature. It may conceal a real feature visually; physical terrain remains as it was. Without directing it, the image stays in place and repeats its last simple performance.
 
 ### Greater Invisibility
 
@@ -102,7 +102,7 @@ Create a moving illusion with sound, scent and harmless temperature. Each upkeep
 **SP:** 3
 **Attribute:** None
 **Target / range:** Self or one willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Make the recipient and carried gear Invisible. It may continue attacking and casting while this effect lasts. Attacking still reveals its location and ends Hidden normally.
 
@@ -126,9 +126,9 @@ Change the area's apparent plants, surfaces and small terrain features. Building
 **SP:** 5
 **Attribute:** None
 **Target / range:** Self and an illusory double within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Become Invisible while creating a visible, speaking double of yourself. Each upkeep may move the double 3 squares. You may see and hear from either your own position or the double's, choosing during upkeep. Attacking ends your invisibility after resolution but leaves the double until sustain ends.
+Become Invisible while creating a visible, speaking double of yourself. A Maneuver may move the double 3 squares and choose whether you see and hear from your own position or the double’s until your next turn. Without directing it, the double stays still and repeats its last simple performance; your senses remain at your own body. Attacking ends your invisibility after resolution but leaves the double until expiry. Keep one Mislead casting active.
 
 ### Seeming
 

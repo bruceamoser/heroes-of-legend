@@ -1,6 +1,6 @@
 # Step Between
 
-*Choose one adjacent willing ally, after a single-target attack is declared against it but before rolling. You and the ally swap squares. You become the target of the attack and resolve it against your defense. If either of you cannot occupy the other’s square, you cannot use this reaction. This does not redirect area attacks.*
+*You put yourself between another person and the worst of the blow.*
 
 ## Rules
 
@@ -20,9 +20,9 @@ You and the ally swap squares. You become the target of the attack and resolve i
 
 **Type:** Signature
 
-**Tags:** Skill / Defense / Movement
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; uses your Reaction.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-protector-between-them
 

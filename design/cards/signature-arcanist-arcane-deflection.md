@@ -1,16 +1,32 @@
 # Arcane Deflection
 
-*Before your defense against a spell. the point of impact is one corner of your square, roll your defense normally. You take no damage from the spell. Choose a corner of your square as the point of impact. Each creature in the four squares that share that corner, including you, is pushed a number of squares equal to the spell’s raw damage before your defense or resistance, directly away from that corner. Resolve the push as forced movement. Normal collision rules apply.*
+*You turn unstable magic into motion and shelter.*
 
 ## Rules
 
-**Action:** Reaction · **Attribute:** None — no roll
+### Deliberate Spark
 
-**Target / range / shape:** Self, before your defense against a spell. The point of impact is one corner of your square.
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Roll your defense normally. You take no damage from the spell. Choose a corner of your square as the point of impact. Each creature in the four squares that share that corner, including you, is pushed a number of squares equal to the spell’s raw damage before your defense or resistance, directly away from that corner. Resolve the push as forced movement; normal collision rules apply.
+**Target / range / shape:** One corner of your square; each creature in the four squares that share that corner and are in line of effect.
 
-**Duration:** The triggering defense and immediate push.
+Choose a corner of your square and spark a brief flare of gas there. Each creature in the four squares that share that corner, including you, is pushed 2 squares directly away from that corner. A creature in more than one of those squares is pushed once. The spark does not provoke opportunity attacks. Resolve the push as forced movement; normal collision rules apply.
+
+**Duration:** Immediate.
+
+**Equipment / acquisition:** A free hand for casting.
+
+This is a spell costing 0 SP, usable once on your turn. Its casting does not provoke opportunity attacks.
+
+### Arcane Deflection
+
+**Action:** Reaction · **Attribute:** None (roll the triggering defense normally)
+
+**Target / range / shape:** Your defense against a spell, declared before rolling.
+
+Once per scene, roll the defense and determine the spell’s damage before your resistance and other reductions. Prevent that spell event’s damage to you. Its other effects still apply. Choose a corner of your square; push each creature in a square sharing that corner and in line of effect, including yourself, directly away from that corner by the prevented damage amount, to a maximum of 3 squares. A creature spanning several squares is pushed once. Resolve Stability and collisions normally. This is a magical defensive effect, not another casting.
+
+**Duration:** The triggering damage and immediate push.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +36,9 @@ Roll your defense normally. You take no damage from the spell. Choose a corner o
 
 **Type:** Signature
 
-**Tags:** Magic / Defense
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-arcanist-arcane-deflection
 

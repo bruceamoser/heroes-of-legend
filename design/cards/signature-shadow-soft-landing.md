@@ -1,6 +1,6 @@
 # Blade in the Back
 
-*Choose one creature within reach that has not noticed you or is adjacent to one of your allies. Make an Agility roll against the target. On a Standard result, deal 4 physical damage, and the target has Bleeding 1.*
+*You strike where another presence has left an opening.*
 
 ## Rules
 
@@ -20,9 +20,9 @@ Make an Agility roll against the target. Weak: 3 physical damage. Standard: 4 ph
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shadow-soft-landing
 

@@ -1,5 +1,7 @@
 # #299 discipline content allocation — first pass
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 This is a proposed content allocation for review, not an approved catalog or a change to either book. It applies the approved seven-step nonmagical progression and removal of all inter-discipline intersections. Exact new effects, ranges, costs, and limits still need card authoring and playtesting. Existing names below identify source material to preserve or deliberately rewrite; a destination does not authorize copying its old timing unchanged.
 
 Sources: [current disciplines](../disciplines/), [combined abilities](../combined-abilities.md), [revision contract](rewrite-299-contract.md), [signature allocation](rewrite-299-signature-plan.md). Use stable source IDs during implementation even when names or homes change.

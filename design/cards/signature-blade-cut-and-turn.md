@@ -1,18 +1,18 @@
 # Reckless Charge
 
-*As a Maneuver, move up to 2 squares toward an enemy and make a Basic Melee attack with extra damage. Take 1 Bane to defenses until your next turn.*
+*You carry the fight forward before the enemy can settle.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** Brawn
 
-**Target / range / shape:** Self; move up to 2 squares toward an enemy, then make a Basic Melee attack against a creature within reach.
+**Target / range / shape:** Self, then one enemy within melee reach.
 
-Move up to 2 squares toward an enemy you can see. Then make a Basic Melee attack against a creature within reach. This attack is part of the Maneuver, so your Main Action remains available. On a Weak result, deal 1 extra damage; on a Standard result, deal 2 extra damage; on a Strong result, deal 3 extra damage. Take 1 Bane on defense rolls until the beginning of your next turn. This movement follows normal opportunity attack rules.
+Once per scene, move up to 2 squares toward a visible enemy, following ordinary opportunity attack rules. Make one Basic Melee attack with your melee weapon against a creature you can reach. Take 1 Bane to defenses until the start of your next turn. This attack is part of the Maneuver and leaves your Main Action available.
 
-**Duration:** The attack resolves immediately. The defense Bane lasts until the beginning of your next turn.
+**Duration:** Movement and attack immediate; defense penalty until your next turn.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A ready melee weapon.
 
 ---
 
@@ -20,9 +20,9 @@ Move up to 2 squares toward an enemy you can see. Then make a Basic Melee attack
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Movement
+**Tags:** Skill / Signature
 
-**Limits:** Once on your turn.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-blade-cut-and-turn
 

@@ -78,7 +78,7 @@ Choose one adaptation: gills for water breathing, webbing for swimming at normal
 **SP:** 2
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Change its size by one category, Small to Medium or Medium to Large, or the reverse. Adjust occupied space to 1 or 2 squares on each side as appropriate. Enlarged creatures gain Stability 1; reduced creatures gain 1 Boon to moving through tight spaces. Equipment changes with the body; attacks retain their printed damage.
 
@@ -102,7 +102,7 @@ Give the recipient darkvision to 12 squares. It sees shapes in ordinary darkness
 **SP:** 3
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Give the recipient the body of a familiar ordinary Small or Medium animal. It keeps its HP, attributes and mind. Choose walking, swimming or climbing at its normal Speed; use claws or a bite for Basic Unarmed attacks. Worn gear merges into the form. Returning costs a Maneuver; speech, item use and casting resume in the original body.
 
@@ -116,7 +116,7 @@ Give the recipient the body of a familiar ordinary Small or Medium animal. It ke
 **Target / range:** One willing creature within 3 squares
 **Duration:** 10 minutes
 
-The recipient moves through nonmagical difficult terrain at ordinary cost and immediately reduces Slowed by 3. Once each turn it may spend a Maneuver to reduce Grappled by 2, using your movement magic to slip its bonds.
+The recipient moves through nonmagical difficult terrain at ordinary cost and immediately reduces Slowed by 3. Once each turn it may spend a Maneuver to reduce Grappled 1 or 2 by 2, using your movement magic to slip a loose hold. Grappled 3 requires release by the grappler or outside help.
 
 ### Animal Shapes
 
@@ -126,9 +126,9 @@ The recipient moves through nonmagical difficult terrain at ordinary cost and im
 **SP:** 5
 **Attribute:** None
 **Target / range:** Up to three willing creatures within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Transform each recipient using Polymorph's animal-form procedure. Choose a form and movement mode separately for each. Your single upkeep sustains the group. Each recipient may return to its original body with a Maneuver.
+Transform each recipient using Polymorph's animal-form procedure. Choose a form and movement mode separately for each. The fixed duration covers the group without Sustain. Each recipient may return to its original body with a Maneuver.
 
 ### Shapechange
 
@@ -138,9 +138,9 @@ Transform each recipient using Polymorph's animal-form procedure. Choose a form 
 **SP:** 5
 **Attribute:** None
 **Target / range:** Self
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Assume a familiar animal shape of Small, Medium or Large size. Keep your HP and attributes. Choose flying, swimming or climbing at your normal Speed, physical resistance 1, and a natural attack using Brawn or Agility for 3/5/7 physical damage. Your upkeep may change the form. Gear merges; return with a Maneuver to speak, use items or cast.
+Assume a familiar animal shape of Small, Medium or Large size. Keep your HP and attributes. Choose flying, swimming or climbing at your normal Speed, physical resistance 1, and a natural attack using Brawn or Agility for 3/5/7 physical damage. A Maneuver may change the form; otherwise it remains unchanged. Gear merges; return with a Maneuver to speak, use items or cast.
 
 ### True Polymorph — Living
 

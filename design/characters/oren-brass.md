@@ -1,10 +1,8 @@
 # Oren Brass — level 1
 
-*The investigator-tinker who wins fights by understanding them.*
+*A practical investigator who understands why things fail.*
 
-**Human Intellect · HP 13/13 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 8/10.**
-
-**Languages:** Common, River Speech and Dwarven (A Foot in Two Worlds). See the [language reference](../rules/languages.md).
+**Human Intellect · HP 13/13 · SP 7/7 · Grit 1 remaining / 1 granted · Speed 6 squares.**
 
 ## Attributes and ancestry
 
@@ -12,108 +10,101 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +0 | +0 | +1 | +2 | +0 |
 
-Total **+3**. Intellect minima: Knowledge, Reason ≥ 0; met. Mental sum **+3**, so each stage’s base pool is **13 DP**.
+Total **+3**. Starting development: 8 + Guile +1 + Knowledge +2 + Reason +0 + 1 from Adaptable = **12 DP**.
 
-- [Adaptable](../ancestries/trait-human-far-walker.md): You gain 1 additional DP at each level, including level 0.
-- [A Foot in Two Worlds](../ancestries/trait-human-many-homes.md): Choose Hill Dwarf: learn Dwarven and gain [An Honest Maker’s Hand](../ancestries/trait-dwarf-maker-s-eye.md). Once per day, after a roll to craft or repair an item, improve Weak to Standard or Standard to Strong. Keep Human base HP and Speed. Oren learned this craft among the dwarves of his Deep Halls home.
+### [Adaptable](../ancestries/trait-human-far-walker.md)
 
-## Level 0 — origins and learning
+You readily turn unfamiliar experiences into useful practice. Gain 1 DP at creation and whenever you gain a level.
 
-- [Deep Halls](../origins/culture-deep-halls.md): **Craft access** and [Mend and Fit I](../disciplines/craft.md).
-- [Court Questioner](../origins/background-court-questioner.md): **Scholarship access** and [Recall the Record I](../disciplines/scholarship.md).
+### [Ingenuity](../ancestries/trait-human-shared-table.md)
 
-Pool: **10 + 3 mental attributes + 1 ancestry + 0 duplicate grants = 14 DP**.
+You see a use for the discarded handle and bent nail. Once per scene, spend 1 minute assembling suitable nearby materials into an ordinary temporary tool, implement or weapon. Gain 1 Boon on your next roll using it; it lasts for that scene.
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Trail Workshop I](../disciplines/craft.md) | Craft access | 1 | 13 |
-| [Trail Workshop II](../disciplines/craft.md) | Trail Workshop I | 2 | 11 |
-| [Trail Workshop III](../disciplines/craft.md) | Trail Workshop II | 2 | 9 |
-| [Recall the Record II](../disciplines/scholarship.md) | Recall the Record I | 2 | 7 |
-| [Recall the Record III](../disciplines/scholarship.md) | Recall the Record II | 2 | 5 |
-| [Read the Evidence I](../disciplines/scholarship.md) | Scholarship access | 1 | 4 |
-| [Read the Evidence II](../disciplines/scholarship.md) | Read the Evidence I | 2 | 2 |
-| [Read the Evidence III](../disciplines/scholarship.md) | Read the Evidence II | 2 | 0 |
+Choose a matching ordinary equipment profile. The makeshift item uses that profile and needs suitable materials; it comes apart when the scene ends.
 
-**Spent 14; 0 DP expires when this stage closes.**
+## Choose your fields of study
 
-## Level 1 — class and learning
+- **Culture:** [Deep Halls](../origins/culture-deep-halls.md); study **Craft**.
 
-Choose [Intellect](../classes/intellect.md). Gain **Craft and Scholarship access**. Duplicate access gives 1 DP each, never a free improvement.
+- **Background:** [Court Questioner](../origins/background-court-questioner.md); study **Scholarship**.
 
-Free signature: [Make the Connection](../cards/signature-intellect-make-the-connection.md). Its use procedure follows; the linked card remains the complete reference:
+- **Class:** [Intellect](../classes/intellect.md); study **Divination**.
 
-**Action:** Main Action · **Attribute:** None (no roll)
+## Class signature
 
-**Time:** One minute.
+[Spot the Leverage](../cards/signature-intellect-spot-the-leverage.md)
 
-**Target / range / shape:** Self; one case, person, place or problem you have been investigating.
+**Action:** Maneuver · **Attribute:** None (no roll)
 
-Spend one minute reviewing everything you have learned about one case, person, place or problem. You must have at least one relevant fact or observation. The DA reveals one detail you missed, grounded in the facts already established: a piece of evidence, a motivation, a tell, an angle or a connection.
+**Target / range / shape:** One visible creature or obstacle within 5 squares; you and each ally within 5 squares who can hear and understand you.
 
-**Duration:** Information remains known.
+Choose one visible creature or obstacle within 5 squares. Learn one useful opening: for a creature, one of its defenses or one visible weakness; for an obstacle, whether Force can overcome it and its remaining progress target. You and each ally within 5 squares who can hear and understand you gain 1 Boon to your next action against the target before the start of your next turn.
+
+**Duration:** Information persists; each Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
-**Signature limit:** One revelation per case until new evidence becomes available.
+Use this on a given target once per scene. The DA describes observable defenses or weaknesses and the obstacle’s objective; hidden personal history is not revealed.
 
-Pool: **10 + 3 mental attributes + 1 ancestry + 2 duplicate grants = 16 DP**.
+This is the one free signature choice for level 1.
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Mend and Fit II](../disciplines/craft.md) | Mend and Fit I | 2 | 14 |
-| [Mend and Fit III](../disciplines/craft.md) | Mend and Fit II | 2 | 12 |
-| [Raise a Frame I](../disciplines/craft.md) | Craft access | 1 | 11 |
-| [Raise a Frame II](../disciplines/craft.md) | Raise a Frame I | 2 | 9 |
-| [Raise a Frame III](../disciplines/craft.md) | Raise a Frame II | 2 | 7 |
-| [Survey the Ground I](../disciplines/scholarship.md) | Scholarship access | 1 | 6 |
-| [Survey the Ground II](../disciplines/scholarship.md) | Survey the Ground I | 2 | 4 |
-| [Survey the Ground III](../disciplines/scholarship.md) | Survey the Ground II | 2 | 2 |
+## Spend your starting DP
 
-**Spent 14; 2 DP expires when this stage closes.**
+| Learning | DP | Remaining |
+|---|---:|---:|
+| [Mend and Fit I](../disciplines/craft.md) | 1 | 11 |
+| [Mend and Fit II](../disciplines/craft.md) | 2 | 9 |
+| [Smoke in a Bottle I](../disciplines/craft.md) | 1 | 8 |
+| [Catch the Failure I](../disciplines/craft.md) | 1 | 7 |
+| [Read the Evidence I](../disciplines/scholarship.md) | 1 | 6 |
+| [Read the Evidence II](../disciplines/scholarship.md) | 2 | 4 |
+| [Survey the Ground I](../disciplines/scholarship.md) | 1 | 3 |
+| [Portents I](../spellbooks/portents.md) | 1 | 2 |
+| [Portents II](../spellbooks/portents.md) | 2 | 0 |
 
-## Learned abilities and spellbook pages
+**Spent 12 DP; 0 DP remaining.**
 
-- [Mend and Fit I](../disciplines/craft.md).
-- [Mend and Fit II](../disciplines/craft.md).
-- [Mend and Fit III](../disciplines/craft.md).
-- [Raise a Frame I](../disciplines/craft.md).
-- [Raise a Frame II](../disciplines/craft.md).
-- [Raise a Frame III](../disciplines/craft.md).
-- [Read the Evidence I](../disciplines/scholarship.md).
-- [Read the Evidence II](../disciplines/scholarship.md).
-- [Read the Evidence III](../disciplines/scholarship.md).
-- [Recall the Record I](../disciplines/scholarship.md).
-- [Recall the Record II](../disciplines/scholarship.md).
-- [Recall the Record III](../disciplines/scholarship.md).
-- [Survey the Ground I](../disciplines/scholarship.md).
-- [Survey the Ground II](../disciplines/scholarship.md).
-- [Survey the Ground III](../disciplines/scholarship.md).
-- [Trail Workshop I](../disciplines/craft.md).
-- [Trail Workshop II](../disciplines/craft.md).
-- [Trail Workshop III](../disciplines/craft.md).
+## Your learned techniques
 
-All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
+**Mend and Fit I.** Main Action, with tools and a suitable brace or fastening: temporarily secure one damaged nonmagical item within reach so it can support its ordinary stationary load until your next turn ends. It gains no HP and cannot attack or protect from attacks while broken. Alternatively work for 10 minutes and roll Knowledge for 1/2/3 progress toward repairing an item that retains enough structure.
 
-**Recipes:** Trail Workshop I teaches Bound Torches and Twisted Cord; II adds Travel Food and Wooden Brace. Ingredients must be acquired separately.
+**Mend and Fit II.** Mend and Fit’s repair work adds 1/3/4 progress. Its temporary brace lasts 1 minute unless the item moves or receives further damage.
+
+**Smoke in a Bottle I.** 1 hour · Knowledge, with alchemical tools and one purchased batch of smoke ingredients. Add 1/2/3 progress toward target 3 to prepare one smoke flask. Maneuver: throw a prepared flask to a visible point within 4 squares, consuming it. Smoke fills a 1-square-radius area until your next turn ends and blocks sight through it. No throwing roll.
+
+**Catch the Failure I.** Reaction. When a visible component begins to fail during a nonmagical task you are attending within reach, use tools in hand to arrest it before the consequence resolves. Give the worker 1 Boon on the associated roll to prevent injury or material loss, if such a roll is possible. Once per distinct failure event; this does not improve the task’s progress roll or reverse damage already applied.
+
+**Read the Evidence I.** Main Action · Reason. Examine one accessible clue within reach; add 1/2/3 progress toward a concrete question about it. Searching a scene instead takes 10 minutes per attempt. You may also recall a relevant fact about a subject or reliable description: 1 minute, Knowledge, 1/2/3 progress toward a question set before rolling.
+
+**Read the Evidence II.** Read the Evidence adds 1/3/4 progress to examination, scene searches and recall.
+
+**Survey the Ground I.** Maneuver · Reason. Study one visible approach within 6 squares; add 1/2/3 progress toward identifying its usable footing and visible hazards. Surveying a whole site takes 10 minutes per attempt instead. Concealed threats require evidence to discover.
+
+**Portents I.** Learn True Strike, Guidance.
+
+**Portents II.** Learn Augury, Intuitions.
+
+## At the table
+
+Spot the Leverage prepares an ally with a Maneuver. True Strike is a Main Action weapon attack using its spell rules; Oren holds a melee weapon and keeps the other hand free for casting. Catch the Failure supplies a situational Reaction around a failing item; Opportunity Attack remains available. Tools, materials and a place to work are still needed for Craft techniques.
+
+All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 
 ## Equipment and starting numbers
 
-40 + 1 + 7 + 10 + 8 (base + ancestry + culture + background + class) = **66 coins**.
+Starting coins: **66** from the base 40 plus ancestry, culture, background and class. One plain worn outfit is free.
 
-One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
+| Item | Coins | Bulk | Ready |
+|---|---:|---:|---|
+| [Craft Tools](../equipment/craft-tools.md) | 15 | 1 | Carried |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | Held |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | Carried |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | Carried |
+| [Writing Kit](../equipment/writing-kit.md) | 6 | 1 | Carried |
 
-| Item | Coins | Bulk | Coins left |
-|---|---:|---:|---:|
-| [Craft Tools](../equipment/craft-tools.md) | 15 | 1 | 51 |
-| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | 39 |
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 36 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 32 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 29 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 20 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 15 |
-| [Writing Kit](../equipment/writing-kit.md) | 6 | 1 | 9 |
+**Spent 57 coins; 9 coins remaining.** Inventory Bulk 8/10.
 
-**Spent 57; coins remaining 9; Bulk 8/10.** No encumbrance penalty.
-
-HP: 10 + ancestry 2 + class 1 + Fortitude 0 + trait 0 = **13**. HP gain per level: **3**. SP: **6/6**. Speed **6**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
+HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes ancestry, both origins, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.

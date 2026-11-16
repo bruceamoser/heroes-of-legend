@@ -1,14 +1,14 @@
 # Stone Mason
 
-*Gain 1 Boon to rolls to examine or craft with stone. This covers judging craftsmanship, recognizing stone type and origin, reading patina or recent toolwork, finding secret passages or traps built into stone, and spotting weaknesses in stone or stone structures. You can identify obvious construction clues without a roll.*
+*The grain beneath your fingers and the sound of a tap tell you how stone was worked.*
 
 ## Rules
 
-Gain 1 Boon to rolls to examine or craft with stone. This covers judging craftsmanship, recognizing stone type and origin, reading patina or recent toolwork, finding secret passages or traps built into stone, and spotting weaknesses in stone or stone structures. You can identify obvious construction clues without a roll.
+The grain beneath your fingers and the sound of a tap tell you how stone was worked. Gain 1 Boon when examining or crafting stone, including finding stonework traps, seams and structural weaknesses.
 
-**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-dwarf-stone-reader
 

@@ -19,4 +19,6 @@ not a required personality. Any ancestry may grow up in any culture.
 - [A Little Luck](trait-halfling-good-cheer.md) — The latch catches your coat a heartbeat before you step into trouble.
 - [Endless Pockets](trait-halfling-resilient.md) — Your clothes have pockets in places that should not have pockets, and they hold more than they should.
 
-**Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +1 maximum SP at creation.
+
+**Starting coin contribution:** +3 coins. See [starting coins](../starting-coins.md).

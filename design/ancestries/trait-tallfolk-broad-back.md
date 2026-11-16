@@ -1,16 +1,14 @@
 # Broad Back
 
-*Your Bulk capacity increases by 3.*
+*Your broad frame bears an unusual load.*
 
 ## Rules
 
-Your Bulk capacity increases by 3.
+Your broad frame bears an unusual load. Gain 3 Bulk capacity. Its breadth imposes 1 Bane to Agility rolls made to squeeze through a narrow opening.
 
-**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-tallfolk-broad-back
 

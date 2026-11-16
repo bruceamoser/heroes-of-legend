@@ -1,16 +1,14 @@
 # Quick on Your Feet
 
-*Your base Speed increases by 1.*
+*Your quick, supple stride carries you readily through the world.*
 
 ## Rules
 
-Your base Speed increases by 1.
+Your quick, supple stride carries you readily through the world. Gain 1 base Speed.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** Permanent.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-goblin-run-away-better
 

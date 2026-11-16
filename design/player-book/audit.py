@@ -67,15 +67,19 @@ for d in learning:
   for entry in path['entries']:
    for value in [entry['name'],entry['effect']]:
     if norm(value) not in n:errors.append('Missing learning text: '+entry['name'])
-combinations=json.loads((B/'nonmagical/combined.json').read_text())['abilities']
-for entry in combinations:
- for value in [entry['name'],entry['effect'],*[parent['name'] for parent in entry['parents']]]:
-  if norm(value) not in n:errors.append('Missing combined text: '+entry['name'])
+masteries=json.loads((B/'generated/spell-masteries.json').read_text())
+if len(masteries)!=20:errors.append('Expected twenty book masteries')
+for entry in masteries:
+ for value in [entry['name'],entry['effect'],entry['target'],entry['duration']]:
+  if norm(value) not in n:errors.append('Missing mastery text: '+entry['name'])
+for discipline in learning:
+ for path in discipline['paths']:
+  if len(path['entries'])!=7:errors.append('Expected seven learned steps: '+discipline['name'])
 books=json.loads((B/'generated/spellbooks.json').read_text())
 if len(books)!=29 or sum(len(b['rows']) for b in books)!=319:errors.append('Incomplete spellbook atlas')
 for book in books:
  for spell in book['spells']:
-  for value in [spell['name'],*spell['action'].split(' · '),spell['target'],spell['duration'],spell['effect']]:
+  for value in [spell['name'],*spell['action'].split(' · '),spell['target'],spell['duration'],spell['effect'],*[spell[k] for k in ['defense','hold','escape'] if spell.get(k)]]:
    if norm(value) not in n:errors.append('Missing spell block text: '+spell['id'])
  for row in book['rows']:
   if norm(row[1]) not in n:errors.append('Missing spell: '+row[1])
@@ -87,9 +91,11 @@ for row in (R/'design/rules/languages.md').read_text().splitlines():
 if body.count('#ability-directory(')!=1:errors.append('Expected one Basic Actions directory')
 if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
 for cp in (R/'design/origins').glob('*.md'):
- for grant in re.findall(r'^- (\*\*[^\n]+)',cp.read_text(),re.M):
-  printed = re.sub(r'^\*\*(\w+) access\*\* and ', r'Study \1 and learn ', grant)
-  if norm(printed) not in n:errors.append('Origin grant missing: '+cp.stem+' '+printed)
+ choices=re.search(r'\*\*Discipline choices:\*\* (.+)\.',cp.read_text())
+ if not choices:errors.append('Missing current origin choices: '+cp.stem)
+ else:
+  for name in choices[1].split(', '):
+   if norm(name) not in n:errors.append('Origin discipline missing: '+cp.stem+' '+name)
 from PIL import Image
 for portrait in (B/'art/interior').glob('class-*-cutout.png'):
  with Image.open(portrait) as im:

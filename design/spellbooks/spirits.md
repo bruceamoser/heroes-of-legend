@@ -29,6 +29,7 @@ Contact incorporeal beings and understand hauntings.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Instant
 
@@ -65,10 +66,11 @@ Call an echo of its remembered experience. Weak permits one question, Standard t
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** Up to three creatures within 2 squares of you
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Spirits wheel around you. When cast, deal 2/3/5 radiant damage to the chosen creatures. On a later turn, spend a Main Action and roll again to strike up to three creatures currently within 2 squares. Upkeep preserves the spirits between those attacks.
+Spirits wheel around you. When cast, deal 2/3/5 radiant damage to the chosen creatures. On a later turn, spend a Main Action and roll again to strike up to three creatures currently within 2 squares. The spirits persist between those attacks without Sustain; they deal damage only when you use the stated Main Action. Keep one Spirit Guardians casting active.
 
 ### Lifekeeping
 
@@ -101,6 +103,7 @@ Shape an Undead energy form rated 1 from Summoned Companions, using nearby bones
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One independent undead creature within 6 squares
 **Duration:** Until the end of its next turn
 
@@ -126,7 +129,7 @@ Ask one question. Weak brings a truthful but symbolic clue, Standard a direct an
 **SP:** 5
 **Attribute:** None
 **Target / range:** Self and carried gear
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Step partly into the spirit realm. Move at half Speed through ordinary solid material up to 1 square thick, ending each turn in open space. Observe spirits and physical surroundings as pale outlines. Return with a Maneuver to handle physical objects or cast. Expiry returns you to the nearest open square within 3 squares.
 

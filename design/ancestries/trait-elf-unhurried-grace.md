@@ -1,14 +1,14 @@
 # Grace of the Elder Folk
 
-*Base Speed +1. Describe whether your grace is quick footwork, effortless balance or a dancer’s economy.*
+*Your light frame and economical footwork carry you farther with each step.*
 
 ## Rules
 
-Base Speed +1. Describe whether your grace is quick footwork, effortless balance or a dancer’s economy.
+Your light frame and economical footwork carry you farther with each step. Gain 1 base Speed.
 
-**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-elf-unhurried-grace
 

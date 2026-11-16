@@ -40,27 +40,23 @@ for p in files:
   expected_price=approved_universal_prices.get(id, '1' if id in ONE_DP else str({'1':2,'3':4,'7':8}.get(tier,'')))
   if field(s,'Type')=='Signature':expected_price='Class choice'
   if tier in ('1','3','7') and field(s,'DP')!=expected_price:errors.append(f'{p.name}: tier price')
-  if id in ONE_DP and (tier!='0' or req!='None' or field(s,'Type') in ('Universal','Signature') or not field(s,'Limits').startswith('Purchase once')):errors.append(f'{p.name}: invalid one-DP exception')
+  if id in ONE_DP and (tier!='1' or req!='None' or field(s,'Type') in ('Universal','Signature') or not field(s,'Limits').startswith('Purchase once')):errors.append(f'{p.name}: invalid one-DP exception')
   if not field(s,'Attribute').startswith('None') and '(Basic Melee attack)' not in field(s,'Attribute') and re.search(r'Make (?:a|one|an) (?!Basic\b)[^.]*\b(?:roll|attack)\b',s,re.I) and not all('**'+x+':**' in s for x in ('Weak','Standard','Strong')):
    # Some early signature/utility prototypes print their exact 1/2/3 resolution in prose.
    if not re.search(r'\b\d+/\d+/\d+\b|Weak:|\bWeak\b.*\bStandard\b.*\bStrong\b',s,re.S):errors.append(f'{p.name}: roll outcomes not explicit')
 for id in ONE_DP-set(ids):errors.append(f'Missing approved one-DP card: {id}')
 for p in (R/'origins').glob('*.md'):
  s=p.read_text()
- opts=re.findall(r'- \*\*(\w+) access\*\* and \[([^]]+)\]\(([^)]+)\)',s)
- if len(opts)!=2:errors.append(f'{p.name}: expected two paired access/entry choices')
- for d,ability,target in opts:
-  cp=(p.parent/target).resolve()
-  if not cp.is_file():continue
-  cs=cp.read_text()
-  if cp.parent.name=='disciplines':valid=cs.startswith('# '+d+'\n') and ('### '+ability+'\nDP: 1 | Level: 0') in cs
-  else:valid=('Discipline: '+d+'\n') in cs and ('List: '+ability.removesuffix(' I')+'\n') in cs
-  if not valid:errors.append(f'{p.name}: invalid first-entry grant {ability}')
+ choices=field(s,'Discipline choices').rstrip('.').split(', ')
+ if len(choices)!=2 or len(set(choices))!=2:errors.append(f'{p.name}: expected two distinct discipline choices')
+ for discipline in choices:
+  if not (R/'disciplines'/f'{discipline.lower()}.md').exists():errors.append(f'{p.name}: unknown discipline {discipline}')
+ if field(s,'Starting SP contribution')!='+1 maximum SP.':errors.append(f'{p.name}: starting SP contribution')
 for p in (R/'paths').glob('*.md'):
  if 'replaced by sequential learning' not in p.read_text():errors.append(f'{p.name}: unmigrated suggested path')
 subprocess.run([sys.executable,str(R/'player-book/nonmagical/build.py'),'--data-only'],check=True)
 for p in (R/'classes').glob('*.md'):
- if len(re.findall(r'\.\./cards/signature-',p.read_text()))!=9:errors.append(f'{p.name}: signature choices')
+ if len(set(re.findall(r'\.\./cards/(signature-[^)]+)',p.read_text())))!=9:errors.append(f'{p.name}: signature choices')
 ancestry_sources=re.findall(r'\]\((ancestries/[^)]+\.md)\)',(R/'ancestry.md').read_text())
 if len(ancestry_sources)!=10 or len(set(ancestry_sources))!=10:errors.append('Expected ten distinct ancestry entries')
 trait_ids=[]

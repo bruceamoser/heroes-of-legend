@@ -1,16 +1,14 @@
 # Fingers in the Works
 
-*Gain 1 Boon to Knowledge rolls to build, repair, disable or alter a mechanical device, using suitable tools and materials.*
+*Your sensitive fingers find the slipping gear or misplaced pin.*
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls to build, repair, disable or alter a mechanical device, using suitable tools and materials.
+Your sensitive fingers find the slipping gear or misplaced pin. Gain 1 Boon to Knowledge rolls to build, repair, disable or alter a mechanical device, using suitable tools and materials.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-gnome-fingers-in-the-works
 

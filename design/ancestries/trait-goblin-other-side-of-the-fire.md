@@ -1,16 +1,14 @@
 # The Other Side of the Fire
 
-*Gain 1 Boon to Guile rolls to negotiate safe passage or ownership.*
+*You quickly identify a practical exchange.*
 
 ## Rules
 
-Gain 1 Boon to Guile rolls to negotiate safe passage or ownership.
+You quickly identify a practical exchange. When negotiating safe passage or ownership, state a concrete concession you will honor if the agreement is accepted to gain 1 Boon to Guile.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-goblin-other-side-of-the-fire
 

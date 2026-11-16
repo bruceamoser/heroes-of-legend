@@ -114,7 +114,7 @@ Ward the rooms with soft warning bells. Name up to six guests. When another crea
 **SP:** 4
 **Attribute:** None
 **Target / range:** A 1-square-radius ring centered on you
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 A barrier of repelling force surrounds you. A living creature crossing its boundary spends 2 extra movement and becomes Slowed 1, once per round. The ring moves with you; moving it over a creature applies the same effect rather than pushing it automatically.
 
@@ -149,6 +149,7 @@ Open a comfortable refuge with six furnished rooms, clean water and bedding for 
 **Action:** Ritual · 10 minutes
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** A fixed ring of up to twelve connected unoccupied squares beside you
 **Duration:** 1 hour
 

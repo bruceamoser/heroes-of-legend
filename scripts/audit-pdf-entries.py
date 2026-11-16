@@ -30,25 +30,30 @@ for kind,f in sources:
  body=s.split('## Rules',1)[1].split('\n---',1)[0]
  if kind == 'trait':body=body.split('**Ancestry:**',1)[0]
  rules=[b.strip() for b in re.split(r'\n\s*\n',body) if b.strip() and not b.lstrip().startswith(('**','#'))]
- cards.append({'kind':kind,'id':sid,'path':str(f.relative_to(book)),'title':title,'narrative':narrative,'fields':fields,'rules':rules})
-names={norm(c['title']) for c in cards};heads=[]
-for pi,pg in enumerate(pgs):
- for i,line in enumerate(pg['lines']):
-  for n in range(1,4):
-   ls=pg['lines'][i:i+n]
-   if len(ls)!=n or any(abs(t['x']-line['x'])>35 for t in ls):continue
-   name=norm(' '.join(t['text'] for t in ls))
-   if name in names:heads.append({'name':name,'page':pi,'x':line['x'],'y':line['y'],'end':ls[-1]['y2']})
+ cards.append({'kind':kind,'id':sid,'path':str(f.relative_to(book)),'title':title,'narrative':narrative,'fields':fields,'rules':rules,'procedures':[(label,value.strip()) for label,value in re.findall(r'\*\*([^*]+):\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',body) if label in ['Action','Attribute','Target / range / shape','Duration']]})
+# Use named PDF destinations emitted for canonical cards. Repeated foundation
+# headings inside upgraded signatures are body text, not new card boundaries.
+from pypdf import PdfReader
+reader=PdfReader(a.player)
+manifest=json.loads((book/'design/player-book/generated/manifest.json').read_text())
+keys={entry['path']:entry['key'] for entry in manifest['included']}
+heads=[]
+for card in cards:
+ destination=reader.named_destinations.get(keys.get(card['path'],''))
+ if destination is None:continue
+ pi=reader.get_destination_page_number(destination)
+ y=float(reader.pages[pi].mediabox.height)-float(destination['/Top'])
+ heads.append({'id':card['id'],'name':norm(card['title']),'page':pi,'x':float(destination['/Left']),'y':y,'end':y})
 rows=[]
 intentional={'Limits':{'Repeatable; normal action economy applies.','Repeatable; pay the action and any stated costs each use.'},'Equipment / acquisition':{'None.','No item needed unless named above.'},'Duration':{'Instant. Applied conditions follow their normal duration and decay.','Resolve once at the stated trigger; applied conditions follow normal decay.'}}
 for c in cards:
  candidates=[]
  for h in heads:
-  if h['name']!=norm(c['title']):continue
+  if h['id']!=c['id']:continue
   pg=pgs[h['page']];mid=pg['width']/2;right=h['x']>=mid
   later=[x['y'] for x in heads if x['page']==h['page'] and (x['x']>=mid)==right and x['y']>h['y']+2]
   bottom=min(later,default=10000)
-  lines=[x for x in pg['lines'] if (x['x']>=mid)==right and x['y']>=h['y']-1 and x['y']<bottom-1]
+  lines=[x for x in pg['lines'] if (x['x']>=mid)==right and x['y']>=h['y']-3 and x['y']<bottom-1]
   text='\n'.join(x['text'] for x in lines)
   score=sum(norm(b) in norm(text) for b in c['rules'])+int(norm(c['narrative']) in norm(text))*5
   candidates.append((score,h,text))
@@ -56,6 +61,9 @@ for c in cards:
  _,h,text=max(candidates,key=lambda x:x[0]);checks=[];nt=norm(text)
  checks.append({'field':'Narrative','expected':c['narrative'],'status':'present' if norm(c['narrative']) in nt else 'review_missing'})
  for i,b in enumerate(c['rules']):checks.append({'field':f'Rules paragraph {i+1}','expected':b,'status':'present' if norm(b) in nt else 'review_missing'})
+ for index,(label,value) in enumerate(c['procedures']):
+  if value in intentional.get(label,set()):continue
+  checks.append({'field':f'{label} procedure {index+1}','expected':value,'status':'present' if norm(value) in nt else 'review_missing'})
  for key in ([] if c['kind']=='trait' else ['Action','Attribute','Target / range / shape','Duration','Equipment / acquisition','Limits','Requirements to learn','DP','Type']):
   v=c['fields'].get(key)
   if not v:continue

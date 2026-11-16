@@ -1,8 +1,22 @@
 # Blow the Horn
 
-*Every enemy within 5 squares that can hear you. Make one Guile roll and apply the result to each target. On a Weak result, apply Frightened 1. On a Standard result, apply Frightened 1 and Dazed 1. On a Strong result, apply Frightened 2 and Dazed 1.*
+*You give frightened companions a place to stand together.*
 
 ## Rules
+
+### Stand Together
+
+**Action:** Maneuver · **Attribute:** None
+
+**Target / range / shape:** Self and one adjacent willing ally.
+
+You and the ally gain 1 Boon to defense rolls while remaining adjacent, until the start of your next turn. Once per scene, before either recipient rolls one of these defenses, you may increase that defense’s benefit to 2 Boons, without an additional action.
+
+**Duration:** Until your next turn or adjacency is lost.
+
+**Equipment / acquisition:** None.
+
+### Blow the Horn
 
 **Action:** Maneuver · **Attribute:** Guile
 
@@ -14,15 +28,17 @@ Make one Guile roll and apply the result to each target. On a Weak result, apply
 
 **Equipment / acquisition:** None.
 
+Use once per scene. Roll using the least favorable applicable Boons/Banes. Apply hearing requirements and condition immunities normally.
+
 ---
 
 **Tier / minimum level:** 3 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 3
 
 **Type:** Signature
 
-**Tags:** Skill / Control
+**Tags:** Skill / Signature
 
-**Limits:** Once on your turn.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-leader-hold-your-nerve
 

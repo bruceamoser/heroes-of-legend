@@ -102,7 +102,7 @@ Reshape existing stone into a doorway, trough, steps or similarly simple form. P
 **SP:** 3
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Harden the recipient's skin like weathered granite. It gains physical resistance 2, using the highest matching resistance.
 
@@ -137,6 +137,7 @@ Grade, trench or mound earth by up to 2 squares of depth or height. Shift it wit
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Until the end of your next turn; conditions then decay normally
 
@@ -149,6 +150,7 @@ Stone creeps across the target. Apply Slowed 2/3/4. On Strong also apply Paralyz
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every grounded creature in a 3-square-radius area within 10 squares
 **Duration:** Instant
 

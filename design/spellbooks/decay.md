@@ -29,6 +29,7 @@ Decomposition, toxins and biological deterioration.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One living creature within 3 squares
 **Duration:** Instant
 
@@ -41,6 +42,7 @@ Exhale a stinging spray. Deal 2/3/5 poison damage.
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One living creature within 6 squares
 **Duration:** Instant
 
@@ -53,6 +55,7 @@ Strike with a sickly ray for 2/3/5 poison damage. On Strong also apply Poisoned 
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
 
@@ -77,6 +80,7 @@ Grant poison resistance 2 and immediately reduce Poisoned by 2. Apply the highes
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One adjacent living creature
 **Duration:** Instant
 
@@ -89,10 +93,11 @@ Take strength through a withering touch. Deal 2/4/6 life damage. Restore your HP
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Speak a curse that burdens its efforts. Apply Poisoned 1/2/3, representing magical frailty. Each upkeep renews Poisoned 1. Remove Curse ends this curse and its remaining contribution immediately.
+Speak a curse that burdens its efforts. Apply Poisoned 1/2/3, representing magical frailty, with ordinary decay. While the curse persists, you may spend a Maneuver to renew Poisoned 1 on that target, once on your turn; this costs 0 SP. Remove Curse ends the curse and its remaining contribution immediately. You may have one Bestow Curse active; casting it again ends the earlier curse.
 
 ### Blight
 
@@ -101,6 +106,7 @@ Speak a curse that burdens its efforts. Apply Poisoned 1/2/3, representing magic
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One living creature or plant within 8 squares
 **Duration:** Instant
 
@@ -113,6 +119,7 @@ Wither flesh or foliage for 4/6/9 life damage. An ordinary unattended plant fitt
 **Action:** Main Action
 **SP:** 4
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One adjacent living creature
 **Duration:** 10 minutes or until treated
 
@@ -125,6 +132,7 @@ Inflict Poisoned 1/2/3*. This magical sickness persists at that rating until you
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One living creature within 6 squares
 **Duration:** Instant
 
@@ -137,6 +145,7 @@ Deal 5/8/11 life damage and apply Poisoned 1. Resolve damage and dying by the or
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** One living creature within 8 squares
 **Duration:** Instant
 
@@ -149,6 +158,7 @@ A black pulse strikes for 6/9/12 life damage. If the target reaches 0 HP, resolv
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Fortitude
 **Target / range:** Every living creature in a 3-square-radius burst within 10 squares
 **Duration:** Instant
 

@@ -1,10 +1,8 @@
 # Lira Ashbow — level 1
 
-*The woodland archer who reads a trail as readily as a target.*
+*A woodland archer with a sword ready when danger closes.*
 
-**Wood Elf Blade · HP 15/15 · Grit 1 remaining / 1 granted · Speed 8 squares · Bulk 8/10.**
-
-**Languages:** Common and Elven. See the [language reference](../rules/languages.md).
+**Wood Elf Blade · HP 15/15 · SP 3/3 · Grit 1 remaining / 1 granted · Speed 6 squares.**
 
 ## Attributes and ancestry
 
@@ -12,34 +10,27 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +1 | +2 | +0 | +1 | -1 |
 
-Total **+3**. Blade minima: Agility, Brawn ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
+Total **+3**. Starting development: 8 + Guile +0 + Knowledge +1 + Reason -1 = **8 DP**.
 
-- [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md): In woodlands and forests, you ignore difficult terrain. This includes difficult terrain caused by natural terrain or obstacles, such as roots, undergrowth, fallen leaves and uneven natural ground. Your Speed increases by 1 while you are in woodlands, forests or similar wooded terrain.
-- [Nature’s Whispers](../ancestries/trait-elf-leaf-listener.md): Gain 1 Boon to a roll interpreting living signs.
+### [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md)
 
+Your steps find gaps among roots and brush. Ignore movement surcharges from natural undergrowth, roots and loose forest ground, and gain 1 Speed in wooded terrain.
 
-## Level 0 — origins and learning
+### [Nature’s Whispers](../ancestries/trait-elf-leaf-listener.md)
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
-- [Messenger](../origins/background-messenger.md): **Marksmanship access** and [Hobbling Shot I](../disciplines/marksmanship.md).
+You hear tiny changes in birdsong, insect noise and rustling leaves. Gain 1 Boon when interpreting animal behavior or living plants to find water, anticipate weather or notice a disturbance. Sudden exceptionally loud sound imposes 1 Bane on your next hearing-based roll before the end of your next turn.
 
-Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
+## Choose your fields of study
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Hobbling Shot II](../disciplines/marksmanship.md) | Hobbling Shot I | 2 | 8 |
-| [Hobbling Shot III](../disciplines/marksmanship.md) | Hobbling Shot II | 2 | 6 |
-| [Wild Harvest II](../disciplines/wilderness.md) | Wild Harvest I | 2 | 4 |
-| [Wild Harvest III](../disciplines/wilderness.md) | Wild Harvest II | 2 | 2 |
-| [Read the Trail I](../disciplines/wilderness.md) | Wilderness access | 1 | 1 |
+- **Culture:** [Forest Communities](../origins/culture-forest-communities.md); study **Wilderness**.
 
-**Spent 9; 1 DP expires when this stage closes.**
+- **Background:** [Messenger](../origins/background-messenger.md); study **Marksmanship**.
 
-## Level 1 — class and learning
+- **Class:** [Blade](../classes/blade.md); study **Athletics**.
 
-Choose [Blade](../classes/blade.md). Gain **Arms and Athletics access**. Duplicate access gives 1 DP each, never a free improvement.
+## Class signature
 
-Free signature: [Measured Guard](../cards/signature-blade-measured-guard.md). Its use procedure follows; the linked card remains the complete reference:
+[Measured Guard](../cards/signature-blade-measured-guard.md)
 
 **Action:** Reaction · **Attribute:** None (no roll)
 
@@ -51,58 +42,60 @@ Gain 1 Boon to the defense. After the attack resolves, if the defense was Strong
 
 **Equipment / acquisition:** None.
 
-**Signature limit:** Repeatable; normal action economy applies.
+You must wield a melee weapon to use this guard and counterattack. A granted counterattack cannot trigger another granted attack.
 
-Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
+This is the one free signature choice for level 1.
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Measured Shot I](../disciplines/marksmanship.md) | Marksmanship access | 1 | 9 |
-| [Measured Shot II](../disciplines/marksmanship.md) | Measured Shot I | 2 | 7 |
-| [Measured Shot III](../disciplines/marksmanship.md) | Measured Shot II | 2 | 5 |
-| [Sure Ascent I](../disciplines/athletics.md) | Athletics access | 1 | 4 |
-| [Sure Ascent II](../disciplines/athletics.md) | Sure Ascent I | 2 | 2 |
-| [Sure Ascent III](../disciplines/athletics.md) | Sure Ascent II | 2 | 0 |
+## Spend your starting DP
 
-**Spent 10; 0 DP expires when this stage closes.**
+| Learning | DP | Remaining |
+|---|---:|---:|
+| [Measured Shot I](../disciplines/marksmanship.md) | 1 | 7 |
+| [Measured Shot II](../disciplines/marksmanship.md) | 2 | 5 |
+| [Hobbling Aim I](../disciplines/marksmanship.md) | 1 | 4 |
+| [Watchful Shot I](../disciplines/marksmanship.md) | 1 | 3 |
+| [Read the Trail I](../disciplines/wilderness.md) | 1 | 2 |
+| [Catch Your Balance I](../disciplines/athletics.md) | 1 | 1 |
+| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 0 |
 
-## Learned abilities and spellbook pages
+**Spent 8 DP; 0 DP remaining.**
 
-- [Hobbling Shot I](../disciplines/marksmanship.md).
-- [Hobbling Shot II](../disciplines/marksmanship.md).
-- [Hobbling Shot III](../disciplines/marksmanship.md).
-- [Measured Shot I](../disciplines/marksmanship.md).
-- [Measured Shot II](../disciplines/marksmanship.md).
-- [Measured Shot III](../disciplines/marksmanship.md).
-- [Read the Trail I](../disciplines/wilderness.md).
-- [Sure Ascent I](../disciplines/athletics.md).
-- [Sure Ascent II](../disciplines/athletics.md).
-- [Sure Ascent III](../disciplines/athletics.md).
-- [Wild Harvest I](../disciplines/wilderness.md).
-- [Wild Harvest II](../disciplines/wilderness.md).
-- [Wild Harvest III](../disciplines/wilderness.md).
+## Your learned techniques
 
-All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
+**Measured Shot I.** Main Action · Agility. Attack one creature within 8 squares for 2/3/5 physical damage.
+
+**Measured Shot II.** Measured Shot deals 3/4/6 physical damage.
+
+**Hobbling Aim I.** Maneuver. Choose one visible creature within 8 squares. Your next Main Action ranged or thrown attack against it before this turn ends also applies Slowed 1 on Strong. This modifies one target of one attack. Reusing this technique replaces its unused effect.
+
+**Watchful Shot I.** Reaction · Agility. When a visible enemy within 6 squares finishes voluntary movement adjacent to an ally, attack it for 1/2/3 physical damage. Resolve after the movement; you need a ready weapon.
+
+**Read the Trail I.** Main Action · Reason. Read tracks or signs immediately before you; add 1/2/3 progress toward identifying direction, approximate numbers and freshness. Following a trail to the next landmark takes 10 minutes per attempt instead. The DA defines each objective from accessible evidence.
+
+**Catch Your Balance I.** Reaction. When you would fall Prone, remain standing instead. You must be conscious and able to move. No roll.
+
+**Wild Harvest I.** 1 hour · Knowledge. Search an accessible area with plausible resources; gather 1/2/3 person-days of food, or that much drinkable water if a source exists. The DA defines the area before rolling. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
+
+## At the table
+
+Use Measured Shot II as your Main Action and Hobbling Aim as your Maneuver. Watchful Shot supplies a ranged Reaction when its trigger occurs. Measured Guard needs the stowed sword: put away the bow and draw the sword using the ordinary equipment actions before relying on that signature. Catch Your Balance answers a fall. In woodland, apply Footfall on the Leaves as printed.
+
+All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 
 ## Equipment and starting numbers
 
-40 + 2 + 5 + 7 + 4 (base + ancestry + culture + background + class) = **58 coins**.
+Starting coins: **58** from the base 40 plus ancestry, culture, background and class. One plain worn outfit is free.
 
-One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
+| Item | Coins | Bulk | Ready |
+|---|---:|---:|---|
+| [Ordinary Ranged Weapon](../equipment/ordinary-ranged-weapon.md) | 18 | 1 | Held |
+| [Ammunition Bundle](../equipment/ammunition-bundle.md) | 9 | 1 | Carried |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | Carried |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | Carried |
 
-| Item | Coins | Bulk | Coins left |
-|---|---:|---:|---:|
-| [Ordinary Ranged Weapon](../equipment/ordinary-ranged-weapon.md) | 18 | 1 | 40 |
-| [Ammunition Bundle](../equipment/ammunition-bundle.md) | 9 | 1 | 31 |
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 28 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 24 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 21 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 12 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 7 |
-| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 2 |
+**Spent 58 coins; 0 coins remaining.** Inventory Bulk 7/10.
 
-**Spent 56; coins remaining 2; Bulk 8/10.** No encumbrance penalty.
-
-HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **6/6**. Speed **8**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
-
-Speed is 9 in wooded terrain from Woodland Tread. The bow requires both hands.
+HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes ancestry, both origins, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.

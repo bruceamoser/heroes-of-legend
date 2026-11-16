@@ -1,27 +1,27 @@
 # Starting coins
 
-**Agreed target:** 50–70 coins after card-granted equipment. **Proposed allocation:** the values below.
+Your departure purse combines savings, community support, past work and class preparation.
 
 **Starting coins = 40 + ancestry + culture + background + class.**
 
-Add these once after completing level 1. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.
+Add these once during character creation. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.
 
-Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations describe preparation, not biology.
+Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend.  These allocations describe preparation, not biology.
 
 ## Ancestry contribution
 
 | Choice | Coins |
 |---|---:|
 | [Human](ancestries/human.md) | +1 |
-| [High Elf](ancestries/high-elf.md) | +2 |
+| [High Elf](ancestries/high-elf.md) | +1 |
 | [Wood Elf](ancestries/wood-elf.md) | +2 |
 | [Hill Dwarf](ancestries/hill-dwarf.md) | +2 |
 | [Deep Dwarf](ancestries/deep-dwarf.md) | +2 |
-| [Halfling](ancestries/halfling.md) | +0 |
+| [Halfling](ancestries/halfling.md) | +3 |
 | [Tallfolk](ancestries/tallfolk.md) | +1 |
-| [Gnome](ancestries/gnome.md) | +1 |
-| [Goblin](ancestries/goblin.md) | +0 |
-| [Oath-Bound](ancestries/oath-bound.md) | +1 |
+| [Gnome](ancestries/gnome.md) | +0 |
+| [Goblin](ancestries/goblin.md) | +1 |
+| [Oath-Bound](ancestries/oath-bound.md) | +0 |
 
 ## Culture contribution
 
@@ -98,12 +98,6 @@ Contributions represent what the character brings on departure: savings, communi
 | [Odd](classes/odd.md) | +0 |
 | [Warden](classes/warden.md) | +2 |
 
-## Checks and examples
+## Preparing to travel
 
-All **57,600 ancestry/culture/background/class combinations** fall between **50 and 70 coins**, before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.
-
-Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = **50**. Maximum: Wood Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = **70**.
-
-At the low end, road essentials and a lesser potion cost 44 and leave 6. At the high end, the same basket leaves 26. The [market](market.md) lists all prices; purchases still consume Bulk and obey hand/training requirements.
-
-The [six worked characters](characters/README.md) now include purses and actual shopping ledgers. No one receives higher-level cards, extra DP or free potions.
+Choose the weapons, armor, tools and supplies your learned techniques use. Resolve explicit equipment grants before shopping. The [market](market.md) lists prices and Bulk. A plain worn outfit is free.

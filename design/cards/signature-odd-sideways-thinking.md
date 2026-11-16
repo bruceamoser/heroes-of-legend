@@ -1,10 +1,10 @@
 # Borrowed Tongue
 
-*One language you hear spoken. A spirit that knows the language possesses you. You understand and speak that language for the scene. You do not read or write it.*
+*The spirits lend you words, perspective and remembered lives.*
 
 ## Rules
 
-**Action:** Maneuver in combat, or one minute out of combat
+**Action:** Maneuver
 
 **Attribute:** None (no roll)
 
@@ -16,15 +16,19 @@ A spirit that knows the language possesses you. You understand and speak that la
 
 **Equipment / acquisition:** None.
 
+This is a consensual spirit invitation and a spell costing 0 SP. You retain control of your actions.
+
+**Frequency:** Once per scene; one language at a time.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Odd; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Social
+**Tags:** Skill / Signature
 
-**Limits:** Once per scene; one language at a time.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-odd-sideways-thinking
 

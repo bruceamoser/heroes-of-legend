@@ -2,6 +2,6 @@
 
 ## Replaced learning reference
 
-This former independent ability is retired. Use [Driving Blow I](../disciplines/arms.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
+This former independent ability is retired. Use [Measured Cut I](../disciplines/arms.md) and its sequential learning rules. No separate purchase or legacy mechanics remain.
 
 **ID:** hook-and-drive

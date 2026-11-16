@@ -1,16 +1,14 @@
 # Long Stride
 
-*Your base Speed increases by 1.*
+*Your long legs cover the ground with an easy stride.*
 
 ## Rules
 
-Your base Speed increases by 1.
+Your long legs cover the ground with an easy stride. Gain 1 base Speed.
 
-**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** Permanent.
-
-**Status:** Approved by Bruce on November 3, 2026; replaces the rejected You Take the Blow concept.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-tallfolk-you-take-the-blow
 

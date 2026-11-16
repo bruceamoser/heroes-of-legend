@@ -1,14 +1,16 @@
 # Dream beneath the Stars
 
-*You may rest in a quiet waking reverie instead of sleeping. You remain aware of nearby ordinary sights and sounds. The reverie counts as sleep for rest and recovery.*
+*You slip into a quiet reverie while remaining aware of ordinary nearby sights and sounds.*
 
 ## Rules
 
-You may rest in a quiet waking reverie instead of sleeping. You remain aware of nearby ordinary sights and sounds. The reverie counts as sleep for rest and recovery.
+You slip into a quiet reverie while remaining aware of ordinary nearby sights and sounds. Reverie counts as sleep during a safe overnight rest, with the same required time.
 
-**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+Use the ordinary overnight-rest duration and recovery frequency. Reverie replaces the sleep portion; active work interrupts it.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
+
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-elf-star-familiar
 

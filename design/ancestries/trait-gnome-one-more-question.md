@@ -1,16 +1,14 @@
 # Eyes from Elsewhere
 
-*Gain 1 Boon to Reason rolls to notice or see through magical illusions.*
+*Magical falsehood catches your fey eye.*
 
 ## Rules
 
-Gain 1 Boon to Reason rolls to notice or see through magical illusions.
+Magical falsehood catches your fey eye. Gain 1 Boon to Reason rolls to notice or see through magical illusions. When an illusion fills the area you are examining, take 1 Bane to Reason rolls to notice mundane hidden objects or creatures in that area.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-gnome-one-more-question
 

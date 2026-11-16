@@ -89,6 +89,7 @@ Record a warning of up to twenty-five words and a visible or audible trigger wit
 **Action:** Ritual · 10 minutes
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One fixed surface within reach; burst within 1 square of it
 **Duration:** 8 hours or until triggered
 
@@ -125,6 +126,7 @@ Hide the chest and its contents in a private folded space. While beside its orig
 **Action:** Ritual · 10 minutes
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One fixed visible inscription; targets within 2 squares
 **Duration:** 8 hours or until triggered
 

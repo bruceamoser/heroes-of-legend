@@ -78,7 +78,7 @@ Sense intentionally prepared mechanisms or magical triggers that could harm an e
 **SP:** 2
 **Attribute:** None
 **Target / range:** Self
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 See Invisible creatures and objects within 6 squares as translucent outlines. This satisfies visual targeting at that distance; solid cover still blocks sight.
 
@@ -102,7 +102,7 @@ Learn 1/2/3 facts about its active magical properties, chosen from activation, c
 **SP:** 3
 **Attribute:** None
 **Target / range:** Self
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Within 6 squares, see Invisible targets and perceive the original outline beneath visual illusions or disguising magic. You recognize illusion as illusion while retaining sight of the underlying scene. Solid barriers retain their normal visibility limits.
 
@@ -116,7 +116,7 @@ Within 6 squares, see Invisible targets and perceive the original outline beneat
 **Target / range:** One adjacent object, creature or fixed magical effect
 **Duration:** Instant
 
-Add 2/4/6 progress toward understanding one magical effect, with target 6. Each completed analysis reveals its purpose, remaining duration, SP upkeep and one named remedy or interruption method. Use further castings for further effects.
+Add 2/4/6 progress toward understanding one magical effect, with target 6. Each completed analysis reveals its purpose, remaining duration, whether it requires Sustain and one named remedy or interruption method. Use further castings for further effects.
 
 ### Detect Magic — Scaling Analysis
 

@@ -10,7 +10,7 @@ A goblin adventurer may want to support a community, win recognition or simply d
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +1 at creation and per level; base Speed 6; Size Small.
 
@@ -20,6 +20,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [The Other Side of the Fire](trait-goblin-other-side-of-the-fire.md) — You recognize the guarded silence and make your offer without stepping closer.
 - [Quick Hands](trait-goblin-never-where-you-aim.md) — The awkward bundle settles into your grip before anyone notices it slipping.
 
-**Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +1 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).

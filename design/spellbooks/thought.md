@@ -53,6 +53,7 @@ Understand the literal meaning of one language at a time. Read at an ordinary pa
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 3 squares that you can see
 **Duration:** Instant
 
@@ -113,6 +114,7 @@ Help the recipient replace or soften one memory covering up to five minutes of a
 **Action:** Main Action
 **SP:** 4
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 3 squares
 **Duration:** Instant
 
@@ -137,6 +139,7 @@ Search one area of its remembered experience together. Add 2/4/6 progress toward
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 3 squares
 **Duration:** Instant
 

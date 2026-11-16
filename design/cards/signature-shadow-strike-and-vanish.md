@@ -1,18 +1,32 @@
 # Hamstring
 
-*Choose one creature within reach or range. Make an Agility roll against the target. On a Standard result, deal 3 physical damage, and the target has Slowed 1 and Dazed 1.*
+*You strike where another presence has left an opening.*
 
 ## Rules
 
+### Blade in the Back
+
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One creature within reach or range.
+**Target / range / shape:** One creature within reach that has not noticed you or is adjacent to one of your allies.
 
-Make an Agility roll against the target. Weak: 2 physical damage, and the target has Slowed 1. Standard: 3 physical damage, and the target has Slowed 1 and Dazed 1. Strong: 5 physical damage, and the target has Slowed 1, Dazed 1 and Prone.
+Make an Agility roll against the target. Weak: 3 physical damage. Standard: 4 physical damage, and the target has Bleeding 1. Strong: 6 physical damage, and the target has Bleeding 2.
 
-**Duration:** Immediate; conditions use their normal decay.
+**Duration:** Immediate; Bleeding uses its normal decay.
 
-**Equipment / acquisition:** A light or ranged weapon.
+**Equipment / acquisition:** A melee weapon.
+
+### Hamstring
+
+**Action:** Passive · **Attribute:** None
+
+**Target / range / shape:** The target of Blade in the Back.
+
+Blade in the Back also applies Slowed 1/2/3 on Weak/Standard/Strong. Apply condition immunity and decay normally. This improves the same attack rather than granting another one.
+
+**Duration:** Ordinary condition decay.
+
+**Equipment / acquisition:** None.
 
 ---
 
@@ -20,9 +34,9 @@ Make an Agility roll against the target. Weak: 2 physical damage, and the target
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shadow-strike-and-vanish
 

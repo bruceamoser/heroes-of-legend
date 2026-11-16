@@ -41,6 +41,7 @@ Magnify your voice to carry across a hall, make a small flame flicker, or cause 
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 4 squares that understands you
 **Duration:** Until the end of its next turn
 
@@ -53,10 +54,13 @@ Give a one-word request to approach a safe square, halt movement, or drop a held
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One humanoid creature within 6 squares
-**Duration:** Instant; conditions decay normally
+**Hold attribute:** Reason
+**Escape attribute:** Reason
+**Duration:** Sustained, up to 1 minute
 
-Bands of pale light grip its limbs. Apply Slowed 1/2/3; on Strong also apply Paralyzed 1.
+Bands of pale light grip its limbs. Apply Slowed 1/2/3; on Strong also apply Paralyzed 1. Each upkeep renews this casting’s original ratings rather than adding to them. A conscious target may spend a Main Action to attempt escape using the printed hold and escape attributes, even while these bands restrict its actions. Escape ends this casting’s conditions on that target; ending Sustain removes them.
 
 ### Magic Circle
 
@@ -77,6 +81,7 @@ Choose summoned forms, undead or spirits. Creatures of that kind gain 2 Banes on
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Duration:** Until your next turn ends
 
@@ -113,10 +118,13 @@ Bind a mutual oath naming one feasible duty and its completion condition. A part
 **Action:** Main Action
 **SP:** 4
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 6 squares
-**Duration:** Instant; conditions decay normally
+**Hold attribute:** Reason
+**Escape attribute:** Reason
+**Duration:** Sustained, up to 1 minute
 
-Close binding bands around the target. Apply Slowed 2/3/4 and Paralyzed 1/1/2.
+Close binding bands around the target. Apply Slowed 2/3/4 and Paralyzed 1/1/2. Each upkeep renews this casting’s original ratings rather than adding to them. A conscious target may spend a Main Action to attempt escape using the printed hold and escape attributes, even while the bands restrict its actions. Escape or ending Sustain removes this casting’s conditions from the target.
 
 ### Dominate Monster
 
@@ -125,6 +133,7 @@ Close binding bands around the target. Apply Slowed 2/3/4 and Paralyzed 1/1/2.
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 6 squares that perceives your command
 **Duration:** Until the end of its next turn
 
@@ -137,8 +146,9 @@ Command one ordinary movement or interaction within the creature's abilities. It
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Reason
 **Target / range:** An unoccupied 2-by-2-square cage boundary within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Form a cage around creatures fitting inside its boundary. Your casting roll gives it 10/15/20 HP. When an NPC casts around heroes, each enclosed hero rolls Reason instead. Use the strongest defense to give the shared cage 20/15/10 HP on Weak/Standard/Strong. The bars block bodily passage but allow sight and ranged targeting. The cage has resistance 2 to all damage and takes at least 1 per attack. Teleportation or destroying it permits escape. The caster may end it with a Maneuver.
 

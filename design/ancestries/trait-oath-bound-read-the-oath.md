@@ -1,16 +1,14 @@
 # Borrowed Knowing
 
-*Gain 1 Boon to Knowledge rolls when you call upon your oath holder.*
+*Fragments of your maker’s memory emerge aloud in an unfamiliar second voice when you interpret religious symbols, supernatural bargains or magical inscriptions.*
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls when you call upon your oath holder.
+Fragments of your maker’s memory emerge aloud in an unfamiliar second voice when you interpret religious symbols, supernatural bargains or magical inscriptions. Speaking that recollection gives 1 Boon to the associated Knowledge roll.
 
-**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-oath-bound-read-the-oath
 

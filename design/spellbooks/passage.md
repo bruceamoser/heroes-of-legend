@@ -150,6 +150,6 @@ Consume 100 coins of tuned incense to open a two-way doorway 2 squares wide. Any
 **SP:** 5
 **Attribute:** None
 **Target / range:** Self and up to three willing creatures within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Shift the company into pale spirit forms. Each uses Etherealness's movement and interaction procedure and may return with a Maneuver. Your upkeep sustains all recipients; on expiry each returns to the nearest open square within 3 squares.
+Shift the company into pale spirit forms. Each uses Etherealness's movement and interaction procedure and may return with a Maneuver. The fixed duration covers all recipients; on expiry each returns to the nearest open square within 3 squares.

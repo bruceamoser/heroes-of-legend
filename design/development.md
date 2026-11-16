@@ -1,57 +1,57 @@
 # Develop a character
 
-## Level 0: the life before adventure
+## Create a level-1 hero
 
-Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from −2 through +2, totaling +3. Attributes stay fixed as you gain levels. Choose an ancestry and two of its five traits, then choose culture and background independently.
+Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from -2 through +2, totaling +3. Attributes stay fixed as you gain levels. Choose an ancestry and two of its five traits. Record the characteristic and its benefits and side effects together.
 
-Choose one complete learning option from your culture and one from your background. Begin studying the discipline listed in each option and learn the accompanying ability or spellbook section. For each discipline or entry you already know, add 1 DP to this stage’s pool.
+Choose a culture and background independently of ancestry. Each offers two disciplines; begin studying one from each. Choose a class whose attribute minimums you meet, then begin studying one discipline from its starting list. Choose three distinct disciplines across these choices. Select one level-1 class signature.
 
-Receive 10 + Knowledge + Reason + Guile DP, including negative adjustments, plus duplicate compensation and explicit ancestry benefits. Spend these points to begin studying disciplines and learn their entries. Beginning a discipline costs 1 DP. Follow each path in order: its first three steps cost 1, 2 and 2 DP. The fourth step costs 3 DP and requires level 3. These steps are available at level 0 unless a higher level is printed. Close the stage; unused DP expires.
+Your starting Development Points (DP) are **8 + Guile + Knowledge + Reason**, including negative values, plus explicit trait benefits. Use these points to learn abilities and spellbook sections. Starting disciplines are already yours to study. An additional discipline costs the 1, 2 or 3 DP printed for your class; then learn its entries at their listed prices. Save unspent DP for later development.
 
-## Level 1: choose a class
+## Learning your paths
 
-Meet the class's two attribute minimums (normally 0 in each); Odd has none. Choose two distinct disciplines from its starting list. These disciplines establish your class training; develop their paths through further learning. Each duplicate gives 1 level-1 DP. Choose one level-1 class signature; no discipline requirement applies to that signature.
+A nonmagical discipline has four paths: north develops a Main Action, west a Maneuver, east a Reaction, and south a distinctive capability. Reactions can answer events in exploration, conversation and practical work as well as combat. Timed work retains its printed minutes or hours.
 
-Receive a fresh 10 + Knowledge + Reason + Guile DP, plus this stage's duplicate compensation and explicit ancestry benefits. Study disciplines and learn entries at the same costs as at level 0. Meet each entry’s requirements before learning it. Spend the points for this stage before finishing level 1.
+Each path has seven sequential purchases. Learn the base ability and two improvements first. At level 3, learn its major development and two further improvements; at level 7, its mastery becomes available. Prices are **1 / 2 / 2 / 3 / 4 / 4 / 5 DP**, totaling 21 for a complete path. Improvements add together unless a new value replaces an earlier total. The fourth entry has its own ability; the fifth and sixth improve that fourth entry. Mastery gives the path its strongest expression.
 
-## Learning and spellbooks
+Circles mark beginning studies, triangles level-3 studies, and diamonds level-7 masteries. In the atlas, solid gold marks learned entries; a gold border around green marks something you can learn now. Follow each path's own line. You can develop several paths and combine their effects when their rules permit.
 
-Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The final level-3 entry teaches a distinct ability. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
+Magical disciplines gather four themed spellbooks. Learn a book's sections in order for **1 / 2 / 2 / 3 DP**. They teach spells 1-2, 3-4, 5-6, then at level 3 spells 7-8 and all three advanced spells A1-A3. Each book's first spell costs 0 SP to cast. Additional level-7 master spells name the single book whose final section you need, and their own learning price. Spellcraft offers Soul Capacity, Mind Capacity and Recovery training, plus the Channeling spellbook.
 
-A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Once learned, page 1 costs 0 SP to cast. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
+The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Every hero retains the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
 
-At level 7, learn a combined ability after learning all the final abilities or named spellbook sections it lists. Spend 3 DP for two disciplines, 4 DP for three, or 5 DP for four. Some combinations bring magical and nonmagical disciplines together.
+## Signatures
 
-The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
+Choose one signature at each of levels 1, 3 and 7. At a later milestone, develop a signature you already know or learn another signature appropriate to that milestone. This is one choice, not an additional signature plus an improvement. A later selection includes the foundation needed to use it; its text identifies any extra benefit that depends on a development you actually selected earlier. Keep each signature line together on the sheet.
+
+You may change a signature selection. Check its dependent developments together and choose replacements when necessary. Each earned milestone still supplies one selection; changing it neither spends nor grants DP, repeats an acquisition benefit, nor restores used resources.
 
 ## Equipment and starting numbers
 
-Gather the equipment your chosen techniques use; an entry that provides an item says so. A plain worn outfit is free. Buy weapons, armor, tools, food and other supplies from your starting coins: 40 + ancestry + culture + background + class contributions. Compatible abilities may share one weapon. Use your recipes to make items from the ingredients you gather.
+Gather the equipment your techniques use. A requirement tells you what to obtain; an entry that supplies an item says what you receive. A plain worn outfit is free. Spend **40 + ancestry + culture + background + class coin contributions** on weapons, armor, tools and supplies. Compatible abilities can share one weapon. Light, medium and heavy armor supply physical resistance 1, 2 and 3 respectively when you have the relevant training.
 
-At level 1 and later, maximum HP is 10 + level × (ancestry contribution + class contribution) + Fortitude + fixed benefits. At level 0, use 10 + ancestry contribution + Fortitude + fixed benefits. Each later level adds ancestry + class contributions; fixed benefits and Fortitude are not added again.
+Maximum HP is **10 + level x (ancestry HP contribution + class HP contribution) + Fortitude + fixed benefits**. Begin with full HP. Each later level adds ancestry + class contributions to maximum HP; Fortitude and fixed benefits apply once. When you have positive HP, add that level's HP gain to current HP too. At 0 HP, only maximum HP grows.
 
-Capacity is 10 + 3 × Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility − encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Damage immunity removes the named damage type before resistance.
+Maximum SP is **ancestry SP + 1 culture + 1 background + twice your positive class-associated mental attribute + 2 x (level - 1) + learned capacity and explicit benefits**. A class attribute of 0 or less adds 0 SP. Use your chosen attribute for this contribution, not a temporary item bonus. Begin with your full reserve. Later maximum-SP gains enlarge capacity without restoring spent points. Safe overnight rest restores the reserve.
 
-Ancestry, culture and background each contribute 1 maximum SP at level 0. Class adds 3 at level 1, giving 6 before explicit benefits. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve. Learn spells by studying the sections of your spellbooks. Record current and maximum HP and SP separately, and mark first aid available. Start with no death roll marks or scars.
+Capacity is 10 + 3 x Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility - encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Damage immunity removes its named damage before resistance.
 
-Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used once and is gone permanently; rest never restores it. Using Grit returns you to half maximum HP, rounded up. See [recovery](rules/recovery.md) for dying, scars, treatment and safe overnight rest.
+Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used once and is gone permanently. Using Grit restores you to half maximum HP, rounded up. Record current HP/SP, first-aid availability, death tallies and scars separately. See [recovery](rules/recovery.md).
 
 ## Advancement
 
-The DA awards milestone levels. From level 2 onward, gain 8 + the new level in DP. Save these points or spend them when the DA judges you are somewhere safe. Add your ancestry and class contributions to maximum HP. If you have positive HP, add the same amount to current HP. At 0 HP, increase only your maximum.
+The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
 
-At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. At other levels, gain the DP, HP and SP listed below.
-
-| New level | DP | Other milestone |
+| New level | DP gained | Other development |
 |---|---:|---|
-| 2 | 10 | HP and +2 SP growth |
-| 3 | 11 | HP and +2 SP growth; final path entries; one signature; 1 Grit |
-| 4 | 12 | HP and +2 SP growth |
-| 5 | 13 | HP and +2 SP growth |
-| 6 | 14 | HP and +2 SP growth |
-| 7 | 15 | HP and +2 SP growth; combined abilities; one signature; 1 Grit |
-| 8 | 16 | HP and +2 SP growth |
-| 9 | 17 | HP and +2 SP growth |
-| 10 | 18 | HP and +2 SP growth |
+| 2 | 6 | HP growth; +2 maximum SP |
+| 3 | 7 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
+| 4 | 8 | HP growth; +2 maximum SP |
+| 5 | 9 | HP growth; +2 maximum SP |
+| 6 | 10 | HP growth; +2 maximum SP |
+| 7 | 11 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
+| 8 | 12 | HP growth; +2 maximum SP |
+| 9 | 13 | HP growth; +2 maximum SP |
+| 10 | 14 | HP growth; +2 maximum SP |
 
-Record what you learned, including spellbook pages, and how much DP remains. You can use any learned entry when you meet its requirements.
+Record what you learned and the DP spent. The only later learning gates are levels 3 and 7; reaching a gate makes its studies available while their sequential requirements and prices still apply.

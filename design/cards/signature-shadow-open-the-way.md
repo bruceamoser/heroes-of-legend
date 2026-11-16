@@ -1,18 +1,34 @@
 # Open the Way
 
-*Choose one adjacent lock, simple trap, or hidden entrance. Use appropriate tools to work toward the DA's stated target. Each attempt takes a Main Action. On a Standard result, add 3 progress.*
+*You leave danger looking at the place where you used to stand.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Guile
+### Fade Behind
 
-**Target / range / shape:** One adjacent lock, simple trap, or hidden entrance.
+**Action:** Maneuver · **Attribute:** Agility
 
-Use appropriate tools to work toward the DA's stated target. Each attempt takes a Main Action. Weak: 2 progress. Standard: 3 progress. Strong: 5 progress. On completion, open the lock, disable the trap, or find the entrance. Your work makes no audible noise and leaves no trace. The DA states any known risk before you begin.
+**Target / range / shape:** Self.
 
-**Duration:** Progress persists for that task.
+Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed, provided you have cover or obscurement. You still make the ordinary Hide attempt. If you succeed, you are Hidden until you attack, are revealed, or the concealment ends.
 
-**Equipment / acquisition:** Appropriate tools.
+**Duration:** Immediate; Hidden uses its normal duration.
+
+**Equipment / acquisition:** None.
+
+**Frequency:** Once on your turn.
+
+### Open the Way
+
+**Action:** Passive · **Attribute:** None
+
+**Target / range / shape:** A lock, trap or barrier you work on with ordinary actions or a learned technique.
+
+When your roll makes progress on a lock, trap or barrier, you may make that work quiet and leave no obvious trace of your tools on Standard or Strong. On Weak, make the normal progress with the ordinary noise and marks. Observers watching you can still see your work. Use the underlying action’s time, tools, progress and other effects.
+
+**Duration:** The attempt.
+
+**Equipment / acquisition:** Suitable tools for the task.
 
 ---
 
@@ -20,9 +36,9 @@ Use appropriate tools to work toward the DA's stated target. Each attempt takes 
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shadow-open-the-way
 

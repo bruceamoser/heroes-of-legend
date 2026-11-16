@@ -1,16 +1,14 @@
 # Bright Idea
 
-*Once per day, before a Knowledge or Reason roll, gain 2 Boons by describing an unconventional approach to the problem.*
+*An unlikely connection suddenly makes sense.*
 
 ## Rules
 
-Once per day, before a Knowledge or Reason roll, gain 2 Boons by describing an unconventional approach to the problem.
+An unlikely connection suddenly makes sense. Once between safe overnight rests, describe an unconventional but workable approach before a Knowledge or Reason roll and gain 2 Boons.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-gnome-bright-idea
 

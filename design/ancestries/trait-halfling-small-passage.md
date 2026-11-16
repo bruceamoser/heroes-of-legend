@@ -1,14 +1,14 @@
 # Under Their Noses
 
-*You gain 1 Boon to hiding. When you are adjacent to a standing creature at least one size larger than you, you can attempt to hide behind it, even in combat and with no other cover, as long as it is between you and the observer. The creature can be an ally or an enemy.*
+*You fold yourself into the spaces others overlook.*
 
 ## Rules
 
-You gain 1 Boon to hiding. When you are adjacent to a standing creature at least one size larger than you, you can attempt to hide behind it, even in combat and with no other cover, as long as it is between you and the observer. The creature can be an ally or an enemy.
+You fold yourself into the spaces others overlook. Gain 1 Boon to hiding; an adjacent standing creature at least one Size larger can provide a place to hide from an observer when it stands between you and that observer, even during combat.
 
-**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-halfling-small-passage
 

@@ -1,6 +1,6 @@
 # Follow My Signal
 
-*Choose up to two allies within 3 squares that can see or hear your Aid signal. When you use Aid, you may assist two allies instead of one. Name the task for each and explain how your signal helps. Each gains Aid’s normal 1 Boon to its next matching roll before the start of your next turn. Outside combat, Aid still replaces your own contribution to a group roll.*
+*Your companions know the moment your signal calls them to seize.*
 
 ## Rules
 
@@ -14,15 +14,19 @@ When you use Aid, you may assist two allies instead of one. Name the task for ea
 
 **Equipment / acquisition:** None.
 
+Your signal may be speech, signs or music the recipients can perceive.
+
+**Frequency:** One two-recipient Aid on your turn.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Utility
+**Tags:** Skill / Signature
 
-**Limits:** One two-recipient Aid on your turn.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-leader-follow-my-signal
 

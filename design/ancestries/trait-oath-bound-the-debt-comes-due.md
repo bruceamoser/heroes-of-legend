@@ -1,16 +1,16 @@
 # The Debt Comes Due
 
-*Once per day, spend 1 HP to reroll an attribute roll and use the new result. Pay only if you can stay above 0 HP. The spent HP is unavailable for healing until the next dawn.*
+*You pull harder on the force that animates you.*
 
 ## Rules
 
-Once per day, after an attribute roll, spend 1 [HP](../rules/ancestry-procedures.md) to reroll it and use the new result. That HP cannot be restored until the next dawn.
+You pull harder on the force that animates you. Once between safe overnight rests, after an attribute roll, spend 1 HP to reroll and use the new result. The payment must leave at least 1 HP; that HP is unavailable for recovery until the next dawn.
 
-**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
+Record the unavailable HP separately. At dawn it becomes available for ordinary healing; dawn itself restores no HP and does not refresh this trait. Use the new roll, including its natural dice.
 
-**Duration:** The spent HP remains unavailable for recovery until the next dawn.
+**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-oath-bound-the-debt-comes-due
 

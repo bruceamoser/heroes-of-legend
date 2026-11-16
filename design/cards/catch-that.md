@@ -16,7 +16,7 @@ Catch the item in a free hand. The item must be small enough to hold in that han
 
 ---
 
-**Tier / minimum level:** 0 · **DP:** 1 · **Requirements to learn:** None
+**Tier / minimum level:** 1 · **DP:** 1 · **Requirements to learn:** None
 
 **Type:** Utility
 

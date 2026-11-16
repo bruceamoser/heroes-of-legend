@@ -1,6 +1,6 @@
 # Charge
 
-*Charge straight toward a creature within your Speed. If you reach it, roll Brawn to deal physical damage and push it, with a chance to knock it Prone.*
+*You strike the line with the force of your whole approach.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ Move up to your Speed in a straight line toward the target. This movement provok
 
 **Equipment / acquisition:** None.
 
+Movement used in the approach spends your remaining movement for the turn, rather than granting a second full Speed allowance.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Movement / Control
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-unbalanced-shoulder-through
 

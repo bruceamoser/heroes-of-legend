@@ -41,6 +41,7 @@ Share one brief harmless dream image or soothing sensation. The sleeper later re
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 4 squares
 **Duration:** Instant; conditions decay normally
 
@@ -65,10 +66,13 @@ Appear in a short dream and exchange up to fifty words each. The recipient recog
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares
+**Hold attribute:** Guile
+**Escape attribute:** Reason
 **Duration:** Sustained, up to 1 minute
 
-Create a troubling sensory image that only the target perceives. Apply Frightened 1/2/3, naming the image as its source. Each upkeep renews Frightened 1. Physical contact or a completed illusion examination exposes it and ends its fear contribution.
+Create a troubling sensory image that only the target perceives. Apply Frightened 1/2/3, naming the image as its source. Each upkeep renews Frightened 1. Physical contact or a completed illusion examination exposes it and ends its fear contribution. A conscious target may also spend a Main Action to reject the image using the printed hold and escape attributes. Escape or ending Sustain removes this casting’s fear contribution.
 
 ### Hypnotic Pattern
 
@@ -77,6 +81,7 @@ Create a troubling sensory image that only the target perceives. Apply Frightene
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** Up to three creatures in a 2-square-radius area within 8 squares that can see the pattern
 **Duration:** Instant; conditions decay normally
 
@@ -89,6 +94,7 @@ Weave a mesmerizing display. Apply Dazed 1/1/2 to each chosen target. Sight is r
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
 
@@ -113,6 +119,7 @@ Meet in a shared dream with speech and vivid images. Each participant can recall
 **Action:** Ritual · 10 minutes
 **SP:** 4
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One visible mark on an object within reach
 **Duration:** 8 hours or until triggered
 
@@ -137,6 +144,7 @@ Host a shared dream with chosen scenery and conversation. Participants may pract
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Guile
+**Defense:** Reason
 **Target / range:** Up to six creatures within 8 squares
 **Duration:** Instant; conditions decay normally
 

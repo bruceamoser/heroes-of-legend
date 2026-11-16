@@ -20,3 +20,6 @@ Thumbs.db
 
 # Standalone book layout proofs
 /output/pdf/
+
+# Local PDF inspection renders
+/tmp/

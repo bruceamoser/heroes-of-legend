@@ -1,16 +1,14 @@
 # The Answering Voice
 
-*Gain 1 Boon to Reason rolls when you call upon your oath holder.*
+*Your maker’s mark shines through clothing when another will presses against yours.*
 
 ## Rules
 
-Gain 1 Boon to Reason rolls when you call upon your oath holder.
+Your maker’s mark shines through clothing when another will presses against yours. Gain 1 Boon to Reason rolls to resist magical influence over your thoughts or choices, including a permitted escape roll. Until the end of your next turn after such a roll, take 1 Bane to hide from sight in dim light or darkness.
 
-**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-oath-bound-the-mark
 
