@@ -1,10 +1,8 @@
 # Borin Bridgekeeper — level 1
 
-*The shield-bearing guardian who brings everyone home.*
+*A shield-bearing guardian who makes room for others.*
 
-**Hill Dwarf Protector · HP 19/19 · Grit 1 remaining / 1 granted · Speed 5 squares · Bulk 8/13.**
-
-**Languages:** Common and Dwarven. See the [language reference](../rules/languages.md).
+**Hill Dwarf Protector · HP 20/20 · SP 4/4 · Grit 1 remaining / 1 granted · Speed 5 squares.**
 
 ## Attributes and ancestry
 
@@ -12,36 +10,27 @@
 |---:|---:|---:|---:|---:|---:|
 | +1 | +2 | +0 | +0 | -1 | +1 |
 
-Total **+3**. Protector minima: Fortitude, Reason ≥ 0; met. Mental sum **+0**, so each stage’s base pool is **10 DP**.
+Total **+3**. Starting development: 8 + Guile +0 + Knowledge -1 + Reason +1 = **8 DP**.
 
-- [Hard as Bedrock](../ancestries/trait-dwarf-deep-constitution.md): Maximum HP +1. Gain no additional resistance from this trait.
-- [A Grudge Well Kept](../ancestries/trait-dwarf-carved-history.md): The first creature that deals damage to you in each combat becomes the mark of your grudge. You gain 1 Boon to attack rolls against each creature marked by your grudge. A creature remains marked forever, even if it escapes. Each creature can be marked once. You can hold any number of grudges.
+### [Hard as Bedrock](../ancestries/trait-dwarf-deep-constitution.md)
 
-The first creature to damage Borin in each combat joins his permanent grudges; he gains the attack Boon against every creature so marked.
+Your dense frame absorbs punishment. Gain 2 maximum HP. Its weight makes staying afloat difficult: take 1 Bane to Brawn or Agility rolls to swim or stay afloat.
 
-## Level 0 — origins and learning
+### [A Grudge Well Kept](../ancestries/trait-dwarf-carved-history.md)
 
-- [Walled Communities](../origins/culture-walled-communities.md): **Armor access** and [Armored Training I](../disciplines/armor.md).
-- [Household Guard](../origins/background-household-guard.md): **Arms access** and [Driving Blow I](../disciplines/arms.md).
+The first creature to damage you in a combat fixes your attention. You may nurse that grudge at the start of your turn: gain 1 Boon to your first attack against that creature this turn, but take 1 Bane to attacks against other creatures for the rest of this turn. The remembered target lasts for this combat.
 
-Pool: **10 + 0 mental attributes + 0 ancestry + 0 duplicate grants = 10 DP**.
+## Choose your fields of study
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Armored Training II](../disciplines/armor.md) | Armored Training I | 2 | 8 |
-| [Armored Training III](../disciplines/armor.md) | Armored Training II | 2 | 6 |
-| [Driving Blow II](../disciplines/arms.md) | Driving Blow I | 2 | 4 |
-| [Driving Blow III](../disciplines/arms.md) | Driving Blow II | 2 | 2 |
-| [Athletics access](../disciplines/athletics.md) | Opens its paths | 1 | 1 |
-| [Sure Ascent I](../disciplines/athletics.md) | Athletics access | 1 | 0 |
+- **Culture:** [Walled Communities](../origins/culture-walled-communities.md); study **Armor**.
 
-**Spent 10; 0 DP expires when this stage closes.**
+- **Background:** [Household Guard](../origins/background-household-guard.md); study **Arms**.
 
-## Level 1 — class and learning
+- **Class:** [Protector](../classes/protector.md); study **Guard**.
 
-Choose [Protector](../classes/protector.md). Gain **Armor and Guard access**. Duplicate access gives 1 DP each, never a free improvement.
+## Class signature
 
-Free signature: [Step Between](../cards/signature-protector-between-them.md). Its use procedure follows; the linked card remains the complete reference:
+[Step Between](../cards/signature-protector-between-them.md)
 
 **Action:** Reaction · **Attribute:** None (no roll)
 
@@ -53,58 +42,59 @@ You and the ally swap squares. You become the target of the attack and resolve i
 
 **Equipment / acquisition:** None.
 
-**Signature limit:** Repeatable; uses your Reaction.
+This is the one free signature choice for level 1.
 
-Pool: **10 + 0 mental attributes + 0 ancestry + 1 duplicate grants = 11 DP**.
+## Spend your starting DP
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Interpose I](../disciplines/guard.md) | Guard access | 1 | 10 |
-| [Interpose II](../disciplines/guard.md) | Interpose I | 2 | 8 |
-| [Interpose III](../disciplines/guard.md) | Interpose II | 2 | 6 |
-| [Shield Bash I](../disciplines/guard.md) | Guard access | 1 | 5 |
-| [Shield Bash II](../disciplines/guard.md) | Shield Bash I | 2 | 3 |
-| [Shield Bash III](../disciplines/guard.md) | Shield Bash II | 2 | 1 |
+| Learning | DP | Remaining |
+|---|---:|---:|
+| [Light Armor I](../disciplines/armor.md) | 1 | 7 |
+| [Measured Cut I](../disciplines/arms.md) | 1 | 6 |
+| [Measured Cut II](../disciplines/arms.md) | 2 | 4 |
+| [Driving Opening I](../disciplines/arms.md) | 1 | 3 |
+| [Interpose I](../disciplines/guard.md) | 1 | 2 |
+| [Shield Bash I](../disciplines/guard.md) | 1 | 1 |
+| [Sheltering Guard I](../disciplines/guard.md) | 1 | 0 |
 
-**Spent 10; 1 DP expires when this stage closes.**
+**Spent 8 DP; 0 DP remaining.**
 
-## Learned abilities and spellbook pages
+## Your learned techniques
 
-- [Armored Training I](../disciplines/armor.md).
-- [Armored Training II](../disciplines/armor.md).
-- [Armored Training III](../disciplines/armor.md).
-- [Driving Blow I](../disciplines/arms.md).
-- [Driving Blow II](../disciplines/arms.md).
-- [Driving Blow III](../disciplines/arms.md).
-- [Interpose I](../disciplines/guard.md).
-- [Interpose II](../disciplines/guard.md).
-- [Interpose III](../disciplines/guard.md).
-- [Shield Bash I](../disciplines/guard.md).
-- [Shield Bash II](../disciplines/guard.md).
-- [Shield Bash III](../disciplines/guard.md).
-- [Sure Ascent I](../disciplines/athletics.md).
+**Light Armor I.** Passive. You are trained to wear light armor; the suit supplies physical resistance 1. Ignore 1 Bulk from worn armor when calculating encumbrance, minimum 0 armor Bulk. This does not change its inventory size.
 
-All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
+**Measured Cut I.** Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack.
+
+**Measured Cut II.** Measured Cut deals 3/4/6 physical damage.
+
+**Driving Opening I.** Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it also pushes it 1 square directly away from your attack position on Strong. This modifies one attack, not each target of a sweep. Reusing this technique replaces its unused effect.
+
+**Interpose I.** Reaction. After an adjacent ally rolls defense, before applying physical damage from that attack, reduce that damage by 1 after resistance. You must be able to reach the ally. No roll.
+
+**Shield Bash I.** Main Action · Brawn. Attack one adjacent creature with your shield for 1/2/3 physical damage. On Strong push it 1 square directly away.
+
+**Sheltering Guard I.** Maneuver. Choose one willing adjacent ally. Until your next turn starts it gains 1 Boon on ranged defenses while adjacent. Reusing this technique replaces its previous effect. No roll.
+
+## At the table
+
+Use Measured Cut II as your Main Action. Driving Opening prepares its push with your Maneuver; Interpose or Step Between protects an ally with your Reaction. Shield Bash is an alternative Main Action. Wear light armor and hold hammer and shield; free a hand before manipulating another item.
+
+All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 
 ## Equipment and starting numbers
 
-40 + 2 + 10 + 7 + 5 (base + ancestry + culture + background + class) = **64 coins**.
+Starting coins: **64** from the base 40 plus ancestry, culture, background and class. One plain worn outfit is free.
 
-One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
+| Item | Coins | Bulk | Ready |
+|---|---:|---:|---|
+| [Ordinary Light Armor](../equipment/ordinary-light-armor.md) | 10 | 1 | Worn |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | Held |
+| [Ordinary Shield](../equipment/ordinary-shield.md) | 10 | 1 | Held |
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | Carried |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | Carried |
 
-| Item | Coins | Bulk | Coins left |
-|---|---:|---:|---:|
-| [Ordinary Light Armor](../equipment/ordinary-light-armor.md) | 10 | 1 | 54 |
-| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | 42 |
-| [Ordinary Shield](../equipment/ordinary-shield.md) | 10 | 1 | 32 |
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 29 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 25 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 22 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 13 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 8 |
+**Spent 56 coins; 8 coins remaining.** Inventory Bulk 8/13. Light Armor I ignores 1 worn armor Bulk for encumbrance.
 
-**Spent 56; coins remaining 8; Bulk 8/13.** No encumbrance penalty.
-
-HP: 10 + ancestry 3 + class 3 + Fortitude 2 + trait 1 = **19**. HP gain per level: **6**. SP: **6/6**. Speed **5**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
-
-Physical resistance 1 while wearing light armor. A hammer and shield occupy both hands; free a hand before using an item.
+HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes ancestry, both origins, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.

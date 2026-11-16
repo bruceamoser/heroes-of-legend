@@ -1,10 +1,8 @@
 # Mara Reedheart — level 1
 
-*The grove healer who can become the beast defending it.*
+*A grove healer who tends both companions and the trail.*
 
-**Human Shepherd · HP 15/15 · Grit 1 remaining / 1 granted · Speed 6 squares · Bulk 7/10.**
-
-**Languages:** Common and Reed Speech (an ordinary regional language). See the [language reference](../rules/languages.md).
+**Human Shepherd · HP 15/15 · SP 7/7 · Grit 1 remaining / 1 granted · Speed 6 squares.**
 
 ## Attributes and ancestry
 
@@ -12,36 +10,29 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +1 | +0 | +0 | +0 | +2 |
 
-Total **+3**. Shepherd minima: Reason, Guile ≥ 0; met. Mental sum **+2**, so each stage’s base pool is **12 DP**.
+Total **+3**. Starting development: 8 + Guile +0 + Knowledge +0 + Reason +2 + 1 from Adaptable = **11 DP**.
 
-- [Adaptable](../ancestries/trait-human-far-walker.md): You gain 1 additional DP at each level, including level 0.
-- [Ingenuity](../ancestries/trait-human-shared-table.md): Once per scene, assemble a temporary tool, implement or weapon from nearby materials. Gain 1 Boon to the next roll using it; it lasts until the end of the scene.
+### [Adaptable](../ancestries/trait-human-far-walker.md)
 
+You readily turn unfamiliar experiences into useful practice. Gain 1 DP at creation and whenever you gain a level.
 
-## Level 0 — origins and learning
+### [Ingenuity](../ancestries/trait-human-shared-table.md)
 
-- [Forest Communities](../origins/culture-forest-communities.md): **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
-- [Grove Tended](../origins/background-grove-tended.md): **Life access** and [Restoration I](../spellbooks/restoration.md).
+You see a use for the discarded handle and bent nail. Once per scene, spend 1 minute assembling suitable nearby materials into an ordinary temporary tool, implement or weapon. Gain 1 Boon on your next roll using it; it lasts for that scene.
 
-Pool: **10 + 2 mental attributes + 1 ancestry + 0 duplicate grants = 13 DP**.
+Choose a matching ordinary equipment profile. The makeshift item uses that profile and needs suitable materials; it comes apart when the scene ends.
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Restoration II](../spellbooks/restoration.md) | Restoration I | 2 | 11 |
-| [Restoration III](../spellbooks/restoration.md) | Restoration II | 2 | 9 |
-| [Wild Harvest II](../disciplines/wilderness.md) | Wild Harvest I | 2 | 7 |
-| [Wild Harvest III](../disciplines/wilderness.md) | Wild Harvest II | 2 | 5 |
-| [Medicine access](../disciplines/medicine.md) | Opens its paths | 1 | 4 |
-| [Field Dressing I](../disciplines/medicine.md) | Medicine access | 1 | 3 |
-| [Field Dressing II](../disciplines/medicine.md) | Field Dressing I | 2 | 1 |
+## Choose your fields of study
 
-**Spent 12; 1 DP expires when this stage closes.**
+- **Culture:** [Forest Communities](../origins/culture-forest-communities.md); study **Wilderness**.
 
-## Level 1 — class and learning
+- **Background:** [Grove Tended](../origins/background-grove-tended.md); study **Life**.
 
-Choose [Shepherd](../classes/shepherd.md). Gain **Life and Medicine access**. Duplicate access gives 1 DP each, never a free improvement.
+- **Class:** [Shepherd](../classes/shepherd.md); study **Medicine**.
 
-Free signature: [Mend](../cards/signature-shepherd-gentle-return.md). Its use procedure follows; the linked card remains the complete reference:
+## Class signature
+
+[Mend](../cards/signature-shepherd-gentle-return.md)
 
 **Action:** Main Action · **Attribute:** Reason
 
@@ -53,61 +44,66 @@ pay 1 SP before rolling. You must have enough SP to pay this cost. Requires a fr
 
 **Equipment / acquisition:** A free hand.
 
-**Signature limit:** Repeatable; normal action economy applies.
+This is a spell; use its printed 1 SP cost and ordinary casting rules.
 
-Pool: **10 + 2 mental attributes + 1 ancestry + 2 duplicate grants = 15 DP**.
+This is the one free signature choice for level 1.
 
-| Learning | Requirement already held | DP | Remaining |
-|---|---|---:|---:|
-| [Spellcraft access](../disciplines/spellcraft.md) | Opens its paths | 1 | 14 |
-| [Soul Capacity I](../disciplines/spellcraft.md) | Spellcraft access | 1 | 13 |
-| [Soul Capacity II](../disciplines/spellcraft.md) | Soul Capacity I | 2 | 11 |
-| [Soul Capacity III](../disciplines/spellcraft.md) | Soul Capacity II | 2 | 9 |
-| [Recovery I](../disciplines/spellcraft.md) | Spellcraft access | 1 | 8 |
-| [Recovery II](../disciplines/spellcraft.md) | Recovery I | 2 | 6 |
-| [Recovery III](../disciplines/spellcraft.md) | Recovery II | 2 | 4 |
-| [Gentle Hand I](../disciplines/wilderness.md) | Wilderness access | 1 | 3 |
-| [Gentle Hand II](../disciplines/wilderness.md) | Gentle Hand I | 2 | 1 |
+## Spend your starting DP
 
-**Spent 14; 1 DP expires when this stage closes.**
+| Learning | DP | Remaining |
+|---|---:|---:|
+| [Restoration I](../spellbooks/restoration.md) | 1 | 10 |
+| [Restoration II](../spellbooks/restoration.md) | 2 | 8 |
+| [Growth I](../spellbooks/growth.md) | 1 | 7 |
+| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 6 |
+| [Gentle Hand I](../disciplines/wilderness.md) | 1 | 5 |
+| [Field Dressing I](../disciplines/medicine.md) | 1 | 4 |
+| [Field Dressing II](../disciplines/medicine.md) | 2 | 2 |
+| [Patient Care I](../disciplines/medicine.md) | 1 | 1 |
+| [Trail Warning I](../disciplines/wilderness.md) | 1 | 0 |
 
-## Learned abilities and spellbook pages
+**Spent 11 DP; 0 DP remaining.**
 
-- [Field Dressing I](../disciplines/medicine.md).
-- [Field Dressing II](../disciplines/medicine.md).
-- [Gentle Hand I](../disciplines/wilderness.md).
-- [Gentle Hand II](../disciplines/wilderness.md).
-- [Recovery I](../disciplines/spellcraft.md).
-- [Recovery II](../disciplines/spellcraft.md).
-- [Recovery III](../disciplines/spellcraft.md).
-- [Restoration I](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
-- [Restoration II](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
-- [Restoration III](../spellbooks/restoration.md) — learn the next two pages; earlier pages remain known..
-- [Soul Capacity I](../disciplines/spellcraft.md).
-- [Soul Capacity II](../disciplines/spellcraft.md).
-- [Soul Capacity III](../disciplines/spellcraft.md).
-- [Wild Harvest I](../disciplines/wilderness.md).
-- [Wild Harvest II](../disciplines/wilderness.md).
-- [Wild Harvest III](../disciplines/wilderness.md).
+## Your learned techniques
 
-All universal actions remain available. An improvement changes its named ability; it is not another action to select. Level 3 endpoints and level 7 combinations are not yet learned.
+**Restoration I.** Learn Spare the Dying, Cure Wounds.
+
+**Restoration II.** Learn Healing Word, Lesser Restoration.
+
+**Growth I.** Learn Druidcraft, Entangle.
+
+**Wild Harvest I.** 1 hour · Knowledge. Search an accessible area with plausible resources; gather 1/2/3 person-days of food, or that much drinkable water if a source exists. The DA defines the area before rolling. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
+
+**Gentle Hand I.** Maneuver · Reason. Reassure one nonmagical animal within 2 squares that can perceive you and is already receptive to your presence; add 1/2/3 progress toward calming its immediate fear. An unfamiliar agitated animal takes 1 minute per attempt instead. Immediate danger or an implausible approach prevents progress.
+
+**Field Dressing I.** Main Action, with a free hand and bandaging: reduce an adjacent patient’s Bleeding by 2, minimum 0, without HP restoration or a first-aid attempt. Alternatively spend 10 minutes and roll Knowledge to restore 3/5/7 HP to a patient within reach, consuming its first-aid attempt.
+
+**Field Dressing II.** Field Dressing’s first aid restores 4/6/8 HP; its immediate bandaging reduces Bleeding by 3.
+
+**Patient Care I.** Maneuver. With suitable water, blankets or other supplies and a free hand, reduce temporary Burning or Freezing on one adjacent patient by 2, minimum 0. No roll, HP restoration or first-aid attempt.
+
+**Trail Warning I.** Reaction. When a visible natural hazard begins to threaten a companion within 3 squares, before its avoidance roll, warn it. If it can perceive you, that roll gains 1 Boon. The hazard must be something you can observe, such as shifting footing or a falling branch. Once per hazard event.
+
+## At the table
+
+Mend uses a Main Action and 1 SP. Growth I supplies a free attack cantrip and Entangle. Use the universal Sustain Spell Maneuver for an active spell that calls for it; it costs 0 SP. The universal Opportunity Attack is available with a free hand. First Aid II improves the same daily first-aid allowance, rather than granting another treatment. Keep supplies accessible.
+
+All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 
 ## Equipment and starting numbers
 
-40 + 1 + 5 + 5 + 3 (base + ancestry + culture + background + class) = **54 coins**.
+Starting coins: **54** from the base 40 plus ancestry, culture, background and class. One plain worn outfit is free.
 
-One plain worn outfit is free, with 0 carried Bulk and no armor benefit. All other equipment is paid for.
+| Item | Coins | Bulk | Ready |
+|---|---:|---:|---|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | Carried |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | Carried |
+| [First-Aid Supplies](../equipment/first-aid-supplies.md) | 5 | 1 | Carried |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | Carried |
 
-| Item | Coins | Bulk | Coins left |
-|---|---:|---:|---:|
-| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 51 |
-| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 47 |
-| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 44 |
-| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 35 |
-| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 30 |
-| [First-aid supplies](../market.md) | 5 | 1 | 25 |
-| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 5 |
+**Spent 49 coins; 5 coins remaining.** Inventory Bulk 7/10.
 
-**Spent 49; coins remaining 5; Bulk 7/10.** No encumbrance penalty.
-
-HP: 10 + ancestry 2 + class 2 + Fortitude 1 + trait 0 = **15**. HP gain per level: **4**. SP: **13/13**. Speed **6**. Grit **1 remaining / 1 granted**. First aid **available**; no death roll marks or scars.
+HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes ancestry, both origins, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.
