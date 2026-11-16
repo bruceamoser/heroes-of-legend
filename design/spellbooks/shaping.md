@@ -16,9 +16,9 @@ Reshape and repair existing nonliving material.
 | 6 | Stone Shape — Craft | 3 | III |
 | 7 | Fabricate | 3 | IV |
 | 8 | Earthen Transmutations | 4 | IV |
-| A1 | Passwall — Workshop | 5 | IV |
-| A2 | Meld Wall | 5 | IV |
-| A3 | True Polymorph — Objects | 5 | IV |
+| A1 | Passwall — Workshop | 5 | V |
+| A2 | Meld Wall | 5 | VI |
+| A3 | True Polymorph — Objects | 6 | VII |
 
 ## Spells
 
@@ -146,10 +146,10 @@ Join them into one sound wall or floor, or separate them along one clean seam. S
 
 **ID:** spell:shaping:a3
 **Page:** A3
-**Action:** Ritual · 8 hours
-**SP:** 5
+**Action:** Ritual · 10 minutes
+**SP:** 6
 **Attribute:** None
-**Target / range:** One unattended nonmagical object of Bulk 6 or less; 100 coins of reagents consumed
-**Duration:** 24 hours
+**Target / range:** One unattended nonmagical object of Bulk 12 or less; 100 coins of reagents consumed
+**Duration:** Until dismissed or replaced
 
-Reshape it into another mundane object of equal or smaller Bulk using stone, wood, glass or common iron. Specify its ordinary function and include all necessary parts. At expiry it returns to its original form. It provides ordinary material qualities rather than learned abilities or precious commodities.
+Reshape it into one mundane object of equal or smaller Bulk made of stone, wood, glass or common iron. Choose an ordinary function whose construction you understand, with all necessary parts. It has that material’s ordinary qualities and provides no precious substances or learned abilities. Keep one such transformation at a time; dismissing it, completing another, or unraveling it returns the surviving material to its original form. Separated pieces remain parts of the same transformation, not new objects to copy.

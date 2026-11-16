@@ -16,9 +16,9 @@ Wind, ventilation, sound and lightning.
 | 6 | Lightning Bolt | 3 | III |
 | 7 | Fly | 3 | IV |
 | 8 | Wind Wall | 4 | IV |
-| A1 | Chain Lightning | 5 | IV |
-| A2 | Control Weather | 5 | IV |
-| A3 | Wind Walk | 5 | IV |
+| A1 | Chain Lightning | 5 | V |
+| A2 | Control Weather | 5 | VI |
+| A3 | Storm of Vengeance | 7 | VII |
 
 ## Spells
 
@@ -145,14 +145,15 @@ Lightning leaps along your chosen chain. Roll once and deal 4/6/8 lightning dama
 
 Gradually change local weather over the casting hour: clear or gather clouds, bring ordinary rain or snow, or raise or calm strong wind. Choose one weather change. Seasonal temperatures and sound shelter remain relevant. The change creates ordinary weather rather than attack damage.
 
-### Wind Walk
+### Storm of Vengeance
 
-**ID:** spell:air:a3
+**ID:** spell-mastery:storm-of-vengeance
 **Page:** A3
-**Action:** Ritual · 10 minutes
-**SP:** 5
-**Attribute:** None
-**Target / range:** Self and up to five willing creatures within 3 squares
-**Duration:** 8 hours
+**Action:** Main Action
+**SP:** 7
+**Attribute:** Reason
+**Defense:** Agility
+**Target / range:** A 3-square-radius storm centered within 12 squares, with one safe square within 2 of its center
+**Duration:** 3 rounds
 
-Transform the company and carried gear into windborne mist. Each travels at Speed 12, can rise freely, and can speak to fellow travelers. Returning to solid form or mist takes 1 uninterrupted minute. While mist, use movement and observation; handling objects and casting require solid form. On expiry, choose the nearest safe ground within 6 squares.
+Choose a visible point and one safe square within 2 squares of it. A storm fills a 3-square radius around that point. Roll when cast; creatures in the storm outside the safe square take 3/5/7 lightning damage. On each of your next two turns, a Main Action lets you roll again to strike with the storm for the same damage and push each affected creature 1 square away from its center. Stability and normal collision rules apply. Without that action the storm remains visible but deals no further damage that turn. The safe square remains exempt. Keep one Storm of Vengeance active; casting another ends the first.

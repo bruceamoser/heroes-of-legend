@@ -16,9 +16,9 @@ Draw, give and redirect magical power between existing reserves. Casting costs a
 | 6 | Channel Spell | 3 | III |
 | 7 | Directed Siphon | 3 | IV |
 | 8 | Greater Channel | 4 | IV |
-| A1 | Lord Channels | 5 | IV |
-| A2 | Rechanneling | 5 | IV |
-| A3 | Power Bridge | 5 | IV |
+| A1 | Lord Channels | 5 | V |
+| A2 | Rechanneling | 5 | VI |
+| A3 | Power Bridge | 5 | VII |
 
 ## Spells
 

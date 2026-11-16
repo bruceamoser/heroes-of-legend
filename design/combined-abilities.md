@@ -2,7 +2,7 @@
 
 A discipline’s mastery is the seventh step of one learned path, available at level 7. Follow that path’s printed requirements and DP costs. Powerful magical techniques appear in [advanced spell learning](spell-masteries.md), attached to a single spellbook. These abilities no longer require intersections of several disciplines.
 
-The following index locates techniques formerly presented together. Learning is recorded at the linked home; this index grants no additional purchase.
+Follow each technique to its complete learned path. The [spellbook mastery index](spell-masteries.md) lists the seventh section of every magical book.
 
 | Technique | Learned home |
 |---|---|
@@ -27,23 +27,3 @@ The following index locates techniques formerly presented together. Learning is 
 | The Day We Held | [The Unbroken Gate, Iron Tempest and The Moving Bulwark share its defensive stand, sweep and group protection; the separate technique is retired.](disciplines/armor.md#the-unbroken-gate) |
 | Bring Everyone Home | [Armor — Harness: Bring Everyone Home](disciplines/armor.md#bring-everyone-home) |
 | A City Opens Its Gates | [Craft — Workshop: A City Opens Its Gates](disciplines/craft.md#a-city-opens-its-gates) |
-| Stormsteel Arc | [Advanced spell: Stormsteel Arc](spell-masteries.md#stormsteel-arc) |
-| The Invisible Shieldbearer | [Advanced spell: The Invisible Shieldbearer](spell-masteries.md#the-invisible-shieldbearer) |
-| Borrowed Dawn | [Advanced spell: Borrowed Dawn](spell-masteries.md#borrowed-dawn) |
-| Starfall Volley | [Advanced spell: Starfall Volley](spell-masteries.md#starfall-volley) |
-| Step Between Heartbeats | [Advanced spell: Step Between Heartbeats](spell-masteries.md#step-between-heartbeats) |
-| Sanctuary of Steel | [Advanced spell: Sanctuary of Steel](spell-masteries.md#sanctuary-of-steel) |
-| Colossus of the Forge | [Advanced spell: Colossus of the Forge](spell-masteries.md#colossus-of-the-forge) |
-| The Road for the Lost | [Advanced spell: The Road for the Lost](spell-masteries.md#the-road-for-the-lost) |
-| Dawn on the Battlefield | [Advanced spell: Dawn on the Battlefield](spell-masteries.md#dawn-on-the-battlefield) |
-| Meteor Swarm | [Advanced spell: Meteor Swarm](spell-masteries.md#meteor-swarm) |
-| Wall of Thorns — Living Fortress | [Advanced spell: Wall of Thorns — Living Fortress](spell-masteries.md#wall-of-thorns-living-fortress) |
-| True Resurrection | [Advanced spell: True Resurrection](spell-masteries.md#true-resurrection) |
-| Simulacrum | [Advanced spell: Simulacrum](spell-masteries.md#simulacrum) |
-| Demiplane | [Advanced spell: Demiplane](spell-masteries.md#demiplane) |
-| Foresight — Shared Vigil | [Advanced spell: Foresight — Shared Vigil](spell-masteries.md#foresight-shared-vigil) |
-| Storm of Vengeance | [Advanced spell: Storm of Vengeance](spell-masteries.md#storm-of-vengeance) |
-| Mass Lifegiving | [Advanced spell: Mass Lifegiving](spell-masteries.md#mass-lifegiving) |
-| Foresight — Oracle’s Dream | [Advanced spell: Foresight — Oracle’s Dream](spell-masteries.md#foresight-oracles-dream) |
-| Gate — World Anchor | [Advanced spell: Gate — World Anchor](spell-masteries.md#gate-world-anchor) |
-| Guards and Wards — Living Citadel | [Advanced spell: Guards and Wards — Living Citadel](spell-masteries.md#guards-and-wards-living-citadel) |

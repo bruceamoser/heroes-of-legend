@@ -68,7 +68,7 @@ for d in learning:
    for value in [entry['name'],entry['effect']]:
     if norm(value) not in n:errors.append('Missing learning text: '+entry['name'])
 masteries=json.loads((B/'generated/spell-masteries.json').read_text())
-if len(masteries)!=20:errors.append('Expected twenty book masteries')
+if len(masteries)!=29:errors.append('Expected one mastery in each of 29 books')
 for entry in masteries:
  for value in [entry['name'],entry['effect'],entry['target'],entry['duration']]:
   if norm(value) not in n:errors.append('Missing mastery text: '+entry['name'])
@@ -77,6 +77,8 @@ for discipline in learning:
   if len(path['entries'])!=7:errors.append('Expected seven learned steps: '+discipline['name'])
 books=json.loads((B/'generated/spellbooks.json').read_text())
 if len(books)!=29 or sum(len(b['rows']) for b in books)!=319:errors.append('Incomplete spellbook atlas')
+for book in books:
+ if [r[3] for r in book['rows']] != ['I','I','II','II','III','III','IV','IV','V','VI','VII']:errors.append('Incorrect spellbook sections: '+book['ID'])
 for book in books:
  for spell in book['spells']:
   for value in [spell['name'],*spell['action'].split(' · '),spell['target'],spell['duration'],spell['effect'],*[spell[k] for k in ['defense','hold','escape'] if spell.get(k)]]:

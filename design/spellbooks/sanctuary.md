@@ -16,9 +16,9 @@ Protect places and establish safe boundaries.
 | 6 | Hallow | 3 | III |
 | 7 | Guards and Wards | 3 | IV |
 | 8 | Antilife Shell | 4 | IV |
-| A1 | Forbiddance | 5 | IV |
-| A2 | Magnificent Mansion | 5 | IV |
-| A3 | Prismatic Wall — Sanctum | 5 | IV |
+| A1 | Forbiddance | 5 | V |
+| A2 | Magnificent Mansion | 5 | VI |
+| A3 | Mighty Fortress | 10 | VII |
 
 ## Spells
 
@@ -142,15 +142,14 @@ Seal the site against teleportation and planar passage. A travel spell entering 
 
 Open a comfortable refuge with six furnished rooms, clean water and bedding for twelve. The entrance remains fixed and visible; you may open or close it with a Maneuver while beside it. At expiry occupants and their possessions emerge into safe space beside the original entrance. Furnishings remain part of the refuge. Food is brought by the guests.
 
-### Prismatic Wall — Sanctum
+### Mighty Fortress
 
-**ID:** spell:sanctuary:a3
+**ID:** spell-mastery:guards-and-wards-living-citadel
 **Page:** A3
-**Action:** Ritual · 10 minutes
-**SP:** 5
-**Attribute:** Knowledge
-**Defense:** Agility
-**Target / range:** A fixed ring of up to twelve connected unoccupied squares beside you
-**Duration:** 1 hour
+**Action:** Ritual · 3 days, 8 hours each day
+**SP:** 10
+**Attribute:** None
+**Target / range:** One prepared 12-by-12-square site; soil, water, stone and 600 coins of materials consumed
+**Duration:** Permanent structure; wards renewed for 24 hours
 
-Create a luminous boundary 2 squares high and name up to six guests. Others crossing take 3/5/7 radiant damage, set by your ritual roll, and Frightened 1 with the boundary as source, once per creature per round. Named guests cross freely. The ring blocks sight through its colors.
+On a sound prepared site, raise a one-story living keep with six rooms, a courtyard, a gate and walls 3 squares high. Pay 10 SP on each workday. Walls block movement and sight; each 1-square section has 20 HP and physical resistance 3, and takes at least 1 damage per attack. Designate up to twelve residents. Paying 4 SP at dawn renews the wards for 24 hours: residents inside gain 1 Boon to defenses, and you sense any breached wall’s location while inside. Without renewal the ordinary structure remains. It needs food, water and repairs. You may ward one citadel at a time.

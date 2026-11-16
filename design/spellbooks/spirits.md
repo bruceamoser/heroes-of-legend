@@ -16,9 +16,9 @@ Contact incorporeal beings and understand hauntings.
 | 6 | Animate Dead | 3 | III |
 | 7 | Control Undead | 3 | IV |
 | 8 | Contact Other Plane | 4 | IV |
-| A1 | Etherealness | 5 | IV |
-| A2 | Create Undead | 5 | IV |
-| A3 | Lifegiving | 5 | IV |
+| A1 | Etherealness | 5 | V |
+| A2 | Create Undead | 5 | VI |
+| A3 | Lifegiving | 5 | VII |
 
 ## Spells
 
@@ -155,4 +155,4 @@ Shape one Undead energy form rated 7 or lower from Summoned Companions. Give its
 **Target / range:** One willing dead person whose intact body is adjacent; death within the past minute
 **Duration:** Instant
 
-Consume 100 coins of funerary incense and return the person at 1 HP, with both death roll tallies cleared and fatal injuries closed. The spirit chooses whether to return. Retain scars, spent SP and spent Grit. This uses the person's one lifetime return through Lifegiving, Mass Lifegiving or True Resurrection.
+Consume 100 coins of funerary incense and return the person at 1 HP, with both death roll tallies cleared and fatal injuries closed. The spirit chooses whether to return. Retain scars, spent SP and spent Grit. This uses the person's one lifetime return through resurrection magic.

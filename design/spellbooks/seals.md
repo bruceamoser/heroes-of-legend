@@ -16,9 +16,9 @@ Secure doors, containers and magical workings.
 | 6 | Glyph of Warding | 3 | III |
 | 7 | Rune Mastery — Seal | 3 | IV |
 | 8 | Secret Chest | 4 | IV |
-| A1 | Symbol | 5 | IV |
-| A2 | Sequester | 5 | IV |
-| A3 | Imprisonment — Seal | 5 | IV |
+| A1 | Symbol | 5 | V |
+| A2 | Sequester | 5 | VI |
+| A3 | Gate — World Anchor | 10 | VII |
 
 ## Spells
 
@@ -144,14 +144,14 @@ Choose a visible trigger and either dread or bewilderment. On its first occurren
 
 Place it in a concealed, motionless magical sleep or stasis. It becomes Invisible and its bodily needs pause. Touching it with the token you designate, Remove Curse, or expiry awakens and reveals it. Record its HP and SP on entry; those values return unchanged.
 
-### Imprisonment — Seal
+### Gate — World Anchor
 
-**ID:** spell:seals:a3
+**ID:** spell-mastery:gate-world-anchor
 **Page:** A3
-**Action:** Ritual · 10 minutes
-**SP:** 5
+**Action:** Ritual · 7 days, 8 hours each day
+**SP:** 10
 **Attribute:** None
-**Target / range:** One willing or continuously restrained adjacent creature; a 100-coin crystal consumed
-**Duration:** Until released or its seal breaks
+**Target / range:** Two known prepared stone anchors and 1,000 coins of materials consumed
+**Duration:** Permanent, until an anchor is destroyed or the pair is replaced
 
-Bind the creature sleeping inside a fixed warded chamber of at least one square. Its needs pause. Mark the chamber's door with a visible seal: breaking the door, Remove Curse, or your Main Action at the seal releases the prisoner at its previous HP and SP. Keep one such prison at a time.
+Prepare both sites with their owners’ permission and pay 10 SP on each workday. Join the anchors with a permanent paired gateway, 2 squares wide, even across planes. Create two keys. At either anchor, a keyholder may spend a Main Action and 3 of their own SP to open both ends for 10 minutes, or a Maneuver to close them. Anyone can cross an open gateway. Each anchor has 30 HP and physical resistance 3 and takes at least 1 damage per attack. Destroying either ends the connection. Keep one pair; completing another ends the first.

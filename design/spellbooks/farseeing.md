@@ -16,9 +16,9 @@ Observe beyond ordinary reach through defined connections.
 | 6 | Scrying | 3 | III |
 | 7 | Long Ear | 3 | IV |
 | 8 | Watch II | 4 | IV |
-| A1 | Watch True | 5 | IV |
-| A2 | Long Sense | 5 | IV |
-| A3 | Long Sense True | 5 | IV |
+| A1 | Watch True | 5 | V |
+| A2 | Long Sense | 5 | VI |
+| A3 | Long Sense True | 6 | VII |
 
 ## Spells
 
@@ -147,9 +147,9 @@ Send sight and hearing to that fixed location. Spend a Main Action each round to
 **ID:** spell:farseeing:a3
 **Page:** A3
 **Action:** Ritual · 1 hour
-**SP:** 5
+**SP:** 6
 **Attribute:** None
-**Target / range:** One willing creature you personally know on the same plane
-**Duration:** 1 hour
+**Target / range:** Self and up to three willing creatures you personally know on the same plane
+**Duration:** 8 hours
 
-Establish a remote sensory link. While both consent, use a Main Action to share what it sees and hears until your next turn begins. It continues using its own senses normally and may end the link at any time.
+Establish a remote sensory link with each recipient. A linked creature may spend a Main Action to see and hear from one consenting member until its next turn begins, while that member continues using its own senses. During that interval the observer’s own sight and hearing rest at the remote point; touch can still alert it to nearby contact. A member can leave the link at any time. Magical concealment operates at each viewpoint. Keep one Long Sense True link active; casting another ends the first.

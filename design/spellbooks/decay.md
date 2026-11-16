@@ -16,9 +16,9 @@ Decomposition, toxins and biological deterioration.
 | 6 | Bestow Curse | 3 | III |
 | 7 | Blight | 3 | IV |
 | 8 | Contagion | 4 | IV |
-| A1 | Harm | 5 | IV |
-| A2 | Finger of Death | 5 | IV |
-| A3 | Circle of Death | 5 | IV |
+| A1 | Harm | 5 | V |
+| A2 | Finger of Death | 5 | VI |
+| A3 | Circle of Death | 6 | VII |
 
 ## Spells
 
@@ -156,10 +156,10 @@ A black pulse strikes for 6/9/12 life damage. If the target reaches 0 HP, resolv
 **ID:** spell:decay:a3
 **Page:** A3
 **Action:** Main Action
-**SP:** 5
+**SP:** 6
 **Attribute:** Reason
 **Defense:** Fortitude
 **Target / range:** Every living creature in a 3-square-radius burst within 10 squares
 **Duration:** Instant
 
-A ring of pallor spreads from the chosen point. Deal 4/6/8 life damage to each creature in the burst, including allies.
+A ring of pallor spreads from the chosen point. Deal 5/8/11 life damage and apply Poisoned 1 to each living creature in the burst, including allies. Each creature is affected once. Resolve damage and dying by the ordinary rules.

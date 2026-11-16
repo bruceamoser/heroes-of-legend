@@ -6,9 +6,9 @@ These conventions apply to the current catalog.
 
 Each nonmagical path teaches an ability I, then II and III improve that same ability. Those effects add together unless a new total replaces an earlier total. The fourth entry, at level 3, teaches a distinct ability; the next two improve it. The seventh entry is a level-7 mastery. Sequential prices are 1/2/2/3/4/4/5 DP. North develops a Main Action, west a Maneuver, east a Reaction, and south a distinctive capability. Reactions may be used outside combat. Every hero can make basic melee and ranged attacks. Arms and Marksmanship develop those fighting skills further.
 
-A magical discipline opens four spellbooks. Each book's first section teaches pages 1–2, the second pages 3–4, the third pages 5–6, and the level-3 endpoint pages 7–8 plus all three pages of its advanced book. Learn sections for 1/2/2/3 DP. Page 1 costs 0 SP to cast; it still must be learned. Spellcraft instead provides Soul Capacity, Mind Capacity, Recovery and the Channeling spellbook. Capacity increases add to one shared SP pool.
+A magical discipline opens four spellbooks. Each book follows seven sequential sections for 1/2/2/3/4/4/5 DP, with gates 1/1/1/3/3/3/7. Sections I–IV each teach two spells; V, VI and VII each teach one spell. The seventh section is mastery. Spell 1 costs 0 SP to cast. Spellcraft provides Soul Capacity, Mind Capacity and Recovery training alongside the Channeling book. Capacity increases add to one shared SP pool.
 
-Masteries follow their own branch’s level-3 development and improvements. Magical mastery spells require level 7 and their named book’s fourth section. Spellbooks keep their four-section structure.
+Masteries follow their own path’s level-3 studies. Both martial and magical paths culminate in one level-7 mastery.
 
 The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
 

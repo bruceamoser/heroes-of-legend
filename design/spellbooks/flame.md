@@ -16,9 +16,9 @@ Heat, ignition and controlled fire.
 | 6 | Wall of Fire | 3 | III |
 | 7 | Fireball | 3 | IV |
 | 8 | Fire Shield | 4 | IV |
-| A1 | Fire Storm | 5 | IV |
-| A2 | Delayed Blast Fireball | 5 | IV |
-| A3 | Incendiary Cloud | 5 | IV |
+| A1 | Fire Storm | 5 | V |
+| A2 | Delayed Blast Fireball | 5 | VI |
+| A3 | Meteor Swarm | 6 | VII |
 
 ## Spells
 
@@ -150,15 +150,15 @@ Trace a winding furnace across the battlefield. Deal 4/7/10 fire damage to each 
 
 Place a glowing bead at the point. On casting, or after a later upkeep, you may detonate it. Roll on detonation for 4/6/9 fire damage, adding 1 damage per completed upkeep, maximum +2. Ending sustain or touching the bead detonates it immediately. Every creature in the burst is affected once.
 
-### Incendiary Cloud
+### Meteor Swarm
 
-**ID:** spell:flame:a3
+**ID:** spell-mastery:meteor-swarm
 **Page:** A3
 **Action:** Main Action
-**SP:** 5
+**SP:** 6
 **Attribute:** Knowledge
 **Defense:** Agility
-**Target / range:** A 2-square-radius cloud centered within 8 squares
-**Duration:** 1 minute
+**Target / range:** Up to three visible points within 12 squares; every creature within 1 square of any point
+**Duration:** Instant
 
-Fill the area with opaque, burning smoke. Roll when cast to set fire damage at 3/5/7. Creatures in it immediately take that damage. Thereafter a creature takes it on first entering or ending its turn there, at most once each round including the casting event. A Maneuver can move the cloud’s center up to 2 squares; entering a creature’s square counts as that creature entering the cloud. The cloud remains in place without that Maneuver. Keep one Incendiary Cloud active; casting another ends the first.
+Call a fall of blazing meteors onto the chosen points. Roll once; every creature within 1 square of a point takes 4/7/10 fire damage, including allies. Overlapping bursts affect a creature once. Exposed unattended flammable objects ignite.

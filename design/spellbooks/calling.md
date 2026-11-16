@@ -16,9 +16,9 @@ Invite or summon defined beings.
 | 6 | Conjure Animals | 3 | III |
 | 7 | Conjure Elemental | 3 | IV |
 | 8 | Summon Dragon | 4 | IV |
-| A1 | Conjure Celestial | 5 | IV |
-| A2 | Planar Ally | 5 | IV |
-| A3 | Gate — Calling | 5 | IV |
+| A1 | Conjure Celestial | 5 | V |
+| A2 | Planar Ally | 5 | VI |
+| A3 | Gate — Calling | 5 | VII |
 
 ## Spells
 

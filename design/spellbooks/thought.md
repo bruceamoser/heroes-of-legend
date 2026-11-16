@@ -16,9 +16,9 @@ Communication and bounded access to thought.
 | 6 | Telepathic Bond | 3 | III |
 | 7 | Modify Memory | 3 | IV |
 | 8 | Inner Thoughts | 4 | IV |
-| A1 | Mind Scan | 5 | IV |
-| A2 | Mind Probe | 5 | IV |
-| A3 | Thought Steal | 5 | IV |
+| A1 | Mind Scan | 5 | V |
+| A2 | Mind Probe | 5 | VI |
+| A3 | Thought Steal | 6 | VII |
 
 ## Spells
 
@@ -149,10 +149,10 @@ Press into a guarded thought. Deal 3/5/7 mental damage and learn one immediate i
 
 **ID:** spell:thought:a3
 **Page:** A3
-**Action:** Ritual · 10 minutes
-**SP:** 5
+**Action:** Ritual · 1 hour
+**SP:** 6
 **Attribute:** None
 **Target / range:** One willing adjacent creature
-**Duration:** 1 hour
+**Duration:** 24 hours
 
-Borrow one ordinary language or one factual recollection the subject agrees to share. You can use it for the duration; the subject retains it. Record the exact knowledge gained. Learned abilities and SP remain with their owner.
+Borrow the subject's remembered experience of one named place, undertaking or field of study. Agree on that topic before casting. You can recall facts and sensory memories the subject actually knows about it as though you had witnessed them, gaining 1 Boon to Knowledge rolls using that borrowed experience. Record the shared topic and one ordinary language the subject knows, which you can speak and read for the duration. The subject retains its memories. Learned abilities and SP remain with their owner; memories preserve the subject's errors and gaps.

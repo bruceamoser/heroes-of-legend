@@ -1,20 +1,22 @@
 # Magical endpoint references
 
-Each endpoint requires the preceding three learned sections and character level 3. It teaches pages 7–8 and all three advanced pages immediately.
+Each named section IV requires the preceding three learned sections and character level 3, and teaches spells 7–8. Continue in order: section V teaches A1 for 4 DP, section VI teaches A2 for 4 DP, and section VII teaches the mastery spell A3 for 5 DP at level 7.
+
+
 
 ## Voice of the Tempest
 ID: air:3
 Discipline: Elements
 List: Air
 Pages 7–8: Fly; Wind Wall
-Advanced pages: Chain Lightning; Control Weather; Wind Walk
+Advanced pages: Chain Lightning; Control Weather; Storm of Vengeance
 
 ## Awakened Servitors
 ID: animation:3
 Discipline: Force
 List: Animation
 Pages 7–8: Medium Intelligence; High Intelligence
-Advanced pages: Very High Intelligence; Simulacrum; Animate Objects — Greater
+Advanced pages: Very High Intelligence; Animate Objects — Greater; Simulacrum
 
 ## Covenants
 ID: binding:3
@@ -91,7 +93,7 @@ ID: flame:3
 Discipline: Elements
 List: Flame
 Pages 7–8: Fireball; Fire Shield
-Advanced pages: Fire Storm; Delayed Blast Fireball; Incendiary Cloud
+Advanced pages: Fire Storm; Delayed Blast Fireball; Meteor Swarm
 
 ## Green Architecture
 ID: growth:3
@@ -105,14 +107,14 @@ ID: imbuement:3
 Discipline: Force
 List: Imbuement
 Pages 7–8: Holy Symbol; Weapon I
-Advanced pages: Contingency; Armor IV; General IV
+Advanced pages: Contingency; Armor IV; Imbue Spell
 
 ## Worldroads
 ID: passage:3
 Discipline: Invocation
 List: Passage
 Pages 7–8: Passwall; Plane Shift
-Advanced pages: Teleport; Gate — Passage; Etherealness — Company
+Advanced pages: Teleport; Gate — Passage; Demiplane
 
 ## Waking Phantasms
 ID: perception:3
@@ -126,7 +128,7 @@ ID: portents:3
 Discipline: Divination
 List: Portents
 Pages 7–8: Divination; Commune
-Advanced pages: Foresight; Anticipations True; Spell Anticipation True
+Advanced pages: Foresight; Anticipations True; Foresight — Shared Vigil
 
 ## The Unbroken
 ID: protection:3
@@ -140,21 +142,21 @@ ID: restoration:3
 Discipline: Life
 List: Restoration
 Pages 7–8: Greater Restoration; Mass Cure Wounds
-Advanced pages: Heal; Regenerate; Mass Heal
+Advanced pages: Heal; Regenerate; True Resurrection
 
 ## Haven
 ID: sanctuary:3
 Discipline: Wards
 List: Sanctuary
 Pages 7–8: Guards and Wards; Antilife Shell
-Advanced pages: Forbiddance; Magnificent Mansion; Prismatic Wall — Sanctum
+Advanced pages: Forbiddance; Magnificent Mansion; Mighty Fortress
 
 ## The Closed Way
 ID: seals:3
 Discipline: Wards
 List: Seals
 Pages 7–8: Rune Mastery — Seal; Secret Chest
-Advanced pages: Symbol; Sequester; Imprisonment — Seal
+Advanced pages: Symbol; Sequester; Gate — World Anchor
 
 ## Masterwork Forms
 ID: shaping:3

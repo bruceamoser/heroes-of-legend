@@ -16,9 +16,9 @@ Suppress and dismantle active magic.
 | 6 | Cancel Mentalism | 3 | III |
 | 7 | Cancel Channeling | 3 | IV |
 | 8 | Dispel True | 4 | IV |
-| A1 | Antimagic Field | 5 | IV |
-| A2 | Cancel True | 5 | IV |
-| A3 | Unessence | 5 | IV |
+| A1 | Antimagic Field | 5 | V |
+| A2 | Cancel True | 5 | VI |
+| A3 | Unessence | 5 | VII |
 
 ## Spells
 
@@ -152,4 +152,4 @@ Add 3/5/7 cancellation progress toward target 2 plus its printed SP cost. At com
 **Target / range:** One adjacent permanent enchantment; 100 coins of cleansing reagents consumed
 **Duration:** Instant
 
-Add 3/5/7 progress toward target 12 for an ordinary permanent enchantment, or a target specified by the item's own removal rules. At completion remove one identified magical property while preserving the physical item. Each attempt consumes its materials; exceptional artifacts use their printed remedies.
+Unweave one identified magical property while preserving the physical item. Add 6/9/12 progress toward target 12 for an ordinary permanent enchantment, or its own stated removal target. Keep progress against that property across attempts. At completion the property ends; other properties remain. Each attempt consumes the printed reagents. Exceptional artifacts follow their stated remedies.

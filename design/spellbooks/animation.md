@@ -16,9 +16,9 @@ Give objects movement and bounded instructions.
 | 6 | Low Intelligence | 3 | III |
 | 7 | Medium Intelligence | 3 | IV |
 | 8 | High Intelligence | 4 | IV |
-| A1 | Very High Intelligence | 5 | IV |
-| A2 | Simulacrum | 5 | IV |
-| A3 | Animate Objects — Greater | 5 | IV |
+| A1 | Very High Intelligence | 5 | V |
+| A2 | Animate Objects — Greater | 5 | VI |
+| A3 | Simulacrum | 8 | VII |
 
 ## Spells
 
@@ -130,22 +130,10 @@ Give it one language, a chosen conversational personality and memory of its week
 
 Give it two languages you know, a personality and clear memory of its experiences. It sees and hears within 3 squares and can discuss one field of ordinary knowledge you teach during the ritual. Its physical actions use separate animation and commands. This replaces your prior intelligent item.
 
-### Simulacrum
-
-**ID:** spell:animation:a2
-**Page:** A2
-**Action:** Ritual · 8 hours
-**SP:** 5
-**Attribute:** None
-**Target / range:** A willing adjacent living model and 150 coins of shaping materials consumed
-**Duration:** 24 hours, with commands
-
-Make a likeness with 6 HP, Speed 4, your defense attributes, and the model's appearance and voice. It uses your commands and a six-square tether. A Main command permits one ordinary task or Basic Melee attack for 2/3/5 physical damage using your Knowledge. It has 0 SP and 0 Grit; the form disappears at 0 HP. You may keep one such likeness.
-
 ### Animate Objects — Greater
 
 **ID:** spell:animation:a3
-**Page:** A3
+**Page:** A2
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
@@ -153,3 +141,15 @@ Make a likeness with 6 HP, Speed 4, your defense attributes, and the model's app
 **Duration:** 1 minute, with commands
 
 Animate one group occupying a 2-by-2-square space, with shared 18 HP, Speed 4 and your attributes for defenses. Give one immediate Main command. A Main command can attack up to two adjacent targets for 3/5/7 physical damage each, rolling once, or perform one larger ordinary task. Normal commands and six-square tether apply.
+
+### Simulacrum
+
+**ID:** spell-mastery:simulacrum
+**Page:** A3
+**Action:** Ritual · 8 hours
+**SP:** 8
+**Attribute:** None
+**Target / range:** One willing adjacent living model; 300 coins of sculpting materials consumed
+**Duration:** Until destroyed or replaced
+
+Sculpt the model’s appearance and voice into a likeness with 10 HP, 0 SP, 0 Grit, your Speed and defense attributes. Give one immediate Main command. Thereafter, a normal Main command directs an ordinary task or Basic Melee attack: Knowledge, 2/3/5 physical damage. Unlike other summons, it remains inert when uncommanded, beyond the six-square tether, or while you are unconscious or dead. It responds only to your commands while you are conscious and within that range. It has no Reactions, spells, learned abilities or healing. At 0 HP or when you create another, it disappears without harming the model.

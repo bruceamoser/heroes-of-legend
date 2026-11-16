@@ -16,9 +16,9 @@ Protect an individual creature or object.
 | 6 | Protection from Energy | 3 | III |
 | 7 | Death Ward | 3 | IV |
 | 8 | Warding Bond | 4 | IV |
-| A1 | Globe of Invulnerability | 5 | IV |
-| A2 | Mind Blank | 5 | IV |
-| A3 | Prismatic Wall | 5 | IV |
+| A1 | Globe of Invulnerability | 5 | V |
+| A2 | Mind Blank | 5 | VI |
+| A3 | Prismatic Wall | 5 | VII |
 
 ## Spells
 

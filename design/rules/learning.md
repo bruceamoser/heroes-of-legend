@@ -1,12 +1,12 @@
 # Learning and using disciplines
 
-Begin a discipline for the 1, 2 or 3 DP listed by your class, then choose a path. The three disciplines from culture, background and class are already yours to study. Within a nonmagical path, learn seven entries in order for **1/2/2/3/4/4/5 DP**. The first three are available at level 1, the next three at level 3, and mastery at level 7.
+Begin a discipline for the 1, 2 or 3 DP listed by your class, then choose a path. The three disciplines from culture, background and class are already yours to study. Within each path or spellbook, learn seven entries in order for **1/2/2/3/4/4/5 DP**. The first three are available at level 1, the next three at level 3, and mastery at level 7.
 
-I establishes an ability; II and III improve it. The level-3 major development has its own I, II and III, followed by a named mastery at level 7. Improvements remain active together. A replaced number is a new total; an added benefit works alongside the others. Learning one path requires only that path's preceding entries.
+On a nonmagical path, I establishes an ability; II and III improve it. The level-3 major development has its own I, II and III, followed by a named mastery at level 7. Improvements remain active together. A replaced number is a new total; an added benefit works alongside the others. Learning one path requires only that path's preceding entries.
 
 North develops a Main Action, west a Maneuver, east a Reaction, and south another distinctive part of the nonmagical discipline. A Reaction needs an observable trigger. Outside combat, use its printed limit per exchange, task or event rather than inventing rounds through a long activity. Work lasting minutes or hours keeps that actual duration.
 
-Magical disciplines retain their themed spellbooks, whose four sections cost 1/2/2/3 DP and teach the listed spells. Section IV requires level 3 and teaches all its listed ordinary and advanced spells together. Level-7 master spells require the final section of their named book and their own listed DP price. Spellcraft's capacity and recovery training follows its printed seven-step progression; Channeling remains a spellbook.
+Magical disciplines gather themed spellbooks. Each follows the same seven-step path: sections I–IV each teach two spells; sections V, VI and VII each teach one increasingly powerful spell. Section VII is the book’s level-7 mastery. Keep every spell you have learned. Spellcraft combines three training paths with the Channeling spellbook, all following the same prices and level gates.
 
 Every hero can make basic attacks, speak, climb, search and help. Learned paths turn those everyday capabilities into practiced techniques. Gather required equipment and preparation as part of learning to use the technique.
 

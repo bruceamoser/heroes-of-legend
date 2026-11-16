@@ -31,8 +31,9 @@ rules source.
   complication to Weak; 666 adds a benefit to Strong.
 - No skill bonuses or expended spell slots. Disciplines open sequential learned
   paths with seven entries: gates 1/1/1/3/3/3/7 and costs 1/2/2/3/4/4/5 DP.
-  Spellbooks retain four sections (1/2/2/3 DP); mastery spells follow their own book
-  at level 7. Additional disciplines use class-specific 1/2/3 DP prices.
+  Spellbooks use the same sequence, teaching 2/2/2/2/1/1/1 spells. Each book's
+  final section teaches its mastery spell at level 7. Additional disciplines use
+  class-specific 1/2/3 DP prices.
 - Main Action → Maneuver → movement conversions; a Reaction is separate.
 - Players roll. NPC attacks use player defense outcomes, reversed from attacker
   outcomes. NPC-only resolution is in `design/rules/session-resolution.md`.

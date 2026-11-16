@@ -16,9 +16,9 @@ Currents, pressure, freezing and thawing.
 | 6 | Control Water | 3 | III |
 | 7 | Ice Storm | 3 | IV |
 | 8 | Wall of Ice | 4 | IV |
-| A1 | Cone of Cold | 5 | IV |
-| A2 | Freezing Sphere | 5 | IV |
-| A3 | Tsunami | 5 | IV |
+| A1 | Cone of Cold | 5 | V |
+| A2 | Freezing Sphere | 5 | VI |
+| A3 | Tsunami | 6 | VII |
 
 ## Spells
 
@@ -147,9 +147,10 @@ Burst a globe of intense cold for 4/7/10 cold damage. Exposed surface water in t
 **ID:** spell:water:a3
 **Page:** A3
 **Action:** Main Action
-**SP:** 5
+**SP:** 6
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature in a 5-square-wide, 3-square-long area within 8 squares
 **Duration:** Instant
 
-Raise a surging wave from nearby water or conjured spray. Deal 4/6/8 physical damage, push each affected creature 2 squares away from you, and make it Prone on Strong. Stability applies to the push; the water drains away after resolution.
+Raise a surging wave from nearby water or conjured spray. Deal 5/8/11 physical damage, push each affected creature 2/3/4 squares away from you, and make it Prone on Strong. Stability and normal collision rules apply to the push. Each creature is affected once; the water drains away after resolution.

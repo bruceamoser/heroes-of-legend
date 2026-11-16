@@ -17,7 +17,7 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
 - `../spellbooks/`, `../spell-masteries.md`, `../rules/learning.md` and `../rules/magic.md`: canonical learning and casting chapters.
-- `integrate_learning.py`: assembles learned paths, linked spell tables, individual casting blocks and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
+- `integrate_learning.py`: assembles learned paths, linked spell tables, individual casting blocks and seven-section spellbook paths into the book’s two-column layout. Recipes render directly from their Markdown sources.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
@@ -64,12 +64,11 @@ python3 design/bestiary/audit.py
 
 ## Current baseline and release
 
-The November playtest revision integrates health, single-process creation, seven-step learned paths, four-section spellbooks and book masteries. Current authored
+The November playtest revision integrates health, single-process creation, seven-step learned paths, seven-section spellbooks and their single-spell masteries. Current authored
 rules and catalog entries are the authority; Git history holds previous editions.
-The 29 spellbooks contain 319 casting blocks: 169 Main Actions, 22 Maneuvers,
-12 Reactions with triggers, and 116 Rituals with casting times. Shared casting,
+The 29 spellbooks contain 319 casting blocks with explicit Main Actions, Maneuvers, Reaction triggers and Ritual casting times. Shared casting,
 sustain, cancellation and SP-transfer procedures are in `design/rules/magic.md`.
-Twenty level-7 mastery spells follow their own book’s fourth section. The 11 nonmagical
+Each book has seven sections: four pairs of spells, followed by three individually learned spells. The seventh section is its level-7 mastery. The 11 nonmagical
 disciplines contain 44 seven-step paths (308 entries); Spellcraft adds three training
 paths (21 entries) alongside its Channeling spellbook. Former combined purchases
 are rehomed into these paths and mastery spells.

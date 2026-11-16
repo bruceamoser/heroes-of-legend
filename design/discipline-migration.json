@@ -3341,9 +3341,11 @@
         "air:3",
         "arms:bladework:4"
       ],
-      "targetSpellId": "spell-mastery:stormsteel-arc",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:air:a1",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:stormsteel-arc",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:the-invisible-shieldbearer",
@@ -3353,9 +3355,10 @@
         "telekinesis:3",
         "guard:interception:4"
       ],
-      "targetSpellId": "spell-mastery:the-invisible-shieldbearer",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "retired-in-seven-section-revision",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:the-invisible-shieldbearer",
+      "note": "Retired as a separate invented hybrid; familiar spellbooks keep their defined spells. No automatic learning conversion."
     },
     {
       "sourceId": "combined:borrowed-dawn",
@@ -3365,9 +3368,11 @@
         "restoration:3",
         "medicine:first-aid:4"
       ],
-      "targetSpellId": "spell-mastery:borrowed-dawn",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:restoration:a1",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:borrowed-dawn",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:starfall-volley",
@@ -3378,9 +3383,11 @@
         "marksmanship:precision:4",
         "scholarship:lore:4"
       ],
-      "targetSpellId": "spell-mastery:starfall-volley",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:flame:a1",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:starfall-volley",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:step-between-heartbeats",
@@ -3391,9 +3398,10 @@
         "subterfuge:stealth:4",
         "athletics:leaping:4"
       ],
-      "targetSpellId": "spell-mastery:step-between-heartbeats",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "retired-in-seven-section-revision",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:step-between-heartbeats",
+      "note": "The independent folio is retired; existing purchase returns to the DP ledger. No replacement spell is granted."
     },
     {
       "sourceId": "combined:sanctuary-of-steel",
@@ -3404,9 +3412,11 @@
         "armor:bracing:4",
         "guard:shelter:4"
       ],
-      "targetSpellId": "spell-mastery:sanctuary-of-steel",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell-mastery:guards-and-wards-living-citadel",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:sanctuary-of-steel",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:colossus-of-the-forge",
@@ -3418,9 +3428,10 @@
         "arms:bladework:4",
         "craft:construction:4"
       ],
-      "targetSpellId": "spell-mastery:colossus-of-the-forge",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "retired-in-seven-section-revision",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:colossus-of-the-forge",
+      "note": "Retired as a separate invented hybrid; familiar spellbooks keep their defined spells. No automatic learning conversion."
     },
     {
       "sourceId": "combined:the-road-for-the-lost",
@@ -3432,9 +3443,11 @@
         "wilderness:tracking:4",
         "scholarship:planning:4"
       ],
-      "targetSpellId": "spell-mastery:the-road-for-the-lost",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:passage:a2",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:the-road-for-the-lost",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:dawn-on-the-battlefield",
@@ -3446,9 +3459,11 @@
         "medicine:first-aid:4",
         "influence:leadership:4"
       ],
-      "targetSpellId": "spell-mastery:dawn-on-the-battlefield",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:restoration:8",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:dawn-on-the-battlefield",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:meteor-swarm",
@@ -3459,8 +3474,9 @@
         "telekinesis:3"
       ],
       "targetSpellId": "spell-mastery:meteor-swarm",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:wall-of-thorns-living-fortress",
@@ -3470,9 +3486,11 @@
         "growth:3",
         "shaping:3"
       ],
-      "targetSpellId": "spell-mastery:wall-of-thorns-living-fortress",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:growth:a2",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:wall-of-thorns-living-fortress",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:true-resurrection",
@@ -3483,8 +3501,9 @@
         "spirits:3"
       ],
       "targetSpellId": "spell-mastery:true-resurrection",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:simulacrum",
@@ -3495,8 +3514,9 @@
         "animation:3"
       ],
       "targetSpellId": "spell-mastery:simulacrum",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:demiplane",
@@ -3507,8 +3527,9 @@
         "seals:3"
       ],
       "targetSpellId": "spell-mastery:demiplane",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:foresight-shared-vigil",
@@ -3519,8 +3540,9 @@
         "portents:3"
       ],
       "targetSpellId": "spell-mastery:foresight-shared-vigil",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:storm-of-vengeance",
@@ -3532,8 +3554,9 @@
         "sanctuary:3"
       ],
       "targetSpellId": "spell-mastery:storm-of-vengeance",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:mass-lifegiving",
@@ -3544,9 +3567,11 @@
         "spirits:3",
         "sanctuary:3"
       ],
-      "targetSpellId": "spell-mastery:mass-lifegiving",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell-mastery:true-resurrection",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:mass-lifegiving",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:foresight-oracle-s-dream",
@@ -3557,9 +3582,11 @@
         "portents:3",
         "spirits:3"
       ],
-      "targetSpellId": "spell-mastery:foresight-oracles-dream",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "targetSpellId": "spell:dreams:a1",
+      "disposition": "concept-covered-not-equivalent",
+      "requiresPlayerRebuild": true,
+      "retiredTargetSpellId": "spell-mastery:foresight-oracles-dream",
+      "note": "Related current spell only; see spell-progression-310 audit for lost and retained effects. No automatic learning conversion."
     },
     {
       "sourceId": "combined:gate-world-anchor",
@@ -3572,8 +3599,9 @@
         "seals:3"
       ],
       "targetSpellId": "spell-mastery:gate-world-anchor",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     },
     {
       "sourceId": "combined:guards-and-wards-living-citadel",
@@ -3586,8 +3614,9 @@
         "sanctuary:3"
       ],
       "targetSpellId": "spell-mastery:guards-and-wards-living-citadel",
-      "disposition": "rehome-to-single-book-mastery",
-      "requiresPlayerRebuild": true
+      "disposition": "rehome-to-seven-section-spellbook",
+      "requiresPlayerRebuild": true,
+      "targetSection": "VII"
     }
   ]
 }

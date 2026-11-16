@@ -16,9 +16,9 @@ Adapt an existing living body.
 | 6 | Darkvision | 3 | III |
 | 7 | Polymorph | 3 | IV |
 | 8 | Freedom of Movement | 4 | IV |
-| A1 | Animal Shapes | 5 | IV |
-| A2 | Shapechange | 5 | IV |
-| A3 | True Polymorph — Living | 5 | IV |
+| A1 | Animal Shapes | 5 | V |
+| A2 | Shapechange | 5 | VI |
+| A3 | True Polymorph — Living | 6 | VII |
 
 ## Spells
 
@@ -147,9 +147,9 @@ Assume a familiar animal shape of Small, Medium or Large size. Keep your HP and 
 **ID:** spell:transformation:a3
 **Page:** A3
 **Action:** Ritual · 1 hour
-**SP:** 5
+**SP:** 6
 **Attribute:** None
 **Target / range:** One willing adjacent creature; 100 coins of transformative incense consumed
 **Duration:** 24 hours
 
-Shape an ordinary living body of Small or Medium size: a humanoid guise or familiar animal. The recipient keeps its mind, HP and attributes. Choose one movement adaptation: swimming or climbing at normal Speed, or flight at Speed 4. Animal bodies use Polymorph's equipment and action rules. The recipient may return with a Maneuver; Greater Restoration also ends the transformation.
+Shape an ordinary living body of Small, Medium or Large size: a humanoid guise or familiar animal. The recipient keeps its mind, HP and attributes. Choose swimming, climbing or flight at its normal Speed as the body's movement adaptation. Animal bodies use Polymorph's equipment and action rules. The recipient may return with a Maneuver; Greater Restoration also ends the transformation.

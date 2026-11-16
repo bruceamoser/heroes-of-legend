@@ -16,9 +16,9 @@ Influence feelings without dictating every decision.
 | 6 | Fear | 3 | III |
 | 7 | Charm Monster | 3 | IV |
 | 8 | Confusion | 4 | IV |
-| A1 | Mass Suggestion | 5 | IV |
-| A2 | Dominate Person | 5 | IV |
-| A3 | Antipathy/Sympathy | 5 | IV |
+| A1 | Mass Suggestion | 5 | V |
+| A2 | Dominate Person | 5 | VI |
+| A3 | Antipathy/Sympathy | 6 | VII |
 
 ## Spells
 
@@ -155,10 +155,10 @@ State one brief command: move to a named safe place, release a held object, or p
 **ID:** spell:emotion:a3
 **Page:** A3
 **Action:** Ritual · 10 minutes
-**SP:** 5
+**SP:** 6
 **Attribute:** Guile
 **Defense:** Reason
-**Target / range:** One fixed object or 3-square-radius place within reach
-**Duration:** 1 hour
+**Target / range:** One fixed object or 6-square-radius place within reach
+**Duration:** 24 hours
 
-Choose a recognizable group and either welcome or dread. When a matching creature first enters, it feels the chosen pull and recognizes it as magic. Welcome supplies 1 Boon to your group's first relevant social contribution there; dread applies Frightened 1/2/3, set by your ritual roll, once per creature. Identify the object or place as the fear source.
+Choose a recognizable group and either welcome or dread. A matching creature entering the place or coming within 6 squares of the object feels the chosen pull and recognizes it as magic. Welcome grants your group 1 Boon to social contributions made there toward an attainable agreement with a matching creature. Dread applies Frightened 2/3/4, set by your ritual roll, once per creature for this casting; the object or place is the fear source. Leaving that area ends this casting’s fear contribution. Keep one Antipathy/Sympathy working active; casting another ends the first.

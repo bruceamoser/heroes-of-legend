@@ -16,9 +16,9 @@ Cultivate plants and living structures.
 | 6 | Plant Growth | 3 | III |
 | 7 | Tree Skin | 3 | IV |
 | 8 | Tree Stride | 4 | IV |
-| A1 | Awaken | 5 | IV |
-| A2 | Wall of Thorns | 5 | IV |
-| A3 | Transport via Plants | 5 | IV |
+| A1 | Awaken | 5 | V |
+| A2 | Wall of Thorns | 5 | VI |
+| A3 | Transport via Plants | 6 | VII |
 
 ## Spells
 
@@ -145,16 +145,16 @@ Awaken a speaking mind with one language you know. The being keeps its body, nat
 **Target / range:** Six connected unoccupied ground squares within 8 squares
 **Duration:** 1 minute
 
-Grow a thorn wall 2 squares high. Moving through one square costs 3 movement and deals 3/5/7 physical damage, set by your casting roll, once per creature each round. Each wall square has 8 HP; fire damages it normally.
+Grow a thorn wall 2 squares high. Name up to six creatures when casting; they pass through it at ordinary movement cost and take no damage from its thorns. Others spend 3 movement to cross one square and take 3/5/7 physical damage, set by your casting roll, once per creature each round. Each wall square has 8 HP; fire damages it normally. The wall provides cover. Keep one Wall of Thorns active; casting another ends the first.
 
 ### Transport via Plants
 
 **ID:** spell:growth:a3
 **Page:** A3
 **Action:** Ritual · 1 minute
-**SP:** 5
+**SP:** 6
 **Attribute:** None
 **Target / range:** Self and up to five willing creatures beside a living tree
 **Duration:** Instant
 
-Travel through the tree to another living tree you personally touched within the past month, up to 10 kilometers away on the same plane. Everyone emerges in safe adjacent squares with carried gear. The destination tree must remain alive and large enough to admit a traveler.
+Travel through the tree to another living tree you personally touched within the past month, up to 100 kilometers away on the same plane. Everyone emerges in safe adjacent squares with carried gear. The destination tree must remain alive and large enough to admit a traveler. An explicit teleportation barrier blocks the journey.
