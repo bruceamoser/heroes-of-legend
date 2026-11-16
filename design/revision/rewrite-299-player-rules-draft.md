@@ -1,5 +1,7 @@
 # Player-facing wording draft
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 This file is an authoring draft for the #299 rewrite, not assembled into the released books. Numerical prices await the linked budget analysis and content integration. Keep this status outside the final reader text.
 
 ## Developing your techniques

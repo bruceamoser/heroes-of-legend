@@ -1,16 +1,14 @@
 # The Will That Made You
 
-*Gain 1 Boon to Fortitude rolls when you call upon your oath holder.*
+*The force that gave you life steadies your body against corruption.*
 
 ## Rules
 
-Gain 1 Boon to Fortitude rolls when you call upon your oath holder.
+The force that gave you life steadies your body against corruption. Gain 1 Boon to Fortitude rolls against poison or disease.
 
-**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-oath-bound-bound-by-your-word
 

@@ -1,14 +1,14 @@
 # Never Quite Finished
 
-*Maximum HP +1. You gain 1 Boon to Fortitude death rolls. Describe the ordinary hardship that taught you to keep going.*
+*Hardship has left you weathered rather than spent.*
 
 ## Rules
 
-Maximum HP +1. You gain 1 Boon to Fortitude death rolls. Describe the ordinary hardship that taught you to keep going.
+Hardship has left you weathered rather than spent. Gain 1 maximum HP and 1 Boon to Fortitude death rolls as you struggle to finish what matters to you.
 
-**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-human-weathered
 

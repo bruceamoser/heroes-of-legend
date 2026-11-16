@@ -17,7 +17,7 @@
   "pack-with-purpose": {
     "title": "Pack with Purpose",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "the-key-changes-hands": {
     "title": "The Key Changes Hands",
@@ -37,7 +37,7 @@
   "the-web-of-whispers": {
     "title": "The Web of Whispers",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "hurl-aside": {
     "title": "Hurl Aside",
@@ -117,7 +117,7 @@
   "catch-a-falling-friend": {
     "title": "Carry the Wounded",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "expert-river-crossing": {
     "title": "Expert River Crossing",
@@ -212,7 +212,7 @@
   "ironbound-advance": {
     "title": "Ironbound Advance",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "all-voices-as-one": {
     "title": "All Voices as One",
@@ -277,7 +277,7 @@
   "armored-recovery": {
     "title": "Armored Recovery",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "keep-time-with-steel": {
     "title": "Keep Time with Steel",
@@ -300,7 +300,7 @@
     "learning": "Field Dressing I"
   },
   "the-otter-s-bargain": {
-    "title": "The Otter’s Bargain",
+    "title": "The Otter\u2019s Bargain",
     "target": "disciplines/wilderness.md",
     "learning": "Read the Trail I"
   },
@@ -312,7 +312,7 @@
   "conditioned-body": {
     "title": "Conditioned Body",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "a-courtesy-unanswered": {
     "title": "A Courtesy Unanswered",
@@ -322,7 +322,7 @@
   "stride-of-the-giant": {
     "title": "Stride of the Giant",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "sap-and-breath": {
     "title": "Sap and Breath",
@@ -422,7 +422,7 @@
   "the-last-word": {
     "title": "The Last Word",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "treat-soft-tissue": {
     "title": "Treat Soft Tissue",
@@ -442,7 +442,7 @@
   "tell-a-worthy-story": {
     "title": "Tell a Worthy Story",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "thunder-at-the-door": {
     "title": "Thunder at the Door",
@@ -452,7 +452,7 @@
   "cast-through-the-reflection": {
     "title": "Cast through the Reflection",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "a-knot-you-can-trust": {
     "title": "A Knot You Can Trust",
@@ -482,7 +482,7 @@
   "pinning-shot": {
     "title": "Pinning Shot",
     "target": "disciplines/marksmanship.md",
-    "learning": "Hobbling Shot I"
+    "learning": "Measured Shot I"
   },
   "still-the-avalanche": {
     "title": "Still the Avalanche",
@@ -492,7 +492,7 @@
   "wear-light-armor": {
     "title": "Wear Light Armor",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "a-coal-for-a-promise": {
     "title": "A Coal for a Promise",
@@ -512,12 +512,12 @@
   "spot-the-tell": {
     "title": "Spot the Tell",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "read-the-next-blow": {
     "title": "Read the Next Blow",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "treat-elemental-injury": {
     "title": "Treat Elemental Injury",
@@ -542,7 +542,7 @@
   "the-lucky-trinket": {
     "title": "The Lucky Trinket",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "measured-appeal": {
     "title": "Measured Appeal",
@@ -552,7 +552,7 @@
   "hold-a-conversation": {
     "title": "Hold a Conversation",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "high-guard": {
     "title": "High Guard",
@@ -602,12 +602,12 @@
   "wake-the-iron-rune": {
     "title": "Wake the Iron Rune",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "weight-of-iron": {
     "title": "Weight of Iron",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "clear-the-smoke": {
     "title": "Clear the Smoke",
@@ -662,7 +662,7 @@
   "touched-by-the-divine": {
     "title": "Touched by the Divine",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "thought-before-the-blow": {
     "title": "Thought Before the Blow",
@@ -687,7 +687,7 @@
   "wear-heavy-armor": {
     "title": "Wear Heavy Armor",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "mercy-in-the-light": {
     "title": "Mercy in the Light",
@@ -772,7 +772,7 @@
   "one-more-dawn": {
     "title": "One More Dawn",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "the-tale-will-tell-of-you": {
     "title": "The Tale Will Tell of You",
@@ -802,12 +802,12 @@
   "the-shape-of-escape": {
     "title": "The Shape of Escape",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "ask-the-falling-ash": {
     "title": "Ask the Falling Ash",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "call-the-hunting-cat": {
     "title": "Call Animal: Adept",
@@ -852,7 +852,7 @@
   "identify-a-mixture": {
     "title": "Identify a Mixture",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "ride-the-furnace-breath": {
     "title": "Ride the Furnace Breath",
@@ -862,7 +862,7 @@
   "catch-the-spell": {
     "title": "Catch the Spell",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "roots-remember-feet": {
     "title": "Roots Remember Feet",
@@ -887,12 +887,12 @@
   "the-mountain-walks": {
     "title": "The Mountain Walks",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "teach-stone-to-bend": {
     "title": "Teach Stone to Bend",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "recall-the-shape": {
     "title": "Recall the Shape",
@@ -1002,7 +1002,7 @@
   "a-name-worth-knowing": {
     "title": "A Name Worth Knowing",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "veiled-crossing": {
     "title": "Veiled Crossing",
@@ -1022,22 +1022,22 @@
   "translate-the-fragment": {
     "title": "Translate the Fragment",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "the-impossible-escape": {
     "title": "The Impossible Escape",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "i-have-seen-this-step": {
     "title": "I Have Seen This Step",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "hook-and-drive": {
     "title": "Hook and Drive",
     "target": "disciplines/arms.md",
-    "learning": "Driving Blow I"
+    "learning": "Measured Cut I"
   },
   "return-to-strength": {
     "title": "Return to Strength",
@@ -1067,7 +1067,7 @@
   "the-patient-metal": {
     "title": "The Patient Metal",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "winter-store": {
     "title": "Winter Store",
@@ -1097,7 +1097,7 @@
   "stitch-the-living-pattern": {
     "title": "Stitch the Living Pattern",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "create-a-distraction": {
     "title": "Create a Distraction",
@@ -1122,7 +1122,7 @@
   "reconstruct-the-event": {
     "title": "Reconstruct the Event",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "icebound-path": {
     "title": "Icebound Path",
@@ -1232,7 +1232,7 @@
   "wear-medium-armor": {
     "title": "Wear Medium Armor",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "call-the-elder-stag": {
     "title": "Call Animal: Master",
@@ -1312,12 +1312,12 @@
   "read-the-ward": {
     "title": "Read the Ward",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "anatomy-of-an-opening": {
     "title": "Anatomy of an Opening",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "the-hunt-ends-here": {
     "title": "The Hunt Ends Here",
@@ -1347,7 +1347,7 @@
   "the-strong-arm": {
     "title": "The Strong Arm",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "enchanting-workshop": {
     "title": "Enchanting Workshop",
@@ -1357,7 +1357,7 @@
   "notice-the-human-detail": {
     "title": "Read the Room",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "rim-strike": {
     "title": "Rim Strike",
@@ -1367,7 +1367,7 @@
   "the-moment-foretold": {
     "title": "The Moment Foretold",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "the-walking-toolbox": {
     "title": "Call Construct: Adept",
@@ -1382,7 +1382,7 @@
   "identify-an-enchantment": {
     "title": "Identify an Enchantment",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "treat-life-injury": {
     "title": "Treat Life Injury",
@@ -1395,7 +1395,7 @@
     "learning": "Mend and Fit I"
   },
   "read-the-maker-s-hand": {
-    "title": "Read the Maker’s Hand",
+    "title": "Read the Maker\u2019s Hand",
     "target": "disciplines/craft.md",
     "learning": "Mend and Fit I"
   },
@@ -1425,7 +1425,7 @@
     "learning": "Read the Symptoms I"
   },
   "borrow-tomorrow-s-weather": {
-    "title": "Borrow Tomorrow’s Weather",
+    "title": "Borrow Tomorrow\u2019s Weather",
     "target": "spellbooks/flame.md",
     "learning": "Flame I"
   },
@@ -1447,7 +1447,7 @@
   "stone-on-your-shoulders": {
     "title": "Stone on Your Shoulders",
     "target": "disciplines/armor.md",
-    "learning": "Armored Training I"
+    "learning": "Light Armor I"
   },
   "the-sky-comes-down": {
     "title": "The Sky Comes Down",
@@ -1477,7 +1477,7 @@
   "checkmate-in-three-steps": {
     "title": "Checkmate in Three Steps",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "dread-reflection": {
     "title": "Dread Reflection",
@@ -1512,7 +1512,7 @@
   "keep-your-bearings": {
     "title": "Keep Your Bearings",
     "target": "disciplines/scholarship.md",
-    "learning": "Recall the Record I"
+    "learning": "Read the Evidence I"
   },
   "beacon-through-terror": {
     "title": "Beacon through Terror",

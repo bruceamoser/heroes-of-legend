@@ -241,7 +241,7 @@ def coin_reference():
  intro=t.split('## Ancestry')[0]
  result='#pagebreak(weak: true)\n#entry("Starting coins",'+q(key(p))+')\n'+render(intro,p)+'\n'
  result+='#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,['+table('Ancestry contribution')+table('Class contribution')+'],['+table('Culture contribution')+'])#illustration("coin-purse",height:125pt)], ['+table('Background contribution')+'])\n'
- result+='#note['+render('### Examples\n'+sections['Checks and examples'],p,base=1)+']\n'
+ result+='#note['+render('### Preparing to travel\n'+sections.get('Preparing to travel',sections.get('Checks and examples','')),p,base=1)+']\n'
  return result
 
 def summon_roster():
@@ -269,25 +269,25 @@ CLASS_ORDER=['protector','blade','arcanist','shepherd','intellect','leader','unb
 DISCIPLINES=sorted(p.stem for p in (DESIGN/'disciplines').glob('*.md'))
 SUMMARIES=json.loads((BOOK/'ability-summaries.json').read_text())
 
+def class_values(raw):
+ attrs=re.search(r'Minimum 0 in ([^.]+)',raw,re.I)
+ hp=re.search(r'HP contribution(?::\*\*)? (\+\d+)',raw).group(1)
+ stat=re.search(r'Twice your positive (Guile|Knowledge|Reason)',raw).group(1)
+ coins=re.search(r'\*\*Starting coin contribution:\*\* (\+\d+)',raw).group(1)
+ starting=re.search(r'\*\*Starting disciplines:\*\* (.+)',raw).group(1)
+ return (attrs.group(1) if attrs else 'None',hp,stat,coins,starting)
+
 def class_page(p):
  record(p,'class');s=clean(p);raw=p.read_text()
  narrative=re.search(r'^\*([^*]+)\*$',s,re.M).group(1)
- attrs=re.search(r'minimum 0 in ([^;]+);',raw)
- attrs=(attrs.group(1).replace(' and ', ', ')+' ≥ 0') if attrs else 'No minimums'
- hp=re.search(r'HP contribution (\+\d+)',raw).group(1)
- sp=re.search(r'\*\*Starting SP contribution:\*\* (\+\d+)',raw).group(1)
- coins=re.search(r'\*\*Starting coin contribution:\*\* (\+\d+)',raw).group(1)
- starting=re.search(r'choose two distinct disciplines from ([^.]+)',raw).group(1)
- if p.stem=='odd':starting=', '.join(['Arms','Armor','Guard','Marksmanship','Athletics','Subterfuge','Wilderness','Medicine','Craft','Scholarship','Influence','Elements','Life','Mentalism','Divination','Invocation','Force','Wards','Spellcraft'])
- else:starting=starting+'.'
- core='*'+narrative+'*\n\n**Attributes:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** '+sp+'. **Coins:** '+coins+'.\n\n**Starting disciplines:** Choose two distinct disciplines from '+starting+'\n'
- if p.stem=='odd':core=core.replace('from any two disciplines','the full list below.')
+ attrs,hp,stat,coins,starting=class_values(raw)
+ prices=re.search(r'\*\*Learning costs:\*\* (.+)',raw).group(1)
+ core='*'+narrative+'*\n\n**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one free signature at each of levels 1, 3 and 7. At later milestones, develop a known line or choose a new line. A higher choice includes its line’s foundation. A level-7 choice keeps the level-3 improvement only when you selected it at level 3. Each milestone grants one choice.\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
- # The Warden uses the same three choice headings but has no review appendix.
  choices=re.sub(r'\*\*Starting coin contribution:.*','',choices,flags=re.S)
  sigs='#grid(columns:(1fr,1fr,1fr),gutter:12pt,'+','.join('['+render('## '+part,p,base=1)+']' for part in choices.split('## ')[1:])+')'
- result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:520pt)])]\n'
+ result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:500pt)])]\n'
  result+='#v(8pt)\n#signature-menu['+sigs+']\n'
  return result
 
@@ -300,11 +300,11 @@ def hp_reference():
   row=next(l for l in p.read_text().splitlines() if l.startswith('| '+ANC_NAMES[a]+' |'));cells=row.strip('|').split('|');ancestry.append('| '+cells[0].strip()+' | '+cells[1].strip()+' |')
  classes=[]
  for c in CLASS_ORDER:
-  cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution (\+\d+)',cp.read_text()).group(1)+' |')
+  cp=DESIGN/'classes'/f'{c}.md';classes.append('| '+name(cp)+' | '+re.search(r'HP contribution(?::\*\*)? (\+\d+)',cp.read_text()).group(1)+' |')
  intro='#pagebreak(weak:true)\n#heading(level:2)[Starting HP]\n#label("starting-hp")\nYour maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and learning your starting abilities; then start at that maximum.\n\n#note[#align(center)[#text(size:12pt,weight:"bold")[10 + level × (ancestry + class) + Fortitude + explicit benefits]]]\n'
  table=lambda title,rows:render('## '+title+'\n| Choice | HP |\n|---|---:|\n'+'\n'.join(rows),p,base=1).replace('#rule-table(2,','#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,')
- intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock, for example, adds 1 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. At level 0 use 10 + ancestry + Fortitude + benefits. Record current HP separately.],['+table('Class',classes)+'])\n'
- intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With Hard as Bedrock, the total is *19*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
+ intro+='#grid(columns:(1fr,1fr),gutter:18pt,['+table('Ancestry',ancestry)+'#heading(level:3)[Fortitude and benefits]\nAdd your Fortitude, including a negative value. Then add only benefits you actually chose. Hard as Bedrock, for example, adds 2 HP.\n\nAdd ancestry + class contributions at each new level after 1. Fortitude and fixed benefits apply once. Record current HP separately.],['+table('Class',classes)+'])\n'
+ intro+='#v(12pt)\n#heading(level:3)[Two different beginnings]\n#grid(columns:(1fr,1fr),gutter:18pt,[*Hill Dwarf Protector*\n\n10 + 3 ancestry + 3 class + 2 Fortitude = *18 HP*. With Hard as Bedrock, the total is *20*.],[*Halfling Arcanist*\n\n10 + 1 ancestry + 1 class − 1 Fortitude = *11 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])\n'
  intro+='#tail-art("hp-vitality")\n'
  return intro
 
@@ -314,9 +314,9 @@ def sp_reference():
  def panel(title):return render('## '+title+'\n\n'+sections[title],p,base=1)
  result='#pagebreak()\n#heading(level:2)[Starting SP]\n#metadata('+q(key(p))+')<'+key(p)+'>\n'
  result+=render(sections['Introduction'],p)
- result+='#note[#align(center)['+render(sections['Maximum SP'],p)+']]\n'
- result+='#grid(columns:(1fr,1fr),gutter:18pt,['+panel('Starting contributions')+panel('Learned capacity')+'],['+panel('Growth by level')+panel('Current and maximum SP')+'])\n'
- result+='#v(12pt)\n#heading(level:3)[Two different reserves]\n#grid(columns:(1fr,1fr),gutter:18pt,['+render(sections['A reserve without Spellcraft'],p)+'],['+render(sections['A reserve with learned capacity'],p)+'])\n'
+ result+='#note['+render(sections['Maximum SP'],p)+']\n'
+ result+='#grid(columns:(1fr,1fr),gutter:18pt,['+panel('Ancestry contribution')+'],['+panel('Class contribution')+'])\n'
+ result+='#v(8pt)\n'+flow([panel('Learned capacity and recovery')+panel('Current and maximum SP'),panel('Growth and examples')])
  return result
 
 def ability_browser(paths,tier):
@@ -328,7 +328,7 @@ def ability_browser(paths,tier):
   s=p.read_text()
   field=lambda label:re.search(r'\*\*'+re.escape(label)+r':\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',s).group(1).strip()
   req=field('Requirements to learn');action=field('Action')
-  rows.append('([#xref('+q(key(p))+')[#text('+q(name(p))+')]], [#text('+q(req)+')], [#text('+q(action)+')], [#text('+q(SUMMARIES[p.stem])+')])')
+  rows.append('([#xref('+q(key(p))+')[#text('+q(name(p))+')]], [#text('+q(req)+')], [#text('+q(action)+')], [#text('+q(SUMMARIES.get(p.stem, next((line.strip('*') for line in p.read_text().splitlines()[1:] if line.startswith('*') and not line.startswith('**')),name(p))))+')])')
  result+='#ability-directory(('+','.join(rows)+',))\n#pagebreak(weak:true)\n'
  result+=flow([card(p) for p in paths])
  return result
@@ -372,17 +372,17 @@ for typ,title in [('culture','Cultures'),('background','Backgrounds')]:
  entries += [doc(p,typ,wide=True) for p in sorted((DESIGN/'origins').glob(typ+'-*.md'),key=name)]
  parts.append(flow(entries)+'#tail-art('+q(typ+'s')+')\n')
 parts.append(section('4','Classes'))
-parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose one class. Begin studying two disciplines from its starting list and choose one signature from your class at levels 1, 3 and 7. You can also study other disciplines with DP.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums. All classes pay the same learning costs.], [\n')
+parts.append('#grid(columns:(1fr,1fr),gutter:18pt,[Choose one class. Begin studying one discipline from its starting list and choose one signature from your class at levels 1, 3 and 7. You can also study other disciplines with DP.\n\nMeet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums. Your class sets the 1, 2 or 3 DP cost of studying an additional discipline.], [\n')
 class_rows=[]
 for cp in sorted((DESIGN/'classes').glob('*.md'),key=name):
- ct=cp.read_text(); mm=re.search(r'minimum 0 in ([^;]+);',ct); hp=re.search(r'HP contribution (\+\d+)',ct)
- class_rows.append('| ['+name(cp)+'](classes/'+cp.name+') | '+(mm.group(1) if mm else 'None')+' | '+hp.group(1)+' | '+re.search(r'Starting SP contribution:\*\* (\+\d+)',ct).group(1)+' |')
-parts.append(render('| Class | Attributes ≥ 0 | HP per level | Starting SP |\n|---|---|---:|---:|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'Starting SP is the class’s one-time contribution at level 1. Every character gains +2 maximum SP per level after 1.])\n')
+ ct=cp.read_text();attrs,hp,stat,coins,starting=class_values(ct)
+ class_rows.append('| ['+name(cp)+'](classes/'+cp.name+') | '+attrs+' | '+hp+' | 2 × '+stat+' |')
+parts.append(render('| Class | Attributes ≥ 0 | HP per level | Starting SP |\n|---|---|---:|---:|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'Use only a positive attribute for the class SP contribution; zero or a negative value contributes 0 SP. Add this once at creation. Every character gains +2 maximum SP per level after 1.])\n')
 parts.append('#illustration("classes", height: 350pt, fit: "cover")\n')
 for cname in CLASS_ORDER:
  p=DESIGN/'classes'/f'{cname}.md'
  parts.append(class_page(p)+'#pagebreak(weak:true)\n')
- sigs=re.findall(r'\]\(\.\./cards/(signature-[^)]+\.md)\)',p.read_text())
+ sigs=list(dict.fromkeys(re.findall(r'\]\(\.\./cards/(signature-[^)]+\.md)\)',p.read_text())))
  parts.append(flow([card(DESIGN/'cards'/sig) for sig in sigs]))
 parts.append(manuscript('05-disciplines.md','5','Disciplines and Character Paths'))
 p=DESIGN/'rules/magic.md';record(p,'magic-reference')
@@ -420,7 +420,7 @@ for p in sorted((DESIGN/'bestiary/summons').glob('*.md'),key=name):parts.append(
 parts.append(section('12','Scars and Survival'))
 p=DESIGN/'rules/wounds.md';record(p,'scar-reference');parts.append('#metadata('+q(key(p))+')<'+key(p)+'>\n'+render(clean(p),p,base=1))
 parts.append(section('13','Ready-to-Play Heroes'))
-parts.append('#twocol[These six level-1 heroes show complete creation, including both DP ledgers and paid equipment. Use one as written or follow its ledger as an example. A changed choice must still meet requirements. Lira is an archer built as a Blade; the Warden provides another route to a wilderness-focused hero.]\n')
+parts.append('#twocol[These six level-1 heroes show complete creation, including their starting DP and paid equipment. Use one as written or follow its ledger as an example. A changed choice must still meet requirements. Lira is an archer built as a Blade; the Warden provides another route to a wilderness-focused hero.]\n')
 hero_intro=(DESIGN/'characters/README.md').read_text()
 hero_rows=[]
 for line in hero_intro.splitlines():
@@ -444,7 +444,7 @@ for tier,title in [('Universal','Basic action index'),('0','Talent index'),('1',
 (GEN/'body.typ').write_text(''.join(parts))
 manifest={'included':included,'cards':card_records,'internal_links':links,'external_design_references_rendered_as_text':sorted(excluded),'expected':{'ability':len(card_records),'ancestry':10,'trait':50,'vision-reference':1,'ancestry-reference':1,'culture':18,'background':32,'class':10,'discipline':0,'path':0,'equipment':45,'recipes':10,'summon':73,'character':6}}
 manifest['presentation_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [BOOK/'ability-summaries.json',BOOK/'art/ancestry-expansion-prompts.json',BOOK/'art/ancestry-lineup-prompt.json',ROOT/'release/version.json']]
-manifest['learning_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [DESIGN/'development.md',DESIGN/'combined-abilities.md',DESIGN/'magic-endpoints.md',BOOK/'integrate_learning.py',BOOK/'spellbook-spreads.typ',BOOK/'spellbook-art.json',BOOK/'template.typ',BOOK/'art/spellbooks/prompts.json',*sorted((BOOK/'art/spellbooks').glob('*.png')),*sorted((BOOK/'art/tokens').glob('*.svg')),BOOK/'nonmagical/build.py',BOOK/'nonmagical/book.typ',DESIGN/'rules/learning.md',DESIGN/'rules/magic.md',*sorted((DESIGN/'disciplines').glob('*.md')),*sorted((DESIGN/'spellbooks').glob('*.md'))]]
+manifest['learning_sources']=[{'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [DESIGN/'development.md',DESIGN/'spell-masteries.md',DESIGN/'magic-endpoints.md',BOOK/'integrate_learning.py',BOOK/'spellbook-spreads.typ',BOOK/'spellbook-art.json',BOOK/'template.typ',BOOK/'art/spellbooks/prompts.json',*sorted((BOOK/'art/spellbooks').glob('*.png')),*sorted((BOOK/'art/tokens').glob('*.svg')),BOOK/'nonmagical/build.py',BOOK/'nonmagical/book.typ',DESIGN/'rules/learning.md',DESIGN/'rules/magic.md',*sorted((DESIGN/'disciplines').glob('*.md')),*sorted((DESIGN/'spellbooks').glob('*.md'))]]
 (GEN/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Included',len(included),'records;',len(card_records),'abilities;',len(links),'internal links.')
 if '--compile' in os.sys.argv:

@@ -54,7 +54,7 @@ A cushion of air slows the descent to 2 squares each round. The recipient lands 
 **SP:** 1
 **Attribute:** None
 **Target / range:** A 2-square-radius cloud centered within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Gather an opaque bank of fog that blocks sight through its area. Strong wind disperses the cloud. Creatures may navigate by other senses and remembered positions.
 
@@ -65,6 +65,7 @@ Gather an opaque bank of fog that blocks sight through its area. Strong wind dis
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Knowledge
+**Defense:** Brawn
 **Target / range:** Every creature along a straight 6-square line from you
 **Duration:** Instant
 
@@ -89,6 +90,7 @@ Lift the recipient up to 3 squares above its starting height. Each upkeep can ra
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature along an 8-square line from you
 **Duration:** Instant
 
@@ -102,7 +104,7 @@ Send a crackling stroke along the line. Deal 3/5/7 lightning damage to each crea
 **SP:** 3
 **Attribute:** None
 **Target / range:** Self or one willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 The recipient flies using its normal Speed and movement. On expiry it descends safely up to 3 squares; remaining unsupported distance is a normal fall.
 
@@ -114,7 +116,7 @@ The recipient flies using its normal Speed and movement. On expiry it descends s
 **SP:** 4
 **Attribute:** None
 **Target / range:** Six connected unoccupied squares within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Raise a wind barrier 3 squares high. Physical ranged attacks through it receive 2 Banes. The wall disperses ordinary airborne smoke and gas in its squares. Creatures pass through at an extra movement cost of 1 per wall square.
 
@@ -125,6 +127,7 @@ Raise a wind barrier 3 squares high. Physical ranged attacks through it receive 
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Up to four creatures within 10 squares; each within 3 squares of another target
 **Duration:** Instant
 

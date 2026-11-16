@@ -1,16 +1,14 @@
 # Quick Hands
 
-*Gain 1 Boon to Guile rolls to handle objects quickly or discreetly, or to use sleight of hand.*
+*Your quick fingers pass a latch, coin or concealed note with little motion.*
 
 ## Rules
 
-Gain 1 Boon to Guile rolls to handle objects quickly or discreetly, or to use sleight of hand.
+Your quick fingers pass a latch, coin or concealed note with little motion. Gain 1 Boon to Guile rolls for quick or discreet object handling and sleight of hand.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-goblin-never-where-you-aim
 

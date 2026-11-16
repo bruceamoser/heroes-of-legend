@@ -1,7 +1,7 @@
 # Where you grew up, and what you did
 
 Ancestry does not dictate culture. Choose one culture and one background, then
-one paired gift from each. A past can suggest a personality without prescribing it.
+one discipline from each. A past can suggest a personality without prescribing it.
 
 ## 18 cultures
 

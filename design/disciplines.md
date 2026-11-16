@@ -1,6 +1,6 @@
 # Disciplines
 
-Learn discipline access for 1 DP, then follow its learned abilities or spellbook sections in order. Access alone grants no ability.
+Begin studying a discipline at the price listed for your class, then choose a path or spellbook and learn its entries. Each reference gives the effects, costs and learning order.
 
 - [Arms](disciplines/arms.md)
 - [Armor](disciplines/armor.md)
@@ -22,4 +22,4 @@ Learn discipline access for 1 DP, then follow its learned abilities or spellbook
 - [Wards](disciplines/wards.md)
 - [Spellcraft](disciplines/spellcraft.md)
 
-[Learning rules](rules/learning.md) · [Combined abilities](combined-abilities.md)
+[Learning rules](rules/learning.md) · [Master spells](spell-masteries.md)

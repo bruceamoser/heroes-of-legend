@@ -1,5 +1,7 @@
 # Character identity and progression rewrite
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 November 15, 2026. Bruce authorized the books and published Character Workshop rewrite after the trope Build-Off review. Native Foundry follows those deliverables. [Delivery #299](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/299) tracks the complete work; [source #1328](https://github.com/bruceamoser/heroes-of-legend/issues/1328) tracks the books; source #1329 is this foundation milestone.
 
 ## Read first

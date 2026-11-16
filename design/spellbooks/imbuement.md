@@ -42,7 +42,7 @@ Make it shed bright light to 6 squares and dim light for another 3. Choose the c
 **SP:** 1
 **Attribute:** None
 **Target / range:** One held weapon belonging to a willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Give the weapon's damaging attacks +1 physical damage before resistance. Apply this once per target per attack. Use the highest magical weapon damage increase.
 
@@ -54,7 +54,7 @@ Give the weapon's damaging attacks +1 physical damage before resistance. Apply t
 **SP:** 1
 **Attribute:** None
 **Target / range:** One held weapon belonging to a willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Choose fire, cold or lightning. Its attacks deal that type in place of their normal damage type and add 1 damage before resistance. Use the highest magical weapon damage increase; each attack remains one damage event per target.
 

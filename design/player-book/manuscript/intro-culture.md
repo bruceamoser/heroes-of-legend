@@ -5,7 +5,4 @@ knowledge and ways of meeting hardship. An elf raised among dwarven halls may kn
 their songs and stonework; a human from a wandering company may feel at home wherever
 people gather around a fire. Choose a culture independently of your ancestry.
 
-Choose **one option** at level 0. Begin the listed discipline and learn the
-accompanying ability or spellbook section. Add 1 level-0 DP for each discipline
-or entry you already know. Record your culture’s coin contribution and +1 starting
-SP. Gather any gear your new ability uses.
+Choose one culture, then begin studying one of its two disciplines. Choose a different discipline for each of culture, background and class. Record the culture’s SP and coin contributions, then learn techniques or spells with your starting DP.

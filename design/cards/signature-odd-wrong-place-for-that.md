@@ -1,8 +1,28 @@
 # Out of Body
 
-*Leave your prone body and move as a spirit that can pass through nonmagical objects and creatures. End the projection by returning to your body or bringing it to a legal square near your spirit.*
+*The spirits lend you words, perspective and remembered lives.*
 
 ## Rules
+
+### Borrowed Tongue
+
+**Action:** Maneuver
+
+**Attribute:** None (no roll)
+
+**Target / range / shape:** Self; one language you hear spoken.
+
+A spirit that knows the language possesses you. You understand and speak that language for the scene. You do not read or write it.
+
+**Duration:** Until the end of the scene.
+
+**Equipment / acquisition:** None.
+
+This is a consensual spirit invitation and a spell costing 0 SP. You retain control of your actions.
+
+**Frequency:** Once per scene; one language at a time.
+
+### Out of Body
 
 **Action:** Main Action · **Attribute:** None (no roll)
 
@@ -10,7 +30,7 @@
 
 Your body falls prone and cannot act, move or take Reactions. It has 3 defense Banes. Your spirit appears in your square or an adjacent free square.
 
-The spirit has Speed 5, can speak, can pass through nonmagical solid objects and creatures, and is immune to mundane attacks. It cannot attack, cast spells, use equipment or physically interact with objects. Its movement does not provoke opportunity attacks. Magical attacks can target it; resolve them against your normal defenses, and damage to the spirit is damage to your body. If your body drops to 0 HP, the projection ends.
+The spirit has Speed 5, can speak, can pass through nonmagical solid objects and creatures, and is not a legal target for ordinary attacks. It cannot attack, cast spells, use equipment or physically interact with objects. Its movement does not provoke opportunity attacks. Magical attacks can target it; resolve them against your normal defenses, and damage to the spirit is damage to your body. If your body drops to 0 HP, the projection ends.
 
 At the end of your turn, choose one:
 
@@ -21,7 +41,9 @@ If no legal Manifest square exists, you can only Snap Back.
 
 **Duration:** Until the end of your turn.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand for casting.
+
+This is a spell costing 0 SP, usable once per scene. Attacks explicitly described as magical and spells may target the spirit; ordinary attacks target your body instead.
 
 ---
 
@@ -29,9 +51,9 @@ If no legal Manifest square exists, you can only Snap Back.
 
 **Type:** Signature
 
-**Tags:** Skill / Utility / Movement
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-odd-wrong-place-for-that
 

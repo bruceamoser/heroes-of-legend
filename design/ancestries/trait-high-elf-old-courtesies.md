@@ -1,16 +1,14 @@
 # Still Water
 
-*Gain 1 Boon to Reason rolls to recognize deception or maintain concentration amid noise, argument or distraction.*
+*You let another person's words settle before accepting their meaning.*
 
 ## Rules
 
-Gain 1 Boon to Reason rolls to recognize deception or maintain concentration amid noise, argument or distraction.
+You let another person's words settle before accepting their meaning. Gain 1 Boon to Reason rolls to recognize deception or concealed intent in speech or behavior.
 
-**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-high-elf-old-courtesies
 

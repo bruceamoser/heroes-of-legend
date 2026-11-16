@@ -1,76 +1,124 @@
 # Armor
 Wear your protection as though it were part of you.
 
-Armor abilities require worn armor. Acquire a suit of armor to match your training. Use the highest matching resistance, maximum 3; do not add armor resistance values together.
+These techniques require worn armor you are trained to use. Harness teaches light armor first, medium at its third step and heavy at its fourth, at level 3. The suit supplies physical resistance 1/2/3 respectively; use the highest matching resistance, not a sum. Training grants no suit. Damage reductions apply after resistance and respect the minimum for attacks; immunity remains an exception.
 
-## Harness
+## Advance
 
-### Armored Training I
-DP: 1 | Level: 0
-Passive. While wearing light armor, gain physical resistance 1.
+### Armored Advance I
+DP: 1 | Level: 1
+Main Action. Move up to your Speed along a legal route. Ignore the extra movement cost of the first square of nonmagical difficult terrain on this move. Gain Stability 1 until your next turn starts. No roll.
 
-### Armored Training II
-DP: 2 | Level: 0
-Armored Training also permits medium armor, granting physical resistance 2 while worn.
+### Armored Advance II
+DP: 2 | Level: 1
+Armored Advance ignores the extra cost of the first two squares of nonmagical difficult terrain on this move.
 
-### Armored Training III
-DP: 2 | Level: 0
-Armored Training also permits heavy armor, granting physical resistance 3 while worn.
+### Armored Advance III
+DP: 2 | Level: 1
+Armored Advance grants Stability 2 instead of 1.
 
-### Ironbound Advance
+### Ironbound Advance I
 DP: 3 | Level: 3
-Maneuver. Move up to 3 squares through nonmagical difficult terrain, ignoring its extra movement cost. Until your turn ends, gain Stability 2.
+Main Action. Move up to your Speed, ignoring extra movement cost from nonmagical difficult terrain. Until your next turn starts, gain Stability 2 and reduce damage from attacks against you by 1 after resistance.
+
+### Ironbound Advance II
+DP: 4 | Level: 3
+Ironbound Advance grants Stability 3.
+
+### Ironbound Advance III
+DP: 4 | Level: 3
+Ironbound Advance reduces attack damage by 2 instead of 1.
+
+### The Unbroken Gate
+DP: 5 | Level: 7
+Main Action, with a held shield. Until your next turn starts, hold your position: you cannot move or be forcibly moved. Once during this stance, when an attacker chooses an adjacent ally as the sole target, you may become the target before the roll if you are a legal target. This interception costs no Reaction. During the stance, reduce attack damage against you by 3 after resistance. Once per scene, when you establish the stance, up to four willing allies within 3 squares may move 2 squares toward you without movement reactions.
 
 ## Bracing
 
 ### Brace I
-DP: 1 | Level: 0
-Reaction. When an effect would push or pull you, shorten that movement by 1 square, minimum 0. No roll; damage still applies.
+DP: 1 | Level: 1
+Maneuver. Until your next turn starts, gain Stability 1. You must stand on a supporting surface. No roll.
 
 ### Brace II
-DP: 2 | Level: 0
-Brace shortens forced movement by 2 squares instead of 1.
+DP: 2 | Level: 1
+Brace grants Stability 2.
 
 ### Brace III
-DP: 2 | Level: 0
-Brace also prevents that same effect from knocking you Prone.
+DP: 2 | Level: 1
+While Brace lasts, a push or pull that Stability reduces to 0 also fails to knock you Prone; its damage and other effects still apply.
 
-### Stand Like Stone
+### Stand Like Stone I
 DP: 3 | Level: 3
-Maneuver. Until your next turn starts, gain Stability 3 and cannot be moved against your will. You cannot move voluntarily while this lasts.
+Maneuver. Until your next turn starts, gain Stability 3 and cannot be moved against your will or knocked Prone while standing on a supporting surface. You cannot move voluntarily during this stance. No roll.
+
+### Stand Like Stone II
+DP: 4 | Level: 3
+While Stand Like Stone lasts, one willing adjacent ally also gains Stability 1 while adjacent.
+
+### Stand Like Stone III
+DP: 4 | Level: 3
+Stand Like Stone can protect two willing adjacent allies, and gives each Stability 2 while adjacent.
+
+### Rooted against the Charge
+DP: 5 | Level: 7
+Maneuver. Brace a passage up to 3 squares wide while on solid footing. Until your next turn starts, you and up to three willing adjacent allies cannot be forcibly moved or knocked Prone while you remain stationary and they remain adjacent. Each protected creature reduces collision damage by 3 after resistance; this non-attack damage may reach 0. This does not prevent other damage or let creatures pass through blocked squares.
 
 ## Deflection
 
 ### Turn the Blow I
-DP: 1 | Level: 0
-Reaction. After your defense roll, before taking physical damage, reduce that attack’s damage by 1, minimum 1. No additional roll.
+DP: 1 | Level: 1
+Reaction. After your defense roll, before physical damage from that attack is applied, reduce its physical damage by 1 after resistance. No roll.
 
 ### Turn the Blow II
-DP: 2 | Level: 0
-Turn the Blow reduces physical damage by 2 instead of 1.
+DP: 2 | Level: 1
+Turn the Blow reduces physical damage by 2.
 
 ### Turn the Blow III
-DP: 2 | Level: 0
-Turn the Blow reduces physical damage by 3 instead of 2.
+DP: 2 | Level: 1
+Turn the Blow reduces physical damage by 3.
 
-### Weather the Storm
+### Weather the Storm I
 DP: 3 | Level: 3
-Main Action. Until your next turn starts, reduce damage from each attack against you by 2 after resistance, minimum 1 per attack.
+Reaction. After a defense roll, before damage from that attack is applied, reduce its damage by 2 after resistance. Until your next turn starts, also reduce physical damage from each later attack against you by 1 after resistance.
 
-## Endurance
+### Weather the Storm II
+DP: 4 | Level: 3
+Weather the Storm reduces the triggering attack’s damage by 3 instead of 2.
 
-### Armored March I
-DP: 1 | Level: 0
-Passive. Ignore 1 Bulk from your worn armor when calculating encumbrance; minimum 0 armor Bulk. This does not change the armor’s inventory size.
+### Weather the Storm III
+DP: 4 | Level: 3
+Weather the Storm reduces later physical attack damage by 2 instead of 1.
 
-### Armored March II
-DP: 2 | Level: 0
-Armored March also increases your Speed by 1 while wearing armor.
+### Unyielding Shell
+DP: 5 | Level: 7
+Reaction. After a defense roll, before damage from that attack is applied, reduce its damage by 4 after resistance. Until your next turn starts, reduce damage from each further attack against you by 3 after resistance. Once per scene, this response also prevents new Bleeding and Dazed from the triggering attack; its other effects remain.
 
-### Armored March III
-DP: 2 | Level: 0
-Armored March also ignores the extra movement cost of the first square of nonmagical difficult terrain you enter on each turn.
+## Harness
 
-### Carry Them Home
+### Light Armor I
+DP: 1 | Level: 1
+Passive. You are trained to wear light armor; the suit supplies physical resistance 1. Ignore 1 Bulk from worn armor when calculating encumbrance, minimum 0 armor Bulk. This does not change its inventory size.
+
+### Light Armor II
+DP: 2 | Level: 1
+While wearing armor you are trained to use, gain 1 Boon on rolls to resist forced movement. This is not additional resistance or Stability.
+
+### Light Armor III
+DP: 2 | Level: 1
+You are also trained to wear medium armor; the suit supplies physical resistance 2. Your Speed increases by 1 while wearing armor you are trained to use.
+
+### Heavy Armor I
 DP: 3 | Level: 3
-Maneuver. Lift one willing or helpless adjacent creature no larger than you. For this turn, carrying it adds no encumbrance and does not occupy your weapon hand. Put it down adjacent when your turn ends.
+Passive. You are also trained to wear heavy armor; the suit supplies physical resistance 3. Maneuver: lift one willing or helpless adjacent creature no larger than you. For this turn, carrying it adds no encumbrance and occupies no weapon hand. Put it down in a legal adjacent square when your turn ends.
+
+### Heavy Armor II
+DP: 4 | Level: 3
+While wearing trained armor, ignore the extra cost of the first square of nonmagical difficult terrain you enter each turn. Heavy Armor’s carrying benefit lasts until the start of your next turn instead of turn end.
+
+### Heavy Armor III
+DP: 4 | Level: 3
+Heavy Armor’s carrying Maneuver also lets you move 2 squares with the passenger without movement reactions. Place the passenger in a legal adjacent square when the carrying benefit ends.
+
+### Bring Everyone Home
+DP: 5 | Level: 7
+Main Action · Knowledge, wearing trained armor and holding a shield, with medical supplies. Once per scene, move up to 8 squares without movement reactions. Along the route treat up to three different willing or helpless creatures within reach: roll once; each with an available first-aid attempt restores 5/8/11 HP and spends that attempt. Carry one creature no larger than you along any part of the route without added encumbrance or using your shield hand; place it adjacent at the end. A spent allowance still permits rescue, not healing. Supplies must cover each treated patient.

@@ -19,4 +19,6 @@ not a required personality. Any ancestry may grow up in any culture.
 - [Ingenuity](trait-human-shared-table.md) — You look at what is available and build the tool you need.
 - [The Impossible Streak](trait-human-practiced-patience.md) — Someone says it cannot be done, and you hear a challenge.
 
+**Starting SP contribution:** +1 maximum SP at creation.
+
 **Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).

@@ -1,14 +1,14 @@
 # Adaptable
 
-*You gain 1 additional DP at each level, including level 0.*
+*You readily turn unfamiliar experiences into useful practice.*
 
 ## Rules
 
-You gain 1 additional DP at each level, including level 0.
+You readily turn unfamiliar experiences into useful practice. Gain 1 DP at creation and whenever you gain a level.
 
-**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-human-far-walker
 

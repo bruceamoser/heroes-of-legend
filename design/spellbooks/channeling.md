@@ -29,6 +29,7 @@ Draw, give and redirect magical power between existing reserves. Casting costs a
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Reason
+**Defense:** Agility
 **Target / range:** One creature within 6 squares
 **Duration:** Instant
 
@@ -65,6 +66,7 @@ After paying this spell's 1 SP cost, receive up to 3 SP from the donor, limited 
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One creature within 3 squares with its own SP reserve
 **Duration:** Instant
 
@@ -101,6 +103,7 @@ Choose one known Main Action spell from outside the Channeling book costing at m
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** One donor and one different recipient within 6 squares, each with its own SP reserve
 **Duration:** Instant
 
@@ -113,6 +116,7 @@ Transfer 2/3/5 SP from the donor to the recipient. Willing participants may acce
 **Action:** Main Action
 **SP:** 4
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** Two different creatures within 6 squares with their own SP reserves
 **Duration:** Instant
 
@@ -128,7 +132,7 @@ Choose a donor and recipient. Transfer up to 8 existing SP with both parties' co
 **Target / range:** Self and up to three willing donors within 3 squares
 **Duration:** As the funded spell
 
-Choose one known Main Action spell from outside the Channeling book costing at most 6 SP. Pay this spell's 5 SP yourself. Each donor spends its Reaction and contributes an agreed amount toward the chosen spell's cost; you pay the remainder. Cast it once with its normal attribute and targets. Contributions pay the spell directly, and you sustain any continuing effect.
+Choose one known Main Action spell from outside the Channeling book costing at most 6 SP. Pay this spell's 5 SP yourself. Each donor spends its Reaction and contributes an agreed amount toward the chosen spell's cost; you pay the remainder. Cast it once with its normal attribute and targets. Contributions pay the spell directly, and you handle the transmitted spell’s duration and Sustain when it requires it.
 
 ### Rechanneling
 
@@ -149,7 +153,10 @@ Add 3/5/7 cancellation progress against the transfer, target 2 plus its casting 
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Reason
 **Target / range:** Two different creatures within 6 squares with their own SP reserves
+**Hold attribute:** Reason
+**Escape attribute:** Reason
 **Duration:** Sustained, up to 1 minute
 
-Choose a donor and recipient. On casting, and on each later upkeep, transfer up to 6 existing SP if both consent, or roll for 2/4/6 if either is unwilling. Use the donor's current reserve and recipient's missing SP as limits. The bridge ends if either moves beyond 6 squares of you. Your casting and upkeep costs remain separate.
+Choose a donor and recipient. On casting, and on each later upkeep, transfer up to 6 existing SP if both consent, or roll for 2/4/6 if either is unwilling. Use the donor's current reserve and recipient's missing SP as limits. The bridge ends if either moves beyond 6 squares of you. Pay the casting cost once. Each later transfer uses the Sustain Maneuver and costs 0 SP beyond the actual points transferred. Either conscious unwilling participant may spend a Main Action to sever the bridge using the printed hold and escape attributes. A successful escape ends the entire bridge; willing participants may end their participation with a Maneuver.

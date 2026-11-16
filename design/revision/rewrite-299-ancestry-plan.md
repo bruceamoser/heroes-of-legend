@@ -1,5 +1,7 @@
 # Ancestry characteristics: first design pass for #299 / #301
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 **Status: proposed, November 15, 2026.** This document changes no live rules or catalog. Numerical changes and replacement effects below require the integrated rewrite review. The current published book and Workshop remain the playtest baseline until that review. This is an exhaustive proposal for fifty existing trait IDs, not fifty additional choices.
 
 Tracking: [rewrite #299](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/299), [traits/signatures #301](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/301). Evidence: [the fifty-trait Workshop audit](https://github.com/bruceamoser/heroes-of-legend-foundry/blob/main/Build-Offs/ancestry-trait-review.md), current [ancestry procedures](../rules/ancestry-procedures.md), [vision](../rules/vision.md), and individual source files linked below. The earlier audit describes compatibility before #299; its old branch/combined-ability summary is not the new progression proposal.

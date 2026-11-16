@@ -1,16 +1,16 @@
 # Long Reach
 
-*You can interact with objects and use non-attack touch abilities at a range of 2 squares.*
+*Your long arms let you interact with objects and use non-attack touch abilities within 2 squares, paying their ordinary action costs.*
 
 ## Rules
 
-You can interact with objects and use [non-attack touch abilities](../rules/ancestry-procedures.md) at a range of 2 squares.
+Your long arms let you interact with objects and use non-attack touch abilities within 2 squares, paying their ordinary action costs.
 
-**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
+Attack range still comes from the attack. Borrowing this trait gives you unusually long arms while retaining your ancestry Size.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-tallfolk-long-reach
 

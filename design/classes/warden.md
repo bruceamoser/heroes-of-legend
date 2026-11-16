@@ -4,17 +4,27 @@
 
 ## Rules
 
-**Agreed concept:** wilderness guide, tracker and hunter. Nature magic and animal companions are optional shared purchases, not required class features.
+**Attributes:** Minimum 0 in Fortitude, Knowledge. **HP contribution:** +2 at level 1 and per level thereafter.
 
-**Class foundations:** minimum 0 in Fortitude and Knowledge; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
+**Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
-**Starting SP contribution:** +3 maximum SP once, at level 1.
+**Starting disciplines:** Choose one of Wilderness, Marksmanship, Arms, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Starting disciplines:** choose two distinct disciplines from Wilderness, Marksmanship, Arms, Athletics.
+**Learning costs:** **1 DP:** Marksmanship, Wilderness. **2 DP:** Arms, Athletics, Life, Divination. **3 DP:** Armor, Guard, Subterfuge, Medicine, Craft, Scholarship, Influence, Elements, Mentalism, Invocation, Force, Wards, Spellcraft.
 
-**Learning costs:** Discipline access costs 1 DP for every class. Learned steps cost 1/2/2/3 DP; the last requires level 3. Combined abilities require level 7 and cost 3/4/5 DP for two/three/four disciplines.
+These prices begin study in an additional discipline. Each learned path or spellbook prints its own costs and requirements. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence, with their fourth entry available at level 3 and seventh at level 7.
 
-Choose one class-exclusive signature at levels 1, 3 and 7. Each milestone grants one signature; additional signatures are not purchased separately. Requirements are class and minimum level only; no discipline or earlier signature is required.
+## Signature development
+
+Choose one signature at each of levels 1, 3 and 7. Each milestone grants one choice without spending DP. At level 3 or 7, deepen a signature you know or begin another line at that milestone. Each higher choice includes its line’s foundation. A level-7 choice includes its level-3 improvement only if you chose that improvement at level 3. Record one current version of each line, with its learned improvements together.
+
+You may switch signatures under the ordinary retraining rules. Review dependent choices together so each resulting line reflects the milestones you selected. Your class determines these choices; this does not grant a second class.
+
+| Signature line | Level 1 | Level 3 | Level 7 |
+|---|---|---|---|
+| Steady Aim | [Steady Aim](../cards/signature-warden-keep-the-quarry-close.md) | [Volley](../cards/signature-warden-stay-on-the-scent.md) | [Mark the Quarry](../cards/signature-warden-turn-the-hunt.md) |
+| Beast Speech | [Beast Speech](../cards/signature-warden-read-the-passing.md) | [Wild Partnership](../cards/signature-warden-wild-partnership.md) | [Call the Wild](../cards/signature-warden-bring-them-through.md) |
+| Twin Strike | [Twin Strike](../cards/signature-warden-follow-my-footsteps.md) | [Through Bramble](../cards/signature-warden-through-bramble.md) | [Death from the Blind Spot](../cards/signature-warden-know-what-you-hunt.md) |
 
 ## Level 1 choices
 
@@ -25,25 +35,13 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Each milestone grants
 ## Level 3 choices
 
 - [Volley](../cards/signature-warden-stay-on-the-scent.md)
-- [Entangling Growth](../cards/signature-warden-through-bramble-and-stone.md)
-- [The Green Spear](../cards/signature-warden-a-watchful-rest.md)
+- [Wild Partnership](../cards/signature-warden-wild-partnership.md)
+- [Through Bramble](../cards/signature-warden-through-bramble.md)
 
 ## Level 7 choices
 
 - [Mark the Quarry](../cards/signature-warden-turn-the-hunt.md)
 - [Call the Wild](../cards/signature-warden-bring-them-through.md)
 - [Death from the Blind Spot](../cards/signature-warden-know-what-you-hunt.md)
-
-## The character at the table
-
-A marksman owns the range, a wildcaller owns the land, and a stalker owns the
-distance between the two. All three remain available at each milestone; there are
-no locked subclasses.
-
-Fortitude and Knowledge express endurance and understanding. Agility remains
-valuable to an archer and a dual-wielder, but the class does not demand one weapon
-or one attack attribute. +4 HP places its contribution beside Blade and Leader,
-below Protector and Unbalanced.
-
 
 **Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).

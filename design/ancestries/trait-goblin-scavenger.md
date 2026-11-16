@@ -1,16 +1,14 @@
 # Waste Nothing
 
-*Gain 1 Boon to Knowledge rolls to repair an ordinary item using salvaged parts or recover usable materials from damaged equipment, using suitable tools.*
+*You spot sound parts inside a broken whole.*
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls to repair an ordinary item using salvaged parts or recover usable materials from damaged equipment, using suitable tools.
+You spot sound parts inside a broken whole. Gain 1 Boon to Knowledge rolls to repair ordinary equipment with salvaged parts or recover usable materials, using suitable tools.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-goblin-scavenger
 

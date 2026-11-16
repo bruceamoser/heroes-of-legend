@@ -14,7 +14,7 @@ For example, a Tallfolk with Long Reach can pick up a key 2 squares away with a 
 
 When the defender rolls, apply defense Boons and Banes to that defense roll. When a player-controlled attacker makes the roll instead, each applicable defense Boon becomes 1 Bane to the attack, and each applicable defense Bane becomes 1 Boon to the attack. Combine those with the attacker’s own Boons and Banes normally.
 
-For example, Small Target gives a gnome 1 Boon to defense rolls. Against an attack rolled by another player, that benefit instead supplies 1 Bane to the attacker’s roll.
+For example, Small Target gives a gnome 1 additional defense Boon against a ranged attack when the gnome already benefits from cover. Against an attack rolled by another player, that same covered ranged attack instead receives 1 Bane to the attacker’s roll.
 
 ## Oath-Bound recovery
 

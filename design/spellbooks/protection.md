@@ -9,7 +9,7 @@ Protect an individual creature or object.
 | Page | Spell | SP | Section |
 |---|---|---:|---|
 | 1 | Sacred Flame | 0 | I |
-| 2 | Shield | 1 | I |
+| 2 | Shield | 0 | I |
 | 3 | Mage Armor | 1 | II |
 | 4 | Bladeturn | 2 | II |
 | 5 | Protection from Evil and Good | 2 | III |
@@ -29,6 +29,7 @@ Protect an individual creature or object.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One creature within 8 squares
 **Duration:** Instant
 
@@ -38,13 +39,13 @@ Call a descending spark of sacred light. Deal 2/3/5 radiant damage.
 
 **ID:** spell:protection:2
 **Page:** 2
-**Action:** Reaction · before you roll a defense against a visible attack
-**SP:** 1
+**Action:** Reaction · before the roll for an attack your magical shield can block
+**SP:** 0
 **Attribute:** None
 **Target / range:** Self
-**Duration:** The triggering defense
+**Duration:** Until the start of your next turn
 
-Raise a translucent shield. Gain 1 Boon to the defense, then reduce the attack's damage by 1 after resistance, minimum 1.
+Raise a translucent shield in a free hand. Declare this Reaction before the roll for an attack the shield could block; the DA judges its coverage as for an ordinary shield. While keeping that hand available until your next turn starts, gain 1 Boon on defenses against attacks it can block. If an attacker rolls instead, apply 1 Bane to that roll. Shield and Shield Block supply the same shield benefit: use it once, while combining Defend and other modifiers normally. Ending the spell frees the hand. This Reaction casting does not provoke an opportunity attack.
 
 ### Mage Armor
 
@@ -53,10 +54,10 @@ Raise a translucent shield. Gain 1 Boon to the defense, then reduce the attack's
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
-**Duration:** 1 hour
+**Target / range:** Self
+**Duration:** 8 hours
 
-Clothe the recipient in a protective magical outline. Grant physical resistance 1, using the highest matching resistance.
+Clothe yourself in a protective magical outline. Gain physical resistance 1, using the highest matching resistance. The armor persists for eight hours without Sustain.
 
 ### Bladeturn
 
@@ -90,7 +91,7 @@ Ward the recipient against summoned forms, undead and spirits. It gains 1 Boon t
 **SP:** 3
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Choose fire, cold, lightning or poison. Grant resistance 2 to that type for the duration, using the highest matching resistance.
 
@@ -126,7 +127,7 @@ Bind your protection to the recipient. When an attack would damage it, you may s
 **SP:** 5
 **Attribute:** None
 **Target / range:** Self and willing creatures within 2 squares of you
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Raise a shimmering globe centered on you. Protected creatures gain 1 Boon to defenses against spells and resistance 2 to spell damage. Apply the highest matching resistance. The protection moves with you.
 
@@ -149,7 +150,8 @@ Veil its thoughts. Grant mental resistance 3 and 2 Boons to defenses against men
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Six connected unoccupied squares within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Raise a luminous wall 2 squares high that blocks sight. Roll on casting to set radiant damage at 4/6/8. A creature crossing it takes that damage and Slowed 2, once per creature each round. The caster can end the wall with a Maneuver.

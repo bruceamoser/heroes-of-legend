@@ -1,6 +1,6 @@
 # Grab and Hurl
 
-*Choose one adjacent creature your size or smaller. Make a Brawn roll against the target. On a Standard result, throw it up to 2 squares in a direction you choose. It lands Prone.*
+*Your hands turn bodies and momentum into weapons.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ Make a Brawn roll against the target. Weak: it has Grappled 1. Standard: throw i
 
 **Equipment / acquisition:** None.
 
+Requires a free hand and a target your Size or smaller. A control-only Weak result deals no damage; it does not acquire an attack damage minimum.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control / Movement
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-unbalanced-laugh-at-the-fall
 

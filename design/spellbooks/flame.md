@@ -29,6 +29,7 @@ Heat, ignition and controlled fire.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One creature within 8 squares
 **Duration:** Instant
 
@@ -53,6 +54,7 @@ Bring its liquid to a rolling boil. The liquid then cools naturally; handle it w
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature in a 3-square cone from you
 **Duration:** Instant
 
@@ -65,10 +67,11 @@ Sweep your hands outward in a fan of flame. Deal 2/3/5 fire damage to each creat
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Knowledge
+**Defense:** Fortitude
 **Target / range:** One visible metal item worn or held within 6 squares
 **Duration:** Sustained, up to 1 minute
 
-Heat the item until it glows. Its wearer or holder takes 2/3/5 fire damage when cast. Each later round you sustain it, roll again and deal the same damage if it is still touching a creature. A holder may drop it immediately after damage; worn items take their normal removal time.
+Heat the item until it glows. Its wearer or holder takes 2/3/5 fire damage when cast. Each later upkeep deals 1 fire damage to a creature still touching the item; this continuing heat is not an attack and resistance can reduce it to 0. A holder may drop it immediately after damage. Worn items take their normal removal time. The heat ends when Sustain ends.
 
 ### Scorching Ray
 
@@ -77,6 +80,7 @@ Heat the item until it glows. Its wearer or holder takes 2/3/5 fire damage when 
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Up to three creatures within 8 squares
 **Duration:** Instant
 
@@ -89,10 +93,11 @@ Loose three fiery rays. Roll once for a shared total of 4/6/9 fire damage. Divid
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** A line of six connected unoccupied squares within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Raise a wall of flame 2 squares high. Roll when cast to set its fire damage at 3/5/7. A creature takes that damage the first time each round it enters the wall or ends its turn there. Treat each creature once per round across all squares of this wall.
+Raise a wall of flame 2 squares high. Roll when cast to set its fire damage at 3/5/7. A creature takes that damage the first time each round it enters the wall or ends its turn there. Treat each creature once per round across all squares of this wall. Keep one Wall of Fire active; casting another ends the first.
 
 ### Fireball
 
@@ -101,6 +106,7 @@ Raise a wall of flame 2 squares high. Roll when cast to set its fire damage at 3
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature in a 2-square-radius burst centered within 10 squares
 **Duration:** Instant
 
@@ -125,6 +131,7 @@ Wreathe yourself in protective heat. Gain cold resistance 2. A creature that dam
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature in up to six connected squares within 10 squares
 **Duration:** Instant
 
@@ -137,6 +144,7 @@ Trace a winding furnace across the battlefield. Deal 4/7/10 fire damage to each 
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One visible point within 10 squares; 2-square-radius burst
 **Duration:** Sustained, up to 3 rounds
 
@@ -149,7 +157,8 @@ Place a glowing bead at the point. On casting, or after a later upkeep, you may 
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** A 2-square-radius cloud centered within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Fill the area with opaque, burning smoke. Roll when cast to set fire damage at 3/5/7. Creatures in it immediately take that damage. Thereafter a creature takes it on first entering or ending its turn there, at most once each round. Each upkeep may move the cloud's center up to 2 squares.
+Fill the area with opaque, burning smoke. Roll when cast to set fire damage at 3/5/7. Creatures in it immediately take that damage. Thereafter a creature takes it on first entering or ending its turn there, at most once each round including the casting event. A Maneuver can move the cloud’s center up to 2 squares; entering a creature’s square counts as that creature entering the cloud. The cloud remains in place without that Maneuver. Keep one Incendiary Cloud active; casting another ends the first.

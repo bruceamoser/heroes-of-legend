@@ -28,7 +28,7 @@ lists the actions any hero can use.
 | Damage defenses | Remove immune types. Use highest matching resistance, cap 3. Attacks have a minimum of 1 if any damage survives immunity. |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Maximum SP, level 1+ | 6 + 2 × (level − 1) + learned capacity and explicit benefits |
+| Maximum SP, level 1+ | Ancestry + 1 culture + 1 background + 2 × positive class mental attribute + 2 × (level − 1) + learned capacity and explicit benefits |
 | Healing spell cost | Printed spell cost; pay before resolving |
 | Potion | Spend a Maneuver with a free hand. An unconscious or restrained recipient counts as willing. Another recipient spends a Reaction if conscious and above 0 HP. |
 | Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
@@ -65,10 +65,9 @@ may measure severity, duration or both.
 
 **DA.** Dungeon Architect, the participant who presents and adjudicates the world.
 
-**Discipline.** A field opening four learning paths. Spend 1 DP to begin studying it, then learn the entries of your chosen path. Learn each path in order at 1/2/2/3 DP; its final step requires level 3.
+**Discipline.** A field of study with four paths or spellbooks. Your culture, background and class each supply one starting discipline. An additional discipline costs the 1, 2 or 3 DP printed for your class.
 
-**DP.** Development Points, spent to study disciplines and learn entries. Level-0 and level-1
-pools expire separately; later awards may be saved.
+**DP.** Development Points, spent to study disciplines and learn entries. Start with 8 + Guile + Knowledge + Reason, plus explicit benefits. Gain 4 + the new level at each later level. Save unspent points.
 
 **DR.** Damage reduction. Armor DR is physical resistance, applied after the attack outcome.
 
@@ -114,7 +113,9 @@ Life resistance also reduces magical healing and potions.
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Learning.** Begin paths at level 0 and learn their final entries from level 3. From level 7, learn a combined ability after completing its named paths. Spend 3/4/5 DP for two/three/four disciplines.
+**Learning.** Follow each path in order. Nonmagical paths cost 1/2/2/3/4/4/5 DP: three beginning entries, three level-3 entries, then a level-7 mastery. Spellbooks retain four sections costing 1/2/2/3 DP; their fourth section requires level 3. Master spells follow the named book at level 7.
+
+**Sustain.** A Maneuver costing 0 SP. Sustain one spell at a time, as its text directs. A fixed duration continues for its stated time; moving a directed effect uses its printed action.
 
 **Scar.** A descriptive reminder of surviving an incident at 0 HP; no mechanical penalties or treatment track.
 

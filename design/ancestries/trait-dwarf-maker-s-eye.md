@@ -1,14 +1,14 @@
 # An Honest Maker’s Hand
 
-*Once per day, improve a Weak crafting or repair roll to Standard, or a Standard result to Strong.*
+*You inspect and correct every small flaw rather than letting nearly right suffice.*
 
 ## Rules
 
-Once per day, after you make a roll to craft or repair an item, you may improve the result by one step: Weak becomes Standard, or Standard becomes Strong. A Strong result is unchanged.
+You inspect and correct every small flaw rather than letting nearly right suffice. Once between safe overnight rests, after a crafting or repair roll, improve it one step by committing the task’s ordinary duration again to reworking the result: Weak to Standard or Standard to Strong. The improved result arrives when that extra work is complete.
 
-**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Hill Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-dwarf-maker-s-eye
 

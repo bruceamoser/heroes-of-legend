@@ -1,16 +1,14 @@
 # A Hand on the Rudder
 
-*Gain 1 Boon to Agility rolls when you call upon your oath holder.*
+*A gentle unseen pressure guides your balance when the ground betrays you.*
 
 ## Rules
 
-Gain 1 Boon to Agility rolls when you call upon your oath holder.
+A gentle unseen pressure guides your balance when the ground betrays you. Gain 1 Boon to Agility rolls to keep your balance or catch yourself during a fall.
 
-**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Oath-Bound · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-oath-bound-neither-here-nor-there
 

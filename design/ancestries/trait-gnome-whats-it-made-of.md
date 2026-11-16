@@ -1,16 +1,16 @@
 # What’s It Made Of?
 
-*Gain 1 Boon to Knowledge rolls to understand the construction, function or failure of a mechanism or manufactured mixture.*
+*You learn how a thing works by opening it.*
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls to understand the construction, function or failure of a mechanism or manufactured mixture.
+You learn how a thing works by opening it. After 1 minute opening or partly disassembling a mechanism with suitable tools, gain 1 Boon to Knowledge rolls to understand its construction, function or failure.
 
-**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive.
+The opened mechanism remains unusable until you spend 1 minute reassembling it. The DA describes any apparent danger before you dismantle it.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Gnome · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-gnome-whats-it-made-of
 

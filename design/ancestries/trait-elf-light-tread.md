@@ -1,14 +1,14 @@
 # Footfall on the Leaves
 
-*Ignore difficult terrain and gain 1 Speed in wooded terrain.*
+*Your steps find gaps among roots and brush.*
 
 ## Rules
 
-In woodlands and forests, you ignore difficult terrain. This includes difficult terrain caused by natural terrain or obstacles, such as roots, undergrowth, fallen leaves and uneven natural ground. Your Speed increases by 1 while you are in woodlands, forests or similar wooded terrain.
+Your steps find gaps among roots and brush. Ignore movement surcharges from natural undergrowth, roots and loose forest ground, and gain 1 Speed in wooded terrain.
 
-**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Wood Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-elf-light-tread
 

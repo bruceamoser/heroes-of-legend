@@ -16,28 +16,27 @@ goal or reach a significant turning point. A negotiated settlement can qualify
 just as well as a battle. Tell the group what kind of progress you intend to
 recognize so they do not feel required to seek unnecessary fights.
 
-The DA awards milestone levels. From level 2 onward, gain 8 + the new level in DP. Save these points or spend them when the DA judges you are somewhere safe. Add your ancestry and class contributions to maximum HP. If you have positive HP, add the same amount to current HP. At 0 HP, increase only your maximum.
+Create heroes at level 1 in one process: ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 8 + Guile + Knowledge + Reason, plus explicit benefits.
 
-At level 3, final branch abilities become available; gain 1 Grit and choose one level-3 class signature. At level 7, combined abilities become available; gain 1 Grit and choose one level-7 class signature. At other levels, gain the DP, HP and SP listed below.
+The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
 
-| New level | DP | Other milestone |
+| New level | DP gained | Other development |
 |---|---:|---|
-| 2 | 10 | HP and +2 SP growth |
-| 3 | 11 | HP and +2 SP growth; final path entries; one signature; 1 Grit |
-| 4 | 12 | HP and +2 SP growth |
-| 5 | 13 | HP and +2 SP growth |
-| 6 | 14 | HP and +2 SP growth |
-| 7 | 15 | HP and +2 SP growth; combined abilities; one signature; 1 Grit |
-| 8 | 16 | HP and +2 SP growth |
-| 9 | 17 | HP and +2 SP growth |
-| 10 | 18 | HP and +2 SP growth |
+| 2 | 6 | HP growth; +2 maximum SP |
+| 3 | 7 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
+| 4 | 8 | HP growth; +2 maximum SP |
+| 5 | 9 | HP growth; +2 maximum SP |
+| 6 | 10 | HP growth; +2 maximum SP |
+| 7 | 11 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
+| 8 | 12 | HP growth; +2 maximum SP |
+| 9 | 13 | HP growth; +2 maximum SP |
+| 10 | 14 | HP growth; +2 maximum SP |
 
-Record what you learned, including spellbook pages, and how much DP remains. You can use any learned entry when you meet its requirements.
+Record what you learned and the DP spent. The only later learning gates are levels 3 and 7; reaching a gate makes its studies available while their sequential requirements and prices still apply.
 
+An additional discipline costs the 1, 2 or 3 DP printed for the hero’s class. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence: the first three entries establish and improve a capability, the next three develop its level-3 ability, and the last grants mastery at level 7. Spellbook sections cost 1/2/2/3 DP, with their final section at level 3. Master spells require their named book’s final section and level 7.
 
-From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. These gains enlarge the reserve; they do not restore spent SP. Safe overnight rest restores the full reserve.
-
-Beginning a discipline costs 1 DP. Its path entries cost 1/2/2/3 DP in order. The final entry requires level 3. At level 7, a hero can learn combined abilities after completing the listed paths. The cost is 3/4/5 DP for two/three/four disciplines.
+Your SP reserve is separate from HP. Add your ancestry’s SP contribution, **1 from culture**, **1 from background**, and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add learned capacity and explicit benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 
 ## Safe places and downtime
 
@@ -98,8 +97,7 @@ A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
 their controller's SP and cannot receive healing. A safe overnight rest restores
 all SP. A hero with [Spellcraft Recovery](../../disciplines/spellcraft.md#recovery)
 can also spend one uninterrupted hour in safety resting, meditating, or enjoying
-quiet leisure. Once between safe overnight rests, this restores 1, 2, 3, or 4 SP
-in total for Recovery I, II, III, or IV respectively, up to the hero's maximum.
+quiet leisure. Once between safe overnight rests, this restores 1/2/3/4/6/8/12 SP across the seven steps, up to the hero’s maximum. Perfect Repose shortens this single pause to 30 minutes. Learning an improvement after using the pause does not grant another use.
 
 ## Scars and a hero's death
 

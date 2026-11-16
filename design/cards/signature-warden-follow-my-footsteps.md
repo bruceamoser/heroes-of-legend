@@ -1,6 +1,6 @@
 # Twin Strike
 
-*Choose one or two creatures within reach. Requires two light melee weapons, one in each hand. Make one attack with each weapon. Each attack uses your normal attack procedure and deals 1 physical damage on Weak, 2 on Standard, 3 on Strong. You can target the same creature with both attacks or one creature with each. After the attacks, gain 1 Boon to defense until the start of your next turn.*
+*Your paired weapons move like branches in a sudden wind.*
 
 ## Rules
 
@@ -20,9 +20,9 @@ Requires two light melee weapons, one in each hand. Make one attack with each we
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Defense
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-warden-follow-my-footsteps
 

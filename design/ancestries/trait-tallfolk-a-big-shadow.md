@@ -1,16 +1,14 @@
 # A Big Shadow
 
-*Gain 1 Boon to Guile rolls to overawe or draw attention through your physical presence.*
+*You know how to make your physical presence fill a room.*
 
 ## Rules
 
-Gain 1 Boon to Guile rolls to overawe or draw attention through your physical presence.
+You know how to make your physical presence fill a room. Gain 1 Boon to Guile rolls to overawe or deliberately draw attention through that presence.
 
-**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Tallfolk · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-tallfolk-a-big-shadow
 

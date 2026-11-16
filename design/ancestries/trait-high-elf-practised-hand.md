@@ -1,16 +1,14 @@
 # The Practised Hand
 
-*Gain 1 Boon to Knowledge rolls for crafting work.*
+*Your steady hands can settle each small part precisely.*
 
 ## Rules
 
-Gain 1 Boon to Knowledge rolls for crafting work. You must have suitable tools and take the ordinary time the work requires.
+Your steady hands can settle each small part precisely. When you choose to work at half your ordinary crafting pace, gain 1 Boon to Knowledge rolls for that work, with suitable tools.
 
-**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-high-elf-practised-hand
 

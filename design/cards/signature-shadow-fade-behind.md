@@ -1,6 +1,6 @@
 # Fade Behind
 
-*Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed, provided you have cover or obscurement. You still make the ordinary Hide attempt. If you succeed, you are Hidden until you attack, are revealed, or the concealment ends.*
+*You leave danger looking at the place where you used to stand.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ Disengage. Then attempt to Hide with 1 Boon, even if you are currently observed,
 
 **Equipment / acquisition:** None.
 
+**Frequency:** Once on your turn.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Movement / Utility
+**Tags:** Skill / Signature
 
-**Limits:** Once on your turn.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shadow-fade-behind
 

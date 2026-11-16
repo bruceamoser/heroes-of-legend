@@ -16,3 +16,7 @@ navigation, not a competing set of provisional rulings.
 
 New design questions belong in a new issue and require Bruce’s review. Encounter
 calibration remains playtest work; see [further work](../open-decisions.md).
+
+## November 16 rewrite
+
+Creation now uses one level-1 process, three distinct starting disciplines and 8 + Guile + Knowledge + Reason DP. Later awards are 4 + the new level. Nonmagical seven-step paths cost 1/2/2/3/4/4/5 DP with gates 1/1/1/3/3/3/7; spellbook sections retain 1/2/2/3 DP. Class-priced additional disciplines, signature development, revised ancestry traits and explicit spell-control attributes are implemented in the canonical sources. See [rewrite record](../revision/rewrite-299.md).

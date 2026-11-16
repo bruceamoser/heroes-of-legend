@@ -6,13 +6,12 @@
 
 ## Rules
 
-Choose one:
+**Type:** Background.
 
-- **Elements access** and [Flame I](../spellbooks/flame.md).
-- **Mentalism access** and [Thought I](../spellbooks/thought.md).
+**Discipline choices:** Elements, Mentalism.
 
-**Type:** Background
+Begin studying one of these disciplines. Choose a different discipline from each of your culture, background and class; together they give you three starting fields of study. Spend your starting DP on the abilities or spellbook sections you want to learn.
 
-Each option grants discipline access and its named first learned entry. Each duplicate grant gives 1 DP for this creation stage; it never advances a path automatically. Equipment is not granted unless explicitly stated.
+**Starting SP contribution:** +1 maximum SP.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

@@ -10,7 +10,7 @@ Their origins and communities belong to the campaign. They need no named giant a
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +3 at creation and per level; base Speed 6.
 
@@ -20,6 +20,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [Built for the Weather](trait-tallfolk-built-for-the-weather.md) — You pull your collar closed and keep pace through the driving sleet.
 - [Long Stride](trait-tallfolk-you-take-the-blow.md) — You cross the courtyard in a few easy strides while your companions hurry to keep pace.
 
-**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +0 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).

@@ -235,7 +235,7 @@
       for cut in range(cursor,end+1) {
         let a = heights.slice(cursor,cut).sum(default:0pt)
         let b = heights.slice(cut,end).sum(default:0pt)
-        if a <= available and b <= available and calc.abs(a - b) < best-gap {
+        if a <= available and b <= available and calc.abs(a - b) <= best-gap {
           best = cut; best-gap = calc.abs(a - b)
         }
       }

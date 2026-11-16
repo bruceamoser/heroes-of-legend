@@ -42,7 +42,7 @@ See clearly in dim light within 6 squares. In complete darkness, perceive only s
 **SP:** 1
 **Attribute:** None
 **Target / range:** One visible point within 12 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Place an invisible stationary sensor. Choose sight or hearing when casting; spend a Main Action to use that sense from the sensor until your next turn starts. Your own corresponding sense is occupied during that interval.
 
@@ -78,9 +78,9 @@ Sense its direction and whether it is moving closer or farther away. You need a 
 **SP:** 2
 **Attribute:** None
 **Target / range:** One sensor initially within 3 squares; remains within 12 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Create a tiny visible glimmering eye. Each upkeep moves it up to 4 squares through open passages. Spend a Main Action to see from it until your next turn begins. The sensor has 1 HP and uses your Agility for player-rolled defenses.
+Create a tiny visible glimmering eye. A Maneuver moves it up to 4 squares through open passages; otherwise it stays in place. Spend a Main Action to see from it until your next turn begins. The sensor has 1 HP and uses your Agility for player-rolled defenses.
 
 ### Scrying
 

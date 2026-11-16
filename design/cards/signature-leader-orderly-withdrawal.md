@@ -1,22 +1,38 @@
 # Lead by Example
 
-*Make a Guile melee attack. On a Standard or Strong result, choose effects that Daze your target, let allies move, or set up their next attacks.*
+*You show the way through danger with your own movement.*
 
 ## Rules
+
+### Lead the Way
+
+**Action:** Maneuver · **Attribute:** None (no roll)
+
+**Target / range / shape:** Self; any willing allies within 3 squares who can see or hear you.
+
+When you move using your Speed, any willing ally within 3 squares who can see or hear you may move with you at the same time, following your path, up to the distance you move, to a maximum of 2 squares. An ally who comes within 3 squares during your movement may join for the remainder of that movement. The allies spend no movement. This movement follows normal opportunity attack rules.
+
+**Duration:** During your movement.
+
+**Equipment / acquisition:** None.
+
+Spend the Maneuver before beginning the linked movement. Allies follow legal routes along your path and end in separate legal squares.
+
+**Frequency:** Once on your turn.
+
+### Lead by Example
 
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One creature within reach of your melee weapon.
 
-Make a melee weapon attack using Guile instead of Brawn. On a Weak result, deal 2 physical damage. On a Standard result, deal 4 physical damage and choose one effect. On a Strong result, deal 6 physical damage and choose two different effects.
+Attack with Guile: deal 2/4/6 physical damage on Weak/Standard/Strong. On Standard or Strong, each ally within 5 squares that can see or hear you may step 1 square without provoking. On Strong, those allies also gain 1 Boon to their next attack against the target before the start of your next turn.
 
-- Break Their Guard: The target gains Dazed 1.
-- Open the Line: Each ally within 5 squares who can see or hear you may move 1 square without provoking.
-- Point the Way: Each ally within 5 squares who can see or hear you gains 1 Boon to their next attack against the target.
+**Duration:** Attack and steps immediate; Boons until used or your next turn.
 
-**Duration:** Immediate attack. Dazed uses normal decay; each Boon expires when used or at the start of your next turn.
+**Equipment / acquisition:** A ready melee weapon.
 
-**Equipment / acquisition:** None.
+**Frequency:** Once on your turn.
 
 ---
 
@@ -24,9 +40,9 @@ Make a melee weapon attack using Guile instead of Brawn. On a Weak result, deal 
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control / Support
+**Tags:** Skill / Signature
 
-**Limits:** Once on your turn.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-leader-orderly-withdrawal
 

@@ -6,11 +6,12 @@
 
 ## Rules
 
-**Type:** Background. **Status:** Proposal. Choose one paired option; take the access and first entry together.
+**Type:** Background.
 
-- **Craft access** and [Mend and Fit I](../disciplines/craft.md).
-- **Athletics access** and [Sure Ascent I](../disciplines/athletics.md).
+**Discipline choices:** Craft, Athletics.
 
-Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
+Begin studying one of these disciplines. Choose a different discipline from each of your culture, background and class; together they give you three starting fields of study. Spend your starting DP on the abilities or spellbook sections you want to learn.
+
+**Starting SP contribution:** +1 maximum SP.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

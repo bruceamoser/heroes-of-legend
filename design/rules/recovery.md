@@ -6,11 +6,7 @@ endurance fails. Scars remember what happened after the numbers recover.
 
 ## HP and growing endurance
 
-At level 0, maximum HP is **10 + ancestry HP contribution + Fortitude + explicit
-HP benefits**. At level 1, add your class HP contribution. At every level after
-1, add your ancestry and class HP contributions again. Each contribution is 1,
-2 or 3; record their sum as your HP gain per level. Fortitude and fixed benefits
-are added once, not multiplied by level.
+At level 1, maximum HP is **10 + ancestry HP contribution + class HP contribution + Fortitude + explicit HP benefits**. At every later level, add the ancestry and class contributions again. Each contribution is 1, 2 or 3; record their sum as your HP gain per level. Fortitude and fixed benefits apply once.
 
 For level 1 or higher: **maximum HP = 10 + level × (ancestry + class HP
 contributions) + Fortitude + explicit HP benefits**. On gaining a level, increase
@@ -138,10 +134,7 @@ their source.
 
 ## Magical healing and spell points
 
-Your SP reserve is separate from HP. Add **1 SP from ancestry, 1 from culture,
-1 from background and 3 from class**: 3 maximum SP at level 0, 6 at level 1, before
-explicit improvements. These starting contributions are added once. From level 2 onward, gain **2 maximum SP each level**. At level 1 and later, maximum SP is **6 + 2 × (level − 1) + learned capacity and other explicit benefits**. Track current SP separately from this maximum. A safe overnight rest fills
-the reserve. Learned recovery follows its own timing.
+Your SP reserve is separate from HP. Add your ancestry’s SP contribution, **1 from culture**, **1 from background**, and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add learned capacity and explicit benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 
 Healing magic spends the caster's printed **SP cost before resolution**, whether
 used in battle or during quiet time. Keep a free hand and follow the spell's range. Cast as often as you have the

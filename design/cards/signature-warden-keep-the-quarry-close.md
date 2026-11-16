@@ -1,6 +1,6 @@
 # Steady Aim
 
-*One visible creature. Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you make against that creature and ignore partial cover from it.*
+*You follow the quarry with patient eyes and a ready shot.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you 
 
 **Equipment / acquisition:** A ranged weapon and ammunition.
 
+The benefit ends when you aim at another target or the scene ends. You must still perceive your target to attack it.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Warden; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Attack
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-warden-keep-the-quarry-close
 

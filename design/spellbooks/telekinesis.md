@@ -29,6 +29,7 @@ Move objects through directed force.
 **Action:** Main Action
 **SP:** 0
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One creature within 8 squares
 **Duration:** Instant
 
@@ -53,6 +54,7 @@ A spectral hand lifts and moves the object up to 2 squares, or opens one unlocke
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Up to three creatures within 8 squares
 **Duration:** Instant
 
@@ -65,10 +67,13 @@ Send luminous darts along clear paths. Roll once for a shared total of 3/5/7 for
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Knowledge
+**Defense:** Brawn
 **Target / range:** One creature within 6 squares
-**Duration:** Instant; conditions decay normally
+**Hold attribute:** Knowledge
+**Escape attribute:** Brawn
+**Duration:** Sustained, up to 1 minute
 
-Invisible pressure pins the target's movement. Apply Slowed 1/2/3. On Strong, you can also Slide it 1 square to a visible, supported square. Apply Stability to the Slide.
+Invisible pressure pins the target’s movement. Apply Slowed 1/2/3. On Strong, also Slide it 1 square to a visible supported square, applying Stability. Each upkeep renews the original Slowed rating without another Slide. A conscious target may spend a Main Action to escape using the printed attributes. Escape or ending Sustain removes this casting’s Slowed.
 
 ### Levitate — Objects
 
@@ -89,6 +94,7 @@ Lift it up to 3 squares from its supporting surface. Each upkeep moves it up to 
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature and unattended fragile object in a 1-square-radius burst within 6 squares
 **Duration:** Instant
 
@@ -101,6 +107,7 @@ Sound a sharp resonant crack. Deal 3/5/7 force damage. Ordinary unattended glass
 **Action:** Main Action
 **SP:** 3
 **Attribute:** Knowledge
+**Defense:** Brawn
 **Target / range:** One creature or unattended object within 6 squares
 **Duration:** Instant
 
@@ -114,7 +121,7 @@ Move a creature 1/2/3 squares toward a visible supported destination, applying S
 **SP:** 4
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Enclose it in a translucent sphere with 12 HP and resistance 2 to all damage. Attacks from outside strike the sphere; the recipient may roll it 1 square using its movement. Actions affecting the outside require leaving with a Maneuver. Destruction ends the sphere after that damage event.
 
@@ -126,7 +133,7 @@ Enclose it in a translucent sphere with 12 HP and resistance 2 to all damage. At
 **SP:** 5
 **Attribute:** None
 **Target / range:** Six connected unoccupied squares within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Raise a transparent force wall 2 squares high. It blocks physical passage and attacks across it. All sections share 18 HP and resistance 2 to all damage; attacks always deal at least 1. Destroying the wall opens all its squares.
 
@@ -137,6 +144,7 @@ Raise a transparent force wall 2 squares high. It blocks physical passage and at
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** One creature or unattended object within 8 squares
 **Duration:** Instant
 
@@ -149,6 +157,7 @@ A narrow beam deals 6/9/12 force damage. An unattended nonmagical object of Bulk
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Knowledge
+**Defense:** Agility
 **Target / range:** Every creature in a 2-square-radius area within 8 squares
 **Duration:** Until the end of your next turn
 

@@ -1,18 +1,20 @@
 # Study the Pattern
 
-*Choose one ongoing magical effect within 5 squares that you are aware of. Learn its origin and purpose, whether a creature or object sustains it, and its duration if it has one. You also become aware of how to end the effect if it is possible. Gain 1 Boon to your next roll using that information before the scene ends.*
+*Patterns in magic reveal their purpose to your patient scrutiny.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** Reason
 
-**Target / range / shape:** One ongoing magical effect within 5 squares that you are aware of.
+**Target / range / shape:** One known ongoing magical effect within 5 squares.
 
-Learn its origin and purpose, whether a creature or object sustains it, and its duration if it has one. You also become aware of how to end the effect if it is possible. Gain 1 Boon to your next roll using that information before the scene ends.
+**Magic:** Spell · **SP:** 0
 
-**Duration:** Information remains known; the Boon ends when used or the scene ends.
+Study the effect once per scene. Roll Reason and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, its remaining duration, and the category of its source (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.
 
-**Equipment / acquisition:** None.
+**Duration:** Facts remain known; the Boon expires when used or at scene end.
+
+**Equipment / acquisition:** A free hand for casting.
 
 ---
 
@@ -20,9 +22,9 @@ Learn its origin and purpose, whether a creature or object sustains it, and its 
 
 **Type:** Signature
 
-**Tags:** Magic / Utility
+**Tags:** Skill / Signature
 
-**Limits:** One Boon from a given effect per scene.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-arcanist-study-the-pattern
 

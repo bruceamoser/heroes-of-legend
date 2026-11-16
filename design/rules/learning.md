@@ -1,10 +1,14 @@
 # Learning and using disciplines
 
-A discipline offers four paths of practice. Spend 1 DP to begin studying it, then choose a path and learn its first ability. Within each path, learn the first ability, its two improvements and then its final ability, in that order. The four steps cost 1, 2, 2 and 3 DP. Each entry is learned once. Improvements remain active together and affect only the named ability. The final ability is separate unless it explicitly uses the earlier technique.
+Begin a discipline for the 1, 2 or 3 DP listed by your class, then choose a path. The three disciplines from culture, background and class are already yours to study. Within a nonmagical path, learn seven entries in order for **1/2/2/3/4/4/5 DP**. The first three are available at level 1, the next three at level 3, and mastery at level 7.
 
-You may learn disciplines and their first three steps during level-0 or level-1 development. The final ability requires character level 3. I names the first ability. II and III mark its improvements. Learning one path never requires learning another path in that discipline. Every hero can make basic attacks, speak, climb, search and help someone. Discipline paths develop those everyday capabilities into practiced techniques.
+I establishes an ability; II and III improve it. The level-3 major development has its own I, II and III, followed by a named mastery at level 7. Improvements remain active together. A replaced number is a new total; an added benefit works alongside the others. Learning one path requires only that path's preceding entries.
 
-When an improvement replaces a number, use the new total rather than adding both totals. For example, Driving Blow II pushes 2 squares instead of 1; Driving Blow III adds Dazed 1. On Strong, both the 2-square push and Dazed apply. There is no choice between them. Only explicit choices such as a destination or target remain.
+North develops a Main Action, west a Maneuver, east a Reaction, and south another distinctive part of the nonmagical discipline. A Reaction needs an observable trigger. Outside combat, use its printed limit per exchange, task or event rather than inventing rounds through a long activity. Work lasting minutes or hours keeps that actual duration.
+
+Magical disciplines retain their themed spellbooks, whose four sections cost 1/2/2/3 DP and teach the listed spells. Section IV requires level 3 and teaches all its listed ordinary and advanced spells together. Level-7 master spells require the final section of their named book and their own listed DP price. Spellcraft's capacity and recovery training follows its printed seven-step progression; Channeling remains a spellbook.
+
+Every hero can make basic attacks, speak, climb, search and help. Learned paths turn those everyday capabilities into practiced techniques. Gather required equipment and preparation as part of learning to use the technique.
 
 ## Common action rules
 
@@ -38,7 +42,7 @@ An exchange is one meaningful statement or response, normally about a minute out
 
 Completing an attainable objective earns the agreed concession, not control over the listener. It cannot override a player's decisions, invent consent, erase an enemy's motives or force an impossible bargain. Changed circumstances may require a new objective; the DA explains why existing progress no longer answers the problem. Unsupported claims may be inapplicable, but a permitted Weak roll still advances the objective.
 
-Example: a keeper needs assurance before opening a gate. The DA sets 6 progress to gain entry, requiring a credible reason and a guarantee against trouble. A Standard Make the Case II contributes 3. A companion presents a relevant letter and rolls Standard on an ordinary Reason contribution for 2. The first speaker adds a new offer and rolls Weak for 1: the gate opens under the agreed terms.
+Example: a keeper needs assurance before opening a gate. The DA sets 6 progress to gain entry, requiring a credible reason and a guarantee against trouble. A Standard learned appeal contributes 3. A companion presents a relevant letter and rolls Standard on an ordinary Reason contribution for 2. The first speaker adds a new offer and rolls Weak for 1: the gate opens under the agreed terms.
 
 ## Medicine and recovery
 

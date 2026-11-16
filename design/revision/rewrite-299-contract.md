@@ -1,5 +1,7 @@
 # Character progression rewrite — implementation contract
 
+> Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
+
 Date: November 15, 2026. Authority: Bruce's discussion after the thirteen trope Build-Offs, including his explicit authorization to begin the books and Workshop rewrite. Tracking: [source #1328](https://github.com/bruceamoser/heroes-of-legend/issues/1328), [delivery #299](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/299). This contract records approved direction and separates authoring choices from settled rules. It is not yet the replacement player manuscript or a claim of implementation.
 
 ## Delivery order and protected baseline

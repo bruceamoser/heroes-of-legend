@@ -10,7 +10,7 @@ A High Elf might be a laborer, a wanderer or a scholar. Strength and deliberatio
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +2 at creation and per level; base Speed 6.
 
@@ -20,6 +20,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [Measured Strength](trait-high-elf-name-that-opens-doors.md) — You set your feet, test the weight and lift without a wasted motion.
 - [The Weight of Centuries](trait-high-elf-weight-of-centuries.md) — You close your eyes, and the room returns as it stood a lifetime ago.
 
-**Starting coin contribution:** +2 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +2 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).

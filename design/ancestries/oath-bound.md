@@ -10,7 +10,7 @@ Life among other peoples gives them relationships, work and ambitions of their o
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +2 at creation and per level; base Speed 6.
 
@@ -22,6 +22,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [The Will That Made You](trait-oath-bound-bound-by-your-word.md) — Something in you remembers that your work is unfinished.
 - [A Hand on the Rudder](trait-oath-bound-neither-here-nor-there.md) — For a moment, the world is less bewildering and the next step feels clearer.
 
-**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +2 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

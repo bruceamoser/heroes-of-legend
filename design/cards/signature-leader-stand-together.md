@@ -1,16 +1,16 @@
 # Stand Together
 
-*Self and one adjacent willing ally. You and one adjacent willing ally each gain 2 Boons to defense until the start of your next turn while you remain adjacent.*
+*You give frightened companions a place to stand together.*
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** None (no roll)
+**Action:** Maneuver · **Attribute:** None
 
 **Target / range / shape:** Self and one adjacent willing ally.
 
-You and one adjacent willing ally each gain 2 Boons to defense until the start of your next turn while you remain adjacent.
+You and the ally gain 1 Boon to defense rolls while remaining adjacent, until the start of your next turn. Once per scene, before either recipient rolls one of these defenses, you may increase that defense’s benefit to 2 Boons, without an additional action.
 
-**Duration:** Until the start of your next turn or adjacency is lost.
+**Duration:** Until your next turn or adjacency is lost.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ You and one adjacent willing ally each gain 2 Boons to defense until the start o
 
 **Type:** Signature
 
-**Tags:** Skill / Defense
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-leader-stand-together
 

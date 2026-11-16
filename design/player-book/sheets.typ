@@ -30,8 +30,9 @@
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("CULTURE"),field("BACKGROUND"))
  #v(10pt)#grid(columns:(1fr,)*6,gutter:7pt,..("Brawn","Fortitude","Agility","Guile","Knowledge","Reason").map(score))
  #strip("Keep fighting")
- #grid(columns:(2fr,1.35fr,1fr,1fr),gutter:7pt,
+ #grid(columns:(1.6fr,1.6fr,1.2fr,1fr,1fr),gutter:7pt,
   field("HP: CURRENT / MAXIMUM",height:42pt),
+  field("SP: CURRENT / MAXIMUM",height:42pt),
   field("GRIT: LEFT / GRANTED",height:42pt),
   field("DEATH FAILURES",height:42pt),
   field("DEATH SUCCESSES",height:42pt))
@@ -46,7 +47,7 @@
  #v(6pt)#field("ACCESSIBLE POTION / SUPPLY DICE / OTHER TURN NOTES",height:35pt)
  #v(8pt)#block(inset:7pt,stroke:.5pt+gold)[
   #strong[3d6 + attribute] · Weak ≤8 · Standard 9–14 · Strong ≥15. Cancel Boons/Banes, then keep best/worst three of up to six dice.
-  End turn: resolve temporary conditions, then decay 1. Minimum damage: 1 total per damaging event.
+  End turn: resolve temporary conditions, then decay 1. Attacks deal at least 1 damage unless immunity prevents all damage; other damage may reach 0.
  ]
 ])
 #page-sheet([
@@ -59,7 +60,7 @@
  #strip("Ancestry traits & other lasting benefits")
  #rows(([TRAIT / SOURCE],[BENEFIT / LIMIT]),(1fr,2fr),3,height:19pt)
  #v(5pt)#field("LANGUAGES / SPOKEN-ONLY OR OTHER LIMITS",height:30pt)
- #v(8pt)#text(size:8.5pt)[All learned abilities are available. Keep frequently used cards beside the encounter sheet. Learn each path in order. Record spellbook pages and exact endpoints for combined abilities.]
+ #v(8pt)#text(size:8.5pt)[All learned abilities are available. Keep frequently used cards beside the encounter sheet. Learn each path in order. Record learned spells and each path’s progress toward mastery.]
 ])
 #page-sheet([
  #sheet-title("Belongings & scars")
@@ -77,15 +78,16 @@
 #page-sheet([
  #sheet-title("Creation ledger")
  #v(8pt)#field("CHARACTER NAME / CONCEPT",height:36pt)
- #strip("Level 0 — before your class")
- #text(size:9pt)[10 + Knowledge + Reason + Guile + ancestry benefits + DP for repeated choices. Study a discipline for 1 DP.]
- #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + ATTRIBUTES + ANCESTRY"),field("DUPLICATE DP"),field("TOTAL POOL"))
- #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
- #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("SPENT"),field("UNSPENT DP EXPIRES — CLOSE AT 0"))
- #strip("Level 1 — choose your class")
- #text(size:9pt)[Start a new pool using the same formula. Begin two disciplines from your class list and choose one signature.]
- #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("BASE + ATTRIBUTES + ANCESTRY"),field("DUPLICATE DP"),field("TOTAL POOL"))
- #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP ±],[LEFT]),(2fr,1.5fr,55pt,45pt),10,height:17pt)
- #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("SPENT"),field("UNSPENT DP EXPIRES — CLOSE AT 0"))
- #v(9pt)#text(size:9pt)[Finish: record HP, SP, Grit, Speed and capacity; resolve equipment grants once; add starting coins and shop. Each level after 1 adds 2 maximum SP. Levels 2–10 grant 8 + new level DP, which may be saved and spent in a safe place.]
+ #strip("Your starting studies")
+ #text(size:9pt)[Choose one discipline each from culture, background and class. Choose three different disciplines.]
+ #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("CULTURE DISCIPLINE"),field("BACKGROUND DISCIPLINE"),field("CLASS DISCIPLINE"))
+ #v(6pt)#field("LEVEL-1 CLASS SIGNATURE",height:30pt)
+ #strip("Development points")
+ #text(size:9pt)[8 + Guile + Knowledge + Reason + explicit ancestry benefits. An additional discipline costs your class’s 1, 2 or 3 DP price.]
+ #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("8 + MENTAL ATTRIBUTES"),field("EXPLICIT BENEFITS"),field("TOTAL STARTING DP"))
+ #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP],[LEFT]),(2fr,1.5fr,40pt,40pt),16,height:18pt)
+ #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("DP SPENT"),field("DP SAVED"))
+ #strip("Ready to play")
+ #text(size:9pt)[Record HP, SP, Grit, Speed and capacity. Gather equipment for your techniques, add starting coins and shop. Keep your favorite abilities and spells on the encounter sheet.]
+ #v(8pt)#text(size:9pt)[Each later level grants 4 + the new level DP, HP growth and +2 maximum SP. Levels 3 and 7 each offer one signature choice and one lifetime Grit. Nonmagical paths: 1/2/2/3/4/4/5 DP. Spellbook sections: 1/2/2/3 DP.]
 ])

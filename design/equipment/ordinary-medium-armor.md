@@ -6,13 +6,14 @@
 
 - **ID:** item-ordinary-medium-armor
 - **Bulk:** 1
-- **Requirements / supply:** Requires [Armored Training II](../disciplines/armor.md) to benefit
+- **Requirements / supply:** Learn [Light Armor III](../disciplines/armor.md#harness) to benefit while wearing this suit.
+- **Physical resistance when worn:** 2
 - **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
 
-Appearance is chosen by owner. The training card grants physical resistance 2; no additional resistance from this item.
+Choose the suit’s appearance. Its physical resistance is 2 while worn with the matching training; use the highest applicable resistance.
 
-No DP price. Purchase does not grant training or an ability.
+Buy the suit with coins and learn its training with DP.
 
 [Equipment index](../equipment.md)
 
-**Market price:** 40 coins. Proposal; see [market rules](../market.md).
+**Market price:** 40 coins. See [market rules](../market.md).

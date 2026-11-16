@@ -1,6 +1,6 @@
 # Steady Voice
 
-*Choose one ally within 3 squares that can hear and understand you. Make a Guile roll. Choose Frightened or Dazed on the target. On a Standard result, reduce it by 1, and the target gains 1 Boon to its next roll to resist fear or Daze.*
+*Your steady presence gathers scattered courage.*
 
 ## Rules
 
@@ -14,15 +14,17 @@ Make a Guile roll. Choose Frightened or Dazed on the target. Weak: reduce that c
 
 **Equipment / acquisition:** None.
 
+An unused Boon expires at the start of your next turn. This reassuring voice is an ordinary ability, not a spell.
+
 ---
 
 **Tier / minimum level:** 1 · **DP:** Class choice · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 
-**Tags:** Skill / Recovery / Support
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-shepherd-ease-the-burden
 

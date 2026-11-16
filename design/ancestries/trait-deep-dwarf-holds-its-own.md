@@ -1,16 +1,14 @@
 # A Patient Breath
 
-*Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes, poison or thin air.*
+*Your slow breathing and protective airways endure foul air.*
 
 ## Rules
 
-Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes, poison or thin air.
+Your slow breathing and protective airways endure foul air. Gain 1 Boon to Fortitude rolls against inhaled dust, smoke, fumes, poison or thin air.
 
-**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Deep Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-deep-dwarf-holds-its-own
 

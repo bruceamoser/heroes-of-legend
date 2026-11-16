@@ -4,42 +4,44 @@
 
 ## Rules
 
-**Agreed:** minimum 0 in Reason, Guile; HP contribution +2 at level 1 and per level thereafter. No multiclassing.
+**Attributes:** Minimum 0 in Reason, Guile. **HP contribution:** +2 at level 1 and per level thereafter.
 
-**Starting SP contribution:** +3 maximum SP once, at level 1.
+**Starting SP contribution:** Twice your positive Reason at creation: 2 × max(0, Reason).
 
-**Starting disciplines:** choose two distinct disciplines from Life, Wards, Medicine, Wilderness.
+**Starting disciplines:** Choose one of Life, Wards, Medicine, Wilderness. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** Discipline access costs 1 DP for every class. Learned steps cost 1/2/2/3 DP; the last requires level 3. Combined abilities require level 7 and cost 3/4/5 DP for two/three/four disciplines.
+**Learning costs:** **1 DP:** Life, Wards. **2 DP:** Wilderness, Medicine, Invocation, Spellcraft. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Craft, Scholarship, Influence, Elements, Mentalism, Divination, Force.
 
-Choose one class-exclusive signature at levels 1, 3 and 7. Each milestone grants one signature; additional signatures are not purchased separately. No discipline requirements.
+These prices begin study in an additional discipline. Each learned path or spellbook prints its own costs and requirements. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence, with their fourth entry available at level 3 and seventh at level 7.
+
+## Signature development
+
+Choose one signature at each of levels 1, 3 and 7. Each milestone grants one choice without spending DP. At level 3 or 7, deepen a signature you know or begin another line at that milestone. Each higher choice includes its line’s foundation. A level-7 choice includes its level-3 improvement only if you chose that improvement at level 3. Record one current version of each line, with its learned improvements together.
+
+You may switch signatures under the ordinary retraining rules. Review dependent choices together so each resulting line reflects the milestones you selected. Your class determines these choices; this does not grant a second class.
+
+| Signature line | Level 1 | Level 3 | Level 7 |
+|---|---|---|---|
+| Mend | [Mend](../cards/signature-shepherd-gentle-return.md) | [Triage](../cards/signature-shepherd-careful-transfer.md) | [The Shepherd's Call](../cards/signature-shepherd-a-hand-in-darkness.md) |
+| Steady Voice | [Steady Voice](../cards/signature-shepherd-ease-the-burden.md) | [The Fold](../cards/signature-shepherd-bring-them-near.md) | [The Shared Cup](../cards/signature-shepherd-restore-composure.md) |
+| Borrowed Shape | [Borrowed Shape](../cards/signature-shepherd-borrowed-shape.md) | [Shape of the Wild](../cards/signature-shepherd-shape-of-the-wild.md) | [Great Shape](../cards/signature-shepherd-great-shape.md) |
 
 ## Level 1 choices
 
 - [Mend](../cards/signature-shepherd-gentle-return.md)
 - [Steady Voice](../cards/signature-shepherd-ease-the-burden.md)
-- [Come Back](../cards/signature-shepherd-hear-me-still.md)
+- [Borrowed Shape](../cards/signature-shepherd-borrowed-shape.md)
 
 ## Level 3 choices
 
 - [Triage](../cards/signature-shepherd-careful-transfer.md)
-- [Mend the Wound](../cards/signature-shepherd-quiet-the-tremor.md)
 - [The Fold](../cards/signature-shepherd-bring-them-near.md)
+- [Shape of the Wild](../cards/signature-shepherd-shape-of-the-wild.md)
 
 ## Level 7 choices
 
-- [The Shared Cup](../cards/signature-shepherd-restore-composure.md)
 - [The Shepherd's Call](../cards/signature-shepherd-a-hand-in-darkness.md)
-- [Not My Flock](../cards/signature-shepherd-shared-resolve.md)
-
-## Signature identity in play
-
-The revised options aim for these moments, with a deliberate advantage over shared
-cards of their tier. Each is an independent choice, not a progression chain.
-
-- **Level 1:** Keep them standing with a heal, a steady voice, or a hand at the threshold.
-- **Level 3:** Triage two allies, mend a wound, or raise the Fold.
-- **Level 7:** Share life, answer with divine wrath, or mark the flock against the first fall.
-
+- [The Shared Cup](../cards/signature-shepherd-restore-composure.md)
+- [Great Shape](../cards/signature-shepherd-great-shape.md)
 
 **Starting coin contribution:** +3 coins. See [starting coins](../starting-coins.md).

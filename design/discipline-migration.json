@@ -1,0 +1,3593 @@
+{
+  "schemaVersion": 1,
+  "revision": "rewrite-299-seven-step",
+  "sourceIdFormat": "discipline:path-slug:step (existing endpoint/node key); path IDs omit the step",
+  "policy": {
+    "automaticPurchaseTransfer": false,
+    "requiresPlayerRebuild": true,
+    "refund": "Recalculate and refund actual recorded DP spent; reselect legal purchases with current class entry prices, prerequisites and level gates. Never infer historical spend from new prices.",
+    "grantedDisciplines": "Preserve valid culture/background/class discipline grants; path changes grant no free techniques.",
+    "levelZero": "Rebuild at level 1 or the actual current level; there is no separate level-0 purchase pass."
+  },
+  "costs": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5
+  ],
+  "levels": [
+    1,
+    1,
+    1,
+    3,
+    3,
+    3,
+    7
+  ],
+  "paths": [
+    {
+      "sourceId": "arms:bladework",
+      "sourceName": "Bladework",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "arms:bladework"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:impact",
+      "sourceName": "Impact",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "arms:impact"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:disruption",
+      "sourceName": "Disruption",
+      "disposition": "split",
+      "targetPathIds": [
+        "arms:impact",
+        "arms:unarmed"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:dueling",
+      "sourceName": "Dueling",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "arms:dueling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:harness",
+      "sourceName": "Harness",
+      "disposition": "split",
+      "targetPathIds": [
+        "armor:harness",
+        "armor:advance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:bracing",
+      "sourceName": "Bracing",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "armor:bracing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:deflection",
+      "sourceName": "Deflection",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "armor:deflection"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:endurance",
+      "sourceName": "Endurance",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "armor:harness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:interception",
+      "sourceName": "Interception",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "guard:interception"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shieldwork",
+      "sourceName": "Shieldwork",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "guard:shieldwork"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shelter",
+      "sourceName": "Shelter",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "guard:shelter"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:watchfulness",
+      "sourceName": "Watchfulness",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "guard:watchfulness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:precision",
+      "sourceName": "Precision",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "marksmanship:precision"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:pinning",
+      "sourceName": "Pinning",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "marksmanship:pinning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:readiness",
+      "sourceName": "Readiness",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "marksmanship:readiness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:thrown-weapons",
+      "sourceName": "Thrown Weapons",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "marksmanship:thrown-weapons"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:climbing",
+      "sourceName": "Climbing",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "athletics:climbing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:leaping",
+      "sourceName": "Leaping",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "athletics:leaping"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:swimming",
+      "sourceName": "Swimming",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "athletics:swimming"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:balance",
+      "sourceName": "Balance",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "athletics:balance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:stealth",
+      "sourceName": "Stealth",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "subterfuge:stealth"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:locks",
+      "sourceName": "Locks",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "subterfuge:locks"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:sleight",
+      "sourceName": "Sleight",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "subterfuge:sleight"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:traps",
+      "sourceName": "Traps",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "subterfuge:traps"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:tracking",
+      "sourceName": "Tracking",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "wilderness:tracking"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:foraging",
+      "sourceName": "Foraging",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:shelter",
+      "sourceName": "Shelter",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:animal-handling",
+      "sourceName": "Animal Handling",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "wilderness:animal-handling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:first-aid",
+      "sourceName": "First Aid",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "medicine:first-aid"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:triage",
+      "sourceName": "Triage",
+      "disposition": "split",
+      "targetPathIds": [
+        "medicine:first-aid",
+        "medicine:resuscitation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:diagnosis",
+      "sourceName": "Diagnosis",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "medicine:diagnosis"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:nursing",
+      "sourceName": "Nursing",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "medicine:nursing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:repairs",
+      "sourceName": "Repairs",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "craft:repairs"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:supplies",
+      "sourceName": "Supplies",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:construction",
+      "sourceName": "Construction",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:mixtures",
+      "sourceName": "Mixtures",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "craft:mixtures"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:lore",
+      "sourceName": "Lore",
+      "disposition": "split",
+      "targetPathIds": [
+        "scholarship:investigation",
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:investigation",
+      "sourceName": "Investigation",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "scholarship:investigation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:languages",
+      "sourceName": "Languages",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "scholarship:languages"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:planning",
+      "sourceName": "Planning",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:negotiation",
+      "sourceName": "Negotiation",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "influence:negotiation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:leadership",
+      "sourceName": "Leadership",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "influence:leadership"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:deception",
+      "sourceName": "Deception",
+      "disposition": "merged-or-rehomed",
+      "targetPathIds": [
+        "influence:rejoinder"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:pressure",
+      "sourceName": "Pressure",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "influence:pressure"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:soul-capacity",
+      "sourceName": "Soul Capacity",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "spellcraft:soul-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:mind-capacity",
+      "sourceName": "Mind Capacity",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "spellcraft:mind-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:recovery",
+      "sourceName": "Recovery",
+      "disposition": "retained-path-revised-progression",
+      "targetPathIds": [
+        "spellcraft:recovery"
+      ],
+      "requiresPlayerRebuild": true
+    }
+  ],
+  "nodes": [
+    {
+      "sourceId": "arms:bladework:1",
+      "sourceName": "Measured Cut I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:bladework:1"
+      ],
+      "targetPathIds": [
+        "arms:bladework"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:bladework:2",
+      "sourceName": "Measured Cut II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:bladework:2"
+      ],
+      "targetPathIds": [
+        "arms:bladework"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:bladework:3",
+      "sourceName": "Measured Cut III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:bladework:3"
+      ],
+      "targetPathIds": [
+        "arms:bladework"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:bladework:4",
+      "sourceName": "Sweeping Blade",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:bladework:4"
+      ],
+      "targetPathIds": [
+        "arms:bladework"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:impact:1",
+      "sourceName": "Driving Blow I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:impact:2",
+      "sourceName": "Driving Blow II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:impact:3",
+      "sourceName": "Driving Blow III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:impact:4",
+      "sourceName": "Battering Stroke",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:impact:4"
+      ],
+      "targetPathIds": [
+        "arms:impact"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:disruption:1",
+      "sourceName": "Hamstring I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact",
+        "arms:unarmed"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:disruption:2",
+      "sourceName": "Hamstring II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact",
+        "arms:unarmed"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:disruption:3",
+      "sourceName": "Hamstring III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact",
+        "arms:unarmed"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:disruption:4",
+      "sourceName": "Pinning Strike",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "arms:impact",
+        "arms:unarmed"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:dueling:1",
+      "sourceName": "Blade Ward I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:dueling:1"
+      ],
+      "targetPathIds": [
+        "arms:dueling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:dueling:2",
+      "sourceName": "Blade Ward II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:dueling:2"
+      ],
+      "targetPathIds": [
+        "arms:dueling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:dueling:3",
+      "sourceName": "Blade Ward III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:dueling:3"
+      ],
+      "targetPathIds": [
+        "arms:dueling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "arms:dueling:4",
+      "sourceName": "Riposte",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "arms:dueling:4"
+      ],
+      "targetPathIds": [
+        "arms:dueling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:harness:1",
+      "sourceName": "Armored Training I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness",
+        "armor:advance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:harness:2",
+      "sourceName": "Armored Training II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness",
+        "armor:advance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:harness:3",
+      "sourceName": "Armored Training III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness",
+        "armor:advance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:harness:4",
+      "sourceName": "Ironbound Advance",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:advance:4"
+      ],
+      "targetPathIds": [
+        "armor:harness",
+        "armor:advance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:bracing:1",
+      "sourceName": "Brace I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:bracing:1"
+      ],
+      "targetPathIds": [
+        "armor:bracing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:bracing:2",
+      "sourceName": "Brace II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:bracing:2"
+      ],
+      "targetPathIds": [
+        "armor:bracing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:bracing:3",
+      "sourceName": "Brace III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:bracing:3"
+      ],
+      "targetPathIds": [
+        "armor:bracing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:bracing:4",
+      "sourceName": "Stand Like Stone",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:bracing:4"
+      ],
+      "targetPathIds": [
+        "armor:bracing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:deflection:1",
+      "sourceName": "Turn the Blow I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:deflection:1"
+      ],
+      "targetPathIds": [
+        "armor:deflection"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:deflection:2",
+      "sourceName": "Turn the Blow II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:deflection:2"
+      ],
+      "targetPathIds": [
+        "armor:deflection"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:deflection:3",
+      "sourceName": "Turn the Blow III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:deflection:3"
+      ],
+      "targetPathIds": [
+        "armor:deflection"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:deflection:4",
+      "sourceName": "Weather the Storm",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "armor:deflection:4"
+      ],
+      "targetPathIds": [
+        "armor:deflection"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:endurance:1",
+      "sourceName": "Armored March I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:endurance:2",
+      "sourceName": "Armored March II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:endurance:3",
+      "sourceName": "Armored March III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "armor:endurance:4",
+      "sourceName": "Carry Them Home",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "armor:harness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:interception:1",
+      "sourceName": "Interpose I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:interception:1"
+      ],
+      "targetPathIds": [
+        "guard:interception"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:interception:2",
+      "sourceName": "Interpose II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:interception:2"
+      ],
+      "targetPathIds": [
+        "guard:interception"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:interception:3",
+      "sourceName": "Interpose III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:interception:3"
+      ],
+      "targetPathIds": [
+        "guard:interception"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:interception:4",
+      "sourceName": "Take the Blow",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:interception:4"
+      ],
+      "targetPathIds": [
+        "guard:interception"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shieldwork:1",
+      "sourceName": "Shield Bash I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shieldwork:1"
+      ],
+      "targetPathIds": [
+        "guard:shieldwork"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shieldwork:2",
+      "sourceName": "Shield Bash II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shieldwork:2"
+      ],
+      "targetPathIds": [
+        "guard:shieldwork"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shieldwork:3",
+      "sourceName": "Shield Bash III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shieldwork:3"
+      ],
+      "targetPathIds": [
+        "guard:shieldwork"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shieldwork:4",
+      "sourceName": "Break the Line",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shieldwork:4"
+      ],
+      "targetPathIds": [
+        "guard:shieldwork"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shelter:1",
+      "sourceName": "Sheltering Guard I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shelter:1"
+      ],
+      "targetPathIds": [
+        "guard:shelter"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shelter:2",
+      "sourceName": "Sheltering Guard II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shelter:2"
+      ],
+      "targetPathIds": [
+        "guard:shelter"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shelter:3",
+      "sourceName": "Sheltering Guard III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shelter:3"
+      ],
+      "targetPathIds": [
+        "guard:shelter"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:shelter:4",
+      "sourceName": "Shield Canopy",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:shelter:4"
+      ],
+      "targetPathIds": [
+        "guard:shelter"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:watchfulness:1",
+      "sourceName": "Guarded Passage I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:watchfulness:1"
+      ],
+      "targetPathIds": [
+        "guard:watchfulness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:watchfulness:2",
+      "sourceName": "Guarded Passage II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:watchfulness:2"
+      ],
+      "targetPathIds": [
+        "guard:watchfulness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:watchfulness:3",
+      "sourceName": "Guarded Passage III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:watchfulness:3"
+      ],
+      "targetPathIds": [
+        "guard:watchfulness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "guard:watchfulness:4",
+      "sourceName": "Rescue Step",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "guard:watchfulness:4"
+      ],
+      "targetPathIds": [
+        "guard:watchfulness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:precision:1",
+      "sourceName": "Measured Shot I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:precision:1"
+      ],
+      "targetPathIds": [
+        "marksmanship:precision"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:precision:2",
+      "sourceName": "Measured Shot II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:precision:2"
+      ],
+      "targetPathIds": [
+        "marksmanship:precision"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:precision:3",
+      "sourceName": "Measured Shot III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:precision:3"
+      ],
+      "targetPathIds": [
+        "marksmanship:precision"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:precision:4",
+      "sourceName": "Split the Flight",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:precision:4"
+      ],
+      "targetPathIds": [
+        "marksmanship:precision"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:pinning:1",
+      "sourceName": "Hobbling Shot I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "marksmanship:pinning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:pinning:2",
+      "sourceName": "Hobbling Shot II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "marksmanship:pinning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:pinning:3",
+      "sourceName": "Hobbling Shot III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "marksmanship:pinning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:pinning:4",
+      "sourceName": "Hold the Pass",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:pinning:4"
+      ],
+      "targetPathIds": [
+        "marksmanship:pinning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:readiness:1",
+      "sourceName": "Watchful Shot I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:readiness:1"
+      ],
+      "targetPathIds": [
+        "marksmanship:readiness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:readiness:2",
+      "sourceName": "Watchful Shot II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:readiness:2"
+      ],
+      "targetPathIds": [
+        "marksmanship:readiness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:readiness:3",
+      "sourceName": "Watchful Shot III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:readiness:3"
+      ],
+      "targetPathIds": [
+        "marksmanship:readiness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:readiness:4",
+      "sourceName": "Covering Fire",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:readiness:4"
+      ],
+      "targetPathIds": [
+        "marksmanship:readiness"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:thrown-weapons:1",
+      "sourceName": "Hurl I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:thrown-weapons:1"
+      ],
+      "targetPathIds": [
+        "marksmanship:thrown-weapons"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:thrown-weapons:2",
+      "sourceName": "Hurl II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:thrown-weapons:2"
+      ],
+      "targetPathIds": [
+        "marksmanship:thrown-weapons"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:thrown-weapons:3",
+      "sourceName": "Hurl III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:thrown-weapons:3"
+      ],
+      "targetPathIds": [
+        "marksmanship:thrown-weapons"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "marksmanship:thrown-weapons:4",
+      "sourceName": "Ricochet",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "marksmanship:thrown-weapons:4"
+      ],
+      "targetPathIds": [
+        "marksmanship:thrown-weapons"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:climbing:1",
+      "sourceName": "Sure Ascent I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:climbing:1"
+      ],
+      "targetPathIds": [
+        "athletics:climbing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:climbing:2",
+      "sourceName": "Sure Ascent II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:climbing:2"
+      ],
+      "targetPathIds": [
+        "athletics:climbing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:climbing:3",
+      "sourceName": "Sure Ascent III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:climbing:3"
+      ],
+      "targetPathIds": [
+        "athletics:climbing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:climbing:4",
+      "sourceName": "A Line for Everyone",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:climbing:4"
+      ],
+      "targetPathIds": [
+        "athletics:climbing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:leaping:1",
+      "sourceName": "Running Vault I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:leaping:1"
+      ],
+      "targetPathIds": [
+        "athletics:leaping"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:leaping:2",
+      "sourceName": "Running Vault II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:leaping:2"
+      ],
+      "targetPathIds": [
+        "athletics:leaping"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:leaping:3",
+      "sourceName": "Running Vault III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:leaping:3"
+      ],
+      "targetPathIds": [
+        "athletics:leaping"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:leaping:4",
+      "sourceName": "Follow My Leap",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:leaping:4"
+      ],
+      "targetPathIds": [
+        "athletics:leaping"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:swimming:1",
+      "sourceName": "Strong Swimmer I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:swimming:1"
+      ],
+      "targetPathIds": [
+        "athletics:swimming"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:swimming:2",
+      "sourceName": "Strong Swimmer II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:swimming:2"
+      ],
+      "targetPathIds": [
+        "athletics:swimming"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:swimming:3",
+      "sourceName": "Strong Swimmer III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:swimming:3"
+      ],
+      "targetPathIds": [
+        "athletics:swimming"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:swimming:4",
+      "sourceName": "Carry Them to Shore",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:swimming:4"
+      ],
+      "targetPathIds": [
+        "athletics:swimming"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:balance:1",
+      "sourceName": "Catch Your Balance I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:balance:1"
+      ],
+      "targetPathIds": [
+        "athletics:balance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:balance:2",
+      "sourceName": "Catch Your Balance II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:balance:2"
+      ],
+      "targetPathIds": [
+        "athletics:balance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:balance:3",
+      "sourceName": "Catch Your Balance III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:balance:3"
+      ],
+      "targetPathIds": [
+        "athletics:balance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "athletics:balance:4",
+      "sourceName": "Catch Them Falling",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "athletics:balance:4"
+      ],
+      "targetPathIds": [
+        "athletics:balance"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:stealth:1",
+      "sourceName": "Quiet Passage I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:stealth:1"
+      ],
+      "targetPathIds": [
+        "subterfuge:stealth"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:stealth:2",
+      "sourceName": "Quiet Passage II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:stealth:2"
+      ],
+      "targetPathIds": [
+        "subterfuge:stealth"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:stealth:3",
+      "sourceName": "Quiet Passage III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:stealth:3"
+      ],
+      "targetPathIds": [
+        "subterfuge:stealth"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:stealth:4",
+      "sourceName": "Vanish into Cover",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:stealth:4"
+      ],
+      "targetPathIds": [
+        "subterfuge:stealth"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:locks:1",
+      "sourceName": "Patient Hand I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:locks:1"
+      ],
+      "targetPathIds": [
+        "subterfuge:locks"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:locks:2",
+      "sourceName": "Patient Hand II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:locks:2"
+      ],
+      "targetPathIds": [
+        "subterfuge:locks"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:locks:3",
+      "sourceName": "Patient Hand III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:locks:3"
+      ],
+      "targetPathIds": [
+        "subterfuge:locks"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:locks:4",
+      "sourceName": "Open under Pressure",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:locks:4"
+      ],
+      "targetPathIds": [
+        "subterfuge:locks"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:sleight:1",
+      "sourceName": "Light Fingers I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:sleight:1"
+      ],
+      "targetPathIds": [
+        "subterfuge:sleight"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:sleight:2",
+      "sourceName": "Light Fingers II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:sleight:2"
+      ],
+      "targetPathIds": [
+        "subterfuge:sleight"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:sleight:3",
+      "sourceName": "Light Fingers III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:sleight:3"
+      ],
+      "targetPathIds": [
+        "subterfuge:sleight"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:sleight:4",
+      "sourceName": "Switch the Prize",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:sleight:4"
+      ],
+      "targetPathIds": [
+        "subterfuge:sleight"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:traps:1",
+      "sourceName": "Read the Snare I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "subterfuge:traps"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:traps:2",
+      "sourceName": "Read the Snare II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "subterfuge:traps"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:traps:3",
+      "sourceName": "Read the Snare III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "subterfuge:traps"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "subterfuge:traps:4",
+      "sourceName": "Turn the Trap",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "subterfuge:traps:4"
+      ],
+      "targetPathIds": [
+        "subterfuge:traps"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:tracking:1",
+      "sourceName": "Read the Trail I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:tracking:1"
+      ],
+      "targetPathIds": [
+        "wilderness:tracking"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:tracking:2",
+      "sourceName": "Read the Trail II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:tracking:2"
+      ],
+      "targetPathIds": [
+        "wilderness:tracking"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:tracking:3",
+      "sourceName": "Read the Trail III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:tracking:3"
+      ],
+      "targetPathIds": [
+        "wilderness:tracking"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:tracking:4",
+      "sourceName": "Cut Them Off",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:tracking:4"
+      ],
+      "targetPathIds": [
+        "wilderness:tracking"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:foraging:1",
+      "sourceName": "Wild Harvest I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:provisioning:1"
+      ],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:foraging:2",
+      "sourceName": "Wild Harvest II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:provisioning:2"
+      ],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:foraging:3",
+      "sourceName": "Wild Harvest III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:provisioning:3"
+      ],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:foraging:4",
+      "sourceName": "Find the Hidden Spring",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:shelter:1",
+      "sourceName": "Trail Shelter I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:shelter:2",
+      "sourceName": "Trail Shelter II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:shelter:3",
+      "sourceName": "Trail Shelter III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:shelter:4",
+      "sourceName": "A Camp without a Trace",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:provisioning:4"
+      ],
+      "targetPathIds": [
+        "wilderness:provisioning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:animal-handling:1",
+      "sourceName": "Gentle Hand I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:animal-handling:1"
+      ],
+      "targetPathIds": [
+        "wilderness:animal-handling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:animal-handling:2",
+      "sourceName": "Gentle Hand II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:animal-handling:2"
+      ],
+      "targetPathIds": [
+        "wilderness:animal-handling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:animal-handling:3",
+      "sourceName": "Gentle Hand III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:animal-handling:3"
+      ],
+      "targetPathIds": [
+        "wilderness:animal-handling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "wilderness:animal-handling:4",
+      "sourceName": "Lead the Herd",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "wilderness:animal-handling:4"
+      ],
+      "targetPathIds": [
+        "wilderness:animal-handling"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:first-aid:1",
+      "sourceName": "Field Dressing I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:first-aid:1"
+      ],
+      "targetPathIds": [
+        "medicine:first-aid"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:first-aid:2",
+      "sourceName": "Field Dressing II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:first-aid:2"
+      ],
+      "targetPathIds": [
+        "medicine:first-aid"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:first-aid:3",
+      "sourceName": "Field Dressing III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:first-aid:3"
+      ],
+      "targetPathIds": [
+        "medicine:first-aid"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:first-aid:4",
+      "sourceName": "Emergency Treatment",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:first-aid:4"
+      ],
+      "targetPathIds": [
+        "medicine:first-aid"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:triage:1",
+      "sourceName": "Staunch I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "medicine:first-aid",
+        "medicine:resuscitation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:triage:2",
+      "sourceName": "Staunch II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "medicine:first-aid",
+        "medicine:resuscitation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:triage:3",
+      "sourceName": "Staunch III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "medicine:first-aid",
+        "medicine:resuscitation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:triage:4",
+      "sourceName": "Keep Them Breathing",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:resuscitation:1"
+      ],
+      "targetPathIds": [
+        "medicine:first-aid",
+        "medicine:resuscitation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:diagnosis:1",
+      "sourceName": "Read the Symptoms I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:diagnosis:1"
+      ],
+      "targetPathIds": [
+        "medicine:diagnosis"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:diagnosis:2",
+      "sourceName": "Read the Symptoms II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:diagnosis:2"
+      ],
+      "targetPathIds": [
+        "medicine:diagnosis"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:diagnosis:3",
+      "sourceName": "Read the Symptoms III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:diagnosis:3"
+      ],
+      "targetPathIds": [
+        "medicine:diagnosis"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:diagnosis:4",
+      "sourceName": "Prepare the Remedy",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:diagnosis:4"
+      ],
+      "targetPathIds": [
+        "medicine:diagnosis"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:nursing:1",
+      "sourceName": "Patient Care I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:nursing:1"
+      ],
+      "targetPathIds": [
+        "medicine:nursing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:nursing:2",
+      "sourceName": "Patient Care II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:nursing:2"
+      ],
+      "targetPathIds": [
+        "medicine:nursing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:nursing:3",
+      "sourceName": "Patient Care III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:nursing:3"
+      ],
+      "targetPathIds": [
+        "medicine:nursing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "medicine:nursing:4",
+      "sourceName": "Watch through the Night",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "medicine:nursing:7"
+      ],
+      "targetPathIds": [
+        "medicine:nursing"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:repairs:1",
+      "sourceName": "Mend and Fit I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:repairs:1"
+      ],
+      "targetPathIds": [
+        "craft:repairs"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:repairs:2",
+      "sourceName": "Mend and Fit II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:repairs:2"
+      ],
+      "targetPathIds": [
+        "craft:repairs"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:repairs:3",
+      "sourceName": "Mend and Fit III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:repairs:3"
+      ],
+      "targetPathIds": [
+        "craft:repairs"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:repairs:4",
+      "sourceName": "Field Repair",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:repairs:4"
+      ],
+      "targetPathIds": [
+        "craft:repairs"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:supplies:1",
+      "sourceName": "Trail Workshop I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:workshop:1"
+      ],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:supplies:2",
+      "sourceName": "Trail Workshop II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:workshop:2"
+      ],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:supplies:3",
+      "sourceName": "Trail Workshop III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:workshop:3"
+      ],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:supplies:4",
+      "sourceName": "Make Do",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:construction:1",
+      "sourceName": "Raise a Frame I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:construction:2",
+      "sourceName": "Raise a Frame II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:construction:3",
+      "sourceName": "Raise a Frame III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:construction:4",
+      "sourceName": "A Roof before Nightfall",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:workshop:4"
+      ],
+      "targetPathIds": [
+        "craft:workshop"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:mixtures:1",
+      "sourceName": "Smoke in a Bottle I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:mixtures:1"
+      ],
+      "targetPathIds": [
+        "craft:mixtures"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:mixtures:2",
+      "sourceName": "Smoke in a Bottle II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:mixtures:2"
+      ],
+      "targetPathIds": [
+        "craft:mixtures"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:mixtures:3",
+      "sourceName": "Smoke in a Bottle III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:mixtures:3"
+      ],
+      "targetPathIds": [
+        "craft:mixtures"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "craft:mixtures:4",
+      "sourceName": "Screen the Retreat",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "craft:mixtures:4"
+      ],
+      "targetPathIds": [
+        "craft:mixtures"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:lore:1",
+      "sourceName": "Recall the Record I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "scholarship:investigation",
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:lore:2",
+      "sourceName": "Recall the Record II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "scholarship:investigation",
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:lore:3",
+      "sourceName": "Recall the Record III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "scholarship:investigation",
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:lore:4",
+      "sourceName": "Name the Weakness",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "scholarship:investigation",
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:investigation:1",
+      "sourceName": "Read the Evidence I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:investigation:1"
+      ],
+      "targetPathIds": [
+        "scholarship:investigation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:investigation:2",
+      "sourceName": "Read the Evidence II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:investigation:2"
+      ],
+      "targetPathIds": [
+        "scholarship:investigation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:investigation:3",
+      "sourceName": "Read the Evidence III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:investigation:3"
+      ],
+      "targetPathIds": [
+        "scholarship:investigation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:investigation:4",
+      "sourceName": "Reconstruct the Scene",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:investigation:4"
+      ],
+      "targetPathIds": [
+        "scholarship:investigation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:languages:1",
+      "sourceName": "Patient Translation I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:languages:1"
+      ],
+      "targetPathIds": [
+        "scholarship:languages"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:languages:2",
+      "sourceName": "Patient Translation II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:languages:2"
+      ],
+      "targetPathIds": [
+        "scholarship:languages"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:languages:3",
+      "sourceName": "Patient Translation III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:languages:3"
+      ],
+      "targetPathIds": [
+        "scholarship:languages"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:languages:4",
+      "sourceName": "Bridge of Words",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:languages:4"
+      ],
+      "targetPathIds": [
+        "scholarship:languages"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:planning:1",
+      "sourceName": "Survey the Ground I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:planning:1"
+      ],
+      "targetPathIds": [
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:planning:2",
+      "sourceName": "Survey the Ground II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:planning:2"
+      ],
+      "targetPathIds": [
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:planning:3",
+      "sourceName": "Survey the Ground III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:planning:3"
+      ],
+      "targetPathIds": [
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "scholarship:planning:4",
+      "sourceName": "Prepared Retreat",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "scholarship:planning:4"
+      ],
+      "targetPathIds": [
+        "scholarship:planning"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:negotiation:1",
+      "sourceName": "Make the Case I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:negotiation:1"
+      ],
+      "targetPathIds": [
+        "influence:negotiation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:negotiation:2",
+      "sourceName": "Make the Case II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:negotiation:2"
+      ],
+      "targetPathIds": [
+        "influence:negotiation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:negotiation:3",
+      "sourceName": "Make the Case III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:negotiation:3"
+      ],
+      "targetPathIds": [
+        "influence:negotiation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:negotiation:4",
+      "sourceName": "Common Ground",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:negotiation:4"
+      ],
+      "targetPathIds": [
+        "influence:negotiation"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:leadership:1",
+      "sourceName": "Steady Voice I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:leadership:1"
+      ],
+      "targetPathIds": [
+        "influence:leadership"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:leadership:2",
+      "sourceName": "Steady Voice II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:leadership:2"
+      ],
+      "targetPathIds": [
+        "influence:leadership"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:leadership:3",
+      "sourceName": "Steady Voice III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:leadership:3"
+      ],
+      "targetPathIds": [
+        "influence:leadership"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:leadership:4",
+      "sourceName": "Rally the Line",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:leadership:4"
+      ],
+      "targetPathIds": [
+        "influence:leadership"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:deception:1",
+      "sourceName": "Plausible Story I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "influence:rejoinder"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:deception:2",
+      "sourceName": "Plausible Story II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "influence:rejoinder"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:deception:3",
+      "sourceName": "Plausible Story III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "influence:rejoinder"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:deception:4",
+      "sourceName": "Hold Their Attention",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:rejoinder:4"
+      ],
+      "targetPathIds": [
+        "influence:rejoinder"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:pressure:1",
+      "sourceName": "Draw the Line I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:pressure:1"
+      ],
+      "targetPathIds": [
+        "influence:pressure"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:pressure:2",
+      "sourceName": "Draw the Line II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:pressure:2"
+      ],
+      "targetPathIds": [
+        "influence:pressure"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:pressure:3",
+      "sourceName": "Draw the Line III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:pressure:3"
+      ],
+      "targetPathIds": [
+        "influence:pressure"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "influence:pressure:4",
+      "sourceName": "Terms of Surrender",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "influence:pressure:4"
+      ],
+      "targetPathIds": [
+        "influence:pressure"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:soul-capacity:1",
+      "sourceName": "Soul Capacity I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:soul-capacity:1"
+      ],
+      "targetPathIds": [
+        "spellcraft:soul-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:soul-capacity:2",
+      "sourceName": "Soul Capacity II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:soul-capacity:2"
+      ],
+      "targetPathIds": [
+        "spellcraft:soul-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:soul-capacity:3",
+      "sourceName": "Soul Capacity III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:soul-capacity:3"
+      ],
+      "targetPathIds": [
+        "spellcraft:soul-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:soul-capacity:4",
+      "sourceName": "Soul Capacity IV",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "spellcraft:soul-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:mind-capacity:1",
+      "sourceName": "Mind Capacity I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:mind-capacity:1"
+      ],
+      "targetPathIds": [
+        "spellcraft:mind-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:mind-capacity:2",
+      "sourceName": "Mind Capacity II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:mind-capacity:2"
+      ],
+      "targetPathIds": [
+        "spellcraft:mind-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:mind-capacity:3",
+      "sourceName": "Mind Capacity III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:mind-capacity:3"
+      ],
+      "targetPathIds": [
+        "spellcraft:mind-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:mind-capacity:4",
+      "sourceName": "Mind Capacity IV",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "spellcraft:mind-capacity"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:recovery:1",
+      "sourceName": "Recovery I",
+      "sourceCost": 1,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:recovery:1"
+      ],
+      "targetPathIds": [
+        "spellcraft:recovery"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:recovery:2",
+      "sourceName": "Recovery II",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:recovery:2"
+      ],
+      "targetPathIds": [
+        "spellcraft:recovery"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:recovery:3",
+      "sourceName": "Recovery III",
+      "sourceCost": 2,
+      "sourceLevel": 0,
+      "disposition": "relearn-revised-technique",
+      "candidateNodeIds": [
+        "spellcraft:recovery:3"
+      ],
+      "targetPathIds": [
+        "spellcraft:recovery"
+      ],
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "spellcraft:recovery:4",
+      "sourceName": "Recovery IV",
+      "sourceCost": 3,
+      "sourceLevel": 3,
+      "disposition": "rebuild-from-rehomed-concept",
+      "candidateNodeIds": [],
+      "targetPathIds": [
+        "spellcraft:recovery"
+      ],
+      "requiresPlayerRebuild": true
+    }
+  ],
+  "combined": [
+    {
+      "sourceId": "combined:iron-tempest",
+      "sourceName": "Iron Tempest",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "arms:bladework:4",
+        "armor:harness:4"
+      ],
+      "targetNodeIds": [
+        "arms:bladework:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:shatter-the-formation",
+      "sourceName": "Shatter the Formation",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "arms:impact:4",
+        "guard:shieldwork:4"
+      ],
+      "targetNodeIds": [
+        "guard:shieldwork:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-unbroken-gate",
+      "sourceName": "The Unbroken Gate",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "armor:bracing:4",
+        "guard:interception:4"
+      ],
+      "targetNodeIds": [
+        "armor:advance:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-last-safe-step",
+      "sourceName": "The Last Safe Step",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "guard:watchfulness:4",
+        "athletics:balance:4"
+      ],
+      "targetNodeIds": [
+        "guard:interception:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:anatomists-volley",
+      "sourceName": "Anatomist’s Volley",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "marksmanship:precision:4",
+        "scholarship:lore:4"
+      ],
+      "targetNodeIds": [
+        "marksmanship:precision:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:steel-across-the-gap",
+      "sourceName": "Steel across the Gap",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "marksmanship:thrown-weapons:4",
+        "athletics:leaping:4"
+      ],
+      "targetNodeIds": [
+        "marksmanship:thrown-weapons:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:silent-entry",
+      "sourceName": "Silent Entry",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "subterfuge:locks:4",
+        "craft:repairs:4"
+      ],
+      "targetNodeIds": [
+        "subterfuge:locks:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-perfect-substitution",
+      "sourceName": "The Perfect Substitution",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "subterfuge:sleight:4",
+        "influence:deception:4"
+      ],
+      "targetNodeIds": [
+        "subterfuge:sleight:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:read-the-killing-ground",
+      "sourceName": "Read the Killing Ground",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "subterfuge:traps:4",
+        "scholarship:investigation:4"
+      ],
+      "targetNodeIds": [
+        "subterfuge:traps:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:shelter-against-the-siege",
+      "sourceName": "Shelter against the Siege",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "wilderness:shelter:4",
+        "craft:construction:4"
+      ],
+      "targetNodeIds": [
+        "wilderness:provisioning:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:a-way-through-death",
+      "sourceName": "A Way through Death",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "medicine:first-aid:4",
+        "armor:endurance:4"
+      ],
+      "targetNodeIds": [
+        "medicine:first-aid:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:a-treaty-in-common-words",
+      "sourceName": "A Treaty in Common Words",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "influence:negotiation:4",
+        "scholarship:languages:4"
+      ],
+      "targetNodeIds": [
+        "influence:negotiation:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:break-the-encirclement",
+      "sourceName": "Break the Encirclement",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "arms:bladework:4",
+        "guard:shieldwork:4",
+        "athletics:leaping:4"
+      ],
+      "targetNodeIds": [
+        "arms:impact:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-moving-bulwark",
+      "sourceName": "The Moving Bulwark",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "armor:deflection:4",
+        "guard:shelter:4",
+        "influence:leadership:4"
+      ],
+      "targetNodeIds": [
+        "guard:shelter:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:hunt-at-the-crossroads",
+      "sourceName": "Hunt at the Crossroads",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "marksmanship:readiness:4",
+        "wilderness:tracking:4",
+        "scholarship:planning:4"
+      ],
+      "targetNodeIds": [
+        "marksmanship:readiness:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-hidden-road",
+      "sourceName": "The Hidden Road",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "subterfuge:stealth:4",
+        "athletics:climbing:4",
+        "wilderness:shelter:4"
+      ],
+      "targetNodeIds": [
+        "subterfuge:stealth:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-field-hospital",
+      "sourceName": "The Field Hospital",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "medicine:first-aid:4",
+        "craft:mixtures:4",
+        "wilderness:shelter:4"
+      ],
+      "targetNodeIds": [
+        "medicine:diagnosis:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-truth-before-the-council",
+      "sourceName": "The Truth before the Council",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "scholarship:investigation:4",
+        "influence:negotiation:4",
+        "subterfuge:sleight:4"
+      ],
+      "targetNodeIds": [
+        "scholarship:investigation:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-day-we-held",
+      "sourceName": "The Day We Held",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "arms:bladework:4",
+        "armor:bracing:4",
+        "guard:interception:4",
+        "influence:leadership:4"
+      ],
+      "targetNodeIds": [
+        "armor:advance:7",
+        "arms:bladework:7",
+        "guard:shelter:7"
+      ],
+      "disposition": "retire-and-merge-concepts",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:bring-everyone-home",
+      "sourceName": "Bring Everyone Home",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "medicine:first-aid:4",
+        "armor:endurance:4",
+        "athletics:balance:4",
+        "guard:watchfulness:4"
+      ],
+      "targetNodeIds": [
+        "armor:harness:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:a-city-opens-its-gates",
+      "sourceName": "A City Opens Its Gates",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "influence:negotiation:4",
+        "scholarship:languages:4",
+        "subterfuge:sleight:4",
+        "craft:construction:4"
+      ],
+      "targetNodeIds": [
+        "craft:workshop:7"
+      ],
+      "disposition": "rehome-to-single-path-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:stormsteel-arc",
+      "sourceName": "Stormsteel Arc",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "air:3",
+        "arms:bladework:4"
+      ],
+      "targetSpellId": "spell-mastery:stormsteel-arc",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-invisible-shieldbearer",
+      "sourceName": "The Invisible Shieldbearer",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "telekinesis:3",
+        "guard:interception:4"
+      ],
+      "targetSpellId": "spell-mastery:the-invisible-shieldbearer",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:borrowed-dawn",
+      "sourceName": "Borrowed Dawn",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "restoration:3",
+        "medicine:first-aid:4"
+      ],
+      "targetSpellId": "spell-mastery:borrowed-dawn",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:starfall-volley",
+      "sourceName": "Starfall Volley",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "flame:3",
+        "marksmanship:precision:4",
+        "scholarship:lore:4"
+      ],
+      "targetSpellId": "spell-mastery:starfall-volley",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:step-between-heartbeats",
+      "sourceName": "Step Between Heartbeats",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "passage:3",
+        "subterfuge:stealth:4",
+        "athletics:leaping:4"
+      ],
+      "targetSpellId": "spell-mastery:step-between-heartbeats",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:sanctuary-of-steel",
+      "sourceName": "Sanctuary of Steel",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "sanctuary:3",
+        "armor:bracing:4",
+        "guard:shelter:4"
+      ],
+      "targetSpellId": "spell-mastery:sanctuary-of-steel",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:colossus-of-the-forge",
+      "sourceName": "Colossus of the Forge",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "flame:3",
+        "imbuement:3",
+        "arms:bladework:4",
+        "craft:construction:4"
+      ],
+      "targetSpellId": "spell-mastery:colossus-of-the-forge",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:the-road-for-the-lost",
+      "sourceName": "The Road for the Lost",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "passage:3",
+        "seals:3",
+        "wilderness:tracking:4",
+        "scholarship:planning:4"
+      ],
+      "targetSpellId": "spell-mastery:the-road-for-the-lost",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:dawn-on-the-battlefield",
+      "sourceName": "Dawn on the Battlefield",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "restoration:3",
+        "sanctuary:3",
+        "medicine:first-aid:4",
+        "influence:leadership:4"
+      ],
+      "targetSpellId": "spell-mastery:dawn-on-the-battlefield",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:meteor-swarm",
+      "sourceName": "Meteor Swarm",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "flame:3",
+        "telekinesis:3"
+      ],
+      "targetSpellId": "spell-mastery:meteor-swarm",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:wall-of-thorns-living-fortress",
+      "sourceName": "Wall of Thorns — Living Fortress",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "growth:3",
+        "shaping:3"
+      ],
+      "targetSpellId": "spell-mastery:wall-of-thorns-living-fortress",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:true-resurrection",
+      "sourceName": "True Resurrection",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "restoration:3",
+        "spirits:3"
+      ],
+      "targetSpellId": "spell-mastery:true-resurrection",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:simulacrum",
+      "sourceName": "Simulacrum",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "perception:3",
+        "animation:3"
+      ],
+      "targetSpellId": "spell-mastery:simulacrum",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:demiplane",
+      "sourceName": "Demiplane",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "passage:3",
+        "seals:3"
+      ],
+      "targetSpellId": "spell-mastery:demiplane",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:foresight-shared-vigil",
+      "sourceName": "Foresight — Shared Vigil",
+      "sourceCost": 3,
+      "sourceRequirements": [
+        "thought:3",
+        "portents:3"
+      ],
+      "targetSpellId": "spell-mastery:foresight-shared-vigil",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:storm-of-vengeance",
+      "sourceName": "Storm of Vengeance",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "air:3",
+        "growth:3",
+        "sanctuary:3"
+      ],
+      "targetSpellId": "spell-mastery:storm-of-vengeance",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:mass-lifegiving",
+      "sourceName": "Mass Lifegiving",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "restoration:3",
+        "spirits:3",
+        "sanctuary:3"
+      ],
+      "targetSpellId": "spell-mastery:mass-lifegiving",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:foresight-oracles-dream",
+      "sourceName": "Foresight — Oracle’s Dream",
+      "sourceCost": 4,
+      "sourceRequirements": [
+        "dreams:3",
+        "portents:3",
+        "spirits:3"
+      ],
+      "targetSpellId": "spell-mastery:foresight-oracles-dream",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:gate-world-anchor",
+      "sourceName": "Gate — World Anchor",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "earth:3",
+        "passage:3",
+        "imbuement:3",
+        "seals:3"
+      ],
+      "targetSpellId": "spell-mastery:gate-world-anchor",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    },
+    {
+      "sourceId": "combined:guards-and-wards-living-citadel",
+      "sourceName": "Guards and Wards — Living Citadel",
+      "sourceCost": 5,
+      "sourceRequirements": [
+        "growth:3",
+        "shaping:3",
+        "earth:3",
+        "sanctuary:3"
+      ],
+      "targetSpellId": "spell-mastery:guards-and-wards-living-citadel",
+      "disposition": "rehome-to-single-book-mastery",
+      "requiresPlayerRebuild": true
+    }
+  ]
+}

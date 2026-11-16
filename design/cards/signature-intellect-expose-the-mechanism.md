@@ -1,16 +1,42 @@
 # Shatter the Guard
 
-*Choose one visible creature or active device within 5 squares. One ally within 5 squares who can hear and understand you. Make a Knowledge-based attack against the target. On a Weak result, deal 5 physical damage. On a Standard result, deal 7 physical damage. On a Strong result, deal 9 physical damage. The target loses 1 resistance of your choice until the end of the scene, and the chosen ally gains 1 Boon to their next attack against it before the start of your next turn.*
+*You study a foe until its movements reveal a weakness.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Knowledge
+### Angle of Attack
 
-**Target / range / shape:** One visible creature or active device within 5 squares; one ally within 5 squares who can hear and understand you.
+**Action:** Maneuver · **Attribute:** None
 
-Make a Knowledge-based attack against the target. On a Weak result, deal 5 physical damage. On a Standard result, deal 7 physical damage. On a Strong result, deal 9 physical damage. The target loses 1 resistance of your choice until the end of the scene, and the chosen ally gains 1 Boon to their next attack against it before the start of your next turn.
+**Target / range / shape:** One visible foe within 5 squares.
 
-**Duration:** The attack resolves immediately. The resistance loss lasts until the end of the scene; the Boon expires when used or the start of your next turn.
+Study the foe. Until the start of your next turn, your next weapon attack against it may use Knowledge instead of its ordinary attribute. Use that attack’s actual range, weapon requirements, damage and effects. You may study once on your turn; a new study replaces the previous one.
+
+**Duration:** Until the start of your next turn.
+
+**Equipment / acquisition:** None.
+
+### Shatter the Guard
+
+**Action:** Passive · **Attribute:** None
+
+**Target / range / shape:** The target of your studied weapon attack.
+
+Once per scene, after resolving an attack using Angle of Attack, reduce one of the target’s existing resistances by 1, minimum 0, until scene end. Each target can suffer this reduction only once from Shatter the Guard, regardless of source. Immunity is unchanged.
+
+**Duration:** Until scene end.
+
+**Equipment / acquisition:** None.
+
+### If you learned Predict the Motion at level 3
+
+**Action:** Passive · **Attribute:** None
+
+**Target / range / shape:** The foe currently studied with Angle of Attack.
+
+While your study lasts, you may use Knowledge instead of Brawn or Agility to defend against that foe’s attacks. Other defense attributes remain unchanged.
+
+**Duration:** The duration of your study.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +46,9 @@ Make a Knowledge-based attack against the target. On a Weak result, deal 5 physi
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Control
+**Tags:** Skill / Signature
 
-**Limits:** Once on your turn; one resistance reduction per target per scene.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-intellect-expose-the-mechanism
 

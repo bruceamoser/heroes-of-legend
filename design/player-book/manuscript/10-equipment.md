@@ -20,11 +20,11 @@ Choose a suit of armor to match your training and acquire it with your other equ
 
 | Training | Requirement | DP | Physical resistance |
 |---|---|---:|---:|
-| [Armored Training I](../../disciplines/armor.md) | Study Armor | 1 | Light: 1 |
-| Armored Training II | Armored Training I | 2 | Medium: 2 |
-| Armored Training III | Armored Training II | 2 | Heavy: 3 |
+| [Light Armor I](../../disciplines/armor.md#harness) | Study Armor | 1 | Light: 1 |
+| Light Armor III | Light Armor I and II | 2 | Medium: 2 |
+| Heavy Armor I | Light Armor III; level 3 | 3 | Heavy: 3 |
 
-All three may be learned at level 0. Each new step lets you use its armor category as well as any you learned earlier. Use the highest applicable resistance, never their sum. Attacks deal at least 1 damage after resistance if any damaging component survives immunity.
+The Harness path develops armor training in order. Light Armor II costs 2 DP and improves your footing before Light Armor III teaches medium armor. Heavy armor begins at level 3. Each later training includes the armor categories you already know. Use the highest applicable resistance. Attacks deal at least 1 damage after resistance if any damaging component survives immunity.
 
 ## Bulk and hands
 

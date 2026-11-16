@@ -1,8 +1,24 @@
 # Volley
 
-*Choose a 2 × 2 area within 10 squares. Requires a ranged weapon and ammunition. Make one Agility roll and apply it to each creature in the area. On a Standard result, deal 2 physical damage.*
+*You follow the quarry with patient eyes and a ready shot.*
 
 ## Rules
+
+### Steady Aim
+
+**Action:** Maneuver · **Attribute:** None (no roll)
+
+**Target / range / shape:** Self; one visible creature.
+
+Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you make against that creature and ignore partial cover from it.
+
+**Duration:** Until you move.
+
+**Equipment / acquisition:** A ranged weapon and ammunition.
+
+The benefit ends when you aim at another target or the scene ends. You must still perceive your target to attack it.
+
+### Volley
 
 **Action:** Main Action · **Attribute:** Agility
 
@@ -20,9 +36,9 @@ Requires a ranged weapon and ammunition. Make one Agility roll and apply it to e
 
 **Type:** Signature
 
-**Tags:** Skill / Attack
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-warden-stay-on-the-scent
 

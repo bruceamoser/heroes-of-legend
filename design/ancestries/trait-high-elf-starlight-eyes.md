@@ -1,16 +1,14 @@
 # Starlight Eyes
 
-*Gain Low-Light Vision 1. Ignore the first Bane from dim light.*
+*Your eyes gather the last light of dusk.*
 
 ## Rules
 
-[Low-Light Vision](../rules/vision.md) 1.
+Your eyes gather the last light of dusk. Gain Low-Light Vision 1, ignoring one lighting Bane.
 
-**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** High Elf · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-high-elf-starlight-eyes
 

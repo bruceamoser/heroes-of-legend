@@ -1,16 +1,14 @@
 # Better Together
 
-*Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies.*
+*You instinctively follow the opening your companions create.*
 
 ## Rules
 
-Gain 1 Boon to your first attack roll on each of your turns against a creature adjacent to at least two of your allies.
+You instinctively follow the opening your companions create. Gain 1 Boon to the first attack on your turn when its target is adjacent to at least two of your allies.
 
-**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive.
+**Ancestry:** Goblin · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
-
-**Status:** Approved by Bruce on November 3, 2026; ancestry expansion remains in review.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-goblin-more-of-us-than-you
 

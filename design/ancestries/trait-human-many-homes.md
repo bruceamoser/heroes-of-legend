@@ -1,14 +1,16 @@
 # A Foot in Two Worlds
 
-*Choose another ancestry. You learn one language native to that ancestry and gain one trait from that ancestry’s trait list as this trait’s benefit. You keep your Human base HP and Speed.*
+*Another ancestry is part of your heritage or the life that shaped you.*
 
 ## Rules
 
-Choose another ancestry. You learn one language native to that ancestry and gain one trait from that ancestry’s trait list as this trait’s benefit. You keep your Human base HP and Speed.
+Another ancestry is part of your heritage or the life that shaped you. Choose one of its traits and one language native to it. Describe how that trait manifests in you; take its complete rules while retaining your Human ancestry statistics and resources.
 
-**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+The borrowed trait includes its physical or supernatural characteristic and any drawback. Retain your Human HP, SP, coins, Speed and Size. Choose a trait from a different ancestry; each trait applies once.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
+
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-human-many-homes
 

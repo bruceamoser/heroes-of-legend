@@ -6,11 +6,12 @@
 
 ## Rules
 
-**Type:** Background. **Status:** Proposal. Choose one paired option; take the access and first entry together.
+**Type:** Background.
 
-- **Subterfuge access** and [Quiet Passage I](../disciplines/subterfuge.md).
-- **Mentalism access** and [Thought I](../spellbooks/thought.md).
+**Discipline choices:** Subterfuge, Mentalism.
 
-Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
+Begin studying one of these disciplines. Choose a different discipline from each of your culture, background and class; together they give you three starting fields of study. Spend your starting DP on the abilities or spellbook sections you want to learn.
+
+**Starting SP contribution:** +1 maximum SP.
 
 **Starting coin contribution:** +7 coins. See [starting coins](../starting-coins.md).

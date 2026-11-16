@@ -41,10 +41,13 @@ Open a flower, ripen one already-growing fruit, make a seed sprout, or read whet
 **Action:** Main Action
 **SP:** 1
 **Attribute:** Reason
+**Defense:** Agility
 **Target / range:** Every grounded creature in a 2-square-radius area within 6 squares
+**Hold attribute:** Reason
+**Escape attribute:** Agility
 **Duration:** Sustained, up to 1 minute
 
-Roots grasp through soil. Apply Slowed 1/2/3 to affected creatures. The area is difficult terrain while sustained. Each upkeep renews Slowed 1 on creatures still in the area; ordinary decay applies after they leave.
+Roots grasp through soil. Apply Slowed 1/2/3 to creatures in the area when cast. The area is difficult terrain while sustained. Each upkeep renews Slowed 1 on those originally caught who remain in the area. A conscious caught creature may spend a Main Action to escape; success removes this casting’s Slowed and protects it from being caught again by the same casting. Leaving the area or ending Sustain also removes this casting’s Slowed. Difficult terrain remains while the roots persist.
 
 ### Goodberry
 
@@ -77,10 +80,11 @@ Converse through impressions of light, weather, touch and nearby movement experi
 **Action:** Main Action
 **SP:** 2
 **Attribute:** Reason
+**Defense:** Agility
 **Target / range:** A 2-square-radius patch of soil within 6 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
-Raise sharp growth that makes the area difficult terrain. Roll when cast to set physical damage at 2/3/5. Each creature takes that damage the first time each round it moves through at least one affected square. The growth is visible on inspection.
+Raise sharp growth that makes the area difficult terrain. Roll when cast to set physical damage at 2/3/5. Each creature takes that damage the first time each round it moves through at least one affected square. The growth is visible on inspection. Keep one Spike Growth active; casting another ends the first.
 
 ### Plant Growth
 
@@ -102,7 +106,7 @@ Thicken the plants into difficult terrain. You may leave a connected walking pat
 **SP:** 3
 **Attribute:** None
 **Target / range:** One willing creature within 3 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Bark covers the recipient's skin. Grant physical resistance 2 and Stability 1. Use the highest applicable resistance and Stability.
 
@@ -137,8 +141,9 @@ Awaken a speaking mind with one language you know. The being keeps its body, nat
 **Action:** Main Action
 **SP:** 5
 **Attribute:** Reason
+**Defense:** Agility
 **Target / range:** Six connected unoccupied ground squares within 8 squares
-**Duration:** Sustained, up to 1 minute
+**Duration:** 1 minute
 
 Grow a thorn wall 2 squares high. Moving through one square costs 3 movement and deals 3/5/7 physical damage, set by your casting roll, once per creature each round. Each wall square has 8 HP; fire damages it normally.
 

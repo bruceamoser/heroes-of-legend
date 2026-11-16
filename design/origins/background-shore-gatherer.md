@@ -6,11 +6,12 @@
 
 ## Rules
 
-**Type:** Background. **Status:** Proposal. Choose one paired option; take the access and first entry together.
+**Type:** Background.
 
-- **Wilderness access** and [Wild Harvest I](../disciplines/wilderness.md).
-- **Athletics access** and [Strong Swimmer I](../disciplines/athletics.md).
+**Discipline choices:** Wilderness, Athletics.
 
-Gain the chosen access and first entry at level 0. Each duplicate grant gives 1 DP for that stage.
+Begin studying one of these disciplines. Choose a different discipline from each of your culture, background and class; together they give you three starting fields of study. Spend your starting DP on the abilities or spellbook sections you want to learn.
+
+**Starting SP contribution:** +1 maximum SP.
 
 **Starting coin contribution:** +5 coins. See [starting coins](../starting-coins.md).

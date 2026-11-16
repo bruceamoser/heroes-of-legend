@@ -1,6 +1,6 @@
 # Go Berserk
 
-*Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain DR 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.*
+*Your fury turns pain and peril into a reason to keep moving.*
 
 ## Rules
 
@@ -8,11 +8,13 @@
 
 **Target / range / shape:** Self.
 
-Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain DR 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
+Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain physical resistance 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
 
 **Duration:** Until the end of the scene, or until you end it.
 
 **Equipment / acquisition:** None.
+
+**Frequency:** Once per scene.
 
 ---
 
@@ -20,9 +22,9 @@ Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack
 
 **Type:** Signature
 
-**Tags:** Skill / Attack / Defense
+**Tags:** Skill / Signature
 
-**Limits:** Once per scene.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-unbalanced-wild-approach
 

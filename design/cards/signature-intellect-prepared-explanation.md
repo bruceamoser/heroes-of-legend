@@ -1,16 +1,16 @@
 # Angle of Attack
 
-*Choose one creature within reach of your melee weapon. You must be wielding a melee weapon. Make a melee weapon attack against one creature within reach, using Knowledge instead of Brawn. On a Weak result, deal 3 physical damage. On a Standard result, deal 5 physical damage. On a Strong result, deal 7 physical damage.*
+*You study a foe until its movements reveal a weakness.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Knowledge
+**Action:** Maneuver · **Attribute:** None
 
-**Target / range / shape:** One creature within reach of your melee weapon. You must be wielding a melee weapon.
+**Target / range / shape:** One visible foe within 5 squares.
 
-Make a melee weapon attack against one creature within reach, using Knowledge instead of Brawn. On a Weak result, deal 3 physical damage. On a Standard result, deal 5 physical damage. On a Strong result, deal 7 physical damage.
+Study the foe. Until the start of your next turn, your next weapon attack against it may use Knowledge instead of its ordinary attribute. Use that attack’s actual range, weapon requirements, damage and effects. You may study once on your turn; a new study replaces the previous one.
 
-**Duration:** Immediate.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Make a melee weapon attack against one creature within reach, using Knowledge in
 
 **Type:** Signature
 
-**Tags:** Skill / Attack
+**Tags:** Skill / Signature
 
-**Limits:** Repeatable; normal action economy applies.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-intellect-prepared-explanation
 

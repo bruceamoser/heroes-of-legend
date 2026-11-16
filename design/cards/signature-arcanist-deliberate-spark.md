@@ -1,6 +1,6 @@
 # Deliberate Spark
 
-*Choose one corner of your square. Each creature in the four squares that share that corner and are in line of effect. Choose a corner of your square and spark a brief flare of gas there. Each creature in the four squares that share that corner, including you, is pushed 2 squares directly away from that corner. A creature in more than one of those squares is pushed once. The spark does not provoke opportunity attacks. Resolve the push as forced movement. Normal collision rules apply.*
+*You turn unstable magic into motion and shelter.*
 
 ## Rules
 
@@ -12,7 +12,9 @@ Choose a corner of your square and spark a brief flare of gas there. Each creatu
 
 **Duration:** Immediate.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A free hand for casting.
+
+This is a spell costing 0 SP, usable once on your turn. Its casting does not provoke opportunity attacks.
 
 ---
 
@@ -20,9 +22,9 @@ Choose a corner of your square and spark a brief flare of gas there. Each creatu
 
 **Type:** Signature
 
-**Tags:** Magic / Control
+**Tags:** Skill / Signature
 
-**Limits:** Once per round; uses your Maneuver.
+**Limits:** One signature choice at each of levels 1, 3 and 7.
 
 **ID:** signature-arcanist-deliberate-spark
 

@@ -10,7 +10,7 @@ Inventing and tinkering delight many gnomes: an unfamiliar mechanism invites exa
 
 ## Rules
 
-Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Only the printed rules grant mechanical benefits.
+Choose two of the five traits below. Temperamental tendencies are invitations, not a required personality. Any ancestry may grow up in any culture. Each chosen characteristic carries the benefits and side effects in its description.
 
 **Starting values:** HP contribution +1 at creation and per level; base Speed 6; Size Small.
 
@@ -20,6 +20,6 @@ Choose two of the five traits below. Temperamental tendencies are invitations, n
 - [Small Target](trait-gnome-small-target.md) — You tuck yourself behind the low stone as the arrow strikes its edge.
 - [Bright Idea](trait-gnome-bright-idea.md) — You draw three lines in the dust, add a spoon, and the answer takes shape.
 
-**Starting coin contribution:** +1 coins. See [starting coins](../starting-coins.md).
+**Starting SP contribution:** +3 maximum SP at creation.
 
-**Status:** Prepared for v16.7.0 under Bruce’s release instruction; trait approvals recorded separately.
+**Starting coin contribution:** +0 coins. See [starting coins](../starting-coins.md).

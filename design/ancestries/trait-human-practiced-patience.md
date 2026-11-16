@@ -1,14 +1,14 @@
 # The Impossible Streak
 
-*Once per day, before an ordinary noncombat roll, describe the difficult way you are taking. Gain 3 Boons to that roll.*
+*You find a difficult route through an ordinary noncombat task.*
 
 ## Rules
 
-Once per day, before an ordinary noncombat roll, describe the difficult way you are taking. Gain 3 Boons to that roll.
+You find a difficult route through an ordinary noncombat task. Once between safe overnight rests, commit to spending twice the task’s ordinary time before rolling and gain 3 Boons. Describe the laborious approach.
 
-**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the description gives a time or action.
 
-**Duration:** While its stated circumstances apply; permanent for base statistics.
+**Duration:** As described; changes to base statistics are permanent.
 
 **ID:** trait-human-practiced-patience
 
