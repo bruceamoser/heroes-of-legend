@@ -1,5 +1,13 @@
-# Heroes of Legend v16.9.0 — Clearer character choices
+# Heroes of Legend v17.0.0 — Growing into a legend
 
-The Player’s Book now describes what each of the 50 ancestry traits and 427 player abilities does in game terms, including all 90 signatures. The ability directory uses the same descriptions. Names and rules are unchanged.
+Create a hero in one pass with three starting disciplines and a single DP reserve. Ancestry traits express recognizable characteristics and their consequences; class signatures develop at levels 1, 3 and 7.
 
-Includes the Player’s Book, Dungeon Architect’s Guide & Bestiary, and the complete starter kit. [Approved book changes](https://github.com/bruceamoser/heroes-of-legend/pull/1304) · [Charactermancer and Foundry sync](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/267)
+Nonmagical disciplines now have seven-step paths, with advanced developments at level 3 and masteries at level 7. Their prices are **1 / 2 / 2 / 3 / 4 / 4 / 5 DP**. Class-specific discipline prices reward focused study while allowing broader training. Spellbooks retain their four learned sections; new master spells follow their own books without inter-discipline prerequisites.
+
+The magic chapter separates fixed durations, directing an effect and Sustain. Sustain takes a Maneuver and 0 SP. Control spells name casting, defense, hold and escape attributes, keeping every roll in the players' hands.
+
+Both books include the revised creation, advancement, HP/SP, healing and learning rules. The Player's Book retains two-page illustrated spellbooks, complete spell blocks, two-column ability cards and six rebuilt ready-to-play heroes.
+
+Validation: both books built and inspected; source, links, transcription, spellbook spreads and worked-character audits passed. This release supplies rules for playtesting; encounter balance remains under playtest.
+
+The [Character Workshop](https://bruceamoser.github.io/heroes-of-legend-foundry/) is being updated alongside these books. [Rewrite implementation and publication record](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/299). Native Foundry integration follows Workshop acceptance.

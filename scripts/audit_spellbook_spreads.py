@@ -29,7 +29,7 @@ for book in books:
     for spell in book['spells']:
         hits=[p for p in [left,right] if norm(spell['effect']) in npages[p-1]]
         assert len(hits)==1,(spell['id'],'effect missing or divided')
-        for value in [spell['name'],spell['target'],spell['duration'],*spell['action'].split(' · ')]:
+        for value in [spell['name'],spell['target'],spell['duration'],*spell['action'].split(' · '),*[spell[k] for k in ['defense','hold','escape'] if spell.get(k)]]:
             assert norm(value) in npages[hits[0]-1],(spell['id'],value)
     entry=art_map[book['ID']]
     assert (B/entry['path']).is_file() and entry['path'].endswith('.png'),entry
@@ -43,3 +43,10 @@ assert len(set(seen))==58 and sorted(seen)==list(range(min(seen),max(seen)+1))
 s=(B/'spellbook-spreads.typ').read_text()
 assert s.count('icons:discipline-mark(lower(b.Discipline),"",size:22pt)')==2
 print('PASS: 29 even/odd facing spreads; 319 intact spell blocks; lists, unique art and discipline tokens; no interleaved pages.')
+
+masteries=json.loads((B/'generated/spell-masteries.json').read_text())
+assert len(masteries)==20
+for spell in masteries:
+    hits=[i for i,p in enumerate(npages,1) if norm(spell['effect']) in p]
+    assert len(hits)==1 and hits[0] not in seen,(spell['id'],'mastery must be complete in its separate folio')
+print('PASS: 20 complete mastery spell blocks in separate folios.')

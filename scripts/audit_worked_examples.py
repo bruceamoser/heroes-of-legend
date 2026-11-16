@@ -30,9 +30,9 @@ def verify(book=ROOT,check_markdown=True):
   for att in re.search(r'Minimum 0 in ([^.]+)',cls)[1].split(', '):need(a[att.lower()]>=0,who+': class minimum '+att)
   need(len(q['traitIds'])==2 and len(set(q['traitIds']))==2,who+': two traits')
   for t in q['traitIds']:need(f'({t}.md)' in anc,who+': ancestry trait '+t)
-  ds=[];coins=40+int(re.search(r'Starting coin contribution:\*\* \+(\d+)',anc)[1])+int(re.search(r'Starting coin contribution:\*\* \+(\d+)',cls)[1])
+  ds=[];origin_sp=0;coins=40+int(re.search(r'Starting coin contribution:\*\* \+(\d+)',anc)[1])+int(re.search(r'Starting coin contribution:\*\* \+(\d+)',cls)[1])
   for key in ['culture','background']:
-   origin=(d/'origins'/f"{q[key]['id'][7:]}.md").read_text();choices=re.search(r'Discipline choices:\*\* (.+)\.',origin)[1].split(', ');ds.append(slug(choices[q[key]['pair']]));coins+=int(re.search(r'Starting coin contribution:\*\* \+(\d+)',origin)[1])
+   origin=(d/'origins'/f"{q[key]['id'][7:]}.md").read_text();choices=re.search(r'Discipline choices:\*\* (.+)\.',origin)[1].split(', ');ds.append(slug(choices[q[key]['pair']]));coins+=int(re.search(r'Starting coin contribution:\*\* \+(\d+)',origin)[1]);origin_sp+=int(re.search(r'Starting SP contribution:\*\* \+(\d+)',origin)[1])
   allowed=[slug(v) for v in re.search(r'Choose one of ([^.]+)',cls)[1].split(', ')];need(len(q['classDisciplines'])==1 and q['classDisciplines'][0] in allowed,who+': class discipline');ds+=q['classDisciplines'];need(len(set(ds))==3,who+': three distinct disciplines')
   sig=q['signatureId'][8:];need(f'({"../cards/"+sig+".md"})' in cls.split('## Level 1 choices')[1].split('## Level 3 choices')[0],who+': signature')
   pool=8+sum(a[k] for k in ['guile','knowledge','reason'])+int('trait-human-far-walker' in q['traitIds']);left=pool;owned=set();ledger=[]
@@ -40,7 +40,7 @@ def verify(book=ROOT,check_markdown=True):
   for purchase in q['purchases']['1']:
    ident=purchase['id'];need(ident in entries,who+': known purchase '+ident);e=entries[ident];need(ident not in owned and e['discipline'] in ds and e['level']<=1 and (not e['previous'] or e['previous'] in owned),who+': legal purchase '+ident);left-=e['cost'];need(left>=0,who+': affordable '+ident);owned.add(ident);ledger.append((ident,left))
   hp=10+int(re.search(r'HP contribution \+(\d+)',anc)[1])+int(re.search(r'HP contribution:\*\* \+(\d+)',cls)[1])+a['fortitude']+2*int('trait-dwarf-deep-constitution' in q['traitIds'])
-  mental=re.search(r'2 × max\(0, (\w+)\)',cls)[1].lower();sp=int(re.search(r'Starting SP contribution:\*\* \+(\d+)',anc)[1])+2+2*max(0,a[mental])
+  mental=re.search(r'2 × max\(0, (\w+)\)',cls)[1].lower();sp=int(re.search(r'Starting SP contribution:\*\* \+(\d+)',anc)[1])+origin_sp+2*max(0,a[mental])
   for path in ['soul-capacity','mind-capacity']:
    step=max([int(i.rsplit(':',1)[1]) for i in owned if i.startswith('spellcraft:'+path+':')],default=0);sp+=[0,2,4,7][step]
   gear=[];spent=bulk=hands=0

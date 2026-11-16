@@ -78,7 +78,7 @@ This is the one free signature choice for level 1.
 
 ## At the table
 
-Use Measured Cut II as your Main Action and Driving Opening as your Maneuver. Fade Behind and Catch Your Balance are situational Reactions; a held dagger also permits the universal Opportunity Attack. Patient Hand II works with the purchased lock tools. Keep the other hand free for locks and climbing.
+Use Measured Cut II as your Main Action and Driving Opening as your Maneuver. Fade Behind is an alternative Maneuver for escape and concealment. Catch Your Balance is a situational Reaction; a held dagger also permits the universal Opportunity Attack. Patient Hand II works with the purchased lock tools. Keep the other hand free for locks and climbing.
 
 All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 

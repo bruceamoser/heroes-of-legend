@@ -190,9 +190,10 @@ def card(p):
   m=re.search(r'\*\*'+re.escape(label)+r':\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',s);return m.group(1).strip() if m else default
  tier=field('Tier / minimum level');req=field('Requirements to learn');action=field('Action');attr=field('Attribute');card_type=field('Type');price=field('DP')
  tags=card_type
- card_records.append({'path':rel(p),'name':name(p),'tier':tier,'action':action,'requirements':req,'key':key(p)})
+ card_records.append({'path':rel(p),'name':name(p),'tier':tier,'type':card_type,'action':action,'requirements':req,'key':key(p)})
  if field('Tags'):tags+=' / '+field('Tags')
- s=re.sub(r'^\*\*(?:Action|Tier / minimum level|Type|Tags):\*\*.*\n','',s,flags=re.M)
+ s=re.sub(r'^\*\*Action:\*\*.*\n','',s,count=1,flags=re.M)
+ s=re.sub(r'^\*\*(?:Tier / minimum level|Type|Tags):\*\*.*\n','',s,flags=re.M)
  s=s.replace('## Rules','---')
  s=s.replace('**Equipment / acquisition:** No item needed unless named above.','').replace('**Equipment / acquisition:**','**Gear:**').replace('**Target / range / shape:**','**Target:**')
  s=s.replace('**Limits:** Repeatable; pay the action and any stated costs each use.','')
@@ -422,23 +423,18 @@ p=DESIGN/'rules/wounds.md';record(p,'scar-reference');parts.append('#metadata('+
 parts.append(section('13','Ready-to-Play Heroes'))
 parts.append('#twocol[These six level-1 heroes show complete creation, including their starting DP and paid equipment. Use one as written or follow its ledger as an example. A changed choice must still meet requirements. Lira is an archer built as a Blade; the Warden provides another route to a wilderness-focused hero.]\n')
 hero_intro=(DESIGN/'characters/README.md').read_text()
-hero_rows=[]
-for line in hero_intro.splitlines():
- if line.startswith('| ['):
-  cells=line.strip('|').split('|')
-  if len(cells)!=8:continue
-  hero_rows.append('| '+cells[0].strip()+' | '+cells[1].strip()+' | '+cells[2].strip()+' |')
-assert len(hero_rows)==6, 'Expected six character overview rows'
-parts.append(render('| Hero | Fantasy | Ancestry and class |\n|---|---|---|\n'+'\n'.join(hero_rows), DESIGN/'characters/README.md'))
+hero_rows=[line for line in hero_intro.splitlines() if line.startswith('|')]
+assert sum(line.startswith('| [') for line in hero_rows)==6, 'Expected six character overview rows'
+parts.append(render('\n'.join(hero_rows), DESIGN/'characters/README.md'))
 parts.append('#illustration("heroes", height: 340pt, fit: "cover")\n')
 for p in sorted((DESIGN/'characters').glob('*.md'),key=name):
  if p.name!='README.md':parts.append(doc(p,'character',wide=True,break_before=True))
 parts.append(manuscript('14-reference.md','14','Table References'))
 parts.append('#include "../sheets.typ"\n')
-for tier,title in [('Universal','Basic action index'),('0','Talent index'),('1','Level 1 signature index'),('3','Level 3 signature index'),('7','Level 7 signature index')]:
+for tier,title in [('Universal','Basic action index'),('Talent','Talent index'),('1','Level 1 signature index'),('3','Level 3 signature index'),('7','Level 7 signature index')]:
  parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\n')
  entries=[]
- for c in sorted((c for c in card_records if c['tier']==tier),key=lambda x:x['name'].casefold()):
+ for c in sorted((c for c in card_records if ((c['type'] not in ['Universal','Signature']) if tier=='Talent' else c['tier']==tier and (tier=='Universal' or c['type']=='Signature'))),key=lambda x:x['name'].casefold()):
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))

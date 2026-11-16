@@ -86,7 +86,7 @@ This is the one free signature choice for level 1.
 
 ## At the table
 
-Mend uses a Main Action and 1 SP. Growth I supplies a free attack cantrip and Entangle. Use the universal Sustain Spell Maneuver for an active spell that calls for it; it costs 0 SP. The universal Opportunity Attack is available with a free hand. First Aid II improves the same daily first-aid allowance, rather than granting another treatment. Keep supplies accessible.
+Mend uses a Main Action and 1 SP. Growth I supplies a free attack cantrip and Entangle. Use the universal Sustain Spell Maneuver for an active spell that calls for it; it costs 0 SP. The universal Opportunity Attack is available with a free hand. Field Dressing II improves the same daily first-aid allowance, rather than granting another treatment. Keep supplies accessible.
 
 All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 

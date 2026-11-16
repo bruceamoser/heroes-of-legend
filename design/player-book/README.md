@@ -16,7 +16,7 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
 - `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
-- `../spellbooks/`, `../combined-abilities.md`, `../rules/learning.md` and `../rules/magic.md`: canonical learning and casting chapters.
+- `../spellbooks/`, `../spell-masteries.md`, `../rules/learning.md` and `../rules/magic.md`: canonical learning and casting chapters.
 - `integrate_learning.py`: assembles learned paths, linked spell tables, individual casting blocks and exact-endpoint combinations into the book’s two-column layout. Recipes render directly from their Markdown sources.
 - `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
@@ -64,12 +64,16 @@ python3 design/bestiary/audit.py
 
 ## Current baseline and release
 
-The November playtest revision integrates health, sequential learning, spellbook pages and combined disciplines. Current authored
+The November playtest revision integrates health, single-process creation, seven-step learned paths, four-section spellbooks and book masteries. Current authored
 rules and catalog entries are the authority; Git history holds previous editions.
 The 29 spellbooks contain 319 casting blocks: 169 Main Actions, 22 Maneuvers,
 12 Reactions with triggers, and 116 Rituals with casting times. Shared casting,
 sustain, cancellation and SP-transfer procedures are in `design/rules/magic.md`.
-Basic Actions contains the 18 universal actions; the six small talents appear
+Twenty level-7 mastery spells follow their own book’s fourth section. The 11 nonmagical
+disciplines contain 44 seven-step paths (308 entries); Spellcraft adds three training
+paths (21 entries) alongside its Channeling spellbook. Former combined purchases
+are rehomed into these paths and mastery spells.
+Basic Actions contains the 19 universal actions; the six small talents appear
 in character creation. New mechanics require review. CV calibration remains
 playtest work.
 

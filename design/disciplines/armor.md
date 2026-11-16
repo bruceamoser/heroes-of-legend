@@ -1,7 +1,7 @@
 # Armor
 Wear your protection as though it were part of you.
 
-These techniques require worn armor you are trained to use. Harness teaches light armor first, medium at its third step and heavy at its fourth, at level 3. The suit supplies physical resistance 1/2/3 respectively; use the highest matching resistance, not a sum. Training grants no suit. Damage reductions apply after resistance and respect the minimum for attacks; immunity remains an exception.
+These techniques require worn armor you are trained to use. Harness teaches light armor first, medium at its third step and heavy at its fourth, at level 3. The suit supplies physical resistance 1/2/3 respectively; use the highest matching resistance, not a sum. Acquire a suitable suit with your other equipment. Damage reductions apply after resistance and respect the minimum for attacks; immunity remains an exception.
 
 ## Advance
 

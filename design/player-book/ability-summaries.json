@@ -334,5 +334,6 @@
   "the-web-of-whispers": "One question about a person, place, faction or event your network or research could plausibly know. Ask one question. The DA answers truthfully from what that network would know. The answer may be incomplete or point to a source. You also learn who can tell you more.",
   "the-lucky-trinket": "You carry a personal trinket you believe is magical. It may or may not be. Once a day, when you make a non-combat roll, you can use the trinket to gain 2 Boons on that roll.",
   "the-mountain-walks": "Charge in a straight line, pushing creatures out of your path and breaking through nonmagical barriers you can damage.",
-  "touched-by-the-divine": "You understand every spoken language you hear. Your own speech and literacy remain the languages you have learned."
+  "touched-by-the-divine": "You understand every spoken language you hear. Your own speech and literacy remain the languages you have learned.",
+  "sustain-spell": "Spend a Maneuver and 0 SP to continue one Sustained spell through the end of your next turn."
 }
