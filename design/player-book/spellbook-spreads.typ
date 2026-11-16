@@ -18,7 +18,7 @@
  #grid(columns:(1fr,auto),gutter:6pt,text(weight:"bold",action-parts.first()),text(weight:"bold",e.sp+" SP"))
  #if action-parts.len() > 1 { v(3pt); text(size:8.8pt, action-parts.slice(1).join(" · ")) }
  #v(3pt)
- #text(size:8.8pt)[*Section #e.section* · #if e.section == "VII" {[Level 7]} else if ("IV","V","VI").contains(e.section) {[Level 3]} else {[Level 1]} · *Resolution:* #if e.attribute == "None" { [Automatic] } else {e.attribute}]
+ #text(size:8.8pt)[*Section #e.section* · #if e.section == "VII" {[Level 7]} else if ("IV","V","VI").contains(e.section) {[Level 3]} else {[Level 1]} · #if e.attribute == "None" { [Automatic] } else {e.attribute}]
  #linebreak()
  #text(size:8.8pt)[*Target / range:* #e.target]
  #linebreak()
@@ -27,7 +27,7 @@
   let value = e.at(field,default:none)
   if value != none {linebreak();text(size:8.8pt)[*#label:* #value]}
  }
- #v(5pt)
+ #v(3pt)
  #text(e.effect)
 ]
 
@@ -37,16 +37,18 @@
   let w = 255pt
   let usable = 610pt
   let items = (spellbook(b),) + b.spells.map(e=>spell-entry(b,e))
-  let cards = items.map(it=>block(above:0pt,below:5pt,it))
-  let heights = cards.map(it=>measure(block(width:w,it)).height+5pt)
+  let cards = items.map(it=>block(above:0pt,below:3pt,it))
+  let heights = cards.map(it=>measure(block(width:w,it)).height+3pt)
+  let art = spread-art.at(b.ID)
+  let art-column = art.at("column",default:3)
   let best = none
   let best-score = 100000pt
   for a in range(1,items.len()-2) {
     for c in range(a+1,items.len()-1) {
       for d in range(c+1,items.len()) {
         let hs = (heights.slice(0,a).sum(),heights.slice(a,c).sum(),heights.slice(c,d).sum(),heights.slice(d).sum())
-        let score = calc.max(hs.at(0),hs.at(1),hs.at(2),hs.at(3)+160pt)
-        if hs.all(h=>h<=usable) and hs.at(3)<=usable - 85pt and score < best-score {
+        let score = calc.max(..hs.enumerate().map(((i,h))=>h+if i==art-column {160pt} else {0pt}))
+        if hs.all(h=>h<=usable) and hs.at(art-column)<=usable - 85pt and score < best-score {
           best = (a,c,d);best-score=score
         }
       }
@@ -54,7 +56,6 @@
   }
   assert(best != none,message:"Spellbook exceeds its spread: "+b.ID)
   let bounds = (0,) + best + (items.len(),)
-  let art = spread-art.at(b.ID)
   for side in range(2) {
     if side==1 {pagebreak()}
     block(height:64pt)[
