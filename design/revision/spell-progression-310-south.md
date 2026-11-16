@@ -61,3 +61,11 @@ The user’s local *Spell Law* also confirms General IV in Enchanting Ways (PDF 
 ## Validation and limits
 
 The scoped structural check verifies thirteen books, 143 unique spell blocks, matching table/block names and SP, the section distribution 2/2/2/2/1/1/1, explicit spell fields and usable reaction triggers/ritual times. The same check confirms original spells 1–8 remain unchanged and surviving identities are unique. Shared importer, endpoint references, migration, both PDF builds and browser tests are integration work tracked in #310. These checks establish coherent authoring and construction, not playtested equivalence between combat, travel and settlement magic.
+
+## Enchanted Knowledge follow-up (#1334)
+
+Bruce asked what the four Intelligence spells actually provide. He endorsed an artificial Knowledge boost and explicitly requested telepathic communication. He confirmed that the Rolemaster source is welcome; the question about 5e was provenance, not an instruction to replace these spells.
+
+The four grades now create Knowledge +1/+2/+3/+4 minds. Within six squares, their caster can communicate telepathically and choose the item's fixed score for Knowledge rolls, including Knowledge-based casting. The existing set-value item rules govern stacking and curse exceptions. The caster's own attributes still determine DP, class qualifications and maximum SP. One intelligent item, the existing ritual/material costs and durations, and separately commanded physical animation remain. These values are an HoL adaptation; Spell Law's Enchanting Ways establishes the intelligence grades, not this exact attribute-sharing rule.
+
+5e parallels are the Headband of Intellect and sentient magic items, not a direct spell conversion. Awaken animates the intellect of beasts/plants and does not share that attribute with its caster.

@@ -92,7 +92,7 @@ Animate them as one group with shared 10 HP, Speed 4, and your attributes for de
 **Target / range:** One prepared object beside you; 50 coins of reagents consumed
 **Duration:** 7 days
 
-Give it the ability to recognize its name, one voice and three spoken commands. It answers yes or no by a tiny movement or sound and remembers one short instruction. Movement or work uses a separate animation spell and its commands. You may keep one intelligent item of any degree at a time.
+Awaken a mind with Knowledge +1 and memory of three short instructions. Within 6 squares, you communicate telepathically and may use its score for Knowledge rolls, including casting, under the fixed-value item rules. Your own attributes determine DP, class qualifications and maximum SP. Keep one intelligent item of any grade. Movement and work use separate animation and commands.
 
 ### Medium Intelligence
 
@@ -104,7 +104,7 @@ Give it the ability to recognize its name, one voice and three spoken commands. 
 **Target / range:** One prepared object beside you; 100 coins of reagents consumed
 **Duration:** 7 days
 
-Give it one spoken language and memory of up to ten short instructions or messages. It can converse in simple sentences and report what was said within 1 square. Movement and work use a separate animation spell's commands. This replaces your prior intelligent item.
+Awaken a mind with Knowledge +2 and one language you know. It remembers ten short messages and hears within 1 square. Within 6 squares, you communicate telepathically and may use its score for Knowledge rolls, including casting, under the fixed-value item rules. Your own attributes determine DP, class qualifications and maximum SP. This replaces your prior intelligent item; physical activity uses separate animation and commands.
 
 ### High Intelligence
 
@@ -116,7 +116,7 @@ Give it one spoken language and memory of up to ten short instructions or messag
 **Target / range:** One prepared object beside you; 150 coins of reagents consumed
 **Duration:** 7 days
 
-Give it one language, a chosen conversational personality and memory of its week's experiences. It hears within 3 squares and can explain recorded instructions. It acts through speech; movement and work require separate animation and commands. This replaces your prior intelligent item.
+Awaken a mind with Knowledge +3, one language you know and a chosen personality. It hears within 3 squares and remembers its week's experiences. Within 6 squares, you communicate telepathically and may use its score for Knowledge rolls, including casting, under the fixed-value item rules. Your own attributes determine DP, class qualifications and maximum SP. This replaces your prior intelligent item; physical activity uses separate animation and commands.
 
 ### Very High Intelligence
 
@@ -128,7 +128,7 @@ Give it one language, a chosen conversational personality and memory of its week
 **Target / range:** One prepared object beside you; 250 coins of reagents consumed
 **Duration:** 7 days
 
-Give it two languages you know, a personality and clear memory of its experiences. It sees and hears within 3 squares and can discuss one field of ordinary knowledge you teach during the ritual. Its physical actions use separate animation and commands. This replaces your prior intelligent item.
+Awaken a mind with Knowledge +4, two languages you know and a chosen personality. It sees and hears within 3 squares and remembers its experiences. Within 6 squares, you communicate telepathically and may use its score for Knowledge rolls, including casting, under the fixed-value item rules. Your own attributes determine DP, class qualifications and maximum SP. This replaces your prior intelligent item; physical activity uses separate animation and commands.
 
 ### Animate Objects — Greater
 
