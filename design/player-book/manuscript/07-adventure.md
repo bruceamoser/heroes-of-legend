@@ -144,7 +144,7 @@ For casting actions, Rituals, sustained magic and spellbook learning, use [Magic
 
 ## Healing spends spell points
 
-Each spell costs its printed SP. Page 1 of every spellbook costs **0 SP**. Your reserve starts at 6 SP at level 1 before explicit improvements.
+Each spell costs its printed SP. The first spell in each spellbook costs **0 SP**. Calculate your reserve using [Starting SP](02a-starting-sp.md) in Chapter 2.
 Pay the full SP cost before rolling, after resolving any opportunity attack.
 Healing requires a free hand. Restore the printed HP, apply the
 recipient's Life resistance, and restore at least 1 if HP is missing. Never exceed
@@ -152,7 +152,7 @@ maximum HP. A Dying or stabilized living recipient needs no consent or Reaction.
 Ordinary healing erases no scars and cannot restore the dead; only an explicit resurrection working can do so. Potions use their own fixed
 healing and inventory die, without a spell outcome roll or SP cost.
 
-> **Example: a finite reserve.** A Shepherd with 6 SP uses Mend for 1 SP. A Standard result restores 6 HP; Life resistance 2 reduces that to 4. The healer has 5 SP left. Restoring HP cannot replenish SP.
+> **Example: a finite reserve.** A Shepherd with 6 SP spends 1 SP to cast Cure Wounds. A Standard result heals 5 HP, reduced to 3 by the recipient's Life resistance 2. The healer has 5 SP left. Restoring HP cannot replenish SP.
 
 A healing spell can attack a creature whose profile says healing harms it. Use the
 spell’s attribute, range and SP cost. Its HP result becomes Life damage; beneficial
