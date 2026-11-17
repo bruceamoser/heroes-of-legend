@@ -4,24 +4,6 @@
 
 ## Rules
 
-### Follow My Signal
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Up to two allies within 3 squares that can see or hear your Aid signal.
-
-When you use Aid, you may assist two allies instead of one. Name the task for each and explain how your signal helps. Each gains Aid’s normal 1 Boon to its next matching roll before the start of your next turn. Outside combat, Aid still replaces your own contribution to a group roll.
-
-**Duration:** Each Boon expires when used or the start of your next turn.
-
-**Equipment / acquisition:** None.
-
-Your signal may be speech, signs or music the recipients can perceive.
-
-**Frequency:** One two-recipient Aid on your turn.
-
-### Press the Opening
-
 **Action:** Maneuver · **Attribute:** None
 
 **Target / range / shape:** One willing ally within 4 squares that can perceive your signal.

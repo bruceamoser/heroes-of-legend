@@ -4,22 +4,6 @@
 
 ## Rules
 
-### Charge
-
-**Action:** Main Action · **Attribute:** Brawn
-
-**Target / range / shape:** One creature at least 2 squares away and within your Speed, in a straight line.
-
-Move up to your Speed in a straight line toward the target. This movement provokes normally. If you end adjacent to it, make a Brawn roll against it. Weak: 2 physical damage, and push it 1 square. Standard: 3 physical damage, push it 2 squares, and it is Prone. Strong: 5 physical damage, push it 3 squares, and it is Prone. Resolve collisions normally. If you cannot move at least 2 squares, you cannot use this ability.
-
-**Duration:** Immediate.
-
-**Equipment / acquisition:** None.
-
-Movement used in the approach spends your remaining movement for the turn, rather than granting a second full Speed allowance.
-
-### Rampage
-
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** Self; a straight line up to your Speed.

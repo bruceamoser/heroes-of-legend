@@ -31,8 +31,8 @@ for kind,f in sources:
  if kind == 'trait':body=body.split('**Ancestry:**',1)[0]
  rules=[b.strip() for b in re.split(r'\n\s*\n',body) if b.strip() and not b.lstrip().startswith(('**','#'))]
  cards.append({'kind':kind,'id':sid,'path':str(f.relative_to(book)),'title':title,'narrative':narrative,'fields':fields,'rules':rules,'procedures':[(label,value.strip()) for label,value in re.findall(r'\*\*([^*]+):\*\*\s*(.*?)(?=\s*·\s*\*\*|\n|$)',body) if label in ['Action','Attribute','Target / range / shape','Duration']]})
-# Use named PDF destinations emitted for canonical cards. Repeated foundation
-# headings inside upgraded signatures are body text, not new card boundaries.
+# Use named PDF destinations emitted for canonical cards, rather than treating
+# an ability name mentioned within another card as a new card boundary.
 from pypdf import PdfReader
 reader=PdfReader(a.player)
 manifest=json.loads((book/'design/player-book/generated/manifest.json').read_text())

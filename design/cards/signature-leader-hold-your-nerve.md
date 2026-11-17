@@ -4,20 +4,6 @@
 
 ## Rules
 
-### Stand Together
-
-**Action:** Maneuver · **Attribute:** None
-
-**Target / range / shape:** Self and one adjacent willing ally.
-
-You and the ally gain 1 Boon to defense rolls while remaining adjacent, until the start of your next turn. Once per scene, before either recipient rolls one of these defenses, you may increase that defense’s benefit to 2 Boons, without an additional action.
-
-**Duration:** Until your next turn or adjacency is lost.
-
-**Equipment / acquisition:** None.
-
-### Blow the Horn
-
 **Action:** Maneuver · **Attribute:** Guile
 
 **Target / range / shape:** Every enemy within 5 squares that can hear you.

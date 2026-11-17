@@ -4,31 +4,19 @@
 
 ## Rules
 
-### Go Berserk
-
 **Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain physical resistance 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
+Enter a rage until the end of the scene. While raging, gain 1 Boon to attack rolls, 1 Bane to defense rolls, and physical resistance 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
 
-**Duration:** Until the end of the scene, or until you end it.
+When an enemy damages you during this rage, gain 1 Boon to your next attack before the end of your next turn. Repeated damage does not accumulate these Boons. Damage you or an ally deliberately deal to you, and hazards you deliberately enter to hurt yourself, do not trigger it. Hostile forced movement into a hazard does trigger it.
 
-**Equipment / acquisition:** None.
-
-**Frequency:** Once per scene.
-
-### Pain Feeds the Fire
-
-**Action:** Passive · **Attribute:** None
-
-**Target / range / shape:** Self while Go Berserk is active.
-
-When an enemy damages you during your rage, gain 1 Boon to your next attack before the end of your next turn. Repeated damage does not accumulate these Boons. Damage you or an ally deliberately deal to you, and hazards you deliberately enter to hurt yourself, do not trigger it. Hostile forced movement into a hazard does trigger it.
-
-**Duration:** Until the next attack or the end of your next turn.
+**Duration:** Rage until scene end or until ended; damage-triggered Boon until your next attack or the end of your next turn.
 
 **Equipment / acquisition:** None.
+
+Use once per scene. If you also know Go Berserk, both signatures share that rage use.
 
 ---
 

@@ -4,22 +4,6 @@
 
 ## Rules
 
-### Bent Trajectory
-
-**Action:** Passive · **Attribute:** None — no roll
-
-**Target / range / shape:** One of your spell attacks; choose one visible, unoccupied square within 6 squares of you before rolling.
-
-Choose one of your spell attacks. It can originate from any visible, unoccupied square within 6 squares of you. Determine cover and attack path from that square, but measure range from you. You must know the target’s location. Roll the spell attack normally.
-
-**Duration:** For that spell.
-
-**Equipment / acquisition:** None.
-
-Use this shaping once on your turn. It changes the origin of an existing spell attack and uses that spell’s action, roll and SP; it is not a separate spell.
-
-### Create a Window
-
 **Action:** Reaction · **Attribute:** None (no roll)
 
 **Target / range / shape:** One willing ally on their turn, before they take any action; choose two visible, unoccupied squares within 6 squares of you.

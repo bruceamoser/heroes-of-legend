@@ -4,29 +4,15 @@
 
 ## Rules
 
-### Blade in the Back
-
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One creature within reach that has not noticed you or is adjacent to one of your allies.
+**Target / range / shape:** One creature within melee reach that has not noticed you or is adjacent to one of your allies.
 
-Make an Agility roll against the target. Weak: 3 physical damage. Standard: 4 physical damage, and the target has Bleeding 1. Strong: 6 physical damage, and the target has Bleeding 2.
+Make an Agility roll against the target. On Weak, deal 3 physical damage and apply Slowed 1. On Standard, deal 4 physical damage and apply Bleeding 1 and Slowed 2. On Strong, deal 6 physical damage and apply Bleeding 2 and Slowed 3. This is one attack, not an additional attack. Apply condition immunity and normal decay.
 
-**Duration:** Immediate; Bleeding uses its normal decay.
+**Duration:** Attack immediate; conditions use normal decay.
 
 **Equipment / acquisition:** A melee weapon.
-
-### Hamstring
-
-**Action:** Passive · **Attribute:** None
-
-**Target / range / shape:** The target of Blade in the Back.
-
-Blade in the Back also applies Slowed 1/2/3 on Weak/Standard/Strong. Apply condition immunity and decay normally. This improves the same attack rather than granting another one.
-
-**Duration:** Ordinary condition decay.
-
-**Equipment / acquisition:** None.
 
 ---
 

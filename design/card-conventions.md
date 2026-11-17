@@ -10,7 +10,7 @@ A magical discipline opens four spellbooks. Each book follows seven sequential s
 
 Masteries follow their own path’s level-3 studies. Both martial and magical paths culminate in one level-7 mastery.
 
-Class signatures are gained at their milestones, not bought as additional independent abilities.
+Choose class signatures at their milestones without spending DP.
 
 Declare a card before rolling. Roll 3d6 plus its one printed attribute with the
 normal Boon/Bane rules. No skill bonus, weapon damage die or extra attribute damage.
@@ -201,7 +201,7 @@ action efficiency, reliability, scope, positioning or a distinctive permission.
 A vivid name alone does not establish that advantage. Compare the whole procedure,
 including costs, targets and limits, rather than only damage.
 
-Each milestone at levels 1, 3 and 7 offers one choice. A hero can develop a known signature or begin a different line. A later choice includes its foundation; its conditional level-3 section applies only when that earlier development was selected. Present each line’s actual components once. These choices spend no DP.
+Each milestone at levels 1, 3 and 7 offers one independent signature choice without spending DP. Write its complete action, target, costs and effects on its own card. A signature may add a short benefit when the hero also knows another named signature. Such an interaction does not grant that other signature or make it a prerequisite; refer to its name instead of repeating its rules.
 
 Signature records retain Type: Signature
 and use Tags for their functional roles; action cost remains a separate field.

@@ -4,26 +4,6 @@
 
 ## Rules
 
-### Borrowed Tongue
-
-**Action:** Maneuver
-
-**Attribute:** None (no roll)
-
-**Target / range / shape:** Self; one language you hear spoken.
-
-A spirit that knows the language possesses you. You understand and speak that language for the scene. You do not read or write it.
-
-**Duration:** Until the end of the scene.
-
-**Equipment / acquisition:** None.
-
-This is a consensual spirit invitation and a spell costing 0 SP. You retain control of your actions.
-
-**Frequency:** Once per scene; one language at a time.
-
-### Out of Body
-
 **Action:** Main Action · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.

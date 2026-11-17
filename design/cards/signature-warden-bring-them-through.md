@@ -4,24 +4,6 @@
 
 ## Rules
 
-### Beast Speech
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-For the scene, you can speak with animals. You can ask questions and understand their replies, limited by what the animal has experienced and can understand. You gain 1 Boon to all rolls interacting with animals you are speaking with. This does not make an animal friendly or obedient, and does not compel it to act against its nature.
-
-**Duration:** The scene.
-
-**Equipment / acquisition:** A free hand for casting.
-
-This is a spell costing 0 SP. Animals retain their motives and agency. A companion acquired through play uses its actual profile.
-
-**Frequency:** Once per scene.
-
-### Call the Wild
-
 **Action:** Main Action · **Attribute:** None
 
 **Target / range / shape:** One willing wild companion arriving in a visible empty square within 6 squares.
@@ -33,18 +15,6 @@ Once per scene, call your bonded companion with 2 SP. Its profile is: Size Mediu
 **Duration:** Indefinite companionship; summoning is immediate and requires no Sustain.
 
 **Equipment / acquisition:** A free hand.
-
-### If you learned Wild Partnership at level 3
-
-**Action:** Maneuver · **Attribute:** None
-
-**Target / range / shape:** A willing living beast within 6 squares that can perceive your signal.
-
-Once per scene, the beast may move up to its Speed and perform one ordinary nonattack task such as fetching, tracking or carrying. This is the beast’s activity for the round rather than an additional turn. Outside these commands the DA portrays its ordinary independent behavior.
-
-**Duration:** Immediate movement and task, or the ordinary time that task needs.
-
-**Equipment / acquisition:** None.
 
 ---
 

@@ -4,43 +4,19 @@
 
 ## Rules
 
-### Go Berserk
-
 **Action:** Maneuver · **Attribute:** None (no roll)
 
 **Target / range / shape:** Self.
 
-Enter a rage until the end of the scene. While raging, you gain 1 Boon to attack rolls, have 1 Bane to defense rolls, and gain physical resistance 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
+Enter a rage until the end of the scene. While raging, gain 1 Boon to attack rolls, 1 Bane to defense rolls, and physical resistance 1. You can end the rage at will. It also ends if you fall unconscious or enter Dying.
 
-**Duration:** Until the end of the scene, or until you end it.
+Once per scene, when damage would reduce you to 0 HP during this rage, remain at 1 HP. If you regain HP before the end of your next turn, the reprieve ends and you keep that HP. Otherwise, fall to 0 HP and begin Dying at the end of that turn. Further damage can still bring you to 0 during the reprieve. If you survive reaching 0, record a scar as usual.
 
-**Equipment / acquisition:** None.
-
-**Frequency:** Once per scene.
-
-### Deathless Rage
-
-**Action:** Passive · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self, while Go Berserk is active.
-
-Once per scene, when damage would reduce you to 0 HP while [Go Berserk](signature-unbalanced-wild-approach.md) is active, remain at 1 HP. If you regain HP before the end of your next turn, the reprieve ends and you keep that HP. Otherwise, fall to 0 HP and begin Dying at the end of that turn. Further damage can still bring you to 0 during the reprieve. If you survive reaching 0, record a scar as usual.
-
-**Duration:** Until the end of your next turn.
+**Duration:** Rage until scene end or until ended; reprieve until the end of your next turn.
 
 **Equipment / acquisition:** None.
 
-### If you learned Pain Feeds the Fire at level 3
-
-**Action:** Passive · **Attribute:** None
-
-**Target / range / shape:** Self while Go Berserk is active.
-
-When an enemy damages you during your rage, gain 1 Boon to your next attack before the end of your next turn. Repeated damage does not accumulate these Boons. Damage you or an ally deliberately deal to you, and hazards you deliberately enter to hurt yourself, do not trigger it. Hostile forced movement into a hazard does trigger it.
-
-**Duration:** Until the next attack or the end of your next turn.
-
-**Equipment / acquisition:** None.
+Use this rage once per scene. If you also know Go Berserk or Pain Feeds the Fire, all share that rage use. Pain Feeds the Fire’s damage-triggered Boon applies only if you also know that signature.
 
 ---
 

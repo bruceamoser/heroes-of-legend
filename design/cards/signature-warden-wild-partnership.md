@@ -4,24 +4,6 @@
 
 ## Rules
 
-### Beast Speech
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self.
-
-For the scene, you can speak with animals. You can ask questions and understand their replies, limited by what the animal has experienced and can understand. You gain 1 Boon to all rolls interacting with animals you are speaking with. This does not make an animal friendly or obedient, and does not compel it to act against its nature.
-
-**Duration:** The scene.
-
-**Equipment / acquisition:** A free hand for casting.
-
-This is a spell costing 0 SP. Animals retain their motives and agency. A companion acquired through play uses its actual profile.
-
-**Frequency:** Once per scene.
-
-### Wild Partnership
-
 **Action:** Maneuver · **Attribute:** None
 
 **Target / range / shape:** A willing living beast within 6 squares that can perceive your signal.

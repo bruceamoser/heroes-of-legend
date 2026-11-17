@@ -1,5 +1,7 @@
 # Rewrite 299 — book proof checks
 
+> Signature composition is superseded by [independent signature choices (#1354)](independent-signatures-1354.md). Earlier foundation bundling and line replacement are historical, not current rules.
+
 This record concerns transcription, arithmetic and layout. It is not a claim that the new combat numbers have been balanced through playtesting.
 
 ## Worked examples

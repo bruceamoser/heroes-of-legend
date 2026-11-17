@@ -22,15 +22,10 @@ Pay the listed price to begin studying another discipline. Then follow the costs
 
 ## Signature development
 
-Choose one signature at each of levels 1, 3 and 7. Each milestone grants one choice without spending DP. At level 3 or 7, deepen a signature you know or begin another line at that milestone. Each higher choice includes its line’s foundation. A level-7 choice includes its level-3 improvement only if you chose that improvement at level 3. Record one current version of each line, with its learned improvements together.
+Choose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.
 
-You may switch signatures under the ordinary retraining rules. Review dependent choices together so each resulting line reflects the milestones you selected. Your class determines these choices; this does not grant a second class.
+You may switch signatures under the ordinary retraining rules. Choose a replacement from your class’s options for the same milestone, then apply any interactions between the signatures you know.
 
-| Signature line | Level 1 | Level 3 | Level 7 |
-|---|---|---|---|
-| Go Berserk | [Go Berserk](../cards/signature-unbalanced-wild-approach.md) | [Pain Feeds the Fire](../cards/signature-unbalanced-raging-recoil.md) | [Deathless Rage](../cards/signature-unbalanced-break-their-grip.md) |
-| Charge | [Charge](../cards/signature-unbalanced-shoulder-through.md) | [Rampage](../cards/signature-unbalanced-crush-the-barrier.md) | [Earthbreaker](../cards/signature-unbalanced-scatter-the-line.md) |
-| Grab and Hurl | [Grab and Hurl](../cards/signature-unbalanced-laugh-at-the-fall.md) | [Over the Top](../cards/signature-unbalanced-fling-the-captive.md) | [The Cannonball](../cards/signature-unbalanced-crash-down.md) |
 
 ## Level 1 choices
 

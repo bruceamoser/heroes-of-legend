@@ -4,27 +4,13 @@
 
 ## Rules
 
-### Angle of Attack
-
 **Action:** Maneuver · **Attribute:** None
 
 **Target / range / shape:** One visible foe within 5 squares.
 
-Study the foe. Until the start of your next turn, your next weapon attack against it may use Knowledge instead of its ordinary attribute. Use that attack’s actual range, weapon requirements, damage and effects. You may study once on your turn; a new study replaces the previous one.
+Study the foe. Until the start of your next turn, your next weapon attack against it may use Knowledge instead of its ordinary attribute. Use that attack’s actual range, weapon requirements, damage and effects. While this study lasts, you may also use Knowledge instead of Brawn or Agility to defend against that foe’s attacks; other defense attributes remain unchanged. You may study once on your turn; a new study replaces the previous one.
 
 **Duration:** Until the start of your next turn.
-
-**Equipment / acquisition:** None.
-
-### Predict the Motion
-
-**Action:** Passive · **Attribute:** None
-
-**Target / range / shape:** The foe currently studied with Angle of Attack.
-
-While your study lasts, you may use Knowledge instead of Brawn or Agility to defend against that foe’s attacks. Other defense attributes remain unchanged.
-
-**Duration:** The duration of your study.
 
 **Equipment / acquisition:** None.
 

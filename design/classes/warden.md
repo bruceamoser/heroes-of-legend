@@ -22,15 +22,10 @@ Pay the listed price to begin studying another discipline. Then follow the costs
 
 ## Signature development
 
-Choose one signature at each of levels 1, 3 and 7. Each milestone grants one choice without spending DP. At level 3 or 7, deepen a signature you know or begin another line at that milestone. Each higher choice includes its line’s foundation. A level-7 choice includes its level-3 improvement only if you chose that improvement at level 3. Record one current version of each line, with its learned improvements together.
+Choose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.
 
-You may switch signatures under the ordinary retraining rules. Review dependent choices together so each resulting line reflects the milestones you selected. Your class determines these choices; this does not grant a second class.
+You may switch signatures under the ordinary retraining rules. Choose a replacement from your class’s options for the same milestone, then apply any interactions between the signatures you know.
 
-| Signature line | Level 1 | Level 3 | Level 7 |
-|---|---|---|---|
-| Steady Aim | [Steady Aim](../cards/signature-warden-keep-the-quarry-close.md) | [Volley](../cards/signature-warden-stay-on-the-scent.md) | [Mark the Quarry](../cards/signature-warden-turn-the-hunt.md) |
-| Beast Speech | [Beast Speech](../cards/signature-warden-read-the-passing.md) | [Wild Partnership](../cards/signature-warden-wild-partnership.md) | [Call the Wild](../cards/signature-warden-bring-them-through.md) |
-| Twin Strike | [Twin Strike](../cards/signature-warden-follow-my-footsteps.md) | [Through Bramble](../cards/signature-warden-through-bramble.md) | [Death from the Blind Spot](../cards/signature-warden-know-what-you-hunt.md) |
 
 ## Level 1 choices
 

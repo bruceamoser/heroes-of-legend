@@ -60,9 +60,9 @@ Every hero can use basic actions such as melee and ranged attacks, Aid, Stabiliz
 
 ## Signatures
 
-Choose one signature at each of levels 1, 3 and 7. At a later milestone, develop a signature you already know or learn another signature appropriate to that milestone. This is one choice, not an additional signature plus an improvement. A later selection includes the foundation needed to use it; its text identifies any extra benefit that depends on a development you actually selected earlier. Keep each signature line together on the sheet.
+Choose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.
 
-You may change a signature selection. Check its dependent developments together and choose replacements when necessary. Each earned milestone still supplies one selection; changing it neither spends nor grants DP, repeats an acquisition benefit, nor restores used resources.
+You may change a signature selection. Choose a replacement from the same milestone and update any benefits that depend on knowing both signatures. Each earned milestone still supplies one selection; changing it neither spends nor grants DP, repeats an acquisition benefit, nor restores used resources.
 
 ## Equipment and starting numbers
 

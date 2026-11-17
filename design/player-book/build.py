@@ -287,7 +287,7 @@ def class_page(p):
  introduction=raw.split('\n',1)[1].split('\n## Rules\n',1)[0].strip()
  attrs,hp,stat,coins,starting=class_values(raw)
  prices=re.search(r'\*\*Learning costs:\*\* (.+)',raw).group(1)
- core='**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one free signature at each of levels 1, 3 and 7. At later milestones, develop a known line or choose a new line. A higher choice includes its line’s foundation. A level-7 choice keeps the level-3 improvement only when you selected it at level 3. Each milestone grants one choice.\n'
+ core='**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.\n'
  prose='#block(below:9pt)[#set text(size:11pt)\n#set par(leading:.36em,spacing:.8em)\n'+render(introduction,p)+']\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
