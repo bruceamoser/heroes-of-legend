@@ -2,6 +2,12 @@
 
 *You study the impossible until your hands can give it a shape the world must briefly accept.*
 
+A thread of ash climbs the stair against the draft. You hold up a hand and the company stops. Someone has worked magic here. The ash is going to show you where they stood.
+
+An Arcanist asks what a spell can do in this particular room, with these people in it. An elemental working might change the ground under a fight. A careful ritual might be the answer to a door the company would rather leave intact. Bent Trajectory lets an attack come from an unexpected angle. Study the Pattern suits a reader of workings, and Deliberate Spark is for the caster who sees an advantage in moving friends and foes a little farther apart.
+
+You might savor a clean diagram or love the apprentice who asks the awkward question. What magical shortcut do you refuse to take? What impossible thing would make you put your notes down and try it anyway?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Agility, Knowledge. **HP contribution:** +1 at level 1 and per level thereafter.

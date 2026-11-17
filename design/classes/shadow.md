@@ -2,6 +2,12 @@
 
 *You learn the unguarded routes through a world that rarely looks in the right direction.*
 
+The steward keeps the keys on a silver chain. Everyone else is watching the dancers. You are watching the steward’s face each time someone mentions the west gallery.
+
+A Shadow finds opportunities that close as soon as everyone notices them. You shine when the company needs a way in, an opening in a fight, or a conversation that buys somebody else time to act. Fade Behind puts you on the side of the room no one is watching. Blade in the Back rewards the moment an enemy’s attention is elsewhere. Fast Talk gives you something to do when you are the person everyone has turned to look at.
+
+You might love a crowded festival or the privacy of a roof above an empty street. Perhaps you cannot stand a person who confuses discretion with disloyalty. Who knows your real name, and what did they do to earn it?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Agility, Guile. **HP contribution:** +2 at level 1 and per level thereafter.

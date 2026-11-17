@@ -2,6 +2,12 @@
 
 *You see a pattern where others see only trouble, and trust your understanding enough to act.*
 
+The ferry mechanism has seized. The boatman wants an axe. You ask him to pull the lever again while you watch the pin nobody has greased in twenty years.
+
+An Intellect gives the company something it can act on. The same habit serves you in a ruin, at a workbench, or across from an opponent who always guards the same side. Spot the Leverage suits the investigator who looks for the detail that changes the plan. Make It Last can turn a plain lamp, tool, or shield into something the company will miss when it’s gone. An Intellect who chooses Angle of Attack brings the same patient eye to a fight.
+
+You might like a workbench with room for somebody else’s tools, or dislike an answer that comes too easily. What did you once insist was impossible? Who had the pleasure of showing you how it worked?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Knowledge, Reason. **HP contribution:** +1 at level 1 and per level thereafter.

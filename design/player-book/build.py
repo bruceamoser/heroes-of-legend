@@ -280,15 +280,16 @@ def class_values(raw):
 
 def class_page(p):
  record(p,'class');s=clean(p);raw=p.read_text()
- narrative=re.search(r'^\*([^*]+)\*$',s,re.M).group(1)
+ introduction=raw.split('\n',1)[1].split('\n## Rules\n',1)[0].strip()
  attrs,hp,stat,coins,starting=class_values(raw)
  prices=re.search(r'\*\*Learning costs:\*\* (.+)',raw).group(1)
- core='*'+narrative+'*\n\n**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one free signature at each of levels 1, 3 and 7. At later milestones, develop a known line or choose a new line. A higher choice includes its line’s foundation. A level-7 choice keeps the level-3 improvement only when you selected it at level 3. Each milestone grants one choice.\n'
+ core='**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one free signature at each of levels 1, 3 and 7. At later milestones, develop a known line or choose a new line. A higher choice includes its line’s foundation. A level-7 choice keeps the level-3 improvement only when you selected it at level 3. Each milestone grants one choice.\n'
+ prose='#block(below:9pt)[#set text(size:11pt)\n#set par(leading:.36em,spacing:.8em)\n'+render(introduction,p)+']\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
  choices=re.sub(r'\*\*Starting coin contribution:.*','',choices,flags=re.S)
  sigs='#grid(columns:(1fr,1fr,1fr),gutter:12pt,'+','.join('['+render('## '+part,p,base=1)+']' for part in choices.split('## ')[1:])+')'
- result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:500pt)])]\n'
+ result='#pagebreak(weak:true)\n#class-panel('+q(name(p))+','+q(key(p))+')[\n#grid(columns:(1.05fr,1fr),gutter:16pt,['+prose+render(core,p,base=1)+'],[#illustration('+q('class-'+p.stem+'-cutout')+',height:500pt)])]\n'
  result+='#v(8pt)\n#signature-menu['+sigs+']\n'
  return result
 

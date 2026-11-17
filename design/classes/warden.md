@@ -2,6 +2,12 @@
 
 *You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.*
 
+The deer have crossed the stream and circled back along the bank. The people you are following went straight across. You take the company upstream to a shallower crossing and ask them to keep their eyes on the opposite shore.
+
+A Warden reads the land and makes it useful to the people traveling with them. In a pursuit, the ground tells you where to hurry and where to wait. On an expedition, the same eye can find the trail that gets everyone to shelter before dark. Steady Aim suits the hunter who waits for a clear shot. Beast Speech makes the creatures you meet part of the expedition’s story. Twin Strike gives a Warden with two blades a reason to close the distance.
+
+You might love a familiar stretch of river in flood or resent a traveler who leaves trouble for whoever comes next. What place do you know well enough to miss when it changes?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Fortitude, Knowledge. **HP contribution:** +2 at level 1 and per level thereafter.

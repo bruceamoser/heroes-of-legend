@@ -2,6 +2,12 @@
 
 *You turn to your companions and give them a reason to move together.*
 
+Two people reach for the same rope while nobody watches the stairs. You catch one person’s eye and point to the landing. A friend takes up the slack. By the time the threat appears, everyone has room to do their part.
+
+A Leader makes the company’s separate efforts count together. A good signal can get everyone through a dangerous crossing or bring two companions into a fight at just the right moment. Follow My Signal can help two companions with a word, a gesture, or a scrap of song. Lead the Way suits someone willing to go through first. Stand Together is for the person others look to when they are close to breaking.
+
+You might enjoy watching someone you trained take charge. Perhaps you dislike plans made without asking who will carry them out. What earns your trust? Whose judgment will you follow when your own plan falls apart?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Guile, Fortitude. **HP contribution:** +2 at level 1 and per level thereafter.
