@@ -121,3 +121,36 @@ and prerequisites where readers learn or look up an entry. Keep shared prices in
 labeled rules table where that helps play. Keep catalog construction patterns,
 price sequences, editorial notes, and internal test targets in design or review
 notes. Explain how to plan an encounter or adapt a creature in the DA book.
+
+
+## Contextual editorial review
+
+Review prose by the question it answers. A reader needs to know what their hero
+can do, how to choose or resolve it, and where to find the relevant rule. A DA
+also needs practical preparation and adaptation guidance. Catalog construction,
+balance rationale, revision history and internal validation belong in design
+notes, not the player or DA narrative.
+
+Read the surrounding section before changing a sentence. Translate the useful
+instruction into an action or example. Put prices and prerequisites beside the
+choices they govern. Preserve consequential restrictions, exceptions and numbers;
+a negative sentence is not automatically bad prose. Keep fiction that helps a
+reader imagine or portray the world. Relocate a procedure when it interrupts an
+unrelated chapter. Searches are finding aids, not proof of editorial completion.
+
+For a whole-book review, cover authored chapters, shared rules, generated section
+introductions, captions, catalog prose and examples. Record coverage, representative
+before/after decisions and any retained material with its reason in a review note.
+Inspect the rendered books and verify relocated rules remain complete and findable.
+
+## Spell procedure review
+
+Read each spell as an executable table procedure: casting and later action costs,
+legal targets, attribute or automatic resolution, concrete effect, duration and
+ending. A familiar name or evocative verb does not supply missing mechanics.
+State HP, progress, conditions or other numerical effects when promised; refer to
+the existing named rule when it resolves the effect (for example difficult
+terrain). Information, sensory access and ordinary physical changes can be useful
+without an invented numerical bonus. Check follow-up attacks, stored-spell
+attributes, consumption and project completion separately from casting. Record
+new design choices visibly and obtain Bruce’s ruling when needed.

@@ -4,7 +4,10 @@ You call across a boundary, and something answers: paws on stone, a flicker of
 ancestral light, a shape unfolding from cold air. The creature acts through your
 attention. Its presence gives you choices, not a second independent turn.
 
-Choose a profile in the category and at or below the roster rating named by your spell. Some spells name a particular profile directly. Ratings 1, 3 and 7 describe the callings in the roster; your learned spellbook pages tell you which spells you can cast.
+Your summoning spell tells you which companions you can call. Find its category
+in Summon Selection and choose a creature whose rating is no higher than the
+spell allows. If the spell names a particular creature, use that creature’s
+profile. Keep the profile beside your sheet for its attributes and actions.
 
 Summons are energy forms shaped to resemble creatures. They cannot receive
 healing and disappear at 0 HP without leaving a body. They occupy squares, block

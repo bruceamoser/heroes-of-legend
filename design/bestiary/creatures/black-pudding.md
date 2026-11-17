@@ -65,13 +65,13 @@ After an adjacent attacker’s attack resolves and deals HP damage to this creat
 
 **Senses:** Touch and ground vibrations within 3 squares on the same surface; no sight-required attack.
 
-**Tactics and retreat:** Use a clinging strike to slow the nearest obstacle, then crawl toward discarded material. It does not split into extra combatants unless a future card explicitly grants that ability.
+**Tactics and retreat:** Use a clinging strike to slow the nearest obstacle, then crawl toward discarded material. Keep it as one creature when damaged.
 
 **Encounter and conversation:** It has opened a route into a sealed chamber, but that route will not remain stable for long.
 
 **Habitat:** Drain; cavern; abandoned workshop · **Communication:** None
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Ineligible.
 

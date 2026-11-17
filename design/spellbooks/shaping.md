@@ -32,7 +32,7 @@ Reshape and repair existing nonliving material.
 **Target / range:** One unattended mundane item of Bulk 1 or less in your hands
 **Duration:** Instant
 
-Rejoin a small clean break or tear while holding all its pieces together. Restore ordinary function to that part. Missing components and substantial reconstruction use repair projects.
+Rejoin a small clean break or tear while holding all its pieces together. Restore ordinary function to that part. For an item with HP, the DA states before casting whether this small repair is sufficient and how many HP it restores, following the repair-objective rules. Missing components and substantial reconstruction use repair projects.
 
 ### Grease
 
@@ -104,7 +104,7 @@ Shape a simple brace, slab, stair or other solid construction component, preserv
 **Target / range:** Prepared ordinary materials and tools beside you
 **Duration:** Instant
 
-Transform the materials into one mundane item or component of Bulk 6 or less whose construction you understand. Add 3/5/7 progress toward its ordinary crafting objective, using the normal recipe and material quantities. Finish fine details with the required tools.
+Work the materials toward one mundane item or component of Bulk 6 or less whose construction you understand. Each completed ritual adds 3/5/7 progress toward its ordinary crafting objective, using the normal recipe and material quantities. The item is ready when that objective is complete. Finish fine details with the required tools.
 
 ### Earthen Transmutations
 

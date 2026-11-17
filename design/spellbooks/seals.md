@@ -105,7 +105,7 @@ Inscribe a visible glyph and define a creature crossing or touching its surface 
 **Target / range:** One fixed seal and one known Main Action spell costing at most 2 SP
 **Duration:** 8 hours or until triggered
 
-Pay the stored spell's SP in addition to the ritual. Choose its targets relative to the seal and a visible or audible trigger within 3 squares. At the first trigger, release it using your attribute and legal targets, then end the seal. Keep one such prepared seal at a time.
+Pay the stored spell's SP in addition to the ritual. Choose its targets relative to the seal and a visible or audible trigger within 3 squares. At the first trigger, release it using the stored spell’s printed attribute, your value for it and legal targets, then end the seal. Keep one such prepared seal at a time.
 
 ### Secret Chest
 

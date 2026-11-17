@@ -127,27 +127,7 @@ Make combat, crafting and treatment rolls individually.
 In combat, a hero can spend their own Force action on an obstacle under its normal
 rules; the group does not pool simultaneous rolls.
 
-## Set a social objective
-
-Give the listener a want, a concern and a limit. Ask what concession the heroes
-seek and decide who can grant it. Good evidence may settle the matter outright.
-For a concession that takes several exchanges, state which approaches could
-work, what the listener needs and the progress target. Start from 3 for a
-modest request, 6 for substantial, 9 for demanding or 12 for exceptional.
-
-Each meaningful exchange takes about a minute outside combat or a Main Action
-in combat. Call for the attribute that matches the approach and award 1/2/3
-progress, or use the printed results of a learned technique. Ask for a new
-offer, fact or change in the situation before another roll. Keep separate
-progress for listeners whose interests differ. At the target, deliver the
-agreed concession. Each player decides how their hero responds.
-
-> **Example — the missing wage chest.** Showing the guard the recovered chest
-> with its seal intact answers the suspicion of theft. To enter the restricted
-> archive, the group needs 6 progress and a reason the guard can explain to
-> their captain. A Standard Make the Case II contributes 3. A witness letter
-> and a Standard Reason roll contribute 2. Offering to enter under escort
-> contributes the last point on a Weak roll. The guard agrees to that escort.
+<!-- shared: rules/objectives.md -->
 
 ## Enter turns when order matters
 
@@ -201,7 +181,7 @@ the effect when the work is complete.
 
 A sustained spell lasts through the end of the caster's next turn. Starting on that turn, the caster spends a Maneuver and 0 SP by turn end to maintain it through the end of the following turn, within its printed duration. Track one sustained spell per caster. Fixed-duration magic lasts for its printed time; directing an effect spends its printed action.
 
-A conscious target of a magical hold may spend a Main Action to attempt escape when its spell allows it. An NPC attempting escape makes the player caster roll the spell's Hold attribute; Weak frees that target. A player target instead rolls the spell's Escape attribute; Strong frees that hero. The spell's initial Defense and casting Attribute are separate fields. This permission overrides the magical hold's action restriction, not separate unconsciousness or physical Grappled 3.
+A conscious target of a magical hold may spend a Main Action to attempt escape when its spell allows it. An NPC attempting escape makes the player caster roll the spell's Hold attribute; Weak frees that target. A player target instead rolls the spell's Escape attribute; Strong frees that hero. Use the spell’s named Hold or Escape attribute for that attempt, even if its initial Defense or casting Attribute differs. This permission overrides the magical hold's action restriction, not separate unconsciousness or physical Grappled 3.
 
 Track cancellation progress against the individual casting. Its usual target is 2 + the affected spell's printed SP cost. See Magic and spellbooks for the full timing and control procedures.
 

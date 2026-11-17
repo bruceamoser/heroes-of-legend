@@ -32,7 +32,7 @@ Nearby presences, properties and traces.
 **Target / range:** One visible object or creature within 3 squares
 **Duration:** Instant
 
-Sense whether an active magical effect is present on the target. Learn whether the strongest visible aura is protective, transformative, harmful or informative. Closely concealed sources require examination through stronger pages.
+Sense whether an active magical effect is present on the target. Learn whether the strongest visible aura is protective, transformative, harmful or informative. To investigate a concealed source, first expose it or use a spell that can examine it through the concealment.
 
 ### Detect Poison and Disease
 

@@ -15,19 +15,20 @@ A simple meal costs 1 coin and a plain bed costs 2 per night, meals separate. A
 Rope Coil costs 5; an ordinary melee weapon costs 12; a Lesser Healing Bottle costs
 20. These anchors help you describe what a reward means to people in the world.
 
-There is no established mandatory treasure total per level in this manuscript.
-Consider the party's current supplies, actual needs and opportunities to spend.
+Choose the reward by considering the party’s supplies, needs and opportunities
+to spend. A dangerous commission might pay for new equipment, while a smaller
+favor earns a night’s lodging or an introduction.
 Coins let heroes pay for equipment, supplies and services. Award DP with
 milestone levels.
 
-| Reward | What the party gains | What it does not supply |
+| Reward | What the party gains | Prepare for play |
 |---|---|---|
-| Coins | Flexible purchasing power where goods are available | Availability depends on the local market |
-| Equipment | A specific physical object | Unprinted training or an extra attack |
-| A supply | Its stated inventory die and uses | Guaranteed charges equal to the die's faces |
-| A recipe | Knowledge of a particular product | Crafting capability, tools or ingredients by itself |
-| A service | An agreed attempt or period of work | Automatic Strong outcomes or unrestricted daily treatment |
-| Information or access | A useful fact, route, introduction or permission | Authority over everyone who hears of it |
+| Coins | Money to spend | Decide which goods are available nearby. |
+| Equipment | A specific physical object | Give its Bulk, requirements and effects. |
+| A supply | A stock of something useful | Record its inventory die and when to check it. |
+| A recipe | Knowledge of how to make an item | Identify the technique, tools and ingredients needed. |
+| A service | An agreed attempt or period of work | State its scope and apply the usual rolls and treatment limits. |
+| Information or access | A fact, route, introduction or permission | Explain whom it concerns and what it makes possible. |
 
 ## Put treasure where it belongs
 
@@ -89,10 +90,9 @@ A d4 healing bottle has a 25% chance to empty after each use. That does not mean
 it contains exactly four doses. A supply that has survived several checks remains
 at its current die until a check changes it.
 
-The current market's healing bottles use d4: Lesser restores 6 HP, Greater 10,
+Healing bottles use d4: Lesser restores 6 HP, Greater 10,
 and Superior 16, before Life resistance and missing-HP limits. Their price buys
-potency as well as uncertain longevity. They do not require a healing spell roll
-or caster HP payment.
+potency as well as uncertain longevity. Use their printed healing without a spell roll or SP payment.
 
 A potion needs a free hand and the giver's Maneuver. An unconscious or restrained
 recipient counts as willing. Another recipient spends a Reaction if conscious and

@@ -64,7 +64,7 @@ Move up to 3 squares using a printed movement mode without provoking from one vi
 
 **Habitat:** Disturbed elemental site · **Communication:** Common
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Elemental 3 — [player reference](../summons/air-elemental.md).
 

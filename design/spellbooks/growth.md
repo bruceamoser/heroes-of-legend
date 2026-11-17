@@ -59,7 +59,7 @@ Roots grasp through soil. Apply Slowed 1/2/3 to creatures in the area when cast.
 **Target / range:** Up to six ordinary berries held by you
 **Duration:** 24 hours
 
-Each berry nourishes one creature for one meal when eaten. A berry is consumed by eating it and retains its ordinary Bulk. Food and hunger use this nourishment; HP recovery follows healing spells and treatment.
+Use a Maneuver and a free hand to eat one enchanted berry, restoring 1 HP and receiving nourishment for one meal. You may instead feed it to an adjacent willing living creature; use the recipient and Reaction rules of Use a Healing Potion. The berry is consumed, with no inventory die roll. Apply the normal magical-healing rules. Each berry keeps its magic for 24 hours after the ritual and retains its ordinary Bulk.
 
 ### Speak with Plants
 
@@ -90,13 +90,13 @@ Raise sharp growth that makes the area difficult terrain. Roll when cast to set 
 
 **ID:** spell:growth:6
 **Page:** 6
-**Action:** Ritual · 10 minutes
+**Action:** Main Action
 **SP:** 3
 **Attribute:** None
 **Target / range:** A 6-by-6-square patch of existing ordinary vegetation within 6 squares
 **Duration:** 24 hours
 
-Thicken the plants into difficult terrain. You may leave a connected walking path clear when casting. Alternatively, tend the same area for healthy seasonal growth; that use improves its next ordinary harvest rather than creating immediate food.
+Existing plants immediately swell into dense, tangled growth, making the affected squares difficult terrain. Use the normal difficult-terrain movement costs, including when crawling. Choose any squares to leave clear when casting, including paths through the growth. Creatures already there remain in place and can act normally. The growth lasts 24 hours without Sustain.
 
 ### Tree Skin
 

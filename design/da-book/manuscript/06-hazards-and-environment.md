@@ -4,12 +4,12 @@ A chain clicks inside the wall. Hot air escapes between the stones. A newly repa
 board stands out from the older floor. A good hazard gives the heroes something
 to notice, a consequence to understand, and more than one way to respond.
 
-Use existing actions, attributes, conditions and progress rules to resolve these
-challenges. A trap does not need a second difficulty system. A hazardous place does
-not need a combat turn merely because it can hurt someone.
+Resolve a hazard with the action, attribute and outcomes listed in its entry.
+Use turns when the heroes need to act before an immediate danger strikes. When
+they have time to examine and safely disable it, describe their work.
 
-The example hazards below have their own damage, targets, areas and timings.
-These are not universal trap damage or calibrated additions to encounter CV.
+Each hazard below states its damage, affected area and timing. If you combine
+one with creatures, consider the added danger separately from their CV total.
 
 ## Write a hazard for use
 
@@ -162,7 +162,7 @@ This is an obstacle, not an automatic damaging trap. State whether the heroes ha
 time to clear it safely. With adequate time, tools and no danger, describe the work.
 Under pressure, declare its progress target and what another attempt will cost.
 
-**Example configuration:** outside combat, up to three heroes can work abreast.
+**Clearing the passage:** outside combat, up to three heroes can work abreast.
 Clearing a passage is cumulative, target 8, one minute per attempt. Each contributing
 Brawn roll adds 1/2/3 progress. If pursuing guards will arrive in two minutes, announce
 the warning before the first attempt. Weak, Standard and Strong add 6; a later

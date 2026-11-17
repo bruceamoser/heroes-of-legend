@@ -14,6 +14,6 @@ Every attack table uses **Weak / Standard / Strong player defense** outcomes.
 Read the applicable damage and effects together. Details supply targets, ranges,
 durations and limits. A separate player profile governs an eligible summoned form.
 
-Family membership is a filing aid, not a rule package. Use only the card's printed
-immunities, senses, actions and permissions. An undead name does not silently grant
-every undead immunity from another game.
+Read each creature’s immunities, senses and actions before running it. Two
+creatures from the same family can have different strengths and vulnerabilities.
+Use the rules printed for the creature you chose.

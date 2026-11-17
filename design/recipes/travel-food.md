@@ -13,4 +13,4 @@
 
 Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.
 
-[Product](../equipment/food-bundle.md). Trail Workshop I teaches two recipes from its named list; II teaches two more. Recipe knowledge is reusable and grants no ingredients.
+[Product](../equipment/food-bundle.md). Trail Workshop I teaches two recipes from its named list; II teaches two more. Gather fresh ingredients for each attempt. Keep the recipe for later use.

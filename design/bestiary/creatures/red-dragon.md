@@ -93,7 +93,7 @@ After an adjacent attacker's attack resolves and deals HP damage to this creatur
 
 **Habitat:** Mountain fortress; volcanic valley · **Communication:** Common and Draconic
 
-**Loot:** A single adventure hoard: propose 400 coins plus one reviewed special item, not an item on every scale.
+**Loot:** A single hoard of 400 coins and one special item selected for the adventure. Recover treasure from the hoard; scales have no assigned item value.
 
 **Summoning:** Ineligible.
 

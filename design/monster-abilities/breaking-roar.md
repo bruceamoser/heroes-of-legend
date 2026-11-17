@@ -9,7 +9,7 @@
 
 **Action:** Maneuver
 
-One creature within 3 squares that can hear it gains Frightened 1, with this creature as the source. Once per turn. No roll and no damage; ordinary decay and immunity apply. This is deliberately limited to one target, not an automatic battlefield-wide fear aura.
+One creature within 3 squares that can hear it gains Frightened 1, with this creature as the source. Once per turn. No roll and no damage; ordinary decay and immunity apply. Choose the target when you roar.
 
 **Limits:** Only creatures whose entries list this ability possess it. Printed
 entry values and restrictions apply; no ability grants unlisted actions.

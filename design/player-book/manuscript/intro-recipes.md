@@ -10,7 +10,7 @@ outcomes and limits. Starting crafting abilities provide their stated recipe cho
 you can learn further compatible recipes through the appropriate ability or discover
 them during play.
 
-**Permission** tells you how to learn or carry out the work. Trail Workshop teaches its named recipe choices. Other formulas can be learned from teachers or discovery; gather their materials and equipment before beginning.
+Check how to learn the recipe and which technique to use for the work. Trail Workshop teaches its named recipe choices. Other formulas can be learned from teachers or discovery; gather their materials and equipment before beginning.
 
 For every recipe, roll the crafting ability’s printed attribute at the end of an
 attempt. Work alone; there is no group crafting. Accumulate project progress until

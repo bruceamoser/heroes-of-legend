@@ -5,13 +5,13 @@ farther onto the bank. The travelers stranded at his shelter have begun arguing
 about the old causeway. Nobody agrees on what the signal means.
 
 This short adventure suits a company beginning at level 1. Its possible fights
-use existing creature cards and provisional CV totals; those totals are not a
-promise of difficulty. Read the party's actual capabilities before play. The
+use the creatures and estimated CV totals listed at each location. Review the
+party’s capabilities and resources before running those encounters. The
 adventure can be resolved without fighting, and its locations can occupy one
 session or expand into several.
 
-Names, placements, rewards and obstacle targets belong to this adventure.
-They do not establish universal rules.
+Place the crossing near the company’s next destination. Rename its people to
+suit your setting and use the locations below to prepare their routes through it.
 
 ## What happened
 
@@ -165,8 +165,8 @@ payment. The guardians have no additional reinforcements or powers.
 
 If the party fights here immediately after the toll yard without healing or overnight rest,
 consider the accumulated pressure. Do not call the pair of encounters a single
-standard fight just because each total is below 40. Both rosters and all expended
-resources belong in the session's record.
+standard fight just because each total is below 40. Check the heroes’ remaining HP, SP and supplies before they decide whether to
+enter another fight. Make the service route and the option to withdraw clear.
 
 ## Clues that prevent a dead end
 

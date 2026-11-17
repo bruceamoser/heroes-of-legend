@@ -68,10 +68,10 @@ reach. Leave room to discover what the players consider important.
 
 ## The rhythm of Heroes of Legend
 
-HOL puts much of its strategy into character development. At the table, a player
-chooses an action, declares the card they are using before the roll, and follows
-its result. Your job is to establish the circumstances that make those choices
-interesting: a narrow escape, a crowded bridge, an ally who needs a free hand.
+Give the heroes situations where their chosen abilities can make a difference.
+A narrow escape calls for movement, a crowded bridge for careful positioning,
+and an injured companion for someone with a free hand. Ask the player to declare
+their action before rolling, then follow its result.
 
 Attacks always hit. Defensive play changes the outcome and the damage suffered;
 it does not create a routine miss. Since damage is only part of an attack, pay

@@ -73,7 +73,7 @@ Before one visible willing ally within 3 squares takes damage from an attack, gr
 
 **Habitat:** Old woodland; crossroads; hidden court · **Communication:** Common
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Fey 7 — [player reference](../summons/unicorn.md).
 

@@ -1,7 +1,7 @@
 # Conditions
 
-Shared condition rules.
-Use these timing and sensory rules throughout the current catalog.
+Record each condition affecting your hero and its rating, if it has one. Use the
+reference below to see what it changes and how it ends.
 
 ## Ratings, decay, and persistence
 
@@ -83,8 +83,8 @@ Example: Paralyzed 3 prevents actions and movement, falls to 2 at turn end, then
 to 1, then clears. Dazed 3 instead gradually returns action options as it decays.
 Blinded 2 is full blindness for two decay steps, not stronger blindness than 1.
 
-**Provisional prone combat rider for tests:** none beyond movement until approved.
-Do not import automatic melee Boons or ranged Banes from another game's prone rule.
+While Prone, use the crawling and standing costs above. Prone alone changes
+no attack or defense dice.
 
 See [recovery](recovery.md) for HP and treatment and [foundations](foundations.md) for movement.
 

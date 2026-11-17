@@ -80,7 +80,7 @@ When a visible enemy within 2 squares starts an action that normally provokes an
 
 **Habitat:** Highland; quarry; remote stronghold · **Communication:** Common and Giant
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Ineligible.
 

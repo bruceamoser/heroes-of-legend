@@ -3,8 +3,9 @@
 Use these abilities when preparing or adapting creatures for an encounter.
 During play, give each creature the abilities printed in its entry.
 
-Templates may describe attacker outcomes for construction. During play, use the
-creature's complete defense-outcome table or the appropriate summoned player
-profile. Per-creature values and restrictions govern where they specialize a template.
+When adding an ability to a creature, write its complete outcomes on that
+creature’s entry. An ability written in attack order needs its outcomes reversed
+for a hero’s defense roll, including conditions and movement. A summoned profile
+uses attack order for its controller’s rolls.
 
 Look up an ability by name. Apply the values and limits on the creature’s own entry if they differ.

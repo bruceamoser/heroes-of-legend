@@ -66,7 +66,7 @@ Move up to 3 squares in a straight line without provoking from one visible enemy
 
 **Habitat:** Wilderness; nesting ground · **Communication:** None
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Animal 1 — [player reference](../summons/warhorse.md).
 

@@ -102,24 +102,6 @@ down to complete pairs before multiplying; normal physical resistance applies.
 A fall of 5 squares deals 6 damage before resistance. A fall under 2 squares has
 no automatic falling damage. Exceptional surfaces and landing circumstances are DA rulings.
 
-## Talk, bargain and persuade
-
-Describe what you want and why the listener might agree. A letter, an offer or
-a demonstration can settle the matter outright. When it takes several exchanges,
-agree on the concession and who can grant it. The DA sets the progress target
-and tells you which approaches could work.
-
-One meaningful exchange usually takes about a minute, or a Main Action in
-combat. Use the attribute and outcomes of a learned Influence ability, or roll
-the attribute the DA assigns for ordinary progress of 1/2/3. Bring a new fact,
-offer or change in the situation for each further roll. Speakers working toward
-the same concession can share progress. Listeners with different interests
-may need separate objectives.
-
-At the target, the listener grants the agreed concession. Each player still
-decides what their own hero thinks and does. See [Influence](../../disciplines/influence.md)
-for techniques that improve your arguments, distractions and threats.
-
 ## Magic in your hands
 
 Learn spells from the pages of your spellbooks. To cast one, spend its printed

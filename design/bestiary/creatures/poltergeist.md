@@ -68,7 +68,7 @@ Move one unattended object of at most 1 Bulk within 3 squares into an empty squa
 
 **Habitat:** Haunted home; abandoned room · **Communication:** Common; understands old oaths
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Spirit 3 — [player reference](../summons/poltergeist.md).
 

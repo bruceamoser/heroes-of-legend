@@ -28,9 +28,9 @@ when a scene benefits from a square grid. A virtual tabletop can do the same wor
 
 ## The promise of the game
 
-Character development rewards planning. You choose which disciplines to study and
-which abilities make those studies useful. At the table, the chosen ability tells
-you what to do: its action, attribute, range, outcomes and limits are printed together.
+Choose what your hero practices and how you want to help your companions. Study
+disciplines to learn techniques and spells. When you use one, its entry tells you
+the action to spend, the attribute to roll, its range and what each result does.
 Your sword's appearance is yours to invent; the attack describes what it accomplishes.
 
 Attacks connect. A poor roll changes how much harm and pressure an attack creates;

@@ -32,7 +32,7 @@ for p in sorted((D/'spellbooks').glob('*.md')):
  books.append(dict(title=lines[0][2:],key=key(p),**fields,rows=rows,spells=spells))
 (G/'spellbooks.json').write_text(json.dumps(books,ensure_ascii=False))
 magic='#pagebreak()\n#heading(level:1)[Magic and spellbooks]\n'+(G/'magic-rules.typ').read_text()+'\n#import "../spellbook-spreads.typ": spell-spread\n#let spellbooks = json("spellbooks.json")\n'
-magic+='#pagebreak()\n#heading(level:2)[Choose your magical studies]\nBegin studying a discipline for its class-listed DP cost, then choose a spellbook. Follow a title to its complete two-page reference.\n#v(8pt)\n'
+magic+='#pagebreak()\n#heading(level:2)[Choose your magical studies]\nBegin studying a discipline for its class-listed DP cost, then choose a spellbook. Select a title to find its spells and casting instructions.\n#v(8pt)\n'
 directory=[]
 for d in ['Elements','Life','Mentalism','Divination','Invocation','Force','Wards']:
  panel='#block(breakable:false,above:5pt,below:12pt)[#metadata('+q(d)+')#label('+q(anchors[d.lower()])+')\n#grid(columns:(1fr,auto),[#text(font:"Cinzel",size:13pt,weight:"bold",fill:forest)['+d+']],[#discipline-mark('+q(d.lower())+',"",size:22pt)])\n#v(5pt)\n'

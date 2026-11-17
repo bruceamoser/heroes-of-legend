@@ -68,7 +68,7 @@ Gain 1 additional Bane against the next player attack before its next turn, or 1
 
 **Habitat:** Workshop; old civic building; sealed vault · **Communication:** None
 
-**Loot:** Recoverable possessions or lair clues chosen for the adventure; body parts grant no automatic special equipment or coin value.
+**Loot:** Choose possessions or a clue in its lair that fits the adventure. If a body part is useful or valuable, state its use and value before awarding it.
 
 **Summoning:** Construct 7 — [player reference](../summons/stone-golem.md).
 

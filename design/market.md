@@ -27,40 +27,40 @@ Containers add their own Bulk and never reduce their contents’ Bulk.
 
 | Item | Coins | Supply / purchasing note |
 |---|---:|---|
-| [Ordinary Melee Weapon](equipment/ordinary-melee-weapon.md) | 12 | Reusable; no ability granted |
-| [Ordinary Ranged Weapon](equipment/ordinary-ranged-weapon.md) | 18 | Reusable; no ability granted |
-| [Ordinary Shield](equipment/ordinary-shield.md) | 10 | Reusable; no ability granted |
-| [Ordinary Light Armor](equipment/ordinary-light-armor.md) | 10 | Reusable; no ability granted |
-| [Ordinary Medium Armor](equipment/ordinary-medium-armor.md) | 40 | Reusable; no ability granted |
-| [Ordinary Heavy Armor](equipment/ordinary-heavy-armor.md) | 90 | Reusable; no ability granted |
-| [Craft Tools](equipment/craft-tools.md) | 15 | Reusable; no ability granted |
-| [Lock Tools](equipment/lock-tools.md) | 20 | Reusable; no ability granted |
-| [Mixing Kit](equipment/mixing-kit.md) | 20 | Reusable; no ability granted |
-| [Rope Coil](equipment/rope-coil.md) | 5 | Reusable; no ability granted |
-| [Climbing Fittings](equipment/climbing-fittings.md) | 8 | Reusable; no ability granted |
-| [Lever and Wedges](equipment/lever-and-wedges.md) | 5 | Reusable; no ability granted |
-| [Digging Tools](equipment/digging-tools.md) | 6 | Reusable; no ability granted |
-| [Chain Coil](equipment/chain-coil.md) | 12 | Reusable; no ability granted |
-| [Restraints](equipment/restraints.md) | 8 | Reusable; no ability granted |
-| [Padlock](equipment/padlock.md) | 5 | Reusable; no ability granted |
+| [Ordinary Melee Weapon](equipment/ordinary-melee-weapon.md) | 12 | Reusable |
+| [Ordinary Ranged Weapon](equipment/ordinary-ranged-weapon.md) | 18 | Reusable |
+| [Ordinary Shield](equipment/ordinary-shield.md) | 10 | Reusable |
+| [Ordinary Light Armor](equipment/ordinary-light-armor.md) | 10 | Reusable |
+| [Ordinary Medium Armor](equipment/ordinary-medium-armor.md) | 40 | Reusable |
+| [Ordinary Heavy Armor](equipment/ordinary-heavy-armor.md) | 90 | Reusable |
+| [Craft Tools](equipment/craft-tools.md) | 15 | Reusable |
+| [Lock Tools](equipment/lock-tools.md) | 20 | Reusable |
+| [Mixing Kit](equipment/mixing-kit.md) | 20 | Reusable |
+| [Rope Coil](equipment/rope-coil.md) | 5 | Reusable |
+| [Climbing Fittings](equipment/climbing-fittings.md) | 8 | Reusable |
+| [Lever and Wedges](equipment/lever-and-wedges.md) | 5 | Reusable |
+| [Digging Tools](equipment/digging-tools.md) | 6 | Reusable |
+| [Chain Coil](equipment/chain-coil.md) | 12 | Reusable |
+| [Restraints](equipment/restraints.md) | 8 | Reusable |
+| [Padlock](equipment/padlock.md) | 5 | Reusable |
 
 ### Travel and practical gear
 
 | Item | Coins | Supply / purchasing note |
 |---|---:|---|
-| [Travel Pack](equipment/travel-pack.md) | 3 | Reusable; no ability granted |
-| [Sleeping Roll](equipment/sleeping-roll.md) | 4 | Reusable; no ability granted |
+| [Travel Pack](equipment/travel-pack.md) | 3 | Reusable |
+| [Sleeping Roll](equipment/sleeping-roll.md) | 4 | Reusable |
 | [Water Flask](equipment/water-flask.md) | 3 | container + one person-day water |
 | [Travel Clothes](equipment/travel-clothes.md) | 4 | one plain worn outfit free at creation |
-| [Weather Clothes](equipment/weather-clothes.md) | 10 | Reusable; no ability granted |
-| [Small Tent](equipment/small-tent.md) | 12 | Reusable; no ability granted |
+| [Weather Clothes](equipment/weather-clothes.md) | 10 | Reusable |
+| [Small Tent](equipment/small-tent.md) | 12 | Reusable |
 | [Writing Kit](equipment/writing-kit.md) | 6 | d6 |
 | [Small Necessities](equipment/small-necessities.md) | 2 | d6 |
-| [Signal Kit](equipment/signal-kit.md) | 4 | Reusable; no ability granted |
-| [Musical Instrument](equipment/musical-instrument.md) | 12 | Reusable; no ability granted |
-| [Disguise Clothes](equipment/disguise-clothes.md) | 10 | Reusable; no ability granted |
-| [Local Map](equipment/local-map.md) | 5 | Reusable; no ability granted |
-| [Trade Sack](equipment/trade-sack.md) | 1 | Reusable; no ability granted |
+| [Signal Kit](equipment/signal-kit.md) | 4 | Reusable |
+| [Musical Instrument](equipment/musical-instrument.md) | 12 | Reusable |
+| [Disguise Clothes](equipment/disguise-clothes.md) | 10 | Reusable |
+| [Local Map](equipment/local-map.md) | 5 | Reusable |
+| [Trade Sack](equipment/trade-sack.md) | 1 | Reusable |
 
 ### Supplies
 
@@ -90,9 +90,9 @@ Containers add their own Bulk and never reduce their contents’ Bulk.
 ## Supplies and restocking
 
 The printed price buys one full supply at its listed die, including an ordinary
-holder. All three healing bottles currently use d4; their potency, not supply die,
-differs. This pass preserves those existing values rather than quietly increasing
-potion longevity. A die checks after use and on 1 steps down; the last use works.
+holder. Each healing bottle has a d4 supply. Choose Lesser, Greater or Superior
+for the amount of HP restored per use. After using a supply, roll its inventory
+die. On 1 it steps down. The use that empties it still works.
 
 A d4 averages 4 uses before empty; d6 averages 10 total uses through its d4 stage;
 d8 averages 18. These are expectations, not guaranteed charges. The inventory die
@@ -101,8 +101,8 @@ cannot be converted into an exact number of arrows or spoonfuls.
 **Shop refills:** a shop can refill a supply to its printed starting die
 for its full listed supply price. Or buy a separate full supply at that price,
 which costs another Bulk. No discounted partial refill, die combining, decanting
-into fresh full-die bottles or cash credit for unknown leftovers. This keeps the
-market simple without changing crafting’s existing step-increase procedure.
+into fresh full-die bottles or cash credit for unknown leftovers. Crafting can
+increase a supply by the steps stated in its recipe.
 Fresh safe water can refill its flask freely; a town refill costs 1 coin if charged.
 
 ## Services and transport
@@ -142,7 +142,7 @@ otherwise use the printed value rather than maintaining regional multipliers.
 Record a concrete offer before buying. Exact scarcity and merchant stock remain
 adventure decisions, not a universal cap on player purchases.
 
-**Agreed sale/trade rule:** intact, useful gear sells for half list price,
+**Selling and trading:** intact, useful gear sells for half list price,
 rounded down, or trades for its full listed value with a willing trader. A 12-coin weapon sells for 6 coins or trades for 12 coins of goods. Pay any shortfall in coins; unused trade value is not cash change. A trade cannot be redeemed for coins, vouchers or other cash equivalents at full value. Card-granted items use the same rule, and selling
 never renews their grant. Consumables and materials with uncertain remaining supply
 have no standard resale offer. Goods freshly crafted or acquired at full supply
@@ -156,11 +156,10 @@ need a quote. Materials must meet the recipe: a common bundle cannot become life
 salts by relabeling it. Recipes are still found, derived or granted through cards,
 not automatically available for coin purchase.
 
-Crafting remains useful. Gathering ingredients, knowing recipes and spending time
-can save coins. This is not a closed or proven macroeconomy: foraging success,
-recipe yields, local demand and available downtime determine profit. A merchant’s
-willing purchase is not an infinite exchange machine. Large production should be
-reviewed before assigning guaranteed commercial income.
+Gathering ingredients and crafting your own supplies can save coins. Before
+producing goods for sale, find a willing buyer and agree on the quantity and price
+with the DA. Allow time to gather materials and complete each recipe. The buyer’s
+needs determine how much they will purchase.
 
 ## Shopping bundles and starting range
 

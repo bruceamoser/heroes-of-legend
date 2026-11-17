@@ -22,7 +22,7 @@ def norm(s):
  s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
  return re.sub(r'[^a-z0-9]','',s.lower())
 n=norm(text)
-for shared in ['vision.md','ancestry-procedures.md']:
+for shared in ['vision.md','ancestry-procedures.md','objectives.md']:
  source=R/'design/rules'/shared
  for paragraph in re.split(r'\n\s*\n',source.read_text()):
   if paragraph.startswith(('#','|')):continue

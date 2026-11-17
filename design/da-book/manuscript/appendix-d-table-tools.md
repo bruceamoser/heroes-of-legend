@@ -40,7 +40,7 @@ history nobody has time to read.
 | Disabled turns and important movement effects | |
 | Counterplay discovered and used | |
 | Choices the players enjoyed; moments of confusion | |
-| One change to examine before the next test | |
+| What to adjust when preparing the next encounter | |
 
 ## NPC and faction record
 

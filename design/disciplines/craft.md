@@ -1,7 +1,7 @@
 # Craft
 See the useful thing waiting inside the material.
 
-Use suitable tools, materials and a place to work. No technique supplies missing ingredients or makes valuable material from nothing. The DA fixes a project’s objective, work interval, size and required materials before rolling. Crafting is individual work; no task gains repeated progress just because several characters describe the same completed step.
+Gather suitable tools and materials and find a place to work. Before rolling, agree with the DA on the finished project, its size, progress target and time per attempt. Make crafting attempts individually, counting each completed step once.
 
 ## Repairs
 

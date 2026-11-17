@@ -19,8 +19,9 @@ An outcome is complete: do not add the Weak damage to the Standard damage. If a
 Strong outcome includes an earlier benefit, it says so. Instant damage happens once;
 a condition applied by that damage follows the condition's own timing.
 
-A no-roll ability still costs its printed action. A treatment that takes an hour
-cannot be completed in one combat turn merely because it is indexed as a Main Action.
+Spend the printed action even when an ability needs no roll. If it gives a longer
+work time, complete that time before receiving its effect. An hour-long treatment
+takes the full hour.
 
 ## Boons, Banes and results
 
