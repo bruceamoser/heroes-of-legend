@@ -43,7 +43,7 @@ def validate(manifest):
         actual = {str(p.relative_to(DESIGN)) for p in (DESIGN / folder).glob('*.md') if p.name != 'README.md'}
         if len(sources) != count or len(set(sources)) != count or set(sources) != actual:
             raise ValueError(f'{folder}: missing, repeated or unexpected sources')
-    sources = [s for group in manifest.get('shared_sections', {}).values() for s in group] + manifest['chapters'] + manifest['appendices'] + creatures + manifest['monster_abilities'] + manifest['summons'] + [manifest['conditions'], manifest['wounds']]
+    sources = [s for group in manifest.get('inline_sections', {}).values() for s in group] + [s for group in manifest.get('shared_sections', {}).values() for s in group] + manifest['chapters'] + manifest['appendices'] + creatures + manifest['monster_abilities'] + manifest['summons'] + [manifest['conditions'], manifest['wounds']]
     if len(sources) != len(set(sources)):
         raise ValueError('A manuscript source appears more than once')
     for source in sources:
@@ -91,7 +91,17 @@ def assemble():
         return '\n'.join(lines).strip()
 
     for source in manifest['chapters']:
-        append_source(source)
+        chapter = read(source)
+        for inline_source in manifest.get('inline_sections', {}).get(source, []):
+            marker = '<!-- shared: ' + inline_source + ' -->'
+            assert chapter.count(marker) == 1
+            before, chapter = chapter.split(marker)
+            append_source(source, before)
+            append_source(inline_source, read(inline_source), heading_shift=1)
+        if source in manifest.get('inline_sections', {}):
+            parts.append(rewrite_links(chapter.strip(), source))
+        else:
+            append_source(source, chapter)
         for supplement in manifest.get('shared_sections', {}).get(source, []):
             append_source(supplement, remove_editorial(read(supplement)), heading_shift=1)
         if source.endswith('/10-bestiary.md'):

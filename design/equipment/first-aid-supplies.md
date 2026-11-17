@@ -10,6 +10,7 @@
 
 Required for First Aid and any treatment that names these supplies. After each
 attempt, roll the inventory die; on 1 it steps down normally. An interrupted
-attempt also uses supplies. Materials alone grant no extra treatment allowance.
+attempt also uses supplies. Mark the recipient’s one treatment attempt between
+safe overnight rests when you begin.
 
 [Market rules](../market.md) · [Equipment index](../equipment.md)

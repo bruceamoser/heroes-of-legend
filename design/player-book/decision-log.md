@@ -9,9 +9,10 @@ navigation, not a competing set of provisional rulings.
 - [Summoning](../rules/summoning.md): energy forms, no received healing, controller-paid healing and nearest-square tether.
 - [Session resolution](../rules/session-resolution.md): NPC-only rolls, interruption, perception and movement.
 - [Languages](../rules/languages.md): starting choices, explicit grants and communication.
-- [Learning](../rules/learning.md): sequential paths, ordinary actions, social objectives and treatment.
-- [Development](../development.md): both creation stages, advancement and automatic SP growth.
-- [Combined abilities](../combined-abilities.md): exact endpoints, level 7 and learning costs.
+- [Learning](../rules/learning.md): sequential paths and ordinary actions.
+- [Objectives](../rules/objectives.md): shared progress, work intervals and social encounters.
+- [Development](../development.md): level-1 creation, advancement and automatic SP growth.
+- [Masteries](../combined-abilities.md): level-7 disciplines and spellbook reference.
 - [Recovery](../rules/recovery.md): Grit, Dying, scars, overnight rest and first aid.
 
 New design questions belong in a new issue and require Bruce’s review. Encounter

@@ -1,7 +1,7 @@
 # Athletics
 Find a way where the easy road ends.
 
-Climbing, swimming and jumping are ordinary actions. These techniques improve them, using real holds, breathable air, supports and available equipment. Movement requires a physically possible route and legal landing. A movement allowance is not permission to cross an impassable barrier.
+Climbing, swimming and jumping are ordinary actions. These techniques improve them, using real holds, breathable air, supports and available equipment. Choose a route with the holds, support and clear landing the movement needs.
 
 ## Climbing
 

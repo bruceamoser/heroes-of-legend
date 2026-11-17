@@ -71,9 +71,8 @@ another explicit benefit. Apply normal nonstacking rules to matching numerical
 bonuses. Different damage-type resistances can coexist; use the highest of each.
 
 The item states whether understanding is required. Identification abilities reveal
-different kinds of information. Knowing a recipe is a separate permission from
-knowing what an item does. The recipe section lists tools, materials, time and what
-the crafting result produces; none of those are supplied by the recipe's name alone.
+different kinds of information. To make an item yourself, learn its recipe and gather the listed tools and
+materials. The recipe explains the work time and what each result produces.
 
 ### Items that change attributes
 

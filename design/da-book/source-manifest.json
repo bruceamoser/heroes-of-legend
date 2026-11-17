@@ -589,5 +589,10 @@
       "rules/learning.md",
       "rules/magic.md"
     ]
+  },
+  "inline_sections": {
+    "da-book/manuscript/02-running-the-game.md": [
+      "rules/objectives.md"
+    ]
   }
 }

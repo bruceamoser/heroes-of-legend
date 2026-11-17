@@ -26,10 +26,10 @@ reinforcement wave is part of the danger, even if it begins off the map.
 
 ## Starting budgets
 
-For four heroes of the same level, the current standard seed is **32 + 8 × level**.
+For four heroes of the same level, an initial standard budget is **32 + 8 × level**.
 Use the row below as a first estimate, then examine the actual matchup.
 
-| Level | Standard CV seed |
+| Level | Standard CV budget |
 |---:|---:|
 | 1 | 40 |
 | 2 | 48 |
@@ -49,10 +49,10 @@ Use the row below as a first estimate, then examine the actual matchup.
 | Hard | 1.5 | Signal the danger and review the roster's combined abilities carefully. |
 | Extreme | 2 | Treat as a deliberate major risk; make its stakes and alternatives clear. |
 
-These labels describe an intended test, not an established prediction. Doubling a
-budget does not establish that a fight will last twice as long. In particular,
-more disabling effects can remove player choices before they noticeably increase
-round count.
+Use these difficulty estimates alongside the party’s actual capabilities and
+resources. Pay particular attention to disabling effects. Several enemies that
+prevent heroes from acting can make an encounter much more dangerous than its
+CV total suggests.
 
 For **N same-level heroes**, multiply the four-hero budget by **N ÷ 4**, then by
 the difficulty multiplier. Round the final result to a convenient whole CV.
@@ -66,7 +66,7 @@ those shares, then apply difficulty: **sum((32 + 8 × each hero's level) ÷ 4)**
 Do not round the party's average level first.
 
 > **Example: experienced companions.** Heroes at levels 1, 1, 3 and 3 contribute
-> 10 + 10 + 14 + 14 = **48 CV** before difficulty. A hard seed is 72. Review the
+> 10 + 10 + 14 + 14 = **48 CV** before difficulty. A hard encounter starts at 72 CV. Review the
 > lower-level heroes' vulnerability separately; the total does not protect them
 > from an attack designed to pressure the stronger members.
 
@@ -76,7 +76,7 @@ than an unrelated extra creature added merely to reach 40.
 ## Give each creature a job
 
 Start with a few creatures whose actions you can run confidently. Three to five
-enemies make a useful first test against four heroes. Their roles should help
+enemies are a manageable starting roster against four heroes. Their roles should help
 you choose actions, not grant unprinted bonuses.
 
 | Role in this encounter | What to look for on its card | A decision it creates |
@@ -90,8 +90,8 @@ you choose actions, not grant unprinted bonuses.
 
 Begin by adding one unusual capability at a time. Several enemies that repeatedly
 apply Dazed or Paralyzed can create a scene in which players spend much of their
-time unable to participate. Test that combination deliberately before presenting
-it as an ordinary fight.
+time unable to participate. Check how the heroes could interrupt or escape that
+combination, and make those opportunities visible before they commit.
 
 A creature with several attacks chooses among them using its normal action budget.
 A claw and a bite do not grant two Main Actions. A solo has one turn and one
@@ -118,9 +118,10 @@ creature budget does not already include it.
 
 ## Five encounters to begin with
 
-These scenes use current creature CVs. Each presents a motive and a route to an
-outcome other than defeating every enemy. Their totals are examples, not certified
-encounter ratings.
+Choose one of these situations when you need an encounter along the road or near
+a settlement. Each gives the opposition a motive and offers ways to resolve the
+problem through bargaining, movement or combat. Review the estimated CV total
+against your party before using it.
 
 | Encounter | Roster | Total CV |
 |---|---|---:|
@@ -188,4 +189,5 @@ happened to judge the danger of the next encounter.
 If an encounter disappoints, identify the cause before changing all its numbers.
 Was the enemy unreachable? Did the party overlook a capability because it was
 unclear? Did control remove too many turns? Did both sides spend their time healing?
-Revise the relevant part and test again. Preserve what made the encounter memorable.
+Adjust that part when preparing the next encounter. Preserve what made the
+situation memorable.

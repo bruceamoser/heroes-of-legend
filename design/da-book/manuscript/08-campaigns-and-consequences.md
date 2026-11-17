@@ -16,9 +16,9 @@ goal or reach a significant turning point. A negotiated settlement can qualify
 just as well as a battle. Tell the group what kind of progress you intend to
 recognize so they do not feel required to seek unnecessary fights.
 
-Create heroes at level 1 in one process: ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 8 + Guile + Knowledge + Reason, plus explicit benefits.
+Help players create level-1 heroes by choosing ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 8 + Guile + Knowledge + Reason, plus explicit benefits.
 
-The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
+The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add ancestry HP + class HP to maximum HP. Add the same amount to current HP if the hero is above 0 HP. At 0 HP, increase only the maximum. Add **2 maximum SP**, keeping current SP unchanged. Neither a level gain nor a signature change refreshes spent Grit.
 
 | New level | DP gained | Other development |
 |---|---:|---|
@@ -95,7 +95,7 @@ A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
 their controller's SP and cannot receive healing. A safe overnight rest restores
 all SP. A hero with [Spellcraft Recovery](../../disciplines/spellcraft.md#recovery)
 can also spend one uninterrupted hour in safety resting, meditating, or enjoying
-quiet leisure. Once between safe overnight rests, this restores 1/2/3/4/6/8/12 SP across the seven steps, up to the hero’s maximum. Perfect Repose shortens this single pause to 30 minutes. Learning an improvement after using the pause does not grant another use.
+quiet leisure. Use the amount restored by the hero’s learned Recovery ability, up to maximum SP. The hero can take this recovery pause once between safe overnight rests. Perfect Repose shortens it to 30 minutes. Learning an improvement after using the pause leaves that use spent.
 
 ## Scars and a hero's death
 

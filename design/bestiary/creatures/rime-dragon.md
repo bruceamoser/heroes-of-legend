@@ -92,7 +92,7 @@ After an adjacent attacker's attack resolves and deals HP damage to this creatur
 
 **Habitat:** Glacier; frozen coast · **Communication:** Common and Draconic
 
-**Loot:** A single hoard: propose 300 coins and one recovered historical object with a story.
+**Loot:** A single hoard of 300 coins and one recovered historical object with a story.
 
 **Summoning:** Ineligible.
 

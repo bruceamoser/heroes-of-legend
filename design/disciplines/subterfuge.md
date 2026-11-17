@@ -1,7 +1,7 @@
 # Subterfuge
 Work between what people notice and what they assume.
 
-Use carried tools, plausible concealment and accessible mechanisms. The DA sets task objectives and consequences before rolling; progress does not reveal inaccessible components. A reaction needs its stated observable trigger, not merely the passage of time. No technique makes you invisible.
+Find cover, get your tools within reach and examine the mechanism or person you mean to outwit. The DA sets the objective and consequences before you roll. Work on components you can reach, and keep concealment between you and anyone watching. Use a Reaction when you perceive its stated trigger.
 
 ## Locks
 

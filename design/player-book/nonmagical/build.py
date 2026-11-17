@@ -35,7 +35,7 @@ procs=[]
 for para in (ROOT/'design/rules/learning.md').read_text().strip().split('\n\n'):
  if para.startswith('# '):procs.append({'kind':'page','text':para[2:]})
  elif para.startswith('## '):procs.append({'kind':'heading','text':para[3:]})
- else:procs.append({'kind':'paragraph','text':para.replace('\n',' ')})
+ else:procs.append({'kind':'paragraph','text':re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',para.replace('\n',' '))})
 HERE.joinpath('procedures.json').write_text(json.dumps(procs,ensure_ascii=False))
 # The shared template reads its generated artwork manifest at import time.
 manifest=HERE.parent/'generated/art-files.json'

@@ -26,7 +26,7 @@ for folder in ['ancestries','origins','classes','disciplines','cards','paths','e
  for p in (DESIGN/folder).glob('*.md'):
   if p.name!='README.md' and (folder!='paths' or p.stem in SELECTED_PATHS): files[p.resolve()]=key(p)
 for p in (BOOK/'manuscript').glob('*.md'): files[p.resolve()]=key(p)
-for f in ['rules/magic.md','rules/vision.md','rules/ancestry-procedures.md','rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
+for f in ['rules/objectives.md','rules/magic.md','rules/vision.md','rules/ancestry-procedures.md','rules/languages.md','market.md','starting-coins.md','rules/wounds.md','rules/conditions.md','bestiary/summon-choices.md']:
  p=DESIGN/f; files[p.resolve()]=key(p)
 aliases={'development.md':'02-creation.md','rules/foundations.md':'06-playing.md','rules/session-resolution.md':'06-playing.md','rules/stability.md':'06-playing.md','card-conventions.md':'09-abilities.md','catalog.md':'09-abilities.md','rules/recovery.md':'08-recovery.md','rules/summoning.md':'11-summons.md','equipment.md':'10-equipment.md','recipes.md':'10-equipment.md','disciplines.md':'05-disciplines.md','fantasy-paths.md':'05-disciplines.md'}
 for a,b in aliases.items(): files[(DESIGN/a).resolve()]=key(BOOK/'manuscript'/b)
@@ -231,6 +231,10 @@ def manuscript(filename,n,title,artbrief=None):
   v+=reading(p.read_text(),p)+'#tail-art("learned-relics")\n'
  elif filename=='11-summons.md':
   v+=reading(p.read_text(),p)+'#illustration("summoning-ring",height:220pt)\n'
+ elif filename=='07-adventure.md':
+  before,after=p.read_text().split('## Work as a group',1)
+  objective=DESIGN/'rules/objectives.md';record(objective,'objective-reference')
+  v+=reading(before,p)+'#heading(level:2)[Objectives and progress]\n#metadata('+q(key(objective))+')<'+key(objective)+'>\n'+reading(objective.read_text(),objective)+reading('## Work as a group'+after,p)
  else:v+=reading(p.read_text(),p)
  if filename not in ('14-reference.md','05-disciplines.md','09-abilities.md','11-summons.md','06-playing.md','07-adventure.md','01-welcome.md'):v+='#tail-art('+q({'01-welcome.md':'journey','02-creation.md':'journeyman-kit','05-disciplines.md':'disciplines','06-playing.md':'combat','07-adventure.md':'adventure','08-recovery.md':'recovery','09-abilities.md':'abilities','10-equipment.md':'equipment','11-summons.md':'summon-ancestor-guardian'}[filename])+')\n'
  return v
@@ -348,7 +352,7 @@ parts.append(hp_reference())
 parts.append(sp_reference())
 parts.append(coin_reference())
 parts.append(section('3','Ancestry, Culture and Background'))
-parts.append('#heading(level:2)[Ten peoples, side by side]\nThe ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
+parts.append('#heading(level:2)[Ten peoples, side by side]\nPicture your hero among these travelers. Their heights and builds suggest the variety within the company. Choose an appearance and personality of your own.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
 
 ancestry_intro=BOOK/'manuscript/intro-ancestry.md'
 record(ancestry_intro,'section')

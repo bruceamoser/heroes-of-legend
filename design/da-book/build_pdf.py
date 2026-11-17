@@ -125,6 +125,13 @@ for src in M['chapters']:
  s=s.replace('**New adventure content:** names, placements, rewards and local obstacle targets\nare manuscript proposals for review. They do not establish universal rules.','The names, placements, rewards and obstacle targets belong to this adventure. They do not establish universal rules.')
  s=s.replace('**Review status:** the example hazards below are new content. Their damage, targets,\nareas and timings are proposed values for these entries only. They are not universal\ntrap damage or calibrated additions to encounter CV.','The damage, targets, areas and timings below apply to these entries only. They are not universal trap damage or calibrated additions to encounter CV.')
  if p.name in chapter_art:body.append(art(chapter_art[p.name],h=110,fit='contain'))
+ for inline_source in M.get('inline_sections',{}).get(src,[]):
+  marker='<!-- shared: '+inline_source+' -->'
+  assert s.count(marker)==1
+  before,s=s.split(marker)
+  body.append(reading(before,p))
+  ip=D/inline_source
+  body.append('#heading(level:2)['+inline_text(name(ip))+']\n#metadata('+q(key(ip))+')<'+key(ip)+'>\n'+reading(ip.read_text(),ip))
  body.append(reading(s,p))
  for supplement in M.get('shared_sections',{}).get(src,[]):
   sp=D/supplement

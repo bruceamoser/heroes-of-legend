@@ -6,7 +6,9 @@ Your departure purse combines savings, community support, past work and class pr
 
 Add these once during character creation. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.
 
-Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend.  These allocations describe preparation, not biology.
+Decide where these coins came from. Perhaps you saved your wages, received a gift
+from home or sold something precious to pay for the journey. The purse is what
+you carry on departure. Your family’s wealth and circumstances are yours to describe.
 
 ## Ancestry contribution
 

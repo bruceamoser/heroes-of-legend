@@ -16,8 +16,7 @@ where you learned it, rather than imposing a compulsory choice.
 
 Record the language's actual name, not just “regional” or “community language.”
 If Common was your only home language, choose another ordinary language learned
-through neighbors, work or travel. This starting choice is separate from your
-culture's discipline and ability pair and costs no DP.
+through neighbors, work or travel. Choose these starting languages for free alongside your culture and background.
 
 Apply explicit extra grants afterward. **A Foot in Two Worlds** lets a Human choose
 another ancestry, learn one language native to it and gain one trait from its trait
@@ -100,10 +99,10 @@ vocabulary or memories unless its ability explicitly says so.
 ## Keep learning grounded
 
 Record new languages when an explicit trait, ability or agreed campaign grant
-provides them. Time with a teacher, a community or useful texts explains that
-learning; it does not create an unstated free advancement or a new universal DP
-price. Agree on the route before spending time or DP. Translation and ordinary
-practice remain useful even when they do not grant permanent fluency.
+provides them. To pursue fluency through a teacher, a community or useful texts, agree with the DA
+on the time and any cost before you begin. Record the language when you complete
+that agreement. In the meantime, a translation or an interpreter can help you
+understand a particular message or conversation.
 
 > **At the gate.** An elf raised in a dwarven mining town chooses Common and
 > Dwarven. She reads the quarry's warning without a roll. Its damaged diagram

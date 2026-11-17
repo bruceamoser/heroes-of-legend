@@ -140,7 +140,7 @@ Transform each recipient using Polymorph's animal-form procedure. Choose a form 
 **Target / range:** Self
 **Duration:** 1 minute
 
-Assume a familiar animal shape of Small, Medium or Large size. Keep your HP and attributes. Choose flying, swimming or climbing at your normal Speed, physical resistance 1, and a natural attack using Brawn or Agility for 3/5/7 physical damage. A Maneuver may change the form; otherwise it remains unchanged. Gear merges; return with a Maneuver to speak, use items or cast.
+Assume a familiar animal shape of Small, Medium or Large size. Keep your HP and attributes. Choose flying, swimming or climbing at your normal Speed and gain physical resistance 1. While transformed, you may spend a Main Action to bite or claw one adjacent creature: roll Brawn or Agility for 3/5/7 physical damage. A Maneuver may change the form; otherwise it remains unchanged. Gear merges; return with a Maneuver to speak, use items or cast.
 
 ### True Polymorph — Living
 

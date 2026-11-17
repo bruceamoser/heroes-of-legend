@@ -57,7 +57,7 @@ def shared_norm(value):
  value=unicodedata.normalize('NFKC',value).replace('\u00ad','')
  value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return re.sub(r'[^a-z0-9]','',value.lower())
-for shared in ['vision.md','ancestry-procedures.md']:
+for shared in ['vision.md','ancestry-procedures.md','objectives.md']:
  if titles.count((D/'rules'/shared).read_text().splitlines()[0][2:])!=1:errors.append('Shared rule bookmark coverage: '+shared)
  for paragraph in re.split(r'\n\s*\n',(D/'rules'/shared).read_text()):
   if paragraph.startswith(('#','|')):continue

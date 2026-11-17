@@ -68,7 +68,7 @@ Choose fire, cold or lightning. Its attacks deal that type in place of their nor
 **Target / range:** One held rune-stone and one known Main Action spell costing at most 2 SP
 **Duration:** 24 hours or until released
 
-Pay the stored spell's SP in addition to this ritual. Inscribe its power into the stone. A bearer uses a Main Action to release it, choosing legal targets from their position and using your casting attribute. The stone holds one use; you may keep one prepared Rune Mastery stone at a time.
+Pay the stored spell's SP in addition to this ritual. Inscribe its power into the stone. A bearer uses a Main Action to release it, choosing legal targets from their position and using the stored spell’s printed attribute and your value for it. The stone holds one use; you may keep one prepared Rune Mastery stone at a time.
 
 ### Magic Mouth
 

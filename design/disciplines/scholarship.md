@@ -1,7 +1,7 @@
 # Scholarship
 Ask the question that turns an old fact into a useful one.
 
-Use accessible evidence. The DA fixes each question’s objective and supplies truthful findings within that evidence, identifying gaps rather than inventing certainty. Learned lore grants no unlearned spell or recipe. A completed investigation needs a new question or evidence to earn further progress.
+Bring a question and the evidence you can examine. The DA sets the objective and gives truthful findings supported by that evidence, including what remains uncertain. After completing an investigation, pursue a new question or new evidence. Learn spells and recipes through their own study requirements.
 
 ## Investigation
 

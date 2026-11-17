@@ -33,7 +33,7 @@ Draw, give and redirect magical power between existing reserves. Casting costs a
 **Target / range:** One creature within 6 squares
 **Duration:** Instant
 
-Strike with a pulse of raw magical pressure. Deal 2/3/5 force damage. This attack changes HP through damage; SP transfer uses the later pages of this book.
+Strike with a pulse of raw magical pressure. Deal 2/3/5 force damage.
 
 ### Give Power
 
