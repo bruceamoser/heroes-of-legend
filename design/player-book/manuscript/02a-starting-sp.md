@@ -42,7 +42,7 @@ A class attribute of 0 or less contributes 0. Use the chosen attribute value rat
 
 ## Learned capacity and recovery
 
-Soul Capacity and Mind Capacity are Spellcraft paths that increase the same reserve. Soul Capacity I and Mind Capacity I each add 2 maximum SP. Add each learned increase once, using the amount printed for that entry. Recovery restores spent SP through its named rest activity. Channeling transfers existing SP between reserves. Learning a new entry or raising maximum SP after creation does not itself refill the reserve.
+Soul Capacity and Mind Capacity are paths in the Spellcraft discipline. Both increase the same reserve. Soul Capacity I and Mind Capacity I each add 2 maximum SP. Add each learned increase once, using the amount printed for that entry. Recovery restores spent SP through its named rest activity. Channeling transfers existing SP between reserves. Learning a new entry or raising maximum SP after creation does not itself refill the reserve.
 
 ## Growth and examples
 
