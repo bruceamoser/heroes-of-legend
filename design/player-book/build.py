@@ -280,7 +280,7 @@ def class_values(raw):
 
 def class_page(p):
  record(p,'class');s=clean(p);raw=p.read_text()
- introduction=s.split('\n',1)[1].split('\n## Rules\n',1)[0].strip()
+ introduction=raw.split('\n',1)[1].split('\n## Rules\n',1)[0].strip()
  attrs,hp,stat,coins,starting=class_values(raw)
  prices=re.search(r'\*\*Learning costs:\*\* (.+)',raw).group(1)
  core=introduction+'\n\n**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one free signature at each of levels 1, 3 and 7. At later milestones, develop a known line or choose a new line. A higher choice includes its line’s foundation. A level-7 choice keeps the level-3 improvement only when you selected it at level 3. Each milestone grants one choice.\n'
