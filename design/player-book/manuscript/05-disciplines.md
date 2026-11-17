@@ -1,7 +1,5 @@
 # Disciplines and learned abilities
 
-Choose what your hero practices. Your class lists the 1, 2 or 3 DP price to begin a new discipline. Then learn the entries of a chosen path in order. Starting disciplines from culture, background and class are already yours to study.
+A shield bearer learns to turn a blow meant for a friend. A tracker reads where a fugitive left the road. A student of flame learns how to light a candle, then how to hold back pursuers with a wall of fire. What does your hero spend time practicing?
 
-Nonmagical disciplines have four paths: Main Action, Maneuver, Reaction and a distinctive wildcard. Their seven entries cost 1/2/2/3/4/4/5 DP. The first three develop one capability; the next three develop its level-3 major ability; the seventh is a level-7 mastery. Reactions can answer events outside combat too. Each entry gives the actual timing and effect.
-
-Magical disciplines gather four themed spellbooks. Their seven sections follow the same costs and level gates. Sections I–IV each teach two spells; V, VI and the level-7 mastery each teach one spell. Their first spells cost 0 SP to cast. Spellcraft combines three training paths with its Channeling book. Class signatures use your milestone choices, while basic actions remain available to every hero.
+Begin with a discipline you already study or spend the DP your class lists to take up a new one. Choose an ability path or spellbook and learn its entries in order. Each entry tells you when you can learn it, what it costs, and what it lets you do. Save any DP you want to spend later.

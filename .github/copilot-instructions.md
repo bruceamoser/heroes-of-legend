@@ -115,3 +115,9 @@ boilerplate such as “Access grants no ability.” Introduce the positive seque
 begin studying a discipline, choose a path or spellbook, then learn its entries.
 Explain equipment and preparation as actions the player takes. Preserve actual
 mechanical limits where they are needed to resolve play.
+
+Write the player and DA books for use at the table. Put DP costs, required levels,
+and prerequisites where readers learn or look up an entry. Keep shared prices in a
+labeled rules table where that helps play. Keep catalog construction patterns,
+price sequences, editorial notes, and internal test targets in design or review
+notes. Explain how to plan an encounter or adapt a creature in the DA book.

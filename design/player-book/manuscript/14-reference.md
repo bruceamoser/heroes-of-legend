@@ -113,19 +113,15 @@ Life resistance also reduces magical healing and potions.
 **Stability.** Resistance to the distance of forced movement. Default 0, cap 3.
 It does not reduce damage, Prone or other conditions.
 
-**Learning.** Follow each path in order. Nonmagical paths cost 1/2/2/3/4/4/5 DP: three beginning entries, three level-3 entries, then a level-7 mastery. Spellbooks follow the same seven-step costs and gates. Sections I–IV each teach two spells, then V, VI and VII each teach one spell; VII is mastery.
+**Learning.** Learn the entries of an ability path or the sections of a spellbook in order. Check the listed DP and level requirement. Mark each spell taught by a section you learn.
 
 **Sustain.** A Maneuver costing 0 SP. Sustain one spell at a time, as its text directs. A fixed duration continues for its stated time; moving a directed effect uses its printed action.
 
 **Scar.** A descriptive reminder of surviving an incident at 0 HP; no mechanical penalties or treatment track.
 
-## Record useful playtest feedback
+## Keep notes between sessions
 
-Write down what happened, which abilities were used, and what slowed the table.
-Note a confusing phrase as well as the ruling you made. Record striking moments:
-a rescue, a clever use of terrain, an ability that never found a useful opportunity.
-Those observations help improve the game more than a bare claim that something is
-strong or weak.
+Write down unfinished business, promises and discoveries the company might return to. When the group makes a ruling you expect to use again, note it where everyone can find it.
 
 ## Survival at a glance
 

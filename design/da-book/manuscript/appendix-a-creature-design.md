@@ -49,16 +49,11 @@ attacker outcomes, its ordinary defense table reads 6/4/2. Reverse the whole out
 including conditions and displacement, not just the damage. Store the player-facing
 version for any eligible summon and check both against each other.
 
-## Use monster abilities as construction tools
+## Adapt a monster ability
 
-The separate monster catalog contains abilities with no DP price or player discipline
-requirements. A creature has an ability only if its own entry grants it. Players
-cannot buy one simply because they meet a similarly named discipline.
-
-Copy the applicable effect into the creature's authored entry and specialize its
-printed values where the template calls for that. Preserve targeting, costs,
-limits and counterplay. A template is not permission to leave “see ability” in a
-combat action that needs a second lookup to resolve.
+Choose a monster ability that suits the creature. Write out its action, range,
+targets, costs and limits on your creature’s card so you can resolve it at the table.
+If the ability gives a way for heroes to respond, include that too.
 
 An animal form or summoned category does not inherit this entire library. A summoned
 profile must restrict activity to paid commands, remove independent Reactions and
@@ -67,10 +62,10 @@ through walls; being a construct does not automatically grant every condition im
 
 ## Estimate CV transparently
 
-The current estimate uses **CV = ceiling(3 × sqrt(E × O) × U)**, minimum 1. It is a
-comparison tool with explicit assumptions, not a complete model of combat.
+To compare a creature you create to the bestiary, estimate **CV = ceiling(3 × sqrt(E × O) × U)**,
+minimum 1. Use the result alongside your judgment of the encounter.
 
-| Input | Current seed definition |
+| Input | What to use |
 |---|---|
 | I | Expected damage of a reference hero's attack against the creature, after Evasion and physical resistance |
 | E | (Creature HP + two turns of its printed regeneration) ÷ I |
@@ -84,12 +79,11 @@ also uses +1, with Physical resistance 1 and other resistances 0. Threat changes
 the defense distribution. Use the creature's printed target expectation and reference
 attack for O; do not add its attack attribute to a player's defense probability.
 
-The two regeneration turns are an assumption, not a prediction of fight length.
-The current U rubric starts at 1 for simple damage, with 1.50–1.65 for substantial
-combined utility, healing or repeated disabling pressure. A major package with
-useful Maneuvers and Reactions may reach 1.70–1.85. Those values are judgments,
-not proven prices for conditions. Keep your assumptions with your own creature
-notes so you can revisit them after play.
+Use two regeneration turns for the estimate. For U, start at 1 for a creature
+that mostly deals damage. Consider 1.50–1.65 for healing, frequent control or
+several ways to help its allies. You might use 1.70–1.85 for a creature with
+several consequential Maneuvers and Reactions. Record your reasoning so you can
+adjust the estimate after the encounter.
 
 If a creature deals no direct damage, this formula cannot establish its contribution
 by multiplying by zero. Evaluate it in the mixed encounter it supports. Area damage,
@@ -114,6 +108,5 @@ no active scouting, alerts or attacks and disappear at the end of a controller's
 turn in which they received no command. A summoned healer charges its controller;
 the form cannot receive healing. These restrictions are part of its actual play value.
 
-After a change, recalculate the estimate and check the creature's full outcome
-text. A content audit can catch missing fields or arithmetic errors. Only play
-can tell you whether the creature delivers the intended experience.
+After a change, check the creature's outcomes and update its CV estimate.
+Compare the estimate with what happened at the table.

@@ -4,7 +4,7 @@ A spellbook gathers a related family of spells. Its colored rows show the sectio
 
 ## Learning your books
 
-Begin studying a magical discipline for its class-listed DP cost, then choose a book. Learn its seven sections in order. Each section adds the spells shown in its colored rows to your repertoire.
+Choose a spellbook in a discipline you study. Learn its sections in order. Pay the DP shown below when you meet the level requirement, then add the spells marked for that section.
 
 | Learned section | Character level | DP | Spells learned |
 |---|---:|---:|---|
@@ -16,9 +16,7 @@ Begin studying a magical discipline for its class-listed DP cost, then choose a 
 | VI | 3 | 4 | A2 |
 | VII · Mastery | 7 | 5 | A3 |
 
-The three advanced sections each teach one spell. Your growing investment develops the book’s distinctive magic, culminating in its mastery spell at level 7. A complete book costs 21 DP after beginning its discipline.
-
-The first spell of every book costs 0 SP to cast. Keep every learned spell available for use. Spellcraft offers three training paths and the Channeling book; its capacity paths add to your shared SP reserve.
+Keep every spell you learn. Spend its printed SP when you cast it. The first spell in each book costs 0 SP. The last section teaches the book’s mastery spell.
 
 ## Casting a spell
 

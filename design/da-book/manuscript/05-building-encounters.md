@@ -7,8 +7,8 @@ and a place that make the decision interesting.
 
 **Combat Value**, or **CV**, helps compare creatures and assemble an initial roster.
 It does not account perfectly for a particular party, map or combination of abilities.
-The budgets in this chapter are playtest starting points. They have not yet been
-calibrated to promise a particular fight length or chance of injury.
+Use the budgets in this chapter as estimates. Check how the actual roster, terrain
+and party affect the danger before you run the encounter.
 
 ## Prepare the encounter in six decisions
 
@@ -181,17 +181,9 @@ turn. Do not automatically increase the budget to erase a summoner's investment.
 
 ## Observe, then adjust the estimate
 
-For playtests, record the actual party and supplies rather than an idealized average
-hero. Note rounds, healing actions and SP costs, Grit spent, new scars, depleted
-supplies, escapes, disabled turns, and whether players discovered the intended
-counterplay. Record whether the encounter was enjoyable as well as whether the
-company survived.
-
-The design targets are roughly four rounds for a typical encounter, six for a hard
-one and ten for an extreme one. A reasonably prepared party's typical encounter
-is intended to have about a 20–30% chance of at least one hero falling to 0 HP without a healer,
-or 5–15% with one. These are goals across many trials, not requirements for an
-individual table or evidence that this budget achieves them.
+After an encounter, note what stretched the company’s resources, who lost chances
+to act, and whether the heroes could discover a useful way to respond. Use what
+happened to judge the danger of the next encounter.
 
 If an encounter disappoints, identify the cause before changing all its numbers.
 Was the enemy unreachable? Did the party overlook a capability because it was

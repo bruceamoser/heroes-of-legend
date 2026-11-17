@@ -165,8 +165,7 @@ for src in M['chapters']:
 for src in M['appendices']:
  p=D/src;letter=p.name.split('-')[1].upper()
  body.append('#chapter('+q('APPENDIX '+letter)+','+q(name(p))+','+q(key(p))+')\n')
- s=p.read_text().replace('Entries follow in alphabetical order. Their mechanical text comes directly from\nthe authored monster catalog. The assembled reference omits editorial status lines\nand shared navigation links; it retains every specific action, effect and limit.','Entries follow in alphabetical order. Only creatures whose entries list an ability possess it. Printed entry values and restrictions apply; no ability grants unlisted actions. Every creature card retains the specific effects needed during play.')
- s=s.replace('The full condition table follows in the assembled manuscript.','The full condition table follows.')
+ s=p.read_text()
  if letter=='D':
   intro,*sections=re.split(r'(?=^## )',s,flags=re.M)
   tools_by_heading={part.splitlines()[0][3:]:part for part in sections}

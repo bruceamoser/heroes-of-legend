@@ -25,16 +25,14 @@
  contains guidance for the Dungeon Architect, an introductory rescue adventure,
  hazards, campaign tools, and the complete core bestiary.
 
- Use it alongside the Player’s Book. Creature and encounter CV values remain
- playtest estimates; the budgets do not guarantee a particular difficulty or duration.
+ Use it alongside the Player’s Book. Use Combat Value to plan encounters, then
+ judge the danger from the heroes, their opposition and the terrain.
 ]
 #v(16pt)
 #text(size:9pt)[Starter Kit v#release.version · #release.date
 
- Based on the approved Heroes of Legend design workspace. Manuscript and layout
- prepared with Codex under Bruce’s direction. AI-assisted illustrations combine
- the approved visual library with new creature portraits; maps and rules diagrams are original
- editable vector artwork. This digital playtest edition is not a print-production release.]
+ Manuscript and layout prepared with Codex under Bruce’s direction.
+ Artwork created with AI assistance.]
 #pagebreak()
 #outline(title:[Contents],depth:1)
 #pagebreak()

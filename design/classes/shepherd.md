@@ -18,7 +18,7 @@ You might love the quiet after a fever breaks, or resent the idea that the slowe
 
 **Learning costs:** **1 DP:** Life, Wards. **2 DP:** Wilderness, Medicine, Invocation, Spellcraft. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Craft, Scholarship, Influence, Elements, Mentalism, Divination, Force.
 
-These prices begin study in an additional discipline. Each learned path or spellbook prints its own costs and requirements. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence, with their fourth entry available at level 3 and seventh at level 7.
+Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 
 ## Signature development
 

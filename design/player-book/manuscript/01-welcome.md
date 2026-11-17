@@ -101,10 +101,9 @@ heroes near the back. Ancestries, origins and classes supply your first choices.
 Disciplines show how to qualify for learned abilities. Playing the Game explains
 combat; Beyond the Battlefield covers the rest of an adventurer's life.
 
-Keep your own abilities close at hand. You do not need to memorize everyone else's
-catalog. The universal actions are available to every character, provided they have
-any required equipment. A learned card does not replace the ordinary permission to
-try something anyone could reasonably attempt.
+Keep your own abilities close at hand. Use the Basic Actions chapter for things any
+hero can do, and check each action for any gear you need. When you want to try
+something the book does not list, describe it to the DA so they can make a ruling.
 
 ## Before the first adventure
 
@@ -115,9 +114,3 @@ ask to pause a scene or change an uncomfortable detail. Surviving at 0 leaves a 
 Choose names, something each hero wants, and a connection between companions. Decide
 how to share maps and record supplies. The DA should explain what your characters
 already know about the first destination. You can discover the rest in play.
-
-> **About this edition.** This is the complete player-facing level 1–10 playtest
-> manuscript. The current catalog is approved for playtesting. It is intended
-> for real table feedback; numerical balance remains open to refinement. Record
-> unclear situations for feedback to the designer. The companion Dungeon
-> Architect’s Guide & Bestiary is included in the starter kit.
