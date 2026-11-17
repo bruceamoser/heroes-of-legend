@@ -49,7 +49,7 @@ for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:',
                'one of your two traits', 'Recipe permission:', 'Type: Culture', 'Type: Background']:
  if phrase in text:errors.append('Retired reader boilerplate: '+phrase)
 for title in ['Starting HP', 'Starting SP', 'Starting coins', 'Learning and using disciplines',
-              'Basic action index', 'Talent index', 'Level 1 signature index', 'Level 3 signature index', 'Level 7 signature index']:
+              'Basic action index', 'Level 1 signature index', 'Level 3 signature index', 'Level 7 signature index']:
  if norm(title) not in n:errors.append('Missing reader reference: '+title)
 for phrase in ['safe breath', 'hit dice pool', 'recovery value', 'life cost',
                'moser’s law', 'as the wound', 'class discipline prices', 'no discipline purchases']:

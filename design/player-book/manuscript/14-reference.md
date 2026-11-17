@@ -37,7 +37,7 @@ lists the actions any hero can use.
 
 ## Glossary
 
-**Ability.** A learned technique, spell, talent or other capability with its own
+**Ability.** A learned technique, spell or other capability with its own
 procedure. “Card” refers to that rules entry, whether printed on a card or in this book.
 
 **Action.** Something a character chooses to do. An action can call for a roll;

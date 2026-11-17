@@ -2,7 +2,7 @@
 
 [Learned disciplines](disciplines.md) · [Combined abilities](combined-abilities.md)
 
-Universal actions, independent talents and class signatures:
+Universal actions and class signatures:
 
 - [Disengage](cards/disengage.md)
 - [Stand](cards/stand.md)
@@ -13,22 +13,16 @@ Universal actions, independent talents and class signatures:
 - [Aid](cards/aid.md)
 - [Shield Block](cards/shield-block.md)
 - [Opportunity Attack](cards/opportunity-attack.md)
-- [Another Tongue](cards/another-tongue.md)
-- [Look Over Here!](cards/look-over-here.md)
 - [Move](cards/move.md)
-- [Quick Exit](cards/quick-exit.md)
 - [Force](cards/force.md)
 - [Convert an Action](cards/convert-an-action.md)
 - [Basic Throw](cards/basic-throw.md)
 - [Stabilize](cards/stabilize.md)
 - [Sustain Spell](cards/sustain-spell.md)
 - [Handle an Item](cards/handle-an-item.md)
-- [Catch That!](cards/catch-that.md)
 - [Defend](cards/defend.md)
 - [Command a Summon](cards/command-a-summon.md)
 - [Basic Ranged](cards/basic-ranged.md)
-- [Message by Heart](cards/message-by-heart.md)
-- [A Party Piece](cards/a-party-piece.md)
 
 ## Class signatures
 

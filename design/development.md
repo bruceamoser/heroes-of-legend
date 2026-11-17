@@ -18,7 +18,7 @@ Circles mark beginning studies, triangles level-3 studies, and diamonds level-7 
 
 Magical disciplines gather four themed spellbooks. Each book follows the same seven steps, prices and level gates. Sections I–IV each teach two spells; sections V, VI and VII each teach one spell. The final spell is the book’s level-7 mastery. Each book’s first spell costs 0 SP to cast. Spellcraft offers Soul Capacity, Mind Capacity and Recovery training, plus the Channeling spellbook.
 
-The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Every hero retains the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
+Every hero retains the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
 
 ## Signatures
 

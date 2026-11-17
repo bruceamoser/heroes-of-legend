@@ -72,8 +72,7 @@ Each book has seven sections: four pairs of spells, followed by three individual
 disciplines contain 44 seven-step paths (308 entries); Spellcraft adds three training
 paths (21 entries) alongside its Channeling spellbook. Former combined purchases
 are rehomed into these paths and mastery spells.
-Basic Actions contains the 19 universal actions; the six small talents appear
-in character creation. New mechanics require review. CV calibration remains
+Basic Actions contains the 19 universal actions. New mechanics require review. CV calibration remains
 playtest work.
 
 Both books share the language reference. The Player’s Book includes every summoned
