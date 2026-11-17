@@ -79,9 +79,9 @@ Spend these coins on weapons, armor, tools and supplies. With the appropriate tr
 Begin with full HP. Count Fortitude and fixed benefits once.
 
 > **Maximum SP**\
-> 2 base SP + ancestry SP + twice your positive class mental attribute + 2 × (level − 1) + learned capacity and explicit benefits
+> 2 × level + ancestry SP + 2 × positive class mental attribute + Spellcraft bonuses + other SP bonuses
 
-Every hero starts with 2 base SP. Add twice your chosen class mental attribute if it is positive. Learned capacity comes from the Soul Capacity and Mind Capacity paths in the Spellcraft discipline. The first entry in each path adds 2 maximum SP to the same reserve. Begin with full SP. See [Starting SP](02a-starting-sp.md) for the class attributes and examples.
+Your level contributes 2 SP at level 1 and 2 more at each later level. Add twice your chosen class mental attribute if it is positive. Spellcraft bonuses come from the Soul Capacity and Mind Capacity paths in the Spellcraft discipline. The first entry in each path adds 2 maximum SP to the same reserve. Begin with full SP. See [Starting SP](02a-starting-sp.md) for the class attributes and examples.
 
 > **Capacity**\
 > 10 + 3 × Brawn

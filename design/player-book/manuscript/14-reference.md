@@ -28,7 +28,7 @@ lists the actions any hero can use.
 | Damage defenses | Remove immune types. Use highest matching resistance, cap 3. Attacks have a minimum of 1 if any damage survives immunity. |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Maximum SP, level 1+ | 2 base SP + ancestry SP + 2 × positive class mental attribute + 2 × (level − 1) + learned capacity and explicit benefits |
+| Maximum SP, level 1+ | 2 × level + ancestry SP + 2 × positive class mental attribute + Spellcraft bonuses + other SP bonuses |
 | Healing spell cost | Printed spell cost; pay before resolving |
 | Potion | Spend a Maneuver with a free hand. An unconscious or restrained recipient counts as willing. Another recipient spends a Reaction if conscious and above 0 HP. |
 | Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
