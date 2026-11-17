@@ -4,7 +4,6 @@ import re,json,subprocess,sys
 from index import field
 
 R=Path(__file__).resolve().parent
-ONE_DP={'another-tongue','message-by-heart','catch-that','a-party-piece','quick-exit','look-over-here'}
 errors=[];ids={};files=list(R.rglob('*.md'));cards={}
 redirects=json.loads((R/'migration/learning-redirects.json').read_text())
 for p in files:
@@ -37,14 +36,12 @@ for p in files:
   ids[id]=p.name
   tier=field(s,'Tier / minimum level')
   approved_universal_prices={'the-strong-arm':'3','the-last-word':'3','the-impossible-escape':'3','a-name-worth-knowing':'3','the-web-of-whispers':'3','the-lucky-trinket':'3','the-mountain-walks':'6','touched-by-the-divine':'6'}
-  expected_price=approved_universal_prices.get(id, '1' if id in ONE_DP else str({'1':2,'3':4,'7':8}.get(tier,'')))
+  expected_price=approved_universal_prices.get(id, str({'1':2,'3':4,'7':8}.get(tier,'')))
   if field(s,'Type')=='Signature':expected_price='Class choice'
   if tier in ('1','3','7') and field(s,'DP')!=expected_price:errors.append(f'{p.name}: tier price')
-  if id in ONE_DP and (tier!='1' or req!='None' or field(s,'Type') in ('Universal','Signature') or not field(s,'Limits').startswith('Purchase once')):errors.append(f'{p.name}: invalid one-DP exception')
   if not field(s,'Attribute').startswith('None') and '(Basic Melee attack)' not in field(s,'Attribute') and re.search(r'Make (?:a|one|an) (?!Basic\b)[^.]*\b(?:roll|attack)\b',s,re.I) and not all('**'+x+':**' in s for x in ('Weak','Standard','Strong')):
    # Some early signature/utility prototypes print their exact 1/2/3 resolution in prose.
    if not re.search(r'\b\d+/\d+/\d+\b|Weak:|\bWeak\b.*\bStandard\b.*\bStrong\b',s,re.S):errors.append(f'{p.name}: roll outcomes not explicit')
-for id in ONE_DP-set(ids):errors.append(f'Missing approved one-DP card: {id}')
 for p in (R/'origins').glob('*.md'):
  s=p.read_text()
  choices=field(s,'Discipline choices').rstrip('.').split(', ')

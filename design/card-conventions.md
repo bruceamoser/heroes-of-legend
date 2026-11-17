@@ -10,7 +10,7 @@ A magical discipline opens four spellbooks. Each book follows seven sequential s
 
 Masteries follow their own path’s level-3 studies. Both martial and magical paths culminate in one level-7 mastery.
 
-The six independent 1-DP talents remain available once each: Another Tongue, Message by Heart, Catch That!, A Party Piece, Quick Exit and Look Over Here! Class signatures are gained at their milestones, not bought as additional independent abilities.
+Class signatures are gained at their milestones, not bought as additional independent abilities.
 
 Declare a card before rolling. Roll 3d6 plus its one printed attribute with the
 normal Boon/Bane rules. No skill bonus, weapon damage die or extra attribute damage.

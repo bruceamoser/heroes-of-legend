@@ -346,10 +346,6 @@ parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
 parts.append(sp_reference())
 parts.append(coin_reference())
-p=BOOK/'manuscript/02b-talents.md';record(p,'talent-reference')
-parts.append('#pagebreak(weak:true)\n#heading(level:2)[Small talents]\n#metadata('+q(key(p))+')<'+key(p)+'>\n'+render(p.read_text().split('\n\n',1)[1],p)+'\n#v(7pt)\n')
-talent_ids=['another-tongue','message-by-heart','catch-that','a-party-piece','quick-exit','look-over-here']
-parts.append(flow([card(DESIGN/'cards'/f'{slug}.md') for slug in talent_ids]))
 parts.append(section('3','Ancestry, Culture and Background'))
 parts.append('#heading(level:2)[Ten peoples, side by side]\nThe ancestry roster shares one ground line here, so height and build can be compared. These are individual examples, not limits on appearance or personality.\n\n#illustration("ancestry-lineup",height:265pt)\n#text(size:10pt)[Left to right: Human, High Elf, Wood Elf, Hill Dwarf, Deep Dwarf, Halfling, Tallfolk, Gnome, Goblin and Oath-Bound.]\n#pagebreak(weak:true)\n')
 
@@ -431,10 +427,10 @@ for p in sorted((DESIGN/'characters').glob('*.md'),key=name):
  if p.name!='README.md':parts.append(doc(p,'character',wide=True,break_before=True))
 parts.append(manuscript('14-reference.md','14','Table References'))
 parts.append('#include "../sheets.typ"\n')
-for tier,title in [('Universal','Basic action index'),('Talent','Talent index'),('1','Level 1 signature index'),('3','Level 3 signature index'),('7','Level 7 signature index')]:
+for tier,title in [('Universal','Basic action index'),('1','Level 1 signature index'),('3','Level 3 signature index'),('7','Level 7 signature index')]:
  parts.append('#pagebreak(weak:true)\n#heading(level:2,'+q(title)+')\n')
  entries=[]
- for c in sorted((c for c in card_records if ((c['type'] not in ['Universal','Signature']) if tier=='Talent' else c['tier']==tier and (tier=='Universal' or c['type']=='Signature'))),key=lambda x:x['name'].casefold()):
+ for c in sorted((c for c in card_records if c['tier']==tier and (tier=='Universal' or c['type']=='Signature')),key=lambda x:x['name'].casefold()):
   entries.append('#block(breakable:false)[#set text(size:9pt)\n#grid(columns:(1fr,23pt),gutter:5pt,[#xref('+q(c['key'])+')[#strong[#text('+q(c['name'])+')]]#linebreak()#text(size:8pt)['+c['requirements']+']],align(right)[#pageref('+q(c['key'])+')])]\n')
  parts.append(flow(entries,gap='1.5pt'))
 (GEN/'body.typ').write_text(''.join(parts))
