@@ -31,8 +31,8 @@ Choose one ancestry and two of its five traits. Record the described characteris
 | Ancestry | HP per level | Starting SP | Base Speed | Coin contribution |
 |---|---:|---:|---:|---:|
 | Deep Dwarf | +2 | +1 | 5 | +2 |
-| Gnome | +1 | +3 | 6 | +0 |
-| Goblin | +1 | +1 | 6 | +1 |
+| Gnome | +1 | +3 | 5 | +0 |
+| Goblin | +1 | +1 | 5 | +1 |
 | Halfling | +1 | +1 | 5 | +3 |
 | High Elf | +2 | +2 | 6 | +1 |
 | Hill Dwarf | +3 | +0 | 5 | +2 |
