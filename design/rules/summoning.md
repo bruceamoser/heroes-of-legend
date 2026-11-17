@@ -121,6 +121,6 @@ The [creature procedure](../bestiary/procedure.md) and summon selection document
 the permitted command activities. Use the approved tether measurement above and
 the [moving-group placement rules](stability.md) where relevant. Use the entry itself, not a monster’s narrative tactics as a standing order. No activity, alerts or independent Reactions without the permitted command.
 
-**Latest agreement:** summons disappear when their controller becomes unconscious
+**When the controller falls:** summons disappear when their controller becomes unconscious
 or dies. Players roll their creatures’ printed attack and defense attributes;
 see [session resolution](session-resolution.md).

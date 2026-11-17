@@ -26,15 +26,11 @@
   creation, advancement, abilities, equipment, summoned companions and recovery.
   The companion Dungeon Architect’s Guide & Bestiary is included in the starter kit.
 
-  Cover artwork was created with AI assistance and approved by Bruce. Interior
-  illustrations and discipline symbols were generated to match the book’s visual style. The title and
-  rules remain editable type. This is a digital playtest edition. Print production requires separate bleed,
-  color and printer-specific preparation.
 ]
 #v(14pt)
 #text(size: 9pt)[Manuscript and layout prepared with Codex under Bruce’s direction.
-Starter Kit v#release.version · #release.date.
-Expanded ancestry edition.]
+Artwork created with AI assistance.
+Starter Kit v#release.version · #release.date.]
 #pagebreak()
 #outline(title: [Contents], depth: 1)
 #tail-art("journey")

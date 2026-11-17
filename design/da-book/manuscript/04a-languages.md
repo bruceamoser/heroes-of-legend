@@ -18,8 +18,8 @@ this campaign. A port where dragons trade openly might make Draconic ordinary;
 an isolated kingdom might have no living speakers of it. Explain that difference
 before someone spends a language grant.
 
-The starting baseline is Common plus one ordinary home language, with explicit
-extra grants added afterward. If your world uses a different baseline, agree on
+Heroes start with Common and an ordinary home language, then add any languages
+their choices grant. If your world uses different starting languages, agree on
 it before creation and preserve meaningful choices from language-granting traits.
 Do not invalidate a selected language merely because the first prepared adventure
 uses another one. Give its speakers, documents or contacts a place in the campaign.
@@ -109,10 +109,9 @@ uncommanded summon does nothing. Language never supplies free commands or extra 
 
 Honor permanent language grants already printed on a trait or ability. For another
 route to fluency, agree on its source and cost before the hero commits resources.
-The core catalog currently has no universal Language Study purchase or fixed
-training calendar. Do not disguise either as an existing rule. You can introduce
-a clearly described campaign option or grant, but distinguish it from a translation,
-a tutor's service or a temporary magical effect.
+If your campaign grants fluency through study, tell players what it takes and
+when to record the new language. A translation, a tutor's help or a temporary
+spell can make a language useful before a character learns it.
 
 Keep the reward visible. A letter understood, a name pronounced correctly or a
 conversation without an intermediary can show the benefit more clearly than an

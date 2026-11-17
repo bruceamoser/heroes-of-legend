@@ -88,7 +88,7 @@ Do not import automatic melee Boons or ranged Banes from another game's prone ru
 
 See [recovery](recovery.md) for HP and treatment and [foundations](foundations.md) for movement.
 
-## Action-category timing — latest agreement
+## When conditions affect actions
 
 Dazed and Grappled determine retained action categories at the start of the affected
 creature’s turn. Changes during the turn do not undo spent actions or recalculate

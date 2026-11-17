@@ -10,15 +10,13 @@ Your starting Development Points (DP) are **8 + Guile + Knowledge + Reason**, in
 
 ## Learning your paths
 
-A nonmagical discipline has four paths: north develops a Main Action, west a Maneuver, east a Reaction, and south a distinctive capability. Reactions can answer events in exploration, conversation and practical work as well as combat. Timed work retains its printed minutes or hours.
+Choose a path in a discipline you study and learn its entries in order. Pay each entry’s DP cost and meet its level requirement. Advanced entries become available at level 3 and mastery at level 7. Apply improvements together unless an entry replaces a previous value. You can study several paths.
 
-Each path has seven sequential purchases. Learn the base ability and two improvements first. At level 3, learn its major development and two further improvements; at level 7, its mastery becomes available. Prices are **1 / 2 / 2 / 3 / 4 / 4 / 5 DP**, totaling 21 for a complete path. Improvements add together unless a new value replaces an earlier total. The fourth entry has its own ability; the fifth and sixth improve that fourth entry. Mastery gives the path its strongest expression.
+In the discipline atlas, circles mark level-1 entries, triangles mark level-3 entries, and diamonds mark level-7 entries. Solid gold shows an entry you know. A gold border around green shows one you can learn now. Follow the lines to see what comes next.
 
-Circles mark beginning studies, triangles level-3 studies, and diamonds level-7 masteries. In the atlas, solid gold marks learned entries; a gold border around green marks something you can learn now. Follow each path's own line. You can develop several paths and combine their effects when their rules permit.
+Choose a spellbook in a magical discipline you study. Learn its sections in order and add the spells marked with that section number. Keep the spells you learn, and cast each for its printed SP cost. The first spell in each book costs 0 SP. In Spellcraft, Soul Capacity and Mind Capacity increase your maximum SP, Recovery restores spent SP, and Channeling lets you transfer SP.
 
-Magical disciplines gather four themed spellbooks. Each book follows the same seven steps, prices and level gates. Sections I–IV each teach two spells; sections V, VI and VII each teach one spell. The final spell is the book’s level-7 mastery. Each book’s first spell costs 0 SP to cast. Spellcraft offers Soul Capacity, Mind Capacity and Recovery training, plus the Channeling spellbook.
-
-Every hero retains the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
+Every hero can use the basic actions, including melee and ranged attacks, Aid, Stabilize and Sustain Spell.
 
 ## Signatures
 
@@ -54,4 +52,4 @@ The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP
 | 9 | 13 | HP growth; +2 maximum SP |
 | 10 | 14 | HP growth; +2 maximum SP |
 
-Record what you learned and the DP spent. The only later learning gates are levels 3 and 7; reaching a gate makes its studies available while their sequential requirements and prices still apply.
+Record what you learned and the DP you spent. At level 3 you can learn advanced entries, and at level 7 you can learn masteries. Follow each path’s order and pay the listed costs.

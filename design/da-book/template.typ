@@ -16,7 +16,7 @@
   v(4pt);line(length:100%,stroke:.5pt+gold)
  },footer:context {
   line(length:100%,stroke:.5pt+gold);v(4pt)
-  grid(columns:(1fr,auto),text(size:8pt)[Dungeon Architect’s Guide & Bestiary · Review Edition],text(font:"Cinzel",size:9pt,counter(page).display()))
+  grid(columns:(1fr,auto),text(size:8pt)[Dungeon Architect’s Guide & Bestiary · Playtest Edition],text(font:"Cinzel",size:9pt,counter(page).display()))
  })
  set heading(numbering:none)
  show heading.where(level:1): it=>block(above:0pt,below:12pt)[#text(font:"Cinzel",size:25pt,weight:"bold",fill:forest,it.body)#v(6pt)#line(length:100%,stroke:1pt+gold)]

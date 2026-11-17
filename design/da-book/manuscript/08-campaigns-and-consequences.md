@@ -32,9 +32,7 @@ The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP
 | 9 | 13 | HP growth; +2 maximum SP |
 | 10 | 14 | HP growth; +2 maximum SP |
 
-Record what you learned and the DP spent. The only later learning gates are levels 3 and 7; reaching a gate makes its studies available while their sequential requirements and prices still apply.
-
-An additional discipline costs the 1, 2 or 3 DP printed for the hero’s class. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence: the first three entries establish and improve a capability, the next three develop its level-3 ability, and the last grants mastery at level 7. Spellbooks follow the same seven-step costs and level gates. Sections I–IV each teach two spells; sections V, VI and VII each teach one increasingly powerful spell. Section VII is the book’s level-7 mastery. Each spellbook is a complete path, with 21 DP of learning after its discipline entry.
+Ask each player to record what they learned and the DP they spent. Their class lists what it costs to begin an additional discipline. When they reach levels 3 or 7, point them to the entries they can now learn. Check that earlier entries in the same path or book are already learned.
 
 Your SP reserve is separate from HP. Start with **2 base SP**. Add your ancestry’s SP contribution and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add any increases learned through Spellcraft’s Soul Capacity or Mind Capacity paths and other explicit SP benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 

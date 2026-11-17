@@ -179,6 +179,6 @@ or cumulative before rolling. Make crafting and treatment rolls individually.
 
 Safe overnight rest restores HP and SP; first aid uses one recipient allowance between rests. Scars are descriptive; Grit is gained once at levels 1/3/7 and never refreshes. At 0 HP heroes enter Dying; further damage causes an immediate Fortitude death roll. Weak adds a failure, Strong adds a success and Standard changes neither tally. Three failures kill unless Grit or an ability intervenes. Three successes stabilize at 0 HP. See [recovery](recovery.md) for the complete procedure.
 
-[Latest perception, timing and movement decisions](session-resolution.md) supersede
-earlier timing notes. [Full conditions](conditions.md), [scars](wounds.md), and
-[encounter calibration](encounters.md) complete the current working references.
+See [session resolution](session-resolution.md) for perception and timing,
+[conditions](conditions.md) and [scars](wounds.md) for their effects, and
+[encounters](encounters.md) to plan a fight.

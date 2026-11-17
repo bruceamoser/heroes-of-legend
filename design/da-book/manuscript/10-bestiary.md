@@ -5,7 +5,7 @@ boundary it will not abandon, a strange bargain, or an ally whose needs are unli
 your own. The same statistics can serve different individuals and places. Change
 their names and relationships freely while keeping their printed capabilities clear.
 
-This chapter contains all **192 creatures** in the current catalog. Families appear
+Look up creatures by family in this chapter. Families appear
 alphabetically, with variants together. An individual name index provides a direct
 route when you already know what you need. CV, habitat and role indexes help when
 you are searching for a suitable opponent or inhabitant.

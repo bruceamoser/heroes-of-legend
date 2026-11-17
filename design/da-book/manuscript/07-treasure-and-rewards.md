@@ -33,8 +33,8 @@ milestone levels.
 
 Decide who owns an object and why it is there. A tool chest in a workshop, a road
 toll in a guard's pouch, and a carefully wrapped recipe in a cook's kit all tell
-something about their owners. The party can find useful goods without every
-creature carrying a purse calibrated to its CV.
+something about their owners. Give creatures possessions that suit their work,
+their journey and what they have had time to collect.
 
 Creature loot entries offer starting material. Adjust an individual's possessions
 to the scene before play: a bandit who has collected no tolls should not carry the

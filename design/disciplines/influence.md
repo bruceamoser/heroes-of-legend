@@ -1,7 +1,7 @@
 # Influence
 Open a door, steady a friend or turn a room.
 
-Use social objectives: the DA decides credible approaches, attainable concessions and what completes an exchange. A roll changes progress, never another player’s decisions. Another roll requires a new fact, offer or changed circumstance. Brief appeals can fit a Main Action; negotiations take the time their conversation needs. A reaction answers an actual event, not an objection invented to farm progress.
+Use social objectives: the DA decides credible approaches, attainable concessions and what completes an exchange. A roll changes progress, never another player’s decisions. Another roll requires a new fact, offer or changed circumstance. Brief appeals can fit a Main Action; negotiations take the time their conversation needs. Use a Reaction when its stated trigger occurs during the exchange.
 
 ## Negotiation
 

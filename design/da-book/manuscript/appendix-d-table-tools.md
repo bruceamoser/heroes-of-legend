@@ -95,7 +95,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 
 ## Condition reference
 
-The full condition table follows in the assembled manuscript. A condition's
+See the condition table for the effects of each condition. A condition's
 number may mean severity, duration or both. Temporary numbered effects resolve
 at turn end, then decay by 1. An asterisk prevents automatic decay. Maintained
 Grappled and binary conditions use their own removal rules.
