@@ -1,5 +1,7 @@
 # Signature development plan — rewrite #299 / #301
 
+> Signature composition is superseded by [independent signature choices (#1354)](independent-signatures-1354.md). Earlier foundation bundling and line replacement are historical, not current rules.
+
 > Implementation update, November 16: the approved nonmagical costs are **1/2/2/3/4/4/5 DP** (21 total). Current canonical sources implement this rewrite; any earlier candidate below records design analysis.
 
 Design review, November 15, 2026. This is a concrete candidate design, not an approved catalog replacement. It changes no cards. Bruce's authorized direction is class-defining signatures with development at levels 3 and 7, while preserving one free signature choice at each of levels 1, 3 and 7. No DP is granted or charged by this plan.

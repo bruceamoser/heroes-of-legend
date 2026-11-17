@@ -22,15 +22,10 @@ Pay the listed price to begin studying another discipline. Then follow the costs
 
 ## Signature development
 
-Choose one signature at each of levels 1, 3 and 7. Each milestone grants one choice without spending DP. At level 3 or 7, deepen a signature you know or begin another line at that milestone. Each higher choice includes its line’s foundation. A level-7 choice includes its level-3 improvement only if you chose that improvement at level 3. Record one current version of each line, with its learned improvements together.
+Choose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.
 
-You may switch signatures under the ordinary retraining rules. Review dependent choices together so each resulting line reflects the milestones you selected. Your class determines these choices; this does not grant a second class.
+You may switch signatures under the ordinary retraining rules. Choose a replacement from your class’s options for the same milestone, then apply any interactions between the signatures you know.
 
-| Signature line | Level 1 | Level 3 | Level 7 |
-|---|---|---|---|
-| Follow My Signal | [Follow My Signal](../cards/signature-leader-follow-my-signal.md) | [Press the Opening](../cards/signature-leader-press-the-opening.md) | [Coordinated Rush](../cards/signature-leader-coordinated-rush.md) |
-| Lead the Way | [Lead the Way](../cards/signature-leader-lead-the-step.md) | [Lead by Example](../cards/signature-leader-orderly-withdrawal.md) | [Watch the Rear](../cards/signature-leader-watch-the-rear.md) |
-| Stand Together | [Stand Together](../cards/signature-leader-stand-together.md) | [Blow the Horn](../cards/signature-leader-hold-your-nerve.md) | [Refuse the Rout](../cards/signature-leader-refuse-the-rout.md) |
 
 ## Level 1 choices
 

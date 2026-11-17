@@ -1,6 +1,6 @@
 # Classes
 
-Choose a class whose attribute minimums you meet. It supplies one starting discipline, HP and SP contributions, prices for further disciplines, and signature choices at levels 1, 3 and 7. Each milestone offers one choice: develop a signature line or begin another.
+Choose a class whose attribute minimums you meet. It supplies one starting discipline, HP and SP contributions, prices for further disciplines, and signature choices at levels 1, 3 and 7. At each milestone, choose one of your class’s signatures for that level. Each has its own rules, including any extra benefit from another signature you know.
 
 - [Protector](classes/protector.md)
 - [Blade](classes/blade.md)

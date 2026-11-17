@@ -4,22 +4,6 @@
 
 ## Rules
 
-### Steady Aim
-
-**Action:** Maneuver · **Attribute:** None (no roll)
-
-**Target / range / shape:** Self; one visible creature.
-
-Aim at one visible creature. Until you move, you gain 1 Boon to all attacks you make against that creature and ignore partial cover from it.
-
-**Duration:** Until you move.
-
-**Equipment / acquisition:** A ranged weapon and ammunition.
-
-The benefit ends when you aim at another target or the scene ends. You must still perceive your target to attack it.
-
-### Volley
-
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** A 2 × 2 area within 10 squares.

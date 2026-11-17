@@ -4,31 +4,17 @@
 
 ## Rules
 
-### The Bargain
-
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible creature within 8 squares.
 
-**Magic:** Spell · **SP:** 0
+Cast a binding bolt for 2/3/5 force damage on Weak/Standard/Strong. Before rolling, you may choose to bind as well as wound: on Standard, reduce the damage by 1 and apply Slowed 1; on Strong, reduce the damage by 1 and apply Slowed 2. Weak deals its ordinary damage. Apply resistance and attack minimum normally; Slowed decays normally.
 
-Choose a patron or supernatural compact with the DA when learning this signature; your choices remain your own. Cast Pact Bolt for 2/3/5 force damage on Weak/Standard/Strong. Once per scene, before this roll, you may accept 1 Bane to defenses until the start of your next turn to gain 1 Boon on the bolt’s roll.
-
-**Duration:** Attack immediate; accepted defense penalty until your next turn.
+**Duration:** Attack immediate; Slowed uses ordinary decay.
 
 **Equipment / acquisition:** A free hand.
 
-### Pact’s Claim
-
-**Action:** Passive · **Attribute:** None
-
-**Target / range / shape:** Your Pact Bolt.
-
-Before rolling Pact Bolt, you may choose to bind as well as wound. On Standard reduce its damage by 1 and apply Slowed 1; on Strong reduce damage by 1 and apply Slowed 2. Weak deals the ordinary damage. Apply resistance and attack minimum normally; Slowed decays normally.
-
-**Duration:** The bolt and ordinary condition decay.
-
-**Equipment / acquisition:** None.
+This is a spell costing 0 SP. If you also know The Bargain, you may use its once-per-scene defense-Bane bargain on this bolt; that remains the same limited use.
 
 ---
 
