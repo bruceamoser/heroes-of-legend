@@ -107,4 +107,4 @@ Starting coins: **66** from the base 40 plus ancestry, culture, background and c
 
 **Spent 57 coins; 9 coins remaining.** Inventory Bulk 8/10.
 
-HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes ancestry, both origins, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.
+HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes a base of 2, ancestry, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.

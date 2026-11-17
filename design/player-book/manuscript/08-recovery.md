@@ -134,7 +134,7 @@ their source.
 
 ## Magical healing and spell points
 
-Your SP reserve is separate from HP. Add your ancestry’s SP contribution, **1 from culture**, **1 from background**, and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add learned capacity and explicit benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
+Your SP reserve is separate from HP. Start with **2 base SP**. Add your ancestry’s SP contribution and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add any increases learned through Spellcraft’s Soul Capacity or Mind Capacity paths and other explicit SP benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 
 Healing magic spends the caster's printed **SP cost before resolution**, whether
 used in battle or during quiet time. Keep a free hand and follow the spell's range. Cast as often as you have the

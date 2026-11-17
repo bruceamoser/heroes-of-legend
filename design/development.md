@@ -32,7 +32,7 @@ Gather the equipment your techniques use. A requirement tells you what to obtain
 
 Maximum HP is **10 + level x (ancestry HP contribution + class HP contribution) + Fortitude + fixed benefits**. Begin with full HP. Each later level adds ancestry + class contributions to maximum HP; Fortitude and fixed benefits apply once. When you have positive HP, add that level's HP gain to current HP too. At 0 HP, only maximum HP grows.
 
-Maximum SP is **ancestry SP + 1 culture + 1 background + twice your positive class-associated mental attribute + 2 x (level - 1) + learned capacity and explicit benefits**. A class attribute of 0 or less adds 0 SP. Use your chosen attribute for this contribution, not a temporary item bonus. Begin with your full reserve. Later maximum-SP gains enlarge capacity without restoring spent points. Safe overnight rest restores the reserve.
+Maximum SP is **2 base SP + ancestry SP + twice your positive class-associated mental attribute + 2 x (level - 1) + learned capacity and explicit benefits**. A class attribute of 0 or less adds 0 SP. Use your chosen attribute for this contribution, not a temporary item bonus. Begin with your full reserve. Later maximum-SP gains enlarge capacity without restoring spent points. Safe overnight rest restores the reserve.
 
 Capacity is 10 + 3 x Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility - encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Damage immunity removes its named damage before resistance.
 

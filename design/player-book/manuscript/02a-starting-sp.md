@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Your Spell Points combine your ancestry, origins, class and learned capacity. Calculate the reserve after making your creation choices, then begin with that many SP. Record learned spells alongside the reserve.
+Every hero starts with 2 base Spell Points. Add SP from your ancestry, class and any capacity or benefits you learned. Calculate the reserve after making your creation choices, then begin with that many SP. Record learned spells alongside the reserve.
 
 ## Maximum SP
 
-**Ancestry SP + 1 culture + 1 background + 2 x positive class attribute + 2 x (level - 1) + learned capacity and explicit benefits**
+**2 base SP + ancestry SP + 2 x positive class attribute + 2 x (level - 1) + learned capacity and explicit benefits**
 
 A class attribute of 0 or less contributes 0. Use the chosen attribute value rather than a temporary equipment bonus. Starting contributions are added once; only the +2 growth repeats each level.
 
@@ -42,15 +42,15 @@ A class attribute of 0 or less contributes 0. Use the chosen attribute value rat
 
 ## Learned capacity and recovery
 
-Soul Capacity and Mind Capacity both add to one reserve. Add each learned increase once; their entries give the exact gains. Recovery restores spent SP through its named rest activity. Channeling transfers existing SP between reserves. Learning a new entry or raising maximum SP after creation does not itself refill the reserve.
+Soul Capacity and Mind Capacity are paths in the Spellcraft discipline. Both increase the same reserve. Soul Capacity I and Mind Capacity I each add 2 maximum SP. Add each learned increase once, using the amount printed for that entry. Recovery restores spent SP through its named rest activity. Channeling transfers existing SP between reserves. Learning a new entry or raising maximum SP after creation does not itself refill the reserve.
 
 ## Growth and examples
 
-After level 1, add 2 maximum SP each level. A level-3 hero has 4 more maximum SP than their starting reserve; a level-7 hero has 12 more, before additional learned benefits.
+At each level after 1, increase your maximum SP by 2. Keep your current SP at its previous value. For example, a hero with 3 / 8 SP reaches level 2 with 3 / 10 SP. A safe overnight rest fills the new reserve. These gains add up to 4 more maximum SP at level 3 and 12 more at level 7, before additional learned benefits.
 
-**Hill Dwarf Protector, Reason +1:** 0 ancestry + 1 culture + 1 background + 2 class = **4 SP** at level 1. At level 3, the reserve is **8 SP** before learned capacity.
+**Hill Dwarf Protector, Reason +1:** 2 base + 0 ancestry + 2 class = **4 SP** at level 1. At level 3, the reserve is **8 SP** before learned capacity.
 
-**High Elf Arcanist, Knowledge +2:** 2 ancestry + 1 culture + 1 background + 4 class = **8 SP** at level 1. Learning Soul Capacity I adds 2, making **10 SP**. At level 7 with that same learning, the reserve is **22 SP**.
+**High Elf Arcanist, Knowledge +2:** 2 base + 2 ancestry + 4 class = **8 SP** at level 1. Learning Soul Capacity I adds 2, making **10 SP**. At level 7 with that same learning, the reserve is **22 SP**.
 
 ## Current and maximum SP
 

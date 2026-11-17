@@ -5,4 +5,4 @@ a gate, tended the wounded, traveled with performers or learned to survive by a 
 hand and a quicker smile. Choose something that gives you a memory, a connection and
 a reason to leave familiar ground.
 
-Choose one background, then begin studying one of its two disciplines. Choose a different discipline for each of culture, background and class. Record the background’s SP and coin contributions, then learn techniques or spells with your starting DP.
+Choose one background, then begin studying one of its two disciplines. Choose a different discipline for each of culture, background and class. Record the background’s coin contribution, then learn techniques or spells with your starting DP.
