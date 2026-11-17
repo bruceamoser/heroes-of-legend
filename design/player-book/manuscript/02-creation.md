@@ -70,19 +70,53 @@ You may change a signature selection. Check its dependent developments together 
 
 ## Equipment and starting numbers
 
-Gather the equipment your techniques use. A requirement tells you what to obtain; an entry that supplies an item says what you receive. A plain worn outfit is free. Spend **40 + ancestry + culture + background + class coin contributions** on weapons, armor, tools and supplies. Compatible abilities can share one weapon. Light, medium and heavy armor supply physical resistance 1, 2 and 3 respectively when you have the relevant training.
+Gather the equipment your techniques use. The entry tells you what you need and what it supplies. A plain worn outfit is free. Compatible abilities can share one weapon.
 
-Maximum HP is **10 + level x (ancestry HP contribution + class HP contribution) + Fortitude + fixed benefits**. Begin with full HP. Each later level adds ancestry + class contributions to maximum HP; Fortitude and fixed benefits apply once. When you have positive HP, add that level's HP gain to current HP too. At 0 HP, only maximum HP grows.
+> **Starting coins**\
+> 40 + ancestry + culture + background + class coin contributions
 
-Maximum SP is **ancestry SP + 1 culture + 1 background + twice your positive class-associated mental attribute + 2 x (level - 1) + learned capacity and explicit benefits**. A class attribute of 0 or less adds 0 SP. Use your chosen attribute for this contribution, not a temporary item bonus. Begin with your full reserve. Later maximum-SP gains enlarge capacity without restoring spent points. Safe overnight rest restores the reserve.
+Spend these coins on weapons, armor, tools and supplies. With the appropriate training, light, medium and heavy armor grant physical resistance 1, 2 and 3 respectively.
 
-Capacity is 10 + 3 x Brawn. Every Bulk above capacity reduces Speed by 1. Speed is ancestry base + Agility - encumbrance, minimum 0. Stability starts at 0; use the highest explicit source, maximum 3. Matching resistance uses the highest value, maximum 3. Damage immunity removes its named damage before resistance.
+> **Maximum HP**\
+> 10 + level × (ancestry HP + class HP) + Fortitude + fixed benefits
 
-Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used once and is gone permanently. Using Grit restores you to half maximum HP, rounded up. Record current HP/SP, first-aid availability, death tallies and scars separately. See [recovery](../../rules/recovery.md).
+Begin with full HP. Count Fortitude and fixed benefits once.
+
+> **Maximum SP**\
+> 2 base SP + ancestry SP + twice your positive class mental attribute + 2 × (level − 1) + learned capacity and explicit benefits
+
+Every hero starts with 2 base SP. Add twice your chosen class mental attribute if it is positive. Learned capacity comes from Spellcraft. Soul Capacity I and Mind Capacity I each add 2 to the same reserve if learned. Begin with full SP. See [Starting SP](02a-starting-sp.md) for the class attributes and examples.
+
+> **Capacity**\
+> 10 + 3 × Brawn
+
+> **Speed**\
+> Ancestry base Speed + Agility + applicable trait bonuses − 1 per Bulk above Capacity. Minimum 0.
+
+> **Stability and resistance**\
+> Stability starts at 0. Use the highest explicit source of Stability and the highest matching resistance. Each has a maximum of 3. Apply damage immunity before resistance.
+
+> **Grit**\
+> Gain 1 Grit at levels 1, 3 and 7. Spend each point once. When you spend Grit, return to half maximum HP, rounded up.
+
+Record current HP and SP, first-aid availability, death tallies and scars separately. See [recovery](../../rules/recovery.md).
 
 ## Advancement
 
-The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
+The DA awards milestone levels. Apply these gains each time you reach a new level after level 1.
+
+> **DP gained**\
+> 4 + your new level, plus explicit trait benefits.
+
+Save the points or spend them when the DA judges you are somewhere safe.
+
+> **HP gained**\
+> Add your ancestry HP + class HP to maximum HP. If you have positive HP, add the same amount to current HP. At 0 HP, increase only your maximum.
+
+> **SP at a new level**\
+> Add 2 to **maximum SP**. Keep your **current SP** at its previous value. If you have **3 / 8 SP** before reaching level 2, you have **3 / 10 SP** afterward. A safe overnight rest fills your reserve to **10 / 10 SP**.
+
+Neither a level gain nor a signature change refreshes spent Grit.
 
 | New level | DP gained | Other development |
 |---|---:|---|

@@ -51,7 +51,7 @@ for p in (R/'origins').glob('*.md'):
  if len(choices)!=2 or len(set(choices))!=2:errors.append(f'{p.name}: expected two distinct discipline choices')
  for discipline in choices:
   if not (R/'disciplines'/f'{discipline.lower()}.md').exists():errors.append(f'{p.name}: unknown discipline {discipline}')
- if field(s,'Starting SP contribution')!='+1 maximum SP.':errors.append(f'{p.name}: starting SP contribution')
+ if 'Starting SP contribution' in s:errors.append(f'{p.name}: origins use the shared 2 base SP')
 for p in (R/'paths').glob('*.md'):
  if 'replaced by sequential learning' not in p.read_text():errors.append(f'{p.name}: unmigrated suggested path')
 subprocess.run([sys.executable,str(R/'player-book/nonmagical/build.py'),'--data-only'],check=True)

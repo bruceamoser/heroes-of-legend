@@ -36,7 +36,7 @@ Record what you learned and the DP spent. The only later learning gates are leve
 
 An additional discipline costs the 1, 2 or 3 DP printed for the hero’s class. Nonmagical paths cost 1/2/2/3/4/4/5 DP in sequence: the first three entries establish and improve a capability, the next three develop its level-3 ability, and the last grants mastery at level 7. Spellbooks follow the same seven-step costs and level gates. Sections I–IV each teach two spells; sections V, VI and VII each teach one increasingly powerful spell. Section VII is the book’s level-7 mastery. Each spellbook is a complete path, with 21 DP of learning after its discipline entry.
 
-Your SP reserve is separate from HP. Add your ancestry’s SP contribution, **1 from culture**, **1 from background**, and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add learned capacity and explicit benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
+Your SP reserve is separate from HP. Start with **2 base SP**. Add your ancestry’s SP contribution and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add any increases learned through Spellcraft’s Soul Capacity or Mind Capacity paths and other explicit SP benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 
 ## Safe places and downtime
 
