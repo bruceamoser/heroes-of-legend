@@ -2,6 +2,12 @@
 
 *You make the hard choices in the space between one stroke and the next.*
 
+When a duel spills out of the inn, everyone watches the swords. You notice the wet cobbles, the hitch in one fighter’s step, and the loose shutter that will block the archer’s view in a heartbeat. There is your opening.
+
+A Blade is the company’s practiced weapon fighter. You shine when timing and position decide who can press the attack. One Blade rushes across open ground with Reckless Charge. Another waits behind Measured Guard. A third learns Cleave and goes looking for the moment two opponents stand too close. A bow and a patient eye can define a Blade just as readily as a rapier.
+
+Perhaps you love sparring with someone who makes you change your habits, or hate the swagger of people who draw steel for an audience. Who put a weapon in your hand, and what did they teach you about when to leave it sheathed?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Agility, Brawn. **HP contribution:** +2 at level 1 and per level thereafter.

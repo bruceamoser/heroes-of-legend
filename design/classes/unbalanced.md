@@ -2,6 +2,12 @@
 
 *You meet the obstacle with everything you are, and let it discover whether that is enough.*
 
+The barricade has started to give. You hear the beam crack and know there is time for exactly one decision. The others can follow through if you make a gap wide enough.
+
+An Unbalanced brings force to the point where it will matter most. In a crowded fight you can break up the knot around a companion. At a contested passage you can give the company a way through before the chance passes. Go Berserk calls up the fury to stay in a fight. Charge suits the runner who sees a lane through the confusion. Grab and Hurl lets you turn a struggle over footing into an abrupt change of position.
+
+The force you bring can come from anger, joy, or a lifetime of knowing what your body can do. You might enjoy a fair contest and hate seeing strength used to humiliate someone. Who can talk you down when the fight is over?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Brawn, Fortitude. **HP contribution:** +3 at level 1 and per level thereafter.

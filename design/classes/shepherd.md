@@ -2,6 +2,12 @@
 
 *You listen for the wavering voice and help it find its way back to the others.*
 
+At the end of a bad crossing, one traveler insists they can keep walking. You notice their hands won’t close around the cup. You find somewhere dry to sit and give them time to tell you what happened.
+
+A Shepherd keeps people on their feet and helps them through trouble they cannot face alone. A punishing journey or a fight that leaves someone frightened and hurt gives you plenty to do. Mend makes care an immediate part of danger. Steady Voice suits a Shepherd who can reach a frightened companion through the noise. With Borrowed Shape, you might understand how different a familiar path feels on four feet.
+
+You might love the quiet after a fever breaks, or resent the idea that the slowest traveler should be left behind. Your care may come from faith, a trade, a promise, or long practice. Who cared for you when you could give them nothing in return?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Reason, Guile. **HP contribution:** +2 at level 1 and per level thereafter.

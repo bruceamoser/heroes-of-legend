@@ -2,6 +2,12 @@
 
 *You have never fit the expected answer, and have learned to make that useful.*
 
+A stranger at the ferry calls out in a language nobody in the company knows. You recognize the voice of the spirit at your shoulder. There is just enough time to decide whether to invite it in.
+
+An Odd brings possibilities the company might never think to ask for. When the company reaches for a crowbar, you may be the one who asks whether the door has a name. Borrowed Tongue can turn a stranger’s warning into a conversation. Use Their Voice draws an enemy’s eye away from a companion. The Bargain suits an Odd whose power comes with a relationship worth playing out at the table.
+
+You might collect the names of forgotten things, prefer a door with a story to one with a lock, or be the most practical person in a room full of omens. What makes the uncanny feel ordinary to you? What bargain would you walk away from, even if nobody understood why?
+
 ## Rules
 
 **Attributes:** No attribute minimums. **HP contribution:** +2 at level 1 and per level thereafter.

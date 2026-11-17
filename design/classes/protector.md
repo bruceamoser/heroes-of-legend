@@ -2,6 +2,12 @@
 
 *You see who needs shelter and step into the space between them and harm.*
 
+The door shakes in its frame. Behind you, the apothecary is trying to get two frightened children out a window. You brace the latch with your shoulder and ask, very calmly, how much longer they need.
+
+A Protector makes a company brave enough to take risks. You read a room for the person in danger and a battlefield for the ground you can actually hold. Step Between suits the guardian who stays within reach of their companions. Healing Hands carries that care past the moment of injury. An oathkeeper might choose Oathstrike and make an enemy answer for hurting someone they swore to defend.
+
+You might take pleasure in a good watch roster, a repaired strap, or the moment someone trusts you enough to rest. What would make you lower your shield? Who taught you that asking for help can be part of keeping people safe?
+
 ## Rules
 
 **Attributes:** Minimum 0 in Fortitude, Reason. **HP contribution:** +3 at level 1 and per level thereafter.
