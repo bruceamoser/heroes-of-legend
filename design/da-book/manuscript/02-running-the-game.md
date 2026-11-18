@@ -220,6 +220,6 @@ merely to count safe, uncontested extinguishing actions. A curse or
 persistent condition remains until its own remedy applies.
 
 A pause does not restore HP. Offer First Aid when supplies and ten minutes are
-available, or safe overnight rest when the situation permits it. Preserve Grit expenditure,
+available, or a Night’s Rest when the situation permits it. A Brief Rest supports First Aid and learned recovery at their printed times. Preserve Grit expenditure,
 scars and other continuing effects. Ask what they do with the scene they have
 changed: whom they help, what they search, and whether they stay or leave.

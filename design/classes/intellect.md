@@ -14,7 +14,7 @@ You might like a workbench with room for somebody else’s tools, or dislike an 
 
 **Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
-**Starting disciplines:** Choose one of Scholarship, Craft, Mentalism, Divination. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
+**Starting disciplines:** Choose one of Scholarship, Craft, Tactics, Divination. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
 **Learning costs:** **1 DP:** Craft, Scholarship. **2 DP:** Medicine, Mentalism, Divination, Force, Spellcraft, Tactics. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Influence, Elements, Life, Invocation, Wards, Fencing.
 

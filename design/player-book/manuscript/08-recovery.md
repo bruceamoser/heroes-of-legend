@@ -99,7 +99,13 @@ cannot require a treatment track or remove a body part. Its emotional meaning
 belongs to the player. Treatment and healing restore capability without erasing
 history. See [Scars and Survival](../../rules/wounds.md) for prompts.
 
-## Safe overnight rest
+## Brief Rest
+
+During a Brief Rest, use First Aid or a learned recovery ability when you have the time, safety, and supplies it calls for. Apply the recovery described by each activity. Spellcraft Recovery gives its printed SP after the listed period of quiet.
+
+## Night’s Rest
+
+A Night’s Rest is the safe overnight rest referred to by abilities and spells.
 
 After **eight hours in a place the DA judges safe**, with food, water and adequate
 shelter, restore full HP and SP and renew your first-aid allowance. Include at least
@@ -112,9 +118,7 @@ uninterrupted period afterward. Brief waking, conversation and routine watch do
 not. The DA explains what makes a campsite unsafe before the group commits to it.
 A stabilized hero can recover this way; a Dying hero must first be stabilized.
 
-During a shorter pause, you can treat injuries or use a learned recovery
-ability when you meet its requirements. Grit stays spent, scars remain and
-lasting conditions follow their own remedies.
+Grit stays spent, scars remain and lasting conditions follow their own remedies.
 
 ## First aid and treatment
 

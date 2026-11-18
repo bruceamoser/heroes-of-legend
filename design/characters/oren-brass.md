@@ -96,7 +96,7 @@ Starting coins: **66** from the base 40 plus ancestry, culture, background and c
 
 | Item | Coins | Bulk | Ready |
 |---|---:|---:|---|
-| [Craft Tools](../equipment/craft-tools.md) | 15 | 1 | Carried |
+| [Craft Tools](../equipment/craft-tools.md) | Free | 1 | Carried |
 | [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | Held |
 | [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
 | [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
@@ -104,7 +104,8 @@ Starting coins: **66** from the base 40 plus ancestry, culture, background and c
 | [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
 | [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | Carried |
 | [Writing Kit](../equipment/writing-kit.md) | 6 | 1 | Carried |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | Carried |
 
-**Spent 57 coins; 9 coins remaining.** Inventory Bulk 8/10.
+**Spent 62 coins; 4 coins remaining.** Inventory Bulk 9/10.
 
-HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes a base of 2, ancestry, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.
+HP includes ancestry, class, Fortitude and chosen trait benefits. At level 1, SP includes 2 from level, ancestry SP, twice the positive class mental attribute, and any Soul Capacity or Mind Capacity benefits from Spellcraft. Record current resources separately from their maximums.

@@ -14,7 +14,7 @@ You might enjoy watching someone you trained take charge. Perhaps you dislike pl
 
 **Starting SP contribution:** Twice your positive Guile at creation: 2 × max(0, Guile).
 
-**Starting disciplines:** Choose one of Influence, Guard, Arms, Scholarship. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
+**Starting disciplines:** Choose one of Influence, Guard, Arms, Tactics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
 **Learning costs:** **1 DP:** Guard, Influence, Tactics. **2 DP:** Arms, Scholarship, Mentalism, Wards, Fencing. **3 DP:** Armor, Marksmanship, Athletics, Subterfuge, Wilderness, Medicine, Craft, Elements, Life, Divination, Invocation, Force, Spellcraft.
 

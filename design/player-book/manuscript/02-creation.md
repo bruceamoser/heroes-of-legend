@@ -66,12 +66,12 @@ You may change a signature selection. Choose a replacement from the same milesto
 
 ## Equipment and starting numbers
 
-Gather the equipment your techniques use. The entry tells you what you need and what it supplies. A plain worn outfit is free. Compatible abilities can share one weapon.
+Take the ordinary weapons, ammunition, armor, instrument, and other ordinary gear your learned abilities require, free of charge. One compatible item serves every ability that can use it. A plain worn outfit is free.
 
 > **Starting coins**\
 > 40 + ancestry + culture + background + class coin contributions
 
-Spend these coins on weapons, armor, tools and supplies. With the appropriate training, light, medium and heavy armor grant physical resistance 1, 2 and 3 respectively.
+Begin with a Food Bundle, Water Flask, Lighting Bundle, and Lesser Healing Bottle. Pay their listed prices from your starting coins. Return any you do not want before completing creation and recover its full cost. After creation, use the ordinary sale and trade rules. Spend any remaining coins on other gear.
 
 > **Maximum HP**\
 > 10 + level × (ancestry HP + class HP) + Fortitude + fixed benefits

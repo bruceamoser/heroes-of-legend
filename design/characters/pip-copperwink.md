@@ -78,7 +78,7 @@ This is the one free signature choice for level 1.
 
 ## At the table
 
-Use Measured Cut II as your Main Action and Driving Opening as your Maneuver. Fade Behind is an alternative Maneuver for escape and concealment. Catch Your Balance is a situational Reaction; a held dagger also permits the universal Opportunity Attack. Patient Hand II works with the purchased lock tools. Keep the other hand free for locks and climbing.
+Use Measured Cut II as your Main Action and Driving Opening as your Maneuver. Fade Behind is an alternative Maneuver for escape and concealment. Catch Your Balance is a situational Reaction; a held dagger also permits the universal Opportunity Attack. Patient Hand II works with the lock tools supplied by Patient Hand. Keep the other hand free for locks and climbing.
 
 All universal actions remain available. An improvement changes its named technique; keep its benefits together on the sheet. First aid starts available, with no death marks or scars.
 
@@ -88,14 +88,15 @@ Starting coins: **63** from the base 40 plus ancestry, culture, background and c
 
 | Item | Coins | Bulk | Ready |
 |---|---:|---:|---|
-| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | 12 | 1 | Held |
-| [Lock Tools](../equipment/lock-tools.md) | 20 | 1 | Carried |
+| [Ordinary Melee Weapon](../equipment/ordinary-melee-weapon.md) | Free | 1 | Held |
+| [Lock Tools](../equipment/lock-tools.md) | Free | 1 | Carried |
 | [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | Carried |
 | [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | Carried |
 | [Water Flask](../equipment/water-flask.md) | 3 | 1 | Carried |
 | [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | Carried |
 | [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | Carried |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | Carried |
 
-**Spent 56 coins; 7 coins remaining.** Inventory Bulk 7/10.
+**Spent 44 coins; 19 coins remaining.** Inventory Bulk 8/10.
 
-HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes a base of 2, ancestry, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.
+HP includes ancestry, class, Fortitude and chosen trait benefits. At level 1, SP includes 2 from level, ancestry SP, twice the positive class mental attribute, and any Soul Capacity or Mind Capacity benefits from Spellcraft. Record current resources separately from their maximums.

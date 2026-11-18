@@ -31,7 +31,8 @@ lists the actions any hero can use.
 | Maximum SP, level 1+ | 2 × level + ancestry SP + 2 × positive class mental attribute + Spellcraft bonuses + other SP bonuses |
 | Healing spell cost | Printed spell cost; pay before resolving |
 | Potion | Spend a Maneuver with a free hand. An unconscious or restrained recipient counts as willing. Another recipient spends a Reaction if conscious and above 0 HP. |
-| Safe overnight rest | Eight hours; full HP and SP; renew first aid; once per 24 hours |
+| Brief Rest | Use First Aid or learned recovery at its printed time and limits |
+| Night’s Rest | Eight safe hours, full HP and SP, renew first aid once per 24 hours |
 | First Aid | Ten minutes + supplies; Knowledge heals 2/4/6; one attempt per recipient between rests |
 | Supplies | Roll inventory die after use; on 1, step down; last use works |
 

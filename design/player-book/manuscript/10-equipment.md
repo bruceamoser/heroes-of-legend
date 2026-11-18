@@ -7,7 +7,7 @@ which hand will reach your potion when the fight goes badly.
 ## Coins and trade
 
 HOL uses one currency: **coins**. A listed price buys the described ordinary item or
-full supply. Choose armor that matches the training you’ve learned.
+full supply. When you learn an ability that requires ordinary gear, receive a compatible item free of charge. Share it between abilities that use the same equipment. Each hero begins with paid food, water, lighting, and one lesser healing potion. Return unwanted provisions for their full price during creation.
 
 Useful intact gear sells for **half its listed value**, rounded down, or trades at
 **full value** with a willing trader. A 12-coin weapon sells for 6 or trades for
@@ -16,7 +16,7 @@ A merchant does not have unlimited stock or an obligation to buy everything you 
 
 ## Armor and training
 
-Choose a suit of armor to match your training and acquire it with your other equipment. Its resistance applies only while worn and with the matching learned training.
+Light, medium, and heavy armor grant physical resistance 1, 2, and 3 while worn. If you lack the matching learned training, subtract the armor’s resistance rating from effective Agility. Use the highest applicable armor resistance and the largest Agility penalty from untrained worn armor. Recalculate Speed from effective Agility.
 
 | Training | Requirement | DP | Physical resistance |
 |---|---|---:|---:|
@@ -25,6 +25,12 @@ Choose a suit of armor to match your training and acquire it with your other equ
 | Heavy Armor I | Light Armor III; level 3 | 3 | Heavy: 3 |
 
 The Harness path develops armor training in order. Light Armor II costs 2 DP and improves your footing before Light Armor III teaches medium armor. Heavy armor begins at level 3. Each later training includes the armor categories you already know. Use the highest applicable resistance. Attacks deal at least 1 damage after resistance if any damaging component survives immunity.
+
+## Weapon training
+
+Learn a technique that uses melee weapons, ranged weapons, thrown weapons, or unarmed attacks to train in that family. An entry that only mentions a weapon in passing grants no training. If you make a basic attack with a family you have not trained in, deal 1/1/2 physical damage on Weak, Standard, or Strong. Use the basic action’s printed damage when you have trained in its family. Apply resistance and damage immunity as usual.
+
+Choose compatible ammunition for each ranged weapon. Check that supply after firing.
 
 ## Bulk and hands
 

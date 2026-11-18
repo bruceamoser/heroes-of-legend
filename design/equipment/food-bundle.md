@@ -7,7 +7,7 @@
 - **ID:** item-food-bundle
 - **Bulk:** 1
 - **Requirements / supply:** Inventory d8
-- **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
+- **Acquisition:** Included among your paid starting provisions. Also available with coins, through a printed ability grant, or as treasure.
 
 One supply check per person-day consumed. No exhaustion subsystem is implied.
 

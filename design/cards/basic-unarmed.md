@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One adjacent creature
 
-Choose your target and make the attack.
+Choose your target and make the attack. Use the printed outcomes if you have learned a technique that uses unarmed attacks. Without that training, deal 1/1/2 physical damage.
 
 - **Weak:** 1 physical damage.
 - **Standard:** 2 physical damage.

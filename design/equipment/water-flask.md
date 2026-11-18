@@ -8,7 +8,7 @@
 
 **Market price:** 3 coins. **Bulk:** 1.
 
-Includes a filled reusable container and one person-day of drinking water. Count days when water matters; refill freely from an accessible safe source. No inventory die for water . Empty container remains Bulk 1; no exhaustion or dehydration subsystem is added.
+Includes a filled reusable container and one person-day of drinking water. Mark the water spent after one person-day of drinking. Refill the flask freely from an accessible safe source. Use the day count in place of a supply die. The empty flask still has Bulk 1.
 
 Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.
 
