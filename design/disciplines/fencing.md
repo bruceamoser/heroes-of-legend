@@ -7,7 +7,7 @@ Fencing requires a one-handed melee weapon suited to precise cuts or thrusts, su
 
 ### Direct Thrust I
 DP: 1 | Level: 1
-Main Action · Agility. Attack one adjacent creature for 1/2/4 physical damage. On Standard or Strong, you may move 1 square after the attack.
+Main Action · Agility. Attack one adjacent creature for 1/2/4 physical damage. On Standard or Strong, you may move 1 square after the attack without triggering movement reactions.
 
 ### Direct Thrust II
 DP: 2 | Level: 1
@@ -15,7 +15,7 @@ Direct Thrust deals 2/3/5 physical damage.
 
 ### Direct Thrust III
 DP: 2 | Level: 1
-The movement from Direct Thrust avoids movement reactions.
+On Strong, Direct Thrust lets you move up to 2 squares.
 
 ### Broken Tempo I
 DP: 3 | Level: 3
