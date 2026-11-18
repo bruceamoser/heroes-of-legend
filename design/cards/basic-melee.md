@@ -8,7 +8,7 @@
 
 **Target / range / shape:** One adjacent creature
 
-Choose your target and make the attack.
+Choose your target and make the attack. Use the printed outcomes if you have learned a technique that uses melee weapons. Without that training, deal 1/1/2 physical damage.
 
 - **Weak:** 2 physical damage.
 - **Standard:** 3 physical damage.

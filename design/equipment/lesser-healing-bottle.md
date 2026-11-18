@@ -7,7 +7,7 @@
 - **ID:** item-lesser-healing-bottle
 - **Bulk:** 1
 - **Requirements / supply:** Inventory d4
-- **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
+- **Acquisition:** Included among your paid starting provisions. Also available with coins, through a printed ability grant, or as treasure.
 
 Use [Use a Healing Potion](../cards/use-a-healing-potion.md): restore 6 HP before Life resistance, capped by missing HP. Use the action’s requirements for a free hand, a willing recipient, and any Reaction. Check the bottle’s inventory die after use; the final use still works.
 

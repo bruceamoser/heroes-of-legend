@@ -1,7 +1,6 @@
 # Equipment
 
-Follow the printed acquisition and requirements; a recipe
-is knowledge, not a free finished item.
+When a learned ability requires ordinary equipment, take a compatible item for free. The same item can serve more than one ability. Follow the printed prices and requirements for other equipment and recipes.
 
 - [Ammunition Bundle](equipment/ammunition-bundle.md)
 - [Book of Quiet Doors](equipment/book-of-quiet-doors.md)

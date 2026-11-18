@@ -14,7 +14,7 @@ Perhaps you love sparring with someone who makes you change your habits, or hate
 
 **Starting SP contribution:** Twice your positive Reason at creation: 2 × max(0, Reason).
 
-**Starting disciplines:** Choose one of Arms, Marksmanship, Athletics, Subterfuge. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
+**Starting disciplines:** Choose one of Arms, Fencing, Athletics, Subterfuge. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
 **Learning costs:** **1 DP:** Arms, Marksmanship, Fencing. **2 DP:** Athletics, Subterfuge, Tactics. **3 DP:** Armor, Guard, Wilderness, Medicine, Craft, Scholarship, Influence, Elements, Life, Mentalism, Divination, Invocation, Force, Wards, Spellcraft.
 

@@ -10,9 +10,9 @@
 - **Physical resistance when worn:** 3
 - **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
 
-Choose the suit’s appearance. Its physical resistance is 3 while worn with the matching training; use the highest applicable resistance.
+Choose the suit’s appearance. It grants physical resistance 3 while worn. Without the matching learned training, subtract 3 from effective Agility. Use the highest armor resistance and the largest applicable untrained armor penalty.
 
-Buy the suit with coins and learn its training with DP.
+Receive an ordinary suit when you learn a technique that requires this armor category. You can also buy a suit with coins.
 
 [Equipment index](../equipment.md)
 

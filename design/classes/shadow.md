@@ -14,7 +14,7 @@ You might love a crowded festival or the privacy of a roof above an empty street
 
 **Starting SP contribution:** Twice your positive Guile at creation: 2 × max(0, Guile).
 
-**Starting disciplines:** Choose one of Subterfuge, Marksmanship, Mentalism, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
+**Starting disciplines:** Choose one of Subterfuge, Marksmanship, Fencing, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
 **Learning costs:** **1 DP:** Marksmanship, Subterfuge. **2 DP:** Athletics, Mentalism, Divination, Fencing. **3 DP:** Arms, Armor, Guard, Wilderness, Medicine, Craft, Scholarship, Influence, Elements, Life, Invocation, Force, Wards, Spellcraft, Tactics.
 
