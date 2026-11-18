@@ -58,6 +58,8 @@
  grid(columns:(1fr,1fr),gutter:16pt,[#for it in items.slice(0,best) {block(below:2pt,it)}],[#for it in items.slice(best) {block(below:2pt,it)}])
 }
 #let reading-columns(items)=context {
+ // Keep this context at the call site when its first grid needs a new page.
+ block(height:0pt,above:0pt,below:0pt)[#metadata(none)]
  let w=255pt
  let blocks=items.map(it=>block(above:0pt,below:5pt,it))
  let heights=blocks.map(it=>measure(block(width:w,it)).height+5pt)
