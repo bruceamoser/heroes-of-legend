@@ -62,7 +62,11 @@ for shared in ['vision.md','ancestry-procedures.md','objectives.md']:
  for paragraph in re.split(r'\n\s*\n',(D/'rules'/shared).read_text()):
   if paragraph.startswith(('#','|')):continue
   if shared_norm(paragraph) not in shared_norm(plain):errors.append('Shared rule text missing: '+shared+' '+paragraph[:50])
-refs={p.indirect_reference.idnum for p in r.pages};nlinks=0
+page_refs={p.indirect_reference.idnum:n for n,p in enumerate(r.pages,1)}
+named_destinations=r.named_destinations
+nlinks=0
+invalid_links=[]
+cover_links=[]
 for n,page in enumerate(r.pages,1):
  for ref in page.get('/Annots',[]):
   a=ref.get_object()
@@ -71,9 +75,19 @@ for n,page in enumerate(r.pages,1):
   if dest is None and a.get('/A'):
    action=a['/A'].get_object()
    if action.get('/S')=='/GoTo':dest=action.get('/D')
-  if isinstance(dest,list) and dest:
-   target=dest[0]
-   if hasattr(target,'idnum') and target.idnum not in refs:errors.append(f'Invalid link page {n}')
+  if dest is None:continue
+  dest=dest.get_object()
+  if isinstance(dest,str):
+   named=named_destinations.get(dest)
+   page_ref=named.page if named else None
+  else:
+   page_ref=dest[0] if isinstance(dest,list) and dest else None
+  target=page_refs.get(getattr(page_ref,'idnum',None))
+  if target is None:invalid_links.append(n)
+  # Typst can emit the cover as a fallback when layout queries fail to converge.
+  elif target==1:cover_links.append(n)
+if invalid_links:errors.append(f'{len(invalid_links)} unresolved internal links, first on page {invalid_links[0]}')
+if cover_links:errors.append(f'{len(cover_links)} internal links incorrectly point to the cover, first on page {cover_links[0]}')
 xml=B/'output/bounds.xhtml'
 subprocess.run(['pdftotext','-bbox',str(pdf),str(xml)],check=True)
 root=ET.parse(xml).getroot();ns={'h':'http://www.w3.org/1999/xhtml'}
