@@ -44,7 +44,7 @@ def verify(book=ROOT,check_markdown=True):
    origin=(d/'origins'/f"{q[key]['id'][7:]}.md").read_text();choices=re.search(r'Discipline choices:\*\* (.+)\.',origin)[1].split(', ');ds.append(slug(choices[q[key]['pair']]));coins+=int(re.search(r'Starting coin contribution:\*\* \+(\d+)',origin)[1])
   allowed=[slug(v) for v in re.search(r'Choose one of ([^.]+)',cls)[1].split(', ')];need(len(q['classDisciplines'])==1 and q['classDisciplines'][0] in allowed,who+': class discipline');ds+=q['classDisciplines'];need(len(set(ds))==3,who+': three distinct disciplines')
   sig=q['signatureId'][8:];need(f'({"../cards/"+sig+".md"})' in cls.split('## Level 1 choices')[1].split('## Level 3 choices')[0],who+': signature')
-  pool=8+sum(a[k] for k in ['guile','knowledge','reason'])+int('trait-human-far-walker' in q['traitIds']);left=pool;owned=set();ledger=[]
+  pool=10+sum(a[k] for k in ['guile','knowledge','reason'])+int('trait-human-far-walker' in q['traitIds']);left=pool;owned=set();ledger=[]
   need(not q['purchases']['0'],who+': one creation pool')
   for purchase in q['purchases']['1']:
    ident=purchase['id'];need(ident in entries,who+': known purchase '+ident);e=entries[ident];need(ident not in owned and e['discipline'] in ds and e['level']<=1 and (not e['previous'] or e['previous'] in owned),who+': legal purchase '+ident);left-=e['cost'];need(left>=0,who+': affordable '+ident);owned.add(ident);ledger.append((ident,left))

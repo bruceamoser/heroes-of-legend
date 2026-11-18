@@ -67,7 +67,7 @@ Maneuver. Once per scene, after moving at least 2 squares, leap up to 5 squares 
 
 ### Catch Your Balance I
 DP: 1 | Level: 1
-Reaction. When you would fall Prone, remain standing instead. You must be conscious and able to move. No roll.
+Reaction. When you would fall Prone and can move, remain standing instead. No roll.
 
 ### Catch Your Balance II
 DP: 2 | Level: 1
@@ -79,7 +79,7 @@ After Catch Your Balance, you may move 1 square to a safe unoccupied surface wit
 
 ### Catch Them Falling I
 DP: 3 | Level: 3
-Reaction. Catch one adjacent falling creature no larger than you. With secure footing and a free hand, bring it into a free adjacent square. Otherwise, if a reachable hold supports both of you, you both hang there. Without a suitable hold this intervention is unavailable. No roll.
+Reaction. Use a free hand to catch one adjacent falling creature no larger than you. From secure footing, bring it into a free adjacent square. You can instead hang together from a reachable hold that supports you both. No roll.
 
 ### Catch Them Falling II
 DP: 4 | Level: 3
@@ -97,7 +97,7 @@ Reaction. When a rope-linked group begins to fall, secure its rope to an anchor 
 
 ### Strong Swimmer I
 DP: 1 | Level: 1
-Passive. Gain 1 Boon on Brawn rolls to swim through rough water. You still need breathable air and a current that permits passage.
+Passive. Gain 1 Boon on Brawn rolls to swim.
 
 ### Strong Swimmer II
 DP: 2 | Level: 1

@@ -65,10 +65,10 @@ Sense its direction while holding an item of the same material. Choose a specifi
 **Action:** Ritual · 10 minutes
 **SP:** 2
 **Attribute:** None
-**Target / range:** One creature you personally know within 100 squares
+**Target / range:** One creature within 100 squares that you know or whose personal possession you hold
 **Duration:** 10 minutes
 
-Sense its direction and whether it is moving closer or farther away. You need a personal possession it used within the last month. The reading follows the creature's current body.
+Sense its direction and whether it is moving closer or farther away. Name the creature you know or focus on an item it has used as a personal possession. The reading follows its current body.
 
 ### Arcane Eye
 

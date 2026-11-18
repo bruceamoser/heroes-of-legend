@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | -1 | +0 | +1 | +0 | +2 | +1 |
 
-Total **+3**. Starting development: 8 + Guile +0 + Knowledge +2 + Reason +1 = **11 DP**.
+Total **+3**. Starting development: 10 + Guile +0 + Knowledge +2 + Reason +1 = **13 DP**.
 
 ### [A Lifetime Ago](../ancestries/trait-elf-age-of-memory.md)
 
@@ -54,17 +54,17 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Flame I](../spellbooks/flame.md) | 1 | 10 |
-| [Flame II](../spellbooks/flame.md) | 2 | 8 |
-| [Water I](../spellbooks/water.md) | 1 | 7 |
-| [Air I](../spellbooks/air.md) | 1 | 6 |
-| [Portents I](../spellbooks/portents.md) | 1 | 5 |
-| [Soul Capacity I](../disciplines/spellcraft.md) | 1 | 4 |
-| [Soul Capacity II](../disciplines/spellcraft.md) | 2 | 2 |
-| [Mind Capacity I](../disciplines/spellcraft.md) | 1 | 1 |
-| [Recovery I](../disciplines/spellcraft.md) | 1 | 0 |
+| [Flame I](../spellbooks/flame.md) | 1 | 12 |
+| [Flame II](../spellbooks/flame.md) | 2 | 10 |
+| [Water I](../spellbooks/water.md) | 1 | 9 |
+| [Air I](../spellbooks/air.md) | 1 | 8 |
+| [Portents I](../spellbooks/portents.md) | 1 | 7 |
+| [Soul Capacity I](../disciplines/spellcraft.md) | 1 | 6 |
+| [Soul Capacity II](../disciplines/spellcraft.md) | 2 | 4 |
+| [Mind Capacity I](../disciplines/spellcraft.md) | 1 | 3 |
+| [Recovery I](../disciplines/spellcraft.md) | 1 | 2 |
 
-**Spent 11 DP; 0 DP remaining.**
+**Spent 11 DP; 2 DP remaining.**
 
 ## Your learned techniques
 

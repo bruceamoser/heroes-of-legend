@@ -80,7 +80,7 @@ Step together through a brief doorway. Arrive in unoccupied supported squares be
 **Target / range:** Self and up to three adjacent willing creatures; a known destination within 100 squares
 **Duration:** Instant
 
-Travel to a place you personally visited within the last day. Arrive in open supported squares at that location. If occupied or obstructed, arrive at the nearest safe space within 3 squares; if none exists, the ritual leaves you at your origin.
+Travel to a place you have personally visited. Arrive in open supported squares at that location. If occupied or obstructed, arrive at the nearest safe space within 3 squares; if none exists, the ritual leaves you at your origin.
 
 ### Teleportation Circle
 
@@ -140,7 +140,7 @@ Travel with carried gear to the remembered place. Arrive in safe open squares wi
 **Target / range:** One portal within 3 squares linking a known planar anchor
 **Duration:** 1 minute
 
-Consume 100 coins of tuned incense to open a two-way doorway 2 squares wide. Any creature that can reach it may cross while open. The far end must be at an anchor you personally visited and currently have permission to open. You can close it with a Maneuver.
+Consume 100 coins of tuned incense to open a two-way doorway 2 squares wide. Any creature that can reach it may cross while open. Open the far end at an anchor you have visited or whose attunement you possess. A sealed anchor leaves the gate closed. You can close it with a Maneuver.
 
 ### Demiplane
 

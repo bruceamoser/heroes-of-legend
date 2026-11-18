@@ -7,7 +7,7 @@ Attacks from Tactics use Knowledge and require a wielded melee weapon. A willing
 
 ### Exploit the Opening I
 DP: 1 | Level: 1
-Main Action · Knowledge. Attack one visible adjacent enemy for 1/3/4 physical damage. On Strong, one willing ally adjacent to that enemy may move 1 square after the attack, following the usual movement reactions.
+Main Action · Knowledge. Attack one visible adjacent enemy for 1/3/4 physical damage. On Standard or Strong, cue one willing ally within 3 squares of you. That ally may move 1 square after the attack, following the usual movement reactions.
 
 ### Exploit the Opening II
 DP: 2 | Level: 1
@@ -37,7 +37,7 @@ Main Action · Knowledge. Once per scene, attack a visible adjacent enemy for 4/
 
 ### Clear the Way I
 DP: 1 | Level: 1
-Maneuver. Give one willing ally within 3 squares a cue for a declared attack or defense that you can plausibly help. It gains 1 Boon on its next matching roll before your next turn starts. No roll.
+Maneuver. Give one willing ally within 3 squares a cue and choose attack or defense. The ally gains 1 Boon on its next roll of that type before your next turn starts. No roll.
 
 ### Clear the Way II
 DP: 2 | Level: 1
@@ -45,7 +45,7 @@ Clear the Way reaches up to 5 squares.
 
 ### Clear the Way III
 DP: 2 | Level: 1
-Clear the Way can instead help a declared noncombat task you can plausibly assist. The Boon applies to the next matching roll during the exchange or work interval. Outside combat, contribute this aid or your own roll to the objective during that interval.
+Clear the Way can instead cue the ally for a chosen noncombat task. Its next roll for that task gains the Boon during the exchange or work interval. Outside combat, contribute this aid or your own roll to the objective during that interval.
 
 ### Set the Formation I
 DP: 3 | Level: 3

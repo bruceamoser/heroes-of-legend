@@ -15,7 +15,7 @@ Make the Case adds 1/3/4 progress.
 
 ### Make the Case III
 DP: 2 | Level: 1
-Once per objective, new evidence directly addressing the listener’s stated concern adds 1 extra progress to Make the Case.
+Once per objective, add 1 extra progress to Make the Case when you answer a listener’s concern with a new fact, concrete offer or demonstration.
 
 ### Common Ground I
 DP: 3 | Level: 3
@@ -75,7 +75,7 @@ Plausible Rejoinder adds 1/3/4 progress.
 
 ### Plausible Rejoinder III
 DP: 2 | Level: 1
-Once per objective, a relevant prepared prop or corroborating witness adds 1 extra progress to Plausible Rejoinder.
+Once per objective, add 1 extra progress to Plausible Rejoinder when you give the listener a new reason to believe the account, such as a telling detail, prop or supporting witness.
 
 ### Hold Their Attention I
 DP: 3 | Level: 3
@@ -91,7 +91,7 @@ Hold Their Attention can engage five listeners; an immediate obvious danger ends
 
 ### Turn the Conversation
 DP: 5 | Level: 7
-Reaction · Guile. Once per conversation, when a revealed fact would end your plausible distraction or false account, introduce a prepared alternative explanation before the listeners react. Roll once; add 3/5/7 progress to up to four listeners’ separate objectives for accepting it. Each completed objective keeps that listener engaged for one minute, giving allies 2 Boons on unnoticed tasks outside its sight during that time. Contradictory proof and impossible explanations cannot be talked away; direct danger ends the distraction.
+Reaction · Guile. Once per conversation, when listeners are about to dismiss your distraction or false account, offer a credible alternative explanation before they act. Roll once; add 3/5/7 progress to up to four listeners’ separate objectives for accepting it. Each completed objective keeps that listener engaged for one minute, giving allies 2 Boons on unnoticed tasks outside its sight during that time. Contradictory proof and impossible explanations cannot be talked away; direct danger ends the distraction.
 
 ## Pressure
 
@@ -105,7 +105,7 @@ Draw the Line adds 1/3/4 progress.
 
 ### Draw the Line III
 DP: 2 | Level: 1
-Once per objective, demonstrating the threatened capability without attacking the listener adds 1 extra progress to Draw the Line.
+Once per objective, add 1 extra progress to Draw the Line when you show or explain how you could carry out the consequence without attacking the listener.
 
 ### Terms of Surrender I
 DP: 3 | Level: 3
@@ -121,4 +121,4 @@ Terms of Surrender can address six enemies with a shared motive; otherwise choos
 
 ### A Way to Yield
 DP: 5 | Level: 7
-Main Action · Reason. Once per scene, offer a credible, immediately available path out of a losing conflict to up to six enemies who understand you: surrender under stated protection, withdraw through an open route, or release captives for safe passage. Roll once; add 3/5/7 progress to their shared objective if their motives align, otherwise one chosen enemy’s objective. On completion they accept the established concession while you honor its terms. This grants no automatic ceasefire before completion and no control over independent allies.
+Main Action · Reason. Once per scene, offer a credible, immediately available path out of a conflict to up to six enemies who understand you: surrender under stated protection, withdraw through an open route, or release captives for safe passage. Roll once; add 3/5/7 progress to their shared objective if their motives align, otherwise one chosen enemy’s objective. On completion they accept the established concession while you honor its terms. This grants no automatic ceasefire before completion and no control over independent allies.

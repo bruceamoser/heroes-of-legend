@@ -16,7 +16,7 @@ Spend one minute forming a plan from the evidence and observations available. St
 
 **Equipment / acquisition:** None.
 
-You can maintain one plan at a time. A new plan replaces its unused Boons; new relevant evidence is required to plan again for the same objective this scene.
+Keep one plan at a time. A new plan replaces the previous plan and its unused Boons.
 
 **Frequency:** Once per scene.
 

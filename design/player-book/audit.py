@@ -115,7 +115,12 @@ sheet_pages=[]
 for title in sheet_names:
  found=[i for i,page in enumerate(text.split('\f'),1) if title.lower() in page.lower()]
  if len(found)!=1:errors.append('Missing or duplicate printable sheet: '+title)
- else:sheet_pages.append(found[0])
+ else:
+  sheet_pages.append(found[0])
+  if title=='Creation ledger':
+   base=re.search(r'\*\*(\d+) \+ Guile \+ Knowledge \+ Reason\*\*',(B.parent/'development.md').read_text())
+   if not base or norm(f'{base[1]} + Mental Attributes') not in norm(text.split('\f')[found[0]-1]):
+    errors.append('Creation ledger label must match the starting DP rule')
 if len(sheet_pages)==4 and sheet_pages!=list(range(sheet_pages[0],sheet_pages[0]+4)):errors.append('Printable sheets must occupy four consecutive pages')
 
 missing_names=[];missing_outcomes=[];outcomes=0

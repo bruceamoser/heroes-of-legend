@@ -29,7 +29,7 @@ Place magical properties into objects.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One willing held or unattended object within 3 squares
+**Target / range:** One unattended object or object held by a willing creature within 3 squares
 **Duration:** 1 hour
 
 Make it shed bright light to 6 squares and dim light for another 3. Choose the color. You may keep one Light casting at a time and end it with a Maneuver.

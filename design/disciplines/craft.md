@@ -19,7 +19,7 @@ Mend and Fit’s repair work takes 5 minutes per attempt.
 
 ### Field Repair I
 DP: 3 | Level: 3
-Main Action · Knowledge, with tools and materials. Repair an item already examined through at least one Mend and Fit work attempt; add 1/2/3 progress. Repeat this faster action until the repair completes. Completion restores its ordinary function; HP restoration for an object with HP is set as part of the repair objective before work.
+Main Action · Knowledge, with tools and materials. Work on a damaged nonmagical item within reach whose essential structure remains. Add 1/2/3 progress toward repairing it. Completion restores its ordinary function; HP restoration for an object with HP is set as part of the repair objective before work.
 
 ### Field Repair II
 DP: 4 | Level: 3
@@ -67,7 +67,7 @@ Maneuver. Throw up to three prepared smoke flasks at visible points within 8 squ
 
 ### Catch the Failure I
 DP: 1 | Level: 1
-Reaction. When a visible component begins to fail during a nonmagical task you are attending within reach, use tools in hand to arrest it before the consequence resolves. Give the worker 1 Boon on the associated roll to prevent injury or material loss, if such a roll is possible. Once per distinct failure event; this does not improve the task’s progress roll or reverse damage already applied.
+Reaction. When a visible component within reach begins to fail during a nonmagical task, use tools in hand to arrest it before the consequence resolves. Give the worker 1 Boon on the associated roll to prevent injury or material loss, if such a roll is possible. Once per distinct failure event; this does not improve the task’s progress roll or reverse damage already applied.
 
 ### Catch the Failure II
 DP: 2 | Level: 1
@@ -121,4 +121,4 @@ A Roof before Nightfall takes 30 minutes with materials already gathered, and yo
 
 ### A City Opens Its Gates
 DP: 5 | Level: 7
-1 day · Reason. Through an on-site demonstration of a feasible civic project, broker one agreement among up to four willing factions you can communicate with. Build a visible model or working example with real materials. Roll once; add 4/7/10 progress to each faction’s separate agreement objective. Completion secures the commitments established by the DA, such as access, labor or a ceasefire. New terms need a new objective; this creates neither resources nor control over a settlement.
+1 day · Reason. Present a feasible civic project to representatives of up to four willing factions you can communicate with. Show how it would work with a plan, model or demonstration. Roll once; add 4/7/10 progress to each faction’s separate agreement objective. Completion secures the commitments established by the DA, such as access, labor or a ceasefire. New terms need a new objective; this creates neither resources nor control over a settlement.

@@ -6,7 +6,7 @@
 
 **Action:** Passive modifier to a melee weapon attack · **Attribute:** Use that attack’s attribute
 
-**Target / range / shape:** An enemy that damaged one of your allies since the end of your last turn.
+**Target / range / shape:** An enemy that damaged one of your allies this scene.
 
 **Magic:** Magical weapon modifier · **SP:** 1
 

@@ -1,7 +1,7 @@
 # Armor
 Wear your protection as though it were part of you.
 
-These techniques require worn armor you are trained to use. Learn Light Armor I to wear light armor, Light Armor III for medium armor and Heavy Armor I at level 3 for heavy armor. Light armor provides physical resistance 1, medium 2 and heavy 3; use the highest matching resistance, not a sum. Acquire a suitable suit with your other equipment. Damage reductions apply after resistance and respect the minimum for attacks; immunity remains an exception.
+Wear armor you are trained to use to perform these techniques. Light Armor I teaches light armor, Light Armor III teaches medium armor, and Heavy Armor I teaches heavy armor at level 3. Each training supplies a compatible ordinary suit if you need one. A worn suit grants physical resistance 1 for light, 2 for medium, or 3 for heavy. Use the highest matching resistance. Damage reductions apply after resistance and respect the minimum for attacks; immunity remains an exception.
 
 ## Advance
 
@@ -37,7 +37,7 @@ Main Action, with a held shield. Until your next turn starts, hold your position
 
 ### Brace I
 DP: 1 | Level: 1
-Maneuver. Until your next turn starts, gain Stability 1. You must stand on a supporting surface. No roll.
+Maneuver. While on solid footing, brace yourself to gain Stability 1 until your next turn starts. No roll.
 
 ### Brace II
 DP: 2 | Level: 1
@@ -79,7 +79,7 @@ Turn the Blow reduces physical damage by 3.
 
 ### Weather the Storm I
 DP: 3 | Level: 3
-Reaction. After a defense roll, before damage from that attack is applied, reduce its damage by 2 after resistance. Until your next turn starts, also reduce physical damage from each later attack against you by 1 after resistance.
+Reaction. After your defense roll, before damage from that attack is applied, reduce its damage by 2 after resistance. Until your next turn starts, also reduce physical damage from each later attack against you by 1 after resistance.
 
 ### Weather the Storm II
 DP: 4 | Level: 3
@@ -91,7 +91,7 @@ Weather the Storm reduces later physical attack damage by 2 instead of 1.
 
 ### Unyielding Shell
 DP: 5 | Level: 7
-Reaction. After a defense roll, before damage from that attack is applied, reduce its damage by 4 after resistance. Until your next turn starts, reduce damage from each further attack against you by 3 after resistance. Once per scene, this response also prevents new Bleeding and Dazed from the triggering attack; its other effects remain.
+Reaction. After your defense roll, before damage from that attack is applied, reduce its damage by 4 after resistance. Until your next turn starts, reduce damage from each further attack against you by 3 after resistance. Once per scene, this response also prevents new Bleeding and Dazed from the triggering attack; its other effects remain.
 
 ## Harness
 

@@ -31,21 +31,21 @@ Split the Flight deals 2/3/5 physical damage. You may also spend a Main Action o
 
 ### Anatomist’s Volley
 DP: 5 | Level: 7
-Main Action · Agility. Attack up to three enemies within 12 squares whose vulnerable anatomy or construction you have observed through Split the Flight’s study or established evidence. Roll once; each takes 3/5/8 physical damage, ignoring up to 2 physical resistance. Immunity and other reductions still apply. Study does not create a vulnerability where none exists.
+Main Action · Agility. Attack up to three enemies within 12 squares. Roll once. Each takes 3/5/8 physical damage. For a target whose vulnerable part you know from Split the Flight’s study or evidence, apply that hit ignoring up to 2 physical resistance. Apply immunity and other reductions normally.
 
 ## Pinning
 
 ### Hobbling Aim I
 DP: 1 | Level: 1
-Maneuver. Choose one visible creature within 8 squares. Your next Main Action ranged or thrown attack against it before this turn ends also applies Slowed 1 on Strong. This modifies one target of one attack. Reusing this technique replaces its unused effect.
+Maneuver. Choose one visible creature within 8 squares. Your next Main Action ranged or thrown attack against it before this turn ends also applies Slowed 1 on Standard or Strong. This modifies one target of one attack. Reusing this technique replaces its unused effect.
 
 ### Hobbling Aim II
 DP: 2 | Level: 1
-Hobbling Aim applies Slowed 2 on Strong.
+On Strong, Hobbling Aim applies Slowed 2 instead of 1.
 
 ### Hobbling Aim III
 DP: 2 | Level: 1
-Hobbling Aim also applies Slowed 1 on Standard.
+On Weak, Hobbling Aim also applies Slowed 1.
 
 ### Hold the Pass I
 DP: 3 | Level: 3
@@ -67,7 +67,7 @@ Maneuver. Once per scene, choose up to three visible creatures within 12 squares
 
 ### Watchful Shot I
 DP: 1 | Level: 1
-Reaction · Agility. When a visible enemy within 6 squares finishes voluntary movement adjacent to an ally, attack it for 1/2/3 physical damage. Resolve after the movement; you need a ready weapon.
+Reaction · Agility. When a visible enemy within 6 squares finishes voluntary movement, attack it for 1/2/3 physical damage after that movement.
 
 ### Watchful Shot II
 DP: 2 | Level: 1
@@ -75,7 +75,7 @@ Watchful Shot has range 8 squares.
 
 ### Watchful Shot III
 DP: 2 | Level: 1
-Watchful Shot deals 1/2/4 physical damage and can trigger when any visible enemy within range finishes voluntary movement, whether adjacent to an ally or not.
+Watchful Shot deals 1/2/4 physical damage. It can also respond when a visible enemy finishes forced movement within range.
 
 ### Covering Fire I
 DP: 3 | Level: 3

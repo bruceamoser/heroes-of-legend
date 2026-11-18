@@ -37,11 +37,11 @@ Main Action · Brawn. Move up to 3 squares, ignoring extra movement cost from di
 
 ### Driving Opening I
 DP: 1 | Level: 1
-Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it also pushes it 1 square directly away from your attack position on Strong. This modifies one attack, not each target of a sweep. Reusing this technique replaces its unused effect.
+Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it pushes that creature directly away from your attack position, 1 square on Standard or 2 squares on Strong. Resolve collisions normally. Apply the push only to the chosen creature on that attack. Reusing this technique replaces its unused effect.
 
 ### Driving Opening II
 DP: 2 | Level: 1
-Driving Opening pushes 2 squares on Strong.
+Driving Opening pushes 2 squares on Standard as well as Strong.
 
 ### Driving Opening III
 DP: 2 | Level: 1

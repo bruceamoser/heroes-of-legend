@@ -15,7 +15,7 @@ Direct Thrust deals 2/3/5 physical damage.
 
 ### Direct Thrust III
 DP: 2 | Level: 1
-On Strong, Direct Thrust lets you move up to 2 squares.
+After a Strong Direct Thrust, you may move up to 2 squares instead of 1, avoiding movement reactions.
 
 ### Broken Tempo I
 DP: 3 | Level: 3
@@ -79,7 +79,7 @@ Deflecting Parry works against melee attacks from adjacent enemies using weapons
 
 ### Answering Steel I
 DP: 3 | Level: 3
-Reaction · Agility. When an adjacent enemy finishes a melee attack against you and your defense was Strong, strike it for 1/2/4 physical damage. You must be able to act and the enemy must still be adjacent.
+Reaction · Agility. After an adjacent enemy finishes a melee attack against you, strike it for 1/2/4 physical damage if your defense was Standard or Strong and it remains adjacent.
 
 ### Answering Steel II
 DP: 4 | Level: 3
@@ -87,7 +87,7 @@ Answering Steel deals 2/3/5 physical damage.
 
 ### Answering Steel III
 DP: 4 | Level: 3
-You may use Answering Steel after a Standard or Strong defense.
+After a Strong Answering Steel counterattack, you may move 1 square without triggering movement reactions.
 
 ### Counter in Tempo
 DP: 5 | Level: 7
@@ -97,11 +97,11 @@ Reaction · Agility. When an adjacent enemy finishes a melee attack against you 
 
 ### Bind the Blade I
 DP: 1 | Level: 1
-Main Action · Agility. Attack an adjacent enemy wielding a melee weapon for 1/2/3 physical damage. On Strong, that weapon’s next attack takes 1 Bane if made before your next turn starts.
+Main Action · Agility. Attack an adjacent enemy wielding a melee weapon for 1/2/3 physical damage. On Standard or Strong, that weapon’s next attack takes 1 Bane if made before your next turn starts.
 
 ### Bind the Blade II
 DP: 2 | Level: 1
-Bind the Blade imposes its Bane on Standard or Strong.
+On Strong, Bind the Blade imposes 2 Banes instead of 1.
 
 ### Bind the Blade III
 DP: 2 | Level: 1
@@ -109,15 +109,15 @@ Bind the Blade deals 1/3/4 physical damage.
 
 ### Strip the Grip I
 DP: 3 | Level: 3
-Main Action · Agility. Attack an adjacent enemy holding a weapon for 1/3/4 physical damage. On Strong it drops one held weapon of your choice in its square if it can release the weapon. If it cannot release the weapon, its next attack with it takes 1 Bane before your next turn starts.
+Main Action · Agility. Attack an adjacent enemy holding a weapon for 1/3/4 physical damage. On Standard or Strong, choose one of its held weapons. It drops that weapon in its square if it can release it. If it cannot release the weapon, its next attack with it before your next turn starts takes 1 Bane.
 
 ### Strip the Grip II
 DP: 4 | Level: 3
-On Standard, choose one of the target’s held weapons. Its next attack with that weapon takes 1 Bane if made before your next turn starts.
+Strip the Grip imposes 2 Banes instead of 1 when you choose a weapon the target cannot release.
 
 ### Strip the Grip III
 DP: 4 | Level: 3
-On Strong, you may move the dropped weapon into an unoccupied square adjacent to the target instead.
+You may move the weapon Strip the Grip dislodges into a legal unoccupied square adjacent to the target instead.
 
 ### Surrender the Steel
 DP: 5 | Level: 7

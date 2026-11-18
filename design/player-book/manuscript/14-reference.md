@@ -68,7 +68,7 @@ may measure severity, duration or both.
 
 **Discipline.** A field of study with four paths or spellbooks. Your culture, background and class each supply one starting discipline. An additional discipline costs the 1, 2 or 3 DP printed for your class.
 
-**DP.** Development Points, spent to study disciplines and learn entries. Start with 8 + Guile + Knowledge + Reason, plus explicit benefits. Gain 4 + the new level at each later level. Save unspent points.
+**DP.** Development Points, spent to study disciplines and learn entries. Start with 10 + Guile + Knowledge + Reason, plus explicit benefits. Gain 4 + the new level at each later level. Save unspent points.
 
 **DR.** Damage reduction. Armor DR is physical resistance, applied after the attack outcome.
 

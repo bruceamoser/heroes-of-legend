@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | +1 | +2 | +0 | +0 | -1 | +1 |
 
-Total **+3**. Starting development: 8 + Guile +0 + Knowledge -1 + Reason +1 = **8 DP**.
+Total **+3**. Starting development: 10 + Guile +0 + Knowledge -1 + Reason +1 = **10 DP**.
 
 ### [Hard as Bedrock](../ancestries/trait-dwarf-deep-constitution.md)
 
@@ -48,15 +48,15 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Light Armor I](../disciplines/armor.md) | 1 | 7 |
-| [Measured Cut I](../disciplines/arms.md) | 1 | 6 |
-| [Measured Cut II](../disciplines/arms.md) | 2 | 4 |
-| [Driving Opening I](../disciplines/arms.md) | 1 | 3 |
-| [Interpose I](../disciplines/guard.md) | 1 | 2 |
-| [Shield Bash I](../disciplines/guard.md) | 1 | 1 |
-| [Sheltering Guard I](../disciplines/guard.md) | 1 | 0 |
+| [Light Armor I](../disciplines/armor.md) | 1 | 9 |
+| [Measured Cut I](../disciplines/arms.md) | 1 | 8 |
+| [Measured Cut II](../disciplines/arms.md) | 2 | 6 |
+| [Driving Opening I](../disciplines/arms.md) | 1 | 5 |
+| [Interpose I](../disciplines/guard.md) | 1 | 4 |
+| [Shield Bash I](../disciplines/guard.md) | 1 | 3 |
+| [Sheltering Guard I](../disciplines/guard.md) | 1 | 2 |
 
-**Spent 8 DP; 0 DP remaining.**
+**Spent 8 DP; 2 DP remaining.**
 
 ## Your learned techniques
 
@@ -66,11 +66,11 @@ This is the one free signature choice for level 1.
 
 **Measured Cut II.** Measured Cut deals 3/4/6 physical damage.
 
-**Driving Opening I.** Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it also pushes it 1 square directly away from your attack position on Strong. This modifies one attack, not each target of a sweep. Reusing this technique replaces its unused effect.
+**Driving Opening I.** Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it pushes that creature directly away from your attack position, 1 square on Standard or 2 squares on Strong. Resolve collisions normally. Apply the push only to the chosen creature on that attack. Reusing this technique replaces its unused effect.
 
 **Interpose I.** Reaction. After an adjacent ally rolls defense, before applying physical damage from that attack, reduce that damage by 1 after resistance. You must be able to reach the ally. No roll.
 
-**Shield Bash I.** Main Action · Brawn. Attack one adjacent creature with your shield for 1/2/3 physical damage. On Strong push it 1 square directly away.
+**Shield Bash I.** Main Action · Brawn. Attack one adjacent creature with your shield for 1/2/3 physical damage. On Standard or Strong, push it 1 square directly away. Resolve collisions normally.
 
 **Sheltering Guard I.** Maneuver. Choose one willing adjacent ally. Until your next turn starts it gains 1 Boon on ranged defenses while adjacent. Reusing this technique replaces its previous effect. No roll.
 
