@@ -91,7 +91,7 @@ After Riposte, move 1 square without movement reactions; on Strong also apply Da
 
 ### Duelist’s Boundary
 DP: 5 | Level: 7
-Reaction · Agility. When a visible adjacent enemy begins an attack against you or an ally, before its roll, strike it for 3/5/8 physical damage. On Standard or Strong it also gains Dazed 1. If it remains able to attack, resolve its attack normally; reduce its damage by 3 after resistance, respecting the attack minimum. This spends your ordinary Reaction and grants no further retaliation.
+Reaction · Brawn or Agility, chosen before rolling. When a visible adjacent enemy begins an attack against you or an ally, before its roll, strike it for 3/5/8 physical damage. On Standard or Strong it also gains Dazed 1. If it remains able to attack, resolve its attack normally; reduce its damage by 3 after resistance, respecting the attack minimum. This spends your ordinary Reaction and grants no further retaliation.
 
 ## Unarmed
 
