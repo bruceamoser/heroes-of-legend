@@ -7,11 +7,11 @@ Fencing requires a one-handed melee weapon suited to precise cuts or thrusts, su
 
 ### Direct Thrust I
 DP: 1 | Level: 1
-Main Action · Agility. Attack one adjacent creature for 1/3/5 physical damage. On Standard or Strong, you may move 1 square after the attack.
+Main Action · Agility. Attack one adjacent creature for 1/2/4 physical damage. On Standard or Strong, you may move 1 square after the attack.
 
 ### Direct Thrust II
 DP: 2 | Level: 1
-Direct Thrust deals 2/4/6 physical damage.
+Direct Thrust deals 2/3/5 physical damage.
 
 ### Direct Thrust III
 DP: 2 | Level: 1
@@ -19,11 +19,11 @@ The movement from Direct Thrust avoids movement reactions.
 
 ### Broken Tempo I
 DP: 3 | Level: 3
-Main Action · Agility. Move up to 2 squares, then attack one adjacent creature for 2/4/6 physical damage. Neither this approach nor a 1-square step you may take immediately after the attack triggers movement reactions.
+Main Action · Agility. Move up to 2 squares, then attack one adjacent creature for 2/3/5 physical damage. Neither this approach nor a 1-square step you may take immediately after the attack triggers movement reactions.
 
 ### Broken Tempo II
 DP: 4 | Level: 3
-Broken Tempo deals 3/5/7 physical damage.
+Broken Tempo deals 2/4/6 physical damage.
 
 ### Broken Tempo III
 DP: 4 | Level: 3
@@ -31,7 +31,7 @@ On Strong, Broken Tempo also applies Dazed 1 to the target.
 
 ### The Unseen Line
 DP: 5 | Level: 7
-Main Action · Agility. Move up to 4 squares and attack one enemy adjacent at any point along your route for 4/6/9 physical damage. On Strong, apply Dazed 1 and Bleeding 1. You may continue the route after the attack. This movement avoids movement reactions.
+Main Action · Agility. Move up to 4 squares and attack one enemy adjacent at any point along your route for 2/4/7 physical damage. On Strong, apply Dazed 1 and Bleeding 1. You may continue the route after the attack. This movement avoids movement reactions.
 
 ## Footwork
 
@@ -79,11 +79,11 @@ Deflecting Parry works against melee attacks from adjacent enemies using weapons
 
 ### Answering Steel I
 DP: 3 | Level: 3
-Reaction · Agility. When an adjacent enemy finishes a melee attack against you and your defense was Strong, strike it for 2/3/5 physical damage. You must be able to act and the enemy must still be adjacent.
+Reaction · Agility. When an adjacent enemy finishes a melee attack against you and your defense was Strong, strike it for 1/2/4 physical damage. You must be able to act and the enemy must still be adjacent.
 
 ### Answering Steel II
 DP: 4 | Level: 3
-Answering Steel deals 3/4/6 physical damage.
+Answering Steel deals 2/3/5 physical damage.
 
 ### Answering Steel III
 DP: 4 | Level: 3
@@ -91,7 +91,7 @@ You may use Answering Steel after a Standard or Strong defense.
 
 ### Counter in Tempo
 DP: 5 | Level: 7
-Reaction · Agility. When an adjacent enemy finishes a melee attack against you or an adjacent ally and the defense was Standard or Strong, attack it for 3/5/8 physical damage. On Strong it gains Dazed 1. After your counter, you may move up to 2 squares without triggering movement reactions. You must be able to act and the enemy must still be adjacent.
+Reaction · Agility. When an adjacent enemy finishes a melee attack against you or an adjacent ally and the defense was Standard or Strong, attack it for 2/4/7 physical damage. On Strong it gains Dazed 1. After your counter, you may move up to 2 squares without triggering movement reactions. You must be able to act and the enemy must still be adjacent.
 
 ## Blade Tricks
 
