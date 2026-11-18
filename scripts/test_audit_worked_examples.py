@@ -13,13 +13,13 @@ class WorkedExampleAuditTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.book = Path(self.temp.name)
-        for directory in ("characters", "cards", "paths", "disciplines", "spellbooks", "origins", "classes", "equipment"):
+        for directory in ("characters", "ancestries", "classes", "disciplines", "equipment", "origins", "spellbooks"):
             target = self.book / "design" / directory
             target.mkdir(parents=True)
-            for path in (ROOT / "design" / directory).glob("*.md"):
+            for path in (ROOT / "design" / directory).iterdir():
+                if path.suffix not in (".md", ".json"):
+                    continue
                 shutil.copy2(path, target / path.name)
-
-        shutil.copy2(ROOT / "design/market.md", self.book / "design/market.md")
 
     def mutate(self, path, old, new):
         target = self.book / "design" / path
@@ -28,26 +28,26 @@ class WorkedExampleAuditTests(unittest.TestCase):
         target.write_text(text.replace(old, new, 1))
 
     def test_current_sources_pass(self):
-        self.assertEqual(verify(self.book)["result"], "pass")
+        self.assertEqual(len(verify(self.book)["characters"]), 6)
 
-    def test_copied_signature_drift_fails(self):
-        self.mutate("characters/lira-ashbow.md", "if the defense was Strong", "whatever the defense result")
-        with self.assertRaisesRegex(ValueError, "complete signature procedure"):
+    def test_wrong_class_signature_fails(self):
+        self.mutate("characters/examples.json", '"signatureId": "ability-signature-blade-measured-guard"', '"signatureId": "ability-signature-shepherd-gentle-return"')
+        with self.assertRaisesRegex(ValueError, "lira-ashbow: signature"):
             verify(self.book)
 
     def test_adaptable_omission_fails(self):
-        self.mutate("characters/mara-reedheart.md", "= 13 DP**", "= 12 DP**")
-        with self.assertRaisesRegex(ValueError, "pool including explicit Adaptable"):
+        self.mutate("characters/mara-reedheart.md", "= **11 DP**", "= **10 DP**")
+        with self.assertRaisesRegex(ValueError, "mara-reedheart: printed totals"):
             verify(self.book)
 
     def test_missing_prerequisite_fails(self):
-        self.mutate("characters/pip-copperwink.md", "[Patient Hand II]", "[Patient Hand III]")
-        with self.assertRaisesRegex(ValueError, "prerequisites"):
+        self.mutate("characters/examples.json", '"id": "subterfuge:locks:2"', '"id": "subterfuge:locks:3"')
+        with self.assertRaisesRegex(ValueError, "pip-copperwink: legal purchase subterfuge:locks:3"):
             verify(self.book)
 
     def test_incorrect_market_price_fails(self):
         self.mutate("characters/lira-ashbow.md", "| 9 | 1 |", "| 5 | 1 |")
-        with self.assertRaisesRegex(ValueError, "market price"):
+        with self.assertRaisesRegex(ValueError, "lira-ashbow: printed gear Food Bundle"):
             verify(self.book)
 
 

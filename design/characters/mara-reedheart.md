@@ -106,4 +106,4 @@ Starting coins: **54** from the base 40 plus ancestry, culture, background and c
 
 **Spent 49 coins; 5 coins remaining.** Inventory Bulk 7/10.
 
-HP includes ancestry, class, Fortitude and chosen trait benefits. SP includes a base of 2, ancestry, twice positive class mental attribute and learned capacity. Record current resources separately from their maximums.
+HP includes ancestry, class, Fortitude and chosen trait benefits. At level 1, SP includes 2 from level, ancestry SP, twice the positive class mental attribute, and any Soul Capacity or Mind Capacity benefits from Spellcraft. Record current resources separately from their maximums.

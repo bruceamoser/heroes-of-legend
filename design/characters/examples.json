@@ -64,24 +64,6 @@
         "acquisitions": {},
         "shopping": [
           {
-            "id": "item-ordinary-light-armor",
-            "quantity": 1,
-            "hands": 0,
-            "instanceId": "shop-example-0"
-          },
-          {
-            "id": "item-ordinary-melee-weapon",
-            "quantity": 1,
-            "hands": 1,
-            "instanceId": "shop-example-1"
-          },
-          {
-            "id": "item-ordinary-shield",
-            "quantity": 1,
-            "hands": 1,
-            "instanceId": "shop-example-2"
-          },
-          {
             "id": "item-travel-pack",
             "quantity": 1,
             "hands": 0,
@@ -97,33 +79,39 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-5"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-6"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-lighting-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-7"
+            "instanceId": "shop-starter-lighting-bundle"
+          },
+          {
+            "id": "item-lesser-healing-bottle",
+            "quantity": 1,
+            "hands": 0,
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "loadout": {
-          "shop-example-0": {
+          "inventory-learned-ordinary-light-armor": {
             "carried": true,
             "worn": true,
             "held": false
           },
-          "shop-example-1": {
+          "inventory-learned-ordinary-melee-weapon": {
             "carried": true,
             "worn": false,
             "held": true
           },
-          "shop-example-2": {
+          "inventory-learned-ordinary-shield": {
             "carried": true,
             "worn": false,
             "held": true
@@ -138,17 +126,22 @@
             "worn": false,
             "held": false
           },
-          "shop-example-5": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-6": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-7": {
+          "shop-starter-lighting-bundle": {
+            "carried": true,
+            "worn": false,
+            "held": false
+          },
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -219,18 +212,6 @@
         "acquisitions": {},
         "shopping": [
           {
-            "id": "item-ordinary-ranged-weapon",
-            "quantity": 1,
-            "hands": 2,
-            "instanceId": "shop-example-0"
-          },
-          {
-            "id": "item-ammunition-bundle",
-            "quantity": 1,
-            "hands": 0,
-            "instanceId": "shop-example-1"
-          },
-          {
             "id": "item-travel-pack",
             "quantity": 1,
             "hands": 0,
@@ -246,28 +227,40 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-4"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-5"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-ordinary-melee-weapon",
             "quantity": 1,
             "hands": 1,
             "instanceId": "shop-sidearm"
+          },
+          {
+            "id": "item-lighting-bundle",
+            "quantity": 1,
+            "hands": 0,
+            "instanceId": "shop-starter-lighting-bundle"
+          },
+          {
+            "id": "item-lesser-healing-bottle",
+            "quantity": 1,
+            "hands": 0,
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "loadout": {
-          "shop-example-0": {
+          "inventory-learned-ordinary-ranged-weapon": {
             "carried": true,
             "worn": false,
             "held": true
           },
-          "shop-example-1": {
+          "inventory-learned-ammunition-bundle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -282,17 +275,27 @@
             "worn": false,
             "held": false
           },
-          "shop-example-4": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-5": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
           "shop-sidearm": {
+            "carried": true,
+            "worn": false,
+            "held": false
+          },
+          "shop-starter-lighting-bundle": {
+            "carried": true,
+            "worn": false,
+            "held": false
+          },
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -384,19 +387,19 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-2"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-3"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-lighting-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-4"
+            "instanceId": "shop-starter-lighting-bundle"
           },
           {
             "id": "item-first-aid-supplies",
@@ -408,7 +411,7 @@
             "id": "item-lesser-healing-bottle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-6"
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "loadout": {
@@ -422,17 +425,17 @@
             "worn": false,
             "held": false
           },
-          "shop-example-2": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-3": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-4": {
+          "shop-starter-lighting-bundle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -442,7 +445,7 @@
             "worn": false,
             "held": false
           },
-          "shop-example-6": {
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -520,12 +523,6 @@
         "acquisitions": {},
         "shopping": [
           {
-            "id": "item-craft-tools",
-            "quantity": 1,
-            "hands": 0,
-            "instanceId": "shop-example-0"
-          },
-          {
             "id": "item-ordinary-melee-weapon",
             "quantity": 1,
             "hands": 1,
@@ -547,31 +544,37 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-4"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-5"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-lighting-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-6"
+            "instanceId": "shop-starter-lighting-bundle"
           },
           {
             "id": "item-writing-kit",
             "quantity": 1,
             "hands": 0,
             "instanceId": "shop-example-7"
+          },
+          {
+            "id": "item-lesser-healing-bottle",
+            "quantity": 1,
+            "hands": 0,
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "borrowedAncestryId": "ancestry-dwarf",
         "borrowedTraitId": "trait-dwarf-maker-s-eye",
         "loadout": {
-          "shop-example-0": {
+          "inventory-learned-craft-tools": {
             "carried": true,
             "worn": false,
             "held": false
@@ -591,22 +594,27 @@
             "worn": false,
             "held": false
           },
-          "shop-example-4": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-5": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-6": {
+          "shop-starter-lighting-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
           "shop-example-7": {
+            "carried": true,
+            "worn": false,
+            "held": false
+          },
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -677,18 +685,6 @@
         "acquisitions": {},
         "shopping": [
           {
-            "id": "item-ordinary-melee-weapon",
-            "quantity": 1,
-            "hands": 1,
-            "instanceId": "shop-example-0"
-          },
-          {
-            "id": "item-lock-tools",
-            "quantity": 1,
-            "hands": 0,
-            "instanceId": "shop-example-1"
-          },
-          {
             "id": "item-travel-pack",
             "quantity": 1,
             "hands": 0,
@@ -704,28 +700,34 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-4"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-5"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-lighting-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-6"
+            "instanceId": "shop-starter-lighting-bundle"
+          },
+          {
+            "id": "item-lesser-healing-bottle",
+            "quantity": 1,
+            "hands": 0,
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "loadout": {
-          "shop-example-0": {
+          "inventory-learned-ordinary-melee-weapon": {
             "carried": true,
             "worn": false,
             "held": true
           },
-          "shop-example-1": {
+          "inventory-learned-lock-tools": {
             "carried": true,
             "worn": false,
             "held": false
@@ -740,17 +742,22 @@
             "worn": false,
             "held": false
           },
-          "shop-example-4": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-5": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-6": {
+          "shop-starter-lighting-bundle": {
+            "carried": true,
+            "worn": false,
+            "held": false
+          },
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -843,19 +850,19 @@
             "id": "item-water-flask",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-2"
+            "instanceId": "shop-starter-water-flask"
           },
           {
             "id": "item-food-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-3"
+            "instanceId": "shop-starter-food-bundle"
           },
           {
             "id": "item-lighting-bundle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-4"
+            "instanceId": "shop-starter-lighting-bundle"
           },
           {
             "id": "item-writing-kit",
@@ -867,7 +874,7 @@
             "id": "item-lesser-healing-bottle",
             "quantity": 1,
             "hands": 0,
-            "instanceId": "shop-example-6"
+            "instanceId": "shop-starter-lesser-healing-bottle"
           }
         ],
         "loadout": {
@@ -881,17 +888,17 @@
             "worn": false,
             "held": false
           },
-          "shop-example-2": {
+          "shop-starter-water-flask": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-3": {
+          "shop-starter-food-bundle": {
             "carried": true,
             "worn": false,
             "held": false
           },
-          "shop-example-4": {
+          "shop-starter-lighting-bundle": {
             "carried": true,
             "worn": false,
             "held": false
@@ -901,7 +908,7 @@
             "worn": false,
             "held": false
           },
-          "shop-example-6": {
+          "shop-starter-lesser-healing-bottle": {
             "carried": true,
             "worn": false,
             "held": false

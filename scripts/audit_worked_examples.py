@@ -3,6 +3,15 @@
 import argparse,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+PROVISIONS=('food-bundle','water-flask','lighting-bundle','lesser-healing-bottle')
+EXAMPLE_TRAINING_GEAR={
+ 'arms:bladework:': ('ordinary-melee-weapon',),
+ 'armor:harness:1': ('ordinary-light-armor',),
+ 'guard:shieldwork:': ('ordinary-shield',),
+ 'marksmanship:precision:': ('ordinary-ranged-weapon','ammunition-bundle'),
+ 'craft:repairs:': ('craft-tools',),
+ 'subterfuge:locks:': ('lock-tools',),
+}
 def slug(s):return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
 def catalog(d):
  out={}
@@ -44,14 +53,23 @@ def verify(book=ROOT,check_markdown=True):
   for path in ['soul-capacity','mind-capacity']:
    step=max([int(i.rsplit(':',1)[1]) for i in owned if i.startswith('spellcraft:'+path+':')],default=0);sp+=[0,2,4,7][step]
   gear=[];spent=bulk=hands=0
-  for item in q['shopping']:
-   source=(d/'equipment'/f"{item['id'][5:]}.md").read_text();price=int(re.search(r'Market price:\*\* (\d+)',source)[1]);b=int(re.search(r'\*\*Bulk:\*\* (\d+)',source)[1]);n=item['quantity'];spent+=price*n;bulk+=b*n;load=q['loadout'][item['instanceId']];hands+=item['hands'] if load['held'] else 0;gear.append((item['id'],source.splitlines()[0][2:],price*n,b*n,load))
+  for provision in PROVISIONS:
+   need(any(item['instanceId']=='shop-starter-'+provision and item['id']=='item-'+provision and item['quantity']==1 for item in q['shopping']),who+': starting '+provision)
+  free={slug for prefix,items in EXAMPLE_TRAINING_GEAR.items() if any(key.startswith(prefix) for key in owned) for slug in items}
+  free_items=[dict(id='item-'+name,instanceId='inventory-learned-'+name,quantity=1,hands=1) for name in sorted(free)]
+  need(set(q['loadout'])=={item['instanceId'] for item in q['shopping']+free_items},who+': complete equipment loadout')
+  for item in q['shopping']+free_items:
+   source=(d/'equipment'/f"{item['id'][5:]}.md").read_text();price=0 if item in free_items else int(re.search(r'Market price:\*\* (\d+)',source)[1]);b=int(re.search(r'\*\*Bulk:\*\* (\d+)',source)[1]);n=item['quantity'];spent+=price*n;bulk+=b*n;load=q['loadout'][item['instanceId']];hands+=item['hands'] if load['held'] else 0;gear.append((item['id'],source.splitlines()[0][2:],price*n,b*n,load))
    if load['worn'] and 'armor' in item['id']:need('armor:harness:1' in owned,who+': armor training')
   need(spent<=coins and bulk<=10+3*a['brawn'] and hands<=2,who+': equipment budget and capacity')
   row=dict(id=who,hp=hp,sp=sp,pool=pool,remaining=left,disciplines=ds,coins=coins,spent=spent,bulk=bulk,capacity=10+3*a['brawn'],speed=int(re.search(r'base Speed (\d+)',anc)[1]),ledger=ledger,gear=gear)
   if check_markdown:
    md=(d/'characters'/f'{who}.md').read_text();need(f'HP {hp}/{hp}' in md and f'SP {sp}/{sp}' in md and f'**{pool} DP**' in md and f'**Spent {pool-left} DP; {left} DP remaining.**' in md,who+': printed totals');need('Level 0' not in md and 'each stage' not in md,who+': single process prose')
    for ident,balance in ledger:need(entries[ident]['name'] in md and f"| {entries[ident]['cost']} | {balance} |" in md,who+': printed ledger '+ident)
+   need(f'**Spent {spent} coins; {coins-spent} coins remaining.** Inventory Bulk {bulk}/' in md,who+': printed equipment totals')
+   for ident,name,price,size,load in gear:
+    ready='Worn' if load['worn'] else 'Held' if load['held'] else 'Carried'
+    need(f'| [{name}](../equipment/{ident[5:]}.md) | {price or "Free"} | {size} | {ready} |' in md,who+': printed gear '+name)
   results.append(row)
  return {'checks':len(checks),'characters':results}
 if __name__=='__main__':
