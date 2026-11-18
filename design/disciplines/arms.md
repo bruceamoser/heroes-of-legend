@@ -7,7 +7,7 @@ Bladework, Impact and Dueling require a wielded melee weapon. Unarmed techniques
 
 ### Measured Cut I
 DP: 1 | Level: 1
-Main Action · Brawn. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack.
+Main Action · Brawn or Agility, chosen before rolling. Attack one adjacent creature for 2/3/5 physical damage. On Strong, you may move 1 square after the attack.
 
 ### Measured Cut II
 DP: 2 | Level: 1
@@ -79,7 +79,7 @@ After Blade Ward resolves, you may move 1 square without movement reactions.
 
 ### Riposte I
 DP: 3 | Level: 3
-Reaction · Brawn. After a melee attack against you resolves, attack its source if adjacent for 2/3/5 physical damage. You must survive and be able to act.
+Reaction · Brawn or Agility, chosen before rolling. After a melee attack against you resolves, attack its source if adjacent for 2/3/5 physical damage. You must survive and be able to act.
 
 ### Riposte II
 DP: 4 | Level: 3
@@ -91,7 +91,7 @@ After Riposte, move 1 square without movement reactions; on Strong also apply Da
 
 ### Duelist’s Boundary
 DP: 5 | Level: 7
-Reaction · Brawn. When a visible adjacent enemy begins an attack against you or an ally, before its roll, strike it for 3/5/8 physical damage. On Standard or Strong it also gains Dazed 1. If it remains able to attack, resolve its attack normally; reduce its damage by 3 after resistance, respecting the attack minimum. This spends your ordinary Reaction and grants no further retaliation.
+Reaction · Agility. When a visible adjacent enemy begins an attack against you or an ally, before its roll, strike it for 3/5/8 physical damage. On Standard or Strong it also gains Dazed 1. If it remains able to attack, resolve its attack normally; reduce its damage by 3 after resistance, respecting the attack minimum. This spends your ordinary Reaction and grants no further retaliation.
 
 ## Unarmed
 

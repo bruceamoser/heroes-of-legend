@@ -68,8 +68,8 @@ The November playtest revision integrates health, single-process creation, seven
 rules and catalog entries are the authority; Git history holds previous editions.
 The 29 spellbooks contain 319 casting blocks with explicit Main Actions, Maneuvers, Reaction triggers and Ritual casting times. Shared casting,
 sustain, cancellation and SP-transfer procedures are in `design/rules/magic.md`.
-Each book has seven sections: four pairs of spells, followed by three individually learned spells. The seventh section is its level-7 mastery. The 11 nonmagical
-disciplines contain 44 seven-step paths (308 entries); Spellcraft adds three training
+Each book has seven sections: four pairs of spells, followed by three individually learned spells. The seventh section is its level-7 mastery. The 13 nonmagical
+disciplines contain 52 seven-step paths (364 entries); Spellcraft adds three training
 paths (21 entries) alongside its Channeling spellbook. Former combined purchases
 are rehomed into these paths and mastery spells.
 Basic Actions contains the 19 universal actions. New mechanics require review. CV calibration remains

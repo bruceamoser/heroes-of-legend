@@ -16,7 +16,7 @@ You might love a familiar stretch of river in flood or resent a traveler who lea
 
 **Starting disciplines:** Choose one of Wilderness, Marksmanship, Arms, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Marksmanship, Wilderness. **2 DP:** Arms, Athletics, Life, Divination. **3 DP:** Armor, Guard, Subterfuge, Medicine, Craft, Scholarship, Influence, Elements, Mentalism, Invocation, Force, Wards, Spellcraft.
+**Learning costs:** **1 DP:** Marksmanship, Wilderness. **2 DP:** Arms, Athletics, Life, Divination, Fencing, Tactics. **3 DP:** Armor, Guard, Subterfuge, Medicine, Craft, Scholarship, Influence, Elements, Mentalism, Invocation, Force, Wards, Spellcraft.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

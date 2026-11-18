@@ -9,9 +9,9 @@ data=json.loads((HERE/'generated.json').read_text())
 reader=PdfReader(PDF)
 def compact(t):return re.sub(r'\s+','',t).replace('\u00ad','').replace('ﬀ','ff').replace('ﬁ','fi').replace('ﬂ','fl')
 raw=subprocess.check_output(['pdftotext','-raw',str(PDF),'-'],text=True).split('\f')
-assert len(data)==11 and sum(len(d['paths']) for d in data)==44
+assert len(data)==13 and sum(len(d['paths']) for d in data)==52
 entries=[e for d in data for p in d['paths'] for e in p['entries']]
-assert len(entries)==308 and len({e['id'] for e in entries})==308
+assert len(entries)==364 and len({e['id'] for e in entries})==364
 all_ids={d['id'] for d in data}|{e['id'] for e in entries}
 for d in data:
  assert len(d['paths'])==4,d['id']
@@ -35,4 +35,4 @@ for n,page in enumerate(ET.fromstring(xml).findall('.//x:page',ns),1):
   a=w.attrib
   assert 34 <= float(a['xMin']) < float(a['xMax']) <= 578,(n,w.text,'horizontal overflow')
   assert 10 <= float(a['yMin']) < float(a['yMax']) <= 785,(n,w.text,'vertical overflow')
-print(f'PASS: {len(reader.pages)} pages; 11 disciplines, 44 paths and 308 complete effects; sequential prerequisites, costs, gates and bounds checked.')
+print(f'PASS: {len(reader.pages)} pages; 13 disciplines, 52 paths and 364 complete effects; sequential prerequisites, costs, gates and bounds checked.')

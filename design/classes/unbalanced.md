@@ -16,7 +16,7 @@ The force you bring can come from anger, joy, or a lifetime of knowing what your
 
 **Starting disciplines:** Choose one of Arms, Athletics, Armor, Elements. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Arms, Athletics. **2 DP:** Armor, Elements. **3 DP:** Guard, Marksmanship, Subterfuge, Wilderness, Medicine, Craft, Scholarship, Influence, Life, Mentalism, Divination, Invocation, Force, Wards, Spellcraft.
+**Learning costs:** **1 DP:** Arms, Athletics. **2 DP:** Armor, Elements. **3 DP:** Guard, Marksmanship, Subterfuge, Wilderness, Medicine, Craft, Scholarship, Influence, Life, Mentalism, Divination, Invocation, Force, Wards, Spellcraft, Fencing, Tactics.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

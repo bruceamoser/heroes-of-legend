@@ -32,6 +32,7 @@ one discipline from each. A past can suggest a personality without prescribing i
 - [Bone Tender](origins/background-bone-tender.md) — *You prepared the dead with care; eventually some seemed reluctant to leave your company.*
 - [Bridge Worker](origins/background-bridge-worker.md) — *You have trusted your weight to a knot you tied yourself.*
 - [Burglar](origins/background-burglar.md) — *Every fine house has a service door and every service door has a story.*
+- [Company Runner](origins/background-company-runner.md) — *You learned to tell a retreat from a rout while carrying messages between groups who could barely see each other.*
 - [Confidence Artist](origins/background-confidence-artist.md) — *People remember the smile long after they notice what is missing.*
 - [Court Questioner](origins/background-court-questioner.md) — *You learned that an answer can be perfectly truthful and still hide everything important.*
 - [Dragon-Dreamer](origins/background-dragon-dreamer.md) — *You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.*
@@ -49,6 +50,7 @@ one discipline from each. A past can suggest a personality without prescribing i
 - [Pit Fighter](origins/background-pit-fighter.md) — *You learned what a crowd sounds like when it decides someone will not get up.*
 - [Poacher](origins/background-poacher.md) — *You learned to bring down game quietly or keep the hidden catch cold until it could reach hungry households. A forbidden boundary never made them less hungry.*
 - [Reluctant Knife](origins/background-reluctant-knife.md) — *Someone once paid you to make a problem disappear. You still decide what that made you.*
+- [Salle Student](origins/background-salle-student.md) — *You learned to read a blade beneath the clatter of a crowded practice hall. After lessons, your instructor made you drill on the stairs until your feet were as steady as your hand.*
 - [Shore Gatherer](origins/background-shore-gatherer.md) — *The shore fed you if you learned when to arrive and what to leave alone.*
 - [Stage Assistant](origins/background-stage-assistant.md) — *You made the impossible happen from behind the curtain.*
 - [Star-Touched](origins/background-star-touched.md) — *A night sky, an old mirror or a deep well showed you more than it should.*

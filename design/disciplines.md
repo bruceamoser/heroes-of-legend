@@ -3,6 +3,8 @@
 Begin studying a discipline at the price listed for your class, then choose a path or spellbook and learn its entries. Each reference gives the effects, costs and learning order.
 
 - [Arms](disciplines/arms.md)
+- [Fencing](disciplines/fencing.md)
+- [Tactics](disciplines/tactics.md)
 - [Armor](disciplines/armor.md)
 - [Guard](disciplines/guard.md)
 - [Marksmanship](disciplines/marksmanship.md)
