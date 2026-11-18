@@ -63,6 +63,7 @@ for shared in ['vision.md','ancestry-procedures.md','objectives.md']:
   if paragraph.startswith(('#','|')):continue
   if shared_norm(paragraph) not in shared_norm(plain):errors.append('Shared rule text missing: '+shared+' '+paragraph[:50])
 page_refs={p.indirect_reference.idnum:n for n,p in enumerate(r.pages,1)}
+named_destinations=r.named_destinations
 nlinks=0
 invalid_links=[]
 cover_links=[]
@@ -76,7 +77,12 @@ for n,page in enumerate(r.pages,1):
    if action.get('/S')=='/GoTo':dest=action.get('/D')
   if dest is None:continue
   dest=dest.get_object()
-  target=page_refs.get(getattr(dest[0],'idnum',None)) if isinstance(dest,list) and dest else None
+  if isinstance(dest,str):
+   named=named_destinations.get(dest)
+   page_ref=named.page if named else None
+  else:
+   page_ref=dest[0] if isinstance(dest,list) and dest else None
+  target=page_refs.get(getattr(page_ref,'idnum',None))
   if target is None:invalid_links.append(n)
   # Typst can emit the cover as a fallback when layout queries fail to converge.
   elif target==1:cover_links.append(n)
