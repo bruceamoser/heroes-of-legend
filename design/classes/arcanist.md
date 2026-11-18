@@ -16,7 +16,7 @@ You might savor a clean diagram or love the apprentice who asks the awkward ques
 
 **Starting disciplines:** Choose one of Elements, Force, Invocation, Spellcraft. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Elements, Force, Spellcraft. **2 DP:** Scholarship, Divination, Invocation, Wards. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Medicine, Craft, Influence, Life, Mentalism.
+**Learning costs:** **1 DP:** Elements, Force, Spellcraft. **2 DP:** Scholarship, Divination, Invocation, Wards. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Medicine, Craft, Influence, Life, Mentalism, Fencing, Tactics.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

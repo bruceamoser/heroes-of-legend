@@ -16,7 +16,7 @@ You might like a workbench with room for somebody else’s tools, or dislike an 
 
 **Starting disciplines:** Choose one of Scholarship, Craft, Mentalism, Divination. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Craft, Scholarship. **2 DP:** Medicine, Mentalism, Divination, Force, Spellcraft. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Influence, Elements, Life, Invocation, Wards.
+**Learning costs:** **1 DP:** Craft, Scholarship. **2 DP:** Medicine, Mentalism, Divination, Force, Spellcraft, Tactics. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Influence, Elements, Life, Invocation, Wards, Fencing.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

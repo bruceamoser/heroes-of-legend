@@ -16,7 +16,7 @@ You might take pleasure in a good watch roster, a repaired strap, or the moment 
 
 **Starting disciplines:** Choose one of Armor, Guard, Arms, Medicine. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Armor, Guard. **2 DP:** Arms, Medicine, Wards. **3 DP:** Marksmanship, Athletics, Subterfuge, Wilderness, Craft, Scholarship, Influence, Elements, Life, Mentalism, Divination, Invocation, Force, Spellcraft.
+**Learning costs:** **1 DP:** Armor, Guard. **2 DP:** Arms, Medicine, Wards, Fencing, Tactics. **3 DP:** Marksmanship, Athletics, Subterfuge, Wilderness, Craft, Scholarship, Influence, Elements, Life, Mentalism, Divination, Invocation, Force, Spellcraft.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

@@ -16,7 +16,7 @@ You might collect the names of forgotten things, prefer a door with a story to o
 
 **Starting disciplines:** Choose one of Athletics, Subterfuge, Influence, Spellcraft. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **2 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Medicine, Craft, Scholarship, Influence, Elements, Life, Mentalism, Divination, Invocation, Force, Wards, Spellcraft.
+**Learning costs:** **2 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Wilderness, Medicine, Craft, Scholarship, Influence, Elements, Life, Mentalism, Divination, Invocation, Force, Wards, Spellcraft, Fencing, Tactics.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

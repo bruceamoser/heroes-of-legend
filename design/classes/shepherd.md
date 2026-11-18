@@ -16,7 +16,7 @@ You might love the quiet after a fever breaks, or resent the idea that the slowe
 
 **Starting disciplines:** Choose one of Life, Wards, Medicine, Wilderness. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 
-**Learning costs:** **1 DP:** Life, Wards. **2 DP:** Wilderness, Medicine, Invocation, Spellcraft. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Craft, Scholarship, Influence, Elements, Mentalism, Divination, Force.
+**Learning costs:** **1 DP:** Life, Wards. **2 DP:** Wilderness, Medicine, Invocation, Spellcraft. **3 DP:** Arms, Armor, Guard, Marksmanship, Athletics, Subterfuge, Craft, Scholarship, Influence, Elements, Mentalism, Divination, Force, Fencing, Tactics.
 
 Pay the listed price to begin studying another discipline. Then follow the costs and requirements of the path or spellbook you choose.
 

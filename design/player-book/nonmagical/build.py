@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3]
 SOURCE=ROOT/'design/disciplines'
 HERE=Path(__file__).resolve().parent
-ORDER=['arms','armor','guard','marksmanship','athletics','subterfuge','wilderness','medicine','craft','scholarship','influence']
+ORDER=['arms','fencing','tactics','armor','guard','marksmanship','athletics','subterfuge','wilderness','medicine','craft','scholarship','influence']
 def slug(s):return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
 records=[]
 for ident in ORDER:
@@ -26,7 +26,7 @@ for ident in ORDER:
   d['paths'].append(path)
  assert len(d['paths'])==4,ident
  records.append(d)
-assert len({e['id'] for d in records for p in d['paths'] for e in p['entries']})==308
+assert len({e['id'] for d in records for p in d['paths'] for e in p['entries']})==364
 out=ROOT/'output/pdf';out.mkdir(parents=True,exist_ok=True)
 # Former intersection purchases have been rehomed into paths and spell masteries.
 HERE.joinpath('generated.json').write_text(json.dumps(records,indent=2,ensure_ascii=False))
@@ -43,4 +43,4 @@ if not manifest.exists():
  manifest.parent.mkdir(parents=True,exist_ok=True)
  manifest.write_text(json.dumps([p.stem for p in (HERE.parent/'art/interior').glob('*.png')]))
 if '--data-only' not in __import__('sys').argv: subprocess.run(['typst','compile','--root',str(ROOT),str(HERE/'book.typ'),str(out/'nonmagical-disciplines.pdf')],check=True)
-print('Validated 11 disciplines, 44 paths and 308 sequential entries.')
+print('Validated 13 disciplines, 52 paths and 364 sequential entries.')

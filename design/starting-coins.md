@@ -58,6 +58,7 @@ you carry on departure. Your family’s wealth and circumstances are yours to de
 | [Bone Tender](origins/background-bone-tender.md) | +5 |
 | [Bridge Worker](origins/background-bridge-worker.md) | +7 |
 | [Burglar](origins/background-burglar.md) | +7 |
+| [Company Runner](origins/background-company-runner.md) | +7 |
 | [Confidence Artist](origins/background-confidence-artist.md) | +7 |
 | [Court Questioner](origins/background-court-questioner.md) | +10 |
 | [Dragon-Dreamer](origins/background-dragon-dreamer.md) | +7 |
@@ -75,6 +76,7 @@ you carry on departure. Your family’s wealth and circumstances are yours to de
 | [Pit Fighter](origins/background-pit-fighter.md) | +5 |
 | [Poacher](origins/background-poacher.md) | +7 |
 | [Reluctant Knife](origins/background-reluctant-knife.md) | +5 |
+| [Salle Student](origins/background-salle-student.md) | +7 |
 | [Shore Gatherer](origins/background-shore-gatherer.md) | +5 |
 | [Stage Assistant](origins/background-stage-assistant.md) | +7 |
 | [Star-Touched](origins/background-star-touched.md) | +7 |
