@@ -6,9 +6,9 @@
 
 - **ID:** item-ordinary-light-armor
 - **Bulk:** 1
-- **Requirements / supply:** Learn [Light Armor I](../disciplines/armor.md#harness) to benefit while wearing this suit.
+- **Requirements / supply:** Learn [Light Armor I](../disciplines/armor.md#harness) to wear this suit at your full Agility.
 - **Physical resistance when worn:** 1
-- **Acquisition:** Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.
+- **Acquisition:** Training, coins or DA treasure.
 
 Choose the suit’s appearance. It grants physical resistance 1 while worn. Without the matching learned training, subtract 1 from effective Agility. Use the highest armor resistance and the largest applicable untrained armor penalty.
 
