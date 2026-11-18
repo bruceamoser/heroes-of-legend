@@ -84,7 +84,7 @@
  #v(6pt)#field("LEVEL-1 CLASS SIGNATURE",height:30pt)
  #strip("Development points")
  #text(size:9pt)[10 + Guile + Knowledge + Reason + explicit ancestry benefits. An additional discipline costs your class’s 1, 2 or 3 DP price.]
- #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("8 + MENTAL ATTRIBUTES"),field("EXPLICIT BENEFITS"),field("TOTAL STARTING DP"))
+ #v(6pt)#grid(columns:(1fr,1fr,1fr),gutter:6pt,field("10 + MENTAL ATTRIBUTES"),field("EXPLICIT BENEFITS"),field("TOTAL STARTING DP"))
  #v(6pt)#rows(([DISCIPLINE / ENTRY LEARNED],[REQUIREMENTS MET],[DP],[LEFT]),(2fr,1.5fr,40pt,40pt),16,height:18pt)
  #v(6pt)#grid(columns:(1fr,1fr),gutter:6pt,field("DP SPENT"),field("DP SAVED"))
  #strip("Ready to play")
