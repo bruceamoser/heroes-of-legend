@@ -6,7 +6,7 @@ Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from -2 through +2
 
 Choose a culture and background independently of ancestry. Each offers two disciplines; begin studying one from each. Choose a class whose attribute minimums you meet, then begin studying one discipline from its starting list. Choose three distinct disciplines across these choices. Select one level-1 class signature.
 
-Your starting Development Points (DP) are **8 + Guile + Knowledge + Reason**, including negative values, plus explicit trait benefits. Use these points to learn abilities and spellbook sections. Starting disciplines are already yours to study. An additional discipline costs the 1, 2 or 3 DP printed for your class; then learn its entries at their listed prices. Save unspent DP for later development.
+Your starting Development Points (DP) are **10 + Guile + Knowledge + Reason**, including negative values, plus explicit trait benefits. Use these points to learn abilities and spellbook sections. Starting disciplines are already yours to study. An additional discipline costs the 1, 2 or 3 DP printed for your class; then learn its entries at their listed prices. Save unspent DP for later development.
 
 ## Learning your paths
 
@@ -26,7 +26,7 @@ You may change a signature selection. Choose a replacement from the same milesto
 
 ## Equipment and starting numbers
 
-Gather the equipment your techniques use. A requirement tells you what to obtain; an entry that supplies an item says what you receive. A plain worn outfit is free. Spend **40 + ancestry + culture + background + class coin contributions** on weapons, armor, tools and supplies. Compatible abilities can share one weapon. Light, medium and heavy armor supply physical resistance 1, 2 and 3 respectively when you have the relevant training.
+Take compatible ordinary equipment required by your learned techniques for free. One item can serve several compatible techniques. A plain worn outfit is free. From **40 + ancestry + culture + background + class coin contributions**, pay for starting food, water, lighting and a lesser healing potion. Return unwanted starting provisions at their full price before finishing creation. Spend the balance on other gear. Light, medium and heavy armor grant physical resistance 1, 2 and 3 while worn. If you lack the matching training, subtract that suit’s rating from effective Agility.
 
 Maximum HP is **10 + level x (ancestry HP contribution + class HP contribution) + Fortitude + fixed benefits**. Begin with full HP. Each later level adds ancestry + class contributions to maximum HP; Fortitude and fixed benefits apply once. When you have positive HP, add that level's HP gain to current HP too. At 0 HP, only maximum HP grows.
 

@@ -7,7 +7,7 @@ These techniques require a held shield. Reductions apply after resistance and re
 
 ### Shield Bash I
 DP: 1 | Level: 1
-Main Action · Brawn. Attack one adjacent creature with your shield for 1/2/3 physical damage. On Strong push it 1 square directly away.
+Main Action · Brawn. Attack one adjacent creature with your shield for 1/2/3 physical damage. On Standard or Strong, push it 1 square directly away. Resolve collisions normally.
 
 ### Shield Bash II
 DP: 2 | Level: 1
@@ -87,7 +87,7 @@ Before Take the Blow you may move up to 2 squares without movement reactions to 
 
 ### Take the Blow III
 DP: 4 | Level: 3
-When Take the Blow intercepts a melee attack immediately following the attacker’s voluntary movement, give your defense 1 Boon. After it resolves, the attacker’s remaining voluntary movement this turn becomes 0; forced movement still applies.
+When you use Take the Blow, gain 1 Boon on your defense. After the intercepted attack resolves, the attacker’s remaining voluntary movement this turn becomes 0. Forced movement still applies.
 
 ### The Last Safe Step
 DP: 5 | Level: 7

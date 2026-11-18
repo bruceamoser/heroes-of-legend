@@ -141,7 +141,7 @@ Grade, trench or mound earth by up to 2 squares of depth or height. Shift it wit
 **Target / range:** One creature within 6 squares
 **Duration:** Until the end of your next turn; conditions then decay normally
 
-Stone creeps across the target. Apply Slowed 2/3/4. On Strong also apply Paralyzed 1. A second Strong casting while this spell's Slowed remains makes the target Petrified for 1 minute. Remove Curse, Greater Restoration or the caster's Maneuver ends that petrification.
+Stone creeps across the target. Apply Slowed 2/3/4. On Standard or Strong, also apply Paralyzed 1. If the target is still Slowed by your previous casting, Standard or Strong also makes it Petrified for 1 minute. Remove Curse, Greater Restoration or the caster's Maneuver ends that petrification.
 
 ### Earthquake
 

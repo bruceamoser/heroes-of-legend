@@ -36,7 +36,7 @@ class WorkedExampleAuditTests(unittest.TestCase):
             verify(self.book)
 
     def test_adaptable_omission_fails(self):
-        self.mutate("characters/mara-reedheart.md", "= **11 DP**", "= **10 DP**")
+        self.mutate("characters/mara-reedheart.md", "= **13 DP**", "= **12 DP**")
         with self.assertRaisesRegex(ValueError, "mara-reedheart: printed totals"):
             verify(self.book)
 

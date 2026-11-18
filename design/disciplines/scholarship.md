@@ -19,7 +19,7 @@ Read the Evidence takes 5 minutes per scene-search attempt; recalling a fact tak
 
 ### Reconstruct the Scene I
 DP: 3 | Level: 3
-Main Action · Reason to compare up to three clues already in hand, or 10 minutes to reconstruct a larger investigated scene. Add 1/2/3 progress toward the order of up to three related events. On completion the DA states supported conclusions and gaps; this reveals no unseen thoughts.
+Main Action · Reason to compare up to three accessible clues, or 10 minutes to reconstruct a larger scene you can examine. Add 1/2/3 progress toward the order of up to three related events. On completion the DA states supported conclusions and gaps; this reveals no unseen thoughts.
 
 ### Reconstruct the Scene II
 DP: 4 | Level: 3
@@ -31,7 +31,7 @@ Reconstruct the Scene may connect up to five related events, with 1 Boon when at
 
 ### The Truth before the Council
 DP: 5 | Level: 7
-10 minutes · Reason. Present a case supported by investigated evidence, including a physical exhibit you can demonstrate, to up to four decision-makers who understand you. Roll once; add 3/5/7 progress to each relevant acceptance objective. On completion a listener acknowledges the supported facts and grants the attainable concession established with the DA. Unsupported claims and inaccessible facts remain unproven.
+10 minutes · Reason. Present your findings and their supporting evidence to up to four decision-makers who understand you. Use testimony, records, exhibits or an explanation of what you found. Roll once; add 3/5/7 progress to each relevant acceptance objective. On completion a listener acknowledges the supported facts and grants the attainable concession established with the DA. Unsupported claims and inaccessible facts remain unproven.
 
 ## Planning
 
@@ -49,7 +49,7 @@ Survey the Ground also reveals one feasible fallback route when its objective co
 
 ### Prepared Retreat I
 DP: 3 | Level: 3
-Maneuver. Once per scene, at a site you surveyed, direct up to three willing allies within 6 squares along its identified fallback route. Each immediately moves 2 squares without movement reactions. They must perceive your instructions; changed or blocked routes provide no passage. No roll.
+Maneuver. Once per scene, direct up to three willing allies within 6 squares along a visible or familiar fallback route. Each immediately moves 2 squares without movement reactions. They must perceive your instructions; changed or blocked routes provide no passage. No roll.
 
 ### Prepared Retreat II
 DP: 4 | Level: 3
@@ -57,17 +57,17 @@ Prepared Retreat may direct four allies and lets each move 3 squares.
 
 ### Prepared Retreat III
 DP: 4 | Level: 3
-You can also name a weakness established by observation or reliable evidence as a Maneuver: tell up to three allies within 6 squares; each gains 1 Boon on its next attack against that creature before your next turn ends. Once per creature per scene. This grants no extra attacks or targets.
+You can also spend a Maneuver to point out an opening against a visible enemy to up to three allies within 6 squares. Each ally who perceives your cue gains 1 Boon on its next attack against that enemy before your next turn ends. Once per creature per scene. This grants no extra attacks or targets.
 
 ### Name the Decisive Weakness
 DP: 5 | Level: 7
-Maneuver. Once per creature per scene, expose one vulnerability in a visible enemy’s anatomy, construction or tactics that you established through evidence. Up to four allies within 6 squares who perceive your explanation gain 2 Boons on their next attack against it before your next turn ends; each such attack ignores 1 point of one matching resistance. Immunity remains. This replaces the preceding step’s weaker weakness benefit for that creature; it creates no vulnerability unsupported by the evidence.
+Maneuver. Once per creature per scene, describe an opening in a visible enemy’s stance, construction or tactics. Up to four allies within 6 squares who perceive your explanation gain 2 Boons on their next attack against it before your next turn ends; each such attack ignores 1 point of one matching resistance. Immunity remains. Use this benefit in place of Prepared Retreat’s attack Boon for that creature.
 
 ## Disputation
 
 ### Counterexample I
 DP: 1 | Level: 1
-Reaction. When someone presents a claim contradicting evidence you already possess, before a listener’s roll to assess that claim, identify the contradiction to that listener within 6 squares. If it understands you, give that roll 1 Boon. Once per distinct claim; invented objections grant no repeated opportunities. No roll of your own.
+Reaction. Before a listener within 6 squares rolls to assess a claim, ask a question or talk through the claim with them. If the listener understands you, give that roll 1 Boon. Once per distinct claim. No roll of your own.
 
 ### Counterexample II
 DP: 2 | Level: 1
@@ -75,11 +75,11 @@ Counterexample grants 2 Boons.
 
 ### Counterexample III
 DP: 2 | Level: 1
-Counterexample may aid two listeners assessing the same claim, before their rolls. Reaction: after you have seen a creature make the same attack earlier in this scene, warn one ally within 6 squares before its defense against that repeated attack; if it understands you, grant 1 defense Boon. Once per attacker per scene.
+Counterexample may aid two listeners assessing the same claim, before their rolls. Reaction: before an ally within 6 squares rolls defense against an attack you can perceive, point out the danger. If the ally understands you, give that defense 1 Boon. Once per attacker per scene.
 
 ### Correct the Record I
 DP: 3 | Level: 3
-Reaction · Knowledge. When a listener within 6 squares is about to act on a factual error contradicted by evidence you can present, state the correction before the action. Add 1/2/3 progress to the DA’s objective for accepting that correction. On completion the listener understands the error; its decisions remain its own. Once per claim per conversation; the listener must perceive and understand the evidence.
+Reaction · Knowledge. When a listener within 6 squares is about to act on a factual error, explain what it has missed before it acts. Add 1/2/3 progress to the DA’s objective for accepting your correction. On completion the listener understands the error and decides how to act. Once per claim per conversation. The listener must be able to understand you.
 
 ### Correct the Record II
 DP: 4 | Level: 3
@@ -91,7 +91,7 @@ Correct the Record may address up to three listeners with separate acceptance ob
 
 ### Proof against Panic
 DP: 5 | Level: 7
-Reaction · Knowledge. When a false claim or misidentified visible danger is about to cause a group within 6 squares to flee, attack or abandon a task, present evidence contradicting it before that choice resolves. Roll once; add 3/5/7 progress to up to four listeners’ separate correction objectives. A listener whose objective completes also reduces Frightened arising from that mistaken belief by 2. Once per distinct claim per scene; true danger, magical compulsion and player decisions are unaffected.
+Reaction · Knowledge. When a group within 6 squares is about to act on an alarming claim or misunderstanding, offer a credible correction it can understand before it acts. Roll once; add 3/5/7 progress to up to four listeners’ separate correction objectives. A listener whose objective completes also reduces Frightened arising from that mistaken belief by 2. Once per distinct claim per scene; true danger, magical compulsion and player decisions are unaffected.
 
 ## Languages
 

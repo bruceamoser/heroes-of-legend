@@ -6,7 +6,7 @@
 
 **Action:** Passive modifier to a melee weapon attack · **Attribute:** Use that attack’s attribute
 
-**Target / range / shape:** An enemy that damaged one of your allies since the end of your last turn.
+**Target / range / shape:** An enemy that damaged one of your allies this scene.
 
 Once on your turn, declare this modifier and pay 1 SP before a melee weapon attack against that enemy. Add 1/2/3 radiant damage to the attack on Weak/Standard/Strong. On Standard or Strong, also push the target 1 square directly away from you. On Strong, also apply Dazed 1. Resolve each damage component’s resistance, then apply the minimum once to the whole attack. Resolve Stability, collisions and condition immunity normally.
 

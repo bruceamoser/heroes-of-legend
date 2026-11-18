@@ -60,7 +60,7 @@ Give a one-word request to approach a safe square, halt movement, or drop a held
 **Escape attribute:** Reason
 **Duration:** Sustained, up to 1 minute
 
-Bands of pale light grip its limbs. Apply Slowed 1/2/3; on Strong also apply Paralyzed 1. Each upkeep renews this casting’s original ratings rather than adding to them. A conscious target may spend a Main Action to attempt escape using the printed hold and escape attributes, even while these bands restrict its actions. Escape ends this casting’s conditions on that target; ending Sustain removes them.
+Bands of pale light grip its limbs. Apply Slowed 1/2/3. On Standard or Strong, also apply Paralyzed 1. Each upkeep renews this casting’s original ratings rather than adding to them. A conscious target may spend a Main Action to attempt escape using the printed hold and escape attributes, even while these bands restrict its actions. Escape ends this casting’s conditions on that target; ending Sustain removes them.
 
 ### Magic Circle
 
@@ -85,7 +85,7 @@ Choose summoned forms, undead or spirits. Creatures of that kind gain 2 Banes on
 **Target / range:** One creature within 6 squares
 **Duration:** Until your next turn ends
 
-Deal 3/5/7 radiant damage to a summoned energy form; at 0 HP it disperses. An independent creature instead takes Frightened 1/2/3, with an image of its home as source. On Strong, a willing extraplanar creature may return to its home plane rather than take that fear.
+Deal 3/5/7 radiant damage to a summoned energy form; at 0 HP it disperses. An independent creature instead takes Frightened 1/2/3, with an image of its home as source. On Standard or Strong, a willing extraplanar creature may return to its home plane in place of that fear.
 
 ### Planar Binding
 

@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +1 | +2 | +0 | +1 | -1 |
 
-Total **+3**. Starting development: 8 + Guile +0 + Knowledge +1 + Reason -1 = **8 DP**.
+Total **+3**. Starting development: 10 + Guile +0 + Knowledge +1 + Reason -1 = **10 DP**.
 
 ### [Footfall on the Leaves](../ancestries/trait-elf-light-tread.md)
 
@@ -50,15 +50,15 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Measured Shot I](../disciplines/marksmanship.md) | 1 | 7 |
-| [Measured Shot II](../disciplines/marksmanship.md) | 2 | 5 |
-| [Hobbling Aim I](../disciplines/marksmanship.md) | 1 | 4 |
-| [Watchful Shot I](../disciplines/marksmanship.md) | 1 | 3 |
-| [Read the Trail I](../disciplines/wilderness.md) | 1 | 2 |
-| [Catch Your Balance I](../disciplines/athletics.md) | 1 | 1 |
-| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 0 |
+| [Measured Shot I](../disciplines/marksmanship.md) | 1 | 9 |
+| [Measured Shot II](../disciplines/marksmanship.md) | 2 | 7 |
+| [Hobbling Aim I](../disciplines/marksmanship.md) | 1 | 6 |
+| [Watchful Shot I](../disciplines/marksmanship.md) | 1 | 5 |
+| [Read the Trail I](../disciplines/wilderness.md) | 1 | 4 |
+| [Catch Your Balance I](../disciplines/athletics.md) | 1 | 3 |
+| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 2 |
 
-**Spent 8 DP; 0 DP remaining.**
+**Spent 8 DP; 2 DP remaining.**
 
 ## Your learned techniques
 
@@ -66,9 +66,9 @@ This is the one free signature choice for level 1.
 
 **Measured Shot II.** Measured Shot deals 3/4/6 physical damage.
 
-**Hobbling Aim I.** Maneuver. Choose one visible creature within 8 squares. Your next Main Action ranged or thrown attack against it before this turn ends also applies Slowed 1 on Strong. This modifies one target of one attack. Reusing this technique replaces its unused effect.
+**Hobbling Aim I.** Maneuver. Choose one visible creature within 8 squares. Your next Main Action ranged or thrown attack against it before this turn ends also applies Slowed 1 on Standard or Strong. This modifies one target of one attack. Reusing this technique replaces its unused effect.
 
-**Watchful Shot I.** Reaction · Agility. When a visible enemy within 6 squares finishes voluntary movement adjacent to an ally, attack it for 1/2/3 physical damage. Resolve after the movement; you need a ready weapon.
+**Watchful Shot I.** Reaction · Agility. When a visible enemy within 6 squares finishes voluntary movement, attack it for 1/2/3 physical damage after that movement.
 
 **Read the Trail I.** Main Action · Reason. Read tracks or signs immediately before you; add 1/2/3 progress toward identifying direction, approximate numbers and freshness. Following a trail to the next landmark takes 10 minutes per attempt instead. The DA defines each objective from accessible evidence.
 

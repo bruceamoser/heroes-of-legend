@@ -48,7 +48,7 @@ Assign Brawn, Fortitude, Agility, Guile, Knowledge and Reason from -2 through +2
 
 Choose a culture and background independently of ancestry. Each offers two disciplines; begin studying one from each. Choose a class whose attribute minimums you meet, then begin studying one discipline from its starting list. Choose three distinct disciplines across these choices. Select one level-1 class signature.
 
-Your starting Development Points (DP) are **8 + Guile + Knowledge + Reason**, including negative values, plus explicit trait benefits. Use these points to learn abilities and spellbook sections. Starting disciplines are already yours to study. An additional discipline costs the 1, 2 or 3 DP printed for your class; then learn its entries at their listed prices. Save unspent DP for later development.
+Your starting Development Points (DP) are **10 + Guile + Knowledge + Reason**, including negative values, plus explicit trait benefits. Use these points to learn abilities and spellbook sections. Starting disciplines are already yours to study. An additional discipline costs the 1, 2 or 3 DP printed for your class; then learn its entries at their listed prices. Save unspent DP for later development.
 
 ## Learning your paths
 

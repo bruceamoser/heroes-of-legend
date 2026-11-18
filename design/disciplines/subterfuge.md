@@ -19,7 +19,7 @@ Patient Hand takes 5 minutes rather than 10 on intricate locks.
 
 ### Open under Pressure I
 DP: 3 | Level: 3
-Main Action · Guile, with lock tools. Work on a nonmagical lock already examined through at least one Patient Hand attempt; add 1/2/3 progress. You may repeat this faster action until that lock opens, provided its workings remain accessible.
+Main Action · Guile, with lock tools. Work on a reachable nonmagical lock with accessible workings. Add 1/2/3 progress toward opening it.
 
 ### Open under Pressure II
 DP: 4 | Level: 3
@@ -67,7 +67,7 @@ Maneuver · Guile during an ongoing conversation. Engage a listener who understa
 
 ### Catch the Click I
 DP: 1 | Level: 1
-Reaction. When you see a reachable nonmagical mechanism begin to trigger, warn one creature within 3 squares that can perceive you before its defense or avoidance roll; that roll gains 1 Boon. Once per triggering event. You can also inspect a suspected reachable trap for 1 minute, rolling Reason for 1/2/3 progress to identify its trigger and danger.
+Reaction. When you see a nonmagical trap begin to trigger, warn one creature within 3 squares that can perceive you before its defense or avoidance roll; that roll gains 1 Boon. Once per triggering event. You can also inspect a suspected reachable trap for 1 minute, rolling Reason for 1/2/3 progress to identify its trigger and danger.
 
 ### Catch the Click II
 DP: 2 | Level: 1
@@ -79,7 +79,7 @@ After identifying a trap through that inspection, gain 1 Boon on Guile rolls to 
 
 ### Turn the Trap I
 DP: 3 | Level: 3
-Reaction. When a nonmagical trap you identified begins to trigger, use tools in hand to shift a reachable trigger or guide one willing adjacent creature 1 square to a legal destination before the trap resolves. This movement triggers no movement reactions; the trap then resolves normally at its actual area. Once per triggering event. You can also reconfigure an identified trap with 10 minutes and tools: roll Guile for 1/2/3 progress; completion establishes one reachable trigger or safe bypass without increasing damage or scale.
+Reaction. When you notice a nonmagical trap trigger, guide one willing adjacent creature 1 square to a legal destination before the trap resolves. You can instead shift a reachable trigger you understand with tools in hand. This movement triggers no movement reactions; the trap then resolves normally at its actual area. Once per triggering event. You can also reconfigure an identified trap with 10 minutes and tools: roll Guile for 1/2/3 progress; completion establishes one reachable trigger or safe bypass without increasing damage or scale.
 
 ### Turn the Trap II
 DP: 4 | Level: 3

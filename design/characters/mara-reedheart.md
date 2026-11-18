@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +1 | +0 | +0 | +0 | +2 |
 
-Total **+3**. Starting development: 8 + Guile +0 + Knowledge +0 + Reason +2 + 1 from Adaptable = **11 DP**.
+Total **+3**. Starting development: 10 + Guile +0 + Knowledge +0 + Reason +2 + 1 from Adaptable = **13 DP**.
 
 ### [Adaptable](../ancestries/trait-human-far-walker.md)
 
@@ -52,17 +52,17 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Restoration I](../spellbooks/restoration.md) | 1 | 10 |
-| [Restoration II](../spellbooks/restoration.md) | 2 | 8 |
-| [Growth I](../spellbooks/growth.md) | 1 | 7 |
-| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 6 |
-| [Gentle Hand I](../disciplines/wilderness.md) | 1 | 5 |
-| [Field Dressing I](../disciplines/medicine.md) | 1 | 4 |
-| [Field Dressing II](../disciplines/medicine.md) | 2 | 2 |
-| [Patient Care I](../disciplines/medicine.md) | 1 | 1 |
-| [Trail Warning I](../disciplines/wilderness.md) | 1 | 0 |
+| [Restoration I](../spellbooks/restoration.md) | 1 | 12 |
+| [Restoration II](../spellbooks/restoration.md) | 2 | 10 |
+| [Growth I](../spellbooks/growth.md) | 1 | 9 |
+| [Wild Harvest I](../disciplines/wilderness.md) | 1 | 8 |
+| [Gentle Hand I](../disciplines/wilderness.md) | 1 | 7 |
+| [Field Dressing I](../disciplines/medicine.md) | 1 | 6 |
+| [Field Dressing II](../disciplines/medicine.md) | 2 | 4 |
+| [Patient Care I](../disciplines/medicine.md) | 1 | 3 |
+| [Trail Warning I](../disciplines/wilderness.md) | 1 | 2 |
 
-**Spent 11 DP; 0 DP remaining.**
+**Spent 11 DP; 2 DP remaining.**
 
 ## Your learned techniques
 
@@ -74,7 +74,7 @@ This is the one free signature choice for level 1.
 
 **Wild Harvest I.** 1 hour · Knowledge. Search an accessible area with plausible resources; gather 1/2/3 person-days of food, or that much drinkable water if a source exists. The DA defines the area before rolling. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
 
-**Gentle Hand I.** Maneuver · Reason. Reassure one nonmagical animal within 2 squares that can perceive you and is already receptive to your presence; add 1/2/3 progress toward calming its immediate fear. An unfamiliar agitated animal takes 1 minute per attempt instead. Immediate danger or an implausible approach prevents progress.
+**Gentle Hand I.** Maneuver · Reason. Reassure one nonmagical animal within 2 squares that can perceive you and add 1/2/3 progress toward calming its fear. Spend a Maneuver with a receptive animal or 1 minute per attempt with a wary or agitated one. Find an approach it can respond to in the circumstances.
 
 **Field Dressing I.** Main Action, with a free hand and bandaging: reduce an adjacent patient’s Bleeding by 2, minimum 0, without HP restoration or a first-aid attempt. Alternatively spend 10 minutes and roll Knowledge to restore 3/5/7 HP to a patient within reach, consuming its first-aid attempt.
 

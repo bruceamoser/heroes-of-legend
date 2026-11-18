@@ -16,7 +16,7 @@ goal or reach a significant turning point. A negotiated settlement can qualify
 just as well as a battle. Tell the group what kind of progress you intend to
 recognize so they do not feel required to seek unnecessary fights.
 
-Help players create level-1 heroes by choosing ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 8 + Guile + Knowledge + Reason, plus explicit benefits.
+Help players create level-1 heroes by choosing ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 10 + Guile + Knowledge + Reason, plus explicit benefits.
 
 The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add ancestry HP + class HP to maximum HP. Add the same amount to current HP if the hero is above 0 HP. At 0 HP, increase only the maximum. Add **2 maximum SP**, keeping current SP unchanged. Neither a level gain nor a signature change refreshes spent Grit.
 

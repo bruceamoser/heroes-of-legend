@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +0 | +0 | +1 | +2 | +0 |
 
-Total **+3**. Starting development: 8 + Guile +1 + Knowledge +2 + Reason +0 + 1 from Adaptable = **12 DP**.
+Total **+3**. Starting development: 10 + Guile +1 + Knowledge +2 + Reason +0 + 1 from Adaptable = **14 DP**.
 
 ### [Adaptable](../ancestries/trait-human-far-walker.md)
 
@@ -52,17 +52,17 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Mend and Fit I](../disciplines/craft.md) | 1 | 11 |
-| [Mend and Fit II](../disciplines/craft.md) | 2 | 9 |
-| [Smoke in a Bottle I](../disciplines/craft.md) | 1 | 8 |
-| [Catch the Failure I](../disciplines/craft.md) | 1 | 7 |
-| [Read the Evidence I](../disciplines/scholarship.md) | 1 | 6 |
-| [Read the Evidence II](../disciplines/scholarship.md) | 2 | 4 |
-| [Survey the Ground I](../disciplines/scholarship.md) | 1 | 3 |
-| [Portents I](../spellbooks/portents.md) | 1 | 2 |
-| [Portents II](../spellbooks/portents.md) | 2 | 0 |
+| [Mend and Fit I](../disciplines/craft.md) | 1 | 13 |
+| [Mend and Fit II](../disciplines/craft.md) | 2 | 11 |
+| [Smoke in a Bottle I](../disciplines/craft.md) | 1 | 10 |
+| [Catch the Failure I](../disciplines/craft.md) | 1 | 9 |
+| [Read the Evidence I](../disciplines/scholarship.md) | 1 | 8 |
+| [Read the Evidence II](../disciplines/scholarship.md) | 2 | 6 |
+| [Survey the Ground I](../disciplines/scholarship.md) | 1 | 5 |
+| [Portents I](../spellbooks/portents.md) | 1 | 4 |
+| [Portents II](../spellbooks/portents.md) | 2 | 2 |
 
-**Spent 12 DP; 0 DP remaining.**
+**Spent 12 DP; 2 DP remaining.**
 
 ## Your learned techniques
 
@@ -72,7 +72,7 @@ This is the one free signature choice for level 1.
 
 **Smoke in a Bottle I.** 1 hour · Knowledge, with alchemical tools and one purchased batch of smoke ingredients. Add 1/2/3 progress toward target 3 to prepare one smoke flask. Maneuver: throw a prepared flask to a visible point within 4 squares, consuming it. Smoke fills a 1-square-radius area until your next turn ends and blocks sight through it. No throwing roll.
 
-**Catch the Failure I.** Reaction. When a visible component begins to fail during a nonmagical task you are attending within reach, use tools in hand to arrest it before the consequence resolves. Give the worker 1 Boon on the associated roll to prevent injury or material loss, if such a roll is possible. Once per distinct failure event; this does not improve the task’s progress roll or reverse damage already applied.
+**Catch the Failure I.** Reaction. When a visible component within reach begins to fail during a nonmagical task, use tools in hand to arrest it before the consequence resolves. Give the worker 1 Boon on the associated roll to prevent injury or material loss, if such a roll is possible. Once per distinct failure event; this does not improve the task’s progress roll or reverse damage already applied.
 
 **Read the Evidence I.** Main Action · Reason. Examine one accessible clue within reach; add 1/2/3 progress toward a concrete question about it. Searching a scene instead takes 10 minutes per attempt. You may also recall a relevant fact about a subject or reliable description: 1 minute, Knowledge, 1/2/3 progress toward a question set before rolling.
 

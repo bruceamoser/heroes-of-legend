@@ -45,7 +45,7 @@ Share one brief harmless dream image or soothing sensation. The sleeper later re
 **Target / range:** One creature within 4 squares
 **Duration:** Instant; conditions decay normally
 
-Send drowsiness over the target. Apply Slowed 1/2/3; on Strong also apply Asleep 1. Damage or ordinary waking procedures end Asleep.
+Send drowsiness over the target. Apply Slowed 1/2/3. On Standard or Strong, also apply Asleep 1. Damage or ordinary waking procedures end Asleep.
 
 ### Dream Message
 

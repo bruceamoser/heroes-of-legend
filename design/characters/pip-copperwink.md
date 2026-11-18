@@ -10,7 +10,7 @@
 |---:|---:|---:|---:|---:|---:|
 | +0 | +0 | +2 | +2 | +0 | -1 |
 
-Total **+3**. Starting development: 8 + Guile +2 + Knowledge +0 + Reason -1 = **9 DP**.
+Total **+3**. Starting development: 10 + Guile +2 + Knowledge +0 + Reason -1 = **11 DP**.
 
 ### [Under Their Noses](../ancestries/trait-halfling-small-passage.md)
 
@@ -50,15 +50,15 @@ This is the one free signature choice for level 1.
 
 | Learning | DP | Remaining |
 |---|---:|---:|
-| [Measured Cut I](../disciplines/arms.md) | 1 | 8 |
-| [Measured Cut II](../disciplines/arms.md) | 2 | 6 |
-| [Driving Opening I](../disciplines/arms.md) | 1 | 5 |
-| [Quiet Passage I](../disciplines/subterfuge.md) | 1 | 4 |
-| [Patient Hand I](../disciplines/subterfuge.md) | 1 | 3 |
-| [Patient Hand II](../disciplines/subterfuge.md) | 2 | 1 |
-| [Catch Your Balance I](../disciplines/athletics.md) | 1 | 0 |
+| [Measured Cut I](../disciplines/arms.md) | 1 | 10 |
+| [Measured Cut II](../disciplines/arms.md) | 2 | 8 |
+| [Driving Opening I](../disciplines/arms.md) | 1 | 7 |
+| [Quiet Passage I](../disciplines/subterfuge.md) | 1 | 6 |
+| [Patient Hand I](../disciplines/subterfuge.md) | 1 | 5 |
+| [Patient Hand II](../disciplines/subterfuge.md) | 2 | 3 |
+| [Catch Your Balance I](../disciplines/athletics.md) | 1 | 2 |
 
-**Spent 9 DP; 0 DP remaining.**
+**Spent 9 DP; 2 DP remaining.**
 
 ## Your learned techniques
 
@@ -66,7 +66,7 @@ This is the one free signature choice for level 1.
 
 **Measured Cut II.** Measured Cut deals 3/4/6 physical damage.
 
-**Driving Opening I.** Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it also pushes it 1 square directly away from your attack position on Strong. This modifies one attack, not each target of a sweep. Reusing this technique replaces its unused effect.
+**Driving Opening I.** Maneuver. Choose one visible creature. Before your turn ends, your next Main Action melee weapon attack against it pushes that creature directly away from your attack position, 1 square on Standard or 2 squares on Strong. Resolve collisions normally. Apply the push only to the chosen creature on that attack. Reusing this technique replaces its unused effect.
 
 **Quiet Passage I.** Passive. Gain 1 Boon on Agility rolls to move quietly while concealed. Concealment needs cover or a plausible distraction.
 

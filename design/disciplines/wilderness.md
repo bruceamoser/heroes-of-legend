@@ -19,7 +19,7 @@ Read the Trail takes 5 minutes per attempt when following a trail.
 
 ### Cut Them Off I
 DP: 3 | Level: 3
-Main Action · Reason to interpret a visible junction on a trail you followed, or 10 minutes to scout a wider interception route. Add 1/2/3 progress toward finding a physically feasible interception. Completion reveals the route and travel time, not a guarantee of arriving first.
+Main Action · Reason to interpret a visible junction on a readable trail, or 10 minutes to scout a wider interception route. Add 1/2/3 progress toward finding a physically feasible interception. Completion reveals the route and travel time, not a guarantee of arriving first.
 
 ### Cut Them Off II
 DP: 4 | Level: 3
@@ -31,13 +31,13 @@ After completing Cut Them Off, you and up to four companions gain 1 Boon on trav
 
 ### Unerring Pursuit
 DP: 5 | Level: 7
-Main Action · Reason at a visible junction, or 10 minutes to scout the surrounding area. From a trail you followed, add 3/5/7 progress toward predicting the quarry’s next reachable landmark from its tracks and known terrain. Completion identifies the best-supported destination and gaps in the evidence. You and up to six companions gain 2 Boons on pursuit and traversal rolls along that route until reaching it. This does not locate a quarry that left no readable evidence.
+Main Action · Reason at a visible junction, or 10 minutes to scout the surrounding area. From a trail you can read, add 3/5/7 progress toward predicting the quarry’s next reachable landmark from its tracks and known terrain. Completion identifies the best-supported destination and gaps in the evidence. You and up to six companions gain 2 Boons on pursuit and traversal rolls along that route until reaching it. This does not locate a quarry that left no readable evidence.
 
 ## Animal Handling
 
 ### Gentle Hand I
 DP: 1 | Level: 1
-Maneuver · Reason. Reassure one nonmagical animal within 2 squares that can perceive you and is already receptive to your presence; add 1/2/3 progress toward calming its immediate fear. An unfamiliar agitated animal takes 1 minute per attempt instead. Immediate danger or an implausible approach prevents progress.
+Maneuver · Reason. Reassure one nonmagical animal within 2 squares that can perceive you and add 1/2/3 progress toward calming its fear. Spend a Maneuver with a receptive animal or 1 minute per attempt with a wary or agitated one. Find an approach it can respond to in the circumstances.
 
 ### Gentle Hand II
 DP: 2 | Level: 1
@@ -61,7 +61,7 @@ Lead the Herd can guide twelve calm animals, and you gain 1 Boon on handling rol
 
 ### Wild Accord
 DP: 5 | Level: 7
-Maneuver · Reason. Give a familiar, cooperative nonmagical animal group of up to twelve one understandable direction: follow, wait, scatter to safety or approach a named visible place. Add 3/5/7 progress to the DA’s objective for overcoming present fear or confusion; ordinary cooperation with a safe instruction needs no roll. Completion gets the group carrying out that direction. This grants no attacks or additional combat turns; serious danger or mistreatment ends cooperation.
+Maneuver · Reason. Give up to twelve nonmagical animals that can perceive you one understandable direction: follow, wait, scatter to safety or approach a named visible place. For a group that needs coaxing, add 3/5/7 progress to the DA’s handling objective. A group already cooperating follows a safe instruction without a roll. Completion gets the group carrying out that direction. This grants no attacks or additional combat turns; serious danger or mistreatment ends cooperation.
 
 ## Trailcraft
 
