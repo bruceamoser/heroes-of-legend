@@ -1,4 +1,4 @@
-# Heroes of Legend
+# Deeds of Legend
 
 **Strategic character development. Fast, card-driven fantasy adventure.**
 

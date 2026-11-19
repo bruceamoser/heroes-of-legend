@@ -1,4 +1,4 @@
-# Heroes of Legend — Player's Book
+# Deeds of Legend — Player's Book
 
 The level 1–10 player-book manuscript, built in Typst with the approved cover and
 Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.

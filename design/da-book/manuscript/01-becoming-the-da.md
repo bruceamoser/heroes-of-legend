@@ -66,7 +66,7 @@ should not determine whether their silver-tongued hero gets to use an ability.
 This is enough to begin. Keep the names, nearby locations and creature cards within
 reach. Leave room to discover what the players consider important.
 
-## The rhythm of Heroes of Legend
+## The rhythm of Deeds of Legend
 
 Give the heroes situations where their chosen abilities can make a difference.
 A narrow escape calls for movement, a crowded bridge for careful positioning,

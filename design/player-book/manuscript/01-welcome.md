@@ -1,10 +1,10 @@
-# Welcome to Heroes of Legend
+# Welcome to Deeds of Legend
 
 The door has held for a hundred years. Tonight, someone on the other side is knocking.
 Your companions look at you. You have a lantern, a scar that aches before rain, and
 one very bad idea that might get everyone through this alive.
 
-**Heroes of Legend** is a fantasy roleplaying game about people who become remarkable
+**Deeds of Legend** is a fantasy roleplaying game about people who become remarkable
 through the choices they make. You might be a scholar who reads an opponent's stance
 like a page, a guardian who plants a shield in the only safe doorway, or a wanderer
 who calls the forest to your friends' defense. Your character is built from ancestry,

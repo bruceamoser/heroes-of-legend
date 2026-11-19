@@ -346,7 +346,7 @@ def recipe_card(p):
 
 def section(n,title):return '#chapter('+q(n)+','+q(title)+')\n'
 parts=['#import "../template.typ": *\n']
-parts.append(manuscript('01-welcome.md','1','Welcome to Heroes of Legend','Four companions pause at a ruined library threshold: shield, lantern, open book and bow. Show their anticipation, not a battle.'))
+parts.append(manuscript('01-welcome.md','1','Welcome to Deeds of Legend','Four companions pause at a ruined library threshold: shield, lantern, open book and bow. Show their anticipation, not a battle.'))
 parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(hp_reference())
 parts.append(sp_reference())

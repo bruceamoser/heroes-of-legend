@@ -5,7 +5,7 @@
 #let ink = rgb("#28251c")
 #let chapter-name = state("chapter-name", "Player’s Book")
 #let setup(body) = {
-  set document(title: "Heroes of Legend — Player’s Book", author: "Bruce A. Moser")
+  set document(title: "Deeds of Legend — Player’s Book", author: "Bruce A. Moser")
   set text(font: "EB Garamond", size: 10.5pt, fill: ink, lang: "en", hyphenate: true)
   set par(leading: 0.42em, spacing: 0.65em, justify: false)
   set page(width: 612pt, height: 792pt, margin: (left: 42pt, right: 42pt, top: 52pt, bottom: 46pt), fill: paper,
@@ -16,7 +16,7 @@
       }
     },
     header: context {
-      grid(columns: (1fr, 1fr), text(font: "Cinzel", size: 8pt, fill: forest)[Heroes of Legend],
+      grid(columns: (1fr, 1fr), text(font: "Cinzel", size: 8pt, fill: forest)[Deeds of Legend],
         align(right, text(size: 8pt, fill: forest, {
           let hs = query(heading.where(level: 1)).filter(h => h.location().page() <= here().page())
           if hs.len() > 0 { hs.last().body } else { [Player’s Book] }
