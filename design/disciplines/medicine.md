@@ -97,7 +97,7 @@ Reaction · Knowledge. Once per safe overnight rest, when an adjacent living cre
 
 ### Read the Symptoms I
 DP: 1 | Level: 1
-10 minutes · Knowledge. Examine a patient with observable symptoms or a sample; add 1/2/3 progress toward identifying a nonmagical disease or toxin and a plausible remedy.
+Main Action · 10 minutes · Knowledge. Examine a patient with observable symptoms or a sample; add 1/2/3 progress toward identifying a nonmagical disease or toxin and a plausible remedy.
 
 ### Read the Symptoms II
 DP: 2 | Level: 1
@@ -109,7 +109,7 @@ Read the Symptoms takes 5 minutes per attempt.
 
 ### Prepare the Remedy I
 DP: 3 | Level: 3
-1 hour · Knowledge, with ingredients appropriate to a diagnosed toxin. Prepare one dose by adding 1/2/3 progress to the DA’s preparation objective. Administer the completed dose as a Main Action to reduce that toxin’s Poisoned by 2. Consume it on use. Other disease effects require their stated remedy.
+Main Action · 1 hour · Knowledge, with ingredients appropriate to a diagnosed toxin. Prepare one dose by adding 1/2/3 progress to the DA’s preparation objective. Administer the completed dose as a Main Action to reduce that toxin’s Poisoned by 2. Consume it on use. Other disease effects require their stated remedy.
 
 ### Prepare the Remedy II
 DP: 4 | Level: 3
@@ -121,4 +121,4 @@ Prepare the Remedy’s dose reduces its toxin’s Poisoned by 3 instead of 2.
 
 ### The Field Hospital
 DP: 5 | Level: 7
-30 minutes, with medical supplies and a safe prepared shelter. Treat up to six patients, using each available first-aid attempt. Roll Knowledge once; each restores 5/8/11 HP and reduces temporary Bleeding or Poisoned by 2, choosing separately per patient. A patient with a spent allowance receives condition care only. Supplies must cover all patients. This creates no extra first-aid allowance, SP recovery or overnight rest.
+Main Action · 30 minutes, with medical supplies and a safe prepared shelter. Treat up to six patients, using each available first-aid attempt. Roll Knowledge once; each restores 5/8/11 HP and reduces temporary Bleeding or Poisoned by 2, choosing separately per patient. A patient with a spent allowance receives condition care only. Supplies must cover all patients. This creates no extra first-aid allowance, SP recovery or overnight rest.

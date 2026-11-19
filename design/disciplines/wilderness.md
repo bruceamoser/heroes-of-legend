@@ -97,7 +97,7 @@ Reaction. When one visible natural hazard threatens a group within 6 squares, wa
 
 ### Wild Harvest I
 DP: 1 | Level: 1
-1 hour · Knowledge. Search an accessible area for food or drinkable water. The DA defines the area and confirms a plausible source before you roll. Raise one Food Bundle or Water Flask of the chosen type by 1/2/3 supply die steps, maximum d8. An empty supply starts at d4 on the first step. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
+Main Action · 1 hour · Knowledge. Search an accessible area for food or drinkable water. The DA defines the area and confirms a plausible source before you roll. Raise one Food Bundle or Water Flask of the chosen type by 1/2/3 supply die steps, maximum d8. An empty supply starts at d4 on the first step. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
 
 ### Wild Harvest II
 DP: 2 | Level: 1
@@ -109,7 +109,7 @@ When you find both sources, Wild Harvest can raise one Food Bundle and one Water
 
 ### A Camp without a Trace I
 DP: 3 | Level: 3
-30 minutes · Guile. Conceal a completed camp and its approach; add 1/2/3 progress to the DA’s concealment objective. Completion hides casual signs; direct search remains possible. You can also search water-bearing terrain for 1 hour, rolling Reason for 1/2/3 progress toward finding a concealed spring; completion reveals its location and visible hazards, not purification.
+Main Action · 30 minutes · Guile. Conceal a completed camp and its approach; add 1/2/3 progress to the DA’s concealment objective. Completion hides casual signs; direct search remains possible. You can also search water-bearing terrain for 1 hour, rolling Reason for 1/2/3 progress toward finding a concealed spring; completion reveals its location and visible hazards, not purification.
 
 ### A Camp without a Trace II
 DP: 4 | Level: 3
@@ -121,4 +121,4 @@ A Camp without a Trace’s ordinary shelter accommodates six people, and conceal
 
 ### Shelter against the Siege
 DP: 5 | Level: 7
-1 hour, with tools and enough sound structural and concealment materials. Build a concealed fortified shelter for up to eight people on stable ground. No roll. Occupants behind its walls gain 2 Boons on defense against attacks from outside; each door or wall section has 15 HP and physical resistance 2. Open doors provide no protection. The shelter does not automatically make overnight rest safe; ordinary object damage rules apply.
+Main Action · 1 hour, with tools and enough sound structural and concealment materials. Build a concealed fortified shelter for up to eight people on stable ground. No roll. Occupants behind its walls gain 2 Boons on defense against attacks from outside; each door or wall section has 15 HP and physical resistance 2. Open doors provide no protection. The shelter does not automatically make overnight rest safe; ordinary object damage rules apply.

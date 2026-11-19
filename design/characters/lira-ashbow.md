@@ -74,7 +74,7 @@ This is the one free signature choice for level 1.
 
 **Catch Your Balance I.** Reaction. When you would fall Prone, remain standing instead. You must be conscious and able to move. No roll.
 
-**Wild Harvest I.** 1 hour · Knowledge. Search an accessible area for food or drinkable water. The DA defines the area and confirms a plausible source before you roll. Raise one Food Bundle or Water Flask of the chosen type by 1/2/3 supply die steps, maximum d8. An empty supply starts at d4 on the first step. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
+**Wild Harvest I.** Main Action · 1 hour · Knowledge. Search an accessible area for food or drinkable water. The DA defines the area and confirms a plausible source before you roll. Raise one Food Bundle or Water Flask of the chosen type by 1/2/3 supply die steps, maximum d8. An empty supply starts at d4 on the first step. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
 
 ## At the table
 

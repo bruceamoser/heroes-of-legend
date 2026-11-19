@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** One minute · **Attribute:** None (no roll)
+**Action:** Main Action · One minute · **Attribute:** None (no roll)
 
 **Time:** One minute.
 

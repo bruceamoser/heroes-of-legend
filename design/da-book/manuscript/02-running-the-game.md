@@ -123,7 +123,9 @@ task and space available. Do not quietly raise it whenever another helper joins.
 A three-person attempt yields 3–9 progress before special effects. Use that range
 to avoid accidentally assigning an unreachable target. A target represents the
 amount of combined work, not a new difficulty threshold for each roll.
-Make combat, crafting and treatment rolls individually.
+For timed abilities, track the full work interval before resolving the effect.
+When an ability has several uses, track the time or action for the one the hero
+declares. Make combat, crafting and treatment rolls individually.
 In combat, a hero can spend their own Force action on an obstacle under its normal
 rules; the group does not pool simultaneous rolls.
 

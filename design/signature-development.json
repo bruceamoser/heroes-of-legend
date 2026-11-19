@@ -173,7 +173,7 @@
       "classId": "class-intellect",
       "lineId": "intellect:spot-the-leverage",
       "level": 7,
-      "rulesMarkdown": "**Action:** One minute · **Attribute:** None (no roll)\n\n**Time:** One minute.\n\n**Target / range / shape:** Self and up to three allies who can hear and understand you.\n\nSpend one minute forming a plan from the evidence and observations available. State the plan. The DA confirms what is true, what remains uncertain, and one contradiction or risk. You and each chosen ally gain 2 Boons to your next roll that directly follows the plan.\n\n**Duration:** The plan and its stated limits remain known; each Boon expires when used or at the end of the scene.\n\n**Equipment / acquisition:** None.\n\nKeep one plan at a time. A new plan replaces the previous plan and its unused Boons.\n\n**Frequency:** Once per scene."
+      "rulesMarkdown": "**Action:** Main Action · One minute · **Attribute:** None (no roll)\n\n**Time:** One minute.\n\n**Target / range / shape:** Self and up to three allies who can hear and understand you.\n\nSpend one minute forming a plan from the evidence and observations available. State the plan. The DA confirms what is true, what remains uncertain, and one contradiction or risk. You and each chosen ally gain 2 Boons to your next roll that directly follows the plan.\n\n**Duration:** The plan and its stated limits remain known; each Boon expires when used or at the end of the scene.\n\n**Equipment / acquisition:** None.\n\nKeep one plan at a time. A new plan replaces the previous plan and its unused Boons.\n\n**Frequency:** Once per scene."
     },
     {
       "id": "signature-intellect-make-it-last",
@@ -533,7 +533,7 @@
       "classId": "class-shepherd",
       "lineId": "shepherd:mend",
       "level": 7,
-      "rulesMarkdown": "**Action:** 10 minutes · **Attribute:** None (no roll)\n\n**Target / range / shape:** Up to three willing characters.\n\nMark each target with a physical sigil. The first time a marked character would be reduced to 0 HP, it remains at 1 HP instead; the mark then disappears. An unused mark fades at the coming dawn. A character can bear only one mark from this ability.\n\n**Duration:** Until used or dawn.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a ritual spell costing 0 SP, usable once between safe overnight rests. Unused sigils expire at dawn; a creature may bear one sigil at a time."
+      "rulesMarkdown": "**Action:** Ritual — 10 minutes · **Attribute:** None (no roll)\n\n**Target / range / shape:** Up to three willing characters.\n\nMark each target with a physical sigil. The first time a marked character would be reduced to 0 HP, it remains at 1 HP instead; the mark then disappears. An unused mark fades at the coming dawn. A character can bear only one mark from this ability.\n\n**Duration:** Until used or dawn.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a ritual spell costing 0 SP, usable once between safe overnight rests. Unused sigils expire at dawn; a creature may bear one sigil at a time."
     },
     {
       "id": "signature-shepherd-ease-the-burden",

@@ -19,9 +19,10 @@ An outcome is complete: do not add the Weak damage to the Standard damage. If a
 Strong outcome includes an earlier benefit, it says so. Instant damage happens once;
 a condition applied by that damage follows the condition's own timing.
 
-Spend the printed action even when an ability needs no roll. If it gives a longer
-work time, complete that time before receiving its effect. An hour-long treatment
-takes the full hour.
+Spend the printed action even when an ability needs no roll. If the action lists
+a time, finish the full time before resolving it. Wild Harvest is a Main Action
+that takes 1 hour. A Ritual uses its full casting time. When an ability lists
+another use or a triggered Reaction, follow the timing for that use.
 
 ## Boons, Banes and results
 

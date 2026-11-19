@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** Varies · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** An accessible item
 

@@ -31,7 +31,7 @@ Common Ground can address three willing negotiating sides with separate objectiv
 
 ### A Treaty in Common Words
 DP: 5 | Level: 7
-30 minutes · Reason. With willing representatives of up to three sides and a working language, interpreter or shared reference text, formulate one concrete agreement. Roll once; add 3/5/7 progress to each side’s acceptance objective. On completion the DA states that side’s commitments and known reservations plainly. A shared reference permits simple terms; complex terms need adequate translation. No side accepts impossible terms, and the agreement is not magical enforcement.
+Main Action · 30 minutes · Reason. With willing representatives of up to three sides and a working language, interpreter or shared reference text, formulate one concrete agreement. Roll once; add 3/5/7 progress to each side’s acceptance objective. On completion the DA states that side’s commitments and known reservations plainly. A shared reference permits simple terms; complex terms need adequate translation. No side accepts impossible terms, and the agreement is not magical enforcement.
 
 ## Leadership
 
@@ -97,7 +97,7 @@ Reaction · Guile. Once per conversation, when listeners are about to dismiss yo
 
 ### Draw the Line I
 DP: 1 | Level: 1
-One exchange · Brawn. State a credible immediate consequence you can carry out to a listener who perceives and understands the threat; add 1/2/3 progress toward a limited concession established by the DA.
+Main Action · One exchange · Brawn. State a credible immediate consequence you can carry out to a listener who perceives and understands the threat; add 1/2/3 progress toward a limited concession established by the DA.
 
 ### Draw the Line II
 DP: 2 | Level: 1

@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** Action conversion · **Attribute:** None — no roll
+**Action:** Main Action / Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
 
