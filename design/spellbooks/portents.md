@@ -28,9 +28,9 @@ Bounded warnings and possible consequences.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Brawn against a melee weapon; Agility against a ranged weapon
-**Target / range:** One adjacent creature with a melee weapon, or one visible creature within 8 squares with a ranged weapon
+**Target / range:** One adjacent creature with a melee weapon, or one visible creature within 12 squares with a ranged weapon
 **Duration:** Instant
 
 Follow a brief vision of the opening to come. Make one weapon attack using Reason and deal 2/3/5 physical damage. Use the weapon's ordinary hand and ammunition requirements.
@@ -42,7 +42,7 @@ Follow a brief vision of the opening to come. Make one weapon attack using Reaso
 **Action:** Maneuver
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** Until its next roll or your next turn ends
 
 Offer a useful flash of intuition. Give 1 Boon to the recipient's next non-attack task roll. A creature can hold one Guidance benefit at a time.
@@ -101,7 +101,7 @@ Recognize its magical approach. Learn the spell's action, damage type or princip
 **Page:** 7
 **Action:** Ritual · 10 minutes
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One specific undertaking planned for the next day
 **Duration:** Instant
 
@@ -126,7 +126,7 @@ Ask up to three questions answerable by yes, no or uncertain. Answers reflect th
 **Action:** Main Action
 **SP:** 5
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 10 minutes
 
 Give the recipient 1 Boon to defenses. Once during the duration, after a defense roll, it may reroll the whole roll and keep either result. Recasting replaces the previous benefit on that creature.
@@ -150,7 +150,7 @@ Follow an alternate future. Reroll the whole defense and keep either result. Use
 **Action:** Ritual · 10 minutes
 **SP:** 5
 **Attribute:** None
-**Target / range:** Self and up to three willing creatures within 3 squares
+**Target / range:** Self and up to three willing creatures within 6 squares
 **Duration:** 1 hour
 
 Link your awareness of approaching danger. Linked creatures within 12 squares of you receive a warning when any linked member perceives a threat. If it alerts the group before the attack, roll initiative normally. Once each round, after one linked creature rolls a defense, it may reroll the entire roll and keep either result. The group shares this one reroll. The link carries warnings. Keep one Shared Vigil link active; casting another ends the first.

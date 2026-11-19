@@ -40,7 +40,7 @@ Sense its principal ordinary material and whether it was grown, shaped, mined or
 **Page:** 2
 **Action:** Ritual · 1 minute
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent fixed place or unattended object
 **Duration:** Instant
 
@@ -52,7 +52,7 @@ Receive 1/2/3 sensory impressions of its most recent notable event within the pa
 **Page:** 3
 **Action:** Ritual · 10 minutes
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent magical object
 **Duration:** Instant
 
@@ -64,7 +64,7 @@ Learn 1/2/3 historical facts about how its enchantment was made or previously us
 **Page:** 4
 **Action:** Ritual · 10 minutes
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One object held throughout the ritual
 **Duration:** Instant
 
@@ -76,7 +76,7 @@ See a brief scene involving its most recent owner within the last month. Weak re
 **Page:** 5
 **Action:** Ritual · 10 minutes
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent site
 **Duration:** Instant
 
@@ -88,7 +88,7 @@ Ask how one visible trace came to be here. Add 1/2/3 progress toward a historica
 **Page:** 6
 **Action:** Ritual · 1 hour
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent object or ruin
 **Duration:** Instant
 
@@ -124,7 +124,7 @@ Store up to one minute of what you personally see and hear during the ritual. A 
 **Page:** A1
 **Action:** Ritual · 1 hour
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent historic object or site; 25 coins of incense consumed
 **Duration:** Instant
 
@@ -148,7 +148,7 @@ View up to ten minutes of that event from a fixed point at the site. The vision 
 **Page:** A3
 **Action:** Ritual · 8 hours
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent ancient site; 100 coins of rare incense consumed
 **Duration:** Instant
 

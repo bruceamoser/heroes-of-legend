@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** Reason
+**Action:** Main Action · **Attribute:** Class
 
 **Target / range / shape:** Self or one living creature you touch.
 

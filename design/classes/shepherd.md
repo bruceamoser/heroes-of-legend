@@ -12,6 +12,8 @@ You might love the quiet after a fever breaks, or resent the idea that the slowe
 
 **Attributes:** Minimum 0 in Reason, Guile. **HP contribution:** +2 at level 1 and per level thereafter.
 
+**Casting attribute:** Reason.
+
 **Starting SP contribution:** Twice your positive Reason at creation: 2 × max(0, Reason).
 
 **Starting disciplines:** Choose one of Life, Wards, Medicine, Wilderness. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

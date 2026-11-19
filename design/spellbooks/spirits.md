@@ -28,7 +28,7 @@ Contact incorporeal beings and understand hauntings.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Instant
@@ -53,7 +53,7 @@ Preserve the body from ordinary decay. Time under Gentle Repose still counts tow
 **Page:** 3
 **Action:** Ritual · 10 minutes
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent corpse with a recognizable head
 **Duration:** Up to three questions
 
@@ -65,7 +65,7 @@ Call an echo of its remembered experience. Weak permits one question, Standard t
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Up to three creatures within 2 squares of you
 **Duration:** 1 minute
@@ -102,7 +102,7 @@ Shape an Undead energy form rated 1 from Summoned Companions, using nearby bones
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One independent undead creature within 6 squares
 **Duration:** Until the end of its next turn
@@ -115,7 +115,7 @@ Press a spirit-binding command to halt, retreat up to its Speed, or release a he
 **Page:** 8
 **Action:** Ritual · 10 minutes
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One known spirit or planar source
 **Duration:** Instant
 

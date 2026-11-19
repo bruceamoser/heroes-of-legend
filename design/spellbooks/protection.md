@@ -28,9 +28,9 @@ Protect an individual creature or object.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** One creature within 8 squares
+**Target / range:** One creature within 12 squares
 **Duration:** Instant
 
 Call a descending spark of sacred light. Deal 2/3/5 radiant damage.
@@ -78,7 +78,7 @@ Turn the edge aside. Reduce its physical damage by 2 after resistance, keeping t
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 10 minutes
 
 Ward the recipient against summoned forms, undead and spirits. It gains 1 Boon to defenses against attacks and hostile spells from those creatures.
@@ -90,7 +90,7 @@ Ward the recipient against summoned forms, undead and spirits. It gains 1 Boon t
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Choose fire, cold, lightning or poison. Grant resistance 2 to that type for the duration, using the highest matching resistance.
@@ -102,7 +102,7 @@ Choose fire, cold, lightning or poison. Grant resistance 2 to that type for the 
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 hour or until triggered
 
 The first time damage would reduce the recipient from positive HP to 0, leave it at 1 HP and end the ward. A creature can benefit from Death Ward once between safe overnight rests. Record that use when it triggers.
@@ -114,7 +114,7 @@ The first time damage would reduce the recipient from positive HP to 0, leave it
 **Action:** Main Action
 **SP:** 4
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares; remain within 6 squares
+**Target / range:** One willing creature within 6 squares; remain within 6 squares
 **Duration:** 1 minute
 
 Bind your protection to the recipient. When an attack would damage it, you may spend your Reaction after its resistance and other reductions, before it loses HP. Transfer up to 3 of that damage to yourself, leaving at least 1 on it. The transferred damage bypasses your resistance. The bond ends if either participant becomes unconscious or moves beyond 6 squares.
@@ -149,9 +149,9 @@ Veil its thoughts. Grant mental resistance 3 and 2 Boons to defenses against men
 **Page:** A3
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Six connected unoccupied squares within 8 squares
+**Target / range:** Six connected unoccupied squares within 12 squares
 **Duration:** 1 minute
 
 Raise a luminous wall 2 squares high that blocks sight. Roll on casting to set radiant damage at 4/6/8. A creature crossing it takes that damage and Slowed 2, once per creature each round. The caster can end the wall with a Maneuver.

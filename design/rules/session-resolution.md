@@ -114,5 +114,5 @@ procedure. Its usual target is 2 + the affected spell's printed SP cost.
 
 Healing aimed at a creature whose profile says healing harms it becomes a Life
 attack. Keep the spell's action, range, free hand and SP cost. Resolve its
-printed healing values as Life damage, using the spell's attribute or the
+printed healing values as Life damage, using the hero's class casting attribute or the
 target's applicable player defense. Recovery benefits apply only to healing.

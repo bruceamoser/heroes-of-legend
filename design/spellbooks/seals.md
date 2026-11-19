@@ -64,8 +64,8 @@ Add magical fastening. An ordinary opening objective increases by 3 progress. Na
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
-**Target / range:** One lock or fastening within 3 squares
+**Attribute:** Class
+**Target / range:** One lock or fastening within 6 squares
 **Duration:** Instant
 
 A sharp knock carries 12 squares. Choose one fastening. Against Arcane Lock, end its magical fastening automatically and leave any physical lock in place. Against an ordinary fastening, roll to add 2/3/4 progress toward opening it.
@@ -88,7 +88,7 @@ Record a warning of up to twenty-five words and a visible or audible trigger wit
 **Page:** 6
 **Action:** Ritual · 10 minutes
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** One fixed surface within reach; burst within 1 square of it
 **Duration:** 8 hours or until triggered
@@ -105,7 +105,7 @@ Inscribe a visible glyph and define a creature crossing or touching its surface 
 **Target / range:** One fixed seal and one known Main Action spell costing at most 2 SP
 **Duration:** 8 hours or until triggered
 
-Pay the stored spell's SP in addition to the ritual. Choose its targets relative to the seal and a visible or audible trigger within 3 squares. At the first trigger, release it using the stored spell’s printed attribute, your value for it and legal targets, then end the seal. Keep one such prepared seal at a time.
+Pay the stored spell's SP in addition to the ritual. Choose its targets relative to the seal and a visible or audible trigger within 3 squares. At the first trigger, release it using your class’s casting attribute and legal targets, then end the seal. Keep one such prepared seal at a time.
 
 ### Secret Chest
 
@@ -125,7 +125,7 @@ Hide the chest and its contents in a private folded space. While beside its orig
 **Page:** A1
 **Action:** Ritual · 10 minutes
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One fixed visible inscription; targets within 2 squares
 **Duration:** 8 hours or until triggered

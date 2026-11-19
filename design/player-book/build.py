@@ -287,7 +287,7 @@ def class_page(p):
  introduction=raw.split('\n',1)[1].split('\n## Rules\n',1)[0].strip()
  attrs,hp,stat,coins,starting=class_values(raw)
  prices=re.search(r'\*\*Learning costs:\*\* (.+)',raw).group(1)
- core='**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.\n'
+ core='**Attributes ≥ 0:** '+attrs+'. **HP:** '+hp+'. **Casting:** '+stat+'. **Starting SP:** 2 × max(0, '+stat+'). **Coins:** '+coins+'.\n\n**Starting discipline:** '+starting+'\n\n**Additional discipline costs:** '+prices+'\n\nChoose one signature at each of levels 1, 3 and 7 without spending DP. Choose from your class’s options for that level. Each signature is an ability you can use in its own right. Some offer an additional benefit when you also know another named signature; that benefit appears in the ability’s rules.\n'
  prose='#block(below:9pt)[#set text(size:11pt)\n#set par(leading:.36em,spacing:.8em)\n'+render(introduction,p)+']\n'
  choices=s[s.index('## Level 1 choices'):]
  choices=choices.split('## Signature identity in play')[0].split('## Signature identity')[0].split('## The character at the table')[0]
@@ -379,7 +379,7 @@ class_rows=[]
 for cp in sorted((DESIGN/'classes').glob('*.md'),key=name):
  ct=cp.read_text();attrs,hp,stat,coins,starting=class_values(ct)
  class_rows.append('| ['+name(cp)+'](classes/'+cp.name+') | '+attrs+' | '+hp+' | 2 × '+stat+' |')
-parts.append(render('| Class | Attributes ≥ 0 | HP per level | Starting SP |\n|---|---|---:|---:|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'Use only a positive attribute for the class SP contribution; zero or a negative value contributes 0 SP. Add this once at creation. Every character gains +2 maximum SP per level after 1.])\n')
+parts.append(render('| Class | Attributes ≥ 0 | HP per level | Casting / starting SP |\n|---|---|---:|---:|\n'+'\n'.join(class_rows), DESIGN/'class.md')+'Roll the named attribute when you cast. Use its positive value for this SP contribution; zero or a negative value contributes 0 SP. Add this once at creation. Every character gains +2 maximum SP per level after 1.])\n')
 parts.append('#illustration("classes", height: 350pt, fit: "cover")\n')
 for cname in CLASS_ORDER:
  p=DESIGN/'classes'/f'{cname}.md'

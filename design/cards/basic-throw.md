@@ -1,14 +1,14 @@
 # Basic Throw
 
-*Throw a suitable carried object at a visible creature within 3 squares. Roll Brawn for 2/3/5 physical damage.*
+*Throw a suitable carried object at a visible creature within 6 squares. Roll Brawn for 2/3/5 physical damage.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One visible creature within 3 squares
+**Target / range / shape:** One visible creature within 6 squares
 
-Choose your target and make the attack. Use the printed outcomes if you have learned a technique that uses thrown weapons. Without that training, deal 1/1/2 physical damage.
+Choose your target and make the attack. You can reach a target 7–12 squares away with 1 Bane on the attack, or 1 Boon to its defense if the target rolls. Use the printed outcomes if you have learned a technique that uses thrown weapons. Without that training, deal 1/1/2 physical damage.
 
 - **Weak:** 2 physical damage.
 - **Standard:** 3 physical damage.

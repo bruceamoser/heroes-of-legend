@@ -74,6 +74,20 @@ an event dealing only 4 physical is unchanged. Apply matching resistances next.
 Special vulnerabilities, such as fire stopping regeneration, use their printed
 procedure. They do not imply numerical weakness or extra damage unless stated.
 
+## Attack range
+
+Measure range in squares. Touch and ordinary melee reach 1 square. Short range
+is 6 squares, long range is 12, and extreme range is 18. A spell uses its listed
+range. Measure the reach to the spell’s target or chosen point, then apply its
+printed shape and area separately.
+
+Thrown weapons have short range and ordinary ranged weapons have long range.
+An attack that uses the weapon’s range can reach one band farther. Apply 1 Bane
+to the attack roll or 1 Boon to the defense roll. Beyond that extra band the
+target is out of range. Combine this modifier with cover or other circumstances
+using the usual Boon and Bane rules. A technique’s explicit reach or trigger
+distance uses the number it gives.
+
 ## Cover
 
 The DA judges whether an obstruction protects the target from the attack. Partial

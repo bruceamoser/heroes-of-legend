@@ -25,10 +25,11 @@ lists the actions any hero can use.
 | Prone movement | Crawl at normal 2 or difficult 3, including diagonally. Stand for 2. |
 | Occupied space | Cross if the occupant is Prone. Pay 2 or the usual entry cost, whichever is higher. End in a free square. |
 | Cover | Partial 1, heavy 3. Apply Banes to the attack roll or Boons to the defense roll. An attack needs a path. |
+| Range | Touch 1, short 6, long 12, extreme 18 squares. A weapon attack using its weapon’s range can reach one extra band at 1 Bane, or 1 Boon to the defense. |
 | Damage defenses | Remove immune types. Use highest matching resistance, cap 3. Attacks have a minimum of 1 if any damage survives immunity. |
 | Stability | Default 0; highest explicit grant, cap 3; deduct once per new creature |
 | Free attacks | Spend no actions; never trigger more free attacks |
-| Maximum SP, level 1+ | 2 × level + ancestry SP + 2 × positive class mental attribute + Spellcraft bonuses + other SP bonuses |
+| Maximum SP, level 1+ | 2 × level + ancestry SP + 2 × positive class casting attribute + Spellcraft bonuses + other SP bonuses |
 | Healing spell cost | Printed spell cost; pay before resolving |
 | Potion | Spend a Maneuver with a free hand. An unconscious or restrained recipient counts as willing. Another recipient spends a Reaction if conscious and above 0 HP. |
 | Brief Rest | One safe hour. Restore 6 HP and 3 SP once per day. You can add First Aid and Spellcraft Recovery. |

@@ -29,7 +29,7 @@ Nearby presences, properties and traces.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One visible object or creature within 3 squares
+**Target / range:** One visible object or creature within 6 squares
 **Duration:** Instant
 
 Sense whether an active magical effect is present on the target. Learn whether the strongest visible aura is protective, transformative, harmful or informative. To investigate a concealed source, first expose it or use a spell that can examine it through the concealment.
@@ -64,7 +64,7 @@ Perceive the presence of summoned forms, undead and active spirit bindings. Lear
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One visible 3-by-3-square area within 6 squares
 **Duration:** Instant
 
@@ -88,7 +88,7 @@ See Invisible creatures and objects within 6 squares as translucent outlines. Th
 **Page:** 6
 **Action:** Ritual · 10 minutes
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent object examined throughout the ritual
 **Duration:** Instant
 
@@ -112,7 +112,7 @@ Within 6 squares, see Invisible targets and perceive the original outline beneat
 **Page:** 8
 **Action:** Ritual · 10 minutes
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent object, creature or fixed magical effect
 **Duration:** Instant
 
@@ -124,7 +124,7 @@ Add 2/4/6 progress toward understanding one magical effect, with target 6. Each 
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** Up to three visible magical sources within 6 squares
 **Duration:** Instant
 

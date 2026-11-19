@@ -12,6 +12,8 @@ The force you bring can come from anger, joy, or a lifetime of knowing what your
 
 **Attributes:** Minimum 0 in Brawn, Fortitude. **HP contribution:** +3 at level 1 and per level thereafter.
 
+**Casting attribute:** Knowledge.
+
 **Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
 **Starting disciplines:** Choose one of Arms, Athletics, Armor, Elements. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

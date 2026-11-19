@@ -12,6 +12,8 @@ You might love a crowded festival or the privacy of a roof above an empty street
 
 **Attributes:** Minimum 0 in Agility, Guile. **HP contribution:** +2 at level 1 and per level thereafter.
 
+**Casting attribute:** Guile.
+
 **Starting SP contribution:** Twice your positive Guile at creation: 2 × max(0, Guile).
 
 **Starting disciplines:** Choose one of Subterfuge, Marksmanship, Fencing, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

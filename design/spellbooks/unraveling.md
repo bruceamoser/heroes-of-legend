@@ -29,7 +29,7 @@ Suppress and dismantle active magic.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One visible magical effect within 3 squares
+**Target / range:** One visible magical effect within 6 squares
 **Duration:** Instant
 
 See its magical threads. Learn whether it is sustained, fixed-duration or permanent, and which creature is presently sustaining it if that creature is visible.
@@ -40,7 +40,7 @@ See its magical threads. Learn whether it is sustained, fixed-duration or perman
 **Page:** 2
 **Action:** Reaction · when a visible caster finishes a spell
 **SP:** 1
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** The spell; caster within 6 squares
 **Duration:** Instant
 
@@ -52,7 +52,7 @@ Add 1/2/3 cancellation progress against the triggering spell. Its target is 2 pl
 **Page:** 3
 **Action:** Ritual · 10 minutes
 **SP:** 1
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One adjacent cursed creature or object
 **Duration:** Instant
 
@@ -64,7 +64,7 @@ Add 2/3/4 cancellation progress toward one curse's target, normally 2 plus the s
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One visible ongoing spell within 6 squares
 **Duration:** Instant
 
@@ -76,7 +76,7 @@ Add 2/3/4 cancellation progress against the chosen effect, target 2 plus its pri
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One ongoing Elements or Force spell within 6 squares
 **Duration:** Instant
 
@@ -88,7 +88,7 @@ Read and pull apart its elemental structure. Add 3/4/5 cancellation progress tow
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One ongoing Mentalism or Divination spell within 6 squares
 **Duration:** Instant
 
@@ -100,7 +100,7 @@ Quiet its mental pattern. Add 3/4/5 cancellation progress toward target 2 plus t
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One ongoing Life, Invocation, Wards or Spellcraft spell within 6 squares
 **Duration:** Instant
 
@@ -112,7 +112,7 @@ Sever its channel of power. Add 3/4/5 cancellation progress toward target 2 plus
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** Up to three visible ongoing spells within 6 squares
 **Duration:** Instant
 
@@ -136,7 +136,7 @@ Create a quiet zone where magical effects, including your own, are suspended exc
 **Page:** A2
 **Action:** Reaction · when a visible caster finishes a spell
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** The spell; caster within 8 squares
 **Duration:** Instant
 
@@ -148,7 +148,7 @@ Add 3/5/7 cancellation progress toward target 2 plus its printed SP cost. At com
 **Page:** A3
 **Action:** Ritual · 1 hour
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One adjacent permanent enchantment; 100 coins of cleansing reagents consumed
 **Duration:** Instant
 

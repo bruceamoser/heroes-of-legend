@@ -137,7 +137,7 @@ healing and inventory die, without a spell outcome roll or SP cost.
 > **Example: a finite reserve.** A Shepherd with 6 SP spends 1 SP to cast Cure Wounds. A Standard result heals 5 HP, reduced to 3 by the recipient's Life resistance 2. The healer has 5 SP left. Restoring HP cannot replenish SP.
 
 A healing spell can attack a creature whose profile says healing harms it. Use the
-spell’s attribute, range and SP cost. Its HP result becomes Life damage; beneficial
+hero’s casting attribute and the spell’s range and SP cost. Its HP result becomes Life damage; beneficial
 recovery riders do not help that target. Use the ordinary player-roll procedure,
 without a second opposed save.
 

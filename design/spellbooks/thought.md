@@ -52,9 +52,9 @@ Understand the literal meaning of one language at a time. Read at an ordinary pa
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 3 squares that you can see
+**Target / range:** One creature within 6 squares that you can see
 **Duration:** Instant
 
 Read surface impressions. Learn 1/2/3 immediate concerns or sensory impressions, chosen by the DA for an NPC or its player for a hero. The target senses the intrusion after the reading. Deep memories use stronger workings.
@@ -66,7 +66,7 @@ Read surface impressions. Learn 1/2/3 immediate concerns or sensory impressions,
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 hour
 
 The recipient can understand and speak the ordinary languages of creatures addressing it. Its voice remains its own. Reading and writing use languages it already knows.
@@ -90,7 +90,7 @@ Send up to twenty-five words through a mental thread. The recipient knows who se
 **Action:** Ritual · 1 minute
 **SP:** 3
 **Attribute:** None
-**Target / range:** Self and up to five willing creatures within 3 squares
+**Target / range:** Self and up to five willing creatures within 6 squares
 **Duration:** 1 hour
 
 Create a shared mental conversation reaching 1 kilometer. Participants exchange words and simple images by intent while conscious. Each participant may leave the link at any time.
@@ -101,8 +101,8 @@ Create a shared mental conversation reaching 1 kilometer. Participants exchange 
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
-**Target / range:** One willing creature within 3 squares
+**Attribute:** Class
+**Target / range:** One willing creature within 6 squares
 **Duration:** 10 minutes of conversation; altered memory lasts until restored
 
 Help the recipient replace or soften one memory covering up to five minutes of a real event. It chooses the replacement account with you. Add 1/2/3 progress toward target 3, with each further conversation attempt taking a Main Action and a new casting. At completion the altered recollection becomes its remembered account. Greater Restoration or a matching consensual working restores the original.
@@ -113,9 +113,9 @@ Help the recipient replace or soften one memory covering up to five minutes of a
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 3 squares
+**Target / range:** One creature within 6 squares
 **Duration:** Instant
 
 Read a thought connected to one question you speak aloud. Learn 1/2/3 relevant images or associations from its present thinking. The recipient knows the question and intrusion; responses remain bounded by its actual knowledge.
@@ -126,7 +126,7 @@ Read a thought connected to one question you speak aloud. Learn 1/2/3 relevant i
 **Page:** A1
 **Action:** Ritual · 10 minutes
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One willing adjacent creature throughout the ritual
 **Duration:** Instant
 
@@ -138,9 +138,9 @@ Search one area of its remembered experience together. Add 2/4/6 progress toward
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 3 squares
+**Target / range:** One creature within 6 squares
 **Duration:** Instant
 
 Press into a guarded thought. Deal 3/5/7 mental damage and learn one immediate intention the target is considering. For a hero, its player states that intention. The target recognizes your intrusion.

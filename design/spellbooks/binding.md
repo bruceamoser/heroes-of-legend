@@ -29,7 +29,7 @@ Restraints, vessels and supernatural agreements.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** Self or one unattended feature within 3 squares
+**Target / range:** Self or one unattended feature within 6 squares
 **Duration:** 1 minute
 
 Magnify your voice to carry across a hall, make a small flame flicker, or cause one unlocked door to creak. Choose one harmless display when casting.
@@ -40,9 +40,9 @@ Magnify your voice to carry across a hall, make a small flame flicker, or cause 
 **Page:** 2
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 4 squares that understands you
+**Target / range:** One creature within 6 squares that understands you
 **Duration:** Until the end of its next turn
 
 Give a one-word request to approach a safe square, halt movement, or drop a held object. The target may comply using its own actions or take Frightened 1/2/3, with you as source, from resisting the pressure. Its player makes this choice for a hero.
@@ -53,7 +53,7 @@ Give a one-word request to approach a safe square, halt movement, or drop a held
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One humanoid creature within 6 squares
 **Hold attribute:** Reason
@@ -80,7 +80,7 @@ Choose summoned forms, undead or spirits. Creatures of that kind gain 2 Banes on
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Duration:** Until your next turn ends
@@ -117,7 +117,7 @@ Bind a mutual oath naming one feasible duty and its completion condition. A part
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Hold attribute:** Reason
@@ -132,7 +132,7 @@ Close binding bands around the target. Apply Slowed 2/3/4 and Paralyzed 1/1/2. E
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares that perceives your command
 **Duration:** Until the end of its next turn
@@ -145,7 +145,7 @@ Command one ordinary movement or interaction within the creature's abilities. It
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** An unoccupied 2-by-2-square cage boundary within 6 squares
 **Duration:** 1 minute

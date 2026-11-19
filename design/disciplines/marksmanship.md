@@ -1,7 +1,7 @@
 # Marksmanship
 Find the line between your hand and a distant mark.
 
-Each attack requires a ready ranged weapon and ammunition or a held thrown weapon. Spend one projectile per target unless the technique says otherwise; a thrown weapon stays where it lands. Targets must be visible and within the technique’s range. Improvements affect only their named technique.
+Each attack requires a ready ranged weapon and ammunition or a held thrown weapon. Spend one projectile per target unless the technique says otherwise; a thrown weapon stays where it lands. Choose visible targets within the technique’s stated reach. Basic Ranged and Basic Throw can reach farther using the ordinary weapon range rule. Improvements affect only their named technique.
 
 ## Precision
 

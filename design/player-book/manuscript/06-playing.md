@@ -221,6 +221,23 @@ movement or your usual cost to enter it, and finish in a free square. An ability
 that moves you without provoking still respects terrain, occupied spaces and legal
 endpoints unless it explicitly says otherwise.
 
+Count the squares to your target or the point where you place a spell.
+
+| Range | Squares | Common uses |
+|---|---:|---|
+| Touch | 1 | Melee attacks and touch spells |
+| Short | 6 | Thrown weapons and nearby spells |
+| Long | 12 | Ordinary ranged weapons and long-range spells |
+| Extreme | 18 | Spells such as Meteor Swarm |
+
+When an attack uses your weapon’s range, you can reach one band farther. A
+thrown weapon can reach a target 7–12 squares away and an ordinary ranged weapon
+can reach one 13–18 squares away. Take **1 Bane** on that attack, or give the
+target **1 Boon** if they roll defense. Beyond the extra band the target is out
+of range. Use the distance given for a spell or a technique with its own reach
+or trigger. A spell’s area extends according to its shape from the point you
+choose within range.
+
 A sight-required target must be visible to you or located by an explicit
 alternative-sense targeting grant. An attack needs a usable path to its target.
 The DA judges whether an obstruction protects the target from that attack.

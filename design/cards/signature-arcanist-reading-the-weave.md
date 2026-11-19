@@ -4,11 +4,11 @@
 
 ## Rules
 
-**Action:** Maneuver · **Attribute:** Reason
+**Action:** Maneuver · **Attribute:** Class
 
 **Target / range / shape:** One known ongoing magical effect within 5 squares.
 
-Study the effect once per scene. Roll Reason and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, remaining duration, and source category (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.
+Study the effect once per scene. Roll your class’s casting attribute and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, remaining duration, and source category (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.
 
 Your next cancellation roll against that effect this scene also gains 1 Boon. The examination reveals whether a specific remedy exists and the kind of evidence needed to discover it. Use the learned facts with your cancellation abilities or to seek the remedy.
 

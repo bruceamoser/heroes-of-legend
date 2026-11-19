@@ -41,7 +41,7 @@ Change the color and pattern of hair, skin or fur. Choose ordinary or vivid colo
 **Action:** Maneuver
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** Until the end of its next turn
 
 The recipient's next jump can cover up to 4 squares horizontally or 2 vertically using its normal movement. Choose a reachable landing place and spend movement for the distance traveled.
@@ -53,7 +53,7 @@ The recipient's next jump can cover up to 4 squares horizontally or 2 vertically
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 hour
 
 Increase the recipient's Speed by 2. Apply the highest magical Speed increase rather than adding repeated castings.
@@ -77,7 +77,7 @@ Choose one adaptation: gills for water breathing, webbing for swimming at normal
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Change its size by one category, Small to Medium or Medium to Large, or the reverse. Adjust occupied space to 1 or 2 squares on each side as appropriate. Enlarged creatures gain Stability 1; reduced creatures gain 1 Boon to moving through tight spaces. Equipment changes with the body; attacks retain their printed damage.
@@ -89,7 +89,7 @@ Change its size by one category, Small to Medium or Medium to Large, or the reve
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 hour
 
 Give the recipient darkvision to 12 squares. It sees shapes in ordinary darkness; colors appear as shades of gray. Magical darkness follows its own visibility rules.
@@ -101,7 +101,7 @@ Give the recipient darkvision to 12 squares. It sees shapes in ordinary darkness
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Give the recipient the body of a familiar ordinary Small or Medium animal. It keeps its HP, attributes and mind. Choose walking, swimming or climbing at its normal Speed; use claws or a bite for Basic Unarmed attacks. Worn gear merges into the form. Returning costs a Maneuver; speech, item use and casting resume in the original body.
@@ -113,7 +113,7 @@ Give the recipient the body of a familiar ordinary Small or Medium animal. It ke
 **Action:** Main Action
 **SP:** 4
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 10 minutes
 
 The recipient moves through nonmagical difficult terrain at ordinary cost and immediately reduces Slowed by 3. Once each turn it may spend a Maneuver to reduce Grappled 1 or 2 by 2, using your movement magic to slip a loose hold. Grappled 3 requires release by the grappler or outside help.

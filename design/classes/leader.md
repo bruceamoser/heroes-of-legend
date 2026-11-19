@@ -12,6 +12,8 @@ You might enjoy watching someone you trained take charge. Perhaps you dislike pl
 
 **Attributes:** Minimum 0 in Guile, Fortitude. **HP contribution:** +2 at level 1 and per level thereafter.
 
+**Casting attribute:** Guile.
+
 **Starting SP contribution:** Twice your positive Guile at creation: 2 × max(0, Guile).
 
 **Starting disciplines:** Choose one of Influence, Guard, Arms, Tactics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

@@ -53,7 +53,7 @@ Coat the ground in slippery magical grease. It becomes difficult terrain. A crea
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One unattended nonmagical object of Bulk 2 or less within 3 squares
+**Target / range:** One unattended nonmagical object of Bulk 2 or less within 6 squares
 **Duration:** 10 minutes
 
 Double or halve its dimensions and Bulk, rounding Bulk up with a minimum of 1. Its material and function remain ordinary. It returns to original size at expiry; allow enough space for either size when casting.
@@ -64,7 +64,7 @@ Double or halve its dimensions and Bulk, rounding Bulk up with a minimum of 1. I
 **Page:** 4
 **Action:** Ritual · 1 minute
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One adjacent mundane lock
 **Duration:** Instant
 
@@ -100,7 +100,7 @@ Shape a simple brace, slab, stair or other solid construction component, preserv
 **Page:** 7
 **Action:** Ritual · 1 hour
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** Prepared ordinary materials and tools beside you
 **Duration:** Instant
 

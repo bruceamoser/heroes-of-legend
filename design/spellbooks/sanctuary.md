@@ -29,7 +29,7 @@ Protect places and establish safe boundaries.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** Until your next turn ends
 
 Choose fire, cold, lightning or poison. Grant resistance 1 to that type, using the highest matching resistance.
@@ -41,7 +41,7 @@ Choose fire, cold, lightning or poison. Grant resistance 1 to that type, using t
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Give the recipient 1 Boon to defenses while it attends to healing, movement or other peaceful actions. Its first attack or harmful spell ends the ward after that action resolves.
@@ -53,7 +53,7 @@ Give the recipient 1 Boon to defenses while it attends to healing, movement or o
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** Self and up to three willing creatures within 3 squares
+**Target / range:** Self and up to three willing creatures within 6 squares
 **Duration:** 10 minutes
 
 Soften footfalls and rustling gear. Recipients gain 1 Boon to sneaking that depends on quiet movement. Speech and deliberate noise remain audible.

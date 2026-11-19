@@ -88,7 +88,7 @@ Create a tiny visible glimmering eye. A Maneuver moves it up to 4 squares throug
 **Page:** 6
 **Action:** Ritual · 10 minutes
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One consenting creature you personally know on the same plane
 **Duration:** 1 minute
 

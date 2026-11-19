@@ -77,7 +77,7 @@ Create three shifting doubles. Gain 1 Boon to defenses against attacks that depe
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** Self or one willing creature within 3 squares
+**Target / range:** Self or one willing creature within 6 squares
 **Duration:** 1 minute
 
 Make the recipient and its carried gear Invisible. Attacking or casting another spell ends this casting's invisibility after that action resolves. Other senses can still locate the recipient.
@@ -89,7 +89,7 @@ Make the recipient and its carried gear Invisible. Attacking or casting another 
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** An image fitting a 3-by-3-square space within 8 squares
+**Target / range:** An image fitting a 3-by-3-square space within 12 squares
 **Duration:** 1 minute
 
 Create a moving illusion with sound, scent and harmless temperature. A Maneuver can move it 3 squares and change its performance. Touch reveals its insubstantial nature. It may conceal a real feature visually; physical terrain remains as it was. Without directing it, the image stays in place and repeats its last simple performance.
@@ -101,7 +101,7 @@ Create a moving illusion with sound, scent and harmless temperature. A Maneuver 
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** Self or one willing creature within 3 squares
+**Target / range:** Self or one willing creature within 6 squares
 **Duration:** 1 minute
 
 Make the recipient and carried gear Invisible. It may continue attacking and casting while this effect lasts. Attacking still reveals its location and ends Hidden normally.
@@ -113,7 +113,7 @@ Make the recipient and carried gear Invisible. It may continue attacking and cas
 **Action:** Ritual · 10 minutes
 **SP:** 4
 **Attribute:** None
-**Target / range:** A fixed 10-by-10-square outdoor area within 10 squares
+**Target / range:** A fixed 10-by-10-square outdoor area within 12 squares
 **Duration:** 8 hours
 
 Change the area's apparent plants, surfaces and small terrain features. Buildings and creatures retain their appearance. Real footing remains physical; touch or travel through a mismatch reveals it, and observation uses the illusion procedure.
@@ -137,7 +137,7 @@ Become Invisible while creating a visible, speaking double of yourself. A Maneuv
 **Action:** Ritual · 1 minute
 **SP:** 5
 **Attribute:** None
-**Target / range:** Up to six willing creatures within 3 squares
+**Target / range:** Up to six willing creatures within 6 squares
 **Duration:** 1 hour
 
 Give each recipient an apparent humanoid disguise using Disguise Self's limits. Design each disguise when casting. Each recipient may dismiss its own disguise with a Maneuver.

@@ -1,14 +1,14 @@
 # Basic Ranged
 
-*Shoot a visible creature within 8 squares. Roll Agility for 2/3/5 physical damage.*
+*Shoot a visible creature within 12 squares. Roll Agility for 2/3/5 physical damage.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** One visible creature within 8 squares
+**Target / range / shape:** One visible creature within 12 squares
 
-Choose your target and make the attack. Use the printed outcomes if you have learned a technique that uses ranged weapons. Without that training, deal 1/1/2 physical damage.
+Choose your target and make the attack. You can reach a target 13–18 squares away with 1 Bane on the attack, or 1 Boon to its defense if the target rolls. Use the printed outcomes if you have learned a technique that uses ranged weapons. Without that training, deal 1/1/2 physical damage.
 
 - **Weak:** 2 physical damage.
 - **Standard:** 3 physical damage.

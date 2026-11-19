@@ -34,7 +34,7 @@ The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP
 
 Ask each player to record what they learned and the DP they spent. Their class lists what it costs to begin an additional discipline. When they reach levels 3 or 7, point them to the entries they can now learn. Check that earlier entries in the same path or book are already learned.
 
-Your SP reserve is separate from HP. Your level contributes **2 × level SP**: 2 at level 1, 6 at level 3 and 14 at level 7. Add your ancestry’s SP contribution and **twice your positive class-associated mental attribute**. An attribute of 0 or less contributes 0 SP. Add any increases learned through Spellcraft’s Soul Capacity or Mind Capacity paths and other explicit SP benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
+Your SP reserve is separate from HP. Your level contributes **2 × level SP**: 2 at level 1, 6 at level 3 and 14 at level 7. Add your ancestry’s SP contribution and **twice your positive class casting attribute**. An attribute of 0 or less contributes 0 SP. Add any increases learned through Spellcraft’s Soul Capacity or Mind Capacity paths and other explicit SP benefits. From level 2 onward, gain **2 maximum SP each level**. These increases enlarge capacity without restoring spent SP. Track current SP separately. A safe overnight rest fills the reserve; learned recovery follows its own timing.
 
 ## Safe places and downtime
 

@@ -12,6 +12,8 @@ You might take pleasure in a good watch roster, a repaired strap, or the moment 
 
 **Attributes:** Minimum 0 in Fortitude, Reason. **HP contribution:** +3 at level 1 and per level thereafter.
 
+**Casting attribute:** Reason.
+
 **Starting SP contribution:** Twice your positive Reason at creation: 2 × max(0, Reason).
 
 **Starting disciplines:** Choose one of Armor, Guard, Arms, Medicine. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
