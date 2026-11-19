@@ -1,12 +1,12 @@
 #let gold = rgb("#c9a766")
 #let ivory = rgb("#f1e6ce")
-#set document(title: "Heroes of Legend — Dungeon Architect’s Guide & Bestiary", author: "Bruce A. Moser")
+#set document(title: "Deeds of Legend — Dungeon Architect’s Guide & Bestiary", author: "Bruce A. Moser")
 #set page(width: 612pt, height: 792pt, margin: 0pt, fill: black)
 #place(top + left, image("../player-book/art/cover-ruins-v2.png", width: 612pt, height: 792pt, fit: "cover"))
 // Native type remains editable and sharp in the PDF.
-#let title = text(font: "Almendra", weight: "bold", size: 48pt, tracking: .005em, fill: ivory)[Heroes of Legend]
+#let title = text(font: "Almendra", weight: "bold", size: 48pt, tracking: .005em, fill: ivory)[Deeds of Legend]
 #place(top + left, dx: 25pt, dy: 42pt, align(center, block(width: 562pt)[#title]))
-#place(top + left, dx: 226pt, dy: 136pt, image("../player-book/art/hol-crest-v2.png", width: 218pt))
+#place(top + left, dx: 226pt, dy: 136pt, image("../player-book/art/dol-crest.png", width: 218pt))
 #place(top + left, dx: 190pt, dy: 396pt, block(width: 292pt)[
   #set align(center)
   #text(font: "Cinzel", size: 13pt, fill: gold, tracking: .12em)[DUNGEON ARCHITECT’S]

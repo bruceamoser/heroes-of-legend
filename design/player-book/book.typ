@@ -7,22 +7,22 @@
   include "cover.typ"
   pagebreak()
 }
-#set document(title: "Heroes of Legend — Player’s Book", author: "Bruce A. Moser")
+#set document(title: "Deeds of Legend — Player’s Book", author: "Bruce A. Moser")
 #align(center)[
   #v(35pt)
-  #text(font: "Almendra", size: 34pt, weight: "bold")[Heroes of Legend]
+  #text(font: "Almendra", size: 34pt, weight: "bold")[Deeds of Legend]
   #v(12pt)
   #text(font: "Cinzel", size: 18pt)[Player’s Book]
   #v(10pt)
   #text(size: 13pt)[Levels 1–10 · Playtest Edition]
   #v(22pt)
-  #image("art/hol-crest-v2.png", width: 130pt)
+  #image("art/dol-crest.png", width: 130pt)
   #v(20pt)
   #text(font: "Cinzel", size: 13pt)[Game design by Bruce A. Moser]
 ]
 #v(25pt)
 #block(width: 100%, inset: 12pt, fill: ivory)[
-  This book contains the player rules and choices for Heroes of Legend: character
+  This book contains the player rules and choices for Deeds of Legend: character
   creation, advancement, abilities, equipment, summoned companions and recovery.
   The companion Dungeon Architect’s Guide & Bestiary is included in the starter kit.
 

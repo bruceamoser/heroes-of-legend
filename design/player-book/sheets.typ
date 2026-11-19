@@ -12,8 +12,8 @@
     ..range(count*head.len()).map(i=>[]))
 }
 #let sheet-title(subtitle) = grid(columns:(45pt,1fr,110pt),gutter:10pt,
- image("art/hol-crest-v2.png",height:50pt),
- [#text(font:"Almendra",size:25pt,weight:"bold")[Heroes of Legend]#linebreak()#text(font:"Cinzel",size:10pt,subtitle)],
+ image("art/dol-crest.png",height:50pt),
+ [#text(font:"Almendra",size:25pt,weight:"bold")[Deeds of Legend]#linebreak()#text(font:"Cinzel",size:10pt,subtitle)],
  [#field("LEVEL",height:25pt)#v(3pt)#field("PLAYER",height:25pt)])
 #let page-sheet(body) = {
  pagebreak(weak:true)

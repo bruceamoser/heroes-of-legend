@@ -44,8 +44,8 @@ def main():
         '--output', ROOT/'design/player-book/generated/entry-conformance.json')
     out = ROOT/'dist'/('v'+version['version']); out.mkdir(parents=True, exist_ok=True)
     books = {
-        'Heroes-of-Legend-Players-Book.pdf': ROOT/'design/player-book/output/heroes-of-legend-players-book.pdf',
-        'Heroes-of-Legend-DA-Guide-and-Bestiary.pdf': ROOT/'design/da-book/output/heroes-of-legend-da-guide-bestiary.pdf',
+        'Deeds-of-Legend-Players-Book.pdf': ROOT/'design/player-book/output/heroes-of-legend-players-book.pdf',
+        'Deeds-of-Legend-DA-Guide-and-Bestiary.pdf': ROOT/'design/da-book/output/heroes-of-legend-da-guide-bestiary.pdf',
     }
     records = []
     for name, source in books.items():
@@ -57,7 +57,7 @@ def main():
             raise RuntimeError('PDF edition differs from release/version.json: '+name)
         records.append(dict(file=name,pages=pages,bytes=destination.stat().st_size,sha256=sha(destination)))
     notes = out/'READ-ME.txt'
-    notes.write_text(f'Heroes of Legend Starter Kit v{version["version"]}\n\n'
+    notes.write_text(f'Deeds of Legend Starter Kit v{version["version"]}\n\n'
                      'Includes the Player’s Book and Dungeon Architect’s Guide & Bestiary.\n'
                      'Start with the Player’s Book; the DA uses the companion for adventures and creatures.\n'
                      'Both books cover levels 1–10. This is a digital playtest edition.\n'
@@ -70,7 +70,7 @@ def main():
     members = [out/n for n in books] + [notes,manifest]
     sums = out/'SHA256SUMS.txt'
     sums.write_text(''.join(f'{sha(p)}  {p.name}\n' for p in members))
-    archive = out/f'Heroes-of-Legend-Starter-Kit-v{version["version"]}.zip'
+    archive = out/f'Deeds-of-Legend-Starter-Kit-v{version["version"]}.zip'
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_STORED) as z:
         for p in members+[sums]: z.write(p,p.name)
     # The external list also verifies the bundle; its internal list verifies members.

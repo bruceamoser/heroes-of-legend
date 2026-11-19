@@ -1,6 +1,6 @@
 # Dungeon Architect’s Guide & Bestiary
 
-The world-agnostic companion for levels 1–10 is part of the Heroes of Legend
+The world-agnostic companion for levels 1–10 is part of the Deeds of Legend
 starter kit alongside the Player’s Book. Both books use current Markdown sources
 and the Great Library visual style.
 

@@ -6,10 +6,10 @@
  include "cover.typ"
  pagebreak()
 }
-#set document(title:"Heroes of Legend — Dungeon Architect’s Guide & Bestiary",author:"Bruce A. Moser")
+#set document(title:"Deeds of Legend — Dungeon Architect’s Guide & Bestiary",author:"Bruce A. Moser")
 #align(center)[
  #v(35pt)
- #text(font:"Almendra",size:34pt,weight:"bold")[Heroes of Legend]
+ #text(font:"Almendra",size:34pt,weight:"bold")[Deeds of Legend]
  #v(18pt)
  #text(font:"Cinzel",size:23pt)[Dungeon Architect’s Guide]
  #v(8pt)

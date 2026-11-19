@@ -1,4 +1,4 @@
-# Heroes of Legend — current system
+# Deeds of Legend — current system
 
 This Markdown workspace is the approved source for the game and both starter-kit
 books. The current rewrite decisions are tracked in [revision 299](revision/rewrite-299.md). Earlier editions,

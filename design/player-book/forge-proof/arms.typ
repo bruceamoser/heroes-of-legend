@@ -48,7 +48,7 @@
   }
  ]
 }
-#text(font: "Cinzel",size: 8pt,tracking: 1pt)[HEROES OF LEGEND #h(1fr) DISCIPLINES]
+#text(font: "Cinzel",size: 8pt,tracking: 1pt)[DEEDS OF LEGEND #h(1fr) DISCIPLINES]
 #v(7pt)
 #text(font: "Cinzel",size: 27pt)[Arms]
 #text(size: 11pt,style: "italic")[Distance, timing and the practiced turn of a weapon.]

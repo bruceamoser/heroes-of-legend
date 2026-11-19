@@ -4,12 +4,12 @@
 #let paper = rgb("#f7f3e9")
 #let ink = rgb("#28251c")
 #let setup(body) = {
- set document(title:"Heroes of Legend — Dungeon Architect’s Guide & Bestiary",author:"Bruce A. Moser")
+ set document(title:"Deeds of Legend — Dungeon Architect’s Guide & Bestiary",author:"Bruce A. Moser")
  set text(font:"EB Garamond",size:10.5pt,fill:ink,lang:"en",hyphenate:true)
  set par(leading:.4em,spacing:.6em,justify:false)
  set page(width:612pt,height:792pt,margin:(left:42pt,right:42pt,top:52pt,bottom:46pt),fill:paper,
  header:context {
-  grid(columns:(1fr,1fr),text(font:"Cinzel",size:8pt)[Heroes of Legend],align(right,text(size:8pt,{
+  grid(columns:(1fr,1fr),text(font:"Cinzel",size:8pt)[Deeds of Legend],align(right,text(size:8pt,{
    let hs=query(heading.where(level:1)).filter(h=>h.location().page() <= here().page())
    if hs.len()>0 {hs.last().body} else {[Dungeon Architect’s Guide]}
   })))

@@ -2,7 +2,7 @@
 #show: setup
 // The standalone review uses the real book style, without its full-book art map.
 #set page(background: none)
-#set document(title: "Heroes of Legend - Nonmagical Disciplines", author: "Bruce A. Moser")
+#set document(title: "Deeds of Legend - Nonmagical Disciplines", author: "Bruce A. Moser")
 #let prose = json("procedures.json")
 #let starts = prose.enumerate().filter(((i,item)) => item.kind == "page").map(((i,item)) => i)
 #for (j,start) in starts.enumerate() {

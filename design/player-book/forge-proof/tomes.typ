@@ -47,7 +47,7 @@
   #text(size: 8pt)[*IV teaches pages 7–8 and all three advanced pages (A1–A3).*]
  ]
 }
-#text(font: "Cinzel", size: 8pt, tracking: 1pt)[HEROES OF LEGEND #h(1fr) SPELLBOOKS]
+#text(font: "Cinzel", size: 8pt, tracking: 1pt)[DEEDS OF LEGEND #h(1fr) SPELLBOOKS]
 #v(8pt)
 #align(center)[#text(font: "Cinzel", size: 25pt)[The Elemental Library] \
 #text(size: 10pt, style: "italic")[Four paths into the secrets of fire, water, earth and air.]]

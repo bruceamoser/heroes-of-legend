@@ -4,7 +4,7 @@
 #let paper = rgb("f7f3e9")
 #set document(title: "The Forge - Spellbook Layout", author: "Bruce A. Moser")
 #set page(width: 612pt, height: 792pt, margin: (x: 40pt, y: 44pt), fill: paper,
- header: [#text(font: "Cinzel", size: 8pt, fill: forest)[HEROES OF LEGEND #h(1fr) THE FORGE] #line(length: 100%, stroke: .5pt + gold)],
+ header: [#text(font: "Cinzel", size: 8pt, fill: forest)[DEEDS OF LEGEND #h(1fr) THE FORGE] #line(length: 100%, stroke: .5pt + gold)],
  footer: context [#line(length: 100%, stroke: .5pt + gold) #text(size: 8pt)[Spellbook layout study #h(1fr) #counter(page).display()]] )
 #set text(font: "EB Garamond", size: 11pt, fill: forest)
 #set par(leading: .4em)
