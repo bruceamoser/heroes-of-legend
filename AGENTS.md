@@ -1,4 +1,4 @@
-# Heroes of Legend
+# Deeds of Legend
 
 We are writing a fantasy TTRPG, not a software product. Bruce is the lead designer.
 Read [.github/copilot-instructions.md](.github/copilot-instructions.md) for the
