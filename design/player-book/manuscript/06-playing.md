@@ -141,7 +141,7 @@ and collisions can be reduced to 0.
 
 Physical includes impacts, sonic force and supernatural force when the attack says
 physical. Fire, Cold and Lightning have separate resistances. Life resistance reduces magical
-healing and potions, but not First Aid or overnight recovery.
+healing and potions. First Aid and rest ignore Life resistance.
 
 ### Damage and condition immunities
 

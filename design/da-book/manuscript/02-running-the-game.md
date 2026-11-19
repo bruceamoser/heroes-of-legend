@@ -221,7 +221,8 @@ put out when companions have the time and means to do so; combat need not contin
 merely to count safe, uncontested extinguishing actions. A curse or
 persistent condition remains until its own remedy applies.
 
-A pause does not restore HP. Offer First Aid when supplies and ten minutes are
-available, or a Night’s Rest when the situation permits it. A Brief Rest supports First Aid and learned recovery at their printed times. Preserve Grit expenditure,
-scars and other continuing effects. Ask what they do with the scene they have
-changed: whom they help, what they search, and whether they stay or leave.
+Offer First Aid when supplies and ten minutes are available. If the party has a
+safe hour, a Brief Rest restores 6 HP and 3 SP once per day. First Aid and
+Spellcraft Recovery can add to it. A Night’s Rest restores full HP and SP.
+Preserve spent Grit, scars and continuing effects. Ask whom they help, what they
+search and whether they stay or leave.

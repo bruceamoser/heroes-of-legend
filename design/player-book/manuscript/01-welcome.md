@@ -37,7 +37,7 @@ Attacks connect. A poor roll changes how much harm and pressure an attack create
 it does not usually erase the turn. A stronger result may push an enemy away, expose
 a weakness, leave them burning, or put an ally where they need to be.
 
-You recover HP through healing and safe overnight rest; scars and spent Grit follow you. Victories
+You recover HP through healing and rest. Scars and spent Grit follow you. Victories
 can leave permanent scars. A hero who rises again is not untouched by what happened.
 
 ## Learn one roll

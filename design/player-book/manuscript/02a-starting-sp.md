@@ -54,4 +54,4 @@ At each level after 1, increase your maximum SP by 2. Keep your current SP at it
 
 ## Current and maximum SP
 
-Record current SP separately. Pay a spell's printed SP when casting; each book's first spell costs 0 SP. Sustain uses a Maneuver and 0 SP. A safe overnight rest restores your reserve. Other recovery and transfer follow their printed time and limits.
+Record current SP separately. Pay a spell's printed SP when casting; each book's first spell costs 0 SP. Sustain uses a Maneuver and 0 SP. A Brief Rest restores 3 SP once per day. A Night’s Rest fills your reserve. Other recovery and transfer follow their listed time and limits.

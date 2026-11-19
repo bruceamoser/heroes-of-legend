@@ -38,16 +38,23 @@ Your SP reserve is separate from HP. Your level contributes **2 × level SP**: 2
 
 ## Safe places and downtime
 
-Explain whether a campsite permits safe overnight rest before the group commits
-to it. Eight hours, including six hours of sleep or equivalent stillness, restores
-HP and SP and renews the recipient's first-aid allowance, at most once in 24 hours.
-Food, water and adequate shelter are required. A fight, forced travel or strenuous
-work interrupts the rest; brief waking and routine watch do not. A shorter safe pause may give the heroes time to spend DP or tend an injury.
+Tell the group whether a place is safe before they commit to a rest.
 
-Track current HP and SP between encounters. Ten minutes can permit supplied First
-Aid, but cannot replenish everyone's resources. Respect intelligent retreat and
-preparation. Pressure can come from time, enemies and objectives; do not invent an
-ambush merely to prevent a rest that was already established as safe.
+**Brief Rest.** One uninterrupted safe hour restores **6 HP and 3 SP**, up to
+maximum, once per day. First Aid and learned Spellcraft Recovery can add to
+that recovery. Apply their own time, supply and use limits. A Dying hero must
+be stabilized before recovering from rest.
+
+**Night’s Rest.** Eight safe hours with food, water and adequate shelter
+restore full HP and SP. Include six hours of sleep or its equivalent. A
+Night’s Rest renews First Aid and uses that refresh overnight, with those
+benefits available once in 24 hours. A fight, forced travel or strenuous
+work interrupts the rest. Brief waking and routine watch can fit within it.
+
+Track current HP and SP between encounters. First Aid takes ten minutes and
+works on its own or alongside a rest. A shorter pause can also give the heroes
+time to spend DP in a safe place. Let pressure come from time, enemies and
+objectives already in play. Honor the safety you established for the group.
 
 ## Keep the survival sequence clear
 
@@ -94,8 +101,8 @@ and potions. Restore at least 1 HP if any is missing, up to maximum HP.
 A healer with no separately printed SP reserve has 6 SP. Summoned healers spend
 their controller's SP and cannot receive healing. A safe overnight rest restores
 all SP. A hero with [Spellcraft Recovery](../../disciplines/spellcraft.md#recovery)
-can also spend one uninterrupted hour in safety resting, meditating, or enjoying
-quiet leisure. Use the amount restored by the hero’s learned Recovery ability, up to maximum SP. The hero can take this recovery pause once between safe overnight rests. Perfect Repose shortens it to 30 minutes. Learning an improvement after using the pause leaves that use spent.
+can add its printed SP to a Brief Rest or recover it during a separate pause.
+Spend one uninterrupted hour in safety resting, meditating, or enjoying quiet leisure. Use the amount restored by the hero’s learned Recovery ability, up to maximum SP. The hero can take this recovery pause once between safe overnight rests. Perfect Repose shortens it to 30 minutes. Learning an improvement after using the pause leaves that use spent.
 
 ## Scars and a hero's death
 
