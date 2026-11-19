@@ -38,18 +38,18 @@ Gain 1 Grit at level 1, 1 at level 3 and 1 at level 7. Each point can be used on
 
 ## Advancement
 
-The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
+The DA awards milestone levels. From level 2 onward, gain **6 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add the HP gain described above and **2 maximum SP**. Neither a level gain nor a signature change refreshes spent Grit.
 
 | New level | DP gained | Other development |
 |---|---:|---|
-| 2 | 6 | HP growth; +2 maximum SP |
-| 3 | 7 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
-| 4 | 8 | HP growth; +2 maximum SP |
-| 5 | 9 | HP growth; +2 maximum SP |
-| 6 | 10 | HP growth; +2 maximum SP |
-| 7 | 11 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
-| 8 | 12 | HP growth; +2 maximum SP |
-| 9 | 13 | HP growth; +2 maximum SP |
-| 10 | 14 | HP growth; +2 maximum SP |
+| 2 | 8 | HP growth; +2 maximum SP |
+| 3 | 9 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
+| 4 | 10 | HP growth; +2 maximum SP |
+| 5 | 11 | HP growth; +2 maximum SP |
+| 6 | 12 | HP growth; +2 maximum SP |
+| 7 | 13 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
+| 8 | 14 | HP growth; +2 maximum SP |
+| 9 | 15 | HP growth; +2 maximum SP |
+| 10 | 16 | HP growth; +2 maximum SP |
 
 Record what you learned and the DP you spent. At level 3 you can learn advanced entries, and at level 7 you can learn masteries. Follow each path’s order and pay the listed costs.

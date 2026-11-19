@@ -18,19 +18,19 @@ recognize so they do not feel required to seek unnecessary fights.
 
 Help players create level-1 heroes by choosing ancestry and two traits, one discipline each from culture, background and class, one class signature, then spend starting DP on techniques and spells. Starting DP is 10 + Guile + Knowledge + Reason, plus explicit benefits.
 
-The DA awards milestone levels. From level 2 onward, gain **4 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add ancestry HP + class HP to maximum HP. Add the same amount to current HP if the hero is above 0 HP. At 0 HP, increase only the maximum. Add **2 maximum SP**, keeping current SP unchanged. Neither a level gain nor a signature change refreshes spent Grit.
+The DA awards milestone levels. From level 2 onward, gain **6 + the new level DP**, plus explicit trait benefits. Save points or spend them when the DA judges you are somewhere safe. Add ancestry HP + class HP to maximum HP. Add the same amount to current HP if the hero is above 0 HP. At 0 HP, increase only the maximum. Add **2 maximum SP**, keeping current SP unchanged. Neither a level gain nor a signature change refreshes spent Grit.
 
 | New level | DP gained | Other development |
 |---|---:|---|
-| 2 | 6 | HP growth; +2 maximum SP |
-| 3 | 7 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
-| 4 | 8 | HP growth; +2 maximum SP |
-| 5 | 9 | HP growth; +2 maximum SP |
-| 6 | 10 | HP growth; +2 maximum SP |
-| 7 | 11 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
-| 8 | 12 | HP growth; +2 maximum SP |
-| 9 | 13 | HP growth; +2 maximum SP |
-| 10 | 14 | HP growth; +2 maximum SP |
+| 2 | 8 | HP growth; +2 maximum SP |
+| 3 | 9 | HP growth; +2 maximum SP; advanced branch entries; signature choice; 1 Grit |
+| 4 | 10 | HP growth; +2 maximum SP |
+| 5 | 11 | HP growth; +2 maximum SP |
+| 6 | 12 | HP growth; +2 maximum SP |
+| 7 | 13 | HP growth; +2 maximum SP; masteries and master spells; signature choice; 1 Grit |
+| 8 | 14 | HP growth; +2 maximum SP |
+| 9 | 15 | HP growth; +2 maximum SP |
+| 10 | 16 | HP growth; +2 maximum SP |
 
 Ask each player to record what they learned and the DP they spent. Their class lists what it costs to begin an additional discipline. When they reach levels 3 or 7, point them to the entries they can now learn. Check that earlier entries in the same path or book are already learned.
 
