@@ -10,4 +10,4 @@ current source map, authoring guidance and workflow.
 - Starter-kit releases contain both books. Git history is the archive.
 - Review book PRs automatically and squash merge when checks pass and any findings are resolved. Ask Bruce about decisions or concerns that need his judgment.
 - Track every rules/content decision and change in issues on
-  `bruceamoser/heroes-of-legend-foundry`; link the downstream issue from the source PR.
+  `bruceamoser/deeds-of-legend-foundry`; link the downstream issue from the source PR.

@@ -19,11 +19,11 @@ The starter kit covers **levels 1–10** and includes:
   encounter guidance, hazards, a rescue adventure with maps, campaign tools,
   192 illustrated creatures, 126 monster abilities and table references.
 
-[Published releases](https://github.com/bruceamoser/heroes-of-legend/releases) ·
+[Published releases](https://github.com/bruceamoser/deeds-of-legend/releases) ·
 [Release notes](release/notes.md) · [Build both books](release/README.md)
 
 The current source builds starter kit **v17.0.0**. Download published books from the
-[latest release](https://github.com/bruceamoser/heroes-of-legend/releases/latest).
+[latest release](https://github.com/bruceamoser/deeds-of-legend/releases/latest).
 This is a digital playtest edition; creature CV and encounter budgets remain estimates.
 
 This edition includes the [discipline and origin expansion](design/discipline-coverage.md).
