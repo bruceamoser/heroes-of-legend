@@ -32,6 +32,10 @@ out. A round lasts 6 seconds and ends after everyone has had a turn. Each
 character has Main, Maneuver, Reaction and movement. Main converts to Maneuver,
 and Maneuver converts to movement. Conversion goes in that direction only.
 
+When an ability gives a time with its action, complete the full time before
+resolving it. Wild Harvest takes 1 hour. A Ritual is a Main Action and uses its
+full casting time. Each separate use or triggered response follows its own timing.
+
 Player attacks use one attacker roll, even against a player. NPC attacks use the
 player’s defense roll. Strong defense receives Weak attack effects, Standard
 receives Standard, Weak receives Strong. The defense itself spends no Reaction.

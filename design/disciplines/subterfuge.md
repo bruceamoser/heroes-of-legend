@@ -91,7 +91,7 @@ Turn the Trap can guide two willing adjacent creatures 1 square each before reso
 
 ### Read the Killing Ground
 DP: 5 | Level: 7
-10 minutes · Reason. Survey a visible area up to 6 squares across; add 3/5/7 progress to identify accessible nonmagical traps, triggers and a safe route. Completion reveals supported findings and inaccessible gaps. Companions following your exact unchanged route avoid triggering its identified traps. Reaction: when a companion within 6 squares starts to leave that route toward an identified trigger, warn it before the step; if it perceives you, it may cancel that step and choose another legal step using the same movement. Once per misstep; no extra movement.
+Main Action · 10 minutes · Reason. Survey a visible area up to 6 squares across; add 3/5/7 progress to identify accessible nonmagical traps, triggers and a safe route. Completion reveals supported findings and inaccessible gaps. Companions following your exact unchanged route avoid triggering its identified traps. Reaction: when a companion within 6 squares starts to leave that route toward an identified trigger, warn it before the step; if it perceives you, it may cancel that step and choose another legal step using the same movement. Once per misstep; no extra movement.
 
 ## Stealth
 
@@ -121,4 +121,4 @@ Vanish into Cover moves up to 3 squares; this movement triggers no movement reac
 
 ### The Hidden Road
 DP: 5 | Level: 7
-1 hour · Agility, with rope and concealment materials. Establish a concealed route up to 20 squares long across terrain you can physically traverse; add 3/5/7 progress toward the DA’s route objective. On completion, up to six companions following your instructions can traverse it at normal movement cost with 2 Boons to remain unnoticed. It creates no unsupported bridge. Discovery or damage ends these benefits until the route is repaired and concealed again.
+Main Action · 1 hour · Agility, with rope and concealment materials. Establish a concealed route up to 20 squares long across terrain you can physically traverse; add 3/5/7 progress toward the DA’s route objective. On completion, up to six companions following your instructions can traverse it at normal movement cost with 2 Boons to remain unnoticed. It creates no unsupported bridge. Discovery or damage ends these benefits until the route is repaired and concealed again.

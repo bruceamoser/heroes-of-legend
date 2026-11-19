@@ -4,7 +4,7 @@
 
 ## Rules
 
-**Action:** 10 minutes · **Attribute:** None (no roll)
+**Action:** Ritual — 10 minutes · **Attribute:** None (no roll)
 
 **Target / range / shape:** Up to three willing characters.
 

@@ -37,7 +37,7 @@ Main Action · Knowledge, with tools and matching replacement parts. Add 3/5/7 p
 
 ### Smoke in a Bottle I
 DP: 1 | Level: 1
-1 hour · Knowledge, with alchemical tools and one purchased batch of smoke ingredients. Add 1/2/3 progress toward target 3 to prepare one smoke flask. Maneuver: throw a prepared flask to a visible point within 4 squares, consuming it. Smoke fills a 1-square-radius area until your next turn ends and blocks sight through it. No throwing roll.
+Main Action · 1 hour · Knowledge, with alchemical tools and one purchased batch of smoke ingredients. Add 1/2/3 progress toward target 3 to prepare one smoke flask. Maneuver: throw a prepared flask to a visible point within 4 squares, consuming it. Smoke fills a 1-square-radius area until your next turn ends and blocks sight through it. No throwing roll.
 
 ### Smoke in a Bottle II
 DP: 2 | Level: 1
@@ -109,7 +109,7 @@ Trail Workshop adds 1/3/4 progress or inventory steps to its recipes, respecting
 
 ### A Roof before Nightfall I
 DP: 3 | Level: 3
-1 hour, with tools and sound materials on stable ground. Build a weatherproof shelter for six people without a roll. It resists ordinary weather, not attacks or extreme hazards. You can also improvise a simple hook, wedge, lever or similar tool from suitable salvage: 10 minutes and Knowledge for 1/2/3 progress toward target 3. It lasts one task and cannot be a weapon, armor, consumable ingredient or valuable.
+Main Action · 1 hour, with tools and sound materials on stable ground. Build a weatherproof shelter for six people without a roll. It resists ordinary weather, not attacks or extreme hazards. You can also improvise a simple hook, wedge, lever or similar tool from suitable salvage: 10 minutes and Knowledge for 1/2/3 progress toward target 3. It lasts one task and cannot be a weapon, armor, consumable ingredient or valuable.
 
 ### A Roof before Nightfall II
 DP: 4 | Level: 3
@@ -121,4 +121,4 @@ A Roof before Nightfall takes 30 minutes with materials already gathered, and yo
 
 ### A City Opens Its Gates
 DP: 5 | Level: 7
-1 day · Reason. Present a feasible civic project to representatives of up to four willing factions you can communicate with. Show how it would work with a plan, model or demonstration. Roll once; add 4/7/10 progress to each faction’s separate agreement objective. Completion secures the commitments established by the DA, such as access, labor or a ceasefire. New terms need a new objective; this creates neither resources nor control over a settlement.
+Main Action · 1 day · Reason. Present a feasible civic project to representatives of up to four willing factions you can communicate with. Show how it would work with a plan, model or demonstration. Roll once; add 4/7/10 progress to each faction’s separate agreement objective. Completion secures the commitments established by the DA, such as access, labor or a ceasefire. New terms need a new objective; this creates neither resources nor control over a settlement.

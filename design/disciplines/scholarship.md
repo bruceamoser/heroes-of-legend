@@ -31,7 +31,7 @@ Reconstruct the Scene may connect up to five related events, with 1 Boon when at
 
 ### The Truth before the Council
 DP: 5 | Level: 7
-10 minutes · Reason. Present your findings and their supporting evidence to up to four decision-makers who understand you. Use testimony, records, exhibits or an explanation of what you found. Roll once; add 3/5/7 progress to each relevant acceptance objective. On completion a listener acknowledges the supported facts and grants the attainable concession established with the DA. Unsupported claims and inaccessible facts remain unproven.
+Main Action · 10 minutes · Reason. Present your findings and their supporting evidence to up to four decision-makers who understand you. Use testimony, records, exhibits or an explanation of what you found. Roll once; add 3/5/7 progress to each relevant acceptance objective. On completion a listener acknowledges the supported facts and grants the attainable concession established with the DA. Unsupported claims and inaccessible facts remain unproven.
 
 ## Planning
 
@@ -97,7 +97,7 @@ Reaction · Knowledge. When a group within 6 squares is about to act on an alarm
 
 ### Patient Translation I
 DP: 1 | Level: 1
-10 minutes · Knowledge, with a glossary or parallel text. Add 1/2/3 progress toward translating one short passage in an unfamiliar nonmagical language. A reference is required; ciphers need a separate objective.
+Main Action · 10 minutes · Knowledge, with a glossary or parallel text. Add 1/2/3 progress toward translating one short passage in an unfamiliar nonmagical language. A reference is required; ciphers need a separate objective.
 
 ### Patient Translation II
 DP: 2 | Level: 1
@@ -109,7 +109,7 @@ Patient Translation takes 5 minutes per attempt.
 
 ### Bridge of Words I
 DP: 3 | Level: 3
-10 minutes with a willing speaker and usable shared signs or reference text. Establish simple communication about directions, quantities and immediate needs for this conversation, without a roll. Abstract bargains and hidden meanings still require translation.
+Main Action · 10 minutes with a willing speaker and usable shared signs or reference text. Establish simple communication about directions, quantities and immediate needs for this conversation, without a roll. Abstract bargains and hidden meanings still require translation.
 
 ### Bridge of Words II
 DP: 4 | Level: 3
@@ -121,4 +121,4 @@ Once Bridge of Words is established, gain 1 Boon on translation rolls using note
 
 ### The Lost Lexicon
 DP: 5 | Level: 7
-1 hour · Knowledge, with at least three substantial texts or a text and a willing fluent speaker. Add 3/5/7 progress toward reconstructing an unfamiliar nonmagical writing system. On completion create a working glossary that serves as a reference for Patient Translation for anyone who can read your notes. Missing vocabulary, ciphers and magical meanings remain separate questions; the glossary does not grant fluent speech.
+Main Action · 1 hour · Knowledge, with at least three substantial texts or a text and a willing fluent speaker. Add 3/5/7 progress toward reconstructing an unfamiliar nonmagical writing system. On completion create a working glossary that serves as a reference for Patient Translation for anyone who can read your notes. Missing vocabulary, ciphers and magical meanings remain separate questions; the glossary does not grant fluent speech.

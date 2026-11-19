@@ -91,7 +91,7 @@ Covering Fire deals 2/3/5 physical damage and protects that ally’s first 3 squ
 
 ### Hunt at the Crossroads
 DP: 5 | Level: 7
-10 minutes. Prepare an ambush along a trail you have followed, at a site you have surveyed by actually examining its routes and sight lines. Choose up to four willing allies and a visible trigger line up to 6 squares long. Once before your next safe overnight rest, when a tracked enemy crosses the line, you and each chosen ally may spend an available Reaction to make one known basic attack against it if in range. These attacks gain 1 Boon and +2 damage. Preparation ends if you leave the site. Resolve awareness and initiative normally; preparation grants no additional surprise turn.
+Main Action · 10 minutes. Prepare an ambush along a trail you have followed, at a site you have surveyed by actually examining its routes and sight lines. Choose up to four willing allies and a visible trigger line up to 6 squares long. Once before your next safe overnight rest, when a tracked enemy crosses the line, you and each chosen ally may spend an available Reaction to make one known basic attack against it if in range. These attacks gain 1 Boon and +2 damage. Preparation ends if you leave the site. Resolve awareness and initiative normally; preparation grants no additional surprise turn.
 
 ## Thrown Weapons
 
