@@ -28,9 +28,9 @@ Decomposition, toxins and biological deterioration.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
-**Target / range:** One living creature within 3 squares
+**Target / range:** One living creature within 6 squares
 **Duration:** Instant
 
 Exhale a stinging spray. Deal 2/3/5 poison damage.
@@ -41,7 +41,7 @@ Exhale a stinging spray. Deal 2/3/5 poison damage.
 **Page:** 2
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One living creature within 6 squares
 **Duration:** Instant
@@ -54,7 +54,7 @@ Strike with a sickly ray for 2/3/5 poison damage. On Strong also apply Poisoned 
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
@@ -68,7 +68,7 @@ Draw vigor from the target's muscles. Apply Slowed 1/2/3; on Strong also apply D
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 hour
 
 Grant poison resistance 2 and immediately reduce Poisoned by 2. Apply the highest matching resistance.
@@ -79,7 +79,7 @@ Grant poison resistance 2 and immediately reduce Poisoned by 2. Apply the highes
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One adjacent living creature
 **Duration:** Instant
@@ -92,9 +92,9 @@ Take strength through a withering touch. Deal 2/4/6 life damage. Restore your HP
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
-**Target / range:** One creature within 3 squares
+**Target / range:** One creature within 6 squares
 **Duration:** 1 minute
 
 Speak a curse that burdens its efforts. Apply Poisoned 1/2/3, representing magical frailty, with ordinary decay. While the curse persists, you may spend a Maneuver to renew Poisoned 1 on that target, once on your turn; this costs 0 SP. Remove Curse ends the curse and its remaining contribution immediately. You may have one Bestow Curse active; casting it again ends the earlier curse.
@@ -105,9 +105,9 @@ Speak a curse that burdens its efforts. Apply Poisoned 1/2/3, representing magic
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
-**Target / range:** One living creature or plant within 8 squares
+**Target / range:** One living creature or plant within 12 squares
 **Duration:** Instant
 
 Wither flesh or foliage for 4/6/9 life damage. An ordinary unattended plant fitting within one square dries into brittle matter.
@@ -118,7 +118,7 @@ Wither flesh or foliage for 4/6/9 life damage. An ordinary unattended plant fitt
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One adjacent living creature
 **Duration:** 10 minutes or until treated
@@ -131,7 +131,7 @@ Inflict Poisoned 1/2/3*. This magical sickness persists at that rating until you
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One living creature within 6 squares
 **Duration:** Instant
@@ -144,9 +144,9 @@ Deal 5/8/11 life damage and apply Poisoned 1. Resolve damage and dying by the or
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
-**Target / range:** One living creature within 8 squares
+**Target / range:** One living creature within 12 squares
 **Duration:** Instant
 
 A black pulse strikes for 6/9/12 life damage. If the target reaches 0 HP, resolve its ordinary dying rules; the spell's damage is one event.
@@ -157,9 +157,9 @@ A black pulse strikes for 6/9/12 life damage. If the target reaches 0 HP, resolv
 **Page:** A3
 **Action:** Main Action
 **SP:** 6
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Fortitude
-**Target / range:** Every living creature in a 3-square-radius burst within 10 squares
+**Target / range:** Every living creature in a 3-square-radius burst within 12 squares
 **Duration:** Instant
 
 A ring of pallor spreads from the chosen point. Deal 5/8/11 life damage and apply Poisoned 1 to each living creature in the burst, including allies. Each creature is affected once. Resolve damage and dying by the ordinary rules.

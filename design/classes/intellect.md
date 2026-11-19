@@ -12,6 +12,8 @@ You might like a workbench with room for somebody else’s tools, or dislike an 
 
 **Attributes:** Minimum 0 in Knowledge, Reason. **HP contribution:** +1 at level 1 and per level thereafter.
 
+**Casting attribute:** Knowledge.
+
 **Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
 **Starting disciplines:** Choose one of Scholarship, Craft, Tactics, Divination. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

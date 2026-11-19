@@ -29,7 +29,7 @@ Soil, stone, excavation and reinforcement.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One unattended rope up to 6 squares long within 3 squares
+**Target / range:** One unattended rope up to 6 squares long within 6 squares
 **Duration:** 1 minute
 
 Guide the rope's free end through a reachable opening and tie or undo one ordinary knot. It can secure itself to a suitable anchor. It bears its ordinary load and moves through unoccupied space.
@@ -41,7 +41,7 @@ Guide the rope's free end through a reachable opening and tie or undo one ordina
 **Action:** Ritual · 1 minute
 **SP:** 1
 **Attribute:** None
-**Target / range:** One unoccupied square of loose earth within 3 squares, up to 1 square deep
+**Target / range:** One unoccupied square of loose earth within 6 squares, up to 1 square deep
 **Duration:** Instant
 
 Loosen, shift or pile the soil into an adjacent unoccupied square. Work around buried structures and roots. The resulting earth is ordinary material.
@@ -64,7 +64,7 @@ Raise a bank of packed earth 1 square high. It provides cover and costs 2 moveme
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One visible unoccupied 2-square section of stone within 6 squares
 **Duration:** Instant
 
@@ -101,7 +101,7 @@ Reshape existing stone into a doorway, trough, steps or similarly simple form. P
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Harden the recipient's skin like weathered granite. It gains physical resistance 2, using the highest matching resistance.
@@ -113,7 +113,7 @@ Harden the recipient's skin like weathered granite. It gains physical resistance
 **Action:** Main Action
 **SP:** 4
 **Attribute:** None
-**Target / range:** Six connected unoccupied squares on solid ground within 8 squares
+**Target / range:** Six connected unoccupied squares on solid ground within 12 squares
 **Duration:** 1 hour
 
 Raise a stone wall 2 squares high. Each section has 12 HP and physical resistance 2. It can include openings you shape when casting. At expiry the conjured stone crumbles into harmless dust.
@@ -136,7 +136,7 @@ Grade, trench or mound earth by up to 2 squares of depth or height. Shift it wit
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One creature within 6 squares
 **Duration:** Until the end of your next turn; conditions then decay normally
@@ -149,9 +149,9 @@ Stone creeps across the target. Apply Slowed 2/3/4. On Standard or Strong, also 
 **Page:** A3
 **Action:** Main Action
 **SP:** 6
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Every grounded creature in a 3-square-radius area within 10 squares
+**Target / range:** Every grounded creature in a 3-square-radius area within 12 squares
 **Duration:** Instant
 
 Shake the ground violently. Deal 5/8/11 physical damage and make affected creatures Prone. Add 3/5/7 progress toward one visible structure's DA-set collapse objective in the area; the DA describes unstable features before the roll. Each creature takes the spell's damage once; collapsing structures use their normal hazard rules.

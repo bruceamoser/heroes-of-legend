@@ -12,7 +12,9 @@ Perhaps you love sparring with someone who makes you change your habits, or hate
 
 **Attributes:** Minimum 0 in Agility, Brawn. **HP contribution:** +2 at level 1 and per level thereafter.
 
-**Starting SP contribution:** Twice your positive Reason at creation: 2 × max(0, Reason).
+**Casting attribute:** Knowledge.
+
+**Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
 **Starting disciplines:** Choose one of Arms, Fencing, Athletics, Subterfuge. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.
 

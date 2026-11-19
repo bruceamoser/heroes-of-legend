@@ -40,9 +40,9 @@ Share one brief harmless dream image or soothing sensation. The sleeper later re
 **Page:** 2
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 4 squares
+**Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
 
 Send drowsiness over the target. Apply Slowed 1/2/3. On Standard or Strong, also apply Asleep 1. Damage or ordinary waking procedures end Asleep.
@@ -65,7 +65,7 @@ Appear in a short dream and exchange up to fifty words each. The recipient recog
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Hold attribute:** Guile
@@ -80,9 +80,9 @@ Create a troubling sensory image that only the target perceives. Apply Frightene
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** Up to three creatures in a 2-square-radius area within 8 squares that can see the pattern
+**Target / range:** Up to three creatures in a 2-square-radius area within 12 squares that can see the pattern
 **Duration:** Instant; conditions decay normally
 
 Weave a mesmerizing display. Apply Dazed 1/1/2 to each chosen target. Sight is required when the spell resolves.
@@ -93,7 +93,7 @@ Weave a mesmerizing display. Apply Dazed 1/1/2 to each chosen target. Sight is r
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares
 **Duration:** Instant; conditions decay normally
@@ -118,7 +118,7 @@ Meet in a shared dream with speech and vivid images. Each participant can recall
 **Page:** 8
 **Action:** Ritual · 10 minutes
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One visible mark on an object within reach
 **Duration:** 8 hours or until triggered
@@ -132,7 +132,7 @@ The first creature to read or closely examine the mark receives Slowed 2/3/4 and
 **Action:** Ritual · 1 hour
 **SP:** 5
 **Attribute:** None
-**Target / range:** Self and up to five willing sleepers within 3 squares
+**Target / range:** Self and up to five willing sleepers within 6 squares
 **Duration:** 1 hour
 
 Host a shared dream with chosen scenery and conversation about one undertaking within the next 24 hours. The DA gives one truthful warning of a foreseeable obstacle, based on present circumstances. Each participant receives 1 Boon on its first roll directly implementing the agreed plan within 24 hours; record the plan before waking. A creature can hold one Lord Dream benefit at a time. The dream reveals possibilities, while later decisions can change the outcome.
@@ -143,9 +143,9 @@ Host a shared dream with chosen scenery and conversation about one undertaking w
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** Up to six creatures within 8 squares
+**Target / range:** Up to six creatures within 12 squares
 **Duration:** Instant; conditions decay normally
 
 Surround the targets with personalized waking terrors. Roll once; each takes 3/5/7 mental damage and gains Frightened 2, with the visions as source until your next turn ends.

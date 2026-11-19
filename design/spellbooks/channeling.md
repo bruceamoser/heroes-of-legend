@@ -28,7 +28,7 @@ Draw, give and redirect magical power between existing reserves. Casting costs a
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** One creature within 6 squares
 **Duration:** Instant
@@ -65,9 +65,9 @@ After paying this spell's 1 SP cost, receive up to 3 SP from the donor, limited 
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 3 squares with its own SP reserve
+**Target / range:** One creature within 6 squares with its own SP reserve
 **Duration:** Instant
 
 Transfer 1/2/3 of the target's current SP into your reserve, limited by its available SP and your missing SP after paying the casting cost. Every point received leaves the target's reserve. An empty reserve transfers 0.
@@ -79,7 +79,7 @@ Transfer 1/2/3 of the target's current SP into your reserve, limited by its avai
 **Action:** Main Action
 **SP:** 2
 **Attribute:** None
-**Target / range:** One willing creature within 8 squares with its own SP reserve
+**Target / range:** One willing creature within 12 squares with its own SP reserve
 **Duration:** Instant
 
 Give or receive up to 5 existing SP after paying this spell's casting cost. Both parties agree on the direction and amount. Respect the donor's remaining reserve and the recipient's missing SP.
@@ -94,7 +94,7 @@ Give or receive up to 5 existing SP after paying this spell's casting cost. Both
 **Target / range:** One willing ally within 6 squares; targets measured from that ally
 **Duration:** As the transmitted spell
 
-Choose one known Main Action spell from outside the Channeling book costing at most 3 SP. Pay its normal cost plus this spell's 3 SP. The ally spends its Reaction immediately to release it from its position, choosing legal targets; you make any casting roll with the spell's attribute. Resolve it once. You remain responsible for any sustain and duration.
+Choose one known Main Action spell from outside the Channeling book costing at most 3 SP. Pay its normal cost plus this spell's 3 SP. The ally spends its Reaction immediately to release it from its position, choosing legal targets; you make any casting roll with your class’s casting attribute. Resolve it once. You remain responsible for any sustain and duration.
 
 ### Directed Siphon
 
@@ -102,7 +102,7 @@ Choose one known Main Action spell from outside the Channeling book costing at m
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One donor and one different recipient within 6 squares, each with its own SP reserve
 **Duration:** Instant
@@ -115,7 +115,7 @@ Transfer 2/3/5 SP from the donor to the recipient. Willing participants may acce
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Two different creatures within 6 squares with their own SP reserves
 **Duration:** Instant
@@ -129,7 +129,7 @@ Choose a donor and recipient. Transfer up to 8 existing SP with both parties' co
 **Action:** Main Action
 **SP:** 5
 **Attribute:** As the funded spell
-**Target / range:** Self and up to three willing donors within 3 squares
+**Target / range:** Self and up to three willing donors within 6 squares
 **Duration:** As the funded spell
 
 Choose one known Main Action spell from outside the Channeling book costing at most 6 SP. Pay this spell's 5 SP yourself. Each donor spends its Reaction and contributes an agreed amount toward the chosen spell's cost; you pay the remainder. Cast it once with its normal attribute and targets. Contributions pay the spell directly, and you handle the transmitted spell’s duration and Sustain when it requires it.
@@ -140,7 +140,7 @@ Choose one known Main Action spell from outside the Channeling book costing at m
 **Page:** A2
 **Action:** Reaction · when a visible spell transfers SP between creatures
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** The transfer and a replacement recipient within 6 squares
 **Duration:** Instant
 
@@ -152,7 +152,7 @@ Add 3/5/7 cancellation progress against the transfer, target 2 plus its casting 
 **Page:** A3
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Two different creatures within 6 squares with their own SP reserves
 **Hold attribute:** Reason

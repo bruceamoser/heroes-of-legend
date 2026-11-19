@@ -29,7 +29,7 @@ Place magical properties into objects.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One unattended object or object held by a willing creature within 3 squares
+**Target / range:** One unattended object or object held by a willing creature within 6 squares
 **Duration:** 1 hour
 
 Make it shed bright light to 6 squares and dim light for another 3. Choose the color. You may keep one Light casting at a time and end it with a Maneuver.
@@ -41,7 +41,7 @@ Make it shed bright light to 6 squares and dim light for another 3. Choose the c
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One held weapon belonging to a willing creature within 3 squares
+**Target / range:** One held weapon belonging to a willing creature within 6 squares
 **Duration:** 1 minute
 
 Give the weapon's damaging attacks +1 physical damage before resistance. Apply this once per target per attack. Use the highest magical weapon damage increase.
@@ -53,7 +53,7 @@ Give the weapon's damaging attacks +1 physical damage before resistance. Apply t
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One held weapon belonging to a willing creature within 3 squares
+**Target / range:** One held weapon belonging to a willing creature within 6 squares
 **Duration:** 1 minute
 
 Choose fire, cold or lightning. Its attacks deal that type in place of their normal damage type and add 1 damage before resistance. Use the highest magical weapon damage increase; each attack remains one damage event per target.
@@ -68,7 +68,7 @@ Choose fire, cold or lightning. Its attacks deal that type in place of their nor
 **Target / range:** One held rune-stone and one known Main Action spell costing at most 2 SP
 **Duration:** 24 hours or until released
 
-Pay the stored spell's SP in addition to this ritual. Inscribe its power into the stone. A bearer uses a Main Action to release it, choosing legal targets from their position and using the stored spell’s printed attribute and your value for it. The stone holds one use; you may keep one prepared Rune Mastery stone at a time.
+Pay the stored spell's SP in addition to this ritual. Inscribe its power into the stone. A bearer uses a Main Action to release it, choosing legal targets from their position and using your class’s casting attribute and your value for it. The stone holds one use; you may keep one prepared Rune Mastery stone at a time.
 
 ### Magic Mouth
 

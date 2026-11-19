@@ -12,6 +12,8 @@ You might savor a clean diagram or love the apprentice who asks the awkward ques
 
 **Attributes:** Minimum 0 in Agility, Knowledge. **HP contribution:** +1 at level 1 and per level thereafter.
 
+**Casting attribute:** Knowledge.
+
 **Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
 **Starting disciplines:** Choose one of Elements, Force, Invocation, Spellcraft. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

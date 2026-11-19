@@ -28,9 +28,9 @@ Move objects through directed force.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** One creature within 8 squares
+**Target / range:** One creature within 12 squares
 **Duration:** Instant
 
 Strike with a bolt of compressed force. Deal 2/3/5 force damage.
@@ -42,7 +42,7 @@ Strike with a bolt of compressed force. Deal 2/3/5 force damage.
 **Action:** Maneuver
 **SP:** 1
 **Attribute:** None
-**Target / range:** One unattended object of Bulk 1 or less within 4 squares
+**Target / range:** One unattended object of Bulk 1 or less within 6 squares
 **Duration:** Until your next turn ends
 
 A spectral hand lifts and moves the object up to 2 squares, or opens one unlocked door or container. It handles ordinary items with simple motions. Each new manipulation uses another casting.
@@ -53,9 +53,9 @@ A spectral hand lifts and moves the object up to 2 squares, or opens one unlocke
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Up to three creatures within 8 squares
+**Target / range:** Up to three creatures within 12 squares
 **Duration:** Instant
 
 Send luminous darts along clear paths. Roll once for a shared total of 3/5/7 force damage; divide it before resistance, assigning at least 1 to each target. Each target takes one damage event.
@@ -66,7 +66,7 @@ Send luminous darts along clear paths. Roll once for a shared total of 3/5/7 for
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Brawn
 **Target / range:** One creature within 6 squares
 **Hold attribute:** Knowledge
@@ -93,7 +93,7 @@ Lift it up to 3 squares from its supporting surface. Each upkeep moves it up to 
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** Every creature and unattended fragile object in a 1-square-radius burst within 6 squares
 **Duration:** Instant
@@ -106,7 +106,7 @@ Sound a sharp resonant crack. Deal 3/5/7 force damage. Ordinary unattended glass
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Brawn
 **Target / range:** One creature or unattended object within 6 squares
 **Duration:** Instant
@@ -120,7 +120,7 @@ Move a creature 1/2/3 squares toward a visible supported destination, applying S
 **Action:** Main Action
 **SP:** 4
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Enclose it in a translucent sphere with 12 HP and resistance 2 to all damage. Attacks from outside strike the sphere; the recipient may roll it 1 square using its movement. Actions affecting the outside require leaving with a Maneuver. Destruction ends the sphere after that damage event.
@@ -132,7 +132,7 @@ Enclose it in a translucent sphere with 12 HP and resistance 2 to all damage. At
 **Action:** Main Action
 **SP:** 5
 **Attribute:** None
-**Target / range:** Six connected unoccupied squares within 8 squares
+**Target / range:** Six connected unoccupied squares within 12 squares
 **Duration:** 1 minute
 
 Raise a transparent force wall 2 squares high. It blocks physical passage and attacks across it. All sections share 18 HP and resistance 2 to all damage; attacks always deal at least 1. Destroying the wall opens all its squares.
@@ -143,9 +143,9 @@ Raise a transparent force wall 2 squares high. It blocks physical passage and at
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** One creature or unattended object within 8 squares
+**Target / range:** One creature or unattended object within 12 squares
 **Duration:** Instant
 
 A narrow beam deals 6/9/12 force damage. An unattended nonmagical object of Bulk 3 or less is reduced to dust if this damage destroys it. Living targets follow normal HP and dying rules.
@@ -156,9 +156,9 @@ A narrow beam deals 6/9/12 force damage. An unattended nonmagical object of Bulk
 **Page:** A3
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Every creature in a 2-square-radius area within 8 squares
+**Target / range:** Every creature in a 2-square-radius area within 12 squares
 **Duration:** Until the end of your next turn
 
 Lift each affected creature 2/4/6 squares vertically from its starting position, stopping at solid obstacles. It floats there until expiry, then falls from that height using the normal falling rules. A creature already holding a fixed support may keep its grip and remain supported. A floating creature may use ordinary movement to climb a reachable fixed surface or fly out of the affected area; leaving the area ends its levitation. This working affects the chosen creatures once, when cast.

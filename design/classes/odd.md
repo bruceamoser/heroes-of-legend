@@ -12,6 +12,8 @@ You might collect the names of forgotten things, prefer a door with a story to o
 
 **Attributes:** No attribute minimums. **HP contribution:** +2 at level 1 and per level thereafter.
 
+**Casting attribute:** Guile.
+
 **Starting SP contribution:** Twice your positive Guile at creation: 2 × max(0, Guile).
 
 **Starting disciplines:** Choose one of Athletics, Subterfuge, Influence, Spellcraft. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

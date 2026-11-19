@@ -40,7 +40,7 @@ Steady the creature's breathing. Stabilize it at 0 HP and clear both death roll 
 **Page:** 2
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent living creature
 **Duration:** Instant
 
@@ -52,8 +52,8 @@ Close fresh injuries with a warm touch. Restore 3/5/7 HP, applying the recipient
 **Page:** 3
 **Action:** Maneuver
 **SP:** 1
-**Attribute:** Reason
-**Target / range:** One living creature within 4 squares that can hear you
+**Attribute:** Class
+**Target / range:** One living creature within 6 squares that can hear you
 **Duration:** Instant
 
 Speak a brief word of renewal. Restore 1/2/3 HP, applying Life resistance and maximum HP.
@@ -64,7 +64,7 @@ Speak a brief word of renewal. Restore 1/2/3 HP, applying Life resistance and ma
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent living creature
 **Duration:** Instant
 
@@ -76,8 +76,8 @@ Choose Poisoned, Blinded or Deafened. Reduce its temporary rating by 1/2/3. This
 **Page:** 5
 **Action:** Ritual · 10 minutes
 **SP:** 2
-**Attribute:** Reason
-**Target / range:** Up to six willing living creatures within 3 squares throughout the ritual
+**Attribute:** Class
+**Target / range:** Up to six willing living creatures within 6 squares throughout the ritual
 **Duration:** Instant
 
 Guide a shared prayer of recovery. Roll once; each recipient restores 3/5/7 HP after Life resistance. Each creature can benefit from Prayer of Healing once between safe overnight rests.
@@ -88,7 +88,7 @@ Guide a shared prayer of recovery. Roll once; each recipient restores 3/5/7 HP a
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** Up to three living creatures within 6 squares that can hear you
 **Duration:** Instant
 
@@ -100,7 +100,7 @@ Send a restoring word through your companions. Roll once; each restores 2/3/5 HP
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** One adjacent living creature
 **Duration:** Instant
 
@@ -112,7 +112,7 @@ Choose one temporary condition; reduce it by 2/4/6. Alternatively, end one curse
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** Up to three living creatures within 6 squares
 **Duration:** Instant
 
@@ -124,8 +124,8 @@ Weave wounds closed across a small company. Roll once; each restores 4/6/8 HP af
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
-**Target / range:** One living creature within 3 squares
+**Attribute:** Class
+**Target / range:** One living creature within 6 squares
 **Duration:** Instant
 
 Flood the recipient with restorative power. Restore 8/12/16 HP after Life resistance and reduce both Bleeding and Poisoned by 2.

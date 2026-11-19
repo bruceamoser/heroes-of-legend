@@ -29,7 +29,7 @@ Cultivate plants and living structures.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One ordinary plant or patch of soil within 3 squares
+**Target / range:** One ordinary plant or patch of soil within 6 squares
 **Duration:** Instant
 
 Open a flower, ripen one already-growing fruit, make a seed sprout, or read whether rain is likely here in the next day. The growth affects one hand-sized part of the plant.
@@ -40,7 +40,7 @@ Open a flower, ripen one already-growing fruit, make a seed sprout, or read whet
 **Page:** 2
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** Every grounded creature in a 2-square-radius area within 6 squares
 **Hold attribute:** Reason
@@ -79,7 +79,7 @@ Converse through impressions of light, weather, touch and nearby movement experi
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** A 2-square-radius patch of soil within 6 squares
 **Duration:** 1 minute
@@ -105,7 +105,7 @@ Existing plants immediately swell into dense, tangled growth, making the affecte
 **Action:** Main Action
 **SP:** 3
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Bark covers the recipient's skin. Grant physical resistance 2 and Stability 1. Use the highest applicable resistance and Stability.
@@ -140,9 +140,9 @@ Awaken a speaking mind with one language you know. The being keeps its body, nat
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Reason
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Six connected unoccupied ground squares within 8 squares
+**Target / range:** Six connected unoccupied ground squares within 12 squares
 **Duration:** 1 minute
 
 Grow a thorn wall 2 squares high. Name up to six creatures when casting; they pass through it at ordinary movement cost and take no damage from its thorns. Others spend 3 movement to cross one square and take 3/5/7 physical damage, set by your casting roll, once per creature each round. Each wall square has 8 HP; fire damages it normally. The wall provides cover. Keep one Wall of Thorns active; casting another ends the first.

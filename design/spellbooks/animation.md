@@ -29,7 +29,7 @@ Give objects movement and bounded instructions.
 **Action:** Maneuver
 **SP:** 0
 **Attribute:** None
-**Target / range:** One unattended object or 1-square space within 3 squares
+**Target / range:** One unattended object or 1-square space within 6 squares
 **Duration:** 1 minute
 
 Clean or soil a hand-sized surface, change a small object's harmless scent or color, or create a tiny visual spark. Choose one effect when casting; its physical scale remains hand-sized.
@@ -53,7 +53,7 @@ Create a Clay Helper energy form from Summoned Companions. Give its immediate Ma
 **Action:** Ritual · 1 minute
 **SP:** 1
 **Attribute:** None
-**Target / range:** One unattended rope up to 12 squares long within 3 squares
+**Target / range:** One unattended rope up to 12 squares long within 6 squares
 **Duration:** 10 minutes
 
 Teach the rope a sequence of up to three knots or anchors in reachable open space. Spend a Maneuver to advance one step. It supports ordinary rope loads after securing itself and retains its normal strength.
@@ -64,7 +64,7 @@ Teach the rope a sequence of up to three knots or anchors in reachable open spac
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Target / range:** One unattended melee weapon within 3 squares; attack within 6 squares
 **Duration:** 1 minute, with commands
 
@@ -76,8 +76,8 @@ Set the weapon dancing as a single summoned form with 6 HP, Speed 4 and your att
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
-**Target / range:** Up to three unattended objects, combined Bulk at most 3, within 3 squares
+**Attribute:** Class
+**Target / range:** Up to three unattended objects, combined Bulk at most 3, within 6 squares
 **Duration:** 1 minute, with commands
 
 Animate them as one group with shared 10 HP, Speed 4, and your attributes for defenses. They occupy one square together. Give one immediate Main command to attack one adjacent target for 3/5/7 physical damage or perform a simple task. Use normal commands and the six-square tether thereafter.
@@ -136,8 +136,8 @@ Awaken a mind with Knowledge +4, two languages you know and a chosen personality
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
-**Target / range:** Up to six unattended objects, combined Bulk at most 6, within 3 squares
+**Attribute:** Class
+**Target / range:** Up to six unattended objects, combined Bulk at most 6, within 6 squares
 **Duration:** 1 minute, with commands
 
 Animate one group occupying a 2-by-2-square space, with shared 18 HP, Speed 4 and your attributes for defenses. Give one immediate Main command. A Main command can attack up to two adjacent targets for 3/5/7 physical damage each, rolling once, or perform one larger ordinary task. Normal commands and six-square tether apply.

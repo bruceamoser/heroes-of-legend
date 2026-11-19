@@ -28,9 +28,9 @@ Heat, ignition and controlled fire.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** One creature within 8 squares
+**Target / range:** One creature within 12 squares
 **Duration:** Instant
 
 Hurl a bright ember. Deal 2/3/5 fire damage.
@@ -53,7 +53,7 @@ Bring its liquid to a rolling boil. The liquid then cools naturally; handle it w
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
 **Target / range:** Every creature in a 3-square cone from you
 **Duration:** Instant
@@ -66,7 +66,7 @@ Sweep your hands outward in a fan of flame. Deal 2/3/5 fire damage to each creat
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Fortitude
 **Target / range:** One visible metal item worn or held within 6 squares
 **Duration:** Sustained, up to 1 minute
@@ -79,9 +79,9 @@ Heat the item until it glows. Its wearer or holder takes 2/3/5 fire damage when 
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Up to three creatures within 8 squares
+**Target / range:** Up to three creatures within 12 squares
 **Duration:** Instant
 
 Loose three fiery rays. Roll once for a shared total of 4/6/9 fire damage. Divide that total between the chosen targets before resistance, assigning at least 1 to each. Each target takes one damage event.
@@ -92,9 +92,9 @@ Loose three fiery rays. Roll once for a shared total of 4/6/9 fire damage. Divid
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** A line of six connected unoccupied squares within 8 squares
+**Target / range:** A line of six connected unoccupied squares within 12 squares
 **Duration:** 1 minute
 
 Raise a wall of flame 2 squares high. Roll when cast to set its fire damage at 3/5/7. A creature takes that damage the first time each round it enters the wall or ends its turn there. Treat each creature once per round across all squares of this wall. Keep one Wall of Fire active; casting another ends the first.
@@ -105,9 +105,9 @@ Raise a wall of flame 2 squares high. Roll when cast to set its fire damage at 3
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Every creature in a 2-square-radius burst centered within 10 squares
+**Target / range:** Every creature in a 2-square-radius burst centered within 12 squares
 **Duration:** Instant
 
 A bead of fire bursts into a roaring sphere. Deal 3/5/8 fire damage to every creature in the burst, including allies. Exposed unattended flammable material ignites.
@@ -130,9 +130,9 @@ Wreathe yourself in protective heat. Gain cold resistance 2. A creature that dam
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Every creature in up to six connected squares within 10 squares
+**Target / range:** Every creature in up to six connected squares within 12 squares
 **Duration:** Instant
 
 Trace a winding furnace across the battlefield. Deal 4/7/10 fire damage to each creature in the chosen squares. Each creature is affected once; exposed unattended flammable objects ignite.
@@ -143,9 +143,9 @@ Trace a winding furnace across the battlefield. Deal 4/7/10 fire damage to each 
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** One visible point within 10 squares; 2-square-radius burst
+**Target / range:** One visible point within 12 squares; 2-square-radius burst
 **Duration:** Sustained, up to 3 rounds
 
 Place a glowing bead at the point. On casting, or after a later upkeep, you may detonate it. Roll on detonation for 4/6/9 fire damage, adding 1 damage per completed upkeep, maximum +2. Ending sustain or touching the bead detonates it immediately. Every creature in the burst is affected once.
@@ -156,9 +156,9 @@ Place a glowing bead at the point. On casting, or after a later upkeep, you may 
 **Page:** A3
 **Action:** Main Action
 **SP:** 6
-**Attribute:** Knowledge
+**Attribute:** Class
 **Defense:** Agility
-**Target / range:** Up to three visible points within 12 squares; every creature within 1 square of any point
+**Target / range:** Up to three visible points within 18 squares; every creature within 1 square of any point
 **Duration:** Instant
 
 Call a fall of blazing meteors onto the chosen points. Roll once; every creature within 1 square of a point takes 4/7/10 fire damage, including allies. Overlapping bursts affect a creature once. Exposed unattended flammable objects ignite.

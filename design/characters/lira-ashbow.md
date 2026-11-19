@@ -2,7 +2,7 @@
 
 *A woodland archer with a sword ready when danger closes.*
 
-**Wood Elf Blade · HP 15/15 · SP 3/3 · Grit 1 remaining / 1 granted · Speed 6 squares.**
+**Wood Elf Blade · HP 15/15 · SP 5/5 · Grit 1 remaining / 1 granted · Speed 6 squares.**
 
 ## Attributes and ancestry
 

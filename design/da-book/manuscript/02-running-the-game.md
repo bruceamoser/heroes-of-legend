@@ -175,11 +175,25 @@ Drawing a weapon as part of its attack remains part of that action.
 > resolves the spell. If the attack drops the hero to 0 HP, the action is spent
 > and the SP stays in the hero's reserve.
 
+## Judge attack range
+
+Touch and ordinary melee reach 1 square. Short range is 6, long range is 12 and
+extreme range is 18. When an attack uses its weapon’s range, a throw may reach
+12 squares and an ordinary ranged weapon may reach 18. Beyond normal range,
+give the attacker 1 Bane or give the player 1 Boon on their defense roll. Combine
+this with any separate cover. Use a spell’s listed range and a technique’s own
+reach or trigger distance when given.
+
 ## Keep track of ongoing magic
 
 Use the action printed in each spell. A Ritual is a Main Action that takes the
 listed uninterrupted time, usually outside combat. Pay its SP and materials at
 the stated time and resolve the effect when the work is complete.
+
+A hero who rolls to cast uses the casting attribute on their class page. A
+spell with an automatic effect resolves as written. Creature profiles name the
+defense a hero rolls against them. Keep any separate Hold and Escape attributes
+given by the spell.
 
 A sustained spell lasts through the end of the caster's next turn. Starting on that turn, the caster spends a Maneuver and 0 SP by turn end to maintain it through the end of the following turn, within its printed duration. Track one sustained spell per caster. Fixed-duration magic lasts for its printed time; directing an effect spends its printed action.
 

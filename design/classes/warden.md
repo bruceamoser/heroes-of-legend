@@ -12,6 +12,8 @@ You might love a familiar stretch of river in flood or resent a traveler who lea
 
 **Attributes:** Minimum 0 in Fortitude, Knowledge. **HP contribution:** +2 at level 1 and per level thereafter.
 
+**Casting attribute:** Knowledge.
+
 **Starting SP contribution:** Twice your positive Knowledge at creation: 2 × max(0, Knowledge).
 
 **Starting disciplines:** Choose one of Wilderness, Marksmanship, Arms, Athletics. Your culture and background each contribute one other starting discipline. Choose three distinct disciplines across these selections.

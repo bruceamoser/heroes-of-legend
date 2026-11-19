@@ -28,7 +28,7 @@ Influence feelings without dictating every decision.
 **Page:** 1
 **Action:** Main Action
 **SP:** 0
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares that can hear you
 **Duration:** Instant
@@ -42,7 +42,7 @@ Turn a cutting phrase into a psychic sting. Deal 2/3/5 mental damage.
 **Action:** Main Action
 **SP:** 1
 **Attribute:** None
-**Target / range:** One willing creature within 3 squares
+**Target / range:** One willing creature within 6 squares
 **Duration:** 1 minute
 
 Bolster its courage. Reduce Frightened by 2 immediately and grant 1 Boon to rolls made while confronting a visible source of fear.
@@ -53,9 +53,9 @@ Bolster its courage. Reduce Frightened by 2 immediately and grant 1 Boon to roll
 **Page:** 3
 **Action:** Main Action
 **SP:** 1
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
-**Target / range:** One creature within 3 squares that can hear and understand you
+**Target / range:** One creature within 6 squares that can hear and understand you
 **Duration:** Until the social exchange ends, up to 10 minutes
 
 Offer an appealing introduction. Add 1/2/3 progress toward an attainable social objective involving a friendly hearing or small favor. During the exchange, the target senses you as approachable. The DA establishes the concession and its boundaries before casting.
@@ -66,7 +66,7 @@ Offer an appealing introduction. Add 1/2/3 progress toward an attainable social 
 **Page:** 4
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Reason
+**Attribute:** Class
 **Target / range:** Up to three creatures within 6 squares that can hear you
 **Duration:** Instant
 
@@ -78,7 +78,7 @@ Send a steadying hush through the group. Reduce each target's Frightened by 1/2/
 **Page:** 5
 **Action:** Main Action
 **SP:** 2
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares that understands your words
 **Duration:** One social objective, up to 10 minutes
@@ -91,7 +91,7 @@ Frame a specific, feasible course of action that appeals to the target. Add 2/3/
 **Page:** 6
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Every creature in a 3-square cone that can perceive you
 **Duration:** Instant; conditions decay normally
@@ -104,7 +104,7 @@ Appear as an overwhelming source of dread. Apply Frightened 1/2/3, with you as i
 **Page:** 7
 **Action:** Main Action
 **SP:** 3
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares able to understand an offered image or emotion
 **Duration:** One social objective, up to 10 minutes
@@ -117,7 +117,7 @@ Establish rapport through shared sensations even across a language barrier. Add 
 **Page:** 8
 **Action:** Main Action
 **SP:** 4
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Up to three creatures within 6 squares
 **Duration:** Instant; conditions decay normally
@@ -130,7 +130,7 @@ Scatter attention with conflicting impulses. Apply Dazed 1/1/2. Each affected cr
 **Page:** A1
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** Up to six creatures within 6 squares that understand you and share a motive
 **Duration:** One social objective, up to 10 minutes
@@ -143,7 +143,7 @@ Propose one common course of action. Add 3/5/7 progress toward a single attainab
 **Page:** A2
 **Action:** Main Action
 **SP:** 5
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One creature within 6 squares that understands you
 **Duration:** Until the end of its next turn
@@ -156,7 +156,7 @@ State one brief command: move to a named safe place, release a held object, or p
 **Page:** A3
 **Action:** Ritual · 10 minutes
 **SP:** 6
-**Attribute:** Guile
+**Attribute:** Class
 **Defense:** Reason
 **Target / range:** One fixed object or 6-square-radius place within reach
 **Duration:** 24 hours

@@ -6,9 +6,9 @@ Your level contributes twice its value in Spell Points: 2 SP at level 1, 6 at le
 
 ## Maximum SP
 
-**2 × level + ancestry SP + 2 × positive class mental attribute + Spellcraft bonuses + other SP bonuses**
+**2 × level + ancestry SP + 2 × positive class casting attribute + Spellcraft bonuses + other SP bonuses**
 
-A class attribute of 0 or less contributes 0. Use the chosen attribute value rather than a temporary equipment bonus. Ancestry, class and learned bonuses are added once. The level contribution grows by 2 SP each level.
+A class attribute of 0 or less contributes 0. Use your base value for the class’s casting attribute. Ancestry, class and learned bonuses are added once. The level contribution grows by 2 SP each level.
 
 ## Ancestry contribution
 
@@ -27,10 +27,12 @@ A class attribute of 0 or less contributes 0. Use the chosen attribute value rat
 
 ## Class contribution
 
-| Class | Twice the positive value of |
+Add twice the positive value of the attribute you use to cast.
+
+| Class | Casting attribute |
 |---|---|
 | Arcanist | Knowledge |
-| Blade | Reason |
+| Blade | Knowledge |
 | Intellect | Knowledge |
 | Leader | Guile |
 | Odd | Guile |

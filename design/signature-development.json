@@ -37,7 +37,7 @@
       "classId": "class-arcanist",
       "lineId": "arcanist:study-the-pattern",
       "level": 1,
-      "rulesMarkdown": "**Action:** Maneuver · **Attribute:** Reason\n\n**Target / range / shape:** One known ongoing magical effect within 5 squares.\n\n**Magic:** Spell · **SP:** 0\n\nStudy the effect once per scene. Roll Reason and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, its remaining duration, and the category of its source (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.\n\n**Duration:** Facts remain known; the Boon expires when used or at scene end.\n\n**Equipment / acquisition:** A free hand for casting."
+      "rulesMarkdown": "**Action:** Maneuver · **Attribute:** Class\n\n**Target / range / shape:** One known ongoing magical effect within 5 squares.\n\n**Magic:** Spell · **SP:** 0\n\nStudy the effect once per scene. Roll your class’s casting attribute and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, its remaining duration, and the category of its source (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.\n\n**Duration:** Facts remain known; the Boon expires when used or at scene end.\n\n**Equipment / acquisition:** A free hand for casting."
     },
     {
       "id": "signature-arcanist-reading-the-weave",
@@ -45,7 +45,7 @@
       "classId": "class-arcanist",
       "lineId": "arcanist:study-the-pattern",
       "level": 3,
-      "rulesMarkdown": "**Action:** Maneuver · **Attribute:** Reason\n\n**Target / range / shape:** One known ongoing magical effect within 5 squares.\n\nStudy the effect once per scene. Roll Reason and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, remaining duration, and source category (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.\n\nYour next cancellation roll against that effect this scene also gains 1 Boon. The examination reveals whether a specific remedy exists and the kind of evidence needed to discover it. Use the learned facts with your cancellation abilities or to seek the remedy.\n\n**Duration:** Facts remain known; each Boon expires when used or at scene end.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a spell costing 0 SP."
+      "rulesMarkdown": "**Action:** Maneuver · **Attribute:** Class\n\n**Target / range / shape:** One known ongoing magical effect within 5 squares.\n\nStudy the effect once per scene. Roll your class’s casting attribute and learn 1/2/3 facts on Weak/Standard/Strong, chosen from its purpose, remaining duration, and source category (creature, object, place or independent spell). Gain 1 Boon to your next roll applying a learned fact this scene. The DA describes what the effect reveals, not unknown true names or hidden personal history.\n\nYour next cancellation roll against that effect this scene also gains 1 Boon. The examination reveals whether a specific remedy exists and the kind of evidence needed to discover it. Use the learned facts with your cancellation abilities or to seek the remedy.\n\n**Duration:** Facts remain known; each Boon expires when used or at scene end.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a spell costing 0 SP."
     },
     {
       "id": "signature-arcanist-open-the-circle",
@@ -301,7 +301,7 @@
       "classId": "class-odd",
       "lineId": "odd:the-bargain",
       "level": 1,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** One visible creature within 8 squares.\n\n**Magic:** Spell · **SP:** 0\n\nChoose a patron or supernatural compact with the DA when learning this signature; your choices remain your own. Cast Pact Bolt for 2/3/5 force damage on Weak/Standard/Strong. Once per scene, before this roll, you may accept 1 Bane to defenses until the start of your next turn to gain 1 Boon on the bolt’s roll.\n\n**Duration:** Attack immediate; accepted defense penalty until your next turn.\n\n**Equipment / acquisition:** A free hand."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** One visible creature within 8 squares.\n\n**Magic:** Spell · **SP:** 0\n\nChoose a patron or supernatural compact with the DA when learning this signature; your choices remain your own. Cast Pact Bolt for 2/3/5 force damage on Weak/Standard/Strong. Once per scene, before this roll, you may accept 1 Bane to defenses until the start of your next turn to gain 1 Boon on the bolt’s roll.\n\n**Duration:** Attack immediate; accepted defense penalty until your next turn.\n\n**Equipment / acquisition:** A free hand."
     },
     {
       "id": "signature-odd-pacts-claim",
@@ -309,7 +309,7 @@
       "classId": "class-odd",
       "lineId": "odd:the-bargain",
       "level": 3,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** One visible creature within 8 squares.\n\nCast a binding bolt for 2/3/5 force damage on Weak/Standard/Strong. Before rolling, you may choose to bind as well as wound: on Standard, reduce the damage by 1 and apply Slowed 1; on Strong, reduce the damage by 1 and apply Slowed 2. Weak deals its ordinary damage. Apply resistance and attack minimum normally; Slowed decays normally.\n\n**Duration:** Attack immediate; Slowed uses ordinary decay.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell costing 0 SP. If you also know The Bargain, you may use its once-per-scene defense-Bane bargain on this bolt; that remains the same limited use."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** One visible creature within 8 squares.\n\nCast a binding bolt for 2/3/5 force damage on Weak/Standard/Strong. Before rolling, you may choose to bind as well as wound: on Standard, reduce the damage by 1 and apply Slowed 1; on Strong, reduce the damage by 1 and apply Slowed 2. Weak deals its ordinary damage. Apply resistance and attack minimum normally; Slowed decays normally.\n\n**Duration:** Attack immediate; Slowed uses ordinary decay.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell costing 0 SP. If you also know The Bargain, you may use its once-per-scene defense-Bane bargain on this bolt; that remains the same limited use."
     },
     {
       "id": "signature-odd-the-price-deferred",
@@ -397,7 +397,7 @@
       "classId": "class-protector",
       "lineId": "protector:healing-hands",
       "level": 1,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** Self or one living creature you touch.\n\n**Magic:** Spell · **SP:** 1\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. On Strong, also reduce one ordinary Bleeding, Burning or Freezing condition by 1.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand touching the recipient."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** Self or one living creature you touch.\n\n**Magic:** Spell · **SP:** 1\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. On Strong, also reduce one ordinary Bleeding, Burning or Freezing condition by 1.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand touching the recipient."
     },
     {
       "id": "signature-protector-restoring-hands",
@@ -405,7 +405,7 @@
       "classId": "class-protector",
       "lineId": "protector:healing-hands",
       "level": 3,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** Self or one living creature you touch.\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. Also reduce one ordinary Bleeding, Burning or Freezing condition by 1 on Weak or Standard, or by 2 on Strong. Choose the condition when healing. A starred condition still needs its own stated remedy.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand touching the recipient.\n\nThis is a spell costing 1 SP."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** Self or one living creature you touch.\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. Also reduce one ordinary Bleeding, Burning or Freezing condition by 1 on Weak or Standard, or by 2 on Strong. Choose the condition when healing. A starred condition still needs its own stated remedy.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand touching the recipient.\n\nThis is a spell costing 1 SP."
     },
     {
       "id": "signature-protector-sheltering-hands",
@@ -413,7 +413,7 @@
       "classId": "class-protector",
       "lineId": "protector:healing-hands",
       "level": 7,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** Self or one living creature you touch.\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. On Strong, also reduce one ordinary Bleeding, Burning or Freezing condition by 1. A starred condition still needs its own stated remedy.\n\nAfter this healing, the recipient gains 2 Boons to its next defense before the start of your next turn. Once between safe overnight rests, as part of this healing action you may also stabilize a second adjacent Dying ally: it remains at 0 HP, clears its death marks and stops Dying.\n\n**Duration:** Healing and stabilization immediate; defense Boons until used or your next turn.\n\n**Equipment / acquisition:** A free hand touching the healing recipient.\n\nThis is a spell costing 1 SP.\n\nIf you also know Restoring Hands, apply its condition reduction of 1/1/2 on Weak/Standard/Strong instead of this signature’s Strong-only reduction. This remains one healing action, not two castings."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** Self or one living creature you touch.\n\nRestore 3/5/7 HP on Weak/Standard/Strong. Apply the recipient’s Life resistance, minimum 1 healing when HP is missing, and its maximum HP. Healing above 0 ends Dying and clears death marks normally. On Strong, also reduce one ordinary Bleeding, Burning or Freezing condition by 1. A starred condition still needs its own stated remedy.\n\nAfter this healing, the recipient gains 2 Boons to its next defense before the start of your next turn. Once between safe overnight rests, as part of this healing action you may also stabilize a second adjacent Dying ally: it remains at 0 HP, clears its death marks and stops Dying.\n\n**Duration:** Healing and stabilization immediate; defense Boons until used or your next turn.\n\n**Equipment / acquisition:** A free hand touching the healing recipient.\n\nThis is a spell costing 1 SP.\n\nIf you also know Restoring Hands, apply its condition reduction of 1/1/2 on Weak/Standard/Strong instead of this signature’s Strong-only reduction. This remains one healing action, not two castings."
     },
     {
       "id": "signature-protector-oathstrike",
@@ -437,7 +437,7 @@
       "classId": "class-protector",
       "lineId": "protector:oathstrike",
       "level": 7,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** A straight line starting from a point you can see within 5 squares.\n\nMake a Reason roll. Weak: 3 squares long; 1 radiant damage. Standard: 5 squares long; 2 radiant damage. Strong: 7 squares long; 3 radiant damage. The line is 1 square wide and lasts until the start of your next turn. You and allies you choose when you create it are unaffected. A creature takes the damage when the line appears in its square, when it enters a square of the line, or when it starts its turn there. A creature can take this damage only once per round. The line does not block movement.\n\n**Duration:** Until the start of your next turn.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a spell costing 2 SP, usable once per scene. You may have one threshold at a time; creating another ends it. Each creature takes its zone damage at most once per round. Damage dealt by occupying/crossing the persistent zone is non-attack damage and can be reduced to 0."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** A straight line starting from a point you can see within 5 squares.\n\nRoll your class’s casting attribute. Weak: 3 squares long; 1 radiant damage. Standard: 5 squares long; 2 radiant damage. Strong: 7 squares long; 3 radiant damage. The line is 1 square wide and lasts until the start of your next turn. You and allies you choose when you create it are unaffected. A creature takes the damage when the line appears in its square, when it enters a square of the line, or when it starts its turn there. A creature can take this damage only once per round. The line does not block movement.\n\n**Duration:** Until the start of your next turn.\n\n**Equipment / acquisition:** A free hand for casting.\n\nThis is a spell costing 2 SP, usable once per scene. You may have one threshold at a time; creating another ends it. Each creature takes its zone damage at most once per round. Damage dealt by occupying/crossing the persistent zone is non-attack damage and can be reduced to 0."
     },
     {
       "id": "signature-shadow-soft-landing",
@@ -517,7 +517,7 @@
       "classId": "class-shepherd",
       "lineId": "shepherd:mend",
       "level": 1,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** One living ally within 3 squares.\n\npay 1 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell; use its printed 1 SP cost and ordinary casting rules."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** One living ally within 3 squares.\n\npay 1 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Roll your class’s casting attribute. Weak: restore 3 HP. Standard: restore 6 HP. Strong: restore 9 HP, and the target may stand without spending movement. Reduce the restored amount by the target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell; use its printed 1 SP cost and ordinary casting rules."
     },
     {
       "id": "signature-shepherd-careful-transfer",
@@ -525,7 +525,7 @@
       "classId": "class-shepherd",
       "lineId": "shepherd:mend",
       "level": 3,
-      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Reason\n\n**Target / range / shape:** One or two living allies within 3 squares.\n\nPay 2 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Make a Reason roll. Choose one or two allies. One ally: restore 6 HP on Weak, 11 HP on Standard, 16 HP on Strong. Two allies: restore 4 HP each on Weak, 7 HP each on Standard, 10 HP each on Strong. Reduce the restored amount by each target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell."
+      "rulesMarkdown": "**Action:** Main Action · **Attribute:** Class\n\n**Target / range / shape:** One or two living allies within 3 squares.\n\nPay 2 SP before rolling. You must have enough SP to pay this cost. Requires a free hand. Roll your class’s casting attribute. Choose one or two allies. One ally: restore 6 HP on Weak, 11 HP on Standard, 16 HP on Strong. Two allies: restore 4 HP each on Weak, 7 HP each on Standard, 10 HP each on Strong. Reduce the restored amount by each target's Life resistance, to a minimum of 1 if HP is missing, and never exceed maximum HP. A Dying or stabilized living creature can receive this healing. This does not erase scars or restore the dead.\n\n**Duration:** Immediate.\n\n**Equipment / acquisition:** A free hand.\n\nThis is a spell."
     },
     {
       "id": "signature-shepherd-a-hand-in-darkness",
