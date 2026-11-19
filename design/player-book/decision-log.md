@@ -25,3 +25,7 @@ Creation now uses one level-1 process, three distinct starting disciplines and 8
 ## November 18 starting DP and ability review
 
 Start at 10 + Guile + Knowledge + Reason DP plus explicit trait benefits. Later awards are 4 + the new level. Core effects such as Driving Opening’s push and Sleep’s sleep condition work on Standard and Strong. Extra riders can stay Strong-only. See the [ability review](../revision/2026-11-18-ability-review.md).
+
+## November 19 advancement DP
+
+After level 1, gain 6 + the new level in DP, plus explicit trait benefits. Level 2 grants 8 DP and level 3 grants 9. Heroes who already advanced gain 2 DP for each level they earned after level 1. See [#368](https://github.com/bruceamoser/heroes-of-legend-foundry/issues/368).
