@@ -43,7 +43,7 @@ what each hero hopes to accomplish and why these people would travel together.
 A shared debt, a rescue, a commission or a promise can bring very different heroes
 onto the same road.
 
-Discuss scars and death. HP returns through healing or safe overnight rest; spent
+Discuss scars and death. HP returns through healing or rest. Spent
 Grit never refreshes. Players choose descriptive scars without mechanical penalties.
 Agree on the level of injury detail and a way to pause or redirect uncomfortable
 content.

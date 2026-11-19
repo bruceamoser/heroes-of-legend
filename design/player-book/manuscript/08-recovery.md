@@ -101,14 +101,22 @@ history. See [Scars and Survival](../../rules/wounds.md) for prompts.
 
 ## Brief Rest
 
-During a Brief Rest, use First Aid or a learned recovery ability when you have the time, safety, and supplies it calls for. Apply the recovery described by each activity. Spellcraft Recovery gives its printed SP after the listed period of quiet.
+After **one uninterrupted hour in a place the DA judges safe**, restore **6 HP**
+and **3 SP**, up to your maximums. You can gain this recovery once per day.
+A Dying hero must be stabilized before recovering from rest.
+
+You can add **First Aid** and learned **Spellcraft Recovery** to this recovery.
+Use the supplies, time and allowance each activity calls for. Another hero can
+tend your wounds while you rest. If your activities need more time than the rest
+provides, take the extra time to finish them.
 
 ## Night’s Rest
 
 A Night’s Rest is the safe overnight rest referred to by abilities and spells.
 
 After **eight hours in a place the DA judges safe**, with food, water and adequate
-shelter, restore full HP and SP and renew your first-aid allowance. Include at least
+shelter, restore full HP and SP and renew your first-aid allowance and learned
+recovery uses that refresh overnight. Include at least
 six hours of sleep or equivalent rest; the other two can include quiet activity
 or a watch. Oath-Bound use the same rest period, with stillness in place of sleep.
 You can gain these benefits only once in 24 hours.

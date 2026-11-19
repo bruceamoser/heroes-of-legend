@@ -67,7 +67,7 @@ Passive. Increase maximum SP by another 4; this path now grants +20 maximum SP. 
 
 ### Recovery I
 DP: 1 | Level: 1
-1 uninterrupted hour of safe rest, meditation or quiet leisure. Once between safe overnight rests, recover 1 SP. This can occur during permitted quiet rest time; ordinary overnight recovery remains unchanged.
+1 uninterrupted hour of safe rest, meditation or quiet leisure. Once between safe overnight rests, recover 1 SP. You can spend this hour during a Brief Rest and add this SP to what the rest restores.
 
 ### Recovery II
 DP: 2 | Level: 1

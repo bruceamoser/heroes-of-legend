@@ -70,11 +70,11 @@ history nobody has time to read.
 
 ## Recovery record
 
-| Hero | Current / max HP | Current / max SP | Grit left / granted | Death failures / successes | First aid used? |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Hero | Current / max HP | Current / max SP | Grit left / granted | Death failures / successes | First Aid used? | Brief Rest today? |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
 
 Record first aid once per recipient between safe overnight rests, across all
 helpers. Record scars separately as descriptions of incidents, without penalties.
@@ -91,7 +91,7 @@ Grit is gained once at levels 1/3/7 and never refreshes.
 | Provoking action starts | Resolve the Opportunity Attack first. Heroes use Basic Melee with a held melee weapon or Basic Unarmed with a free hand. DA creatures use bestiary Basic Melee. Continue if capable. |
 | Resolve attack | Read the full outcome. Remove immune damage, then apply weakness and resistance. Minimum 1 if any damaging component survives immunity. |
 | End of turn | Resolve temporary condition effects, then decrease their ratings by 1. Use printed expiries for other effects. |
-| Danger ends | Resolve Dying and immediate hazards; record HP/SP spent. First Aid needs time and supplies; overnight rest restores HP/SP, never Grit. |
+| Danger ends | Resolve Dying and immediate hazards; record HP/SP spent. First Aid needs time and supplies. A safe hour of Brief Rest restores 6 HP and 3 SP once per day. Night’s Rest fills both reserves. Grit remains spent. |
 
 ## Condition reference
 

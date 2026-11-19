@@ -162,6 +162,6 @@ item's properties as described on its page.
 The DA determines whether a place is safe enough to spend saved DP. Level awards
 are milestones, not payment for each defeated creature. Record your learned abilities, recipes, remaining DP and scars.
 
-First Aid uses supplies and time; safe overnight rest restores HP and SP.
+First Aid uses supplies and time. A Brief Rest restores 6 HP and 3 SP once per day. A Night’s Rest restores full HP and SP.
 An inn, a friendly workshop, a healer's garden or a camp among allies can become part
 of the story. Gather supplies before you leave, and note what the company still needs to replace.
