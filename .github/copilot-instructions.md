@@ -1,4 +1,4 @@
-# Heroes of Legend — project instructions
+# Deeds of Legend — project instructions
 
 ## Authority and source
 
