@@ -175,9 +175,9 @@ Drawing a weapon as part of its attack remains part of that action.
 
 ## Keep track of ongoing magic
 
-Use each spell's printed action or Ritual time. A Ritual takes the stated
-uninterrupted work, with its SP and materials paid at the listed time. Resolve
-the effect when the work is complete.
+Use the action printed in each spell. A Ritual is a Main Action that takes the
+listed uninterrupted time, usually outside combat. Pay its SP and materials at
+the stated time and resolve the effect when the work is complete.
 
 A sustained spell lasts through the end of the caster's next turn. Starting on that turn, the caster spends a Maneuver and 0 SP by turn end to maintain it through the end of the following turn, within its printed duration. Track one sustained spell per caster. Fixed-duration magic lasts for its printed time; directing an effect spends its printed action.
 

@@ -34,7 +34,7 @@ Players make the rolls. When an NPC casts against heroes, each affected player r
 
 A **Reaction** spell names its trigger and when to respond. Spend your available Reaction when that event occurs. A defense bonus applies before the roll; a reduction or redirection applies at the timing stated in its block. The ordinary action conversions still apply to casting, including using a Main Action for a Maneuver spell.
 
-A **Ritual** gives its required casting time alongside the label. Pay SP and supply any listed materials at the beginning, following a printed daily schedule or payment timing when given. Work continuously for the stated time or scheduled work period, keeping the required subjects and materials present. Finish the Ritual before receiving its effect. An interrupted Ritual must be started again with fresh costs. Ritual work is active activity rather than restorative rest. Materials described as consumed are used up by the attempt at the printed time, or at the beginning when no time is given.
+A **Ritual** is a Main Action that takes its full printed casting time, usually outside combat. Pay SP and supply any listed materials at the beginning, following a printed daily schedule or payment timing when given. Work continuously for the stated time or scheduled work period, keeping the required subjects and materials present. Finish the Ritual before receiving its effect. An interrupted Ritual must be started again with fresh costs. Ritual work is active activity rather than restorative rest. Materials described as consumed are used up by the attempt at the printed time, or at the beginning when no time is given.
 
 ## Duration and sustained magic
 

@@ -57,8 +57,8 @@ where it is. The use you just completed still works.
 
 **d20 → d12 → d10 → d8 → d6 → d4 → out**
 
-Check at the interval printed on the supply: ammunition when used, food by its
-person-day rule, lighting by its hour, and so on. A d4 healing bottle has a one-in-four
+Check at the interval printed on the supply. Check ammunition after use, water
+each time you drink, food for each person-day consumed, and lighting each hour. A d4 healing bottle has a one-in-four
 chance of becoming empty after each use. It is not a promise of four doses.
 
 > **Example — the last swallow.** You drink a lesser healing bottle and restore its
@@ -66,9 +66,11 @@ chance of becoming empty after each use. It is not a promise of four doses.
 > A 1 empties the bottle; you still received that healing. At full HP the bottle
 > cannot heal beyond your maximum.
 
-Recipes raise an existing supply by their permitted number of steps, up to the
-recipe's cap. A store refill uses the listed policy. Do not turn unknown leftovers
-into additional full bottles by splitting them among containers.
+Recipes and abilities such as Wild Harvest raise a supply by the listed number
+of steps. Start at d4 when replenishing an empty supply and stop at the printed
+cap. Refills from a suitable source bring the supply up to its starting die.
+Unmeasured leftovers stay part of the same supply when transferred to another
+container.
 
 ## Special equipment and understanding
 
