@@ -8,7 +8,9 @@
 
 **Market price:** 3 coins. **Bulk:** 1.
 
-Includes a filled reusable container and one person-day of drinking water. Mark the water spent after one person-day of drinking. Refill the flask freely from an accessible safe source. Use the day count in place of a supply die. The empty flask still has Bulk 1.
+**Supply die:** d8.
+
+A full flask starts at d8. Check its supply die each time you drink. On a 1, step the die down. The drink that empties the flask still works. Refill it to d8 from an accessible safe water source. An empty flask still has Bulk 1.
 
 Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.
 

@@ -50,7 +50,7 @@ Containers add their own Bulk and never reduce their contents’ Bulk.
 |---|---:|---|
 | [Travel Pack](equipment/travel-pack.md) | 3 | Reusable |
 | [Sleeping Roll](equipment/sleeping-roll.md) | 4 | Reusable |
-| [Water Flask](equipment/water-flask.md) | 3 | container + one person-day water |
+| [Water Flask](equipment/water-flask.md) | 3 | d8 drinking water in a reusable flask |
 | [Travel Clothes](equipment/travel-clothes.md) | 4 | one plain worn outfit free at creation |
 | [Weather Clothes](equipment/weather-clothes.md) | 10 | Reusable |
 | [Small Tent](equipment/small-tent.md) | 12 | Reusable |
@@ -103,7 +103,7 @@ for its full listed supply price. Or buy a separate full supply at that price,
 which costs another Bulk. No discounted partial refill, die combining, decanting
 into fresh full-die bottles or cash credit for unknown leftovers. Crafting can
 increase a supply by the steps stated in its recipe.
-Fresh safe water can refill its flask freely; a town refill costs 1 coin if charged.
+Refill a flask to d8 from a safe water source for free. A town may charge 1 coin for a refill.
 
 ## Services and transport
 

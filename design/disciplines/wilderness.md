@@ -97,15 +97,15 @@ Reaction. When one visible natural hazard threatens a group within 6 squares, wa
 
 ### Wild Harvest I
 DP: 1 | Level: 1
-1 hour · Knowledge. Search an accessible area with plausible resources; gather 1/2/3 person-days of food, or that much drinkable water if a source exists. The DA defines the area before rolling. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
+1 hour · Knowledge. Search an accessible area for food or drinkable water. The DA defines the area and confirms a plausible source before you roll. Raise one Food Bundle or Water Flask of the chosen type by 1/2/3 supply die steps, maximum d8. An empty supply starts at d4 on the first step. You can also spend 1 hour with available materials to shelter two people from ordinary rain and wind, without a roll.
 
 ### Wild Harvest II
 DP: 2 | Level: 1
-Wild Harvest yields 2/3/4 person-days. Its ordinary shelter accommodates four people.
+Wild Harvest raises the supply by 2/3/4 steps, maximum d8. Its ordinary shelter accommodates four people.
 
 ### Wild Harvest III
 DP: 2 | Level: 1
-Wild Harvest gathers both food and water in the same hour when both exist, each at the rolled yield. Its ordinary shelter takes 30 minutes.
+When you find both sources, Wild Harvest can raise one Food Bundle and one Water Flask in the same hour. Apply the rolled steps to each. Its ordinary shelter takes 30 minutes.
 
 ### A Camp without a Trace I
 DP: 3 | Level: 3

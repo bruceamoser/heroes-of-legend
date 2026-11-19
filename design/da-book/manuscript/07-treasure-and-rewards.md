@@ -86,6 +86,11 @@ After using an inventory supply, roll its die. On 1, step down:
 **d20 → d12 → d10 → d8 → d6 → d4 → out**. The use that empties it still works.
 The die tracks remaining supply without counting every arrow or mouthful.
 
+A full Water Flask starts at d8. Check it each time the hero drinks. A safe
+source refills it to d8. When a hero uses Wild Harvest, establish where they
+search and which supplies they can replenish before the roll. Apply its
+printed steps up to d8 for each affected bundle or flask.
+
 A d4 healing bottle has a 25% chance to empty after each use. That does not mean
 it contains exactly four doses. A supply that has survived several checks remains
 at its current die until a check changes it.
